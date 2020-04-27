@@ -1,0 +1,1253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><script>var added_by_webtools_is_responsive = true;</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Alumni Survey</title>
+<style type="text/css">
+
+</style>
+<script type="text/javascript">
+            
+			var appUiColor = '#656464';
+            var navigationLinks = new Array();
+            </script><style type="text/css">
+            
+            #menu-items li a,
+            .toggle-view button.selected,
+            .toggle-view button.selected:hover,
+            #timeframe-chooser:hover,
+            #ws-calendar-container.summary-view h2,
+            #ws-calendar-container.list-view h2,
+            #ws-calendar-container.grid-view h2,
+            #btn-search.selected,
+            #btn-search.selected:hover,
+            #btn-show-recurring.toggle-on,
+            #btn-show-recurring.toggle-on:hover,
+            #btn-show-recurring.toggle-off, 
+            input.small-btn,
+            #ws-calendar-container.detail-view .back-btn,
+            #ws-calendar-container.grid-view .event-meta .date,
+            #ws-sidebar .more-button,
+            #ws-sidebar .sidebar-panel,
+            #ws-sidebar .modal-menu h4,
+            .standard-btn,
+            .standard-btn.light
+            {
+            /* use RGB value */
+            background-color: rgb(101, 100, 100);
+            }
+            
+            #ws-calendar-container.list-view .location:after,
+            #ws-calendar-container.summary-view .location:after {
+            /* use RGB value */
+            color: rgb(101, 100, 100);
+            }
+            
+            #time-options li a {
+                /* calculate 50% tint? */
+                background-color: rgb(178, 178, 178);
+            }
+            
+            #time-options li a:hover,
+            #ws-sidebar .sidebar-panel {
+                /* calculate 70% tint? */
+                background-color: rgb(209, 209, 209);
+            }
+            
+                        
+            #uofi #ws-pa #edu-il .blog-archive a:active .circle, #uofi #ws-pa #edu-il .blog-archive a:focus:hover .circle {
+                background-color: #879596;
+            }    
+            #uofi #ws-pa #edu-il #blog-wrapper
+            {
+                background-color: transparent
+            }
+            #ws-calendar-container #ws-calendar-content .entry.recurring-event .title a:before {
+            background-color: #879596 !important;
+            }
+            #uofi #ws-pa #edu-il a
+            {
+                color: #879596;
+                
+                text-decoration: none;
+                border:0;
+                margin:0;
+                padding:0;
+            }
+            #uofi #ws-pa #edu-il a:hover
+            {
+            color: #879596;
+                
+                text-decoration: underline;
+                border:0;
+                margin:0;
+                padding:0;
+            }
+            #uofi #ws-pa #edu-il p,            
+            #uofi #ws-pa #edu-il span,
+            #uofi #ws-pa #edu-il dd,
+            #uofi #ws-pa #edu-il td,
+            #uofi #ws-pa #edu-il li 
+            {
+                color: #666666;
+                font-size: 14px;
+                font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+            }
+            
+            
+            #uofi #ws-pa #edu-il #blog-article-view .blog-post
+            {
+                padding: 0px;                    
+
+            }
+            #uofi #ws-pa #edu-il .blog-post-entry{
+                padding: 0px;
+                margin: 20px;
+            }
+
+			#uofi #ws-pa #edu-il #blog-home-view .blog-post-entry,
+			#uofi #ws-pa #edu-il #blog-results-view .blog-post-entry
+			{
+				background-color: ######;
+        	border:none;
+        	}
+            
+            #uofi #ws-pa #edu-il #blog-home-view .blog-post-entry-1col,
+            #uofi #ws-pa #edu-il #blog-results-view .blog-post-entry-1col 
+            {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 0;
+                margin-right: 0;
+                                    
+                        padding: 0px;
+                    
+            }
+            #uofi #ws-pa #edu-il #blog-home-view .blog-post-entry-2col, #blog-home-view .blog-post-entry-3col
+            {        
+                
+                        margin: 20px;                    
+                    
+                padding: 0px;
+            }
+            #uofi #ws-pa #edu-il .blog-post-category a, 
+            #uofi #ws-pa #edu-il .blog-post-category a:hover,
+            #uofi #ws-pa #edu-il .blog-post-tag a,
+            #uofi #ws-pa #edu-il .blog-post-tag a:hover
+            {
+                text-decoration:none;
+            }
+            
+
+                
+             
+            #uofi #ws-pa #edu-il .blog-profile .gadget-header 
+            {
+                display: ;
+            }
+            #uofi #ws-pa #edu-il .gadget 
+            {
+                margin:0 0 50px 0; 
+            }
+            #uofi #ws-pa #edu-il .blog-gadget
+            {
+                padding: 0px;
+                background-color: transparent;
+            }
+            #uofi #ws-pa #edu-il h3.gadget-header
+            {
+                
+                color: #666666;
+                font-size: 14px;
+                font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+                font-weight: 700;
+                background-color: transparent;
+                
+                text-transform: capitalize;
+            }
+            
+            
+            
+            #uofi #ws-pa #edu-il #blog-navigation .blog-pagination-button 
+            {
+                text-transform: capitalize;
+            }
+
+            
+                
+            #uofi #ws-pa #edu-il .column-layout-2 #blog-home-view,
+            #uofi #ws-pa #edu-il .column-layout-3 #blog-home-view
+            {
+                padding: 0 10px;
+            }
+ 
+                    
+
+            #uofi #ws-pa #edu-il .gadget-header{
+                margin: -0px -0px 0px;
+            }
+
+            
+            
+            #uofi #ws-pa #edu-il .blog-categories a, 
+            #uofi #ws-pa #edu-il .blog-post-category a{
+                border-width: 1px;
+                border-style: solid;
+                border-color:#656464;
+                color: #656464;
+                background-color: #FFFFFF;
+                
+                        text-transform:uppercase;
+                    
+            }
+            #uofi #ws-pa #edu-il .blog-tags a{
+                border-width: 1px;
+                border-style: solid;
+                background-color: #656464;
+                color: #FFFFFF;
+                border-color: #FFFFFF;
+                
+                        text-transform:uppercase;
+                    
+            }
+            #uofi #ws-pa #edu-il .blog-categories a:hover, 
+            #uofi #ws-pa #edu-il .blog-post-category a:hover, 
+            #uofi #ws-pa #edu-il .blog-categories a:focus:hover, 
+            #uofi #ws-pa #edu-il .blog-categories a:active:hover,
+            #uofi #ws-pa #edu-il #ws-content .blog-post-category a:active:hover, 
+            #uofi #ws-pa #edu-il #ws-content .blog-post-category a:focus:hover
+            {
+                border-color: #879596 !important;
+                background-color: #879596 !important;
+                outline:none !important;
+                color:#ffffff !important;
+            }
+            #uofi #ws-pa #edu-il .blog-tags a:hover, #uofi #ws-pa #edu-il .blog-tags a:focus:hover,
+            #uofi #ws-pa #edu-il .blog-tags a:active:hover
+            {
+                color:#FFFFFF !important;
+                background-color: #879596 !important;
+                border-color: #879596 !important;
+                outline:none !important;
+                color:#ffffff !important;
+                }
+            .circle, .year span.circle {
+                background-color: #879596;
+            }
+    
+            
+            #uofi #ws-pa #edu-il #blog-article-view .blog-post-title{
+                color: #333333;
+                font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+                font-size: 24px;
+                font-weight: 400;
+            }
+        
+            
+            #uofi #ws-pa #edu-il .blog-features{
+                background-color: #848383;
+            }
+            #uofi #ws-pa #edu-il .blog-closing-section a
+            {
+                color: #FFFFFF;          
+                 
+                text-decoration: none; 
+            }
+            #uofi #ws-pa #edu-il .blog-closing-section a:hover, #uofi #ws-pa #edu-il .blog-closing-section a:focus:hover,
+            #uofi #ws-pa #edu-il .blog-closing-section a:active:hover
+            
+            {
+                color: #E0E0E0 !important; 
+                
+                text-decoration: none !important; 
+                background-color: transparent !important;
+                outline:none !important;
+            }
+            
+            
+            #uofi #ws-pa #edu-il #blog-level-menu li.nav-menu:focus, 
+            #uofi #ws-pa #edu-il #blog-level-menu li.nav-menu.active, 
+            #uofi #ws-pa #edu-il #blog-level-menu li.nav-menu.active:hover, 
+            #uofi #ws-pa #edu-il #blog-level-menu li.nav-menu.active:focus, 
+            #uofi #ws-pa #edu-il #blog-level-menu li.nav-menu.active:focus:hover,
+            #uofi #ws-pa #edu-il #blog-level-menu li ul,
+            #uofi #ws-pa #edu-il .mobile-nav ul {
+                background-color: #656464;
+            }
+            #uofi #ws-pa #edu-il #blog-level-menu li.nav-menu.active > .arrow-up,
+            #uofi #ws-pa #edu-il .mobile-nav .arrow-up {
+                border-bottom: 10px solid #656464;
+            }
+            #uofi #ws-pa #edu-il #search-bar.close-search input[type="text"], 
+            #uofi #ws-pa #edu-il #search-bar.close-search input[type="text"]:focus, 
+            #uofi #ws-pa #edu-il #search-bar.open-search input[type="text"], 
+            #uofi #ws-pa #edu-il #search-bar.open-search input[type="text"]:focus {
+                border: 1px solid #656464;
+            }
+            #uofi #ws-pa #edu-il #search-bar.open-search button:before {
+                color: #656464;
+            }
+            
+            #jrw{
+            
+            }
+            
+            #uofi #ws-pa #edu-il .blog-post-footer, 
+            #uofi #ws-pa #edu-il .paging-menu-top a, 
+            #uofi #ws-pa #edu-il .search-results-menu
+            {
+                background-color: #656464;
+            }
+            #uofi #ws-pa #edu-il .paging-menu-bottom, #uofi #ws-pa #edu-il .paging-menu-top
+            {
+                border-color: #656464;
+            }
+            #uofi #ws-pa #edu-il .blog-post-comment-text i,
+            #uofi #ws-pa #edu-il .paging-menu-top a:hover, 
+            #uofi #ws-pa #edu-il .paging-menu-top a:focus:hover, 
+            #uofi #ws-pa #edu-il .paging-menu-top a:active:hover
+            
+            {
+                color: #656464 !important;
+            }      
+            
+
+        	#uofi #ws-pa #edu-il .blog-post-meta, 
+            #uofi #ws-pa #edu-il .blog-post-footer, 
+            #uofi #ws-pa #edu-il .blog-closing-section, 
+            #uofi #ws-pa #edu-il .blog-post-comments-section .reply-post
+            {
+                
+                text-transform: uppercase;
+            }        
+
+            
+            #uofi #ws-pa #edu-il .paging-menu-top {
+                margin-top:  -0px;
+                margin-left: -0px;
+                padding-left: 0px;
+            }
+             
+                
+            
+            #uofi #ws-pa #edu-il #blog-title a,
+            #uofi #ws-pa #edu-il #blog-title a:hover
+            {
+                color: #444444;
+                text-decoration:none;
+            }
+            #uofi #ws-pa #edu-il div.title
+            {
+                font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+                font-weight: 400;
+                color: #444444;
+                font-size:18px;
+            }
+            #uofi #ws-pa #edu-il .blog-description {
+            color: #444444;
+            }
+            #uofi #ws-pa #edu-il #blog-wrapper
+            {
+                padding-left: 0px;
+                padding-right: 0px;
+                padding-top: 0px;
+                padding-bottom: 0px;            
+            }
+            #ws-pa #edu-il #blog-header
+            {
+                background-color: transparent;
+                padding: 10px 0;
+                
+            }
+            
+            #uofi #ws-pa #edu-il #blog-level-menu a, #uofi #ws-pa #edu-il #search-bar button, #uofi #ws-pa #edu-il #blog-level-menu li
+            {
+                color: #666666;
+                
+                text-transform: uppercase;
+            }
+            #uofi #ws-pa #edu-il #blog-level-menu a:hover, 
+            #uofi #ws-pa #edu-il #blog-level-menu a:focus:hover, 
+            #uofi #ws-pa #edu-il #blog-level-menu a:active:hover,
+            #uofi #ws-pa #edu-il #search-bar button:hover, 
+            #uofi #ws-pa #edu-il #search-bar button:focus:hover, 
+            #uofi #ws-pa #edu-il #search-bar button:active:hover
+            {
+                color: #E0E0E0 !important;  
+                
+                text-decoration:none !important;
+                background: transparent !important;
+                outline:none !important;
+            }        
+            #uofi #ws-pa #edu-il .blog-post-comments-section
+            {
+                padding: 0px;
+            }    
+                
+                    .blog-post-comment-wrapper
+                    {
+                        padding:10px 0 0;
+                        border-color: #666666;
+                        border-width: 1px 0 0;
+                        border-style: solid;
+                    }
+                
+
+            
+            
+            
+            body.design-1-scroll #uofi #ws-pa #edu-il .blog-post-entry:hover .scroll-container + .share-bar, 
+            body.design-1-scroll #uofi #ws-pa #edu-il .share-bar:hover 
+            {
+                bottom: 0px;
+                left: 0px;
+                right: 0px;
+                background-color:  #879596;
+            }
+    
+            html.touch #uofi #ws-pa #edu-il .blog-post-entry:hover .scroll-container + .share-bar, 
+            html.touch #uofi #ws-pa #edu-il .share-bar 
+            {
+                background-color:  #879596 !important;
+            }
+            
+            #uofi #ws-pa #edu-il #blog-home-view .blog-post-title,
+            #uofi #ws-pa #edu-il #blog-results-view .blog-post-title
+            {
+                font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+                font-weight: 400;
+                font-size:19px;
+            }
+            #uofi #ws-pa #edu-il #blog-home-view .blog-post-title a,
+            #uofi #ws-pa #edu-il #blog-results-view .blog-post-title a
+            {
+                color: #333333;
+                
+                        text-decoration: none;
+                    
+            }
+            #uofi #ws-pa #edu-il #blog-home-view .blog-post-title a:hover,
+            #uofi #ws-pa #edu-il #blog-results-view .blog-post-title a:hover
+            {
+                color: #EF7F2C;
+                
+                        text-decoration: none;
+                    
+            }
+            #uofi #ws-pa #edu-il .comments-closed 
+            {
+                background-color: #656464;
+            }
+            
+        	
+        	/* Directory Profile Wizard Skin Styles */
+        	
+        	#wizard .profile-wrapper {
+	        	box-sizing: border-box;
+    	    	width: 95%; 
+        		margin: 0 auto;
+        		padding: 2rem 0;
+        	}
+        	
+        	#wizard .profile-wrapper *, 
+        	#wizard .profile-wrapper::before, 
+        	#wizard .profile-wrapper::after {
+	        	box-sizing: inherit;
+        	}
+        	
+        	#wizard .profile-wrapper .profile-photo {
+	        	width: 40%;       
+    	    	min-width: 300px;
+        		float: left;
+        		margin-top: 11px;          
+        	}
+        	
+        	#wizard .profile-wrapper .profile {
+	        	width: 60%;
+    	    	float: left;
+        		line-height: 1.5;
+        	}
+        	
+        	/* Hide H1, "address" H3 */
+        	#wizard .profile-wrapper .profile > h3 {
+	        	position: absolute;
+	        	overflow: hidden;
+	        	clip: rect(0 0 0 0);
+	        	height: 1px;
+	        	width: 1px;
+	        	margin: -1px;
+	        	padding: 0;
+	        	border: 0;
+        	}
+        	
+        	#wizard .profile-wrapper .profile .role {
+	        	margin-bottom: 1rem;
+        	}
+        	
+        	#wizard .profile-wrapper .profile .categories h3 {
+    	    	margin-top: 1.5em;
+        		margin-bottom: 0.25em;
+        	}
+        	
+        	#wizard .profile-wrapper .profile .categories p {
+        		margin-bottom: 1.5rem;
+        	}
+        	
+        	#wizard .profile-wrapper .profile .categories ul,
+        	#wizard .profile-wrapper .profile .categories ol {
+	        	display: block;
+    	    	list-style-type: disc;
+        		margin-top: 0;
+        		margin-bottom: 1em;
+	        	margin-left: 0;
+    	    	margin-right: 0;
+        		padding-left: 1rem;
+        	}
+        	
+        	#wizard .profile-wrapper .profile .categories ol {
+	        	list-style-type: decimal;
+        	}
+        	
+        	#wizard .profile-wrapper .profile-photo img {
+	        	max-width: 100%;
+    	    	margin-bottom: 3rem;
+        		margin-left: 10px;
+        		box-shadow: 0 0 0 10px #F4F4F2, 0 0 0 11px #E0E0E0;
+        	}
+        	
+        	#wizard .profile-wrapper .container::after {
+	        	content: "";
+    	    	clear: both;
+        		display: table;
+        	}
+        	#wizard .profile-wrapper .profile-details .address {
+        		margin-bottom: 1rem;
+        	}
+        	
+        	@media only screen and (max-width: 960px) {
+	        	#wizard .profile-wrapper .profile {
+		        	width: 100%;
+        		}           
+        	}
+        	
+        	@media only screen and (max-width: 520px) {
+	        	#wizard .profile-wrapper .profile-photo img {
+	        		width: 200px;
+	        		height: auto;
+	        	}
+        	}
+        	
+        	#wizard .profile-wrapper .breadcrumbs {
+	        	margin: 0 0 1rem 0;
+    	    	padding-bottom: 2rem;
+        	}
+        	
+        	#wizard .profile-wrapper .breadcrumbs ul {
+        		list-style-type: none;
+        	}
+        	
+        	#wizard .profile-wrapper .breadcrumbs li {
+	        	float: left; 
+    	    	margin-bottom: 0;
+        		font-size: 0.75rem;
+        		cursor: default;
+	        	text-transform: uppercase;
+        	}
+        	
+   	    	#wizard .profile-wrapper .breadcrumbs li:not(:last-child)::after {
+        		position: relative;
+        		margin: 0 0.75rem;
+	        	opacity: 1;
+    	    	content: "/";
+        		color: #cacaca;
+        	}
+        	
+        	#wizard .directory-widget-heading {
+	        	width: 95%;
+    	    	margin: 2rem auto 0 auto;
+        	}
+        	
+        	@media only screen and (max-width: 520px) {
+	        	#wizard .directory-widget-heading {
+    	    		font-size:  24px;
+        		}
+        	}
+        	
+        	#wizard .profile-wrapper .function-icons {
+	        	margin: 1rem 0 2rem 0;
+    	    	text-align: right;
+        	}
+        	
+        	@media only screen and (max-width: 960px) {
+	        	#wizard .profile-wrapper .function-icons {
+    	    		margin-bottom: 1rem;
+        			text-align: left;
+        		}           
+        	}
+        	
+        	#wizard .profile-wrapper .function-icons .fa {
+	        	font-size: 22px;
+        	}
+        	
+        	#wizard .profile-wrapper .function-icons a:last-of-type {
+    	    	display: none;
+        	}
+        	#wizard .profile-wrapper .profile-editors {
+	        	margin-top: -1rem;
+    	    	margin-bottom: 1rem;
+        		padding: 1.5rem;
+        		background-color: #f8f8f8;
+	        	border: 1px solid #e0e0e0;
+    	    	border-radius: 5px;
+        	}
+        	
+        	#wizard .profile-wrapper .profile-editors h2 {
+        		margin-bottom: 0.5rem;
+        		line-height: 1.5;
+        	}
+        	
+        	@media only screen and (max-width: 960px) {
+	        	#wizard .profile-wrapper .profile-editors {
+    		    	margin-top: 0;
+        		}           
+        	}
+        	#wizard .profile-wrapper .sm-employee {
+	        	margin: 1rem 0;
+        	}
+        	
+        	#wizard .profile-wrapper .sm-item {
+    	    	display: inline-block;
+        		line-height: 1.7;
+        	}
+        	
+        	#wizard .profile-wrapper .sm-item [class*="fa-"] {
+        		font-size: 2rem;
+	        	text-align: left;
+    	    }
+        	
+        </style>
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #6e6e6e;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+h1 {
+	font: 150%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	/* overwrite h1 default properties */
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color:#E0192C;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #E0192C;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~ this container surrounds all other divs giving them their percentage-based width ~~ */
+.container {
+	width: 80%;
+	max-width: 1260px;/* a max-width may be desirable to keep this layout from getting too wide on a large monitor. This keeps line length more readable. IE6 does not respect this declaration. */
+	min-width: 480px;/* a min-width may be desirable to keep this layout from getting too narrow. This keeps line length more readable in the side columns. IE6 does not respect this declaration. */
+	background-color: #FFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
+}
+
+/* ~~the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo~~ */
+.header {
+	background-color: #003263;
+}
+
+.subheader {
+	padding: 2px 0;
+	background-color: #E0192C;
+}
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+.content {
+	padding: 10px 0;
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ The footer ~~ */
+.footer {
+	padding: 4px 0;
+	background-color: #151c48;
+	color: #fff;
+	font: 70%/1.4 Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.class1 a:link {
+	color:#ffffff;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+.class1 a:visited {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.class1 a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	color: #E0192C;
+	text-decoration: none;
+}
+
+-->
+</style></head>
+
+<body>
+
+<div class="container">
+  <div class="header"><a href="http://engineering.uic.edu"><img src="https://skins.webservices.illinois.edu/files/19416/COE-banner.png" width="100%" alt="UIC MIE Logo" name="Engineering_logo"  id="Engineering_logo" </a> 
+    <!-- end .header --></div>
+  <div class="subheader"><!-- red strip --></div>
+  <div class="content">
+<script>
+			document.write('<link href="/webservices/styles/app/fb/content.css" rel="stylesheet">');
+		</script><link rel="stylesheet" property="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700"><link rel="stylesheet" property="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"><link rel="stylesheet" property="stylesheet" type="text/css" href="/webservices/styles/app/blog/styles-base-layout.css"><link rel="stylesheet" href="/webservices/styles/app/fb/print-fb.css" type="text/css" media="print"><script src="/webservices/js/modernizr-latest.js"></script><iframe style="height:1px;position:absolute;top:-40000px;left:-40000px;" src="https://surveys.illinois.edu/ga_surveys/Survey"></iframe><script type="text/javascript">
+            function removeWindowOnbeforeunload()
+            {
+                window.onbeforeunload = function()
+                {
+                };
+            }
+        </script><script type="text/javascript">
+            function validate(){
+                if(document.survey_1860547_0428T013702.isValidate.value == 'true'){
+                    document.survey_1860547_0428T013702.isValidate.value='false';
+                    document.survey_1860547_0428T013702.USER_userId.value=document.survey_1860547_0428T013702.USER_userId_for_save.value;
+                    if(document.survey_1860547_0428T013702.USER_userId.value == ''){
+                        alert('Please enter your email address and try again.');
+                        return false;
+                    }else{
+                        if(confirm('This will SAVE your results and send you an email to finish later.  Your results will not be submitted until you return and click Submit.  Continue with Save?') == true){
+                            return true;
+                        }else{
+                            return false;
+                        }
+                    }
+                }
+            }
+        </script><div id="dskCont"><div id="contDiv"><div id="uofi"><div id="ws-pa"><div id="edu-il"><div id="form-wrapper" class="public"><h1 id="custom-form-name">Alumni Survey</h1><div class="com-content"><form name="survey_1860547_0428T013702" method="post" action="/sec/1860547" onSubmit=""><script type="text/javascript" src="https://surveys.illinois.edu/webservices/js/processingMessage.js"></script><input type="hidden" name="ACTION" value="REFRESH"><input type="hidden" name="SESSION_ID" value="2410964"><input type="hidden" name="isMobile" id="isMobile" value="false"><input type="hidden" name="FORM_currentPage" value="1"><input type="hidden" name="isValidate" value="false"><input type="hidden" name="USER_userId" id="USER_userId"><input type="hidden" name="form_element" value="709473"><input type="hidden" name="form_element" value="709474"><input type="hidden" name="form_element" value="709475"><input type="hidden" name="form_element" value="709476"><input type="hidden" name="form_element" value="709477"><input type="hidden" name="form_element" value="709478"><input type="hidden" name="form_element" value="709479"><input type="hidden" name="form_element" value="709480"><input type="hidden" name="form_element" value="709481"><input type="hidden" name="form_element" value="709482"><input type="hidden" name="form_element" value="709483"><input type="hidden" name="form_element" value="709484"><input type="hidden" name="form_element" value="709485"><input type="hidden" name="form_element" value="709486"><input type="hidden" name="form_element" value="709487"><input type="hidden" name="form_element" value="709488"><input type="hidden" name="form_element" value="709489"><input type="hidden" name="form_element" value="709490"><div class="ws-questions-all-wrapper"><div class="ws-question-wrapper"><div class="ws-section-header"><a id="S"></a><p>Please complete the questions below.</p></div></div><div class="ws-question-wrapper"><!-- start question 1 --><a id="1"></a><h3 id="t1" class="ws-question"><label for="q1974445"><span><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>1. First Name</span></label><span class="place-off-screen"></span></h3><div class="place-off-screen"></div><div class="ws-answer-wrapper"><input class="ws-textbox" value="" type="text" name="result_1974445" id="q1974445" maxlength="25" onkeydown="if(event.keyCode==13)return false;"> &nbsp; <div style="color:gray;font-size:10px;font-style:italic;"> limited to <strong>25</strong> characters. </div></div><!-- end question  --></div><div class="ws-question-wrapper"><!-- start question 2 --><a id="2"></a><h3 id="t2" class="ws-question"><label for="q1974446"><span><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>2. Last Name</span></label><span class="place-off-screen"></span></h3><div class="place-off-screen"></div><div class="ws-answer-wrapper"><input class="ws-textbox" value="" type="text" name="result_1974446" id="q1974446" onkeydown="if(event.keyCode==13)return false;"> &nbsp; </div><!-- end question  --></div><div class="ws-question-wrapper"><!-- start question 3 --><a id="3"></a><h3 id="t3" class="ws-question"><label for="q1974447"><span><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>3. Email Address</span></label><span class="place-off-screen"></span></h3><div class="place-off-screen"></div><div class="ws-answer-wrapper"><input class="ws-textbox" value="" type="text" name="result_1974447" id="q1974447" onkeydown="if(event.keyCode==13)return false;"> &nbsp; </div><!-- end question  --></div><div class="ws-question-wrapper"><!-- start question 4 --><a id="4"></a><h3 id="t4" class="ws-question"><label for="q1974448"><span><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>4. Street Address</span></label><span class="place-off-screen"></span></h3><div class="place-off-screen"></div><div class="ws-answer-wrapper"><input class="ws-textbox" value="" type="text" name="result_1974448" id="q1974448" onkeydown="if(event.keyCode==13)return false;"> &nbsp; </div><!-- end question  --></div><div class="ws-question-wrapper"><!-- start question 5 --><a id="5"></a><h3 id="t5" class="ws-question"><label for="q1974449"><span>5. Street Address 2</span></label><span class="place-off-screen"></span></h3><div class="place-off-screen"></div><div class="ws-answer-wrapper"><input class="ws-textbox" value="" type="text" name="result_1974449" id="q1974449" onkeydown="if(event.keyCode==13)return false;"> &nbsp; </div><!-- end question  --></div><div class="ws-question-wrapper"><!-- start question 6 --><a id="6"></a><h3 id="t6" class="ws-question"><label for="q1974450"><span><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>6. City</span></label><span class="place-off-screen"></span></h3><div class="place-off-screen"></div><div class="ws-answer-wrapper"><input class="ws-textbox" value="" type="text" name="result_1974450" id="q1974450" onkeydown="if(event.keyCode==13)return false;"> &nbsp; </div><!-- end question  --></div><div class="ws-question-wrapper"><!-- start question 7 --><a id="7"></a><h3 id="t7" class="ws-question"><label for="q1974451"><span><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>7. State</span></label><span class="place-off-screen"></span></h3><div class="place-off-screen"></div><div class="ws-answer-wrapper"><input class="ws-textbox" value="" type="text" name="result_1974451" id="q1974451" onkeydown="if(event.keyCode==13)return false;"> &nbsp; </div><!-- end question  --></div><div class="ws-question-wrapper"><!-- start question 8 --><a id="8"></a><h3 id="t8" class="ws-question"><label for="q1974452"><span><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>8. Zip code</span></label><span class="place-off-screen"></span></h3><div class="place-off-screen"></div><div class="ws-answer-wrapper"><input class="ws-textbox" value="" type="text" name="result_1974452" id="q1974452" onkeydown="if(event.keyCode==13)return false;"> &nbsp; </div><!-- end question  --></div><div class="ws-question-wrapper"><!-- start question 9 --><a id="9"></a><div class="ws-select-wrapper"><h3 id="t9" class="ws-question"><label for="q1974453"><span>9. Graduation Year</span></label><span class="place-off-screen"></span></h3><div class="place-off-screen"></div><div class="ws-answer-wrapper"><select class="ws-select" name="result_1974453" id="q1974453"><option value="-1" selected></option><option value="1">1950</option><option value="2">1951</option><option value="3">1952</option><option value="4">1953</option><option value="5">1954</option><option value="6">1955</option><option value="7">1956</option><option value="8">1957</option><option value="9">1958</option><option value="10">1959</option><option value="11">1960</option><option value="12">1961</option><option value="13">1962</option><option value="14">1963</option><option value="15">1964</option><option value="16">1965</option><option value="17">1966</option><option value="18">1967</option><option value="19">1968</option><option value="20">1969</option><option value="21">1970</option><option value="22">1971</option><option value="23">1972</option><option value="24">1973</option><option value="25">1974</option><option value="26">1975</option><option value="27">1976</option><option value="28">1977</option><option value="29">1978</option><option value="30">1979</option><option value="31">1980</option><option value="32">1981</option><option value="33">1982</option><option value="34">1983</option><option value="35">1984</option><option value="36">1985</option><option value="37">1986</option><option value="38">1987</option><option value="39">1988</option><option value="40">1989</option><option value="41">1990</option><option value="42">1991</option><option value="43">1992</option><option value="44">1993</option><option value="45">1994</option><option value="46">1995</option><option value="47">1996</option><option value="48">1997</option><option value="49">1998</option><option value="50">1999</option><option value="51">2000</option><option value="52">2001</option><option value="53">2002</option><option value="54">2003</option><option value="55">2004</option><option value="56">2005</option><option value="57">2006</option><option value="58">2007</option><option value="59">2008</option><option value="60">2009</option><option value="61">2010</option><option value="62">2011</option><option value="63">2012</option><option value="64">2013</option><option value="65">2014</option><option value="66">2015</option><option value="67">2016</option><option value="68">2017</option><option value="69">2018</option></select></div></div><!-- end question  --></div><div class="ws-question-wrapper"><!-- start question 10 --><a id="10"></a><div class="ws-select-wrapper"><h3 id="t10" class="ws-question"><label for="q1974454"><span><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>10. What was your major?</span></label><span class="place-off-screen"></span></h3><div class="place-off-screen"></div><div class="ws-answer-wrapper"><select class="ws-select" name="result_1974454" id="q1974454"><option value="-1" selected></option><option value="1">Bioengineering</option><option value="2">Chemical Engineering</option><option value="3">Civil and Materials</option><option value="4">Computer Engineering</option><option value="5">Computer Science</option><option value="6">Electrical Engineering</option><option value="7">Engineering Management</option><option value="8">Engineering Physics</option><option value="9">Industrial Engineering</option><option value="10">Mechanical Engineering</option><option value="11">Master of Energy Engineering</option><option value="12">Master of Engineering Online (MEng)</option></select></div></div><!-- end question  --></div><div class="ws-question-wrapper"><!-- start question 11 --><a id="11"></a><div class="ws-checkbox-wrapper"><h3 id="t11" class="place-off-screen">11. Were you an active participant in any of the following UIC College of Engineering organizations?</h3><fieldset class="ws-fieldset"><legend class="ws-legend" id="legend11"><span class="wrap">11. Were you an active participant in any of the following UIC College of Engineering organizations?</span></legend><div class="place-off-screen"></div><div class="ws-answer-wrapper"><div class="ws-checkbox-row"><input type="checkbox" value="1" name="result_1974455" id="q11o1" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o1"><span class="ws-checkbox-option">ACM – Association for Computing Machinery</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="2" name="result_1974455" id="q11o2" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o2"><span class="ws-checkbox-option">AES Audio Engineering Society</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="3" name="result_1974455" id="q11o3" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o3"><span class="ws-checkbox-option">AIAA – American Institute of Aeronautics and Astronautics</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="4" name="result_1974455" id="q11o4" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o4"><span class="ws-checkbox-option">AiChE – American Institute of Chemical Engineers</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="5" name="result_1974455" id="q11o5" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o5"><span class="ws-checkbox-option">ASCE – American Society of Civil Engineers</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="6" name="result_1974455" id="q11o6" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o6"><span class="ws-checkbox-option">ASME – American Society of Mechanical Engineers</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="7" name="result_1974455" id="q11o7" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o7"><span class="ws-checkbox-option">BMES – Biomedical Engineering Society</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="8" name="result_1974455" id="q11o8" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o8"><span class="ws-checkbox-option">EC – Engineering Council</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="9" name="result_1974455" id="q11o9" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o9"><span class="ws-checkbox-option">ECE Journal Club</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="10" name="result_1974455" id="q11o10" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o10"><span class="ws-checkbox-option">EDT – Engineering Design Team</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="11" name="result_1974455" id="q11o11" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o11"><span class="ws-checkbox-option">Engineering World Health</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="12" name="result_1974455" id="q11o12" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o12"><span class="ws-checkbox-option">Eta Kappa Nu – Honors Society for Electrical and Computer Engineers</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="13" name="result_1974455" id="q11o13" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o13"><span class="ws-checkbox-option">EWB – Engineers Without Borders</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="14" name="result_1974455" id="q11o14" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o14"><span class="ws-checkbox-option">IISE – Institute of Industrial and Systems Engineers</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="15" name="result_1974455" id="q11o15" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o15"><span class="ws-checkbox-option">LUG – Linux Users Group</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="16" name="result_1974455" id="q11o16" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o16"><span class="ws-checkbox-option">NSBE – National Society of Black Engineers</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="17" name="result_1974455" id="q11o17" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o17"><span class="ws-checkbox-option">IEEE – Institute of Electrical and Electronics Engineers</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="18" name="result_1974455" id="q11o18" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o18"><span class="ws-checkbox-option">Pi Tau Sigma Honor Society for Mechanical Engineering</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="19" name="result_1974455" id="q11o19" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o19"><span class="ws-checkbox-option">RET – Renewable Energy Team</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="20" name="result_1974455" id="q11o20" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o20"><span class="ws-checkbox-option">SAE – Society of Automotive Engineers</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="21" name="result_1974455" id="q11o21" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o21"><span class="ws-checkbox-option">SES Structural Engineering Society</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="22" name="result_1974455" id="q11o22" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o22"><span class="ws-checkbox-option">SHPE – Society of Hispanic Professional Engineers</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="23" name="result_1974455" id="q11o23" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o23"><span class="ws-checkbox-option">SME – Society of Manufacturing Engineers</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="24" name="result_1974455" id="q11o24" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o24"><span class="ws-checkbox-option">SWE – Society of Women Engineers</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="25" name="result_1974455" id="q11o25" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o25"><span class="ws-checkbox-option">Tau Beta Pi – Engineering Honors Society</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="26" name="result_1974455" id="q11o26" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o26"><span class="ws-checkbox-option">VIE – Veterans In Engineering</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="27" name="result_1974455" id="q11o27" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q11o27"><span class="ws-checkbox-option">WiCS – Women in Computer Science</span></label></div></div></fieldset></div><!-- end question  --></div><div class="ws-question-wrapper"><div class="ws-section-header"><a id="S"></a><h3>How interested are you in the following?</h3></div></div><div class="ws-question-wrapper"><div><!-- start question  --><div class="ws-group"><div id="matrix-1"><script>
+                            var columns = 5;
+                        </script><script></script><div class="answer-set as-5"><h4>Indicate one of the following answers for each of the questions below.</h4><span class="mc-5-answer">Not at all interested</span><span class="mc-5-answer">Somewhat uninterested</span><span class="mc-5-answer">Neutral</span><span class="mc-5-answer">Somewhat interested</span><span class="mc-5-answer">Very interested</span></div><a id="12"></a><fieldset class="matrix-question mc-5"><legend><h3 id="q_12" class="ws-group-question"><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>12. Serving as a mentor for a current COE student</h3></legend><input id="q12o1" value="1" name="result_1974457" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q12o1" class="mc-5-answer"><span>Not at all interested</span></label><input id="q12o2" value="2" name="result_1974457" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q12o2" class="mc-5-answer"><span>Somewhat uninterested</span></label><input id="q12o3" value="3" name="result_1974457" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q12o3" class="mc-5-answer"><span>Neutral</span></label><input id="q12o4" value="4" name="result_1974457" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q12o4" class="mc-5-answer"><span>Somewhat interested</span></label><input id="q12o5" value="5" name="result_1974457" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q12o5" class="mc-5-answer"><span>Very interested</span></label></fieldset><script></script><a id="13"></a><fieldset class="matrix-question mc-5"><legend><h3 id="q_13" class="ws-group-question"><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>13. Having a mentor who is a COE alum</h3></legend><input id="q13o1" value="1" name="result_1974458" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q13o1" class="mc-5-answer"><span>Not at all interested</span></label><input id="q13o2" value="2" name="result_1974458" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q13o2" class="mc-5-answer"><span>Somewhat uninterested</span></label><input id="q13o3" value="3" name="result_1974458" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q13o3" class="mc-5-answer"><span>Neutral</span></label><input id="q13o4" value="4" name="result_1974458" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q13o4" class="mc-5-answer"><span>Somewhat interested</span></label><input id="q13o5" value="5" name="result_1974458" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q13o5" class="mc-5-answer"><span>Very interested</span></label></fieldset><script></script><a id="14"></a><fieldset class="matrix-question mc-5"><legend><h3 id="q_14" class="ws-group-question"><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>14. Lectures or discussions by entrepreneurs and experts on their research/area...</h3></legend><input id="q14o1" value="1" name="result_1974459" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q14o1" class="mc-5-answer"><span>Not at all interested</span></label><input id="q14o2" value="2" name="result_1974459" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q14o2" class="mc-5-answer"><span>Somewhat uninterested</span></label><input id="q14o3" value="3" name="result_1974459" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q14o3" class="mc-5-answer"><span>Neutral</span></label><input id="q14o4" value="4" name="result_1974459" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q14o4" class="mc-5-answer"><span>Somewhat interested</span></label><input id="q14o5" value="5" name="result_1974459" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q14o5" class="mc-5-answer"><span>Very interested</span></label></fieldset><script></script><a id="15"></a><fieldset class="matrix-question mc-5"><legend><h3 id="q_15" class="ws-group-question"><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>15. Attending an alumni-hosted networking event for professional development</h3></legend><input id="q15o1" value="1" name="result_1974460" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q15o1" class="mc-5-answer"><span>Not at all interested</span></label><input id="q15o2" value="2" name="result_1974460" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q15o2" class="mc-5-answer"><span>Somewhat uninterested</span></label><input id="q15o3" value="3" name="result_1974460" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q15o3" class="mc-5-answer"><span>Neutral</span></label><input id="q15o4" value="4" name="result_1974460" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q15o4" class="mc-5-answer"><span>Somewhat interested</span></label><input id="q15o5" value="5" name="result_1974460" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q15o5" class="mc-5-answer"><span>Very interested</span></label></fieldset><script></script><a id="16"></a><fieldset class="matrix-question mc-5"><legend><h3 id="q_16" class="ws-group-question"><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>16. Lectures or discussions by current COE faculty on their research/area of their expertise</h3></legend><input id="q16o1" value="1" name="result_1974461" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q16o1" class="mc-5-answer"><span>Not at all interested</span></label><input id="q16o2" value="2" name="result_1974461" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q16o2" class="mc-5-answer"><span>Somewhat uninterested</span></label><input id="q16o3" value="3" name="result_1974461" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q16o3" class="mc-5-answer"><span>Neutral</span></label><input id="q16o4" value="4" name="result_1974461" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q16o4" class="mc-5-answer"><span>Somewhat interested</span></label><input id="q16o5" value="5" name="result_1974461" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q16o5" class="mc-5-answer"><span>Very interested</span></label></fieldset><script></script><a id="17"></a><fieldset class="matrix-question mc-5"><legend><h3 id="q_17" class="ws-group-question"><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>17. Attending an alumni-hosted event to socialize</h3></legend><input id="q17o1" value="1" name="result_1974462" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q17o1" class="mc-5-answer"><span>Not at all interested</span></label><input id="q17o2" value="2" name="result_1974462" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q17o2" class="mc-5-answer"><span>Somewhat uninterested</span></label><input id="q17o3" value="3" name="result_1974462" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q17o3" class="mc-5-answer"><span>Neutral</span></label><input id="q17o4" value="4" name="result_1974462" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q17o4" class="mc-5-answer"><span>Somewhat interested</span></label><input id="q17o5" value="5" name="result_1974462" class="mc-5-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q17o5" class="mc-5-answer"><span>Very interested</span></label></fieldset><script>
+                    var possibleColumns = ["5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"];
+                    function setColWidth()
+                    {
+                        var contentWidth = document.getElementById('contDiv').clientWidth; 
+                        for (i = 0; i < possibleColumns.length; i++) 
+                        {
+                            var columnWidthInPixels  = (contentWidth - 214) / possibleColumns[i];
+                            var columnWidthInPercent = columnWidthInPixels / contentWidth * 100;
+                            answersArray = document.getElementsByClassName('mc-' + possibleColumns[i] + '-answer');
+                            for (j = 0; j < answersArray.length; j++) {
+                                answersArray[j].style.width = columnWidthInPercent + "%";
+                            }
+                        }
+                    }
+                </script><script>
+                if(window.attachEvent) 
+                {
+                    window.attachEvent('onresize', function() 
+                    {
+                            setColWidth();
+                    });
+                }
+                else if(window.addEventListener) 
+                {
+                    window.addEventListener('resize', function() 
+                    {
+                            setColWidth();
+                    }, true);
+                }
+                else
+                {
+                    //not supported
+                } 
+                setColWidth();
+                </script></div></div><!-- end question  --></div></div><div class="ws-question-wrapper"><!-- start question 18 --><a id="18"></a><div class="ws-checkbox-wrapper"><div class="ws-instruction"><p>check all that apply</p></div><h3 id="t18" class="place-off-screen"><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>18. When is the best time to attend a social event or lecture</h3><fieldset class="ws-fieldset"><legend class="ws-legend" id="legend18"><span class="wrap"><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>18. When is the best time to attend a social event or lecture</span></legend><div class="place-off-screen"><div class="ws-instruction"><p>check all that apply</p></div></div><div class="ws-answer-wrapper"><div class="ws-checkbox-row"><input type="checkbox" value="1" name="result_1974463" id="q18o1" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q18o1"><span class="ws-checkbox-option">Weekday evenings/after work</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="2" name="result_1974463" id="q18o2" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q18o2"><span class="ws-checkbox-option">weekdays during lunch</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="3" name="result_1974463" id="q18o3" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q18o3"><span class="ws-checkbox-option">weekend afternoons</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="4" name="result_1974463" id="q18o4" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q18o4"><span class="ws-checkbox-option">weekend evenings</span></label></div></div></fieldset></div><!-- end question  --></div><div class="ws-question-wrapper"><!-- start question 19 --><a id="19"></a><div class="ws-checkbox-wrapper"><div class="ws-instruction"><p>clcik all that apply</p></div><h3 id="t19" class="place-off-screen">19. The event I am most likely to attend would be in the following area of the city</h3><fieldset class="ws-fieldset"><legend class="ws-legend" id="legend19"><span class="wrap">19. The event I am most likely to attend would be in the following area of the city</span></legend><div class="place-off-screen"><div class="ws-instruction"><p>clcik all that apply</p></div></div><div class="ws-answer-wrapper"><div class="ws-checkbox-row"><input type="checkbox" value="1" name="result_1974464" id="q19o1" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q19o1"><span class="ws-checkbox-option">On UIC Campus</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="2" name="result_1974464" id="q19o2" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q19o2"><span class="ws-checkbox-option">Downtown Loop</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="3" name="result_1974464" id="q19o3" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q19o3"><span class="ws-checkbox-option">Downtown West Loop</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="4" name="result_1974464" id="q19o4" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q19o4"><span class="ws-checkbox-option">Downtown South Loop</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="5" name="result_1974464" id="q19o5" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q19o5"><span class="ws-checkbox-option">Downtown River North, South, East West</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="6" name="result_1974464" id="q19o6" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q19o6"><span class="ws-checkbox-option">North Suburbs</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="7" name="result_1974464" id="q19o7" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q19o7"><span class="ws-checkbox-option">South Suburbs</span></label></div><div class="ws-checkbox-row"><input type="checkbox" value="8" name="result_1974464" id="q19o8" class="ws-checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="q19o8"><span class="ws-checkbox-option">West Suburbs</span></label></div><div class="ws-checkbox-row"><input onclick="checkboxOther('result_1974464')" type="checkbox" value="9" name="result_1974464" class="ws-checkbox" id="O_1974464_other_checkbox" onkeydown="if(event.keyCode==13)return false;"><label for="O_1974464_other_checkbox"><span class="ws-checkbox-option">Other</span></label></div><div class="ws-checkbox-other-row"><label for="q19other" style="position:absolute; left:-1000em;">Enter text</label><input class="ws-checkbox-text" type="text" size="65" name="result_1974464_other" value="" id="q19other" onkeydown="if(event.keyCode==13)return false;" disabled></div></div></fieldset></div><!-- end question  --></div><div class="ws-question-wrapper"><div class="ws-section-header"><a id="S"></a><h3>Are you interested in attending or paying to attend any of the following events with other alumni</h3><p>check all that apply</p></div></div><div class="ws-question-wrapper"><div><!-- start question  --><div class="ws-group"><div id="matrix-1"><script>
+                            var columns = 9;
+                        </script><script></script><div class="answer-set as-9"><h4>Indicate one of the following answers for each of the questions below.</h4><span class="mc-9-answer">$0</span><span class="mc-9-answer">$5-$20</span><span class="mc-9-answer">$21-$35</span><span class="mc-9-answer">$36-$50</span><span class="mc-9-answer">$51-$65</span><span class="mc-9-answer">$66-$80</span><span class="mc-9-answer">$81-$100</span><span class="mc-9-answer">$101+</span><span class="mc-9-answer">Not interested</span></div><a id="20"></a><fieldset class="matrix-question mc-9"><legend><h3 id="q_20" class="ws-group-question"><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>20. Pro sporting event</h3></legend><input id="q20o1" value="1" name="result_1974480" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q20o1" class="mc-9-answer"><span>$0</span></label><input id="q20o2" value="2" name="result_1974480" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q20o2" class="mc-9-answer"><span>$5-$20</span></label><input id="q20o3" value="3" name="result_1974480" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q20o3" class="mc-9-answer"><span>$21-$35</span></label><input id="q20o4" value="4" name="result_1974480" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q20o4" class="mc-9-answer"><span>$36-$50</span></label><input id="q20o5" value="5" name="result_1974480" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q20o5" class="mc-9-answer"><span>$51-$65</span></label><input id="q20o6" value="6" name="result_1974480" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q20o6" class="mc-9-answer"><span>$66-$80</span></label><input id="q20o7" value="7" name="result_1974480" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q20o7" class="mc-9-answer"><span>$81-$100</span></label><input id="q20o8" value="8" name="result_1974480" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q20o8" class="mc-9-answer"><span>$101+</span></label><input id="q20o9" value="9" name="result_1974480" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q20o9" class="mc-9-answer"><span>Not interested</span></label></fieldset><script></script><a id="21"></a><fieldset class="matrix-question mc-9"><legend><h3 id="q_21" class="ws-group-question"><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>21. UIC sporting event</h3></legend><input id="q21o1" value="1" name="result_1974481" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q21o1" class="mc-9-answer"><span>$0</span></label><input id="q21o2" value="2" name="result_1974481" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q21o2" class="mc-9-answer"><span>$5-$20</span></label><input id="q21o3" value="3" name="result_1974481" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q21o3" class="mc-9-answer"><span>$21-$35</span></label><input id="q21o4" value="4" name="result_1974481" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q21o4" class="mc-9-answer"><span>$36-$50</span></label><input id="q21o5" value="5" name="result_1974481" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q21o5" class="mc-9-answer"><span>$51-$65</span></label><input id="q21o6" value="6" name="result_1974481" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q21o6" class="mc-9-answer"><span>$66-$80</span></label><input id="q21o7" value="7" name="result_1974481" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q21o7" class="mc-9-answer"><span>$81-$100</span></label><input id="q21o8" value="8" name="result_1974481" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q21o8" class="mc-9-answer"><span>$101+</span></label><input id="q21o9" value="9" name="result_1974481" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q21o9" class="mc-9-answer"><span>Not interested</span></label></fieldset><script></script><a id="22"></a><fieldset class="matrix-question mc-9"><legend><h3 id="q_22" class="ws-group-question"><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>22. Documentary/Movie event</h3></legend><input id="q22o1" value="1" name="result_1974482" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q22o1" class="mc-9-answer"><span>$0</span></label><input id="q22o2" value="2" name="result_1974482" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q22o2" class="mc-9-answer"><span>$5-$20</span></label><input id="q22o3" value="3" name="result_1974482" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q22o3" class="mc-9-answer"><span>$21-$35</span></label><input id="q22o4" value="4" name="result_1974482" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q22o4" class="mc-9-answer"><span>$36-$50</span></label><input id="q22o5" value="5" name="result_1974482" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q22o5" class="mc-9-answer"><span>$51-$65</span></label><input id="q22o6" value="6" name="result_1974482" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q22o6" class="mc-9-answer"><span>$66-$80</span></label><input id="q22o7" value="7" name="result_1974482" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q22o7" class="mc-9-answer"><span>$81-$100</span></label><input id="q22o8" value="8" name="result_1974482" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q22o8" class="mc-9-answer"><span>$101+</span></label><input id="q22o9" value="9" name="result_1974482" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q22o9" class="mc-9-answer"><span>Not interested</span></label></fieldset><script></script><a id="23"></a><fieldset class="matrix-question mc-9"><legend><h3 id="q_23" class="ws-group-question"><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>23. After work drinks/informal dinner</h3></legend><input id="q23o1" value="1" name="result_1974483" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q23o1" class="mc-9-answer"><span>$0</span></label><input id="q23o2" value="2" name="result_1974483" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q23o2" class="mc-9-answer"><span>$5-$20</span></label><input id="q23o3" value="3" name="result_1974483" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q23o3" class="mc-9-answer"><span>$21-$35</span></label><input id="q23o4" value="4" name="result_1974483" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q23o4" class="mc-9-answer"><span>$36-$50</span></label><input id="q23o5" value="5" name="result_1974483" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q23o5" class="mc-9-answer"><span>$51-$65</span></label><input id="q23o6" value="6" name="result_1974483" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q23o6" class="mc-9-answer"><span>$66-$80</span></label><input id="q23o7" value="7" name="result_1974483" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q23o7" class="mc-9-answer"><span>$81-$100</span></label><input id="q23o8" value="8" name="result_1974483" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q23o8" class="mc-9-answer"><span>$101+</span></label><input id="q23o9" value="9" name="result_1974483" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q23o9" class="mc-9-answer"><span>Not interested</span></label></fieldset><script></script><a id="24"></a><fieldset class="matrix-question mc-9"><legend><h3 id="q_24" class="ws-group-question"><span class="ws-required"><img src="https://surveys.illinois.edu/webservices/public/survey/required.gif" alt="required"></span>24. UIC theater event</h3></legend><input id="q24o1" value="1" name="result_1974484" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q24o1" class="mc-9-answer"><span>$0</span></label><input id="q24o2" value="2" name="result_1974484" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q24o2" class="mc-9-answer"><span>$5-$20</span></label><input id="q24o3" value="3" name="result_1974484" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q24o3" class="mc-9-answer"><span>$21-$35</span></label><input id="q24o4" value="4" name="result_1974484" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q24o4" class="mc-9-answer"><span>$36-$50</span></label><input id="q24o5" value="5" name="result_1974484" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q24o5" class="mc-9-answer"><span>$51-$65</span></label><input id="q24o6" value="6" name="result_1974484" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q24o6" class="mc-9-answer"><span>$66-$80</span></label><input id="q24o7" value="7" name="result_1974484" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q24o7" class="mc-9-answer"><span>$81-$100</span></label><input id="q24o8" value="8" name="result_1974484" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q24o8" class="mc-9-answer"><span>$101+</span></label><input id="q24o9" value="9" name="result_1974484" class="mc-9-answer" onkeydown="if(event.keyCode==13)return false;" type="radio"><label for="q24o9" class="mc-9-answer"><span>Not interested</span></label></fieldset><script>
+                    var possibleColumns = ["5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"];
+                    function setColWidth()
+                    {
+                        var contentWidth = document.getElementById('contDiv').clientWidth; 
+                        for (i = 0; i < possibleColumns.length; i++) 
+                        {
+                            var columnWidthInPixels  = (contentWidth - 214) / possibleColumns[i];
+                            var columnWidthInPercent = columnWidthInPixels / contentWidth * 100;
+                            answersArray = document.getElementsByClassName('mc-' + possibleColumns[i] + '-answer');
+                            for (j = 0; j < answersArray.length; j++) {
+                                answersArray[j].style.width = columnWidthInPercent + "%";
+                            }
+                        }
+                    }
+                </script><script>
+                if(window.attachEvent) 
+                {
+                    window.attachEvent('onresize', function() 
+                    {
+                            setColWidth();
+                    });
+                }
+                else if(window.addEventListener) 
+                {
+                    window.addEventListener('resize', function() 
+                    {
+                            setColWidth();
+                    }, true);
+                }
+                else
+                {
+                    //not supported
+                } 
+                setColWidth();
+                </script></div></div><!-- end question  --></div></div></div><input type="hidden" id="ws-email-input" name="USER_userId_for_email_and_delete"><div id="ws-footer"><div class="ws-group-buttons with-save-option"><input type="button" id="save-later" class="large-btn light" value="Save and Finish Later..."><input type="hidden" name="id" value="1860547"><input type="hidden" name="userId" value=""><input type="hidden" name="firstTimeFlag" value="false"><input type="hidden" name="accessibleFlag" value="false"><input type="hidden" name="changedAccessiblityFlag" value="false"><input id="submit-btn" type="button" name="target" class="large-btn" onClick="this.disabled='true';removeWindowOnbeforeunload();document.survey_1860547_0428T013702.USER_userId.value=document.survey_1860547_0428T013702.USER_userId_for_email_and_delete.value;document.survey_1860547_0428T013702.ACTION.value='SUBMIT_FORM';document.survey_1860547_0428T013702.submit();" value="Submit &nbsp;Survey"><script>
+                    function updateUserId(newValue)
+                    {
+                    document.getElementById('USER_userId').value = newValue;
+                    var temp1 = document.getElementById('USER_userId_temp1');
+                    var temp2 = document.getElementById('USER_userId_temp2');
+                    if (typeof(temp1) != 'undefined' && temp1 != null)
+                    {
+                    temp1.value = newValue;
+                    }
+                    if (typeof(temp2) != 'undefined' && temp2 != null)
+                    {
+                    temp2.value = newValue;
+                    }
+                    }
+                </script></div><div class="ws-save" id="ws-save" style="height: 0px;"><div class="spacer-wrapper" style="padding-top:24px;"><h3 style="text-align:center;"><label for="USER_userId_for_save">Save and Finish Later</label></h3><p style="text-align:center;">Get an email with a link to where you left off. Visit the link and continue.</p><input type="text" placeholder="Enter Your Email Address" class="ws-email-input" id="USER_userId_for_save" name="USER_userId_for_save" onkeydown="if(event.keyCode==13)return false;"><input type="button" class="sys-button-control" id="save-button" value="Send me a link" onclick="removeWindowOnbeforeunload();document.survey_1860547_0428T013702.ACTION.value='FORM_SAVE';document.survey_1860547_0428T013702.isValidate.value='true';if(validate())document.survey_1860547_0428T013702.submit();"></div></div><script>
+                    document.getElementById("save-later").addEventListener("click", function() {
+                        if (document.getElementById("ws-save").style.height == "184px") {
+                            document.getElementById("ws-save").style.height = 0;
+                        } 
+                        else {
+                            
+                                    document.getElementById("ws-save").style.height = "184px";
+                                    document.getElementById("USER_userId_for_save").focus(); 
+                                    window.scrollBy(0, 400);
+                                
+                        }
+                    });
+                </script></div></form><div id="ws-v-footer"><span class="ws-footer-info">
+				 Powered by Webtools 
+				<span>&nbsp;&nbsp;|&nbsp;&nbsp; </span><span class="ws-footer-logout"><a href="https://blogs.illinois.edu/view/7252/458502" target="_blank">Privacy</a></span></span></div></div></div></div></div></div></div></div><script>
+			function checkMaxFileSize(inputId, inputIdNoLb, button, maxSizeDisplay) 
+			{
+				var iSize =  (document.getElementById(inputIdNoLb).files[0].size); 
+				var maxSize = maxSizeDisplay * 1024 * 1024;
+				if(iSize > maxSize)
+				{
+					alert('The file size is too large. The max file size is ' + maxSizeDisplay + ' M.  Please reduce the file size and try again.');
+					document.getElementById(inputIdNoLb).value='';                 
+					return false;
+				}
+				else
+				{
+					return true;
+				}
+			}
+		</script><script type="text/javascript">
+            if (typeof(document.getElementById('nav-menu')) != 'undefined' && document.getElementById('nav-menu') != null)
+            {
+                if(navigationLinks.length > 0){
+                    document.getElementById('nav-menu').style.display="inline-block";
+                }
+            }
+        </script><script type="text/javascript">
+            if(screen.width < 480)
+            {
+                document.getElementById('isMobile').value = true;
+            }   
+
+            function checkboxOther(name_of_field) { 
+                var elements = document.survey_1860547_0428T013702.elements[name_of_field]; var length = elements.length; 
+                if(elements[length-1].checked) 
+                { 
+                    document.survey_1860547_0428T013702[name_of_field + '_other'].disabled=false; 
+                    document.survey_1860547_0428T013702[name_of_field + '_other'].focus(); 
+                } 
+                else 
+                { 
+                    document.survey_1860547_0428T013702[name_of_field + '_other'].disabled=true; 
+                    document.survey_1860547_0428T013702[name_of_field + '_other'].value=''; 
+                } 
+            } 
+            function radioOther(name_of_field) 
+            { 
+                document.survey_1860547_0428T013702[name_of_field  + '_other'].disabled=false; 
+                document.survey_1860547_0428T013702[name_of_field  + '_other'].focus(); 
+            } 
+            
+            function radioNotOther(name_of_field) {
+                var name = document.survey_1860547_0428T013702[name_of_field + '_other'];
+                if(typeof(name) != 'undefined' && name != null){
+                    document.survey_1860547_0428T013702[name_of_field + '_other'].disabled=true; 
+                    document.survey_1860547_0428T013702[name_of_field + '_other'].value=''; 
+                }
+            }
+            
+            function selectOther(name_of_field) {
+                var elements = document.survey_1860547_0428T013702.elements[name_of_field]; 
+                var length = elements.length;
+                var selectedIndex =
+                document.survey_1860547_0428T013702.elements[name_of_field].selectedIndex; 
+                if((length-1)==selectedIndex) 
+                {
+                    document.survey_1860547_0428T013702[name_of_field + '_other'].disabled=false; 
+                    document.survey_1860547_0428T013702[name_of_field + '_other'].focus(); 
+                } 
+                else 
+                { 
+                    document.survey_1860547_0428T013702[name_of_field + '_other'].disabled=true; 
+                    document.survey_1860547_0428T013702[name_of_field + '_other'].value=''; 
+                } 
+            }
+            
+            function checkBrowserVersion() {
+            var rv = -1; 
+            if (navigator.appName == 'Microsoft Internet Explorer') 
+            {
+            var ua = navigator.userAgent;
+            var re = new RegExp("MSIE ([0-9]{1,}[.0-9]{0,})");
+            if (re.exec(ua) != null)
+            {
+            rv = parseFloat(RegExp.$1);
+            }    
+            }
+            if (rv >= 8.0)
+            {
+            //alert('is IE8');
+            return true;
+            }
+            else
+            {
+            //alert('is not IE8');
+            return false;
+            }
+            }
+            
+            //execute on page load if IE8 or above
+            var isIE8orAbove = checkBrowserVersion();
+            
+            if(isIE8orAbove)
+            {
+            var wrapperWidth = document.getElementById('form-wrapper').offsetWidth; 
+            
+            for(var i=0;i < 300; i++){
+            var name = "legend" + i;
+            var obj = document.getElementById(name);
+            if(obj != null)
+            {
+            wrapperWidth = wrapperWidth - 10;
+            obj.style.width = "" + wrapperWidth + "px";
+            }
+            }
+            }
+
+            function ws_recaptcha_set_timeout()
+            {
+                setTimeout('ws_recaptcha_call_switch_type()', 3000);
+            }
+            
+            function ws_recaptcha_call_switch_type()
+            {
+                Recaptcha.switch_type('audio');
+            }
+            
+            var wsRecaptcha=document.getElementById('recaptcha_switch_audio_btn');
+            if(wsRecaptcha!=null)
+            {
+                wsRecaptcha.href="javascript:document.getElementById('recaptcha_response_field').focus();ws_recaptcha_set_timeout();";
+            }
+        </script><script>
+            if (document.getElementsByClassName("ws-checkbox-option")[0] != undefined) {
+            var checkBoxOption = document.getElementsByClassName("ws-checkbox-option")[0];
+            var checkboxComputedLineHeight = getComputedStyle(checkBoxOption).getPropertyValue("line-height");
+            var FinalLineHeight = parseFloat(checkboxComputedLineHeight);
+            var AdjustedHeight = (FinalLineHeight / 2) - 9 + "px";
+            
+            document.write('<style> #form-wrapper .ws-checkbox-row input[type="checkbox"] + label:before {top:');
+                document.write(AdjustedHeight);
+                document.write(';} </style>');
+            }
+            if (document.getElementsByClassName("ws-radio-option")[0] != undefined) {
+            var radioOption = document.getElementsByClassName("ws-radio-option")[0];
+            var radioComputedLineHeight = getComputedStyle(radioOption).getPropertyValue("line-height");
+            var FinalLineHeight = parseFloat(radioComputedLineHeight);
+            var AdjustedHeight = (FinalLineHeight / 2) - 9 + "px";
+            
+            document.write('<style> #form-wrapper .ws-radio-row input[type="radio"] + label:before {top:');
+                document.write(AdjustedHeight);
+                document.write(';} </style>');
+            }
+        </script><meta data-name="viewport" content="initial-scale=1.0"><script type="text/javascript">
+            var content = document.getElementById('form-wrapper');
+            var width = document.getElementById('contDiv').offsetWidth;
+            var contentMinWidthToMobile=480;
+            var mobileMaxWidthToDesktop=480;
+            var mode='firstTime';
+            var deviceSize = screen.width;
+            //
+            if(window.attachEvent) 
+            {
+                window.attachEvent('onresize', function() {
+                    width = document.getElementById('contDiv').offsetWidth;
+                });
+            }
+            else if(window.addEventListener) 
+            {
+                window.addEventListener('resize', function() {
+                    width = document.getElementById('contDiv').offsetWidth;
+                    }, true);
+            }
+            else
+            {
+                //not supported
+            }
+
+            function linkDelete(linkId) 
+            {
+                var link = document.getElementById(linkId);
+                var parent = link.parentNode;
+                parent.removeChild(link); 
+            }
+            function linkReplace(linkFileName, linkId)
+            {
+                var oldLink = document.getElementById(linkId);
+                var newLink = document.createElement('link');
+                newLink.rel = 'stylesheet';
+                newLink.type = 'text/css';
+                newLink.href = linkFileName;
+                newLink.setAttribute('id', linkId);
+                var parent = oldLink.parentNode;
+                parent.insertBefore(newLink, oldLink);
+                parent.removeChild(oldLink);
+            }
+            function linkNew(linkFileName, linkId) 
+            {
+                var newlink = document.createElement("link");
+                newlink.rel="stylesheet";
+                newlink.type="text/css";
+                newlink.href=linkFileName;
+                newlink.setAttribute("id", linkId);
+                var dskCont = document.getElementById('dskCont');
+                var formEl = dskCont.parentNode;
+                formEl.insertBefore(newlink, dskCont);
+            }
+            function jsUpdateSize()
+            {
+            
+            if (typeof(added_by_webtools_is_responsive) != 'undefined' && added_by_webtools_is_responsive != null)
+                {
+                    return;
+                }
+                else
+                {
+                    deviceSize = document.body.offsetWidth;
+                    var contDiv= document.getElementById("contDiv");
+                    var contentWidth = contDiv.clientWidth;
+                    if(mode==='firstTime')
+                    {
+                        if((deviceSize < contentMinWidthToMobile+1) || (contentWidth < (contentMinWidthToMobile+1)))
+                        {
+                            mode='mobile';
+                            if(navigationLinks.length > 0)
+                            {
+                                //document.getElementById('mobile-nav').style.display = 'block';
+                            }
+                            var desktopWrapper = document.getElementById("desktop-wrapper"); 
+                            var mobileWrapper = document.getElementById("mobile-wrapper");
+                            var mobileContent = document.getElementById("mobile-content");
+                            linkNew('https://webservices.illinois.edu/webservices/styles/app/blog/640.css','link_skin_application');
+                            if (typeof(document.getElementById('nav-menu')) != 'undefined' && document.getElementById('nav-menu') != null)
+                            {
+                                if (typeof(appUiColor) != 'undefined' && appUiColor != null)
+                                {
+                                    document.getElementById('nav-menu').style.backgroundColor = appUiColor;
+                                }
+                            }
+                            if (typeof(desktopWrapper) != 'undefined' && desktopWrapper != null)
+                            {
+                                mobileContent.appendChild(contDiv);
+                                desktopWrapper.style.display="none";
+                                mobileWrapper.style.display="block";
+                            }
+                            var navMenu = document.getElementById('nav-menu');
+                            var navMenuClass = navMenu.className;
+                            var mobileMenu = document.getElementById('mobile-nav');                        
+                            var mobileMenuClass = mobileMenu.className;
+                            //
+                            if(navMenuClass.indexOf('active') > -1)
+                            {                                        
+                                navMenu.className = navMenuClass.substring(0, navMenuClass.indexOf('active') - 1);
+                                mobileMenu.className = mobileMenuClass.substring(0, mobileMenuClass.indexOf('active') - 1);
+                            }
+                        }
+                        else
+                        {
+                            mode='desktop';
+                            linkNew('https://webservices.illinois.edu/webservices/styles/app/blog/sample481_plus.css','link_skin_application');
+                        }
+                    }
+                    else if((deviceSize < contentMinWidthToMobile+1) || (contentWidth < (contentMinWidthToMobile+1) && mode!=="mobile"))
+                    {
+                        mode='mobile';
+                        if(navigationLinks.length > 0)
+                        {
+                            //document.getElementById('mobile-nav').style.display = 'block';
+                        }
+                        if (typeof(document.getElementById('nav-menu')) != 'undefined' && document.getElementById('nav-menu') != null)
+                        {
+                            if (typeof(appUiColor) != 'undefined' && appUiColor != null)
+                            {
+                                document.getElementById('nav-menu').style.backgroundColor = appUiColor;
+                            }
+                        }
+                        var dskCont = document.getElementById("dskCont");
+                        var mobileContent = document.getElementById("mobile-content");
+                        var mobileWrapper = document.getElementById("mobile-wrapper");
+                        var desktopWrapper = document.getElementById("desktop-wrapper");
+                        linkReplace('https://webservices.illinois.edu/webservices/styles/app/blog/640.css','link_skin_application');
+                        if (typeof(desktopWrapper) != 'undefined' && desktopWrapper != null)
+                        {
+                            mobileContent.appendChild(contDiv);
+                            desktopWrapper.style.display="none";
+                            mobileWrapper.style.display="block";
+                            mobileMaxWidthToDesktop=window.innerWidth;
+                        }
+                        
+                        var navMenu = document.getElementById('nav-menu');
+                        var navMenuClass = navMenu.className;
+                        
+                        var mobileMenu = document.getElementById('mobile-nav');                        
+                        var mobileMenuClass = mobileMenu.className;
+                        
+                        if(navMenuClass.indexOf('active') > -1)
+                        {                                        
+                            navMenu.className = navMenuClass.substring(0, navMenuClass.indexOf('active') - 1);
+                            mobileMenu.className = mobileMenuClass.substring(0, mobileMenuClass.indexOf('active') - 1);
+                        }
+                    }
+                    else if(contentWidth > mobileMaxWidthToDesktop && mode!=="desktop")
+                    {
+                        mode='desktop';
+                        if (typeof(document.getElementById('nav-menu')) != 'undefined' && document.getElementById('nav-menu') != null)
+                        {
+                            document.getElementById('nav-menu').style.backgroundColor='';
+                        }                    
+                        //
+                        var desktopWrapper = document.getElementById("desktop-wrapper");
+                        var dskCont = document.getElementById("dskCont");
+                        var mobileWrapper = document.getElementById("mobile-wrapper");
+                        if (typeof(desktopWrapper) != 'undefined' && desktopWrapper != null)
+                        {
+                            dskCont.appendChild(contDiv);
+                            desktopWrapper.style.display="block";
+                            mobileWrapper.style.display="none";
+                        }
+                        document.getElementById('mobile-nav').style.display = 'none';
+                    }
+                };
+            }
+            
+            var responsive;
+            function setResponsiveState()
+            {
+                if (typeof(added_by_webtools_is_responsive) != 'undefined' && added_by_webtools_is_responsive != null)
+                {
+                    responsive = true;
+                }
+                else
+                {
+                    var responsive = false;
+                    var wrapperDiv = document.createElement("div");
+                    wrapperDiv.id = "desktop-wrapper";
+                    while (document.body.firstChild)
+                    {
+                        wrapperDiv.appendChild(document.body.firstChild);
+                    }
+                    var mobileWrapper = document.createElement("div");
+                    mobileWrapper.id = "mobile-wrapper";
+                    var mobileContent = document.createElement("div");
+                    mobileContent.id = "mobile-content";
+                    document.body.appendChild(wrapperDiv);
+                    document.body.appendChild(mobileWrapper);
+                    mobileWrapper.appendChild(mobileContent);
+                }
+            }
+            
+            function onStartUp()
+            {   
+                setResponsiveState();
+                window.onresize = jsUpdateSize;
+                if(mode == 'mobile')
+                {
+                    //document.getElementById('search-bar').className='open-search';
+                }   
+                //jsUpdateSize();
+            }
+            var currentUrl = "" + window.location;
+            if(currentUrl.indexOf('scale=true') == -1)
+            {
+                //window.onload = onStartUp;
+            } 
+            
+
+        </script>
+    <!-- end .content --></div>
+  <div class="footer">
+   <p style="text-align: center;"><span style="font-size: 8pt;"><strong><a style="color: #C0C0C0; text-decoration: none;" href="http://engineering.uic.edu">COLLEGE OF ENGINEERING</a>&nbsp;| </strong></span><a style="color: #C0C0C0; text-decoration: none;" href="http://uic.edu"><span style="font-size: 8pt;"><strong style="color: #C0C0C0;">UNIVERSITY OF ILLINOIS AT CHICAGO</strong></span> <br /></a> <span style="font-size: 8pt;">851 South Morgan, Chicago, Illinois 60607-7022</span></p>
+<p style="font-size: 14px; color: #003366; font-weight: normal; letter-spacing: 0.02em; text-align: center; text-decoration: none;"><span style="font-size: 8pt;"><a href="http://engineering.uic.edu">engineering.uic.edu</a></span></p>
+<p style="font-size: 11px; text-align: center; color: #003366; font-weight: normal; letter-spacing: .02em;"><a style="color: #003366;" href="http://www.facebook.com/engineering.uic" target="_blank"><img src="https://skins.webservices.illinois.edu/files/19416/facebook2.png" alt="facebook" width="25" height="25" /></a>&nbsp;<a style="color: #003366;" href="http://twitter.com/UICEngineering" target="_blank"><img src="https://skins.webservices.illinois.edu/files/19416/twitter2.png" alt="" width="25" height="25" border="0" /></a>&nbsp;<a style="color: #003366;" href="http://www.youtube.com/user/UICengineering" target="_blank"><img src="https://skins.webservices.illinois.edu/files/19416/youtube.png" alt="" width="25" height="25" border="0" /></a>&nbsp;<a style="color: #003366;" href="http://instagram.com/uicengineering/" target="_blank"><img src="https://skins.webservices.illinois.edu/files/19416/instagram.png" alt="" width="25" height="25" border="0" /></a>&nbsp;<a title="Flickr COE page" href="https://www.flickr.com/photos/uic_engineering/sets/" target="_blank"><img src="https://skins.webservices.illinois.edu/files/19416/fr.png" alt="fr" width="25" height="25" /></a>&nbsp;</p>
+<p style="font-size: 11px; color: #003366; font-weight: normal; letter-spacing: .02em;">&nbsp;</p>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>

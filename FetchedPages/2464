@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>UIC User Identification Service</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bluestem/assets/styles/login.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+
+  <div class="jumbotron" role="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-2 logo"> </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2 login-alert">
+
+
+    </div>
+  </div>
+
+
+
+<form id="login-form" class="col-md-4 col-md-offset-4 form-login"
+  name="id" method="POST" action="/bluestem/login.cgi" >
+
+
+  <input type="hidden" name="BSVersionHash" value="752008e1a360e62d88847fd519f0753b3e79e702"/>
+
+  <input type="hidden" name="BSVersion" value="1.6"/>
+
+  <input type="hidden" name="cacheid" value="1588057800-50404545"/>
+
+  <input type="hidden" name="msg" value=""/>
+
+  <input type="hidden" name="prior" value="1800"/>
+
+  <input type="hidden" name="RetrieveURL" value="2f626c75657374656d2f6367692f72657472696576655f617574682e636769"/>
+
+  <input type="hidden" name="return" value="68747470733a2f2f73686962626f6c6574682e7569632e6564752f6964702f417574686e2f52656d6f7465557365723f636f6e766572736174696f6e3d65317331"/>
+
+
+  <h1 class="sr-only">UIC User Identification Service</h1>
+  <h2 class="form-login-heading">Please log in</h2>
+
+  <p class="small">
+    Application requesting login:
+
+      <a href="https://shibboleth.uic.edu/idp/Authn/RemoteUser?conversation=e1s1">UIC Shibboleth</a>
+
+  </p>
+
+  <label for="UserID" class="sr-only">UIC NetID</label>
+  <input type="text" id="UserID" name="UserID" pattern="[^@]+(@uic.edu)?"
+
+    title="UIC NetID. This site is only available to individuals with UIC netIDs"
+
+    class="form-control" placeholder="UIC NetID" required autofocus
+    value="">
+
+  <label for="password" class="sr-only">Password</label>
+  <input type="password" id="password" name="password"
+    class="form-control" placeholder="Password" required>
+
+  <button class="btn btn-lg btn-primary btn-block" id="disable-on-click" type="submit">Log in</button>
+</form>
+                            
+
+  </div>
+</div>
+
+
+<div class="container login-help">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-2">
+      <h3>Forgot Password?</h3>
+      <p>
+      To reset your password, please visit the
+      <a href="http://password.uic.edu">ACCC password management page</a>.
+      </p>
+      <h3>Need Help?</h3>
+      <p>
+        Contact the <a href="http://accc.uic.edu">ACCC helpdesk</a> at
+        <a href="mailto:consult@uic.edu">consult@uic.edu</a>.
+      </p>
+      <h3>What is a NetID?</h3>
+      <p>
+        Your NetID serves as your login for many University computing
+        and networking services and also determines your University
+        email address, which is netid@uic.edu.
+        For more information, or to claim your NetID, please visit our
+        <a href="http://accc.uic.edu/service/identity-and-access-management">identity webpage</a>.
+      </p>
+    </div>
+
+    <div class="col-md-4 app-info">
+      <h3>Security Information</h3>
+      <p>
+        The following servers are authorized to ask for your password:
+      </p>
+        <ul class="auth-servers">
+          <li> <strong>login.uic.edu</strong> </li>
+          <li> <strong>ness.uic.edu</strong> </li>
+          <li> <strong>auth.uillinois.edu</strong> </li>
+        </ul>
+      <p>
+        This page's URL should start with <code>https://</code>
+        followed by one of the auth servers listed above.
+        For most web browsers, the security padlock icon for this page
+        should be closed/locked.
+      </p>
+      <p>
+        If you encounter a web page not in the list above that requests
+        your UIC password, please contact
+        <a href="mailto:security@uic.edu">security@uic.edu</a> and include the URL.
+      </p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+ <footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-2">
+	<p>
+	  &copy; University of Illinois Board of Trustees |
+          <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Policy</a>
+	</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="/bluestem/assets/js/jquery.placeholder.min.js"></script>
+<script>
+	$(function() {
+	// Invoke placeholder plugin
+	$('input').placeholder(); 
+	});
+</script>
+<script>
+  $('#disable-on-click').on('click', function(){
+    $('#disable-on-click').attr("disabled", true);
+  	$("#login-form").submit()
+  });
+</script>
+  </body>
+</html>
+

@@ -1,0 +1,8 @@
+<html><head><title>Shibboleth Authentication Request</title></head><body onload="EZproxyCheckBack()"><form name="EZproxyForm" method="POST" action="https://shibboleth.uic.edu/idp/profile/SAML2/POST/SSO"><input type="hidden" name="RelayState" value="ezp.2aHR0cDovL2xpYnJhcnkuYXJ0c3Rvci5vcmc-">
+<input type="hidden" name="SAMLRequest" value="PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzYW1scDpBdXRoblJlcXVlc3QgeG1sbnM6c2FtbHA9InVybjpvYXNpczpuYW1lczp0YzpTQU1MOjIuMDpwcm90b2NvbCIgRGVzdGluYXRpb249Imh0dHBzOi8vc2hpYmJvbGV0aC51aWMuZWR1L2lkcC9wcm9maWxlL1NBTUwyL1BPU1QvU1NPIiBJRD0iXzE1ODgwNTgwMzYzODQyOSIgSXNzdWVJbnN0YW50PSIyMDIwLTA0LTI4VDA3OjEzOjU2WiIgVmVyc2lvbj0iMi4wIj48c2FtbDpJc3N1ZXIgeG1sbnM6c2FtbD0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOmFzc2VydGlvbiI+aHR0cHM6Ly9wcm94eS5jYy51aWMuZWR1L3NoaWJib2xldGg8L3NhbWw6SXNzdWVyPjxzYW1scDpOYW1lSURQb2xpY3kgQWxsb3dDcmVhdGU9IjEiLz48L3NhbWxwOkF1dGhuUmVxdWVzdD4K">
+If your browser does not continue automatically, click <input type="submit" value="here">
+</form><form name="EZproxyTrack"><input type="hidden" name="back" value="1"><script language="JavaScript">
+<!--
+function EZproxyCheckBack() {  var goForward = (document.EZproxyTrack.back.value==1);  document.EZproxyTrack.back.value=2;  document.EZproxyTrack.back.defaultValue=2;  if (goForward) { document.EZproxyForm.submit(); }}
+-->
+</script></body></html>

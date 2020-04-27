@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>evl | electronic visualization laboratory</title>
+	<link rel="stylesheet" href="/style.css">
+	<script>
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-26425659-14']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+</head>
+<body>
+	<div id="header_area">
+		<table style="width:1030px; height:104px;" class="fixedTable">
+			<tr>
+				<td style="width:254px; height:104px;">
+					<div id="header_logo">
+						<a href="/index.php"><img
+							src="/misc/logo.png"
+							onmouseover="this.src='/misc/logo_on.png';"
+							onmouseout="this.src='/misc/logo.png';"
+							alt="evl"
+							title="evl"
+							width="250"
+							height="100"
+						></a>
+					</div>
+				</td>
+				<td style="width:776px; height:104px;">
+					<table style="width:776px; height:104px;" class="fixedTable">
+						<tr>
+							<td style="width:496px; height:48px;">
+								<div class="header_menu">
+									<a href="/menuPage.php?id=5"><h3>About</h3></a>
+									<a href="/menuPage.php?id=4"><h3>Location</h3></a>
+									<a href="/list.php?id=2"><h3>People</h3></a>
+									<a href="/menuPage.php?id=3"><h3>Join Us</h3></a>
+								</div>
+							</td>
+							<td style="width:56px; height:48px;">
+								<div class="header_social">
+									<a href="http://www.youtube.com/user/evltube" target="_blank"><img
+										src="/misc/youtube.png"
+										onmouseover="this.src='/misc/youtube_on.png';"
+										onmouseout="this.src='/misc/youtube.png';"
+										alt=""
+										title="YouTube"
+										width="44"
+										height="44"
+									></a>
+								</div>
+							</td>
+							<td style="width:56px; height:48px;">
+								<div class="header_social">
+									<a href="https://www.facebook.com/UIC.EVL" target="_blank"><img
+										src="/misc/facebook.png"
+										onmouseover="this.src='/misc/facebook_on.png';"
+										onmouseout="this.src='/misc/facebook.png';"
+										alt=""
+										title="Facebook"
+										width="44"
+										height="44"
+									></a>
+								</div>
+							</td>
+							<td style="width:56px; height:48px;">
+								<div class="header_social">
+									<a href="https://twitter.com/evl_uic" target="_blank"><img
+										src="/misc/twitter.png"
+										onmouseover="this.src='/misc/twitter_on.png';"
+										onmouseout="this.src='/misc/twitter.png';"
+										alt=""
+										title="Twitter"
+										width="44"
+										height="44"
+									></a>
+								</div>
+							</td>
+							<td style="width:56px; height:48px;">
+								<div class="header_social">
+									<a href="/menuPage.php?id=2"><img
+										src="/misc/donate.png"
+										onmouseover="this.src='/misc/donate_on.png';"
+										onmouseout="this.src='/misc/donate.png';"
+										alt=""
+										title="Donate"
+										width="44"
+										height="44"
+									></a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="6" style="width:776px; height:8px;"></td>
+						</tr>
+						<tr>
+							<td style="width:496px; height:48px;">
+								<div class="header_menu">
+									<a href="/list.php?id=3"><h3>Events</h3></a>
+									<a href="/list.php?id=4"><h3>Papers</h3></a>
+									<a href="/list.php?id=5"><h3>Research</h3></a>
+									<a href="/list.php?id=1"><h3>Art</h3></a>
+								</div>
+							</td>
+							<td colspan="5" style="vertical-align:middle; width:280px; height:48px;">
+								<form action="/search.php" method="get">
+									<input id="header_search" name="search" type="search" placeholder="Search" maxlength="32">
+								</form>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</div>
+<!-- Begin Content -->
+<div id='menuPage_area'>
+	<h3>About</h3>
+<!-- Begin Menu Page Description -->
+<p>The Electronic Visualization Laboratory (EVL) at the University of Illinois at Chicago (UIC) is an internationally renowned interdisciplinary research laboratory whose mission is to enable scientific and engineering discoveries by designing and developing high-performance visualization, virtual reality, and collaboration systems using advanced networking infrastructure. Established in 1973 as a joint effort of the UIC College of Engineering and School of Art and Design, EVL is the oldest formal collaboration between engineering and art in the U.S.</p>
+
+<p>EVL has always looked 10-15 years into the future, and has a legacy of past successes. In the â70s, the Lab pioneered real-time interactive graphics and videogame technology; in the â80s, it began focusing on scientific visualization; in the â90s, it focused on advanced virtual reality, and on high-speed networking infrastructure; and, in the â00s, on accessing, sharing and displaying ultra-high-resolution images on tiled display walls. EVLâs best-known inventions include the CAVEâ¢ virtual-reality environment, the ImmersaDeskâ¢, OptIPortal, and the SAGEâ¢ scalable adaptive graphics environment; EVLâs key networking initiative is StarLight.</p>
+
+<p>In the â10s, EVL is building on its decades of experience to create new hardware and software technologies, notably the CAVE2â¢ hybrid-reality environment and the SAGE2â¢ scalable amplified group environment, and with the addition of new faculty, is expanding the breadth and depth of its expertise in scientific visualization, information visualization and visual analytics.</p>
+
+<p>From EVLâs early collaborations with artists to todayâs global collaborations with computational scientists and application scientists in academia, government and industry, EVL has had many successes developing, nurturing and growing user communities. To fulfill its mission of enabling scientific discovery, EVL faculty, staff and students form interdisciplinary teams of computer scientists, application scientists and artists in order to create useful and usable visualization and virtual-reality tools and techniques connected to remote data stores and distant colleagues via high-speed networks.</p>
+
+<p>EVL maintains a distinguished publication record, with students, faculty and staff publishing in major journals and conferences worldwide.</p>
+
+EVL is supported in part by the National Science Foundation (NSF), awards ACI-1450871, CNS-1625941, ACI-1441963, CNS-1456638, IIS-1445751 and CBET-1854815; the National Institutes of Health (NIH), awards R01CA214825, R01CA225190, R01LM012527; and the National Institute on Disability and Rehabilitation Research (NIDRR), award H133E120010. The Electronic Visualization Laboratory (EVL) at the University of Illinois at Chicago (UIC) also receives funding from Argonne National Laboratory, The Joseph and Bessie Feinberg Foundation, Caterpillar, Inc., the Shirley Ryan AbilityLab, the State of Illinois, and UIC. Any opinions, findings, and conclusions or recommendations expressed in this publication are those of the authors and do not necessarily reflect the views of the funding agencies and companies.</p>
+
+<p>
+<strong>FUNDING</strong><br />
+<strong>National Science Foundation (NSF)</strong><br />
+ACI-1450871 IRNC:RXP: StarLight SDX (Brown, PI of subaward to UIC)</p>
+
+<p>CNS-1625941: MRI - Development of Continuum: A Virtualized Attentive Environment for Amplified Collaboration (Johnson, PI; Brown, Kenyon, Marai, Chattopadhyay, co-PIs)</p>
+
+<p>ACI-1441963: SAGE2 (Brown, PI of subaward to UIC)</p>
+
+<p>CNS-1456638: SENSEI (Brown, PI; Johnson, Kenyon, Berger-Wolf, co-PIs)</p>
+
+<p>IIS-1445751: EAGER: Collaborative Research: Articulate: Augmenting Data Visualization With Natural Language Interaction (DiEugenio, PI; Johnson, co-PI)</p>
+
+<p>CBET-1854815: High-performance computing and data-driven modeling of aircraft contrails</p>
+
+<p><strong>National Institutes of Health (NIH)</strong><br />
+<p>NCI-R01CA214825: SMART-ACT: Spatial Methodologic Approaches for Risk Assessment and Therapeutic Adaptation in Cancer Treatment (Marai, PI)</p>
+
+<p>NCI-R01CA225190: QuBBD: Precision E âRadiomics for Dynamic Big Head & Neck Cancer Data (Marai, PI)
+
+<p>R01LM012527: Incorporating Image-based Features into Biomedical Document Classification (Marai, PI of subaward to UIC)</p>
+
+<p><strong>National Institute on Disability and Rehabilitation Research (NIDRR)</strong><br />
+H133E120010: Machines Assisting Recovery from Stroke and Spinal Cord Injury for Reintegration into Society (Kenyon, PI of subaward to UIC)</p>
+
+<p><strong>UIC (Internal funding)</strong><br />
+UI Presidential Initiative to Celebrate the Impact of the Arts and the Humanities (Tsoupikova, PI)</p>
+
+<p><em>SAGE / SAGE2 / CAVE / CAVE2 are trademarks of the University of Illinois Board of Trustees.</em></p>
+<!-- End Menu Page Description -->
+</div>
+<!-- End Content -->
+	<div id="footer_area">
+		<a href="mailto:evl-web@uic.edu"><h3>Contact</h3></a>
+	</div>
+</body>
+</html>

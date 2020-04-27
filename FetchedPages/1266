@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Interdisciplinary Product Development </title>
+<link href="/IPD/ipd.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="/IPD/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/IPD/favicon.ico" type="image/x-icon">
+ <script src="getimages.php"></script>
+ <script language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+var delay = 6000;
+var counter = 0;
+
+function preloadImgs(){
+  for(var i=0;i<imgs.length;i++){
+    MM_preloadImages(imgs[i]);
+  }
+}
+
+function randomImages(){
+  if(counter == (imgs.length)){
+    counter = 0;
+  }
+  MM_swapImage('rotator', '', imgs[counter++]);
+  setTimeout('randomImages()', delay);
+}
+
+//-->
+</script>
+
+<body onLoad="preloadImgs();randomImages()">
+<div class="page-box"><div class="content-box"><!-- nothing outside these karots //-->
+
+
+<div class="logo-box">
+<a href="/IPD/index.php"><img src="images/IPD-main-logo_jen.jpg" width="303" height="79"  border="0" /></a></div>
+<!-- MJS <a href="/IPD/index.php"><img src="images/ipd_logo_web.jpg" width="339" height="60" border="0" /></a></div>  -->
+
+
+<!-- start rotating header //-->
+
+<div id="rotator"><img name="rotator" src="images/rot-heading-images/IC-rooms2-900x295.jpg" border ="0"></div>
+
+
+
+<!-- start pg border/frame //-->
+
+<div id="frame-t">
+<div class="frame-t">
+<div class="frame-b"><div class="frame-l"><div class="frame-r"><div class="frame-bl"><div class="frame-br"><div class="frame-tl"><div class="frame-tr">
+
+
+
+
+
+
+<!-- start topnav bar //-->
+
+<div class="top-navbar">
+<div class="navbar-l"><div class="navbar-r"><div class="navbar-m"><div id="navbar">
+<ul>
+<li><a href="/IPD/overview.php">Overview</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<!-- <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/IPD/course-info.php">Current Year</a>&nbsp;&nbsp;&nbsp;&nbsp;</li> -->
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/IPD/course-info.php">Current Year</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/IPD/people.php">People</a> &nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.uic.edu/depts/innovationcenter" target="_blank">Innovation Center&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/IPD/past-year.php">Past Years</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/IPD/course-info.php">Login</a></li>
+</ul>
+</div>
+</div></div></div></div>
+
+
+
+  <!-- start sidenav content //-->
+
+
+
+<div class="sidenav">
+<div id="top">
+&nbsp;
+<div id="mid">
+&nbsp;
+<div id="bot">
+&nbsp;
+&nbsp;
+<div id="sidenav">
+  <p><strong>IPD Newsfeed</strong></p>
+<!-- The following yellow-heading needs to occupy the right number of -->
+<!-- text lines in the browser, of the main text will not align -->
+<!-- properly.  You can adjust the parameter .copy-content top in -->
+<!-- ipd.css to fix the alignment -->
+<p><span class="yellow-heading">&quot;Classes planned for 2017-18&quot;</span></p> 
+
+<p>IPD in MIE will work with the Order of Saint Francis (OSF) Healthcare in 2019-20.<br>
+<a href="mie-flyer-ugrad_2019.pdf">Information for MIE undergrads.</a><br>
+<a href="mie-flyer-grad_2019.pdf">Information for MIE graduate students.</a>
+<p>&nbsp;</p>
+
+<p><a href="/IPD/news.php"><span class="white-link">View Other Recent Articles</span></a></p>
+
+<!-- include enough blank lines for body text to line up correctly -->
+<!--  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+-->
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div></div></div></div></div>
+
+
+  <!-- start body/editable content //-->
+  
+  <div class="copy-content">
+  
+<p>Interdisciplinary Product Development (IPD) at UIC is a two-semester curriculum that integrates the latest technologies and best practices for innovative product development. The course combines Industrial Design,  Engineering, and MBA/Marketing students from all three colleges to work together in cross-functional teams to research and develop new product concepts. The course focuses on the early stages of the product development process, from identifying market opportunities through initial prototyping. Eschewing the old sequential model of product development, in which a design idea originates in a business unit, is given visual form by industrial design, and then passed off to engineering, this course teaches current best practices of true integration of all three disciplines from the very earliest stages of product development.
+</p>
+<p>The course is team taught by faculty from the three colleges. Each year, a corporate sponsor is recruited to serve as the partner, and provides the financial support to incorporate outside resources and materials not normally available to an academic environment. The sposoring company, in association with the IPD faculty, also provides an interesting and challenging assignment that will result in the research, conception and development of innovative product concepts for the sponsor.
+</p>
+
+    <p>The IPD course in 2017-18 partners with Baxter, BMW, and CAT.   </p>
+</div>
+
+<!-- closing page frame //-->
+
+</div></div></div></div></div></div></div></div>
+<!-- footers //-->
+
+<div id="footer-contain">
+   <div id="footer">
+
+    <span class="white-text">contact info:</span><a href="http://www.ipd.uic.edu/IPD"><span class="yellow-text"> http://www.ipd.uic.edu/IPD/</span></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="white-text">|</span>&nbsp;&nbsp;&nbsp;</span><a href="mailto:mjscott@uic.edu"><span class="yellow-text"> Michael J Scott</span></a></span><br />
+   <div class="businessweek-tag"><strong>IPD working with OSF and others in 2019-20</strong>
+</div>
+   </div>
+
+  
+  
+   <div id="navbar2">
+<div class="navbar2">
+<ul>
+
+<li>&nbsp;<a href="http://www.uic.edu/index.html/">UIC Home</a> &nbsp;&nbsp;&nbsp;&nbsp;|</li>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/IPD/index.php">IPD Home</a> &nbsp;&nbsp;|</li>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/IPD/overview.php">Overview</a>
+&nbsp;&nbsp;&nbsp;|</li>
+<!-- <li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/IPD/course-info.php">Current Year</a> &nbsp;&nbsp;&nbsp;|</li> -->
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/IPD/course-info.php">Current Year</a>&nbsp;&nbsp;&nbsp;&nbsp;|</li>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/IPD/people.php">People</a>  &nbsp;&nbsp;&nbsp;|</li>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.uic.edu/depts/innovationcenter" target="_blank">Innovation Center</a> &nbsp;&nbsp;&nbsp;|</li>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/IPD/past-year.php">Past Years</a> &nbsp;&nbsp;&nbsp;|</li>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/IPD/course-info.php">Login</a></li>
+</ul>
+</div></div>
+
+</div>
+
+
+<div class="copyright"> Copyright 2018 University of Illinois at Chicago. All rights reserved.</div>
+</div>
+
+
+
+
+<!-- nothing below here //-->
+</div></div>
+
+
+
+
+
+</body>
+</html>
+

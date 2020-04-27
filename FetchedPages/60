@@ -1,0 +1,621 @@
+<!DOCTYPE html><html xmlns:upElemTitle="http://xml.apache.org/xalan/java/org.jasig.portal.security.xslt.XalanLayoutElementTitleHelper" xmlns:dlm="http://www.uportal.org/layout/dlm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="en-US" class="respondr"><head><title>Welcome | myUIC</title><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black"/><meta name="description" content="uPortal by Apereo: The academic open source portal built for higher education by higher education"/><meta name="keywords" content="portal, uPortal, academic, higher education, open source, enterprise, Apereo, JA-SIG, JASIG, Jasig"/><link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" type="text/css"/><link href="/ResourceServingWebapp/rs/normalize/2.1.2/normalize-2.1.2.min.css" rel="stylesheet" type="text/css"/><link href="/ResourceServingWebapp/rs/fontawesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/><link href="/ResourceServingWebapp/rs/bootstrap-plugins/accessibility/1.0.2/css/bootstrap-accessibility.min.css" rel="stylesheet" type="text/css"/><link href="/ResourceServingWebapp/rs/jqueryui/1.10.3/theme/smoothness/jquery-ui-1.10.3-smoothness.min.css" rel="stylesheet" type="text/css"/><link href="/uPortal/scripts/jstree/style.min.css" rel="stylesheet" type="text/css"/><script src="/ResourceServingWebapp/rs/modernizr/2.6.2/modernizr-2.6.2.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/jquery/1.10.2/jquery-1.10.2.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/jquery-migrate/jquery-migrate-1.2.1.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/jqueryui/1.10.3/jquery-ui-1.10.3.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/bootstrap/3.3.5/js/bootstrap.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/bootstrap-plugins/accessibility/1.0.2/js/bootstrap-accessibility.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/fluid/1.5.0/js/fluid-custom.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/underscore/1.5.2/underscore-1.5.2.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/backbone/1.1.0/backbone-1.1.0.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/jquery-plugins/noty/2.2.0/jquery.noty.packaged.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/datatables/1.9.4/media/js/jquery.dataTables.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/jquery-plugins/rating/1.0/bootstrap-rating-input.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/datatables/1.9.4/plugins/integration/bootstrap/3/dataTables.bootstrap.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/datatables/1.9.4/extras/column-filter-widgets/js/ColumnFilterWidgets.js" type="text/javascript"> </script><script src="/uPortal/scripts/jstree/jstree.min.js" type="text/javascript"> </script><script src="/uPortal/rs/conflict-resolution/js/resolve-conflicts.min.js" type="text/javascript"> </script><script src="/uPortal/media/skins/respondr/WEX1PR1oUngKTsokfNXLAg.aggr.min.js" type="text/javascript"> </script><link rel="shortcut icon" href="/uPortal/favicon.ico" type="image/x-icon"/><script type="text/javascript">
+    var up = up || {};
+    up.jQuery = jQuery.noConflict(true);
+    up.fluid = fluid;
+    fluid = null;
+    fluid_1_5 = null;
+    up._ = _.noConflict();
+    up._.templateSettings = {
+      interpolate : /{{=(.+?)}}/g,
+      evaluate    : /{{(.+?)}}/g,
+      escape: /{{-([\s\S]+?)}}/g
+    };
+    up.Backbone = Backbone.noConflict();
+
+    // fix console.log in IE8,9.  Though we don't commit to supporting these IE versions, this minor fix allows
+    // these browsers to work better.
+    if (!window.console) window.console = {};
+    if (!window.console.log) window.console.log = function() {};
+    if (!window.console.trace) window.console.trace = function() {};
+
+    (function($) {
+      $(function() {
+        var navMenuToggle = function() {
+          var menu = $(".portal-nav .menu"), menuToggle = $("#up-sticky-nav .menu-toggle");
+          // Toggle the nav visibility when the button is clicked.
+          menuToggle.click(function() {
+            // console.log("Handler for .click() called.");
+            // Open and animate the offcanvas
+            $('.row-offcanvas').toggleClass('active');
+            // show the nav
+            // menu.toggleClass("show");
+            // scroll top
+            $('html, body').animate({
+                scrollTop: 0
+            });
+            // animate the hamburger to an arrow
+            $('.hamburger').toggleClass("is-active");
+            return false;
+          });
+          // Console for debugging.
+          console.log("menu", menu, "menuToggle", menuToggle);
+        }
+
+        navMenuToggle();
+      });
+
+      $(document).ready(function() {
+          if (up.lightboxConfig) {
+            up.lightboxConfig.init();
+          }
+
+          // Unhide the portlet's options menu if there are option items to display.
+          $('div.portlet-options-menu').has('li').removeClass('hidden');
+
+          // If portlet chrome is configured to not show (shows on hover) and the portlet is not movable, the portlet chrome
+          // is hidden.  However if there are option items to display, allow the portlet chrome to show on hover.
+          $('div.hover-toolbar').filter('.hidden').has('li').removeClass('hidden');
+
+          // Attach behavior to the Move Portlet options menu
+          $('.portlet-options-menu .up-portlet-control.move').click(function() {
+             // If Move Portlet, unhide the grab handle and change the menu text
+             if ($(this).text() === $(this).attr('data-move-text')) {
+                $(this).parents('.up-portlet-titlebar').find('.grab-handle').removeClass('hidden');
+                $(this).text($(this).attr('data-cancel-move-text'));
+             } else {
+                // Else cancel the move by hiding the grab handle and reverting the text
+                $(this).parents('.up-portlet-titlebar').find('.grab-handle').addClass('hidden');
+                $(this).text($(this).attr('data-move-text'));
+             }
+          })
+      });
+
+    })(up.jQuery);
+  </script>
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/uPortal/media/skins/respondr/skin1280644432.css"/>
+
+<script src="/uPortal/scripts/respond-1.4.2.min.js" type="text/javascript"></script></head><body class="up dashboard portal fl-theme-mist"><div class="row-offcanvas"><div id="up-notification"></div><div id="wrapper"><div id="region-page-top" class="container-fluid"><div class="row"><div class="col-sm-12"><section id="portlet_u18l1n110" class="up-portlet-wrapper dynamic-respondr-skin">
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Generate a CONFIG URL where appropriate -->
+
+</section></div></div></div><header class="portal-header" role="banner"><div id="up-sticky-nav" class="container-fluid"><div class="portal-global row"><a href="javascript:void(0);" tabindex="0" class="menu-toggle pull-left" aria-label="Menu" role="button" title="Menu" data-toggle="offcanvas" aria-expanded="false" aria-haspopup="true" aria-controls="sidebar"><div class="hamburger hamburger-arrow"><div class="hamburger-box"><div class="hamburger-inner"></div></div></div></a><div id="region-pre-header" class="portal-user"><section id="portlet_u20l1n8" class="up-portlet-wrapper login-launcher">
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="webLoginContainer" class="fl-widget portal-login">
+  <div class="fl-widget-inner">
+    <div class="fl-widget-content">
+        <div id="portalLoginLink" class="fl-widget-content">
+            <a id="portalLoginLink" class="btn" title="Sign In" href="https://my.uic.edu/Shibboleth.sso/Login?target=https://my.uic.edu/uPortal/Login">Sign In</a>
+        </div>
+    </div>
+  </div>
+</div>
+</section></div></div></div><div class="container-fluid portal-header-main"><div class="row"><div id="region-header-left" class="col-sm-6 col-md-8 text-left"><section id="portlet_u18l1n210" class="up-portlet-wrapper portal-logo">
+<p><img alt=""
+    src="/SimpleContentPortlet/content/23211d6f-385c-4693-857a-b82d58107501/White_Logo_60.png" style="width: 65.0px;height: 65.0px;" /></p>
+
+
+</section></div><div id="region-header-right" class="col-sm-6 col-md-4 text-right"><section id="portlet_u25l1n110" class="up-portlet-wrapper search-launcher">
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="webSearchContainer" class="fl-widget">
+    <div class="fl-widget-inner">
+      <div class="fl-widget-content">
+        
+        <form class="form-search" role="form" method="post" action="/uPortal/p/search.ctf1/normal/action.uP" id="Pluto_19_u25l1n110_11_webSearchForm">
+          <div class="input-group">
+            
+            
+            <input id="Pluto_19_u25l1n110_11_webSearchInput" class="searchInput input-large search-query form-control" value="" name="query" type="search" placeholder="Search" title="Search Terms"/>
+            <span class="input-group-btn">
+              <button id="webSearchSubmit" type="submit" name="submit" class="btn btn-default" value="Search">
+                <span>Search</span>
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/ResourceServingWebapp/rs/jquery/1.10.2/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/ResourceServingWebapp/rs/jqueryui/1.10.3/jquery-ui-1.10.3.min.js"></script>
+<script type="text/javascript" src="/uPortal/scripts/search/autosuggestHandler.js"></script>
+<link rel="stylesheet" type="text/css" href="/uPortal/css/search/autosuggest.css">
+
+<script language="javascript" type="text/javascript">var searchjQ=searchjQ||{};searchjQ.Pluto_19_u25l1n110_11_=searchjQ.Pluto_19_u25l1n110_11_||{};searchjQ.Pluto_19_u25l1n110_11_.jQuery=jQuery.noConflict(true);searchjQ.Pluto_19_u25l1n110_11_.jQuery(document).ready(function(){initSearchAuto(searchjQ.Pluto_19_u25l1n110_11_.jQuery,{searchFieldSelector:"#Pluto_19_u25l1n110_11_webSearchInput",prepopulateAutoSuggestUrl:"/uPortal/api/portletList",prepopulateUrlPattern:"/uPortal/p/$fname/max",autoSuggestResultsProcessor:"portletListProcessor",autoSuggestSearchUrl:"/uPortal/p/search.ctf1/normal/retrieveSearchJSONResults.resource.uP"});});searchjQ.Pluto_19_u25l1n110_11_.jQuery("#Pluto_19_u25l1n110_11_webSearchForm").submit(function(a){if(searchjQ.Pluto_19_u25l1n110_11_.jQuery("#Pluto_19_u25l1n110_11_webSearchInput").val().trim().length==0){a.preventDefault();}else{document.getElementById("webSearchSubmit").disabled=1;}});</script>
+</section></div></div></div><nav class="portal-nav"><div id="sidebar" class="sidebar-offcanvas container-fluid"><div id="portalNavigation" class="fl-widget"><div id="portalNavigationInner" class="fl-widget-inner header"><ul id="portalNavigationList" class="menu fl-tabs flc-reorderer-column list-group list-group-horizontal"><li id="portalNavigation_u20l1s1000" class="portal-navigation single active fl-tabs-active locked      list-group-item"><a id="tabLink_u20l1s1000" href="/uPortal/f/welcome/normal/render.uP" title="Welcome" class="portal-navigation-link  "><span title="" class="portal-navigation-label ">Welcome</span><i class="fa fa-chevron-right visible-xs"></i></a></li></ul></div></div></div></nav></header><div id="portalPageBody" class="portal-content" role="main"><div class="container-fluid"><div class="row"><div class="col-md-12"><div class="row"><div id="portalPageBodyMessage" class="col-md-12"></div></div><div id="portalPageBodyColumns" class="row"><div id="column_u20l1s1100" class="portal-page-column column-1 col-md-3     "><div id="inner-column_u20l1s1100" class="portal-page-column-inner"><section id="portlet_u20l1n1232" class="up-portlet-wrapper instructions-login locked     "><div class="modal fade" id="ratePortletModalu20l1n1232" tabindex="-1" role="dialog" aria-labelledby="RatingModal" aria-hidden="true" data-title="Rate Instructions Login" data-close.button.label="Close" data-save.button.label="Save &amp; Close" data-geturl="/uPortal/p/portletmarketplace.ctf2/normal/getRating.resource.uP?pP_portletFName=instructions-login" data-saveurl="/uPortal/p/portletmarketplace.ctf2/normal/saveRating.resource.uP?pP_portletFName=instructions-login" data-get.rating.unsucessful="Sorry, your previous rating of the portlet could not be retrieved" data-rating.save.successful="Your rating is much appreciated" data-rating.save.unsuccessful="Your rating did not save.  Please try again!" data-rating.instructions.unrated="You have not yet rated Instructions Login. Share a rating if you wish." data-rating.instructions.rated="You have already rated Instructions Login. You may update your rating if you wish."></div><script type="text/javascript">
+            (function($) {
+                $( document ).ready(function() {
+                    $('#ratePortletModalu20l1n1232').createRatingModal();
+                    $('#ratePortletModalu20l1n1232').find('input').rating();
+                });
+            })(up.jQuery);
+        </script><div class="up-portlet-wrapper-inner"><div id="toolbar_u20l1n1232" class="fl-widget-titlebar up-portlet-titlebar up-standard-chrome round-top"><h2 class="portlet-title round-top"><a id="u20l1n1232" href="/uPortal/f/welcome/p/instructions-login.u20l1n1232/max/render.uP?pCp">Instructions Login</a><div class="portlet-controls"><div class="grab-handle hidden"><i class="fa fa-arrows"></i></div><div class="portlet-options-menu btn-group hidden"><a class="btn btn-link dropdown-toggle" data-toggle="dropdown" title="Options" href="javascript:void(0);">Options<span class="caret"></span></a><ul class="dropdown-menu" style="right: 0; left: auto;"><li><a href="/uPortal/f/welcome/p/instructions-login.u20l1n1232/max/render.uP?pCp" title="Enter maximized mode for this portlet" class="up-portlet-control focus">Maximize</a></li><li><a href="/uPortal/f/welcome/normal/render.uP?pCt=instructions-login.u20l1n1232&amp;pCs=minimized&amp;pCp" title="Enter minimized mode for this portlet" class="up-portlet-control hide-content">Minimize</a></li></ul></div></div></h2></div><div id="portletContent_u20l1n1232" class="fl-widget-content fl-fix up-portlet-content-wrapper round-bottom"><div class="up-portlet-content-wrapper-inner">
+<div class="row">
+<div class="col-md-12" style="background-color: rgb(0,0,0);">&nbsp;</div>
+</div>
+
+
+<p>&nbsp;</p>
+
+
+<p><strong>Log in to the my.UIC.edu portal: </strong><a
+        href="https://my.uic.edu/Shibboleth.sso/Login?target=https://my.uic.edu/uPortal/Login"><strong><font color="#0066cc">Login</font></strong></a></p>
+
+
+<p><strong>Welcome to UIC!</strong> Once you activate your UIC NetID and password, use it to access most authenticated University of Illinois computing and networking services (e.g., Self-Service Enterprise applications like Student Registration &amp; Records, Financial Aid) as well as UIC campus-based services like email, Blackboard, Wifi and computer labs.</p>
+
+
+<p><strong>One NetID. One Password.</strong> Your new NetID is a unique identifier assigned to you. It becomes part of your UIC email address (<b>NetID@uic.edu</b>) and is your login name for these services.</p>
+
+
+<p>A secure and well-managed password is key to protecting your access to University of Illinois computing resources. The activation process includes setting up password recovery options for self-service management so that you will be prepared, in advance, if you need to recover your password.</p>
+
+
+<hr />
+
+<p><strong>First Time User:&nbsp;</strong><a href="https://ossswebcs4.admin.uillinois.edu/PORTAL_UIC/myuic/newstudent.html"><strong>Activate your NetId</strong></a></p>
+
+
+
+<p><b>Are you a new UIC employee?</b> You will create your NetID and password in <b><a
+      href="https://newhire.uihr.uillinois.edu/cf/newlog.cfm" target="_blank">UI New Hire</a></b>.</p>
+
+
+
+<p><strong>Already have a UIC NetID and password?</strong> Go to: <b><a
+      href="https://password.uic.edu/" target="_blank">password.uic.edu</a></b></p>
+
+
+<p><b>Click here if you have forgotten your password: <a href="https://identity.uillinois.edu/iamFrontEnd/iam/start">Password</a></b></p>
+
+
+</div></div></div></section></div></div><div id="column_u20l1s1200" class="portal-page-column column-2 col-md-6     "><div id="inner-column_u20l1s1200" class="portal-page-column-inner"><section id="portlet_u20l1n1305" class="up-portlet-wrapper campus-image locked   no-chrome  "><div class="modal fade" id="ratePortletModalu20l1n1305" tabindex="-1" role="dialog" aria-labelledby="RatingModal" aria-hidden="true" data-title="Rate Campus Image" data-close.button.label="Close" data-save.button.label="Save &amp; Close" data-geturl="/uPortal/p/portletmarketplace.ctf2/normal/getRating.resource.uP?pP_portletFName=campus-image" data-saveurl="/uPortal/p/portletmarketplace.ctf2/normal/saveRating.resource.uP?pP_portletFName=campus-image" data-get.rating.unsucessful="Sorry, your previous rating of the portlet could not be retrieved" data-rating.save.successful="Your rating is much appreciated" data-rating.save.unsuccessful="Your rating did not save.  Please try again!" data-rating.instructions.unrated="You have not yet rated Campus Image. Share a rating if you wish." data-rating.instructions.rated="You have already rated Campus Image. You may update your rating if you wish."></div><script type="text/javascript">
+            (function($) {
+                $( document ).ready(function() {
+                    $('#ratePortletModalu20l1n1305').createRatingModal();
+                    $('#ratePortletModalu20l1n1305').find('input').rating();
+                });
+            })(up.jQuery);
+        </script><div class="up-portlet-wrapper-inner no-chrome"><div id="toolbar_u20l1n1305" class="up-portlet-titlebar hover-toolbar hidden"><div class="portlet-controls"><div class="grab-handle hidden"><i class="fa fa-arrows"></i></div><div class="portlet-options-menu btn-group hidden"><a class="btn btn-link dropdown-toggle" data-toggle="dropdown" title="Options" href="javascript:void(0);"><i class="fa fa-bars"></i></a><ul class="dropdown-menu" style="right: 0; left: auto;"><li><a href="/uPortal/f/welcome/p/campus-image.u20l1n1305/max/render.uP?pCp" title="Enter maximized mode for this portlet" class="up-portlet-control focus">Maximize</a></li><li><a href="/uPortal/f/welcome/normal/render.uP?pCt=campus-image.u20l1n1305&amp;pCs=minimized&amp;pCp" title="Enter minimized mode for this portlet" class="up-portlet-control hide-content">Minimize</a></li></ul></div></div></div><div id="portletContent_u20l1n1305" class="up-portlet-content-wrapper"><div class="up-portlet-content-wrapper-inner">
+<p><img alt="UIC Winterscape" class="img-responsive" src="/SimpleContentPortlet/content/5c60768f-607d-45ec-8261-4d7a2a3c0f47/winter2.jpg" /></p>
+
+
+</div></div></div></section><section id="portlet_u20l1n1236" class="up-portlet-wrapper my-uic-edu-features locked     "><div class="modal fade" id="ratePortletModalu20l1n1236" tabindex="-1" role="dialog" aria-labelledby="RatingModal" aria-hidden="true" data-title="Rate my.uic.edu  - Features" data-close.button.label="Close" data-save.button.label="Save &amp; Close" data-geturl="/uPortal/p/portletmarketplace.ctf2/normal/getRating.resource.uP?pP_portletFName=my-uic-edu-features" data-saveurl="/uPortal/p/portletmarketplace.ctf2/normal/saveRating.resource.uP?pP_portletFName=my-uic-edu-features" data-get.rating.unsucessful="Sorry, your previous rating of the portlet could not be retrieved" data-rating.save.successful="Your rating is much appreciated" data-rating.save.unsuccessful="Your rating did not save.  Please try again!" data-rating.instructions.unrated="You have not yet rated my.uic.edu  - Features. Share a rating if you wish." data-rating.instructions.rated="You have already rated my.uic.edu  - Features. You may update your rating if you wish."></div><script type="text/javascript">
+            (function($) {
+                $( document ).ready(function() {
+                    $('#ratePortletModalu20l1n1236').createRatingModal();
+                    $('#ratePortletModalu20l1n1236').find('input').rating();
+                });
+            })(up.jQuery);
+        </script><div class="up-portlet-wrapper-inner"><div id="toolbar_u20l1n1236" class="fl-widget-titlebar up-portlet-titlebar up-standard-chrome round-top"><h2 class="portlet-title round-top"><a id="u20l1n1236" href="/uPortal/f/welcome/p/my-uic-edu-features.u20l1n1236/max/render.uP?pCp">my.uic.edu  - Features</a><div class="portlet-controls"><div class="grab-handle hidden"><i class="fa fa-arrows"></i></div><div class="portlet-options-menu btn-group hidden"><a class="btn btn-link dropdown-toggle" data-toggle="dropdown" title="Options" href="javascript:void(0);">Options<span class="caret"></span></a><ul class="dropdown-menu" style="right: 0; left: auto;"><li><a href="/uPortal/f/welcome/p/my-uic-edu-features.u20l1n1236/max/render.uP?pCp" title="Enter maximized mode for this portlet" class="up-portlet-control focus">Maximize</a></li><li><a href="/uPortal/f/welcome/normal/render.uP?pCt=my-uic-edu-features.u20l1n1236&amp;pCs=minimized&amp;pCp" title="Enter minimized mode for this portlet" class="up-portlet-control hide-content">Minimize</a></li></ul></div></div></h2></div><div id="portletContent_u20l1n1236" class="fl-widget-content fl-fix up-portlet-content-wrapper round-bottom"><div class="up-portlet-content-wrapper-inner">
+<div class="row">
+<div class="col-md-12" style="background-color: rgb(0,0,0);">&nbsp;</div>
+</div>
+
+
+<p style="text-align: center;"><span style="font-size: 20.0px;"><strong>New Features</strong></span></p>
+
+
+<p>The portal (my.uic.edu) has been redesigned with input from Students, Faculty and Staff. The changes and new features in the portal are:</p>
+
+
+<ul>
+	<li>There is only one tab level, reducing the number of clicks to access various systems.</li>
+	<li>Single Sign On for both Enterprise Applications (Registration, Grades, etc.) or Bluestem/Shibboleth Applications (email, Blackboard, etc.)</li>
+	<li>The most commonly used features are now on the Welcome tab (landing page).</li>
+	<li>Mobile friendly.</li>
+	<li>You can add any portlet to your &quot;My Favorites&quot;</li>
+	<li>There are fewer tabs: <strong>Welcome</strong> has the most commonly used functions; <strong>Student</strong> has all of the student functions; <strong>Student Services</strong> lists services on one tab; <strong>Help</strong> lists the support contacts.</li>
+</ul>
+
+
+<p>&nbsp;</p>
+
+
+</div></div></div></section></div></div><div id="column_u20l1s1318" class="portal-page-column column-3 col-md-3     "><div id="inner-column_u20l1s1318" class="portal-page-column-inner"><section id="portlet_u20l1n1354" class="up-portlet-wrapper my-uic-edu-announcements locked     "><div class="modal fade" id="ratePortletModalu20l1n1354" tabindex="-1" role="dialog" aria-labelledby="RatingModal" aria-hidden="true" data-title="Rate my.UIC.edu Announcements" data-close.button.label="Close" data-save.button.label="Save &amp; Close" data-geturl="/uPortal/p/portletmarketplace.ctf2/normal/getRating.resource.uP?pP_portletFName=my-uic-edu-announcements" data-saveurl="/uPortal/p/portletmarketplace.ctf2/normal/saveRating.resource.uP?pP_portletFName=my-uic-edu-announcements" data-get.rating.unsucessful="Sorry, your previous rating of the portlet could not be retrieved" data-rating.save.successful="Your rating is much appreciated" data-rating.save.unsuccessful="Your rating did not save.  Please try again!" data-rating.instructions.unrated="You have not yet rated my.UIC.edu Announcements. Share a rating if you wish." data-rating.instructions.rated="You have already rated my.UIC.edu Announcements. You may update your rating if you wish."></div><script type="text/javascript">
+            (function($) {
+                $( document ).ready(function() {
+                    $('#ratePortletModalu20l1n1354').createRatingModal();
+                    $('#ratePortletModalu20l1n1354').find('input').rating();
+                });
+            })(up.jQuery);
+        </script><div class="up-portlet-wrapper-inner"><div id="toolbar_u20l1n1354" class="fl-widget-titlebar up-portlet-titlebar up-standard-chrome round-top"><h2 class="portlet-title round-top"><a id="u20l1n1354" href="/uPortal/f/welcome/p/my-uic-edu-announcements.u20l1n1354/max/render.uP?pCp">my.UIC.edu Announcements</a><div class="portlet-controls"><div class="grab-handle hidden"><i class="fa fa-arrows"></i></div><div class="portlet-options-menu btn-group hidden"><a class="btn btn-link dropdown-toggle" data-toggle="dropdown" title="Options" href="javascript:void(0);">Options<span class="caret"></span></a><ul class="dropdown-menu" style="right: 0; left: auto;"><li><a href="/uPortal/f/welcome/p/my-uic-edu-announcements.u20l1n1354/max/render.uP?pCp" title="Enter maximized mode for this portlet" class="up-portlet-control focus">Maximize</a></li><li><a href="/uPortal/f/welcome/normal/render.uP?pCt=my-uic-edu-announcements.u20l1n1354&amp;pCs=minimized&amp;pCp" title="Enter minimized mode for this portlet" class="up-portlet-control hide-content">Minimize</a></li></ul></div></div></h2></div><div id="portletContent_u20l1n1354" class="fl-widget-content fl-fix up-portlet-content-wrapper round-bottom"><div class="up-portlet-content-wrapper-inner">
+<div class="alert alert-warning" role="alert">There are no announcements at this time.</div>
+<!--<div class="alert alert-warning" role="alert">
+<h3>my.UIC Maintenance, Thursday March 26</h3>
+
+<p>my.UIC will be unavailable between approximately 6pm to 8pm for maintenance on Thursday, March 26.</p>
+</div>
+--></div></div></div></section><section id="portlet_u20l1n1249" class="up-portlet-wrapper my-uic-edu-resources locked     "><div class="modal fade" id="ratePortletModalu20l1n1249" tabindex="-1" role="dialog" aria-labelledby="RatingModal" aria-hidden="true" data-title="Rate my.uic.edu - Resources" data-close.button.label="Close" data-save.button.label="Save &amp; Close" data-geturl="/uPortal/p/portletmarketplace.ctf2/normal/getRating.resource.uP?pP_portletFName=my-uic-edu-resources" data-saveurl="/uPortal/p/portletmarketplace.ctf2/normal/saveRating.resource.uP?pP_portletFName=my-uic-edu-resources" data-get.rating.unsucessful="Sorry, your previous rating of the portlet could not be retrieved" data-rating.save.successful="Your rating is much appreciated" data-rating.save.unsuccessful="Your rating did not save.  Please try again!" data-rating.instructions.unrated="You have not yet rated my.uic.edu - Resources. Share a rating if you wish." data-rating.instructions.rated="You have already rated my.uic.edu - Resources. You may update your rating if you wish."></div><script type="text/javascript">
+            (function($) {
+                $( document ).ready(function() {
+                    $('#ratePortletModalu20l1n1249').createRatingModal();
+                    $('#ratePortletModalu20l1n1249').find('input').rating();
+                });
+            })(up.jQuery);
+        </script><div class="up-portlet-wrapper-inner"><div id="toolbar_u20l1n1249" class="fl-widget-titlebar up-portlet-titlebar up-standard-chrome round-top"><h2 class="portlet-title round-top"><a id="u20l1n1249" href="/uPortal/f/welcome/p/my-uic-edu-resources.u20l1n1249/max/render.uP?pCp">my.uic.edu - Resources</a><div class="portlet-controls"><div class="grab-handle hidden"><i class="fa fa-arrows"></i></div><div class="portlet-options-menu btn-group hidden"><a class="btn btn-link dropdown-toggle" data-toggle="dropdown" title="Options" href="javascript:void(0);">Options<span class="caret"></span></a><ul class="dropdown-menu" style="right: 0; left: auto;"><li><a href="/uPortal/f/welcome/p/my-uic-edu-resources.u20l1n1249/max/render.uP?pCp" title="Enter maximized mode for this portlet" class="up-portlet-control focus">Maximize</a></li><li><a href="/uPortal/f/welcome/normal/render.uP?pCt=my-uic-edu-resources.u20l1n1249&amp;pCs=minimized&amp;pCp" title="Enter minimized mode for this portlet" class="up-portlet-control hide-content">Minimize</a></li></ul></div></div></h2></div><div id="portletContent_u20l1n1249" class="fl-widget-content fl-fix up-portlet-content-wrapper round-bottom"><div class="up-portlet-content-wrapper-inner">
+<p><a href="https://registrar.uic.edu/student_records/transcripts/" target="_new">Alumni and Former UIC Students - Request a Transcript</a></p>
+
+
+<p><a
+    href="https://ossswebcs4.admin.uillinois.edu/PORTAL_UIC/finaidawdltrinstr.html" target="_new">Electronic Financial Aid Notification</a></p>
+
+
+<p><a
+    href="https://ossswebcs4.admin.uillinois.edu/PORTAL_UIC/faqsnewportal.html" target="_new">FAQ</a></p>
+
+
+<p><a
+    href="https://ossswebcs4.admin.uillinois.edu/PORTAL_UIC/myuic/Intenttoenroll1.html" target="_new">Intent to Enroll</a></p>
+
+
+<p><a href="https://admissions.uic.edu/explore-uic" target="_new">Parent or Guidance Counselors </a></p>
+
+
+<p><a
+    href="https://ossswebcs4.admin.uillinois.edu/PORTAL_UIC/myuic/classschedule.html" target="_new">Class Schedule</a></p>
+
+
+<p><a
+    href="https://ossswebcs4.admin.uillinois.edu/PORTAL_UIC/myuic/scheduletools.html" target="_new">Scheduling Tools</a></p>
+
+
+<p><a
+    href="https://ossswebcs4.admin.uillinois.edu/PORTAL_UIC/HELP_LOGIN_POP.php" target="_new">Support / Help</a></p>
+
+
+<p><a
+    href="https://ossswebcs4.admin.uillinois.edu/portal_UIC/learninghub.html" target="_new">The Learning Hub</a></p>
+
+
+</div></div></div></section><section id="portlet_u20l1n1254" class="up-portlet-wrapper university-links locked     "><div class="modal fade" id="ratePortletModalu20l1n1254" tabindex="-1" role="dialog" aria-labelledby="RatingModal" aria-hidden="true" data-title="Rate University Links" data-close.button.label="Close" data-save.button.label="Save &amp; Close" data-geturl="/uPortal/p/portletmarketplace.ctf2/normal/getRating.resource.uP?pP_portletFName=university-links" data-saveurl="/uPortal/p/portletmarketplace.ctf2/normal/saveRating.resource.uP?pP_portletFName=university-links" data-get.rating.unsucessful="Sorry, your previous rating of the portlet could not be retrieved" data-rating.save.successful="Your rating is much appreciated" data-rating.save.unsuccessful="Your rating did not save.  Please try again!" data-rating.instructions.unrated="You have not yet rated University Links. Share a rating if you wish." data-rating.instructions.rated="You have already rated University Links. You may update your rating if you wish."></div><script type="text/javascript">
+            (function($) {
+                $( document ).ready(function() {
+                    $('#ratePortletModalu20l1n1254').createRatingModal();
+                    $('#ratePortletModalu20l1n1254').find('input').rating();
+                });
+            })(up.jQuery);
+        </script><div class="up-portlet-wrapper-inner"><div id="toolbar_u20l1n1254" class="fl-widget-titlebar up-portlet-titlebar up-standard-chrome round-top"><h2 class="portlet-title round-top"><a id="u20l1n1254" href="/uPortal/f/welcome/p/university-links.u20l1n1254/max/render.uP?pCp">University Links</a><div class="portlet-controls"><div class="grab-handle hidden"><i class="fa fa-arrows"></i></div><div class="portlet-options-menu btn-group hidden"><a class="btn btn-link dropdown-toggle" data-toggle="dropdown" title="Options" href="javascript:void(0);">Options<span class="caret"></span></a><ul class="dropdown-menu" style="right: 0; left: auto;"><li><a href="/uPortal/f/welcome/p/university-links.u20l1n1254/max/render.uP?pCp" title="Enter maximized mode for this portlet" class="up-portlet-control focus">Maximize</a></li><li><a href="/uPortal/f/welcome/normal/render.uP?pCt=university-links.u20l1n1254&amp;pCs=minimized&amp;pCp" title="Enter minimized mode for this portlet" class="up-portlet-control hide-content">Minimize</a></li></ul></div></div></h2></div><div id="portletContent_u20l1n1254" class="fl-widget-content fl-fix up-portlet-content-wrapper round-bottom"><div class="up-portlet-content-wrapper-inner">
+<p><a href="http://www.uic.edu/academics" target="_new">Academics</a>&nbsp;</p>
+
+
+<p><a href="http://www.uic.edu/admissions-aid" target="_new">Admissions</a></p>
+
+
+<p><a href="http://www.uic.edu/chicago" target="_new">Chicago</a>&nbsp;</p>
+
+
+<p><a href="http://www.uic.edu/about/contact-us" target="_new">Contact us</a></p>
+
+
+<p><a href="http://www.uic.edu/apps/departments-az/search" target="_new">Directory</a>&nbsp;</p>
+
+
+<p><a href="http://www.uic.edu/life-at-uic" target="_new">Life At UIC</a></p>
+
+
+<p><a href="http://maps.uic.edu/" target="_new">Maps</a></p>
+
+
+<p><a
+    href="https://myuic.apps.uillinois.edu/uPortal/f/s1021/p/uic-alumni-information.n1050/max/render.uP?pCp" target="_self">UIC Alumni</a></p>
+
+
+</div></div></div></section></div></div></div></div></div></div></div><footer id="region-footer-first"><div class="container-fluid"><a name="sitemap"></a><div class="row"><div class="col-md-3"><h4><a href="/uPortal/f/welcome/normal/render.uP" class="">Welcome</a></h4><ul><li><a href="/uPortal/f/welcome/p/instructions-login.u20l1n1232/max/render.uP">Instructions Login</a></li><li><a href="/uPortal/f/welcome/p/campus-image.u20l1n1305/max/render.uP">Campus Image</a></li><li><a href="/uPortal/f/welcome/p/my-uic-edu-features.u20l1n1236/max/render.uP">my.uic.edu  - Features</a></li><li><a href="/uPortal/f/welcome/p/my-uic-edu-announcements.u20l1n1354/max/render.uP">my.UIC.edu Announcements</a></li><li><a href="/uPortal/f/welcome/p/my-uic-edu-resources.u20l1n1249/max/render.uP">my.uic.edu - Resources</a></li><li><a href="/uPortal/f/welcome/p/university-links.u20l1n1254/max/render.uP">University Links</a></li></ul></div></div></div></footer><footer id="region-footer-second" role="contentinfo"><section id="portlet_u25l1n510" class="up-portlet-wrapper legal-footer">
+<div class="container-fluid legal-footer">
+<div><a
+      href="http://www.apereo.org/uportal"
+      target="_blank">Powered by uPortal</a>, an open-source project by <a
+      href="http://www.apereo.org"
+      title="Apereo.org - Serving the Academic Mission">Apereo</a></div>
+
+<div><a
+      href="http://www.apereo.org/uportal/about/license" target="_blank"
+      title="uPortal">uPortal</a> is licensed under the <a
+      href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank"
+      title="Apache License, Version 2.0">Apache License, Version 2.0</a> as approved by the Open Source Initiative (OSI), an <a
+      href="http://www.opensource.org/docs/osd" target="_blank"
+      title="OSI-certified">OSI-certified</a> (&quot;open&quot;) and <a
+      href="http://www.gnu.org/licenses/license-list.html"
+      target="_blank"
+      title="Gnu/FSF-recognized">Gnu/FSF-recognized</a> (&quot;free&quot;) license.</div>
+
+<div>&copy; 2018 The Board of Trustees of the University of Illinois | <a
+      href="https://www.vpaa.uillinois.edu/resources/web_privacy" target="_blank">Privacy policy</a></div>
+</div>
+
+
+</section></footer><div id="region-page-bottom" class="container-fluid"><div class="row"><div class="col-sm-12"><section id="portlet_u25l1n610" class="up-portlet-wrapper attachments">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/SimpleContentPortlet/js/fineuploader/fineuploader-3.3.0.js"></script>
+<link rel="stylesheet" type="text/css" href="/SimpleContentPortlet/js/fineuploader/fineuploader-3.3.0.css" />
+<link rel="stylesheet" type="text/css" href="/SimpleContentPortlet/css/attachments.css" />
+
+<div id="Pluto_38_u25l1n610_11_attachments">
+    <div class="lb_backdrop"></div>
+    <div class="lb_container">
+        <div class="fl-widget portlet" role="section">
+            <div class="fl-widget-titlebar portlet-title" role="sectionhead">
+                <h2 role="heading">Attachments</h2>
+            </div> <!-- end: portlet-title -->
+            <div class="fl-widget-content portlet-body" role="main">
+                <div class="portlet-section" role="region">
+                    <div class="lb_body">
+                        <label>Filename</label> (optional)<br/>
+                        <input id="Pluto_38_u25l1n610_11_filename" type="text"/><br/>
+						<label>Source</label> (optional)<br/>
+						<input id="Pluto_38_u25l1n610_11_source" type="text"/>
+                        <br/><br/>
+                        <div id="Pluto_38_u25l1n610_11_file-uploader"></div>
+                    </div>
+                </div>
+                <div class="portlet-section" role="region">
+                    <div class="lb_controls">
+                    <input type="button" id="Pluto_38_u25l1n610_11_triggerUpload" class="btn btn-primary" value="Upload"/>
+                    <input type="button" id="Pluto_38_u25l1n610_11_cancelUpload" class="btn btn-primary lb_close" value="Cancel"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var Pluto_38_u25l1n610_11_ = Pluto_38_u25l1n610_11_ || {};
+
+    
+        
+        
+            
+            Pluto_38_u25l1n610_11_.jQuery = up.jQuery;
+        
+    
+    
+    var upAttachments = upAttachments || {};
+
+    Pluto_38_u25l1n610_11_.jQuery(function () {
+        var $ = Pluto_38_u25l1n610_11_.jQuery;
+
+        var open_box = function()
+        {
+            var $ = Pluto_38_u25l1n610_11_.jQuery;
+            $("#Pluto_38_u25l1n610_11_attachments .lb_backdrop, #Pluto_38_u25l1n610_11_attachments .lb_container").animate({'opacity': '.50'}, 300, 'linear');
+            $("#Pluto_38_u25l1n610_11_attachments .lb_container").animate({'opacity': '1.00'}, 300, 'linear');
+            $("#Pluto_38_u25l1n610_11_attachments .lb_backdrop, #Pluto_38_u25l1n610_11_attachments .lb_container").css('display', 'block');
+        }
+
+        var close_box = function()
+        {
+            var $ = Pluto_38_u25l1n610_11_.jQuery;
+            $("#Pluto_38_u25l1n610_11_attachments .lb_backdrop, #Pluto_38_u25l1n610_11_attachments .lb_container").animate({'opacity':'0'}, 300, 'linear', function(){
+                $("#Pluto_38_u25l1n610_11_attachments .lb_backdrop, #Pluto_38_u25l1n610_11_attachments .lb_container").css('display', 'none');
+            });
+        }
+        
+        if (!upAttachments.show) {
+        	upAttachments = {
+        		hide: function() {
+        	        var $ = Pluto_38_u25l1n610_11_.jQuery;
+        	        $("#Pluto_38_u25l1n610_11_filename").val('');
+					$("#Pluto_38_u25l1n610_11_source").val('');
+        	        close_box();
+        	    },
+        	    show: function(callback) {
+        	        var $ = Pluto_38_u25l1n610_11_.jQuery;
+        	        var uploader = new qq.FineUploader({
+        	            element: $("#Pluto_38_u25l1n610_11_file-uploader")[0],
+
+    	                request: {
+        	                endpoint: "/SimpleContentPortlet/api/content/attach/local.json",
+        	                forceMultipart: true,
+        	                paramsInBody: true,
+        	                params: {
+        	                    filename: function () { return $("#Pluto_38_u25l1n610_11_filename").val(); },
+								source: function () { return $("#Pluto_38_u25l1n610_11_source").val(); }
+        	                }
+        	            },
+
+        	            multiple: false,
+
+        	            validation: {
+        	                allowedExtensions: [],
+        	                sizeLimit: 20971520,
+        	                stopOnFirstInvalidFile: true
+        	            },
+
+        	            autoUpload: false,
+
+        	            text: {
+        	                uploadButton: "Select File",
+        	                cancelButton: 'Cancel',
+        	                retryButton: 'Retry',
+        	                failUpload: 'Upload failed',
+        	                dragZone: 'Drop files here to upload',
+        	                formatProgress: "{percent}% of {total_size}",
+        	                waitingForResponse: "Processing..."
+        	            },
+
+        	            messages: {
+        	                typeError: "{file} has an invalid extension. Valid extension(s): {extensions}.",
+        	                sizeError: "{file} is too large, maximum file size is {sizeLimit}.",
+        	                minSizeError: "{file} is too small, minimum file size is {minSizeLimit}.",
+        	                emptyError: "{file} is empty, please select files again without it.",
+        	                noFilesError: "No files to upload.",
+        	                onLeave: "The files are being uploaded, if you leave now the upload will be cancelled."
+        	            },
+
+        	            debug: true,
+
+        	            callbacks: {
+        	                onSubmit: function (id, filename) {
+        	                    var $ = Pluto_38_u25l1n610_11_.jQuery;
+        	                },
+        	                onComplete: function (id, fileName, responseJSON) {
+        	                    var $ = Pluto_38_u25l1n610_11_.jQuery;
+        	                    delete responseJSON.success;
+        	                    callback(responseJSON);
+        	                },
+        	                showMessage: function (message) {
+        	                    var $ = Pluto_38_u25l1n610_11_.jQuery;
+        	                    $("#Pluto_38_u25l1n610_11_file-uploader").append('<div class="alert alert-error">' + message + '</div>');
+        	                }
+        	            }
+
+        	        });
+
+        	        $("#Pluto_38_u25l1n610_11_attachments .lb_close, #Pluto_38_u25l1n610_11_attachments .lb_backdrop").click(function () {
+        	            var $ = Pluto_38_u25l1n610_11_.jQuery;
+        	            uploader.reset();
+        	            $("#Pluto_38_u25l1n610_11_filename").val('');
+        	            close_box();
+        	        });
+
+        	        $("#Pluto_38_u25l1n610_11_triggerUpload").click(function () {
+        	            uploader.uploadStoredFiles();
+        	        })
+
+        	        open_box();
+        	    }
+        	};
+        }
+
+    });
+</script></section><section id="portlet_u25l1n620" class="up-portlet-wrapper google-analytics-config">
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+  var up = up || {};
+  up.analytics = up.analytics || {};
+  up.analytics.model = {"defaultConfig":{"name":"","propertyId":"UA-97834858-1","config":[],"dimensionGroups":[]},"hosts":[]};
+</script>
+</section></div></div></div><div id="config-lightbox" class="modal fade"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button><h4 class="modal-title">Configuration</h4></div><div class="modal-body"><div class="loading"></div><div class="modal-body-content"></div></div></div></div></div></div><div id="portalDropWarning" class="drop-warning" style="display:none;"><p>This portlet cannot be moved here. The portlet underneath is locked.</p></div><script type="text/javascript">
+    
+        up.jQuery(document).ready(function() {
+        
+            if(window.location.search.indexOf('redirectToDefault=true') > 0) {
+              up.jQuery('#up-notification').noty({text: 'It looks like the page you were attempting to go to does not exist so we redirected you here.', type: 'information'});
+            }
+
+            
+        });
+    </script><script type="text/javascript">
+                up.analytics = up.analytics || {};
+                up.analytics.host = 'my.uic.edu';
+                up.analytics.portletData = {"17_u25l1n510_11":{"fname":"legal-footer","executionTimeNano":378555},"5396_u20l1n1354_11":{"fname":"my-uic-edu-announcements","executionTimeNano":383809},"83_u25l1n620_11":{"fname":"google-analytics-config","executionTimeNano":64566729},"24_u18l1n110_11":{"fname":"dynamic-respondr-skin","executionTimeNano":563399},"397_u20l1n1232_11":{"fname":"instructions-login","executionTimeNano":432645},"19_u25l1n110_11":{"fname":"search-launcher","executionTimeNano":30355961},"38_u25l1n610_11":{"fname":"attachments","executionTimeNano":493527},"2504_u20l1n1305_11":{"fname":"campus-image","executionTimeNano":420718},"350_u20l1n1249_11":{"fname":"my-uic-edu-resources","executionTimeNano":399684},"7_u20l1n8_11":{"fname":"login-launcher","executionTimeNano":485283},"1_u18l1n210_11":{"fname":"portal-logo","executionTimeNano":463201},"349_u20l1n1254_11":{"fname":"university-links","executionTimeNano":430875},"396_u20l1n1236_11":{"fname":"my-uic-edu-features","executionTimeNano":455260}};
+                up.analytics.pageData = {"urlState":"NORMAL","executionTimeNano":115138374,"tab":{"id":1,"fragmentName":"guest-lo","tabName":"Welcome","displayString":"Welcome (guest-lo)"}};
+            </script></div></body></html>
