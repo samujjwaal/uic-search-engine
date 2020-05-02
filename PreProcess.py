@@ -22,7 +22,6 @@ import re
 import pickle
 from bs4 import BeautifulSoup
 from bs4.element import Comment
-from collections import deque
 from nltk.stem import PorterStemmer
 from nltk.corpus import stopwords
 
@@ -34,10 +33,10 @@ stop_words = stopwords.words('english')
 st = PorterStemmer()
 
 # Initializing regex to remove words with one or two characters length
-shortword = re.compile(r'\W*\b\w{1,2}\b')
+# shortword = re.compile(r'\W*\b\w{1,2}\b')
 
 # folder to store pickel files
-pickle_folder = "./PickelFiles/"
+pickle_folder = "./PickleFiles/"
 os.makedirs(pickle_folder, exist_ok=True)
 
 # +
@@ -153,3 +152,9 @@ with open(pickle_folder + 'webpages_tokens.pickle', 'wb') as f:
 
 len(inverted_index)
 # inverted_index
+
+# +
+# for item in webpage_tokens:
+# #     print(item)
+#     if not webpage_tokens[item]:
+#         print(item)
