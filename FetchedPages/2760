@@ -1,943 +1,37 @@
-    <!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" class="no-js">
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <!-- favicon.twig -->
-<link rel="apple-touch-icon" sizes="180x180" href="//libapps.s3.amazonaws.com/apps/common/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="//libapps.s3.amazonaws.com/apps/common/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="//libapps.s3.amazonaws.com/apps/common/favicon/favicon-16x16.png">
-<link rel="manifest" href="//libapps.s3.amazonaws.com/apps/common/favicon/site.webmanifest">
-<link rel="mask-icon" href="//libapps.s3.amazonaws.com/apps/common/favicon/safari-pinned-tab.svg" color="#5bbad5">
-<link rel="shortcut icon" href="//libapps.s3.amazonaws.com/apps/common/favicon/favicon.ico">
-<meta name="msapplication-TileColor" content="#ffc40d">
-<meta name="msapplication-config" content="//libapps.s3.amazonaws.com/apps/common/favicon/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
-<title>Aerials @ UIC - Aerial Photographs - Subject and Course Guides at University of Illinois at Chicago</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="robots" content="noarchive" /><!-- favicon.twig -->
-<link rel="apple-touch-icon" sizes="180x180" href="//libapps.s3.amazonaws.com/apps/common/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="//libapps.s3.amazonaws.com/apps/common/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="//libapps.s3.amazonaws.com/apps/common/favicon/favicon-16x16.png">
-<link rel="manifest" href="//libapps.s3.amazonaws.com/apps/common/favicon/site.webmanifest">
-<link rel="mask-icon" href="//libapps.s3.amazonaws.com/apps/common/favicon/safari-pinned-tab.svg" color="#5bbad5">
-<link rel="shortcut icon" href="//libapps.s3.amazonaws.com/apps/common/favicon/favicon.ico">
-<meta name="msapplication-TileColor" content="#ffc40d">
-<meta name="msapplication-config" content="//libapps.s3.amazonaws.com/apps/common/favicon/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
-<!-- public_metadata.twig -->
+        <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-WXRNQ8');</script> <!-- End Google Tag Manager -->
+    <title>Alumni services</title>
+    <link rel="stylesheet" href="/css/gdpr.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/css/main.min.css?version=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <!-- auto generated dublin core metadata -->
-    <meta name="DC.Title" content="Subject and Course Guides: Aerial Photographs: Aerials @ UIC"/>
-    <meta name="DC.Creator" content="Benjamin Aldred"/>
-    <meta name="DC.Subject" content="Maps and GIS, Special Collections & University Archives"/>
-    <meta name="DC.Description" content=""/>
-    <meta name="DC.Publishers" content="University of Illinois at Chicago"/>
-    <meta name="DC.Rights" content="Copyright University of Illinois at Chicago 2020"/>
-    <meta name="DC.Language" content="en"/>
-    <meta name="DC.Identifier" content="https://researchguides.uic.edu/aerials/uic"/>
-    <meta name="DC.Date.Created" content="Jun 18, 2015"/>
-    <meta name="DC.Date.Modified" content="Mar 20, 2019"/>
-    
-		<meta property="og:title" content="Subject and Course Guides: Aerial Photographs: Aerials @ UIC">
-		<meta property="og:description" content="Subject and Course Guides: Aerial Photographs: Aerials @ UIC">
-		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://researchguides.uic.edu/aerials/uic">
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@springshare"><link rel="stylesheet" href="/web/jquery/css/jquery-ui.min.css?2695" /><link rel="stylesheet" href="/web/font-awesome/4.7.0/css/font-awesome.min.css" /><link rel="stylesheet" type="text/css" href="/web/slick-1.7.1/slick/slick.css"><link rel="stylesheet" type="text/css" href="/web/slick-1.7.1/slick/slick-theme.css"><link rel="stylesheet" href="/web/css2.0.7/lg-public.min.css" /><script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script><!-- js_include_fallback.twig -->
-    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <script>
-        jQuery.ui ||
-        document.write('<script src="/web/jquery/js/jquery-ui.min.js?2695">\x3C/script>');
+        document.documentElement.className = "js";
+
+        // utilities
+        var getQueryString = function ( field, url ) {
+            // hat tip https://goo.gl/Q6Hyyx
+            var href = url ? url : window.location.href;
+            var reg = new RegExp( '[?&]' + field + '=([^&#]*)', 'i' );
+            var string = reg.exec(href);
+            return string ? string[1] : null;
+        };
     </script>
-<!-- !js_include_fallback.twig --><script type="text/javascript" src="/web/js2.0.7/lg-public.min.js"></script><style>/* =========================================== */
-                        /* bootstrap overrides */
-                        /* =========================================== */
-                        #s-lg-tabs-container .nav-tabs > li > a,
-                        #s-lg-tabs-container .nav-tabs > li > button,
-                        #s-lg-tabs-container .nav-pills > li > a,
-                        #s-lg-tabs-container .nav-pills > li > button {
-                            
-                            border: 1px solid transparent;
-                            -webkit-border-radius: 0;
-                            -moz-border-radius: 0;
-                            border-radius: 0;
-                            background-color: #ffffff;
-                            color: #001e62;
-                            font-weight: bold;
-                            padding: 4px 15px;
-                        }
-                        #s-lg-tabs-container .nav-tabs {
-                            border-bottom: 0;
-                        }
-                        #s-lg-tabs-container .nav-tabs > li#s-lg-admin-tab-add > a {
-                            -webkit-border-radius: 4px 4px 0 0;
-                            -moz-border-radius: 4px 4px 0 0;
-                            border-radius: 4px 4px 0 0;
-                        }
-                        #s-lg-tabs-container .nav-tabs > li > a:hover,
-                        #s-lg-tabs-container .nav-tabs > li > button:hover,
-                        #s-lg-tabs-container .nav-pills > li > a:hover,
-                        #s-lg-tabs-container .nav-pills > li > button:hover {
-                            
-                            border: 1px solid transparent;
-                            -webkit-border-radius: 0;
-                            -moz-border-radius: 0;
-                            border-radius: 0;
-                            background-color: #001e62;
-                            color: #ffffff;
-                        }
-                        #s-lg-tabs-container .nav-tabs > .active > a,
-                        #s-lg-tabs-container .nav-tabs > .active > button,
-                        #s-lg-tabs-container .nav-pills > .active > a,
-                        #s-lg-tabs-container .nav-pills > .active > button {
-                            color: #ffffff;
-                            cursor: default;
-                            background-color: #001e62;
-                            
-                            border: 1px solid transparent;
-                            -webkit-border-radius: 0;
-                            -moz-border-radius: 0;
-                            border-radius: 0;
-                            border-bottom-color: transparent;
-                            font-weight: bold;
-                        }
-                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > a,
-                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > button {
-                            color: #ffffff;
-                            cursor: default;
-                            background-color: #001e62;
-                            border-bottom-color: transparent;
-                        }
-                        #s-lg-tabs-container .nav-tabs > .active > a:hover,
-                        #s-lg-tabs-container .nav-pills > .active > a:hover,
-                        #s-lg-tabs-container .nav-tabs > .active > button:hover,
-                        #s-lg-tabs-container .nav-pills > .active > button:hover {
-                            color: #ffffff;
-                            cursor: pointer;
-                            background-color: #001e62;
-                            
-                            border: 1px solid transparent;
-                            -webkit-border-radius: 0;
-                            -moz-border-radius: 0;
-                            border-radius: 0;
-                            border-bottom-color: transparent;
-                            font-weight: bold;
-                        }
-                        #s-lg-tabs-container .nav .dropdown-toggle .caret {
-                            border-top-color: #e1e1e1;
-                        }
-                        #s-lg-tabs-container .nav-tabs button.dropdown-toggle .caret {
-                            margin-left: 2px;
-                            margin-top: -3px;
-                        }
-                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
-                            border-radius: 0;
-                            padding: 4px 6px 4px 3px;
-                            border-left: 1px solid transparent;
-                        }
-                        #s-lg-tabs-container .nav-tabs > li > button.s-lg-tab-drop {
-                            border-radius: 0;
-                            padding: 4px 6px 0px 3px;
-                            border-left: 1px solid transparent;
-                            margin-right: 2px;
-                        }
-                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop:hover {
-                            border-radius: 0;
-                            border-left: 1px solid #bbb;
-                            padding: 4px 6px 4px 3px;
-                        }
-                        #s-lg-tabs-container .nav-tabs > li > button.s-lg-tab-drop:hover {
-                            border-radius: 0;
-                            border-left: 1px solid #bbb;
-                            padding: 4px 6px 0px 3px;
-                        }
-                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link,
-                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link:hover,
-                        #s-lg-tabs-container .nav-tabs > li > button.s-lg-tab-top-link,
-                        #s-lg-tabs-container .nav-tabs > li > button.s-lg-tab-top-link:hover {
-                            border-radius: 0;
-                            font-weight: bold;
-                            padding: 4px 5px 4px 10px;
-                        }
-                        .nav-tabs > li > a.s-lg-tab-top-link,
-                        .nav-tabs > li > button.s-lg-tab-top-link {
-                            margin-right: 0px;
-                        }
 
-                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop,
-                        #s-lg-tabs-container .nav-pills > li > button.s-lg-tab-drop {
-                            border-radius: 0;
-                            padding: 4px 8px 4px 8px;
-                            border-left: 1px solid transparent;
-                            position: absolute;
-                            right: 0;
-                        }
-                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop:hover,
-                        #s-lg-tabs-container .nav-pills > li > button.s-lg-tab-drop:hover {
-                            border-radius: 0;
-                            border-left: 1px solid #bbb;
-                            padding: 4px 8px 4px 8px;
-                        }
-                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link,
-                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover,
-                        #s-lg-tabs-container .nav-pills > li > button.s-lg-tab-top-link,
-                        #s-lg-tabs-container .nav-pills > li > button.s-lg-tab-top-link:hover {
-                            width: 100%;
-                            float: left;
-                            border-radius: 0;
-                            font-weight: bold;
-                            padding: 4px 15px 4px 15px;
-                        }
-                    .s-lib-box {
-                        border-color: #cccccc;
-                        border-width: 1px;
-                        box-shadow: 0 8px 6px -6px #AAAAAA;border-radius: 0;
-                        background-color: #fff;
-                    }
-                    .s-lib-box-std .s-lib-box-title {
-                        background-color: #002b5c;background-image: none;
-                        color: #ffffff;
-                        border-bottom: 1px solid #cccccc;
-                    }
-                    .s-lib-box .s-lib-box-title {
-                        background-color: #002b5c;background-image: none;
-                        color: #ffffff;
-                        border-bottom: 1px solid #cccccc;;
-                        border-radius: 0;
-                    }
-                    .s-lib-box .s-lg-box-footer {
-                    border-radius: 0;
-                    }</style><link rel="stylesheet" type="text/css" href="https://library.webhost.uic.edu/springshare/libguides/main.min.css">
-<style type="text/css">
-    /* Pixo styles from main website */
 
+    <script src="//v2.libanswers.com/load_chat.php?hash=a8f3cdd768831e345ca9d2f796ff5e5d"></script>
+    <script src="https://cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js" type="text/javascript" charset="UTF-8"></script>
+</head>
+<body class="theme--navy">
+    <!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXRNQ8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) -->
+    <div class="page l-page ">
 
-    /* Overrides General */
-        body, #s-lib-footer-public {
-            background-color: #f8f8f8;
-            font-size:16px;
-        }
-
-        @media (max-width: 800px) {
-            #s-lib-public-header-title,
-            #s-lib-public-header-desc,
-            #s-lib-public-main, {
-                margin-left: 1rem;
-                margin-right: 1rem;
-            }
-        }
-
-        [class*=" col-"], [class*=" grid-"], [class^=col-], [class^=grid-] {
-            margin: 0;
-            display: inherit;
-            flex-flow: inherit;
-        }
-
-        #s-lg-guide-list-controls > div.pull-right {
-            margin: -.5rem 0 .5rem 1rem
-        }
-
-        #s-lg-guide-main div[class^="col-md-"] {
-            margin: 0;
-        }
-
-        /* Typography Main */
-       #s-lc-public-header,
-        #s-lg-guide-nav,
-        #s-lg-guide-main,
-        #s-lib-footer-public,
-        #s-lib-public-header,
-        #s-lib-public-nav,
-        #s-lib-public-main,
-        #s-lg-tabs-container,
-       #s-lg-guide-name,
-       #s-lg-guide-desc-container,
-       .popover-title {
-            color: #363636;
-        }
-
-        /* Title */
-        #s-lg-guide-header h1,
-        #s-lib-public-header h1 {
-            font-size: 2.5em;
-            line-height: 1.125em;
-            font-weight: 500;
-            padding-bottom: .75rem;
-        }
-
-        #s-lg-guide-main h2,
-        #s-lib-public-header h2,
-        #s-lg-guide-tabs h2 {
-            font-size: 1.5em;
-            line-height: 1.125em;
-            font-weight: 600;
-            padding-bottom: .5rem;
-        }
-        #s-lg-guide-main h3,
-        #s-lib-public-header h3,
-        .s-lg-col-boxes h3 {
-            line-height: 1.25em;
-            font-size: 1.25em;
-            font-weight: 700;
-        }
-        #s-lg-guide-main h4,
-        #s-lib-public-header h4,
-        .s-lg-col-boxes h4 {
-           line-height: 1.25em;
-           font-size: 1em;
-           font-weight: 700;
-        }
-        #s-lg-guide-main h5,
-        #s-lib-public-header h5,
-        .s-lg-col-boxes h5 {
-               color: #d50032;
-               font-style: italic;
-               line-height: 1.25em;
-               font-size: 1em;
-               font-weight: 500;
-}
-       #s-lg-guide-main h6,
-        #s-lib-public-header h6,
-        .s-lg-col-boxes h6 {
-              letter-spacing: 0.11em;
-              text-transform: uppercase;
-              line-height: 1.25em;
-               font-size: 1em;
-               font-weight: 400;
-       }
-        #s-lg-guide-main strong,
-        #s-lg-guide-main b {
-            font-weight: bold;
-        }
-
-        #s-lg-guide-main em {
-            font-style: italic;
-        }
-
-        /* Links */
-        #s-lg-guide-main a,
-        #s-lib-footer-public a,
-        #s-lg-tabs-container a {
-            color: #007f85;
-        }
-
-        #s-lg-guide-main a.btn,
-        #s-lib-footer-public a.btn,
-        #s-lg-tabs-container a.btn {
-            color: white;
-        }
-
-        #s-lg-guide-main a.button,
-        #s-lg-guide-main a.button:hover,
-        #s-lib-footer-public a.button,
-        #s-lib-footer-public a.button:hover,
-        #s-lg-tabs-container a.button,
-        #s-lg-tabs-container a.button:hover {
-            color: white;
-        }
-
-        #s-lg-guide-main a.button {
-            color: white;
-        }
-
-        #s-lg-guide-main a:hover,
-        #s-lib-footer-public a:hover,
-        #s-lg-tabs-container a:hover {
-            border-bottom: 1px solid rgba(213,0,50,0.5);
-            border-bottom-width: 1px;
-            border-bottom-style: solid;
-            border-bottom-color: rgba(213, 0, 50, 0.498039);
-            color: #d50032;
-            transition: all .4s;
-        }
-
-        #s-lg-guide-main a.btn:hover,
-        #s-lib-footer-public a.btn:hover,
-        #s-lg-tabs-container a.btn:hover {
-            color: #eee;
-        }
-
-        /* Lists */
-        #s-lg-guide-main ul {
-            padding-left: 20px;
-            list-style-type: disc;
-        }
-
-        #s-lg-guide-main ol {
-            padding-left: 20px;
-            list-style-type: georgian;
-        }
-
-        #s-lg-guide-main li {
-            list-style-type: disc;
-            /*margin: 0;*/
-        }
-
-      /*Image Wrapping*/
-        .s-lib-box img {
-          float: left;
-          padding: 0 10px;
-     }
-    .s-lib-box img.left {
-          float: left;
-          width: 50%;
-     }
-      .s-lib-box img.right{
-          float: right;
-          width: 50%;
-     }
-        .s-lib-profile-image img {
-         float: none;
-        padding: 0;
-        background-color: inherit;
-        border: none;
-        box-shadow: none;
-     }
-
-
-    /* Overrides Header */
-
-        /* breadcrumb */
-
-        #s-lib-bc #s-lib-bc-customer > a {
-            display: block;
-            font-size: 14px;
-            line-height: 28px;
-            background-color: #d50032;
-            border-radius: 50%;
-            height: 14px;
-            overflow: hidden;
-            padding: 0;
-            text-indent: 50px;
-            white-space: nowrap;
-            width: 14px;
-            border: none;
-            position: relative;
-            top: 2px;
-        }
-
-        .breadcrumb>li+li:before {
-            padding: 0 .8rem;
-            font-size: .75em;
-            vertical-align: middle;
-            color: #888;
-            content: "/\00a0";
-            content: "➤";
-        }
-
-        @media (min-width: 801px) {
-            #s-lib-bc {
-                margin-top: 2.5rem;
-            }
-
-            /* temp fix to header styles, 2018-09-07 */
-            #menu-eyebrow {
-                flex: 1 0 31em;
-                text-align: right;
-            }
-
-            /* body > header > div.l-header > div.l-full > nav > div.l-eyebrow > ul.menu-uic */
-            ul.menu-uic {
-                flex: 1 0 20em !important;
-            }
-            #search {
-                flex: 0 0 2rem;
-                margin-top: 0;
-            }
-        }
-
-        #s-lib-bc a,
-        #s-lib-bc-page, 
-        .dropdown-menu>li>a {
-            font-size: 1.25em;
-            font-weight: normal;
-            color: rgb(0, 30, 98);
-        }
-
-      
-        #s-lib-bc #s-lib-bc-page {
-            color: #d50032;
-        }
-
-        #s-lib-bc a:hover {
-            color: #d50032;
-            transition: all .4s;
-        }
-
-
-        #s-lg-guide-tabs > ul > li:nth-child(4) > a.s-lg-tab-drop.dropdown-toggle > span.caret {}
-
-        /* Line under tabs */
-        #s-lg-guide-tabs-title-bar {
-            border: 1px solid rgb(225, 225, 225);
-            border-bottom: none;
-        }
-
-        /* Page Subtitle */
-        span#s-lg-guide-description {
-            font-size: .9em;
-        }
-     /*Home page navigation */
-     .highlight-btn {border: 1px solid #141b4d;}
-     #s-lg-hp-nav .rightnav-links {display: block;}
-     #s-lg-hp-nav .rightnav-links li {float:right;}
-
-    .nav-pills>li.active>button, .nav-pills>li.active>button:focus, .nav-pills>li.active>button:hover {background-color:#001e62;}
-    .nav .s-lg-index-nav-btn>button {color:#001e62; font-weight: 700;}
-    .nav .s-lg-index-nav-btn>button:hover {text-decoration:underline;}
-
-   @media (max-width: 960px) {
-    #s-lg-hp-nav .rightnav-links {float:left; clear:left; padding-top:3px;}
-}
-
-
-        /* Tabs */
-            /* Reset */
-            #s-lg-tabs-container ul.nav-tabs > li > a,
-            #s-lg-tabs-container ul.nav-tabs > li > a:hover,
-            #s-lg-tabs-container ul.nav-tabs > li > a.active,
-            #s-lg-tabs-container ul.nav-tabs > li > a.active:hover,
-            #s-lg-tabs-container ul.nav-tabs > li > a.s-lg-tab-drop,
-            #s-lg-tabs-container ul.nav-tabs > li > a.s-lg-tab-drop:hover,
-            #s-lg-tabs-container ul.nav-tabs > li > a.s-lg-tab-top-link,
-            #s-lg-tabs-container ul.nav-tabs > li > a.s-lg-tab-top-link:hover {
-                color: rgb(0, 30, 98);
-                background-color: white;
-                border-radius: 0;
-                font-weight: 500;
-                padding: 5px 10px; /**/
-                margin: 0 .5rem .5rem 0;
-                border: 1px solid rgb(225, 225, 225);
-                outline: none;
-            }
-
-            /* Hover */
-            #s-lg-tabs-container ul.nav-tabs > li > a:hover,
-            #s-lg-tabs-container ul.nav-tabs > li > a.active:hover,
-            #s-lg-tabs-container ul.nav-tabs > li > a.s-lg-tab-top-link:hover {
-                z-index: 1;
-                border: 2px solid rgb(0, 30, 98);
-                padding: 4px 9px;
-                transition: border-color .4s;
-            }
-
-            /* Dropdown Tab */
-            #s-lg-tabs-container ul.nav-tabs > li > a.s-lg-tab-top-link,
-            #s-lg-tabs-container ul.nav-tabs > li > a.s-lg-tab-top-link:hover {
-                margin-right: 0;
-            }
-
-            /* Dropdown button */
-            #s-lg-tabs-container ul.nav-tabs > li > a.s-lg-tab-drop {
-                border-left: none;
-                padding: 5px 9px 5px 6px;
-            }
-
-            /* carat */
-            #s-lg-tabs-container ul.nav-tabs > li > a.s-lg-tab-drop.dropdown-toggle > span.caret, #s-lg-tabs-container ul.nav-pills > li > a.s-lg-tab-drop.dropdown-toggle > span.caret  {
-                color: rgb(0, 30, 98);
-            }
-
-            #s-lg-tabs-container ul.nav-tabs > li > a.s-lg-tab-drop:hover,   #s-lg-tabs-container ul.nav-pills > li > a.s-lg-tab-drop:hover,  {
-                border: 2px solid rgb(0, 30, 98);
-                padding: 4px 8px 4px 6px;
-                margin-left: -2px;
-            }
-
-
-            /* Active tab */
-            #s-lg-tabs-container ul.nav-tabs > li > a.active,
-            #s-lg-tabs-container ul.nav-tabs > li > a.active:hover {
-                background-color: rgb(0, 30, 98);
-                color: white;
-                z-index: 1;
-                transition: border-color .4s;
-            }
-
-            #s-lg-tabs-container ul.nav-tabs > li > a.active:hover {
-                color: white;
-                transition: border-color .4s;
-            }
-
-            /* Dropdown menu itself */
-           #s-lg-guide-tabs > ul.nav-tabs > li.dropdown.clearfix > ul   {
-                top: 35px;
-           }
-            #s-lg-guide-tabs > ul.nav-pills > li.dropdown.clearfix> ul {
-               width: 85%;
-               margin-left: 15% !important;
-           }         
-           #s-lg-guide-tabs > ul.nav-tabs > li.dropdown.clearfix > ul,  #s-lg-guide-tabs > ul.nav > li.dropdown.clearfix> ul  {
-                border: 2px solid rgb(0, 30, 98);
-                border-top-width: 6px;
-                border-radius: 0;
-                transition: border-color .4s;
-            }
-
-  
-
-            /* Dropdown items */
-            #s-lg-tabs-container ul > li.dropdown.clearfix > ul > li > a, .dropdown-menu>li>a {
-                color: #363636;
-            }
-            #s-lg-tabs-container ul > li.dropdown.clearfix > ul > li > a:hover, .dropdown-menu>li>a:hover {
-                color: white;
-                background-color: rgb(0, 30, 98);
-                transition: all .4s;
-            }
-           
-           #s-lg-guide-search-box {
-               margin-bottom: 0;
-        }
-
-           #s-lg-guide-header-info {
-               padding-top: 2.5em;
-               margin-bottom: 2em;
-        }
-
-        /* header mobile margins, width to match set in Pixo header */
-        @media (max-width: 800px) {
-            #s-lib-bc,
-            #s-lg-guide-header-info {
-                margin-left: 1rem;
-                margin-right: 1rem;
-            }
-
-            #s-lg-guide-search-form > div.input-group {
-                margin-right: 1rem;
-            }
-        }
-
-    /* Overrides body */
-
-        /* reset */
-        #s-lg-guide-main .row.s-lg-row,
-        #s-lg-guide-main .col-md-6,
-        #s-lg-guide-main .col-md-12,
-        #s-lg-guide-main .pad-left-med,
-        #s-lg-guide-main .pad-top-sm,
-        #s-lg-guide-main .pad-right-med,
-        #s-lg-guide-main .row.s-lg-row .s-lib-box-title,
-        #s-lg-guide-main .row.s-lg-row .s-lib-box-content,
-        #s-lg-guide-main .s-lib-box,
-        #s-lg-guide-main .s-lib-box-std,
-        .s-lib-box,
-        .s-lib-box .s-lib-box-title{
-            padding: 0;
-            margin: 0;
-            border: none;
-            background-color: transparent;
-            box-shadow: none;
-            color: #363636;
-        }
-
-        #s-lg-tabs-container,
-        #s-lg-guide-main .col-md-6,
-        #s-lg-guide-main .col-md-12  {
-            padding-left: 1rem;
-            padding-right: 1rem;
-        }
-
-        @media (min-width: 801px) {
-            #s-lg-guide-main .col-md-6:first-of-type,
-            #s-lg-guide-main .col-md-12:first-of-type {
-                padding-left: 0;
-            }
-
-            #s-lg-guide-main .col-md-6:first-of-type,
-            #s-lg-guide-main .col-md-12:first-of-type {
-                padding-right: 0;
-            }
-        }
-
-        @media (min-width: 801px) {
-            #s-lg-tabs-container,
-            #s-lg-guide-main {
-                padding-left: 0;
-            }
-        }
-
-        #s-lg-guide-main ul.s-lg-link-list > li {
-            padding-bottom: .5em;
-            padding-top: 1em;
-        }
-
-        #s-lg-guide-main .s-lib-box-content ul > li {
-            padding-bottom: .5em;
-        }
-
-        /* Forms */
-        #s-lg-guide-main input {
-            border: 1px solid rgb(225, 225, 225);
-            padding: .125em .25em .125em .25em;
-            background-color: white;
-        }
-       
-       .input-group .form-control {
-           height: 34px;
-       }
-
-      /* Inputs */
-      .checkbox input[type=checkbox],
-      .checkbox-inline input[type=checkbox],
-      .radio input[type=radio],
-      .radio-inline input[type=radio] {
-        margin-left: -20px !important
-      }
-
-      .s-lg-poll-title {
-          margin-top: 3rem;
-      }
-      
-   #s-lg-guide-search {width:400px;float:right;}
-
-        /* Tables */
-        #s-lg-guide-main td {
-            padding-right: 1rem;
-            padding-bottom: 1rem;
-        }
-
-        /* Override box title */
-        #s-lg-guide-main .row.s-lg-row .s-lib-box-title {
-            font-size: 1.5em;
-            font-weight: 500;
-            padding-top: 1em;
-            padding-bottom: .5em;
-            line-height: 1.25em;
-        }
-
-        /* Bold links in link list*/
-        #s-lg-guide-main ul.s-lg-link-list > li > div[id^="s-lg-content-"] > a:first-of-type,
-        #s-lg-guide-main ul.s-lg-link-list > li > div[id^="s-lg-content-"] > span:first-of-type a {
-            font-size: 1.125em;
-            font-weight: 500;
-            margin-bottom: .5em;
-        }
-
-        #s-lg-guide-main .s-lg-label-more {
-            border-bottom: 1px solid transparent;
-        }
-
-        #s-lg-page-prevnext {
-            display: none;
-        }
-
-    /*Styles for tabbed boxes*/
-        /*Reset*/
-        #s-lg-guide-main .ui-tabs .ui-tabs-nav li {
-            list-style:none;
-            height: 2em;}
-        #s-lg-guide-main.ui-widget-header,
-        #s-lg-guide-main .ui-state-default, 
-        #s-lg-guide-main .ui-widget-content .ui-state-default, 
-        #s-lg-guide-main .ui-widget-header .ui-state-default,
-        #s-lg-guide-main .ui-widget-header{
-            background:none;
-            border:none;}
-        #s-lg-guide-main .ui-widget-header {
-            border-bottom: 1px solid #e2e2e2;
-            padding-bottom: 1em;
-        }
-        #s-lg-guide-main .ui-state-default, 
-        #s-lg-guide-main .ui-widget-content .ui-state-default, 
-        #s-lg-guide-main .ui-widget-header .ui-state-default,
-        #s-lg-guide-main .ui-state-active, 
-        #s-lg-guide-main .ui-widget-content .ui-state-active, 
-        #s-lg-guide-main .ui-widget-header .ui-state-active,
-        #s-lg-guide-main .ui-state-hover, 
-        #s-lg-guide-main .ui-widget-content .ui-state-hover, 
-        #s-lg-guide-main .ui-widget-header .ui-state-hover,
-        #s-lg-guide-main .ui-state-focus, 
-        #s-lg-guide-main .ui-widget-content .ui-state-focus, 
-        #s-lg-guide-main .ui-widget-header .ui-state-focus
-        {
-                border-radius: 0;
-                font-weight: 600;
-                font-size:14px;
-                padding: 5px;
-                margin: 0 .5rem .5rem 0;
-                border: none;
-            }
-      #s-lg-guide-main .ui-state-active a, 
-        #s-lg-guide-main .ui-widget-content .ui-state-active  a, 
-        #s-lg-guide-main .ui-widget-header .ui-state-active a,
-        #s-lg-guide-main .ui-state-hover a, 
-        #s-lg-guide-main .ui-widget-content .ui-state-hover a, 
-        #s-lg-guide-main .ui-widget-header .ui-state-hover a {
-            background-color: #007f85;
-            color: #fff;
-            border: none;
-        }
-        #s-lib-footer-public {
-            margin-top: 4rem;
-            padding-left: 1rem;
-            padding-right: 1rem;
-        }
-/*Profiles*/
-.s-lib-profile-div {text-align:center;}
-.s-lib-profile-container {padding: 1.2em;}
-a.label.label-info, #s-lg-guide-main a.label.label-info {background-color: transparent; border: 1px solid #001e62;color:#001e62; font-size:1em !important;}
-a.label.label-info:hover, #s-lg-guide-main  a.label.label-info:hover {background-color: transparent; border: 2px solid #001e62;color:#001e62;}
-
-
-
-/*Databases A-Z */
-    #s-lg-az-result-count {
-    margin-bottom: 0.2em;
-}
-.navbar{
-   background-color: #e8e8e8;
-}
-#s-lg-az-search-bar {
-padding-bottom: 2em;
-}
-/*Hide vendor dropdown list*/
-#s-lg-az-filter-cols #col-search {width: 50%;}
-#s-lg-az-filters #col-vendors {
-display: none;
-}
-
-/*Hide alternative names and keywords on Databases A-Z*/
- .s-lg-az-result-keywords {
-          display: none;
-      }
-
-
-
-/*Hide metadata on Guide List Box*/
-       .s-lg-guide-list-info {
-           display: none;
-       }
-
-/*Hide metadata on Subject page*/
-      .s-lg-gmeta {
-          display:none;
-      }
-
-/* provide the ability for images to not float in text boxes. */
-.float-none,
-.float-none img {
-    float: none !important;
-}
-
-</style>
-
-<!-- Place this script as near to the end of your BODY as possible. -->
-<script type="text/javascript">
-
-/* header overrides (some code in main.js is not meant for libguides) */
-$(document).ready(function() {
-
-    /* Force sidebar to open */
-    var menu_nav_toggle_button = $('#menu_nav_toggle_button')
-    var menu_nav = $('div.l-header > div.l-full > nav')
-    menu_nav_toggle_button.click(function() {
-        menu_nav.toggleClass('is-active')
-    })
-
-    /* Force chat widget to open */
-    var chat_widget = $('footer .chat-widget')
-    chat_widget.click(function() {
-        chat_widget.toggleClass('chat-widget--active')
-    })
-
-
-    /* Markup Cleanup */
-        /* remove all inline styles except visibility */
-        $('#s-lg-guide-main *[style]').each(function() {
-            var hidden;
-            if (!$(this).is(":visible")) {
-                hidden = true
-            }
-            $(this).removeAttr('style');
-            if (hidden) {
-                $(this).css("display", "none")
-            }
-        })
-
-        /* remove extraneous subheader menu */
-        $('body > header > div.l-header > a.menu-secondary-anchor').css('display', 'none')
-
-        /* remove buttons in mobile sidebar */
-        $('#menu-main > li > button').css("display", "none")
-
-        /* remove width, height, border attributes from tables */
-        $('#s-lg-guide-main table').removeAttr('height')
-        $('#s-lg-guide-main table').removeAttr('width')
-        $('#s-lg-guide-main table').removeAttr('border')
-
-        /* remove all font tags */
-        $('font').contents().unwrap();
-
-        /* remove extra spaces */
-        $('#s-lg-guide-main').text(function (i, old) {
-            var $this = $(this);
-            $this.html($this.html().replace(/ /g, ''));
-        });
-
-        /* misc wtf */
-        /* I've seen 'invisible' classes; hide */
-        $('#s-lg-guide-main .invisibleNavHeading').css("display", "none")
-        $('#s-lg-guide-main .invisibleLabel').css("display", "none")
-
-        /* remove bizarre double chat widgets */
-        .lci_chat_load:nth-of-type(2) {
-               display: none
-        }
-
-
-});
-
-</script><script>
-var springStats = springStats || {};
-springStats.saConfig = springStats.saConfig || {
-    site_id: 34,
-    tracking_parameters: {"_st_guide_id":312419,"_st_page_id":2088688,"_st_site_id":34},
-    tracking_server_host: "libguides-proc.springyaws.com"
-};
-</script>
-<script async  src="/web/js/sa.min.js?3116"></script>
-		<script>
-			springSpace.Common = springSpace.Common || { };
-			springSpace.Common.constant = {
-					PROCESSING: {
-						ACTION_DISPLAY_POLL: 159
-					}
-			};
-			springSpace.Common.baseURL = "https://researchguides.uic.edu/";
-			
-			handleScroll=function() {
-                if (false) {
-					var target_elt = "#s-lg-page-section-2088688";
-					jQuery("html, body").animate({ scrollTop: jQuery(target_elt).offset().top }, 750);
-					if (jQuery(this).scrollTop() > 220) {
-						jQuery("#s-lib-scroll-top").fadeIn(750);
-					}
-				}
-			}
-	   </script>
-        <script>
-            // Enable tooltips.
-            jQuery(function () {
-                try {
-                    springSpace.UI.initPopOvers();
-                    jQuery(".az-bs-tooltip").tooltip();
-                } catch (e) { }
-            });jQuery(window).one('load', function() {springSpace.springTrack.trackPage({_st_type_id: '1',_st_guide_id: '312419',_st_page_id: '2088688'});});
-            jQuery(document).ready(function() {
-                handleScroll();
-            });
-        </script><!-- BEGIN: Analytics code --><!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5NVRDL');</script>
-<!-- End Google Tag Manager --><!-- END: Analytics code --></head>
-<!-- SIDE NAV -->
-<body class="s-lg-guide-body">
-<a id="s-lg-public-skiplink" class="alert-info" href="#s-lg-guide-main">Skip to main content</a><!-- BEGIN: Page Header -->
-<header role="banner">
-      <!--[if lte IE 9]>
+        <header role="banner">
+                            <!--[if lte IE 9]>
 <div class="browser-stripe u-dark-region">
   <div class="l-full">
       <h2>Your browser is unsupported</h2>
@@ -945,803 +39,1018 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </div>
 </div>
 <![endif]-->
-      <div class="browser-stripe u-dark-region ie10">
-            <div class="l-full">
-                  <h2>Your browser is unsupported</h2>
-                  <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
-            </div>
-      </div>
-
-      <div class="l-header">
-
-            <div class="eyebrow-mobile-wrapper js-eyebrow-mobile">
-                  <div class="eyebrow-mobile">
-                        <a href="http://uic.edu/" class="icon-uic-logo eyebrow-logo">UIC.edu Home</a>
-                        <div class="site-title-eyebrow-mobile">
-                              <a href="http://library.uic.edu/">University Library</a>
-                        </div>
-                        <button class="search-toggle-mobile js-search-toggle-mobile">
-                              <a href="http://library.uic.edu/search">
-                                    <span class="icon-search">
-                                          Toggle Search
-                                    </span>
-                              </a>
-                        </button>
-                        <button class="nav-header-toggle js-nav-header-toggle" id="menu_nav_toggle_button">
-                              <span class="icon-menu">
-                                    Toggle Menu
-                              </span>
-                        </button>
-                  </div>
-                  <div class="search-input-container-mobile">
-                        <div class="search-title">
-                              Search
-                              <a class="search-close search-toggle-mobile">
-                                    <svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1.41421;">
-                                          <g id="icon-close">
-                                                <path id="Line" d="M2,2l18,18" style="fill:none;stroke-width:2px;stroke:#fff;"></path>
-                                                <path id="Line1" d="M20,2l-18,18" style="fill:none;stroke-width:2px;stroke:#fff;"></path>
-                                          </g>
-                                    </svg>
-                              </a>
-                        </div>
-                        <form method="get" action="/search" role="search" aria-label="Search this site on your mobile device">
-                              <input type="text" name="q" class="search-input-mobile" placeholder="Search..." tabindex="-1" aria-label="Search this site on your mobile device" disabled="">
-                              <input type="submit" class="submit-button" name="search" value="Submit">
-                        </form>
-                  </div>
-            </div>
-
-            <a href="http://uic.edu" class="icon-uic-logo header-logo">UIC.edu Home</a>
-
-            <div class="l-full">
-                  <div class="site-title-main -large">
-                        <a href="http://library.uic.edu/">University Library</a>
-                  </div>
-                  <nav class="header-menus js-header-menus" role="navigation">
-
-                        <div id="skip" class="skip-menu assistive-text">
-                              <p>
-                                    Skip to
-                                    <a class="_main" href="#main">the content of this page</a>,
-                                    <a class="_primary-menu" href="#menu-main">the main menu</a>,
-                                    <a class="_secondary-menu" href="#menu-secondary">the secondary menu</a>,
-                                    <a class="_search" href="#search">the site search form</a> or go to the
-                                    <a class="_home" href="http://library.uic.edu/">the site home page</a>.
-                              </p>
-                        </div>
-
-                        <div class="site-title-mobile-menu">
-                              <a href="http://library.uic.edu/">University Library</a>
-                        </div>
-
-                        <h2 class="assistive-text">Main Menu</h2>
-                        <ul id="menu-main" class="menu menu-main" aria-label="Main menu">
-                              <li class="_item">
-                                    <a href="http://library.uic.edu/help" target="_self">Help</a>
-                              </li>
-                              <li class="_item menu-item-has-children">
-                                    <a href="http://library.uic.edu/collections" target="_self">Collections</a>
-                                    <button role="button" class="expand-item js-expand-item">Expand Collections menu</button>
-                                    <ul class="_child">
-                                          <li class="_item ">
-                                                <a href="http://library.uic.edu/collections/articles" target="_self">Articles</a>
-                                          </li>
-                                          <li class="_item ">
-                                                <a href="http://library.uic.edu/collections/books-media" target="_self">Books &amp; Media</a>
-                                          </li>
-                                          <li class="_item menu-item-has-children">
-                                                <a href="http://library.uic.edu/collections/digital-images" target="_self">Digital Images</a>
-                                                <button role="button" class="expand-item js-expand-item">Expand Digital Images menu</button>
-                                                <ul class="_child">
-                                                      <li class="_item ">
-                                                            <a href="http://library.uic.edu/collections/digital-images/uic-image-collections" target="_self">UIC Image Collections</a>
-                                                      </li>
-                                                </ul>
-                                          </li>
-                                          <li class="_item ">
-                                                <a href="http://library.uic.edu/collections/maps-gis" target="_self">Maps &amp; GIS</a>
-                                          </li>
-                                          <li class="_item menu-item-has-children">
-                                                <a href="http://library.uic.edu/collections/special-collections-university-archives" target="_self">Special Collections &amp; University Archives</a>
-                                                <button role="button" class="expand-item js-expand-item">Expand Special Collections &amp; University Archives menu</button>
-                                                <ul class="_child">
-                                                      <li class="_item ">
-                                                            <a href="http://library.uic.edu/collections/special-collections-university-archives/finding-aids" target="_self">Finding Aids</a>
-                                                      </li>
-                                                      <li class="_item ">
-                                                            <a href="http://library.uic.edu/collections/special-collections-university-archives/rare-books" target="_self">Rare Books</a>
-                                                      </li>
-                                                </ul>
-                                          </li>
-                                          <li class="_item ">
-                                                <a href="http://library.uic.edu/collections/uic-publications" target="_self">Theses, Dissertations &amp; UIC Publications</a>
-                                          </li>
-                                    </ul>
-                              </li>
-                              <li class="_item menu-item-has-children">
-                                    <a href="http://library.uic.edu/libraries" target="_self">Libraries</a>
-                                    <button role="button" class="expand-item js-expand-item">Expand Libraries menu</button>
-                                    <ul class="_child">
-                                          <li class="_item menu-item-has-children">
-                                                <a href="http://library.uic.edu/libraries/daley" target="_self">Chicago-Daley</a>
-                                                <button role="button" class="expand-item js-expand-item">Expand Chicago-Daley menu</button>
-                                                <ul class="_child">
-                                                      <li class="_item ">
-                                                            <a href="http://library.uic.edu/libraries/daley/hours" target="_self">Hours &amp; Location</a>
-                                                      </li>
-                                                      <li class="_item ">
-                                                            <a href="http://library.uic.edu/libraries/daley/directory" target="_self">Faculty &amp; Staff</a>
-                                                      </li>
-                                                </ul>
-                                          </li>
-                                          <li class="_item menu-item-has-children">
-                                                <a href="http://library.uic.edu/libraries/lhs-chicago" target="_self">Chicago-Health Sciences</a>
-                                                <button role="button" class="expand-item js-expand-item">Expand Chicago-Health Sciences menu</button>
-                                                <ul class="_child">
-                                                      <li class="_item ">
-                                                            <a href="http://library.uic.edu/libraries/lhs-chicago/hours" target="_self">Hours &amp; Location</a>
-                                                      </li>
-                                                      <li class="_item ">
-                                                            <a href="http://library.uic.edu/libraries/lhs-chicago/directory" target="_self">Faculty &amp; Staff</a>
-                                                      </li>
-                                                </ul>
-                                          </li>
-                                          <li class="_item menu-item-has-children">
-                                                <a href="http://library.uic.edu/libraries/lhs-peoria" target="_self">Peoria-Health Sciences</a>
-                                                <button role="button" class="expand-item js-expand-item">Expand Peoria-Health Sciences menu</button>
-                                                <ul class="_child">
-                                                      <li class="_item ">
-                                                            <a href="http://library.uic.edu/libraries/lhs-peoria/hours" target="_self">Hours &amp; Location</a>
-                                                      </li>
-                                                      <li class="_item ">
-                                                            <a href="http://library.uic.edu/libraries/lhs-peoria/directory" target="_self">Faculty &amp; Staff</a>
-                                                      </li>
-                                                </ul>
-                                          </li>
-                                          <li class="_item menu-item-has-children">
-                                                <a href="http://library.uic.edu/libraries/lhs-rockford" target="_self">Rockford-Health Sciences</a>
-                                                <button role="button" class="expand-item js-expand-item">Expand Rockford-Health Sciences menu</button>
-                                                <ul class="_child">
-                                                      <li class="_item ">
-                                                            <a href="http://library.uic.edu/libraries/lhs-rockford/hours" target="_self">Hours &amp; Location</a>
-                                                      </li>
-                                                      <li class="_item ">
-                                                            <a href="http://library.uic.edu/libraries/lhs-rockford/directory" target="_self">Faculty &amp; Staff</a>
-                                                      </li>
-                                                </ul>
-                                          </li>
-                                          <li class="_item menu-item-has-children">
-                                                <a href="http://library.uic.edu/libraries/lhs-urbana" target="_self">Urbana-Health Sciences</a>
-                                                <button role="button" class="expand-item js-expand-item">Expand Urbana-Health Sciences menu</button>
-                                                <ul class="_child">
-                                                      <li class="_item ">
-                                                            <a href="http://library.uic.edu/libraries/lhs-urbana/hours" target="_self">Hours &amp; Location</a>
-                                                      </li>
-                                                      <li class="_item ">
-                                                            <a href="http://library.uic.edu/libraries/lhs-urbana/directory" target="_self">Faculty &amp; Staff</a>
-                                                      </li>
-                                                </ul>
-                                          </li>
-                                    </ul>
-                              </li>
-                              <li class="_item menu-item-has-children">
-                                    <a href="http://library.uic.edu/about" target="_self">About</a>
-                                    <button role="button" class="expand-item js-expand-item">Expand About menu</button>
-                                    <ul class="_child">
-                                          <li class="_item ">
-                                                <a href="http://library.uic.edu/about/events" target="_self">Events</a>
-                                          </li>
-                                          <li class="_item ">
-                                                <a href="http://library.uic.edu/about/news" target="_self">News</a>
-                                          </li>
-                                          <li class="_item ">
-                                                <a href="http://library.uic.edu/about/employment" target="_self">Jobs &amp; Careers</a>
-                                          </li>
-                                          <li class="_item ">
-                                                <a href="http://library.uic.edu/about/directory" target="_self">Directory</a>
-                                          </li>
-                                          <li class="_item ">
-                                                <a href="http://library.uic.edu/about/policies" target="_self">Library Policies</a>
-                                          </li>
-                                    </ul>
-                              </li>
-                        </ul>
-
-                        <div class="l-eyebrow">
-
-                              <h2 class="assistive-text">Eyebrow menu</h2>
-                              <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
-                                    <li class="_item ">
-                                          <a href="http://library.uic.edu/contact" target="_self">Contact Us</a>
-                                    </li>
-                                    <li class="_item ">
-                                          <a href="http://library.uic.edu/accounts" target="_self">My Accounts</a>
-                                    </li>
-                                    <li class="_item ">
-                                          <a href="http://library.uic.edu/donate" target="_self">Give to the Library</a>
-                                    </li>
-                              </ul>
-
-                              <h2 class="assistive-text">UIC menu</h2>
-                              <ul class="menu-uic">
-                                    <li class="_item">
-                                          <a href="http://uic.edu">UIC.edu</a>
-                                    </li>
-                                    <li class="_item">
-                                          <a href="http://maps.uic.edu/">Campus Map</a>
-                                    </li>
-                              </ul>
-
-                              <button id="search" class="search-toggle">
-                                    <a href="http://library.uic.edu/search">
-                                          <span class="icon-search">
-                                                Toggle Search
-                                          </span>
-                                    </a>
-                              </button>
-
-                              <div class="search-input-container">
-                                    <form method="get" action="/search" role="search" aria-label="Search this site">
-                                          <input type="text" name="q" class="search-input" placeholder="Search..." tabindex="-1" aria-label="Search" disabled="">
-                                          <input type="submit" class="submit-button" name="search" value="Submit">
-                                    </form>
-                              </div>
-
-                        </div>
-
-                  </nav>
-            </div>
-
-      </div>
-
-</header><!-- END: Page Header -->
-<!-- BEGIN: Guide Header -->
-<div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders">
-    <nav id="s-lib-bc" aria-label="breadcrumb" role="navigation">
-        
-			<ol id="s-lib-bc-list" class="breadcrumb">
-				
-					<li id="s-lib-bc-customer">
-						<a title="UIC Library"  href="https://library.uic.edu/">UIC Library
-						</a>
-					</li>
-					<li id="s-lib-bc-site">
-						<a title="Subject and Course Guides"  href="https://researchguides.uic.edu/">Subject and Course Guides
-						</a>
-					</li>
-					<li id="s-lib-bc-guide">
-						<a title="Aerial Photographs"  href="https://researchguides.uic.edu/aerials">Aerial Photographs
-						</a>
-					</li>
-					<li id="s-lib-bc-page" class="active">Aerials @ UIC
-					</li>
-			</ol>    </nav>
-    <div class="pull-right">
-        <div id="s-lg-guide-header-search">
-            
-                <div id="s-lg-guide-search-box">
-                    <form role="search" id="s-lg-guide-search-form" action="https://researchguides.uic.edu/srch.php"
-                    method="GET">
-                        <div class="input-group input-group-sm">
-                            <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Find subject and course guides">
-                            <label class="sr-only" for="s-lg-guide-search-terms">Find subject and course guides</label>
-                            <span class="input-group-btn">
-                                <button class="btn btn-default" type="submit">Search guides</button>
-                            </span>
-                        </div>
-                    </form>
-                </div>        </div>
-            </div>
-    <div id="s-lg-guide-header-info">
-        <h1 id="s-lg-guide-name">Aerial Photographs</h1>
-        <div id="s-lg-guide-desc-container">
-            <span id="s-lg-guide-description"></span>
-        </div>
-    </div>
+<div class="browser-stripe u-dark-region ie10">
+  <div class="l-full">
+      <h2>This page is taking too long to load.</h2>
+      <p>Try refreshing the page, or you may need to update your browser. We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
+  </div>
 </div>
-<!-- END: Guide Header -->
-<div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div>
-<div id="s-lg-side-nav-content" class="container s-lib-side-borders pad-top-med">
-    <div class="row">
-        <div class="col-md-3 s-lg-tabs-side pad-bottom-med">
-            <div id="s-lg-tabs-container">
-                <div id="s-lg-guide-tabs" role="navigation" aria-label="Guide Pages">
-                    <ul class="nav nav-pills nav-stacked split-button-nav">
-                        
-                <li  class="active">
-                    <a
-                        title=""
-                        class="active"
-                        href="https://researchguides.uic.edu/aerials/uic" 
-                        aria-label="Aerials @ UIC"
-                    >
-                        <span>Aerials @ UIC</span>
-                        
-                    </a><ul class="list-group s-lg-boxnav"><li class="list-group-item"><a href="#s-lg-box-18936222">Collections</a></li><li class="list-group-item"><a href="#s-lg-box-6369313">City of Chicago Department of Development and Planning</a></li><li class="list-group-item"><a href="#s-lg-box-6369315">Northeastern Illinois Planning Commission (NIPC)</a></li><li class="list-group-item"><a href="#s-lg-box-18936359">Online Aerial Images of Illinois</a></li><li class="list-group-item"><a href="#s-lg-box-18936387">Online Aerial Images of the United States</a></li></ul>
-                </li>                    </ul>
-                    
-                <div class="s-lg-row margin-top-med">
-                    <div id="s-lg-col-0">
-                        <div class="s-lg-col-boxes">
-                        
-                        </div>
-                    </div>
-                </div>                </div>
-            </div>
-        </div>
-        <div class="col-md-9">
-            <div class="s-lg-tab-content">
-                <div id="s-lg-guide-main" class="tab-pane active" tabindex="-1">
-                    <div class="row s-lg-row">
-    <div id="s-lg-col-1" class="col-md-12">
-        <div class="s-lg-col-boxes">        <div id="s-lg-box-wrapper-22225214" class="s-lg-box-wrapper-22225214">
-					<div id="s-lg-box-18936222-container" class="s-lib-box-container">
-						<div id="s-lg-box-18936222" class="s-lib-box s-lib-box-std">
-							<h2 class="s-lib-box-title">Collections
-                                </h2>
-							<div id="s-lg-box-collapse-18936222" >
-								<div class="s-lib-box-content">
-									
-			<div id="s-lg-content-41873090" class="  clearfix">
-				<p>The Richard J. Daley Library has an extensive collection of print aerial photographs of Chicago and the surrounding counties. Publicly available are City of Chicago Department of Development and Planning 1968, 1973, and 1994 series, as well as the Northeastern Illinois Planning Commission (NIPC) 1980, 1990, and 2001 series.</p>
-
-<p>Also available are digital files of 2002 and 2005 U.S. Geological Survey (USGS)&nbsp;orthographic aerials and 2004, 2005, and 2006 National Agriculture Imagery Program&nbsp;(NAIP)&nbsp;images. These require that you contact the library at lib-maps@uic.edu and arrange an appointment for copying the files.</p>
-
-<p>Aerial Photographs that are available will be listed in the library catalog.</p>
-		   </div><div class="">
-                        <ul id="s-lg-link-list-44825789" class="s-lg-link-list s-lg-link-list-2"><li class="">
-                        
-			<div id="s-lg-content-41873132" class=""><span><a href="https://i-share.carli.illinois.edu/vf-uic/" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '41873132'});">Library Catalog</a> 
-				</span>
-			</div></li>
-                        
-                            </ul>
-                            </div>
-								</div>
-								
-							</div>
-						</div>
-					</div></div><div id="s-lg-box-wrapper-7484472" class="s-lg-box-wrapper-7484472">
-					<div id="s-lg-box-6369313-container" class="s-lib-box-container">
-						<div id="s-lg-box-6369313" class="s-lib-box s-lib-box-std">
-							<h2 class="s-lib-box-title">City of Chicago Department of Development and Planning
-                                </h2>
-							<div id="s-lg-box-collapse-6369313" >
-								<div class="s-lib-box-content">
-									
-			<div id="s-lg-content-12629261" class="  clearfix">
-				<p>The City of Chicago Department of Development and Planning aerial photographs cover much of the city of Chicago. The aerials are large paper prints (about 60 x 60 cm). The scale is roughly 1:3,050, please refer to the scale on the sheet for an accurate scale.</p>
-
-<p>Use the index maps linked below to determine the sheet number(s) needed.</p>
-
-<p>The spring 1968 and 1973 aerial photographs are organized by flight index number or sheet number.</p>
-
-<ul>
-	<li><a href="//s3.amazonaws.com/libapps/accounts/47554/images/airphoto1968.png" target="_blank"><strong>1968</strong></a><br />
-	Call Number: G4104 .C6A4 s3 1968 .C6<br />
-	&nbsp;</li>
-	<li><a href="//s3.amazonaws.com/libapps/accounts/47554/images/airphoto1973.png" target="_blank"><strong>1973</strong></a><br />
-	Call Number: G4104 .C6A4 s3 1973 .C6</li>
-</ul>
-
-<p>The spring 1994 Chicago Department of City Planning&nbsp;aerials are organized by Township, Range, and Section. (address guide <a href="http://isgs.illinois.edu/plss">here</a>)</p>
-
-<ul>
-	<li><a href="//s3.amazonaws.com/libapps/accounts/47554/images/airphoto1994.png" target="_blank"><strong>1994</strong></a><br />
-	Call Number: G4104 .C6A4 .S3 .K8</li>
-</ul>
-
-		   </div>
-								</div>
-								
-							</div>
-						</div>
-					</div></div><div id="s-lg-box-wrapper-7484474" class="s-lg-box-wrapper-7484474">
-					<div id="s-lg-box-6369315-container" class="s-lib-box-container">
-						<div id="s-lg-box-6369315" class="s-lib-box s-lib-box-std">
-							<h2 class="s-lib-box-title">Northeastern Illinois Planning Commission (NIPC)
-                                </h2>
-							<div id="s-lg-box-collapse-6369315" >
-								<div class="s-lib-box-content">
-									
-			<div id="s-lg-content-12637014" class="  clearfix">
-				<p>The Northeastern Illinois Planning Commission (NIPC) aerial photographs cover Northeastern Illinois, including Cook, DuPage, Kane, Lake, McHenry, and Will counties. The aerials are large paper prints (about 77 x 77 cm). The scale is 1:4,800 or 1&quot; = 400&#39;, please refer to the scale on the sheet for an accuracy.</p>
-
-<p>The aerial photographs are organized by Township, Range, and Section(address guide <a href="http://isgs.illinois.edu/plss">here</a>). Each sheet covers four sections.</p>
-
-<p>Use the index maps&nbsp;linked below to determine the section(s) needed.</p>
-
-<ul>
-	<li><a href="//s3.amazonaws.com/libapps/accounts/47554/images/airphoto1980.png" target="_blank"><strong>1980, Photographs dated May 1980-</strong></a><br />
-	Call Number: G4102 .N6A4 1980 .S5<br />
-	&nbsp;</li>
-	<li><a href="//s3.amazonaws.com/libapps/accounts/47554/images/airphoto1990.png" target="_blank"><strong>1990, Photographs dated March 1990 - April 1990</strong></a><br />
-	Call Number: G4102.N6A4 s4 .G46<br />
-	&nbsp;</li>
-	<li><a href="//s3.amazonaws.com/libapps/accounts/47554/images/airphoto2001.png" target="_blank"><strong>2001, Photographs dated April 2001-</strong></a><br />
-	Call Number: G4102.N6A4 s4 .W3</li>
-</ul>
-
-		   </div>
-								</div>
-								
-							</div>
-						</div>
-					</div></div><div id="s-lg-box-wrapper-22225395" class="s-lg-box-wrapper-22225395">
-					<div id="s-lg-box-18936359-container" class="s-lib-box-container">
-						<div id="s-lg-box-18936359" class="s-lib-box s-lib-box-std">
-							<h2 class="s-lib-box-title">Online Aerial Images of Illinois
-                                </h2>
-							<div id="s-lg-box-collapse-18936359" >
-								<div class="s-lib-box-content">
-									
-			<div id="s-lg-content-41873526" class="  clearfix">
-				<p>Aerial imagery&nbsp;online can&nbsp;come in many different shapes and sizes. Formats range from JPEG, JPEG2000, TIFF, GeoTIFF, PDF, and GeoPDF requiring no special software to view, to&nbsp;files,&nbsp;such as&nbsp;MrSID, requiring additional software to view and manipulate.</p>
-
-<p>This guide focuses on those resources that do not require special software to view.</p>
-		   </div><div class="">
-                        <ul id="s-lg-link-list-44826178" class="s-lg-link-list s-lg-link-list-2"><li class="">
-                        
-			<div id="s-lg-content-41873527" class=""><span><a href="http://clearinghouse.isgs.illinois.edu/" target="_blank"  onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '41873527'});">Illinois GIS Data Sets and Orthoimagery Gateway</a> 
-				</span><div id="s-lg-link-desc-41873527" class="s-lg-link-desc">Access Illinois GIS data sets and documentation (metadata) for ArcIMS Interactive Map Services, USGS digital topographic maps, aerial photography, orthoimagery, orthophotography, geology, land use, natural resources, and infrastructure. Illinois data sets and map data layers are available for download free of charge.</div>
-			</div></li>
-                        <li class="">
-                        
-			<div id="s-lg-content-41873528" class=""><span><a href="http://isgs.illinois.edu/ilhap" target="_blank"  onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '41873528'});"><b>Illinois Historical Aerial Photography 1937-1947</b></a> 
-				</span><div id="s-lg-link-desc-41873528" class="s-lg-link-desc"><b>Images available in JPEG, TIFF, and MrSid formats.</b><br />
-As part of the Illinois Historical Aerial Photograph Data Archive project, airphotos were scanned and made available online. Statewide airphotos, including 1938-39 Cook County airphotos, are available for downloading and viewing online.</div>
-			</div></li>
-                        <li class="">
-                        
-			<div id="s-lg-content-41873529" class=""><span><a href="https://clearinghouse.isgs.illinois.edu/data/imagery/1927-historical-aerial-photographs-mississippi-river" target="_blank"  onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '41873529'});"><b>Upper Mississippi River 1927</b></a> 
-				</span><div id="s-lg-link-desc-41873529" class="s-lg-link-desc"><b>Images available in JPEG, TIFF, and MrSid formats.</b></div>
-			</div></li>
-                        <li class="">
-                        
-			<div id="s-lg-content-41873530" class=""><span><a href="http://collections.carli.illinois.edu/cdm4/index_uic_caps.php?CISOROOT=/uic_caps" target="_blank"  onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '41873530'});"><b>Chicago Aerial Photo Services (CAPS)</b></a> 
-				</span><div id="s-lg-link-desc-41873530" class="s-lg-link-desc"><b>Images from 1929-1940s.</b><br />
-Selected images from the CAPS collection have been digitized and are available to view online. The photographs are of the Chicago area, though there are some images from other areas of the state.</div>
-			</div></li>
-                        
-                            </ul>
-                            </div>
-								</div>
-								
-							</div>
-						</div>
-					</div></div><div id="s-lg-box-wrapper-22225422" class="s-lg-box-wrapper-22225422">
-					<div id="s-lg-box-18936387-container" class="s-lib-box-container">
-						<div id="s-lg-box-18936387" class="s-lib-box s-lib-box-std">
-							<h2 class="s-lib-box-title">Online Aerial Images of the United States
-                                </h2>
-							<div id="s-lg-box-collapse-18936387" >
-								<div class="s-lib-box-content">
-									<div class="">
-                        <ul id="s-lg-link-list-44826216" class="s-lg-link-list s-lg-link-list-2"><li class="">
-                        
-			<div id="s-lg-content-41873566" class=""><span><a href="http://earthexplorer.usgs.gov" target="_blank"  onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '41873566'});"><b>EarthExplorer</b></a> 
-				</span><div id="s-lg-link-desc-41873566" class="s-lg-link-desc"><b>Images available to view. Registration is required to download.</b><br />
-Query and order satellite images, aerial photographs, and cartographic products through the U.S. Geological Survey.<br />
-Enter search criteria or click the map to select a place (Shift+Click+drag will create a selection area). Click the "Data Sets" pane and select the types of aerial imagery to view. Click the "Results" pane to view available imagery for the area. Use the drop-down menu to toggle between the different data sets and view the results.</div>
-			</div></li>
-                        <li class="">
-                        
-			<div id="s-lg-content-41873567" class=""><span><a href="https://www.usgs.gov/core-science-systems/ngp/tnm-delivery" target="_blank"  onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '41873567'});"><b>The National Map Viewer</b></a> 
-				</span><div id="s-lg-link-desc-41873567" class="s-lg-link-desc"><b>Requires an email address to receive download links.</b><br />
-Select “Imagery - 1 meter” and/or "Imagery - 1 foot" in the “Overlays” tab of the left pane. Use the search box at the top or navigate to the area of interest on the map. Select the "Download Data" tool in the toolbar and click on the area of interest. To download images, click “Download” beneath the quadrant name in the “Selection” tab of the left pane. Select “Orthoimagery” and click Next. Select the images of interest and click Next. The “Cart” tab of the left pane will now be visible. From there, items can be previewed, added, and removed from the cart. Click “Checkout” and enter an email address with which to receive the download links for the requested maps. <br />
-For additional assistance, check out <a href="http://viewer.nationalmap.gov/help/The%20National%20Map%20Viewer%20Quick%20Start%20Guide.htm" target="_blank">The National Map Viewer Quick Start Guide</a>.<br />
-For more info on the orthoimagery see <a href="https://pubs.usgs.gov/fs/2009/3055/"> the USGS fact sheet 2099-3055 </a></div>
-			</div></li>
-                        <li class="">
-                        
-			<div id="s-lg-content-41873568" class=""><span><a href="http://pubs.usgs.gov/gip/AerialPhotos_SatImages/" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '41873568'});">Aerial Photographs and Satellite Images from USGS</a> 
-				</span><div id="s-lg-link-desc-41873568" class="s-lg-link-desc">This 1997 guide is a good archived guide to historical aerial photographs.  While it is no longer updated, the historical information is extensive.</div>
-			</div></li>
-                        
-                            </ul>
-                            </div>
-								</div>
-								
-							</div>
-						</div>
-					</div></div>
-        </div>
-    </div>
-</div>                </div>
-            </div>
-            <ul id="s-lg-page-prevnext" class="pager s-lib-hide"><li class="previous"></li><li class="next"><a href="https://researchguides.uic.edu/c.php?g=312419"><strong>Next:</strong>  &gt;&gt;</a></li></ul>        </div>
-    </div>
-</div>
-<!-- BEGIN: Page Footer -->
-<div id="s-lib-footer-public"
-     class="s-lib-footer footer container  s-lib-side-borders">
-    <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix">
-        <ul id="s-lg-guide-header-attributes" class="">
-            <li id="s-lg-guide-header-updated" class="s-lg-h-separator">
-                <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">Mar 20, 2019 9:38 AM</span>            </li>
-            <li id="s-lg-guide-header-url" class="s-lg-h-separator">
-                <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">https://researchguides.uic.edu/aerials</span>            </li>
-            <li id="s-lg-guide-print-url">
-                <a href="javascript: window.print();"><i class="fa fa-print" aria-hidden="true" title="Print Page"></i> Print Page</a>            </li>
-        </ul>
-        <div id="s-lib-footer-login-link" class="pull-right pad-right-med">
-            <a href="https://uic.libapps.com/libapps/login.php?site_id=34&target64=L2xpYmd1aWRlcy9hZG1pbl9jLnBocD9nPTMxMjQxOSZwPTIwODg2ODg=">Staff Login</a>        </div>
-    </div>
-    <div class="pad-bottom-sm clearfix">
-        <div id="s-lib-footer-support-link" class="pull-right pad-right-med">
-                    </div>
-        <div id="s-lg-guide-header-subjects" class="pad-top-sm pad-left-med pad-right-med pull-left">
-            
-                    <span class="s-lg-guide-label">Subjects: </span>
-                    <span class="s-lg-small bold"><a href="https://researchguides.uic.edu/sb.php?subject_id=132313">Maps and GIS</a>, <a href="https://researchguides.uic.edu/sb.php?subject_id=124575">Special Collections & University Archives</a></span>
-                            </div>
-        <div id="s-lg-guide-header-tags" class="pad-top-sm pad-left-med">
-            
-                    <span class="s-lg-guide-label">Tags: </span>
-                    <span class="s-lg-small bold"><a href="https://researchguides.uic.edu/srch.php?tag=aerial photographs&default_lg=1">aerial photographs</a>, <a href="https://researchguides.uic.edu/srch.php?tag=CAPS&default_lg=1">CAPS</a>, <a href="https://researchguides.uic.edu/srch.php?tag=Chicago Aerial Photo Services&default_lg=1">Chicago Aerial Photo Services</a>, <a href="https://researchguides.uic.edu/srch.php?tag=Chicago Aerial Survey&default_lg=1">Chicago Aerial Survey</a>, <a href="https://researchguides.uic.edu/srch.php?tag=daley&default_lg=1">daley</a>, <a href="https://researchguides.uic.edu/srch.php?tag=maps&default_lg=1">maps</a>, <a href="https://researchguides.uic.edu/srch.php?tag=maps_special&default_lg=1">maps_special</a>, <a href="https://researchguides.uic.edu/srch.php?tag=NIPC&default_lg=1">NIPC</a>, <a href="https://researchguides.uic.edu/srch.php?tag=Northeastern Illinois Planning Commission&default_lg=1">Northeastern Illinois Planning Commission</a>, <a href="https://researchguides.uic.edu/srch.php?tag=remote sensing&default_lg=1">remote sensing</a>, <a href="https://researchguides.uic.edu/srch.php?tag=special_collections&default_lg=1">special_collections</a></span>
-                            </div>
-    </div>
-</div>
-<!-- END: Page Footer -->
-<div id="s-lib-scroll-top"><a href="javascript:void(0);" onclick="jQuery('body').focus();" title="Back to Top" aria-label="Back to Top"><span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i></span></a></div><div id="s-lib-alert" title="">
-                            <div id="s-lib-alert-content"></div>
-                       </div>
-                <!-- BEGIN: Custom Footer -->
                 
-<footer class="page__footer" role="contentinfo">
-    <div class="footer uic-footer">
-        <section class="uic-footer__site">
-            <div class="uic-footer__site-container">
-                <div class="uic-footer__site-title">
-                    <span class="wordmark">
-                        <span class="wordmark__container">
-                            <span class="wordmark__content">
-                                <span class="wordmark__logo"><svg class="uic-circle-logo" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54">
-                                    <title>Logo for the University of Illinois at Chicago</title>
-                                    <rect class="uic-circle-logo__text" x="5" y="17" width="46" height="20"></rect>
-                                    <path class="uic-circle-logo__circle" d="M54,27C54,12.1,41.9,0,27,0S0,12.1,0,27s12.1,27,27,27S54,41.9,54,27z M21.8,29.4c0,2.5-0.3,3.6-1,4.8
-                                    c-1.2,1.9-4.3,2.7-7,2.7s-5.8-0.8-7-2.7c-0.7-1.2-1-2.4-1-4.8V19H11v10.5c-0.1,0.9,0.1,1.8,0.6,2.5c0.5,0.5,1.3,0.8,2.1,0.7
-                                    c0.8,0.1,1.6-0.2,2.2-0.8c0.5-0.7,0.7-1.6,0.6-2.5V19h5.3V29.4z M25,19h5.3v17.6H25V19z M49.3,23.4l-4.6,2.2
-                                    c-0.4-1.7-1.4-2.7-3.1-2.7c-2.2,0-3.4,1.9-3.4,4.9s1.1,4.8,3.4,4.8c1.4,0.1,2.7-0.8,3-2.2l4.8,1.7c-1.2,2.8-3.8,4.8-7.8,4.8
-                                    c-5.6,0-8.8-3.7-8.8-9.1s3.4-9.1,8.9-9.1C45.9,18.7,48.3,21.1,49.3,23.4L49.3,23.4z"></path>
-                                </svg>
-                            </span>
-                            <span class="wordmark__text">
-                                <span class="wordmark__line wordmark__university">University</span>
-                                <span class="wordmark__line wordmark__library">Library</span>
-                            </span>
-                        </span>
-                    </span>
-                </span>
+<div class="l-header">
+
+    <div class="eyebrow-mobile-wrapper js-eyebrow-mobile">
+  <div class="eyebrow-mobile">
+    <a href="http://uic.edu" class="icon-uic-logo eyebrow-logo">UIC.edu Home</a>
+    <div class="site-title-eyebrow-mobile">
+      <a href="/">University Library</a>
+    </div>
+    <button class="search-toggle-mobile js-search-toggle-mobile">
+      <span class="icon-search-mobile">
+      Toggle Search
+      </span>
+    </button>
+    <button class="nav-header-toggle js-nav-header-toggle">
+      <span class="icon-menu">
+      Toggle Menu
+      </span>
+    </button>
+  </div>
+    <div class="search-input-container-mobile">
+      <div class="search-title">
+        Search
+        <a class="search-close search-toggle-mobile">
+<svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1.41421;"><g id="icon-close"><path id="Line" d="M2,2l18,18" style="fill:none;stroke-width:2px;stroke:#fff;"/><path id="Line1" d="M20,2l-18,18" style="fill:none;stroke-width:2px;stroke:#fff;"/></g></svg>
+        </a>
+    </div>
+      <form method="get" action="/search" role="search" aria-label="Search this site on your mobile device">
+        <input type="text" name="q" class="search-input-mobile" placeholder="Search..." tabindex="-1" aria-label="Search this site on your mobile device" disabled="">
+        <input type="submit" class="submit-button" name="search" value="Submit">
+      </form>
+    </div>
+</div>
+
+    <a href="http://uic.edu" class="icon-uic-logo header-logo">UIC.edu Home</a>
+
+    <div class="l-full">
+        <div class="site-title-main -large">
+            <a href="/">University Library</a>
+        </div>
+        <nav class="header-menus js-header-menus" role="navigation">
+
+  <div id="skip" class="skip-menu assistive-text">
+  <p>
+    Skip to
+    <a class="_main" href="#main">the content of this page</a>,
+    <a class="_primary-menu" href="#menu-main">the main menu</a>,
+        <a class="_search" href="#search">the site search form</a>
+    or go to the
+    <a class="_home" href="/">the site home page</a>.
+  </p>
+</div>
+
+  <div class="site-title-mobile-menu">
+    <a href="/">University Library</a>
+  </div>
+
+  <h2 class="assistive-text">Main Menu</h2>
+  <ul id="menu-main" class="menu menu-main" aria-label="Main menu">
+	<li class="_item current-menu-item current-page-ancestor">
+		<a href="/help" target="_self">Help</a>
+    	</li>
+	<li class="_item menu-item-has-children">
+		<a href="/collections" target="_self">Collections</a>
+          <button role="button" class="expand-item js-expand-item">Expand Collections menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/collections/articles" target="_self">Articles</a>
+    </li>
+    <li class="_item ">
+    <a href="/collections/books-media" target="_self">Books &#038; Media</a>
+    </li>
+    <li class="_item menu-item-has-children">
+    <a href="/collections/digital-images" target="_self">Digital Images</a>
+        <button role="button" class="expand-item js-expand-item">Expand Digital Images menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/collections/digital-images/uic-image-collections" target="_self">UIC Image Collections</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item ">
+    <a href="/special-collections-university-archives" target="_self">Special Collections & University Archives</a>
+    </li>
+    <li class="_item ">
+    <a href="/collections/maps-gis" target="_self">Maps & GIS</a>
+    </li>
+    <li class="_item ">
+    <a href="/collections/uic-publications" target="_self">Theses, Dissertations & UIC Publications</a>
+    </li>
+  </ul>
+	</li>
+	<li class="_item menu-item-has-children">
+		<a href="/libraries" target="_self">Libraries</a>
+          <button role="button" class="expand-item js-expand-item">Expand Libraries menu</button>
+  <ul class="_child">
+    <li class="_item menu-item-has-children">
+    <a href="/libraries/daley" target="_self">Chicago-Daley</a>
+        <button role="button" class="expand-item js-expand-item">Expand Chicago-Daley menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/libraries/daley/hours" target="_self">Hours & Location</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item menu-item-has-children">
+    <a href="/libraries/lhs-chicago" target="_self">Chicago-Health Sciences</a>
+        <button role="button" class="expand-item js-expand-item">Expand Chicago-Health Sciences menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/libraries/lhs-chicago/hours" target="_self">Hours & Location</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item menu-item-has-children">
+    <a href="/libraries/lhs-peoria" target="_self">Peoria-Health Sciences</a>
+        <button role="button" class="expand-item js-expand-item">Expand Peoria-Health Sciences menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/libraries/lhs-peoria/hours" target="_self">Hours & Location</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item menu-item-has-children">
+    <a href="/libraries/lhs-rockford" target="_self">Rockford-Health Sciences</a>
+        <button role="button" class="expand-item js-expand-item">Expand Rockford-Health Sciences menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/libraries/lhs-rockford/hours" target="_self">Hours & Location</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item menu-item-has-children">
+    <a href="/libraries/lhs-urbana" target="_self">Urbana-Health Sciences</a>
+        <button role="button" class="expand-item js-expand-item">Expand Urbana-Health Sciences menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/libraries/lhs-urbana/hours" target="_self">Hours & Location</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item ">
+    <a href="http://library.uic.edu/special-collections-university-archives" target="_self">Special Collections & University Archives</a>
+    </li>
+    <li class="_item ">
+    <a href="https://www.jmls.edu/library/" target="_self">UIC John Marshall Law School Library</a>
+    </li>
+  </ul>
+	</li>
+	<li class="_item menu-item-has-children">
+		<a href="/about" target="_self">About</a>
+          <button role="button" class="expand-item js-expand-item">Expand About menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about/events" target="_self">Events</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/news" target="_self">News</a>
+    </li>
+    <li class="_item menu-item-has-children">
+    <a href="/about/employment" target="_self">Jobs & Careers</a>
+        <button role="button" class="expand-item js-expand-item">Expand Jobs & Careers menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about/employment/faculty-support" target="_self">Faculty Support</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item menu-item-has-children">
+    <a href="/about/directory" target="_self">People</a>
+        <button role="button" class="expand-item js-expand-item">Expand People menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about/directory/liaisons" target="_self">Subject Librarians</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/directory/faculty" target="_self">Faculty</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/directory/staff" target="_self">Staff</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/library-departments" target="_self">Library Departments</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item ">
+    <a href="/about/digital-scholarship" target="_self">Digital Scholarship</a>
+    </li>
+    <li class="_item menu-item-has-children">
+    <a href="/about/faculty" target="_self">Faculty</a>
+        <button role="button" class="expand-item js-expand-item">Expand Faculty menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about/faculty/projects" target="_self">Projects and Initiatives</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/faculty/teaching" target="_self">Teaching and Learning</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item menu-item-has-children">
+    <a href="/about/policies" target="_self">Library Policies</a>
+        <button role="button" class="expand-item js-expand-item">Expand Library Policies menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about/policies/privacy-policy" target="_self">User Privacy Policy</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/policies/code-of-conduct" target="_self">Code of Conduct</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/policies/service-policy" target="_self">Service Policy</a>
+    </li>
+    <li class="_item menu-item-has-children">
+    <a href="/about/policies/collection-development-policy" target="_self">Collection Development Policy</a>
+        <button role="button" class="expand-item js-expand-item">Expand Collection Development Policy menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/collections/fy19-collections-changes" target="_self">FY19 Collections Changes</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item ">
+    <a href="/help/article/1901/find-out-when-items-are-due/" target="_self">Renewal and Return Policies</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/policies/daley" target="_self">Daley Library Policies</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/policies/classroom-reservations-policy" target="_self">Daley Library IDEA Commons Classroom Reservations</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item ">
+    <a href="/about/strategic-plan" target="_self">Strategic Plan</a>
+    </li>
+    <li class="_item menu-item-has-children">
+    <a href="/covid-19" target="_self">COVID-19 and the Library</a>
+        <button role="button" class="expand-item js-expand-item">Expand COVID-19 and the Library menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/covid-19/covid-student-support" target="_self">COVID-19 Student Support Resources</a>
+    </li>
+  </ul>
+  </li>
+  </ul>
+	</li>
+	<li class="_item menu-item-has-children">
+		<a href="/special-collections-university-archives" target="_self">Special Collections & University Archives</a>
+          <button role="button" class="expand-item js-expand-item">Expand Special Collections & University Archives menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about-special-collections-university-archives" target="_self">About Special Collections & University Archives</a>
+    </li>
+    <li class="_item ">
+    <a href="/finding-aids" target="_self">Finding Aids</a>
+    </li>
+    <li class="_item ">
+    <a href="/rare-books" target="_self">Rare Books</a>
+    </li>
+    <li class="_item ">
+    <a href="http://library.uic.edu/collections/maps-gis" target="_self">Maps & GIS</a>
+    </li>
+    <li class="_item ">
+    <a href="http://library.uic.edu/collections/digital-images" target="_self">Digital Images</a>
+    </li>
+    <li class="_item ">
+    <a href="http://library.uic.edu/help/search?q=&t%5B%5D=29" target="_self">Using Special Collections & University Archives</a>
+    </li>
+    <li class="_item ">
+    <a href="http://researchguides.uic.edu/subject/special-collections-archives" target="_self">Special Collections Research Guides</a>
+    </li>
+  </ul>
+	</li>
+</ul>
+
+  <div class="l-eyebrow">
+
+    <h2 class="assistive-text">Eyebrow menu</h2>
+    <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
+	<li class="_item ">
+		<a href="/contact" target="_self">Contact Us</a>
+    	</li>
+	<li class="_item ">
+		<a href="/accounts" target="_self">My Accounts</a>
+    	</li>
+	<li class="_item ">
+		<a href="/donate" target="_self">Give to the Library</a>
+    	</li>
+	<li class="_item ">
+		<a href="/covid-19" target="_self">COVID-19</a>
+    	</li>
+</ul>
+
+    <h2 class="assistive-text">UIC menu</h2>
+    <ul class="menu-uic">
+  <li class="_item">
+    <a href="http://uic.edu">UIC.edu</a>
+  </li>
+  <li class="_item">
+    <a href="http://maps.uic.edu/">Campus Map</a>
+  </li>
+  <li class="_item">
+    <a href="http://today.uic.edu/">UIC Today</a>
+  </li>
+</ul>
+
+    <button id="header-search" class="search-toggle">
+      <span class="icon-search">
+      Toggle Search
+      </span>
+    </button>
+
+    <div class="search-input-container">
+      <form method="get" action="/search" role="search" aria-label="Search this site">
+        <input type="text" name="q" class="search-input" placeholder="Search..." tabindex="-1" aria-label="Search" disabled="">
+        <input type="submit" class="submit-button" name="search" value="Submit">
+      </form>
+    </div>
+
+  </div>
+
+
+</nav>
+    </div>
+
+    
+    
+</div>
+                    </header>
+
+                <main id="main" class="page__main">
+            
+    <div class="layout ">
+    <div class="layout__main">
+            <!-- help-article.twig main -->
+        <nav class="breadcrumbs" aria-label="Breadcrumbs">
+        <h2 class="breadcrumbs__header">Breadcrumbs</h2>
+        <ol>
+                                                <li class="breadcrumbs__list-item">
+                        <a class="breadcrumb breadcrumb--home" href="/">Home</a>
+                    </li>
+                                                                <li class="breadcrumbs__list-item">
+                        <a href="/help"><span class="breadcrumb breadcrumb--here">Help</span></a>
+                    </li>
+                                    </ol>
+    </nav>
+
+    <h1 class="page-title">Alumni services</h1>
+            <div class="intro">
+    <p>If you graduated from UIC or John Marshall Law School and live in Illinois, you may be eligible for an Alumni Borrowing card to continue to check out materials from the Library.</p>
+
+</div>    
+            <section aria-label="Article content">
+            <!-- container.twig -->
+<div class="content-container">
+  
+    
+    
+    
+          <div class="form-content">
+    <div class="form" id="form-19">
+    <form action="/help/article/1873/alumni-services#form-19" method="POST">
+        <input type="hidden" name="library-form-id" value="19">
+
+        <h2 class="form__title">Apply for an Alumni Borrowing Card</h2>
+
+        
+        
+                    <div class="form-element">
+            <label>
+    <span class="form-element-label required">First name</span>            <input class="text-input" type="text" name="input_11"
+            aria-required="true"></label>    </div>                    <div class="form-element">
+            <label>
+    <span class="form-element-label required">Last name</span>            <input class="text-input" type="text" name="input_12"
+            aria-required="true"></label>    </div>                    <div class="form-element">
+            <label>
+    <span class="form-element-label ">Middle name</span>            <input class="text-input" type="text" name="input_13"
+            ></label>    </div>                    <div class="form-element">
+            <label>
+    <span class="form-element-label required">Year of graduation</span>        <input class="number-input" type="number" name="input_5"
+            aria-required="true"></label>    </div>                    <div class="form-element">
+            <fieldset aria-labelledby="input_17_label" aria-required="true">
+    <legend id="input_17_label" class="form-element-label required">Did you receive your degree from John Marshall Law School?</legend>
+            <ul class="input-list">
+                    <li class="input-list-item">
+            <label class="input-list-label">
+                <input class="input-list-input" type="radio" name="input_17" value="Yes">
+                Yes
+            </label>
+        </li>
+            <li class="input-list-item">
+            <label class="input-list-label">
+                <input class="input-list-input" type="radio" name="input_17" value="No">
+                No
+            </label>
+        </li>
+        </ul>
+</fieldset>
+
+    </div>                    <div class="form-element">
+            <label>
+    <span class="form-element-label ">i-card Library ID (if available)</span>        <input class="number-input" type="number" name="input_10"
+            ></label>    </div>                    <div class="form-element">
+            <div class="form-element">
+    <label class="form-element-label form-bold">Address</label>        </div>
+
+<div class="form-section">
+            <div class="form-element">
+            <label>
+    <span class="form-element-label ">Street Address</span>            <input class="text-input" type="text" name="input_9_1"
+            ></label>    </div>            <div class="form-element">
+            <label>
+    <span class="form-element-label ">Address Line 2</span>            <input class="text-input" type="text" name="input_9_2"
+            ></label>    </div>            <div class="form-element">
+            <label>
+    <span class="form-element-label ">City</span>            <input class="text-input" type="text" name="input_9_3"
+            ></label>    </div>            <div class="form-element">
+            <label>
+    <span class="form-element-label ">State / Province</span>            <input class="text-input" type="text" name="input_9_4"
+            ></label>    </div>            <div class="form-element">
+            <label>
+    <span class="form-element-label ">ZIP / Postal Code</span>            <input class="text-input" type="text" name="input_9_5"
+            ></label>    </div>            <div class="form-element">
+            <label>
+    <span class="form-element-label ">Country</span>            <input class="text-input" type="text" name="input_9_6"
+            ></label>    </div>    </div>    </div>                    <div class="form-element">
+            <label>
+    <span class="form-element-label required">Phone</span>            <p class="form-help-text"><em>Please use the format: (312) 555-1234</em></p>        <input class="tel-input" type="tel" name="input_14"
+            aria-required="true">
+</label>    </div>                    <div class="form-element">
+            <label>
+    <span class="form-element-label required">Email</span>        <input class="email-input" type="email" name="input_15"
+            aria-required="true"></label>    </div>                    <div class="form-element">
+            <fieldset aria-labelledby="input_16_label" aria-required="true">
+    <legend id="input_16_label" class="form-element-label required">Policy agreement</legend>
+                <p class="form-help-text"><em>By clicking the checkbox you indicate that you have read, understood, and will abide by <strong><a href="/about/policies">Library policies</a></strong> regarding conduct and borrowing.</em></p>        <ul class="input-list">
+                    <li class="input-list-item">
+            <label class="input-list-label">
+                <input class="input-list-input" type="checkbox" name="input_16_1" value="I agree to abide by the policies of the library in all respects." aria-required="true">
+                I agree to abide by the policies of the library in all respects.
+            </label>
+        </li>
+        </ul>
+</fieldset>
+
+    </div>        
+      <button type="submit" class="button">Send</button>
+
+    </form>
+</div></div>
+    
+    
+  
+          <div class="text-content"><h2>More about Alumni Borrowing cards</h2>
+<h3>Getting your card</h3>
+<ul>
+<li>Your card will be mailed to the address you provide.</li>
+<li>You will be able to borrow items once you have received the card.</li>
+<li>If you intend to visit from out of town, please contact us in advance to clarify which privileges may be extended to you.  Please email <a href="mailto:lib-desk@uic.edu">lib-desk@uic.edu</a> or call (312) 996-2724.</li>
+</ul>
+<p>Note: Please double check your address in your application.  If your card is returned to us as undeliverable, you may not be eligible to reapply.</p>
+<h3>Renewing your card</h3>
+<ul>
+<li>Your card is good for a lifetime, but you will need to update your address and contact information periodically.</li>
+<li>Bring your Alumni Borrowing card and current photo ID when you come to the library to borrow materials.</li>
+<li>You will also need to present these credentials to door security to gain access to the John Marshall Law School and Library. <a href="https://library.uic.edu/help/article/9300/uic-john-marshall-law-school-library-frequently-asked-questions/">Learn more about visiting the UIC John Marshall Law School Library</a>.</li>
+</ul>
+<h3>Your card responsibilities</h3>
+<ul>
+<li>You are expected to update your card if your mailing or email address changes and show proof of identity and address.</li>
+<li>Your card can only be used at the Library of the Health Sciences-Chicago, the Richard J. Daley Library, and the John Marshall Law School Library.</li>
+<li>You may be billed for overdue or lost items and your library borrowing privileges will be suspended for failure to adhere to Library policies.</li>
+</ul>
+<h2>Using databases</h2>
+<ul>
+<li>There is no off-site access to library databases. You are welcome to use <a href="http://researchguides.uic.edu/az.php">UIC databases</a> at the Library of the Health Sciences-Chicago or the Richard J. Daley Library.</li>
+<li>Some John Marshall Law School databases are restricted to Law School users, while others are available for onsite use. For law databases, please <a href="https://jmls.uic.edu/library/reference-services.php">contact a Reference librarian at John Marshall Law School</a> in advance of your visit.</li>
+</ul>
+<h2>Requesting materials</h2>
+<p>We cannot offer I-Share or Interlibrary loan services to alumni at this time. Alumni can order documents from the UIC Library collection for a fee.</p>
+<p><a href="/help/article/3332/order-documents-alumni-and-non-uic-affiliates/">Learn more about ordering documents.</a></p>
+</div>    
+    
+    
+    
+    
+  </div>
+        </section>
+    
+            <section class="section help-articles-list" aria-label="Help Articles list section">
+
+    <h2 class="section__title section-heading"><span>How Do I...?</span></h2>
+
+    <div class="section__content">
+    <ul class="help-articles-list__articles">
+                    <li class="help-articles-list__article">
+                <a href="/help/article/1942/find-books-and-e-books">Search for books and e-books</a>
+            </li>
+                    <li class="help-articles-list__article">
+                <a href="/help/article/1941/search-for-uic-theses-and-dissertations">Search for UIC theses and dissertations</a>
+            </li>
+                    <li class="help-articles-list__article">
+                <a href="/help/article/1964/use-the-library-as-a-visitor-to-uic">Visitor services</a>
+            </li>
+                    <li class="help-articles-list__article">
+                <a href="/help/article/1901/find-out-when-items-are-due">Renew or find out when items are due</a>
+            </li>
+                    <li class="help-articles-list__article">
+                <a href="/help/article/1919/make-an-appointment-with-a-librarian">Make an appointment with a librarian</a>
+            </li>
+                    <li class="help-articles-list__article">
+                <a href="/help/article/9300/uic-john-marshall-law-school-library-frequently-asked-questions">UIC John Marshall Law School Library - Frequently Asked Questions</a>
+            </li>
+            </ul>
+
+    <p class="section__footer">
+        <a class="button" href="/help/search">Get More Help</a>
+    </p>
+
+</div>
+
+</section>    
+    </div>
+    <div class="layout__sidebar">
+        
+            <section class="filter-links" aria-label="Filters to limit results">
+
+    <h2 class="filter-links__title">Filter by Location</h2>
+
+    <ul class="filter-links__list">
+                    <li class="filter-links__item">
+                <a href="/help/search?l%5B0%5D=386">Chicago-Daley</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?l%5B0%5D=388">Chicago-Health Sciences</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?l%5B0%5D=389">Peoria-Health Sciences</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?l%5B0%5D=390">Rockford-Health Sciences</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?l%5B0%5D=391">Urbana-Health Sciences</a>
+            </li>
+            </ul>
+
+</section>
+    
+            <section class="filter-links" aria-label="Filters to limit results">
+
+    <h2 class="filter-links__title">Filter by Topic</h2>
+
+    <ul class="filter-links__list">
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=17">Accessibility</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=18">Borrowing</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=19">Computers, Printing &amp; Scanning</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=48">Copyright &amp; Scholarly Publishing</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=20">Course Reserves</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=21">Electronic Resources</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=23">Library Accounts</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=24">Off-Campus Access</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=26">Requesting Materials</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=27">Research Help</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=361">Searching</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=29">Special Collections &amp; University Archives</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=208">Study Spaces</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=1">Uncategorized</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=286">Writing, Style &amp; Citations</a>
+            </li>
+            </ul>
+
+</section>
+    
+    </div>
+</div>
+
+    <div class="contact-callout" aria-label="Contact a Librarian">
+    <div class="contact-callout__container uic_grid">
+        <div class="contact-callout__content">
+            <div>
+                <a href="/contact" class="jumbo-link">
+                    <span class="_prefix">Need help?</span>
+                    <span class="_text">Contact a Librarian!</span>
+                </a>
             </div>
+        </div>
+    </div>
+</div>
+
+        </main>
+        
+        <footer class="page__footer" role="contentinfo">
+                            <div class="footer uic-footer">
+
+    <section class="uic-footer__site" aria-label="Website footer, with miscellaneous site and location links">
+        <div class="uic-footer__site-container">
+            <div class="uic-footer__site-title">
+                                    <span class="wordmark" style="display: inline-block;">
+    <span class="wordmark__container">
+        <span class="wordmark__content">
+            <span class="wordmark__logo"><svg class="uic-circle-logo" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54">
+    <title>Logo for the University of Illinois at Chicago</title>
+    <rect class="uic-circle-logo__text" x="5" y="17" width="46" height="20"/>
+    <path class="uic-circle-logo__circle" d="M54,27C54,12.1,41.9,0,27,0S0,12.1,0,27s12.1,27,27,27S54,41.9,54,27z M21.8,29.4c0,2.5-0.3,3.6-1,4.8
+	c-1.2,1.9-4.3,2.7-7,2.7s-5.8-0.8-7-2.7c-0.7-1.2-1-2.4-1-4.8V19H11v10.5c-0.1,0.9,0.1,1.8,0.6,2.5c0.5,0.5,1.3,0.8,2.1,0.7
+	c0.8,0.1,1.6-0.2,2.2-0.8c0.5-0.7,0.7-1.6,0.6-2.5V19h5.3V29.4z M25,19h5.3v17.6H25V19z M49.3,23.4l-4.6,2.2
+	c-0.4-1.7-1.4-2.7-3.1-2.7c-2.2,0-3.4,1.9-3.4,4.9s1.1,4.8,3.4,4.8c1.4,0.1,2.7-0.8,3-2.2l4.8,1.7c-1.2,2.8-3.8,4.8-7.8,4.8
+	c-5.6,0-8.8-3.7-8.8-9.1s3.4-9.1,8.9-9.1C45.9,18.7,48.3,21.1,49.3,23.4L49.3,23.4z"/>
+</svg>
+</span>
+            <span class="wordmark__text">
+                <span class="wordmark__line wordmark__university">University</span>
+                <span class="wordmark__line wordmark__library">Library</span>
+            </span>
+        </span>
+    </span>
+</span>
+                            </div>
             <div class="uic-footer__site-content-and-links">
                 <div class="uic-footer__site-content">
-                    <section class="footer-locations">
+                                            <section class="footer-locations"  aria-label="Library locations">
 
-                        <h2 class="footer-locations__header">Locations</h2>
+    <h2 class="footer-locations__header">Locations</h2>
 
-                        <ul class="footer-locations__list">
-                            <li class="footer-locations__list-item">
-                                <article class="footer-location">
-                                    <a href="http://library.uic.edu/libraries/daley">
-                                        <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
-                                            <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"></path>
-                                        </svg>
-                                    </div>
-
-                                    <h3 class="footer-location__name">Richard J. <span class="last-two-words">Daley Library</span></h3>
-
-                                    <div class="footer-location__address">
-                                        <div class="footer-location-address">
-                                            <p>801 S. Morgan</p>
-
-                                            <p>
-                                                <span class="city">Chicago</span>,
-                                                <span class="state">IL</span>
-                                                <span class="zip">60607</span>
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div class="footer-location__phones">
-                                        <div class="footer-location-phone">
-                                            <span class="footer-location-phone__name">Phone</span>
-                                            <span class="footer-location-phone__number">(312) 996-2724</span>
-                                        </div>
-                                    </div>
-
-                                </a>
-                            </article>
-                        </li>
-                        <li class="footer-locations__list-item">
-                            <article class="footer-location">
-                                <a href="http://library.uic.edu/libraries/lhs-chicago">
-                                    <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
-                                        <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"></path>
-                                    </svg>
-                                </div>
-
-                                <h3 class="footer-location__name">Library of the <span class="last-two-words">Health Sciences-Chicago</span></h3>
-
-                                <div class="footer-location__address">
-                                    <div class="footer-location-address">
-                                        <p>1750 W. Polk St.</p>
-
-                                        <p>
-                                            <span class="city">Chicago</span>,
-                                            <span class="state">IL</span>
-                                            <span class="zip">60612</span>
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="footer-location__phones">
-                                    <div class="footer-location-phone">
-                                        <span class="footer-location-phone__name">Circulation</span>
-                                        <span class="footer-location-phone__number">(312) 996-8966</span>
-                                    </div>
-                                    <div class="footer-location-phone">
-                                        <span class="footer-location-phone__name">Reference</span>
-                                        <span class="footer-location-phone__number">(312) 996-9163</span>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </article>
-                    </li>
+    <ul class="footer-locations__list">
                     <li class="footer-locations__list-item">
-                        <article class="footer-location">
-                            <a href="http://library.uic.edu/libraries/lhs-peoria">
-                                <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
-                                    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"></path>
-                                </svg>
-                            </div>
+                <article aria-label="Footer for location Richard J. Daley Library">
 
-                            <h3 class="footer-location__name">Library of the <span class="last-two-words">Health Sciences-Peoria</span></h3>
+    <article class="footer-location">
+        <a href="/libraries/daley">
 
-                            <div class="footer-location__address">
-                                <div class="footer-location-address">
-                                    <p>One Illini Drive<br>
-                                        PO Box 1649</p>
-
-                                        <p>
-                                            <span class="city">Peoria</span>,
-                                            <span class="state">IL</span>
-                                            <span class="zip">61656</span>
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="footer-location__phones">
-                                    <div class="footer-location-phone">
-                                        <span class="footer-location-phone__name">Phone</span>
-                                        <span class="footer-location-phone__number">(309) 671-8490</span>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </article>
-                    </li>
-                    <li class="footer-locations__list-item">
-                        <article class="footer-location">
-                            <a href="http://library.uic.edu/libraries/lhs-rockford">
-                                <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
-                                    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"></path>
-                                </svg>
-                            </div>
-
-                            <h3 class="footer-location__name">Crawford Library of the <span class="last-two-words">Health Sciences-Rockford</span></h3>
-
-                            <div class="footer-location__address">
-                                <div class="footer-location-address">
-                                    <p>1601 Parkview Ave.</p>
-
-                                    <p>
-                                        <span class="city">Rockford</span>,
-                                        <span class="state">IL</span>
-                                        <span class="zip">61107</span>
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="footer-location__phones">
-                                <div class="footer-location-phone">
-                                    <span class="footer-location-phone__name">Phone</span>
-                                    <span class="footer-location-phone__number">(815) 395-5650</span>
-                                </div>
-                            </div>
-
-                        </a>
-                    </article>
-                </li>
-                <li class="footer-locations__list-item">
-                    <article class="footer-location">
-                        <a href="http://library.uic.edu/libraries/lhs-urbana">
-                            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
-                                <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"></path>
-                            </svg>
-                        </div>
-
-                        <h3 class="footer-location__name">Library of the <span class="last-two-words">Health Sciences-Urbana</span></h3>
-
-                        <div class="footer-location__address">
-                            <div class="footer-location-address">
-                                <p>102 Medical Sciences Building, 506 S. Mathews</p>
-
-                                <p>
-                                    <span class="city">Urbana</span>,
-                                    <span class="state">IL</span>
-                                    <span class="zip">61801</span>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="footer-location__phones">
-                            <div class="footer-location-phone">
-                                <span class="footer-location-phone__name">Circulation</span>
-                                <span class="footer-location-phone__number">(217) 333-4893</span>
-                            </div>
-                            <div class="footer-location-phone">
-                                <span class="footer-location-phone__name">Reference</span>
-                                <span class="footer-location-phone__number">(217) 244-0607</span>
-                            </div>
-                        </div>
-
-                    </a>
-                </article>
-            </li>
-        </ul>
-
-    </section>
+            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
 </div>
-<div class="uic-footer__site-links">
-    <ul class="footer-buttons">
-        <li>
-            <a class="footer-button" href="http://library.uic.edu/help/article/1891/faculty-services">Faculty services</a>        </li>
+
+            <h3 class="footer-location__name">Richard J. <span class="last-two-words">Daley Library</span></h3>
+
+                            <div class="footer-location__address">
+                    <div class="footer-location-address">
+    <p>801 S. Morgan</p>
+
+    <p>
+        <span class="city">Chicago</span>,
+        <span class="state">IL</span>
+        <span class="zip">60607</span>
+    </p>
+</div>
+                </div>
+            
+                            <div class="footer-location__phones">
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Circulation</span>
+    <span class="footer-location-phone__number">(312) 996-2724</span>
+</div>
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Reference</span>
+    <span class="footer-location-phone__number">(312) 996-2726</span>
+</div>
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Special Collections & University Archives</span>
+    <span class="footer-location-phone__number">(312) 996-2742</span>
+</div>
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Course Reserves</span>
+    <span class="footer-location-phone__number">(312) 996-2719</span>
+</div>
+                                    </div>
+            
+        </a>
+    </article>
+
+    <br />
+
+
+            <div class="footer-location__socialicon">
+                            <a href="https://www.facebook.com/uicdaleylibrary">
+                                           <svg width="10px" height="20px" viewBox="12 8 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M21.568676,36.4557627 L21.568676,22.1991924 L25.4569425,22.1991924 C25.4569425,22.1991924 25.8207426,19.8149587 25.9965387,17.3257356 L21.5906505,17.3257356 L21.5906505,14.0808338 C21.5906505,13.5961739 22.2230279,12.9418219 22.8456388,12.9418219 L25.856146,12.9418219 C25.8891077,12.193468 26.0551373,10.061941 26.2162837,8 L21.7115102,8 C15.6306765,8 15.7747316,12.7501554 15.7747316,13.4618852 L15.7747316,17.3440477 L12,17.3440477 L12,22.1991924 L15.7747316,22.1991924 L15.7747316,36.4557627 L21.568676,36.4557627 Z" id="Fill-1" stroke="none" fill-rule="evenodd"></path>
+</svg>                                    </a>
+                &nbsp;
+                            <a href="https://twitter.com/uiclibrary">
+                                           <svg width="10px" height="20px" viewBox="32 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M49.771,6.589 C50.624,6.077 51.28,5.267 51.588,4.302 C50.79,4.776 49.905,5.119 48.964,5.305 C48.21,4.502 47.136,4 45.947,4 C43.665,4 41.814,5.85 41.814,8.133 C41.814,8.457 41.85,8.773 41.921,9.075 C38.486,8.902 35.44,7.256 33.402,4.756 C33.046,5.367 32.843,6.076 32.843,6.834 C32.843,8.268 33.572,9.533 34.681,10.275 C34.004,10.253 33.366,10.067 32.809,9.758 L32.809,9.81 C32.809,11.812 34.233,13.483 36.124,13.862 C35.777,13.956 35.412,14.007 35.035,14.007 C34.769,14.007 34.51,13.98 34.258,13.932 C34.783,15.575 36.31,16.77 38.119,16.803 C36.704,17.912 34.922,18.572 32.985,18.572 C32.652,18.572 32.323,18.552 32,18.514 C33.829,19.687 36.001,20.372 38.335,20.372 C45.937,20.372 50.094,14.073 50.094,8.612 C50.094,8.433 50.091,8.254 50.082,8.077 C50.89,7.495 51.591,6.767 52.145,5.938 C51.404,6.266 50.607,6.488 49.771,6.589 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                                    </a>
+                &nbsp;
+            	    
+        </div>
+    
+</article>
+            </li>
+                    <li class="footer-locations__list-item">
+                <article aria-label="Footer for location Library of the Health Sciences-Chicago">
+
+    <article class="footer-location">
+        <a href="/libraries/lhs-chicago">
+
+            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
+</div>
+
+            <h3 class="footer-location__name">Library of the <span class="last-two-words">Health Sciences-Chicago</span></h3>
+
+                            <div class="footer-location__address">
+                    <div class="footer-location-address">
+    <p>1750 W. Polk St.</p>
+
+    <p>
+        <span class="city">Chicago</span>,
+        <span class="state">IL</span>
+        <span class="zip">60612</span>
+    </p>
+</div>
+                </div>
+            
+                            <div class="footer-location__phones">
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Circulation</span>
+    <span class="footer-location-phone__number">(312) 996-8966</span>
+</div>
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Reference</span>
+    <span class="footer-location-phone__number">(312) 996-9163</span>
+</div>
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Special Collections & University Archives</span>
+    <span class="footer-location-phone__number">(312) 996-8977</span>
+</div>
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Course Reserves</span>
+    <span class="footer-location-phone__number">(312) 996-8963</span>
+</div>
+                                    </div>
+            
+        </a>
+    </article>
+
+    <br />
+
+
+            <div class="footer-location__socialicon">
+                            <a href="https://www.facebook.com/LHSChicago">
+                                           <svg width="10px" height="20px" viewBox="12 8 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M21.568676,36.4557627 L21.568676,22.1991924 L25.4569425,22.1991924 C25.4569425,22.1991924 25.8207426,19.8149587 25.9965387,17.3257356 L21.5906505,17.3257356 L21.5906505,14.0808338 C21.5906505,13.5961739 22.2230279,12.9418219 22.8456388,12.9418219 L25.856146,12.9418219 C25.8891077,12.193468 26.0551373,10.061941 26.2162837,8 L21.7115102,8 C15.6306765,8 15.7747316,12.7501554 15.7747316,13.4618852 L15.7747316,17.3440477 L12,17.3440477 L12,22.1991924 L15.7747316,22.1991924 L15.7747316,36.4557627 L21.568676,36.4557627 Z" id="Fill-1" stroke="none" fill-rule="evenodd"></path>
+</svg>                                    </a>
+                &nbsp;
+                            <a href="https://twitter.com/LHS_Chicago">
+                                           <svg width="10px" height="20px" viewBox="32 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M49.771,6.589 C50.624,6.077 51.28,5.267 51.588,4.302 C50.79,4.776 49.905,5.119 48.964,5.305 C48.21,4.502 47.136,4 45.947,4 C43.665,4 41.814,5.85 41.814,8.133 C41.814,8.457 41.85,8.773 41.921,9.075 C38.486,8.902 35.44,7.256 33.402,4.756 C33.046,5.367 32.843,6.076 32.843,6.834 C32.843,8.268 33.572,9.533 34.681,10.275 C34.004,10.253 33.366,10.067 32.809,9.758 L32.809,9.81 C32.809,11.812 34.233,13.483 36.124,13.862 C35.777,13.956 35.412,14.007 35.035,14.007 C34.769,14.007 34.51,13.98 34.258,13.932 C34.783,15.575 36.31,16.77 38.119,16.803 C36.704,17.912 34.922,18.572 32.985,18.572 C32.652,18.572 32.323,18.552 32,18.514 C33.829,19.687 36.001,20.372 38.335,20.372 C45.937,20.372 50.094,14.073 50.094,8.612 C50.094,8.433 50.091,8.254 50.082,8.077 C50.89,7.495 51.591,6.767 52.145,5.938 C51.404,6.266 50.607,6.488 49.771,6.589 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                                    </a>
+                &nbsp;
+            	    
+        </div>
+    
+</article>
+            </li>
+                    <li class="footer-locations__list-item">
+                <article aria-label="Footer for location Library of the Health Sciences-Peoria">
+
+    <article class="footer-location">
+        <a href="/libraries/lhs-peoria">
+
+            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
+</div>
+
+            <h3 class="footer-location__name">Library of the <span class="last-two-words">Health Sciences-Peoria</span></h3>
+
+                            <div class="footer-location__address">
+                    <div class="footer-location-address">
+    <p>One Illini Drive</p>
+
+    <p>
+        <span class="city">Peoria</span>,
+        <span class="state">IL</span>
+        <span class="zip">61605</span>
+    </p>
+</div>
+                </div>
+            
+                            <div class="footer-location__phones">
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Phone</span>
+    <span class="footer-location-phone__number">(309) 671-8490</span>
+</div>
+                                    </div>
+            
+        </a>
+    </article>
+
+    <br />
+
+
+            <div class="footer-location__socialicon">
+                            <a href="https://twitter.com/uiclibrary">
+                                           <svg width="10px" height="20px" viewBox="32 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M49.771,6.589 C50.624,6.077 51.28,5.267 51.588,4.302 C50.79,4.776 49.905,5.119 48.964,5.305 C48.21,4.502 47.136,4 45.947,4 C43.665,4 41.814,5.85 41.814,8.133 C41.814,8.457 41.85,8.773 41.921,9.075 C38.486,8.902 35.44,7.256 33.402,4.756 C33.046,5.367 32.843,6.076 32.843,6.834 C32.843,8.268 33.572,9.533 34.681,10.275 C34.004,10.253 33.366,10.067 32.809,9.758 L32.809,9.81 C32.809,11.812 34.233,13.483 36.124,13.862 C35.777,13.956 35.412,14.007 35.035,14.007 C34.769,14.007 34.51,13.98 34.258,13.932 C34.783,15.575 36.31,16.77 38.119,16.803 C36.704,17.912 34.922,18.572 32.985,18.572 C32.652,18.572 32.323,18.552 32,18.514 C33.829,19.687 36.001,20.372 38.335,20.372 C45.937,20.372 50.094,14.073 50.094,8.612 C50.094,8.433 50.091,8.254 50.082,8.077 C50.89,7.495 51.591,6.767 52.145,5.938 C51.404,6.266 50.607,6.488 49.771,6.589 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                                    </a>
+                &nbsp;
+            	    
+        </div>
+    
+</article>
+            </li>
+                    <li class="footer-locations__list-item">
+                <article aria-label="Footer for location Crawford Library of the Health Sciences-Rockford">
+
+    <article class="footer-location">
+        <a href="/libraries/lhs-rockford">
+
+            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
+</div>
+
+            <h3 class="footer-location__name">Crawford Library of the <span class="last-two-words">Health Sciences-Rockford</span></h3>
+
+                            <div class="footer-location__address">
+                    <div class="footer-location-address">
+    <p>1601 Parkview Ave.</p>
+
+    <p>
+        <span class="city">Rockford</span>,
+        <span class="state">IL</span>
+        <span class="zip">61107</span>
+    </p>
+</div>
+                </div>
+            
+                            <div class="footer-location__phones">
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Phone</span>
+    <span class="footer-location-phone__number">(815) 395-5650</span>
+</div>
+                                    </div>
+            
+        </a>
+    </article>
+
+    <br />
+
+
+            <div class="footer-location__socialicon">
+                            <a href="https://www.facebook.com/CLHSRockford">
+                                           <svg width="10px" height="20px" viewBox="12 8 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M21.568676,36.4557627 L21.568676,22.1991924 L25.4569425,22.1991924 C25.4569425,22.1991924 25.8207426,19.8149587 25.9965387,17.3257356 L21.5906505,17.3257356 L21.5906505,14.0808338 C21.5906505,13.5961739 22.2230279,12.9418219 22.8456388,12.9418219 L25.856146,12.9418219 C25.8891077,12.193468 26.0551373,10.061941 26.2162837,8 L21.7115102,8 C15.6306765,8 15.7747316,12.7501554 15.7747316,13.4618852 L15.7747316,17.3440477 L12,17.3440477 L12,22.1991924 L15.7747316,22.1991924 L15.7747316,36.4557627 L21.568676,36.4557627 Z" id="Fill-1" stroke="none" fill-rule="evenodd"></path>
+</svg>                                    </a>
+                &nbsp;
+                            <a href="https://twitter.com/CrawfordLibrary">
+                                           <svg width="10px" height="20px" viewBox="32 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M49.771,6.589 C50.624,6.077 51.28,5.267 51.588,4.302 C50.79,4.776 49.905,5.119 48.964,5.305 C48.21,4.502 47.136,4 45.947,4 C43.665,4 41.814,5.85 41.814,8.133 C41.814,8.457 41.85,8.773 41.921,9.075 C38.486,8.902 35.44,7.256 33.402,4.756 C33.046,5.367 32.843,6.076 32.843,6.834 C32.843,8.268 33.572,9.533 34.681,10.275 C34.004,10.253 33.366,10.067 32.809,9.758 L32.809,9.81 C32.809,11.812 34.233,13.483 36.124,13.862 C35.777,13.956 35.412,14.007 35.035,14.007 C34.769,14.007 34.51,13.98 34.258,13.932 C34.783,15.575 36.31,16.77 38.119,16.803 C36.704,17.912 34.922,18.572 32.985,18.572 C32.652,18.572 32.323,18.552 32,18.514 C33.829,19.687 36.001,20.372 38.335,20.372 C45.937,20.372 50.094,14.073 50.094,8.612 C50.094,8.433 50.091,8.254 50.082,8.077 C50.89,7.495 51.591,6.767 52.145,5.938 C51.404,6.266 50.607,6.488 49.771,6.589 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                                    </a>
+                &nbsp;
+            	    
+        </div>
+    
+</article>
+            </li>
+                    <li class="footer-locations__list-item">
+                <article aria-label="Footer for location Library of the Health Sciences-Urbana">
+
+    <article class="footer-location">
+        <a href="/libraries/lhs-urbana">
+
+            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
+</div>
+
+            <h3 class="footer-location__name">Library of the <span class="last-two-words">Health Sciences-Urbana</span></h3>
+
+                            <div class="footer-location__address">
+                    <div class="footer-location-address">
+    <p>470 Grainger Engineering Library Information Center,<br />
+1301 W. Springfield Ave.</p>
+
+    <p>
+        <span class="city">Urbana</span>,
+        <span class="state">IL</span>
+        <span class="zip">61801</span>
+    </p>
+</div>
+                </div>
+            
+                            <div class="footer-location__phones">
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Circulation and Reference</span>
+    <span class="footer-location-phone__number">(217) 244-2261</span>
+</div>
+                                    </div>
+            
+        </a>
+    </article>
+
+    <br />
+
+
+            <div class="footer-location__socialicon">
+                            <a href="https://www.facebook.com/pages/Library-of-the-Health-Sciences-Urbana/59707691709">
+                                           <svg width="10px" height="20px" viewBox="12 8 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M21.568676,36.4557627 L21.568676,22.1991924 L25.4569425,22.1991924 C25.4569425,22.1991924 25.8207426,19.8149587 25.9965387,17.3257356 L21.5906505,17.3257356 L21.5906505,14.0808338 C21.5906505,13.5961739 22.2230279,12.9418219 22.8456388,12.9418219 L25.856146,12.9418219 C25.8891077,12.193468 26.0551373,10.061941 26.2162837,8 L21.7115102,8 C15.6306765,8 15.7747316,12.7501554 15.7747316,13.4618852 L15.7747316,17.3440477 L12,17.3440477 L12,22.1991924 L15.7747316,22.1991924 L15.7747316,36.4557627 L21.568676,36.4557627 Z" id="Fill-1" stroke="none" fill-rule="evenodd"></path>
+</svg>                                    </a>
+                &nbsp;
+                            <a href="https://twitter.com/uiclibrary">
+                                           <svg width="10px" height="20px" viewBox="32 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M49.771,6.589 C50.624,6.077 51.28,5.267 51.588,4.302 C50.79,4.776 49.905,5.119 48.964,5.305 C48.21,4.502 47.136,4 45.947,4 C43.665,4 41.814,5.85 41.814,8.133 C41.814,8.457 41.85,8.773 41.921,9.075 C38.486,8.902 35.44,7.256 33.402,4.756 C33.046,5.367 32.843,6.076 32.843,6.834 C32.843,8.268 33.572,9.533 34.681,10.275 C34.004,10.253 33.366,10.067 32.809,9.758 L32.809,9.81 C32.809,11.812 34.233,13.483 36.124,13.862 C35.777,13.956 35.412,14.007 35.035,14.007 C34.769,14.007 34.51,13.98 34.258,13.932 C34.783,15.575 36.31,16.77 38.119,16.803 C36.704,17.912 34.922,18.572 32.985,18.572 C32.652,18.572 32.323,18.552 32,18.514 C33.829,19.687 36.001,20.372 38.335,20.372 C45.937,20.372 50.094,14.073 50.094,8.612 C50.094,8.433 50.091,8.254 50.082,8.077 C50.89,7.495 51.591,6.767 52.145,5.938 C51.404,6.266 50.607,6.488 49.771,6.589 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                                    </a>
+                &nbsp;
+            	    
+        </div>
+    
+</article>
+            </li>
+            </ul>
+
+</section>
+                                    </div>
+                <div class="uic-footer__site-links">
+                                            <ul class="footer-buttons">
             <li>
-                <a class="footer-button" href="http://library.uic.edu/help/article/1873/alumni-services">Alumni services</a>        </li>
-                <li>
-                    <a class="footer-button" href="http://library.uic.edu/help/article/1887/distance-student-services">Distance student services</a>        </li>
-                    <li>
-                        <a class="footer-button" href="http://library.uic.edu/help/article/1955/use-accessibility-services">Accessibility services</a>        </li>
-                    </ul>                                                                <nav class="uic-social-navigation" aria-labelledby="social-nav-header">
-                    <h2 id="social-nav-header">Social Networking</h2>
-                    <ul>
-                    </ul>
-                </nav>
+            <a class="footer-button" href="/help/article/1891/faculty-services">Faculty services</a>        </li>
+            <li>
+            <a class="footer-button" href="/help/article/1873/alumni-services">Alumni services</a>        </li>
+            <li>
+            <a class="footer-button" href="/help/article/1887/distance-student-services">Distance education user services</a>        </li>
+            <li>
+            <a class="footer-button" href="/help/article/1955/use-accessibility-services">Accessibility services</a>        </li>
+    </ul>                                                                <nav class="uic-social-navigation" aria-labelledby="social-nav-header">
+    <h2 id="social-nav-header">Social Networking</h2>
+    <ul>
+            </ul>
+</nav>
+                                    </div>
             </div>
         </div>
+    </section>
+
+    
+    <section class="uic-footer__university" aria-label="University links">
+
+        <section class="uic-footer-legal" aria-label="Legal, privacy, and copyright links">
+    <div class="uic-footer-legal__container">
+
+        <div class="uic-footer-legal__legal">
+            <p class="uic-footer-legal__copyright">&copy; 2020 The Board of Trustees of the University of Illinois</p>
+            <p class="uic-footer-legal__privacy-link"><a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Policy</a></p>
+            <br/>
+            <p class="uic-footer-legal__govt-docs"><a href="http://researchguides.uic.edu/gov">Federal Depository Library for U.S. Government Documents</a></p>
+            <p class="uic-footer-legal__govt-docs"><a href="http://researchguides.uic.edu/gov">GDPR</a></p>
+        </div>
+
+        <div class="uic-footer-legal__university-links">
+            <h2>Campus Links</h2>
+            <ul>
+                <li><a href="http://uillinois.edu/">University of Illinois</a></li>
+                <li><a href="http://uic.edu/">Chicago</a></li>
+                <li><a href="http://illinois.edu/">Urbana-Champaign</a></li>
+                <li><a href="http://uis.edu/">Springfield</a></li>
+            </ul>
+        </div>
+
+    <!--OneTrust Cookies Settings button start --><a class="optanon-show-settings">Cookie Settings</a><!--OneTrust Cookies Settings button end -->
     </div>
 </section>
 
-
-<section class="uic-footer__university">
-
-    <section class="uic-footer-legal">
-        <div class="uic-footer-legal__container">
-
-            <div class="uic-footer-legal__legal">
-                <p class="uic-footer-legal__copyright">© 2016 The Board of Trustees of the University of Illinois</p>
-                <p class="uic-footer-legal__privacy-link"><a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Policy</a></p>
-            </div>
-
-            <div class="uic-footer-legal__university-links">
-                <h2>Campus Links</h2>
-                <ul>
-                    <li><a href="http://uillinois.edu/">University of Illinois</a></li>
-                    <li><a href="http://uic.edu/">Chicago</a></li>
-                    <li><a href="http://illinois.edu/">Urbana-Champaign</a></li>
-                    <li><a href="http://uis.edu/">Springfield</a></li>
-                </ul>
-            </div>
-
-        </div>
     </section>
-
-</section>
-
-<div class="chat-widget" aria-labelledby="chat-window-title">
+    <div class="chat-widget" aria-labelledby="chat-window-title">
     <div class="chat-widget__header">
         <a href="#" id="chat-window-title" class="chat-widget__title">
             Chat with a Librarian
@@ -1752,13 +1061,14 @@ For more info on the orthoimagery see <a href="https://pubs.usgs.gov/fs/2009/305
     </div>
     <div class="chat-widget__embed">
         <div class="chat-widget__embed-content">
-            <div id="libchat_a8f3cdd768831e345ca9d2f796ff5e5d"><div class="lci_chat_load" style="width: 100%; height: 340px; border: 1px solid transparent; box-sizing: content-box; background-color: rgb(249, 249, 249);"><iframe id="iframe_a8f3cdd768831e345ca9d2f796ff5e5d" name="iframe_a8f3cdd768831e345ca9d2f796ff5e5d" title="Chat widget" src="https://v2.libanswers.com/chati.php?iid=1175&hash=a8f3cdd768831e345ca9d2f796ff5e5d&online=false&referer_title=Find%20books%20and%20e-books" frameborder="0" scrolling="no" style="border: 0px; box-sizing: border-box; width: 100%; height: 340px; background-color: rgb(249, 249, 249);"></iframe></div></div>
+            <div id="libchat_a8f3cdd768831e345ca9d2f796ff5e5d"></div>
         </div>
     </div>
-</div>
+</div></div>
+                    </footer>
 
-</div>
-</footer>
-		<!-- END: Custom Footer -->
+    </div>
+    <script src="/js/main.js"></script>
+    <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
 </body>
 </html>

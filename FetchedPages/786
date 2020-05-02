@@ -40,7 +40,7 @@
 
 
         <title>
-                            Morgan, Estherine  | College of Engineering | University of Illinois at Chicago
+                            RISE | College of Engineering | University of Illinois at Chicago
                     </title>
 
 
@@ -135,7 +135,7 @@ img.emoji {
 	for (var i = 0; i < evts.length; i++) {
 		addEvent(evts[i], logHuman);
 	}
-})('//engineering.uic.edu/?wordfence_lh=1&hid=6351573630000881BB4183A571D0D2E6');
+})('//engineering.uic.edu/?wordfence_lh=1&hid=DADA82F9318236886DDF9987697E8696');
 </script>
 </head>
       
@@ -151,7 +151,13 @@ img.emoji {
 
 
 
-  <div class="l-page profile-template-default single single-profile postid-18 post-type--profile  site-type-b theme--navy no-sidebar  ">
+  
+  
+
+  
+  
+
+  <div class="l-page page-template-default page page-id-2625 page-parent page-child parent-pageid-207 post-type--page  site-type-b theme--navy is-sidebar  ">
 
 
     <!--[if lte IE 9]>
@@ -181,6 +187,7 @@ img.emoji {
     </span>
     <a class="_primary-menu" href="#menu-main">the main menu</a>,
 
+        <a class="_secondary-menu" href="#menu-secondary">the secondary menu</a>,
     
     
     <a class="_search" href="#search">the site search form</a>,
@@ -543,7 +550,7 @@ img.emoji {
                       </div>
         </div>
           </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-199 menu-item-has-children">
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current_page_ancestor menu-item-199 menu-item-has-children">
       <a 
         class="menu-main__first-link"
         href="/about/"
@@ -636,7 +643,7 @@ img.emoji {
                   Summer Camp
                 </a>
               </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-212 menu-item-has-children">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-212 menu-item-has-children">
                 <a 
                   class="menu-main__second-link"
                   href="/about/coe-news/"
@@ -720,6 +727,16 @@ img.emoji {
   </div>
 
     
+        <a href="#menu-secondary" class="menu-secondary-anchor">
+      View Menu
+      <svg aria-label="Down arrow icon" width="32" height="32" viewBox="0 0 32 32" role="presentation">
+        <title>Down arrow icon</title>
+        <g fill="none" fill-rule="evenodd">
+          <circle class="_circle" stroke-width="1" stroke="#007Da5" fill="#fff" cx="16" cy="16" r="15"/>
+          <path class="_arrow" stroke-width="2" stroke="#001E62" stroke-linecap="round" d="M12 17l4 4 4-4M16 20v-9"/>
+        </g>
+      </svg>
+    </a>
         
 </header>
 
@@ -733,114 +750,156 @@ img.emoji {
         <div class="l-content ">
 
           
-                                    
-          <article class="post-type-profile" id="article">
-            
+                      <nav class="breadcrumbs" aria-label="Breadcrumbs">
+  <h2 class="assistive-text">Breadcrumbs</h2>
+  <ol class="menu" vocab="https://schema.org/" typeof="BreadcrumbList">
 
-    <div class="profile-header">
-      <div class="_colA">
-        <img src="https://engineering.uic.edu/wp-content/uploads/sites/217/2018/06/Estherine-Morgan-1-157x180.jpg" alt="Photo of Morgan,&#x20;Estherine">
-      </div>
-
-      <div class="_colB">
-
-        <h1>Estherine  Morgan, M.Ed</h1>
-
-        <p class="_academic-title">Assistant Director, Academic Resource Center</p>
-
-        <p class="_alternate-title"></p>
-
-                <p class="_department">Engineering Undergraduate Academic Affairs</p>
-        
-        
-      </div>
-    </div>
-
-    <div class="profile-body">
-      <div class="_colA">
-      </div>
-
-      <div class="_colB">
-        <div class="contact-wrapper">
-
-          <section class="u-definition-list-primary-contact">
-
-                                <div class="_row -inline">
-            <h2 class="_section-title">Contact</h2>           </div>
-                              <div class="_row -inline">
-            <h2 class="_label">Building &amp; Room:</h2>
-            <p class="_content">SEO 108</p>
-          </div>
+  
+          <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://engineering.uic.edu"><span property="name">College of Engineering</span></a>
+        <meta property="position" content="0">
+      </li>
+    
+  
+          <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://engineering.uic.edu/about/"><span property="name">About</span></a>
+        <meta property="position" content="1">
+      </li>
+    
+  
+          <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://engineering.uic.edu/about/coe-news/"><span property="name">News</span></a>
+        <meta property="position" content="2">
+      </li>
+    
+  
+          <li property="itemListElement" typeof="ListItem"><span property="name">RISE</span>
+        <meta property="position" content="3">
+      </li>
+    
+  
+  </ol>
+</nav>
           
-                    <div class="_row -inline">
-            <h2 class="_label">Address:</h2>
-            <p class="_content">851 South Morgan, Chicago, IL 60607</p>
-          </div>
-          
-                   <div class="_row -inline">
-            <h2 class="_label">Office Phone:</h2>
-            <p class="_content"><a href="tel:(312) 996-5331">(312) 996-5331</a></p>
-          </div>
-          
-         
-          
+          <article class="post-type-page" id="article">
             
-                        <div class="_row -inline -email-field-buffer">
-              <h2 class="_label">Email:</h2>
-              <p class="_content"><a href="mailto:emorga3@uic.edu">emorga3@uic.edu</a></p>
-            </div>
-            
-            
-            
-            
-          </section>
+          <div class="intro-text">
 
-          <section class="u-definition-list-secondary-contact">
-
-                                              
-          
-         
-         
-                      
+                      <h1 class="_title post-title">RISE</h1>
+              
             
-          </section>
+              
+          <p class="_subtitle">The magazine of the UIC College of Engineering</p>
+    
+        
+  </div>
+        <div class="components">
 
-        </div>
+  
+    
+      
 
-        
+<section class="component  ">
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      </div>
-    </div>
+  
+  <div class="component-text-block">
+  
+    <div class="component-description">
+                    <h2 id="t" class="__title invisible">t</h2>
+                    </div>
+
+    <figure class="_image captioned-image image-left-third">
+  <img src="https://engineering.uic.edu/wp-content/uploads/sites/217/2020/04/Cover-RISE-spring-2020-web.png" alt="Spring 2020 cover">
+  </figure>
+  
+  <p>Here is where you will find all the content from the new UIC Engineering magazine, <em>RISE. </em>Its title is a reference to the words that incoming undergraduates see on the cover of our admissions viewbook: “Chicago is where you will rise.” This one word captures our mission of providing all students with the engineering and computer science education they need to achieve excellence and success.</p>
+<p>In each issue of this magazine, you will find stories about students, faculty, and alumni who have risen to great heights: through competition wins, successful startups, innovative designs, and groundbreaking approaches in computing. Equally as important, you will learn what the UIC Engineering community is doing to help lift our society and our environment.</p>
+<p><em>RISE </em>will address topics of high importance to all of us—such as climate change, cybersecurity, energy conservation, or food safety—and will show you how UIC Engineering faculty, alumni, students, and friends are involved with those issues.</p>
+<p>Thanks for being part of our first generation of readers!</p>
+
+
+
+  
+</div>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+  
+    <div class="
+    component-call-to-action
+    component-call-to-action--dark
+    
+    ">
+
+    
+    <div class="component-description">
+                    <h2 id="read-content-from-the-following-editions" class="__title visible">Read content from the following editions:</h2>
+                    </div>
+
+    <ul class="_items call-to-action-links">
+              <li>
+                      <a  href="https://engineering.uic.edu/about/coe-news/rise/spring-2020/"
+            target="_self">
+                            <span class="call-to-action-links__icon call-to-action-links__icon--dark text-icon" aria-hidden="true">
+                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+  <title>Document icon</title>
+  <g fill="none" fill-rule="evenodd">
+    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
+    <rect class="_mark" fill="#FFF" x="10" y="11" width="16" height="2" rx="1"/>
+    <rect class="_mark" fill="#FFF" x="10" y="23" width="10" height="2" rx="1"/>
+    <rect class="_mark" fill="#FFF" x="10" y="19" width="16" height="2" rx="1"/>
+    <rect class="_mark" fill="#FFF" x="10" y="15" width="10" height="2" rx="1"/>
+  </g>
+</svg>
+                </span>
+                <span class="_text">Spring 2020</span>
+              
+            </a>
+                  </li>
+              <li>
+                      <a  href="https://engineering.uic.edu/about/coe-news/rise/rise/"
+            target="_self">
+                            <span class="call-to-action-links__icon call-to-action-links__icon--dark text-icon" aria-hidden="true">
+                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+  <title>Document icon</title>
+  <g fill="none" fill-rule="evenodd">
+    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
+    <rect class="_mark" fill="#FFF" x="10" y="11" width="16" height="2" rx="1"/>
+    <rect class="_mark" fill="#FFF" x="10" y="23" width="10" height="2" rx="1"/>
+    <rect class="_mark" fill="#FFF" x="10" y="19" width="16" height="2" rx="1"/>
+    <rect class="_mark" fill="#FFF" x="10" y="15" width="10" height="2" rx="1"/>
+  </g>
+</svg>
+                </span>
+                <span class="_text">Fall 2019</span>
+              
+            </a>
+                  </li>
+          </ul>
+  </div>
+
+
+  
+</section>
+
+    
+
+</div>
 
           </article>
         </div>
 
                                             
-                       
+                                 
               
                             
-                       
-              
-                            
-
-
-
-
-   
-                       
+                                 
               
                             
 
@@ -848,7 +907,7 @@ img.emoji {
 
 
    
-                       
+                                 
               
                             
 
@@ -856,7 +915,7 @@ img.emoji {
 
 
    
-                       
+                                 
               
                             
 
@@ -864,7 +923,7 @@ img.emoji {
 
 
    
-                       
+                                 
               
                             
 
@@ -872,7 +931,7 @@ img.emoji {
 
 
    
-                       
+                                 
               
                             
 
@@ -880,7 +939,7 @@ img.emoji {
 
 
    
-                       
+                                 
               
                             
 
@@ -888,7 +947,7 @@ img.emoji {
 
 
    
-                       
+                                 
               
                             
 
@@ -896,7 +955,7 @@ img.emoji {
 
 
    
-                       
+                                 
               
                             
 
@@ -904,7 +963,7 @@ img.emoji {
 
 
    
-                       
+                                 
               
                             
 
@@ -912,7 +971,7 @@ img.emoji {
 
 
    
-                       
+                                 
               
                             
 
@@ -920,7 +979,7 @@ img.emoji {
 
 
    
-                       
+                                 
               
                             
 
@@ -928,7 +987,7 @@ img.emoji {
 
 
    
-                       
+                                 
               
                             
 
@@ -936,39 +995,7 @@ img.emoji {
 
 
    
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
+                                 
               
                             
 
@@ -981,10 +1008,7 @@ img.emoji {
 
 
    
-                       
-              
-                            
-                       
+                                 
               
                             
 
@@ -992,7 +1016,7 @@ img.emoji {
 
 
    
-                       
+                                 
               
                             
 
@@ -1000,7 +1024,10 @@ img.emoji {
 
 
    
-                       
+                                 
+              
+                            
+                                 
               
                             
 
@@ -1008,15 +1035,7 @@ img.emoji {
 
 
    
-                       
-              
-                            
-
-
-
-
-   
-                       
+                                 
               
                             
 
@@ -1029,21 +1048,10 @@ img.emoji {
 
 
    
-                       
+                                 
               
                             
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
+                                 
               
                             
 
@@ -1051,7 +1059,7 @@ img.emoji {
 
 
    
-                       
+                                 
               
                             
 
@@ -1059,7 +1067,7 @@ img.emoji {
 
 
    
-                       
+                                 
               
                             
 
@@ -1067,7 +1075,7 @@ img.emoji {
 
 
    
-                       
+                                 
               
                             
 
@@ -1075,15 +1083,7 @@ img.emoji {
 
 
    
-                       
-              
-                            
-
-
-
-
-   
-                       
+                                 
               
                             
 
@@ -1096,7 +1096,89 @@ img.emoji {
 
 
    
-                       
+                                 
+              
+
+                      <div class="l-sidebar">
+             <nav role="navigation" id="menu-secondary" aria-label="Secondary About" class="menu-secondary">
+               <div class="menu-secondary__title-container">
+                 <h2 class="menu-secondary__title"><a  class="menu-secondary__title-link" href="https://engineering.uic.edu/about/">About</a></h2>
+                 <a  class="menu-secondary__back-to-content" href="#main">
+                   <svg aria-label="Back to main content" width="32" height="32" viewBox="0 0 32 32">
+                     <title>Back to main content</title>
+                     <g fill="none" fill-rule="evenodd">
+                       <circle class="_circle" fill="#fff" stroke="#007FA5" stroke-width="1" cx="16" cy="16" r="15"/>
+                       <path class="_arrow" d="M16 21v-9M12 15l4-4 4 4" stroke="#001E62" stroke-width="2" stroke-linecap="round"/>
+                     </g>
+                   </svg>
+                 </a>
+               </div>
+
+                <ul  class="menu ">
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1950">
+                    <a  href="/about/dean/" target="_self"><span>Dean</span></a>                                      </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-200 menu-item-has-children">
+                    <a  href="/about/faculty/" target="_self"><span>Faculty</span>                          <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1617">
+    <a href="/about/faculty/distinguished/" target="_self"><span>Distinguished Professors</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1616">
+    <a href="/about/faculty/book-dedications/" target="_self"><span>Book Dedications</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2609">
+    <a href="/about/faculty/faculty-development/" target="_self"><span>Faculty Development</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2010">
+    <a href="/about/faculty/faculty-honors/" target="_self"><span>Faculty Honors</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2582">
+    <a href="/about/faculty/faculty-meetings/" target="_self"><span>Faculty Meetings</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3487">
+    <a href="/about/faculty/teaching-resources/" target="_self"><span>Teaching Resources</span></a>    </li>
+  </ul>
+                  </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1757">
+                    <a  href="/about/administration/" target="_self"><span>Administration</span></a>                                      </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-214">
+                    <a  href="/about/staff/" target="_self"><span>Staff</span></a>                                      </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-173">
+                    <a  href="/about/alumni/" target="_self"><span>Alumni</span></a>                                      </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-213">
+                    <a  href="/about/advisoryboard/" target="_self"><span>Advisory Board</span></a>                                      </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1591 menu-item-has-children">
+                    <a  href="/about/facilities/" target="_self"><span>Facilities</span>                          <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1599">
+    <a href="/about/facilities/eib/" target="_self"><span>Engineering Innovation Building</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-320">
+    <a href="/about/facilities/makerspace/" target="_self"><span>MakerSpace</span></a>    </li>
+  </ul>
+                  </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1898">
+                    <a  href="/about/uic-engineering-summer-camp/" target="_self"><span>Summer Camp</span></a>                                      </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-212 menu-item-has-children">
+                    <a  href="/about/coe-news/" target="_self"><span>News</span>                          <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2625 current_page_item menu-item-2764">
+    <a href="/about/coe-news/rise/" target="_self"><span>RISE</span></a>    </li>
+  </ul>
+                  </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-201">
+                    <a  href="/about/contact/" target="_self"><span>Contact</span></a>                                      </li>
+                                  </ul>
+
+              </nav>
+            </div>
+       
+                            
+                                 
               
                             
 
@@ -1104,7 +1186,10 @@ img.emoji {
 
 
    
-                       
+                                 
+              
+                            
+                                 
               
                             
 
@@ -1112,7 +1197,7 @@ img.emoji {
 
 
    
-                       
+                                 
               
                             
 
@@ -1120,7 +1205,7 @@ img.emoji {
 
 
    
-                       
+                                 
               
                             
 
@@ -1128,10 +1213,7 @@ img.emoji {
 
 
    
-                       
-              
-                            
-                       
+                                 
               
                             
 
@@ -1139,7 +1221,7 @@ img.emoji {
 
 
    
-                       
+                                 
               
                             
 
@@ -1147,23 +1229,7 @@ img.emoji {
 
 
    
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
+                                 
               
                             
 
@@ -1176,7 +1242,87 @@ img.emoji {
 
 
    
-                       
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
               
                             
 

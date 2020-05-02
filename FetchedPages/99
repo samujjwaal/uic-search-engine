@@ -1,312 +1,599 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-﻿
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<title>UIC Online Giving</title>
-
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="theme-color" content="#131f36" />
-	<meta name="msapplication-TileColor" content="#131f36" />
-	<meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png" />
-
-	<link href="assets/css/normalize.css" rel="stylesheet" type="text/css" />
-	<link href="assets/css/formstyle.css" rel="stylesheet" type="text/css" />
-
-	<link rel="apple-touch-icon" sizes="57x57"   href="images/favicons/apple-touch-icon-57x57.png" />
-	<link rel="apple-touch-icon" sizes="60x60"   href="images/favicons/apple-touch-icon-60x60.png" />
-	<link rel="apple-touch-icon" sizes="72x72"   href="images/favicons/apple-touch-icon-72x72.png" />
-	<link rel="apple-touch-icon" sizes="76x76"   href="images/favicons/apple-touch-icon-76x76.png" />
-	<link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png" />
-	<link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-touch-icon-120x120.png" />
-	<link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-touch-icon-144x144.png" />
-	<link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-touch-icon-152x152.png" />
-	<link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon-180x180.png" />
-
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicons/favicon.ico" />
-
-	<link rel="icon" type="image/png" href="images/favicons/android-chrome-192x192.png" sizes="192x192" />
-	<link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32" />
-	<link rel="icon" type="image/png" href="images/favicons/favicon-96x96.png" sizes="96x96" />
-	<link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16" />
-
-	<link rel="manifest" href="images/favicons/manifest.json" />
-
-	<script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript" src="assets/js/slick.min.js"></script>
-</head>
-
-   <body id="home">
-      <div id="addedfade">
-         <div class="innercont">Fund Added<br />to Cart</div>
-      </div>
-      <div class="fade">
-         <div class="slide1"></div>
-         <div class="slide2"></div>
-         <div class="slide3"></div>
-         <div class="slide4"></div>
-         <div class="slide5"></div>
-      </div>
-      <div id="container">
-         <div id="main" role="main" aria-labelledby="main-wrapper">
-            <div class="wrapper" id="main-wrapper">
-               <div id="paddingcont">
-                  <div class="content float-up">
-                     <div id="donation-wrapper">
-                        <form method="post" action="" id="formbody">
-
-									<input name="TRACKING_CODE" type="hidden" value="20051">
-									<input name="SKIN_ID" type="hidden" value="chicagoannualgiving">
-
-                              <div id="donation-main">
-                                 <div class="addpadding">
-                                 <a href="http://advance.uic.edu" title="UIC Advancement Home" target="_blank"><img alt="Give to UIC" class="fadeIn fade-in one" id="givelogo" src="images/ignitelogo.png"></a>
-                                 <h1>Make Your Gift <span class="hide950">to UIC</span></h1>
-
-                                    <div class="donation-form-row">
-                                       <h2><label for="funds-scholarships-dropdown">Scholarship Funds</label></h2>
-                                       <select id="funds-scholarships-dropdown" class="inline left">
-                                          <option value="">------ Make a selection ------</option>
-
-                                       <option value="12343008/UIC Student Scholarships">UIC Student Scholarships</option>
-<option value="12341410/UIC Graduate Fellowships">UIC Graduate Fellowships</option>
-<option value="12340493/Applied Health Sciences Scholarships">Applied Health Sciences Scholarships</option>
-<option value="12342589/Architecture, Design, and the Arts Scholarships">Architecture, Design, and the Arts Scholarships</option>
-<option value="12340210/Athletics Scholarships">Athletics Scholarships</option>
-<option value="12340621/Business Scholarships">Business Scholarships</option>
-<option value="12341931/UIC College of Dentistry A.C.E. Student Scholars Fund">UIC College of Dentistry A.C.E. Student Scholars Fund</option>
-<option value="12340986/Partners in Education Scholarship">Partners in Education Scholarship</option>
-<option value="12341002/Engineering Scholarships">Engineering Scholarships</option>
-<option value="12342175/Honors College Scholarships Honors College Scholarships">Honors College Scholarships Honors College Scholarships</option>
-<option value="12340040/Jane Addams College of Social Work Scholarships">Jane Addams College of Social Work Scholarships</option>
-<option value="12332206/Liberal Arts and Sciences Scholarships">Liberal Arts and Sciences Scholarships</option>
-<option value="12342500/Medicine at Chicago Scholarships">Medicine at Chicago Scholarships</option>
-<option value="12342780/Medicine at Peoria Scholarships">Medicine at Peoria Scholarships</option>
-<option value="12342922/Medicine at Rockford Scholarships">Medicine at Rockford Scholarships</option>
-<option value="12775819/Medicine at Urbana Medical Scholars Program">Medicine at Urbana Medical Scholars Program</option>
-<option value="12342725/Nursing Scholarships">Nursing Scholarships</option>
-<option value="12778442/Regional Nursing Scholarships">Regional Nursing Scholarships</option>
-<option value="12342820/Pharmacy Scholarships">Pharmacy Scholarships</option>
-<option value="12340494/UIC College of Pharmacy at Rockford Scholarships Fund">UIC College of Pharmacy at Rockford Scholarships Fund</option>
-<option value="12338504/UIC SPH General Scholarship Fund">UIC SPH General Scholarship Fund</option>
-<option value="12342458/Urban Planning and Public Affairs Undergraduate Scholarships">Urban Planning and Public Affairs Undergraduate Scholarships</option>
-
-                                       </select>
-                                       <div class="inline relative dollar-wrapper left">
-                                          <span class="dollar-sign-span">$</span>
-                                          <h2><label for="donation-scholarships-amount" class="off-screen">Donation Amount</label></h2>
-                                          <input type="text" id="donation-scholarships-amount" class="inline dollar-sign-input" value="0.00" />
-                                          <input type="button" value="Add" class="inline" id="donation-scholarships-amount-submit" />
-                                       </div>
-                                       <div class="clear"></div>
-                                    </div>
-
-                                    <div class="donation-form-row">
-                                       <h2><label for="funds-annual-dropdown">Annual Funds</label></h2>
-                                       <select id="funds-annual-dropdown" class="inline left">
-                                          <option value="">------ Make a selection ------</option>
-
-                                       <option value="12342758/UIC U&I Care Emergency Student Fund">UIC U&I Care Emergency Student Fund</option>
-<option value="12335794/UIC Crisis Response and Healthcare Delivery Fund">UIC Crisis Response and Healthcare Delivery Fund</option>
-<option value="12330017/UIC Chicago Campus Unrestricted Fund">UIC Chicago Campus Unrestricted Fund</option>
-<option value="12330431/Applied Health Sciences Annual Fund">Applied Health Sciences Annual Fund</option>
-<option value="12330410/Architecture, Design and the Arts Annual Fund">Architecture, Design and the Arts Annual Fund</option>
-<option value="12331830/UIC Athletics Program Fund">UIC Athletics Program Fund</option>
-<option value="12330670/Business Dean's Fund for Advancement">Business Dean's Fund for Advancement</option>
-<option value="12331331/Dentistry Deans Fund for Excellence">Dentistry Deans Fund for Excellence</option>
-<option value="12331430/Education Deans Fund for Excellence">Education Deans Fund for Excellence</option>
-<option value="12331476/Engineering Excellence Fund">Engineering Excellence Fund</option>
-<option value="12331840/Graduate College Deans Fund">Graduate College Deans Fund</option>
-<option value="12331893/Honors College Fund">Honors College Fund</option>
-<option value="12330231/Jane Addams College of Social Work Annual Fund">Jane Addams College of Social Work Annual Fund</option>
-<option value="12332200/Liberal Arts and Sciences Fund">Liberal Arts and Sciences Fund</option>
-<option value="12332390/UIC Library of the Health Sciences">UIC Library of the Health Sciences</option>
-<option value="12332265/University Library Annual Fund">University Library Annual Fund</option>
-<option value="12332609/Medicine at Chicago Annual Fund">Medicine at Chicago Annual Fund</option>
-<option value="12333230/Medicine at Peoria Dean's Fund">Medicine at Peoria Dean's Fund</option>
-<option value="12333719/Medicine at Rockford Annual Fund">Medicine at Rockford Annual Fund</option>
-<option value="12775300/Medicine at Urbana Dean's Fund">Medicine at Urbana Dean's Fund</option>
-<option value="12331920/UIC University of Illinois Hospital">UIC University of Illinois Hospital</option>
-<option value="12332980/Nursing Annual Fund">Nursing Annual Fund</option>
-<option value="12333265/UIC College of Pharmacy Dean's Fund for Excellence">UIC College of Pharmacy Dean's Fund for Excellence</option>
-<option value="12335383/UIC College of Pharmacy Rockford Dean's Fund for Excellence">UIC College of Pharmacy Rockford Dean's Fund for Excellence</option>
-<option value="12333483/UIC School of Public Health Dean's Fund for Excellence">UIC School of Public Health Dean's Fund for Excellence</option>
-<option value="12331087/UIC Student Program Fund">UIC Student Program Fund</option>
-<option value="12334307/UIC CUPPA Dean's Fund for Excellence">UIC CUPPA Dean's Fund for Excellence</option>
-
-                                       </select>
-                                       <div class="inline relative dollar-wrapper left">
-                                          <span class="dollar-sign-span">$</span>
-                                          <h2><label for="donation-annual-amount" class="off-screen">Donation Amount</label></h2>
-                                          <input type="text" id="donation-annual-amount" class="inline dollar-sign-input" value="0.00" />
-                                          <input type="button" value="Add" class="inline" id="donation-annual-amount-submit" />
-                                       </div>
-                                       <div class="clear"></div>
-                                    </div>
-
-                                    <!-- .donation-form-row -->
-                                    <div class="donation-form-row" id="donation-form-row-search" style=" position: relative;">
-                                       <h4>Looking for a different fund? Try our search function below.</h4>
-                                       <h2><label for "fundSearch">Search</label></h2>
-                                       <div id="UpdatePanel1">
-                                             <div class="inline relative valign-top dollar-wrapper-textbox left">
-                                                <input name="FundsSearch" type="text" id="FundsSearch" class="inline dollar-sign-input" style="height:16px;width:330px;" />
-                                                <input type="submit" name="btnSearch" value="Search" id="btnSearch" class="inline result-label-add" />
-                                             </div>
-                                             <label for="funds-scholarships-dropdown">
-                                                <span id="Label1"></span>
-                                             </label>
-                                             <div class="clear"></div>
-                                             <!--<input type="text" id="FundsSearch" />-->
-                                             <div id="txtHint">
-
-                                             </div>
-
-                                       </div>
-                                       <div class="clear"></div>
-                                    </div>
-                                    <!-- .donation-form-row -->
-                                    <div class="donation-form-row" id="donation-form-row-designate">
-                                       <h2><label for="donation-designate">Other <small>(Indicate where to direct donation)</small></label></h2>
-                                       <input id="donation-designate" class="left" />
-                                       <div class="inline relative valign-top dollar-wrapper-textbox left">
-                                          <span class="dollar-sign-span">$</span>
-                                          <h2><label for="donation-designate-input" class="off-screen">Amt</label></h2>
-                                          <input type="text" id="donation-designate-input" class="inline valign-top dollar-sign-input" value="0.00" />
-                                          <input type="button" id="donation-designate-submit" class="inline valign-top" value="Add" />
-                                       </div>
-                                       <div class="clear"></div>
-                                    </div>
-                                    <div id="donation-designate-rule">
-                                       <!-- Text here -->
-                                    </div>
-                                 </div>
-                              </div>
-                              <!-- #donation-main -->
-                              <div id="donation-results">
-                                 <a href="mailto:advance@uic.edu"><img id="contactus" class="" src="images/contact.png" alt="Give to UIC" /></a>
-                                 <a href="mailto:advance@uic.edu"><img id="contactus2" class="" src="images/contact2.png" alt="Give to UIC" /></a>
-                                 <div class="donation-form-row" id="donation-form-results">
-                                    <h2><label for="donation-results-total">Total Donation</h2>
-                                    <div class="relative dollar-total-wrapper">
-                                       <span class="dollar-sign-span">$</span>
-                                       <input type="text" id="donation-results-total" class="clear dollar-sign-input" value="0.00" />
-                                    </div>
-                                 </div>
-                                 <div class="donation-form-row-last" style="border: none; margin-top: 18px; text-align: center;">
-                                    <input id="form-submit-btn" class="submit-btn-disabled" type="submit" value="Continue" onclick="submitme();" />
-                                 </div>
-                                 <p class="middlefont">Have a personalized <span class="bold">WEB CODE</span>? <a href="https://bbis.uif.uillinois.edu/uif/uif_chicago-web-code">Enter it here.</a></p>
-                              </div>
-                              <!-- #donation-results -->
-                              <div class="donation-clear"></div>
-                           </div>
-                        </form>
-                     </div>
-                     <!-- #donation-wrapper -->
-                     <script src="assets/js/donation-form-functions.js"></script>
-                  </div>
-                  <!-- .content -->
-                  <!-- .sidebar -->
-                  <div class="clear"></div>
-               </div>
-               <div class="clear"></div>
-            <div class="footer">
-               <label for="donation-results-total"><b>Office of the Vice Chancellor for Advancement</b><br />
-               601 South Morgan Street (MC 002)<span class="hidesmall">,</span>
-               <span class="showsmall"></span>Chicago, Illinois 60607<br />
-               E-mail: <a href="mailto:advance@uic.edu">advance@uic.edu</a><br />
-               Phone: (312) 413-8876
-               </label>
-            </div>
-               <!-- .wrapper -->
-            </div>
-         </div>
-         <!-- #main -->
-         <!-- #footer -->
-      </div>
-      <!-- #container -->
-
-	<script type="text/javascript" >
-		function submitme() {
-			var vform = document.getElementById('formbody');
-
-			vform.action = "https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx";
-
-      	return true;
-      }
-   </script>
-
-   <script>
-   // This will prevent a second "Other" fund from being entered
-
-   $( "#donation-designate-submit" ).click(function() {
-      if ($("#donation-results").find( '[id^="fund-custom-"]' ).length) {
-         $("#donation-form-row-designate").addClass( "disabled" );
-         $("#donation-designate-rule").append('Our system can currently only accept one write-in fund. If you need to write in another fund, please attempt to search for it or contact the <a href="http://advance.uic.edu">UIC Office of the Vice Chancellor for Advancement<\/a> at (312) 413-2992.');
-      }
-   });
-
-   // Enter Key Override for "Add Buttons"
-
-  $('.dollar-sign-input').keypress(function(e) {
-    if (e.which == 13) {
-    e.preventDefault();
-    $(this).blur();
-    $(this).next('input.inline').click();
-    }
-  });
-$('#donation-designate').keypress(function(e) {
-    if (e.which == 13) {
-    e.preventDefault();
-    $(this).blur();
-    $('#donation-designate-input').click().focus();
-    }
-  });
-   </script>
-
-   <script>
-   //Slider
-
-      $('.fade').slick({
-         slidesToShow: 1,
-         variableWidth: true,
-         draggable: false,
-         pauseOnHover: false,
-         centerMode: false,
-         dots: false,
-         infinite: true,
-         speed: 3000,
-         autoplaySpeed: 15000,
-         fade: true,
-         arrows: false,
-         autoplay: true,
-         adaptiveHeight: true,
-         cssEase: 'ease',
-         easing: 'linear',
-         lazyLoad: 'progressive',
-         centerPadding: '0px'
-      });
-   </script>
-
-      <!-- Google Analytics -->
-   <script>
-/*
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-88249997-1', 'auto');
-      ga('send', 'pageview');
-*/
-   </script>
-
-<!-- University of Illinois Foundation ChatBot -->
-   <script id="chatbot" data-skin="uic" type="text/javascript" src="https://online.uif.uillinois.edu/libraries/chatbot/chatbot.min.js"></script>
-<!-- End University of Illinois Foundation ChatBot -->
-
-   </body>
-</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <title>
+     | University of Illinois at Chicago
+  </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="pingback" href="" />
+
+  <link rel="stylesheet" href="https://advance.uic.edu/wp-content/themes/uic-red/main.css?v=1587475706" type="text/css" media="all" />
+  <link rel="stylesheet" href="https://advance.uic.edu/wp-content/themes/uic-red/theinhardt.css?v=1587475706" type="text/css" media="all">
+
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+</head>
+
+<body>
+
+  <!--[if lte IE 9]>
+<div class="browser-stripe u-dark-region">
+  <div class="l-full">
+      <h2>Your browser is unsupported</h2>
+      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
+  </div>
+</div>
+<![endif]-->
+<div class="browser-stripe u-dark-region ie10">
+  <div class="l-full">
+      <h2>Your browser is unsupported</h2>
+      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
+  </div>
+</div>
+
+
+<div role="main" id="main">
+<div class="splash-page">
+  <div class="splash-page__components">
+          <div class="advancement-component component--bottom-right">
+  <div class="
+      advancement-component__wrapper
+      advancement-component__wrapper--full
+      advancement-component__wrapper--blue-to-red
+      advancement-component__wrapper--blue-to-red-wash
+      
+      advancement-component__wrapper--gutter
+    ">
+
+          <div
+        class="advancement-component__image-background"
+        style="
+          background-image: url(https://advance.uic.edu/wp-content/uploads/sites/7/2018/12/SPLASH-01-1.png);
+            @media
+            (-webkit-min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi) {
+            background-image: url(https://advance.uic.edu/wp-content/uploads/sites/7/2018/12/SPLASH-01-1.png);
+          }">
+      </div>
+    
+          <div class="
+      advancement-component__wash
+      advancement-component__wash--blue-to-red
+      "></div>
+    
+    <div class="advancement-component__component advancement-component__component--full-size">
+        <div class="top-section top-section--bottom-right">
+      <div class="top-section__logo
+      top-section__logo--right">
+                <img
+          class="top-section__logo-image"
+          src="https://advance.uic.edu/wp-content/uploads/sites/7/2017/10/UIC_Ignite_White-300x100.png"
+          alt="IGNITE UIC"
+          srcset="https://advance.uic.edu/wp-content/uploads/sites/7/2017/10/UIC_Ignite_White-768x255.png 2x">
+            </div>
+    <div class="top-section__title-wrapper">
+            <div class="text
+  text--bottom-right
+  
+  text--fluid
+  js-text
+  ">
+      <h1 class="
+      text__header
+      text__header--jumbo
+      
+              text__header--shadow-light
+            ">
+              <a  class="
+        text__header-link
+        text__header-link--blue-to-red
+        text__header-link--dark"
+        href="http://advance.uic.edu/?go=front?go=front">It all starts with a single spark</a>
+          </h1>
+  
+    <div class="text__button-container">
+    <ul class="button-list button-list--blue-to-red">
+      <li class="button-list__item button-list__item--bottom-right">
+      <a  class="button-list__link" href="http://advance.uic.edu/giving/">
+        Spark the Future
+        <svg class="button-list__link-icon" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1600 960q0 54-37 91l-651 651q-39 37-91 37-51 0-90-37l-75-75q-38-38-38-91t38-91l293-293H245q-52 0-84.5-37.5T128 1024V896q0-53 32.5-90.5T245 768h704L656 474q-38-36-38-90t38-90l75-75q38-38 90-38 53 0 91 38l651 651q37 35 37 90z"/></svg>
+      </a>
+    </li>
+  </ul>
+  </div>
+</div>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+              <div class="advancement-component ">
+  <div class="
+      advancement-component__wrapper
+      
+      advancement-component__wrapper--blue
+      
+      
+      1
+    ">
+
+    
+    
+    <div class="advancement-component__component advancement-component__component--full-size">
+      
+  <div class="one-photo-video">
+    <div class="one-photo-video__media one-photo-video__media--right">
+              <iframe width="640" height="360" src="https://www.youtube.com/embed/5gZEp2tPDnE?wmode=transparent&amp;rel=0&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+    <div class="
+      one-photo-video__text
+            one-photo-video__text--left
+    ">
+      <div class="text
+  
+  
+  
+  js-text
+  ">
+      <h2 class="
+      text__header
+      
+      
+            ">
+              <a  class="
+        text__header-link
+        text__header-link--blue
+        text__header-link--dark"
+        href="http://advance.uic.edu/uic-annual-impact-report/?go=front">UIC IGNITES the future!</a>
+          </h2>
+  
+      <div class="text__text" ><p>So far, more than 93,500 alumni and friends have given more than $422 million toward the IGNITE campaign. Together, we are creating a new standard in education and creating opportunity for hungry minds from all backgrounds. Look at what we&#8217;ve accomplished this year in support of that mission.</p>
+</div>
+    <div class="text__button-container">
+    <ul class="button-list button-list--blue">
+  </ul>
+  </div>
+</div>
+    </div>
+  </div>
+
+    </div>
+  </div>
+</div>
+          <div class="advancement-component ">
+  <div class="
+      advancement-component__wrapper
+      
+      advancement-component__wrapper--uic-blue
+      
+      
+      1
+    ">
+
+    
+    
+    <div class="advancement-component__component advancement-component__component--full-size">
+      
+  <div class="one-photo-video">
+    <div class="one-photo-video__media one-photo-video__media--left">
+              <iframe width="640" height="360" src="https://www.youtube.com/embed/zS5UQV3dlSk?wmode=transparent&amp;rel=0&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+    <div class="
+      one-photo-video__text
+            one-photo-video__text--right
+    ">
+      <div class="text
+  
+  
+  
+  js-text
+  ">
+      <h2 class="
+      text__header
+      
+      
+            ">
+              We're for the bright and ambitious
+          </h2>
+  
+      <div class="text__text" ><p>Hear stories about the many ways UIC impacts lives. We&#8217;re confident you&#8217;ll see yourself in some of them.</p>
+</div>
+    <div class="text__button-container">
+    <ul class="button-list button-list--uic-blue">
+  </ul>
+  </div>
+</div>
+    </div>
+  </div>
+
+    </div>
+  </div>
+</div>
+          <div class="advancement-component ">
+  <div class="
+      advancement-component__wrapper
+      
+      advancement-component__wrapper--red
+      
+      
+      1
+    ">
+
+    
+    
+    <div class="advancement-component__component advancement-component__component--full-size">
+      
+  <div class="one-photo-video">
+    <div class="one-photo-video__media one-photo-video__media--right">
+              <div class="cover-photo">
+  <img
+    class="cover-photo__image"
+    src="https://advance.uic.edu/wp-content/uploads/sites/7/2020/04/OVCA-03112020_CampaignProgressGraphic_72percent_SPLACE_v1-768x768.png"
+    alt="UIC campaign goal progress"
+    srcset="https://advance.uic.edu/wp-content/uploads/sites/7/2020/04/OVCA-03112020_CampaignProgressGraphic_72percent_SPLACE_v1-800x700.png 2x">
+</div>
+          </div>
+    <div class="
+      one-photo-video__text
+            one-photo-video__text--left
+    ">
+      <div class="text
+  
+  
+  
+  js-text
+  ">
+      <h2 class="
+      text__header
+      
+      
+            ">
+              Impressive progress toward an ambitious goal
+          </h2>
+  
+      <div class="text__text" ><p>$750,000,000.</p>
+<p>It&#8217;s an ambitious goal. But our progress toward it is impressive. It is the many giving at small amounts, combined with the few who gave transformative gifts who will ignite the future for UIC students, faculty and the communities we serve.</p>
+</div>
+    <div class="text__button-container">
+    <ul class="button-list button-list--red">
+      <li class="button-list__item button-list__item--left">
+      <a  class="button-list__link" href="http://advance.uic.edu/news/">
+        Read more about our campaign gifts
+        <svg class="button-list__link-icon" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1600 960q0 54-37 91l-651 651q-39 37-91 37-51 0-90-37l-75-75q-38-38-38-91t38-91l293-293H245q-52 0-84.5-37.5T128 1024V896q0-53 32.5-90.5T245 768h704L656 474q-38-36-38-90t38-90l75-75q38-38 90-38 53 0 91 38l651 651q37 35 37 90z"/></svg>
+      </a>
+    </li>
+  </ul>
+  </div>
+</div>
+    </div>
+  </div>
+
+    </div>
+  </div>
+</div>
+          <div class="advancement-component ">
+  <div class="
+      advancement-component__wrapper
+      
+      advancement-component__wrapper--blue-to-purple
+      
+      
+      1
+    ">
+
+    
+    
+    <div class="advancement-component__component ">
+        <div class="two-photo-video">
+    <div class="two-photo-video__media-one">
+              <img
+          class="two-photo-video__image"
+          src="https://advance.uic.edu/wp-content/uploads/sites/7/2017/10/IGNITE_Splash_Image1-768x450.jpg"
+          alt="create opportunity"
+          srcset="https://advance.uic.edu/wp-content/uploads/sites/7/2017/10/IGNITE_Splash_Image1.jpg 2x">
+          </div>
+    <div class="two-photo-video__text">
+      <div class="text
+  
+  
+  text--fluid
+  js-text
+  ">
+      <h2 class="
+      text__header
+      
+      
+            ">
+              Redefine Student Success and Empower Faculty
+          </h2>
+  
+      <div class="text__text" ><p>We&#8217;re igniting a new standard in education. Upending old models, sparking new ideas and creating opportunity for hungry students from regardless of background or circumstance. Our faculty — foremost in their fields — are finding revolutionary ways forward and illuminating young minds.</p>
+</div>
+    <div class="text__button-container">
+    <ul class="button-list button-list--blue-to-purple">
+      <li class="button-list__item button-list__item--left">
+      <a  class="button-list__link" href="http://advance.uic.edu/support-student-success/">
+        Create Opportunity
+        <svg class="button-list__link-icon" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1600 960q0 54-37 91l-651 651q-39 37-91 37-51 0-90-37l-75-75q-38-38-38-91t38-91l293-293H245q-52 0-84.5-37.5T128 1024V896q0-53 32.5-90.5T245 768h704L656 474q-38-36-38-90t38-90l75-75q38-38 90-38 53 0 91 38l651 651q37 35 37 90z"/></svg>
+      </a>
+    </li>
+      <li class="button-list__item button-list__item--left">
+      <a  class="button-list__link" href="http://advance.uic.edu/giving/giving-opportunities/empower-faculty-2/">
+        Illuminate Young Minds
+        <svg class="button-list__link-icon" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1600 960q0 54-37 91l-651 651q-39 37-91 37-51 0-90-37l-75-75q-38-38-38-91t38-91l293-293H245q-52 0-84.5-37.5T128 1024V896q0-53 32.5-90.5T245 768h704L656 474q-38-36-38-90t38-90l75-75q38-38 90-38 53 0 91 38l651 651q37 35 37 90z"/></svg>
+      </a>
+    </li>
+  </ul>
+  </div>
+</div>
+    </div>
+    <div class="two-photo-video__media-two">
+              <img
+          class="two-photo-video__image"
+          src="https://advance.uic.edu/wp-content/uploads/sites/7/2017/10/IGNITE_Splash_image3-768x450.jpg"
+          alt="illuminate"
+          srcset="https://advance.uic.edu/wp-content/uploads/sites/7/2017/10/IGNITE_Splash_image3.jpg 2x">
+          </div>
+  </div>
+    </div>
+  </div>
+</div>
+          <div class="advancement-component ">
+  <div class="
+      advancement-component__wrapper
+      
+      advancement-component__wrapper--blue-to-purple
+      
+      
+      1
+    ">
+
+    
+    
+    <div class="advancement-component__component ">
+        <div class="two-photo-video">
+    <div class="two-photo-video__media-one">
+              <img
+          class="two-photo-video__image"
+          src="https://advance.uic.edu/wp-content/uploads/sites/7/2017/10/IGNITE_Splash_image2-768x450.jpg"
+          alt="shape the future"
+          srcset="https://advance.uic.edu/wp-content/uploads/sites/7/2017/10/IGNITE_Splash_image2.jpg 2x">
+          </div>
+    <div class="two-photo-video__text">
+      <div class="text
+  
+  
+  text--fluid
+  js-text
+  ">
+      <h2 class="
+      text__header
+      
+      
+            ">
+              Drive Discovery and Connect Communities
+          </h2>
+  
+      <div class="text__text" ><p>We are igniting change to chase discoveries that change lives. All 7.4 billion of them. All the while taking advantage of our collective strength. We invite people in, push new ideas out and transform discovery into real and lasting progress for communities.</p>
+</div>
+    <div class="text__button-container">
+    <ul class="button-list button-list--blue-to-purple">
+      <li class="button-list__item button-list__item--left">
+      <a  class="button-list__link" href="http://advance.uic.edu/giving/giving-opportunities/drive-discoveries/">
+        Shape the Future
+        <svg class="button-list__link-icon" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1600 960q0 54-37 91l-651 651q-39 37-91 37-51 0-90-37l-75-75q-38-38-38-91t38-91l293-293H245q-52 0-84.5-37.5T128 1024V896q0-53 32.5-90.5T245 768h704L656 474q-38-36-38-90t38-90l75-75q38-38 90-38 53 0 91 38l651 651q37 35 37 90z"/></svg>
+      </a>
+    </li>
+      <li class="button-list__item button-list__item--left">
+      <a  class="button-list__link" href="http://advance.uic.edu/giving/giving-opportunities/connect-to-communities/">
+        Impact Communities
+        <svg class="button-list__link-icon" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1600 960q0 54-37 91l-651 651q-39 37-91 37-51 0-90-37l-75-75q-38-38-38-91t38-91l293-293H245q-52 0-84.5-37.5T128 1024V896q0-53 32.5-90.5T245 768h704L656 474q-38-36-38-90t38-90l75-75q38-38 90-38 53 0 91 38l651 651q37 35 37 90z"/></svg>
+      </a>
+    </li>
+  </ul>
+  </div>
+</div>
+    </div>
+    <div class="two-photo-video__media-two">
+              <img
+          class="two-photo-video__image"
+          src="https://advance.uic.edu/wp-content/uploads/sites/7/2017/10/IGNITE_Splash_image4-768x450.jpg"
+          alt="impact communities"
+          srcset="https://advance.uic.edu/wp-content/uploads/sites/7/2017/10/IGNITE_Splash_image4.jpg 2x">
+          </div>
+  </div>
+    </div>
+  </div>
+</div>
+          <div class="advancement-component component--center">
+  <div class="
+      advancement-component__wrapper
+      advancement-component__wrapper--full
+      advancement-component__wrapper--red
+      
+      
+      advancement-component__wrapper--gutter
+    ">
+
+    
+    
+    <div class="advancement-component__component ">
+        <div class="text
+  text--center
+  
+  
+  js-text
+  ">
+      <h2 class="
+      text__header
+      text__header--large
+      
+            ">
+              <a  class="
+        text__header-link
+        text__header-link--red
+        text__header-link--dark"
+        href="https://give.uic.edu/?go=front">IGNITE Impact</a>
+          </h2>
+  
+    <div class="text__button-container">
+    <ul class="button-list button-list--red">
+      <li class="button-list__item button-list__item--center">
+      <a  class="button-list__link" href="https://give.uic.edu/">
+        Give Now
+        <svg class="button-list__link-icon" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1600 960q0 54-37 91l-651 651q-39 37-91 37-51 0-90-37l-75-75q-38-38-38-91t38-91l293-293H245q-52 0-84.5-37.5T128 1024V896q0-53 32.5-90.5T245 768h704L656 474q-38-36-38-90t38-90l75-75q38-38 90-38 53 0 91 38l651 651q37 35 37 90z"/></svg>
+      </a>
+    </li>
+  </ul>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+          <div class="advancement-component component--center">
+  <div class="
+      advancement-component__wrapper
+      advancement-component__wrapper--full
+      advancement-component__wrapper--uic-blue
+      
+      
+      advancement-component__wrapper--gutter
+    ">
+
+    
+    
+    <div class="advancement-component__component ">
+        <div class="text
+  text--center
+  
+  
+  js-text
+  ">
+      <h2 class="
+      text__header
+      text__header--large
+      
+            ">
+              Tell us more
+          </h2>
+  
+    <div class="text__button-container">
+    <ul class="button-list button-list--uic-blue">
+      <li class="button-list__item button-list__item--center">
+      <a  class="button-list__link" href="http://advance.uic.edu/tell-us-youd-like-engage/">
+        How would you like to engage?
+        <svg class="button-list__link-icon" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1600 960q0 54-37 91l-651 651q-39 37-91 37-51 0-90-37l-75-75q-38-38-38-91t38-91l293-293H245q-52 0-84.5-37.5T128 1024V896q0-53 32.5-90.5T245 768h704L656 474q-38-36-38-90t38-90l75-75q38-38 90-38 53 0 91 38l651 651q37 35 37 90z"/></svg>
+      </a>
+    </li>
+      <li class="button-list__item button-list__item--center">
+      <a  class="button-list__link" href="http://advance.uic.edu/update-your-information/">
+        Update your information
+        <svg class="button-list__link-icon" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1600 960q0 54-37 91l-651 651q-39 37-91 37-51 0-90-37l-75-75q-38-38-38-91t38-91l293-293H245q-52 0-84.5-37.5T128 1024V896q0-53 32.5-90.5T245 768h704L656 474q-38-36-38-90t38-90l75-75q38-38 90-38 53 0 91 38l651 651q37 35 37 90z"/></svg>
+      </a>
+    </li>
+  </ul>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+          <div class="advancement-component component--center">
+  <div class="
+      advancement-component__wrapper
+      advancement-component__wrapper--full
+      advancement-component__wrapper--purple
+      
+      
+      advancement-component__wrapper--gutter
+    ">
+
+    
+    
+    <div class="advancement-component__component ">
+        <div class="text
+  text--center
+  
+  
+  js-text
+  ">
+      <h2 class="
+      text__header
+      text__header--large
+      
+            ">
+              <a  class="
+        text__header-link
+        text__header-link--purple
+        text__header-link--dark"
+        href="https://go.uic.edu/classnotes?go=front">Share your story</a>
+          </h2>
+  
+    <div class="text__button-container">
+    <ul class="button-list button-list--purple">
+      <li class="button-list__item button-list__item--center">
+      <a  class="button-list__link" href="https://go.uic.edu/classnotes">
+        Submit a class note
+        <svg class="button-list__link-icon" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1600 960q0 54-37 91l-651 651q-39 37-91 37-51 0-90-37l-75-75q-38-38-38-91t38-91l293-293H245q-52 0-84.5-37.5T128 1024V896q0-53 32.5-90.5T245 768h704L656 474q-38-36-38-90t38-90l75-75q38-38 90-38 53 0 91 38l651 651q37 35 37 90z"/></svg>
+      </a>
+    </li>
+  </ul>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+      </div>
+  <div class="splash-page__site-id-container">
+    <a class="site-id" href="/?go=front">
+  <span class="site-id__text-wrapper">
+    <span class="site-id__text-big">The University of Illinois at Chicago</span>
+    <span class="site-id__text-small">Office of Advancement</span>
+    <svg class="site-id__icon" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1600 960q0 54-37 91l-651 651q-39 37-91 37-51 0-90-37l-75-75q-38-38-38-91t38-91l293-293H245q-52 0-84.5-37.5T128 1024V896q0-53 32.5-90.5T245 768h704L656 474q-38-36-38-90t38-90l75-75q38-38 90-38 53 0 91 38l651 651q37 35 37 90z" fill="#fff"/></svg>
+  </span>
+</a>
+  </div>
+</div>
+</div>
+
+<!-- Google Analytics script (RED and this site) -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    
+        ga('create', 'UA-20665772-1', 'auto');
+    
+    
+        ga('send', 'pageview');
+    
+      </script>
+<!-- End Google Analytics script (RED and this site) -->
+
+
+<script src="https://advance.uic.edu/wp-content/themes/uic-red/js/jquery/dist/jquery.min.js?v=1587475706"></script>
+<script src="https://advance.uic.edu/wp-content/themes/uic-red/js/main.js?v=1587475706"></script>
+
+</body>
+</html>

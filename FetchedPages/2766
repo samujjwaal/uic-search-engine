@@ -2,7 +2,7 @@
 <html lang="en" class="no-js">
 <head>
         <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-WXRNQ8');</script> <!-- End Google Tag Manager -->
-    <title>Library</title>
+    <title>My Accounts</title>
     <link rel="stylesheet" href="/css/gdpr.css">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -138,15 +138,15 @@
     </li>
   </ul>
 	</li>
-	<li class="_item menu-item-has-children current-page-ancestor">
+	<li class="_item menu-item-has-children">
 		<a href="/libraries" target="_self">Libraries</a>
           <button role="button" class="expand-item js-expand-item">Expand Libraries menu</button>
   <ul class="_child">
-    <li class="_item menu-item-has-children current-page-ancestor">
+    <li class="_item menu-item-has-children">
     <a href="/libraries/daley" target="_self">Chicago-Daley</a>
         <button role="button" class="expand-item js-expand-item">Expand Chicago-Daley menu</button>
   <ul class="_child">
-    <li class="_item current-menu-item current-page-ancestor">
+    <li class="_item ">
     <a href="/libraries/daley/hours" target="_self">Hours & Location</a>
     </li>
   </ul>
@@ -330,7 +330,7 @@
 	<li class="_item ">
 		<a href="/contact" target="_self">Contact Us</a>
     	</li>
-	<li class="_item ">
+	<li class="_item current-menu-item current-page-ancestor">
 		<a href="/accounts" target="_self">My Accounts</a>
     	</li>
 	<li class="_item ">
@@ -380,154 +380,120 @@
                     </header>
 
                 <main id="main" class="page__main">
-            
-    <div class="layout library-hours-layout">
+                            <div class="layout ">
     <div class="layout__main">
         
-        <nav class="breadcrumbs" aria-label="Breadcrumbs">
-        <h2 class="breadcrumbs__header">Breadcrumbs</h2>
-        <ol>
-                                                <li class="breadcrumbs__list-item">
-                        <a class="breadcrumb breadcrumb--home" href="/">Home</a>
-                    </li>
-                                                                <li class="breadcrumbs__list-item">
-                        <a class="breadcrumb " href="/libraries">Libraries</a>
-                    </li>
-                                                                <li class="breadcrumbs__list-item">
-                        <a class="breadcrumb " href="/libraries/daley">Chicago-Daley</a>
-                    </li>
-                                                                <li class="breadcrumbs__list-item">
-                        <a href="/libraries/daley/hours"><span class="breadcrumb breadcrumb--here">Hours & Location</span></a>
-                    </li>
-                                    </ol>
-    </nav>
-
-    <h1 class="page-title">Richard J. Daley Library</h1>
-    <script type="application/json" id="initialData">{"has_desc":true,"weekly_hours":[{"lid":2002,"name":"Richard J. Daley Library","desc":"Library buildings currently closed.&nbsp; <b><a href=\"https:\/\/library.uic.edu\/contact\">Online help is&nbsp;available<\/a>.<\/b>","weeks":[[{"date":"2020-04-26","hours":"Closed","is_closed":true},{"date":"2020-04-27","hours":"Closed","is_closed":true},{"date":"2020-04-28","hours":"Closed","is_closed":true},{"date":"2020-04-29","hours":"Closed","is_closed":true},{"date":"2020-04-30","hours":"Closed","is_closed":true},{"date":"2020-05-01","hours":"To be determined","is_closed":false},{"date":"2020-05-02","hours":"To be determined","is_closed":false}],[{"date":"2020-05-03","hours":"To be determined","is_closed":false},{"date":"2020-05-04","hours":"To be determined","is_closed":false},{"date":"2020-05-05","hours":"To be determined","is_closed":false},{"date":"2020-05-06","hours":"To be determined","is_closed":false},{"date":"2020-05-07","hours":"To be determined","is_closed":false},{"date":"2020-05-08","hours":"To be determined","is_closed":false},{"date":"2020-05-09","hours":"To be determined","is_closed":false}],[{"date":"2020-05-10","hours":"To be determined","is_closed":false},{"date":"2020-05-11","hours":"To be determined","is_closed":false},{"date":"2020-05-12","hours":"To be determined","is_closed":false},{"date":"2020-05-13","hours":"To be determined","is_closed":false},{"date":"2020-05-14","hours":"To be determined","is_closed":false},{"date":"2020-05-15","hours":"To be determined","is_closed":false},{"date":"2020-05-16","hours":"To be determined","is_closed":false}],[{"date":"2020-05-17","hours":"To be determined","is_closed":false},{"date":"2020-05-18","hours":"To be determined","is_closed":false},{"date":"2020-05-19","hours":"To be determined","is_closed":false},{"date":"2020-05-20","hours":"To be determined","is_closed":false},{"date":"2020-05-21","hours":"To be determined","is_closed":false},{"date":"2020-05-22","hours":"To be determined","is_closed":false},{"date":"2020-05-23","hours":"To be determined","is_closed":false}],[{"date":"2020-05-24","hours":"To be determined","is_closed":false},{"date":"2020-05-25","hours":"To be determined","is_closed":false},{"date":"2020-05-26","hours":"To be determined","is_closed":false},{"date":"2020-05-27","hours":"To be determined","is_closed":false},{"date":"2020-05-28","hours":"To be determined","is_closed":false},{"date":"2020-05-29","hours":"To be determined","is_closed":false},{"date":"2020-05-30","hours":"To be determined","is_closed":false}],[{"date":"2020-05-31","hours":"To be determined","is_closed":false},{"date":"2020-06-01","hours":"To be determined","is_closed":false},{"date":"2020-06-02","hours":"","is_closed":false},{"date":"2020-06-03","hours":"","is_closed":false},{"date":"2020-06-04","hours":"","is_closed":false},{"date":"2020-06-05","hours":"","is_closed":false},{"date":"2020-06-06","hours":"","is_closed":false}],[{"date":"2020-06-07","hours":"","is_closed":false},{"date":"2020-06-08","hours":"","is_closed":false},{"date":"2020-06-09","hours":"","is_closed":false},{"date":"2020-06-10","hours":"","is_closed":false},{"date":"2020-06-11","hours":"","is_closed":false},{"date":"2020-06-12","hours":"","is_closed":false},{"date":"2020-06-13","hours":"","is_closed":false}],[{"date":"2020-06-14","hours":"","is_closed":false},{"date":"2020-06-15","hours":"","is_closed":false},{"date":"2020-06-16","hours":"","is_closed":false},{"date":"2020-06-17","hours":"","is_closed":false},{"date":"2020-06-18","hours":"","is_closed":false},{"date":"2020-06-19","hours":"","is_closed":false},{"date":"2020-06-20","hours":"","is_closed":false}],[{"date":"2020-06-21","hours":"","is_closed":false},{"date":"2020-06-22","hours":"","is_closed":false},{"date":"2020-06-23","hours":"","is_closed":false},{"date":"2020-06-24","hours":"","is_closed":false},{"date":"2020-06-25","hours":"","is_closed":false},{"date":"2020-06-26","hours":"","is_closed":false},{"date":"2020-06-27","hours":"","is_closed":false}],[{"date":"2020-06-28","hours":"","is_closed":false},{"date":"2020-06-29","hours":"","is_closed":false},{"date":"2020-06-30","hours":"","is_closed":false},{"date":"2020-07-01","hours":"","is_closed":false},{"date":"2020-07-02","hours":"","is_closed":false},{"date":"2020-07-03","hours":"","is_closed":false},{"date":"2020-07-04","hours":"","is_closed":false}],[{"date":"2020-07-05","hours":"","is_closed":false},{"date":"2020-07-06","hours":"","is_closed":false},{"date":"2020-07-07","hours":"","is_closed":false},{"date":"2020-07-08","hours":"","is_closed":false},{"date":"2020-07-09","hours":"","is_closed":false},{"date":"2020-07-10","hours":"","is_closed":false},{"date":"2020-07-11","hours":"","is_closed":false}],[{"date":"2020-07-12","hours":"","is_closed":false},{"date":"2020-07-13","hours":"","is_closed":false},{"date":"2020-07-14","hours":"","is_closed":false},{"date":"2020-07-15","hours":"","is_closed":false},{"date":"2020-07-16","hours":"","is_closed":false},{"date":"2020-07-17","hours":"","is_closed":false},{"date":"2020-07-18","hours":"","is_closed":false}],[{"date":"2020-07-19","hours":"","is_closed":false},{"date":"2020-07-20","hours":"","is_closed":false},{"date":"2020-07-21","hours":"","is_closed":false},{"date":"2020-07-22","hours":"","is_closed":false},{"date":"2020-07-23","hours":"","is_closed":false},{"date":"2020-07-24","hours":"","is_closed":false},{"date":"2020-07-25","hours":"","is_closed":false}],[{"date":"2020-07-26","hours":"","is_closed":false},{"date":"2020-07-27","hours":"","is_closed":false},{"date":"2020-07-28","hours":"","is_closed":false},{"date":"2020-07-29","hours":"","is_closed":false},{"date":"2020-07-30","hours":"","is_closed":false},{"date":"2020-07-31","hours":"","is_closed":false},{"date":"2020-08-01","hours":"","is_closed":false}],[{"date":"2020-08-02","hours":"","is_closed":false},{"date":"2020-08-03","hours":"","is_closed":false},{"date":"2020-08-04","hours":"","is_closed":false},{"date":"2020-08-05","hours":"","is_closed":false},{"date":"2020-08-06","hours":"","is_closed":false},{"date":"2020-08-07","hours":"","is_closed":false},{"date":"2020-08-08","hours":"","is_closed":false}],[{"date":"2020-08-09","hours":"","is_closed":false},{"date":"2020-08-10","hours":"","is_closed":false},{"date":"2020-08-11","hours":"","is_closed":false},{"date":"2020-08-12","hours":"","is_closed":false},{"date":"2020-08-13","hours":"","is_closed":false},{"date":"2020-08-14","hours":"","is_closed":false},{"date":"2020-08-15","hours":"","is_closed":false}]]},{"lid":2004,"name":"Special Collections Reading Room","desc":"Library buildings currently closed.&nbsp; <b><a href=\"https:\/\/library.uic.edu\/contact\">Online help is&nbsp;available<\/a>.<\/b>","weeks":[[{"date":"2020-04-26","hours":"Closed","is_closed":true},{"date":"2020-04-27","hours":"Closed","is_closed":true},{"date":"2020-04-28","hours":"Closed","is_closed":true},{"date":"2020-04-29","hours":"Closed","is_closed":true},{"date":"2020-04-30","hours":"Closed","is_closed":true},{"date":"2020-05-01","hours":"To be determined","is_closed":false},{"date":"2020-05-02","hours":"To be determined","is_closed":false}],[{"date":"2020-05-03","hours":"To be determined","is_closed":false},{"date":"2020-05-04","hours":"To be determined","is_closed":false},{"date":"2020-05-05","hours":"To be determined","is_closed":false},{"date":"2020-05-06","hours":"To be determined","is_closed":false},{"date":"2020-05-07","hours":"To be determined","is_closed":false},{"date":"2020-05-08","hours":"To be determined","is_closed":false},{"date":"2020-05-09","hours":"To be determined","is_closed":false}],[{"date":"2020-05-10","hours":"To be determined","is_closed":false},{"date":"2020-05-11","hours":"To be determined","is_closed":false},{"date":"2020-05-12","hours":"To be determined","is_closed":false},{"date":"2020-05-13","hours":"To be determined","is_closed":false},{"date":"2020-05-14","hours":"To be determined","is_closed":false},{"date":"2020-05-15","hours":"To be determined","is_closed":false},{"date":"2020-05-16","hours":"To be determined","is_closed":false}],[{"date":"2020-05-17","hours":"To be determined","is_closed":false},{"date":"2020-05-18","hours":"To be determined","is_closed":false},{"date":"2020-05-19","hours":"To be determined","is_closed":false},{"date":"2020-05-20","hours":"To be determined","is_closed":false},{"date":"2020-05-21","hours":"To be determined","is_closed":false},{"date":"2020-05-22","hours":"To be determined","is_closed":false},{"date":"2020-05-23","hours":"To be determined","is_closed":false}],[{"date":"2020-05-24","hours":"To be determined","is_closed":false},{"date":"2020-05-25","hours":"To be determined","is_closed":false},{"date":"2020-05-26","hours":"To be determined","is_closed":false},{"date":"2020-05-27","hours":"To be determined","is_closed":false},{"date":"2020-05-28","hours":"To be determined","is_closed":false},{"date":"2020-05-29","hours":"To be determined","is_closed":false},{"date":"2020-05-30","hours":"To be determined","is_closed":false}],[{"date":"2020-05-31","hours":"To be determined","is_closed":false},{"date":"2020-06-01","hours":"To be determined","is_closed":false},{"date":"2020-06-02","hours":"","is_closed":false},{"date":"2020-06-03","hours":"","is_closed":false},{"date":"2020-06-04","hours":"","is_closed":false},{"date":"2020-06-05","hours":"","is_closed":false},{"date":"2020-06-06","hours":"","is_closed":false}],[{"date":"2020-06-07","hours":"","is_closed":false},{"date":"2020-06-08","hours":"","is_closed":false},{"date":"2020-06-09","hours":"","is_closed":false},{"date":"2020-06-10","hours":"","is_closed":false},{"date":"2020-06-11","hours":"","is_closed":false},{"date":"2020-06-12","hours":"","is_closed":false},{"date":"2020-06-13","hours":"","is_closed":false}],[{"date":"2020-06-14","hours":"","is_closed":false},{"date":"2020-06-15","hours":"","is_closed":false},{"date":"2020-06-16","hours":"","is_closed":false},{"date":"2020-06-17","hours":"","is_closed":false},{"date":"2020-06-18","hours":"","is_closed":false},{"date":"2020-06-19","hours":"","is_closed":false},{"date":"2020-06-20","hours":"","is_closed":false}],[{"date":"2020-06-21","hours":"","is_closed":false},{"date":"2020-06-22","hours":"","is_closed":false},{"date":"2020-06-23","hours":"","is_closed":false},{"date":"2020-06-24","hours":"","is_closed":false},{"date":"2020-06-25","hours":"","is_closed":false},{"date":"2020-06-26","hours":"","is_closed":false},{"date":"2020-06-27","hours":"","is_closed":false}],[{"date":"2020-06-28","hours":"","is_closed":false},{"date":"2020-06-29","hours":"","is_closed":false},{"date":"2020-06-30","hours":"","is_closed":false},{"date":"2020-07-01","hours":"","is_closed":false},{"date":"2020-07-02","hours":"","is_closed":false},{"date":"2020-07-03","hours":"","is_closed":false},{"date":"2020-07-04","hours":"","is_closed":false}],[{"date":"2020-07-05","hours":"","is_closed":false},{"date":"2020-07-06","hours":"","is_closed":false},{"date":"2020-07-07","hours":"","is_closed":false},{"date":"2020-07-08","hours":"","is_closed":false},{"date":"2020-07-09","hours":"","is_closed":false},{"date":"2020-07-10","hours":"","is_closed":false},{"date":"2020-07-11","hours":"","is_closed":false}],[{"date":"2020-07-12","hours":"","is_closed":false},{"date":"2020-07-13","hours":"","is_closed":false},{"date":"2020-07-14","hours":"","is_closed":false},{"date":"2020-07-15","hours":"","is_closed":false},{"date":"2020-07-16","hours":"","is_closed":false},{"date":"2020-07-17","hours":"","is_closed":false},{"date":"2020-07-18","hours":"","is_closed":false}],[{"date":"2020-07-19","hours":"","is_closed":false},{"date":"2020-07-20","hours":"","is_closed":false},{"date":"2020-07-21","hours":"","is_closed":false},{"date":"2020-07-22","hours":"","is_closed":false},{"date":"2020-07-23","hours":"","is_closed":false},{"date":"2020-07-24","hours":"","is_closed":false},{"date":"2020-07-25","hours":"","is_closed":false}],[{"date":"2020-07-26","hours":"","is_closed":false},{"date":"2020-07-27","hours":"","is_closed":false},{"date":"2020-07-28","hours":"","is_closed":false},{"date":"2020-07-29","hours":"","is_closed":false},{"date":"2020-07-30","hours":"","is_closed":false},{"date":"2020-07-31","hours":"","is_closed":false},{"date":"2020-08-01","hours":"","is_closed":false}],[{"date":"2020-08-02","hours":"","is_closed":false},{"date":"2020-08-03","hours":"","is_closed":false},{"date":"2020-08-04","hours":"","is_closed":false},{"date":"2020-08-05","hours":"","is_closed":false},{"date":"2020-08-06","hours":"","is_closed":false},{"date":"2020-08-07","hours":"","is_closed":false},{"date":"2020-08-08","hours":"","is_closed":false}],[{"date":"2020-08-09","hours":"","is_closed":false},{"date":"2020-08-10","hours":"","is_closed":false},{"date":"2020-08-11","hours":"","is_closed":false},{"date":"2020-08-12","hours":"","is_closed":false},{"date":"2020-08-13","hours":"","is_closed":false},{"date":"2020-08-14","hours":"","is_closed":false},{"date":"2020-08-15","hours":"","is_closed":false}]]},{"lid":12186,"name":"Digital Scholarship Hub","desc":"Library buildings currently closed.&nbsp; <b><a href=\"https:\/\/library.uic.edu\/contact\">Online help is&nbsp;available<\/a>.<\/b>","weeks":[[{"date":"2020-04-26","hours":"Closed","is_closed":true},{"date":"2020-04-27","hours":"Closed","is_closed":true},{"date":"2020-04-28","hours":"Closed","is_closed":true},{"date":"2020-04-29","hours":"Closed","is_closed":true},{"date":"2020-04-30","hours":"Closed","is_closed":true},{"date":"2020-05-01","hours":"To be determined","is_closed":false},{"date":"2020-05-02","hours":"To be determined","is_closed":false}],[{"date":"2020-05-03","hours":"To be determined","is_closed":false},{"date":"2020-05-04","hours":"To be determined","is_closed":false},{"date":"2020-05-05","hours":"To be determined","is_closed":false},{"date":"2020-05-06","hours":"To be determined","is_closed":false},{"date":"2020-05-07","hours":"To be determined","is_closed":false},{"date":"2020-05-08","hours":"To be determined","is_closed":false},{"date":"2020-05-09","hours":"To be determined","is_closed":false}],[{"date":"2020-05-10","hours":"To be determined","is_closed":false},{"date":"2020-05-11","hours":"To be determined","is_closed":false},{"date":"2020-05-12","hours":"To be determined","is_closed":false},{"date":"2020-05-13","hours":"To be determined","is_closed":false},{"date":"2020-05-14","hours":"To be determined","is_closed":false},{"date":"2020-05-15","hours":"To be determined","is_closed":false},{"date":"2020-05-16","hours":"To be determined","is_closed":false}],[{"date":"2020-05-17","hours":"To be determined","is_closed":false},{"date":"2020-05-18","hours":"To be determined","is_closed":false},{"date":"2020-05-19","hours":"To be determined","is_closed":false},{"date":"2020-05-20","hours":"To be determined","is_closed":false},{"date":"2020-05-21","hours":"To be determined","is_closed":false},{"date":"2020-05-22","hours":"To be determined","is_closed":false},{"date":"2020-05-23","hours":"To be determined","is_closed":false}],[{"date":"2020-05-24","hours":"To be determined","is_closed":false},{"date":"2020-05-25","hours":"To be determined","is_closed":false},{"date":"2020-05-26","hours":"To be determined","is_closed":false},{"date":"2020-05-27","hours":"To be determined","is_closed":false},{"date":"2020-05-28","hours":"To be determined","is_closed":false},{"date":"2020-05-29","hours":"To be determined","is_closed":false},{"date":"2020-05-30","hours":"To be determined","is_closed":false}],[{"date":"2020-05-31","hours":"To be determined","is_closed":false},{"date":"2020-06-01","hours":"To be determined","is_closed":false},{"date":"2020-06-02","hours":"","is_closed":false},{"date":"2020-06-03","hours":"","is_closed":false},{"date":"2020-06-04","hours":"","is_closed":false},{"date":"2020-06-05","hours":"","is_closed":false},{"date":"2020-06-06","hours":"","is_closed":false}],[{"date":"2020-06-07","hours":"","is_closed":false},{"date":"2020-06-08","hours":"","is_closed":false},{"date":"2020-06-09","hours":"","is_closed":false},{"date":"2020-06-10","hours":"","is_closed":false},{"date":"2020-06-11","hours":"","is_closed":false},{"date":"2020-06-12","hours":"","is_closed":false},{"date":"2020-06-13","hours":"","is_closed":false}],[{"date":"2020-06-14","hours":"","is_closed":false},{"date":"2020-06-15","hours":"","is_closed":false},{"date":"2020-06-16","hours":"","is_closed":false},{"date":"2020-06-17","hours":"","is_closed":false},{"date":"2020-06-18","hours":"","is_closed":false},{"date":"2020-06-19","hours":"","is_closed":false},{"date":"2020-06-20","hours":"","is_closed":false}],[{"date":"2020-06-21","hours":"","is_closed":false},{"date":"2020-06-22","hours":"","is_closed":false},{"date":"2020-06-23","hours":"","is_closed":false},{"date":"2020-06-24","hours":"","is_closed":false},{"date":"2020-06-25","hours":"","is_closed":false},{"date":"2020-06-26","hours":"","is_closed":false},{"date":"2020-06-27","hours":"","is_closed":false}],[{"date":"2020-06-28","hours":"","is_closed":false},{"date":"2020-06-29","hours":"","is_closed":false},{"date":"2020-06-30","hours":"","is_closed":false},{"date":"2020-07-01","hours":"","is_closed":false},{"date":"2020-07-02","hours":"","is_closed":false},{"date":"2020-07-03","hours":"","is_closed":false},{"date":"2020-07-04","hours":"","is_closed":false}],[{"date":"2020-07-05","hours":"","is_closed":false},{"date":"2020-07-06","hours":"","is_closed":false},{"date":"2020-07-07","hours":"","is_closed":false},{"date":"2020-07-08","hours":"","is_closed":false},{"date":"2020-07-09","hours":"","is_closed":false},{"date":"2020-07-10","hours":"","is_closed":false},{"date":"2020-07-11","hours":"","is_closed":false}],[{"date":"2020-07-12","hours":"","is_closed":false},{"date":"2020-07-13","hours":"","is_closed":false},{"date":"2020-07-14","hours":"","is_closed":false},{"date":"2020-07-15","hours":"","is_closed":false},{"date":"2020-07-16","hours":"","is_closed":false},{"date":"2020-07-17","hours":"","is_closed":false},{"date":"2020-07-18","hours":"","is_closed":false}],[{"date":"2020-07-19","hours":"","is_closed":false},{"date":"2020-07-20","hours":"","is_closed":false},{"date":"2020-07-21","hours":"","is_closed":false},{"date":"2020-07-22","hours":"","is_closed":false},{"date":"2020-07-23","hours":"","is_closed":false},{"date":"2020-07-24","hours":"","is_closed":false},{"date":"2020-07-25","hours":"","is_closed":false}],[{"date":"2020-07-26","hours":"","is_closed":false},{"date":"2020-07-27","hours":"","is_closed":false},{"date":"2020-07-28","hours":"","is_closed":false},{"date":"2020-07-29","hours":"","is_closed":false},{"date":"2020-07-30","hours":"","is_closed":false},{"date":"2020-07-31","hours":"","is_closed":false},{"date":"2020-08-01","hours":"","is_closed":false}],[{"date":"2020-08-02","hours":"","is_closed":false},{"date":"2020-08-03","hours":"","is_closed":false},{"date":"2020-08-04","hours":"","is_closed":false},{"date":"2020-08-05","hours":"","is_closed":false},{"date":"2020-08-06","hours":"","is_closed":false},{"date":"2020-08-07","hours":"","is_closed":false},{"date":"2020-08-08","hours":"","is_closed":false}],[{"date":"2020-08-09","hours":"","is_closed":false},{"date":"2020-08-10","hours":"","is_closed":false},{"date":"2020-08-11","hours":"","is_closed":false},{"date":"2020-08-12","hours":"","is_closed":false},{"date":"2020-08-13","hours":"","is_closed":false},{"date":"2020-08-14","hours":"","is_closed":false},{"date":"2020-08-15","hours":"","is_closed":false}]]},{"lid":2003,"name":"Online Chat","desc":"Library buildings currently closed.&nbsp; <b><a href=\"https:\/\/library.uic.edu\/contact\">Online help is&nbsp;available<\/a>.<\/b>","weeks":[[{"date":"2020-04-26","hours":"Closed","is_closed":true},{"date":"2020-04-27","hours":"7:30am - 1am","is_closed":false},{"date":"2020-04-28","hours":"7:30am - 1am","is_closed":false},{"date":"2020-04-29","hours":"7:30am - 1am","is_closed":false},{"date":"2020-04-30","hours":"7:30am - 1am","is_closed":false},{"date":"2020-05-01","hours":"To be determined","is_closed":false},{"date":"2020-05-02","hours":"To be determined","is_closed":false}],[{"date":"2020-05-03","hours":"To be determined","is_closed":false},{"date":"2020-05-04","hours":"To be determined","is_closed":false},{"date":"2020-05-05","hours":"To be determined","is_closed":false},{"date":"2020-05-06","hours":"To be determined","is_closed":false},{"date":"2020-05-07","hours":"To be determined","is_closed":false},{"date":"2020-05-08","hours":"To be determined","is_closed":false},{"date":"2020-05-09","hours":"To be determined","is_closed":false}],[{"date":"2020-05-10","hours":"To be determined","is_closed":false},{"date":"2020-05-11","hours":"To be determined","is_closed":false},{"date":"2020-05-12","hours":"To be determined","is_closed":false},{"date":"2020-05-13","hours":"To be determined","is_closed":false},{"date":"2020-05-14","hours":"To be determined","is_closed":false},{"date":"2020-05-15","hours":"To be determined","is_closed":false},{"date":"2020-05-16","hours":"To be determined","is_closed":false}],[{"date":"2020-05-17","hours":"To be determined","is_closed":false},{"date":"2020-05-18","hours":"To be determined","is_closed":false},{"date":"2020-05-19","hours":"To be determined","is_closed":false},{"date":"2020-05-20","hours":"To be determined","is_closed":false},{"date":"2020-05-21","hours":"To be determined","is_closed":false},{"date":"2020-05-22","hours":"To be determined","is_closed":false},{"date":"2020-05-23","hours":"To be determined","is_closed":false}],[{"date":"2020-05-24","hours":"To be determined","is_closed":false},{"date":"2020-05-25","hours":"To be determined","is_closed":false},{"date":"2020-05-26","hours":"To be determined","is_closed":false},{"date":"2020-05-27","hours":"To be determined","is_closed":false},{"date":"2020-05-28","hours":"To be determined","is_closed":false},{"date":"2020-05-29","hours":"To be determined","is_closed":false},{"date":"2020-05-30","hours":"To be determined","is_closed":false}],[{"date":"2020-05-31","hours":"To be determined","is_closed":false},{"date":"2020-06-01","hours":"To be determined","is_closed":false},{"date":"2020-06-02","hours":"","is_closed":false},{"date":"2020-06-03","hours":"","is_closed":false},{"date":"2020-06-04","hours":"","is_closed":false},{"date":"2020-06-05","hours":"","is_closed":false},{"date":"2020-06-06","hours":"","is_closed":false}],[{"date":"2020-06-07","hours":"","is_closed":false},{"date":"2020-06-08","hours":"","is_closed":false},{"date":"2020-06-09","hours":"","is_closed":false},{"date":"2020-06-10","hours":"","is_closed":false},{"date":"2020-06-11","hours":"","is_closed":false},{"date":"2020-06-12","hours":"","is_closed":false},{"date":"2020-06-13","hours":"","is_closed":false}],[{"date":"2020-06-14","hours":"","is_closed":false},{"date":"2020-06-15","hours":"","is_closed":false},{"date":"2020-06-16","hours":"","is_closed":false},{"date":"2020-06-17","hours":"","is_closed":false},{"date":"2020-06-18","hours":"","is_closed":false},{"date":"2020-06-19","hours":"","is_closed":false},{"date":"2020-06-20","hours":"","is_closed":false}],[{"date":"2020-06-21","hours":"","is_closed":false},{"date":"2020-06-22","hours":"","is_closed":false},{"date":"2020-06-23","hours":"","is_closed":false},{"date":"2020-06-24","hours":"","is_closed":false},{"date":"2020-06-25","hours":"","is_closed":false},{"date":"2020-06-26","hours":"","is_closed":false},{"date":"2020-06-27","hours":"","is_closed":false}],[{"date":"2020-06-28","hours":"","is_closed":false},{"date":"2020-06-29","hours":"","is_closed":false},{"date":"2020-06-30","hours":"","is_closed":false},{"date":"2020-07-01","hours":"","is_closed":false},{"date":"2020-07-02","hours":"","is_closed":false},{"date":"2020-07-03","hours":"","is_closed":false},{"date":"2020-07-04","hours":"","is_closed":false}],[{"date":"2020-07-05","hours":"","is_closed":false},{"date":"2020-07-06","hours":"","is_closed":false},{"date":"2020-07-07","hours":"","is_closed":false},{"date":"2020-07-08","hours":"","is_closed":false},{"date":"2020-07-09","hours":"","is_closed":false},{"date":"2020-07-10","hours":"","is_closed":false},{"date":"2020-07-11","hours":"","is_closed":false}],[{"date":"2020-07-12","hours":"","is_closed":false},{"date":"2020-07-13","hours":"","is_closed":false},{"date":"2020-07-14","hours":"","is_closed":false},{"date":"2020-07-15","hours":"","is_closed":false},{"date":"2020-07-16","hours":"","is_closed":false},{"date":"2020-07-17","hours":"","is_closed":false},{"date":"2020-07-18","hours":"","is_closed":false}],[{"date":"2020-07-19","hours":"","is_closed":false},{"date":"2020-07-20","hours":"","is_closed":false},{"date":"2020-07-21","hours":"","is_closed":false},{"date":"2020-07-22","hours":"","is_closed":false},{"date":"2020-07-23","hours":"","is_closed":false},{"date":"2020-07-24","hours":"","is_closed":false},{"date":"2020-07-25","hours":"","is_closed":false}],[{"date":"2020-07-26","hours":"","is_closed":false},{"date":"2020-07-27","hours":"","is_closed":false},{"date":"2020-07-28","hours":"","is_closed":false},{"date":"2020-07-29","hours":"","is_closed":false},{"date":"2020-07-30","hours":"","is_closed":false},{"date":"2020-07-31","hours":"","is_closed":false},{"date":"2020-08-01","hours":"","is_closed":false}],[{"date":"2020-08-02","hours":"","is_closed":false},{"date":"2020-08-03","hours":"","is_closed":false},{"date":"2020-08-04","hours":"","is_closed":false},{"date":"2020-08-05","hours":"","is_closed":false},{"date":"2020-08-06","hours":"","is_closed":false},{"date":"2020-08-07","hours":"","is_closed":false},{"date":"2020-08-08","hours":"","is_closed":false}],[{"date":"2020-08-09","hours":"","is_closed":false},{"date":"2020-08-10","hours":"","is_closed":false},{"date":"2020-08-11","hours":"","is_closed":false},{"date":"2020-08-12","hours":"","is_closed":false},{"date":"2020-08-13","hours":"","is_closed":false},{"date":"2020-08-14","hours":"","is_closed":false},{"date":"2020-08-15","hours":"","is_closed":false}]]}]}</script>
-    <div id="hours"></div>
-
-    <script src="/dist/vendor.js?version=1"></script>
-    <script src="/dist/hours.js?version=1" async></script>
-
     
-    
-    <section class="location-contact-block" aria-label="Contact Richard J. Daley Library">
-
-    <div class="highlight component-highlight-contact">
-        <div class="_image">
-            <a href="https://maps.google.com/maps?q=801%20S.%20Morgan%0A%20Chicago%20IL">
-    <img src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyBbEbxlD-SkiCV-qagosjsMaL0MyCtVYBU&center=801%20S.%20Morgan%0A%20Chicago%20IL&zoom=15&size=400x400&markers=color:0xd50032%7C801%20S.%20Morgan%0A%20Chicago%20IL" alt="Map of 801&#x20;S.&#x20;Morgan&#x0A;&#x20;Chicago&#x20;IL">
-</a>
-        </div>
-        <div class="_content u-dark-region">
-            <div class="highlight-contact">
-                <h2 class="_title">Richard J. Daley Library</h2>
-
-                                    <div class="_address">
-                        <span class="_address"><p>801 S. Morgan</p>
-</span>
-                        <span class="_city">Chicago,</span>
-                        <span class="_state">IL</span>
-                        <span class="_zipcode">60607</span>
-                    </div>
-                
-                                    <div class="_contactinfo">
-                                                    <div class="_phone">
-                                <strong>Circulation: </strong>(312) 996-2724
-                            </div>
-                                                    <div class="_phone">
-                                <strong>Reference: </strong>(312) 996-2726
-                            </div>
-                                                    <div class="_phone">
-                                <strong>Special Collections & University Archives: </strong>(312) 996-2742
-                            </div>
-                                                    <div class="_phone">
-                                <strong>Course Reserves: </strong>(312) 996-2719
-                            </div>
-                                            </div>
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-            <section class="library-location-details__content" aria-label="Library location details">
+    <h1 class="page-title">My Accounts</h1>
+            <div class="page-content__content">
             <!-- container.twig -->
 <div class="content-container">
   
-          <div class="text-content"><h2>Parking</h2>
-<p><a href="https://parking.uic.edu/">Campus Parking Services</a> provides several parking options for visitors and UIC faculty and students.</p>
-<h2>Public Transit</h2>
-<p>The Daley Library is a short walk from the UIC Halsted stop on the CTA Blue Line. Learn more about <a href="http://www.uic.edu/chicago/city-transportation">traveling options for the Chicago UIC campus. </a></p>
+    
+    
+          <div class="tiles-content">
+        <p class="tiles-content__title">Library Accounts</p>
+        <ul class="tiles-content__list">
+                    <li class="tiles-content__tile">
+                <div class="tile-content">
+            <a class="tile-content__link" href="https://i-share.carli.illinois.edu/vf-uic/MyResearch/Home">
+            <div class="tile-content__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
+</div>
+            <p class="tile-content__title">UIC Library account</p>
+            <div class="tile-content__body"><p>Request and renew physical books and media from UIC and I-Share libraries.</p>
+</div>
+        </a>
+    </div>
+            </li>
+                    <li class="tiles-content__tile">
+                <div class="tile-content">
+            <a class="tile-content__link" href="/help/article/1935/request-items#interlibrary-loan">
+            <div class="tile-content__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
+</div>
+            <p class="tile-content__title">Interlibrary loan account</p>
+            <div class="tile-content__body"><p>Request articles and items not available through I-Share.</p>
+</div>
+        </a>
+    </div>
+            </li>
+            </ul>
+</div>
+    
+    
+    
+  
+          <div class="text-content"><h2>Setup an account</h2>
+<p>You can <a href="/help/article/1948/set-up-a-library-account/">setup a Library account</a> with your NetID or your iCard.</p>
 </div>    
     
     
     
     
   </div>
-        </section>
+        </div>
     
+            <section class="section help-articles-list" aria-label="Help Articles list section">
 
+    <h2 class="section__title section-heading"><span>How Do I...?</span></h2>
+
+    <div class="section__content">
+    <ul class="help-articles-list__articles">
+                    <li class="help-articles-list__article">
+                <a href="/help/article/1948/set-up-a-library-account">Set up a library account</a>
+            </li>
+                    <li class="help-articles-list__article">
+                <a href="/help/article/1935/request-items">Request items</a>
+            </li>
+                    <li class="help-articles-list__article">
+                <a href="/help/article/1954/use-refworks">Log in to RefWorks</a>
+            </li>
+                    <li class="help-articles-list__article">
+                <a href="/help/article/1964/use-the-library-as-a-visitor-to-uic">Visitor services</a>
+            </li>
+                    <li class="help-articles-list__article">
+                <a href="/help/article/1873/alumni-services">Alumni services</a>
+            </li>
+                    <li class="help-articles-list__article">
+                <a href="/help/article/1891/faculty-services">Faculty services</a>
+            </li>
+                    <li class="help-articles-list__article">
+                <a href="/help/article/1870/access-databases-journals-and-articles-from-off-campus">Access library resources from off-campus</a>
+            </li>
+            </ul>
+
+    <p class="section__footer">
+        <a class="button" href="/help/search?t[]=23&">Get More Help</a>
+    </p>
+
+</div>
+
+</section>    
+    
     </div>
     <div class="layout__sidebar">
         
     <section aria-label="Secondary Menu" >
     <div id="menu-secondary" class="menu-secondary">
         <div class="_title">
-                        <h2><a href="/libraries">Libraries</a></h2>
+                        <h2 class="menu-secondary__default-menu-title">Secondary Menu</h2>
                         <a class="icon-circle-arrow-up" href="#main">Back to content</a>
         </div>
         <ul  class="menu " aria-label="Secondary menu">
-	<li class="_item menu-item-has-children current-page-ancestor">
-		<a href="/libraries/daley" target="_self">Chicago-Daley</a>
-          <span class="expand-item"></span>
-  <ul class="_child">
-    <li class="_item current-menu-item current-page-ancestor">
-    <a href="/libraries/daley/hours" target="_self">Hours & Location</a>
-    </li>
-  </ul>
-	</li>
-	<li class="_item menu-item-has-children">
-		<a href="/libraries/lhs-chicago" target="_self">Chicago-Health Sciences</a>
-          <span class="expand-item"></span>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/libraries/lhs-chicago/hours" target="_self">Hours & Location</a>
-    </li>
-  </ul>
-	</li>
-	<li class="_item menu-item-has-children">
-		<a href="/libraries/lhs-peoria" target="_self">Peoria-Health Sciences</a>
-          <span class="expand-item"></span>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/libraries/lhs-peoria/hours" target="_self">Hours & Location</a>
-    </li>
-  </ul>
-	</li>
-	<li class="_item menu-item-has-children">
-		<a href="/libraries/lhs-rockford" target="_self">Rockford-Health Sciences</a>
-          <span class="expand-item"></span>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/libraries/lhs-rockford/hours" target="_self">Hours & Location</a>
-    </li>
-  </ul>
-	</li>
-	<li class="_item menu-item-has-children">
-		<a href="/libraries/lhs-urbana" target="_self">Urbana-Health Sciences</a>
-          <span class="expand-item"></span>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/libraries/lhs-urbana/hours" target="_self">Hours & Location</a>
-    </li>
-  </ul>
-	</li>
 	<li class="_item ">
-		<a href="http://library.uic.edu/special-collections-university-archives" target="_self">Special Collections & University Archives</a>
+		<a href="/contact" target="_self">Contact Us</a>
+    	</li>
+	<li class="_item current-menu-item current-page-ancestor">
+		<a href="/accounts" target="_self">My Accounts</a>
     	</li>
 	<li class="_item ">
-		<a href="https://www.jmls.edu/library/" target="_self">UIC John Marshall Law School Library</a>
+		<a href="/donate" target="_self">Give to the Library</a>
+    	</li>
+	<li class="_item ">
+		<a href="/covid-19" target="_self">COVID-19</a>
     	</li>
 </ul>
     </div>
@@ -535,8 +501,7 @@
 
     </div>
 </div>
-
-        </main>
+                    </main>
         
         <footer class="page__footer" role="contentinfo">
                             <div class="footer uic-footer">

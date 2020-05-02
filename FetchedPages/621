@@ -1,313 +1,600 @@
 <!DOCTYPE html>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en-US"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en-US"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en-US"> <![endif]-->
+<html lang="en-US">
 <head>
-<meta http-equiv="content-type" content="text/html" charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>ACCC Information Security and Privacy Office</title>
-<link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="pingback" href="https://security.uic.edu/xmlrpc.php" />
-<!--[if lt IE 9]>
-<script src="https://security.uic.edu/wp-content/themes/uic-network-2013/js/html5.js" type="text/javascript"></script>
-<![endif]-->
-<link rel="shortcut icon" href="http://uic.edu/favicon.ico" /><link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="ACCC Information Security and Privacy Office &raquo; Feed" href="https://security.uic.edu/feed/" />
-<link rel="alternate" type="application/rss+xml" title="ACCC Information Security and Privacy Office &raquo; Comments Feed" href="https://security.uic.edu/comments/feed/" />
-<link rel='stylesheet' id='events-manager-css'  href='https://security.uic.edu/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.63' type='text/css' media='all' />
-<link rel='stylesheet' id='page-list-style-css'  href='https://security.uic.edu/wp-content/plugins/page-list/css/page-list.css?ver=5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='simple-staff-list-css'  href='https://security.uic.edu/wp-content/plugins/simple-staff-list/public/css/simple-staff-list-public.css?ver=1.17' type='text/css' media='all' />
-<link rel='stylesheet' id='staff-list-custom-css-css'  href='https://security.uic.edu/wp-content/themes/uic-network-2013/simple-staff-list-custom.css?ver=4.7.2' type='text/css' media='all' />
-<link rel='stylesheet' id='swl-style-css'  href='https://security.uic.edu/wp-content/plugins/social-web-links/social-web-links.css?ver=4.7.2' type='text/css' media='all' />
-<link rel='stylesheet' id='tablepress-default-css'  href='https://security.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.7' type='text/css' media='all' />
-<link rel='stylesheet' id='uicnetwork-css'  href='https://security.uic.edu/wp-content/themes/uic-network-2013/css/uicnetwork.css?ver=4.7.2' type='text/css' media='all' />
-<link rel='stylesheet' id='prettyPhoto-css'  href='https://security.uic.edu/wp-content/themes/uic-network-2013/css/prettyPhoto.css?ver=4.7.2' type='text/css' media='all' />
-<link rel='stylesheet' id='dynamic-styles-css'  href='https://security.uic.edu/index.php?dynamiccss=1&#038;id=29&#038;ver=4.7.2' type='text/css' media='all' />
-<link rel='stylesheet' id='style-css'  href='https://security.uic.edu/wp-content/themes/uic-network-2013/style.css?ver=4.7.2' type='text/css' media='all' />
-<link rel='stylesheet' id='PT Sans-css'  href='https://fonts.googleapis.com/css?family=PT+Sans:400italic,700italic,400,700' type='text/css' media='all' />
-<link rel='stylesheet' id='Oswald-css'  href='https://fonts.googleapis.com/css?family=Oswald:400italic,700italic,400,700' type='text/css' media='all' />
-<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+
+<!-- Google Analytics Code -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-20665772-1', 'auto');
+    ga('create', 'UA-4402713-9', 'auto', 'todayTracker');
+    ga('send', 'pageview');
+    ga('todayTracker.send', 'pageview');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-57G9C3Q');</script>
+<!-- End Google Tag Manager -->
+  
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Campus Parking Update | UIC Today</title>
+
+<link rel="stylesheet" type="text/css" media="all" href="https://today.uic.edu/wp-content/themes/uictoday/style.css" />
+
+<link rel="stylesheet" type="text/css" media="all" href="https://today.uic.edu/wp-content/themes/uictoday/css/style.min.css" />
+    
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://today.uic.edu/feed" />
+
+<link rel="shortcut icon" href="https://today.uic.edu/wp-content/themes/uictoday/favicon.ico" />
+
+
+
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/today.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://today.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ugb-style-css-css'  href='https://today.uic.edu/wp-content/plugins/stackable-ultimate-gutenberg-blocks/dist/frontend_blocks.css?ver=2.3.0' type='text/css' media='all' />
+<style id='ugb-style-css-inline-css' type='text/css'>
+:root {
+			--content-width: 900px;
+		}
+</style>
+<link rel='stylesheet' id='wp-components-css'  href='https://today.uic.edu/wp-includes/css/dist/components/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-editor-font-css'  href='https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&#038;ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-editor-css'  href='https://today.uic.edu/wp-includes/css/dist/block-editor/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-nux-css'  href='https://today.uic.edu/wp-includes/css/dist/nux/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-editor-css'  href='https://today.uic.edu/wp-includes/css/dist/editor/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='sld_block-cgb-style-css-css'  href='https://today.uic.edu/wp-content/plugins/simple-link-directory/gutenberg/sld-block/dist/blocks.style.build.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='events-manager-css'  href='https://today.uic.edu/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.97' type='text/css' media='all' />
+<link rel='stylesheet' id='ssp-frontend-player-css'  href='https://today.uic.edu/wp-content/plugins/seriously-simple-podcasting/assets/css/player.css?ver=1.20.11' type='text/css' media='all' />
+<link rel='stylesheet' id='wow-icons-fa-css'  href='https://today.uic.edu/wp-content/plugins/wow-icons//assets/fontawesome/font-awesome.min.css?ver=2.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='upw_theme_standard-css'  href='https://today.uic.edu/wp-content/plugins/ultimate-posts-widget/css/upw-theme-standard.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://today.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
+<style id='tablepress-default-inline-css' type='text/css'>
+.tablepress-id-1 .column-1{vertical-align:middle}.tablepress-id-1 tbody td{font-size:15px}.tablepress-id-1{width:auto important!}.tablepress-id-1 img{margin:0!important}.tablepress-id-6 .column-1{vertical-align:middle}.tablepress-id-6 tbody td{font-size:15px}.tablepress-id-6{width:auto important!}.tablepress-id-6 img{margin:0!important}.tablepress-id-3 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-3 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-3 .odd td{background-color:#e6e6e6}.tablepress-id-3 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-3 .column-1{width:50%}.tablepress-id-4 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-4 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-4 .odd td{background-color:#e6e6e6}.tablepress-id-4 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-4 .column-1{width:50%}.tablepress-id-5 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-5 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-5 .odd td{background-color:#e6e6e6}.tablepress-id-5 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-5 .column-1{width:50%}
+</style>
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/stackable-ultimate-gutenberg-blocks/dist/frontend_blocks.js?ver=2.3.0'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
 <script type='text/javascript'>
 jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
 </script>
-<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/wp-a11y.min.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4'></script>
+<script type='text/javascript'>
+( 'fetch' in window ) || document.write( '<script src="https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.26.0-0"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );
+</script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/dist/dom-ready.min.js?ver=2.5.1'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/dist/a11y.min.js?ver=2.5.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var EM = {"ajaxurl":"https:\/\/security.uic.edu\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/security.uic.edu\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"dd\/mm\/yy","ui_css":"https:\/\/security.uic.edu\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"","is_ssl":"1","bookingInProgress":"Please wait while the booking is being submitted.","tickets_save":"Save Ticket","bookingajaxurl":"https:\/\/security.uic.edu\/wp-admin\/admin-ajax.php","bookings_export_save":"Export Bookings","bookings_settings_save":"Save Settings","booking_delete":"Are you sure you want to delete?","bb_full":"Sold Out","bb_book":"Book Now","bb_booking":"Booking...","bb_booked":"Booking Submitted","bb_error":"Booking Error. Try again?","bb_cancel":"Cancel","bb_canceling":"Canceling...","bb_cancelled":"Cancelled","bb_cancel_error":"Cancellation Error. Try again?","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","event_reschedule_warning":"Are you sure you want to reschedule this recurring event? If you do this, you will lose all booking information and the old recurring events will be deleted.","event_detach_warning":"Are you sure you want to detach this event? By doing so, this event will be independent of the recurring set of events.","delete_recurrence_warning":"Are you sure you want to delete all recurrences of this event? All events will be moved to trash.","disable_bookings_warning":"Are you sure you want to disable bookings? If you do this and save, you will lose all previous bookings. If you wish to prevent further bookings, reduce the number of spaces available to the amount of bookings you currently have","booking_warning_cancel":"Are you sure you want to cancel your booking?","cache":""};
+var EM = {"ajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"mm\/dd\/yy","ui_css":"https:\/\/today.uic.edu\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"0","is_ssl":"1","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading..."};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://security.uic.edu/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.63'></script>
-<script type='text/javascript' src='https://security.uic.edu/wp-content/plugins/events-manager-pro/includes/js/events-manager-pro.js?ver=4.7.2'></script>
-<script type='text/javascript' src='https://security.uic.edu/wp-content/plugins/simple-staff-list/public/js/simple-staff-list-public.js?ver=1.17'></script>
-<script type='text/javascript' src='https://security.uic.edu/wp-content/themes/uic-network-2013/js/uicnetwork.js?ver=4.7.2'></script>
-<script type='text/javascript' src='https://security.uic.edu/wp-content/themes/uic-network-2013/js/superfish.js?ver=4.7.2'></script>
-<script type='text/javascript' src='https://security.uic.edu/wp-content/themes/uic-network-2013/js/jquery.flexslider-min.js?ver=4.7.2'></script>
-<script type='text/javascript' src='https://security.uic.edu/wp-content/themes/uic-network-2013/js/jquery.prettyPhoto.js?ver=4.7.2'></script>
-<script type='text/javascript' src='https://security.uic.edu/wp-content/themes/uic-network-2013/js/uicnetwork_contact.js?ver=4.7.2'></script>
-<script type='text/javascript' src='https://security.uic.edu/wp-content/themes/uic-network-2013/js/jquery.carouFredSel-6.1.0-packed.js?ver=4.7.2'></script>
-<script type='text/javascript' src='https://security.uic.edu/index.php?dynamicjs=1&#038;id=29&#038;ver=4.7.2'></script>
-<link rel='https://api.w.org/' href='https://security.uic.edu/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://security.uic.edu/xmlrpc.php?rsd" />
-<meta name="generator" content="WordPress 4.7.2" />
-<link rel="canonical" href="https://security.uic.edu/" />
-<link rel='shortlink' href='https://security.uic.edu/' />
-<link rel="alternate" type="application/json+oembed" href="https://security.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsecurity.uic.edu%2F" />
-<link rel="alternate" type="text/xml+oembed" href="https://security.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsecurity.uic.edu%2F&#038;format=xml" />
-		<style type="text/css">
-		.em-booking-form span.form-tip { text-decoration:none; border-bottom:1px dotted #aaa; padding-bottom:2px; }
-		.input-group .em-date-range input { width:100px; }
-		.input-group .em-time-range input { width:80px; }
-		 div.em-gateway-buttons { height:50px; width: 100%; }
-		 div.em-gateway-buttons .first { padding-left:0px; margin-left:0px; border-left:none; }
-		 div.em-gateway-button { float:left; padding-left:20px; margin-left:20px; border-left:1px solid #777; }
-		/* Cart CSS */
-		.em-cart-widget-content .em-cart-widget-total { border-top:1px solid #efefef; margin-top:5px; }
-		.em-cart-actions { text-align:right; margin:10px 0px;}
-		 /* Checkout Form CSS */
-		.em-cart-table { border-collapse:collapse; border-spacing:0; width:100%; }		 
-		.em-cart-table { border-collapse:0px; }
-		.em-cart-table th, table.em-cart-table td { border:1px solid #efefef; padding:10px; }
-		.em-cart-table th { background-color:#eee; text-align:center; }
-		.em-cart-table td { background-color:#fff; }
-		.em-cart-table th.em-cart-title-event { text-align:left; }
-		.em-cart-table tbody.em-cart-totals th { text-align:right; padding-right:20px; }
-		.em-cart-table .em-cart-table-details-hide { display:none; visibility:none; }
-		.em-cart-table .em-cart-table-event-details { display:none; visibility:none; }
-		.em-cart-table .em-cart-table-event-title { font-weight:bold; }
-		.em-cart-table .em-cart-table-spaces { text-align:center; }
-		.em-cart-table .em-cart-table-price, tbody.em-cart-totals td { text-align:right; }
-		.em-cart-table-event-details .em-cart-table-ticket { font-weight:bold; }
-		.em-cart-info .em-cart-info-title { text-decoration:underline; }
-		.em-cart-info .em-cart-info-booking-title { font-weight:bold; }
-		.em-cart-info .em-cart-info-values label { font-style:italic; display: inline-block; width:150px; }		 
-		/*! qTip2 v2.0.0 | http://craigsworks.com/projects/qtip2/ | Licensed MIT, GPL */#qtip-rcontainer{position:absolute;left:-28000px;top:-28000px;display:block;visibility:hidden}#qtip-rcontainer .ui-tooltip{display:block!important;visibility:hidden!important;position:static!important;float:left!important}.ui-tooltip,.qtip{position:absolute;left:-28000px;top:-28000px;display:none;max-width:280px;min-width:50px;font-size:10.5px;line-height:12px}.ui-tooltip-content{position:relative;padding:5px 9px;overflow:hidden;text-align:left;word-wrap:break-word}.ui-tooltip-titlebar{position:relative;min-height:14px;padding:5px 35px 5px 10px;overflow:hidden;border-width:0 0 1px;font-weight:700}.ui-tooltip-titlebar+.ui-tooltip-content{border-top-width:0!important}.ui-tooltip-titlebar .ui-state-default{position:absolute;right:4px;top:50%;margin-top:-9px;cursor:pointer;outline:medium none;border-width:1px;border-style:solid}* html .ui-tooltip-titlebar .ui-state-default{top:16px}.ui-tooltip-titlebar .ui-icon,.ui-tooltip-icon .ui-icon{display:block;text-indent:-1000em;direction:ltr}.ui-tooltip-icon,.ui-tooltip-icon .ui-icon{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;text-decoration:none}.ui-tooltip-icon .ui-icon{width:18px;height:14px;text-align:center;text-indent:0;font:normal bold 10px/13px Tahoma,sans-serif;color:inherit;background:transparent none no-repeat -100em -100em}.ui-tooltip-focus{}.ui-tooltip-hover{}.ui-tooltip-default{border-width:1px;border-style:solid;border-color:#F1D031;background-color:#FFFFA3;color:#555}.ui-tooltip-default .ui-tooltip-titlebar{background-color:#FFEF93}.ui-tooltip-default .ui-tooltip-icon{border-color:#CCC;background:#F1F1F1;color:#777}.ui-tooltip-default .ui-tooltip-titlebar .ui-state-hover{border-color:#AAA;color:#111}/*! Light tooltip style */.ui-tooltip-light{background-color:#fff;border-color:#E2E2E2;color:#454545}.ui-tooltip-light .ui-tooltip-titlebar{background-color:#f1f1f1}/*! Dark tooltip style */.ui-tooltip-dark{background-color:#505050;border-color:#303030;color:#f3f3f3}.ui-tooltip-dark .ui-tooltip-titlebar{background-color:#404040}.ui-tooltip-dark .ui-tooltip-icon{border-color:#444}.ui-tooltip-dark .ui-tooltip-titlebar .ui-state-hover{border-color:#303030}/*! Cream tooltip style */.ui-tooltip-cream{background-color:#FBF7AA;border-color:#F9E98E;color:#A27D35}.ui-tooltip-cream .ui-tooltip-titlebar{background-color:#F0DE7D}.ui-tooltip-cream .ui-state-default .ui-tooltip-icon{background-position:-82px 0}/*! Red tooltip style */.ui-tooltip-red{background-color:#F78B83;border-color:#D95252;color:#912323}.ui-tooltip-red .ui-tooltip-titlebar{background-color:#F06D65}.ui-tooltip-red .ui-state-default .ui-tooltip-icon{background-position:-102px 0}.ui-tooltip-red .ui-tooltip-icon{border-color:#D95252}.ui-tooltip-red .ui-tooltip-titlebar .ui-state-hover{border-color:#D95252}/*! Green tooltip style */.ui-tooltip-green{background-color:#CAED9E;border-color:#90D93F;color:#3F6219}.ui-tooltip-green .ui-tooltip-titlebar{background-color:#B0DE78}.ui-tooltip-green .ui-state-default .ui-tooltip-icon{background-position:-42px 0}/*! Blue tooltip style */.ui-tooltip-blue{background-color:#E5F6FE;border-color:#ADD9ED;color:#5E99BD}.ui-tooltip-blue .ui-tooltip-titlebar{background-color:#D0E9F5}.ui-tooltip-blue .ui-state-default .ui-tooltip-icon{background-position:-2px 0}.ui-tooltip-shadow{-webkit-box-shadow:1px 1px 3px 1px rgba(0,0,0,.15);-moz-box-shadow:1px 1px 3px 1px rgba(0,0,0,.15);box-shadow:1px 1px 3px 1px rgba(0,0,0,.15)}.ui-tooltip-rounded,.ui-tooltip-tipsy,.ui-tooltip-bootstrap{-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}.ui-tooltip-youtube{-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;-webkit-box-shadow:0 0 3px #333;-moz-box-shadow:0 0 3px #333;box-shadow:0 0 3px #333;color:#fff;border-width:0;background:#4A4A4A;background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0, #4A4A4A),color-stop(100%,black));background-image:-webkit-linear-gradient(top, #4A4A4A 0,black 100%);background-image:-moz-linear-gradient(top, #4A4A4A 0,black 100%);background-image:-ms-linear-gradient(top, #4A4A4A 0,black 100%);background-image:-o-linear-gradient(top, #4A4A4A 0,black 100%)}.ui-tooltip-youtube .ui-tooltip-titlebar{background-color:#4A4A4A;background-color:rgba(0,0,0,0)}.ui-tooltip-youtube .ui-tooltip-content{padding:.75em;font:12px arial,sans-serif;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#4a4a4a, EndColorStr=#000000);-ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#4a4a4a, EndColorStr=#000000);"}.ui-tooltip-youtube .ui-tooltip-icon{border-color:#222}.ui-tooltip-youtube .ui-tooltip-titlebar .ui-state-hover{border-color:#303030}.ui-tooltip-jtools{background:#232323;background:rgba(0,0,0,.7);background-image:-webkit-gradient(linear,left top,left bottom,from( #717171),to( #232323));background-image:-moz-linear-gradient(top, #717171, #232323);background-image:-webkit-linear-gradient(top, #717171, #232323);background-image:-ms-linear-gradient(top, #717171, #232323);background-image:-o-linear-gradient(top, #717171, #232323);border:2px solid #ddd;border:2px solid rgba(241,241,241,1);-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;-webkit-box-shadow:0 0 12px #333;-moz-box-shadow:0 0 12px #333;box-shadow:0 0 12px #333}.ui-tooltip-jtools .ui-tooltip-titlebar{background-color:transparent;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#717171, endColorstr=#4A4A4A);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#717171, endColorstr=#4A4A4A)"}.ui-tooltip-jtools .ui-tooltip-content{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4A4A4A, endColorstr=#232323);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#4A4A4A, endColorstr=#232323)"}.ui-tooltip-jtools .ui-tooltip-titlebar,.ui-tooltip-jtools .ui-tooltip-content{background:transparent;color:#fff;border:0 dashed transparent}.ui-tooltip-jtools .ui-tooltip-icon{border-color:#555}.ui-tooltip-jtools .ui-tooltip-titlebar .ui-state-hover{border-color:#333}.ui-tooltip-cluetip{-webkit-box-shadow:4px 4px 5px rgba(0,0,0,.4);-moz-box-shadow:4px 4px 5px rgba(0,0,0,.4);box-shadow:4px 4px 5px rgba(0,0,0,.4);background-color:#D9D9C2;color:#111;border:0 dashed transparent}.ui-tooltip-cluetip .ui-tooltip-titlebar{background-color:#87876A;color:#fff;border:0 dashed transparent}.ui-tooltip-cluetip .ui-tooltip-icon{border-color:#808064}.ui-tooltip-cluetip .ui-tooltip-titlebar .ui-state-hover{border-color:#696952;color:#696952}.ui-tooltip-tipsy{background:#000;background:rgba(0,0,0,.87);color:#fff;border:0 solid transparent;font-size:11px;font-family:'Lucida Grande',sans-serif;font-weight:700;line-height:16px;text-shadow:0 1px black}.ui-tooltip-tipsy .ui-tooltip-titlebar{padding:6px 35px 0 10;background-color:transparent}.ui-tooltip-tipsy .ui-tooltip-content{padding:6px 10}.ui-tooltip-tipsy .ui-tooltip-icon{border-color:#222;text-shadow:none}.ui-tooltip-tipsy .ui-tooltip-titlebar .ui-state-hover{border-color:#303030}.ui-tooltip-tipped{border:3px solid #959FA9;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;background-color:#F9F9F9;color:#454545;font-weight:400;font-family:serif}.ui-tooltip-tipped .ui-tooltip-titlebar{border-bottom-width:0;color:#fff;background:#3A79B8;background-image:-webkit-gradient(linear,left top,left bottom,from( #3A79B8),to( #2E629D));background-image:-webkit-linear-gradient(top, #3A79B8, #2E629D);background-image:-moz-linear-gradient(top, #3A79B8, #2E629D);background-image:-ms-linear-gradient(top, #3A79B8, #2E629D);background-image:-o-linear-gradient(top, #3A79B8, #2E629D);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3A79B8, endColorstr=#2E629D);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#3A79B8, endColorstr=#2E629D)"}.ui-tooltip-tipped .ui-tooltip-icon{border:2px solid #285589;background:#285589}.ui-tooltip-tipped .ui-tooltip-icon .ui-icon{background-color:#FBFBFB;color:#555}.ui-tooltip-bootstrap{font-size:13px;line-height:18px;color:#333;background-color:#fff;border:1px solid #ccc;border:1px solid rgba(0,0,0,.2);*border-right-width:2px;*border-bottom-width:2px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 5px 10px rgba(0,0,0,.2);-moz-box-shadow:0 5px 10px rgba(0,0,0,.2);box-shadow:0 5px 10px rgba(0,0,0,.2);-webkit-background-clip:padding-box;-moz-background-clip:padding;background-clip:padding-box}.ui-tooltip-bootstrap .ui-tooltip-titlebar{font-size:18px;line-height:22px;border-bottom:1px solid #ccc;background-color:transparent}.ui-tooltip-bootstrap .ui-tooltip-titlebar .ui-state-default{right:9px;top:49%;border-style:none}.ui-tooltip-bootstrap .ui-tooltip-icon{background:#fff}.ui-tooltip-bootstrap .ui-tooltip-icon .ui-icon{width:auto;height:auto;float:right;font-size:20px;font-weight:700;line-height:18px;color:#000;text-shadow:0 1px 0 #fff;opacity:.2;filter:alpha(opacity=20)}.ui-tooltip-bootstrap .ui-tooltip-icon .ui-icon:hover{color:#000;text-decoration:none;cursor:pointer;opacity:.4;filter:alpha(opacity=40)}.ui-tooltip:not(.ie9haxors) div.ui-tooltip-content,.ui-tooltip:not(.ie9haxors) div.ui-tooltip-titlebar{filter:none;-ms-filter:none}.ui-tooltip .ui-tooltip-tip{margin:0 auto;overflow:hidden;z-index:10}.ui-tooltip .ui-tooltip-tip,.ui-tooltip .ui-tooltip-tip .qtip-vml{position:absolute;line-height:.1px!important;font-size:.1px!important;color:#123456;background:transparent;border:0 dashed transparent}.ui-tooltip .ui-tooltip-tip canvas{top:0;left:0}.ui-tooltip .ui-tooltip-tip .qtip-vml{behavior:url(#default#VML);display:inline-block;visibility:visible}#qtip-overlay{position:fixed;left:-10000em;top:-10000em}#qtip-overlay.blurs{cursor:pointer}#qtip-overlay div{position:absolute;left:0;top:0;width:100%;height:100%;background-color:#000;opacity:.7;filter:alpha(opacity=70);-ms-filter:"alpha(Opacity=70)"}
-		</style>
-				<style type="text/css">
-			.em-coupon-code { width:150px; }
-			#em-coupon-loading { display:inline-block; width:16px; height: 16px; margin-left:4px; background:url(https://security.uic.edu/wp-content/plugins/events-manager-pro/includes/images/spinner.gif)}
-			.em-coupon-message { display:inline-block; margin:5px 0px 0px 105px; text-indent:22px; }
-			.em-coupon-success { color:green; background:url(https://security.uic.edu/wp-content/plugins/events-manager-pro/includes/images/success.png) 0px 0px no-repeat }
-			.em-coupon-error { color:red; background:url(https://security.uic.edu/wp-content/plugins/events-manager-pro/includes/images/error.png) 0px 0px no-repeat }
-			.em-cart-coupons-form .em-coupon-message{ margin:5px 0px 0px 0px; }
-			#em-coupon-loading { margin-right:4px; }	
-		</style>
-				<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
-		</head>
-<body class="home page-template page-template-showcase page-template-showcase-php page page-id-29">
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.97'></script>
+<link rel='https://api.w.org/' href='https://today.uic.edu/wp-json/' />
+<link rel='prev' title='News Advisory: UIC-Shakespeare Theater partnership supplies 5,000 masks to UI Health, leads to work for many' href='https://today.uic.edu/news-advisory-uic-shakespeare-theater-partnership-supplies-5000-masks-to-ui-health-leads-to-work-for-many' />
+<link rel='next' title='College of Medicine holds Match Day unlike any other' href='https://today.uic.edu/college-of-medicine-holds-match-day-unlike-any-other' />
+<link rel="canonical" href="https://today.uic.edu/campus-parking-update" />
+<link rel='shortlink' href='https://today.uic.edu/?p=92897' />
+<link rel="alternate" type="application/json+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fcampus-parking-update" />
+<link rel="alternate" type="text/xml+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fcampus-parking-update&#038;format=xml" />
+    <style type="text/css" media="screen">
+      div.printfriendly a, div.printfriendly a:link, div.printfriendly a:hover, div.printfriendly a:visited, div.printfriendly a:focus {
+        text-decoration: none;
+        border: none;
+        -webkit-box-shadow:none!important;
+        box-shadow:none!important;
+      }
+    </style>
+           <style type="text/css" media="screen">
+          div.printfriendly {
+            margin: 0px 0px 0px 0px;
+          }
+          div.printfriendly a, div.printfriendly a:link, div.printfriendly a:visited {
+            font-size: 14px;
+            color: #55750C;
+          }
+        </style>
+		<link rel="stylesheet" href="https://today.uic.edu/wp-content/plugins/printfriendly/printfriendly.css" media="screen" />
+        <style type="text/css" media="print">
+          .printfriendly {
+            display: none;
+          }
+        </style>
 
-	<!-- Page Layout
-	================================================== -->
-	<div id="header-wrap-top"><div id="header" class="container">
-      <div id="eyebrow">
-        <a class="screen-reader-shortcut" href="#page-container" title="Skip to Content">Skip to Content</a>
-        <div class="menu-container">
-            <h2>Eyebrow Navigation</h2>
-        <div class="menu-eyebrow-container"><ul id="menu-eyebrow" class="menu sf-menu"><li id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="http://uic.edu/">UIC</a></li>
-<li id="menu-item-219" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-219"><a href="http://www.uic.edu/uic/search/">Find People</a></li>
-<li id="menu-item-220" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-220"><a href="http://www.uic.edu/htbin/ulist/az">DEPARTMENTS A-Z</a></li>
-<li id="menu-item-221" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-221"><a href="http://library.uic.edu/">LIBRARY</a></li>
-<li id="menu-item-222" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-222"><a href="http://www.uicflames.com/">ATHLETICS</a></li>
-</ul></div>        <select id="eyebrow-menu"><option value="">Common U I C menu</option><option value="http://uic.edu/">UIC</option><option value="http://www.uic.edu/uic/search/">Find People</option><option value="http://www.uic.edu/htbin/ulist/az">DEPARTMENTS A-Z</option><option value="http://library.uic.edu/">LIBRARY</option><option value="http://www.uicflames.com/">ATHLETICS</option></select>        </div>
-      </div><!-- /#eyebrow -->
+<link rel="alternate" type="application/rss+xml" title="Podcast RSS feed" href="https://today.uic.edu/feed/podcast" />
 
-			<div id="logo">
-                <div class="logo-inner">
-                    <h1>
-                        <a href="https://security.uic.edu">
-                                                            <img src="http://security.publish.uic.edu/files/2014/08/ADM.ACCC_.NOUNIV.LG_.PMS_-300x70.png" alt="ACCC Information Security and Privacy Office">
-                                                    </a>
-                    </h1>
-                </div>
+<script type="text/javascript">
+           var ajaxurl = "https://today.uic.edu/wp-admin/admin-ajax.php";
+         </script>
+<!-- Put the following javascript before the closing </head> tag. -->
+
+<script>
+  (function() {
+    var cx = '009511351313755808885:xdz07yl93pe';
+    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+</head>
+
+<body role="document" class="post-template-default single single-post postid-92897 single-format-standard wp-embed-responsive">
+  
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57G9C3Q"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<div id="skip" role="complementary">
+<a href="#the_content">Skip to main content</a></div>
+
+
+
+<div id="header" role="banner">
+
+
+
+
+         		<div id="header-background">
+
+
+
+<!-- removed color wash for now.
+
+			<div class="color-wash">
+            <img src="" alt="   ">
+            </div>
+
+            -->
+
+
+
+            <div class="uic-type-wrapper">
+
+
+            <div class="last-update-timestamp">
+            	Updated: Apr 30, 2020 at 02:48 PM
+            </div><!--  last-update-timestamp   -->
+
+
+            <div class="uic-type-treatment">
+
+  			<div class="_mark">
+    		<a href="http://uic.edu" class="uic-logo-icon" aria-label="UIC logo">
+ 			<svg aria-label="UIC.edu" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ 			<title>UIC Logo</title>
+ 			<circle class="_circle" cx="27" cy="27" r="25" fill="none"></circle>
+ <path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#d50032" fill-rule="evenodd"></path>
+</svg>
+</a>
+  			</div><!--  _mark   -->
+
+  			<div class="_text">
+    		<a href="/">
+        	  Today
+      		  </a>
+ 			</div><!--  _text   -->
+
+
+			</div><!--  uic-type-treatment   -->
+
+
+
+            <!-- Put search box here -->
+<div class="search-box" aria-label="Search U I C today">
+    <form role="search" method="get" action="https://today.uic.edu/">
+     
+        <input type="text" id="s" name="s" aria-label="Search" size="25" value="" placeholder="Search">
+
+<button type="submit" value="Submit" style="border: 0;
+clip: rect( 1px, 1px, 1px, 1px );
+clip-path: inset( 50% );
+height: 1px;
+margin: -1px;
+overflow: hidden;
+padding: 0;
+position: absolute;
+width: 1px;
+word-wrap: normal;">
+Submit
+</button>
+
+    </form>
+    
+    
+</div>
+
+
+
+<!-- End search box code -->
+
+
+
+			</div><!--  uic-type-wrapper    -->
+
+
+		</div><!--  header-background   -->
+
+
+
+
+
+		<div id="main_nav" role="navigation" aria-label="Site">
+	  	 	<div class="main_nav_container"><ul id="menu-main_nav" class="menu"><li id="menu-item-57546"><a href="https://today.uic.edu/campus-news">Campus News</a></li>
+<li id="menu-item-57547"><a href="https://today.uic.edu/academics-research">Academics &#038; Research</a></li>
+<li id="menu-item-57548"><a href="https://today.uic.edu/events">Events</a></li>
+<li id="menu-item-67603"><a href="https://today.uic.edu/resources">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-67604"><a href="https://today.uic.edu/resources/current-students">Current Student Resources</a></li>
+	<li id="menu-item-67605"><a href="https://today.uic.edu/resources/faculty-staff">Faculty &#038; Staff Resources</a></li>
+	<li id="menu-item-81898"><a href="https://today.uic.edu/resources/photo-video-policies">Photography/Video</a></li>
+	<li id="menu-item-82144"><a href="https://today.uic.edu/resources/social-media-inquiry-form">Social Media Account Request Form</a></li>
+	<li id="menu-item-82376"><a href="https://today.uic.edu/uic-social-media-guidelines-and-best-practices">UIC Social Media Guidelines and Best Practices</a></li>
+</ul>
+</li>
+<li id="menu-item-92036"><a href="https://today.uic.edu/coronavirus">COVID-19</a>
+<ul class="sub-menu">
+	<li id="menu-item-92300"><a href="https://today.uic.edu/frequently-asked-questions">Frequently Asked Questions</a></li>
+	<li id="menu-item-92297"><a href="https://today.uic.edu/what-you-need-to-know-about-covid-19">What you need to know about COVID-19</a></li>
+	<li id="menu-item-92298"><a href="https://today.uic.edu/support-for-the-uic-community">Support for the UIC community (COVID-19)</a></li>
+	<li id="menu-item-92299"><a href="https://today.uic.edu/teaching-learning-and-working-resources">Teaching, learning and working resources</a></li>
+	<li id="menu-item-93028"><a href="https://today.uic.edu/in-the-news-covid-19">In the News: COVID-19</a></li>
+</ul>
+</li>
+<li id="menu-item-57549"><a href="https://today.uic.edu/contact">Contact</a>
+<ul class="sub-menu">
+	<li id="menu-item-57551"><a href="https://today.uic.edu/contact/communicating-on-campus">Communicating On Campus</a></li>
+	<li id="menu-item-57552"><a href="https://today.uic.edu/contact/communicating-on-campus/sending-massmails-dddh">Sending Announcements / DDDH</a></li>
+	<li id="menu-item-57550"><a href="https://today.uic.edu/contact/social-media-directory">UIC Social Media Directory</a></li>
+</ul>
+</li>
+</ul></div>	    </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+		</div>
+
+
+
+
+
+
+
+
+ <div id="container" role="main" aria-label="Main content" class="clearfix">
+
+
+<a name="the_content" id="the_content" tabindex="-1" aria-label="Main content area"></a>
+
+
+
+
+<div id="content">
+
+		<div id="single_right_sidebar"> <!-- creates social sharing links -->
+			<div class="single_rightBar_widgets connect">
+					<a href="http://www.facebook.com/sharer/sharer.php?u=https://today.uic.edu/campus-parking-update&amp;t=Campus Parking Update">
+						<img src="/wp-content/themes/uictoday/images/icon-facebook-link.svg" alt="Facebook"/>
+					</a>
+					<a href="http://twitter.com/intent/tweet?text=Campus Parking Update - https://today.uic.edu/campus-parking-update" title="Tweet this!">
+						<img src="/wp-content/themes/uictoday/images/icon-twitter-link.svg" alt="Twitter"/>
+					</a>
+					<a href="http://www.linkedin.com/shareArticle?mini=true&amp;title=Campus Parking Update&amp;url=https://today.uic.edu/campus-parking-update" title="Share on LinkedIn">
+						<img src="/wp-content/themes/uictoday/images/icon-linkedin-link.svg" alt="LinkedIn"/>
+					</a>
+					<a href="http://www.tumblr.com/share/link?url=https://today.uic.edu/campus-parking-update">
+						<img src="/wp-content/themes/uictoday/images/icon-tumblr-link.svg" alt="Tumblr"/>
+					</a>
+					<a href="mailto:?Subject=Campus Parking Update&Body=https://today.uic.edu/campus-parking-update">
+						<img src="/wp-content/themes/uictoday/images/icon-cta-envelope.svg" alt="email"/>
+					</a>
+			</div>
+		</div>
+
+<!--		<div class="labels">
+										</div>  -->
+
+		<div class="article clearfix">
+			<h1>Campus Parking Update</h1>
+
+			<p class="author-date">
+				April 3, 2020			</p>
+
+			<div class="pf-content"><p>Dear faculty, staff, and student employees,</p>
+<p>Thanks to all of you for your cooperation and flexibility as the UIC community continues to make its way through the many new circumstances which have resulted from the COVID-19 pandemic. With so many things changing on an almost daily basis, you have risen to the challenge of transitioning to a digital campus and workplace so we can stem the spread of the virus at UIC and beyond. We are grateful for all you have done and are continuing to do.</p>
+<p>In order to coincide with Governor Pritzker’s extension of the Stay at Home Order, which will last until April 30, UIC is immediately suspending payroll deduction of university parking fees for the month of April.  As a result, you will not see any parking charges on your next paycheck. Moving forward, we will be sure to provide you with campus parking updates as they become available.</p>
+<p>If you have questions or need more information, please email <a href="mailto:parking@uic.edu">parking@uic.edu</a>.</p>
+<p>Thank you again for all you are doing to support UIC’s mission and protect the health and safety of our university community.</p>
+<p>Sincerely,</p>
+<p>John Coronado<br />
+Vice Chancellor for Administrative Services</p>
+<div class="printfriendly pf-alignleft"><a href="#" style="outline:none;" rel="nofollow" onclick="window.print(); return false;" class="noslimstat" title="Printer Friendly, PDF & Email"><img style="border:none;-webkit-box-shadow:none; box-shadow:none;" src="https://cdn.printfriendly.com/buttons/print-button-gray.png" alt="Print Friendly, PDF & Email" /></a></div></div>
+			<p class="author-date">
+													<div class="rightBar_widgets">
+						<h2>Contact</h2>
+						<p>
+							<span class="bold"><a href="https://today.uic.edu/author/uicnews-staff" title="Posts by UIC News staff" rel="author">UIC News staff</a></span><br />
+							<br />
+							<a href="mailto:uicnews-staff@uic.edu">uicnews-staff@uic.edu</a><br />
+										</p>
 			</div>
 
-      <div id="nav-search">
-        <form role="search" method="get" id="searchform" class="searchform" action="https://security.uic.edu/">
-				<div>
-					<label class="screen-reader-text" for="s">Search for:</label>
-					<input type="text" value="" name="s" id="s" />
-					<input type="submit" id="searchsubmit" value="Search" />
-				</div>
-			</form>      </div>
+			<div id="tag-area">
+				<p class="tag-label">Categories</p>
+																<p>
+							<a href="https://today.uic.edu/category/official/covid19" rel="category tag">Coronavirus</a>, <a href="https://today.uic.edu/category/official" rel="category tag">Official Communications</a>, <a href="https://today.uic.edu/category/official/vcas-officials" rel="category tag">VC Admin Services officials</a>						</p>
+									</p>
+
+													<p class="tag-label">Topics</p>
+					<p><a href="https://today.uic.edu/tag/coronavirus" rel="tag">coronavirus</a>, <a href="https://today.uic.edu/tag/covid-19" rel="tag">COVID-19</a>, <a href="https://today.uic.edu/tag/novel-coronavirus" rel="tag">novel coronavirus</a></p>
+							</div>
+
 
 			
-                    <div id="slider-wrap" class="flexslider-container container">
-                        <div class="flexslider">
-                            <ul class="slides">
+</div>
 
-                                
-                                        <li>
-                                                                                            <img class="scale-with-grid" src="https://security.uic.edu/files/2014/08/BannerPolicies.jpg" alt="" /><div class="flex-longtext dark">Security policies are a primary focus for the Information Security and Privacy Office</div>
-                                                <div class="flex-caption">Policies</div>
-                                                                                        </li>
-                                    
-                                        <li>
-                                                                                            <a href="#">
-                                                <img class="scale-with-grid" src="https://security.uic.edu/files/2014/08/BannerResearch.jpg" alt="" /></a><div class="flex-longtext dark">Sensitive information needs to be safe and secure at all times.</div>
-                                                <div class="flex-caption">Research & Encryption</div>
-                                                                                        </li>
-                                    
-                                        <li>
-                                                                                            <a href="#">
-                                                <img class="scale-with-grid" src="https://security.uic.edu/files/2014/08/BannerPhishing.jpg" alt="" /></a><div class="flex-longtext dark">Keep your sensitive information private and beware of phishing Emails.</div>
-                                                <div class="flex-caption">Phishing</div>
-                                                                                        </li>
-                                                                </ul>
-                        </div>
-                    </div>
-                    <!-- End Slider -->
+<!-- Need 2 closing divs before footer to close divs from page header include -->
+	</div>
 
-                
-		</div><!-- End header -->
+</div>
 
-	<div id="navbar" class="container">
-        <a name ="main-content" id="page-content" class="screen-reader-shortcut" title="Skip to Content" tabindex = "-1">Skip to Content</a>
-		<div class="menu-container">
-            <h2>Main Navigation</h2>
-		    <div class="menu-cispo-main-menu-container"><ul id="menu-cispo-main-menu" class="menu sf-menu"><li id="menu-item-206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-29 current_page_item menu-item-206"><a href="https://security.uic.edu/">Home</a></li>
-<li id="menu-item-365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-parent-item menu-item-365"><a href="https://security.uic.edu/policies/">IT Security Program</a>
-<ul class="sub-menu">
-	<li id="menu-item-398" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-398"><a href="https://security.uic.edu/policies/uiso/">Unit Information Security Officers (UISOs)</a></li>
-	<li id="menu-item-480" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-480"><a href="https://security.uic.edu/policies/summary/">How Does the UIC IT Security Program Affect Me?</a></li>
-</ul>
-</li>
-<li id="menu-item-191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-parent-item menu-item-191"><a href="https://security.uic.edu/awareness/">Awareness</a>
-<ul class="sub-menu">
-	<li id="menu-item-1027" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1027"><a href="https://security.uic.edu/awareness/ncsam-2019/week-1-malware/">Week 1: Malware</a></li>
-	<li id="menu-item-1026" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1026"><a href="https://security.uic.edu/awareness/ncsam-2019/week-2-email-safety/">Week 2: Email Safety</a></li>
-	<li id="menu-item-1025" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1025"><a href="https://security.uic.edu/awareness/ncsam-2019/week-3-software-safety/">Week 3: Software Safety</a></li>
-	<li id="menu-item-1024" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1024"><a href="https://security.uic.edu/awareness/ncsam-2019/week-4-authentication/">Week 4: Authentication</a></li>
-	<li id="menu-item-1023" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1023"><a href="https://security.uic.edu/awareness/ncsam-2019/week-5-encryption/">Week 5: Encryption</a></li>
-</ul>
-</li>
-<li id="menu-item-153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-153"><a href="https://security.uic.edu/contact-us/">Contact Us</a></li>
-</ul></div>		    <select id="dropdown-menu"><option value="">Main Menu</option><option value="https://security.uic.edu/">Home</option><option value="https://security.uic.edu/policies/">IT Security Program</option><option value="https://security.uic.edu/policies/uiso/">Unit Information Security Officers (UISOs)</option><option value="https://security.uic.edu/policies/summary/">How Does the UIC IT Security Program Affect Me?</option><option value="https://security.uic.edu/awareness/">Awareness</option><option value="https://security.uic.edu/awareness/ncsam-2019/week-1-malware/">Week 1: Malware</option><option value="https://security.uic.edu/awareness/ncsam-2019/week-2-email-safety/">Week 2: Email Safety</option><option value="https://security.uic.edu/awareness/ncsam-2019/week-3-software-safety/">Week 3: Software Safety</option><option value="https://security.uic.edu/awareness/ncsam-2019/week-4-authentication/">Week 4: Authentication</option><option value="https://security.uic.edu/awareness/ncsam-2019/week-5-encryption/">Week 5: Encryption</option><option value="https://security.uic.edu/contact-us/">Contact Us</option></select>		</div>
 
-	</div><!-- End navbar -->
-</div><!-- End Header wrap -->
-	<div id="main-wrap" class="boxed">
+<div class="clearThis">&nbsp;</div>
 
 
 
-	        <div id="main-content" class="container">
-                <div id="sidebar-container" class="left">
-    <ul id="sidebar">
+
+
+    
+
+    <footer id="footer" class="footer u-dark-region" role="contentinfo">
+
+
+  <div class="footer-contact">
+    <div class="l-full">
+
+
+            <div class="uic-type-wrapper-footer">
+
+            <div class="uic-type-treatment-footer">
+            
+  			<div class="_mark"> 
+    		<a href="http://uic.edu" class="uic-logo-icon" aria-label="UIC logo">
+ 			<svg aria-label="UIC.edu" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ 			<title>UIC Logo</title>
+ 			<circle class="_circle" cx="27" cy="27" r="25" fill="none"></circle>
+ <path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#d50032" fill-rule="evenodd"></path>
+</svg>
+</a>
+  			</div><!--  _mark   -->   
+            
+  			<div class="_text">
+    		<a href="/">
+        	  Today
+      		  </a>
+ 			</div><!--  _text   -->
+
+            
+			</div><!--  uic-type-treatment-footer   -->
+
+
+			</div><!--  uic-type-wrapper-footer    -->
+ 
+
+
+  <div class="_contact">
+  
+  
+    <h2>Contact</h2>
+    
+    
+		<div class="site-address">Office of Public and Government Affairs <br />
+		601 S. Morgan St., 1320 UH, Chicago, IL 60607</div>
+      
+      
+		<div class="site-email"><a href="mailto:uictoday@uic.edu">uictoday@uic.edu</a></div>
         
-<li id="nav_menu-5" class="widget widget_nav_menu"><h3 class="widget-title">Security Topics</h3><div class="menu-cispo-sidebar-menu-container"><ul id="menu-cispo-sidebar-menu" class="menu"><li id="menu-item-482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-482"><a href="https://security.uic.edu/policies/">IT Security Program</a></li>
-<li id="menu-item-511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-511"><a href="https://security.uic.edu/non-secure-systems/">Non-Secure Systems</a></li>
-<li id="menu-item-484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-484"><a href="https://security.uic.edu/policies/uiso/">    UISOs</a></li>
-<li id="menu-item-488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-488"><a href="https://security.uic.edu/policies/summary/">    Daily Life?</a></li>
-<li id="menu-item-495" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-495"><a href="https://security.uic.edu/data-classifications/">    Data Classifications</a></li>
-<li id="menu-item-487" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-487"><a href="https://security.uic.edu/policies/definitions/">    Definitions</a></li>
-<li id="menu-item-284" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-284"><a href="https://security.uic.edu/overview/">Overview</a></li>
-</ul></div></li>    </ul>
-</div>		        <div id="page-container" class="right with-sidebar with-right-sidebar post-29 page type-page status-publish hentry" tabindex="-1">
-			        <h1><strong>ACCC Information Security and Privacy Office</strong></h1>
-<p>&nbsp;</p>
-<h2 class="field-label">Overview</h2>
-<div class="field-items">
-<div class="field-item odd first last">
-<p>The mission of the ACCC Information Security and Privacy Office is to protect the UIC community from active and potential security threats.</p>
-</div>
-</div>
-<h2 class="field-label">Efforts</h2>
-<div class="field-items">
-<div class="field-item odd first last">
-<ul>
-<li>Monitor the health and security of the campus network</li>
-<li>Research and advise on current security threats</li>
-<li>Assist with the creation of and compliance with University security policy</li>
-<li>Ensure compliance with IT legal and regulatory requirements</li>
-<li>Security awareness and training</li>
-</ul>
-<h3><strong>Stay informed!</strong></h3>
-<p>We are working to bring you informative and engaging content on our website. For now please considering following us on Twitter.</p>
-<p>For Security Education, Awareness and News.</p>
-<p><a class="twitter-follow-button" href="https://twitter.com/ACCCSecurity">Follow @ACCCSecurity</a></p>
-</div>
-</div>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+        
+		<div aria-label="Social Media Accounts" class="_social" role="navigation">
+			<h2 class="assistive-text">Social Media Accounts</h2> 
+  			<ul class="site-social-links">
+            <li><a href="https://www.facebook.com/uicnews "><img src="/wp-content/themes/uictoday/images/social-media-icons/facebook.png" alt="Facebook"></a></li>
+            <li><a href="https://instagram.com/thisisuic/"><img src="/wp-content/themes/uictoday/images/social-media-icons/instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://today.uic.edu/campus-news/campus-newspaper/subscribe-to-uic-today"><img src="/wp-content/themes/uictoday/images/social-media-icons/rss.png" alt="RSS feed"></a></li>
+            <li><a href="https://uicscience.tumblr.com/"><img src="/wp-content/themes/uictoday/images/social-media-icons/tumblr.png" alt="tumblr"></a></li>
+            <li><a href="https://twitter.com/UICnews"><img src="/wp-content/themes/uictoday/images/social-media-icons/twitter.png" alt="Twitter"></a></li>
+            <li><a href="https://www.youtube.com/user/uicmedia"><img src="/wp-content/themes/uictoday/images/social-media-icons/youtube.png" alt="YouTube"></a></li>
+            <li><a href="https://today.uic.edu/contact/social-media-directory"><img src="/wp-content/themes/uictoday/images/social-media-icons/directory.png" alt="Social media directory"></a></li>
+            </ul>
+            
+            
+		</div>        
+        
+        
+  </div>
 
-                    <!-- <br class="clear" /> -->
-			        
-                </div>
-	            <!-- End page container -->
+    
 
-                <div id="sidebar-container-inside">
-    <ul id="sidebar">
-        <li id="widget_sp_image-8" class="widget widget_sp_image"><h3 class="widget-title">NCSAM</h3><a href="http://security.uic.edu/awareness/" id="" target="_self" class="widget_sp_image-image-link" title="NCSAM" rel=""><img width="325" height="100" alt="NCSAM" class="attachment-full" style="max-width: 100%;" src="https://security.uic.edu/files/2014/08/ncsam_logoPadding.png" /></a><div class="widget_sp_image-description" ><p>National Cyber Security Awareness Month highlights a specific threat each week to raise awareness for cyber security in the UIC community. </p>
-</div></li><li id="widget_sp_image-9" class="widget widget_sp_image"><h3 class="widget-title">NSCAM Poster Campaign</h3><a href="http://security.uic.edu/awareness/" id="" target="_self" class="widget_sp_image-image-link" title="Thumbnail Posters" rel=""><img width="325" height="624" alt="Thumbnail Posters" class="attachment-full" style="max-width: 100%;" src="https://security.uic.edu/files/2019/09/homepage-mini-posters-2019.jpg" /></a></li>    </ul>
-</div>            </div>
-            <!-- End main content -->
+       
 
-			<div id="sub-footer"><div class="container">
-				<div class="sub-footer-left">&nbsp;</div>
 
-		<div class="sub-footer-right">
-	    <img class="subfooterlogo" src="https://security.uic.edu/wp-content/themes/uic-network-2013/img/uic-office-notred.png" alt="UIC Logo" title="UIC" width="46" height="19" />&nbsp;
-	    <p>© Copyright 2014-2020 The Board of Trustees of the University of Illinois</p>
-		</div>
-	</div></div><!-- /#sub-footer -->
+   
 
-	
-		<div id="footer">
-		  <div class="container">
-              <h2 class="nav-title">Footer Navigation</h2>
-			  <ul>
-			  <li id="widget_sp_image-7" class="one-fourth widget widget_sp_image"><h3 class="widget-title">UIC</h3><a href="http://www.uic.edu" id="" target="_blank" class="widget_sp_image-image-link" title="UIC Logo" rel=""><img width="125" height="138" alt="UIC Logo" class="attachment-full" style="max-width: 100%;" src="https://security.uic.edu/files/2014/08/CAMP.STACKED.NOTL_.LG_.WHT_125x138.png" /></a></li><li id="nav_menu-6" class="one-fourth widget widget_nav_menu"><h3 class="widget-title">Website Menu</h3><div class="menu-mini-menu-container"><ul id="menu-mini-menu" class="menu"><li id="menu-item-256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-29 current_page_item menu-item-256"><a href="https://security.uic.edu/">Home</a></li>
-<li id="menu-item-261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-261"><a href="https://security.uic.edu/students/">Students</a></li>
-<li id="menu-item-260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-260"><a href="https://security.uic.edu/staff/">Staff</a></li>
-<li id="menu-item-259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-259"><a href="https://security.uic.edu/research/">Research</a></li>
-<li id="menu-item-258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-258"><a href="https://security.uic.edu/policies/">IT Security Program</a></li>
-<li id="menu-item-257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-257"><a href="https://security.uic.edu/contact-us/">Contact Us</a></li>
-</ul></div></li><li id="nav_menu-7" class="one-fourth widget widget_nav_menu"><h3 class="widget-title">Footer</h3><div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32"><a href="http://www.uic.edu/uic/studentlife/studentservices/disability.shtml">Disability Resources</a></li>
-<li id="menu-item-33" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33"><a href="http://www.uic.edu/uic/studentlife/campus/emergency-information.shtml">Emergency Information</a></li>
-<li id="menu-item-34" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Policy</a></li>
-<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="https://security.uic.edu/contact-us/">Contact Us</a></li>
-</ul></div></li><li id="text-2" class="one-fourth widget widget_text"><h3 class="widget-title">Follow Us</h3>			<div class="textwidget"><a class="twitter-follow-button" href="https://twitter.com/ACCCSecurity">Follow @ACCCSecurity</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</div>
-		</li>			  </ul>
-		  </div>
-		</div>
 
-	
 
-	<!-- End Footer -->
+
+
+		<div id="quicklinks_footer" role="navigation" aria-label="Quick Links" >
+			<div id="quicklinks_footer_container">
+	  	 	<div class="menu-footer-quicklinks-container"><ul id="menu-footer-quicklinks" class="menu"><li id="menu-item-57564"><a href="/news-release/news-release/">For the Media</a></li>
+<li id="menu-item-57555"><a href="https://today.uic.edu/experts-guide">Experts Guide</a></li>
+<li id="menu-item-57577"><a href="https://today.uic.edu/contact/communicating-on-campus/submit-announcements">Submit Announcements</a></li>
+<li id="menu-item-57578"><a href="https://today.uic.edu/submit-an-event">Submit an Event</a></li>
+<li id="menu-item-67562"><a href="https://today.uic.edu/campus-news/campus-newspaper/subscribe-to-uic-today">Subscribe to UIC Today</a></li>
+</ul></div>        	</div>
+	    </div>      
+
 
 </div>
-<!-- End main wrap -->
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-27751174-8', 'auto');
-  ga('send', 'pageview');
-
-</script><script type='text/javascript' src='https://security.uic.edu/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
-<!-- End Document
-================================================== -->
+    
+    </div>
+  </div>
+
+
+
+
+<div class="footer-wrapper-uic-menu-legal">
+
+
+  <div class="footer-uic-menu">
+    <div class="ll-full">
+
+      <div role="navigation" aria-label="UIC.edu Links" >
+  <h2 class="assistive-text">UIC.edu links</h2>
+  <ul class="uic-footer-menu">
+    <li><a href="http://uic.edu/">UIC.edu</a></li>
+    <li><a href="http://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></li>
+    <li><a href="http://uicflames.com/">Athletics</a></li>
+    <li><a href="http://www.uic.edu/apps/departments-az/search">Campus Directory</a></li>
+    <li><a href="http://disabilityresources.uic.edu/">Disability Resources</a></li>
+    <li><a href="http://emergency.uic.edu/">Emergency Information</a></li>
+    <li><a href="http://events.uic.edu/">Event Calendar</a></li>
+    <li><a href="http://uic.edu/about/job-opportunities">Job Openings</a></li>
+    <li><a href="http://library.uic.edu/">Library</a></li>
+    <li><a href="http://maps.uic.edu/">Maps</a></li>
+    <li><a href="http://hospital.uillinois.edu/">UI Health</a></li>
+    <li><a href="http://dos.uic.edu/studentveteranaffairs.shtml">Veterans Affairs</a></li>
+  </ul>
+</div>
+
+    </div><!--  ll-full   -->
+    
+    <div class="m-full">
+    <img src="/wp-content/themes/uictoday/images/uihealth.png" alt="UI Health and UIC co-branded logo">
+    </div><!--  m-full   -->
+    
+  </div><!--  footer-uic-menu   --> 
+
+
+
+
+  <div class="footer-legal">
+    <div class="l-full">
+
+      <div class="site-copyright">
+  &copy; 2020 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
+  <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a>
+</div>
+
+<div class="campuses" role="navigation" aria-label="University of Illinois campus web sites">
+  <h2 class="assistive-text">Campuses</h2>
+  <ul class="campuses-list">
+    <li><a href="https://uillinois.edu/">University of Illinois System</a></li>
+    <li><a href="https://illinois.edu/">Urbana-Champaign</a></li>
+    <li><a href="https://uis.edu/">Springfield</a></li>
+  </ul>
+</div>
+
+    </div>
+
+
+
+</div><!--  footer-wrapper-uic-menu-legal   --> 
+    
+    
+  </div>
+
+</footer>
+
+
+
+
+
+</div>
+
+
+		<style type="text/css">
+			.ssp-wave wave wave {
+				background: #28c0e1 !important;
+			}
+		</style>
+		<script type="text/javascript">
+  document.write(unescape("%3Cscript src='//www.uic.edu/inc/emergency/alert.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+      <script type="text/javascript">
+
+          var pfHeaderImgUrl = 'https://today.uic.edu/files/2019/10/TodayPrintHeader.jpg';
+          var pfHeaderTagline = 'UIC Today';
+          var pfdisableClickToDel = '0';
+          var pfImagesSize = 'full-size';
+          var pfImageDisplayStyle = 'right';
+          var pfEncodeImages = '0';
+          var pfDisableEmail = '0';
+          var pfDisablePDF = '0';
+          var pfDisablePrint = '0';
+          var pfCustomCSS = '';
+          var pfPlatform = 'Wordpress';
+      </script>
+      <script async src='https://cdn.printfriendly.com/printfriendly.js'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+
 </body>
-</html>
+</html><!-- WP Fastest Cache file was created in 0.088721990585327 seconds, on 30-04-20 15:35:12 -->

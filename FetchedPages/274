@@ -25,7 +25,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<title>Submit an Event | UIC Today</title>
+<title>Submit Announcements | UIC Today</title>
 
 <link rel="stylesheet" type="text/css" media="all" href="https://today.uic.edu/wp-content/themes/uictoday/style.css" />
 
@@ -77,6 +77,11 @@ img.emoji {
 <style id='tablepress-default-inline-css' type='text/css'>
 .tablepress-id-1 .column-1{vertical-align:middle}.tablepress-id-1 tbody td{font-size:15px}.tablepress-id-1{width:auto important!}.tablepress-id-1 img{margin:0!important}.tablepress-id-6 .column-1{vertical-align:middle}.tablepress-id-6 tbody td{font-size:15px}.tablepress-id-6{width:auto important!}.tablepress-id-6 img{margin:0!important}.tablepress-id-3 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-3 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-3 .odd td{background-color:#e6e6e6}.tablepress-id-3 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-3 .column-1{width:50%}.tablepress-id-4 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-4 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-4 .odd td{background-color:#e6e6e6}.tablepress-id-4 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-4 .column-1{width:50%}.tablepress-id-5 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-5 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-5 .odd td{background-color:#e6e6e6}.tablepress-id-5 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-5 .column-1{width:50%}
 </style>
+<link rel='stylesheet' id='gforms_reset_css-css'  href='https://today.uic.edu/wp-content/plugins/gravityforms/css/formreset.min.css?ver=2.4.15' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_datepicker_css-css'  href='https://today.uic.edu/wp-content/plugins/gravityforms/css/datepicker.min.css?ver=2.4.15' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_formsmain_css-css'  href='https://today.uic.edu/wp-content/plugins/gravityforms/css/formsmain.min.css?ver=2.4.15' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_ready_class_css-css'  href='https://today.uic.edu/wp-content/plugins/gravityforms/css/readyclass.min.css?ver=2.4.15' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_browsers_css-css'  href='https://today.uic.edu/wp-content/plugins/gravityforms/css/browsers.min.css?ver=2.4.15' type='text/css' media='all' />
 <script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/stackable-ultimate-gutenberg-blocks/dist/frontend_blocks.js?ver=2.3.0'></script>
 <script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
 <script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
@@ -112,39 +117,50 @@ var EM = {"ajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php","locatio
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.97'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.4.15'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/today.uic.edu\/wp-content\/plugins\/gravityforms\/images"}};
+var gf_global = {"gf_currency_config":{"name":"Dollar","symbol_left":"","symbol_right":"","symbol_padding":" ","thousand_separator":"","decimal_separator":".","decimals":0},"base_url":"https:\/\/today.uic.edu\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/today.uic.edu\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.4.15'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/gravityforms/js/conditional_logic.min.js?ver=2.4.15'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.4.15'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.4.15'></script>
 <link rel='https://api.w.org/' href='https://today.uic.edu/wp-json/' />
-<link rel="canonical" href="https://today.uic.edu/submit-an-event" />
-<link rel='shortlink' href='https://today.uic.edu/?p=57497' />
-<link rel="alternate" type="application/json+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fsubmit-an-event" />
-<link rel="alternate" type="text/xml+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fsubmit-an-event&#038;format=xml" />
-    <style type="text/css" media="screen">
-      div.printfriendly a, div.printfriendly a:link, div.printfriendly a:hover, div.printfriendly a:visited, div.printfriendly a:focus {
-        text-decoration: none;
-        border: none;
-        -webkit-box-shadow:none!important;
-        box-shadow:none!important;
-      }
-    </style>
-           <style type="text/css" media="screen">
-          div.printfriendly {
-            margin: 0px 0px 0px 0px;
-          }
-          div.printfriendly a, div.printfriendly a:link, div.printfriendly a:visited {
-            font-size: 14px;
-            color: #55750C;
-          }
-        </style>
-		<link rel="stylesheet" href="https://today.uic.edu/wp-content/plugins/printfriendly/printfriendly.css" media="screen" />
-        <style type="text/css" media="print">
-          .printfriendly {
-            display: none;
-          }
-        </style>
+<link rel="canonical" href="https://today.uic.edu/contact/communicating-on-campus/submit-announcements" />
+<link rel='shortlink' href='https://today.uic.edu/?p=57575' />
+<link rel="alternate" type="application/json+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fcontact%2Fcommunicating-on-campus%2Fsubmit-announcements" />
+<link rel="alternate" type="text/xml+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fcontact%2Fcommunicating-on-campus%2Fsubmit-announcements&#038;format=xml" />
+    <style type="text/css" media="screen">
+      div.printfriendly a, div.printfriendly a:link, div.printfriendly a:hover, div.printfriendly a:visited, div.printfriendly a:focus {
+        text-decoration: none;
+        border: none;
+        -webkit-box-shadow:none!important;
+        box-shadow:none!important;
+      }
+    </style>
+           <style type="text/css" media="screen">
+          div.printfriendly {
+            margin: 0px 0px 0px 0px;
+          }
+          div.printfriendly a, div.printfriendly a:link, div.printfriendly a:visited {
+            font-size: 14px;
+            color: #55750C;
+          }
+        </style>
+		<link rel="stylesheet" href="https://today.uic.edu/wp-content/plugins/printfriendly/printfriendly.css" media="screen" />
+        <style type="text/css" media="print">
+          .printfriendly {
+            display: none;
+          }
+        </style>
 
 <link rel="alternate" type="application/rss+xml" title="Podcast RSS feed" href="https://today.uic.edu/feed/podcast" />
 
-<script type="text/javascript">
-           var ajaxurl = "https://today.uic.edu/wp-admin/admin-ajax.php";
+<script type="text/javascript">
+           var ajaxurl = "https://today.uic.edu/wp-admin/admin-ajax.php";
          </script>
 <!-- Put the following javascript before the closing </head> tag. -->
 
@@ -160,7 +176,7 @@ var EM = {"ajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php","locatio
 
 </head>
 
-<body role="document" class="page-template-default page page-id-57497 wp-embed-responsive">
+<body role="document" class="page-template-default page page-id-57575 page-child parent-pageid-16 wp-embed-responsive">
   
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57G9C3Q"
@@ -196,7 +212,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
             <div class="last-update-timestamp">
-            	Updated: Apr 27, 2020 at 06:16 PM
+            	Updated: Apr 30, 2020 at 02:48 PM
             </div><!--  last-update-timestamp   -->
 
 
@@ -325,974 +341,127 @@ Submit
 
 
 		<div id="content">
-		<h1>Submit an Event</h1>
-		<p><div class="pf-content">	
-<form enctype='multipart/form-data' id="event-form" class="em-event-admin-editor " method="post" action="/submit-an-event">
-	<div class="wrap">
-							<h3 class="event-form-submitter">Your Details</h3>
-			<div class="inside event-form-submitter">
-				<p>
-					<label>Name</label>
-					<input type="text" name="event_owner_name" id="event-owner-name" value="" />
-				</p>
-				<p>
-					<label>Email</label>
-					<input type="text" name="event_owner_email" id="event-owner-email" value="" />
-				</p>
-											</div>
-				<h3 class="event-form-name">Event Name</h3>
-		<div class="inside event-form-name">
-			<input type="text" name="event_name" id="event-name" value="" /><i>*</i>			<br />
-			The event name. Example: Birthday party					</div>
-					
-		<h3 class="event-form-when">When</h3>
-		<div class="inside event-form-when">
-		<!-- START recurrence postbox -->
-<div id="em-form-with-recurrence" class="event-form-with-recurrence event-form-when">
-	<p>This is a recurring event. <input type="checkbox" id="em-recurrence-checkbox" name="recurring" value="1"  /></p>
-	<p class="em-date-range">
-		<span class="em-recurring-text">Recurrences span from </span>
-		<span class="em-event-text">From </span>				
-		<input class="em-date-start em-date-input-loc" type="text" />
-		<input class="em-date-input" type="hidden" name="event_start_date" value="" />
-		<span class="em-recurring-text">to</span>
-		<span class="em-event-text">to</span>
-		<input class="em-date-end em-date-input-loc" type="text" />
-		<input class="em-date-input" type="hidden" name="event_end_date" value="" />
-	</p>
-	<p>
-		<span class="em-recurring-text">Events start from</span>
-		<span class="em-event-text">Event starts at</span>
-		<input id="start-time" class="em-time-input em-time-start" type="text" size="8" maxlength="8" name="event_start_time" value="12:00 AM" />
-		to		<input id="end-time" class="em-time-input em-time-end" type="text" size="8" maxlength="8" name="event_end_time" value="12:00 AM" />
-		All day <input type="checkbox" class="em-time-allday" name="event_all_day" id="em-time-all-day" value="1"  />
-	</p>
-		<p class="em-timezone">
-		<label for="event-timezone">Timezone</label>
-		<select id="event-timezone" name="event_timezone" aria-describedby="timezone-description">
-			<optgroup label="Africa">
-<option value="Africa/Abidjan">Abidjan</option>
-<option value="Africa/Accra">Accra</option>
-<option value="Africa/Addis_Ababa">Addis Ababa</option>
-<option value="Africa/Algiers">Algiers</option>
-<option value="Africa/Asmara">Asmara</option>
-<option value="Africa/Bamako">Bamako</option>
-<option value="Africa/Bangui">Bangui</option>
-<option value="Africa/Banjul">Banjul</option>
-<option value="Africa/Bissau">Bissau</option>
-<option value="Africa/Blantyre">Blantyre</option>
-<option value="Africa/Brazzaville">Brazzaville</option>
-<option value="Africa/Bujumbura">Bujumbura</option>
-<option value="Africa/Cairo">Cairo</option>
-<option value="Africa/Casablanca">Casablanca</option>
-<option value="Africa/Ceuta">Ceuta</option>
-<option value="Africa/Conakry">Conakry</option>
-<option value="Africa/Dakar">Dakar</option>
-<option value="Africa/Dar_es_Salaam">Dar es Salaam</option>
-<option value="Africa/Djibouti">Djibouti</option>
-<option value="Africa/Douala">Douala</option>
-<option value="Africa/El_Aaiun">El Aaiun</option>
-<option value="Africa/Freetown">Freetown</option>
-<option value="Africa/Gaborone">Gaborone</option>
-<option value="Africa/Harare">Harare</option>
-<option value="Africa/Johannesburg">Johannesburg</option>
-<option value="Africa/Juba">Juba</option>
-<option value="Africa/Kampala">Kampala</option>
-<option value="Africa/Khartoum">Khartoum</option>
-<option value="Africa/Kigali">Kigali</option>
-<option value="Africa/Kinshasa">Kinshasa</option>
-<option value="Africa/Lagos">Lagos</option>
-<option value="Africa/Libreville">Libreville</option>
-<option value="Africa/Lome">Lome</option>
-<option value="Africa/Luanda">Luanda</option>
-<option value="Africa/Lubumbashi">Lubumbashi</option>
-<option value="Africa/Lusaka">Lusaka</option>
-<option value="Africa/Malabo">Malabo</option>
-<option value="Africa/Maputo">Maputo</option>
-<option value="Africa/Maseru">Maseru</option>
-<option value="Africa/Mbabane">Mbabane</option>
-<option value="Africa/Mogadishu">Mogadishu</option>
-<option value="Africa/Monrovia">Monrovia</option>
-<option value="Africa/Nairobi">Nairobi</option>
-<option value="Africa/Ndjamena">Ndjamena</option>
-<option value="Africa/Niamey">Niamey</option>
-<option value="Africa/Nouakchott">Nouakchott</option>
-<option value="Africa/Ouagadougou">Ouagadougou</option>
-<option value="Africa/Porto-Novo">Porto-Novo</option>
-<option value="Africa/Sao_Tome">Sao Tome</option>
-<option value="Africa/Tripoli">Tripoli</option>
-<option value="Africa/Tunis">Tunis</option>
-<option value="Africa/Windhoek">Windhoek</option>
-</optgroup>
-<optgroup label="America">
-<option value="America/Adak">Adak</option>
-<option value="America/Anchorage">Anchorage</option>
-<option value="America/Anguilla">Anguilla</option>
-<option value="America/Antigua">Antigua</option>
-<option value="America/Araguaina">Araguaina</option>
-<option value="America/Argentina/Buenos_Aires">Argentina - Buenos Aires</option>
-<option value="America/Argentina/Catamarca">Argentina - Catamarca</option>
-<option value="America/Argentina/Cordoba">Argentina - Cordoba</option>
-<option value="America/Argentina/Jujuy">Argentina - Jujuy</option>
-<option value="America/Argentina/La_Rioja">Argentina - La Rioja</option>
-<option value="America/Argentina/Mendoza">Argentina - Mendoza</option>
-<option value="America/Argentina/Rio_Gallegos">Argentina - Rio Gallegos</option>
-<option value="America/Argentina/Salta">Argentina - Salta</option>
-<option value="America/Argentina/San_Juan">Argentina - San Juan</option>
-<option value="America/Argentina/San_Luis">Argentina - San Luis</option>
-<option value="America/Argentina/Tucuman">Argentina - Tucuman</option>
-<option value="America/Argentina/Ushuaia">Argentina - Ushuaia</option>
-<option value="America/Aruba">Aruba</option>
-<option value="America/Asuncion">Asuncion</option>
-<option value="America/Atikokan">Atikokan</option>
-<option value="America/Bahia">Bahia</option>
-<option value="America/Bahia_Banderas">Bahia Banderas</option>
-<option value="America/Barbados">Barbados</option>
-<option value="America/Belem">Belem</option>
-<option value="America/Belize">Belize</option>
-<option value="America/Blanc-Sablon">Blanc-Sablon</option>
-<option value="America/Boa_Vista">Boa Vista</option>
-<option value="America/Bogota">Bogota</option>
-<option value="America/Boise">Boise</option>
-<option value="America/Cambridge_Bay">Cambridge Bay</option>
-<option value="America/Campo_Grande">Campo Grande</option>
-<option value="America/Cancun">Cancun</option>
-<option value="America/Caracas">Caracas</option>
-<option value="America/Cayenne">Cayenne</option>
-<option value="America/Cayman">Cayman</option>
-<option selected="selected" value="America/Chicago">Chicago</option>
-<option value="America/Chihuahua">Chihuahua</option>
-<option value="America/Costa_Rica">Costa Rica</option>
-<option value="America/Creston">Creston</option>
-<option value="America/Cuiaba">Cuiaba</option>
-<option value="America/Curacao">Curacao</option>
-<option value="America/Danmarkshavn">Danmarkshavn</option>
-<option value="America/Dawson">Dawson</option>
-<option value="America/Dawson_Creek">Dawson Creek</option>
-<option value="America/Denver">Denver</option>
-<option value="America/Detroit">Detroit</option>
-<option value="America/Dominica">Dominica</option>
-<option value="America/Edmonton">Edmonton</option>
-<option value="America/Eirunepe">Eirunepe</option>
-<option value="America/El_Salvador">El Salvador</option>
-<option value="America/Fortaleza">Fortaleza</option>
-<option value="America/Fort_Nelson">Fort Nelson</option>
-<option value="America/Glace_Bay">Glace Bay</option>
-<option value="America/Godthab">Godthab</option>
-<option value="America/Goose_Bay">Goose Bay</option>
-<option value="America/Grand_Turk">Grand Turk</option>
-<option value="America/Grenada">Grenada</option>
-<option value="America/Guadeloupe">Guadeloupe</option>
-<option value="America/Guatemala">Guatemala</option>
-<option value="America/Guayaquil">Guayaquil</option>
-<option value="America/Guyana">Guyana</option>
-<option value="America/Halifax">Halifax</option>
-<option value="America/Havana">Havana</option>
-<option value="America/Hermosillo">Hermosillo</option>
-<option value="America/Indiana/Indianapolis">Indiana - Indianapolis</option>
-<option value="America/Indiana/Knox">Indiana - Knox</option>
-<option value="America/Indiana/Marengo">Indiana - Marengo</option>
-<option value="America/Indiana/Petersburg">Indiana - Petersburg</option>
-<option value="America/Indiana/Tell_City">Indiana - Tell City</option>
-<option value="America/Indiana/Vevay">Indiana - Vevay</option>
-<option value="America/Indiana/Vincennes">Indiana - Vincennes</option>
-<option value="America/Indiana/Winamac">Indiana - Winamac</option>
-<option value="America/Inuvik">Inuvik</option>
-<option value="America/Iqaluit">Iqaluit</option>
-<option value="America/Jamaica">Jamaica</option>
-<option value="America/Juneau">Juneau</option>
-<option value="America/Kentucky/Louisville">Kentucky - Louisville</option>
-<option value="America/Kentucky/Monticello">Kentucky - Monticello</option>
-<option value="America/Kralendijk">Kralendijk</option>
-<option value="America/La_Paz">La Paz</option>
-<option value="America/Lima">Lima</option>
-<option value="America/Los_Angeles">Los Angeles</option>
-<option value="America/Lower_Princes">Lower Princes</option>
-<option value="America/Maceio">Maceio</option>
-<option value="America/Managua">Managua</option>
-<option value="America/Manaus">Manaus</option>
-<option value="America/Marigot">Marigot</option>
-<option value="America/Martinique">Martinique</option>
-<option value="America/Matamoros">Matamoros</option>
-<option value="America/Mazatlan">Mazatlan</option>
-<option value="America/Menominee">Menominee</option>
-<option value="America/Merida">Merida</option>
-<option value="America/Metlakatla">Metlakatla</option>
-<option value="America/Mexico_City">Mexico City</option>
-<option value="America/Miquelon">Miquelon</option>
-<option value="America/Moncton">Moncton</option>
-<option value="America/Monterrey">Monterrey</option>
-<option value="America/Montevideo">Montevideo</option>
-<option value="America/Montserrat">Montserrat</option>
-<option value="America/Nassau">Nassau</option>
-<option value="America/New_York">New York</option>
-<option value="America/Nipigon">Nipigon</option>
-<option value="America/Nome">Nome</option>
-<option value="America/Noronha">Noronha</option>
-<option value="America/North_Dakota/Beulah">North Dakota - Beulah</option>
-<option value="America/North_Dakota/Center">North Dakota - Center</option>
-<option value="America/North_Dakota/New_Salem">North Dakota - New Salem</option>
-<option value="America/Ojinaga">Ojinaga</option>
-<option value="America/Panama">Panama</option>
-<option value="America/Pangnirtung">Pangnirtung</option>
-<option value="America/Paramaribo">Paramaribo</option>
-<option value="America/Phoenix">Phoenix</option>
-<option value="America/Port-au-Prince">Port-au-Prince</option>
-<option value="America/Port_of_Spain">Port of Spain</option>
-<option value="America/Porto_Velho">Porto Velho</option>
-<option value="America/Puerto_Rico">Puerto Rico</option>
-<option value="America/Punta_Arenas">Punta Arenas</option>
-<option value="America/Rainy_River">Rainy River</option>
-<option value="America/Rankin_Inlet">Rankin Inlet</option>
-<option value="America/Recife">Recife</option>
-<option value="America/Regina">Regina</option>
-<option value="America/Resolute">Resolute</option>
-<option value="America/Rio_Branco">Rio Branco</option>
-<option value="America/Santarem">Santarem</option>
-<option value="America/Santiago">Santiago</option>
-<option value="America/Santo_Domingo">Santo Domingo</option>
-<option value="America/Sao_Paulo">Sao Paulo</option>
-<option value="America/Scoresbysund">Scoresbysund</option>
-<option value="America/Sitka">Sitka</option>
-<option value="America/St_Barthelemy">St Barthelemy</option>
-<option value="America/St_Johns">St Johns</option>
-<option value="America/St_Kitts">St Kitts</option>
-<option value="America/St_Lucia">St Lucia</option>
-<option value="America/St_Thomas">St Thomas</option>
-<option value="America/St_Vincent">St Vincent</option>
-<option value="America/Swift_Current">Swift Current</option>
-<option value="America/Tegucigalpa">Tegucigalpa</option>
-<option value="America/Thule">Thule</option>
-<option value="America/Thunder_Bay">Thunder Bay</option>
-<option value="America/Tijuana">Tijuana</option>
-<option value="America/Toronto">Toronto</option>
-<option value="America/Tortola">Tortola</option>
-<option value="America/Vancouver">Vancouver</option>
-<option value="America/Whitehorse">Whitehorse</option>
-<option value="America/Winnipeg">Winnipeg</option>
-<option value="America/Yakutat">Yakutat</option>
-<option value="America/Yellowknife">Yellowknife</option>
-</optgroup>
-<optgroup label="Antarctica">
-<option value="Antarctica/Casey">Casey</option>
-<option value="Antarctica/Davis">Davis</option>
-<option value="Antarctica/DumontDUrville">DumontDUrville</option>
-<option value="Antarctica/Macquarie">Macquarie</option>
-<option value="Antarctica/Mawson">Mawson</option>
-<option value="Antarctica/McMurdo">McMurdo</option>
-<option value="Antarctica/Palmer">Palmer</option>
-<option value="Antarctica/Rothera">Rothera</option>
-<option value="Antarctica/Syowa">Syowa</option>
-<option value="Antarctica/Troll">Troll</option>
-<option value="Antarctica/Vostok">Vostok</option>
-</optgroup>
-<optgroup label="Arctic">
-<option value="Arctic/Longyearbyen">Longyearbyen</option>
-</optgroup>
-<optgroup label="Asia">
-<option value="Asia/Aden">Aden</option>
-<option value="Asia/Almaty">Almaty</option>
-<option value="Asia/Amman">Amman</option>
-<option value="Asia/Anadyr">Anadyr</option>
-<option value="Asia/Aqtau">Aqtau</option>
-<option value="Asia/Aqtobe">Aqtobe</option>
-<option value="Asia/Ashgabat">Ashgabat</option>
-<option value="Asia/Atyrau">Atyrau</option>
-<option value="Asia/Baghdad">Baghdad</option>
-<option value="Asia/Bahrain">Bahrain</option>
-<option value="Asia/Baku">Baku</option>
-<option value="Asia/Bangkok">Bangkok</option>
-<option value="Asia/Barnaul">Barnaul</option>
-<option value="Asia/Beirut">Beirut</option>
-<option value="Asia/Bishkek">Bishkek</option>
-<option value="Asia/Brunei">Brunei</option>
-<option value="Asia/Chita">Chita</option>
-<option value="Asia/Choibalsan">Choibalsan</option>
-<option value="Asia/Colombo">Colombo</option>
-<option value="Asia/Damascus">Damascus</option>
-<option value="Asia/Dhaka">Dhaka</option>
-<option value="Asia/Dili">Dili</option>
-<option value="Asia/Dubai">Dubai</option>
-<option value="Asia/Dushanbe">Dushanbe</option>
-<option value="Asia/Famagusta">Famagusta</option>
-<option value="Asia/Gaza">Gaza</option>
-<option value="Asia/Hebron">Hebron</option>
-<option value="Asia/Ho_Chi_Minh">Ho Chi Minh</option>
-<option value="Asia/Hong_Kong">Hong Kong</option>
-<option value="Asia/Hovd">Hovd</option>
-<option value="Asia/Irkutsk">Irkutsk</option>
-<option value="Asia/Jakarta">Jakarta</option>
-<option value="Asia/Jayapura">Jayapura</option>
-<option value="Asia/Jerusalem">Jerusalem</option>
-<option value="Asia/Kabul">Kabul</option>
-<option value="Asia/Kamchatka">Kamchatka</option>
-<option value="Asia/Karachi">Karachi</option>
-<option value="Asia/Kathmandu">Kathmandu</option>
-<option value="Asia/Khandyga">Khandyga</option>
-<option value="Asia/Kolkata">Kolkata</option>
-<option value="Asia/Krasnoyarsk">Krasnoyarsk</option>
-<option value="Asia/Kuala_Lumpur">Kuala Lumpur</option>
-<option value="Asia/Kuching">Kuching</option>
-<option value="Asia/Kuwait">Kuwait</option>
-<option value="Asia/Macau">Macau</option>
-<option value="Asia/Magadan">Magadan</option>
-<option value="Asia/Makassar">Makassar</option>
-<option value="Asia/Manila">Manila</option>
-<option value="Asia/Muscat">Muscat</option>
-<option value="Asia/Nicosia">Nicosia</option>
-<option value="Asia/Novokuznetsk">Novokuznetsk</option>
-<option value="Asia/Novosibirsk">Novosibirsk</option>
-<option value="Asia/Omsk">Omsk</option>
-<option value="Asia/Oral">Oral</option>
-<option value="Asia/Phnom_Penh">Phnom Penh</option>
-<option value="Asia/Pontianak">Pontianak</option>
-<option value="Asia/Pyongyang">Pyongyang</option>
-<option value="Asia/Qatar">Qatar</option>
-<option value="Asia/Qostanay">Qostanay</option>
-<option value="Asia/Qyzylorda">Qyzylorda</option>
-<option value="Asia/Riyadh">Riyadh</option>
-<option value="Asia/Sakhalin">Sakhalin</option>
-<option value="Asia/Samarkand">Samarkand</option>
-<option value="Asia/Seoul">Seoul</option>
-<option value="Asia/Shanghai">Shanghai</option>
-<option value="Asia/Singapore">Singapore</option>
-<option value="Asia/Srednekolymsk">Srednekolymsk</option>
-<option value="Asia/Taipei">Taipei</option>
-<option value="Asia/Tashkent">Tashkent</option>
-<option value="Asia/Tbilisi">Tbilisi</option>
-<option value="Asia/Tehran">Tehran</option>
-<option value="Asia/Thimphu">Thimphu</option>
-<option value="Asia/Tokyo">Tokyo</option>
-<option value="Asia/Tomsk">Tomsk</option>
-<option value="Asia/Ulaanbaatar">Ulaanbaatar</option>
-<option value="Asia/Urumqi">Urumqi</option>
-<option value="Asia/Ust-Nera">Ust-Nera</option>
-<option value="Asia/Vientiane">Vientiane</option>
-<option value="Asia/Vladivostok">Vladivostok</option>
-<option value="Asia/Yakutsk">Yakutsk</option>
-<option value="Asia/Yangon">Yangon</option>
-<option value="Asia/Yekaterinburg">Yekaterinburg</option>
-<option value="Asia/Yerevan">Yerevan</option>
-</optgroup>
-<optgroup label="Atlantic">
-<option value="Atlantic/Azores">Azores</option>
-<option value="Atlantic/Bermuda">Bermuda</option>
-<option value="Atlantic/Canary">Canary</option>
-<option value="Atlantic/Cape_Verde">Cape Verde</option>
-<option value="Atlantic/Faroe">Faroe</option>
-<option value="Atlantic/Madeira">Madeira</option>
-<option value="Atlantic/Reykjavik">Reykjavik</option>
-<option value="Atlantic/South_Georgia">South Georgia</option>
-<option value="Atlantic/Stanley">Stanley</option>
-<option value="Atlantic/St_Helena">St Helena</option>
-</optgroup>
-<optgroup label="Australia">
-<option value="Australia/Adelaide">Adelaide</option>
-<option value="Australia/Brisbane">Brisbane</option>
-<option value="Australia/Broken_Hill">Broken Hill</option>
-<option value="Australia/Currie">Currie</option>
-<option value="Australia/Darwin">Darwin</option>
-<option value="Australia/Eucla">Eucla</option>
-<option value="Australia/Hobart">Hobart</option>
-<option value="Australia/Lindeman">Lindeman</option>
-<option value="Australia/Lord_Howe">Lord Howe</option>
-<option value="Australia/Melbourne">Melbourne</option>
-<option value="Australia/Perth">Perth</option>
-<option value="Australia/Sydney">Sydney</option>
-</optgroup>
-<optgroup label="Europe">
-<option value="Europe/Amsterdam">Amsterdam</option>
-<option value="Europe/Andorra">Andorra</option>
-<option value="Europe/Astrakhan">Astrakhan</option>
-<option value="Europe/Athens">Athens</option>
-<option value="Europe/Belgrade">Belgrade</option>
-<option value="Europe/Berlin">Berlin</option>
-<option value="Europe/Bratislava">Bratislava</option>
-<option value="Europe/Brussels">Brussels</option>
-<option value="Europe/Bucharest">Bucharest</option>
-<option value="Europe/Budapest">Budapest</option>
-<option value="Europe/Busingen">Busingen</option>
-<option value="Europe/Chisinau">Chisinau</option>
-<option value="Europe/Copenhagen">Copenhagen</option>
-<option value="Europe/Dublin">Dublin</option>
-<option value="Europe/Gibraltar">Gibraltar</option>
-<option value="Europe/Guernsey">Guernsey</option>
-<option value="Europe/Helsinki">Helsinki</option>
-<option value="Europe/Isle_of_Man">Isle of Man</option>
-<option value="Europe/Istanbul">Istanbul</option>
-<option value="Europe/Jersey">Jersey</option>
-<option value="Europe/Kaliningrad">Kaliningrad</option>
-<option value="Europe/Kiev">Kiev</option>
-<option value="Europe/Kirov">Kirov</option>
-<option value="Europe/Lisbon">Lisbon</option>
-<option value="Europe/Ljubljana">Ljubljana</option>
-<option value="Europe/London">London</option>
-<option value="Europe/Luxembourg">Luxembourg</option>
-<option value="Europe/Madrid">Madrid</option>
-<option value="Europe/Malta">Malta</option>
-<option value="Europe/Mariehamn">Mariehamn</option>
-<option value="Europe/Minsk">Minsk</option>
-<option value="Europe/Monaco">Monaco</option>
-<option value="Europe/Moscow">Moscow</option>
-<option value="Europe/Oslo">Oslo</option>
-<option value="Europe/Paris">Paris</option>
-<option value="Europe/Podgorica">Podgorica</option>
-<option value="Europe/Prague">Prague</option>
-<option value="Europe/Riga">Riga</option>
-<option value="Europe/Rome">Rome</option>
-<option value="Europe/Samara">Samara</option>
-<option value="Europe/San_Marino">San Marino</option>
-<option value="Europe/Sarajevo">Sarajevo</option>
-<option value="Europe/Saratov">Saratov</option>
-<option value="Europe/Simferopol">Simferopol</option>
-<option value="Europe/Skopje">Skopje</option>
-<option value="Europe/Sofia">Sofia</option>
-<option value="Europe/Stockholm">Stockholm</option>
-<option value="Europe/Tallinn">Tallinn</option>
-<option value="Europe/Tirane">Tirane</option>
-<option value="Europe/Ulyanovsk">Ulyanovsk</option>
-<option value="Europe/Uzhgorod">Uzhgorod</option>
-<option value="Europe/Vaduz">Vaduz</option>
-<option value="Europe/Vatican">Vatican</option>
-<option value="Europe/Vienna">Vienna</option>
-<option value="Europe/Vilnius">Vilnius</option>
-<option value="Europe/Volgograd">Volgograd</option>
-<option value="Europe/Warsaw">Warsaw</option>
-<option value="Europe/Zagreb">Zagreb</option>
-<option value="Europe/Zaporozhye">Zaporozhye</option>
-<option value="Europe/Zurich">Zurich</option>
-</optgroup>
-<optgroup label="Indian">
-<option value="Indian/Antananarivo">Antananarivo</option>
-<option value="Indian/Chagos">Chagos</option>
-<option value="Indian/Christmas">Christmas</option>
-<option value="Indian/Cocos">Cocos</option>
-<option value="Indian/Comoro">Comoro</option>
-<option value="Indian/Kerguelen">Kerguelen</option>
-<option value="Indian/Mahe">Mahe</option>
-<option value="Indian/Maldives">Maldives</option>
-<option value="Indian/Mauritius">Mauritius</option>
-<option value="Indian/Mayotte">Mayotte</option>
-<option value="Indian/Reunion">Reunion</option>
-</optgroup>
-<optgroup label="Pacific">
-<option value="Pacific/Apia">Apia</option>
-<option value="Pacific/Auckland">Auckland</option>
-<option value="Pacific/Bougainville">Bougainville</option>
-<option value="Pacific/Chatham">Chatham</option>
-<option value="Pacific/Chuuk">Chuuk</option>
-<option value="Pacific/Easter">Easter</option>
-<option value="Pacific/Efate">Efate</option>
-<option value="Pacific/Enderbury">Enderbury</option>
-<option value="Pacific/Fakaofo">Fakaofo</option>
-<option value="Pacific/Fiji">Fiji</option>
-<option value="Pacific/Funafuti">Funafuti</option>
-<option value="Pacific/Galapagos">Galapagos</option>
-<option value="Pacific/Gambier">Gambier</option>
-<option value="Pacific/Guadalcanal">Guadalcanal</option>
-<option value="Pacific/Guam">Guam</option>
-<option value="Pacific/Honolulu">Honolulu</option>
-<option value="Pacific/Kiritimati">Kiritimati</option>
-<option value="Pacific/Kosrae">Kosrae</option>
-<option value="Pacific/Kwajalein">Kwajalein</option>
-<option value="Pacific/Majuro">Majuro</option>
-<option value="Pacific/Marquesas">Marquesas</option>
-<option value="Pacific/Midway">Midway</option>
-<option value="Pacific/Nauru">Nauru</option>
-<option value="Pacific/Niue">Niue</option>
-<option value="Pacific/Norfolk">Norfolk</option>
-<option value="Pacific/Noumea">Noumea</option>
-<option value="Pacific/Pago_Pago">Pago Pago</option>
-<option value="Pacific/Palau">Palau</option>
-<option value="Pacific/Pitcairn">Pitcairn</option>
-<option value="Pacific/Pohnpei">Pohnpei</option>
-<option value="Pacific/Port_Moresby">Port Moresby</option>
-<option value="Pacific/Rarotonga">Rarotonga</option>
-<option value="Pacific/Saipan">Saipan</option>
-<option value="Pacific/Tahiti">Tahiti</option>
-<option value="Pacific/Tarawa">Tarawa</option>
-<option value="Pacific/Tongatapu">Tongatapu</option>
-<option value="Pacific/Wake">Wake</option>
-<option value="Pacific/Wallis">Wallis</option>
-</optgroup>
-<optgroup label="UTC">
-<option value="UTC">UTC</option>
-</optgroup>
-<optgroup label="Manual Offsets">
-<option value="UTC-12">UTC-12</option>
-<option value="UTC-11.5">UTC-11:30</option>
-<option value="UTC-11">UTC-11</option>
-<option value="UTC-10.5">UTC-10:30</option>
-<option value="UTC-10">UTC-10</option>
-<option value="UTC-9.5">UTC-9:30</option>
-<option value="UTC-9">UTC-9</option>
-<option value="UTC-8.5">UTC-8:30</option>
-<option value="UTC-8">UTC-8</option>
-<option value="UTC-7.5">UTC-7:30</option>
-<option value="UTC-7">UTC-7</option>
-<option value="UTC-6.5">UTC-6:30</option>
-<option value="UTC-6">UTC-6</option>
-<option value="UTC-5.5">UTC-5:30</option>
-<option value="UTC-5">UTC-5</option>
-<option value="UTC-4.5">UTC-4:30</option>
-<option value="UTC-4">UTC-4</option>
-<option value="UTC-3.5">UTC-3:30</option>
-<option value="UTC-3">UTC-3</option>
-<option value="UTC-2.5">UTC-2:30</option>
-<option value="UTC-2">UTC-2</option>
-<option value="UTC-1.5">UTC-1:30</option>
-<option value="UTC-1">UTC-1</option>
-<option value="UTC-0.5">UTC-0:30</option>
-<option value="UTC+0">UTC+0</option>
-<option value="UTC+0.5">UTC+0:30</option>
-<option value="UTC+1">UTC+1</option>
-<option value="UTC+1.5">UTC+1:30</option>
-<option value="UTC+2">UTC+2</option>
-<option value="UTC+2.5">UTC+2:30</option>
-<option value="UTC+3">UTC+3</option>
-<option value="UTC+3.5">UTC+3:30</option>
-<option value="UTC+4">UTC+4</option>
-<option value="UTC+4.5">UTC+4:30</option>
-<option value="UTC+5">UTC+5</option>
-<option value="UTC+5.5">UTC+5:30</option>
-<option value="UTC+5.75">UTC+5:45</option>
-<option value="UTC+6">UTC+6</option>
-<option value="UTC+6.5">UTC+6:30</option>
-<option value="UTC+7">UTC+7</option>
-<option value="UTC+7.5">UTC+7:30</option>
-<option value="UTC+8">UTC+8</option>
-<option value="UTC+8.5">UTC+8:30</option>
-<option value="UTC+8.75">UTC+8:45</option>
-<option value="UTC+9">UTC+9</option>
-<option value="UTC+9.5">UTC+9:30</option>
-<option value="UTC+10">UTC+10</option>
-<option value="UTC+10.5">UTC+10:30</option>
-<option value="UTC+11">UTC+11</option>
-<option value="UTC+11.5">UTC+11:30</option>
-<option value="UTC+12">UTC+12</option>
-<option value="UTC+12.75">UTC+12:45</option>
-<option value="UTC+13">UTC+13</option>
-<option value="UTC+13.75">UTC+13:45</option>
-<option value="UTC+14">UTC+14</option>
-</optgroup>		</select>
-	</p>
-		<div class="em-recurring-text">
-		<p>
-			This event repeats 
-			<select id="recurrence-frequency" name="recurrence_freq">
-				<option value='daily'  >Daily</option>
-<option value='weekly'  >Weekly</option>
-<option value='monthly'  >Monthly</option>
-<option value='yearly'  >Yearly</option>
-			</select>
-			every			<input id="recurrence-interval" name='recurrence_interval' size='2' value='' />
-			<span class='interval-desc' id="interval-daily-singular">day</span>
-			<span class='interval-desc' id="interval-daily-plural">days</span>
-			<span class='interval-desc' id="interval-weekly-singular">week on</span>
-			<span class='interval-desc' id="interval-weekly-plural">weeks on</span>
-			<span class='interval-desc' id="interval-monthly-singular">month on the</span>
-			<span class='interval-desc' id="interval-monthly-plural">months on the</span>
-			<span class='interval-desc' id="interval-yearly-singular">year</span> 
-			<span class='interval-desc' id="interval-yearly-plural">years</span>
-		</p>
-		<p class="alternate-selector" id="weekly-selector">
-			<label><input type='checkbox' name='recurrence_bydays[]' value='1'  /> Mon</label>&nbsp; <label><input type='checkbox' name='recurrence_bydays[]' value='2'  /> Tue</label>&nbsp; <label><input type='checkbox' name='recurrence_bydays[]' value='3'  /> Wed</label>&nbsp; <label><input type='checkbox' name='recurrence_bydays[]' value='4'  /> Thu</label>&nbsp; <label><input type='checkbox' name='recurrence_bydays[]' value='5'  /> Fri</label>&nbsp; <label><input type='checkbox' name='recurrence_bydays[]' value='6'  /> Sat</label>&nbsp; <label><input type='checkbox' name='recurrence_bydays[]' value='0'  /> Sun</label>&nbsp; 		</p>
-		<p class="alternate-selector" id="monthly-selector" style="display:inline;">
-			<select id="monthly-modifier" name="recurrence_byweekno">
-				<option value='1'  >first</option>
-<option value='2'  >second</option>
-<option value='3'  >third</option>
-<option value='4'  >fourth</option>
-<option value='5'  >fifth</option>
-<option value='-1'  >last</option>
-			</select>
-			<select id="recurrence-weekday" name="recurrence_byday">
-				<option value='1'  >Mon</option>
-<option value='2'  >Tue</option>
-<option value='3'  >Wed</option>
-<option value='4'  >Thu</option>
-<option value='5'  >Fri</option>
-<option value='6'  >Sat</option>
-<option value='0' selected='selected' >Sun</option>
-			</select>
-			of each month		</p>
-		<p class="em-duration-range">
-			Each event spans <input id="end-days" type="text" size="8" maxlength="8" name="recurrence_days" value="0" /> day(s)		</p>
-		<p class="em-range-description"><em>For a recurring event, a one day event will be created on each recurring date within this date range.</em></p>
-	</div>
-	<script type="text/javascript">
-	//<![CDATA[
-	jQuery(document).ready( function($) {
-		$('#em-recurrence-checkbox').change(function(){
-			if( $('#em-recurrence-checkbox').is(':checked') ){
-				$('.em-recurring-text').show();
-				$('.em-event-text').hide();
-			}else{
-				$('.em-recurring-text').hide();
-				$('.em-event-text').show();						
-			}
-		});
-		$('#em-recurrence-checkbox').trigger('change');
-	});
-	//]]&gt;
-	</script>
-</div>		</div>
-
-				<h3 class="event-form-where">Where</h3>
-		<div class="inside event-form-where">
-		<div class="em-location-data-nolocation">
-	<p>
-		<input type="checkbox" name="no_location" id="no-location" value="1"  />
-		This event does not have a physical location.	</p>
-	<script type="text/javascript">
-		jQuery(document).ready(function($){
-			$('#no-location').change(function(){
-				if( $('#no-location').is(':checked') ){
-					$('#em-location-data').hide();
-				}else{
-					$('#em-location-data').show();
-				}
-			}).trigger('change');
-		});
-	</script>
-</div>
-<div id="em-location-data" class="em-location-data">
-	<div id="location_coordinates" style='display: none;'>
-		<input id='location-latitude' name='location_latitude' type='text' value='0' size='15' />
-		<input id='location-longitude' name='location_longitude' type='text' value='0' size='15' />
-	</div>
-		<table class="em-location-data">
-				<tr class="em-location-data-name">
-			<th>Location Name:</th>
-			<td>
-				<input id='location-id' name='location_id' type='hidden' value='' size='15' />
-				<input id="location-name" type="text" name="location_name" value="" /><i>*</i>													
-				<br />
-				<em id="em-location-search-tip">Create a location or start typing to search a previously created location.</em>
-				<em id="em-location-reset" style="display:none;">You cannot edit saved locations here. <a href="#">Reset this form to create a location or search again.</a></em>
-			</td>
- 		</tr>
-		<tr class="em-location-data-address">
-			<th>Address:&nbsp;</th>
-			<td>
-				<input id="location-address" type="text" name="location_address" value="" /><i>*</i>			</td>
-		</tr>
-		<tr class="em-location-data-town">
-			<th>City/Town:&nbsp;</th>
-			<td>
-				<input id="location-town" type="text" name="location_town" value="" /><i>*</i>			</td>
-		</tr>
-		<tr class="em-location-data-state">
-			<th>State/County:&nbsp;</th>
-			<td>
-				<input id="location-state" type="text" name="location_state" value="" />
-			</td>
-		</tr>
-		<tr class="em-location-data-postcode">
-			<th>Postcode:&nbsp;</th>
-			<td>
-				<input id="location-postcode" type="text" name="location_postcode" value="" />
-			</td>
-		</tr>
-		<tr class="em-location-data-region">
-			<th>Region:&nbsp;</th>
-			<td>
-				<input id="location-region" type="text" name="location_region" value="" />
-			</td>
-		</tr>
-		<tr class="em-location-data-country">
-			<th>Country:&nbsp;</th>
-			<td>
-				<select id="location-country" name="location_country">
-					<option value="0" >none selected</option>
-										<option value="AF" >Afghanistan</option>
-										<option value="AL" >Albania</option>
-										<option value="DZ" >Algeria</option>
-										<option value="AS" >American Samoa</option>
-										<option value="AD" >Andorra</option>
-										<option value="AO" >Angola</option>
-										<option value="AQ" >Antarctica</option>
-										<option value="AG" >Antigua and Barbuda</option>
-										<option value="AR" >Argentina</option>
-										<option value="AM" >Armenia</option>
-										<option value="AW" >Aruba</option>
-										<option value="AU" >Australia</option>
-										<option value="AT" >Austria</option>
-										<option value="AZ" >Azerbaijan</option>
-										<option value="BS" >Bahamas</option>
-										<option value="BH" >Bahrain</option>
-										<option value="BD" >Bangladesh</option>
-										<option value="BB" >Barbados</option>
-										<option value="BY" >Belarus</option>
-										<option value="BE" >Belgium</option>
-										<option value="BZ" >Belize</option>
-										<option value="BJ" >Benin</option>
-										<option value="BM" >Bermuda</option>
-										<option value="BT" >Bhutan</option>
-										<option value="BO" >Bolivia</option>
-										<option value="BA" >Bosnia and Herzegovina</option>
-										<option value="BW" >Botswana</option>
-										<option value="BR" >Brazil</option>
-										<option value="VG" >British Virgin Islands</option>
-										<option value="BN" >Brunei</option>
-										<option value="BG" >Bulgaria</option>
-										<option value="BF" >Burkina Faso</option>
-										<option value="BI" >Burundi</option>
-										<option value="CI" >C&ocirc;te D&#039;Ivoire</option>
-										<option value="KH" >Cambodia</option>
-										<option value="CM" >Cameroon</option>
-										<option value="CA" >Canada</option>
-										<option value="CV" >Cape Verde</option>
-										<option value="KY" >Cayman Islands</option>
-										<option value="CF" >Central African Republic</option>
-										<option value="TD" >Chad</option>
-										<option value="CL" >Chile</option>
-										<option value="CN" >China</option>
-										<option value="CO" >Colombia</option>
-										<option value="KM" >Comoros</option>
-										<option value="CR" >Costa Rica</option>
-										<option value="HR" >Croatia</option>
-										<option value="CU" >Cuba</option>
-										<option value="CY" >Cyprus</option>
-										<option value="CZ" >Czech Republic</option>
-										<option value="KP" >Democratic People&#039;s Republic of Korea</option>
-										<option value="CD" >Democratic Republic of the Congo</option>
-										<option value="DK" >Denmark</option>
-										<option value="DJ" >Djibouti</option>
-										<option value="DM" >Dominica</option>
-										<option value="DO" >Dominican Republic</option>
-										<option value="EC" >Ecuador</option>
-										<option value="EG" >Egypt</option>
-										<option value="SV" >El Salvador</option>
-										<option value="XE" >England</option>
-										<option value="GQ" >Equatorial Guinea</option>
-										<option value="ER" >Eritrea</option>
-										<option value="EE" >Estonia</option>
-										<option value="ET" >Ethiopia</option>
-										<option value="FO" >Faroe Islands</option>
-										<option value="FJ" >Fiji</option>
-										<option value="FI" >Finland</option>
-										<option value="FR" >France</option>
-										<option value="PF" >French Polynesia</option>
-										<option value="GA" >Gabon</option>
-										<option value="GM" >Gambia</option>
-										<option value="GE" >Georgia</option>
-										<option value="DE" >Germany</option>
-										<option value="GH" >Ghana</option>
-										<option value="GR" >Greece</option>
-										<option value="GL" >Greenland</option>
-										<option value="GD" >Grenada</option>
-										<option value="GP" >Guadeloupe</option>
-										<option value="GU" >Guam</option>
-										<option value="GT" >Guatemala</option>
-										<option value="GN" >Guinea</option>
-										<option value="GW" >Guinea Bissau</option>
-										<option value="GY" >Guyana</option>
-										<option value="HT" >Haiti</option>
-										<option value="HN" >Honduras</option>
-										<option value="HK" >Hong Kong</option>
-										<option value="HU" >Hungary</option>
-										<option value="IS" >Iceland</option>
-										<option value="IN" >India</option>
-										<option value="ID" >Indonesia</option>
-										<option value="IR" >Iran</option>
-										<option value="IQ" >Iraq</option>
-										<option value="IE" >Ireland</option>
-										<option value="IL" >Israel</option>
-										<option value="IT" >Italy</option>
-										<option value="JM" >Jamaica</option>
-										<option value="JP" >Japan</option>
-										<option value="JE" >Jersey</option>
-										<option value="JO" >Jordan</option>
-										<option value="KZ" >Kazakhstan</option>
-										<option value="KE" >Kenya</option>
-										<option value="KI" >Kiribati</option>
-										<option value="KV" >Kosovo</option>
-										<option value="KW" >Kuwait</option>
-										<option value="KG" >Kyrgyzstan</option>
-										<option value="LA" >Laos</option>
-										<option value="LV" >Latvia</option>
-										<option value="LB" >Lebanon</option>
-										<option value="LS" >Lesotho</option>
-										<option value="LR" >Liberia</option>
-										<option value="LY" >Libya</option>
-										<option value="LI" >Liechtenstein</option>
-										<option value="LT" >Lithuania</option>
-										<option value="LU" >Luxembourg</option>
-										<option value="MO" >Macao</option>
-										<option value="MK" >Macedonia</option>
-										<option value="MG" >Madagascar</option>
-										<option value="MW" >Malawi</option>
-										<option value="MY" >Malaysia</option>
-										<option value="MV" >Maldives</option>
-										<option value="ML" >Mali</option>
-										<option value="MT" >Malta</option>
-										<option value="MH" >Marshall Islands</option>
-										<option value="MR" >Mauritania</option>
-										<option value="MQ" >Mauritania</option>
-										<option value="MU" >Mauritius</option>
-										<option value="MX" >Mexico</option>
-										<option value="FM" >Micronesia</option>
-										<option value="MD" >Moldova</option>
-										<option value="MC" >Monaco</option>
-										<option value="MN" >Mongolia</option>
-										<option value="ME" >Montenegro</option>
-										<option value="MA" >Morocco</option>
-										<option value="MZ" >Mozambique</option>
-										<option value="MM" >Myanmar(Burma)</option>
-										<option value="NA" >Namibia</option>
-										<option value="NR" >Nauru</option>
-										<option value="NP" >Nepal</option>
-										<option value="NL" >Netherlands</option>
-										<option value="AN" >Netherlands Antilles</option>
-										<option value="NC" >New Caledonia</option>
-										<option value="NZ" >New Zealand</option>
-										<option value="NI" >Nicaragua</option>
-										<option value="NE" >Niger</option>
-										<option value="NG" >Nigeria</option>
-										<option value="XI" >Northern Ireland</option>
-										<option value="MP" >Northern Mariana Islands</option>
-										<option value="NO" >Norway</option>
-										<option value="OM" >Oman</option>
-										<option value="PK" >Pakistan</option>
-										<option value="PW" >Palau</option>
-										<option value="PS" >Palestine</option>
-										<option value="PA" >Panama</option>
-										<option value="PG" >Papua New Guinea</option>
-										<option value="PY" >Paraguay</option>
-										<option value="PE" >Peru</option>
-										<option value="PH" >Philippines</option>
-										<option value="PL" >Poland</option>
-										<option value="PT" >Portugal</option>
-										<option value="PR" >Puerto Rico</option>
-										<option value="QA" >Qatar</option>
-										<option value="CG" >Republic of the Congo</option>
-										<option value="RO" >Romania</option>
-										<option value="RU" >Russia</option>
-										<option value="RW" >Rwanda</option>
-										<option value="RN" >Réunion</option>
-										<option value="ST" >S&agrave;o Tom&eacute; And Pr&iacute;ncipe</option>
-										<option value="KN" >Saint Kitts and Nevis</option>
-										<option value="LC" >Saint Lucia</option>
-										<option value="VC" >Saint Vincent and the Grenadines</option>
-										<option value="WS" >Samoa</option>
-										<option value="SM" >San Marino</option>
-										<option value="SA" >Saudi Arabia</option>
-										<option value="XS" >Scotland</option>
-										<option value="SN" >Senegal</option>
-										<option value="RS" >Serbia</option>
-										<option value="SC" >Seychelles</option>
-										<option value="SL" >Sierra Leone</option>
-										<option value="SG" >Singapore</option>
-										<option value="SK" >Slovakia</option>
-										<option value="SI" >Slovenia</option>
-										<option value="SB" >Solomon Islands</option>
-										<option value="SO" >Somalia</option>
-										<option value="ZA" >South Africa</option>
-										<option value="KR" >South Korea</option>
-										<option value="ES" >Spain</option>
-										<option value="LK" >Sri Lanka</option>
-										<option value="SD" >Sudan</option>
-										<option value="SR" >Suriname</option>
-										<option value="SZ" >Swaziland</option>
-										<option value="SE" >Sweden</option>
-										<option value="CH" >Switzerland</option>
-										<option value="SY" >Syria</option>
-										<option value="TW" >Taiwan</option>
-										<option value="TJ" >Tajikistan</option>
-										<option value="TZ" >Tanzania</option>
-										<option value="TH" >Thailand</option>
-										<option value="TL" >Timor-Leste</option>
-										<option value="TG" >Togo</option>
-										<option value="TO" >Tonga</option>
-										<option value="TT" >Trinidad and Tobago</option>
-										<option value="TN" >Tunisia</option>
-										<option value="TR" >Turkey</option>
-										<option value="TM" >Turkmenistan</option>
-										<option value="TV" >Tuvalu</option>
-										<option value="VI" >US Virgin Islands</option>
-										<option value="UG" >Uganda</option>
-										<option value="UA" >Ukraine</option>
-										<option value="AE" >United Arab Emirates</option>
-										<option value="GB" >United Kingdom</option>
-										<option value="US" selected="selected">United States</option>
-										<option value="UY" >Uruguay</option>
-										<option value="UZ" >Uzbekistan</option>
-										<option value="VU" >Vanuatu</option>
-										<option value="VA" >Vatican</option>
-										<option value="VE" >Venezuela</option>
-										<option value="VN" >Vietnam</option>
-										<option value="XW" >Wales</option>
-										<option value="YE" >Yemen</option>
-										<option value="ZM" >Zambia</option>
-										<option value="ZW" >Zimbabwe</option>
-									</select><i>*</i>			</td>
-		</tr>
-	</table>
-		<div class="em-location-map-container">
-	<div id='em-map-404'  class="em-location-map-404">
-		<p><em>Location not found</em></p>
-	</div>
-	<div id='em-map' class="em-location-map-content" style='display: none;'></div>
-</div>	<br style="clear:both;" />
-</div>		</div>
-				
-		<h3 class="event-form-details">Details</h3>
-		<div class="inside event-form-details">
-			<div class="event-editor">
-									<div id="wp-em-editor-content-wrap" class="wp-core-ui wp-editor-wrap html-active"><link rel='stylesheet' id='dashicons-css'  href='https://today.uic.edu/wp-includes/css/dashicons.min.css?ver=5.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='editor-buttons-css'  href='https://today.uic.edu/wp-includes/css/editor.min.css?ver=5.3.2' type='text/css' media='all' />
-<div id="wp-em-editor-content-editor-container" class="wp-editor-container"><div id="qt_em-editor-content_toolbar" class="quicktags-toolbar"></div><textarea class="wp-editor-area" rows="20" cols="40" name="content" id="em-editor-content"></textarea></div>
-</div>
+		<h1>Submit Announcements</h1>
+		<p><div class="pf-content">
+                <div class='gf_browser_unknown gform_wrapper' id='gform_wrapper_23' style='display:none'><form method='post' enctype='multipart/form-data'  id='gform_23'  action='/contact/communicating-on-campus/submit-announcements'>
+                        <div class='gform_body'><ul id='gform_fields_23' class='gform_fields top_label form_sublabel_below description_below'><li id='field_23_1'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label gfield_label_before_complex'  >My name<span class='gfield_required'>*</span></label><div class='ginput_complex ginput_container no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name' id='input_23_1'>
+                            
+                            <span id='input_23_1_3_container' class='name_first' >
+                                                    <input type='text' name='input_1.3' id='input_23_1_3' value='' aria-label='First name'   aria-required="true" aria-invalid="false" />
+                                                    <label for='input_23_1_3' >First</label>
+                                                </span>
+                            
+                            <span id='input_23_1_6_container' class='name_last' >
+                                                    <input type='text' name='input_1.6' id='input_23_1_6' value='' aria-label='Last name'   aria-required="true" aria-invalid="false" />
+                                                    <label for='input_23_1_6' >Last</label>
+                                                </span>
+                            
+                        </div></li><li id='field_23_2'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_2' >My email<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_2' id='input_23_2' type='email' value='' class='medium'   placeholder='netid@uic.edu' aria-required="true" aria-invalid="false" />
+                        </div></li><li id='field_23_7'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label'  >Announcement type<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_radio'><ul class='gfield_radio' id='input_23_7'><li class='gchoice_23_7_0'><input name='input_7' type='radio' value='Standard'  id='choice_23_7_0'    /><label for='choice_23_7_0' id='label_23_7_0'>Standard</label></li><li class='gchoice_23_7_1'><input name='input_7' type='radio' value='R-Studies'  id='choice_23_7_1'    /><label for='choice_23_7_1' id='label_23_7_1'>Research Studies</label></li><li class='gchoice_23_7_2'><input name='input_7' type='radio' value='Official'  id='choice_23_7_2'    /><label for='choice_23_7_2' id='label_23_7_2'>Official</label></li><li class='gchoice_23_7_3'><input name='input_7' type='radio' value='DDDH'  id='choice_23_7_3'    /><label for='choice_23_7_3' id='label_23_7_3'>DDDH</label></li></ul></div></li><li id='field_23_24'  class='gfield field_sublabel_below field_description_below gfield_visibility_hidden' ><label class='gfield_label' for='input_23_24' >Post Category - Announcements</label><div class='ginput_container ginput_container_select'><select name='input_24' id='input_23_24' class='medium gfield_select'    aria-invalid="false"><option value='5675' >Announcements</option></select></div></li><li id='field_23_28'  class='gfield field_sublabel_below field_description_below gfield_visibility_hidden' ><label class='gfield_label' for='input_23_28' >Post Category - Research Studies</label><div class='ginput_container ginput_container_select'><select name='input_28' id='input_23_28' class='medium gfield_select'    aria-invalid="false"><option value='6242' >Research Studies</option></select></div></li><li id='field_23_26'  class='gfield field_sublabel_below field_description_below gfield_visibility_hidden' ><label class='gfield_label' for='input_23_26' >Post Category - DDDH</label><div class='ginput_container ginput_container_select'><select name='input_26' id='input_23_26' class='medium gfield_select'    aria-invalid="false"><option value='5704' >del</option><option value='1' >Uncategorized</option></select></div></li><li id='field_23_27'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_27' >Post Category - Official<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_select'><select name='input_27' id='input_23_27' class='medium gfield_select'   aria-required="true" aria-invalid="false"><option value='' selected='selected'>select your unit</option><option value='5679' >Chancellor officials</option><option value='5680' >Provost officials</option><option value='5681' >VC Admin Services officials</option><option value='5682' >VC Advancement officials</option><option value='5683' >VC Health Affairs officials</option><option value='6548' >VC Innovation officials</option><option value='5684' >VC PGA</option><option value='5685' >VC Research Officials</option><option value='5686' >VC Student Affairs officials</option></select></div></li><li id='field_23_14'  class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ><div style="border-color:#1c46a5; padding: 5px 10px 10px 10px; width: 66%; border: 5px solid #00C;">
 
- 
-							</div>
-			<div class="event-extra-details">
-								<div class="event-categories">
-	<!-- START Categories -->
-	<label for="event_categories[]">Category:</label>
-	<select name="event_categories[]" multiple size="10">
-		<option class="level-0" value="1675">Art exhibit</option>
-	<option class="level-0" value="1677">Conference</option>
-	<option class="level-0" value="6613">Featured</option>
-	<option class="level-0" value="6585">Health &amp; Medicine</option>
-	<option class="level-0" value="1667">Lecture</option>
-	<option class="level-0" value="1666">Museum exhibit</option>
-	<option class="level-0" value="2028">Performance</option>
-	<option class="level-0" value="1678">Special event</option>
-	<option class="level-0" value="1676">Sports</option>
-	<option class="level-0" value="6497">Sustainability</option>
-	<option class="level-0" value="1674">Workshop</option>
-</select>
-	<!-- END Categories -->
-</div>
-			</div>
-		</div>
-		
-				<h3>Event Image</h3>
-		<div class="inside event-form-image">
-			<p id="event-image-img">
- 
-	No image uploaded for this event yet</p>
-<label for='event_image'>Upload/change picture</label> <input id='event-image' name='event_image' id='event_image' type='file' size='40' />
-<br />
-		</div>
-				
-				
-		    <p class="input-group input-checkbox input-field-data_privacy_consent">
-		<label>
-			<input type="checkbox" name="data_privacy_consent" value="1" >
-			I consent to my submitted data being collected and stored as outlined by the site .		</label>
-        <br style="clear:both;">
-	</p>
-		</div>
-	<p class="submit">
-	    	    <input type='submit' class='button-primary' value='Submit Event' />
-	    	</p>
-	<input type="hidden" name="event_id" value="" />
-	<input type="hidden" name="_wpnonce" value="e417553308" />
-	<input type="hidden" name="action" value="event_save" />
-	</form>
+
+<p><strong>Announcement (standard)</strong></p>
+
+<p>Announcements are paid promotional messages that are posted to the UIC Today site. They are restricted to events on campus or sponsored by campus units. Announcements can be submitted by anyone with a UIC email for a fee of <strong>$125</strong>.</p>
+</div>
+</li><li id='field_23_29'  class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ><div style="border-color:#1c46a5; padding: 5px 10px 10px 10px; width: 66%; border: 5px solid #00C;">
+
+
+<p><strong>Research Studies Announcements</strong></p>
+
+<p>Research Studies Announcements are paid promotional messages that are posted to the UIC Today site. They are restricted to events on campus or sponsored by campus units. Announcements can be submitted by anyone with a UIC email for a fee of <strong>$125</strong>.</p>
+</div></li><li id='field_23_15'  class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ><div style="border-color:#1c46a5; padding: 5px 10px 10px 10px; width: 66%; border: 5px solid #00C;">
+
+<p><strong>Official massmails</strong></p>
+
+<p>Official university communications are reserved for messages from university administrative offices such as the University President, Chancellor, Provost or other Vice Chancellors. Selecting "Official" does not guarantee official processing. If your message is found inappropriate for Official use, you will be asked to provide a CFOAP number for billing as a standard web Announcement. Please send questions about Official messages to <a href="publicaffairs@uic.edu">publicaffairs@uic.edu</a>.</p>
+
+<p>All Official messages are processed at no charge to the requesting department.</p>
+
+
+</div></li><li id='field_23_16'  class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ><div style="border-color:#1c46a5; padding: 5px 10px 10px 10px; width: 66%; border: 5px solid #00C;">
+
+
+<p><strong>DDDH</strong></p>
+
+<p>DDDH email communications are sent to UIC Deans, Directors, and Department Heads for a flat fee of $35. Administrative-related messages only, please. </p>
+
+<p>We are unable to attach files to DDDH email communications. We can, however, upload a file to the server and place a download link in the message body.</p>
+
+
+</div>
+</li><li id='field_23_17'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_17' >Post the announcement on this date<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_date'>
+                            <input name='input_17' id='input_23_17' type='text' value='' class='datepicker medium mdy datepicker_with_icon'    aria-describedby='input_23_17_date_format' />
+                            <span id='input_23_17_date_format' class='screen-reader-text'>Date Format: MM slash DD slash YYYY</span>
+                        </div>
+                        <input type='hidden' id='gforms_calendar_icon_input_23_17' class='gform_hidden' value='https://today.uic.edu/wp-content/plugins/gravityforms/images/calendar.png'/></li><li id='field_23_18'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label gfield_label_before_complex'  >at this time<span class='gfield_required'>*</span></label><div class='clear-multi'>
+                        <div class='gfield_time_hour ginput_container ginput_container_time' id='input_23_18'>
+                            <input type='number' maxlength='2' name='input_18[]' id='input_23_18_1' value=''  min='0' max='12' step='1'  /> <i>:</i>
+                            <label for='input_23_18_1' >HH</label>
+                        </div>
+                        <div class='gfield_time_minute ginput_container ginput_container_time'>
+                            <input type='number' maxlength='2' name='input_18[]' id='input_23_18_2' value=''  min='0' max='59' step='1'  />
+                            <label for='input_23_18_2' >MM</label>
+                        </div>
+                        <div class='gfield_time_ampm ginput_container ginput_container_time' >
+                                
+                                <select name='input_18[]' id='input_23_18_3'   aria-label='AM/PM'>
+                                    <option value='am' >AM</option>
+                                    <option value='pm' >PM</option>
+                                </select>
+                           </div>
+                    </div></li><li id='field_23_8'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label'  >Payment method<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_radio'><ul class='gfield_radio' id='input_23_8'><li class='gchoice_23_8_0'><input name='input_8' type='radio' value='CFOAP (campus units)'  id='choice_23_8_0'    /><label for='choice_23_8_0' id='label_23_8_0'>CFOAP (campus units)</label></li><li class='gchoice_23_8_1'><input name='input_8' type='radio' value='Check (UIC student groups only)'  id='choice_23_8_1'    /><label for='choice_23_8_1' id='label_23_8_1'>Check (UIC student groups only)</label></li></ul></div></li><li id='field_23_10'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_10' >CFOAP<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_text'><input name='input_10' id='input_23_10' type='text' value='' class='medium'     aria-required="true" aria-invalid="false" /></div></li><li id='field_23_4'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_4' >Upload image (automatically resized to 1000px wide, set at top of post)</label><div class='ginput_complex ginput_container ginput_container_post_image'><span class='ginput_full'><input name='input_4' id='input_23_4' type='file' class='medium'  /><label for='input_23_4' class='ginput_post_image_file' >File</label></span><span class='ginput_full ginput_post_image_caption' ><input type='text' name='input_4.4' id='input_23_4_4' value=''  /><label for='input_23_4_4'>Caption</label></span></div><div class='gfield_description' id='gfield_description_23_4'>This "caption" area is mandatory for web accessibility. Please describe the image and any text it may contain. This information will be presented as a hidden ALT attribute behind the image. </div></li><li id='field_23_25'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label gfield_label_before_complex'  >UIC reply-to email address<span class='gfield_required'>*</span></label><div class='ginput_complex ginput_container ginput_container_email' id='input_23_25_container'>
+                                <span id='input_23_25_1_container' class='ginput_left'>
+                                    <input class='' type='email' name='input_25' id='input_23_25' value=''    aria-required="true" aria-invalid="false"/>
+                                    <label for='input_23_25' >Enter Email</label>
+                                </span>
+                                <span id='input_23_25_2_container' class='ginput_right'>
+                                    <input class='' type='email' name='input_25_2' id='input_23_25_2' value=''    aria-required="true" aria-invalid="false"/>
+                                    <label for='input_23_25_2' >Confirm Email</label>
+                                </span>
+                                <div class='gf_clear gf_clear_complex'></div>
+                            </div></li><li id='field_23_3'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_3' >Announcement Title<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_post_title'>
+					<input name='input_3' id='input_23_3' type='text' value='' class='medium'   aria-required="true" aria-invalid="false"  />
+				</div></li><li id='field_23_5'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_5' >Announcement details<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_textarea'><textarea name='input_5' id='input_23_5' class='textarea medium'  aria-describedby="gfield_description_23_5"   aria-required="true" aria-invalid="false"   rows='10' cols='50'></textarea></div><div class='gfield_description' id='gfield_description_23_5'>Enter your content here. Please don't paste html into this space. <br /><br /></div></li><li id='field_23_23'  class='gfield gfield_html gfield_html_formatted field_sublabel_below field_description_below gfield_visibility_visible' ><div>
+<p><strong>For more information, please contact:</strong>
+</p>
+<div></li><li id='field_23_20'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label gfield_label_before_complex'  >Contact Name (will be published on web)<span class='gfield_required'>*</span></label><div class='ginput_complex ginput_container no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name' id='input_23_20'>
+                            
+                            <span id='input_23_20_3_container' class='name_first' >
+                                                    <input type='text' name='input_20.3' id='input_23_20_3' value='' aria-label='First name'   aria-required="true" aria-invalid="false" />
+                                                    <label for='input_23_20_3' >First</label>
+                                                </span>
+                            
+                            <span id='input_23_20_6_container' class='name_last' >
+                                                    <input type='text' name='input_20.6' id='input_23_20_6' value='' aria-label='Last name'   aria-required="true" aria-invalid="false" />
+                                                    <label for='input_23_20_6' >Last</label>
+                                                </span>
+                            
+                        </div></li><li id='field_23_21'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_21' >Contact Email (will be published on web)<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_21' id='input_23_21' type='email' value='' class='medium'   placeholder='netid@uic.edu' aria-required="true" aria-invalid="false" />
+                        </div></li><li id='field_23_22'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_22' >Optional additional contact information (will be published on web)</label><div class='ginput_container ginput_container_text'><input name='input_22' id='input_23_22' type='text' value='' class='medium'      aria-invalid="false" /></div></li><li id='field_23_11'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_11' >Upload file to distribute with DDDH email</label><div class='ginput_container ginput_container_fileupload'><input type='hidden' name='MAX_FILE_SIZE' value='2097152' /><input name='input_11' id='input_23_11' type='file' class='medium' aria-describedby='validation_message_23_11 live_validation_message_23_11 extensions_message_23_11' onchange='javascript:gformValidateFileSize( this, 2097152 );'  /><span id='extensions_message_23_11' class='screen-reader-text'>Accepted file types: doc, docx.</span><div class='validation_message' id='live_validation_message_23_11'></div></div><div class='gfield_description' id='gfield_description_23_11'><p><strong>PLEASE NOTE:</strong> This file will <em>not</em> be sent as a file attachment. We will upload the file to the web server and provide a download link in the message. 
+</div></li><li id='field_23_12'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_12' >Special instructions</label><div class='ginput_container ginput_container_textarea'><textarea name='input_12' id='input_23_12' class='textarea medium'    placeholder='Please enter special instructions or additional information here. This will be seen by UIC PGA staff only.'  aria-invalid="false"   rows='10' cols='50'></textarea></div></li><li id='field_23_13'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label'  >The UIC Office of Public and Government Affairs has a submission deadline of 3:00 PM CST. Requests sent after this deadline will not be sorted until the following business day. Your submission may be edited for content.<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_checkbox'><ul class='gfield_checkbox' id='input_23_13'><li class='gchoice_23_13_1'>
+								<input name='input_13.1' type='checkbox'  value='&lt;br /&gt;I have read and understand the above. &lt;br /&gt;'  id='choice_23_13_1'   />
+								<label for='choice_23_13_1' id='label_23_13_1'>I have read and understand the above.</label>
+							</li></ul></div></li><li id='field_23_30'  class='gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_30' >Name</label><div class='ginput_container'><input name='input_30' id='input_23_30' type='text' value='' autocomplete='off'/></div><div class='gfield_description' id='gfield_description__30'>This field is for validation purposes and should be left unchanged.</div></li>
+                            </ul></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_23' class='gform_button button' value='Submit'  onclick='if(window["gf_submitting_23"]){return false;}  if( !jQuery("#gform_23")[0].checkValidity || jQuery("#gform_23")[0].checkValidity()){window["gf_submitting_23"]=true;}  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_23"]){return false;} if( !jQuery("#gform_23")[0].checkValidity || jQuery("#gform_23")[0].checkValidity()){window["gf_submitting_23"]=true;}  jQuery("#gform_23").trigger("submit",[true]); }' /> <a href='javascript:void(0);' id='gform_save_23_footer_link' class='gform_save_link'  onclick='if(window["gf_submitting_23"]){return false;}  if( !jQuery("#gform_23")[0].checkValidity || jQuery("#gform_23")[0].checkValidity()){window["gf_submitting_23"]=true;} jQuery("#gform_save_23").val(1); jQuery("#gform_23").trigger("submit",[true]);' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_23"]){return false;} if( !jQuery("#gform_23")[0].checkValidity || jQuery("#gform_23")[0].checkValidity()){window["gf_submitting_23"]=true;} jQuery("#gform_save_23").val(1); jQuery("#gform_23").trigger("submit",[true]); }'>Save and Continue Later</a>
+            <input type='hidden' class='gform_hidden' name='is_submit_23' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='23' />
+            <input type='hidden' class='gform_hidden' name='gform_save' id='gform_save_23' value='' />
+                             <input type='hidden' class='gform_hidden' name='gform_resume_token' id='gform_resume_token_23' value='' />
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_23' value='WyJbXSIsImVlNjM5M2JjMzk3NDEzY2IyNTY0NjY5MDk2MTQ1YWZiIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_23' id='gform_target_page_number_23' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_23' id='gform_source_page_number_23' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div><script type='text/javascript'> jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 23) {jQuery('#gform_save_23').val('');gf_global["number_formats"][23] = {"1":{"price":false,"value":false},"2":{"price":false,"value":false},"7":{"price":false,"value":false},"24":{"price":false,"value":false},"28":{"price":false,"value":false},"26":{"price":false,"value":false},"27":{"price":false,"value":false},"14":{"price":false,"value":false},"29":{"price":false,"value":false},"15":{"price":false,"value":false},"16":{"price":false,"value":false},"17":{"price":false,"value":false},"18":{"price":false,"value":false},"8":{"price":false,"value":false},"10":{"price":false,"value":false},"4":{"price":false,"value":false},"25":{"price":false,"value":false},"3":{"price":false,"value":false},"5":{"price":false,"value":false},"23":{"price":false,"value":false},"20":{"price":false,"value":false},"21":{"price":false,"value":false},"22":{"price":false,"value":false},"11":{"price":false,"value":false},"12":{"price":false,"value":false},"13":{"price":false,"value":false},"30":{"price":false,"value":false}};if(window['jQuery']){if(!window['gf_form_conditional_logic'])window['gf_form_conditional_logic'] = new Array();window['gf_form_conditional_logic'][23] = { logic: { 24: {"field":{"actionType":"show","logicType":"all","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"}]},"nextButton":null,"section":null},28: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"R-Studies"}]},"nextButton":null,"section":null},26: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null},27: {"field":{"actionType":"show","logicType":"all","rules":[{"fieldId":"7","operator":"is","value":"Official"}]},"nextButton":null,"section":null},14: {"field":{"actionType":"show","logicType":"all","rules":[{"fieldId":"7","operator":"is","value":"Standard"}]},"nextButton":null,"section":null},29: {"field":{"actionType":"show","logicType":"all","rules":[{"fieldId":"7","operator":"is","value":"R-Studies"}]},"nextButton":null,"section":null},15: {"field":{"actionType":"show","logicType":"all","rules":[{"fieldId":"7","operator":"is","value":"Official"}]},"nextButton":null,"section":null},16: {"field":{"actionType":"show","logicType":"all","rules":[{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null},17: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"},{"fieldId":"7","operator":"is","value":"Official"},{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null},18: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"},{"fieldId":"7","operator":"is","value":"Official"},{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null},8: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"},{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null},10: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"8","operator":"is","value":"CFOAP (campus units)"}]},"nextButton":null,"section":null},4: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"}]},"nextButton":null,"section":null},25: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Official"},{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null},3: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"},{"fieldId":"7","operator":"is","value":"Official"},{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null},5: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"},{"fieldId":"7","operator":"is","value":"Official"},{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null},23: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"}]},"nextButton":null,"section":null},20: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"},{"fieldId":"7","operator":"is","value":"Official"}]},"nextButton":null,"section":null},21: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"Official"}]},"nextButton":null,"section":null},22: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"},{"fieldId":"7","operator":"is","value":"Official"}]},"nextButton":null,"section":null},11: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null},12: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"},{"fieldId":"7","operator":"is","value":"Official"},{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null},13: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"},{"fieldId":"7","operator":"is","value":"Official"},{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null} }, dependents: { 24: [24],28: [28],26: [26],27: [27],14: [14],29: [29],15: [15],16: [16],17: [17],18: [18],8: [8],10: [10],4: [4],25: [25],3: [3],5: [5],23: [23],20: [20],21: [21],22: [22],11: [11],12: [12],13: [13] }, animation: 1, defaults: {"1":{"1.2":"","1.3":"","1.4":"","1.6":"","1.8":""},"27":"","18":{"18.1":"","18.2":"","18.3":""},"25":{"25":"","25.2":""},"20":{"20.2":"","20.3":"","20.4":"","20.6":"","20.8":""}}, fields: {"1":[],"2":[],"7":[24,28,26,27,14,29,15,16,17,18,8,4,25,3,5,23,20,21,22,11,12,13],"24":[],"28":[],"26":[],"27":[],"14":[],"29":[],"15":[],"16":[],"17":[],"18":[],"8":[10],"10":[],"4":[],"25":[],"3":[],"5":[],"23":[],"20":[],"21":[],"22":[],"11":[],"12":[],"13":[],"30":[]} }; if(!window['gf_number_format'])window['gf_number_format'] = 'decimal_dot';jQuery(document).ready(function(){gf_apply_rules(23, [24,28,26,27,14,29,15,16,17,18,8,10,4,25,3,5,23,20,21,22,11,12,13], true);jQuery('#gform_wrapper_23').show();jQuery(document).trigger('gform_post_conditional_logic', [23, null, true]);} );} jQuery('#input_23_10').mask('C9   F999999   O999999   A150427   P999999').bind('keypress', function(e){if(e.which == 13){jQuery(this).blur();} } );if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [23, 1]) } ); </script>
 </div></p>
 	</div>	
 
@@ -1390,8 +559,8 @@ Submit
 			<div id="quicklinks_footer_container">
 	  	 	<div class="menu-footer-quicklinks-container"><ul id="menu-footer-quicklinks" class="menu"><li id="menu-item-57564"><a href="/news-release/news-release/">For the Media</a></li>
 <li id="menu-item-57555"><a href="https://today.uic.edu/experts-guide">Experts Guide</a></li>
-<li id="menu-item-57577"><a href="https://today.uic.edu/contact/communicating-on-campus/submit-announcements">Submit Announcements</a></li>
-<li id="menu-item-57578"><a href="https://today.uic.edu/submit-an-event" aria-current="page">Submit an Event</a></li>
+<li id="menu-item-57577"><a href="https://today.uic.edu/contact/communicating-on-campus/submit-announcements" aria-current="page">Submit Announcements</a></li>
+<li id="menu-item-57578"><a href="https://today.uic.edu/submit-an-event">Submit an Event</a></li>
 <li id="menu-item-67562"><a href="https://today.uic.edu/campus-news/campus-newspaper/subscribe-to-uic-today">Subscribe to UIC Today</a></li>
 </ul></div>        	</div>
 	    </div>      
@@ -1484,140 +653,23 @@ Submit
 		<script type="text/javascript">
   document.write(unescape("%3Cscript src='//www.uic.edu/inc/emergency/alert.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
-      <script type="text/javascript">
-
-          var pfHeaderImgUrl = 'https://today.uic.edu/files/2019/10/TodayPrintHeader.jpg';
-          var pfHeaderTagline = 'UIC Today';
-          var pfdisableClickToDel = '0';
-          var pfImagesSize = 'full-size';
-          var pfImageDisplayStyle = 'right';
-          var pfEncodeImages = '0';
-          var pfDisableEmail = '0';
-          var pfDisablePDF = '0';
-          var pfDisablePrint = '0';
-          var pfCustomCSS = '';
-          var pfPlatform = 'Wordpress';
-      </script>
-      <script async src='https://cdn.printfriendly.com/printfriendly.js'></script>
-<link rel='stylesheet' id='buttons-css'  href='https://today.uic.edu/wp-includes/css/buttons.min.css?ver=5.3.2' type='text/css' media='all' />
+      <script type="text/javascript">
+
+          var pfHeaderImgUrl = 'https://today.uic.edu/files/2019/10/TodayPrintHeader.jpg';
+          var pfHeaderTagline = 'UIC Today';
+          var pfdisableClickToDel = '0';
+          var pfImagesSize = 'full-size';
+          var pfImageDisplayStyle = 'right';
+          var pfEncodeImages = '0';
+          var pfDisableEmail = '0';
+          var pfDisablePDF = '0';
+          var pfDisablePrint = '0';
+          var pfCustomCSS = '';
+          var pfPlatform = 'Wordpress';
+      </script>
+      <script async src='https://cdn.printfriendly.com/printfriendly.js'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/gravityforms/js/datepicker.min.js?ver=2.4.15'></script>
 <script type='text/javascript' src='https://today.uic.edu/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var quicktagsL10n = {"closeAllOpenTags":"Close all open tags","closeTags":"close tags","enterURL":"Enter the URL","enterImageURL":"Enter the URL of the image","enterImageDescription":"Enter a description of the image","textdirection":"text direction","toggleTextdirection":"Toggle Editor Text Direction","dfw":"Distraction-free writing mode","strong":"Bold","strongClose":"Close bold tag","em":"Italic","emClose":"Close italic tag","link":"Insert link","blockquote":"Blockquote","blockquoteClose":"Close blockquote tag","del":"Deleted text (strikethrough)","delClose":"Close deleted text tag","ins":"Inserted text","insClose":"Close inserted text tag","image":"Insert image","ul":"Bulleted list","ulClose":"Close bulleted list tag","ol":"Numbered list","olClose":"Close numbered list tag","li":"List item","liClose":"Close list item tag","code":"Code","codeClose":"Close code tag","more":"Insert Read More tag"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/quicktags.min.js?ver=5.3.2'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var wpLinkL10n = {"title":"Insert\/edit link","update":"Update","save":"Add Link","noTitle":"(no title)","noMatchesFound":"No results found.","linkSelected":"Link selected.","linkInserted":"Link inserted."};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/wplink.min.js?ver=5.3.2'></script>
 
-		<script type="text/javascript">
-		tinyMCEPreInit = {
-			baseURL: "https://today.uic.edu/wp-includes/js/tinymce",
-			suffix: ".min",
-						mceInit: {},
-			qtInit: {'em-editor-content':{id:"em-editor-content",buttons:"strong,em,link,block,del,ins,img,ul,ol,li,code,more,close"}},
-			ref: {plugins:"",theme:"modern",language:""},
-			load_ext: function(url,lang){var sl=tinymce.ScriptLoader;sl.markDone(url+'/langs/'+lang+'.js');sl.markDone(url+'/langs/'+lang+'_dlg.js');}
-		};
-		</script>
-				<script type="text/javascript">
-		var ajaxurl = "/wp-admin/admin-ajax.php";
-		( function() {
-			var init, id, $wrap;
-
-			if ( typeof tinymce !== 'undefined' ) {
-				if ( tinymce.Env.ie && tinymce.Env.ie < 11 ) {
-					tinymce.$( '.wp-editor-wrap ' ).removeClass( 'tmce-active' ).addClass( 'html-active' );
-					return;
-				}
-
-				for ( id in tinyMCEPreInit.mceInit ) {
-					init = tinyMCEPreInit.mceInit[id];
-					$wrap = tinymce.$( '#wp-' + id + '-wrap' );
-
-					if ( ( $wrap.hasClass( 'tmce-active' ) || ! tinyMCEPreInit.qtInit.hasOwnProperty( id ) ) && ! init.wp_skip_init ) {
-						tinymce.init( init );
-
-						if ( ! window.wpActiveEditor ) {
-							window.wpActiveEditor = id;
-						}
-					}
-				}
-			}
-
-			if ( typeof quicktags !== 'undefined' ) {
-				for ( id in tinyMCEPreInit.qtInit ) {
-					quicktags( tinyMCEPreInit.qtInit[id] );
-
-					if ( ! window.wpActiveEditor ) {
-						window.wpActiveEditor = id;
-					}
-				}
-			}
-		}());
-		</script>
-				<div id="wp-link-backdrop" style="display: none"></div>
-		<div id="wp-link-wrap" class="wp-core-ui" style="display: none" role="dialog" aria-labelledby="link-modal-title">
-		<form id="wp-link" tabindex="-1">
-		<input type="hidden" id="_ajax_linking_nonce" name="_ajax_linking_nonce" value="a1816dfe04" />		<h1 id="link-modal-title">Insert/edit link</h1>
-		<button type="button" id="wp-link-close"><span class="screen-reader-text">Close</span></button>
-		<div id="link-selector">
-			<div id="link-options">
-				<p class="howto" id="wplink-enter-url">Enter the destination URL</p>
-				<div>
-					<label><span>URL</span>
-					<input id="wp-link-url" type="text" aria-describedby="wplink-enter-url" /></label>
-				</div>
-				<div class="wp-link-text-field">
-					<label><span>Link Text</span>
-					<input id="wp-link-text" type="text" /></label>
-				</div>
-				<div class="link-target">
-					<label><span></span>
-					<input type="checkbox" id="wp-link-target" /> Open link in a new tab</label>
-				</div>
-			</div>
-			<p class="howto" id="wplink-link-existing-content">Or link to existing content</p>
-			<div id="search-panel">
-				<div class="link-search-wrapper">
-					<label>
-						<span class="search-label">Search</span>
-						<input type="search" id="wp-link-search" class="link-search-field" autocomplete="off" aria-describedby="wplink-link-existing-content" />
-						<span class="spinner"></span>
-					</label>
-				</div>
-				<div id="search-results" class="query-results" tabindex="0">
-					<ul></ul>
-					<div class="river-waiting">
-						<span class="spinner"></span>
-					</div>
-				</div>
-				<div id="most-recent-results" class="query-results" tabindex="0">
-					<div class="query-notice" id="query-notice-message">
-						<em class="query-notice-default">No search term specified. Showing recent items.</em>
-						<em class="query-notice-hint screen-reader-text">Search or use up and down arrow keys to select an item.</em>
-					</div>
-					<ul></ul>
-					<div class="river-waiting">
-						<span class="spinner"></span>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="submitbox">
-			<div id="wp-link-cancel">
-				<button type="button" class="button">Cancel</button>
-			</div>
-			<div id="wp-link-update">
-				<input type="submit" value="Add Link" class="button button-primary" id="wp-link-submit" name="wp-link-submit">
-			</div>
-		</div>
-		</form>
-		</div>
-		
 </body>
-</html>
+</html><!-- WP Fastest Cache file was created in 0.095597982406616 seconds, on 30-04-20 15:09:57 -->

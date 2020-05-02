@@ -1,531 +1,2088 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
-<head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="chrome=1" />
-<script type="text/javascript">/* Copyright 2008 Google. */ (function() { (function(){function e(g){this.t={};this.tick=function(h,k,f){this.t[h]=[void 0!=f?f:(new Date).getTime(),k];if(void 0==f)try{window.console.timeStamp("CSI/"+h)}catch(m){}};this.tick("start",null,g)}var a;if(window.performance)var d=(a=window.performance.timing)&&a.responseStart;var l=0<d?new e(d):new e;window.jstiming={Timer:e,load:l};if(a){var b=a.navigationStart;0<b&&d>=b&&(window.jstiming.srt=d-b)}if(a){var c=window.jstiming.load;0<b&&d>=b&&(c.tick("_wtsrt",void 0,b),c.tick("wtsrt_","_wtsrt",
-d),c.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),c&&0<b&&(c.tick("_tbnd",void 0,window.chrome.csi().startE),c.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,c&&0<b&&(c.tick("_tbnd",void 0,window.external.startE),c.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)}catch(g){}})(); })()
-</script>
-<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
-<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/4cd07a/system/app/images/apple-touch-icon.png" type="image/png" />
-<script type="text/javascript">/* Copyright 2008 Google. */ (function() { function d(a){return document.getElementById(a)}window.byId=d;function g(a){return a.replace(/^\s+|\s+$/g,"")}window.trim=g;var h=[],k=0;window.JOT_addListener=function(a,b,c){var f=new String(k++);a={eventName:a,handler:b,compId:c,key:f};h.push(a);return f};window.JOT_removeListenerByKey=function(a){for(var b=0;b<h.length;b++)if(h[b].key==a){h.splice(b,1);break}};window.JOT_removeAllListenersForName=function(a){for(var b=0;b<h.length;b++)h[b].eventName==a&&h.splice(b,1)};
-window.JOT_postEvent=function(a,b,c){var f={eventName:a,eventSrc:b||{},payload:c||{}};if(window.JOT_fullyLoaded)for(b=h.length,c=0;c<b&&c<h.length;c++){var e=h[c];e&&e.eventName==a&&(f.listenerCompId=e.compId||"",(e="function"==typeof e.handler?e.handler:window[e.handler])&&e(f))}else window.JOT_delayedEvents.push({eventName:a,eventSrc:b,payload:c})};window.JOT_delayedEvents=[];window.JOT_fullyLoaded=!1;
-window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1440<=a||0>a)return null;var c=0;60<=a&&(a/=60,c=2);2<=a&&c++;return b?window.JOT_siteRelTimeStrs[c].replace("__duration__",Math.floor(a)):window.JOT_userRelTimeStrs[c].replace("__duration__",Math.floor(a))}; })()
-</script>
-<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/4cd07a/system/app/pagetypes/announcements/announcements.css" />
-<script>
-
   
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
+<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en-US"> <!--<![endif]-->
 
-  var breadcrumbs = [{"path":"/home","deleted":false,"title":"Home","dir":"ltr"}];
-  var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/4cd07a/system/app/images/cleardot.gif';
+    <head>
 
-  
-  var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+<!-- Google Analytics script (RED and this site) -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  
-  
+    
+        ga('create', 'UA-20665772-1', 'auto');
+    
+        ga('create', 'UA-141977335-2', 'auto', 'sustainabilityTracker');
+    
+        ga('send', 'pageview');
+    
+        ga('sustainabilityTracker.send', 'pageview');
+      </script>
+<!-- End Google Analytics script (RED and this site) -->
 
-  
 
-  var webspace = {"gvizGstaticVersion":"current","enableAnalytics":false,"pageSharingId":"jotspot_page","codeembeds":{"outerIframeSrc":"https://www.gstatic.com/jotspot/embeds/code/0f08d42392f2000e7e3f3daf5b427a43/outer_iframe.html","innerIframeSrc":"https://1983346624-jotspot-embeds.googleusercontent.com/code/8d87fa64604b2a11fae2ed06104c58d3/inner_iframe.html"},"enableUniversalAnalytics":false,"sharingPolicy":"OPENED_WITH_INDICATOR","siteTitle":"Health Professions Student Council","jot2atari":{"eligibility":"ineligible"},"onepickUrl":"https://docs.google.com/picker","adsensePublisherId":null,"features":{"moreMobileStyleImprovements":null,"subscriptionDataMigrationInProgress":null,"plusBadge":false},"isPublic":true,"newSitesBaseUrl":"https://sites.google.com","isConsumer":false,"serverFlags":{"jot2AtariLearnMoreUrl":"https://support.google.com/sites/answer/7035197"},"domainAnalyticsAccountId":"","plusPageId":"","signInUrl":"https://accounts.google.com/AccountChooser?continue\u003dhttp://sites.google.com/a/uic.edu/hpsc/home\u0026service\u003djotspot","analyticsAccountId":"","scottyUrl":"/_/upload","homePath":"/","siteNoticeUrlEnabled":null,"plusPageUrl":"","adsensePromoClickedOrSiteIneligible":true,"csiReportUri":"http://csi.gstatic.com/csi","sharingId":"jotspot","termsUrl":"//www.google.com/intl/en/policies/terms/","gvizVersion":1,"editorResources":{"sitelayout":["http://www.gstatic.com/sites/p/4cd07a/system/app/css/sitelayouteditor.css"],"text":["http://www.gstatic.com/sites/p/4cd07a/system/js/codemirror.js","http://www.gstatic.com/sites/p/4cd07a/system/app/css/codemirror_css.css","http://www.gstatic.com/sites/p/4cd07a/system/js/trog_edit__en.js","http://www.gstatic.com/sites/p/4cd07a/system/app/css/trogedit.css","/_/rsrc/1587021635000/system/app/css/editor.css","http://www.gstatic.com/sites/p/4cd07a/system/app/css/codeeditor.css","/_/rsrc/1587021635000/system/app/css/camelot/editor-jfk.css"]},"sharingUrlPrefix":"/_/sharing","isAdsenseEnabled":true,"domain":"uic.edu","baseUri":"","name":"hpsc","siteTemplateId":false,"siteNoticeRevision":null,"siteNoticeUrlAddress":null,"siteNoticeMessage":null,"page":{"isRtlLocale":false,"canDeleteWebspace":null,"isPageDraft":null,"parentPath":null,"parentWuid":null,"siteLocale":"en","timeZone":"America/Los_Angeles","type":"announcements","title":"Home","locale":"en","wuid":"wuid:gx:7750e46bc6998ae","revision":45,"path":"/home","isSiteRtlLocale":false,"pageInheritsPermissions":null,"name":"home","canChangePath":false,"state":"","properties":{},"bidiEnabled":false,"currentTemplate":{"path":"/system/app/pagetemplates/announcements","title":"Announcements"}},"canPublishScriptToAnyone":true,"user":{"keyboardShortcuts":true,"sessionIndex":"","onePickToken":"","guest_":true,"displayNameOrEmail":"guest","userName":"guest","uid":"","renderMobile":false,"domain":"","namespace":"","hasWriteAccess":false,"namespaceUser":false,"primaryEmail":"guest","hasAdminAccess":false},"gadgets":{"baseUri":"/system/app/pages/gadgets"}};
-  webspace.page.breadcrumbs = breadcrumbs;
 
-  
-  var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+<!-- Google Tag Manager script for RED multisite -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
+              (window,document,'script','dataLayer','GTM-W2Q8D2K');
+  </script>
+<!-- End Google Tag Manager script for RED multisite -->
 
-</script>
-<script type="text/javascript">
-                window.jstiming.load.tick('scl');
-              </script>
-<meta name="title" content="Health Professions Student Council" />
-<meta itemprop="name" content="Health Professions Student Council" />
-<meta property="og:title" content="Health Professions Student Council" />
-<style type="text/css">
+
+
+
+
+
+        <title>
+                            Recycling | Sustainability | University of Illinois at Chicago
+                    </title>
+
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="pingback" href="https://sustainability.uic.edu/xmlrpc.php" />
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+    <link rel="stylesheet" href="https://sustainability.uic.edu/wp-content/themes/uic-red/main.css?v=1587475706" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://sustainability.uic.edu/wp-content/themes/uic-red/theinhardt.css?v=1587475706" type="text/css" media="all">
+
+    <link rel='dns-prefetch' href='//www.uic.edu' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/sustainability.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
 </style>
-<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/4cd07a/system/app/themes/microsport/standard-css-microsport-ltr-ltr.css" />
-<link rel="stylesheet" type="text/css" href="/_/rsrc/1587021635000/system/app/css/overlay.css?cb=microsport24a%25200goog-ws-leftnone30middlecenter" />
-<link rel="stylesheet" type="text/css" href="/_/rsrc/1587021635000/system/app/css/camelot/allthemes-view.css" />
-<!--[if IE]>
-          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
-        <![endif]-->
-<title>Health Professions Student Council</title>
-<meta itemprop="image" content="/_/rsrc/1534294484688/config/customLogo.gif?revision=9" />
-<meta property="og:image" content="/_/rsrc/1534294484688/config/customLogo.gif?revision=9" />
-<link type="application/atom+xml" rel="alternate" href="http://hpsc.org.uic.edu/home/posts.xml" title="Atom feed for hpsc:Home" />
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://sustainability.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6' type='text/css' media='all' />
+<link rel='stylesheet' id='sb_instagram_styles-css'  href='https://sustainability.uic.edu/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.12.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sb-font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://sustainability.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
+<link rel='https://api.w.org/' href='https://sustainability.uic.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sustainability.uic.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://sustainability.uic.edu/wp-includes/wlwmanifest.xml" /> 
+
 <script type="text/javascript">
-                window.jstiming.load.tick('cl');
-              </script>
-</head>
-<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
-<div id="sites-page-toolbar" class="sites-header-divider">
-<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
-</div>
-<div id="sites-chrome-everything-scrollbar">
-<div id="sites-chrome-everything" class="">
-<div id="sites-chrome-page-wrapper" style="direction: ltr">
-<div id="sites-chrome-page-wrapper-inside">
-<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="height:auto;">
-<table id="sites-chrome-header" class="sites-layout-hbox-centered" cellspacing="0" style="height:auto;">
-<tr class="sites-header-primary-row" id="sites-chrome-userheader">
-<td id="sites-header-title" class="sites-header-title-centered sites-chrome-header-valign-middle" role="banner"><div class="sites-header-cell-buffer-wrapper"><a href="http://hpsc.org.uic.edu/" id="sites-chrome-userheader-logo"><img id="logo-img-id" src="/_/rsrc/1534294484688/config/customLogo.gif?revision=9" alt="Health Professions Student Council" class="sites-logo-centered sites-chrome-header-valign-middle " /></a><h2></h2></div></td>
-</tr>
-<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
-<td colspan="2" id="sites-chrome-header-horizontal-nav-container" role="navigation">
-</td>
-</tr>
-</table>
-</div>
-<div id="sites-chrome-main-wrapper">
-<div id="sites-chrome-main-wrapper-inside">
-<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
-<tr>
-<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left initial" style="width:200px">
-<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed" role="navigation"><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotId="navList" class="has-expander"><li class="topLevel nav-first "><div class="current-bg" jotId="wuid:gx:7750e46bc6998ae" dir="ltr" style="padding-left: 19px;">Home</div></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/home/executive-board" jotId="wuid:gx:5fa981b522ef8538" class="sites-navigation-link topLevel">2019-2020 Executive Board</a></div></li><li class="topLevel parent " wuid="gx:573c94077e78c468"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/home/representative-info" jotId="wuid:gx:573c94077e78c468" class="sites-navigation-link topLevel">2019-2020 Representatives</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/home/representative-info/requirements" jotId="wuid:gx:63a455b38a371905" class="sites-navigation-link">Requirements</a></div></li></ul></li><li class="topLevel parent " wuid="gx:1a283dacd327acea"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/home/grants-funding" jotId="wuid:gx:1a283dacd327acea" class="sites-navigation-link topLevel">Grants &amp; Funding</a></div><ul role="navigation" class="has-expander"><li class="parent closed " wuid="gx:8c97b237905df82"><div dir="ltr" style="padding-left: 19px;"><div class="expander"></div><a href="/home/grants-funding/travel-grants-1" jotId="wuid:gx:8c97b237905df82" class="sites-navigation-link">Project Grants</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/home/grants-funding/travel-grants-1/part-i---deadlines-and-application-details" jotId="wuid:gx:14e9bb3d56e65304" class="sites-navigation-link">Part I - Deadlines and Application Details</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/home/grants-funding/travel-grants-1/part-ii---project-grant-application" jotId="wuid:gx:5a8aeade4fcad19c" class="sites-navigation-link">Part II - Project Grant Application</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/home/grants-funding/travel-grants-1/part-iii---after-application-is-submitted" jotId="wuid:gx:676fefa15a56cb33" class="sites-navigation-link">Part III - After Application is Submitted</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/home/grants-funding/travel-grants-1/project-grant-faqs" jotId="wuid:gx:7e203b35287013c6" class="sites-navigation-link">Project Grant FAQs</a></div></li></ul></li><li class="parent closed " wuid="gx:6989bc6d11fe2253"><div dir="ltr" style="padding-left: 19px;"><div class="expander"></div><a href="/home/grants-funding/travel-grants" jotId="wuid:gx:6989bc6d11fe2253" class="sites-navigation-link">Travel Grants</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/home/grants-funding/travel-grants/part-i---deadlines-and-application-details" jotId="wuid:gx:4e06c0a9e0b18c11" class="sites-navigation-link">Application Details</a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/home/grants-funding/travel-grants/travel-grant-faq-s" jotId="wuid:gx:1dd4af7b811b69b9" class="sites-navigation-link">Travel Grant FAQ's</a></div></li></ul></li></ul></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/home/general-body-meetings" jotId="wuid:gx:155d4cad7db81176" class="sites-navigation-link topLevel">General Body Meetings</a></div></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/home/hpsc-collaborative-healthcare-series" jotId="wuid:gx:4aa00cd870c81eaf" class="sites-navigation-link topLevel">HPSC Collaborative Healthcare Series</a></div></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/home/hpsc-collaborative-healthcare-series/past-events" jotId="wuid:gx:537aef84e4d36fd6" class="sites-navigation-link topLevel">Past CHS Events</a></div></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/home/calendar" jotId="wuid:gx:52ededffa965ff40" class="sites-navigation-link topLevel">Calendar</a></div></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/home/links" jotId="wuid:gx:68c838af232028ca" class="sites-navigation-link topLevel">Documents &amp; Links</a></div></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/home/campus-issues" jotId="wuid:gx:7c5d1e144a39f47d" class="sites-navigation-link topLevel">Campus Issues</a></div></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/home/suggestion-box" jotId="wuid:gx:a50ebcb686d422a" class="sites-navigation-link topLevel">Suggestion Box</a></div></li></ul></div></div>
-</td>
-<td id="sites-canvas-wrapper">
-<div id="sites-canvas" role="main">
-<div id="goog-ws-editor-toolbar-container"> </div>
-<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="display: none;">
-</div>
-<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="display: none;" align="left">
-<span id="sites-page-title" dir="ltr" tabindex="-1" style="outline: none">Home</span>
-</h3>
-<div id="sites-canvas-main" class="sites-canvas-main">
-<div id="sites-canvas-main-content">
-<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="text-align:center"></div><div><div style="color:rgb(51,51,51);font-family:arial,sans-serif;font-size:13.333333969116211px;line-height:21.111112594604492px"></div><div style="color:rgb(51,51,51);font-family:arial,sans-serif;font-size:13.333333969116211px;line-height:21.111112594604492px"></div><div style="color:rgb(51,51,51);font-family:arial,sans-serif;font-size:13.333333969116211px;line-height:21.111112594604492px"><br /></div><div style="text-align:center;color:rgb(51,51,51);font-size:13.333333969116211px;line-height:21.111112594604492px"><b style="line-height:1.5"><font color="#073763" face="trebuchet ms, sans-serif" size="5">What is HPSC? We are happy to explain...</font></b></div><div style="text-align:center"><span style="background-color:transparent;line-height:1.5"><font color="#000000" face="verdana, sans-serif" size="2">The UIC Health Professions Student Council (HPSC) is a liaison organization between the individual health professions students, student groups, and the university at large. We appoint students to university and campus-wide committees to represent the interest of the health professional student body. Additionally, we fund the individual health professional student councils and provide additional funding to students for travel and interdisciplinary projects. Our student-run organization has also provided a forum for interdisciplinary discourse through our Collaborative Healthcare Series.</font></span></div><div style="text-align:center"><span style="background-color:transparent;line-height:1.5"><font color="#000000" face="verdana, sans-serif" size="2"><br /></font></span></div><div style="text-align:center"><span style="background-color:transparent;line-height:1.5"><font color="#000000" face="verdana, sans-serif" size="2">The following schools/organizations have representatives for HPSC: College of Medicine, College of Nursing, Graduate Nursing Student Organization, College of Applied Health Sciences, College of Dentistry, College of Pharmacy, University Medical Student Council, College of Social Work, </font></span></div><div style="text-align:center"><span style="background-color:transparent;line-height:1.5"><font color="#000000" face="verdana, sans-serif" size="2">and the School of Public Health</font></span></div><div style="text-align:center"><span style="background-color:transparent;line-height:1.5"><font color="#000000" face="verdana, sans-serif" size="2"><br /></font></span></div><div style="text-align:center"><span style="background-color:transparent;line-height:1.5"><font color="#000000" face="verdana, sans-serif" size="2"><b>Contact Us: <a href="mailto:uic.hpsc@gmail.com">uic.hpsc@gmail.com</a></b></font></span></div><div style="text-align:center"><font face="verdana, sans-serif" size="2"><b>Grant/Funding Contact: </b></font><span style="background-color:transparent;text-align:left"><font face="verdana, sans-serif" size="2"><b><a href="mailto:hpscgrants@gmail.com">hpscgrants@gmail.com</a></b></font></span></div><div style="text-align:center"><span style="background-color:transparent;text-align:left"><font face="verdana, sans-serif" size="2"><br /></font></span></div><div style="text-align:center"><span style="background-color:transparent;text-align:left"><font face="verdana, sans-serif" size="2"><br /></font></span></div><div style="color:rgb(51,51,51);font-family:arial,sans-serif;font-size:13.333333969116211px;line-height:21.111112594604492px"></div><div style="color:rgb(51,51,51);line-height:21.1111px"><font face="verdana, sans-serif" size="4"><u>HPSC General Meetings </u></font></div><div style="color:rgb(51,51,51);font-size:13.333333969116211px;line-height:21.111112594604492px"><font face="verdana, sans-serif">College of Pharmacy (833 S Wood) in Rm 270 from 6-8pm</font></div><div style="color:rgb(51,51,51);font-size:13.333333969116211px;line-height:21.111112594604492px"><font face="verdana, sans-serif">October 31st</font></div><div style="color:rgb(51,51,51);font-size:13.333333969116211px;line-height:21.111112594604492px"><font face="verdana, sans-serif">November 21st</font></div><div style="color:rgb(51,51,51);font-size:13.333333969116211px;line-height:21.111112594604492px"><font face="verdana, sans-serif">January 30th</font></div><div style="color:rgb(51,51,51);font-size:13.333333969116211px;line-height:21.111112594604492px"><font face="verdana, sans-serif">February 27th</font></div><div style="color:rgb(51,51,51);font-size:13.333333969116211px;line-height:21.111112594604492px"><font face="verdana, sans-serif">April 16th Last GBM of the academic year, will be held virtually</font></div><div style="color:rgb(51,51,51);font-size:13.333333969116211px;line-height:21.111112594604492px"><br /></div><div style="text-align:left;line-height:21.111112594604492px"><font color="#073763" face="trebuchet ms, sans-serif" size="6"><b><br /></b></font></div><div style="text-align:left;line-height:21.111112594604492px"><font color="#073763" face="trebuchet ms, sans-serif" size="6"><b>Announcements</b></font></div></div></div></td></tr></tbody></table>
-</div> 
-<div xmlns="http://www.w3.org/1999/xhtml" class="announcements">
-<div class="sites-clear" style="padding: 0 0 5px;">
-<img src="/_/rsrc/1587021635000/system/app/images/icon_feed.gif" style="border:none; vertical-align: middle;" />
-<a href="http://hpsc.org.uic.edu/home/posts.xml">
-                      Subscribe to posts</a>
-</div>
-<div class="announcement">
-<h4><a href="/home/october31stgbm" dir="ltr">October 31st GBM</a></h4>
-<span class="timestamp">
-<script type="text/javascript">
-      //<![CDATA[
-        function JOT_insertRelDate(timestamp, absTimeStr, isSiteLocale, dir) {
-          var relTimeStr = JOT_formatRelativeToNow(timestamp, isSiteLocale);
-          if (relTimeStr) {
-            if (isSiteLocale) {
-              document.write('<span timestamp="' + timestamp + '" issitelocale="' + isSiteLocale +
-                '" title="' + absTimeStr + '" dir="' + dir + '">' + relTimeStr + '<' + '/span>');
-            } else {
-              document.write('<span timestamp="' + timestamp + '" title="' + absTimeStr +
-              '" dir="' + dir + '">' + relTimeStr + '<' + '/span>');
-            }
-          } else {
-            document.write(absTimeStr);
-          }
-        }
-      //]]>
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//sustainability.uic.edu/?wordfence_lh=1&hid=5379539AC0FCFAEBC4F6DBB97E0B9882');
 </script>
+</head>
       
+  <body>
+
+<!-- Google Tag Manager for RED multisite (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2Q8D2K" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager for RED multisite (noscript) -->
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  <div class="l-page page-template-default single single-page postid-260 post-type--page  site-type-a theme--green is-sidebar  ">
+
+
+    <!--[if lte IE 9]>
+<div class="browser-stripe u-dark-region">
+  <div class="l-full">
+      <h2>Your browser is unsupported</h2>
+      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
+  </div>
+</div>
+<![endif]-->
+<div class="browser-stripe u-dark-region ie10">
+  <div class="l-full">
+      <h2>Your browser is unsupported</h2>
+      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
+  </div>
+</div>
+    
+<header class="l-header" role="banner">
+
+  
+  <div class="header-navigation">
+
+      <div id="skip" class="skip-menu assistive-text">
+  <p>
+    <span class="_main">
+    <a href="#article">Skip to the content of this page</a>,
+    </span>
+    <a class="_primary-menu" href="#menu-main">the main menu</a>,
+
+        <a class="_secondary-menu" href="#menu-secondary">the secondary menu</a>,
+    
+    
+    <a class="_search" href="#search">the site search form</a>,
+
+    <a class="_home" href="https://sustainability.uic.edu">the site home page</a>.
+  </p>
+</div>
+
+      <div class="eyebrow-mobile-wrapper js-eyebrow-mobile">
+<div class="eyebrow-mobile">
+            <div class="eyebrow-mobile-logo eyebrow-logo">
+            <a href="http://uic.edu" class="uic-logo-icon eyebrow-mobile-logo__uic-logo">
+ <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ <title>UIC Logo</title>
+ <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
+<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
+</svg>
+</a>
+    </div>
+                <div class="site-title-eyebrow-mobile">
+          <a href="https://sustainability.uic.edu">Sustainability</a>
+        </div>
+    
+    <button aria-label="Search the site" class="search-toggle-mobile js-search-toggle-mobile">
+  <span class="icon-search ">
+        <span class="assistive-text">Search the site</span>
+      </span>
+    </button>
+    <button class="nav-header-toggle js-nav-header-toggle">
+      <span class="icon-menu ">
+      Toggle Menu
+      </span>
+    </button>
+  </div>
+  <div class="search-input-container-mobile">
+    <div class="search-input-container-mobile__content">
+      <div class="search-title">
+        Search
+        <a class="search-close search-toggle-mobile">
+          <svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22">
+            <use xlink:href="https://sustainability.uic.edu/wp-content/themes/uic-red/images/svgs/svgs.svg#icon-close"></use>
+          </svg>
+        </a>
+      </div>
+      <form method="get" action="/search" role="search" aria-label="Search this site on your mobile device">
+        <input type="text" name="q" class="search-input-mobile" placeholder="Search..." tabindex="-1" aria-label="Search this site on your mobile device" disabled="">
+        <input type="submit" class="submit-button" name="search" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+    <div class="header-navigation__eyebrow">
+
+                    <div class="header-navigation-logo header-logo">
+                        <a href="http://uic.edu" class="uic-logo-icon header-navigation-logo__uic-logo">
+ <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ <title>UIC Logo</title>
+ <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
+<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
+</svg>
+</a>
+            </div>
+                <div class="header-navigation__eyebrow-menus">
+
+            <div class="header-navigation__logo-and-site-title">
+
+                                <div class="site-title-main -large">
+                                      <a href="https://sustainability.uic.edu">Sustainability</a>
+                                    </div>
+              
+            </div>
+          <nav class="header-menus js-header-menus " aria-label="Primary" role="navigation">
+
+  <div class="site-title-mobile-menu">
+    <a href="https://sustainability.uic.edu">Sustainability</a>
+  </div>
+
+  
+  <h2 class="assistive-text">Main Menu</h2>
+  <ul id="menu-main" class="menu menu-main" aria-label="Main Menu">
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-250 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/plans/"
+        target="_self">
+
+        Sustainability Planning
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Sustainability Planning menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Sustainability Planning menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-694 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/plans/caip/"
+                  target="_self">
+
+                  Climate Action Implementation Plan
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2856">
+                <a 
+                  class="menu-main__second-link"
+                  href="/plans/caip-portal/"
+                  target="_self">
+
+                  CAIP Portal
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-259 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/plans/uicclimatecommitments/"
+                  target="_self">
+
+                  UIC Climate Commitments
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-359">
+                <a 
+                  class="menu-main__second-link"
+                  href="/plans/ccse/"
+                  target="_self">
+
+                  Chancellor's Committee on Sustainability and Energy
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3429 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/plans/plans-and-standards/"
+                  target="_self">
+
+                  Plans and Standards
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-614 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/green-campus/"
+        target="_self">
+
+        Green Campus
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Green Campus menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Green Campus menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-260 current_page_item menu-item-281 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/green-campus/recycling/"
+                  target="_self">
+
+                  Recycling
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-360">
+                <a 
+                  class="menu-main__second-link"
+                  href="/green-campus/bikes/"
+                  target="_self">
+
+                  Biking
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-361 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/green-campus/energy/"
+                  target="_self">
+
+                  Energy
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-362 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/green-campus/grounds/"
+                  target="_self">
+
+                  Grounds
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-278 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/green-campus/green-buildings/"
+                  target="_self">
+
+                  Buildings
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-277">
+                <a 
+                  class="menu-main__second-link"
+                  href="/green-campus/green-labs/"
+                  target="_self">
+
+                  Laboratories
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1170">
+                <a 
+                  class="menu-main__second-link"
+                  href="/green-campus/water/"
+                  target="_self">
+
+                  Water
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-282">
+                <a 
+                  class="menu-main__second-link"
+                  href="/green-campus/tour/"
+                  target="_self">
+
+                  Green Campus Tour – East Side
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-302 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/student-experience/"
+        target="_self">
+
+        Student Experience
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Student Experience menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Student Experience menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-303 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/student-experience/sustainability-internship-programs/"
+                  target="_self">
+
+                  Sustainability Internship Program
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-304">
+                <a 
+                  class="menu-main__second-link"
+                  href="/student-experience/sustainability-fee/"
+                  target="_self">
+
+                  Sustainability Fee
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-294">
+                <a 
+                  class="menu-main__second-link"
+                  href="/student-experience/eco-volunteer/"
+                  target="_self">
+
+                  EcoVolunteer
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+  </ul>
+
+  <div class="l-eyebrow">
+
+    <h2 class="assistive-text">Eyebrow menu</h2>
+    <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
+            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1349">
+            <a  href="/sustainability-events/" target="_self">Sustainability Events</a>
+        </li>
+    </ul>
+
+    <h2 class="assistive-text">UIC menu</h2>
+    <ul class="menu-uic">
+      <li class="_item">
+    <a href="http://uic.edu">UIC.edu</a>
+  </li>
+  <li class="_item">
+    <a href="http://maps.uic.edu/">Campus Map</a>
+  </li>
+</ul>
+
+
+
+    <div aria-label="Primary" role="search" class="search-wrapper">
+
+      <button id="search" class="search-toggle">
+        <span class="icon-search ">
+          <span class="assistive-text">Search</span>
+        </span>
+      </button>
+
+      <div class="search-input-container">
+        <div class="search-input-container__form">
+          <form method="get" action="/search" >
+            <input type="text" name="q" class="search-input" placeholder="Search..." tabindex="-1" aria-label="Search" disabled="">
+            <input type="submit" class="submit-button" name="search" value="Submit">
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+</nav>
+        </div>
+    </div>
+
+    
+  </div>
+
+    
+        <a href="#menu-secondary" class="menu-secondary-anchor">
+      View Menu
+      <svg aria-label="Down arrow icon" width="32" height="32" viewBox="0 0 32 32" role="presentation">
+        <title>Down arrow icon</title>
+        <g fill="none" fill-rule="evenodd">
+          <circle class="_circle" stroke-width="1" stroke="#007Da5" fill="#fff" cx="16" cy="16" r="15"/>
+          <path class="_arrow" stroke-width="2" stroke="#001E62" stroke-linecap="round" d="M12 17l4 4 4-4M16 20v-9"/>
+        </g>
+      </svg>
+    </a>
+        
+</header>
+
+    <main id="main" class="l-content-wrapper" role="main">
+
+      
+                
+	      
+      <div class="l-full">
+
+        <div class="l-content ">
+
+          
+                      <nav class="breadcrumbs" aria-label="Breadcrumbs">
+  <h2 class="assistive-text">Breadcrumbs</h2>
+  <ol class="menu" vocab="https://schema.org/" typeof="BreadcrumbList">
+
+  
+          <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://sustainability.uic.edu"><span property="name">Sustainability</span></a>
+        <meta property="position" content="0">
+      </li>
     
   
-  posted <span dir="ltr">Oct 30, 2019, 10:51 AM</span> by UIC-HPSC Eboard
+          <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://sustainability.uic.edu/green-campus/"><span property="name">The Green Campus</span></a>
+        <meta property="position" content="1">
+      </li>
+    
+  
+          <li property="itemListElement" typeof="ListItem"><span property="name">Recycling</span>
+        <meta property="position" content="3">
+      </li>
+    
+  
+  </ol>
+</nav>
+          
+          <article class="post-type-page" id="article">
+            
+          <div class="intro-text">
 
-                    
-                         
-                        <span class="updatedTime">
-                          [
-  
-  
-  
-  
-  updated <span dir="ltr">Oct 31, 2019, 1:37 PM</span>
-]
-                        </span>
-</span>
-<p>
-<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr">The October General Body Meeting of HPSC will be Thursday October 31st from 6-8pm at the College of Pharmacy (833 S Wood) Room 270</div></td></tr></tbody></table>
-</p>
-<div class="postfooter">
-<p>
-</p>
-</div>
-</div>
-<div class="announcement">
-<h4><a href="/home/stopthebleed" dir="ltr">Stop the Bleed!</a></h4>
-<span class="timestamp">
-                    
-                    
-  
-  
-  
-  
-  posted <span dir="ltr">Oct 16, 2019, 4:03 PM</span> by UIC-HPSC Eboard
+                      <h1 class="_title post-title">Recycling</h1>
+              
+            
+              
+    
+              <p>UIC is committed to <strong><a href="http://sustainability.uic.edu/plans/uicclimatecommitments/zero-waste-campus/">Zero Waste</a></strong> and we need your help! Recycling is required by <a href="http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=1588&amp;ChapterID=36">Illinois Law</a> and is one of the easiest ways you can help the university be a good environmental steward. We must reduce the waste we produce by choosing materials wisely; reuse what we have already by considering new roles for unwanted material; and recycle what must be thrown away, thus minimizing material bound for the landfill and increasing our landfill diversion rate to 90%!</p>
+<p>Here you will find what and where you can recycle on campus, more sustainable alternatives, and information about zero waste events.</p>
 
-                    
-                  </span>
-<p>
-<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr">HPSC is excited to support Stop the Bleed! Find more information at their website <a href="https://www.bleedingcontrol.org/">https://www.bleedingcontrol.org/</a> Contact Patrick O'Carroll to set up a training session which can include emergency kits and naloxone <a href="mailto:pocarr2@uic.edu" style="color:rgb(17,85,204);font-family:Arial,Helvetica,sans-serif;font-size:small" target="_blank">pocarr2@uic.edu</a>. All UIC Health Professions Colleges are welcome to host a training session for students and community members.</div></td></tr></tbody></table>
-</p>
-<div class="postfooter">
-<p>
-</p>
-</div>
-</div>
-<div class="announcement">
-<h4><a href="/home/septembergeneralbodymeeting926" dir="ltr">September General Body Meeting 9/26</a></h4>
-<span class="timestamp">
-                    
-                    
-  
-  
-  
-  
-  posted <span dir="ltr">Sep 24, 2019, 6:25 AM</span> by UIC-HPSC Eboard
+    
+  </div>
+        <div class="components">
 
-                    
-                  </span>
-<p>
-<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr">HPSC will host its General Body Meeting on the last Thursday of each month. This month the meeting will take place on Thursday 9/26 at the College of Pharmacy. Please reach out to Secretary Nicole Blumenstein for more information. Happy Fall!</div></td></tr></tbody></table>
-</p>
-<div class="postfooter">
-<p>
-</p>
-</div>
-</div>
-<div class="announcement">
-<h4><a href="/home/schoolofpublichealth-worldhealthday" dir="ltr">School of Public Health - World Health Day</a></h4>
-<span class="timestamp">
-                    
-                    
   
-  
-  
-  
-  posted <span dir="ltr">Apr 1, 2015, 5:49 PM</span> by UIC-HPSC Eboard
+    
+      
 
-                    
-                  </span>
-<p>
-<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal;text-align:center"><font color="#0000ff" size="4"><b>WORLD HEALTH DAY</b></font></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal;text-align:center"><font size="4">Program Launch of "<i>Living global health</i>"</font></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal;text-align:center"><font size="4">Luncheon and Discussion</font></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal;text-align:center"><font size="4">**Lunch Provided**</font></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal;text-align:center"><font size="4"><br /></font></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal;text-align:center"><font size="4"><span style="border-bottom-width:1px;border-bottom-style:dashed;border-bottom-color:rgb(204,204,204)"><span>Tuesday, April 7, 2015</span></span></font></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal;text-align:center"><font size="4">11:30-<span style="border-bottom-width:1px;border-bottom-style:dashed;border-bottom-color:rgb(204,204,204)"><span>12:45pm</span></span></font></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal;text-align:center"><font size="4">School of Public Health I Room 932</font></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal"><p style="margin:0.3pt 0px 0px"><span style="font-family:Corbel"><font size="4"> </font></span></p><p align="center" style="margin-right:33.15pt;text-align:center;line-height:13.184000015258789px"><b><span style="color:rgb(26,26,26)">"Living<span style="letter-spacing:0.8pt"> </span>global<span style="letter-spacing:0.85pt"> </span>health”<span style="letter-spacing:0.85pt"> </span></span></b><span style="color:rgb(26,26,26)">is<span style="letter-spacing:0.85pt"> </span>an<span style="letter-spacing:0.85pt"> </span>accessible<span style="letter-spacing:0.8pt"> </span>social<span style="letter-spacing:0.85pt"> </span>conversation<span style="letter-spacing:0.85pt"> </span>about<span style="letter-spacing:1.15pt"> </span><span style="letter-spacing:-0.05pt">the</span><span style="letter-spacing:3.4pt"> </span>realities<span style="letter-spacing:0.85pt"> </span>of<span style="letter-spacing:1.15pt"> </span><span style="letter-spacing:-0.05pt">our</span><span style="letter-spacing:0.85pt"> </span>health,globally,<span style="letter-spacing:0.85pt"> </span>through<span style="letter-spacing:0.85pt"> </span>our<span style="letter-spacing:0.85pt"> </span>own<span style="letter-spacing:0.85pt"> </span>personal<span style="letter-spacing:0.85pt"> </span>stories<span style="letter-spacing:0.85pt"> </span>and<span style="letter-spacing:1.7pt"> </span>reflections.<span style="letter-spacing:0.65pt"> </span>We<span style="letter-spacing:0.7pt"> </span>are<span style="letter-spacing:0.7pt"> </span>providing<span style="letter-spacing:0.7pt"> </span>a<span style="letter-spacing:0.7pt"> </span>platform<span style="letter-spacing:0.7pt"> </span>to<span style="letter-spacing:0.7pt"> </span>share<span style="letter-spacing:0.7pt"> </span>ourstories.<span style="letter-spacing:0.7pt"> </span><span style="letter-spacing:-0.05pt">We</span><span style="letter-spacing:0.7pt"> </span>will<span style="letter-spacing:0.7pt"> </span>be<span style="letter-spacing:2.8pt"> </span>prompting<span style="letter-spacing:0.7pt"> </span>the<span style="letter-spacing:0.75pt"> </span>world<span style="letter-spacing:0.75pt"> </span>to<span style="letter-spacing:0.7pt"> </span>respond<span style="letter-spacing:0.75pt"> </span>to<span style="letter-spacing:0.75pt"> </span>a<span style="letter-spacing:0.75pt"> </span>series<span style="letter-spacing:0.7pt"> </span>of<span style="letter-spacing:0.75pt"> </span>questions,<span style="letter-spacing:0.75pt"> </span>Real<span style="letter-spacing:0.85pt"> </span>Voices<span style="letter-spacing:0.75pt"> </span>that<span style="letter-spacing:3pt"> </span>aredirected<span style="letter-spacing:0.8pt"> </span>at<span style="letter-spacing:0.8pt"> </span>a<span style="letter-spacing:1.05pt"> </span><span style="letter-spacing:-0.05pt">global</span><span style="letter-spacing:0.8pt"> </span>audience,<span style="letter-spacing:1.1pt"> </span><span style="letter-spacing:-0.05pt">as</span><span style="letter-spacing:0.8pt"> </span>individuals.<span style="letter-spacing:0.75pt"> </span>Through<span style="letter-spacing:0.8pt"> </span><span style="letter-spacing:-0.05pt">this</span><span style="letter-spacing:0.8pt"> </span>initiative<span style="letter-spacing:0.8pt"> </span>we<span style="letter-spacing:1.9pt"> </span>will<span style="letter-spacing:0.75pt"> </span>gather<span style="letter-spacing:0.8pt"> </span>real<span style="letter-spacing:0.8pt"> </span>voices<span style="letter-spacing:0.75pt"> </span>fromindividuals<span style="letter-spacing:0.8pt"> </span>everywhere<span style="letter-spacing:0.75pt"> </span><span style="letter-spacing:0.05pt">in</span><span style="letter-spacing:0.8pt"> </span>order<span style="letter-spacing:0.8pt"> </span>to<span style="letter-spacing:0.75pt"> </span>raise<span style="letter-spacing:1.9pt"> </span>awareness<span style="letter-spacing:0.9pt"> </span>and<span style="letter-spacing:0.9pt"> </span>begin<span style="letter-spacing:0.9pt"> </span>a<span style="letter-spacing:0.9pt"> </span>truly<span style="letter-spacing:0.95pt"> </span>global<span style="letter-spacing:0.9pt"> </span>conversation </span><span style="color:rgb(26,26,26)">through</span><span style="color:rgb(26,26,26);letter-spacing:-0.05pt">social</span><span style="color:rgb(26,26,26);letter-spacing:0.95pt"> </span><span style="color:rgb(26,26,26)">media</span><span style="color:rgb(26,26,26);letter-spacing:3.05pt"> </span><span style="color:rgb(26,26,26)">about</span><span style="color:rgb(26,26,26);letter-spacing:1.25pt"> </span><span style="color:rgb(26,26,26)">health</span><span style="color:rgb(26,26,26);letter-spacing:1.25pt"> </span><span style="color:rgb(26,26,26)">equity.</span></p><p align="center" style="margin-right:33.15pt;text-align:center;line-height:13.184000015258789px"><br /></p><p style="margin:0px"><span style="font-size:10pt;font-family:Corbel"><img alt="Inline image 1" height="62" src="https://mail.google.com/mail/u/0/?ui=2&amp;ik=13578e7731&amp;view=fimg&amp;th=14c70dac41a92f8f&amp;attid=0.0.1&amp;disp=emb&amp;realattid=ii_14c70d763c221b69&amp;attbid=ANGjdJ_KdX256u6maA3ug_MbPcvPT0Pp5xfQSEL1mbvAm3sJbjkchNlP2a6E-OA5BoH4Eq0nb67Rm2w4C6g4QfLNh3JzXFH_4s8m21CXbe9Mj0D6l9fU7OhVmfP6cNY&amp;sz=w1038-h124&amp;ats=1427935184848&amp;rm=14c70dac41a92f8f&amp;zw&amp;atsh=1" width="519" /></span></p><p style="margin:0px"><span style="color:rgb(20,24,35);font-family:helvetica,arial,lucida grande,sans-serif;font-size:14px;line-height:19px;background-color:rgb(255,255,255)">PLEASE RSVP BY ENTERING YOUR NAME ON THE DOODLE POLL: </span><a href="http://doodle.com/bdvdsdcfpfg2px3c" rel="nofollow" style="color:rgb(59,89,152);font-family:helvetica,arial,lucida grande,sans-serif;font-size:14px;line-height:19px" target="_blank">http://doodle.com/bdvdsdcfpfg2px3c</a><span style="color:rgb(20,24,35);font-family:helvetica,arial,lucida grande,sans-serif;font-size:14px;line-height:19px;background-color:rgb(255,255,255)">”</span></p></div></div></td></tr></tbody></table>
-</p>
-<div class="postfooter">
-<p>
-                    
-                    
-                        | Attachments:
-                        
-                          
-                          <span dir="ltr">
-<img src="/_/rsrc/1587021635000/system/app/images/attach_icons/icon_img.gif" style="margin: 0 0 -3px;" />
-<a href="/home/schoolofpublichealth-worldhealthday/World%20Health%20Day.png" rel="noopener noreferrer" dir="ltr" target="_blank">World Health Day.png</a>
-</span>
-</p>
-</div>
-</div>
-<div class="announcement">
-<h4><a href="/home/collaborativehealthcareseriesevent4internationalnight" dir="ltr">Collaborative Healthcare Series Event #4: INTERNATIONAL NIGHT</a></h4>
-<span class="timestamp">
-                    
-                    
-  
-  
-  
-  
-  posted <span dir="ltr">Feb 27, 2015, 12:50 PM</span> by UIC-HPSC Eboard
+<section class="component  ">
 
-                    
-                  </span>
-<p>
-<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="line-height:1.38;overflow:hidden;color:rgb(20,24,35);font-family:Helvetica,Arial,lucida grande,tahoma,verdana,arial,sans-serif"><div style="display:inline"><p style="margin:0px 0px 6px">HPSC's LAST COLLABORATIVE HEALTHCARE SERIES EVENT of the year:<br />UIC School of Public Health presents INTERNATIONAL NIGHT</p><p style="margin:6px 0px">For those of you who enjoyed “Taboo,” the intergroup dialogues event sponsored by SNMA, HPSC and several other student organizations from the College of Medicne, HPSC would like to invite you to our last Collaborative Healthcare Series event on WEDNESDAY, MARCH 4th at 6pm at the School of Public Health.</p><div style="display:inline"><p style="margin:0px 0px 6px">UIC SPH will be holding an event focused on Global Health with amazing speakers, performances, photo contests, Henna painting, and even a DJ and open dance floor at night.</p><p style="margin:6px 0px">Please come out for an exciting, informative, and fun evening with FREE FOOD!!!<br />(see flyer for additional details)</p><p style="margin:6px 0px">*If you have been keeping tract of your Leadership events and activities Please bring their HPSC Collaborative Healthcare Series Passport and get credit for attending.</p><p style="margin:6px 0px">*********<br />WHAT? International Night<br />WHEN? Wednesday, March 4th from 6-9:30pm<br />WHERE? School of Public Health (corner of Ashland and Taylor)<br />*********</p></div></div></div><div style="color:rgb(20,24,35);font-family:Helvetica,Arial,lucida grande,tahoma,verdana,arial,sans-serif;font-size:12px;line-height:15px"><div><div style="margin-top:10px"><div><a href="https://www.facebook.com/HPSC2013/photos/a.223044141168316.1073741826.218971664908897/503807603091967/?type=1" rel="theater" style="color:rgb(59,89,152);display:block;width:306px"></a></div></div></div></div></div></td></tr></tbody></table>
-</p>
-<div class="postfooter">
-<p>
-                    
-                    
-                        | Attachments:
-                        
-                          
-                          <span dir="ltr">
-<img src="/_/rsrc/1587021635000/system/app/images/attach_icons/icon_img.gif" style="margin: 0 0 -3px;" />
-<a href="/home/collaborativehealthcareseriesevent4internationalnight/CHS%204%20-%20International%20Night.png" rel="noopener noreferrer" dir="ltr" target="_blank">CHS 4 - International Night.png</a>
-</span>
-</p>
-</div>
-</div>
-<div class="announcement">
-<h4><a href="/home/uncminorityhealthconferencewebcast" dir="ltr">UNC Minority Health Conference Webcast</a></h4>
-<span class="timestamp">
-                    
-                    
   
+  <div class="component-video-block">
   
-  
-  
-  posted <span dir="ltr">Feb 9, 2015, 2:19 PM</span> by UIC-HPSC Eboard
+    <div class="component-description">
+                    <h2 id="recycling-at-uic-in-less-than-5-minutes" class="__title visible">Recycling at UIC in Less Than 5 Minutes</h2>
+                    </div>
 
-                    
-                  </span>
-<p>
-<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal"><span style="font-size:12.8000001907349px">What: Webcast of UNC Minority Health Conference, Lecture and Discussion</span></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:12.8000001907349px;line-height:normal"><span style="font-size:12.8000001907349px">When: <span style="border-bottom-width:1px;border-bottom-style:dashed;border-bottom-color:rgb(204,204,204)"><span>Friday, February 27th, 12:30 - 3pm</span></span></span></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:12.8000001907349px;line-height:normal"><span style="font-size:12.8000001907349px">Where: School of Public Health Auditorium (1603 W. Taylor)</span></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:12.8000001907349px;line-height:normal"><span style="font-size:12.8000001907349px">*Light Refreshments will be served</span></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:12.8000001907349px;line-height:normal"><span style="font-size:12.8000001907349px"><br /></span></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:12.8000001907349px;line-height:normal">This event will be a live-stream of the annual keynote speaker of the University of North Carolina-Chapel Hill's Minority Health Conference. Their keynote speaker, Dr. Allison E. Aiello, is an internationally recognized expert on social determinants of health, with a focus on infectious diseases. Her research investigates the impact of individual- and neighborhood-level socioeconomic and psychosocial determinants across the life course within minority populations. Her speak will focus on the theme of the conference "Economic Mobility and Minority Health". This event will be a great opportunity to showcase some of the scholarship happening at other institutions on health inequities. Health Professional across all disciplines will benefit learning about how economic mobility can influence health outcomes in marginalized communities. <br /></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:12.8000001907349px;line-height:normal"><br /></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:12.8000001907349px;line-height:normal">If you have any questions, please contact Cindy San Miguel at: <a href="mailto:csanmig2@uic.edu" style="color:rgb(17,85,204)" target="_blank">csanmig2@uic.edu</a></div></div></td></tr></tbody></table>
-</p>
-<div class="postfooter">
-<p>
-                    
-                    
-                        | Attachments:
-                        
-                          
-                          <span dir="ltr">
-<img src="/_/rsrc/1587021635000/system/app/images/attach_icons/icon_img.gif" style="margin: 0 0 -3px;" />
-<a href="/home/uncminorityhealthconferencewebcast/UNC%20Webcast%20flyer%20-%20FINAL%20%281%29.png" rel="noopener noreferrer" dir="ltr" target="_blank">UNC Webcast flyer - FINAL (1).png</a>
-</span>
-</p>
-</div>
-</div>
-<div class="announcement">
-<h4><a href="/home/taboo" dir="ltr">TABOO</a></h4>
-<span class="timestamp">
-                    
-                    
-  
-  
-  
-  
-  posted <span dir="ltr">Feb 8, 2015, 9:04 PM</span> by UIC-HPSC Eboard
 
-                    
-                         
-                        <span class="updatedTime">
-                          [
-  
-  
-  
-  
-  updated <span dir="ltr">Feb 9, 2015, 2:16 PM</span>
-]
-                        </span>
-</span>
-<p>
-<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal"><span style="font-size:12.8000001907349px">HPSC is is sponsoring its 3rd CHS EVENT THIS <span style="border-bottom-width:1px;border-bottom-style:dashed;border-bottom-color:rgb(204,204,204)"><span>WEDNESDAY FEBRUARY 11th at 5 pm</span></span> at the College of Medicine. </span></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal"><span style="font-size:12.8000001907349px">The purpose of this event is to promote a raw dialogue about our vast differences in race, culture, religion and sexuality as a healthcare providers and as we prepare to interact with patients in the future.</span></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal"><span style="font-size:12.8000001907349px"><br /></span></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal"><span style="font-size:12.8000001907349px">When? Wednesday, February 11, 2014 at 5:00</span></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal"><span style="font-size:12.8000001907349px">Where? CMWT Room 429  (4th Floor TBL Room)</span></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal"><span style="font-size:12.8000001907349px">What? FREE DINNER and an AWESOME EVENT!!!!!</span></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal"><span style="font-size:12.8000001907349px"><br /></span></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal"><span style="font-size:12.8000001907349px">Please RSVP at the following link (we need an approximate count for food):</span></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal"><span style="font-size:12.8000001907349px"><br /></span></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal"><span style="font-size:12.8000001907349px"><a href="https://docs.google.com/spreadsheets/d/1F6aTumlx8F9r6tjiRAX8nv5dBnViGi3YwJZHuwe4l3k/edit?usp=sharing" style="color:rgb(17,85,204)" target="_blank">https://docs.google.com/spreadsheets/d/1F6aTumlx8F9r6tjiRAX8nv5dBnViGi3YwJZHuwe4l3k/edit?usp=sharing</a> </span></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal"><span style="font-size:12.8000001907349px"><br /></span></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal"><span style="font-size:12.8000001907349px">If you have been keeping tract of your Leadership events and activities Please bring their HPSC Collaborative Healthcare Series Passport and get credit for attending.</span></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal"><span style="font-size:12.8000001907349px"><br /></span></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal"><span style="font-size:12.8000001907349px">We look forward to seeing and talking (candidly!) with you.</span></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal"><span style="font-size:12.8000001907349px"><br /></span></div><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal"><span style="font-size:12.8000001907349px">UIC HPSC Executive Board</span></div></div></td></tr></tbody></table>
-</p>
-<div class="postfooter">
-<p>
-                    
-                    
-                        | Attachments:
-                        
-                          
-                          <span dir="ltr">
-<img src="/_/rsrc/1587021635000/system/app/images/attach_icons/icon_img.gif" style="margin: 0 0 -3px;" />
-<a href="/home/taboo/HPSC%20Collaporative%20Healthcare%20Series%203.png" rel="noopener noreferrer" dir="ltr" target="_blank">HPSC Collaporative Healthcare Series 3.png</a>
-</span>
-</p>
-</div>
-</div>
-<div class="announcement">
-<h4><a href="/home/ipeimmersionday" dir="ltr">IPE Immersion Day</a></h4>
-<span class="timestamp">
-                    
-                    
-  
-  
-  
-  
-  posted <span dir="ltr">Jan 20, 2015, 1:48 PM</span> by UIC-HPSC Eboard
+  <div class="video-container">
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/1KCKYWIOLAQ?wmode=transparent&amp;rel=0&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
 
-                    
-                  </span>
-<p>
-<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="color:rgb(0,0,0);font-family:arial,sans-serif;font-size:13px;line-height:normal"><div>The concepts of interprofessional education (IPE) and collaborative practice (CP) are part of a growing imperative to embrace the changing models of health care delivery.</div><div></div><div>You are invited to participate in an “immersion day” on <span style="border-bottom-width:1px;border-bottom-style:dashed;border-bottom-color:rgb(204,204,204)"><span>Friday, April 10, 2015</span></span>, when students from across the health sciences and other UIC colleges will convene in the UIC Forum for a half-day of interactive learning as part of a blended course. Readings and preparatory work are assigned in Blackboard prior to that day. The <span style="border-bottom-width:1px;border-bottom-style:dashed;border-bottom-color:rgb(204,204,204)"><span>April 10</span></span> workshop itself is a face-to-face experience; students are expected to participate in person. Please note that if you are scheduled for your practicum during this time the practicum will take priority . Also, this is the date of the Illinois HIM Association Annual meeting in Springfield, Illinois if you are planning to attend that</div><div></div><div>See attachment for more details on the IPE Immersion Day at UIC. Enrollment closes at <span style="border-bottom-width:1px;border-bottom-style:dashed;border-bottom-color:rgb(204,204,204)"><span>4:00 p.m. January 30, 2015</span></span>. Registration is on a first come, first-served basis and requires program approval.</div><div></div><div>Students may choose to participate in this course as either a "resume-enhancing experience" (accrues no course credit) or by enrolling in a one-credit hour independent study, which may result in an additional charge for tuition. A written and submitted self-reflection summarizing the interprofessional education experience will be required for the credit-bearing independent study.</div><div></div><div>If you are interested in learning together to improve your future collaborative skills in order to build a safer and better patient-centered U.S. health care system, please contact:</div><div></div><div>· HIM undergraduates and Post-Baccalaureate HIM students: Karen Patena, RHIA, <a href="mailto:patena@uic.edu" style="color:rgb(17,85,204)" target="_blank">patena@uic.edu</a></div><div>· Health Informatics students: Annette Valenta, DrPH, <a href="mailto:valenta@uic.edu" style="color:rgb(17,85,204)" target="_blank">valenta@uic.edu</a></div><div><br /></div></div></div></td></tr></tbody></table>
-</p>
-<div class="postfooter">
-<p>
-                    
-                    
-                        | Attachments:
-                        
-                          
-                          <span dir="ltr">
-<img src="/_/rsrc/1587021635000/system/app/images/attach_icons/icon_pdf.gif" style="margin: 0 0 -3px;" />
-<a href="/home/ipeimmersionday/IPE%20Immersion%20Day%20flyer%20HIHIM_2015.pdf" rel="noopener noreferrer" dir="ltr" target="_blank">IPE Immersion Day flyer HIHIM_2015.pdf</a>
-</span>
-</p>
-</div>
-</div>
-<div class="announcement">
-<h4><a href="/home/collegeofnursingsimulationlabevent" dir="ltr">College of Nursing Simulation Lab Event</a></h4>
-<span class="timestamp">
-                    
-                    
-  
-  
-  
-  
-  posted <span dir="ltr">Jan 6, 2015, 9:55 AM</span> by Jonathan Czyscon
+      <p>This recycling tutorial will walk you through the steps of what and how to recycle at UIC in less than 5 minutes.</p>
 
-                    
-                         
-                        <span class="updatedTime">
-                          [
   
-  
-  
-  
-  updated <span dir="ltr">Jan 10, 2015, 8:32 AM</span> by UIC-HPSC Eboard
-]
-                        </span>
-</span>
-<p>
-<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><span style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal;background-color:rgb(255,255,255)">The UIC College of Nursing has once again agreed to open the doors to their patient simulation lab to allow students from each college to learn basic medical and emergency techniques. The event is a unique opportunity to meet students from other colleges and work together to learn and utilize new skills.</span><div style="color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;line-height:normal;background-color:rgb(255,255,255)"><div><br /></div><div>If you are interested in participating, please RSVP using the link below. If planning to register, please understand that space is EXTREMELY limited due to the capacity of the CON Simulation Lab. With your RSVP, you are expected to attend the event.<b><i> Please do not RSVP unless you are entirely sure that you can attend and stay the full amount of time.</i></b></div><div><br /></div><div>Please note that this qualifies as one of the two HPSC-organized events required for the HPSC Collaborative Healthcare Series Award.<br /><div><div><br /></div><div><b>Event Details:<br /><br /></b></div><div><span style="border-bottom-width:1px;border-bottom-style:dashed;border-bottom-color:rgb(204,204,204)"><span>January 28, 5-8 PM</span></span></div><div>College of Nursing (South of UIC Sports &amp; Fitness Center)</div><div>Dinner provided, Free giveaways, and Raffle<br /><br /><b>RSVP Here:</b> <a href="https://docs.google.com/forms/d/1OOpMjAwJjh3ynu5l_00KtEBxpNDLDpiGEUkKTEq8aus/viewform?usp=send_form" style="color:rgb(17,85,204)" target="_blank">https://docs.google.com/forms/d/1OOpMjAwJjh3ynu5l_00KtEBxpNDLDpiGEUkKTEq8aus/viewform?usp=send_form</a></div></div></div><div><br /></div><div><div style="display:block;text-align:left"><a href="http://hpsc.org.uic.edu/home/collegeofnursingsimulationlabevent/Flyer.jpg?attredirects=0" imageanchor="1"><img border="0" src="http://hpsc.org.uic.edu/_/rsrc/1420566919445/home/collegeofnursingsimulationlabevent/Flyer.jpg" /></a></div><br /></div></div></div></td></tr></tbody></table>
-</p>
-<div class="postfooter">
-<p>
-</p>
 </div>
-</div>
-<div class="announcement">
-<h4><a href="/home/worldaidsday-december1st" dir="ltr">World Aids Day - December 1st</a></h4>
-<span class="timestamp">
-                    
-                    
-  
-  
-  
-  
-  posted <span dir="ltr">Nov 26, 2014, 10:28 AM</span> by UIC-HPSC Eboard
 
-                    
-                  </span>
-<p>
-<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr">Please join us for another great Collaborative Healthcare Series Event on December 1st - World Aids Day. Dinner will be provided, please RSVP. More information can be seen in the attached announcement.</div></td></tr></tbody></table>
-</p>
-<div class="postfooter">
-<p>
-                    
-                    
-                        | Attachments:
-                        
-                          
-                          <span dir="ltr">
-<img src="/_/rsrc/1587021635000/system/app/images/attach_icons/icon_pdf.gif" style="margin: 0 0 -3px;" />
-<a href="/home/worldaidsday-december1st/World%20Aids%20Day%20Flier%20%281%29.pdf" rel="noopener noreferrer" dir="ltr" target="_blank">World Aids Day Flier (1).pdf</a>
-</span>
-</p>
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+        
+
+
+<div class="highlight component-highlight-image
+">
+
+
+  <div class="_image" style="
+  background-image: url('https://sustainability.uic.edu/wp-content/uploads/sites/21/2020/03/Waste-Audit-group-11.15.19-2-550x550.jpg')
+  ">
+    <img src="https://sustainability.uic.edu/wp-content/uploads/sites/21/2020/03/Waste-Audit-group-11.15.19-2-550x550.jpg" alt="UIC logo spelled out using the disposable beverage containers from the waste audit" class="invisible">
+  </div>
+
+
+  <div class="_content u-dark-region">
+      
+  <div class="highlight-image">
+    <h2 class="_title visible">Waste Characterization Study</h2>
+    <div class="_text"><p>In November of 2019,  the Illinois Sustainable Technology Center conducted a characterization of landfill and recycling-bound materials collected from fourteen different buildings and one outdoor collection system at UIC. Waste samples were collected from event spaces, residence halls, academic buildings with laboratories, administrative buildings,  academic buildings, dining facilities,  multi-use buildings, and outdoor areas (&#8220;on-the-go&#8221; waste collection points).</p>
+<p>Each building type contains three graphs that describe the category of materials found in landfill containers (&#8220;Material Opportunity of Landfill Waste&#8221;, categories of materials found in recycling containers (&#8220;Material Opportunity of Recycled Waste&#8221;), and a breakdown of the types of waste found in the landfill (&#8220;Composition of Landfill Waste&#8221;).</p>
+<p>Avoidable materials are those that could be replaced by a reusable container (like a coffee mug), Recyclable materials are those that can be placed in the paper or bottles and cans bins,  Compostable materials are those that are able to break down in a commercial composting facility, Potentially Recyclable materials are those that are recyclable, but do not have a bin at UIC currently, and landfill, non-Recyclable materials are those that do not fit in any of the above categories.</p>
 </div>
+            <a  href="https://drive.google.com/file/d/15qoQSU7rudZwI1PnJ7EmkTmftE7VV2ne/view" class="_button button" target="_blank" rel="noopener">
+      See how your building disposes of its materials
+    </a>
+          </div>
+
+  </div>
+
 </div>
-<div class="sites-clear" style="padding: 0 0 10px 5px;">
-<p>
-<div class="sites-pagination" dir="ltr"><div class="sites-pagination-info" dir="ltr">1-10 of 20</div><div role="button" id="sites-pagination-prev-link-top" class="goog-inline-block jfk-button jfk-button-standard jfk-button-narrow jfk-button-disabled" aria-disabled="true"><span class="sites-camelot-icon sites-pagination-icon-prev"></span></div><div role="button" id="sites-pagination-next-link-top" class="goog-inline-block jfk-button jfk-button-standard jfk-button-narrow jfk-button-disabled" aria-disabled="true"><span class="sites-camelot-icon sites-pagination-icon-next"></span></div></div>
-</p>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+        
+
+
+<div class="highlight component-highlight-image
+">
+
+
+  <div class="_image" style="
+  background-image: url('https://sustainability.uic.edu/wp-content/uploads/sites/21/2018/01/Eco-Educators-by-a-recycling-bin-at-the-UIC-Forum-550x550.png')
+  ">
+    <img src="https://sustainability.uic.edu/wp-content/uploads/sites/21/2018/01/Eco-Educators-by-a-recycling-bin-at-the-UIC-Forum-550x550.png" alt="3-bin recycling station including a bin for bottles and cans, a bin for landfill materials, and a bin for paper" class="invisible">
+  </div>
+
+
+  <div class="_content u-dark-region">
+      
+  <div class="highlight-image">
+    <h2 class="_title visible">What materials can be recycled at UIC?</h2>
+    <div class="_text"><p>Recycling stations of different shapes and sizes can be found in the hallways in every building at UIC and should be no more than a few steps away from your office, classroom or lab. These stations usually consist of three bins (&#8220;Paper&#8221;; &#8220;Bottles &amp; Cans&#8221;; and &#8220;Landfill&#8221;). You can recycle paper, broken-down cardboard, empty containers of glass and metal, and all plastics with a number except #6 PS (polystyrene).</p>
+<p>Buildings with laboratories also have collections for pipette tip boxes, which are #5 PP (polypropylene) plastic.</p>
+<p>Certain buildings on campus also have collection bins for batteries, writing utensils, and plastic bags (and other plastic &#8220;film&#8221;).</p>
+<p>&nbsp;</p>
 </div>
+            <a  href="https://sustainability.uic.edu/green-campus/recycling/recyclable-materials/" class="_button button">
+      Find out what materials can be recycled at UIC
+    </a>
+          </div>
+
+  </div>
+
 </div>
-</div> 
-<div id="sites-canvas-bottom-panel">
-<div id="sites-attachments-container">
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+        
+
+
+<div class="highlight component-highlight-image
+">
+
+
+  <div class="_image" style="
+  background-image: url('https://sustainability.uic.edu/wp-content/uploads/sites/21/2018/01/How-do-I-recycle-Life-Cycle-Diagram-550x550.png')
+  ">
+    <img src="https://sustainability.uic.edu/wp-content/uploads/sites/21/2018/01/How-do-I-recycle-Life-Cycle-Diagram-550x550.png" alt="Schematic diagram of the life cycle of recycled goods at UIC that reads clockwise: Buy Recycled/ Recyclable Goods. Create the demand for recycled goods." class="invisible">
+  </div>
+
+
+  <div class="_content u-dark-region">
+      
+  <div class="highlight-image">
+    <h2 class="_title visible">How do I recycle at UIC?</h2>
+    <div class="_text"><p>If you work in an office, you should have a small, blue or grey bin for paper recycling and an even smaller black or grey bin for landfill material. You can empty the blue, desk-side recycling bin it into the larger hallway or common area bins whenever it is convenient for you. A Building Service Worker (BSW) will come through to empty the hallway bins. Don&#8217;t be alarmed if you see the BSW place all bags into one cart &#8211; they will separate the bags into the proper containers in the dock area of your building.</p>
+<p>If you need assistance obtaining recycling bins for your office contact us at the link at the bottom of the page.</p>
 </div>
+            <a  href="https://sustainability.uic.edu/green-campus/recycling/how-do-i-recycle-at-uic/" class="_button button">
+      Steps to properly recycle at UIC
+    </a>
+          </div>
+
+  </div>
+
 </div>
-</div> 
-</td> 
-</tr>
-</table> 
-</div> 
-</div> 
-<div id="sites-chrome-footer-wrapper">
-<div id="sites-chrome-footer-wrapper-inside">
-<div id="sites-chrome-footer">
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+        
+
+
+<div class="highlight component-highlight-image
+">
+
+
+  <div class="_image" style="
+  background-image: url('https://sustainability.uic.edu/wp-content/uploads/sites/21/2018/01/Caro-as-EcoEducator-at-the-GSX-550x550.png')
+  ">
+    <img src="https://sustainability.uic.edu/wp-content/uploads/sites/21/2018/01/Caro-as-EcoEducator-at-the-GSX-550x550.png" alt="Eco-Educators help organize boxes of file folders at the Great Stuff Exchange event" class="invisible">
+  </div>
+
+
+  <div class="_content u-dark-region">
+      
+  <div class="highlight-image">
+    <h2 class="_title visible">GSX: Great Stuff Exchange</h2>
+    <div class="_text"><p>The Great Stuff Exchange (GSX) is an office supplies giveaway program. UIC collects items like binders, desk top filing systems, and other office supplies from departments that can no longer use them and makes them available for students, staff and faculty &#8211; for free! All donated items must be in clean and working condition.</p>
 </div>
+            <a  href="https://sustainability.uic.edu/green-campus/recycling/great-stuff-exchange/" class="_button button">
+      Learn what items you can get for free at GSX
+    </a>
+          </div>
+
+  </div>
+
 </div>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+        
+
+
+<div class="highlight component-highlight-image
+">
+
+
+  <div class="_image" style="
+  background-image: url('https://sustainability.uic.edu/wp-content/uploads/sites/21/2018/01/IMG_3510-e1514909836545-550x550.jpg')
+  ">
+    <img src="https://sustainability.uic.edu/wp-content/uploads/sites/21/2018/01/IMG_3510-e1514909836545-550x550.jpg" alt="Pile of old campus electronics like CPU's and boomboxes to be recycled" class="invisible">
+  </div>
+
+
+  <div class="_content u-dark-region">
+      
+  <div class="highlight-image">
+    <h2 class="_title visible">CERC: Campus Electronic Recycling Collection</h2>
+    <div class="_text"><p>Each September, there is a centralized collection event for university-owned electronics. Simply fill out the appropriate paperwork, bring your items and a copy of the FABWEB disposal request, and we will make sure it is recycled properly in accordance with the Illinois Electronic Products Recycling and Reuse Act and the OBFS Equipment Disposal Methods.</p>
 </div>
-</div> 
-</div> 
-<div id="sites-chrome-adminfooter-container">
-<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter" role="navigation"><p><a class="sites-system-link" href="https://accounts.google.com/ServiceLogin?continue=http://sites.google.com/a/uic.edu/hpsc/home&amp;service=jotspot">Sign in</a><span aria-hidden="true">|</span><a class="sites-system-link" href="/system/app/pages/recentChanges">Recent Site Activity</a><span aria-hidden="true">|</span><a class="sites-system-link" href="http://sites.google.com/a/uic.edu/hpsc/system/app/pages/reportAbuse" target="_blank">Report Abuse</a><span aria-hidden="true">|</span><a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a><span aria-hidden="true">|</span><span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com/site">Google Sites</a></b></p></div>
+            <a  href="https://sustainability.uic.edu/green-campus/recycling/cerc/" class="_button button">
+      Discover how to properly recycle electronic products at UIC
+    </a>
+          </div>
+
+  </div>
+
 </div>
-</div> 
-</div> 
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
-    window.jstiming.load.tick('sjl');
-  </script>
-<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/4cd07a/system/js/jot_min_announcements_view__en.js"></script>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
-                JOT_postEvent('moduleLoad');
-              </script>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
-    window.jstiming.load.tick('jl');
-  </script>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
-      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
-    </script>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
-            JOT_setupNav("2bd", "Sidebar", false);
-            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
-          </script>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
-          var domHelper = goog.dom.getDomHelper();
-          var paginatorPageJs = new sites.components.Paginator(domHelper);
-          paginatorPageJs.initListeners('sites-pagination-prev-link-top', 'sites-pagination-next-link-top', 20,
-              0, 10, 'asc', 'announcements');
-        </script>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
-  setTimeout(function() {
-    var fingerprint = gsites.date.TimeZone.getFingerprint([1109635200000, 1128902400000, 1130657000000, 1143333000000, 1143806400000, 1145000000000, 1146380000000, 1152489600000, 1159800000000, 1159500000000, 1162095000000, 1162075000000, 1162105500000]);
-    gsites.Xhr.send('http://hpsc.org.uic.edu/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
-  }, 500);
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+        
+
+
+<div class="highlight component-highlight-image
+">
+
+
+  <div class="_image" style="
+  background-image: url('https://sustainability.uic.edu/wp-content/uploads/sites/21/2018/01/IMG_3154-550x550.jpg')
+  ">
+    <img src="https://sustainability.uic.edu/wp-content/uploads/sites/21/2018/01/IMG_3154-550x550.jpg" alt="500 milliliter volumetric flasks line a table at the LabShare Fest in the College of Medicine Research Building" class="invisible">
+  </div>
+
+
+  <div class="_content u-dark-region">
+      
+  <div class="highlight-image">
+    <h2 class="_title visible">LabShare Program</h2>
+    <div class="_text"><p>UIC accepts donations of unwanted &#8211; but working &#8211; laboratory materials especially glass flasks and beakers, and plastic pipettes and centrifuge tubes. The LabShare program also accepts equipment without university property tags (&#8220;P-Tags&#8221;). Researchers may request these items for use in the lab.</p>
+</div>
+            <a  href="https://sustainability.uic.edu/green-campus/recycling/labshare/" class="_button button">
+      Find out how to donate or obtain used lab supplies
+    </a>
+          </div>
+
+  </div>
+
+</div>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+        
+
+
+<div class="highlight component-highlight-image
+">
+
+
+  <div class="_image" style="
+  background-image: url('https://sustainability.uic.edu/wp-content/uploads/sites/21/2018/01/Eco-Educators-Zero-Waste-Good-Food-Festival-550x550.jpg')
+  ">
+    <img src="https://sustainability.uic.edu/wp-content/uploads/sites/21/2018/01/Eco-Educators-Zero-Waste-Good-Food-Festival-550x550.jpg" alt="UIC Staff, volunteers, and Bright Beat eco-educators weigh recyclables at the Good Food Festival" class="invisible">
+  </div>
+
+
+  <div class="_content u-dark-region">
+      
+  <div class="highlight-image">
+    <h2 class="_title visible">Zero Waste Events</h2>
+    <div class="_text"><p>A Zero Waste event doesn&#8217;t have to be that hard! One of the most critical things in zero waste planning is assuring that 90% of your event’s waste is diverted from landfill. This means reusable, compostable, or recyclable materials are used when needed, You are also participating in resource recovery for donating untouched, packaged items. Carefully differentiating between each material and recognizing the exact materials used may seem like a lot of work, however, we are here to help you through your zero-waste event planning.</p>
+<p>The UIC Zero Waste Planning Guide includes a case study for an example, definitions, a list of operations to be done before, during, and after your event, and a list of sustainable resources. With careful, thought-out planning, zero waste is easy and sustainable!</p>
+</div>
+            <a  href="https://sustainability.uic.edu/green-campus/recycling/zero-waste-events/" class="_button button">
+      Check out this page for resources how to create a zero waste event at UIC!
+    </a>
+          </div>
+
+  </div>
+
+</div>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+        
+
+
+<div class="highlight component-highlight-image
+">
+
+
+  <div class="_image" style="
+  background-image: url('https://sustainability.uic.edu/wp-content/uploads/sites/21/2017/12/UIC_2015-0780-550x550.jpg')
+  ">
+    <img src="https://sustainability.uic.edu/wp-content/uploads/sites/21/2017/12/UIC_2015-0780-550x550.jpg" alt="student working on a laptop" class="invisible">
+  </div>
+
+
+  <div class="_content u-dark-region">
+      
+  <div class="highlight-image">
+    <h2 class="_title visible">Sustainable Purchasing</h2>
+    <div class="_text"><p>It all starts with smart materials.</p>
+<p>It begins when the materials available for use on campus are chosen based on compatibility within our recycling program. If an item (for example, Styrofoam cups) is provided for use on campus, it is everyone’s responsibility to ask why it was chosen in the first place.</p>
+<p>Choosing materials with more recycled content helps the economy and the environment.</p>
+</div>
+            <a  href="https://sustainability.uic.edu/green-campus/recycling/sustainable-purchasing/" class="_button button">
+      Follow these steps to purchase the most sustainable materials for use on campus
+    </a>
+          </div>
+
+  </div>
+
+</div>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+  
+
+
+<div class="highlight component-highlight-contact
+">
+
+
+  
+  <div class="_image" style="
+  background-image: url('https://sustainability.uic.edu/wp-content/uploads/sites/21/2018/11/Composting-2018-550x550.jpg')
+  ">
+    <img src="https://sustainability.uic.edu/wp-content/uploads/sites/21/2018/11/Composting-2018-550x550.jpg" alt="Office of Sustainability undergraduate student employee holds up bags of compost at an event" class="invisible">
+  </div>
+  
+
+  <div class="_content u-dark-region">
+    
+<div class="highlight-contact">
+  <h2 class="_title">Questions about the Recycling Program? Contact Us!</h2>
+    <div class="_address">
+        <span class="_address">1140 S. Paulina Street,</span>
+            <span class="_building">Paulina Street Building,</span>
+              <span class="_mail_code">MC 996,</span>
+            <span class="_city">Chicago,</span>
+            <span class="_state">Illinois</span>
+            <span class="_zipcode">60612</span>
+      </div>
+    <div class="_contactinfo">
+        <div class="_phone"><strong>Phone: </strong><a  href="tel:312-996-2517">312-996-2517</a></div>
+                <div class="_email"><strong>Email: </strong><a  href="mailto:recycling@uic.edu">recycling@uic.edu</a></div>
+          </div>
+  </div>
+
+  </div>
+
+</div>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+  
+  
+    <div class="component-description">
+                    <h2 id="recycling-in-uic-news" class="__title visible">Recycling in UIC News</h2>
+                    </div>
+
+  <ul class="component-link-tile ">
+      <li class="component-link-tile__item component-link-tile__item--regular">
+
+                  <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://today.uic.edu/uic-makes-progress-on-zero-waste-commitment"
+       target="_blank">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--external
+        tile-item__content-container--regular">
+        <div class="
+            tile-item__title
+            tile-item__title--regular">
+            UIC makes progress on ‘Zero Waste’ commitment
+        </div>
+
+        
+                    <div class="tile-item__description">
+                February 14, 2019
+            </div>
+            </div>
+    </a>
+</div>
+
+    </li>
+      <li class="component-link-tile__item component-link-tile__item--regular">
+
+                  <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://www.prnewswire.com/news-releases/bigbelly-awarded-57-million-contract-with-illinois-public-higher-education-cooperative-iphec-300536811.html"
+       target="_blank">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--external
+        tile-item__content-container--regular">
+        <div class="
+            tile-item__title
+            tile-item__title--regular">
+            Bigbelly Awarded $5.7 Million Contract
+        </div>
+
+        
+                    <div class="tile-item__description">
+                October 16, 2017 (PR Newswire)
+            </div>
+            </div>
+    </a>
+</div>
+
+    </li>
+      <li class="component-link-tile__item component-link-tile__item--regular">
+
+                  <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://today.uic.edu/climate-conscious-change-for-campus-waste-disposal"
+       target="_blank">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--external
+        tile-item__content-container--regular">
+        <div class="
+            tile-item__title
+            tile-item__title--regular">
+            Climate-conscious change for campus waste disposal
+        </div>
+
+        
+                    <div class="tile-item__description">
+                September 6, 2016
+            </div>
+            </div>
+    </a>
+</div>
+
+    </li>
+      <li class="component-link-tile__item component-link-tile__item--regular">
+
+                  <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://today.uic.edu/initiative-keeps-labs-safe-from-toxic-chemical-waste"
+       target="_blank">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--external
+        tile-item__content-container--regular">
+        <div class="
+            tile-item__title
+            tile-item__title--regular">
+            Lab safety campaign makes UIC mercury-free
+        </div>
+
+        
+                    <div class="tile-item__description">
+                July 14, 2015
+            </div>
+            </div>
+    </a>
+</div>
+
+    </li>
+      <li class="component-link-tile__item component-link-tile__item--regular">
+
+                  <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://today.uic.edu/recyclemania-program-gets-boost-from-grants"
+       target="_blank">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--external
+        tile-item__content-container--regular">
+        <div class="
+            tile-item__title
+            tile-item__title--regular">
+            Recycling program gets boost from grants
+        </div>
+
+        
+                    <div class="tile-item__description">
+                March 5, 2013
+            </div>
+            </div>
+    </a>
+</div>
+
+    </li>
+    </ul>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+  
+  
+    <div class="component-description">
+                    <h2 id="additional-recycling-related-resources" class="__title visible">Additional Recycling-Related Resources</h2>
+                    </div>
+
+  <ul class="component-link-tile ">
+      <li class="component-link-tile__item component-link-tile__item--regular">
+
+                  <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://sustainability.uic.edu/plans/ccse/"
+       target="_self">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--internal
+        tile-item__content-container--regular">
+        <div class="
+            tile-item__title
+            tile-item__title--regular">
+            Join the CCSE Sustainable Materials Subcommittee
+        </div>
+
+        
+                    <div class="tile-item__description">
+                The Chancellor's Committee on Sustainability &amp; Energy's Grounds subcommittee discusses
+            </div>
+            </div>
+    </a>
+</div>
+
+    </li>
+      <li class="component-link-tile__item component-link-tile__item--regular">
+
+                  <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://sustainability.uic.edu/plans/uicclimatecommitments/zero-waste-campus/"
+       target="_self">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--internal
+        tile-item__content-container--regular">
+        <div class="
+            tile-item__title
+            tile-item__title--regular">
+            Zero Waste Campus
+        </div>
+
+        
+                    <div class="tile-item__description">
+                The second UIC Climate Commitment discusses ways to reduce waste at UIC
+            </div>
+            </div>
+    </a>
+</div>
+
+    </li>
+      <li class="component-link-tile__item component-link-tile__item--regular">
+
+                  <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://sustainability.uic.edu/plans/caip/"
+       target="_self">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--internal
+        tile-item__content-container--regular">
+        <div class="
+            tile-item__title
+            tile-item__title--regular">
+            Climate Action Implementation Plan
+        </div>
+
+        
+                    <div class="tile-item__description">
+                UIC's comprehensive guide to address climate change including sustainable
+ waste management
+            </div>
+            </div>
+    </a>
+</div>
+
+    </li>
+    </ul>
+
+  
+</section>
+
+    
+
+</div>
+
+          </article>
+        </div>
+
+                                            
+                                 
+              
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+
+                      <div class="l-sidebar">
+             <nav role="navigation" id="menu-secondary" aria-label="Secondary Green Campus" class="menu-secondary">
+               <div class="menu-secondary__title-container">
+                 <h2 class="menu-secondary__title"><a  class="menu-secondary__title-link" href="https://sustainability.uic.edu/green-campus/">Green Campus</a></h2>
+                 <a  class="menu-secondary__back-to-content" href="#main">
+                   <svg aria-label="Back to main content" width="32" height="32" viewBox="0 0 32 32">
+                     <title>Back to main content</title>
+                     <g fill="none" fill-rule="evenodd">
+                       <circle class="_circle" fill="#fff" stroke="#007FA5" stroke-width="1" cx="16" cy="16" r="15"/>
+                       <path class="_arrow" d="M16 21v-9M12 15l4-4 4 4" stroke="#001E62" stroke-width="2" stroke-linecap="round"/>
+                     </g>
+                   </svg>
+                 </a>
+               </div>
+
+                <ul  class="menu ">
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-260 current_page_item menu-item-281 menu-item-has-children">
+                    <a  href="/green-campus/recycling/" target="_self"><span>Recycling</span>                          <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-814">
+    <a href="/green-campus/recycling/recyclable-materials/" target="_self"><span>Recyclable Materials</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-813">
+    <a href="/green-campus/recycling/how-do-i-recycle-at-uic/" target="_self"><span>How Do I Recycle at UIC?</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-812">
+    <a href="/green-campus/recycling/great-stuff-exchange/" target="_self"><span>Great Stuff Exchange</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-811">
+    <a href="/green-campus/recycling/cerc/" target="_self"><span>Campus Electronic Recycling Collection (CERC)</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-809">
+    <a href="/green-campus/recycling/labshare/" target="_self"><span>LabShare</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-810 menu-item-has-children">
+    <a href="/green-campus/recycling/zero-waste-events/" target="_self"><span>Zero Waste Events</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1704">
+    <a href="/green-campus/recycling/zero-waste-events/zero-waste-event-planning-guide/" target="_self"><span>Zero Waste Event Planning Guide</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-867">
+    <a href="/green-campus/recycling/sustainable-purchasing/" target="_self"><span>Sustainable Purchasing</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2946">
+    <a href="/green-campus/recycling/paper-waste-reduction/" target="_self"><span>Paper Waste Reduction</span></a>    </li>
+  </ul>
+                  </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-360">
+                    <a  href="/green-campus/bikes/" target="_self"><span>Biking</span></a>                                      </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-361 menu-item-has-children">
+                    <a  href="/green-campus/energy/" target="_self"><span>Energy</span>                          <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-905">
+    <a href="/green-campus/energy/solar-power/" target="_self"><span>Solar Power</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-904">
+    <a href="/green-campus/energy/geothermal-energy/" target="_self"><span>Geothermal Energy</span></a>    </li>
+  </ul>
+                  </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-362 menu-item-has-children">
+                    <a  href="/green-campus/grounds/" target="_self"><span>Grounds</span>                          <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-255 menu-item-has-children">
+    <a href="/green-campus/grounds/trees/" target="_self"><span>Trees</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1174">
+    <a href="/green-campus/grounds/trees/tree-inventory/" target="_self"><span>Tree Inventory</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2111">
+    <a href="/green-campus/grounds/trees/tree-campus-usa/" target="_self"><span>Tree Campus USA</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-715 menu-item-has-children">
+    <a href="/green-campus/grounds/pollinator-habitats/" target="_self"><span>Pollinator Habitats</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1402">
+    <a href="/green-campus/grounds/pollinator-habitats/little-prairie-campus/" target="_self"><span>Little Prairie on the Campus</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3221">
+    <a href="/green-campus/grounds/pollinator-habitats/prairie-garden-maintenance-guide/" target="_self"><span>Prairie Garden Maintenance Guide</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1660">
+    <a href="/green-campus/grounds/pollinator-habitats/bee-campus-usa/" target="_self"><span>Bee Campus USA</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-680">
+    <a href="/green-campus/grounds/green-stormwater-infrastructure/" target="_self"><span>Green Stormwater Infrastructure</span></a>    </li>
+  </ul>
+                  </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-278 menu-item-has-children">
+                    <a  href="/green-campus/green-buildings/" target="_self"><span>Buildings</span>                          <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2278">
+    <a href="/green-campus/green-buildings/leed-tour-of-lincoln-hall/" target="_self"><span>LEED® Tour of Lincoln Hall</span></a>    </li>
+  </ul>
+                  </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-277">
+                    <a  href="/green-campus/green-labs/" target="_self"><span>Laboratories</span></a>                                      </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1170">
+                    <a  href="/green-campus/water/" target="_self"><span>Water</span></a>                                      </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-282">
+                    <a  href="/green-campus/tour/" target="_self"><span>Green Campus Tour – East Side</span></a>                                      </li>
+                                  </ul>
+
+              </nav>
+            </div>
+       
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+
+
+          
+                          </div>
+    </main>
+
+    
+        <footer id="footer" class="footer u-dark-region" role="contentinfo">
+
+  <div class="footer-contact">
+    <div class="l-full">
+
+          <div class="mega-footer-contact">
+
+    <div class="mega-footer-contact__brand mega-footer-contact__brand--wordmark">
+        <div class="footer-logo">
+                        <div class="footer-logo__wordmark-wrapper">
+                <div class="uic-wordmark -large uic-wordmark--mega-footer">
+
+  <div class="_mark">
+    <a href="http://uic.edu" class="uic-logo-icon ">
+ <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ <title>UIC Logo</title>
+ <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
+<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
+</svg>
+</a>
+  </div>
+
+  <div class="_text">
+    <a href="https://sustainability.uic.edu">
+                  <span class="_line">planning,</span>
+              <span class="_line">sustainability </span>
+              <span class="_line">and project</span>
+              <span class="_line">management</span>
+              </a>
+  </div>
+
+</div>
+            </div>
+            </div>
+    </div>
+
+  <div class="mega-footer-contact__menus">
+
+        <div class="mega-footer-contact__quick-menus _quick-menus">
+
+            <nav class="mega-footer-contact__quick-menu" id="menu1" aria-label="footer-menu-1">
+        <h2>Get Involved</h2>
+        <ul id="menu-quick-1" class="menu menu-quick-1" aria-label="Get Involved">
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1276">
+      <a href="/plans/ccse/" target="_self">Chancellor's Committee on Sustainability and Energy</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1275">
+      <a href="/student-experience/eco-volunteer/" target="_self">EcoVolunteer</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1406">
+      <a href="/ecoreps/" target="_self">EcoReps</a>
+    </li>
+  </ul>
+      </nav>
+      
+            <nav class="mega-footer-contact__quick-menu" id="menu2" aria-label="footer-menu-2">
+        <h2>Memberships &amp; Reporting</h2>
+        <ul id="menu-quick-2" class="menu menu-quick-2" aria-label="Memberships &amp; Reporting">
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1342">
+      <a href="http://reporting.secondnature.org/" target="_blank">Second Nature</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1343">
+      <a href="https://stars.aashe.org/institutions/university-of-illinois-chicago-il/report/" target="_blank">AASHE STARS</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1344">
+      <a href="https://bikeleague.org/university" target="_blank">Bicycle Friendly University (BFU℠)</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1345">
+      <a href="https://www.arborday.org/programs/treecampususa/" target="_blank">Tree Campus USA</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1346">
+      <a href="http://www.beecityusa.org/current-bee-campuses.html" target="_blank">Bee Campus USA</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1347">
+      <a href="http://www.onepercentfortheplanet.org/who-we-are/nonprofit-partners" target="_blank">1% for the planet</a>
+    </li>
+  </ul>
+      </nav>
+      
+            <nav class="mega-footer-contact__quick-menu" id="menu3" aria-label="footer-menu-3">
+        <h2>Stay Informed</h2>
+        <ul id="menu-quick-3" class="menu menu-quick-3" aria-label="Stay Informed">
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1500">
+      <a href="https://uofi.uic.edu/gm/subscribe/8572" target="_blank">Subscribe to the Greenlights Newsletter</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1322">
+      <a href="/bam/" target="_self">BAM! Bicycle Advisory Meeting</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1328">
+      <a href="/green-labs-committee/" target="_self">Green Labs Committee</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1341">
+      <a href="/green-internships/" target="_self">Green Internships</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1889">
+      <a href="/news/" target="_self">Office of Sustainability News</a>
+    </li>
+  </ul>
+      </nav>
+      
+    </div>
+    
+        <div class="mega-footer-contact__button-menus">
+      <nav class="mega-footer-contact__button-menu" id="menu4" aria-label="footer-menu-4">
+        <h2 class="assistive-text">Connect with us</h2>
+
+        <ul id="button-menu" class="menu button-menu" aria-label="Connect with us">
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-454">
+      <a href="/staff/" target="_self">Staff</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1303">
+      <a href="/about/" target="_self">About</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1304">
+      <a href="/donate/" target="_self">Donate to Sustainability</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1589">
+      <a href="https://www.vpaa.uillinois.edu/resources/web_privacy" target="_blank">Web Privacy Notice</a>
+    </li>
+  </ul>
+
+      </nav>
+    </div>
+    
+  </div>
+
+  <div class="mega-footer-contact__contact">
+
+    <div class="_contact">
+      <h2>Contact</h2>
+      <div class="site-contact-container">  <div class="site-unit-name"><h3>Office of Planning, Sustainability and Project Management</h3></div>
+      <div class="site-address">1140 S. Paulina St., 150 PSB Chicago, IL 60612</div>
+      <div class="site-phone">Phone: <a  href="tel:(312) 413-9816">(312) 413-9816</a></div>
+        <div class="site-email"><a  href="mailto:sustainability@uic.edu">sustainability@uic.edu</a></div>
+</div>
+      <div class="site-contact-container">        </div>
+    </div>
+
+    <div class="mega-footer-contact__site-social-links">
+       <div aria-label="Social Media Accounts" class="site-social-links">
+  <h2 class="site-social-links__header assistive-text">Social Media Accounts</h2>
+  <ul class="site-social-links__list">
+        <li class="site-social-links__list-item"><a  class="site-social-links__link facebook" href="https://www.facebook.com/SustainableUIC/">
+      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Facebook"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>
+    </a></li>
+                <li class="site-social-links__list-item"><a  class="site-social-links__link twitter" href="https://twitter.com/sustainableuic">
+      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Twitter"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>
+    </a></li>
+            <li class="site-social-links__list-item"><a  class="site-social-links__link instagram" href="https://www.instagram.com/sustainableuic">
+      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Instagram"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>
+    </a></li>
+            <li class="site-social-links__list-item"><a  class="site-social-links__link youtube" href="https://www.youtube.com/user/UICSustainability">
+      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Youtube"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>
+    </a></li>
+          </ul>
+</div>
+    </div>
+  </div>
+</div>
+    
+    </div>
+  </div>
+
+  
+  <div class="footer-uic-menu">
+    <div class="l-full">
+
+      <div aria-label="UIC.edu Links">
+  <h2 class="assistive-text">UIC.edu links</h2>
+  <ul class="uic-footer-menu">
+    <li><strong><a href="https://uic.edu/">UIC.edu</a></strong></li>
+    <li><a href="https://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></li>
+    <li><a href="https://uicflames.com/">Athletics</a></li>
+    <li><a href="https://www.uic.edu/apps/departments-az/search">Campus Directory</a></li>
+    <li><a href="https://disabilityresources.uic.edu/">Disability Resources</a></li>
+    <li><a href="https://emergency.uic.edu/">Emergency Information</a></li>
+    <li><a href="https://today.uic.edu/events">Event Calendar</a></li>
+    <li><a href="https://uic.edu/about/job-opportunities">Job Openings</a></li>
+    <li><a href="https://library.uic.edu/">Library</a></li>
+    <li><a href="https://maps.uic.edu/">Maps</a></li>
+    <li><a href="https://ready.uic.edu/digital-materials/uic-safe-mobile-app/">UIC Safe Mobile App</a></li>
+    <li><a href="https://today.uic.edu/">UIC Today</a></li>
+    <li><a href="https://uihealth.uic.edu/">UI Health</a></li>
+    <li><a href="https://dos.uic.edu/student-veterans-affairs/">Veterans Affairs</a></li>
+  </ul>
+</div>
+
+    </div>
+  </div>
+
+  <div class="footer-legal">
+    <div class="l-full">
+
+      <div class="red-version">Powered by Red 2.38.0</div>
+
+<div class="site-copyright">
+  &copy; 2020 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
+  <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a>
+</div>
+
+<div class="campuses" aria-label="Campuses">
+  <h2 class="assistive-text">Campuses</h2>
+  <ul class="campuses-list">
+    <li><a href="https://www.uillinois.edu/">University of Illinois System</a></li>
+    <li><a href="https://illinois.edu/">Urbana-Champaign</a></li>
+    <li><a href="https://www.uis.edu/">Springfield</a></li>
+  </ul>
+</div>
+<div class="cookie-banner">
+  <div id="footer-bottom">
+    <a class="optanon-show-settings">Cookie Settings</a>
+  </div>
+</div>
+    </div>
+  </div>
+
+</footer>
+
+	    </div>
+
+
+  <!-- Instagram Feed JS -->
+<script type="text/javascript">
+var sbiajaxurl = "https://sustainability.uic.edu/wp-admin/admin-ajax.php";
+</script>
+<script type='text/javascript' src='https://sustainability.uic.edu/wp-content/themes/uic-red/js-utilities/splash-page.js?ver=1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sb_instagram_js_options = {"sb_instagram_at":"","font_method":"svg"};
+/* ]]> */
 </script>
-<script xmlns="http://www.w3.org/1999/xhtml">
-                    window.onload = function() {
-                      if (false) {
-                        JOT_setMobilePreview();
-                      }
-                      var loadTimer = window.jstiming.load;
-                      loadTimer.tick("ol");
-                      loadTimer["name"] = "load," + webspace.page.type + ",user_page";
-                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
-                    }
-                  </script>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
-        JOT_insertAnalyticsCode(false,
-            false);
-      </script>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
-    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
-        webspace, "en");
-    maestroRunner.initListeners();
-    maestroRunner.installEditRender();
-  </script>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
-  //<![CDATA[
-    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
-    if (webspace.user.hasWriteAccess) {
-      JOT_decorateButtons();
-    }
+<script type='text/javascript' src='https://sustainability.uic.edu/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.12.1'></script>
+<script type='text/javascript' src='https://sustainability.uic.edu/wp-content/plugins/uic-red/js-admin/uic-publish-post-settings.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://sustainability.uic.edu/wp-content/plugins/uic-red/js-admin/acf-field-group-toggle.js?ver=1.0.0'></script>
+<script type='text/javascript' src='//www.uic.edu/apps/web-alert/alert.js?ver=3'></script>
+<script type='text/javascript' src='https://sustainability.uic.edu/wp-content/themes/uic-red/js/main.js?ver=1'></script>
+<script type='text/javascript' src='https://sustainability.uic.edu/wp-includes/js/wp-embed.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
 
-    // Fires delayed events.
-    (function() {
-      JOT_fullyLoaded = true;
-      var delayedEvents = JOT_delayedEvents;
-      for (var x = 0; x < delayedEvents.length; x++) {
-        var event = delayedEvents[x];
-        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
-      }
-      JOT_delayedEvents = null;
-      JOT_postEvent('pageLoaded');
-    })();
-  //]]>
-</script>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
-    JOT_postEvent('decorateGvizCharts');
-  </script>
-<script type="text/javascript">
-          JOT_setupPostRenderingManager();
-        </script>
-<script type="text/javascript">
-          JOT_postEvent('renderPlus', null, 'sites-chrome-main');
-        </script>
-<script type="text/javascript">
-          sites.codeembed.init();
-        </script>
-<div id="server-timer-div" style="display:none"> </div>
-<script type="text/javascript">
-          window.jstiming.load.tick('render');
-          JOT_postEvent('usercontentrendered', this);
-        </script>
-</body>
+
+
+  
+  
+  <script async src="https://cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js" type="text/javascript" charset="UTF-8"></script>
+
+  </body>
 </html>

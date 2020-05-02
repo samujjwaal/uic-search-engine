@@ -1,355 +1,327 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!-- InstanceBegin template="/templates/current_students_template.dwt" codeOutsideHTMLIsLocked="false" --> <!--<![endif]-->
+<html lang="en">
+
 <head>
-    <!-- Basic Page Needs
-    ================================================== -->
+
     <meta charset="utf-8">
-    <!-- InstanceBeginEditable name="doctitle" -->
-    <title>Transcripts | UIC Office of the Registrar</title>
-    <!-- InstanceEndEditable -->
-    <meta name="author" content="University of Illinois at Chicago">
-    <meta name="keywords" content="University of Illinois at Chicago, Chicago, UIC, Registrar, UIC Registrar">
-    <!-- Mobile Specific Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!-- CSS -->
-    <link href="../../assets/css/layout.css" rel="stylesheet" type="text/css" media="screen">
-    <link href="../../assets/css/main.css" rel="stylesheet" type="text/css" media="screen">
-    <link href="../../assets/css/header_red.css" rel="stylesheet" type="text/css" media="screen">
-    <link href="../../assets/css/print.css" rel="stylesheet" type="text/css" media="print">
-    <!--[if lt IE 9]>
-    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,700,600,800%7COpen+Sans+Condensed:300,300italic,700%7CShadows+Into+Light+Two" rel="stylesheet" type="text/css">
-    <!--[if lte IE 9]>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:800italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
-    <![endif]-->
-    <!-- Favicons -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
-    <script src="/assets/js/cookielaw.js"></script>
-    <script src="../../assets/js/respond.js"></script>
-    <script src="../../assets/js/rwd-nav.js"></script>
-    <script src="../../assets/js/analytics.js"></script>
-    <script src="../../assets/js/nav-menu-slider.js" type="text/javascript"></script>
-    <script src="../../assets/js/search-bar-replace-txt.js" type="text/javascript"></script>
-    <script src="../../assets/js/breadcrumb.js" type="text/javascript"></script>
-    <script src="../../assets/js/notification.js" type="text/javascript"></script>
-    <!-- topmenu -->
-    <!-- topmenu -->
-    <!-- InstanceBeginEditable name="head" -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Flames Tutoring Network</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+    
+     <!-- Custom CSS -->
+    <link href="css/business-frontpage.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+    <!-- Custom RSS -->
+    <link href="css/FeedEk.css" rel="stylesheet" type="text/css" />
+
     <style>
-        #content{
-            box-sizing:border-box;
-            padding-right:15px;
-        }
-        th {
-            text-align: center;
-            vertical-align: middle;
-        }
-        td {
-            padding: 1em;
-        }
-        td ul {
-             -webkit-margin-before: 0;
-             -webkit-margin-after: 0;
-             -webkit-margin-start: 0px;
-             -webkit-margin-end: 0px;
-             -webkit-padding-start: 0;
-             padding: .5em;
-         }
-        td ul li {
-            padding: 0 !important;
-            margin-bottom: 1em;
-        }
-        span.highlight {
-            background: yellow;
-        }
+       #map {
+        height: 400px;
+        width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+       }
     </style>
-    <!-- InstanceEndEditable -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- Google Analytics -->
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-24534543-3', 'auto');
+  ga('send', 'pageview');
+    
+    </script>
+    
+    <!--emergency alert added by Kathyy-->
+    <script type="text/javascript" 
+      src="//www.uic.edu/inc/emergency/alert.js">
+    </script>
+
+
+
 </head>
-<body onload="showMenu()">
-<div id="top" role="banner">
-    <div id="header">
-        <a href="../../index.html">
-            <img alt="UIC Office of the Registrar" src="../../assets/images/registrar-logo-white.png" class="logo">
-            <img alt="UIC Office of the Registrar" src="../../assets/images/registrar-logo-red.png" class="logo-print"></a>
-        <div id="topNav_01">
-            <div id="topLinks">
-                <a href="../transcripts/">Transcripts</a>
-                <a href="/registration/">Registration</a>
-                <a href="../../contact/">Contact us</a>
-                <a href="http://www.uic.edu">UIC Home</a>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.shtml">
+                	<img src="img/logo.png" alt="UIC Flames Tutoring Network" width="250" height="42"/>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="schedule.shtml">SCHEDULING</a>
+                    </li>
+					 <li>
+                        <a href="tipresource.shtml">TIPS & RESOURCES </a>
+                    </li>
+                     <li>
+                        <a href="testimonial.shtml">TESTIMONIALS</a>
+                    </li>
+                           	
+                   <li>
+                        <a href="location.shtml">LOCATION</a>
+                    </li>
+                   	
+                    <li>
+                        <a href="contact.shtml">CONTACT</a>
+                    </li>
+                  
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>   <!-- Header Banner -->
+   
+
+
+<div class="row">
+
+<div class="jumbotron tinted-img" style="padding-left:25%; padding-right:25%;">
+  <h1 style="color:white;"> Ignite your learning!</h1>
+
+  <p style="color:white;">Ignite your learning by taking advantage of these resources we have for academic success.  <br/><span style="color:#F0AD4E;"><strong>#igniteyourlearning</strong></span></p>
+</div>
+</div>
+
+
+
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Main Content -->
+       <div class="col-sm-12 col-md-9 ">
+         <div class="row">
+              <h1 class="page-header"> Welcome Students</h1>
+              <p style="text-align: justify;">The Flames Tutoring Network (FTN) brings together our campus units that offer tutoring, peer led study groups, instructional/educational support and other learning related services for you, our UIC students.  The FTN provides a common space for information on the services provided to optimize your success.  Each of the Partners in the FTN provides a dynamic, comprehensive approach to assisting you on your academic journey. The Flames Tutoring Network will allow you as a student to customize your plan for success and ignite your learning at UIC!</p> 
+              <br>
+              
+         </div>  
+         
+        
+        <!-- /.row -->
+
+        <!-- Portfolio Section -->
+        
+        <!-- /.row -->
+
+   <!-- Features Section -->
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="page-header">Did You Know?</h2>
+          </div>            
+          <div class="col-sm-12" style="text-align: justify; align-items: center; vertical-align: central;">
+            <p>
+              Did you know that the Flames Tutoring Network offers many services geared to assist your learning process? Did you know there are 14 partners in the Flames Tutoring Network offering different types of academic help – peer tutoring, academic skills help, group study, supplemental instruction, office hours, etc.? Did you know you can develop your own learning community on campus? You can also customize a learning plan for academic success! These offices will help you figure out what is best for you to enhance your learning. 
+            </p>  
+          </div>
+          <div class="col-sm-12">
+            <h2 class="page-header">Finish in Four</h2>
+            <h5 style="text-align:center;">Taking advantage of these resources will help you graduate on time.</h5>
+            <a href="http://finishinfour.uic.edu/"><img class="img-responsive" src="img/LASfinishinfour.png" alt=""><br></a>
+          </div>
+        </div>
+</div>
+        
+<br>
+       
+        <!-- Side Bar -->
+   <div class="col-sm-12 col-md-3 " aria-hidden="true" style="margin-top:0px; margin-bottom:21px;">
+            
+            <div class="panel panel-danger">
+  				<div class="panel-heading">
+    				<h3 class="panel-title"><i class="fa fa-fire"></i> <strong>TUTORING NETWORK</strong></h3>
+  				</div>
+ 				 	<div class="panel-body" >
+   					 <a href = "https://ace.uic.edu/" > Academic Center for Excellence(ACE)</a>
+  					</div>
+                    <div class="panel-body">
+   					 <a href = " https://ahs.uic.edu/inside-ahs/student-resources/support/tutoring-schedule-and-staff/" > Academic Support and Achievement Program(ASAP)</a>
+  					</div>
+                    <div class="panel-body">
+   					 <a href = "https://aaan.uic.edu/" > African American Academic Network(AAAN)</a>
+  					</div>
+                    <div class="panel-body">
+   					<a href = "http://uicflames.com/facilities/?id=14" > Athletics Academic Services, Port Academic Center</a>
+      					</div>
+                    <div class="panel-body">
+   					 <a href = "https://businessconnect.uic.edu/?q=student-services/business-learning-center" > Business Learning Center(BLC)</a>
+  					</div>
+                      <div class="panel-body">
+   					 <a href = "http://www.housing.uic.edu/" > Campus Housing</a>
+  					</div>
+					<div class="panel-body">
+   					 <a href = "http://lcsl.uic.edu/lcsl/for-majors-and-minors/1650" > Language and Writing Studio</a>
+  					</div>
+					<div class="panel-body">
+   					 <a href = "https://lares.uic.edu/" > Latin American Recruitment and Education Services Program(LARES)</a>
+  					</div>
+				<!--	<div class="panel-body">
+   					 <a href = "https://www.math.uic.edu/mslc/" > Mathematical Sciences Learning Center</a>
+  					</div>-->
+  					
+  					<div class="panel-body">
+   					 <a href = "https://mslc.uic.edu/" > Math and Science Learning Center(MSLC)</a>
+  					</div>
+					<div class="panel-body">
+   					 <a href = "http://merrp.engr.uic.edu/" > Minority Engineering Recruitment and Retention Program(MERRP)</a>
+  					</div>
+					<!--<div class="panel-body">
+   					 <a href = "http://www2.chem.uic.edu/slc/" > Science Learning Center</a>
+      					</div>-->
+					<div class="panel-body">
+   					 <a href = "https://trio.uic.edu/" > TRIO Academic Support Program</a>
+  					</div>
+					<div class="panel-body">
+   					 <a href = "http://www.honors.uic.edu/" > UIC Honors College</a>
+      					</div>
+					<div class="panel-body">
+   					 <a href = "http://writingcenter.uic.edu/" > Writing Center</a>
+  					</div>
+					<div class="panel-body">
+   					 <a href = "https://www.cs.uic.edu/" > Department of Computer Science</a>
+  					</div>
+  					<div class="panel-body">
+   					 <a href = "https://lclc.uic.edu/peer-tutoring/" > LCLC Language Peer Tutoring</a>
+  					</div>
+			</div>
+<!--
+		   <div class=" rssDiv panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title"><em class="fa fa-calendar-o"></em> <strong>EVENTS</strong></h3>
+  </div>
+  <div class="panel-body" id="divRss3">
+    
+    </div>
+  </div>-->
+  
+<!--  <div class="embed-responsive embed-responsive-16by9">
+                           <iframe src = "https://www.youtube.com/embed/BflExIO5UlI" frameborder="0" allowfullscreen></iframe> <br><br>
+           </div>-->
+<br>
+<!--
+           <div class="panel panel-danger">
+  				<div class="panel-heading">
+    				<h3 class="panel-title"><strong>Log in to UIC Careers</strong></h3>
+  				</div>
+         	 <ul class="nav nav-pills nav-stacked">
+         		 <li>
+          			<a href = "https://uic-csm.symplicity.com/students/index.php" style="color:blue;"><strong>UIC Careers Student Log In</strong></a>
+          		</li>
+          		<li>
+          			<a href = "https://uic-csm.symplicity.com/employers/index.php" style="color:blue;"><strong>UIC Careers Employer Log In</strong></a>
+          		</li>
+          		<li>
+          			<a href = "https://uic-csm.symplicity.com/manager/index.php" style="color:blue;"><strong>UIC Careers Staff Log In</strong></a>
+          		</li>
+          
+          	</ul>
+         </div>-->
+  
+</div>
+
+            
+           
+
+
+       </div> 
+        
+    <!-- /.container -->
+
+<!-- Footer -->
+       
+  <!-- Footer -->
+    <footer class="footer-content" style="background-image:url(img/footer2.jpg);">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-9">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="index.shtml">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+						<li>
+                            <a href="schedule.shtml">Scheduling</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="tipresource.shtml">Tips & Resources</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+						<li>
+                            <a href="testimonial.shtml">Testimonials</a>
+                        </li>						
+						<li class="footer-menu-divider">&sdot;</li>
+						<li>
+                            <a href="faq.shtml">FAQ</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>              
+                        <li>
+                            <a href="location.shtml">Location</a>
+                        </li>
+                        
+                        <li class="footer-menu-divider">&sdot;</li>
+						<li>
+                            <a href="contact.shtml">Contact</a>
+                        </li>
+						
+                    </ul>
+                    <p> © 2016 The Board of Trustees of the University of Illinois  | <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a></p>
+                </div>
+                <div class="col-lg-3">
+                <img src="img/SSIlogo.PNG" width="200" alt=""/> 
+                </div>
             </div>
         </div>
-        <div id="search" role="search">
-            <form action="https://registrar.uic.edu/search/" id="cse-search-box">
-                <label for="vaquestion" class="offPage">Search:</label>
-                <input name="cx" value="013828019967465427494:hgaggi0gegq" type="hidden">
-                <input value="FORID:11" name="cof" type="hidden">
-                <input name="ie" value="UTF-8" type="hidden">
-                <input name="q" class="searchText" id="vaquestion" size="20" maxlength="200" placeholder="enter your question" onfocus="clickTextbox(this.id)" onblur="blurTextbox(this.id)" type="text" value="Search website..." />
+    </footer>
 
-                <input name="sa" id="btnask" value="Search" type="submit">
-            </form>
-        </div>
-    </div>
-</div>
-<div id="container">
-    <div id="menu" class="menu" role="menubar">
-        <h2 class="offPage">Top Navigation</h2>
-        <ul id="topNav2" class="topNav2">
-            <li class="top-level rightMenu item-with-ul"><a href="../../current_students/" class="topLVL link-with-ul">Current Students</a>
-                <h3 class="offPage">Current Students</h3>
-                <ul class="sub-menu" role="menuitem">
-                    <li class="subLVL"><a href="../../registration/">Registration Services</a></li>
-                    <li class="subLVL"><a href="../../current_students/calendars/">Calendars</a></li>
-                    <li class="subLVL"><a href="../../financial_matters/">Financial Matters</a></li>
-                    <li class="subLVL"><a href="../../student_records/">Student Records</a></li>
-                    <li class="subLVL"><a href="../transcripts/">Transcripts</a></li>
-                    <li class="subLVL"><a href="../../campus_policies/">Campus Policies</a></li>
-                </ul>
-            </li>
-            <li class="top-level item-with-ul"><a href="../../current_students/" class="topLVL link-with-ul">Former Students</a>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-                <h3 class="offPage">Former Students</h3>
-                <ul class="sub-menu" role="menuitem">
-                    <li class="subLVL"><a href="../../current_students/calendars/">Calendars</a></li>
-                    <li class="subLVL"><a href="../../student_records/">Student Records</a></li>
-                    <li class="subLVL"><a href="../transcripts/">Transcripts</a></li>
-                    <li class="subLVL"><a href="../../campus_policies/">Campus Policies</a></li>
-                </ul>
-            </li>
-            <li class="top-level item-with-ul"><a href="https://registrar.uic.edu/uic_faculty_staff/" class="topLVL link-with-ul">Faculty &amp; Staff</a>
-                <h3 class="offPage">Faculty &amp; Staff</h3>
-                <ul class="sub-menu" role="menuitem">
-                    <li class="subLVL"><a href="../../uic_faculty_staff/classroom_scheduling/">Classroom Scheduling</a></li>
-                    <li  class="subLVL"><a href="../../uic_faculty_staff/faculty_self_service/">Faculty Self-Service</a></li>
-                    <li class="subLVL"><a href="../../uic_faculty_staff/calendars/">Calendars</a></li>
-                    <li class="subLVL"><a href="../../uic_faculty_staff/classes.html">Classes</a></li>
-                    <li class="subLVL"><a href="../../uic_faculty_staff/grades/">Grades</a></li>
-                    <li class="subLVL"><a href="../../uic_faculty_staff/registration/">Registration</a></li>
-                    <li class="subLVL"><a href="http://uic.verbacollect.com">Textbook Adoption</a></li>
-                    <li class="subLVL"><a href="../../uic_faculty_staff/student_records_policy/">Student Records Policy</a></li>
-                </ul>
-            </li>
-            <li class="top-level item-with-ul"><a href="https://registrar.uic.edu/uic_faculty_staff/" class="topLVL link-with-ul">Other Links...</a>
-                <h3 class="offPage">Other Links... sub-category</h3>
-                <ul class="sub-menu" role="menuitem">
-                    <li class="subLVL"><a href="https://admissions.uic.edu/undergraduate">Prospective Students</a></li>
-                    <li class="subLVL"><a href="https://aes.uic.edu/aes-staff/">AES Staff</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div> <!-- // end div menu -->
-    <div class="embed-notification"><p></p></div>
-    <div id="leftNav" role="complementary">
-        <span class="offPage">Section navigation</span>
-        <ul>
-            <li class="nav-current"><a href="#">Go to Section...</a></li>
-            <li><a href="/registration/">Registration Services</a></li>
-            <li><a href="../../current_students/calendars/">Calendars</a></li>
-            <li><a href="../../financial_matters/">Financial Matters</a></li>
-            <li><a href="../../student_records/">Student Records</a></li>
-            <li><a href="../transcripts/">Transcripts</a></li>
-            <li><a href="../../campus_policies/">Campus Policies</a></li>
-        </ul>
-    </div><!-- // end div leftnav -->
-    <nav id="breadcrumb" role="navigation">
-        <!-- InstanceBeginEditable name="breadcrumb" -->
-        <a href="../../index.html">Home</a> &raquo; <a href="./">Student Records</a> &raquo; Transcripts	    <!-- InstanceEndEditable -->
-    </nav><!-- // end div breadcrumb -->
-    <div id="content" role="main">
-        <!-- InstanceBeginEditable name="content" --><!-- #BeginLibraryItem "/Library/transcripts.lbi" -->
-        <h1>Transcripts</h1>
-        <blockquote>
-            <p style="margin-top: 1em;color: red; font-weight: bold;">NOTE: Due to social distancing mandates related to COVID-19, we will not have pickup service for transcripts until further notice.</p>
-        </blockquote>
-        <p>The official transcript is the University's statement of a student's academic record issued by the Office of the Registrar. It lists all courses completed and grades earned in chronological order by term. Transcripts also contain notations of distinctions, transfer coursework summary, academic status, administrative actions and degrees received.</p>
-        <p>Immediately after a term's final exams have ended, transcripts listing final grades may not be available for a period of up to two weeks. Transcripts listing final degree awarded may not be available for a period of four to six weeks following final exams of the final term in which the degree is earned. Transcripts will not be released if there is a hold on the student's record.</p>
-        <table border="0" cellspacing="1" cellpadding="4">
-            <caption>
-                Summary of transcript ordering options with cost and delivery  details
-            </caption>
-            <tr>
-                <th valign="top">Transcript Type</th>
-                <th valign="top">Ordering Method</th>
-                <th valign="top">Processing &amp; Delivery</th>
-                <th valign="top">Price</th>
-                <th valign="top">Details</th>
-            </tr>
-
-            <tr>
-                <td><strong>Electronic Transcript</strong></td>
-                <td>Online</td>
-                <td><strong>Next Business Day or Sooner</strong><br>
-                    (via secured PDF e-mail)</td>
-                <td>$14.35 per copy<br><br>$12 per copy +<br>
-                    $2.35 service charge, per copy.</td>
-                <td>
-                    <ul>
-                        <li>The option to request electronic/PDF delivery <strong>appears in the final stages of ordering</strong>.</li>
-                        <li>You will be asked to provide a postal address for a recipient prior to selecting electronic/PDF delivery.</li>
-                    </ul>
-                    <p>Visit <a href="https://www.credentials-inc.com/CGI-BIN/frontcgi.pgm?ALUMNI001776" title="Crendetial Solutions Electronic Transcript Order Form" target="_blank">Order Electronic Transcript</a> page.</p>
-                </td>
-            </tr>
-
-            <tr>
-                <td rowspan="3"><strong>Paper Transcript</strong></td>
-                <td rowspan="2">Online</td>
-                <td rowspan="2"><strong>3-5 Business Days for Processing</strong><br>
-                    (via first class mail)</td>
-                <td>$16.65 per copy<br><br>$12 per copy + <br/> $2.35 service charge and $2.30 postal charge per copy. Express delivery available at extra cost.</td>
-                <td><strong>Current Students:</strong> - order paper transcripts from <a href="http://my.uic.edu"><strong>my.uic.edu</strong></a><br>
-                    (Once logged in, search for Transcript Ordering.)<br></td>
-            </tr>
-
-            <tr>
-                <td>$16.65 per copy<br><br>$12 per copy + <br/> $2.35 service charge and $2.30 postal charge per copy. Express delivery available at extra cost.</td>
-                <td><strong>Non-current students</strong>: <a href="https://www.credentials-inc.com/CGI-BIN/dvcgitp.pgm?ALUMTRO001776" title="Credential Solutions Transcript Order Form" target="_blank">order paper transcripts from non-current-student system</a><br>
-                </td>
-            </tr>
-
-            <tr>
-                <td>In writing</td>
-                <td><strong>3-5 Business Days for Processing</strong><br>
-                    (via first class mail)</td>
-                <td>$12 per copy</td>
-                <td>See section below about ordering transcripts in writing.</td>
-            </tr>
-            <tr>
-                <td><strong>Current Student Academic History </strong></td>
-                <td>Online</td>
-                <td><strong>Immediate</strong></td>
-                <td>Free</td>
-                <td>Current students can view and print academic history via <a href="http://my.uic.edu">my.UIC.edu</a>.</td>
-            </tr>
-        </table>
-        <p><a href="https://www.credentials-inc.com/cgi-bin/rechkcgi.pgm?TPORDER" title="Credential Solutions Order Status">Check the status of your order.</a></p>
-        <h2><a name="online"></a>Ordering Transcripts Online</h2>
-        <h3>Current students</h3>
-        <p>Once logged in to <a href="http://my.uic.edu">my.uic.edu</a>, search for Transcript Ordering.  Indicate postal mailing address.</p>
-
-        <h3>All others</h3>
-        <p>If you are unable to access <a href="http://my.uic.edu">my.UIC.edu</a>, you can still <a href="https://www.credentials-inc.com/CGI-BIN/dvcgitp.pgm?ALUMTRO001776" title="Credential Solutions Transcripts Order Form">order transcripts from an online system</a>. University Identification Number (UIN) is requested to assist us in processing your request. If you were enrolled in 1981 or later, you may have had a UIN assigned to you.  If you have difficulty retrieving your UIN, the Transcripts Office can process your transcript request using other information about you.  You'll need your SSN and birthday to <a href="https://www.icardnet.uillinois.edu/public/uin-find.cfm">look up your UIN</a>.</p>
-        <p>The site will walk you through placing your order, including delivery options and fees. You can order as many transcripts as you like in a single session. A $2.35 processing fee will be charged per copy with additional fees for first class postal mailing, or express mailing of transcripts. Order updates will be emailed to all requestors and updates can be sent through cell phone texts if you choose. </p>
-        <h3>All Students  who seek speedy secured delivery via e-mail</h3>
-        <p><a href="https://www.credentials-inc.com/CGI-BIN/frontcgi.pgm?ALUMNI001776" title="Credential Solutions Transcripts Order Form" target="_blank">Order electronic transcript</a></p>
-        <p>Please make sure that your recipient accepts transcripts via e-mailed secure PDF and that you have the correct email address.  University Identification Number (UIN) is requested to assist us in processing your request. If you were enrolled in 1981 or later, you may have had a UIN assigned to you.  If you have difficulty retrieving your UIN, the Transcripts Office can process your transcript request using other information about you. Social Security Number and birthday is required to <a href="https://www.icardnet.uillinois.edu/public/uin-find.cfm">look up your UIN</a>.  Cost per electronic copy is $14.35.</p>
-        <h2><a name="writing"></a>Ordering Transcripts in Writing</h2>
-        <p>If you do not have  access to the Internet or use of a credit card, transcripts may also be requested in writing. Print and complete the <a href="/forms/UIC-transcript_request_form.pdf" title="Transcript Request Form">Transcript Request Form</a>, or write a letter providing the information below:</p>
-        <ul type="disc">
-            <li>Full name (please include maiden name if applicable) </li>
-            <li>University Identification Number (UIN) is  requested to assist us in processing your request. If you were enrolled in 1981  or later, you may have had a UIN assigned to you.  If you have difficulty retrieving your UIN,  the Transcripts Office can process your transcript request using other information  about you. You'll need your SSN and birthday to <a href="https://www.icardnet.uillinois.edu/public/uin-find.cfm" target="_blank">look up your UIN</a> </li>
-            <li>Social Security Number (SSN) is optional. If UIN unavailable, providing a SSN will greatly aid us in locating records. </li>
-            <li>Current address </li>
-            <li>Date of birth </li>
-            <li>Dates of attendance </li>
-            <li>Student's college </li>
-            <li>UIC Degree(s) </li>
-            <li>Name(s) and address(es) to where transcript(s) will be sent </li>
-            <li>Student's original signature (unsigned requests <em>cannot</em> be processed) </li>
-            <li>A check or money order payable to the 'University of Illinois at Chicago'. Cost is $12 per copy.</li>
-        </ul>
-        <p><em>Mail your request to:</em><br>
-            Office of the Registrar (MC 018)<br/>
-            University of Illinois at Chicago<br/>
-            Suite 1200 Student Services Building<br/>
-            1200 West Harrison Street<br>
-            Chicago, Illinois 60607-7161</p>
-
-        <h2>First class mail delivery</h2>
-        <p>Please note that transcripts are mailed first class standard via the United States Postal Service. If you require express mail service delivery of paper transcripts, select that option when ordering online.</p>
-
-        <h2 id="co-curricular-transcript">Co-Curricular Transcript</h2>
-        <p>A Co-Curricular Transcript provides an official record of out-of-the-classroom student involvement, participation, awards, honors, and certificates.  Co-Curricular Transcripts may include: student organization involvement, student organization leadership, community service, leadership training, workshops and seminars, awards, honors, and certifications.</p>
-        <p>To order a Co-Curricular Transcript for current students visit: <a href="https://impact.uic.edu/" title="Student Affirs: UIC Impact Page"  target="_blank">https://impact.uic.edu/</a> and under Quick Links select Order a Co-Curricular Transcript on the right hand side of the webpage.</p>
-        <!--
-        <p>To order a Co-Curricular Transcript if you have been away from the university for 6 months or more: email your Co-Curricular Transcript request (with subject line: Co-curricular Transcript Request) to <a href="mailto:uicimpact@uic.edu">uicimpact@uic.edu</a>. Please include your name at time of attendance, net id, dates of attendance, and University Identification Number (UIN) in the body of the email.  Please call 312-413-5070 with any questions regarding the Co-Curricular Transcript.</p>
-        -->
-        <h2>Special Notice for former students of the Michael Reese School of Nursing</h2>
-        <p>Transcripts from the Michael Reese School of Nursing may be obtained from the University of Illinois at Chicago (UIC).  Print and complete the <a href="/forms/transcript-request_Michael-Reese.pdf" target="_blank">Michael Reese School of Nursing Transcript Request Form</a>, or write a letter providing the information below:</p>
-        <ul>
-            <li>Full name (please include maiden name if applicable)</li>
-            <li>Social Security Number (SSN) is optional, providing a SSN will greatly aid us in locating records.</li>
-            <li>Current address</li>
-            <li>Date of birth</li>
-            <li>Dates of attendance</li>
-            <li>Name(s) and address(es) to where transcript(s) will be sent</li>
-            <li>Student's original signature (unsigned requests cannot be processed)</li>
-            <li>A check or money order payable to the 'University of Illinois at Chicago'. Cost is $22 per copy.</li>
-        </ul>
-        <p>Mail your request to:</p>
-        <pre>
-            Office of the Registrar (MC 018)
-            University of Illinois at Chicago
-            Suite 1200 Student Services Building
-            1200 West Harrison Street
-            Chicago, Illinois 60607-7161
-        </pre>
-
-        <h2>Additional Information</h2>
-        <p>For additional information on transcripts please contact the <a href="mailto:TSCRIPTSLIST@listserv.uic.edu">Transcripts Department</a>.</p>
-        <!-- #EndLibraryItem --><p>&nbsp;</p>
-
-        <!-- InstanceEndEditable -->
-        <p class="last">&nbsp;</p>
-    </div> <!-- // end div content -->
-</div> <!-- // end div container -->
-<div id="bottom" role="contentinfo">
-    <div id="footer">
-        <div class="bottomNav">
-            <h2>Office of the Registrar, MC 018</h2>
-            <ul>
-                <li>University of Illinois at Chicago</li>
-                <li>Suite 1200 Student Services Building</li>
-                <li>1200 West Harrison Street</li>
-                <li>Chicago, Illinois 60607-7161</li>
-                <li>312-996-4350</li>
-            </ul>
-            <h2>Hours of Operation</h2>
-            <ul>
-                <li>Monday - Friday, 8:30-5:00pm</li>
-            </ul>
-        </div>
-        <!-- end of div bottomNav -->
-        <div class="bottomNav">
-            <h2><a href="../../current_students/">UIC Office of the Registrar</a></h2>
-            <ul>
-                <li> </li>
-                <li> <a href="../../current_students/">Current &amp; Former Students</a></li>
-                <li><a href="../../uic_faculty_staff/">UIC Faculty &amp; Staff</a></li>
-            </ul>
-            <h2><a href="../../contact/">Contact us!</a></h2>
-            <ul>
-                <li><a href="../../contact/form_current_students.html">Registrar Webform</a></li>
-                <li><a href="mailto:aes_webmaster@helpdesk.uic.edu?subject=Registrar Website">Webmaster</a></li>
-                <li><a href="../../sitemap">Sitemap</a></li>
-            </ul>
-        </div>
-        <!-- end of div bottomNav -->
-        <img class="bottomImage" src="../../assets/images/uic-logo-mark-wht.png" alt="UIC Sign in front of Chicago Skyline">
-        <img class="bottomImage-print" src="../../assets/images/uic-logo-mark-red.png" alt="UIC Sign in front of Chicago Skyline">
-    </div>
-    <!--OneTrust Cookies Settings button start -->
-    <a class="optanon-show-settings">CookieSettings</a>
-    <!--OneTrust Cookies Settings button end -->
-</div>
-<!-- Classic Analytics -->
-</body>
-<!-- InstanceEnd --></html>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+
+
+</body>
+
+</html>

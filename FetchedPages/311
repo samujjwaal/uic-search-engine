@@ -2,7 +2,7 @@
 <html lang="en" class="no-js">
 <head>
         <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-WXRNQ8');</script> <!-- End Google Tag Manager -->
-    <title>Special Collections</title>
+    <title>Maps &#038; Geographic Information Systems</title>
     <link rel="stylesheet" href="/css/gdpr.css">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -127,10 +127,10 @@
     </li>
   </ul>
   </li>
-    <li class="_item current-menu-item current-page-ancestor">
+    <li class="_item ">
     <a href="/special-collections-university-archives" target="_self">Special Collections & University Archives</a>
     </li>
-    <li class="_item ">
+    <li class="_item current-menu-item current-page-ancestor">
     <a href="/collections/maps-gis" target="_self">Maps & GIS</a>
     </li>
     <li class="_item ">
@@ -294,7 +294,7 @@
   </li>
   </ul>
 	</li>
-	<li class="_item menu-item-has-children current-menu-item current-page-ancestor">
+	<li class="_item menu-item-has-children">
 		<a href="/special-collections-university-archives" target="_self">Special Collections & University Archives</a>
           <button role="button" class="expand-item js-expand-item">Expand Special Collections & University Archives menu</button>
   <ul class="_child">
@@ -379,15 +379,234 @@
 </div>
                     </header>
 
-          <div id="frame">
-    <script type="application/json" id="hoursData">{"title":"Today's Hours","items":[{"id":2004,"url":"\/libraries\/daley\/hours","slug":"Chicago-Daley-Special-Collections-and-University-Archives","title":"Chicago-Daley: Special Collections and University Archives","text":"Closed<br><br><a href=\"\/libraries\/daley\/hours\">Additional Hours<\/a>"},{"id":2006,"url":"\/libraries\/lhs-chicago\/hours","slug":"Chicago-Health-Sciences-Special-Collections-and-University-Archives","title":"Chicago-Health Sciences: Special Collections and University Archives","text":"Closed<br><br><a href=\"\/libraries\/lhs-chicago\/hours\">Additional Hours<\/a>"}]}</script>
-    <div id="app">
+                <main id="main" class="page__main">
+                            <div class="layout ">
+    <div class="layout__main">
+        
+        <nav class="breadcrumbs" aria-label="Breadcrumbs">
+        <h2 class="breadcrumbs__header">Breadcrumbs</h2>
+        <ol>
+                                                <li class="breadcrumbs__list-item">
+                        <a class="breadcrumb breadcrumb--home" href="/">Home</a>
+                    </li>
+                                                                <li class="breadcrumbs__list-item">
+                        <a class="breadcrumb " href="/collections">Collections</a>
+                    </li>
+                                                                <li class="breadcrumbs__list-item">
+                        <a href="/collections/maps-gis"><span class="breadcrumb breadcrumb--here">Maps & GIS</span></a>
+                    </li>
+                                    </ol>
+    </nav>
+
+    <h1 class="page-title">Maps &#038; Geographic Information Systems</h1>
+            <div class="page-content__content">
+            <!-- container.twig -->
+<div class="content-container">
+  
+          <div class="text-content"><p>The maps &amp; GIS collections are located at the Richard J. Daley Library (<a href="/libraries/daley/hours">hours</a>) in Chicago. They include more than 179,000 maps, 2,000 atlases, 150,000 aerial photographs, a small collection of map-related reference books and digital data.</p>
+</div>    
+    
+    
+    
+    
+  
+    
+    
+          <div class="tiles-content">
+        <p class="tiles-content__title">Maps Resources</p>
+        <ul class="tiles-content__list">
+                    <li class="tiles-content__tile">
+                <div class="tile-content">
+            <a class="tile-content__link" href="http://i-share.carli.illinois.edu/vf-uic/">
+            <div class="tile-content__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
+</div>
+            <p class="tile-content__title">UIC Library Catalog</p>
+            <div class="tile-content__body"><p>Enter keywords, titles, topics or names associated with the map or maps you are looking for.</p>
+</div>
+        </a>
     </div>
+            </li>
+                    <li class="tiles-content__tile">
+                <div class="tile-content">
+            <a class="tile-content__link" href="https://www.usgs.gov/products/maps/overview">
+            <div class="tile-content__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
+</div>
+            <p class="tile-content__title">United States Geological Survey (USGS)</p>
+            <div class="tile-content__body"><p>Find and locate USGS maps.</p>
+</div>
+        </a>
+    </div>
+            </li>
+            </ul>
+</div>
+    
+    
+    
   </div>
+        </div>
+    
+            <section class="section help-articles-list" aria-label="Help Articles list section">
 
-  <script src="/dist/vendor.js?version=1"></script>
-  <script src="/dist/scua.js?version=1" async></script>
+    <h2 class="section__title section-heading"><span>How Do I...?</span></h2>
 
+    <div class="section__content">
+    <ul class="help-articles-list__articles">
+                    <li class="help-articles-list__article">
+                <a href="/help/article/1915/get-photocopies-or-scans-or-take-pictures-in-special-collections-and-university-archives">Get reproductions from Special Collections and University Archives</a>
+            </li>
+                    <li class="help-articles-list__article">
+                <a href="/help/article/1922/obtain-high-quality-image-reproductions">Obtain high quality image reproductions</a>
+            </li>
+                    <li class="help-articles-list__article">
+                <a href="/help/article/2990/visit-special-collections-and-university-archives">Visit Special Collections and University Archives</a>
+            </li>
+            </ul>
+
+    <p class="section__footer">
+        <a class="button" href="/help/search?t[]=29&">Get More Help</a>
+    </p>
+
+</div>
+
+</section>    
+            <section class="section guides-list" aria-label="Guides list section">
+
+    <h2 class="section__title section-heading"><span>Subject & Course Guides</span></h2>
+
+    <div class="section__content">
+    <ul>
+                    <li>
+                <a href="https://researchguides.uic.edu/c.php?g=312449">
+                    <span class="guides-list__guide-icon">
+                        
+<svg viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path d="M2,3 L2,3 L3,2 L3,16 L2,15 L14,15 L13,16 L13,6 L13.2928932,6.70710678 L9.29289322,2.70710678 L10,3 L2,3 L2,3 L2,3 Z M2,2 L10,2 L14,6 L14,16 L2,16 L2,2 L2,2 L2,2 L2,2 Z M9,2 L14,7 L9,7 L9,2 L9,2 Z M0,0 L1,0 L1,14 L0,14 L0,0 L0,0 Z M1,0 L10,0 L10,1 L1,1 L1,0 L1,0 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                    </span>
+                    <span class="guides-list__guide-title">Maps Produced By The U.S. Government</span>
+                </a>
+            </li>
+                    <li>
+                <a href="https://researchguides.uic.edu/c.php?g=312566">
+                    <span class="guides-list__guide-icon">
+                        
+<svg viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path d="M2,3 L2,3 L3,2 L3,16 L2,15 L14,15 L13,16 L13,6 L13.2928932,6.70710678 L9.29289322,2.70710678 L10,3 L2,3 L2,3 L2,3 Z M2,2 L10,2 L14,6 L14,16 L2,16 L2,2 L2,2 L2,2 L2,2 Z M9,2 L14,7 L9,7 L9,2 L9,2 Z M0,0 L1,0 L1,14 L0,14 L0,0 L0,0 Z M1,0 L10,0 L10,1 L1,1 L1,0 L1,0 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                    </span>
+                    <span class="guides-list__guide-title">Sanborn Fire Insurance Maps</span>
+                </a>
+            </li>
+                    <li>
+                <a href="https://researchguides.uic.edu/c.php?g=252207">
+                    <span class="guides-list__guide-icon">
+                        
+<svg viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path d="M2,3 L2,3 L3,2 L3,16 L2,15 L14,15 L13,16 L13,6 L13.2928932,6.70710678 L9.29289322,2.70710678 L10,3 L2,3 L2,3 L2,3 Z M2,2 L10,2 L14,6 L14,16 L2,16 L2,2 L2,2 L2,2 L2,2 Z M9,2 L14,7 L9,7 L9,2 L9,2 Z M0,0 L1,0 L1,14 L0,14 L0,0 L0,0 Z M1,0 L10,0 L10,1 L1,1 L1,0 L1,0 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                    </span>
+                    <span class="guides-list__guide-title">Geography and GIS</span>
+                </a>
+            </li>
+                    <li>
+                <a href="https://researchguides.uic.edu/c.php?g=252283">
+                    <span class="guides-list__guide-icon">
+                        
+<svg viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path d="M2,3 L2,3 L3,2 L3,16 L2,15 L14,15 L13,16 L13,6 L13.2928932,6.70710678 L9.29289322,2.70710678 L10,3 L2,3 L2,3 L2,3 Z M2,2 L10,2 L14,6 L14,16 L2,16 L2,2 L2,2 L2,2 L2,2 Z M9,2 L14,7 L9,7 L9,2 L9,2 Z M0,0 L1,0 L1,14 L0,14 L0,0 L0,0 Z M1,0 L10,0 L10,1 L1,1 L1,0 L1,0 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                    </span>
+                    <span class="guides-list__guide-title">Public Participatory Mapping</span>
+                </a>
+            </li>
+                    <li>
+                <a href="https://researchguides.uic.edu/c.php?g=252208">
+                    <span class="guides-list__guide-icon">
+                        
+<svg viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path d="M2,3 L2,3 L3,2 L3,16 L2,15 L14,15 L13,16 L13,6 L13.2928932,6.70710678 L9.29289322,2.70710678 L10,3 L2,3 L2,3 L2,3 Z M2,2 L10,2 L14,6 L14,16 L2,16 L2,2 L2,2 L2,2 L2,2 Z M9,2 L14,7 L9,7 L9,2 L9,2 Z M0,0 L1,0 L1,14 L0,14 L0,0 L0,0 Z M1,0 L10,0 L10,1 L1,1 L1,0 L1,0 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                    </span>
+                    <span class="guides-list__guide-title">Data Sources and Services</span>
+                </a>
+            </li>
+                    <li>
+                <a href="https://researchguides.uic.edu/c.php?g=312419">
+                    <span class="guides-list__guide-icon">
+                        
+<svg viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path d="M2,3 L2,3 L3,2 L3,16 L2,15 L14,15 L13,16 L13,6 L13.2928932,6.70710678 L9.29289322,2.70710678 L10,3 L2,3 L2,3 L2,3 Z M2,2 L10,2 L14,6 L14,16 L2,16 L2,2 L2,2 L2,2 L2,2 Z M9,2 L14,7 L9,7 L9,2 L9,2 Z M0,0 L1,0 L1,14 L0,14 L0,0 L0,0 Z M1,0 L10,0 L10,1 L1,1 L1,0 L1,0 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                    </span>
+                    <span class="guides-list__guide-title">Aerial Photographs</span>
+                </a>
+            </li>
+                    <li>
+                <a href="https://researchguides.uic.edu/c.php?g=252189">
+                    <span class="guides-list__guide-icon">
+                        
+<svg viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path d="M2,3 L2,3 L3,2 L3,16 L2,15 L14,15 L13,16 L13,6 L13.2928932,6.70710678 L9.29289322,2.70710678 L10,3 L2,3 L2,3 L2,3 Z M2,2 L10,2 L14,6 L14,16 L2,16 L2,2 L2,2 L2,2 L2,2 Z M9,2 L14,7 L9,7 L9,2 L9,2 Z M0,0 L1,0 L1,14 L0,14 L0,0 L0,0 Z M1,0 L10,0 L10,1 L1,1 L1,0 L1,0 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                    </span>
+                    <span class="guides-list__guide-title">Maps</span>
+                </a>
+            </li>
+            </ul>
+
+    <p class="section__footer">
+        <a class="button" href="http://researchguides.uic.edu/">View All Guides</a>
+    </p>
+
+</div>
+
+</section>    
+    </div>
+    <div class="layout__sidebar">
+        
+    <section aria-label="Secondary Menu" >
+    <div id="menu-secondary" class="menu-secondary">
+        <div class="_title">
+                        <h2><a href="/collections">Collections</a></h2>
+                        <a class="icon-circle-arrow-up" href="#main">Back to content</a>
+        </div>
+        <ul  class="menu " aria-label="Secondary menu">
+	<li class="_item ">
+		<a href="/collections/articles" target="_self">Articles</a>
+    	</li>
+	<li class="_item ">
+		<a href="/collections/books-media" target="_self">Books &#038; Media</a>
+    	</li>
+	<li class="_item menu-item-has-children">
+		<a href="/collections/digital-images" target="_self">Digital Images</a>
+          <span class="expand-item"></span>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/collections/digital-images/uic-image-collections" target="_self">UIC Image Collections</a>
+    </li>
+  </ul>
+	</li>
+	<li class="_item ">
+		<a href="/special-collections-university-archives" target="_self">Special Collections & University Archives</a>
+    	</li>
+	<li class="_item current-menu-item current-page-ancestor">
+		<a href="/collections/maps-gis" target="_self">Maps & GIS</a>
+    	</li>
+	<li class="_item ">
+		<a href="/collections/uic-publications" target="_self">Theses, Dissertations & UIC Publications</a>
+    	</li>
+</ul>
+    </div>
+</section>
+
+    </div>
+</div>
+                    </main>
+        
         <footer class="page__footer" role="contentinfo">
                             <div class="footer uic-footer">
 

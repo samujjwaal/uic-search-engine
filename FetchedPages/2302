@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <title>Calendar</title>
+    <title>Lennard Davis</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
                         <link rel="stylesheet" href="/assets/fonts/theinhardt.css">
             <link rel="stylesheet" href="/css/main.min.css">
@@ -10,7 +10,7 @@
     </head>
 <body>
 
-<div class="l-page page calendar-page is-sidebar">
+<div class="l-page page directory-profile-page is-sidebar">
     <header class="l-header" role="banner">
 
         <div class="header-navigation">
@@ -123,7 +123,7 @@
                             </li>
             </ul>
         </li>
-            <li class="_item menu-item-has-children has-spotlight">
+            <li class="_item current-menu-item current-page-ancestor menu-item-has-children has-spotlight">
             <a href="/academics" target="_self">Academics</a>
                         <button role="button" class="expand-item js-expand-item">
 
@@ -265,7 +265,7 @@
                             </li>
             </ul>
         </li>
-            <li class="_item current-menu-item current-page-ancestor menu-item-has-children">
+            <li class="_item menu-item-has-children">
             <a href="/alumni" target="_self">Alumni</a>
                         <button role="button" class="expand-item js-expand-item">
 
@@ -425,7 +425,7 @@
     <div class="announcement__container-1 l-full">
         <div class="announcement__container-2">
             <div class="announcement__container-3">
-                                <a href="https://ahs.uic.edu/inside-ahs/coronavirus-disease-2019-covid-19/">
+                                <a href="https://ahs.uic.edu/disability-human-development/coronavirus-disease-covid-19-resources/">
                     
                     <div class="announcement__icon">
                         <svg class="alert-icon" viewBox="9 8 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-label="Alert icon" role="img">
@@ -437,8 +437,8 @@
     <ellipse class="alert-icon__striker" cx="18" cy="10" rx="2" ry="2"></ellipse>
 </svg>
                     </div>
-                    <h2 class="announcement__title">COVID-19 on Inside AHS</h2>
-                    <div class="announcement__text">COVID-19 updates, resources and announcements for AHS students, faculty and staff</div>
+                    <h2 class="announcement__title">COVID-19 resources</h2>
+                    <div class="announcement__text">COVID-19 guidance and resources for people with disabilities, their families, service providers and the workforce that supports them.</div>
 
                                     </a>
                         </div>
@@ -463,198 +463,160 @@
 
     <main>
         
-
     <div class="l-content-wrapper content-with-sidebar">
     <div class="l-full">
 
         <div class="l-content">
             
-                                <nav class="breadcrumbs" aria-label="Breadcrumbs">
+                            <nav class="breadcrumbs" aria-label="Breadcrumbs">
         <h2 class="assistive-text">Breadcrumbs</h2>
         <ol class="menu">
                                                 <li><a href="/">Home</a></li>
-                                                                <li><a href="/alumni/">AHS Alumni</a></li>
-                                                                <li>Events</li>
+                                                                <li><a href="/disability-human-development/">Disability and Human Development</a></li>
+                                                                <li>Directory</li>
                                     </ol>
     </nav>
             
             <div id="main">
 
-                <h1 class="_title post-title">Calendar</h1>
+                <article class="profile">
 
-                <form method="get" action="">
-                    <div class="events-navigation">
-    <div class="events-navigation__controls">
-        <div class="events-navigation__date">
-            <div class="events-navigation__month">
-                <label for="calendar-month-select">Month</label>
-                <select name="month" id="calendar-month-select">
-                                            <option value="1">January</option>
-                                            <option value="2">February</option>
-                                            <option value="3">March</option>
-                                            <option value="4" selected>April</option>
-                                            <option value="5">May</option>
-                                            <option value="6">June</option>
-                                            <option value="7">July</option>
-                                            <option value="8">August</option>
-                                            <option value="9">September</option>
-                                            <option value="10">October</option>
-                                            <option value="11">November</option>
-                                            <option value="12">December</option>
-                                    </select>
-            </div>
-            <div class="events-navigation__day">
-                <label for="calendar-day-select">Day</label>
-                <select name="day" id="calendar-day-select">
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5</option>
-                                            <option value="6">6</option>
-                                            <option value="7">7</option>
-                                            <option value="8">8</option>
-                                            <option value="9">9</option>
-                                            <option value="10">10</option>
-                                            <option value="11">11</option>
-                                            <option value="12">12</option>
-                                            <option value="13">13</option>
-                                            <option value="14">14</option>
-                                            <option value="15">15</option>
-                                            <option value="16">16</option>
-                                            <option value="17">17</option>
-                                            <option value="18">18</option>
-                                            <option value="19">19</option>
-                                            <option value="20">20</option>
-                                            <option value="21">21</option>
-                                            <option value="22">22</option>
-                                            <option value="23">23</option>
-                                            <option value="24">24</option>
-                                            <option value="25">25</option>
-                                            <option value="26">26</option>
-                                            <option value="27">27</option>
-                                            <option value="28" selected>28</option>
-                                            <option value="29">29</option>
-                                            <option value="30">30</option>
-                                            <option value="31">31</option>
-                                    </select>
-            </div>
-            <div class="events-navigation__year">
-                <label for="calendar-year-select">Year</label>
-                <select name="year" id="calendar-year-select">
-                                            <option value="2020" selected>2020</option>
-                                            <option value="2019">2019</option>
-                                            <option value="2018">2018</option>
-                                            <option value="2017">2017</option>
-                                            <option value="2016">2016</option>
-                                            <option value="2015">2015</option>
-                                            <option value="2014">2014</option>
-                                            <option value="2013">2013</option>
-                                            <option value="2012">2012</option>
-                                            <option value="2011">2011</option>
-                                            <option value="2010">2010</option>
-                                    </select>
-            </div>
-            <button class="events-navigation__button events-navigation__button--submit" type="submit">View Results</button>
+    <div class="profile__photo-and-identity">
+
+        <div class="profile__photo">
+                            <img class="image-pane" src="https://cms.ahs.uic.edu/disability-human-development/wp-content/uploads/sites/5/2016/11/Lennard_Davis_Web-157x180.jpg" data-image-width="157" data-image-height="180" alt="Lennard&#x20;Davis" role="presentation">
+                    </div>
+
+        <div class="profile__identity">
+
+            <h1 class="profile__name">Lennard Davis</h1>
+
+                        <p class="profile__position">
+                Distinguished Professor,
+                Disability and Human Development
+            </p>
+            
         </div>
-        <div class="events-navigation__buttons">
-            <a class="events-navigation__button" href="/alumni/events">Reset Filters</a>
-        </div>
+
     </div>
-    <p class="events-navigation__help-text">
-        To see events further in the future or past events, change the month, day, and year options and select "View Results."
-    </p>
+
+    <div class="profile__research-and-details">
+
+        <div class="profile__research">
+
+                            <h2 class="profile__research-header">Focus Areas</h2>
+                <ul class="profile__research-topics">
+                                        <li class="profile__research-topic">
+                        <a href="/directory?topics%5B0%5D=1065">Disability Arts and Culture</a>
+                    </li>
+                                        <li class="profile__research-topic">
+                        <a href="/directory?topics%5B0%5D=1066">Disability and Sexuality</a>
+                    </li>
+                                        <li class="profile__research-topic">
+                        <a href="/directory?topics%5B0%5D=33">Disability</a>
+                    </li>
+                                        <li class="profile__research-topic">
+                        <a href="/directory?topics%5B0%5D=1064">Rights and Advocacy</a>
+                    </li>
+                                    </ul>
+            
+            &nbsp;
+        </div>
+
+        <div class="profile__details">
+
+            <div class="profile__detail profile__detail--horizontal">
+                <h2 class="profile__detail-label">Email</h2>
+                <p class="profile__detail-value"><a href="mailto:lendavis@uic.edu">lendavis@uic.edu</a></p>
+            </div>
+
+                        <div class="profile__detail profile__detail--horizontal">
+                <h2 class="profile__detail-label">Office Phone</h2>
+                <p class="profile__detail-value"><a href="tel:312-413-8910">312-413-8910</a></p>
+            </div>
+            
+            
+                        <div class="profile__detail profile__detail--horizontal">
+                <h2 class="profile__detail-label">Office</h2>
+                <p class="profile__detail-value">
+                    601 S. Morgan St.,
+                    2020
+                    UH
+                </p>
+            </div>
+            
+                            <div class="profile__detail profile__detail--horizontal">
+                    <h2 class="profile__detail-label">Mail Code</h2>
+                    <p class="profile__detail-value">162</p>
+                </div>
+            
+                            <div class="profile__detail profile__detail--horizontal">
+                    <h2 class="profile__detail-label">Office Hours</h2>
+                    <p class="profile__detail-value">By appointment</p>
+                </div>
+            
+            
+                            <div class="profile__detail profile__detail--horizontal">
+                    <h2 class="profile__detail-label">CV</h2>
+                    <p class="profile__detail-value"><a href="https://cms.ahs.uic.edu/disability-human-development/wp-content/uploads/sites/5/2017/01/Davis-CV-February-2017-.pdf">Davis CV February 2017</a>
+</p>
+                </div>
+            
+                            <div class="profile__detail profile__detail">
+                    <h2 class="profile__detail-label">About</h2>
+                    <div class="profile__detail-value"><p>Lennard J. Davis is Distinguished Professor of Liberal Arts and Science. He is the author and editor of numerous books on disability and Deafness including Enforcing Normalcy, The Disability Studies Reader, and The End of Normal.</p>
 </div>
-                    <input type="hidden" id="hidden-category-filter-input" name="category">
-                </form>
-
-                
-                                    <ul class="calendar">
-            <li class="calendar__event">
-
-            <span class="datestamp">
-    <span class="datestamp__month">May</span>
-    <span class="datestamp__day">15</span>
-</span>
-
-            <h2 class="calendar__event-name"><a href="/alumni/events/clinical-gross-anatomy-of-the-upper-limb-and-back/">CANCELED: Clinical Gross Anatomy of the Upper Limb and Back</a></h2>
-
-            
-            <div class="calendar__event-time-and-place">
-                <div class="calendar__event-time">
-                    
-                </div>
-                            </div>
-
-                            <div class="calendar__event-description">
-                    Earn 16 CEUs with this course designed for clinicians interested in clinically-relevant, cadaver-based anatomy
-                </div>
-            
-                            <div class="calendar__event-multiday">
-                    This is a multi-day event that takes place May. 15 - 16
-                </div>
-            
-        </li>
-            <li class="calendar__event">
-
-            <span class="datestamp">
-    <span class="datestamp__month">May</span>
-    <span class="datestamp__day">28</span>
-</span>
-
-            <h2 class="calendar__event-name"><a href="/alumni/events/uic-alumni-recent-graduate-job-fair/">CANCELED: UIC Alumni & Recent Graduate Job Fair</a></h2>
-
-            
-            <div class="calendar__event-time-and-place">
-                <div class="calendar__event-time">
-                    Thursday
-                </div>
-                            </div>
-
-                            <div class="calendar__event-description">
-                    Meet employers from various industries at the Alumni &amp; Recent Graduate Job Fair.
                 </div>
             
             
-        </li>
-            <li class="calendar__event">
-
-            <span class="datestamp">
-    <span class="datestamp__month">May</span>
-    <span class="datestamp__day">29</span>
-</span>
-
-            <h2 class="calendar__event-name"><a href="/alumni/events/clinical-gross-anatomy-lower-limb-and-pelvis/">CANCELED: Clinical Gross Anatomy: Lower Limb and Pelvis</a></h2>
-
+                            <div class="profile__detail profile__detail">
+                    <h2 class="profile__detail-label">Selected Publications</h2>
+                                        <p class="profile__detail-value">
+                                                    <a href="https://www.versobooks.com/books/677-enforcing-normalcy"><cite>Enforcing Normalcy: Disability, Deafness and the Body</cite>, Verso</a>
+                                            </p>
+                                        <p class="profile__detail-value">
+                                                    <a href="https://www.amazon.com/Disability-Studies-Reader-Lennard-Davis/dp/1138930237/ref=pd_sbs_14_img_0?_encoding=UTF8&psc=1&refRID=DQRBB0ABDR50B296SKY6"><cite>Disability Studies Reader</cite>, Routledge</a>
+                                            </p>
+                                        <p class="profile__detail-value">
+                                                    <a href="https://www.amazon.com/End-Normal-Identity-Biocultural-Era/dp/0472052020"><cite>The End of Normal</cite>, University of Michigan Press</a>
+                                            </p>
+                                        <p class="profile__detail-value">
+                                                    <a href="http://press.uchicago.edu/ucp/books/book/chicago/O/bo5856991.html"><cite>Obsession: A History</cite>, University of Chicago Press</a>
+                                            </p>
+                                    </div>
             
-            <div class="calendar__event-time-and-place">
-                <div class="calendar__event-time">
-                    
+            
+            
+            
+                            <div class="profile__detail profile__detail">
+                    <h2 class="profile__detail-label">Notable Honors</h2>
+                                            <p class="profile__detail-value">2002 - Guggenheim Fellowship, John Simon Guggenheim Foundation</p>
+                                    </div>
+            
+                            <div class="profile__detail profile__detail">
+                    <h2 class="profile__detail-label">Education</h2>
+                    <p class="profile__detail-value">BA, English and Comparative Literature, Columbia University, 1970<br />
+MA and MPhil, English and Comparative Literature, Columbia University, 1971<br />
+PhD, English and Comparative Literature, Columbia University, 1976</p>
                 </div>
-                            </div>
+            
+        </div>
 
-                            <div class="calendar__event-description">
-                    Earn 16 CEUs with this course designed for clinicians interested in clinically relevant, cadaver-based anatomy.
-                </div>
-            
-                            <div class="calendar__event-multiday">
-                    This is a multi-day event that takes place May. 29 - 30
-                </div>
-            
-        </li>
-    </ul>
-                
-                
+    </div>
+
+</article>
+
             </div>
 
         
         </div>
 
         <div class="l-sidebar content-with-sidebar__sidebar">
+            
                                                 
-    <nav role="navigation" id="menu-secondary" aria-label="Secondary Navigation for AHS Alumni section" class="menu-secondary">
+    <nav role="navigation" id="menu-secondary" aria-label="Secondary Navigation for Disability and Human Development section" class="menu-secondary">
         <div class="_title">
-            <h2><a href="/alumni/">AHS Alumni</a></h2>
+            <h2><a href="/disability-human-development/">Disability and Human Development</a></h2>
             <a class="_back-to-content" href="#main">
     <svg aria-label="Back to main content" width="32" height="32" viewBox="0 0 32 32">
         <title>Back to main content</title>
@@ -667,11 +629,11 @@
         </div>
         <ul  class="menu ">
                             <li class="_item menu-item-has-children">
-                    <a href="https://ahs.uic.edu/alumni/give-to-ahs/" target="_self">Give to AHS</a>
+                    <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/" target="_self">Admissions and Programs</a>
                                 <button role="button" class="expand-item js-expand-item">
 
-            <svg aria-label="Expand Give to AHS menu" width="32" height="32" viewBox="0 0 32 32">
-                <title>Expand Give to AHS menu</title>
+            <svg aria-label="Expand Admissions and Programs menu" width="32" height="32" viewBox="0 0 32 32">
+                <title>Expand Admissions and Programs menu</title>
                 <g fill="none" fill-rule="evenodd">
                     <ellipse class="_circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"/>
                     <path class="_chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"/>
@@ -681,22 +643,150 @@
         </button>
         <ul class="_child">
                     <li class="_item ">
-                <a href="https://ahs.uic.edu/alumni/give-to-ahs/why-give/" target="_self">Why Give?</a>
+                <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/minor-in-disability-and-human-development/" target="_self">Minor in Disability and Human Development</a>
+                            </li>
+                    <li class="_item menu-item-has-children">
+                <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/bs-in-disability-and-human-development/" target="_self">BS in Disability and Human Development</a>
+                            <button role="button" class="expand-item js-expand-item">
+
+            <svg aria-label="Expand BS in Disability and Human Development menu" width="32" height="32" viewBox="0 0 32 32">
+                <title>Expand BS in Disability and Human Development menu</title>
+                <g fill="none" fill-rule="evenodd">
+                    <ellipse class="_circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"/>
+                    <path class="_chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"/>
+                </g>
+            </svg>
+
+        </button>
+        <ul class="_child">
+                    <li class="_item ">
+                <a href="/disability-human-development/admissions-and-programs/bs-in-disability-and-human-development/what-to-expect/" target="_self">What to Expect</a>
                             </li>
                     <li class="_item ">
-                <a href="https://ahs.uic.edu/alumni/give-to-ahs/ways-to-give/" target="_self">Ways to Give</a>
+                <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/bs-in-disability-and-human-development/before-you-apply/" target="_self">Before You Apply</a>
                             </li>
+                    <li class="_item menu-item-has-children">
+                <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/bs-in-disability-and-human-development/applying/" target="_self">Applying</a>
+                            <button role="button" class="expand-item js-expand-item">
+
+            <svg aria-label="Expand Applying menu" width="32" height="32" viewBox="0 0 32 32">
+                <title>Expand Applying menu</title>
+                <g fill="none" fill-rule="evenodd">
+                    <ellipse class="_circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"/>
+                    <path class="_chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"/>
+                </g>
+            </svg>
+
+        </button>
+        <ul class="_child">
                     <li class="_item ">
-                <a href="https://ahs.uic.edu/alumni/give-to-ahs/where-to-give/" target="_self">Where to Give</a>
+                <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/bs-in-disability-and-human-development/transferring-from-another-uic-college/" target="_self">Transferring from another UIC program</a>
                             </li>
             </ul>
+            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/bs-in-disability-and-human-development/after-you-apply/" target="_self">After You Apply</a>
+                            </li>
+            </ul>
+            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/ms-in-disability-and-human-development/" target="_self">MS in Disability and Human Development</a>
+                            </li>
+                    <li class="_item menu-item-has-children">
+                <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/phd-in-disability-studies/" target="_self">PhD in Disability Studies</a>
+                            <button role="button" class="expand-item js-expand-item">
+
+            <svg aria-label="Expand PhD in Disability Studies menu" width="32" height="32" viewBox="0 0 32 32">
+                <title>Expand PhD in Disability Studies menu</title>
+                <g fill="none" fill-rule="evenodd">
+                    <ellipse class="_circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"/>
+                    <path class="_chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"/>
+                </g>
+            </svg>
+
+        </button>
+        <ul class="_child">
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/phd-in-disability-studies/what-to-expect/" target="_self">What to Expect</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/phd-in-disability-studies/before-you-apply/" target="_self">Before You Apply</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/phd-in-disability-studies/applying/" target="_self">Applying</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/phd-in-disability-studies/after-you-apply/" target="_self">After You Apply</a>
+                            </li>
+                    <li class="_item ">
+                <a href="/disability-human-development/directory?q=&programs%5B%5D=14" target="_self">Faculty</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/phd-in-disability-studies/meet-our-students/" target="_self">Meet Our Students</a>
+                            </li>
+            </ul>
+            </li>
+                    <li class="_item menu-item-has-children">
+                <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/assistive-technology-certificate/" target="_self">Assistive Technology Certificate</a>
+                            <button role="button" class="expand-item js-expand-item">
+
+            <svg aria-label="Expand Assistive Technology Certificate menu" width="32" height="32" viewBox="0 0 32 32">
+                <title>Expand Assistive Technology Certificate menu</title>
+                <g fill="none" fill-rule="evenodd">
+                    <ellipse class="_circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"/>
+                    <path class="_chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"/>
+                </g>
+            </svg>
+
+        </button>
+        <ul class="_child">
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/assistive-technology-certificate/what-to-expect/" target="_self">What to Expect</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/assistive-technology-certificate/applying/" target="_self">Applying</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/assistive-technology-certificate/faculty/" target="_self">Faculty</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/assistive-technology-certificate/assistive-technology-certificate-faq/" target="_self">Assistive Technology Certificate FAQ</a>
+                            </li>
+            </ul>
+            </li>
+                    <li class="_item menu-item-has-children">
+                <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/disability-ethics-certificate/" target="_self">Disability Ethics Certificate</a>
+                            <button role="button" class="expand-item js-expand-item">
+
+            <svg aria-label="Expand Disability Ethics Certificate menu" width="32" height="32" viewBox="0 0 32 32">
+                <title>Expand Disability Ethics Certificate menu</title>
+                <g fill="none" fill-rule="evenodd">
+                    <ellipse class="_circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"/>
+                    <path class="_chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"/>
+                </g>
+            </svg>
+
+        </button>
+        <ul class="_child">
+                    <li class="_item ">
+                <a href="/disability-human-development/admissions-and-programs/disability-ethics-certificate/what-to-expect/" target="_self">What to Expect</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/disability-human-development/admissions-and-programs/disability-ethics-certificate/applying/" target="_self">Applying</a>
+                            </li>
+            </ul>
+            </li>
+            </ul>
                 </li>
+                            <li class="_item ">
+                    <a href="https://ahs.uic.edu/disability-human-development/institute-on-disability-and-human-development/" target="_self">Institute on Disability and Human Development</a>
+                                    </li>
                             <li class="_item menu-item-has-children">
-                    <a href="https://ahs.uic.edu/alumni/ahs-alumni-awards/" target="_self">AHS Alumni Awards</a>
+                    <a href="https://ahs.uic.edu/disability-human-development/community-partners/" target="_self">Community Partners</a>
                                 <button role="button" class="expand-item js-expand-item">
 
-            <svg aria-label="Expand AHS Alumni Awards menu" width="32" height="32" viewBox="0 0 32 32">
-                <title>Expand AHS Alumni Awards menu</title>
+            <svg aria-label="Expand Community Partners menu" width="32" height="32" viewBox="0 0 32 32">
+                <title>Expand Community Partners menu</title>
                 <g fill="none" fill-rule="evenodd">
                     <ellipse class="_circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"/>
                     <path class="_chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"/>
@@ -706,28 +796,35 @@
         </button>
         <ul class="_child">
                     <li class="_item ">
-                <a href="/alumni/ahs-alumni-awards/alumni-award-recipients" target="_self">Alumni Award Recipients</a>
+                <a href="https://ahs.uic.edu/disability-human-development/community-partners/bodies-of-work/" target="_self">Bodies of Work</a>
                             </li>
             </ul>
                 </li>
                             <li class="_item ">
-                    <a href="/alumni/meet-our-alumni" target="_self">Meet Our Alumni</a>
+                    <a href="/disability-human-development#centers" target="_self">Research Centers, Clinics and Community Programs</a>
                                     </li>
                             <li class="_item ">
-                    <a href="https://ahs.uic.edu/alumni/corporate-partners-program/" target="_self">Corporate Partners Program</a>
+                    <a href="https://ahs.uic.edu/disability-human-development/continuing-education-and-community-training/" target="_self">Continuing Education and Community Training</a>
                                     </li>
                             <li class="_item ">
-                    <a href="/alumni/news" target="_self">News</a>
+                    <a href="/disability-human-development/news" target="_self">News</a>
+                                    </li>
+                            <li class="_item ">
+                    <a href="/disability-human-development/events" target="_self">Calendar</a>
                                     </li>
                             <li class="_item current-menu-item current-page-ancestor">
-                    <a href="/alumni/events" target="_self">Events</a>
+                    <a href="/disability-human-development/directory" target="_self">Directory</a>
                                     </li>
                             <li class="_item ">
-                    <a href="/alumni/contact" target="_self">Contact</a>
+                    <a href="/disability-human-development/contact" target="_self">Contact</a>
                                     </li>
                     </ul>
     </nav>
-                                    </div>
+                            
+
+            
+            
+                </div>
 
     </div>
 </div>
@@ -742,33 +839,24 @@
                 
                 
                                     <div class="promos__social">
-                        <h2 class="promos__social-header">Follow AHS Alumni</h2>
+                        <h2 class="promos__social-header">Follow Disability and Human Development</h2>
                         <div class="promos__social-links">
                             <ul class="social-links">
             <li>
-            <a class="social-links__facebook" href="https://www.facebook.com/UIC.AHS">
+            <a class="social-links__facebook" href="https://www.facebook.com/UICDHD/">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Facebook"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>
             </a>
         </li>
                 <li>
-            <a class="social-links__twitter" href="https://www.twitter.com/UICAHS">
+            <a class="social-links__twitter" href="http://www.twitter.com/idhd_uic">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Twitter"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>
             </a>
         </li>
-                <li>
-            <a class="social-links__linkedin" href="https://www.linkedin.com/groups/6517356">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="97 40 19 20" aria-label="LinkedIn"><title>LinkedIn</title><path d="M97.1530891,59 L100.989423,59 L100.989423,46.2122188 L97.1530891,46.2122188 L97.1530891,59 Z M99.5526745,40 C98.884652,40 98.3121208,40.2395578 97.8496757,40.7122794 C97.3872306,41.1845748 97.1532976,41.7702552 97.1532976,42.4526964 C97.1532976,43.1355639 97.3872306,43.7212443 97.8496757,44.1935397 C98.3121208,44.6662613 98.884652,44.9058191 99.5526745,44.9058191 C100.220697,44.9058191 100.793228,44.6662613 101.255673,44.1935397 C101.718118,43.7212443 101.952051,43.1355639 101.952051,42.4526964 C101.952051,41.7702552 101.718118,41.1845748 101.255673,40.7122794 C100.793228,40.2395578 100.220697,40 99.5526745,40 Z M114.577803,47.1791882 C113.643739,46.1825938 112.471572,45.6774765 111.092994,45.6774765 C110.029245,45.6774765 109.040555,46.0197627 108.14402,46.6966626 L108.14402,45.8812284 L103.92155,45.8812284 L103.92155,58.9997869 L108.14402,58.9997869 L108.14402,51.7376059 C108.14402,50.9059739 108.342926,50.3040957 108.751996,49.898723 C109.164402,49.489514 109.633102,49.2904509 110.183115,49.2904509 C110.915355,49.2904509 111.756012,49.5581418 111.756012,51.6468127 L111.756012,58.9997869 L115.978482,58.9997869 L115.978482,51.1250712 C115.978482,49.4980392 115.50728,48.1706675 114.577803,47.1791882 Z"></path></svg>
-            </a>
-        </li>
-                <li>
-            <a class="social-links__instagram" href="https://www.instagram.com/uicahs/">
+                    <li>
+            <a class="social-links__instagram" href="https://www.instagram.com/dhd.uic/">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Instagram"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>            </a>
         </li>
-                <li>
-            <a class="social-links__youtube" href="https://www.youtube.com/channel/UC8xaGDqRHnWEsbFZy0dkTrA">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Youtube"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>            </a>
-        </li>
-                    <li>
+                        <li>
             <a class="social-links__hashtags" href="http://ahs.uic.edu/social-media/">
                 <svg width="16px" height="18px" viewBox="4 3 16 18" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <path d="M7.418419,16 L5,16 C4.447715,16 4,15.5522847 4,15 C4,14.4477153 4.447715,14 5,14 L7.704133,14 L8.275562,10 L6,10 C5.447715,10 5,9.5522847 5,9 C5,8.44771525 5.447715,8 6,8 L8.561276,8 L9.010051,4.85857864 C9.088155,4.31184464 9.594687,3.93194565 10.141421,4.01005051 C10.688155,4.08815536 11.068054,4.59468735 10.989949,5.14142136 L10.581581,8 L14.561276,8 L15.010051,4.85857864 C15.088155,4.31184464 15.594687,3.93194565 16.141421,4.01005051 C16.688155,4.08815536 17.068054,4.59468735 16.989949,5.14142136 L16.581581,8 L19,8 C19.552285,8 20,8.44771525 20,9 C20,9.5522847 19.552285,10 19,10 L16.295867,10 L15.724438,14 L18,14 C18.552285,14 19,14.4477153 19,15 C19,15.5522847 18.552285,16 18,16 L15.438724,16 L14.989949,19.1414214 C14.911845,19.6881554 14.405313,20.0680544 13.858579,19.9899495 C13.311845,19.9118446 12.931946,19.4053127 13.010051,18.8585786 L13.418419,16 L9.438724,16 L8.989949,19.1414214 C8.911845,19.6881554 8.405313,20.0680544 7.858579,19.9899495 C7.311845,19.9118446 6.931946,19.4053127 7.010051,18.8585786 L7.418419,16 Z M13.704133,14 L14.275562,10 L10.295867,10 L9.724438,14 L13.704133,14 Z"></path>

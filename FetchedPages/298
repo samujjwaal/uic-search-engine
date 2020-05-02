@@ -25,7 +25,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<title>Workshop | UIC Today</title>
+<title>Events | UIC Today</title>
 
 <link rel="stylesheet" type="text/css" media="all" href="https://today.uic.edu/wp-content/themes/uictoday/style.css" />
 
@@ -113,8 +113,10 @@ var EM = {"ajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php","locatio
 </script>
 <script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.97'></script>
 <link rel='https://api.w.org/' href='https://today.uic.edu/wp-json/' />
-<link rel="alternate" type="application/json+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url" />
-<link rel="alternate" type="text/xml+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url&#038;format=xml" />
+<link rel="canonical" href="https://today.uic.edu/events" />
+<link rel='shortlink' href='https://today.uic.edu/?p=543' />
+<link rel="alternate" type="application/json+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fevents" />
+<link rel="alternate" type="text/xml+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fevents&#038;format=xml" />
     <style type="text/css" media="screen">
       div.printfriendly a, div.printfriendly a:link, div.printfriendly a:hover, div.printfriendly a:visited, div.printfriendly a:focus {
         text-decoration: none;
@@ -158,7 +160,7 @@ var EM = {"ajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php","locatio
 
 </head>
 
-<body role="document" class="-template-default page page-id-0 page-parent wp-embed-responsive">
+<body role="document" class="page-template-default page page-id-543 wp-embed-responsive">
   
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57G9C3Q"
@@ -194,7 +196,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
             <div class="last-update-timestamp">
-            	Updated: Apr 27, 2020 at 05:37 PM
+            	Updated: Apr 30, 2020 at 02:48 PM
             </div><!--  last-update-timestamp   -->
 
 
@@ -263,7 +265,7 @@ Submit
 		<div id="main_nav" role="navigation" aria-label="Site">
 	  	 	<div class="main_nav_container"><ul id="menu-main_nav" class="menu"><li id="menu-item-57546"><a href="https://today.uic.edu/campus-news">Campus News</a></li>
 <li id="menu-item-57547"><a href="https://today.uic.edu/academics-research">Academics &#038; Research</a></li>
-<li id="menu-item-57548"><a href="https://today.uic.edu/events">Events</a></li>
+<li id="menu-item-57548"><a href="https://today.uic.edu/events" aria-current="page">Events</a></li>
 <li id="menu-item-67603"><a href="https://today.uic.edu/resources">Resources</a>
 <ul class="sub-menu">
 	<li id="menu-item-67604"><a href="https://today.uic.edu/resources/current-students">Current Student Resources</a></li>
@@ -323,10 +325,702 @@ Submit
 
 
 
-<!-- Need 2 closing divs before footer to close divs from page header include -->
+
+	<div id="content">
+		<h1>Events</h1>
+		<p><div id="em-wrapper"><div class="pf-content"><h2><a href="https://today.uic.edu/submit-an-event">Submit your events</a></h2>
+<p>All postings for Research Subjects should be <a href="https://today.uic.edu/contact/communicating-on-campus/submit-announcements">submitted to Announcements</a>.</p>
+<p><div class="em-search-wrapper">
+<div class="em-events-search em-search css-search has-search-term has-search-geo has-search-main has-advanced advanced-hidden">
+	<form action="https://today.uic.edu/events" method="post" class="em-events-search-form em-search-form">
+		<input type="hidden" name="action" value="search_events" />
+				<div class="em-search-main">
+						<!-- START General Search -->
+<div class="em-search-text em-search-field">
+	<script type="text/javascript">
+	EM.search_term_placeholder = 'Search';
+	</script>
+	<label>
+		<span class="screen-reader-text">Search</span>
+		<input type="text" name="em_search" class="em-events-search-text em-search-text" value="" />
+	</label>
+</div>
+<!-- END General Search --><!-- START General Search -->
+<div class="em-search-geo em-search-field">
+		<label>
+		<span class="screen-reader-text">Near...</span>
+		<input type="text" name="geo" class="em-search-geo" value=""/>
+	</label>
+	<input type="hidden" name="near" class="em-search-geo-coords" value="" />
+	<div id="em-search-geo-attr" ></div>
+	<script type="text/javascript">
+	EM.geo_placeholder = 'Near...';
+	EM.geo_alert_guess = 'We are going to use %s for searching. \n\n If this is incorrect, click cancel and try a more specific address.';
+	function em_geo_search_init(){
+	jQuery('input.em-search-geo').each(function(i){
+		var input = /** @type {HTMLInputElement} */ jQuery(this);
+		var wrapper = input.closest('div.em-search-geo'); 
+		var autocomplete = new google.maps.places.Autocomplete(input[0]);
+		var geo_coords = wrapper.find("input.em-search-geo-coords");
+
+		var geo_field_status = function( status ){
+			wrapper.data('status',status);
+			var em_search = wrapper.closest('.em-search');
+			if( status == 'on' ){
+				wrapper.css('background-image', wrapper.css('background-image').replace('search-geo.png', 'search-geo-on.png').replace('search-geo-off.png', 'search-geo-on.png'));
+				em_search.find('select.em-search-country option:first-child').prop('selected','selected').trigger('change');
+				em_search.find('.em-search-location').slideUp();
+				em_search.find('.em-search-geo-units').slideDown();
+			}else{
+				if( status == 'off' ){
+					wrapper.css('background-image', wrapper.css('background-image').replace('search-geo.png', 'search-geo-off.png').replace('search-geo-on.png', 'search-geo-off.png'));
+				}else{
+					wrapper.css('background-image', wrapper.css('background-image').replace('search-geo-off.png', 'search-geo.png').replace('search-geo-on.png', 'search-geo.png'));
+				}
+				geo_coords.val('');
+				em_search.find('.em-search-location').slideDown();
+				em_search.find('.em-search-geo-units').slideUp();
+			}
+		};
+
+		var ac_listener = function( place ) {
+			var place = autocomplete.getPlace();
+			if( !place || !place.geometry ){ //place not found
+				if( input.val() == '' || input.val() == EM.geo_placeholder ){ 
+					geo_field_status(false);
+				}else{
+					if( wrapper.data('last-search') == input.val() ){ 
+						geo_field_status('on');
+						geo_coords.val( wrapper.data('last-coords') );
+						return; 
+					}
+	              	//do a nearest match suggestion as last resort
+					if( input.val().length >= 2 ){
+						geo_field_status(false);
+						autocompleteService = new google.maps.places.AutocompleteService();
+				        autocompleteService.getPlacePredictions( {'input': input.val(), 'offset': input.val().length }, function listentoresult(list, status) {
+		                    if(list != null && list.length != 0) {
+		                        placesService = new google.maps.places.PlacesService(document.getElementById('em-search-geo-attr'));
+		                        placesService.getDetails( {'reference': list[0].reference}, function detailsresult(detailsResult, placesServiceStatus) {
+		                            //we have a match, ask the user
+                    				wrapper.data('last-search', detailsResult.formatted_address );
+                    				wrapper.data('last-coords', detailsResult.geometry.location.lat() + ',' + detailsResult.geometry.location.lng());
+	                                if( input.val() == detailsResult.formatted_address || confirm(EM.geo_alert_guess.replace('%s', '"'+detailsResult.formatted_address+'"')) ){
+		                                geo_coords.val( detailsResult.geometry.location.lat() + ',' + detailsResult.geometry.location.lng() );
+		        						geo_field_status('on');
+		                                input.val(detailsResult.formatted_address);
+	                                }else{
+	                                	input.data('last-key',false);
+	                					geo_field_status('off');
+	                                }
+		                        });
+		                    }else{ geo_field_status('off'); }
+						});
+					}else{ geo_field_status('off'); }
+				}
+				wrapper.data('last-search', input.val() );
+				wrapper.data('last-coords', geo_coords.val());
+				return;
+			}
+			geo_coords.val( place.geometry.location.lat() + ',' + place.geometry.location.lng() );
+			geo_field_status('on');
+			wrapper.data('last-search', input.val() );
+			wrapper.data('last-coords', geo_coords.val());
+		};
+		google.maps.event.addListener(autocomplete, 'place_changed', ac_listener);
+				
+		if( geo_coords.val() != '' ){
+			geo_field_status('on');
+			wrapper.data('last-search', input.val() );
+			wrapper.data('last-coords', geo_coords.val() );
+		}
+		input.keypress( function(e) {
+			//if enter is pressed once during 'near' input, don't do anything so Google can select location, otherwise let behavior (form submittal) proceed 
+			if( e.which == 13 ) {
+				if( input.data('last-key') != 13 || wrapper.data('status') != 'on' ){
+					e.preventDefault();
+				}
+			}else{
+				geo_field_status(false);
+			}
+		}).keyup( function(e) {
+			if( this.value == '' ){ geo_field_status(false); }
+			else if( wrapper.data('last-search') != this.value ){ geo_field_status('off'); }
+			input.data('last-key', e.which);
+		}).blur( function(e){ //create HTML 5 placeholder effect if not HTML 5
+			if( this.value == '' && !('placeholder' in document.createElement('input')) ) this.value = EM.geo_placeholder;
+		}).focus( function(e){
+			if( this.value == EM.geo_placeholder ) this.value='';
+			input.data('last-key', 13);
+		}).attr('placeholder', EM.geo_placeholder);
+	});
+}
+jQuery(document).bind('em_maps_loaded', function(){ em_geo_search_init(); });	</script>
+</div>
+<!-- END General Search -->						<button type="submit" class="em-search-submit loading">
+								<!--[if IE 7]><span><![endif]-->
+				<img src="https://today.uic.edu/wp-content/plugins/events-manager/includes/images/search-mag.png" alt="Search" />
+				<!--[if IE 7]></span><![endif]-->
+			</button>
+					</div>
+						<div class="em-search-advanced" style="display:none">
+			<!-- START Date Search -->
+<div class="em-search-scope em-search-field">
+	<span class="em-search-scope em-events-search-dates em-date-range">
+		<label>
+			<span>Dates</span>
+			<input type="text" class="em-date-input-loc em-date-start" />
+			<input type="hidden" class="em-date-input" name="scope[0]" value="" />
+		</label>
+		<label>
+			 - 			<input type="text" class="em-date-input-loc em-date-end" />
+			<input type="hidden" class="em-date-input" name="scope[1]" value="" />
+		</label>
+	</span>
+</div>
+<!-- END Date Search --><!-- START Category Search -->
+<div class="em-search-category em-search-field">
+	<label>
+		<span>Category</span>
+		<select  name='category' id='category' class='em-events-search-category' >
+	<option value='0' selected='selected'>All Categories</option>
+	<option class="level-0" value="1675">Art exhibit</option>
+	<option class="level-0" value="1677">Conference</option>
+	<option class="level-0" value="6613">Featured</option>
+	<option class="level-0" value="6585">Health &amp; Medicine</option>
+	<option class="level-0" value="1667">Lecture</option>
+	<option class="level-0" value="1666">Museum exhibit</option>
+	<option class="level-0" value="2028">Performance</option>
+	<option class="level-0" value="1678">Special event</option>
+	<option class="level-0" value="1676">Sports</option>
+	<option class="level-0" value="6497">Sustainability</option>
+	<option class="level-0" value="1674">Workshop</option>
+</select>
+	</label>
+</div>
+<!-- END Category Search --><div class="em-search-location" >
+	<!-- START Country Search -->
+<div class="em-search-country em-search-field">
+	<label>
+		<span>Country</span>
+		<select name="country" class="em-search-country em-events-search-country">
+			<option value=''>All Countries</option>
+						<option value="US" selected="selected">United States</option>
+					</select>
+	</label>
+</div>
+<!-- END Country Search -->	<div class="em-search-location-meta" >
+	<!-- START Region Search -->
+<div class="em-search-region em-search-field">
+	<label>
+		<span>Region</span>
+		<select name="region" class="em-search-region em-events-search-region">
+			<option value=''>All Regions</option>
+							 <option>60607</option>
+								 <option>60612</option>
+								 <option>chicago</option>
+								 <option>Great Lakes</option>
+								 <option>Midwest</option>
+								 <option>UIC Campus</option>
+								 <option>UIC East Campus </option>
+								 <option>United States</option>
+						</select>
+	</label>
+</div>	
+<!-- END Region Search --><!-- START State/County Search -->
+<div class="em-search-state em-search-field">
+	<label>
+		<span>State/County</span>
+		<select name="state" class="em-search-state em-events-search-state">
+			<option value=''>All States</option>
+							 <option>Cook</option>
+								 <option>IL</option>
+								 <option>Illinois</option>
+								 <option>United States</option>
+								 <option>United States 1</option>
+						</select>
+	</label>
+</div>
+<!-- END State/County Search -->	</div>
+</div>								</div>
+						<div class="em-search-options">
+			<a href="#" class="em-toggle" rel=".em-search-advanced:.em-search-form">
+				<span class="hide-advanced" style="display:none;">Hide Advanced Search</span>
+				<span class="show-advanced">Show Advanced Search</span>
+			</a>
+		</div>
+								    <input name="near_distance" type="hidden" value="25" />		    <input name="near_unit" type="hidden" value="mi" />			</form>
+</div>
+</div><div class="event-list-body-container">
+<div class="teaser-list"><article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">Apr</span>
+    <span class="_day">9</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/earth-day-2020-plastic-free-uic">Earth Day 2020: Plastic-Free UIC!</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">Apr</span>
+    <span class="_day">30</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/competitive-gaming-club-discord-2020-04-30">Competitive Gaming Club Discord</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">Apr</span>
+    <span class="_day">30</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/uic-campus-recreation-free-online-workouts-2020-04-30">UIC Campus Recreation free online workouts</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">Apr</span>
+    <span class="_day">30</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/black-hair-quilt-project-3">Black Hair Quilt Project</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        3:00 pm - 5:00 pm</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">1</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/competitive-gaming-club-discord-2020-05-01">Competitive Gaming Club Discord</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">1</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/uic-campus-recreation-free-online-workouts-2020-05-01">UIC Campus Recreation free online workouts</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">1</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/write-wlrc-zoom-session-2020-05-01">Write @ WLRC: Zoom Session</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        10:00 am - 12:00 pm</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">1</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/craftivism-during-a-pandemic">Craftivism during a Pandemic</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        12:00 pm - 1:00 pm</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">1</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/the-breathing-room-unbelievable-and-media-portrayals-of-gender-based-violence">The Breathing Room: Unbelievable and Media Portrayals of Gender-based Violence</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        12:00 pm - 1:00 pm</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">2</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/competitive-gaming-club-discord-2020-05-02">Competitive Gaming Club Discord</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">3</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/competitive-gaming-club-discord-2020-05-03">Competitive Gaming Club Discord</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">3</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/uic-campus-recreation-free-online-workouts-2020-05-03">UIC Campus Recreation free online workouts</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">4</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/competitive-gaming-club-discord-2020-05-04">Competitive Gaming Club Discord</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">4</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/uic-campus-recreation-free-online-workouts-2020-05-04">UIC Campus Recreation free online workouts</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">5</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/competitive-gaming-club-discord-2020-05-05">Competitive Gaming Club Discord</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+</div>
+<div class="event-cat-sidebar uic-list">
+<h2 class="event-sub-header">Events by Category</h2>
+<ul>
+ 	<li><a href="https://today.uic.edu/events/categories/event-art-exhibit">Art exhibit</a></li>
+
+ 	<li><a href="https://today.uic.edu/events/categories/event-conference">Conference</a></li>
+
+ 	<li><a href="https://today.uic.edu/events/categories/event-featured">Featured</a></li>
+
+ 	<li><a href="https://today.uic.edu/events/categories/event-health-medicine">Health &amp; Medicine</a></li>
+
+ 	<li><a href="https://today.uic.edu/events/categories/event-lecture">Lecture</a></li>
+
+ 	<li><a href="https://today.uic.edu/events/categories/event-museum-exhibit">Museum exhibit</a></li>
+
+ 	<li><a href="https://today.uic.edu/events/categories/performance">Performance</a></li>
+
+ 	<li><a href="https://today.uic.edu/events/categories/event-special-event">Special event</a></li>
+
+ 	<li><a href="https://today.uic.edu/events/categories/event-sports">Sports</a></li>
+
+ 	<li><a href="https://today.uic.edu/events/categories/event-sustainability">Sustainability</a></li>
+
+ 	<li><a href="https://today.uic.edu/events/categories/event-workshop">Workshop</a></li>
+</ul>
+
+<div class="uic-list">
+<h2 class="event-sub-header">More Events</h2>
+<ul>
+<li><a href=" https:=">RSS feed of UIC Today Events <img src="/files/2017/08/external_link.png" alt="external_link" width="15" height="15"></a></li>
+<li><a href="http://www.uic.edu/htbin/eventcal/eventcal.fcgi">UIC Calendar of Events <img src="/files/2017/08/external_link.png" alt="external_link" width="15" height="15"></a></li>
+<li><a href="/submit-an-event/">Submit an Event ➔</a></li>
+</div>
+
+</div>
+</div><span class="em-pagination" > <strong><span class="page-numbers current">1</span></strong> <a class="page-numbers" href="/events?pno=2" title="2">2</a>  <a class="page-numbers" href="/events?pno=3" title="3">3</a>  <a class="page-numbers" href="/events?pno=4" title="4">4</a>  <a class="page-numbers" href="/events?pno=5" title="5">5</a>  <a class="page-numbers" href="/events?pno=6" title="6">6</a>  <a class="page-numbers" href="/events?pno=7" title="7">7</a>  <a class="page-numbers" href="/events?pno=8" title="8">8</a>  <a class="page-numbers" href="/events?pno=9" title="9">9</a>  <a class="page-numbers" href="/events?pno=10" title="10">10</a>  <a class="next page-numbers" href="/events?pno=2" title="2">&gt;</a>  <a class="next page-numbers" href="/events?pno=27" title="27">&gt;&gt;</a> </span></p>
+</div></div></p>
 	</div>
-    
-</div>    
+	
+	<div id="right_sidebar">
+<div class="rightBar_widgets">	
+	
+</div>
+
+</div>		
+
+
+</div>
 
 <div class="clearThis">&nbsp;</div>
 
@@ -511,7 +1205,22 @@ Submit
 		<script type="text/javascript">
   document.write(unescape("%3Cscript src='//www.uic.edu/inc/emergency/alert.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
+      <script type="text/javascript">
+
+          var pfHeaderImgUrl = 'https://today.uic.edu/files/2019/10/TodayPrintHeader.jpg';
+          var pfHeaderTagline = 'UIC Today';
+          var pfdisableClickToDel = '0';
+          var pfImagesSize = 'full-size';
+          var pfImageDisplayStyle = 'right';
+          var pfEncodeImages = '0';
+          var pfDisableEmail = '0';
+          var pfDisablePDF = '0';
+          var pfDisablePrint = '0';
+          var pfCustomCSS = '';
+          var pfPlatform = 'Wordpress';
+      </script>
+      <script async src='https://cdn.printfriendly.com/printfriendly.js'></script>
 <script type='text/javascript' src='https://today.uic.edu/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
 
 </body>
-</html><!-- WP Fastest Cache file was created in 0.089600086212158 seconds, on 27-04-20 18:08:21 -->
+</html><!-- WP Fastest Cache file was created in 0.16640591621399 seconds, on 30-04-20 15:02:58 -->

@@ -1,782 +1,1044 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en" class="no-js">
 <head>
+        <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-WXRNQ8');</script> <!-- End Google Tag Manager -->
+    <title>COVID-19 and the Library</title>
+    <link rel="stylesheet" href="/css/gdpr.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/css/main.min.css?version=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<!-- Google Analytics Code -->
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-20665772-1', 'auto');
-    ga('create', 'UA-4402713-9', 'auto', 'todayTracker');
-    ga('send', 'pageview');
-    ga('todayTracker.send', 'pageview');
-</script>
+    <script>
+        document.documentElement.className = "js";
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-57G9C3Q');</script>
-<!-- End Google Tag Manager -->
-  
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-<title>UIC Today</title>
-
-<link rel="stylesheet" type="text/css" media="all" href="https://today.uic.edu/wp-content/themes/uictoday/style.css" />
-
-<link rel="stylesheet" type="text/css" media="all" href="https://today.uic.edu/wp-content/themes/uictoday/css/style.min.css" />
-    
-<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://today.uic.edu/feed" />
-
-<link rel="shortcut icon" href="https://today.uic.edu/wp-content/themes/uictoday/favicon.ico" />
+        // utilities
+        var getQueryString = function ( field, url ) {
+            // hat tip https://goo.gl/Q6Hyyx
+            var href = url ? url : window.location.href;
+            var reg = new RegExp( '[?&]' + field + '=([^&#]*)', 'i' );
+            var string = reg.exec(href);
+            return string ? string[1] : null;
+        };
+    </script>
 
 
-
-<link rel='dns-prefetch' href='//s.w.org' />
-		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/today.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
-			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='https://today.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='ugb-style-css-css'  href='https://today.uic.edu/wp-content/plugins/stackable-ultimate-gutenberg-blocks/dist/frontend_blocks.css?ver=2.3.0' type='text/css' media='all' />
-<style id='ugb-style-css-inline-css' type='text/css'>
-:root {
-			--content-width: 900px;
-		}
-</style>
-<link rel='stylesheet' id='wp-components-css'  href='https://today.uic.edu/wp-includes/css/dist/components/style.min.css?ver=5.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-editor-font-css'  href='https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&#038;ver=5.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-block-editor-css'  href='https://today.uic.edu/wp-includes/css/dist/block-editor/style.min.css?ver=5.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-nux-css'  href='https://today.uic.edu/wp-includes/css/dist/nux/style.min.css?ver=5.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-editor-css'  href='https://today.uic.edu/wp-includes/css/dist/editor/style.min.css?ver=5.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='sld_block-cgb-style-css-css'  href='https://today.uic.edu/wp-content/plugins/simple-link-directory/gutenberg/sld-block/dist/blocks.style.build.css?ver=5.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='events-manager-css'  href='https://today.uic.edu/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.97' type='text/css' media='all' />
-<link rel='stylesheet' id='ssp-frontend-player-css'  href='https://today.uic.edu/wp-content/plugins/seriously-simple-podcasting/assets/css/player.css?ver=1.20.11' type='text/css' media='all' />
-<link rel='stylesheet' id='wow-icons-fa-css'  href='https://today.uic.edu/wp-content/plugins/wow-icons//assets/fontawesome/font-awesome.min.css?ver=2.0.1' type='text/css' media='all' />
-<link rel='stylesheet' id='upw_theme_standard-css'  href='https://today.uic.edu/wp-content/plugins/ultimate-posts-widget/css/upw-theme-standard.min.css?ver=5.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='tablepress-default-css'  href='https://today.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
-<style id='tablepress-default-inline-css' type='text/css'>
-.tablepress-id-1 .column-1{vertical-align:middle}.tablepress-id-1 tbody td{font-size:15px}.tablepress-id-1{width:auto important!}.tablepress-id-1 img{margin:0!important}.tablepress-id-6 .column-1{vertical-align:middle}.tablepress-id-6 tbody td{font-size:15px}.tablepress-id-6{width:auto important!}.tablepress-id-6 img{margin:0!important}.tablepress-id-3 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-3 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-3 .odd td{background-color:#e6e6e6}.tablepress-id-3 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-3 .column-1{width:50%}.tablepress-id-4 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-4 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-4 .odd td{background-color:#e6e6e6}.tablepress-id-4 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-4 .column-1{width:50%}.tablepress-id-5 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-5 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-5 .odd td{background-color:#e6e6e6}.tablepress-id-5 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-5 .column-1{width:50%}
-</style>
-<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/stackable-ultimate-gutenberg-blocks/dist/frontend_blocks.js?ver=2.3.0'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
-<script type='text/javascript'>
-jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
-</script>
-<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4'></script>
-<script type='text/javascript'>
-( 'fetch' in window ) || document.write( '<script src="https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.26.0-0"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );
-</script>
-<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/dist/dom-ready.min.js?ver=2.5.1'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/dist/a11y.min.js?ver=2.5.1'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var EM = {"ajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"mm\/dd\/yy","ui_css":"https:\/\/today.uic.edu\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"0","is_ssl":"1","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","event_detach_warning":"Are you sure you want to detach this event? By doing so, this event will be independent of the recurring set of events.","delete_recurrence_warning":"Are you sure you want to delete all recurrences of this event? All events will be moved to trash."};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.97'></script>
-<link rel='https://api.w.org/' href='https://today.uic.edu/wp-json/' />
-<link rel="canonical" href="https://today.uic.edu/" />
-<link rel='shortlink' href='https://today.uic.edu/' />
-<link rel="alternate" type="application/json+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2F" />
-<link rel="alternate" type="text/xml+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2F&#038;format=xml" />
-    <style type="text/css" media="screen">
-      div.printfriendly a, div.printfriendly a:link, div.printfriendly a:hover, div.printfriendly a:visited, div.printfriendly a:focus {
-        text-decoration: none;
-        border: none;
-        -webkit-box-shadow:none!important;
-        box-shadow:none!important;
-      }
-    </style>
-           <style type="text/css" media="screen">
-          div.printfriendly {
-            margin: 0px 0px 0px 0px;
-          }
-          div.printfriendly a, div.printfriendly a:link, div.printfriendly a:visited {
-            font-size: 14px;
-            color: #55750C;
-          }
-        </style>
-		<link rel="stylesheet" href="https://today.uic.edu/wp-content/plugins/printfriendly/printfriendly.css" media="screen" />
-        <style type="text/css" media="print">
-          .printfriendly {
-            display: none;
-          }
-        </style>
-
-<link rel="alternate" type="application/rss+xml" title="Podcast RSS feed" href="https://today.uic.edu/feed/podcast" />
-
-<script type="text/javascript">
-           var ajaxurl = "https://today.uic.edu/wp-admin/admin-ajax.php";
-         </script>
-<!-- Put the following javascript before the closing </head> tag. -->
-
-<script>
-  (function() {
-    var cx = '009511351313755808885:xdz07yl93pe';
-    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//www.google.com/cse/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-
+    <script src="//v2.libanswers.com/load_chat.php?hash=a8f3cdd768831e345ca9d2f796ff5e5d"></script>
+    <script src="https://cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js" type="text/javascript" charset="UTF-8"></script>
 </head>
+<body class="theme--navy">
+    <!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXRNQ8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) -->
+    <div class="page l-page ">
 
-<body role="document" class="home page-template-default page page-id-29 wp-embed-responsive">
-  
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57G9C3Q"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+        <header role="banner">
+                            <!--[if lte IE 9]>
+<div class="browser-stripe u-dark-region">
+  <div class="l-full">
+      <h2>Your browser is unsupported</h2>
+      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
+  </div>
+</div>
+<![endif]-->
+<div class="browser-stripe u-dark-region ie10">
+  <div class="l-full">
+      <h2>This page is taking too long to load.</h2>
+      <p>Try refreshing the page, or you may need to update your browser. We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
+  </div>
+</div>
+                
+<div class="l-header">
 
-
-<div id="skip" role="complementary">
-<a href="#the_content">Skip to main content</a></div>
-
-
-
-<div id="header" role="banner">
-
-
-
-
-         		<div id="header-background">
-
-
-
-<!-- removed color wash for now.
-
-			<div class="color-wash">
-            <img src="" alt="   ">
-            </div>
-
-            -->
-
-
-
-            <div class="uic-type-wrapper">
-
-
-            <div class="last-update-timestamp">
-            	Updated: Apr 27, 2020 at 06:16 PM
-            </div><!--  last-update-timestamp   -->
-
-
-            <div class="uic-type-treatment">
-
-  			<div class="_mark">
-    		<a href="http://uic.edu" class="uic-logo-icon" aria-label="UIC logo">
- 			<svg aria-label="UIC.edu" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- 			<title>UIC Logo</title>
- 			<circle class="_circle" cx="27" cy="27" r="25" fill="none"></circle>
- <path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#d50032" fill-rule="evenodd"></path>
-</svg>
-</a>
-  			</div><!--  _mark   -->
-
-  			<div class="_text">
-    		<a href="/">
-        	  Today
-      		  </a>
- 			</div><!--  _text   -->
-
-
-			</div><!--  uic-type-treatment   -->
-
-
-
-            <!-- Put search box here -->
-<div class="search-box" aria-label="Search U I C today">
-    <form role="search" method="get" action="https://today.uic.edu/">
-     
-        <input type="text" id="s" name="s" aria-label="Search" size="25" value="" placeholder="Search">
-
-<button type="submit" value="Submit" style="border: 0;
-clip: rect( 1px, 1px, 1px, 1px );
-clip-path: inset( 50% );
-height: 1px;
-margin: -1px;
-overflow: hidden;
-padding: 0;
-position: absolute;
-width: 1px;
-word-wrap: normal;">
-Submit
-</button>
-
-    </form>
-    
-    
+    <div class="eyebrow-mobile-wrapper js-eyebrow-mobile">
+  <div class="eyebrow-mobile">
+    <a href="http://uic.edu" class="icon-uic-logo eyebrow-logo">UIC.edu Home</a>
+    <div class="site-title-eyebrow-mobile">
+      <a href="/">University Library</a>
+    </div>
+    <button class="search-toggle-mobile js-search-toggle-mobile">
+      <span class="icon-search-mobile">
+      Toggle Search
+      </span>
+    </button>
+    <button class="nav-header-toggle js-nav-header-toggle">
+      <span class="icon-menu">
+      Toggle Menu
+      </span>
+    </button>
+  </div>
+    <div class="search-input-container-mobile">
+      <div class="search-title">
+        Search
+        <a class="search-close search-toggle-mobile">
+<svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1.41421;"><g id="icon-close"><path id="Line" d="M2,2l18,18" style="fill:none;stroke-width:2px;stroke:#fff;"/><path id="Line1" d="M20,2l-18,18" style="fill:none;stroke-width:2px;stroke:#fff;"/></g></svg>
+        </a>
+    </div>
+      <form method="get" action="/search" role="search" aria-label="Search this site on your mobile device">
+        <input type="text" name="q" class="search-input-mobile" placeholder="Search..." tabindex="-1" aria-label="Search this site on your mobile device" disabled="">
+        <input type="submit" class="submit-button" name="search" value="Submit">
+      </form>
+    </div>
 </div>
 
+    <a href="http://uic.edu" class="icon-uic-logo header-logo">UIC.edu Home</a>
 
-
-<!-- End search box code -->
-
-
-
-			</div><!--  uic-type-wrapper    -->
-
-
-		</div><!--  header-background   -->
-
-
-
-
-
-		<div id="main_nav" role="navigation" aria-label="Site">
-	  	 	<div class="main_nav_container"><ul id="menu-main_nav" class="menu"><li id="menu-item-57546"><a href="https://today.uic.edu/campus-news">Campus News</a></li>
-<li id="menu-item-57547"><a href="https://today.uic.edu/academics-research">Academics &#038; Research</a></li>
-<li id="menu-item-57548"><a href="https://today.uic.edu/events">Events</a></li>
-<li id="menu-item-67603"><a href="https://today.uic.edu/resources">Resources</a>
-<ul class="sub-menu">
-	<li id="menu-item-67604"><a href="https://today.uic.edu/resources/current-students">Current Student Resources</a></li>
-	<li id="menu-item-67605"><a href="https://today.uic.edu/resources/faculty-staff">Faculty &#038; Staff Resources</a></li>
-	<li id="menu-item-81898"><a href="https://today.uic.edu/resources/photo-video-policies">Photography/Video</a></li>
-	<li id="menu-item-82144"><a href="https://today.uic.edu/resources/social-media-inquiry-form">Social Media Account Request Form</a></li>
-	<li id="menu-item-82376"><a href="https://today.uic.edu/uic-social-media-guidelines-and-best-practices">UIC Social Media Guidelines and Best Practices</a></li>
-</ul>
-</li>
-<li id="menu-item-92036"><a href="https://today.uic.edu/coronavirus">COVID-19</a>
-<ul class="sub-menu">
-	<li id="menu-item-92300"><a href="https://today.uic.edu/frequently-asked-questions">Frequently Asked Questions</a></li>
-	<li id="menu-item-92297"><a href="https://today.uic.edu/what-you-need-to-know-about-covid-19">What you need to know about COVID-19</a></li>
-	<li id="menu-item-92298"><a href="https://today.uic.edu/support-for-the-uic-community">Support for the UIC community (COVID-19)</a></li>
-	<li id="menu-item-92299"><a href="https://today.uic.edu/teaching-learning-and-working-resources">Teaching, learning and working resources</a></li>
-	<li id="menu-item-93028"><a href="https://today.uic.edu/in-the-news-covid-19">In the News: COVID-19</a></li>
-</ul>
-</li>
-<li id="menu-item-57549"><a href="https://today.uic.edu/contact">Contact</a>
-<ul class="sub-menu">
-	<li id="menu-item-57551"><a href="https://today.uic.edu/contact/communicating-on-campus">Communicating On Campus</a></li>
-	<li id="menu-item-57552"><a href="https://today.uic.edu/contact/communicating-on-campus/sending-massmails-dddh">Sending Announcements / DDDH</a></li>
-	<li id="menu-item-57550"><a href="https://today.uic.edu/contact/social-media-directory">UIC Social Media Directory</a></li>
-</ul>
-</li>
-</ul></div>	    </div>
+    <div class="l-full">
+        <div class="site-title-main -large">
+            <a href="/">University Library</a>
         </div>
+        <nav class="header-menus js-header-menus" role="navigation">
 
-
-
-
-
-
-
-
-
-
-
-
-
-		</div>
-		</div>
-
-
-
-
-
-
-
-
- <div id="container" role="main" aria-label="Main content" class="clearfix">
-
-
-<a name="the_content" id="the_content" tabindex="-1" aria-label="Main content area"></a>
-
-
-
-
-
-
-<!-- Creates Top Stories slideshow -->
-  <div id="left_column">
-      
-    <div id="top-stories-h1-goes-here" class="clearfix">
-      <h1>Top Stories</h1>
-  </div>
-    
-    <div id="top-stories" class="clearfix" role="listbox" aria-label="Slideshow of the top 5 current stories" >
-        <h2>Current top stories at UIC</h2>
-      <div id="slides"><div class="slide" role="option"><img width="1000" height="666" src="https://today.uic.edu/files/2019/06/DJI_0203-1000x666.jpg" class="attachment-slideshow size-slideshow wp-post-image" alt="Aerial view of the skyline at sunset from east side." srcset="https://today.uic.edu/files/2019/06/DJI_0203-1000x666.jpg 1000w, https://today.uic.edu/files/2019/06/DJI_0203-387x258.jpg 387w, https://today.uic.edu/files/2019/06/DJI_0203-768x512.jpg 768w, https://today.uic.edu/files/2019/06/DJI_0203-590x393.jpg 590w, https://today.uic.edu/files/2019/06/DJI_0203-500x333.jpg 500w, https://today.uic.edu/files/2019/06/DJI_0203-300x200.jpg 300w, https://today.uic.edu/files/2019/06/DJI_0203-1320x879.jpg 1320w, https://today.uic.edu/files/2019/06/DJI_0203.jpg 1800w" sizes="(max-width: 1000px) 100vw, 1000px" /><div class="slide-caption"><h2><a href="https://today.uic.edu/uic-students-offer-advice-on-staying-strong-through-this-pandemic">Video: UIC students offer advice on staying strong through this pandemic </a></h2><p>Students share tips and advice on keeping positive and motivated at home
-</p></div></div><div class="slide" role="option"><img width="1000" height="666" src="https://today.uic.edu/files/2018/05/AIR_9152-1000x666.jpg" class="attachment-slideshow size-slideshow wp-post-image" alt="COM" srcset="https://today.uic.edu/files/2018/05/AIR_9152-1000x667.jpg 1000w, https://today.uic.edu/files/2018/05/AIR_9152-387x258.jpg 387w, https://today.uic.edu/files/2018/05/AIR_9152-768x512.jpg 768w, https://today.uic.edu/files/2018/05/AIR_9152-590x393.jpg 590w, https://today.uic.edu/files/2018/05/AIR_9152-500x333.jpg 500w, https://today.uic.edu/files/2018/05/AIR_9152-300x200.jpg 300w, https://today.uic.edu/files/2018/05/AIR_9152-1320x880.jpg 1320w, https://today.uic.edu/files/2018/05/AIR_9152-1536x1024.jpg 1536w, https://today.uic.edu/files/2018/05/AIR_9152.jpg 1800w" sizes="(max-width: 1000px) 100vw, 1000px" /><div class="slide-caption"><h2><a href="https://today.uic.edu/192-uic-medical-students-graduate-early">192 UIC medical students graduate early</a></h2><p>New doctors ready to help during pandemic</p></div></div><div class="slide" role="option"><img width="1000" height="666" src="https://today.uic.edu/files/2020/03/UI-Health-Hospital-Sign_Evening-shot_6x4-1000x666.jpg" class="attachment-slideshow size-slideshow wp-post-image" alt="UI Health Hospital Sign_Evening shot" srcset="https://today.uic.edu/files/2020/03/UI-Health-Hospital-Sign_Evening-shot_6x4-1000x667.jpg 1000w, https://today.uic.edu/files/2020/03/UI-Health-Hospital-Sign_Evening-shot_6x4-387x258.jpg 387w, https://today.uic.edu/files/2020/03/UI-Health-Hospital-Sign_Evening-shot_6x4-768x512.jpg 768w, https://today.uic.edu/files/2020/03/UI-Health-Hospital-Sign_Evening-shot_6x4-590x393.jpg 590w, https://today.uic.edu/files/2020/03/UI-Health-Hospital-Sign_Evening-shot_6x4-1536x1024.jpg 1536w, https://today.uic.edu/files/2020/03/UI-Health-Hospital-Sign_Evening-shot_6x4-500x333.jpg 500w, https://today.uic.edu/files/2020/03/UI-Health-Hospital-Sign_Evening-shot_6x4-300x200.jpg 300w, https://today.uic.edu/files/2020/03/UI-Health-Hospital-Sign_Evening-shot_6x4-1320x880.jpg 1320w, https://today.uic.edu/files/2020/03/UI-Health-Hospital-Sign_Evening-shot_6x4.jpg 1800w" sizes="(max-width: 1000px) 100vw, 1000px" /><div class="slide-caption"><h2><a href="https://today.uic.edu/video-thank-you-to-our-ui-health-staff">Video: Thank you to our UI Health staff</a></h2><p>UIC community offers messages of encouragement to those on the front lines</p></div></div><div class="slide" role="option"><img width="1000" height="666" src="https://today.uic.edu/files/2018/06/shutterstock_453865855-1000x666.jpg" class="attachment-slideshow size-slideshow wp-post-image" alt="butterfly" srcset="https://today.uic.edu/files/2018/06/shutterstock_453865855-1000x667.jpg 1000w, https://today.uic.edu/files/2018/06/shutterstock_453865855-387x258.jpg 387w, https://today.uic.edu/files/2018/06/shutterstock_453865855-768x512.jpg 768w, https://today.uic.edu/files/2018/06/shutterstock_453865855-590x393.jpg 590w, https://today.uic.edu/files/2018/06/shutterstock_453865855-500x333.jpg 500w, https://today.uic.edu/files/2018/06/shutterstock_453865855-300x200.jpg 300w, https://today.uic.edu/files/2018/06/shutterstock_453865855-1320x880.jpg 1320w, https://today.uic.edu/files/2018/06/shutterstock_453865855.jpg 1800w" sizes="(max-width: 1000px) 100vw, 1000px" /><div class="slide-caption"><h2><a href="https://today.uic.edu/uic-leads-largest-nationwide-effort-to-protect-the-monarch-butterfly">UIC leads largest nationwide effort to protect the monarch butterfly</a></h2><p>Partnership with U.S. Fish and Wildlife Service establishes conservation agreement</p></div></div><div class="slide" role="option"><img width="1000" height="666" src="https://today.uic.edu/files/2020/04/040320_Mask-Delivery_JC0025-1000x666.jpg" class="attachment-slideshow size-slideshow wp-post-image" alt="" srcset="https://today.uic.edu/files/2020/04/040320_Mask-Delivery_JC0025-1000x667.jpg 1000w, https://today.uic.edu/files/2020/04/040320_Mask-Delivery_JC0025-387x258.jpg 387w, https://today.uic.edu/files/2020/04/040320_Mask-Delivery_JC0025-768x512.jpg 768w, https://today.uic.edu/files/2020/04/040320_Mask-Delivery_JC0025-590x393.jpg 590w, https://today.uic.edu/files/2020/04/040320_Mask-Delivery_JC0025-500x333.jpg 500w, https://today.uic.edu/files/2020/04/040320_Mask-Delivery_JC0025-300x200.jpg 300w, https://today.uic.edu/files/2020/04/040320_Mask-Delivery_JC0025-1320x880.jpg 1320w, https://today.uic.edu/files/2020/04/040320_Mask-Delivery_JC0025.jpg 1500w" sizes="(max-width: 1000px) 100vw, 1000px" /><div class="slide-caption"><h2><a href="https://today.uic.edu/uic-shakespeare-theater-partnership-supplies-5000-masks-to-ui-health-leads-to-work-for-many">UIC-Shakespeare Theater partnership supplies 5,000 masks to UI Health, leads to work for many</a></h2><p>Costume fabricators make masks for UI Health patients</p></div></div></div><div class="nav"><a id="prev" href="#" alt="Previous story" aria-label="Previous story"><</a><a id="next" href="#" alt="Next story" aria-label="Next story">></a></div><ul class="slidetabs"><li><div class="ribbon"></div><p class="category">Campus</p><p class="title">Video: UIC students offer advice on staying strong through this pandemic </p></li><li><div class="ribbon"></div><p class="category">Health &amp; Medicine</p><p class="title">192 UIC medical students graduate early</p></li><li><div class="ribbon"></div><p class="category">Campus</p><p class="title">Video: Thank you to our UI Health staff</p></li><li><div class="ribbon"></div><p class="category">Science &amp; Technology</p><p class="title">UIC leads largest nationwide effort to protect the monarch butterfly</p></li><li><div class="ribbon"></div><p class="category">Campus</p><p class="title">UIC-Shakespeare Theater partnership supplies 5,000 masks to UI Health, leads to work for many</p></li></ul>  </div>
-
-
-  <div id="lower_section">
-
-<!-- Creates Messages from Campus link tiles -->
-      <div id="messages_multi">
-            <h2>Messages from campus</h2>
-        <div class="messages_box_container">
-          <div class="messages_box_single_container">        	<div class="messages_box_image"><a href="https://today.uic.edu/uic-covid-19-emergency-grant-awards-to-students"><img width="300" height="200" src="https://today.uic.edu/files/2013/05/map-grant_feat-300x200.jpg" class="attachment-feature-box size-feature-box wp-post-image" alt="Piggy bank next to a graduation cap and diploma" srcset="https://today.uic.edu/files/2013/05/map-grant_feat-300x200.jpg 300w, https://today.uic.edu/files/2013/05/map-grant_feat-1000x666.jpg 1000w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><h3><a href="https://today.uic.edu/uic-covid-19-emergency-grant-awards-to-students"> UIC COVID-19 Emergency Grant Awards to Students</a></h3><p>Dear Students, We are pleased to announce a $15.9 million [&hellip;]</p>
-<p class="view-more"><a href="https://today.uic.edu/uic-covid-19-emergency-grant-awards-to-students" >read more  <span aria-hidden="true">&#10132;</span> <span class="screen-reader-text">UIC COVID-19 Emergency Grant Awards to Students</span></a></p>           	
-          
-        </div>        <div class="messages_box_single_container">        	<div class="messages_box_image"><a href="https://today.uic.edu/supportive-work-environment-for-higher-risk-employees"><img width="300" height="200" src="https://today.uic.edu/files/2019/06/DJI_0207-300x200.jpg" class="attachment-feature-box size-feature-box wp-post-image" alt="Aerial view of the skyline at sunset from east side." srcset="https://today.uic.edu/files/2019/06/DJI_0207-300x200.jpg 300w, https://today.uic.edu/files/2019/06/DJI_0207-387x258.jpg 387w, https://today.uic.edu/files/2019/06/DJI_0207-768x512.jpg 768w, https://today.uic.edu/files/2019/06/DJI_0207-590x393.jpg 590w, https://today.uic.edu/files/2019/06/DJI_0207-1000x666.jpg 1000w, https://today.uic.edu/files/2019/06/DJI_0207-500x333.jpg 500w, https://today.uic.edu/files/2019/06/DJI_0207-1320x879.jpg 1320w, https://today.uic.edu/files/2019/06/DJI_0207.jpg 1800w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><h3><a href="https://today.uic.edu/supportive-work-environment-for-higher-risk-employees"> Supportive Work Environment for Higher Risk Employees</a></h3><p>UIC Faculty and Staff: As the COVID-19 spreads, we encourage [&hellip;]</p>
-<p class="view-more"><a href="https://today.uic.edu/supportive-work-environment-for-higher-risk-employees" >read more  <span aria-hidden="true">&#10132;</span> <span class="screen-reader-text">Supportive Work Environment for Higher Risk Employees</span></a></p>           	
-          
-        </div>        <div class="messages_box_single_container">        	<div class="messages_box_image"><a href="https://today.uic.edu/supporting-asians-and-asian-americans-at-uic-during-covid-19"><img width="300" height="200" src="https://today.uic.edu/files/2018/01/diversity-300x200.jpg" class="attachment-feature-box size-feature-box wp-post-image" alt="Office of the Vice Provost for Diversity logo" /></a></div><h3><a href="https://today.uic.edu/supporting-asians-and-asian-americans-at-uic-during-covid-19"> Supporting Asians and Asian Americans at UIC during COVID-19</a></h3><p>Dear Students, Staff, and Faculty, In the wake of the [&hellip;]</p>
-<p class="view-more"><a href="https://today.uic.edu/supporting-asians-and-asian-americans-at-uic-during-covid-19" >read more  <span aria-hidden="true">&#10132;</span> <span class="screen-reader-text">Supporting Asians and Asian Americans at UIC during COVID-19</span></a></p>           	
-          
-        </div>                </div>
-      </div>
-
-<!-- This creates "call to action" links using the Hotbar menu, icons are added using Wow-icons plugin -->
-
-    <div id="hotbar" role="navigation" aria-label="Call to action">
-      <div id="hotbar_container">
-        <div class="menu-homepage-hotbar-container"><ul id="menu-homepage-hotbar" class="menu"><li id="menu-item-57559" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57559"><a href="https://catalog.uic.edu/ucat/academic-calendar/#2017-2018"><i class="wow-position fa fa-calendar wow-icon"></i> <span class="wow-text"> Academic Calendar <img src="/files/2017/08/external_link.png" alt="external_link" width="15" height="15" /></span></a></li>
-<li id="menu-item-60941" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60941"><a href="https://today.uic.edu/uic-falconcam"><i class="wow-position fa fa-video-camera wow-icon"></i> <span class="wow-text"> Falcon CAM</span></a></li>
-<li id="menu-item-57560" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57560"><a href="http://sms.accc.uic.edu"><i class="wow-position fa fa-mobile-phone wow-icon"></i> <span class="wow-text"> Subscribe to SMS Alerts <img src="/files/2017/08/external_link.png" alt="external_link" width="15" height="15" /></span></a></li>
-</ul></div>          </div>
-      </div>       
-            
-            
-<!-- This creates Announcements and Events listings using widget. 
-   Announcements uses Ultimate posts widget, Events uses Events widget -->
-
-      <div id="messages_multi">
-            <h2 class="hidden">Announcements and Upcoming Events</h2>
-        <div class="messages_box_container">
-          <div class="messages_box_single_container2"><h2>Announcements</h2>
-
-<div class="upw-posts hfeed">
-
-  
-      
-        
-        <article class="post-93680 post type-post status-publish format-standard has-post-thumbnail hentry category-announcements category-info uic-news-uic-news uic-news-news">
-
-          <header>
-
-            
-                          <div class="entry-title">
-              <ul>
-              	<li>
-                <a href="https://today.uic.edu/covid-19-survey" rel="bookmark">
-                  COVID-19 survey                </a>
-                </li>
-                </ul>
-              </div>
-            
-            
-              <div class="entry-meta">
-
-                                  Posted on <time class="published" datetime="2020-04-23T14:23:57-05:00">Thursday, Apr. 23, 2020</time>
-                
-                
-                
-                
-                
-              </div>
-
-            
-          </header>
-
-          
-          <footer>
-
-            
-            
-            
-          </footer>
-
-        </article>
-
-      
-        
-        <article class="post-93475 post type-post status-publish format-standard has-post-thumbnail hentry category-announcements category-info category-r-studies">
-
-          <header>
-
-            
-                          <div class="entry-title">
-              <ul>
-              	<li>
-                <a href="https://today.uic.edu/ccts-covid-19-rapid-response-pilot-funding-rfa" rel="bookmark">
-                  CCTS COVID-19 Rapid Response Pilot Funding RFA                </a>
-                </li>
-                </ul>
-              </div>
-            
-            
-              <div class="entry-meta">
-
-                                  Posted on <time class="published" datetime="2020-04-16T14:00:00-05:00">Thursday, Apr. 16, 2020</time>
-                
-                
-                
-                
-                
-              </div>
-
-            
-          </header>
-
-          
-          <footer>
-
-            
-            
-            
-          </footer>
-
-        </article>
-
-      
-        
-        <article class="post-93229 post type-post status-publish format-standard has-post-thumbnail hentry category-announcements category-info uic-news-uic-news uic-news-news">
-
-          <header>
-
-            
-                          <div class="entry-title">
-              <ul>
-              	<li>
-                <a href="https://today.uic.edu/2-factor-authentication-for-my-ui-info" rel="bookmark">
-                  2-Factor Authentication for My UI Info                </a>
-                </li>
-                </ul>
-              </div>
-            
-            
-              <div class="entry-meta">
-
-                                  Posted on <time class="published" datetime="2020-04-13T21:00:00-05:00">Monday, Apr. 13, 2020</time>
-                
-                
-                
-                
-                
-              </div>
-
-            
-          </header>
-
-          
-          <footer>
-
-            
-            
-            
-          </footer>
-
-        </article>
-
-      
-  
+  <div id="skip" class="skip-menu assistive-text">
+  <p>
+    Skip to
+    <a class="_main" href="#main">the content of this page</a>,
+    <a class="_primary-menu" href="#menu-main">the main menu</a>,
+        <a class="_secondary-menu" href="#menu-secondary">the secondary menu</a>,
+        <a class="_search" href="#search">the site search form</a>
+    or go to the
+    <a class="_home" href="/">the site home page</a>.
+  </p>
 </div>
 
-  <div class="upw-after">
-    <p><a href="/category/announcements/">All Announcements &#10132;</a><br />
-&nbsp;<br />
-<a href="/category/announcements/r-studies/">Research Studies &#10132;</a></p>
+  <div class="site-title-mobile-menu">
+    <a href="/">University Library</a>
   </div>
-</div><div class="messages_box_single_container2"><h2>Upcoming Events</h2><ul><li><a href="https://today.uic.edu/events/earth-day-2020-plastic-free-uic">Earth Day 2020: Plastic-Free UIC!</a>
-<ul><li>04/09/2020 - 04/30/2020, All Day</li>
- <li></li></ul>
-</li><li><a href="https://today.uic.edu/events/competitive-gaming-club-discord-2020-04-27">Competitive Gaming Club Discord</a>
-<ul><li>04/27/2020, All Day</li>
- <li></li></ul>
-</li><li><a href="https://today.uic.edu/events/uic-campus-recreation-free-online-workouts-2020-04-27">UIC Campus Recreation free online workouts</a>
-<ul><li>04/27/2020, All Day</li>
- <li></li></ul>
-</li><li class="all-events-link"><a href="https://today.uic.edu/events" title="All Events &#10132;">All Events &#10132;</a></li></ul></div>                    
-        </div>
-      </div> 
-       
 
-<!-- This creates the link tiles for Home Page Area "More News" -->            
-      <div id="messages_multi">
-            <h2>More News topics</h2>
-        <div class="messages_box_container">
-          <div class="messages_box_single_container">        	<div class="messages_box_image"><a href="https://today.uic.edu/uics-lydia-diamond-wins-horton-foote-playwriting-award"><img width="300" height="200" src="https://today.uic.edu/files/2020/04/0156r_Harvy-Blanks-Jonathan-Burke-Daniel-J.-Bryant-Ezra-Knight-Toney-Goins-Eric-Berryman-Phillip-James-Brannon-April-Matthis-and-Kenn-E.-Head-in-TONI-STONE-Photo-by-Joan-Marcu-300x200.jpg" class="attachment-feature-box size-feature-box wp-post-image" alt="" srcset="https://today.uic.edu/files/2020/04/0156r_Harvy-Blanks-Jonathan-Burke-Daniel-J.-Bryant-Ezra-Knight-Toney-Goins-Eric-Berryman-Phillip-James-Brannon-April-Matthis-and-Kenn-E.-Head-in-TONI-STONE-Photo-by-Joan-Marcu-300x200.jpg 300w, https://today.uic.edu/files/2020/04/0156r_Harvy-Blanks-Jonathan-Burke-Daniel-J.-Bryant-Ezra-Knight-Toney-Goins-Eric-Berryman-Phillip-James-Brannon-April-Matthis-and-Kenn-E.-Head-in-TONI-STONE-Photo-by-Joan-Marcu-1000x666.jpg 1000w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><h3><a href="https://today.uic.edu/uics-lydia-diamond-wins-horton-foote-playwriting-award"> UIC’s Lydia Diamond wins Horton Foote Playwriting Award</a></h3><p>The author of 12 plays says of UIC, &#8220;Our students inspire me daily&#8221;</p>
-<p class="view-more"><a href="https://today.uic.edu/uics-lydia-diamond-wins-horton-foote-playwriting-award" >read more  <span aria-hidden="true">&#10132;</span> <span class="screen-reader-text">UIC’s Lydia Diamond wins Horton Foote Playwriting Award</span></a></p>           	
-          
-        </div>        <div class="messages_box_single_container">        	<div class="messages_box_image"><a href="https://today.uic.edu/south-shore-clinic-expands-covid-19-testing"><img width="300" height="200" src="https://today.uic.edu/files/2020/04/MSHC_SouthShoreTesting-0077_6x4-300x200.jpg" class="attachment-feature-box size-feature-box wp-post-image" alt="UI Health sets up a COVID-19 testing test outside its Mile Square" srcset="https://today.uic.edu/files/2020/04/MSHC_SouthShoreTesting-0077_6x4-300x200.jpg 300w, https://today.uic.edu/files/2020/04/MSHC_SouthShoreTesting-0077_6x4-387x258.jpg 387w, https://today.uic.edu/files/2020/04/MSHC_SouthShoreTesting-0077_6x4-768x512.jpg 768w, https://today.uic.edu/files/2020/04/MSHC_SouthShoreTesting-0077_6x4-590x393.jpg 590w, https://today.uic.edu/files/2020/04/MSHC_SouthShoreTesting-0077_6x4-1536x1024.jpg 1536w, https://today.uic.edu/files/2020/04/MSHC_SouthShoreTesting-0077_6x4-1000x667.jpg 1000w, https://today.uic.edu/files/2020/04/MSHC_SouthShoreTesting-0077_6x4-500x333.jpg 500w, https://today.uic.edu/files/2020/04/MSHC_SouthShoreTesting-0077_6x4-1320x880.jpg 1320w, https://today.uic.edu/files/2020/04/MSHC_SouthShoreTesting-0077_6x4.jpg 1800w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><h3><a href="https://today.uic.edu/south-shore-clinic-expands-covid-19-testing"> South Shore clinic expands COVID-19 testing</a></h3><p>UI Health Mile Square Health Center now testing community members for COVID-19</p>
-<p class="view-more"><a href="https://today.uic.edu/south-shore-clinic-expands-covid-19-testing" >read more  <span aria-hidden="true">&#10132;</span> <span class="screen-reader-text">South Shore clinic expands COVID-19 testing</span></a></p>           	
-          
-        </div>        <div class="messages_box_single_container">        	<div class="messages_box_image"><a href="https://today.uic.edu/8m-to-uic-to-lead-doe-materials-research-center"><img width="300" height="200" src="https://today.uic.edu/files/2020/04/nnsa_new_logo_HR_6x4-300x200.png" class="attachment-feature-box size-feature-box wp-post-image" alt="National Nuclear Security Administration logo" srcset="https://today.uic.edu/files/2020/04/nnsa_new_logo_HR_6x4-300x200.png 300w, https://today.uic.edu/files/2020/04/nnsa_new_logo_HR_6x4-387x258.png 387w, https://today.uic.edu/files/2020/04/nnsa_new_logo_HR_6x4-768x512.png 768w, https://today.uic.edu/files/2020/04/nnsa_new_logo_HR_6x4-590x393.png 590w, https://today.uic.edu/files/2020/04/nnsa_new_logo_HR_6x4-1536x1024.png 1536w, https://today.uic.edu/files/2020/04/nnsa_new_logo_HR_6x4-1000x667.png 1000w, https://today.uic.edu/files/2020/04/nnsa_new_logo_HR_6x4-500x333.png 500w, https://today.uic.edu/files/2020/04/nnsa_new_logo_HR_6x4-1320x880.png 1320w, https://today.uic.edu/files/2020/04/nnsa_new_logo_HR_6x4.png 1800w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><h3><a href="https://today.uic.edu/8m-to-uic-to-lead-doe-materials-research-center"> $8M to UIC to lead DOE materials research center</a></h3><p>Center will study materials in extreme conditions</p>
-<p class="view-more"><a href="https://today.uic.edu/8m-to-uic-to-lead-doe-materials-research-center" >read more  <span aria-hidden="true">&#10132;</span> <span class="screen-reader-text">$8M to UIC to lead DOE materials research center</span></a></p>           	
-          
-        </div>                </div>
-      </div>     
+  <h2 class="assistive-text">Main Menu</h2>
+  <ul id="menu-main" class="menu menu-main" aria-label="Main menu">
+	<li class="_item ">
+		<a href="/help" target="_self">Help</a>
+    	</li>
+	<li class="_item menu-item-has-children">
+		<a href="/collections" target="_self">Collections</a>
+          <button role="button" class="expand-item js-expand-item">Expand Collections menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/collections/articles" target="_self">Articles</a>
+    </li>
+    <li class="_item ">
+    <a href="/collections/books-media" target="_self">Books &#038; Media</a>
+    </li>
+    <li class="_item menu-item-has-children">
+    <a href="/collections/digital-images" target="_self">Digital Images</a>
+        <button role="button" class="expand-item js-expand-item">Expand Digital Images menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/collections/digital-images/uic-image-collections" target="_self">UIC Image Collections</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item ">
+    <a href="/special-collections-university-archives" target="_self">Special Collections & University Archives</a>
+    </li>
+    <li class="_item ">
+    <a href="/collections/maps-gis" target="_self">Maps & GIS</a>
+    </li>
+    <li class="_item ">
+    <a href="/collections/uic-publications" target="_self">Theses, Dissertations & UIC Publications</a>
+    </li>
+  </ul>
+	</li>
+	<li class="_item menu-item-has-children">
+		<a href="/libraries" target="_self">Libraries</a>
+          <button role="button" class="expand-item js-expand-item">Expand Libraries menu</button>
+  <ul class="_child">
+    <li class="_item menu-item-has-children">
+    <a href="/libraries/daley" target="_self">Chicago-Daley</a>
+        <button role="button" class="expand-item js-expand-item">Expand Chicago-Daley menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/libraries/daley/hours" target="_self">Hours & Location</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item menu-item-has-children">
+    <a href="/libraries/lhs-chicago" target="_self">Chicago-Health Sciences</a>
+        <button role="button" class="expand-item js-expand-item">Expand Chicago-Health Sciences menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/libraries/lhs-chicago/hours" target="_self">Hours & Location</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item menu-item-has-children">
+    <a href="/libraries/lhs-peoria" target="_self">Peoria-Health Sciences</a>
+        <button role="button" class="expand-item js-expand-item">Expand Peoria-Health Sciences menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/libraries/lhs-peoria/hours" target="_self">Hours & Location</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item menu-item-has-children">
+    <a href="/libraries/lhs-rockford" target="_self">Rockford-Health Sciences</a>
+        <button role="button" class="expand-item js-expand-item">Expand Rockford-Health Sciences menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/libraries/lhs-rockford/hours" target="_self">Hours & Location</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item menu-item-has-children">
+    <a href="/libraries/lhs-urbana" target="_self">Urbana-Health Sciences</a>
+        <button role="button" class="expand-item js-expand-item">Expand Urbana-Health Sciences menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/libraries/lhs-urbana/hours" target="_self">Hours & Location</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item ">
+    <a href="http://library.uic.edu/special-collections-university-archives" target="_self">Special Collections & University Archives</a>
+    </li>
+    <li class="_item ">
+    <a href="https://www.jmls.edu/library/" target="_self">UIC John Marshall Law School Library</a>
+    </li>
+  </ul>
+	</li>
+	<li class="_item menu-item-has-children current-page-ancestor">
+		<a href="/about" target="_self">About</a>
+          <button role="button" class="expand-item js-expand-item">Expand About menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about/events" target="_self">Events</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/news" target="_self">News</a>
+    </li>
+    <li class="_item menu-item-has-children">
+    <a href="/about/employment" target="_self">Jobs & Careers</a>
+        <button role="button" class="expand-item js-expand-item">Expand Jobs & Careers menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about/employment/faculty-support" target="_self">Faculty Support</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item menu-item-has-children">
+    <a href="/about/directory" target="_self">People</a>
+        <button role="button" class="expand-item js-expand-item">Expand People menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about/directory/liaisons" target="_self">Subject Librarians</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/directory/faculty" target="_self">Faculty</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/directory/staff" target="_self">Staff</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/library-departments" target="_self">Library Departments</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item ">
+    <a href="/about/digital-scholarship" target="_self">Digital Scholarship</a>
+    </li>
+    <li class="_item menu-item-has-children">
+    <a href="/about/faculty" target="_self">Faculty</a>
+        <button role="button" class="expand-item js-expand-item">Expand Faculty menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about/faculty/projects" target="_self">Projects and Initiatives</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/faculty/teaching" target="_self">Teaching and Learning</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item menu-item-has-children">
+    <a href="/about/policies" target="_self">Library Policies</a>
+        <button role="button" class="expand-item js-expand-item">Expand Library Policies menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about/policies/privacy-policy" target="_self">User Privacy Policy</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/policies/code-of-conduct" target="_self">Code of Conduct</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/policies/service-policy" target="_self">Service Policy</a>
+    </li>
+    <li class="_item menu-item-has-children">
+    <a href="/about/policies/collection-development-policy" target="_self">Collection Development Policy</a>
+        <button role="button" class="expand-item js-expand-item">Expand Collection Development Policy menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/collections/fy19-collections-changes" target="_self">FY19 Collections Changes</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item ">
+    <a href="/help/article/1901/find-out-when-items-are-due/" target="_self">Renewal and Return Policies</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/policies/daley" target="_self">Daley Library Policies</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/policies/classroom-reservations-policy" target="_self">Daley Library IDEA Commons Classroom Reservations</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item ">
+    <a href="/about/strategic-plan" target="_self">Strategic Plan</a>
+    </li>
+    <li class="_item menu-item-has-children current-menu-item current-page-ancestor">
+    <a href="/covid-19" target="_self">COVID-19 and the Library</a>
+        <button role="button" class="expand-item js-expand-item">Expand COVID-19 and the Library menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/covid-19/covid-student-support" target="_self">COVID-19 Student Support Resources</a>
+    </li>
+  </ul>
+  </li>
+  </ul>
+	</li>
+	<li class="_item menu-item-has-children">
+		<a href="/special-collections-university-archives" target="_self">Special Collections & University Archives</a>
+          <button role="button" class="expand-item js-expand-item">Expand Special Collections & University Archives menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about-special-collections-university-archives" target="_self">About Special Collections & University Archives</a>
+    </li>
+    <li class="_item ">
+    <a href="/finding-aids" target="_self">Finding Aids</a>
+    </li>
+    <li class="_item ">
+    <a href="/rare-books" target="_self">Rare Books</a>
+    </li>
+    <li class="_item ">
+    <a href="http://library.uic.edu/collections/maps-gis" target="_self">Maps & GIS</a>
+    </li>
+    <li class="_item ">
+    <a href="http://library.uic.edu/collections/digital-images" target="_self">Digital Images</a>
+    </li>
+    <li class="_item ">
+    <a href="http://library.uic.edu/help/search?q=&t%5B%5D=29" target="_self">Using Special Collections & University Archives</a>
+    </li>
+    <li class="_item ">
+    <a href="http://researchguides.uic.edu/subject/special-collections-archives" target="_self">Special Collections Research Guides</a>
+    </li>
+  </ul>
+	</li>
+</ul>
 
+  <div class="l-eyebrow">
 
-<!-- This is where new Meltwater embed will go  -->
-      <div id="messages_multi_meltwater">
-            <h2>UIC in the news</h2>
-        <div class="messages_box_container_meltwater">
+    <h2 class="assistive-text">Eyebrow menu</h2>
+    <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
+	<li class="_item ">
+		<a href="/contact" target="_self">Contact Us</a>
+    	</li>
+	<li class="_item ">
+		<a href="/accounts" target="_self">My Accounts</a>
+    	</li>
+	<li class="_item ">
+		<a href="/donate" target="_self">Give to the Library</a>
+    	</li>
+	<li class="_item current-menu-item current-page-ancestor">
+		<a href="/covid-19" target="_self">COVID-19</a>
+    	</li>
+</ul>
 
+    <h2 class="assistive-text">UIC menu</h2>
+    <ul class="menu-uic">
+  <li class="_item">
+    <a href="http://uic.edu">UIC.edu</a>
+  </li>
+  <li class="_item">
+    <a href="http://maps.uic.edu/">Campus Map</a>
+  </li>
+  <li class="_item">
+    <a href="http://today.uic.edu/">UIC Today</a>
+  </li>
+</ul>
 
-<script async src="https://d36hc0p18k1aoc.cloudfront.net/pages/a5b5e5.js"></script><div
-class="tintup" data-id="customer_2317035_universityofillinois"
-data-columns="" data-expand="true"  data-count="2"
-data-noButtons="true" data-paginate="true"
-data-personalization-id="870500"
-style="height:500px;width:100%;"></div>
+    <button id="header-search" class="search-toggle">
+      <span class="icon-search">
+      Toggle Search
+      </span>
+    </button>
 
+    <div class="search-input-container">
+      <form method="get" action="/search" role="search" aria-label="Search this site">
+        <input type="text" name="q" class="search-input" placeholder="Search..." tabindex="-1" aria-label="Search" disabled="">
+        <input type="submit" class="submit-button" name="search" value="Submit">
+      </form>
+    </div>
 
-
-                
-                
-                
-        </div>
-      </div>
-      
-<!-- Static Links created with a dynamic sidebar using Image widgets, set image size to featured-box    -->
-          <div id="messages_multi">
-        <div class="messages_box_container">
-          <div class="messages_box_single_container"><h2>Submit Your News</h2><a href="https://today.uic.edu/campus-news/submit-your-story-ideas/" target="_self" class="widget_sp_image-image-link" title="Submit Your News"><img width="1800" height="1200" alt="News image of the Obama Foundation event" class="attachment-full" style="max-width: 100%;" srcset="https://today.uic.edu/files/2018/06/2018.6.19ObamaFCC081_new.jpg 1800w, https://today.uic.edu/files/2018/06/2018.6.19ObamaFCC081_new-387x258.jpg 387w, https://today.uic.edu/files/2018/06/2018.6.19ObamaFCC081_new-768x512.jpg 768w, https://today.uic.edu/files/2018/06/2018.6.19ObamaFCC081_new-590x393.jpg 590w, https://today.uic.edu/files/2018/06/2018.6.19ObamaFCC081_new-1000x667.jpg 1000w, https://today.uic.edu/files/2018/06/2018.6.19ObamaFCC081_new-500x333.jpg 500w, https://today.uic.edu/files/2018/06/2018.6.19ObamaFCC081_new-300x200.jpg 300w, https://today.uic.edu/files/2018/06/2018.6.19ObamaFCC081_new-1320x880.jpg 1320w" sizes="(max-width: 1800px) 100vw, 1800px" src="https://today.uic.edu/files/2018/06/2018.6.19ObamaFCC081_new.jpg" /></a><div class="widget_sp_image-description" ><p><a href="/campus-news/submit-your-story-ideas/">Contact us with ideas for stories, news, videos or photos  &#10132;</a></p>
-</div></div><div class="messages_box_single_container"><h2>Submit Announcements</h2><a href="/contact/communicating-on-campus/submit-announcements/" target="_self" class="widget_sp_image-image-link" title="Submit Announcements"><img width="300" height="200" alt="crowd of students walking on campus" class="attachment-feature-box" style="max-width: 100%;" srcset="https://today.uic.edu/files/2017/08/DG13_09_15_112-300x200.jpg 300w, https://today.uic.edu/files/2017/08/DG13_09_15_112-388x258.jpg 388w, https://today.uic.edu/files/2017/08/DG13_09_15_112-590x392.jpg 590w, https://today.uic.edu/files/2017/08/DG13_09_15_112.jpg 600w, https://today.uic.edu/files/2017/08/DG13_09_15_112-500x333.jpg 500w" sizes="(max-width: 300px) 100vw, 300px" src="https://today.uic.edu/files/2017/08/DG13_09_15_112-300x200.jpg" /></a><div class="widget_sp_image-description" ><p><a href="/contact/communicating-on-campus/submit-announcements/">Submit your campus informational announcements   &#10132;</a></p>
-</div></div><div class="messages_box_single_container"><h2>Submit Events</h2><a href="/submit-an-event/" target="_self" class="widget_sp_image-image-link" title="Submit Events"><img width="300" height="200" alt="Submit Events" class="attachment-feature-box" style="max-width: 100%;" srcset="https://today.uic.edu/files/2017/08/submit-events.jpg-300x200.jpeg 300w, https://today.uic.edu/files/2017/08/submit-events.jpg-387x258.jpeg 387w, https://today.uic.edu/files/2017/08/submit-events.jpg-768x512.jpeg 768w, https://today.uic.edu/files/2017/08/submit-events.jpg-590x393.jpeg 590w, https://today.uic.edu/files/2017/08/submit-events.jpg-600x400.jpeg 600w, https://today.uic.edu/files/2017/08/submit-events.jpg-500x333.jpeg 500w, https://today.uic.edu/files/2017/08/submit-events.jpg.jpeg 900w" sizes="(max-width: 300px) 100vw, 300px" src="https://today.uic.edu/files/2017/08/submit-events.jpg-300x200.jpeg" /></a><div class="widget_sp_image-description" ><p><a href="/submit-an-event/">Submit your UIC events   &#10132;</a></p>
-</div></div>        </div>
-      </div>    
-    </div>      
-        
   </div>
-        
-  </div>
+
+
+</nav>
+    </div>
+
     
+            <a href="#menu-secondary" class="menu-secondary-anchor">View Menu</a>
+    
+</div>
+                    </header>
+
+                <main id="main" class="page__main">
+                            <div class="layout ">
+    <div class="layout__main">
+        
+        <nav class="breadcrumbs" aria-label="Breadcrumbs">
+        <h2 class="breadcrumbs__header">Breadcrumbs</h2>
+        <ol>
+                                                <li class="breadcrumbs__list-item">
+                        <a class="breadcrumb breadcrumb--home" href="/">Home</a>
+                    </li>
+                                                                <li class="breadcrumbs__list-item">
+                        <a class="breadcrumb " href="/about">About</a>
+                    </li>
+                                                                <li class="breadcrumbs__list-item">
+                        <a href="/covid-19"><span class="breadcrumb breadcrumb--here">COVID-19 and the Library</span></a>
+                    </li>
+                                    </ol>
+    </nav>
+
+    <h1 class="page-title">COVID-19 and the Library</h1>
+            <div class="page-content__content">
+            <!-- container.twig -->
+<div class="content-container">
+  
+          <div class="text-content"><p><strong>The UIC University Library is closed as of Friday, March 20 and will reopen as the situation permits</strong>. See <a href="https://library.uic.edu/libraries">access and hours</a> for all library locations.</p>
 </div>    
     
     
-<div class="clearThis">&nbsp;</div>
-
-
-
-
-
     
-
-    <footer id="footer" class="footer u-dark-region" role="contentinfo">
-
-
-  <div class="footer-contact">
-    <div class="l-full">
-
-
-            <div class="uic-type-wrapper-footer">
-
-            <div class="uic-type-treatment-footer">
-            
-  			<div class="_mark"> 
-    		<a href="http://uic.edu" class="uic-logo-icon" aria-label="UIC logo">
- 			<svg aria-label="UIC.edu" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- 			<title>UIC Logo</title>
- 			<circle class="_circle" cx="27" cy="27" r="25" fill="none"></circle>
- <path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#d50032" fill-rule="evenodd"></path>
+    
+  
+    
+    
+          <div class="tiles-content">
+        <ul class="tiles-content__list">
+                    <li class="tiles-content__tile">
+                <div class="tile-content">
+            <a class="tile-content__link" href="/covid-19/covid-student-support">
+            <div class="tile-content__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
 </svg>
-</a>
-  			</div><!--  _mark   -->   
-            
-  			<div class="_text">
-    		<a href="/">
-        	  Today
-      		  </a>
- 			</div><!--  _text   -->
-
-            
-			</div><!--  uic-type-treatment-footer   -->
-
-
-			</div><!--  uic-type-wrapper-footer    -->
- 
-
-
-  <div class="_contact">
-  
-  
-    <h2>Contact</h2>
-    
-    
-		<div class="site-address">Office of Public and Government Affairs <br />
-		601 S. Morgan St., 1320 UH, Chicago, IL 60607</div>
-      
-      
-		<div class="site-email"><a href="mailto:uictoday@uic.edu">uictoday@uic.edu</a></div>
-        
-        
-		<div aria-label="Social Media Accounts" class="_social" role="navigation">
-			<h2 class="assistive-text">Social Media Accounts</h2> 
-  			<ul class="site-social-links">
-            <li><a href="https://www.facebook.com/uicnews "><img src="/wp-content/themes/uictoday/images/social-media-icons/facebook.png" alt="Facebook"></a></li>
-            <li><a href="https://instagram.com/thisisuic/"><img src="/wp-content/themes/uictoday/images/social-media-icons/instagram.png" alt="Instagram"></a></li>
-            <li><a href="https://today.uic.edu/campus-news/campus-newspaper/subscribe-to-uic-today"><img src="/wp-content/themes/uictoday/images/social-media-icons/rss.png" alt="RSS feed"></a></li>
-            <li><a href="https://uicscience.tumblr.com/"><img src="/wp-content/themes/uictoday/images/social-media-icons/tumblr.png" alt="tumblr"></a></li>
-            <li><a href="https://twitter.com/UICnews"><img src="/wp-content/themes/uictoday/images/social-media-icons/twitter.png" alt="Twitter"></a></li>
-            <li><a href="https://www.youtube.com/user/uicmedia"><img src="/wp-content/themes/uictoday/images/social-media-icons/youtube.png" alt="YouTube"></a></li>
-            <li><a href="https://today.uic.edu/contact/social-media-directory"><img src="/wp-content/themes/uictoday/images/social-media-icons/directory.png" alt="Social media directory"></a></li>
+</div>
+            <p class="tile-content__title">Student Support Resources</p>
+            <div class="tile-content__body"><p>UIC cares about you!</p>
+</div>
+        </a>
+    </div>
+            </li>
+                    <li class="tiles-content__tile">
+                <div class="tile-content">
+            <a class="tile-content__link" href="https://libcal.uic.edu/hours">
+            <div class="tile-content__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
+</div>
+            <p class="tile-content__title">Library Hours</p>
+            <div class="tile-content__body"><p>See access and hours for all library locations.</p>
+</div>
+        </a>
+    </div>
+            </li>
+                    <li class="tiles-content__tile">
+                <div class="tile-content">
+            <a class="tile-content__link" href="https://researchguides.uic.edu/covid-free-resources">
+            <div class="tile-content__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
+</div>
+            <p class="tile-content__title">Free COVID resources for teaching</p>
+            <div class="tile-content__body"><p>During the COVID-19 emergency, publishers are providing many important resources for free.</p>
+</div>
+        </a>
+    </div>
+            </li>
             </ul>
-            
-            
-		</div>        
-        
-        
-  </div>
-
+</div>
     
+    
+    
+  
+          <div class="text-content"><h2>Attn: Students in Need of Computer/Internet Access</h2>
+<p>If you do not have access to a computer and/or internet access to participate in your online classes at home, please visit ACCC’s <a href="https://accc.uic.edu/forms/laptop-request/">Laptop or Hotspot Request page</a> for information on obtaining equipment.</p>
+<p><a href="https://accc.uic.edu/forms/laptop-request/">Request Laptop and/or Hotspot</a></p>
+<p><a href="https://today.uic.edu/teaching-learning-and-working-resources?utm_source=mailpoet&amp;utm_medium=email&amp;utm_campaign=message-from-the-chancellor_551">Additional Learning, Teaching and Working Resources</a></p>
+<h2>Online Collections and Services</h2>
+<p>We encourage you to access our many collections and services online. The Library subscribes to tens of thousands of online resources that can be searched through our Library website at <a href="https://library.uic.edu/">library.uic.edu</a>. Hundreds of <a href="https://researchguides.uic.edu/">research guides</a> provide information about specific disciplinary resources as well as about issues such as copyright, which may be on your mind as you move your courses online. In addition, many publishers and vendors are increasing access to their offerings during this crisis.</p>
+<p><strong>Chat with a Librarian</strong> is available from Sun. to Thurs., 7:30 a.m. to 1 a.m.; Fri., 7:30 a.m. to 9 p.m.; and Sat., 7:30 a.m. to 7 p.m. All other inquiries <a href="http://ask.library.uic.edu/widget_standalone.php?la_widget_id=755">submitted through email</a> will be answered within 24 hours. Library faculty are also available for <a href="https://library.uic.edu/help/article/1919/make-an-appointment-with-a-librarian">virtual research consultations</a> &#8211; fill out the form, and a librarian will send a link to WebEx for the appointment.</p>
+<p>Publishers have made <a href="https://researchguides.uic.edu/covid-free-resources">selected electronic resources</a> temporarily open access to aid online instruction and research during the COVID-19 emergency so that educators and researchers can use them easily as they adapt their courses online. The UIC University Library will continue to add new resources to this list as they become available. Please visit this page often for the latest updates.</p>
+<p><a href="https://researchguides.uic.edu/covid-free-resources">View list of temporarily free resources that may help with teaching<br />
+</a></p>
+<h2>I-Share and Interlibrary Loan</h2>
+<p>Articles and book chapters (PDFs) can still be requested via <a href="https://library.uic.edu/help/article/1935/request-items#interlibrary-loan">Interlibrary Loan</a>, but service is limited by closures at other libraries. Books and other physical material are not available by I-Share or Interlibrary Loan until further notice.</p>
+<h2>Overdue Items and Fees</h2>
+<p>Do not worry about being charged; the Library has shut down overdue and lost notices during this time.  Materials that become overdue or begin to incur fees after March 14, 2020 will be granted amnesty until further notice. Please renew your books at <a href="https://library.uic.edu/accounts">My Accounts</a> if you are able.</p>
+<h2>Returns</h2>
+<p>Once normal operations resume and it is safe to do so, please return the materials to the Library and ask for return receipts.</p>
+<h2>Faculty deadline for ordering new materials for summer research</h2>
+<p>No new print materials are being ordered currently. Because of a systems migration unrelated to COVID-19, all faculty requests for e-books or streaming media are due by <strong>April 15</strong>. Requests received after that date will be processed in July (crisis conditions permitting).</p>
+<h2>Additional resources</h2>
+<p>The Library’s <a href="https://researchguides.uic.edu/coronavirus">COVID-19 research guide</a> contains a rich array of resources, primarily geared toward researchers.</p>
+<p>Please consult this <a href="https://today.uic.edu/coronavirus?utm_source=library&amp;utm_medium=website&amp;utm_campaign=covid-19">UIC page for campus-level information</a> on how the University is dealing with the COVID-19 situation.</p>
+<p>Experiencing discrimination? Visit UIC Global Asian Studies&#8217; <a href="https://glas.uic.edu/news-stories/stigma-covid-19-viruses-do-not-discriminate/">Stigma &amp; Covid-19: Viruses Do Not Discriminate</a></p>
+<p>Information on preventive measures can be found at the <a href="https://www.cdc.gov/coronavirus/2019-ncov/about/prevention.html">Centers for Disease Control and Prevention</a>.</p>
+<h2>Contact Us</h2>
+<p>For questions, please email <a href="mailto:lib-COVID19@uic.edu">lib-COVID19@uic.edu</a></p>
+<p>&nbsp;</p>
+</div>    
+    
+    
+    
+    
+  </div>
+        </div>
+    
+            <section class="section help-articles-list" aria-label="Help Articles list section">
 
-       
+    <h2 class="section__title section-heading"><span>How Do I...?</span></h2>
 
+    <div class="section__content">
+    <ul class="help-articles-list__articles">
+                    <li class="help-articles-list__article">
+                <a href="/help/article/1870/access-databases-journals-and-articles-from-off-campus">Access library resources from off-campus</a>
+            </li>
+                    <li class="help-articles-list__article">
+                <a href="/help/article/7065/find-health-information-non-uic-guests">Find health information (non-UIC guests)</a>
+            </li>
+                    <li class="help-articles-list__article">
+                <a href="/help/article/1912/get-off-campus-help">Get research help online</a>
+            </li>
+                    <li class="help-articles-list__article">
+                <a href="/help/article/1919/make-an-appointment-with-a-librarian">Make an appointment with a librarian</a>
+            </li>
+                    <li class="help-articles-list__article">
+                <a href="/help/article/1887/distance-student-services">Distance education user services</a>
+            </li>
+                    <li class="help-articles-list__article">
+                <a href="/help/article/1891/faculty-services">Faculty services</a>
+            </li>
+            </ul>
 
-   
-
-
-
-
-
-		<div id="quicklinks_footer" role="navigation" aria-label="Quick Links" >
-			<div id="quicklinks_footer_container">
-	  	 	<div class="menu-footer-quicklinks-container"><ul id="menu-footer-quicklinks" class="menu"><li id="menu-item-57564"><a href="/news-release/news-release/">For the Media</a></li>
-<li id="menu-item-57555"><a href="https://today.uic.edu/experts-guide">Experts Guide</a></li>
-<li id="menu-item-57577"><a href="https://today.uic.edu/contact/communicating-on-campus/submit-announcements">Submit Announcements</a></li>
-<li id="menu-item-57578"><a href="https://today.uic.edu/submit-an-event">Submit an Event</a></li>
-<li id="menu-item-67562"><a href="https://today.uic.edu/campus-news/campus-newspaper/subscribe-to-uic-today">Subscribe to UIC Today</a></li>
-</ul></div>        	</div>
-	    </div>      
-
+    <p class="section__footer">
+        <a class="button" href="/help/search?t[]=17&t[]=18&t[]=19&t[]=21&t[]=24&t[]=361&t[]=29&l[]=390&l[]=388&l[]=389&l[]=391&l[]=386">Get More Help</a>
+    </p>
 
 </div>
 
+</section>    
     
     </div>
-  </div>
-
-
-
-
-<div class="footer-wrapper-uic-menu-legal">
-
-
-  <div class="footer-uic-menu">
-    <div class="ll-full">
-
-      <div role="navigation" aria-label="UIC.edu Links" >
-  <h2 class="assistive-text">UIC.edu links</h2>
-  <ul class="uic-footer-menu">
-    <li><a href="http://uic.edu/">UIC.edu</a></li>
-    <li><a href="http://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></li>
-    <li><a href="http://uicflames.com/">Athletics</a></li>
-    <li><a href="http://www.uic.edu/apps/departments-az/search">Campus Directory</a></li>
-    <li><a href="http://disabilityresources.uic.edu/">Disability Resources</a></li>
-    <li><a href="http://emergency.uic.edu/">Emergency Information</a></li>
-    <li><a href="http://events.uic.edu/">Event Calendar</a></li>
-    <li><a href="http://uic.edu/about/job-opportunities">Job Openings</a></li>
-    <li><a href="http://library.uic.edu/">Library</a></li>
-    <li><a href="http://maps.uic.edu/">Maps</a></li>
-    <li><a href="http://hospital.uillinois.edu/">UI Health</a></li>
-    <li><a href="http://dos.uic.edu/studentveteranaffairs.shtml">Veterans Affairs</a></li>
+    <div class="layout__sidebar">
+        
+    <section aria-label="Secondary Menu" >
+    <div id="menu-secondary" class="menu-secondary">
+        <div class="_title">
+                        <h2><a href="/about">About</a></h2>
+                        <a class="icon-circle-arrow-up" href="#main">Back to content</a>
+        </div>
+        <ul  class="menu " aria-label="Secondary menu">
+	<li class="_item ">
+		<a href="/about/events" target="_self">Events</a>
+    	</li>
+	<li class="_item ">
+		<a href="/about/news" target="_self">News</a>
+    	</li>
+	<li class="_item menu-item-has-children">
+		<a href="/about/employment" target="_self">Jobs & Careers</a>
+          <span class="expand-item"></span>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about/employment/faculty-support" target="_self">Faculty Support</a>
+    </li>
   </ul>
-</div>
-
-    </div><!--  ll-full   -->
-    
-    <div class="m-full">
-    <img src="/wp-content/themes/uictoday/images/uihealth.png" alt="UI Health and UIC co-branded logo">
-    </div><!--  m-full   -->
-    
-  </div><!--  footer-uic-menu   --> 
-
-
-
-
-  <div class="footer-legal">
-    <div class="l-full">
-
-      <div class="site-copyright">
-  &copy; 2020 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
-  <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a>
-</div>
-
-<div class="campuses" role="navigation" aria-label="University of Illinois campus web sites">
-  <h2 class="assistive-text">Campuses</h2>
-  <ul class="campuses-list">
-    <li><a href="https://uillinois.edu/">University of Illinois System</a></li>
-    <li><a href="https://illinois.edu/">Urbana-Champaign</a></li>
-    <li><a href="https://uis.edu/">Springfield</a></li>
+	</li>
+	<li class="_item menu-item-has-children">
+		<a href="/about/directory" target="_self">People</a>
+          <span class="expand-item"></span>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about/directory/liaisons" target="_self">Subject Librarians</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/directory/faculty" target="_self">Faculty</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/directory/staff" target="_self">Staff</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/library-departments" target="_self">Library Departments</a>
+    </li>
   </ul>
-</div>
+	</li>
+	<li class="_item ">
+		<a href="/about/digital-scholarship" target="_self">Digital Scholarship</a>
+    	</li>
+	<li class="_item menu-item-has-children">
+		<a href="/about/faculty" target="_self">Faculty</a>
+          <span class="expand-item"></span>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about/faculty/projects" target="_self">Projects and Initiatives</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/faculty/teaching" target="_self">Teaching and Learning</a>
+    </li>
+  </ul>
+	</li>
+	<li class="_item menu-item-has-children">
+		<a href="/about/policies" target="_self">Library Policies</a>
+          <span class="expand-item"></span>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about/policies/privacy-policy" target="_self">User Privacy Policy</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/policies/code-of-conduct" target="_self">Code of Conduct</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/policies/service-policy" target="_self">Service Policy</a>
+    </li>
+    <li class="_item menu-item-has-children">
+    <a href="/about/policies/collection-development-policy" target="_self">Collection Development Policy</a>
+        <span class="expand-item"></span>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/collections/fy19-collections-changes" target="_self">FY19 Collections Changes</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item ">
+    <a href="/help/article/1901/find-out-when-items-are-due/" target="_self">Renewal and Return Policies</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/policies/daley" target="_self">Daley Library Policies</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/policies/classroom-reservations-policy" target="_self">Daley Library IDEA Commons Classroom Reservations</a>
+    </li>
+  </ul>
+	</li>
+	<li class="_item ">
+		<a href="/about/strategic-plan" target="_self">Strategic Plan</a>
+    	</li>
+	<li class="_item menu-item-has-children current-menu-item current-page-ancestor">
+		<a href="/covid-19" target="_self">COVID-19 and the Library</a>
+          <span class="expand-item"></span>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/covid-19/covid-student-support" target="_self">COVID-19 Student Support Resources</a>
+    </li>
+  </ul>
+	</li>
+</ul>
+    </div>
+</section>
 
     </div>
+</div>
+                    </main>
+        
+        <footer class="page__footer" role="contentinfo">
+                            <div class="footer uic-footer">
 
+    <section class="uic-footer__site" aria-label="Website footer, with miscellaneous site and location links">
+        <div class="uic-footer__site-container">
+            <div class="uic-footer__site-title">
+                                    <span class="wordmark" style="display: inline-block;">
+    <span class="wordmark__container">
+        <span class="wordmark__content">
+            <span class="wordmark__logo"><svg class="uic-circle-logo" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54">
+    <title>Logo for the University of Illinois at Chicago</title>
+    <rect class="uic-circle-logo__text" x="5" y="17" width="46" height="20"/>
+    <path class="uic-circle-logo__circle" d="M54,27C54,12.1,41.9,0,27,0S0,12.1,0,27s12.1,27,27,27S54,41.9,54,27z M21.8,29.4c0,2.5-0.3,3.6-1,4.8
+	c-1.2,1.9-4.3,2.7-7,2.7s-5.8-0.8-7-2.7c-0.7-1.2-1-2.4-1-4.8V19H11v10.5c-0.1,0.9,0.1,1.8,0.6,2.5c0.5,0.5,1.3,0.8,2.1,0.7
+	c0.8,0.1,1.6-0.2,2.2-0.8c0.5-0.7,0.7-1.6,0.6-2.5V19h5.3V29.4z M25,19h5.3v17.6H25V19z M49.3,23.4l-4.6,2.2
+	c-0.4-1.7-1.4-2.7-3.1-2.7c-2.2,0-3.4,1.9-3.4,4.9s1.1,4.8,3.4,4.8c1.4,0.1,2.7-0.8,3-2.2l4.8,1.7c-1.2,2.8-3.8,4.8-7.8,4.8
+	c-5.6,0-8.8-3.7-8.8-9.1s3.4-9.1,8.9-9.1C45.9,18.7,48.3,21.1,49.3,23.4L49.3,23.4z"/>
+</svg>
+</span>
+            <span class="wordmark__text">
+                <span class="wordmark__line wordmark__university">University</span>
+                <span class="wordmark__line wordmark__library">Library</span>
+            </span>
+        </span>
+    </span>
+</span>
+                            </div>
+            <div class="uic-footer__site-content-and-links">
+                <div class="uic-footer__site-content">
+                                            <section class="footer-locations"  aria-label="Library locations">
 
+    <h2 class="footer-locations__header">Locations</h2>
 
-</div><!--  footer-wrapper-uic-menu-legal   --> 
-    
-    
-  </div>
+    <ul class="footer-locations__list">
+                    <li class="footer-locations__list-item">
+                <article aria-label="Footer for location Richard J. Daley Library">
 
-</footer>
+    <article class="footer-location">
+        <a href="/libraries/daley">
 
-
-
-
-
+            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
 </div>
 
+            <h3 class="footer-location__name">Richard J. <span class="last-two-words">Daley Library</span></h3>
 
-		<style type="text/css">
-			.ssp-wave wave wave {
-				background: #28c0e1 !important;
-			}
-		</style>
-		<script type="text/javascript">
-  document.write(unescape("%3Cscript src='//www.uic.edu/inc/emergency/alert.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-      <script type="text/javascript">
+                            <div class="footer-location__address">
+                    <div class="footer-location-address">
+    <p>801 S. Morgan</p>
 
-          var pfHeaderImgUrl = 'https://today.uic.edu/files/2019/10/TodayPrintHeader.jpg';
-          var pfHeaderTagline = 'UIC Today';
-          var pfdisableClickToDel = '0';
-          var pfImagesSize = 'full-size';
-          var pfImageDisplayStyle = 'right';
-          var pfEncodeImages = '0';
-          var pfDisableEmail = '0';
-          var pfDisablePDF = '0';
-          var pfDisablePrint = '0';
-          var pfCustomCSS = '';
-          var pfPlatform = 'Wordpress';
-      </script>
-      <script async src='https://cdn.printfriendly.com/printfriendly.js'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-content/themes/uictoday/js/app.min.js?ver=1.2.7'></script>
+    <p>
+        <span class="city">Chicago</span>,
+        <span class="state">IL</span>
+        <span class="zip">60607</span>
+    </p>
+</div>
+                </div>
+            
+                            <div class="footer-location__phones">
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Circulation</span>
+    <span class="footer-location-phone__number">(312) 996-2724</span>
+</div>
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Reference</span>
+    <span class="footer-location-phone__number">(312) 996-2726</span>
+</div>
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Special Collections & University Archives</span>
+    <span class="footer-location-phone__number">(312) 996-2742</span>
+</div>
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Course Reserves</span>
+    <span class="footer-location-phone__number">(312) 996-2719</span>
+</div>
+                                    </div>
+            
+        </a>
+    </article>
 
+    <br />
+
+
+            <div class="footer-location__socialicon">
+                            <a href="https://www.facebook.com/uicdaleylibrary">
+                                           <svg width="10px" height="20px" viewBox="12 8 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M21.568676,36.4557627 L21.568676,22.1991924 L25.4569425,22.1991924 C25.4569425,22.1991924 25.8207426,19.8149587 25.9965387,17.3257356 L21.5906505,17.3257356 L21.5906505,14.0808338 C21.5906505,13.5961739 22.2230279,12.9418219 22.8456388,12.9418219 L25.856146,12.9418219 C25.8891077,12.193468 26.0551373,10.061941 26.2162837,8 L21.7115102,8 C15.6306765,8 15.7747316,12.7501554 15.7747316,13.4618852 L15.7747316,17.3440477 L12,17.3440477 L12,22.1991924 L15.7747316,22.1991924 L15.7747316,36.4557627 L21.568676,36.4557627 Z" id="Fill-1" stroke="none" fill-rule="evenodd"></path>
+</svg>                                    </a>
+                &nbsp;
+                            <a href="https://twitter.com/uiclibrary">
+                                           <svg width="10px" height="20px" viewBox="32 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M49.771,6.589 C50.624,6.077 51.28,5.267 51.588,4.302 C50.79,4.776 49.905,5.119 48.964,5.305 C48.21,4.502 47.136,4 45.947,4 C43.665,4 41.814,5.85 41.814,8.133 C41.814,8.457 41.85,8.773 41.921,9.075 C38.486,8.902 35.44,7.256 33.402,4.756 C33.046,5.367 32.843,6.076 32.843,6.834 C32.843,8.268 33.572,9.533 34.681,10.275 C34.004,10.253 33.366,10.067 32.809,9.758 L32.809,9.81 C32.809,11.812 34.233,13.483 36.124,13.862 C35.777,13.956 35.412,14.007 35.035,14.007 C34.769,14.007 34.51,13.98 34.258,13.932 C34.783,15.575 36.31,16.77 38.119,16.803 C36.704,17.912 34.922,18.572 32.985,18.572 C32.652,18.572 32.323,18.552 32,18.514 C33.829,19.687 36.001,20.372 38.335,20.372 C45.937,20.372 50.094,14.073 50.094,8.612 C50.094,8.433 50.091,8.254 50.082,8.077 C50.89,7.495 51.591,6.767 52.145,5.938 C51.404,6.266 50.607,6.488 49.771,6.589 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                                    </a>
+                &nbsp;
+            	    
+        </div>
+    
+</article>
+            </li>
+                    <li class="footer-locations__list-item">
+                <article aria-label="Footer for location Library of the Health Sciences-Chicago">
+
+    <article class="footer-location">
+        <a href="/libraries/lhs-chicago">
+
+            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
+</div>
+
+            <h3 class="footer-location__name">Library of the <span class="last-two-words">Health Sciences-Chicago</span></h3>
+
+                            <div class="footer-location__address">
+                    <div class="footer-location-address">
+    <p>1750 W. Polk St.</p>
+
+    <p>
+        <span class="city">Chicago</span>,
+        <span class="state">IL</span>
+        <span class="zip">60612</span>
+    </p>
+</div>
+                </div>
+            
+                            <div class="footer-location__phones">
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Circulation</span>
+    <span class="footer-location-phone__number">(312) 996-8966</span>
+</div>
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Reference</span>
+    <span class="footer-location-phone__number">(312) 996-9163</span>
+</div>
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Special Collections & University Archives</span>
+    <span class="footer-location-phone__number">(312) 996-8977</span>
+</div>
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Course Reserves</span>
+    <span class="footer-location-phone__number">(312) 996-8963</span>
+</div>
+                                    </div>
+            
+        </a>
+    </article>
+
+    <br />
+
+
+            <div class="footer-location__socialicon">
+                            <a href="https://www.facebook.com/LHSChicago">
+                                           <svg width="10px" height="20px" viewBox="12 8 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M21.568676,36.4557627 L21.568676,22.1991924 L25.4569425,22.1991924 C25.4569425,22.1991924 25.8207426,19.8149587 25.9965387,17.3257356 L21.5906505,17.3257356 L21.5906505,14.0808338 C21.5906505,13.5961739 22.2230279,12.9418219 22.8456388,12.9418219 L25.856146,12.9418219 C25.8891077,12.193468 26.0551373,10.061941 26.2162837,8 L21.7115102,8 C15.6306765,8 15.7747316,12.7501554 15.7747316,13.4618852 L15.7747316,17.3440477 L12,17.3440477 L12,22.1991924 L15.7747316,22.1991924 L15.7747316,36.4557627 L21.568676,36.4557627 Z" id="Fill-1" stroke="none" fill-rule="evenodd"></path>
+</svg>                                    </a>
+                &nbsp;
+                            <a href="https://twitter.com/LHS_Chicago">
+                                           <svg width="10px" height="20px" viewBox="32 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M49.771,6.589 C50.624,6.077 51.28,5.267 51.588,4.302 C50.79,4.776 49.905,5.119 48.964,5.305 C48.21,4.502 47.136,4 45.947,4 C43.665,4 41.814,5.85 41.814,8.133 C41.814,8.457 41.85,8.773 41.921,9.075 C38.486,8.902 35.44,7.256 33.402,4.756 C33.046,5.367 32.843,6.076 32.843,6.834 C32.843,8.268 33.572,9.533 34.681,10.275 C34.004,10.253 33.366,10.067 32.809,9.758 L32.809,9.81 C32.809,11.812 34.233,13.483 36.124,13.862 C35.777,13.956 35.412,14.007 35.035,14.007 C34.769,14.007 34.51,13.98 34.258,13.932 C34.783,15.575 36.31,16.77 38.119,16.803 C36.704,17.912 34.922,18.572 32.985,18.572 C32.652,18.572 32.323,18.552 32,18.514 C33.829,19.687 36.001,20.372 38.335,20.372 C45.937,20.372 50.094,14.073 50.094,8.612 C50.094,8.433 50.091,8.254 50.082,8.077 C50.89,7.495 51.591,6.767 52.145,5.938 C51.404,6.266 50.607,6.488 49.771,6.589 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                                    </a>
+                &nbsp;
+            	    
+        </div>
+    
+</article>
+            </li>
+                    <li class="footer-locations__list-item">
+                <article aria-label="Footer for location Library of the Health Sciences-Peoria">
+
+    <article class="footer-location">
+        <a href="/libraries/lhs-peoria">
+
+            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
+</div>
+
+            <h3 class="footer-location__name">Library of the <span class="last-two-words">Health Sciences-Peoria</span></h3>
+
+                            <div class="footer-location__address">
+                    <div class="footer-location-address">
+    <p>One Illini Drive</p>
+
+    <p>
+        <span class="city">Peoria</span>,
+        <span class="state">IL</span>
+        <span class="zip">61605</span>
+    </p>
+</div>
+                </div>
+            
+                            <div class="footer-location__phones">
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Phone</span>
+    <span class="footer-location-phone__number">(309) 671-8490</span>
+</div>
+                                    </div>
+            
+        </a>
+    </article>
+
+    <br />
+
+
+            <div class="footer-location__socialicon">
+                            <a href="https://twitter.com/uiclibrary">
+                                           <svg width="10px" height="20px" viewBox="32 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M49.771,6.589 C50.624,6.077 51.28,5.267 51.588,4.302 C50.79,4.776 49.905,5.119 48.964,5.305 C48.21,4.502 47.136,4 45.947,4 C43.665,4 41.814,5.85 41.814,8.133 C41.814,8.457 41.85,8.773 41.921,9.075 C38.486,8.902 35.44,7.256 33.402,4.756 C33.046,5.367 32.843,6.076 32.843,6.834 C32.843,8.268 33.572,9.533 34.681,10.275 C34.004,10.253 33.366,10.067 32.809,9.758 L32.809,9.81 C32.809,11.812 34.233,13.483 36.124,13.862 C35.777,13.956 35.412,14.007 35.035,14.007 C34.769,14.007 34.51,13.98 34.258,13.932 C34.783,15.575 36.31,16.77 38.119,16.803 C36.704,17.912 34.922,18.572 32.985,18.572 C32.652,18.572 32.323,18.552 32,18.514 C33.829,19.687 36.001,20.372 38.335,20.372 C45.937,20.372 50.094,14.073 50.094,8.612 C50.094,8.433 50.091,8.254 50.082,8.077 C50.89,7.495 51.591,6.767 52.145,5.938 C51.404,6.266 50.607,6.488 49.771,6.589 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                                    </a>
+                &nbsp;
+            	    
+        </div>
+    
+</article>
+            </li>
+                    <li class="footer-locations__list-item">
+                <article aria-label="Footer for location Crawford Library of the Health Sciences-Rockford">
+
+    <article class="footer-location">
+        <a href="/libraries/lhs-rockford">
+
+            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
+</div>
+
+            <h3 class="footer-location__name">Crawford Library of the <span class="last-two-words">Health Sciences-Rockford</span></h3>
+
+                            <div class="footer-location__address">
+                    <div class="footer-location-address">
+    <p>1601 Parkview Ave.</p>
+
+    <p>
+        <span class="city">Rockford</span>,
+        <span class="state">IL</span>
+        <span class="zip">61107</span>
+    </p>
+</div>
+                </div>
+            
+                            <div class="footer-location__phones">
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Phone</span>
+    <span class="footer-location-phone__number">(815) 395-5650</span>
+</div>
+                                    </div>
+            
+        </a>
+    </article>
+
+    <br />
+
+
+            <div class="footer-location__socialicon">
+                            <a href="https://www.facebook.com/CLHSRockford">
+                                           <svg width="10px" height="20px" viewBox="12 8 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M21.568676,36.4557627 L21.568676,22.1991924 L25.4569425,22.1991924 C25.4569425,22.1991924 25.8207426,19.8149587 25.9965387,17.3257356 L21.5906505,17.3257356 L21.5906505,14.0808338 C21.5906505,13.5961739 22.2230279,12.9418219 22.8456388,12.9418219 L25.856146,12.9418219 C25.8891077,12.193468 26.0551373,10.061941 26.2162837,8 L21.7115102,8 C15.6306765,8 15.7747316,12.7501554 15.7747316,13.4618852 L15.7747316,17.3440477 L12,17.3440477 L12,22.1991924 L15.7747316,22.1991924 L15.7747316,36.4557627 L21.568676,36.4557627 Z" id="Fill-1" stroke="none" fill-rule="evenodd"></path>
+</svg>                                    </a>
+                &nbsp;
+                            <a href="https://twitter.com/CrawfordLibrary">
+                                           <svg width="10px" height="20px" viewBox="32 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M49.771,6.589 C50.624,6.077 51.28,5.267 51.588,4.302 C50.79,4.776 49.905,5.119 48.964,5.305 C48.21,4.502 47.136,4 45.947,4 C43.665,4 41.814,5.85 41.814,8.133 C41.814,8.457 41.85,8.773 41.921,9.075 C38.486,8.902 35.44,7.256 33.402,4.756 C33.046,5.367 32.843,6.076 32.843,6.834 C32.843,8.268 33.572,9.533 34.681,10.275 C34.004,10.253 33.366,10.067 32.809,9.758 L32.809,9.81 C32.809,11.812 34.233,13.483 36.124,13.862 C35.777,13.956 35.412,14.007 35.035,14.007 C34.769,14.007 34.51,13.98 34.258,13.932 C34.783,15.575 36.31,16.77 38.119,16.803 C36.704,17.912 34.922,18.572 32.985,18.572 C32.652,18.572 32.323,18.552 32,18.514 C33.829,19.687 36.001,20.372 38.335,20.372 C45.937,20.372 50.094,14.073 50.094,8.612 C50.094,8.433 50.091,8.254 50.082,8.077 C50.89,7.495 51.591,6.767 52.145,5.938 C51.404,6.266 50.607,6.488 49.771,6.589 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                                    </a>
+                &nbsp;
+            	    
+        </div>
+    
+</article>
+            </li>
+                    <li class="footer-locations__list-item">
+                <article aria-label="Footer for location Library of the Health Sciences-Urbana">
+
+    <article class="footer-location">
+        <a href="/libraries/lhs-urbana">
+
+            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
+</div>
+
+            <h3 class="footer-location__name">Library of the <span class="last-two-words">Health Sciences-Urbana</span></h3>
+
+                            <div class="footer-location__address">
+                    <div class="footer-location-address">
+    <p>470 Grainger Engineering Library Information Center,<br />
+1301 W. Springfield Ave.</p>
+
+    <p>
+        <span class="city">Urbana</span>,
+        <span class="state">IL</span>
+        <span class="zip">61801</span>
+    </p>
+</div>
+                </div>
+            
+                            <div class="footer-location__phones">
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Circulation and Reference</span>
+    <span class="footer-location-phone__number">(217) 244-2261</span>
+</div>
+                                    </div>
+            
+        </a>
+    </article>
+
+    <br />
+
+
+            <div class="footer-location__socialicon">
+                            <a href="https://www.facebook.com/pages/Library-of-the-Health-Sciences-Urbana/59707691709">
+                                           <svg width="10px" height="20px" viewBox="12 8 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M21.568676,36.4557627 L21.568676,22.1991924 L25.4569425,22.1991924 C25.4569425,22.1991924 25.8207426,19.8149587 25.9965387,17.3257356 L21.5906505,17.3257356 L21.5906505,14.0808338 C21.5906505,13.5961739 22.2230279,12.9418219 22.8456388,12.9418219 L25.856146,12.9418219 C25.8891077,12.193468 26.0551373,10.061941 26.2162837,8 L21.7115102,8 C15.6306765,8 15.7747316,12.7501554 15.7747316,13.4618852 L15.7747316,17.3440477 L12,17.3440477 L12,22.1991924 L15.7747316,22.1991924 L15.7747316,36.4557627 L21.568676,36.4557627 Z" id="Fill-1" stroke="none" fill-rule="evenodd"></path>
+</svg>                                    </a>
+                &nbsp;
+                            <a href="https://twitter.com/uiclibrary">
+                                           <svg width="10px" height="20px" viewBox="32 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M49.771,6.589 C50.624,6.077 51.28,5.267 51.588,4.302 C50.79,4.776 49.905,5.119 48.964,5.305 C48.21,4.502 47.136,4 45.947,4 C43.665,4 41.814,5.85 41.814,8.133 C41.814,8.457 41.85,8.773 41.921,9.075 C38.486,8.902 35.44,7.256 33.402,4.756 C33.046,5.367 32.843,6.076 32.843,6.834 C32.843,8.268 33.572,9.533 34.681,10.275 C34.004,10.253 33.366,10.067 32.809,9.758 L32.809,9.81 C32.809,11.812 34.233,13.483 36.124,13.862 C35.777,13.956 35.412,14.007 35.035,14.007 C34.769,14.007 34.51,13.98 34.258,13.932 C34.783,15.575 36.31,16.77 38.119,16.803 C36.704,17.912 34.922,18.572 32.985,18.572 C32.652,18.572 32.323,18.552 32,18.514 C33.829,19.687 36.001,20.372 38.335,20.372 C45.937,20.372 50.094,14.073 50.094,8.612 C50.094,8.433 50.091,8.254 50.082,8.077 C50.89,7.495 51.591,6.767 52.145,5.938 C51.404,6.266 50.607,6.488 49.771,6.589 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                                    </a>
+                &nbsp;
+            	    
+        </div>
+    
+</article>
+            </li>
+            </ul>
+
+</section>
+                                    </div>
+                <div class="uic-footer__site-links">
+                                            <ul class="footer-buttons">
+            <li>
+            <a class="footer-button" href="/help/article/1891/faculty-services">Faculty services</a>        </li>
+            <li>
+            <a class="footer-button" href="/help/article/1873/alumni-services">Alumni services</a>        </li>
+            <li>
+            <a class="footer-button" href="/help/article/1887/distance-student-services">Distance education user services</a>        </li>
+            <li>
+            <a class="footer-button" href="/help/article/1955/use-accessibility-services">Accessibility services</a>        </li>
+    </ul>                                                                <nav class="uic-social-navigation" aria-labelledby="social-nav-header">
+    <h2 id="social-nav-header">Social Networking</h2>
+    <ul>
+            </ul>
+</nav>
+                                    </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="uic-footer__university" aria-label="University links">
+
+        <section class="uic-footer-legal" aria-label="Legal, privacy, and copyright links">
+    <div class="uic-footer-legal__container">
+
+        <div class="uic-footer-legal__legal">
+            <p class="uic-footer-legal__copyright">&copy; 2020 The Board of Trustees of the University of Illinois</p>
+            <p class="uic-footer-legal__privacy-link"><a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Policy</a></p>
+            <br/>
+            <p class="uic-footer-legal__govt-docs"><a href="http://researchguides.uic.edu/gov">Federal Depository Library for U.S. Government Documents</a></p>
+            <p class="uic-footer-legal__govt-docs"><a href="http://researchguides.uic.edu/gov">GDPR</a></p>
+        </div>
+
+        <div class="uic-footer-legal__university-links">
+            <h2>Campus Links</h2>
+            <ul>
+                <li><a href="http://uillinois.edu/">University of Illinois</a></li>
+                <li><a href="http://uic.edu/">Chicago</a></li>
+                <li><a href="http://illinois.edu/">Urbana-Champaign</a></li>
+                <li><a href="http://uis.edu/">Springfield</a></li>
+            </ul>
+        </div>
+
+    <!--OneTrust Cookies Settings button start --><a class="optanon-show-settings">Cookie Settings</a><!--OneTrust Cookies Settings button end -->
+    </div>
+</section>
+
+    </section>
+    <div class="chat-widget" aria-labelledby="chat-window-title">
+    <div class="chat-widget__header">
+        <a href="#" id="chat-window-title" class="chat-widget__title">
+            Chat with a Librarian
+        </a>
+        <a href="#" class="chat-widget__close">
+            Close
+        </a>
+    </div>
+    <div class="chat-widget__embed">
+        <div class="chat-widget__embed-content">
+            <div id="libchat_a8f3cdd768831e345ca9d2f796ff5e5d"></div>
+        </div>
+    </div>
+</div></div>
+                    </footer>
+
+    </div>
+    <script src="/js/main.js"></script>
+    <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
 </body>
-</html><!-- WP Fastest Cache file was created in 0.22864198684692 seconds, on 27-04-20 18:19:12 -->
+</html>

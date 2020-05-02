@@ -1,31 +1,1132 @@
-<!DOCTYPE html>
-<html lang="en" id="facebook" class="no_js">
-<head><meta charset="utf-8" /><meta name="referrer" content="default" id="meta_referrer" /><script>window._cstart=+new Date();</script><script>function envFlush(a){function b(b){for(var c in a)b[c]=a[c]}window.requireLazy?window.requireLazy(["Env"],b):(window.Env=window.Env||{},b(window.Env))}envFlush({"ajaxpipe_token":"AXg7hLrZR1vQh1X3","timeslice_heartbeat_config":{"pollIntervalMs":33,"idleGapThresholdMs":60,"ignoredTimesliceNames":{"requestAnimationFrame":true,"Event listenHandler mousemove":true,"Event listenHandler mouseover":true,"Event listenHandler mouseout":true,"Event listenHandler scroll":true},"isHeartbeatEnabled":true,"isArtilleryOn":false},"shouldLogCounters":true,"timeslice_categories":{"react_render":true,"reflow":true},"sample_continuation_stacktraces":true,"dom_mutation_flag":true,"stack_trace_limit":30,"timesliceBufferSize":5000,"show_invariant_decoder":false,"compat_iframe_token":"AQ5eEegWbGD3hkja","isCQuick":false});</script><style></style><script>__DEV__=0;CavalryLogger=window.CavalryLogger||function(a){this.lid=a,this.transition=!1,this.metric_collected=!1,this.is_detailed_profiler=!1,this.instrumentation_started=!1,this.pagelet_metrics={},this.events={},this.ongoing_watch={},this.values={t_cstart:window._cstart},this.piggy_values={},this.bootloader_metrics={},this.resource_to_pagelet_mapping={},this.initializeInstrumentation&&this.initializeInstrumentation()},CavalryLogger.prototype.setIsDetailedProfiler=function(a){this.is_detailed_profiler=a;return this},CavalryLogger.prototype.setTTIEvent=function(a){this.tti_event=a;return this},CavalryLogger.prototype.setValue=function(a,b,c,d){d=d?this.piggy_values:this.values;(typeof d[a]==="undefined"||c)&&(d[a]=b);return this},CavalryLogger.prototype.getLastTtiValue=function(){return this.lastTtiValue},CavalryLogger.prototype.setTimeStamp=CavalryLogger.prototype.setTimeStamp||function(a,b,c,d){this.mark(a);var e=this.values.t_cstart||this.values.t_start;e=d?e+d:CavalryLogger.now();this.setValue(a,e,b,c);this.tti_event&&a==this.tti_event&&(this.lastTtiValue=e,this.setTimeStamp("t_tti",b));return this},CavalryLogger.prototype.mark=typeof console==="object"&&console.timeStamp?function(a){console.timeStamp(a)}:function(){},CavalryLogger.prototype.addPiggyback=function(a,b){this.piggy_values[a]=b;return this},CavalryLogger.instances={},CavalryLogger.id=0,CavalryLogger.disableArtilleryOnUntilOffLogging=!1,CavalryLogger.getInstance=function(a){typeof a==="undefined"&&(a=CavalryLogger.id);CavalryLogger.instances[a]||(CavalryLogger.instances[a]=new CavalryLogger(a));return CavalryLogger.instances[a]},CavalryLogger.setPageID=function(a){if(CavalryLogger.id===0){var b=CavalryLogger.getInstance();CavalryLogger.instances[a]=b;CavalryLogger.instances[a].lid=a;delete CavalryLogger.instances[0]}CavalryLogger.id=a},CavalryLogger.now=function(){return window.performance&&performance.timing&&performance.timing.navigationStart&&performance.now?performance.now()+performance.timing.navigationStart:new Date().getTime()},CavalryLogger.prototype.measureResources=function(){},CavalryLogger.prototype.profileEarlyResources=function(){},CavalryLogger.getBootloaderMetricsFromAllLoggers=function(){},CavalryLogger.start_js=function(){},CavalryLogger.done_js=function(){};CavalryLogger.getInstance().setTTIEvent("t_domcontent");CavalryLogger.prototype.measureResources=function(a,b){if(!this.log_resources)return;var c="bootload/"+a.name;if(this.bootloader_metrics[c]!==void 0||this.ongoing_watch[c]!==void 0)return;var d=CavalryLogger.now();this.ongoing_watch[c]=d;"start_"+c in this.bootloader_metrics||(this.bootloader_metrics["start_"+c]=d);b&&!("tag_"+c in this.bootloader_metrics)&&(this.bootloader_metrics["tag_"+c]=b);if(a.type==="js"){c="js_exec/"+a.name;this.ongoing_watch[c]=d}},CavalryLogger.prototype.stopWatch=function(a){if(this.ongoing_watch[a]){var b=CavalryLogger.now(),c=b-this.ongoing_watch[a];this.bootloader_metrics[a]=c;var d=this.piggy_values;a.indexOf("bootload")===0&&(d.t_resource_download||(d.t_resource_download=0),d.resources_downloaded||(d.resources_downloaded=0),d.t_resource_download+=c,d.resources_downloaded+=1,d["tag_"+a]=="_EF_"&&(d.t_pagelet_cssload_early_resources=b));delete this.ongoing_watch[a]}return this},CavalryLogger.getBootloaderMetricsFromAllLoggers=function(){var a={};Object.values(window.CavalryLogger.instances).forEach(function(b){b.bootloader_metrics&&Object.assign(a,b.bootloader_metrics)});return a},CavalryLogger.start_js=function(a){for(var b=0;b<a.length;++b)CavalryLogger.getInstance().stopWatch("js_exec/"+a[b])},CavalryLogger.done_js=function(a){for(var b=0;b<a.length;++b)CavalryLogger.getInstance().stopWatch("bootload/"+a[b])},CavalryLogger.prototype.profileEarlyResources=function(a){for(var b=0;b<a.length;b++)this.measureResources({name:a[b][0],type:a[b][1]?"js":""},"_EF_")};CavalryLogger.getInstance().log_resources=true;CavalryLogger.getInstance().setIsDetailedProfiler(true);window.CavalryLogger&&CavalryLogger.getInstance().setTimeStamp("t_start");</script><noscript><meta http-equiv="refresh" content="0; URL=/flx/warn/?u=http%3A%2F%2Fgo.uic.edu%2FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg&amp;_fb_noscript=1" /></noscript><link rel="manifest" href="/data/manifest/" crossorigin="use-credentials" /><title id="pageTitle">Leaving Facebook</title><link rel="shortcut icon" href="https://static.xx.fbcdn.net/rsrc.php/yz/r/KFyVIAWzntM.ico" /><link type="text/css" rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v3/ye/l/0,cross/3gCUT_lnH9i.css?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="di0Ct" />
-<link type="text/css" rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v3/y4/l/0,cross/jYrc_7mTB4T.css?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="R3U4L" />
-<link type="text/css" rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v3/yg/l/0,cross/W0B3yCtG81x.css?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="Rxqhi" />
-<link type="text/css" rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v3/yJ/l/0,cross/H05rZFsqllV.css?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="hofEO" />
-<link type="text/css" rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v3/yq/l/0,cross/LuWm0ajI27H.css?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="1s8uL" />
-<link type="text/css" rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v3/yL/l/0,cross/SrZbmvPv9IN.css?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="IDsgc" />
-<script src="https://static.xx.fbcdn.net/rsrc.php/v3/yi/r/kjaNqoyEhyr.js?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="0WrhF"></script>
-<script>requireLazy(["gkx"],function(gkx){gkx.add({"946894":{"result":false,"hash":"AT7TA8jOaAyafQij"},"996940":{"result":false,"hash":"AT6DAF4g7KmqRxiF"},"1073500":{"result":false,"hash":"AT6YqaLZFInz0UNO"},"1263340":{"result":false,"hash":"AT4ghO8pCi0P2r5n"},"676837":{"result":false,"hash":"AT6-OP1S_ZlNavIS"},"676920":{"result":false,"hash":"AT6wRTRqSweCQb10"},"676921":{"result":false,"hash":"AT6IqtDq_-GdhYun"},"676922":{"result":false,"hash":"AT7gnGs2WyHa2aCb"},"1113247":{"result":false,"hash":"AT4IdxXGRhrOlKau"},"708253":{"result":false,"hash":"AT6mEQ3CSEEo2Hzp"},"1167394":{"result":false,"hash":"AT6MOzYmzZ6JCu89"},"1278639":{"result":false,"hash":"AT7996XpjbVaSC-v"}});});requireLazy(["qex"],function(qex){qex.add({"1211266":{"r":null}});});require("TimeSliceImpl").guard(function(){(require("ServerJSDefine")).handleDefines([["URLFragmentPreludeConfig",[],{"hashtagRedirect":true,"fragBlacklist":["nonce","access_token","oauth_token","xs","checkpoint_data","code"]},137],["BootloaderConfig",[],{"jsRetries":[200,500],"jsRetryAbortNum":2,"jsRetryAbortTime":5,"payloadEndpointURI":"https:\/\/www.facebook.com\/ajax\/bootloader-endpoint\/","preloadBE":true,"shouldCoalesceModuleRequestsMadeInSameTick":true,"retryQueuedBootloads":false,"silentDups":false},329],["CSSLoaderConfig",[],{"timeout":5000,"modulePrefix":"BLCSS:"},619],["CookieCoreConfig",[],{"a11y":{},"act":{},"c_user":{},"dpr":{"t":604800},"js_ver":{"t":604800},"locale":{"t":604800},"m_pixel_ratio":{"t":604800},"noscript":{},"pnl_data2":{"t":2},"presence":{},"sfau":{},"wd":{"t":604800},"x-referer":{},"x-src":{"t":1}},2104],["CurrentCommunityInitialData",[],{},490],["CurrentEnvironment",[],{"facebookdotcom":true,"messengerdotcom":false,"workplacedotcom":false},827],["CurrentUserInitialData",[],{"USER_ID":"0","ACCOUNT_ID":"0","NAME":"","SHORT_NAME":null,"IS_MESSENGER_ONLY_USER":false,"IS_DEACTIVATED_ALLOWED_ON_MESSENGER":false,"APP_ID":"256281040558"},270],["DTSGInitialData",[],{},258],["ISB",[],{},330],["LSD",[],{"token":"AVoKAhNW"},323],["ServerNonce",[],{"ServerNonce":"KeDkxY0kjpUTJt7deUB3Y_"},141],["SiteData",[],{"server_revision":1002050488,"client_revision":1002050488,"tier":"","push_phase":"C3","pkg_cohort":"PHASED:DEFAULT","pr":1,"haste_site":"www","be_one_ahead":false,"ir_on":true,"is_rtl":false,"is_comet":false,"hsi":"6820652150319482151-0","spin":4,"__spin_r":1002050488,"__spin_b":"trunk","__spin_t":1588056830,"vip":"2a03:2880:f127:83:face:b00c:0:25de"},317],["SprinkleConfig",[],{"param_name":"jazoest","version":2,"should_randomize":false},2111],["UserAgentData",[],{"browserArchitecture":"32","browserFullVersion":null,"browserMinorVersion":null,"browserName":"Unknown","browserVersion":null,"deviceName":"Unknown","engineName":"Unknown","engineVersion":null,"platformArchitecture":"32","platformName":"Unknown","platformVersion":null,"platformFullVersion":null},527],["PromiseUsePolyfillSetImmediateGK",[],{"www_always_use_polyfill_setimmediate":false},2190],["KSConfig",[],{"killed":{"__set":["POCKET_MONSTERS_CREATE","POCKET_MONSTERS_DELETE","VIDEO_DIMENSIONS_FROM_PLAYER_IN_UPLOAD_DIALOG","STO_AD_DELIVERY_PAUSE","POCKET_MONSTERS_UPDATE_NAME","ADS_PLACEMENT_FIX_PUBLISHER_PLATFORMS_MUTATION","MOBILITY_KILL_OLD_VISIBILITY_POSITION_SETTING","WORKPLACE_DISPLAY_TEXT_EVIDENCE_REPORTING","DYNAMIC_ADS_SET_CATALOG_AND_PRODUCT_SET_TOGETHER","BUSINESS_GRAPH_SETTING_APP_ASSIGNED_USERS_NEW_API","BUSINESS_GRAPH_SETTING_WABA_ASSIGNED_USERS_NEW_API","BUSINESS_GRAPH_SETTING_ESG_ASSIGNED_USERS_NEW_API","BUSINESS_GRAPH_SETTING_PRODUCT_CATALOG_ASSIGNED_USERS_NEW_API","BUSINESS_MANAGER_SHOW_UI_HIDDEN_TASK_FOR_ASSET","BUSINESS_GRAPH_SETTING_BU_ASSIGNED_USERS_NEW_API","BUSINESS_GRAPH_SETTING_SESG_ASSIGNED_USERS_NEW_API","RECRUITING_REQUISITION_VALIDATE_COMPANY_GROUPING_ON_LINK","CALENDAR_WEEKVIEW_NEW_BADGE","POST_INSIGHTS_CAPITALIZE_BREAKDOWNS_FOR_ACTION_TYPE","WORKPLACE_PLATFORM_SECURE_APPS_MAILBOXES","BUY_AT_COVID_PUNCHOUT_CHECKOUT_MODAL","DISABLE_HEARTBEAT_POLLING","LAB_NET_NEW_UI_RELEASE","WIT_DEPRECATE_GITHUB","WIT_DEPRECATE_OLD_UX","EO_SRT_HELPDESK_DASHBOARD_DISABLE_UNUSED_TAB_IN_RIGHT_PANEL"]},"ko":{"__set":["acrJTh9WGdp","1oOE64fL4wO","2dhqRnqXGLQ","3GaiM9xYkM2","7r6mSP7ofr2","1ntjZ2zgf03","3oh5Mw86USj","8NAceEy9JZo","5mNEXob0nTj","4j36SVzvP3w","8PlKuowafe8","53gCxKq281G","3yzzwBY7Npj","4NbCsulUUI3","4NSq3ZC4ScE","1onzIv0jH6H","5LSlJUj3BnT","7EZACZMulOj","6ra3sC1PDFj","5XCz1h9Iaw3","7cwY7xv5s7H","1GgWO1oFyLN","DDZhogI19W","9k7Y5kmDD1A","4jkC8ia3PYA","6fHw06UmAMW"]}},2580],["DataStoreConfig",[],{"expandoKey":"__FB_STORE","useExpando":true},2915],["CookieCoreLoggingConfig",[],{"maximumIgnorableStallMs":16.67,"sampleRate":9.7e-5,"sampleRateClassic":1.0e-10,"sampleRateFastStale":1.0e-8},3401],["ImmediateImplementationExperiments",[],{"prefer_message_channel":true},3419],["DTSGInitData",[],{"token":"","async_get_token":""},3515],["UriNeedRawQuerySVConfig",[],{"uris":["dms.netmng.com","doubleclick.net","r.msn.com","watchit.sky.com","graphite.instagram.com","www.kfc.co.th","learn.pantheon.io","www.landmarkshops.in","www.ncl.com","s0.wp.com","www.tatacliq.com","bs.serving-sys.com","kohls.com","lazada.co.th","xg4ken.com","technopark.ru","officedepot.com.mx","bestbuy.com.mx","booking.com"]},3871],["InitialCookieConsent",[],{"deferCookies":false,"noCookies":false,"shouldShowCookieBanner":false},4328],["TrustedTypesConfig",[],{"useTrustedTypes":false,"reportOnly":true},4548],["WebConnectionClassServerGuess",[],{"connectionClass":"EXCELLENT"},4705],["CometAltpayJsSdkIframeAllowedDomains",[],{"allowed_domains":["https:\/\/live.adyen.com","https:\/\/integration-facebook.payu.in","https:\/\/facebook.payulatam.com","https:\/\/facebook.dlocal.com","https:\/\/altpay-pe-test.herokuapp.com"]},4920],["BootloaderEndpointConfig",[],{"endpointURI":"https:\/\/www.facebook.com\/ajax\/bootloader-endpoint\/","debugNoBatching":false},5094],["BigPipeExperiments",[],{"link_images_to_pagelets":false,"enable_bigpipe_plugins":false},907],["AsyncRequestConfig",[],{"retryOnNetworkError":"1","useFetchStreamAjaxPipeTransport":false},328],["FbtResultGK",[],{"shouldReturnFbtResult":true,"inlineMode":"NO_INLINE"},876],["IntlPhonologicalRules",[],{"meta":{"\/_B\/":"([.,!?\\s]|^)","\/_E\/":"([.,!?\\s]|$)"},"patterns":{"\/\u0001(.*)('|&#039;)s\u0001(?:'|&#039;)s(.*)\/":"\u0001$1$2s\u0001$3","\/_\u0001([^\u0001]*)\u0001\/":"javascript"}},1496],["IntlViewerContext",[],{"GENDER":3},772],["NumberFormatConfig",[],{"decimalSeparator":".","numberDelimiter":",","minDigitsForThousandsSeparator":4,"standardDecimalPatternInfo":{"primaryGroupSize":3,"secondaryGroupSize":3},"numberingSystemData":null},54],["SessionNameConfig",[],{"seed":"1Yr9"},757],["ZeroCategoryHeader",[],{},1127],["ZeroRewriteRules",[],{"rewrite_rules":{},"whitelist":{"\/hr\/r":1,"\/hr\/p":1,"\/zero\/unsupported_browser\/":1,"\/zero\/policy\/optin":1,"\/zero\/optin\/write\/":1,"\/zero\/optin\/legal\/":1,"\/zero\/optin\/free\/":1,"\/about\/privacy\/":1,"\/about\/privacy\/update\/":1,"\/about\/privacy\/update":1,"\/zero\/toggle\/welcome\/":1,"\/zero\/toggle\/nux\/":1,"\/fup\/interstitial\/":1,"\/work\/landing":1,"\/work\/login\/":1,"\/work\/email\/":1,"\/ai.php":1,"\/js_dialog_resources\/dialog_descriptions_android.json":0,"\/connect\/jsdialog\/MPlatformAppInvitesJSDialog\/":0,"\/connect\/jsdialog\/MPlatformOAuthShimJSDialog\/":0,"\/connect\/jsdialog\/MPlatformLikeJSDialog\/":0,"\/qp\/interstitial\/":1,"\/qp\/action\/redirect\/":1,"\/qp\/action\/close\/":1,"\/zero\/support\/ineligible\/":1,"\/zero_balance_redirect\/":1,"\/zero_balance_redirect":1,"\/zero_balance_redirect\/l\/":1,"\/l.php":1,"\/lsr.php":1,"\/ajax\/dtsg\/":1,"\/checkpoint\/block\/":1,"\/exitdsite":1,"\/zero\/balance\/pixel\/":1,"\/zero\/balance\/":1,"\/zero\/balance\/carrier_landing\/":1,"\/zero\/flex\/logging\/":1,"\/tr":1,"\/tr\/":1,"\/sem_campaigns\/sem_pixel_test\/":1,"\/bookmarks\/flyout\/body\/":1,"\/zero\/subno\/":1,"\/confirmemail.php":1,"\/policies\/":1,"\/mobile\/internetdotorg\/classifier\/":1,"\/zero\/dogfooding":1,"\/xti.php":1,"\/zero\/fblite\/config\/":1,"\/hr\/zsh\/wc\/":1,"\/ajax\/bootloader-endpoint\/":1,"\/4oh4.php":1,"\/autologin.php":1,"\/birthday_help.php":1,"\/checkpoint\/":1,"\/contact-importer\/":1,"\/cr.php":1,"\/legal\/terms\/":1,"\/login.php":1,"\/login\/":1,"\/mobile\/account\/":1,"\/n\/":1,"\/remote_test_device\/":1,"\/upsell\/buy\/":1,"\/upsell\/buyconfirm\/":1,"\/upsell\/buyresult\/":1,"\/upsell\/promos\/":1,"\/upsell\/continue\/":1,"\/upsell\/h\/promos\/":1,"\/upsell\/loan\/learnmore\/":1,"\/upsell\/purchase\/":1,"\/upsell\/promos\/upgrade\/":1,"\/upsell\/buy_redirect\/":1,"\/upsell\/loan\/buyconfirm\/":1,"\/upsell\/loan\/buy\/":1,"\/upsell\/sms\/":1,"\/wap\/a\/channel\/reconnect.php":1,"\/wap\/a\/nux\/wizard\/nav.php":1,"\/wap\/appreg.php":1,"\/wap\/birthday_help.php":1,"\/wap\/c.php":1,"\/wap\/confirmemail.php":1,"\/wap\/cr.php":1,"\/wap\/login.php":1,"\/wap\/r.php":1,"\/zero\/datapolicy":1,"\/a\/timezone.php":1,"\/a\/bz":1,"\/bz\/reliability":1,"\/r.php":1,"\/mr\/":1,"\/reg\/":1,"\/registration\/log\/":1,"\/terms\/":1,"\/f123\/":1,"\/expert\/":1,"\/experts\/":1,"\/terms\/index.php":1,"\/terms.php":1,"\/srr\/":1,"\/msite\/redirect\/":1,"\/fbs\/pixel\/":1,"\/contactpoint\/preconfirmation\/":1,"\/contactpoint\/cliff\/":1,"\/contactpoint\/confirm\/submit\/":1,"\/contactpoint\/confirmed\/":1,"\/contactpoint\/login\/":1,"\/preconfirmation\/contactpoint_change\/":1,"\/help\/contact\/":1,"\/survey\/":1,"\/upsell\/loyaltytopup\/accept\/":1,"\/settings\/":1,"\/lite\/":1,"\/zero_status_update\/":1}},1478],["IntlHoldoutGK",[],{"inIntlHoldout":false},2827],["IntlNumberTypeConfig",[],{"impl":"if (n === 1) { return IntlVariations.NUMBER_ONE; } else { return IntlVariations.NUMBER_OTHER; }"},3405],["FbtQTOverrides",[],{"overrides":{}},551],["cr:696703",[],{"__rc":[null,"Aa3wbHImU7IDcMSdTUjYt2sDyoi7GhedK8w64ifMMbDb5m-1hOggqBVBAzXEDUZkgMuIxcubhG8e9FYCq-E7HOw"]},-1],["cr:708886",["EventProfilerImpl"],{"__rc":["EventProfilerImpl","Aa3wbHImU7IDcMSdTUjYt2sDyoi7GhedK8w64ifMMbDb5m-1hOggqBVBAzXEDUZkgMuIxcubhG8e9FYCq-E7HOw"]},-1],["cr:717822",["TimeSliceImpl"],{"__rc":["TimeSliceImpl","Aa3wbHImU7IDcMSdTUjYt2sDyoi7GhedK8w64ifMMbDb5m-1hOggqBVBAzXEDUZkgMuIxcubhG8e9FYCq-E7HOw"]},-1],["cr:806696",["clearTimeoutBlue"],{"__rc":["clearTimeoutBlue","Aa3wbHImU7IDcMSdTUjYt2sDyoi7GhedK8w64ifMMbDb5m-1hOggqBVBAzXEDUZkgMuIxcubhG8e9FYCq-E7HOw"]},-1],["cr:807042",["setTimeoutBlue"],{"__rc":["setTimeoutBlue","Aa3wbHImU7IDcMSdTUjYt2sDyoi7GhedK8w64ifMMbDb5m-1hOggqBVBAzXEDUZkgMuIxcubhG8e9FYCq-E7HOw"]},-1],["cr:896462",["setIntervalAcrossTransitionsBlue"],{"__rc":["setIntervalAcrossTransitionsBlue","Aa3wbHImU7IDcMSdTUjYt2sDyoi7GhedK8w64ifMMbDb5m-1hOggqBVBAzXEDUZkgMuIxcubhG8e9FYCq-E7HOw"]},-1],["cr:986633",["setTimeoutAcrossTransitionsBlue"],{"__rc":["setTimeoutAcrossTransitionsBlue","Aa3wbHImU7IDcMSdTUjYt2sDyoi7GhedK8w64ifMMbDb5m-1hOggqBVBAzXEDUZkgMuIxcubhG8e9FYCq-E7HOw"]},-1],["cr:1003267",["clearIntervalBlue"],{"__rc":["clearIntervalBlue","Aa3wbHImU7IDcMSdTUjYt2sDyoi7GhedK8w64ifMMbDb5m-1hOggqBVBAzXEDUZkgMuIxcubhG8e9FYCq-E7HOw"]},-1],["cr:1100101",["requestAnimationFrameAcrossTransitionsSimple"],{"__rc":["requestAnimationFrameAcrossTransitionsSimple","Aa2E5AM37v5yARdmj0qbZgx1GY5pNtDNQuL52hwvLpl359AnR-KZyKPqixRGPSMDth-_3pU"]},-1],["cr:896461",["setIntervalBlue"],{"__rc":["setIntervalBlue","Aa3wbHImU7IDcMSdTUjYt2sDyoi7GhedK8w64ifMMbDb5m-1hOggqBVBAzXEDUZkgMuIxcubhG8e9FYCq-E7HOw"]},-1],["cr:1183579",["InlineFbtResultImpl"],{"__rc":["InlineFbtResultImpl","Aa3wbHImU7IDcMSdTUjYt2sDyoi7GhedK8w64ifMMbDb5m-1hOggqBVBAzXEDUZkgMuIxcubhG8e9FYCq-E7HOw"]},-1],["cr:1268308",["BanzaiNew"],{"__rc":["BanzaiNew","Aa2K0oBg7Zs4VV84jjHNyzizOV1OqpvTsj0y1T-V86XO0FFp5DcTpjhRp6SOKgoWP-rs7-TH_s296ca05_q_DeMgyJufPNY_"]},-1],["cr:729414",[],{"__rc":[null,"Aa2M9Z0kVaNvPq5U4otlpTN08CbsrQdE2Ef1CKe2gX61p8RhGr7Phb7fEc_0cwVdY206XG89CI1vip7vE7EG"]},-1],["cr:1094907",[],{"__rc":[null,"Aa0I3Fu7jNKZ7LEq6savfQoAZcyW-GdK09-qQCWtX5dppxrutfSysIkioU1xcOPArCov5Pd0Qlt4w1KmbBU"]},-1],["EventConfig",[],{"sampling":{"bandwidth":0,"play":0,"playing":0,"progress":0,"pause":0,"ended":0,"seeked":0,"seeking":0,"waiting":0,"loadedmetadata":0,"canplay":0,"selectionchange":0,"change":0,"timeupdate":2000000,"adaptation":0,"focus":0,"blur":0,"load":0,"error":0,"message":0,"abort":0,"storage":0,"scroll":200000,"mousemove":20000,"mouseover":10000,"mouseout":10000,"mousewheel":1,"MSPointerMove":10000,"keydown":0.1,"click":0.02,"mouseup":0.02,"__100ms":0.001,"__default":5000,"__min":100,"__interactionDefault":200,"__eventDefault":100000},"page_sampling_boost":1,"interaction_regexes":{"BlueBarAccountChevronMenu":" _5lxs(?: .*)?$","BlueBarHomeButton":" _bluebarLinkHome__interaction-root(?: .*)?$","BlueBarProfileLink":" _1k67(?: .*)?$","ReactComposerSproutMedia":" _1pnt(?: .*)?$","ReactComposerSproutAlbum":" _1pnu(?: .*)?$","ReactComposerSproutNote":" _3-9x(?: .*)?$","ReactComposerSproutLocation":" _1pnv(?: .*)?$","ReactComposerSproutActivity":" _1pnz(?: .*)?$","ReactComposerSproutPeople":" _1pn-(?: .*)?$","ReactComposerSproutLiveVideo":" _5tv7(?: .*)?$","ReactComposerSproutMarkdown":" _311p(?: .*)?$","ReactComposerSproutFormattedText":" _mwg(?: .*)?$","ReactComposerSproutSticker":" _2vri(?: .*)?$","ReactComposerSproutSponsor":" _5t5q(?: .*)?$","ReactComposerSproutEllipsis":" _1gr3(?: .*)?$","ReactComposerSproutContactYourRepresentative":" _3cnv(?: .*)?$","ReactComposerSproutFunFact":" _2_xs(?: .*)?$","TextExposeSeeMoreLink":" see_more_link(?: .*)?$","SnowliftBigCloseButton":"(?: _xlt(?: .*)? _418x(?: .*)?$| _418x(?: .*)? _xlt(?: .*)?$)","SnowliftPrevPager":"(?: snowliftPager(?: .*)? prev(?: .*)?$| prev(?: .*)? snowliftPager(?: .*)?$)","SnowliftNextPager":"(?: snowliftPager(?: .*)? next(?: .*)?$| next(?: .*)? snowliftPager(?: .*)?$)","SnowliftFullScreenButton":"#fbPhotoSnowliftFullScreenSwitch( .+)*","PrivacySelectorMenu":"(?: _57di(?: .*)? _2wli(?: .*)?$| _2wli(?: .*)? _57di(?: .*)?$)","ReactComposerFeedXSprouts":" _nh6(?: .*)?$","SproutsComposerStatusTab":" _sg1(?: .*)?$","SproutsComposerLiveVideoTab":" _sg1(?: .*)?$","SproutsComposerAlbumTab":" _sg1(?: .*)?$","composerAudienceSelector":" _ej0(?: .*)?$","FeedHScrollAttachmentsPrevPager":" _1qqy(?: .*)?$","FeedHScrollAttachmentsNextPager":" _1qqz(?: .*)?$","DockChatTabFlyout":" fbDockChatTabFlyout(?: .*)?$","PrivacyLiteJewel":" _59fc(?: .*)?$","ActorSelector":" _6vh(?: .*)?$","LegacyMentionsInput":"(?: ReactLegacyMentionsInput(?: .*)? uiMentionsInput(?: .*)? _2xwx(?: .*)?$| uiMentionsInput(?: .*)? ReactLegacyMentionsInput(?: .*)? _2xwx(?: .*)?$| _2xwx(?: .*)? ReactLegacyMentionsInput(?: .*)? uiMentionsInput(?: .*)?$| ReactLegacyMentionsInput(?: .*)? _2xwx(?: .*)? uiMentionsInput(?: .*)?$| uiMentionsInput(?: .*)? _2xwx(?: .*)? ReactLegacyMentionsInput(?: .*)?$| _2xwx(?: .*)? uiMentionsInput(?: .*)? ReactLegacyMentionsInput(?: .*)?$)","UFIActionLinksEmbedLink":" _2g1w(?: .*)?$","UFIPhotoAttachLink":" UFIPhotoAttachLinkWrapper(?: .*)?$","UFIMentionsInputProxy":" _1osa(?: .*)?$","UFIMentionsInputDummy":" _1osc(?: .*)?$","UFIOrderingModeSelector":" _3scp(?: .*)?$","UFIPager":"(?: UFIPagerRow(?: .*)? UFIRow(?: .*)?$| UFIRow(?: .*)? UFIPagerRow(?: .*)?$)","UFIReplyRow":"(?: UFIReplyRow(?: .*)? UFICommentReply(?: .*)?$| UFICommentReply(?: .*)? UFIReplyRow(?: .*)?$)","UFIReplySocialSentence":" UFIReplySocialSentenceRow(?: .*)?$","UFIShareLink":" _5f9b(?: .*)?$","UFIStickerButton":" UFICommentStickerButton(?: .*)?$","MentionsInput":" _5yk1(?: .*)?$","FantaChatTabRoot":" _3_9e(?: .*)?$","SnowliftViewableRoot":" _2-sx(?: .*)?$","ReactBlueBarJewelButton":" _5fwr(?: .*)?$","UFIReactionsDialogLayerImpl":" _1oxk(?: .*)?$","UFIReactionsLikeLinkImpl":" _4x9_(?: .*)?$","UFIReactionsLinkImplRoot":" _khz(?: .*)?$","Reaction":" _iuw(?: .*)?$","UFIReactionsMenuImpl":" _iu-(?: .*)?$","UFIReactionsSpatialReactionIconContainer":" _1fq9(?: .*)?$","VideoComponentPlayButton":" _bsl(?: .*)?$","FeedOptionsPopover":" _b1e(?: .*)?$","UFICommentLikeCount":" UFICommentLikeButton(?: .*)?$","UFICommentLink":" _5yxe(?: .*)?$","ChatTabComposerInputContainer":" _552h(?: .*)?$","ChatTabHeader":" _15p4(?: .*)?$","DraftEditor":" _5rp7(?: .*)?$","ChatSideBarDropDown":" _5vm9(?: .*)?$","SearchBox":" _539-(?: .*)?$","ChatSideBarLink":" _55ln(?: .*)?$","MessengerSearchTypeahead":" _3rh8(?: .*)?$","NotificationListItem":" _33c(?: .*)?$","MessageJewelListItem":" messagesContent(?: .*)?$","Messages_Jewel_Button":" _3eo8(?: .*)?$","Notifications_Jewel_Button":" _3eo9(?: .*)?$","snowliftopen":" _342u(?: .*)?$","NoteTextSeeMoreLink":" _3qd_(?: .*)?$","fbFeedOptionsPopover":" _1he6(?: .*)?$","Requests_Jewel_Button":" _3eoa(?: .*)?$","UFICommentActionLinkAjaxify":" _15-3(?: .*)?$","UFICommentActionLinkRedirect":" _15-6(?: .*)?$","UFICommentActionLinkDispatched":" _15-7(?: .*)?$","UFICommentCloseButton":" _36rj(?: .*)?$","UFICommentActionsRemovePreview":" _460h(?: .*)?$","UFICommentActionsReply":" _460i(?: .*)?$","UFICommentActionsSaleItemMessage":" _460j(?: .*)?$","UFICommentActionsAcceptAnswer":" _460k(?: .*)?$","UFICommentActionsUnacceptAnswer":" _460l(?: .*)?$","UFICommentReactionsLikeLink":" _3-me(?: .*)?$","UFICommentMenu":" _1-be(?: .*)?$","UFIMentionsInputFallback":" _289b(?: .*)?$","UFIMentionsInputComponent":" _289c(?: .*)?$","UFIMentionsInputProxyInput":" _432z(?: .*)?$","UFIMentionsInputProxyDummy":" _432-(?: .*)?$","UFIPrivateReplyLinkMessage":" _14hj(?: .*)?$","UFIPrivateReplyLinkSeeReply":" _14hk(?: .*)?$","ChatCloseButton":" _4vu4(?: .*)?$","ChatTabComposerPhotoUploader":" _13f-(?: .*)?$","ChatTabComposerGroupPollingButton":" _13f_(?: .*)?$","ChatTabComposerGames":" _13ga(?: .*)?$","ChatTabComposerPlan":" _13gb(?: .*)?$","ChatTabComposerFileUploader":" _13gd(?: .*)?$","ChatTabStickersButton":" _13ge(?: .*)?$","ChatTabComposerGifButton":" _13gf(?: .*)?$","ChatTabComposerEmojiPicker":" _13gg(?: .*)?$","ChatTabComposerLikeButton":" _13gi(?: .*)?$","ChatTabComposerP2PButton":" _13gj(?: .*)?$","ChatTabComposerQuickCam":" _13gk(?: .*)?$","ChatTabHeaderAudioRTCButton":" _461a(?: .*)?$","ChatTabHeaderVideoRTCButton":" _461b(?: .*)?$","ChatTabHeaderOptionsButton":" _461_(?: .*)?$","ChatTabHeaderAddToThreadButton":" _4620(?: .*)?$","ReactComposerMediaSprout":" _fk5(?: .*)?$","UFIReactionsBlingSocialSentenceComments":" _-56(?: .*)?$","UFIReactionsBlingSocialSentenceSeens":" _2x0l(?: .*)?$","UFIReactionsBlingSocialSentenceShares":" _2x0m(?: .*)?$","UFIReactionsBlingSocialSentenceViews":" _-5c(?: .*)?$","UFIReactionsBlingSocialSentence":" _-5d(?: .*)?$","UFIReactionsSocialSentence":" _1vaq(?: .*)?$","VideoFullscreenButton":" _39ip(?: .*)?$","Tahoe":" _400z(?: .*)?$","TahoeFromVideoPlayer":" _1vek(?: .*)?$","TahoeFromVideoLink":" _2-40(?: .*)?$","TahoeFromPhoto":" _2ju5(?: .*)?$","FBStoryTrayItem":" _1fvw(?: .*)?$","Mobile_Feed_Jewel_Button":"#feed_jewel( .+)*","Mobile_Requests_Jewel_Button":"#requests_jewel( .+)*","Mobile_Messages_Jewel_Button":"#messages_jewel( .+)*","Mobile_Notifications_Jewel_Button":"#notifications_jewel( .+)*","Mobile_Search_Jewel_Button":"#search_jewel( .+)*","Mobile_Bookmarks_Jewel_Button":"#bookmarks_jewel( .+)*","Mobile_Feed_UFI_Comment_Button_Permalink":" _l-a(?: .*)?$","Mobile_Feed_UFI_Comment_Button_Flyout":" _4qeq(?: .*)?$","Mobile_Feed_UFI_Token_Bar_Flyout":" _4qer(?: .*)?$","Mobile_Feed_UFI_Token_Bar_Permalink":" _4-09(?: .*)?$","Mobile_UFI_Share_Button":" _15kr(?: .*)?$","Mobile_Feed_Photo_Permalink":" _1mh-(?: .*)?$","Mobile_Feed_Video_Permalink":" _65g_(?: .*)?$","Mobile_Feed_Profile_Permalink":" _4kk6(?: .*)?$","Mobile_Feed_Story_Permalink":" _26yo(?: .*)?$","Mobile_Feed_Page_Permalink":" _4e81(?: .*)?$","Mobile_Feed_Group_Permalink":" _20u1(?: .*)?$","Mobile_Feed_Event_Permalink":" _20u0(?: .*)?$","ProfileIntroCardAddFeaturedMedia":" _30qr(?: .*)?$","ProfileSectionAbout":" _84wb(?: .*)?$","ProfileSectionAllRelationships":" _84wc(?: .*)?$","ProfileSectionAtWork":" _2fnv(?: .*)?$","ProfileSectionContactBasic":" _84vf(?: .*)?$","ProfileSectionEducation":" _84vh(?: .*)?$","ProfileSectionOverview":" _84vj(?: .*)?$","ProfileSectionPlaces":" _84vg(?: .*)?$","ProfileSectionYearOverviews":" _84vi(?: .*)?$","IntlPolyglotHomepage":" _Interaction__IntlPolyglotVoteActivityCardButton(?: .*)?$","ProtonElementSelection":" _67ft(?: .*)?$"},"interaction_boost":{"SnowliftPrevPager":0.2,"SnowliftNextPager":0.2,"ChatSideBarLink":2,"MessengerSearchTypeahead":2,"Messages_Jewel_Button":2.5,"Notifications_Jewel_Button":1.5,"Tahoe":30,"ProtonElementSelection":4},"event_types":{"BlueBarAccountChevronMenu":["click"],"BlueBarHomeButton":["click"],"BlueBarProfileLink":["click"],"ReactComposerSproutMedia":["click"],"ReactComposerSproutAlbum":["click"],"ReactComposerSproutNote":["click"],"ReactComposerSproutLocation":["click"],"ReactComposerSproutActivity":["click"],"ReactComposerSproutPeople":["click"],"ReactComposerSproutLiveVideo":["click"],"ReactComposerSproutMarkdown":["click"],"ReactComposerSproutFormattedText":["click"],"ReactComposerSproutSticker":["click"],"ReactComposerSproutSponsor":["click"],"ReactComposerSproutEllipsis":["click"],"ReactComposerSproutContactYourRepresentative":["click"],"ReactComposerSproutFunFact":["click"],"TextExposeSeeMoreLink":["click"],"SnowliftBigCloseButton":["click"],"SnowliftPrevPager":["click"],"SnowliftNextPager":["click"],"SnowliftFullScreenButton":["click"],"PrivacySelectorMenu":["click"],"ReactComposerFeedXSprouts":["click"],"SproutsComposerStatusTab":["click"],"SproutsComposerLiveVideoTab":["click"],"SproutsComposerAlbumTab":["click"],"composerAudienceSelector":["click"],"FeedHScrollAttachmentsPrevPager":["click"],"FeedHScrollAttachmentsNextPager":["click"],"DockChatTabFlyout":["click"],"PrivacyLiteJewel":["click"],"ActorSelector":["click"],"LegacyMentionsInput":["click"],"UFIActionLinksEmbedLink":["click"],"UFIPhotoAttachLink":["click"],"UFIMentionsInputProxy":["click"],"UFIMentionsInputDummy":["click"],"UFIOrderingModeSelector":["click"],"UFIPager":["click"],"UFIReplyRow":["click"],"UFIReplySocialSentence":["click"],"UFIShareLink":["click"],"UFIStickerButton":["click"],"MentionsInput":["click"],"FantaChatTabRoot":["click"],"SnowliftViewableRoot":["click"],"ReactBlueBarJewelButton":["click"],"UFIReactionsDialogLayerImpl":["click"],"UFIReactionsLikeLinkImpl":["click"],"UFIReactionsLinkImplRoot":["click"],"Reaction":["click"],"UFIReactionsMenuImpl":["click"],"UFIReactionsSpatialReactionIconContainer":["click"],"VideoComponentPlayButton":["click"],"FeedOptionsPopover":["click"],"UFICommentLikeCount":["click"],"UFICommentLink":["click"],"ChatTabComposerInputContainer":["click"],"ChatTabHeader":["click"],"DraftEditor":["click"],"ChatSideBarDropDown":["click"],"SearchBox":["click"],"ChatSideBarLink":["mouseup"],"MessengerSearchTypeahead":["click"],"NotificationListItem":["click"],"MessageJewelListItem":["click"],"Messages_Jewel_Button":["click"],"Notifications_Jewel_Button":["click"],"snowliftopen":["click"],"NoteTextSeeMoreLink":["click"],"fbFeedOptionsPopover":["click"],"Requests_Jewel_Button":["click"],"UFICommentActionLinkAjaxify":["click"],"UFICommentActionLinkRedirect":["click"],"UFICommentActionLinkDispatched":["click"],"UFICommentCloseButton":["click"],"UFICommentActionsRemovePreview":["click"],"UFICommentActionsReply":["click"],"UFICommentActionsSaleItemMessage":["click"],"UFICommentActionsAcceptAnswer":["click"],"UFICommentActionsUnacceptAnswer":["click"],"UFICommentReactionsLikeLink":["click"],"UFICommentMenu":["click"],"UFIMentionsInputFallback":["click"],"UFIMentionsInputComponent":["click"],"UFIMentionsInputProxyInput":["click"],"UFIMentionsInputProxyDummy":["click"],"UFIPrivateReplyLinkMessage":["click"],"UFIPrivateReplyLinkSeeReply":["click"],"ChatCloseButton":["click"],"ChatTabComposerPhotoUploader":["click"],"ChatTabComposerGroupPollingButton":["click"],"ChatTabComposerGames":["click"],"ChatTabComposerPlan":["click"],"ChatTabComposerFileUploader":["click"],"ChatTabStickersButton":["click"],"ChatTabComposerGifButton":["click"],"ChatTabComposerEmojiPicker":["click"],"ChatTabComposerLikeButton":["click"],"ChatTabComposerP2PButton":["click"],"ChatTabComposerQuickCam":["click"],"ChatTabHeaderAudioRTCButton":["click"],"ChatTabHeaderVideoRTCButton":["click"],"ChatTabHeaderOptionsButton":["click"],"ChatTabHeaderAddToThreadButton":["click"],"ReactComposerMediaSprout":["click"],"UFIReactionsBlingSocialSentenceComments":["click"],"UFIReactionsBlingSocialSentenceSeens":["click"],"UFIReactionsBlingSocialSentenceShares":["click"],"UFIReactionsBlingSocialSentenceViews":["click"],"UFIReactionsBlingSocialSentence":["click"],"UFIReactionsSocialSentence":["click"],"VideoFullscreenButton":["click"],"Tahoe":["click"],"TahoeFromVideoPlayer":["click"],"TahoeFromVideoLink":["click"],"TahoeFromPhoto":["click"],"":["click"],"FBStoryTrayItem":["click"],"Mobile_Feed_Jewel_Button":["click"],"Mobile_Requests_Jewel_Button":["click"],"Mobile_Messages_Jewel_Button":["click"],"Mobile_Notifications_Jewel_Button":["click"],"Mobile_Search_Jewel_Button":["click"],"Mobile_Bookmarks_Jewel_Button":["click"],"Mobile_Feed_UFI_Comment_Button_Permalink":["click"],"Mobile_Feed_UFI_Comment_Button_Flyout":["click"],"Mobile_Feed_UFI_Token_Bar_Flyout":["click"],"Mobile_Feed_UFI_Token_Bar_Permalink":["click"],"Mobile_UFI_Share_Button":["click"],"Mobile_Feed_Photo_Permalink":["click"],"Mobile_Feed_Video_Permalink":["click"],"Mobile_Feed_Profile_Permalink":["click"],"Mobile_Feed_Story_Permalink":["click"],"Mobile_Feed_Page_Permalink":["click"],"Mobile_Feed_Group_Permalink":["click"],"Mobile_Feed_Event_Permalink":["click"],"ProfileIntroCardAddFeaturedMedia":["click"],"ProfileSectionAbout":["click"],"ProfileSectionAllRelationships":["click"],"ProfileSectionAtWork":["click"],"ProfileSectionContactBasic":["click"],"ProfileSectionEducation":["click"],"ProfileSectionOverview":["click"],"ProfileSectionPlaces":["click"],"ProfileSectionYearOverviews":["click"],"IntlPolyglotHomepage":["click"],"ProtonElementSelection":["click"]},"manual_instrumentation":false,"profile_eager_execution":true,"disable_heuristic":true,"disable_event_profiler":false},1726],["AdsInterfacesSessionConfig",[],{},2393],["TimeSliceInteractionSV",[],{"on_demand_reference_counting":true,"on_demand_profiling_counters":true,"default_rate":1000,"lite_default_rate":100,"interaction_to_lite_coinflip":{"ADS_INTERFACES_INTERACTION":0,"ads_perf_scenario":0,"ads_wait_time":0,"Event":1,"video_psr":0,"video_stall":0},"interaction_to_coinflip":{"ADS_INTERFACES_INTERACTION":1,"ads_perf_scenario":1,"ads_wait_time":1,"video_psr":1000000,"video_stall":2500000,"Event":100,"cms_editor":1,"pixelcloud_view_performance":25,"intern_notify_inbox_page_load":10,"intern_notify_jewel_list_load":10,"tasks_initial_page_load":1,"watch_carousel_left_scroll":1,"watch_carousel_right_scroll":1,"watch_sections_load_more":1,"watch_discover_scroll":1,"fbpkg_ui":1,"sevmanager_powersearch_initial_page_load":10,"network_ui":1,"daiquery_interactive_query":1},"enable_heartbeat":true,"maxBlockMergeDuration":0,"maxBlockMergeDistance":0,"enable_banzai_stream":true,"user_timing_coinflip":50,"banzai_stream_coinflip":1,"compression_enabled":true,"ref_counting_fix":false,"ref_counting_cont_fix":false,"also_record_new_timeslice_format":false,"force_async_request_tracing_on":false},2609],["BanzaiConfig",[],{"EXPIRY":86400000,"MAX_SIZE":10000,"MAX_WAIT":150000,"RESTORE_WAIT":150000,"blacklist":["time_spent"],"gks":{"boosted_component":true,"boosted_pagelikes":true,"jslogger":true,"mercury_send_error_logging":true,"platform_oauth_client_events":true,"xtrackable_clientview_batch":true,"visibility_tracking":true,"graphexplorer":true,"gqls_web_logging":true,"sticker_search_ranking":true}},7],["cr:925100",["RunBlue"],{"__rc":["RunBlue","Aa3wbHImU7IDcMSdTUjYt2sDyoi7GhedK8w64ifMMbDb5m-1hOggqBVBAzXEDUZkgMuIxcubhG8e9FYCq-E7HOw"]},-1],["cr:692209",["cancelIdleCallbackBlue"],{"__rc":["cancelIdleCallbackBlue","Aa3wbHImU7IDcMSdTUjYt2sDyoi7GhedK8w64ifMMbDb5m-1hOggqBVBAzXEDUZkgMuIxcubhG8e9FYCq-E7HOw"]},-1]]);new (require("ServerJS"))().handle({"require":[["markJSEnabled"],["lowerDomain"],["URLFragmentPrelude"],["Primer"],["BigPipe"],["Bootloader"],["TimeSlice"],["ArtilleryOnUntilOffLogging","disable",[],[]],["AsyncRequest"],["BanzaiODS"],["BanzaiScuba"],["VisualCompletionGating"],["FbtLogging"],["Bootloader","markComponentsAsImmediate",[],[["AsyncRequest","BanzaiODS","BanzaiScuba","VisualCompletionGating","FbtLogging"]]]]});}, "ServerJS define", {"root":true})();</script></head><body class="fbx UIPage_LoggedOut _-kb _605a b_c3pyn-ahh x1 Locale_en_US" dir="ltr"><script>requireLazy(["bootstrapWebSession"],function(j){j(1588056830)})</script><div class="_li" id="u_0_2"><div class="_3_s0 _1toe _3_s1 _3_s1 uiBoxGray noborder" data-testid="ax-navigation-menubar" id="u_0_3"><div class="_608m"><div class="_5aj7 _tb6"><div class="_4bl7"><span class="mrm _3bcv _50f3">Jump to</span></div><div class="_4bl9 _3bcp"><div class="_6a _608n" aria-label="Navigation Assistant" aria-keyshortcuts="Alt+/" role="menubar" id="u_0_4"><div class="_6a uiPopover" id="u_0_5"><a role="button" class="_42ft _4jy0 _55pi _2agf _4o_4 _63xb _p _4jy3 _517h _51sy" href="#" style="max-width:200px;" aria-haspopup="true" aria-expanded="false" rel="toggle" id="u_0_6"><span class="_55pe">Sections of this page</span><span class="_4o_3 _3-99"><i class="img sp_CFhzeuTBkdE sx_2ea917"></i></span></a></div><div class="_6a _3bcs"></div><div class="_6a mrm uiPopover" id="u_0_7"><a role="button" class="_42ft _4jy0 _55pi _2agf _4o_4 _3_s2 _63xb _p _4jy3 _4jy1 selected _51sy" href="#" style="max-width:200px;" aria-haspopup="true" tabindex="-1" aria-expanded="false" rel="toggle" id="u_0_8"><span class="_55pe">Accessibility Help</span><span class="_4o_3 _3-99"><i class="img sp_CFhzeuTBkdE sx_d8579c"></i></span></a></div></div></div><div class="_4bl7 mlm pll _3bct"><div class="_6a _3bcy">Press <span class="_3bcz">alt</span> + <span class="_3bcz">/</span> to open this menu</div></div></div></div></div><div id="pagelet_bluebar" data-referrer="pagelet_bluebar"><div id="blueBarDOMInspector"><div class="_53jh"><div class="loggedout_menubar_container"><div class="clearfix loggedout_menubar"><div class="lfloat _ohe"><h1><a href="https://www.facebook.com/" title="Go to Facebook Home"><i class="fb_logo img sp_0eOQhLgQG2U sx_fbcf0b"><u>Facebook</u></i></a></h1></div></div></div></div></div></div><div id="globalContainer" class="uiContextualLayerParent"><div class="fb_content clearfix " id="content" role="main"><div class="_4-u2 _5slm _5slo _4-u8"><div class="_585n" id="u_0_9"><i class="_585p img sp_0eOQhLgQG2U sx_a9006e"><u>Notice</u></i><div class="_585r _50f4"><div class="_4-u3 _5dwa _5dw9"><span class="_38my">Leaving Facebook<span class="_c1c"></span></span><div class="_3s3-"></div></div><div class="_4-u3 _2pi9"><div class="mvm uiP fsm">We&#039;re just checking that you want to follow a link to this website: <span class="_5slv">http://go.uic.edu/Aloha</span></div><div class="mvm uiP fsm"></div></div><div class="_4-u3 _2pi9 _3-8z _5slw"><a role="button" class="_42ft _42fu" href="javascript:history.back();" id="u_0_a"><i class="_3-8_ img sp_Dddgaah5Z07 sx_44634d"></i>Go back</a><a role="button" class="_42ft _42fu selected _42g-" target="_self" href="http://l.facebook.com/l.php?u=http%3A%2F%2Fgo.uic.edu%2FAloha&amp;h=AT3JD_J1JFPSaBHcT9hn5OnikbeEju0E-muobGGI_QJgzKafkOc2tV4G4oIZJB8F2qeVOp-7MAUzsF7AEZ67SMXmRzumhW7VW1pNSoqg1MeGs1eR1yRrXvORHEN7JEsamnUzDmVBJ-prqH3xxNFHy1vH7MDr2Mz_G7mXHg" id="u_0_b"><i class="_3-8_ img sp_Dddgaah5Z07 sx_cb60d7"></i>Follow link</a></div></div></div></div></div><div><div id="pageFooter" data-referrer="page_footer" data-testid="page_footer"><ul class="uiList localeSelectorList _2pid _509- _4ki _6-h _6-j _6-i" data-nocookies="1"><li>English (US)</li><li><a class="_sv4" dir="ltr" href="https://es-la.facebook.com/flx/warn/?u=http%3A%2F%2Fgo.uic.edu%2FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;es_LA&quot;, &quot;en_US&quot;, &quot;https:\/\/es-la.facebook.com\/flx\/warn\/?u=http\u00253A\u00252F\u00252Fgo.uic.edu\u00252FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg&quot;, &quot;www_list_selector&quot;, 0); return false;" title="Spanish">Español</a></li><li><a class="_sv4" dir="ltr" href="https://fr-fr.facebook.com/flx/warn/?u=http%3A%2F%2Fgo.uic.edu%2FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;fr_FR&quot;, &quot;en_US&quot;, &quot;https:\/\/fr-fr.facebook.com\/flx\/warn\/?u=http\u00253A\u00252F\u00252Fgo.uic.edu\u00252FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg&quot;, &quot;www_list_selector&quot;, 1); return false;" title="French (France)">Français (France)</a></li><li><a class="_sv4" dir="ltr" href="https://zh-cn.facebook.com/flx/warn/?u=http%3A%2F%2Fgo.uic.edu%2FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;zh_CN&quot;, &quot;en_US&quot;, &quot;https:\/\/zh-cn.facebook.com\/flx\/warn\/?u=http\u00253A\u00252F\u00252Fgo.uic.edu\u00252FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg&quot;, &quot;www_list_selector&quot;, 2); return false;" title="Simplified Chinese (China)">中文(简体)</a></li><li><a class="_sv4" dir="rtl" href="https://ar-ar.facebook.com/flx/warn/?u=http%3A%2F%2Fgo.uic.edu%2FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;ar_AR&quot;, &quot;en_US&quot;, &quot;https:\/\/ar-ar.facebook.com\/flx\/warn\/?u=http\u00253A\u00252F\u00252Fgo.uic.edu\u00252FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg&quot;, &quot;www_list_selector&quot;, 3); return false;" title="Arabic">العربية</a></li><li><a class="_sv4" dir="ltr" href="https://pt-br.facebook.com/flx/warn/?u=http%3A%2F%2Fgo.uic.edu%2FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;pt_BR&quot;, &quot;en_US&quot;, &quot;https:\/\/pt-br.facebook.com\/flx\/warn\/?u=http\u00253A\u00252F\u00252Fgo.uic.edu\u00252FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg&quot;, &quot;www_list_selector&quot;, 4); return false;" title="Portuguese (Brazil)">Português (Brasil)</a></li><li><a class="_sv4" dir="ltr" href="https://ko-kr.facebook.com/flx/warn/?u=http%3A%2F%2Fgo.uic.edu%2FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;ko_KR&quot;, &quot;en_US&quot;, &quot;https:\/\/ko-kr.facebook.com\/flx\/warn\/?u=http\u00253A\u00252F\u00252Fgo.uic.edu\u00252FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg&quot;, &quot;www_list_selector&quot;, 5); return false;" title="Korean">한국어</a></li><li><a class="_sv4" dir="ltr" href="https://it-it.facebook.com/flx/warn/?u=http%3A%2F%2Fgo.uic.edu%2FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;it_IT&quot;, &quot;en_US&quot;, &quot;https:\/\/it-it.facebook.com\/flx\/warn\/?u=http\u00253A\u00252F\u00252Fgo.uic.edu\u00252FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg&quot;, &quot;www_list_selector&quot;, 6); return false;" title="Italian">Italiano</a></li><li><a class="_sv4" dir="ltr" href="https://de-de.facebook.com/flx/warn/?u=http%3A%2F%2Fgo.uic.edu%2FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;de_DE&quot;, &quot;en_US&quot;, &quot;https:\/\/de-de.facebook.com\/flx\/warn\/?u=http\u00253A\u00252F\u00252Fgo.uic.edu\u00252FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg&quot;, &quot;www_list_selector&quot;, 7); return false;" title="German">Deutsch</a></li><li><a class="_sv4" dir="ltr" href="https://hi-in.facebook.com/flx/warn/?u=http%3A%2F%2Fgo.uic.edu%2FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;hi_IN&quot;, &quot;en_US&quot;, &quot;https:\/\/hi-in.facebook.com\/flx\/warn\/?u=http\u00253A\u00252F\u00252Fgo.uic.edu\u00252FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg&quot;, &quot;www_list_selector&quot;, 8); return false;" title="Hindi">हिन्दी</a></li><li><a class="_sv4" dir="ltr" href="https://ja-jp.facebook.com/flx/warn/?u=http%3A%2F%2Fgo.uic.edu%2FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;ja_JP&quot;, &quot;en_US&quot;, &quot;https:\/\/ja-jp.facebook.com\/flx\/warn\/?u=http\u00253A\u00252F\u00252Fgo.uic.edu\u00252FAloha&amp;h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg&quot;, &quot;www_list_selector&quot;, 9); return false;" title="Japanese">日本語</a></li><li><a role="button" class="_42ft _4jy0 _517i _517h _51sy" rel="dialog" ajaxify="/settings/language/language/?uri=https%3A%2F%2Fja-jp.facebook.com%2Fflx%2Fwarn%2F%3Fu%3Dhttp%253A%252F%252Fgo.uic.edu%252FAloha%26h%3DAT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg&amp;source=www_list_selector_more" href="#" title="Show more languages"><i class="img sp_Ke6ZUJH-N4S sx_930120"></i></a></li></ul><div id="contentCurve"></div><div id="pageFooterChildren" role="contentinfo" aria-label="Facebook site links"><ul class="uiList pageFooterLinkList _509- _4ki _703 _6-i"><li><a href="/r.php" title="Sign Up for Facebook">Sign Up</a></li><li><a href="/login/" title="Log into Facebook">Log In</a></li><li><a href="https://messenger.com/" title="Check out Messenger.">Messenger</a></li><li><a href="/lite/" title="Facebook Lite for Android.">Facebook Lite</a></li><li><a href="https://www.facebook.com/watch/" title="Browse our Watch videos."> Watch </a></li><li><a href="/directory/people/" title="Browse our people directory.">People</a></li><li><a href="/directory/pages/" title="Browse our pages directory.">Pages</a></li><li><a href="/pages/category/">Page Categories</a></li><li><a href="/places/" title="Check out popular places on Facebook.">Places</a></li><li><a href="/games/" title="Check out Facebook games.">Games</a></li><li><a href="/directory/places/" title="Browse our places directory.">Locations</a></li><li><a href="/marketplace/" title="Buy and sell on Facebook Marketplace.">Marketplace</a></li><li><a href="/directory/groups/" title="Browse our Groups directory.">Groups</a></li><li><a href="https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2F&amp;h=AT2YCFG3_vwBLGqTLZo-fRRFuX8HPaRzgq722ti6YvdvWZPHrlUTtTlme8IhN5z2V7SF5xs9xEkMvOJDGEKTjaUdtaWmSQEPAA5FnO0N2XbvSBWnGo-Bt1lzyZ7bUe3s1NODmZ-FO5AC95yiAPTirIBBu7yGoOk5" title="Check out Instagram" target="_blank" rel="nofollow" data-lynx-mode="hover">Instagram</a></li><li><a href="/local/lists/245019872666104/" title="Browse our Local Lists directory.">Local</a></li><li><a href="/fundraisers/" title="Donate to worthy causes.">Fundraisers</a></li><li><a href="/biz/directory/" title="Browse our Facebook Services directory.">Services</a></li><li><a href="/facebook" accesskey="8" title="Read our blog, discover the resource center, and find job opportunities.">About</a></li><li><a href="/ad_campaign/landing.php?placement=pflo&amp;campaign_id=402047449186&amp;extra_1=auto" title="Advertise on Facebook.">Create Ad</a></li><li><a href="/pages/create/?ref_type=site_footer" title="Create a Page">Create Page</a></li><li><a href="https://developers.facebook.com/?ref=pf" title="Develop on our platform.">Developers</a></li><li><a href="/careers/?ref=pf" title="Make your next career move to our awesome company.">Careers</a></li><li><a data-nocookies="1" href="/privacy/explanation" title="Learn about your privacy and Facebook.">Privacy</a></li><li><a href="/policies/cookies/" title="Learn about cookies and Facebook." data-nocookies="1">Cookies</a></li><li><a class="_41ug" data-nocookies="1" href="https://www.facebook.com/help/568137493302217" title="Learn about Ad Choices.">Ad Choices<i class="img sp_0eOQhLgQG2U sx_7cd432"></i></a></li><li><a data-nocookies="1" href="/policies?ref=pf" accesskey="9" title="Review our terms and policies.">Terms</a></li><li><a href="/help/?ref=pf" accesskey="0" title="Visit our Help Center.">Help</a></li><li><a accesskey="6" class="accessible_elem" href="/settings" title="View and edit your Facebook settings.">Settings</a></li><li><a accesskey="7" class="accessible_elem" href="/allactivity?privacy_source=activity_log_top_menu" title="View your activity log">Activity Log</a></li></ul></div><div class="mvl copyright"><div><span> Facebook © 2020</span></div></div></div></div></div><div></div><span><img src="https://facebook.com/security/hsts-pixel.gif?c=3.2.5" width="0" height="0" style="display:none" /></span></div><div style="display:none"></div>
-<script>requireLazy(["gkx"],function(gkx){gkx.add({"677762":{"result":true,"hash":"AT6ulNtsagZAn7Eo"},"1243461":{"result":false,"hash":"AT40gCeJ2A_lk5nk"},"819236":{"result":false,"hash":"AT4Wk71kPQCzfMiW"},"729630":{"result":false,"hash":"AT4q6d0jeJFkIskl"},"729631":{"result":false,"hash":"AT5TxKmTx-XvmUGa"},"1281505":{"result":false,"hash":"AT6Y5apAkjST0tRC"},"1291023":{"result":false,"hash":"AT71jIGrdNg2ISi4"},"1294182":{"result":false,"hash":"AT4W91mUie-QAKG9"},"1334669":{"result":false,"hash":"AT5Dt5oFD-_qYpHI"},"1381768":{"result":true,"hash":"AT7PXts7r66KnwQi"},"1399218":{"result":true,"hash":"AT7HNeOBU3HnuZaR"},"1401060":{"result":true,"hash":"AT5kpWIxEDfc_2nf"},"1405113":{"result":false,"hash":"AT68WMZGO0L-cgGL"},"1099893":{"result":false,"hash":"AT6p_EJq5ZmiOc_7"}});});
-requireLazy(["Bootloader"],function(Bootloader){Bootloader.setResourceMap({"zRC0t":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iPaC4\/yz\/l\/en_US\/NB7R-ajN-_-.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"jc6Dr":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yY\/r\/eedBaRNf7AL.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"CRYLx":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3i7M54\/yj\/l\/en_US\/oZW_yfyf3h2.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"k2rys":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iYgh4\/yX\/l\/en_US\/ts3XuPqbJNL.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"Y\/QGS":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iFVC4\/yt\/l\/en_US\/ZuySeDBiUng.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"QdjhQ":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3ig1H4\/y2\/l\/en_US\/BMw4MisoxIv.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"9+h1k":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iTQy4\/yl\/l\/en_US\/7wQ_kCO0sG8.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"5UjYC":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3ixfU4\/ya\/l\/en_US\/fRp6LuV0IYy.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"1VK2G":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iBKw4\/ye\/l\/en_US\/pXjWVmvvEJ6.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"gz7O1":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yT\/r\/-5cJoz28bpD.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"fid8v":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yq\/r\/pdmhZsC97k7.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"Uy48b":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iPwL4\/yv\/l\/en_US\/4WSKHm178-U.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"xFtHU":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iZP14\/yp\/l\/en_US\/xmNAn-aNmeJ.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"6tDBW":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iTfb4\/ye\/l\/en_US\/5hnF14gUQDB.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"uuvPl":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iYwV4\/yx\/l\/en_US\/t8dlXNvQLS2.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"WjCNT":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/ys\/r\/A4RVQ6DQJEj.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"yApUt":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yX\/r\/JUoNf5axiuE.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"K3Fcz":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iF584\/yg\/l\/en_US\/trYTmJHXSdW.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"8ELCB":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/ye\/r\/VRzSVH5iU-V.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"+ClWy":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yU\/r\/UJOxW2IHm1a.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"a7sLz":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yh\/r\/yftWA0sx8kY.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"nBqXo":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yw\/r\/LzcjN-fdEwr.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"rF8uv":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yl\/r\/KnF_aN-coxY.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"8RTjD":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iTJ74\/yi\/l\/en_US\/iOkwh-vYVwO.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"aCDoV":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yi\/r\/y_w26vJjNkD.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"Wx0D\/":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yj\/r\/kF5KVowcbc2.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"9LVQl":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/ys\/r\/ByuU9SZJ1Ko.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"2\/maQ":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yc\/r\/WFKY8pTn9lc.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"j6aau":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/y5\/r\/2WRjVPlJX0-.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"\/mnVq":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3ikPw4\/yc\/l\/en_US\/e1ZCePKzdT9.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"Wmtrz":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iogg4\/yo\/l\/en_US\/fQ7Repr2KaT.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"8JVg+":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3i-NX4\/yZ\/l\/en_US\/pfG8UrHTRje.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"7h9\/r":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yI\/r\/-cf8Q_1Yfg3.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"BG\/H8":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iJPQ4\/yP\/l\/en_US\/lu_UXp56UPr.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"X63ov":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3idQD4\/yQ\/l\/en_US\/3Zg7Zw_dtab.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"xACy8":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yH\/r\/YJXtyptdN4d.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"MtY2l":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yR\/l\/0,cross\/1scfT9LW2HI.css?_nc_x=Ij3Wp8lg5Kz","nc":1},"vNwAa":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3if8s4\/yf\/l\/en_US\/Nbw3IPxV21v.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"+8Vhj":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3i2_f4\/yX\/l\/en_US\/RLXVFFHSCuS.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"FlxvO":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yl\/l\/0,cross\/nJcJEIDg4HK.css?_nc_x=Ij3Wp8lg5Kz","nc":1},"smtkO":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3ihzL4\/y0\/l\/en_US\/beUeGw6SJoN.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"iTFbh":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iAbk4\/y-\/l\/en_US\/2SzEQd2QF2g.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"fzudc":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3ihM64\/yh\/l\/en_US\/wsW2623Qmg4.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"\/KHOZ":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iTSN4\/yx\/l\/en_US\/iCgz3XJlHtE.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"7\/Aoq":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yl\/l\/0,cross\/a4LeQljYRq1.css?_nc_x=Ij3Wp8lg5Kz","nc":1},"BOCoy":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yL\/r\/IB2wgswNSSw.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"pTIZJ":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yl\/l\/0,cross\/V0vZCYjXay8.css?_nc_x=Ij3Wp8lg5Kz","nc":1},"d0+Bj":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yQ\/l\/0,cross\/YCcvVawDNHO.css?_nc_x=Ij3Wp8lg5Kz","nc":1},"VvA+9":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iHf54\/yp\/l\/en_US\/dVujps97WdC.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"NimVW":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3igkD4\/yF\/l\/en_US\/ZNZH1nDKhEB.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"6JrEn":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yK\/l\/0,cross\/psOZjU0ubSp.css?_nc_x=Ij3Wp8lg5Kz","nc":1},"XeZWo":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iZBS4\/yp\/l\/en_US\/oBViWOVLb6p.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"5q9VS":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/y9\/r\/BiFgCFXj0-u.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"nyhH6":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3ioWj4\/yW\/l\/en_US\/L-_3oEt3_zM.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"gTaSm":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3i2714\/yb\/l\/en_US\/luL1qZXEwr9.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"aF9iP":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iLl54\/yv\/l\/en_US\/K9rnlj2yWIO.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"BMiYP":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yx\/l\/0,cross\/DtpKvLjNkUx.css?_nc_x=Ij3Wp8lg5Kz","nc":1},"cZ2JP":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iS724\/yO\/l\/en_US\/a5DK_cTNe_V.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"Qq3ui":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yF\/r\/nmH9pQV_RTm.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"NM8Wt":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3i7yM4\/y3\/l\/en_US\/CV9Rnbt2Ocp.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"pf5HN":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yL\/l\/0,cross\/pOM66p2zZ5q.css?_nc_x=Ij3Wp8lg5Kz","nc":1},"GOP3C":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3is-T4\/yr\/l\/en_US\/QQ7qO2KYkA8.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"tcCR5":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3ivqE4\/ys\/l\/en_US\/Fx6lzL9PIOJ.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"vvgSv":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iNiF4\/yK\/l\/en_US\/2X1KPxLMjoR.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"9Iy\/T":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3icPi4\/yC\/l\/en_US\/rvFzPK5w7hW.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"XDIC9":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3itIQ4\/yw\/l\/en_US\/FMiS6uEX5bI.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"Cw2BU":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3ixHM4\/y7\/l\/en_US\/GJ1Iq1Z5ZWb.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"+QpJ+":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/y9\/l\/0,cross\/hGjQXPokDFg.css?_nc_x=Ij3Wp8lg5Kz","nc":1},"6kLaZ":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iY_w4\/yH\/l\/en_US\/btBrXksEO-b.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"AY9Yo":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yC\/r\/YJZo6jMv02T.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"rAcRk":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3izXh4\/yM\/l\/en_US\/b22seovwPYy.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"ORsKT":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yZ\/r\/koqIKj8wUVh.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"nUnsN":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yt\/l\/0,cross\/pZ1DERiAixC.css?_nc_x=Ij3Wp8lg5Kz","nc":1},"\/KnI2":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yU\/l\/0,cross\/E4vkg0Ik_UM.css?_nc_x=Ij3Wp8lg5Kz","nc":1},"\/3JjH":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yd\/l\/0,cross\/utuFX_seGGD.css?_nc_x=Ij3Wp8lg5Kz","nc":1},"zJDAr":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yx\/l\/0,cross\/XkK5UaGcUDi.css?_nc_x=Ij3Wp8lg5Kz","nc":1},"Fw+SH":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3ilae4\/yQ\/l\/en_US\/sUuhFhCdsoG.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"liORJ":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/ym\/r\/YCKQHZMMTKs.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"hsbHq":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yT\/l\/0,cross\/GhLejlUPctn.css?_nc_x=Ij3Wp8lg5Kz","nc":1},"kUy7p":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iR4J4\/yb\/l\/en_US\/lLEeTyNUKLl.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"gcDYl":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/y3\/r\/nkU5dmGfqsF.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"ZWvrS":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3ibbF4\/yW\/l\/en_US\/OxlFtiIHGi7.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"Ieljg":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3ikyv4\/yF\/l\/en_US\/RplxRBVWPMC.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"apYWj":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3i4jm4\/y6\/l\/en_US\/rtvxYYSR7Cs.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"kTWGK":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yV\/r\/I5u9tDElTKE.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"wgOr4":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iOo24\/yB\/l\/en_US\/qPKDVVb2CvW.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"aeS23":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yh\/r\/eslx__-V4Ry.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"9wAk8":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/y7\/r\/w51IU4KIJXN.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"zLqVp":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/y7\/r\/Yckf0DpEIkD.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"bdOJE":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iQWY4\/yG\/l\/en_US\/E9w0RzWuf1R.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"QyVIo":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/ym\/r\/OQAdXcA94o4.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"3Vv\/r":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iqES4\/y6\/l\/en_US\/k7uwNtaG_wU.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"7S171":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yQ\/r\/Lu4hrF23EWQ.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"gWMJg":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yH\/r\/iGksp69foR_.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"ZU1ro":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yU\/r\/ayLW0OW8PB8.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"VwejP":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yx\/r\/jlMhkbhW44p.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"VMKqM":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yR\/r\/mma4Drszrb7.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"A2zm2":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yh\/r\/SV35LrJZT4T.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"OqS9a":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iYXl4\/yk\/l\/en_US\/_swtgRouA15.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"Sodjd":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3isM_4\/yP\/l\/en_US\/8Z5U0PJXdur.js?_nc_x=Ij3Wp8lg5Kz","nc":1},"P\/mr5":{"type":"css","src":"data:text\/css; charset=utf-8;base64,I2Jvb3Rsb2FkZXJfUF9tcjV7aGVpZ2h0OjQycHg7fS5ib290bG9hZGVyX1BfbXI1e2Rpc3BsYXk6YmxvY2shaW1wb3J0YW50O30=","nc":1,"d":1}}, []);Bootloader.enableBootload({"AsyncRequest":{"r":["zRC0t","jc6Dr","CRYLx","R3U4L","k2rys","Y\/QGS"],"rds":{"m":["BanzaiODS","FbtLogging","BanzaiScuba"],"r":["QdjhQ"]}},"Dialog":{"r":["R3U4L","zRC0t","1s8uL","9+h1k","5UjYC","1VK2G","gz7O1","jc6Dr","CRYLx","fid8v","Uy48b","k2rys","Y\/QGS"],"rds":{"m":["BanzaiODS","FbtLogging","Animation","PageTransitions","BanzaiScuba"],"r":["QdjhQ"]},"be":1},"ExceptionDialog":{"r":["R3U4L","xFtHU","zRC0t","QdjhQ","6tDBW","uuvPl","WjCNT","fid8v","yApUt","K3Fcz","5UjYC","1VK2G","jc6Dr","CRYLx","Uy48b","k2rys","Y\/QGS"],"rds":{"m":["BanzaiODS","FbtLogging","BanzaiScuba"]},"be":1},"QuickSandSolver":{"r":["8ELCB","+ClWy","a7sLz","zRC0t","nBqXo","5UjYC","jc6Dr","CRYLx","R3U4L","k2rys","Y\/QGS"],"rds":{"m":["BanzaiODS","FbtLogging","BanzaiScuba"],"r":["QdjhQ"]},"be":1},"ConfirmationDialog":{"r":["zRC0t","5UjYC","rF8uv","CRYLx","R3U4L"],"rds":{"m":["BanzaiODS","BanzaiScuba"],"r":["k2rys","Y\/QGS"]},"be":1},"BanzaiODS":{"r":["CRYLx","zRC0t","k2rys","Y\/QGS"],"rds":{"m":["BanzaiODS","BanzaiScuba"]}},"BanzaiScuba":{"r":["CRYLx","zRC0t","k2rys","Y\/QGS"],"rds":{"m":["BanzaiODS","BanzaiScuba"]}},"VisualCompletionGating":{"r":["k2rys"]},"FbtLogging":{"r":["QdjhQ"]},"Dock":{"r":["R3U4L","8RTjD","zRC0t","fid8v","5UjYC","k2rys","CRYLx"],"rds":{"m":["BanzaiODS","BanzaiScuba"],"r":["Y\/QGS"]},"be":1},"TimeSliceInteractionsLiteTypedLogger":{"r":["aCDoV","CRYLx","zRC0t","k2rys","Y\/QGS"],"rds":{"m":["BanzaiODS","BanzaiScuba"]},"be":1},"WebSpeedInteractionsTypedLogger":{"r":["Wx0D\/","CRYLx","zRC0t","k2rys","Y\/QGS"],"rds":{"m":["BanzaiODS","BanzaiScuba"]},"be":1},"DOM":{"r":["zRC0t","CRYLx","R3U4L"],"rds":{"m":["BanzaiODS","BanzaiScuba"],"r":["k2rys","Y\/QGS"]},"be":1},"Form":{"r":["zRC0t","5UjYC","CRYLx","R3U4L"],"rds":{"m":["BanzaiODS","BanzaiScuba"],"r":["k2rys","Y\/QGS"]},"be":1},"FormSubmit":{"r":["zRC0t","9LVQl","5UjYC","jc6Dr","CRYLx","R3U4L","k2rys","Y\/QGS"],"rds":{"m":["BanzaiODS","BanzaiScuba","FbtLogging"],"r":["QdjhQ"]},"be":1},"Input":{"r":["5UjYC"],"be":1},"Live":{"r":["zRC0t","2\/maQ","k2rys","j6aau","CRYLx","R3U4L"],"rds":{"m":["BanzaiODS","BanzaiScuba"],"r":["Y\/QGS"]},"be":1},"Toggler":{"r":["R3U4L","zRC0t","5UjYC","CRYLx"],"rds":{"m":["BanzaiODS","BanzaiScuba"],"r":["k2rys","Y\/QGS"]},"be":1},"Tooltip":{"r":["R3U4L","zRC0t","uuvPl","fid8v","5UjYC","gz7O1","jc6Dr","CRYLx","Uy48b","k2rys","Y\/QGS"],"rds":{"m":["BanzaiODS","FbtLogging","PageTransitions","BanzaiScuba","Animation"],"r":["QdjhQ","1VK2G"]},"be":1},"URI":{"r":[],"be":1},"trackReferrer":{"r":[],"rds":{"m":["BanzaiODS","BanzaiScuba"],"r":["CRYLx","zRC0t","k2rys","Y\/QGS"]},"be":1},"PhotoTagApproval":{"r":["\/mnVq","zRC0t","Wmtrz","CRYLx","R3U4L"],"rds":{"m":["BanzaiODS","BanzaiScuba"],"r":["k2rys","Y\/QGS"]},"be":1},"PhotoSnowlift":{"r":["R3U4L","8JVg+","7h9\/r","a7sLz","8RTjD","BG\/H8","X63ov","zRC0t","xACy8","QdjhQ","MtY2l","uuvPl","WjCNT","vNwAa","+8Vhj","fid8v","FlxvO","smtkO","1s8uL","Wmtrz","iTFbh","9+h1k","yApUt","5UjYC","fzudc","1VK2G","\/KHOZ","gz7O1","7\/Aoq","BOCoy","pTIZJ","j6aau","jc6Dr","d0+Bj","VvA+9","CRYLx","Y\/QGS","NimVW","Uy48b","k2rys"],"rds":{"m":["Animation","BanzaiODS","BanzaiScuba","VisualCompletionGating","FbtLogging","PageTransitions"]},"be":1},"PhotoTagger":{"r":["R3U4L","8JVg+","xFtHU","6JrEn","7h9\/r","XeZWo","5q9VS","nyhH6","a7sLz","gTaSm","aF9iP","BMiYP","cZ2JP","8RTjD","Qq3ui","BG\/H8","NM8Wt","pf5HN","GOP3C","X63ov","Rxqhi","zRC0t","tcCR5","vvgSv","9Iy\/T","xACy8","MtY2l","uuvPl","WjCNT","XDIC9","Cw2BU","+QpJ+","+8Vhj","fid8v","smtkO","1s8uL","Wmtrz","6kLaZ","9+h1k","yApUt","AY9Yo","rAcRk","ORsKT","nUnsN","\/KnI2","\/3JjH","zJDAr","5UjYC","k2rys","1VK2G","\/KHOZ","gz7O1","j6aau","jc6Dr","Fw+SH","CRYLx","Y\/QGS","liORJ","hsbHq","NimVW","kUy7p","gcDYl","Uy48b","ZWvrS"],"rdfds":{"m":["GamesVideoDeleteCommentDialog.react","GamesVideoModerationRulesNux.react","GamesVideoCommentRemovedDialog.react"],"r":["Ieljg","apYWj","QdjhQ","kTWGK","wgOr4","aeS23","9wAk8","zLqVp"]},"rds":{"m":["PresenceStatus","Animation","BanzaiODS","BanzaiScuba","FbtLogging","PageTransitions","Banzai"]},"be":1},"PhotoTags":{"r":["\/mnVq","zRC0t","Wmtrz","5UjYC","CRYLx","R3U4L"],"rds":{"m":["BanzaiODS","BanzaiScuba"],"r":["k2rys","Y\/QGS"]},"be":1},"TagTokenizer":{"r":["R3U4L","\/mnVq","bdOJE","Rxqhi","zRC0t","QyVIo","1s8uL","5UjYC","1VK2G","jc6Dr","CRYLx","Y\/QGS","k2rys"],"rds":{"m":["BanzaiODS","FbtLogging","BanzaiScuba"],"r":["QdjhQ"]},"be":1},"AsyncDialog":{"r":["R3U4L","zRC0t","WjCNT","fid8v","5UjYC","jc6Dr","CRYLx","Uy48b","k2rys","Y\/QGS"],"rds":{"m":["BanzaiODS","FbtLogging","BanzaiScuba"],"r":["QdjhQ"]},"be":1},"Hovercard":{"r":["R3U4L","a7sLz","aF9iP","BMiYP","NM8Wt","Rxqhi","zRC0t","uuvPl","fid8v","5UjYC","1VK2G","jc6Dr","CRYLx","Uy48b","k2rys","Y\/QGS"],"rds":{"m":["BanzaiODS","BanzaiScuba","FbtLogging","PageTransitions","Animation"],"r":["QdjhQ","gz7O1"]},"be":1},"Banzai":{"r":["CRYLx","zRC0t","k2rys","Y\/QGS"],"rds":{"m":["BanzaiODS","BanzaiScuba"]},"be":1},"ResourceTimingBootloaderHelper":{"r":["zRC0t","3Vv\/r"],"rds":{"m":["BanzaiODS","BanzaiScuba"],"r":["CRYLx","k2rys","Y\/QGS"]},"be":1},"TimeSliceHelper":{"r":["7S171"],"be":1},"XSalesPromoWWWDetailsDialogAsyncController":{"r":["gWMJg"],"be":1},"BanzaiStream":{"r":["ZU1ro","CRYLx","Y\/QGS","zRC0t","k2rys"],"rds":{"m":["BanzaiODS","BanzaiScuba"]},"be":1},"SnappyCompressUtil":{"r":["Y\/QGS"],"be":1},"XOfferController":{"r":["VwejP"],"be":1},"PerfXSharedFields":{"r":["CRYLx"],"be":1},"KeyEventTypedLogger":{"r":["VMKqM","CRYLx","zRC0t","k2rys","Y\/QGS"],"rds":{"m":["BanzaiODS","BanzaiScuba"]},"be":1},"ReactDOM":{"r":["zRC0t","WjCNT","Uy48b","CRYLx","R3U4L"],"rds":{"m":["BanzaiODS","BanzaiScuba"],"r":["k2rys","Y\/QGS"]},"be":1},"Event":{"r":["R3U4L"],"rds":{"m":["BanzaiODS","BanzaiScuba"],"r":["CRYLx","zRC0t","k2rys","Y\/QGS"]}},"Animation":{"r":["zRC0t","5UjYC","gz7O1","CRYLx","R3U4L"],"rds":{"m":["BanzaiODS","BanzaiScuba"],"r":["k2rys","Y\/QGS"]}},"PageTransitions":{"r":["1VK2G","zRC0t","fid8v","Uy48b","5UjYC","jc6Dr","CRYLx","R3U4L","k2rys","Y\/QGS"],"rds":{"m":["Animation","PageTransitions","BanzaiODS","BanzaiScuba","FbtLogging"],"r":["gz7O1","QdjhQ"]}},"ContextualLayerInlineTabOrder":{"r":["R3U4L","zRC0t","Sodjd","9LVQl","5UjYC","CRYLx"],"rds":{"m":["BanzaiODS","BanzaiScuba"],"r":["k2rys","Y\/QGS"]},"be":1},"XUIDialogButton.react":{"r":["R3U4L","zRC0t","QdjhQ","WjCNT","5UjYC","jc6Dr","CRYLx","Uy48b","k2rys","Y\/QGS"],"rds":{"m":["BanzaiODS","FbtLogging","BanzaiScuba"]},"be":1},"XUIDialogBody.react":{"r":["R3U4L","zRC0t","QdjhQ","yApUt","CRYLx","Uy48b"],"rds":{"m":["BanzaiODS","BanzaiScuba"],"r":["k2rys","Y\/QGS"]},"be":1},"XUIDialogFooter.react":{"r":["R3U4L","zRC0t","QdjhQ","yApUt","5UjYC","CRYLx","Uy48b"],"rds":{"m":["BanzaiODS","BanzaiScuba"],"r":["k2rys","Y\/QGS"]},"be":1},"XUIDialogTitle.react":{"r":["R3U4L","zRC0t","WjCNT","5UjYC","jc6Dr","CRYLx","Uy48b","k2rys","Y\/QGS"],"rds":{"m":["BanzaiODS","FbtLogging","BanzaiScuba"],"r":["QdjhQ"]},"be":1},"XUIGrayText.react":{"r":["R3U4L","xFtHU","zRC0t","yApUt","CRYLx","Uy48b"],"rds":{"m":["BanzaiODS","BanzaiScuba"],"r":["k2rys","Y\/QGS"]},"be":1},"DialogX":{"r":["R3U4L","zRC0t","fid8v","5UjYC","jc6Dr","CRYLx","k2rys","Y\/QGS"],"rds":{"m":["BanzaiODS","FbtLogging","BanzaiScuba"],"r":["QdjhQ"]},"be":1},"React":{"r":["zRC0t"],"be":1}});});</script>
-<script>requireLazy(["InitialJSLoader"], function(InitialJSLoader) {InitialJSLoader.loadOnDOMContentReady(["zRC0t","iTFbh","A2zm2","jc6Dr","CRYLx","1VK2G","5UjYC","k2rys","BG\/H8","uuvPl","OqS9a","7h9\/r","QdjhQ","Y\/QGS","8RTjD","Sodjd","fid8v","gz7O1","Uy48b","WjCNT","P\/mr5"]);});</script>
-<script>require("TimeSliceImpl").guard(function() {require("ServerJSDefine").handleDefines([["LinkshimHandlerConfig",[],{"supports_meta_referrer":false,"default_meta_referrer_policy":"default","switched_meta_referrer_policy":"origin","non_linkshim_lnfb_mode":"ie","link_react_default_hash":"AT1fwR40OAA-mVXDLSwiZYs4a8EwLcl4MTff1Cn28IvI_svZJpaRQifT0inPw25XnIjp1k-dMuORiPThCOmeAHhwOL9f61DZuH8UsEEObPw18QLKcNyEhFgg5lw0gzBzPHnSz2DZ3G4KwTiuNCk1LXxsadcWC8j_","untrusted_link_default_hash":"AT3Tzd9GRpHmYEemMT4f9HU2qC85HVRatM9qU23INW-ugz-Ldeiq5z59vMMqEcAxWXlos6Rjp1eKYXTLr_8C827Y_cP9c4kVrFYHPwrr3KhPYtvWDghhicYK422oU9X2enswGmXViCdO8DFFxMssXmhWnNF_C2US","linkshim_host":"l.facebook.com","use_rel_no_opener":false,"always_use_https":false,"onion_always_shim":true,"middle_click_requires_event":false,"www_safe_js_mode":"hover","m_safe_js_mode":null,"ghl_param_link_shim":false,"click_ids":[],"is_linkshim_supported":true,"current_domain":"facebook.com"},27]]);require("InitialJSLoader").handleServerJS({"instances":[["__inst_5b4d0c00_0_0",["Menu","XUIMenuWithSquareCorner","XUIMenuTheme"],[[],{"id":"u_0_0","behaviors":[{"__m":"XUIMenuWithSquareCorner"}],"theme":{"__m":"XUIMenuTheme"}}],2],["__inst_5b4d0c00_0_1",["Menu","MenuItem","__markup_3310c079_0_0","HTML","__markup_3310c079_0_1","__markup_3310c079_0_2","__markup_3310c079_0_3","XUIMenuWithSquareCorner","XUIMenuTheme"],[[{"value":"key_shortcuts","ctor":{"__m":"MenuItem"},"markup":{"__m":"__markup_3310c079_0_0"},"label":"Keyboard shortcut help...","title":"","className":null},{"href":"\/help\/accessibility","target":"_blank","value":"help_center","ctor":{"__m":"MenuItem"},"markup":{"__m":"__markup_3310c079_0_1"},"label":"Accessibility Help Center","title":"","className":null},{"href":"\/help\/contact\/accessibility","target":"_blank","value":"submit_feedback","ctor":{"__m":"MenuItem"},"markup":{"__m":"__markup_3310c079_0_2"},"label":"Submit feedback","title":"","className":null},{"href":"\/accessibility","target":"_blank","value":"facebook_page","ctor":{"__m":"MenuItem"},"markup":{"__m":"__markup_3310c079_0_3"},"label":"Updates from Facebook Accessibility","title":"","className":null}],{"id":"u_0_1","behaviors":[{"__m":"XUIMenuWithSquareCorner"}],"theme":{"__m":"XUIMenuTheme"}}],2],["__inst_e5ad243d_0_0",["PopoverMenu","__inst_1de146dc_0_1","__elem_ec77afbd_0_1","__inst_5b4d0c00_0_1"],[{"__m":"__inst_1de146dc_0_1"},{"__m":"__elem_ec77afbd_0_1"},{"__m":"__inst_5b4d0c00_0_1"},[]],2],["__inst_e5ad243d_0_1",["PopoverMenu","__inst_1de146dc_0_0","__elem_ec77afbd_0_0","__inst_5b4d0c00_0_0"],[{"__m":"__inst_1de146dc_0_0"},{"__m":"__elem_ec77afbd_0_0"},{"__m":"__inst_5b4d0c00_0_0"},[]],2],["__inst_1de146dc_0_0",["Popover","__elem_1de146dc_0_0","__elem_ec77afbd_0_0","ContextualLayerAutoFlip","ContextualDialogArrow"],[{"__m":"__elem_1de146dc_0_0"},{"__m":"__elem_ec77afbd_0_0"},[{"__m":"ContextualLayerAutoFlip"},{"__m":"ContextualDialogArrow"}],{"alignh":"left","position":"below"}],2],["__inst_1de146dc_0_1",["Popover","__elem_1de146dc_0_1","__elem_ec77afbd_0_1","ContextualLayerAutoFlip","ContextualDialogArrow"],[{"__m":"__elem_1de146dc_0_1"},{"__m":"__elem_ec77afbd_0_1"},[{"__m":"ContextualLayerAutoFlip"},{"__m":"ContextualDialogArrow"}],{"alignh":"right","position":"below"}],2]],"markup":[["__markup_3310c079_0_0",{"__html":"Keyboard shortcut help..."},1],["__markup_3310c079_0_1",{"__html":"Accessibility Help Center"},1],["__markup_3310c079_0_2",{"__html":"Submit feedback"},1],["__markup_3310c079_0_3",{"__html":"Updates from Facebook Accessibility"},1]],"elements":[["__elem_a588f507_0_1","u_0_2",1],["__elem_3fc3da18_0_0","u_0_3",1],["__elem_51be6cb7_0_0","u_0_4",1],["__elem_1de146dc_0_0","u_0_5",1],["__elem_ec77afbd_0_0","u_0_6",2],["__elem_1de146dc_0_1","u_0_7",1],["__elem_ec77afbd_0_1","u_0_8",2],["__elem_9f5fac15_0_0","pagelet_bluebar",1],["__elem_45e94dd8_0_0","pagelet_bluebar",2],["__elem_a588f507_0_0","globalContainer",2],["__elem_a588f507_0_2","content",1],["__elem_6c312a4d_0_0","u_0_a",1],["__elem_6c312a4d_0_1","u_0_b",1]],"require":[["LynxWarningLogger","init",["__elem_6c312a4d_0_0","__elem_6c312a4d_0_1"],["3","http:\/\/l.facebook.com\/l.php?u=http\u00253A\u00252F\u00252Fgo.uic.edu\u00252FAloha&h=AT3JD_J1JFPSaBHcT9hn5OnikbeEju0E-muobGGI_QJgzKafkOc2tV4G4oIZJB8F2qeVOp-7MAUzsF7AEZ67SMXmRzumhW7VW1pNSoqg1MeGs1eR1yRrXvORHEN7JEsamnUzDmVBJ-prqH3xxNFHy1vH7MDr2Mz_G7mXHg",{"__m":"__elem_6c312a4d_0_0"},{"__m":"__elem_6c312a4d_0_1"},false]],["WebPixelRatioDetector","startDetecting",[],[false]],["UITinyViewportAction","init",[],[]],["ResetScrollOnUnload","init",["__elem_a588f507_0_0"],[{"__m":"__elem_a588f507_0_0"}]],["AccessibilityWebVirtualCursorClickLogger","init",["__elem_45e94dd8_0_0","__elem_a588f507_0_0"],[[{"__m":"__elem_45e94dd8_0_0"},{"__m":"__elem_a588f507_0_0"}]]],["KeyboardActivityLogger","init",[],[]],["FocusRing","init",[],[]],["BlueBarFixedBehaviorController","init",["__elem_45e94dd8_0_0"],[{"__m":"__elem_45e94dd8_0_0"}]],["HardwareCSS","init",[],[]],["NavigationAssistantController","init",["__elem_3fc3da18_0_0","__elem_51be6cb7_0_0","__inst_5b4d0c00_0_0","__inst_5b4d0c00_0_1","__inst_e5ad243d_0_0","__inst_e5ad243d_0_1"],[{"__m":"__elem_3fc3da18_0_0"},{"__m":"__elem_51be6cb7_0_0"},{"__m":"__inst_5b4d0c00_0_0"},{"__m":"__inst_5b4d0c00_0_1"},null,{"accessibilityPopoverMenu":{"__m":"__inst_e5ad243d_0_0"},"globalPopoverMenu":null,"sectionsPopoverMenu":{"__m":"__inst_e5ad243d_0_1"}}]],["__inst_e5ad243d_0_1"],["__inst_1de146dc_0_0"],["__inst_e5ad243d_0_0"],["__inst_1de146dc_0_1"],["AsyncRequestNectarLogging"],["IntlUtils"],["FBLynx","setupDelegation",[],[]],["Event"],["Animation"],["PageTransitions"],["Bootloader","markComponentsAsImmediate",[],[["BanzaiODS","FbtLogging","BanzaiScuba","Event"]]],["Bootloader","markComponentsAsImmediate",[],[["Animation","PageTransitions"]]],["TimeSliceImpl"],["ServerJSDefine"],["InitialJSLoader"]],"contexts":[[{"__m":"__elem_a588f507_0_1"},true],[{"__m":"__elem_9f5fac15_0_0"},false],[{"__m":"__elem_a588f507_0_2"},true]]});}, "ServerJS define", {"root":true})();</script>
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3iPaC4/yz/l/en_US/NB7R-ajN-_-.js?_nc_x=Ij3Wp8lg5Kz" as="script" />
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3iAbk4/y-/l/en_US/2SzEQd2QF2g.js?_nc_x=Ij3Wp8lg5Kz" as="script" />
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yY/r/eedBaRNf7AL.js?_nc_x=Ij3Wp8lg5Kz" as="script" />
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yj/l/en_US/oZW_yfyf3h2.js?_nc_x=Ij3Wp8lg5Kz" as="script" />
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/ye/l/0,cross/3gCUT_lnH9i.css?_nc_x=Ij3Wp8lg5Kz" as="style" />
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/y4/l/0,cross/jYrc_7mTB4T.css?_nc_x=Ij3Wp8lg5Kz" as="style" />
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3iYgh4/yX/l/en_US/ts3XuPqbJNL.js?_nc_x=Ij3Wp8lg5Kz" as="script" />
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yg/l/0,cross/W0B3yCtG81x.css?_nc_x=Ij3Wp8lg5Kz" as="style" />
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3iFVC4/yt/l/en_US/ZuySeDBiUng.js?_nc_x=Ij3Wp8lg5Kz" as="script" />
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yJ/l/0,cross/H05rZFsqllV.css?_nc_x=Ij3Wp8lg5Kz" as="style" />
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yq/l/0,cross/LuWm0ajI27H.css?_nc_x=Ij3Wp8lg5Kz" as="style" />
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yL/l/0,cross/SrZbmvPv9IN.css?_nc_x=Ij3Wp8lg5Kz" as="style" />
-<script>var bigPipe = new (require("BigPipe"))({"forceFinish":true,"config":{"flush_pagelets_asap":true,"dispatch_pagelet_replayable_actions":false}});</script>
-<script>bigPipe.beforePageletArrive("first_response")</script>
-<script>require("TimeSlice").guard((function(){bigPipe.onPageletArrive({allResources:["zRC0t","iTFbh","A2zm2","jc6Dr","CRYLx","di0Ct","R3U4L","1VK2G","5UjYC","k2rys","Rxqhi","BG/H8","uuvPl","OqS9a","7h9/r","QdjhQ","Y/QGS","8RTjD","Sodjd","fid8v","hofEO","1s8uL","IDsgc","P/mr5","gz7O1","Uy48b","WjCNT"],displayResources:["zRC0t","iTFbh","jc6Dr","CRYLx","di0Ct","R3U4L","k2rys","Rxqhi","Y/QGS","hofEO","1s8uL","IDsgc","P/mr5"],id:"first_response",phase:0,last_in_phase:true,tti_phase:0,all_phases:[63]});}),"onPageletArrive first_response",{"root":true,"pagelet":"first_response"})();</script>
-<script>bigPipe.setPageID("6820652150319482151-0");CavalryLogger.setPageID("6820652150319482151-0");</script><script>bigPipe.beforePageletArrive("last_response")</script>
-<script>require("TimeSlice").guard((function(){bigPipe.onPageletArrive({resource_map:{FEt5G:{type:"js",src:"https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/6KqFq7q8hV0.js?_nc_x=Ij3Wp8lg5Kz",nc:1},FVpix:{type:"js",src:"https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/YWRIV8aavrO.js?_nc_x=Ij3Wp8lg5Kz",nc:1}},allResources:["zRC0t","iTFbh","A2zm2","jc6Dr","CRYLx","di0Ct","R3U4L","1VK2G","5UjYC","k2rys","Rxqhi","BG/H8","uuvPl","OqS9a","7h9/r","QdjhQ","Y/QGS","8RTjD","Sodjd","fid8v","hofEO","1s8uL","IDsgc","P/mr5","gz7O1","Uy48b","WjCNT","FEt5G","3Vv/r","FVpix"],displayResources:["zRC0t","iTFbh","jc6Dr","CRYLx","di0Ct","R3U4L","k2rys","Rxqhi","Y/QGS","hofEO","1s8uL","IDsgc","P/mr5"],onafterload:["CavalryLogger.getInstance(\"6820652150319482151-0\").collectBrowserTiming(window)","window.CavalryLogger&&CavalryLogger.getInstance().setTimeStamp(\"t_paint\");","if (window.ExitTime){CavalryLogger.getInstance(\"6820652150319482151-0\").setValue(\"t_exit\", window.ExitTime);};"],id:"last_response",phase:63,jsmods:{require:[["CavalryLoggerImpl","startInstrumentation",[],[]],["NavigationMetrics","setPage",[],[{page:"XLynxWarningController",page_type:"normal",page_uri:"https://www.facebook.com/flx/warn/?u=http%3A%2F%2Fgo.uic.edu%2FAloha&h=AT2G-tgr1bqp1Dl-tsuqu2bYYqifOI1uDNhrrIyGbQ51ImZ-7oNcbibWUN0FwsSzx6WBPNOhuwaUX_MPGnK8K4axrAo8pvK0dvrqqzY-7jYHFmgb2yyF3DbBTuodHGPUuf6eYQ8lTFOo5eDorg",serverLID:"6820652150319482151-0"}]],["DimensionTracking"],["HighContrastMode","init",[],[{isHCM:false,spacerImage:"https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/-PAXP-deijE.gif"}]],["ClickRefLogger"],["DetectBrokenProxyCache","run",[],[0,"c_user"]],["TimeSliceImpl","setLogging",[],[false,0.01]],["NavigationClickPointHandler"],["WebStorageMonster","schedule",[],[true]],["CookieCore","setWithoutChecksIfFirstPartyContext",[],["_js_datr","_tKnXoY42HOrsrkXcKDcWFw1",63072000000,"/",true]],["WebDevicePerfInfoLogging","doLog",[],[]],["Artillery","disable",[],[]],["ArtilleryOnUntilOffLogging","disable",[],[]],["ArtilleryRequestDataCollection","disable",[],["6820652150319482151-0"]],["ArtilleryRequestDataCollection","init",[],[]],["Bootloader","markComponentsAsImmediate",[],[["VisualCompletionGating"]]]],define:[["cr:1353359",["EventListenerImplForBlue"],{__rc:["EventListenerImplForBlue","Aa0fYLiwy8auGf4xQY8bKbmagCmyCKBFAKnHwNSnf5mGleNGwedyzpy4nDtsLAfTQYOqfhzkAomrDJpJ6nAtUywOU6hwHw"]},-1],["cr:917439",["PageTransitionsBlue"],{__rc:["PageTransitionsBlue","Aa3wbHImU7IDcMSdTUjYt2sDyoi7GhedK8w64ifMMbDb5m-1hOggqBVBAzXEDUZkgMuIxcubhG8e9FYCq-E7HOw"]},-1],["cr:1108857",[],{__rc:[null,"Aa1nFakmDRsfdCfH87k2qjuPsaLjZPFNcWDrdGOS9AE3gI-MEAYQh-gH1-NpxX6Y7WtglnH8A4KoCA"]},-1],["cr:1269707",[],{__rc:[null,"Aa1QImo2wKP8hfCHH4xZDy_Nqr6DrvV9ye6TMMMZSBAb2zuPpDr21SveHBM2Q0j5avMGaedGUpsYmVZDMN0"]},-1],["cr:1269708",[],{__rc:[null,"Aa1QImo2wKP8hfCHH4xZDy_Nqr6DrvV9ye6TMMMZSBAb2zuPpDr21SveHBM2Q0j5avMGaedGUpsYmVZDMN0"]},-1],["cr:1269709",[],{__rc:[null,"Aa1QImo2wKP8hfCHH4xZDy_Nqr6DrvV9ye6TMMMZSBAb2zuPpDr21SveHBM2Q0j5avMGaedGUpsYmVZDMN0"]},-1],["cr:1294158",["React.classic"],{__rc:["React.classic","Aa1cLP-vv_4Eh5f-DIlgPLoL8bajwkDFJfbgHEGuG06rnr-0R2RFy2wZoODttqshrrgL019W54WNbvdv4Tgm9TKo"]},-1],["cr:1294246",["ReactDOM.classic"],{__rc:["ReactDOM.classic","Aa1cLP-vv_4Eh5f-DIlgPLoL8bajwkDFJfbgHEGuG06rnr-0R2RFy2wZoODttqshrrgL019W54WNbvdv4Tgm9TKo"]},-1],["cr:888908",["warningBlue"],{__rc:["warningBlue","Aa3wbHImU7IDcMSdTUjYt2sDyoi7GhedK8w64ifMMbDb5m-1hOggqBVBAzXEDUZkgMuIxcubhG8e9FYCq-E7HOw"]},-1],["cr:971473",["LayerHideOnTransition"],{__rc:["LayerHideOnTransition","Aa3wbHImU7IDcMSdTUjYt2sDyoi7GhedK8w64ifMMbDb5m-1hOggqBVBAzXEDUZkgMuIxcubhG8e9FYCq-E7HOw"]},-1],["cr:1105154",[],{__rc:[null,"Aa1nFakmDRsfdCfH87k2qjuPsaLjZPFNcWDrdGOS9AE3gI-MEAYQh-gH1-NpxX6Y7WtglnH8A4KoCA"]},-1],["PageTransitionsConfig",[],{reloadOnBootloadError:true},1067],["CoreWarningGK",[],{forceWarning:false},725],["cr:1292365",["React-prod.classic"],{__rc:["React-prod.classic","Aa1nFakmDRsfdCfH87k2qjuPsaLjZPFNcWDrdGOS9AE3gI-MEAYQh-gH1-NpxX6Y7WtglnH8A4KoCA"]},-1],["cr:1344485",["ReactDOM.classic.prod-or-profiling"],{__rc:["ReactDOM.classic.prod-or-profiling","Aa1nFakmDRsfdCfH87k2qjuPsaLjZPFNcWDrdGOS9AE3gI-MEAYQh-gH1-NpxX6Y7WtglnH8A4KoCA"]},-1],["cr:983844",[],{__rc:[null,"Aa1nFakmDRsfdCfH87k2qjuPsaLjZPFNcWDrdGOS9AE3gI-MEAYQh-gH1-NpxX6Y7WtglnH8A4KoCA"]},-1],["cr:1344486",["ReactDOM.classic.prod"],{__rc:["ReactDOM.classic.prod","Aa0qnMm_itBqaZKR9pPLawsGvovdsu85dgvNFXG6p0yaK_w_MGGKGCFSfsGJFpIIb_o3PMwWotP7ramOvrDvA_etHq4OlA"]},-1],["cr:1344487",["ReactDOM-prod.classic"],{__rc:["ReactDOM-prod.classic","Aa0PkzPWkICIR-r1yORH0AoOG83o3qjYXaiXcBjBnkGi6yfHY9NQumGVITMW8NAzV430Pr-2hWOinY6uH5f2vKuiKGZ0wRbPzTOt"]},-1],["cr:895840",[],{__rc:[null,"Aa0KA4xcNb5mS6jCtXx3JEA0SzpF6vABsOVIR9ASDcMqmjrzsMYqoYSpqWk2ebPmCsIIJdHV6gUY9LaB1fni_uaz2bA"]},-1],["cr:1292369",["SchedulerTracing-prod.classic"],{__rc:["SchedulerTracing-prod.classic","Aa0qnMm_itBqaZKR9pPLawsGvovdsu85dgvNFXG6p0yaK_w_MGGKGCFSfsGJFpIIb_o3PMwWotP7ramOvrDvA_etHq4OlA"]},-1],["KillabyteProfilerConfig",[],{htmlProfilerModule:null,profilerModule:null,depTypes:{BL:"bl",NON_BL:"non-bl"}},1145],["QuicklingConfig",[],{version:"1002050488;0;",sessionLength:10,inactivePageRegex:"^/(fr/u\\.php|ads/|advertising|ac\\.php|ae\\.php|a\\.php|ajax/emu/(end|f|h)\\.php|badges/|comments\\.php|connect/uiserver\\.php|editalbum\\.php.+add=1|ext/|feeds/|help([/?]|$)|identity_switch\\.php|isconnectivityahumanright/|intern/|login\\.php|logout\\.php|sitetour/homepage_tour\\.php|sorry\\.php|syndication\\.php|webmessenger|/plugins/subscribe|lookback|brandpermissions|gameday|pxlcld|comet|worldcup/map|livemap|work/reseller|([^/]+/)?dialog|legal|.+\\.pdf$|.+/settings/)",badRequestKeys:["nonce","access_token","oauth_token","xs","checkpoint_data","code"],logRefreshOverhead:false},60],["TrackingConfig",[],{domain:"https://pixel.facebook.com"},325],["WebStorageMonsterLoggingURI",[],{uri:"/ajax/webstorage/process_keys/?state=1"},3032],["WebDevicePerfInfoData",[],{needsFullUpdate:true,needsPartialUpdate:false,shouldLogResourcePerf:false},3977],["BrowserPaymentHandlerConfig",[],{enabled:false},3904],["cr:1333160",["UserActivityBlue"],{__rc:["UserActivityBlue","Aa1ZC6bIUD7nCeF46lomX2YsfCMrfVROLkWpKfCIA_G2HsQPTRwARmfcmjj_9QMe6d51MaNIe3Kc2x3i7gCtjYMZ0BNZ9Vxo"]},-1],["cr:1351741",["EventListener"],{__rc:["EventListener","Aa3cbAhwxZH4SbA5MBn1g2ME8tXn7tB6GwGCw8hm5Xre9BXtRdyf3dVxqokoGKXBeoxDxgtwd8e-3bU3Qm71ccVkTDHuXe1XeN1qAgzNWMys1qTd"]},-1]]},last_in_phase:true,the_end:true});}),"onPageletArrive last_response",{"root":true,"pagelet":"last_response"})();</script></body></html>
+<!DOCTYPE html><html lang="en"><head><title>UIC Directory</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width"><style>.interior-page-intro .interior-page-title{ color: rgb(54, 54, 54); font-size: 36px; font-weight: 700; line-height: 1; margin-bottom: 12px; }
+.interior-section-header, .interior-page-intro .interior-page-subtitle{ color: rgb(54, 54, 54); font-size: 24px; font-weight: 400; line-height: 1.2; }
+body{ font-family: Theinhardt, Arial, sans-serif; }
+.body-text, .campus-reminders .reminder-text, .category-link-list .text-cell, .error-help, .text-input, .text-area, .number-input, .tel-input, .email-input, .form-help-text, .highlight .content-cell, .home-lists .home-list-blurb, .interior-page-intro .interior-page-text, .key-message-block .message-cell .text, .landing-page-intro .intro-text, .link-block .text, .link-list .text-cell, .text-block-with-inline-image .intro-row, .text-block-with-inline-image .text-and-image-row, .text-block-with-inline-image .link-list, .text-block-with-large-image .link-list, .topic-block-list .text-cell, .topic-block-list .topic-block-text-cell, .block-wysiwyg { color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1.36; }
+.body-text p, .campus-reminders .reminder-text p, .category-link-list .text-cell p, .error-help p, .text-input p, .text-area p, .number-input p, .tel-input p, .email-input p, .form-help-text p, .highlight .content-cell p, .home-lists .home-list-blurb p, .interior-page-intro .interior-page-text p, .key-message-block .message-cell .text p, .landing-page-intro .intro-text p, .link-block .text p, .link-list .text-cell p, .text-block-with-inline-image .intro-row p, .text-block-with-inline-image .text-and-image-row p, .text-block-with-inline-image .link-list p, .text-block-with-large-image .link-list p, .topic-block-list .text-cell p, .topic-block-list .topic-block-text-cell p, .block-wysiwyg p { margin-bottom: 1em; }
+.footer-list-item{ margin-bottom: 15px; }
+.footer-list-item:last-child{ margin-bottom: 0px; }
+.footer-list-link{ color: rgb(255, 255, 255); font-size: 14px; text-decoration: none; }
+.footer .footer-legal a{ color: rgb(153, 153, 153); text-decoration: none; }
+.footer .footer-legal .pipe-separator{ margin-top: 0em; margin-right: 0.5em; margin-bottom: 0em; margin-left: 0.5em; }
+.footer .footer-legal .campuses{ text-align: right; }
+.social-icons-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; overflow-x: hidden; overflow-y: hidden; }
+@media (min-width){
+.social-icons-list{ margin-top: 30px; }
+}
+.social-icons-list a{ text-decoration: none; }
+.social-icons-list svg{ fill: #ffffff; height: 30px; width: 30px; }
+.social-icons-list li{ border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; display: block; float: left; height: 30px; margin-top: 0px; margin-right: 10px; margin-bottom: 10px; margin-left: 0px; width: 30px; }
+.social-icons-list li:nth-of-type(5n+1){ clear: left; }
+.ms-grid, .ms-row, [class*="col-"]{ box-sizing: border-box; }
+.ms-grid{ display: block; position: relative; width: 100%; margin-left: auto; margin-right: auto; max-width: 1400px; padding-left: 12px; padding-right: 12px; }
+.ms-grid .ms-row{ }
+.ms-grid .ms-row::after, .ms-grid [class*="col-"]::after{ content: ''; display: table; clear: both; }
+[class*="col-"]{ float: left; width: 100%; position: relative; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; }
+@media screen and (min-width: 540px){
+.ms-grid{ padding-left: 24px; padding-right: 24px; }
+}
+@media screen and (min-width: 768px){
+.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
+}
+@media screen and (min-width: 2000px){
+.ms-grid .ms-row{ }
+.ms-grid .ms-row > [class*="col-"]{ }
+}
+@media screen and (min-width: 540px){
+.s-col-1-2{ width: 50%; }
+}
+@media screen and (min-width: 1084px){
+.l-col-1-2{ width: 50%; }
+}
+@media screen and (min-width: 1084px){
+.l-col-1-3{ width: 33.3333333333%; }
+}
+@media screen and (min-width: 768px){
+.m-col-1-4{ width: 25%; }
+.m-col-3-4{ width: 75%; }
+}
+@media screen and (min-width: 1084px){
+.l-col-2-12{ width: 16.6666666667%; }
+.l-col-3-12{ width: 25%; }
+}
+@media screen and (min-width: 1084px){
+.l-col-12-push-4{ left: 33.3333333333%; right: auto; }
+.l-col-12-pull-4{ right: 33.3333333333%; left: auto; }
+}
+*{ border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; box-sizing: border-box; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; }
+img{ vertical-align: bottom; }
+@media (min-width: 768px){
+.main{ margin-top: 40px; }
+}
+.ms-grid{ max-width: 1080px; }
+@media (max-width: 767px){
+.ms-grid{ padding-left: 20px; padding-right: 20px; overflow-x: hidden; overflow-y: hidden; }
+}
+@media (max-width: 1084px) and (min-width: 768px){
+.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
+}
+@media (min-width: 1140px){
+.ms-grid{ padding-left: 0px; padding-right: 0px; }
+}
+.component{ margin-bottom: 80px; }
+.interior-section-header{ font-size: 30px; }
+.subhead{ color: rgb(54, 54, 54); font-size: 18px; font-weight: 700; }
+body{ background-color: rgb(248, 248, 248); }
+.breadcrumbs{ line-height: 14px; margin-bottom: 34px; }
+@media (min-width: 768px){
+.breadcrumbs .red-circle{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(213, 0, 50); border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; display: inline-block; height: 14px; width: 14px; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
+}
+.breadcrumbs .first-breadcrumb-arrow{ display: none; }
+@media (min-width: 768px){
+.breadcrumbs .first-breadcrumb-arrow{ display: inline; }
+}
+.breadcrumbs .crumb-list{ display: inline; list-style-position: inside; list-style-type: none; list-style-image: initial; }
+@media (max-width: 768px){
+.breadcrumbs .crumb-list{ line-height: 1.4; }
+}
+.breadcrumbs .crumb-item{ display: inline-block; }
+.breadcrumbs .crumb-anchor{ color: rgb(54, 54, 54); font-size: 12px; font-weight: 500; text-transform: uppercase; }
+.breadcrumbs .crumb-anchor{ text-decoration: none; }
+ .breadcrumbs .crumb-anchor.active{ color: rgb(213, 0, 50); outline-style: none; outline-width: initial; outline-color: initial; }
+.breadcrumbs img{ display: inline-block; height: 6px; margin-top: 0px; margin-right: 14px; margin-bottom: 0px; margin-left: 14px; width: 6px; vertical-align: middle; }
+.footer .footer-brand{ height: 206px; margin-bottom: 15px; width: 150px; }
+.footer .footer-brand-address{ margin-bottom: 20px; }
+@media (min-width: 1084px){
+.footer .footer-brand-address{ margin-bottom: 0px; min-height: 280px; }
+}
+@media (min-width: 1084px){
+.footer .footer-address{ bottom: 0px; position: absolute; width: 100%; }
+}
+@media (max-width: 1084px){
+.footer .footer-list{ margin-bottom: 30px; }
+.footer .footer-list::after{ content: ''; display: table; clear: both; }
+}
+.footer .footer-button-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; margin-bottom: 12px; }
+@media (max-width: 1084px) and (min-width: 540px){
+.footer .footer-button-list{ padding-right: 20px; }
+}
+.footer .footer-button-item{ margin-bottom: 5px; }
+.footer .footer-button{ color: rgb(255, 255, 255); background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(37, 37, 37); display: block; font-size: 16px; font-weight: 700; line-height: 32px; height: 32px; padding-top: 0px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px; text-decoration: none; background-position: initial initial; background-repeat: initial initial; }
+@media (max-width: 1084px){
+.footer .footer-legal .campuses{ margin-top: 1em; text-align: left; }
+}
+@media (min-width: 1084px){
+.footer .l-col-1-1{ width: 100%; }
+}
+.footer-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; }
+.footer-list-title{ margin-bottom: 15px; }
+.footer-list-title{ color: rgb(255, 255, 255); font-size: 14px; font-weight: 900; text-transform: uppercase; }
+@media (min-width: 1084px){
+.no-flexbox .footer-social-icons-cell{ bottom: -30px; }
+.no-flexbox .footer-address{ bottom: -50px; }
+}
+.header{ position: relative; width: 100%; background-color: rgb(0, 0, 0); }
+.header-menu-bar{ position: relative; }
+.header--blue .header-menu-bar{ background-color: rgb(0, 127, 165); }
+@media (max-width: 1084px){
+.header--blue .navigation-primary .primary-nav-list .primary-list-item{ background-color: rgb(0, 127, 165); }
+}
+.header--blue .navigation-primary .primary-nav-list .expander, .header--blue .navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(0, 102, 132); }
+@media (max-width: 1084px){
+.header--blue .navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); }
+}
+@media (min-width: 1084px){
+.header--blue .navigation-eyebrow{ background-color: rgb(0, 127, 165); }
+}
+.header--blue .navigation-primary:not(.scrolled-after) .primary-nav-list .primary-second-tier-list{ border-top-color: rgb(0, 127, 165); border-right-color: rgb(0, 127, 165); border-bottom-color: rgb(0, 127, 165); border-left-color: rgb(0, 127, 165); }
+.header-background-image-container{ bottom: 0px; left: 0px; overflow-x: hidden; overflow-y: hidden; position: absolute; right: 0px; top: 0px; }
+.header-background-image{ background-size: cover; bottom: -5px; left: -5px; position: absolute; right: -5px; top: -5px; background-position: 50% 50%; background-repeat: no-repeat no-repeat; }
+.interior-page-header{ overflow-x: visible; overflow-y: visible; }
+@media (min-width: 1084px){
+.interior-page-header .header-menu-bar .navigation-primary .circle-logo-container{ margin-left: 0px; opacity: 1; z-index: 2; }
+}
+@media (min-width: 1084px){
+.interior-page-header .header-menu-bar .navigation-primary:not(.scrolled-after) .circle-logo-container{ top: 110px; }
+}
+@media (min-width: 1084px){
+.interior-page-header .header-menu-bar .navigation-eyebrow{ background-color: rgb(0, 127, 165); position: static; }
+}
+.interior-page-header .header-menu-bar .navigation-primary{ background-color: rgb(0, 127, 165); width: 100%; }
+.interior-page-header .header-menu-bar .navigation-primary .menu-toggle{ z-index: 2; }
+@media (min-width: 1084px){
+.interior-page-header .header-menu-bar .navigation-primary{ height: 60px; }
+}
+.interior-page-header .header-background-image{ display: none; }
+.interior-page-intro .interior-page-title{ color: rgb(213, 0, 50); }
+@media (min-width: 540px){
+.interior-page-intro .interior-page-title{ font-size: 48px; }
+}
+.interior-page-intro .interior-page-subtitle{ margin-bottom: 10px; }
+@media (min-width: 540px){
+.interior-page-intro .interior-page-subtitle{ font-size: 30px; }
+}
+.link-block-group .link-block-anchor { margin-top: 40px; }
+@media (min-width: 540px){
+.link-block-group .link-block-anchor { max-width: 50%; }
+}
+.link-block-group .link-block-anchor, .link-block-group .link-block-anchor:hover, .link-block-group .link-block-anchor:visited { color: rgb(54, 54, 54); text-decoration: none; }
+.link-block { padding-top: 1px; position: relative; }
+.link-block::before { background-color: rgb(213, 0, 50); content: ''; height: 1px; left: 0px; position: absolute; top: 1px; width: 100%; }
+.link-block .subhead { margin-top: 15px; margin-right: 0px; margin-bottom: 4px; margin-left: 0px; padding-right: 20px; position: relative; }
+.link-block .subhead .arrow { fill: #001e62; height: 10px; position: absolute; right: 5px; width: 10px; }
+.link-block-anchor:hover, .link-block-anchor:focus { outline-style: none; outline-width: initial; outline-color: initial; }
+.link-block-anchor:hover .link-block::before, .link-block-anchor:focus .link-block::before { height: 3px; }
+.link-block-anchor:hover .arrow, .link-block-anchor:focus .arrow { -webkit-transform: translateX(5px); }
+.link-list .interior-section-header{ margin-bottom: 15px; }
+.navigation-eyebrow{ height: 40px; }
+@media (min-width: 1084px){
+.navigation-eyebrow{ background-color: rgb(0, 127, 165); }
+}
+.navigation-eyebrow .navigation-eyebrow-inner{ margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 1080px; position: relative; }
+.navigation-eyebrow .eyebrow-list{ color: rgb(255, 255, 255); font-size: 14px; font-weight: 400; list-style-type: none; list-style-position: inside; list-style-image: initial; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; padding-top: 0px; padding-right: 20px; padding-bottom: 0px; padding-left: 20px; }
+@media (min-width: 1084px){
+.navigation-eyebrow .eyebrow-list{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 25%; }
+}
+.navigation-eyebrow .eyebrow-list-item{ display: none; line-height: 40px; height: 40px; }
+@media (min-width: 1084px){
+.navigation-eyebrow .eyebrow-list-item{ display: block; float: left; }
+}
+.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor{ overflow-x: hidden; overflow-y: hidden; position: relative; }
+.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
+.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
+.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
+.navigation-eyebrow .eyebrow-button{ }
+.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor{ font-weight: 700; padding-left: 34px; padding-right: 20px; overflow-x: hidden; overflow-y: hidden; position: relative; }
+.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
+.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
+.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
+.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::after{ content: '+'; left: 10px; position: absolute; text-align: center; top: 0px; width: 20px; }
+.navigation-eyebrow .eyebrow-list-anchor{ display: block; outline-style: none; outline-width: initial; outline-color: initial; }
+.navigation-eyebrow .eyebrow-list-anchor{ color: rgb(255, 255, 255); text-decoration: none; }
+.navigation-eyebrow .search-button-item{ display: block; height: 40px; position: absolute; top: 0px; right: 40px; width: 40px; z-index: 1; }
+@media (min-width: 1084px){
+.navigation-eyebrow .search-button-item{ height: 40px; position: relative; top: 0px; right: 0px; width: auto; }
+}
+.navigation-eyebrow .search-button{ background-color: transparent; cursor: pointer; height: 40px; width: 40px; }
+.navigation-eyebrow .search-button .search-glass{ fill: #ffffff; height: 20px; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; width: 20px; }
+.navigation-eyebrow .search-input-container{ position: absolute; top: 0px; height: 40px; right: 42px; -webkit-transform: translateY(-100%); width: 278px; z-index: 3; }
+@media (min-width: 1084px){
+.navigation-eyebrow .search-input-container{ height: 40px; right: 40px; }
+}
+.navigation-eyebrow .search-input-container form{ position: relative; width: 100%; height: 100%; }
+.navigation-eyebrow .search-input-container input[type="text"]{ color: rgb(149, 149, 149); height: 100%; padding-top: 0px; padding-right: 12px; padding-bottom: 0px; padding-left: 12px; font-size: 18px; width: 100%; }
+.navigation-eyebrow .search-input-container .submit-button{ -webkit-appearance: none; position: absolute !important; clip: rect(1px 1px 1px 1px); }
+@media (min-width: 1084px){
+.no-flexbox .eyebrow-list-item{ margin-left: 12px; }
+}
+.navigation-primary{ pointer-events: none; position: absolute; top: 0px; width: 100%; z-index: 2; }
+@media (min-width: 1084px){
+.navigation-primary{ pointer-events: auto; position: relative; }
+}
+.navigation-primary .navigation-primary-inner{ margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 1080px; position: relative; min-height: 40px; }
+.navigation-primary .primary-nav-list{ line-height: 1; list-style-type: none; list-style-position: inside; list-style-image: initial; overflow-x: hidden; overflow-y: hidden; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: absolute; right: 0px; top: 0px; width: 260px; }
+@media (min-width: 1084px){
+.navigation-primary .primary-nav-list{ left: 0px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; overflow-x: visible; overflow-y: visible; padding-top: 0px; padding-right: 0px; padding-left: 25%; position: relative; top: 0px; width: auto; }
+}
+.navigation-primary .primary-nav-list .primary-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(0, 127, 165); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; letter-spacing: 0.06em; position: relative; text-transform: uppercase; width: 100%; background-position: initial initial; background-repeat: initial initial; }
+@media (min-width: 1084px){
+.navigation-primary .primary-nav-list .primary-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; float: left; background-position: initial initial; background-repeat: initial initial; }
+}
+.navigation-primary .primary-nav-list .primary-list-anchor{ display: block; line-height: 1; }
+.navigation-primary .primary-nav-list .primary-list-anchor, .navigation-primary .primary-nav-list .primary-second-tier-list-anchor{ color: inherit; text-decoration: none; }
+.navigation-primary .primary-nav-list .primary-second-tier-list{ display: none; list-style-type: none; list-style-position: inside; list-style-image: initial; }
+.navigation-primary .primary-nav-list .primary-second-tier-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); color: rgb(54, 54, 54); font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 1.25; text-transform: none; background-position: initial initial; background-repeat: initial initial; }
+.navigation-primary .primary-nav-list .primary-second-tier-list-item:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
+.navigation-primary .primary-nav-list .primary-second-tier-list-item .primary-second-tier-list-anchor{ display: block; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; }
+.navigation-primary .primary-nav-list .expander{ display: none; }
+@media (min-width: 1084px){
+.navigation-primary .primary-nav-list .primary-list-item{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: relative; width: auto; }
+.navigation-primary .primary-nav-list .primary-list-item.primary-list-active-item > .primary-list-anchor{ border-bottom-width: 8px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); padding-bottom: 12px; }
+.navigation-primary .primary-nav-list .primary-list-item > .primary-list-anchor{ display: block; outline-style: none; outline-width: initial; outline-color: initial; padding-top: 22px; padding-right: 0px; padding-bottom: 22px; padding-left: 0px; }
+.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor{ overflow-x: hidden; overflow-y: hidden; position: relative; }
+.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
+.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
+.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(255, 255, 255); bottom: 2px; height: 8px; -webkit-transform: translateY(135%); }
+.navigation-primary .primary-nav-list .primary-second-tier-list{ border-right-width: 2px; border-right-style: solid; border-right-color: rgb(0, 127, 165); border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(0, 127, 165); border-left-width: 2px; border-left-style: solid; border-left-color: rgb(0, 127, 165); display: block; opacity: 0; pointer-events: none; position: absolute; left: -2px; top: 60px; width: 260px; }
+.navigation-primary .primary-nav-list .primary-list-item:nth-last-child(1) .primary-second-tier-list, .navigation-primary .primary-nav-list .primary-list-item:nth-last-child(2) .primary-second-tier-list{ left: auto; right: -2px; }
+}
+@media (max-width: 1083px){
+.navigation-primary .primary-nav-list .expander{ background-color: rgb(39, 152, 182); display: block; height: 44px; position: absolute; top: 0px; right: 0px; width: 44px; }
+.navigation-primary .primary-nav-list .expander::before{ color: rgb(255, 255, 255); content: '+'; display: block; line-height: 44px; text-align: center; width: 100%; }
+.navigation-primary .primary-nav-list .primary-list-anchor{ line-height: 24px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 20px; }
+.navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); padding-left: 22px; position: relative; }
+.navigation-primary .primary-nav-list .primary-list-item{ min-height: 44px; -webkit-transform: translateX(260px); }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+0){ }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+1){ }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+2){ }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+3){ }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+4){ }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+5){ }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+6){ }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+7){ }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+8){ }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+9){ }
+}
+@media (max-width: 1083px){
+.navigation-primary .primary-nav-list{ pointer-events: none; }
+}
+.navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(39, 152, 182); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; height: 40px; letter-spacing: 0.06em; line-height: 40px; min-height: 40px; padding-top: 0px; padding-bottom: 0px; padding-left: 20px; position: relative; text-transform: uppercase; -webkit-transform: translateX(260px); width: 100%; }
+@media (min-width: 1084px){
+.navigation-primary .primary-nav-list .menu-label-item{ display: none; }
+}
+.navigation-primary .primary-nav-list .menu-label{ opacity: 0; }
+.navigation-primary .primary-nav-list .menu-toggle{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; display: block; height: 40px; pointer-events: auto; position: absolute; top: 0px; right: 0px; width: 40px; z-index: 1; background-position: initial initial; background-repeat: initial initial; }
+.navigation-primary .primary-nav-list .menu-toggle > span{ position: absolute; }
+.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); height: 2px; margin-left: 9px; position: absolute; top: 20px; width: 24px; background-position: initial initial; background-repeat: initial initial; }
+.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::after, .navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ content: ''; position: absolute; width: 100%; height: 100%; left: 0px; top: 6px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial; }
+.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ top: auto; bottom: 6px; }
+@media (min-width: 1083px){
+.navigation-primary .primary-nav-list .menu-toggle{ display: none; }
+}
+.navigation-primary .circle-logo-container{ height: 40px; left: 0px; opacity: 0; pointer-events: auto; position: absolute; -webkit-transform: translateY(-100px); top: 10px; width: 40px; z-index: 1; }
+@media (max-width: 1120px) and (min-width: 1080px){
+.navigation-primary .circle-logo-container{ left: 20px; }
+}
+.navigation-primary .circle-logo-container span{ -webkit-appearance: none; position: absolute !important; clip: rect(1px 1px 1px 1px); }
+@media (max-width: 1084px){
+.navigation-primary .circle-logo-container{ height: 32px; margin-left: 20px; opacity: 1; -webkit-transform: translateY(4px); top: 0px; width: 32px; }
+}
+.navigation-primary .circle-logo-container .circle-logo path{ fill: #ffffff; }
+.navigation-primary .circle-logo-container a{ color: rgb(255, 255, 255); outline-style: none; outline-width: initial; outline-color: initial; }
+.navigation-primary .circle-logo-container .circle-logo{ -webkit-transform: rotate(-360deg); }
+@media (min-width: 1084px){
+.no-flexbox .primary-list-item{ margin-left: 12px; }
+}
+.no-flexbox .primary-nav-list::after{ content: ''; display: table; clear: both; }
+.navigation-sidebar{ margin-left: -20px; margin-right: -20px; position: relative; }
+@media (min-width: 768px){
+.navigation-sidebar{ margin-left: 0px; margin-right: 0px; }
+}
+.navigation-sidebar .navigation-sidebar-title{ background-color: rgb(255, 255, 255); border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; color: rgb(0, 30, 98); font-size: 16px; font-weight: 900; line-height: 1.5; margin-bottom: 20px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 47px; position: relative; text-transform: uppercase; }
+.navigation-sidebar .navigation-sidebar-title a{ color: rgb(0, 30, 98); text-decoration: none; }
+.navigation-sidebar .navigation-sidebar-title::after{ content: ' Menu'; }
+@media (min-width: 768px){
+.navigation-sidebar .navigation-sidebar-title{ background-color: transparent; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 15px; padding-left: 0px; }
+.navigation-sidebar .navigation-sidebar-title::after{ content: none; }
+}
+.navigation-sidebar .navigation-sidebar-title .chevron{ display: block; height: 12px; left: 20px; position: absolute; width: 12px; }
+.navigation-sidebar .navigation-sidebar-title .chevron .anchor-point{ display: block; fill: #001e62; height: 8px; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto; -webkit-transform: rotate(-90deg); width: 12px; }
+@media (min-width: 768px){
+.navigation-sidebar .navigation-sidebar-title .chevron{ display: none; }
+}
+@media (max-width: 767px){
+.navigation-sidebar .navigation-sidebar-list-container{ overflow-x: hidden; overflow-y: hidden; pointer-events: none; position: absolute; top: 44px; width: 100%; z-index: 1; }
+}
+@media (max-width: 767px){
+.navigation-sidebar .navigation-sidebar-list{ background-color: rgb(255, 255, 255); border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); padding-left: 20px; padding-right: 20px; -webkit-transform: translateY(-100%); }
+}
+.navigation-sidebar .navigation-sidebar-list .anchor-point{ height: 5px; position: absolute; right: 0px; top: 4px; width: 8px; }
+.navigation-sidebar .navigation-sidebar-list .navigation-sidebar-anchor .anchor-point{ top: 21px; }
+.navigation-sidebar .navigation-sidebar-list, .navigation-sidebar .sidebar-second-tier-list, .navigation-sidebar .sidebar-third-tier-list, .navigation-sidebar .sidebar-fourth-tier-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; }
+.navigation-sidebar .navigation-sidebar-anchor, .navigation-sidebar .sidebar-second-tier-anchor, .navigation-sidebar .sidebar-third-tier-anchor, .navigation-sidebar .sidebar-fourth-tier-anchor{ display: block; width: 100%; }
+.navigation-sidebar .navigation-sidebar-item{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); min-height: 50px; }
+.navigation-sidebar .navigation-sidebar-item:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
+@media (min-width: 768px){
+.navigation-sidebar .navigation-sidebar-item:last-child{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); }
+}
+.navigation-sidebar .navigation-sidebar-anchor{ color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1; padding-top: 17px; padding-right: 0px; padding-bottom: 17px; padding-left: 0px; position: relative; text-decoration: none; }
+.navigation-sidebar .sidebar-second-tier-list{ padding-left: 14px; }
+.navigation-sidebar .sidebar-second-tier-item{ font-size: 14px; font-weight: 400; margin-bottom: 16px; }
+.navigation-sidebar .sidebar-second-tier-anchor{ color: rgb(54, 54, 54); position: relative; text-decoration: none; }
+.navigation-sidebar .sidebar-third-tier-list, .navigation-sidebar .sidebar-fourth-tier-list{ padding-top: 14px; padding-left: 14px; }
+.navigation-sidebar .sidebar-third-tier-item, .navigation-sidebar .sidebar-fourth-tier-item{ margin-bottom: 14px; }
+.navigation-sidebar .sidebar-third-tier-anchor, .navigation-sidebar .sidebar-fourth-tier-anchor{ color: rgb(54, 54, 54); position: relative; text-decoration: none; }
+.navigation-sidebar .navigation-sidebar-item.open .navigation-sidebar-anchor, .navigation-sidebar .sidebar-second-tier-item.open .sidebar-second-tier-anchor, .navigation-sidebar .sidebar-third-tier-item.open .sidebar-third-tier-anchor{ font-weight: 700; padding-right: 24px; width: 100%; }
+ .navigation-sidebar .sidebar-fourth-tier-item.active .sidebar-fourth-tier-anchor{ color: rgb(213, 0, 50); font-weight: 700; position: relative; }/* Styles appended to the end of every critical path css stylesheet */
+.navigation-primary .primary-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.navigation-eyebrow .eyebrow-list {
+    display: flex;
+    justify-content: space-between;
+}
+.calls-to-action .call-to-action {
+    align-items: center;
+    display: flex;
+}
+.calls-to-action .reminders-container {
+    display: flex;
+}
+.calls-to-action .reminders-anchor {
+    display: flex;
+}
+ </style></head><body>
+<header class="header interior-page-header header--blue">
+    <div class="header-background-image-container">
+        <div class="header-background-image" aria-hidden="true" style="background-image: url()"></div>
+    </div>
+        <div class="header-menu-bar">
+
+        <nav class="navigation-eyebrow" aria-label="Eyebrow navigation">
+    <div class="navigation-eyebrow-inner">
+        <ul class="eyebrow-list">
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://maps.uic.edu/">Map</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uic.edu/apps/departments-az/search">Directory</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/about/contact-us">Contact Us</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://library.uic.edu/">Library</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uicflames.com/">Athletics</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/life-at-uic/current-students">Current Students</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/life-at-uic/faculty-and-staff">Faculty and Staff</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://hospital.uillinois.edu/">UI Health</a></li>
+                                        <li class="eyebrow-list-item eyebrow-button"><a class="eyebrow-list-anchor" href="/alumni/give">Give</a></li>
+                            <li class="eyebrow-list-item search-button-item">
+                    <button class="search-button" type="button">
+                        <svg class="search-glass" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" aria-labelledby="title"><title id="title">Expand search box</title><path d="M19.7 18.3l-5.9-5.9c1-1.3 1.6-2.9 1.6-4.7C15.4 3.5 12 0 7.7 0S0 3.4 0 7.7c0 4.2 3.4 7.7 7.7 7.7 1.8 0 3.4-.6 4.7-1.6l5.9 5.9c.2.2.4.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4zM2 7.7C2 4.6 4.6 2 7.7 2s5.7 2.6 5.7 5.7-2.5 5.7-5.7 5.7C4.6 13.4 2 10.8 2 7.7z"/></svg>                    </button>
+                </li>
+        </ul>
+        <div class="search-input-container">
+            <form method="get" action="/search" role="search">
+                <input type="text" name="q" class="search-input" placeholder="Search..." disabled tabindex="-1" aria-label="Search">
+                <input type="submit" class="submit-button" name="search" value="Submit">
+            </form>
+        </div>
+    </div>
+</nav>
+
+        <nav class="navigation-primary" aria-label="Primary navigation">
+    <div class="navigation-primary-inner">
+                <div class="circle-logo-container">
+            <a href="/">
+                <svg class="circle-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M36.5 17.3L33.1 19c-.3-1.3-1-2-2.3-2-1.7 0-2.5 1.4-2.5 3.6s.8 3.6 2.5 3.6c1.2 0 1.8-.6 2.2-1.6l3.5 1.3c-.9 2.1-2.8 3.5-5.8 3.5-4.1 0-6.5-2.8-6.5-6.8s2.5-6.8 6.6-6.8c3.2.1 5 1.8 5.7 3.5m-14.1 9.8h-3.9v-13h3.9v13zm-6.3-5.3c0 1.8-.2 2.7-.7 3.6-.9 1.4-3.2 2-5.2 2s-4.3-.6-5.2-2c-.5-.9-.7-1.8-.7-3.6v-7.7h3.9v7.8c0 .9.1 1.5.4 1.8.3.4.8.5 1.5.5s1.2-.2 1.5-.5c.3-.4.4-1 .4-1.8v-7.8h3.9v7.7zM40 20C40 9 31 0 20 0S0 9 0 20s9 20 20 20 20-9 20-20"/></svg>
+<span>University of Illinois at Chicago</span>            </a>
+        </div>
+                            <ul class="primary-nav-list">
+    <button class="menu-toggle" type="button" tabindex="-1">
+        <div class="menu-toggle-icon"></div>
+        <span>Expand menu</span>
+    </button>
+    <div class="menu-label-item"><span class="menu-label">Menu</span></div>
+            <li class="primary-list-item ">
+            <a class="primary-list-anchor" href="/admissions-aid">Admissions &amp; Aid</a>
+                            <ul class="primary-second-tier-list">
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/visit-campus">Visit Campus</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/paying-for-college">Paying for College</a></li>
+                                    </ul>
+                    </li>
+            <li class="primary-list-item ">
+            <a class="primary-list-anchor" href="/academics">Academics</a>
+                            <ul class="primary-second-tier-list">
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/programs-of-study">Programs of Study</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/colleges-schools">Colleges &amp; Schools</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/student-support">Student Support</a></li>
+                                    </ul>
+                    </li>
+            <li class="primary-list-item ">
+            <a class="primary-list-anchor" href="/research">Research</a>
+                            <ul class="primary-second-tier-list">
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-impact">Research Impact</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-strengths">Research Strengths</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/resources-facilities">Resources &amp; Facilities</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/student-research">Student Research</a></li>
+                                    </ul>
+                    </li>
+            <li class="primary-list-item">
+            <a class="primary-list-anchor" href="/life-at-uic">Life at UIC</a>
+                            <ul class="primary-second-tier-list">
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/living-on-around-campus">Living On &amp; Around Campus</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/campus-resources">Campus Resources</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/current-students">Current Students</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/faculty-and-staff">Faculty and Staff</a></li>
+                                    </ul>
+                    </li>
+            <li class="primary-list-item ">
+            <a class="primary-list-anchor" href="/chicago">Chicago</a>
+                            <ul class="primary-second-tier-list">
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/exploring-chicago">Exploring Chicago</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/city-transportation">City Transportation</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/essential-chicago">Essential Chicago</a></li>
+                                    </ul>
+                    </li>
+            <li class="primary-list-item ">
+            <a class="primary-list-anchor" href="/alumni">Alumni</a>
+                            <ul class="primary-second-tier-list">
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/connect">Connect</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/engage">Engage</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/give">Give</a></li>
+                                    </ul>
+                    </li>
+            <li class="primary-list-item ">
+            <a class="primary-list-anchor" href="/about">About</a>
+                            <ul class="primary-second-tier-list">
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/visit-directions">Visit &amp; Directions</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/history">History</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/leadership">Leadership</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/public-media-resources">Public &amp; Media Resources</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/job-opportunities">Job Opportunities</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/contact-us">Contact Us</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/acerca">Acerca de la UIC (en español)</a></li>
+                                    </ul>
+                    </li>
+    </ul>            </div>
+</nav>
+
+</div>
+</header>
+
+<div class="ms-grid main">
+  <div class="ms-row">
+    <div class="m-col-1-4">
+      <nav class="navigation-sidebar" aria-label="Secondary navigation">
+      </nav>
+    </div>
+    <div class="m-col-3-4">
+
+      <nav class="breadcrumbs ms-row">
+        <div class="col-1-1">
+          <div class="red-circle" aria-hidden="true"></div>
+          <img class="first-breadcrumb-arrow" src="/images/breadcrumb-arrow.svg" aria-hidden="true" alt="Breadcrumb arrow">
+          <ul class="crumb-list">
+            <li class="crumb-item">
+                <a class="crumb-anchor active" href="/apps/find-people/search">Directory</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <main class="interior-page-intro">
+        <div class="ms-row">
+          <div class="col-1-1">
+            <h1 class="interior-page-title">Directory search</h1>
+          </div>
+        </div>
+
+<section role="region" class="text-block-with-large-image" aria-label="ACADEMIC AFFAIRS, Vice Chancellor for  Unit Listing">
+<div class="ms-row title-row">
+  <div class="col-1-1">
+    <h2 class="interior-section-header">
+      ACADEMIC AFFAIRS, Vice Chancellor for </a>
+    </h2>
+  </div>
+</div>
+
+<div class="ms-row text-row">
+  <div class="col-1-1 block-wysiwyg">
+
+
+<table>
+
+<tr>
+  <td style="vertical-align: top; font-weight: 400;">
+    <p>
+      Also known as PROVOST   </p>
+<!--
+            Keywords <em>VCAA</em>
+            <br />
+-->
+    <p>
+      Banner Dept: <span style="font-weight: 500;">2-501000</span>
+    </p>
+            2832 UH MC 105 <br />601 S. Morgan St. Chicago IL 60607-7128        </td>
+        <td style="vertical-align: top;">
+            <a href="http://www.provost.uic.edu/">Department Home Page</a>
+            <br />
+            <a href="/apps/departments-az/search?dispatch=roster&amp;style=uic&amp;orgid=99986">Department Roster</a>
+            <br />
+            Fax 312-413-3455            <br />
+        </td>
+    </tr>
+
+    			      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">General Information</span>
+	    <br />
+	    2832 UH MC 105</br> 601 S. Morgan Chicago IL 60607-7128	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 312-413-3450	    <br />
+	    <strong>F</strong> 312-413-3455	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">Provost and Vice Chancellor for Academic Affairs</span>
+	    <br />
+	    Susan Poser	    <br />
+	    2832 UH MC 105</br> 601 S. Morgan Chicago IL 60607-7128	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 312-413-3450	    <br />
+	    <strong>F</strong> 312-413-3455	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#112;&#111;&#115;&#101;&#114;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#115;&#112;&#111;&#115;&#101;&#114;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">Associate Provost and Chief of Staff</span>
+	    <br />
+	    Aisha El-Amin	    <br />
+	    2832 UH MC 103</br>	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 312-413-3450	    <br />
+	    <strong>F</strong> 312-413-3455	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#101;&#108;&#97;&#109;&#105;&#50;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#97;&#101;&#108;&#97;&#109;&#105;&#50;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">Executive Assistant to the Provost</span>
+	    <br />
+	    Kelcie Marie O'Shea	    <br />
+	    2832 UH MC 105</br> 601 S. Morgan Street Chicago IL 60607-7128	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 312-413-3450	    <br />
+	    <strong>F</strong> 312-413-3455	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#103;&#97;&#117;&#101;&#110;&#51;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#107;&#103;&#97;&#117;&#101;&#110;&#51;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">Administrative Assistant</span>
+	    <br />
+	    Erica D Goldman	    <br />
+	    2832 UH MC 105</br>	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 312-413-3450	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#101;&#103;&#111;&#108;&#100;&#109;&#97;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#101;&#103;&#111;&#108;&#100;&#109;&#97;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">Senior Project Manager</span>
+	    <br />
+	    Stacey Valuch	    <br />
+	     1309SH MC 105</br>	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 312-413-3451 X33451	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#118;&#97;&#108;&#117;&#99;&#104;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#115;&#118;&#97;&#108;&#117;&#99;&#104;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+	        	  <tr>
+    <th colspan="2" id="10001" style="font-weight: 400;">
+      Vice Provosts    </th>
+  </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+      <a href="https://www.uic.edu/apps/departments-az/search?dispatch=find&amp;orgid=98527">
+	    <span style="font-weight: 500;">Vice Provost for Academic and Enrollment Services</span>
+	    </a>
+	    <br />
+	    Kevin M Browne	    <br />
+	    2706 UH MC 103</br> 601 S.  Morgan Chicago IL 60607-7128	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 312-413-3471	    <br />
+	    <strong>F</strong> 312-413-2192	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#98;&#114;&#111;&#119;&#110;&#101;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#107;&#98;&#114;&#111;&#119;&#110;&#101;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+      <a href="https://www.uic.edu/apps/departments-az/search?dispatch=find&amp;orgid=98660">
+	    <span style="font-weight: 500;">Vice Provost for Faculty Affairs</span>
+	    </a>
+	    <br />
+	    Nancy Elizabeth Freitag	    <br />
+	    2731 UH MC 103</br> 601 S. Morgan Chicago IL 60607-7128	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 312-413-3470	    <br />
+	    <strong>F</strong> 312-996-0324	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#110;&#102;&#114;&#101;&#105;&#116;&#97;&#103;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#110;&#102;&#114;&#101;&#105;&#116;&#97;&#103;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">Vice Provost for Global Engagement</span>
+	    <br />
+	    Neal R McCrillis	    <br />
+	    2732 UH MC 103</br> 601 S. Morgan Chicago IL 60607-7128	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 312-413-2799	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#110;&#101;&#97;&#108;&#114;&#109;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#110;&#101;&#97;&#108;&#114;&#109;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">Associate Chancellor and Vice Provost for Diversity</span>
+	    <br />
+	    Amalia V Pallares	    <br />
+	    2633  MC 103</br> 601 S. Morgan Street Chicago IL 60607	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 312-355-1308<br /> <strong>T</strong> 312-996-5067	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#109;&#97;&#108;&#105;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#97;&#109;&#97;&#108;&#105;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+      <a href="https://www.uic.edu/apps/departments-az/search?dispatch=find&amp;orgid=99910">
+	    <span style="font-weight: 500;">Associate Chancellor for Budget and Financial Administration</span>
+	    </a>
+	    <br />
+	    Janet Parker	    <br />
+	    2700 UH MC 103</br> 601 S. Morgan Chicago IL 60607-7128	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 312-355-4565	    <br />
+	    <strong>F</strong> 312-413-5126	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#97;&#112;&#97;&#114;&#107;&#101;&#114;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#106;&#97;&#112;&#97;&#114;&#107;&#101;&#114;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+      <a href="https://www.uic.edu/apps/departments-az/search?dispatch=find&amp;orgid=98176">
+	    <span style="font-weight: 500;">Vice Provost for Undergraduate Affairs and Academic Programs</span>
+	    </a>
+	    <br />
+	    Nikos Varelas	    <br />
+	    2700 UH MC 103</br> 601 S. Morgan Chicago IL 60607-7128	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 312-413-9461	    <br />
+	    <strong>F</strong> 312-413-1266	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#118;&#97;&#114;&#101;&#108;&#97;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#118;&#97;&#114;&#101;&#108;&#97;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+	        	  <tr>
+    <th colspan="2" id="10002" style="font-weight: 400;">
+      Department Liaisons    </th>
+  </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">Phonebook Contact Person </span>
+	    <br />
+	    Kelcie Marie O'Shea	    <br />
+	    2832 UH MC 105</br>	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 312-413-3450	    <br />
+	    <strong>F</strong> 312-413-3456	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#103;&#97;&#117;&#101;&#110;&#51;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#107;&#103;&#97;&#117;&#101;&#110;&#51;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">REACH Contact</span>
+	    <br />
+	    Ryan Jacques	    <br />
+	    2625 UH MC 135</br>	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 312-355-0744	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#106;&#97;&#99;&#113;&#117;&#50;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#114;&#106;&#97;&#99;&#113;&#117;&#50;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">REACH Contact</span>
+	    <br />
+	    Frank Fernandez	    <br />
+	    E112 LCE MC 135</br>	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 312-413-3100	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#102;&#102;&#101;&#114;&#110;&#97;&#50;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#102;&#102;&#101;&#114;&#110;&#97;&#50;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">Webmaster</span>
+	    <br />
+	    Debra S Hale	    <br />
+	    2508 UH MC 103</br><br />1330 UH MC 288</br>	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 312-413-3648	    <br />
+	    <strong>F</strong> 312-996-3754<br /> <strong>F</strong> 312-413-2192	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#104;&#97;&#108;&#101;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#100;&#104;&#97;&#108;&#101;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">EcoRep</span>
+	    <br />
+	    Daniel Tapia	    <br />
+	    311K AOB MC 672</br><br />2833 UH MC 102</br>	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 312-996-6174<br /> <strong>T</strong> 312-413-3350	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#97;&#112;&#105;&#97;&#52;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#116;&#97;&#112;&#105;&#97;&#52;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+	        	  <tr>
+    <th colspan="2" id="20000" style="font-weight: 400;">
+      See Also    </th>
+  </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+      <a href="https://www.uic.edu/apps/departments-az/search?dispatch=find&amp;orgid=99944">
+	    <span style="font-weight: 500;">Chancellor, Office of the </span>
+	    </a>
+	    <br />
+	    	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	</td>
+    </tr>
+	    </table>
+
+  </div>
+</div>
+</section>
+
+<div class="ms-grid" style="margin-top: 40px;">
+  <div class="ms-row block-wysiwyg">
+    <div class="m-col-1-3">
+        <form method="get" action="/apps/find-people/search">
+
+<div class="form-element"> 
+	<h2>Individuals</h2>
+</div>
+
+  <div class="form-element">
+    <label>
+      <span class="form-element-label">Last name</span>
+      <input class="text-input" type="text" id="lastname" name="lastname">
+    </label>
+  </div>
+
+  <div class="form-element">
+    <label>
+      <span class="form-element-label">First name</span>
+      <input class="text-input" type="text" id="firstname" name="firstname">
+    </label>
+  </div>
+
+  <div class="form-element">
+    <label>
+      <span class="form-element-label">NetID</span>
+      <input class="text-input" type="text" id="netid" name="netid">
+    </label>
+  </div>
+
+  <div class="form-element">
+    <label>
+      <span class="form-element-label">Department</span>
+      <input class="text-input" type="text" id="department" name="department">
+    </label>
+  </div>
+
+  <button type="submit" class="button">Search</button>
+
+  <p class="form-help-text" style="margin-top: 15px;">
+    <em>
+      <strong>Tip</strong> Typing "Lee" into the Last Name
+      field will retrieve too many entries to print. But, adding
+      "R" to the First Name will narrow the search.
+    </em>
+  </p>
+
+</form>
+
+    </div>
+
+    <div class="m-col-2-3">
+        <form method="get" action="//www.uic.edu/apps/departments-az/search">
+
+<div class="form-element">
+<h2>Departments</h2>
+</div>
+
+  <div class="form-element">
+<span class="form-element-label">Browse</span>
+<p>
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=A">A</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=B">B</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=C">C</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=D">D</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=E">E</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=F">F</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=G">G</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=H">H</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=I">I</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=J">J</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=K">K</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=L">L</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=M">M</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=N">N</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=O">O</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=P">P</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Q">Q</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=R">R</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=S">S</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=T">T</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=U">U</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=V">V</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=W">W</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=X">X</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Y">Y</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Z">Z</a>&nbsp;
+    </p>
+  </div>
+
+  <div class="form-element">
+    <label>
+      <span class="form-element-label">Department</span>
+      <input class="text-input" type="text" id="kwords" name="kwords">
+    </label>
+  </div>
+
+  <input type="hidden" name="dispatch" value="search" />
+  <button type="submit" class="button">Search</button>
+
+  <p class="form-help-text" style="margin-top: 15px;">
+    <em>
+      <strong>Tip</strong>
+      Search for contact information for a specific department
+      or just select Department Search to browse the unit listing.
+    </em>
+  </p>
+</form>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </main>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-content" style="background-image: url(/images/footer.jpg)">
+        <div class="ms-grid">
+            <div class="ms-row">
+                <div class="s-col-1-2 m-col-1-4 l-col-3-12 footer-brand-address">
+                                            <img class="footer-brand" src="/images/footer-brand-mark.svg" alt="The University of Illinois at Chicago" aria-hidden="true">
+                                        <div class="footer-address">
+                        <div><strong>1200 West Harrison St.</strong></div>
+                        <div>Chicago, Illinois 60607</div>
+                        <div>312-996-7000</div>
+                    </div>
+                </div>
+                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-push-4" aria-label="Tools">
+                    <h1 class="footer-list-title">Tools</h1>
+                    <ul class="footer-list">
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://uic.blackboard.com/">
+        Blackboard
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://accc.uic.edu/service/g-suite">
+        GoogleApps@UIC
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://my.uic.edu/common/">
+        my UIC
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://www.hr.uillinois.edu/pay/">
+        My UI Info: Pay
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://outlook.uic.edu">
+        UIC Outlook Online
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://accc.uic.edu/service/uicalendar">
+        UICalendar
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="/about/contact-us">
+        Contact the webmaster
+    </a>
+</li>                                            </ul>
+                </div>
+                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12" aria-label="Resources">
+                    <h1 class="footer-list-title">Resources</h1>
+                    <ul class="footer-list">
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://catalog.uic.edu/ucat/academic-calendar/">
+        Academic Calendar
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="/life-at-uic/current-students">
+        Current Students
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://events.uic.edu">
+        Event Calendar
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="/life-at-uic/faculty-and-staff">
+        Faculty and Staff
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://maps.uic.edu">
+        Maps
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://today.uic.edu/uicnews">
+        UIC Today
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="/about/visit-directions">
+        Visit &amp; Directions
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://clery.uic.edu/">
+        Clery Compliance
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://oae.uic.edu/UnlawfulDiscrimination/index.htm">
+        Nondiscrimination Policy
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://oae.uic.edu/TitleIX/index.htm">
+        Title IX: Sexual Misconduct
+    </a>
+</li>                                            </ul>
+                </div>
+                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-pull-4" aria-label="Quick Links">
+                    <h1 class="footer-list-title">Quick Links</h1>
+                    <ul class="footer-list">
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://www.uicflames.com/">
+        Athletics
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://www.uic.edu/apps/departments-az/search">
+        Directory
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://disabilityresources.uic.edu/">
+        Disability Resources
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://emergency.uic.edu">
+        Emergency Information
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="/about/job-opportunities">
+        Job Opportunities
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://library.uic.edu">
+        Library
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://www.uic.edu/depts/dos/studentveteranaffairs.shtml">
+        Veterans Affairs
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://hospital.uillinois.edu">
+        University of Illinois Hospital &amp; Health Sciences System
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="/about/acerca">
+        Acerca de la UIC (en español)
+    </a>
+</li>                                            </ul>
+                </div>
+                <div class="l-col-3-12">
+                    <div class="ms-row">
+                        <div role="navigation" class="s-col-1-2 l-col-1-1" aria-label="Calls to Action">
+                            <ul class="footer-button-list">
+            <li class="footer-button-item">
+            <a class="footer-button" href="http://admissions.uic.edu/visit-us" role="button">
+                Book a Visit
+            </a>
+        </li>
+            <li class="footer-button-item">
+            <a class="footer-button" href="http://admissions.uic.edu/undergraduate/request-information" role="button">
+                Request Info
+            </a>
+        </li>
+            <li class="footer-button-item">
+            <a class="footer-button" href="http://admissions.uic.edu/apply-now" role="button">
+                Apply Now
+            </a>
+        </li>
+            <li class="footer-button-item">
+            <a class="footer-button" href="/alumni/give" role="button">
+                Give
+            </a>
+        </li>
+            <li class="footer-button-item">
+            <a class="footer-button" href="http://uicalumni.org/" role="button">
+                Join Alumni Association
+            </a>
+        </li>
+            <li class="footer-button-item">
+            <a class="footer-button" href="/about/contact-us" role="button">
+                Contact Us
+            </a>
+        </li>
+    </ul>                        </div>
+                        <div class="s-col-1-2 l-col-1-1 footer-social-icons-cell">
+                            <ul class="social-icons-list">
+            <li>
+            <a href="https://www.facebook.com/uic.edu">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>            </a>
+        </li>
+                <li>
+            <a href="https://twitter.com/thisisuic">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>            </a>
+        </li>
+                <li>
+            <a href="https://instagram.com/uicamiridis/">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>            </a>
+        </li>
+                    <li>
+            <a href="https://www.youtube.com/user/thisisUIC">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>            </a>
+        </li>
+                    <li>
+            <a href="http://uicscience.tumblr.com/">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Tumblr</title><path d="M15.1 24.2c2.8.7 5.6-.9 5.6-.9v-3c-.8.9-2.6 1.1-3.9.7-1.2-.3-1.1-2-1.1-2v-5.7h4.4v-3h-4.4V5.6H13c-.3 5.1-3.8 5-3.8 5v2.7h2v6.8c.1 2.2 1.1 3.4 3.9 4.1z"/></svg>            </a>
+        </li>
+                        <li>
+            <a href="https://news.uic.edu/social-media-directory">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>More links</title><path d="M15 5C9.5 5 5 9.5 5 15s4.5 10 10 10 10-4.5 10-10S20.5 5 15 5zm4.7 11H16v3.7h-2V16h-3.7v-2H14v-3.7h2V14h3.7v2z"/></svg>            </a>
+        </li>
+    </ul>                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-legal">
+        <div class="ms-grid">
+            <div class="ms-row">
+                <div class="l-col-1-2">
+                    &copy; 2016 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span> <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a>
+                </div>
+                <div class="l-col-1-2 campuses">
+                                            <a href="http://www.uillinois.edu/">University of Illinois</a> <span class="pipe-separator">|</span>
+                                            <a href="http://www.illinois.edu/">Urbana-Champaign</a> <span class="pipe-separator">|</span>
+                                            <a href="http://www.uis.edu/">Springfield</a> 
+                                    </div>
+            </div>
+        </div>
+    </div>
+  <a href="https://plus.google.com/+UicEdu" rel="publisher" hidden>UIC on Google+</a>
+</footer>
+
+<link rel="stylesheet" href="/css/main.min.css" media="all"><script src="/js/concat/main.min.js"></script><script src="//www.uic.edu/inc/emergency/alert.js"></script></body></html>

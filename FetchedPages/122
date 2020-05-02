@@ -1,1482 +1,2995 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
+
   
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
-<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
-<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js" lang="en-US"> <!--<![endif]-->
 
-    <head>
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
 
-<!-- Google Analytics script (RED and this site) -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <meta name="author" content="Brent Stephens">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Assistant Professor">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/~brents/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/~brents/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
-        ga('create', 'UA-20665772-1', 'auto');
     
-        ga('create', 'UA-102819527-13', 'auto', 'csTracker');
     
-        ga('send', 'pageview');
-    
-        ga('csTracker.send', 'pageview');
-      </script>
-<!-- End Google Analytics script (RED and this site) -->
-
-
-
-<!-- Google Tag Manager script for RED multisite -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
-              (window,document,'script','dataLayer','GTM-W2Q8D2K');
-  </script>
-<!-- End Google Tag Manager script for RED multisite -->
-
-
-
-
-
-
-        <title>
-                            UIC’s PoliThinkers claim victory at BuiltWorlds Hackathon | Department of Computer Science | University of Illinois at Chicago
-                    </title>
-
-
-
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="pingback" href="https://cs.uic.edu/xmlrpc.php" />
-
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60.png" />
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png" />
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76.png" />
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
-<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
-<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
-<link rel="icon" type="image/png" href="/favicon-128.png" sizes="128x128" />
-<meta name="application-name" content="&nbsp;"/>
-<meta name="msapplication-TileColor" content="#FFFFFF" />
-<meta name="msapplication-TileImage" content="mstile-144x144.png" />
-<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
-<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
-<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
-<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
-
-    <link rel="stylesheet" href="https://cs.uic.edu/wp-content/themes/uic-red/main.css?v=1587475706" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://cs.uic.edu/wp-content/themes/uic-red/theinhardt.css?v=1587475706" type="text/css" media="all">
-
-    <link rel='dns-prefetch' href='//www.uic.edu' />
-<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
-<link rel='dns-prefetch' href='//s.w.org' />
-		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cs.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6"}};
-			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='https://cs.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6' type='text/css' media='all' />
-<link rel='stylesheet' id='sb_instagram_styles-css'  href='https://cs.uic.edu/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.12.1' type='text/css' media='all' />
-<link rel='stylesheet' id='sb-font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='tablepress-default-css'  href='https://cs.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
-<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
-<link rel='https://api.w.org/' href='https://cs.uic.edu/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cs.uic.edu/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cs.uic.edu/wp-includes/wlwmanifest.xml" /> 
-
-<script type="text/javascript">
-(function(url){
-	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
-	var addEvent = function(evt, handler) {
-		if (window.addEventListener) {
-			document.addEventListener(evt, handler, false);
-		} else if (window.attachEvent) {
-			document.attachEvent('on' + evt, handler);
-		}
-	};
-	var removeEvent = function(evt, handler) {
-		if (window.removeEventListener) {
-			document.removeEventListener(evt, handler, false);
-		} else if (window.detachEvent) {
-			document.detachEvent('on' + evt, handler);
-		}
-	};
-	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
-	var logHuman = function() {
-		if (window.wfLogHumanRan) { return; }
-		window.wfLogHumanRan = true;
-		var wfscr = document.createElement('script');
-		wfscr.type = 'text/javascript';
-		wfscr.async = true;
-		wfscr.src = url + '&r=' + Math.random();
-		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
-		for (var i = 0; i < evts.length; i++) {
-			removeEvent(evts[i], logHuman);
-		}
-	};
-	for (var i = 0; i < evts.length; i++) {
-		addEvent(evts[i], logHuman);
-	}
-})('//cs.uic.edu/?wordfence_lh=1&hid=C7A69FF32033D71C5CC311B545CA461B');
-</script>
-</head>
       
-  <body>
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
 
-<!-- Google Tag Manager for RED multisite (noscript) -->
-<noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2Q8D2K" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager for RED multisite (noscript) -->
+    
 
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/~brents/css/academic.css">
+
+  
 
 
 
 
   
-  
 
-  <div class="l-page news-template-default single single-news postid-1295 post-type--news  site-type-b theme--navy no-sidebar  ">
-
-
-    <!--[if lte IE 9]>
-<div class="browser-stripe u-dark-region">
-  <div class="l-full">
-      <h2>Your browser is unsupported</h2>
-      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
-  </div>
-</div>
-<![endif]-->
-<div class="browser-stripe u-dark-region ie10">
-  <div class="l-full">
-      <h2>Your browser is unsupported</h2>
-      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
-  </div>
-</div>
-    
-<header class="l-header" role="banner">
 
   
-  <div class="header-navigation">
+  <link rel="alternate" href="/~brents/index.xml" type="application/rss+xml" title="Brent Stephens">
+  
 
-      <div id="skip" class="skip-menu assistive-text">
-  <p>
-    <span class="_main">
-    <a href="#article">Skip to the content of this page</a>,
-    </span>
-    <a class="_primary-menu" href="#menu-main">the main menu</a>,
+  <link rel="manifest" href="/~brents/index.webmanifest">
+  <link rel="icon" type="image/png" href="/~brents/images/icon_hub70d7486d9fe474597ea85f84c9c7493_6730_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/~brents/images/icon_hub70d7486d9fe474597ea85f84c9c7493_6730_192x192_fill_lanczos_center_2.png">
 
+  <link rel="canonical" href="/~brents/">
+
+  
+  
+  
+  
+  
     
-    
-    <a class="_search" href="#search">the site search form</a>,
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Brent Stephens">
+  <meta property="og:url" content="/~brents/">
+  <meta property="og:title" content="Brent Stephens">
+  <meta property="og:description" content="Assistant Professor"><meta property="og:image" content="/~brents/img/brent.jpg">
+  <meta property="twitter:image" content="/~brents/img/brent.jpg"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2019-08-17T00:00:01-05:00">
+  
 
-    <a class="_home" href="https://cs.uic.edu">the site home page</a>.
-  </p>
-</div>
+  
 
-      <div class="eyebrow-mobile-wrapper js-eyebrow-mobile">
-<div class="eyebrow-mobile">
-            <div class="eyebrow-mobile-logo eyebrow-logo">
-            <a href="http://uic.edu" class="uic-logo-icon eyebrow-mobile-logo__uic-logo">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
-    </div>
-                <div class="site-title-eyebrow-mobile">
-          <a href="https://cs.uic.edu">Department of Computer Science</a>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "/~brents/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "/~brents/"
+}
+</script>
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Brent Stephens</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
         </div>
-    
-    <button aria-label="Search the site" class="search-toggle-mobile js-search-toggle-mobile">
-  <span class="icon-search ">
-        <span class="assistive-text">Search the site</span>
-      </span>
-    </button>
-    <button class="nav-header-toggle js-nav-header-toggle">
-      <span class="icon-menu ">
-      Toggle Menu
-      </span>
-    </button>
-  </div>
-  <div class="search-input-container-mobile">
-    <div class="search-input-container-mobile__content">
-      <div class="search-title">
-        Search
-        <a class="search-close search-toggle-mobile">
-          <svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22">
-            <use xlink:href="https://cs.uic.edu/wp-content/themes/uic-red/images/svgs/svgs.svg#icon-close"></use>
-          </svg>
-        </a>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
       </div>
-      <form method="get" action="/search" role="search" aria-label="Search this site on your mobile device">
-        <input type="text" name="q" class="search-input-mobile" placeholder="Search..." tabindex="-1" aria-label="Search this site on your mobile device" disabled="">
-        <input type="submit" class="submit-button" name="search" value="Submit">
-      </form>
-    </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
   </div>
-</div>
+</aside>
 
-    <div class="header-navigation__eyebrow">
-
-                    <div class="header-navigation-logo header-logo">
-                        <a href="http://uic.edu" class="uic-logo-icon header-navigation-logo__uic-logo">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
-            </div>
-                <div class="header-navigation__eyebrow-menus">
-
-            <div class="header-navigation__logo-and-site-title">
-
-                                <div class="site-title-main ">
-                                      <a href="https://cs.uic.edu">Department of Computer Science</a>
-                                    </div>
-              
-            </div>
-          <nav class="header-menus js-header-menus " aria-label="Primary" role="navigation">
-
-  <div class="site-title-mobile-menu">
-    <a href="https://cs.uic.edu">Department of Computer Science</a>
-  </div>
 
   
-  <h2 class="assistive-text">Main Menu</h2>
-  <ul id="menu-main" class="menu menu-main" aria-label="Main Menu">
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-484 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/undergraduate/"
-        target="_self">
 
-        Undergraduate
-      </a>
 
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Undergraduate menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Undergraduate menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
 
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-617">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/admitted-students/"
-                  target="_self">
 
-                  Admitted Students
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1466">
-                <a 
-                  class="menu-main__second-link"
-                  href="http://engineering.uic.edu/undergraduate-admissions/"
-                  target="_blank">
 
-                  Admissions
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2773">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/abet-accreditation/"
-                  target="_self">
 
-                  Accreditation
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-471">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/cs-major/"
-                  target="_self">
 
-                  CS Major
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1308">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/cs-minor/"
-                  target="_self">
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
 
-                  CS Minor
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1490">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/undergrad-courses/"
-                  target="_self">
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/~brents/">Brent Stephens</a>
+    </div>
+    
 
-                  Courses
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3193">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/internships-and-jobs/"
-                  target="_self">
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
 
-                  Internships and Jobs
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1393">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/student-organizations/"
-                  target="_self">
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/~brents/">Brent Stephens</a>
+    </div>
+    
 
-                  Student Groups
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-480">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/student-profiles/"
-                  target="_self">
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
-                  Student Profiles
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-481">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/student-resources/"
-                  target="_self">
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
 
-                  Student Resources
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3580">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/women/"
-                  target="_self">
+        
 
-                  Women in CS
-                </a>
-              </li>
-                      </ul>
+        
+        
+        
+          
+        
 
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1313 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/graduate/"
-        target="_self">
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
 
-        Graduate
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Graduate menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Graduate menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-470">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/admitted-students/"
-                  target="_self">
-
-                  Admitted Students
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-469 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/admissions/"
-                  target="_self">
-
-                  Admissions
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1578">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/graduate-courses/"
-                  target="_self">
-
-                  Courses
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-472 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/ms-program/"
-                  target="_self">
-
-                  MS Program
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-521 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/phd/"
-                  target="_self">
-
-                  PhD Program
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-538">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/cs-dissertations/"
-                  target="_self">
-
-                  PhD Dissertations
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1012">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/post-grad-outcomes/"
-                  target="_self">
-
-                  Post-Graduation Outcomes
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-479">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/student-profiles/"
-                  target="_self">
-
-                  Student Profiles
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1323">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/graduate-student-resources/"
-                  target="_self">
-
-                  Student Resources
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-478 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/cs-research/"
-        target="_self">
-
-        Research
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Research menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Research menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-559">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-research/research-areas-2/"
-                  target="_self">
-
-                  Research Areas
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-557">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-research/labs/"
-                  target="_self">
-
-                  Labs
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-556">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-research/lectures-seminars/"
-                  target="_self">
-
-                  Lectures and Seminars
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2045">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-research/reus/"
-                  target="_self">
-
-                  Research Experiences for Undergraduates
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-467 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/faculty-staff/"
-        target="_self">
-
-        Faculty and Staff
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Faculty and Staff menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Faculty and Staff menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-568">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/department-head/"
-                  target="_self">
-
-                  Department Head
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-453">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/faculty/"
-                  target="_self">
-
-                  Faculty
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-451">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/emeritus-faculty/"
-                  target="_self">
-
-                  Emeritus Faculty
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2075">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/adjunct-faculty/"
-                  target="_self">
-
-                  Adjunct Faculty
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-450">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/staff/"
-                  target="_self">
-
-                  Staff
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1347">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/faculty-resources/"
-                  target="_self">
-
-                  Faculty Resources
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1346">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/open-positions/"
-                  target="_self">
-
-                  Open Positions
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-567 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/cs-news/"
-        target="_self">
-
-        News
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand News menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand News menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2526">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-news/all-news/"
-                  target="_self">
-
-                  News Stories
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2527">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-news/press-mentions/"
-                  target="_self">
-
-                  Press Mentions
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1351 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/cs-events/"
-        target="_self">
-
-        Events
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Events menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Events menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2923">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-events/calendar/"
-                  target="_self">
-
-                  CS calendar
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2567">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-events/student-opportunities/"
-                  target="_self">
-
-                  Student Opportunities
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-  </ul>
-
-  <div class="l-eyebrow">
-
-    <h2 class="assistive-text">Eyebrow menu</h2>
-    <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
-            <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-            <a  href="/undergraduate/women/" target="_self">Break Through Tech</a>
+        <li class="nav-item">
+          <a class="nav-link " href="/~brents/#about" data-target="#about"><span>Home</span></a>
         </li>
-            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1940">
-            <a  href="https://engineering.uic.edu/support/" target="_blank">Giving</a>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~brents/#publications" data-target="#publications"><span>Publications</span></a>
         </li>
-            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1939">
-            <a  href="http://engineeringalumni.uic.edu" target="_blank">Alumni</a>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~brents/#teaching" data-target="#teaching"><span>Teaching</span></a>
         </li>
-            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-569">
-            <a  href="http://engineering.uic.edu" target="_blank">UIC Engineering Home</a>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~brents/#students" data-target="#students"><span>Students</span></a>
         </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~brents/#contact" data-target="#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+      
+
     </ul>
 
-    <h2 class="assistive-text">UIC menu</h2>
-    <ul class="menu-uic">
-      <li class="_item">
-    <a href="http://uic.edu">UIC.edu</a>
-  </li>
-  <li class="_item">
-    <a href="http://maps.uic.edu/">Campus Map</a>
-  </li>
+  </div>
+</nav>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<span class="js-widget-page d-none"></span>
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="about" class="home-section wg-about   "  >
+    <div class="container">
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="portrait" src="/~brents/authors/admin/avatar_hubd69b7e74c51c5f45490d5fe7a2a2e7e_704577_350x350_fill_q90_lanczos_center.jpg" alt="Avatar">
+      
+
+      <div class="portrait-title">
+        <h2>Brent Stephens</h2>
+        <h3>Assistant Professor</h3>
+
+        
+        <h3>
+          <a href="https://uic.edu/" target="_blank" rel="noopener">
+          <span>University of Illinois at Chicago</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="/~brents/#contact" >
+            <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://scholar.google.com/citations?user=REpY8JMAAAAJ" target="_blank" rel="noopener">
+            <i class="ai ai-google-scholar big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://github.com/bestephe" target="_blank" rel="noopener">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="/~brents/docs/brents-cv.pdf" >
+            <i class="ai ai-cv big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+    <h1>Biography</h1>
+
+    <p>I am an assistant professor at the University
+of Illinois at Chicago.  Broadly speaking, I am interested in most
+aspects of data center networking.  I am especially interested in the
+intersection of network systems, operating systems, and computer
+architecture.</p>
+<p>In addition to my interests in computer science, I enjoy participating
+in many hobbies, including music, kaizo Mario, biking, boarding, and
+brewing.  I enjoy many types of biking, from commuting on a road bike to
+riding dirt jumps on a BMX.</p>
+
+
+    <div class="row">
+
+      
+      <div class="col-md-5">
+        <h3>Interests</h3>
+        <ul class="ul-interests">
+          
+          <li>Networking</li>
+          
+          <li>Operating Systems</li>
+          
+          <li>Data Center Applications</li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-md-7">
+        <h3>Education</h3>
+        <ul class="ul-edu fa-ul">
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Postdoctoral Researcher, 2015-2018</p>
+              <p class="institution">UW-Madison</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">PhD, Computer Science, 2015</p>
+              <p class="institution">Rice University</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">MS, Computer Science, 2012</p>
+              <p class="institution">Rice University</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">BS, Electrical Engineering, 2009</p>
+              <p class="institution">Rice University</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="accomplishments" class="home-section wg-accomplishments   "  >
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent Highlights</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">NSF CAREER: NIC-Accelerated Active Messaging as a Generic Replacement and Awards for RDMA</h4><div class="card-subtitle my-0 article-metadata">NSF<span class="middot-divider"></span>
+
+            
+              2020
+              
+            
+          </div>
+
+          
+            <div class="card-text">This proposal aims to fundamentally rethink the
+design of server-side networking and develop new networking
+abstractions for Network Interface Card (NIC) accelerated messaging.</div>
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">NSF CRII: NeTS: Rethinking Flow Control for Cloud Data Center Networks</h4><div class="card-subtitle my-0 article-metadata">NSF<span class="middot-divider"></span>
+
+            
+              2019
+              
+            
+          </div>
+
+          
+            <div class="card-text">This proposal makes the case for fundamentally
+rethinking how queuing and flow control are performed in both physical
+and virtual switches.</div>
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><a href="https://research.google/outreach/faculty-research-awards/recipients/" target="_blank" rel="noopener"><h4 class="card-title exp-title text-muted my-0">Google Faculty Research Award</h4></a><div class="card-subtitle my-0 article-metadata">Google<span class="middot-divider"></span>
+
+            
+              2018
+              
+            
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+    
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="interests" class="home-section wg-blank   "  >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-12 col-lg-4 section-heading">
+      
+      
+    </div>
+    <div class="col-12 col-lg-8">
+      <h1 id="research-interests">Research Interests</h1>
+<p>I am looking for motivated and passionate students.  If you are
+interested in working with me, please feel free to reach out and start a
+conversation with me.  My interests in computer science are broad, and I
+am willing to entertain any compelling projects.  However, I am
+currently particularly interested in the following research areas:</p>
+<ul>
+<li>
+<p>Designing new switch programs that fundamentally rethink flow control,
+e.g., how switch should drop packets, and how switches should avoid
+dropping packets.</p>
+</li>
+<li>
+<p>New architectures for reconfigurable match table (RMT) switches and
+NICs.</p>
+</li>
+<li>
+<p>Explicitly co-scheduling network and CPU resources so as to maximize
+high-level application and infrastructure objectives.</p>
+</li>
+<li>
+<p>Integrating programmable NICs and switches into the OS and network
+core by developing new protocols and offloads that treat the servers
+and network in a cluster as a single heterogeneous processor.</p>
+</li>
+<li>
+<p>New abstractions and frameworks for developing microservices and
+function chains.</p>
+</li>
+</ul>
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="featured" class="home-section wg-featured   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Selected Publications</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/~brents/authors/brent-stephens/">Brent Stephens</a></span>, <span><a href="/~brents/authors/aditya-akella/">Aditya Akella</a></span>, <span>Michael M. Swift</span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    February 2019
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      NSDI
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/~brents/publication/conference-paper/loom.nsdi19/">Loom: Flexible and Efficient NIC Packet Scheduling</a>
+  </h3>
+
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/docs/loom.nsdi19.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/talks/loom.nsdi19.pptx" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/~brents/authors/brent-stephens/">Brent Stephens</a></span>, <span><a href="/~brents/authors/aditya-akella/">Aditya Akella</a></span>, <span>Michael M. Swift</span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    November 2018
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      HotNets
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/~brents/publication/panic_hotnets18/">
+      <img src="/~brents/publication/panic_hotnets18/featured_huf491fcc9ad4c1ddcd7a78f61032c3763_10706_918x517_fill_q90_lanczos_smart1.jpg" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/~brents/publication/panic_hotnets18/">Your Programmable NIC Should be a Programmable Switch</a>
+  </h3>
+
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/docs/panic.hotnets18.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/talks/panic.hotnets18.pptx" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="publications" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Publications</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    <div class="alert alert-note">
+  <div>
+    <strong>See <a href="/~brents/publication/">here</a> or <a href="https://scholar.google.com/citations?user=REpY8JMAAAAJ">Google
+Scholar</a> for a
+full publication list</strong>
+  </div>
+</div>
+
+
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+
+  
+  <span><a href="/~brents/authors/yanfang-le/">Yanfang Le</a></span>, <span><a href="/~brents/authors/mojtaba-malekpourshahraki/">Mojtaba Malekpourshahraki</a></span>, <span><a href="/~brents/authors/brent-stephens/">Brent Stephens</a></span>, <span><a href="/~brents/authors/aditya-akella/">Aditya Akella</a></span>, <span>Michael M. Swift</span>
+
+  </span>.
+  <a href="/~brents/publication/conference-paper/rdma_study.apnet19/">On the Impact of Cluster Configuration on RoCE Application Design</a>.
+  APNet,
+  2019.
+  
+  <strong>Best Paper Award!</strong>
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/docs/rdma_study.apnet19.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/talks/rdma_study.apnet19.pptx" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+</p>
+
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+
+  
+  <span><a href="/~brents/authors/mojtaba-malekpourshahraki/">Mojtaba Malekpourshahraki</a></span>, <span><a href="/~brents/authors/brent-stephens/">Brent Stephens</a></span>, <span><a href="/~brents/authors/balajee-vamanan/">Balajee Vamanan</a></span>
+
+  </span>.
+  <a href="/~brents/publication/conference-paper/ether.apnet19/">Ether: Providing both Interactive Service and Fairness in Multi-Tenant Datacenters</a>.
+  APNet,
+  2019.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/docs/ether.apnet19.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/talks/ether.apnet19.pptx" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+</p>
+
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+
+  
+  <span><a href="/~brents/authors/brent-stephens/">Brent Stephens</a></span>, <span><a href="/~brents/authors/aditya-akella/">Aditya Akella</a></span>, <span>Michael M. Swift</span>
+
+  </span>.
+  <a href="/~brents/publication/conference-paper/loom.nsdi19/">Loom: Flexible and Efficient NIC Packet Scheduling</a>.
+  NSDI,
+  2019.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/docs/loom.nsdi19.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/talks/loom.nsdi19.pptx" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+</p>
+
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+
+  
+  <span><a href="/~brents/authors/brent-stephens/">Brent Stephens</a></span>, <span><a href="/~brents/authors/aditya-akella/">Aditya Akella</a></span>, <span>Michael M. Swift</span>
+
+  </span>.
+  <a href="/~brents/publication/panic_hotnets18/">Your Programmable NIC Should be a Programmable Switch</a>.
+  HotNets,
+  2018.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/docs/panic.hotnets18.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/talks/panic.hotnets18.pptx" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+</p>
+
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+
+  
+  <span><a href="/~brents/authors/yanfang-le/">Yanfang Le</a></span>, <span><a href="/~brents/authors/brent-stephens/">Brent Stephens</a></span>, <span><a href="/~brents/authors/arjun-singhvi/">Arjun Singhvi</a></span>, <span><a href="/~brents/authors/aditya-akella/">Aditya Akella</a></span>, <span>Michael M. Swift</span>
+
+  </span>.
+  <a href="/~brents/publication/conference-paper/rogue.socc18/">RoGUE: RDMA over Generic Unconverged Ethernet</a>.
+  SoCC,
+  2018.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/docs/rogue.socc18.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+
+  
+  <span><a href="/~brents/authors/keqiang-he/">Keqiang He</a></span>, <span><a href="/~brents/authors/weite-qin/">Weite Qin</a></span>, <span><a href="/~brents/authors/qiwei-zhang/">Qiwei Zhang</a></span>, <span><a href="/~brents/authors/wenfei-wu/">Wenfei Wu</a></span>, <span><a href="/~brents/authors/junjie-yang/">Junjie Yang</a></span>, <span><a href="/~brents/authors/tian-pan/">Tian Pan</a></span>, <span><a href="/~brents/authors/chengchen-hu/">Chengchen Hu</a></span>, <span><a href="/~brents/authors/jiao-zhang/">Jiao Zhang</a></span>, <span><a href="/~brents/authors/brent-stephens/">Brent Stephens</a></span>, <span><a href="/~brents/authors/aditya-akella/">Aditya Akella</a></span>, <span><a href="/~brents/authors/ying-zhang/">Ying Zhang</a></span>
+
+  </span>.
+  <a href="/~brents/publication/conference-paper/dem.apnet17/">Low Latency Software Rate Limiters for Cloud Networks</a>.
+  APNET,
+  2017.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/docs/dem.apnet17.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+
+  
+  <span><a href="/~brents/authors/brent-stephens/">Brent Stephens</a></span>, <span><a href="/~brents/authors/arjun-singhvi/">Arjun Singhvi</a></span>, <span><a href="/~brents/authors/aditya-akella/">Aditya Akella</a></span>, <span><a href="/~brents/authors/michael-swift/">Michael Swift</a></span>
+
+  </span>.
+  <a href="/~brents/publication/conference-paper/titan.atc17/">Titan: Fair Packet Scheduling for Commodity Multiqueue NICs</a>.
+  Usenix ATC,
+  2017.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/docs/titan.atc17.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+
+  
+  <span><a href="/~brents/authors/brent-stephens/">Brent Stephens</a></span>, <span>Alan L. Cox</span>
+
+  </span>.
+  <a href="/~brents/publication/conference-paper/edst.infocom16/">Deadlock-Free Local Fast Failover for Arbitrary Data Center Networks</a>.
+  Infocom,
+  2016.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/docs/edst.infocom16.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+
+  
+  <span><a href="/~brents/authors/brent-stephens/">Brent Stephens</a></span>, <span>Alan L. Cox</span>, <span><a href="/~brents/authors/scott-rixner/">Scott Rixner</a></span>
+
+  </span>.
+  <a href="/~brents/publication/conference-paper/plinko.sosr16/">Scalable Multi-Failure Fast Failover via Forwarding Table Compression</a>.
+  SOSR,
+  2016.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/docs/plinko.sosr16.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+
+  
+  <span><a href="/~brents/authors/brent-stephens/">Brent Stephens</a></span>
+
+  </span>.
+  <a href="/~brents/publication/conference-paper/phd_thesis/">Handling Congestion and Routing Failures in Data Center Networking</a>.
+  PhD Thesis,
+  2015.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/docs/thesis.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+
+  
+  <span><a href="/~brents/authors/jeff-rasley/">Jeff Rasley</a></span>, <span><a href="/~brents/authors/brent-stephens/">Brent Stephens</a></span>, <span><a href="/~brents/authors/colin-dixon/">Colin Dixon</a></span>, <span><a href="/~brents/authors/eric-rozner/">Eric Rozner</a></span>, <span><a href="/~brents/authors/wes-felter/">Wes Felter</a></span>, <span><a href="/~brents/authors/kanak-agarwal/">Kanak Agarwal</a></span>, <span><a href="/~brents/authors/john-carter/">John Carter</a></span>, <span><a href="/~brents/authors/rodrigo-fonseca/">Rodrigo Fonseca</a></span>
+
+  </span>.
+  <a href="/~brents/publication/conference-paper/planck.sigcomm14/">Planck: Millisecond-scale Monitoring and Control for Commodity Networks</a>.
+  SIGCOMM,
+  2014.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/docs/planck.sigcomm14.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+
+  
+  <span><a href="/~brents/authors/brent-stephens/">Brent Stephens</a></span>, <span><a href="/~brents/authors/ankit-singla/">Ankit Singla</a></span>, <span><a href="/~brents/authors/colin-dixon/">Colin Dixon</a></span>, <span><a href="/~brents/authors/wes-felter/">Wes Felter</a></span>, <span><a href="/~brents/authors/john-carter/">John Carter</a></span>, <span>Alan L. Cox</span>
+
+  </span>.
+  <a href="/~brents/publication/conference-paper/tcp-bolt.infocom14/">Practical DCB for Improved Data Center Networks</a>.
+  Infocom,
+  2014.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/docs/tcp-bolt.infocom14.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+
+  
+  <span><a href="/~brents/authors/jeff-rasley/">Jeff Rasley</a></span>, <span><a href="/~brents/authors/brent-stephens/">Brent Stephens</a></span>, <span><a href="/~brents/authors/colin-dixon/">Colin Dixon</a></span>, <span><a href="/~brents/authors/eric-rozner/">Eric Rozner</a></span>, <span><a href="/~brents/authors/wes-felter/">Wes Felter</a></span>, <span><a href="/~brents/authors/kanak-agarwal/">Kanak Agarwal</a></span>, <span><a href="/~brents/authors/john-carter/">John Carter</a></span>, <span><a href="/~brents/authors/rodrigo-fonseca/">Rodrigo Fonseca</a></span>
+
+  </span>.
+  <a href="/~brents/publication/conference-paper/ons14/">Low-latency Network Monitoring via Oversubscribed Port Mirroring</a>.
+  ONS,
+  2014.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/docs/ons14.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+
+  
+  <span><a href="/~brents/authors/brent-stephens/">Brent Stephens</a></span>, <span>Alan L. Cox</span>, <span><a href="/~brents/authors/scott-rixner/">Scott Rixner</a></span>
+
+  </span>.
+  <a href="/~brents/publication/conference-paper/plinko.hotnets13/">Plinko: Building Provably Resilient Forwarding Tables</a>.
+  HotNets,
+  2013.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/docs/plinko.hotnets13.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+
+  
+  <span><a href="/~brents/authors/brent-stephens/">Brent Stephens</a></span>, <span>Alan L. Cox</span>, <span><a href="/~brents/authors/wes-felter/">Wes Felter</a></span>, <span><a href="/~brents/authors/colin-dixon/">Colin Dixon</a></span>, <span><a href="/~brents/authors/john-carter/">John Carter</a></span>
+
+  </span>.
+  <a href="/~brents/publication/conference-paper/past.conext12/">PAST: Scalable Ethernet for Data Centers</a>.
+  CoNEXT,
+  2012.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/docs/past.conext12.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+
+  
+  <span><a href="/~brents/authors/brent-stephens/">Brent Stephens</a></span>, <span>Alan L. Cox</span>, <span><a href="/~brents/authors/scott-rixner/">Scott Rixner</a></span>, <span>T. S.  Eugene Ng</span>
+
+  </span>.
+  <a href="/~brents/publication/conference-paper/ancs11/">A Scalability Study of Enterprise Network Architectures</a>.
+  ANCS,
+  2011.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/docs/scalability.ancs11.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+
+  
+  <span><a href="/~brents/authors/jeffery-shafer/">Jeffery Shafer</a></span>, <span><a href="/~brents/authors/brent-stephens/">Brent Stephens</a></span>, <span><a href="/~brents/authors/michael-foss/">Michael Foss</a></span>, <span><a href="/~brents/authors/scott-rixner/">Scott Rixner</a></span>, <span>Alan L. Cox</span>
+
+  </span>.
+  <a href="/~brents/publication/conference-paper/axon.ancs10/">Axon: A Flexible Substrate for Source-routed Ethernet</a>.
+  ANCS,
+  2010.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~brents/docs/axon.ancs10.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+</div>
+
+      
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="gallery" class="home-section wg-blank   "  >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-12 col-lg-4 section-heading">
+      <h1>Photos of Brent</h1>
+      
+    </div>
+    <div class="col-12 col-lg-8">
+      
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="gallery">
+
+  
+  
+  
+  
+    
+    
+    
+    
+    
+  <a data-fancybox="gallery-gallery" href="/~brents/home/gallery/gallery/BrentBMX.jpg" >
+  <img data-src="/~brents/home/gallery/gallery/BrentBMX_hu3d03a01dcc18bc5be0e67db3d8d209a6_287547_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="">
+  </a>
+  
+    
+    
+    
+    
+    
+  <a data-fancybox="gallery-gallery" href="/~brents/home/gallery/gallery/brent.jpg" >
+  <img data-src="/~brents/home/gallery/gallery/brent_hu4c6d85bc57fb0c46a092bac9caf1fb8b_994118_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="">
+  </a>
+  
+    
+    
+    
+    
+    
+  <a data-fancybox="gallery-gallery" href="/~brents/home/gallery/gallery/brent_surfboard.jpg" >
+  <img data-src="/~brents/home/gallery/gallery/brent_surfboard_hu20c9d0462fd47c239055b7ae42157700_36371_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="">
+  </a>
+  
+    
+    
+    
+    
+    
+  <a data-fancybox="gallery-gallery" href="/~brents/home/gallery/gallery/brent_vulcan_shoulder.jpg" >
+  <img data-src="/~brents/home/gallery/gallery/brent_vulcan_shoulder_hu32668a7195e4436a56f5a250cc793330_43597_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="">
+  </a>
+  
+
+  
+</div>
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="teaching" class="home-section wg-blank   "  >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-12 col-lg-4 section-heading">
+      <h1>Teaching</h1>
+      
+    </div>
+    <div class="col-12 col-lg-8">
+      <p>I am involved with teaching the following courses at UIC:</p>
+<ul>
+<li><a href="https://www.cs.uic.edu/~brents/cs450">CS 450: Introduction to Networking (S20)</a></li>
+<li><a href="https://www.cs.uic.edu/~brents/cs594-dcn">CS 594: Data Center Networking (F19)</a> and <a href="https://www.cs.uic.edu/~brents/cs594-dcn/f18">(F18)</a></li>
+<li><a href="https://www.cs.uic.edu/~brents/cs494-cdcs">CS 494: Cloud Data Center Systems (S19)</a></li>
 </ul>
 
 
 
-    <div aria-label="Primary" role="search" class="search-wrapper">
+    </div>
+  
+</div>
 
-      <button id="search" class="search-toggle">
-        <span class="icon-search ">
-          <span class="assistive-text">Search</span>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="students" class="home-section wg-blank   "  >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-12 col-lg-4 section-heading">
+      <h1>Students</h1>
+      
+    </div>
+    <div class="col-12 col-lg-8">
+      <p>I am currently advising the following students:</p>
+<ul>
+<li><a href="https://kshind2.people.uic.edu/">Komal Shinde</a></li>
+<li><a href="https://kpate352.people.uic.edu/">Kiran Patel</a></li>
+<li><a href="https://sarsanaee.github.io/">Alireza Sanaee</a></li>
+<li>David Porter</li>
+<li><a href="https://dgrassi2.people.uic.edu/">Darius Grassi</a></li>
+</ul>
+<p>Coadvising:</p>
+<ul>
+<li><a href="https://www.cs.uic.edu/~mmalekpo/">Mojtaba Malekpourshahraki</a></li>
+<li>Noaman Ahmad</li>
+</ul>
+
+
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="professional_activities" class="home-section wg-blank   "  >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-12 col-lg-4 section-heading">
+      <h1>Professional Activities</h1>
+      
+    </div>
+    <div class="col-12 col-lg-8">
+      <p><strong>Program committees</strong>:</p>
+<ul>
+<li>SOSR 2020, ANCS 2019, APNet 2018, Usenix ATC 2018</li>
+</ul>
+<p><strong>NSF Panels</strong>:</p>
+<ul>
+<li>One Panel in 2019, one panel in 2016, and one panel in 2015</li>
+</ul>
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="contact" class="home-section wg-contact   "  >
+    <div class="container">
+      
+
+
+
+
+
+<div class="row contact-widget">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Contact</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+
+    <ul class="fa-ul">
+
+      
+      <li>
+        <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+        <span id="person-email"><a href="mailto:brents%20%22at%22%20uic.edu">brents &#34;at&#34; uic.edu</a></span>
+      </li>
+      
+
+      
+
+      
+      
+        
+        <li>
+          <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+          <span id="person-address">1330 SEO, </span>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+      
+
+    </ul>
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/~brents/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/~brents/js/academic.min.a0d331bcd05dbe8b31e244f796710f08.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
         </span>
-      </button>
-
-      <div class="search-input-container">
-        <div class="search-input-container__form">
-          <form method="get" action="/search" >
-            <input type="text" name="q" class="search-input" placeholder="Search..." tabindex="-1" aria-label="Search" disabled="">
-            <input type="submit" class="submit-button" name="search" value="Submit">
-          </form>
-        </div>
-      </div>
-
-    </div>
-
-
-  </div>
-
-
-</nav>
-        </div>
-    </div>
-
+      </a>
+    </span>
     
-  </div>
-
-    
-        
-</header>
-
-    <main id="main" class="l-content-wrapper" role="main">
-
-      
-                
-	      
-      <div class="l-full">
-
-        <div class="l-content ">
-
-          
-                                        
-          <article class="post-type-news" id="article">
-            
-      <div class="intro-text">
-
-                      <h1 class="_title post-title">UIC’s PoliThinkers claim victory at BuiltWorlds Hackathon</h1>
-              
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>November 01, 2018</strong></span>
-    </div>
-              </div>
-        
-            <figure class="captioned-image">
-    <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/11/1dsf-1090x595.jpg" alt="students">
-      </figure>
-    
-    
-        
-  </div>
-
-    <div class="components">
-
-  
-    
-      
-
-<section class="component  ">
-
-  
-  <div class="component-text-block">
-  
-    <div class="component-description">
-                    <h2 id="1" class="__title invisible">1</h2>
-                    </div>
-
-  
-  <div class="wpb_column vc_column_container vc_col-sm-6">
-<div class="vc_column-inner ">
-<div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element ">
-<div class="wpb_wrapper">
-<p>Combine a serious intellectual challenge, creative thinking, and interdisciplinary teamwork from students representing three of UIC Engineering’s six departments. Heat for 36 hours, and judge with a careful, critical eye.</p>
-<p>What do you get?</p>
-<p>A big UIC win in the BuiltWorlds hackathon, a day-and-a-half-long competition where teams are asked to solve problems related to the built world around us: buildings, infrastructure, and beyond.</p>
-<p>Congratulations to our winners! They are: <strong>Giovanni Agugini Bassi</strong>, <strong>Iacopo Olivo</strong>, and <strong>Francesco Pinci</strong> of the computer science department; <strong>Andrea Ciccardi</strong> and <strong>Michele Giovanni Calvi </strong>from electrical and computer engineering, and <strong>Chiara Gatti</strong> of bioengineering. The problem that the team—whose name is PoliThinkers—decided to handle is construction-site safety.</p>
-<p>Team members cite the statistic that 25 percent of workplace deaths occur in the construction environment, deeming this a “paramount issue” for workers, construction companies, and society as a whole.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="wpb_column vc_column_container vc_col-sm-6">
-<div class="vc_column-inner ">
-<div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element ">
-<div class="wpb_wrapper">
-<p>The team’s solution is an interactive system of wearable devices for workers at building sites. The devices are capable of detecting unsafe situations, preventing injuries by making the wearer more aware of his or her surroundings, and lowering the response time in case harm befalls anyone. The device issues immediate warning signals or messages to its user, to other workers, and to site supervisors.</p>
-<p>Winning the BuiltWorlds Hackathon demands more than just a great idea. Teams, which include students and professionals alike, also must identify a market for their product and conduct a competitive analysis of similar companies or products. Teams are judged on their creativity, the match between their proposed product and market need, their level of personal growth and development during the hackathon experience, and their final presentation.</p>
-<p>PoliThinkers’ members described the competition as intense, especially “due to the fact that our team has no background in the construction industry.” But, they noted, “it gave us the opportunity to learn from a different field from ours.”</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-
-
-  
-</div>
-
-  
-</section>
-
-    
-
-</div>
-
-          <div class="post-date-line">
-        <span class="post-date">Modified on <strong>December 06, 2018</strong></span>
-      </div>
-    
-              </article>
-        </div>
-
-                                            
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-
-
-          
-                          </div>
-    </main>
-
-    
-        <footer id="footer" class="footer u-dark-region" role="contentinfo">
-
-  <div class="footer-contact">
-    <div class="l-full">
-
-          <div class="mega-footer-contact">
-
-    <div class="mega-footer-contact__brand mega-footer-contact__brand--wordmark">
-        <div class="footer-logo">
-                        <div class="footer-logo__wordmark-wrapper">
-                <div class="uic-wordmark  uic-wordmark--mega-footer">
-
-  <div class="_mark">
-    <a href="http://uic.edu" class="uic-logo-icon ">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
-  </div>
-
-  <div class="_text">
-    <a href="https://cs.uic.edu">
-                  <span class="_line">College of</span>
-              <span class="_line">Engineering</span>
-              </a>
-  </div>
-
-</div>
-            </div>
-            </div>
-    </div>
-
-  <div class="mega-footer-contact__menus">
-
-    
-        <div class="mega-footer-contact__button-menus">
-      <nav class="mega-footer-contact__button-menu" id="menu4" aria-label="footer-menu-4">
-        <h2 class="assistive-text">Footer Menu</h2>
-
-        <ul id="button-menu" class="menu button-menu" aria-label="Footer Menu">
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2547">
-      <a href="/undergraduate/student-resources/" target="_self">Undergraduate Resources</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2548">
-      <a href="/graduate/graduate-student-resources/" target="_self">Graduate Resources</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2549">
-      <a href="/faculty-staff/faculty-resources/" target="_self">Faculty Resources</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2550">
-      <a href="/undergraduate/abet-accreditation/" target="_self">ABET Accreditation</a>
-    </li>
-  </ul>
-
-      </nav>
-    </div>
-    
-  </div>
-
-  <div class="mega-footer-contact__contact">
-
-    <div class="_contact">
-      <h2>Contact</h2>
-      <div class="site-contact-container">  <div class="site-unit-name"><h3>For CS student and faculty inquiries, contact:</h3></div>
-      <div class="site-address">851 S. Morgan St., 11th Floor SEO, Chicago, IL 60607</div>
-      <div class="site-phone">Phone: <a  href="tel:(312) 996-3422">(312) 996-3422</a></div>
-        <div class="site-email"><a  href="mailto:cs-info@uic.edu">cs-info@uic.edu</a></div>
-</div>
-      <div class="site-contact-container">        </div>
-    </div>
-
-    <div class="mega-footer-contact__site-social-links">
-       <div aria-label="Social Media Accounts" class="site-social-links">
-  <h2 class="site-social-links__header assistive-text">Social Media Accounts</h2>
-  <ul class="site-social-links__list">
-        <li class="site-social-links__list-item"><a  class="site-social-links__link facebook" href="https://www.facebook.com/engineering.uic">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Facebook"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>
-    </a></li>
-            <li class="site-social-links__list-item"><a  class="site-social-links__link linkedin" href="https://www.linkedin.com/school/24767499/">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="LinkedIn"><title>LinkedIn</title><path d="M9 27h3.836V14.212H9V27zm2.4-19c-.67 0-1.24.24-1.704.712C9.234 9.185 9 9.77 9 10.452c0 .684.234 1.27.696 1.742.463.472 1.035.712 1.703.712.667 0 1.24-.24 1.702-.712.463-.473.697-1.058.697-1.74 0-.684-.235-1.27-.698-1.742C12.64 8.24 12.067 8 11.4 8zm15.025 7.18c-.934-.997-2.107-1.503-3.485-1.503-1.064 0-2.053.343-2.95 1.02v-.816H15.77V27h4.223v-7.262c0-.832.2-1.434.61-1.84.41-.408.88-.608 1.43-.608.732 0 1.573.268 1.573 2.357V27h4.222v-7.875c0-1.627-.47-2.954-1.4-3.946z" /></svg>
-    </a></li>
-            <li class="site-social-links__list-item"><a  class="site-social-links__link twitter" href="https://twitter.com/UICEngineering">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Twitter"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>
-    </a></li>
-            <li class="site-social-links__list-item"><a  class="site-social-links__link instagram" href="https://www.instagram.com/uicengineering/">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Instagram"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>
-    </a></li>
-            <li class="site-social-links__list-item"><a  class="site-social-links__link youtube" href="https://www.youtube.com/user/UICengineering">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Youtube"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>
-    </a></li>
-          </ul>
-</div>
-    </div>
-  </div>
-</div>
-    
-    </div>
-  </div>
-
-  
-  <div class="footer-uic-menu">
-    <div class="l-full">
-
-      <div aria-label="UIC.edu Links">
-  <h2 class="assistive-text">UIC.edu links</h2>
-  <ul class="uic-footer-menu">
-    <li><strong><a href="https://uic.edu/">UIC.edu</a></strong></li>
-    <li><a href="https://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></li>
-    <li><a href="https://uicflames.com/">Athletics</a></li>
-    <li><a href="https://www.uic.edu/apps/departments-az/search">Campus Directory</a></li>
-    <li><a href="https://disabilityresources.uic.edu/">Disability Resources</a></li>
-    <li><a href="https://emergency.uic.edu/">Emergency Information</a></li>
-    <li><a href="https://today.uic.edu/events">Event Calendar</a></li>
-    <li><a href="https://uic.edu/about/job-opportunities">Job Openings</a></li>
-    <li><a href="https://library.uic.edu/">Library</a></li>
-    <li><a href="https://maps.uic.edu/">Maps</a></li>
-    <li><a href="https://ready.uic.edu/digital-materials/uic-safe-mobile-app/">UIC Safe Mobile App</a></li>
-    <li><a href="https://today.uic.edu/">UIC Today</a></li>
-    <li><a href="https://uihealth.uic.edu/">UI Health</a></li>
-    <li><a href="https://dos.uic.edu/student-veterans-affairs/">Veterans Affairs</a></li>
-  </ul>
-</div>
-
-    </div>
-  </div>
-
-  <div class="footer-legal">
-    <div class="l-full">
-
-      <div class="red-version">Powered by Red 2.38.0</div>
-
-<div class="site-copyright">
-  &copy; 2020 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
-  <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a>
-</div>
-
-<div class="campuses" aria-label="Campuses">
-  <h2 class="assistive-text">Campuses</h2>
-  <ul class="campuses-list">
-    <li><a href="https://www.uillinois.edu/">University of Illinois System</a></li>
-    <li><a href="https://illinois.edu/">Urbana-Champaign</a></li>
-    <li><a href="https://www.uis.edu/">Springfield</a></li>
-  </ul>
-</div>
-<div class="cookie-banner">
-  <div id="footer-bottom">
-    <a class="optanon-show-settings">Cookie Settings</a>
-  </div>
-</div>
-    </div>
-  </div>
-
+  </p>
 </footer>
 
-	    </div>
-
-
-  <!-- Instagram Feed JS -->
-<script type="text/javascript">
-var sbiajaxurl = "https://cs.uic.edu/wp-admin/admin-ajax.php";
-</script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var sb_instagram_js_options = {"sb_instagram_at":"","font_method":"svg"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://cs.uic.edu/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.12.1'></script>
-<script type='text/javascript' src='https://cs.uic.edu/wp-content/plugins/uic-red/js-admin/uic-publish-post-settings.js?ver=1.0.0'></script>
-<script type='text/javascript' src='https://cs.uic.edu/wp-content/plugins/uic-red/js-admin/acf-field-group-toggle.js?ver=1.0.0'></script>
-<script type='text/javascript' src='//www.uic.edu/apps/web-alert/alert.js?ver=3'></script>
-<script type='text/javascript' src='https://cs.uic.edu/wp-content/themes/uic-red/js/main.js?ver=1'></script>
-<script type='text/javascript' src='https://cs.uic.edu/wp-includes/js/wp-embed.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
-
-
+  </div>
+  
 
   
-  
-  <script async src="https://cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js" type="text/javascript" charset="UTF-8"></script>
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
-  </body>
+</body>
 </html>

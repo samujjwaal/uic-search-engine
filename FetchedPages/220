@@ -1,909 +1,621 @@
-<!DOCTYPE html><html lang="en"><head><title>UIC Directory</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width"><style>.interior-page-intro .interior-page-title{ color: rgb(54, 54, 54); font-size: 36px; font-weight: 700; line-height: 1; margin-bottom: 12px; }
-.interior-section-header, .interior-page-intro .interior-page-subtitle{ color: rgb(54, 54, 54); font-size: 24px; font-weight: 400; line-height: 1.2; }
-body{ font-family: Theinhardt, Arial, sans-serif; }
-.body-text, .campus-reminders .reminder-text, .category-link-list .text-cell, .error-help, .text-input, .text-area, .number-input, .tel-input, .email-input, .form-help-text, .highlight .content-cell, .home-lists .home-list-blurb, .interior-page-intro .interior-page-text, .key-message-block .message-cell .text, .landing-page-intro .intro-text, .link-block .text, .link-list .text-cell, .text-block-with-inline-image .intro-row, .text-block-with-inline-image .text-and-image-row, .text-block-with-inline-image .link-list, .text-block-with-large-image .link-list, .topic-block-list .text-cell, .topic-block-list .topic-block-text-cell, .block-wysiwyg { color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1.36; }
-.body-text p, .campus-reminders .reminder-text p, .category-link-list .text-cell p, .error-help p, .text-input p, .text-area p, .number-input p, .tel-input p, .email-input p, .form-help-text p, .highlight .content-cell p, .home-lists .home-list-blurb p, .interior-page-intro .interior-page-text p, .key-message-block .message-cell .text p, .landing-page-intro .intro-text p, .link-block .text p, .link-list .text-cell p, .text-block-with-inline-image .intro-row p, .text-block-with-inline-image .text-and-image-row p, .text-block-with-inline-image .link-list p, .text-block-with-large-image .link-list p, .topic-block-list .text-cell p, .topic-block-list .topic-block-text-cell p, .block-wysiwyg p { margin-bottom: 1em; }
-.footer-list-item{ margin-bottom: 15px; }
-.footer-list-item:last-child{ margin-bottom: 0px; }
-.footer-list-link{ color: rgb(255, 255, 255); font-size: 14px; text-decoration: none; }
-.footer .footer-legal a{ color: rgb(153, 153, 153); text-decoration: none; }
-.footer .footer-legal .pipe-separator{ margin-top: 0em; margin-right: 0.5em; margin-bottom: 0em; margin-left: 0.5em; }
-.footer .footer-legal .campuses{ text-align: right; }
-.social-icons-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; overflow-x: hidden; overflow-y: hidden; }
-@media (min-width){
-.social-icons-list{ margin-top: 30px; }
-}
-.social-icons-list a{ text-decoration: none; }
-.social-icons-list svg{ fill: #ffffff; height: 30px; width: 30px; }
-.social-icons-list li{ border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; display: block; float: left; height: 30px; margin-top: 0px; margin-right: 10px; margin-bottom: 10px; margin-left: 0px; width: 30px; }
-.social-icons-list li:nth-of-type(5n+1){ clear: left; }
-.ms-grid, .ms-row, [class*="col-"]{ box-sizing: border-box; }
-.ms-grid{ display: block; position: relative; width: 100%; margin-left: auto; margin-right: auto; max-width: 1400px; padding-left: 12px; padding-right: 12px; }
-.ms-grid .ms-row{ }
-.ms-grid .ms-row::after, .ms-grid [class*="col-"]::after{ content: ''; display: table; clear: both; }
-[class*="col-"]{ float: left; width: 100%; position: relative; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; }
-@media screen and (min-width: 540px){
-.ms-grid{ padding-left: 24px; padding-right: 24px; }
-}
-@media screen and (min-width: 768px){
-.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
-}
-@media screen and (min-width: 2000px){
-.ms-grid .ms-row{ }
-.ms-grid .ms-row > [class*="col-"]{ }
-}
-@media screen and (min-width: 540px){
-.s-col-1-2{ width: 50%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-1-2{ width: 50%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-1-3{ width: 33.3333333333%; }
-}
-@media screen and (min-width: 768px){
-.m-col-1-4{ width: 25%; }
-.m-col-3-4{ width: 75%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-2-12{ width: 16.6666666667%; }
-.l-col-3-12{ width: 25%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-12-push-4{ left: 33.3333333333%; right: auto; }
-.l-col-12-pull-4{ right: 33.3333333333%; left: auto; }
-}
-*{ border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; box-sizing: border-box; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; }
-img{ vertical-align: bottom; }
-@media (min-width: 768px){
-.main{ margin-top: 40px; }
-}
-.ms-grid{ max-width: 1080px; }
-@media (max-width: 767px){
-.ms-grid{ padding-left: 20px; padding-right: 20px; overflow-x: hidden; overflow-y: hidden; }
-}
-@media (max-width: 1084px) and (min-width: 768px){
-.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
-}
-@media (min-width: 1140px){
-.ms-grid{ padding-left: 0px; padding-right: 0px; }
-}
-.component{ margin-bottom: 80px; }
-.interior-section-header{ font-size: 30px; }
-.subhead{ color: rgb(54, 54, 54); font-size: 18px; font-weight: 700; }
-body{ background-color: rgb(248, 248, 248); }
-.breadcrumbs{ line-height: 14px; margin-bottom: 34px; }
-@media (min-width: 768px){
-.breadcrumbs .red-circle{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(213, 0, 50); border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; display: inline-block; height: 14px; width: 14px; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
-}
-.breadcrumbs .first-breadcrumb-arrow{ display: none; }
-@media (min-width: 768px){
-.breadcrumbs .first-breadcrumb-arrow{ display: inline; }
-}
-.breadcrumbs .crumb-list{ display: inline; list-style-position: inside; list-style-type: none; list-style-image: initial; }
-@media (max-width: 768px){
-.breadcrumbs .crumb-list{ line-height: 1.4; }
-}
-.breadcrumbs .crumb-item{ display: inline-block; }
-.breadcrumbs .crumb-anchor{ color: rgb(54, 54, 54); font-size: 12px; font-weight: 500; text-transform: uppercase; }
-.breadcrumbs .crumb-anchor{ text-decoration: none; }
- .breadcrumbs .crumb-anchor.active{ color: rgb(213, 0, 50); outline-style: none; outline-width: initial; outline-color: initial; }
-.breadcrumbs img{ display: inline-block; height: 6px; margin-top: 0px; margin-right: 14px; margin-bottom: 0px; margin-left: 14px; width: 6px; vertical-align: middle; }
-.footer .footer-brand{ height: 206px; margin-bottom: 15px; width: 150px; }
-.footer .footer-brand-address{ margin-bottom: 20px; }
-@media (min-width: 1084px){
-.footer .footer-brand-address{ margin-bottom: 0px; min-height: 280px; }
-}
-@media (min-width: 1084px){
-.footer .footer-address{ bottom: 0px; position: absolute; width: 100%; }
-}
-@media (max-width: 1084px){
-.footer .footer-list{ margin-bottom: 30px; }
-.footer .footer-list::after{ content: ''; display: table; clear: both; }
-}
-.footer .footer-button-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; margin-bottom: 12px; }
-@media (max-width: 1084px) and (min-width: 540px){
-.footer .footer-button-list{ padding-right: 20px; }
-}
-.footer .footer-button-item{ margin-bottom: 5px; }
-.footer .footer-button{ color: rgb(255, 255, 255); background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(37, 37, 37); display: block; font-size: 16px; font-weight: 700; line-height: 32px; height: 32px; padding-top: 0px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px; text-decoration: none; background-position: initial initial; background-repeat: initial initial; }
-@media (max-width: 1084px){
-.footer .footer-legal .campuses{ margin-top: 1em; text-align: left; }
-}
-@media (min-width: 1084px){
-.footer .l-col-1-1{ width: 100%; }
-}
-.footer-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.footer-list-title{ margin-bottom: 15px; }
-.footer-list-title{ color: rgb(255, 255, 255); font-size: 14px; font-weight: 900; text-transform: uppercase; }
-@media (min-width: 1084px){
-.no-flexbox .footer-social-icons-cell{ bottom: -30px; }
-.no-flexbox .footer-address{ bottom: -50px; }
-}
-.header{ position: relative; width: 100%; background-color: rgb(0, 0, 0); }
-.header-menu-bar{ position: relative; }
-.header--blue .header-menu-bar{ background-color: rgb(0, 127, 165); }
-@media (max-width: 1084px){
-.header--blue .navigation-primary .primary-nav-list .primary-list-item{ background-color: rgb(0, 127, 165); }
-}
-.header--blue .navigation-primary .primary-nav-list .expander, .header--blue .navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(0, 102, 132); }
-@media (max-width: 1084px){
-.header--blue .navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); }
-}
-@media (min-width: 1084px){
-.header--blue .navigation-eyebrow{ background-color: rgb(0, 127, 165); }
-}
-.header--blue .navigation-primary:not(.scrolled-after) .primary-nav-list .primary-second-tier-list{ border-top-color: rgb(0, 127, 165); border-right-color: rgb(0, 127, 165); border-bottom-color: rgb(0, 127, 165); border-left-color: rgb(0, 127, 165); }
-.header-background-image-container{ bottom: 0px; left: 0px; overflow-x: hidden; overflow-y: hidden; position: absolute; right: 0px; top: 0px; }
-.header-background-image{ background-size: cover; bottom: -5px; left: -5px; position: absolute; right: -5px; top: -5px; background-position: 50% 50%; background-repeat: no-repeat no-repeat; }
-.interior-page-header{ overflow-x: visible; overflow-y: visible; }
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary .circle-logo-container{ margin-left: 0px; opacity: 1; z-index: 2; }
-}
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary:not(.scrolled-after) .circle-logo-container{ top: 110px; }
-}
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-eyebrow{ background-color: rgb(0, 127, 165); position: static; }
-}
-.interior-page-header .header-menu-bar .navigation-primary{ background-color: rgb(0, 127, 165); width: 100%; }
-.interior-page-header .header-menu-bar .navigation-primary .menu-toggle{ z-index: 2; }
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary{ height: 60px; }
-}
-.interior-page-header .header-background-image{ display: none; }
-.interior-page-intro .interior-page-title{ color: rgb(213, 0, 50); }
-@media (min-width: 540px){
-.interior-page-intro .interior-page-title{ font-size: 48px; }
-}
-.interior-page-intro .interior-page-subtitle{ margin-bottom: 10px; }
-@media (min-width: 540px){
-.interior-page-intro .interior-page-subtitle{ font-size: 30px; }
-}
-.link-block-group .link-block-anchor { margin-top: 40px; }
-@media (min-width: 540px){
-.link-block-group .link-block-anchor { max-width: 50%; }
-}
-.link-block-group .link-block-anchor, .link-block-group .link-block-anchor:hover, .link-block-group .link-block-anchor:visited { color: rgb(54, 54, 54); text-decoration: none; }
-.link-block { padding-top: 1px; position: relative; }
-.link-block::before { background-color: rgb(213, 0, 50); content: ''; height: 1px; left: 0px; position: absolute; top: 1px; width: 100%; }
-.link-block .subhead { margin-top: 15px; margin-right: 0px; margin-bottom: 4px; margin-left: 0px; padding-right: 20px; position: relative; }
-.link-block .subhead .arrow { fill: #001e62; height: 10px; position: absolute; right: 5px; width: 10px; }
-.link-block-anchor:hover, .link-block-anchor:focus { outline-style: none; outline-width: initial; outline-color: initial; }
-.link-block-anchor:hover .link-block::before, .link-block-anchor:focus .link-block::before { height: 3px; }
-.link-block-anchor:hover .arrow, .link-block-anchor:focus .arrow { -webkit-transform: translateX(5px); }
-.link-list .interior-section-header{ margin-bottom: 15px; }
-.navigation-eyebrow{ height: 40px; }
-@media (min-width: 1084px){
-.navigation-eyebrow{ background-color: rgb(0, 127, 165); }
-}
-.navigation-eyebrow .navigation-eyebrow-inner{ margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 1080px; position: relative; }
-.navigation-eyebrow .eyebrow-list{ color: rgb(255, 255, 255); font-size: 14px; font-weight: 400; list-style-type: none; list-style-position: inside; list-style-image: initial; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; padding-top: 0px; padding-right: 20px; padding-bottom: 0px; padding-left: 20px; }
-@media (min-width: 1084px){
-.navigation-eyebrow .eyebrow-list{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 25%; }
-}
-.navigation-eyebrow .eyebrow-list-item{ display: none; line-height: 40px; height: 40px; }
-@media (min-width: 1084px){
-.navigation-eyebrow .eyebrow-list-item{ display: block; float: left; }
-}
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor{ overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
-.navigation-eyebrow .eyebrow-button{ }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor{ font-weight: 700; padding-left: 34px; padding-right: 20px; overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::after{ content: '+'; left: 10px; position: absolute; text-align: center; top: 0px; width: 20px; }
-.navigation-eyebrow .eyebrow-list-anchor{ display: block; outline-style: none; outline-width: initial; outline-color: initial; }
-.navigation-eyebrow .eyebrow-list-anchor{ color: rgb(255, 255, 255); text-decoration: none; }
-.navigation-eyebrow .search-button-item{ display: block; height: 40px; position: absolute; top: 0px; right: 40px; width: 40px; z-index: 1; }
-@media (min-width: 1084px){
-.navigation-eyebrow .search-button-item{ height: 40px; position: relative; top: 0px; right: 0px; width: auto; }
-}
-.navigation-eyebrow .search-button{ background-color: transparent; cursor: pointer; height: 40px; width: 40px; }
-.navigation-eyebrow .search-button .search-glass{ fill: #ffffff; height: 20px; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; width: 20px; }
-.navigation-eyebrow .search-input-container{ position: absolute; top: 0px; height: 40px; right: 42px; -webkit-transform: translateY(-100%); width: 278px; z-index: 3; }
-@media (min-width: 1084px){
-.navigation-eyebrow .search-input-container{ height: 40px; right: 40px; }
-}
-.navigation-eyebrow .search-input-container form{ position: relative; width: 100%; height: 100%; }
-.navigation-eyebrow .search-input-container input[type="text"]{ color: rgb(149, 149, 149); height: 100%; padding-top: 0px; padding-right: 12px; padding-bottom: 0px; padding-left: 12px; font-size: 18px; width: 100%; }
-.navigation-eyebrow .search-input-container .submit-button{ -webkit-appearance: none; position: absolute !important; clip: rect(1px 1px 1px 1px); }
-@media (min-width: 1084px){
-.no-flexbox .eyebrow-list-item{ margin-left: 12px; }
-}
-.navigation-primary{ pointer-events: none; position: absolute; top: 0px; width: 100%; z-index: 2; }
-@media (min-width: 1084px){
-.navigation-primary{ pointer-events: auto; position: relative; }
-}
-.navigation-primary .navigation-primary-inner{ margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 1080px; position: relative; min-height: 40px; }
-.navigation-primary .primary-nav-list{ line-height: 1; list-style-type: none; list-style-position: inside; list-style-image: initial; overflow-x: hidden; overflow-y: hidden; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: absolute; right: 0px; top: 0px; width: 260px; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list{ left: 0px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; overflow-x: visible; overflow-y: visible; padding-top: 0px; padding-right: 0px; padding-left: 25%; position: relative; top: 0px; width: auto; }
-}
-.navigation-primary .primary-nav-list .primary-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(0, 127, 165); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; letter-spacing: 0.06em; position: relative; text-transform: uppercase; width: 100%; background-position: initial initial; background-repeat: initial initial; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .primary-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; float: left; background-position: initial initial; background-repeat: initial initial; }
-}
-.navigation-primary .primary-nav-list .primary-list-anchor{ display: block; line-height: 1; }
-.navigation-primary .primary-nav-list .primary-list-anchor, .navigation-primary .primary-nav-list .primary-second-tier-list-anchor{ color: inherit; text-decoration: none; }
-.navigation-primary .primary-nav-list .primary-second-tier-list{ display: none; list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); color: rgb(54, 54, 54); font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 1.25; text-transform: none; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item .primary-second-tier-list-anchor{ display: block; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; }
-.navigation-primary .primary-nav-list .expander{ display: none; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .primary-list-item{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: relative; width: auto; }
-.navigation-primary .primary-nav-list .primary-list-item.primary-list-active-item > .primary-list-anchor{ border-bottom-width: 8px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); padding-bottom: 12px; }
-.navigation-primary .primary-nav-list .primary-list-item > .primary-list-anchor{ display: block; outline-style: none; outline-width: initial; outline-color: initial; padding-top: 22px; padding-right: 0px; padding-bottom: 22px; padding-left: 0px; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor{ overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(255, 255, 255); bottom: 2px; height: 8px; -webkit-transform: translateY(135%); }
-.navigation-primary .primary-nav-list .primary-second-tier-list{ border-right-width: 2px; border-right-style: solid; border-right-color: rgb(0, 127, 165); border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(0, 127, 165); border-left-width: 2px; border-left-style: solid; border-left-color: rgb(0, 127, 165); display: block; opacity: 0; pointer-events: none; position: absolute; left: -2px; top: 60px; width: 260px; }
-.navigation-primary .primary-nav-list .primary-list-item:nth-last-child(1) .primary-second-tier-list, .navigation-primary .primary-nav-list .primary-list-item:nth-last-child(2) .primary-second-tier-list{ left: auto; right: -2px; }
-}
-@media (max-width: 1083px){
-.navigation-primary .primary-nav-list .expander{ background-color: rgb(39, 152, 182); display: block; height: 44px; position: absolute; top: 0px; right: 0px; width: 44px; }
-.navigation-primary .primary-nav-list .expander::before{ color: rgb(255, 255, 255); content: '+'; display: block; line-height: 44px; text-align: center; width: 100%; }
-.navigation-primary .primary-nav-list .primary-list-anchor{ line-height: 24px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 20px; }
-.navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); padding-left: 22px; position: relative; }
-.navigation-primary .primary-nav-list .primary-list-item{ min-height: 44px; -webkit-transform: translateX(260px); }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+0){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+1){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+2){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+3){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+4){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+5){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+6){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+7){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+8){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+9){ }
-}
-@media (max-width: 1083px){
-.navigation-primary .primary-nav-list{ pointer-events: none; }
-}
-.navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(39, 152, 182); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; height: 40px; letter-spacing: 0.06em; line-height: 40px; min-height: 40px; padding-top: 0px; padding-bottom: 0px; padding-left: 20px; position: relative; text-transform: uppercase; -webkit-transform: translateX(260px); width: 100%; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .menu-label-item{ display: none; }
-}
-.navigation-primary .primary-nav-list .menu-label{ opacity: 0; }
-.navigation-primary .primary-nav-list .menu-toggle{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; display: block; height: 40px; pointer-events: auto; position: absolute; top: 0px; right: 0px; width: 40px; z-index: 1; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle > span{ position: absolute; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); height: 2px; margin-left: 9px; position: absolute; top: 20px; width: 24px; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::after, .navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ content: ''; position: absolute; width: 100%; height: 100%; left: 0px; top: 6px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ top: auto; bottom: 6px; }
-@media (min-width: 1083px){
-.navigation-primary .primary-nav-list .menu-toggle{ display: none; }
-}
-.navigation-primary .circle-logo-container{ height: 40px; left: 0px; opacity: 0; pointer-events: auto; position: absolute; -webkit-transform: translateY(-100px); top: 10px; width: 40px; z-index: 1; }
-@media (max-width: 1120px) and (min-width: 1080px){
-.navigation-primary .circle-logo-container{ left: 20px; }
-}
-.navigation-primary .circle-logo-container span{ -webkit-appearance: none; position: absolute !important; clip: rect(1px 1px 1px 1px); }
-@media (max-width: 1084px){
-.navigation-primary .circle-logo-container{ height: 32px; margin-left: 20px; opacity: 1; -webkit-transform: translateY(4px); top: 0px; width: 32px; }
-}
-.navigation-primary .circle-logo-container .circle-logo path{ fill: #ffffff; }
-.navigation-primary .circle-logo-container a{ color: rgb(255, 255, 255); outline-style: none; outline-width: initial; outline-color: initial; }
-.navigation-primary .circle-logo-container .circle-logo{ -webkit-transform: rotate(-360deg); }
-@media (min-width: 1084px){
-.no-flexbox .primary-list-item{ margin-left: 12px; }
-}
-.no-flexbox .primary-nav-list::after{ content: ''; display: table; clear: both; }
-.navigation-sidebar{ margin-left: -20px; margin-right: -20px; position: relative; }
-@media (min-width: 768px){
-.navigation-sidebar{ margin-left: 0px; margin-right: 0px; }
-}
-.navigation-sidebar .navigation-sidebar-title{ background-color: rgb(255, 255, 255); border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; color: rgb(0, 30, 98); font-size: 16px; font-weight: 900; line-height: 1.5; margin-bottom: 20px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 47px; position: relative; text-transform: uppercase; }
-.navigation-sidebar .navigation-sidebar-title a{ color: rgb(0, 30, 98); text-decoration: none; }
-.navigation-sidebar .navigation-sidebar-title::after{ content: ' Menu'; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-title{ background-color: transparent; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 15px; padding-left: 0px; }
-.navigation-sidebar .navigation-sidebar-title::after{ content: none; }
-}
-.navigation-sidebar .navigation-sidebar-title .chevron{ display: block; height: 12px; left: 20px; position: absolute; width: 12px; }
-.navigation-sidebar .navigation-sidebar-title .chevron .anchor-point{ display: block; fill: #001e62; height: 8px; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto; -webkit-transform: rotate(-90deg); width: 12px; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-title .chevron{ display: none; }
-}
-@media (max-width: 767px){
-.navigation-sidebar .navigation-sidebar-list-container{ overflow-x: hidden; overflow-y: hidden; pointer-events: none; position: absolute; top: 44px; width: 100%; z-index: 1; }
-}
-@media (max-width: 767px){
-.navigation-sidebar .navigation-sidebar-list{ background-color: rgb(255, 255, 255); border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); padding-left: 20px; padding-right: 20px; -webkit-transform: translateY(-100%); }
-}
-.navigation-sidebar .navigation-sidebar-list .anchor-point{ height: 5px; position: absolute; right: 0px; top: 4px; width: 8px; }
-.navigation-sidebar .navigation-sidebar-list .navigation-sidebar-anchor .anchor-point{ top: 21px; }
-.navigation-sidebar .navigation-sidebar-list, .navigation-sidebar .sidebar-second-tier-list, .navigation-sidebar .sidebar-third-tier-list, .navigation-sidebar .sidebar-fourth-tier-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.navigation-sidebar .navigation-sidebar-anchor, .navigation-sidebar .sidebar-second-tier-anchor, .navigation-sidebar .sidebar-third-tier-anchor, .navigation-sidebar .sidebar-fourth-tier-anchor{ display: block; width: 100%; }
-.navigation-sidebar .navigation-sidebar-item{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); min-height: 50px; }
-.navigation-sidebar .navigation-sidebar-item:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-item:last-child{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); }
-}
-.navigation-sidebar .navigation-sidebar-anchor{ color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1; padding-top: 17px; padding-right: 0px; padding-bottom: 17px; padding-left: 0px; position: relative; text-decoration: none; }
-.navigation-sidebar .sidebar-second-tier-list{ padding-left: 14px; }
-.navigation-sidebar .sidebar-second-tier-item{ font-size: 14px; font-weight: 400; margin-bottom: 16px; }
-.navigation-sidebar .sidebar-second-tier-anchor{ color: rgb(54, 54, 54); position: relative; text-decoration: none; }
-.navigation-sidebar .sidebar-third-tier-list, .navigation-sidebar .sidebar-fourth-tier-list{ padding-top: 14px; padding-left: 14px; }
-.navigation-sidebar .sidebar-third-tier-item, .navigation-sidebar .sidebar-fourth-tier-item{ margin-bottom: 14px; }
-.navigation-sidebar .sidebar-third-tier-anchor, .navigation-sidebar .sidebar-fourth-tier-anchor{ color: rgb(54, 54, 54); position: relative; text-decoration: none; }
-.navigation-sidebar .navigation-sidebar-item.open .navigation-sidebar-anchor, .navigation-sidebar .sidebar-second-tier-item.open .sidebar-second-tier-anchor, .navigation-sidebar .sidebar-third-tier-item.open .sidebar-third-tier-anchor{ font-weight: 700; padding-right: 24px; width: 100%; }
- .navigation-sidebar .sidebar-fourth-tier-item.active .sidebar-fourth-tier-anchor{ color: rgb(213, 0, 50); font-weight: 700; position: relative; }/* Styles appended to the end of every critical path css stylesheet */
-.navigation-primary .primary-list {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-.navigation-eyebrow .eyebrow-list {
-    display: flex;
-    justify-content: space-between;
-}
-.calls-to-action .call-to-action {
-    align-items: center;
-    display: flex;
-}
-.calls-to-action .reminders-container {
-    display: flex;
-}
-.calls-to-action .reminders-anchor {
-    display: flex;
-}
- </style></head><body>
-<header class="header interior-page-header header--blue">
-    <div class="header-background-image-container">
-        <div class="header-background-image" aria-hidden="true" style="background-image: url()"></div>
-    </div>
-        <div class="header-menu-bar">
+<!DOCTYPE html><html xmlns:upElemTitle="http://xml.apache.org/xalan/java/org.jasig.portal.security.xslt.XalanLayoutElementTitleHelper" xmlns:dlm="http://www.uportal.org/layout/dlm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="en-US" class="respondr"><head><title>Welcome | myUIC</title><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black"/><meta name="description" content="uPortal by Apereo: The academic open source portal built for higher education by higher education"/><meta name="keywords" content="portal, uPortal, academic, higher education, open source, enterprise, Apereo, JA-SIG, JASIG, Jasig"/><link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" type="text/css"/><link href="/ResourceServingWebapp/rs/normalize/2.1.2/normalize-2.1.2.min.css" rel="stylesheet" type="text/css"/><link href="/ResourceServingWebapp/rs/fontawesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/><link href="/ResourceServingWebapp/rs/bootstrap-plugins/accessibility/1.0.2/css/bootstrap-accessibility.min.css" rel="stylesheet" type="text/css"/><link href="/ResourceServingWebapp/rs/jqueryui/1.10.3/theme/smoothness/jquery-ui-1.10.3-smoothness.min.css" rel="stylesheet" type="text/css"/><link href="/uPortal/scripts/jstree/style.min.css" rel="stylesheet" type="text/css"/><script src="/ResourceServingWebapp/rs/modernizr/2.6.2/modernizr-2.6.2.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/jquery/1.10.2/jquery-1.10.2.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/jquery-migrate/jquery-migrate-1.2.1.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/jqueryui/1.10.3/jquery-ui-1.10.3.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/bootstrap/3.3.5/js/bootstrap.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/bootstrap-plugins/accessibility/1.0.2/js/bootstrap-accessibility.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/fluid/1.5.0/js/fluid-custom.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/underscore/1.5.2/underscore-1.5.2.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/backbone/1.1.0/backbone-1.1.0.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/jquery-plugins/noty/2.2.0/jquery.noty.packaged.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/datatables/1.9.4/media/js/jquery.dataTables.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/jquery-plugins/rating/1.0/bootstrap-rating-input.min.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/datatables/1.9.4/plugins/integration/bootstrap/3/dataTables.bootstrap.js" type="text/javascript"> </script><script src="/ResourceServingWebapp/rs/datatables/1.9.4/extras/column-filter-widgets/js/ColumnFilterWidgets.js" type="text/javascript"> </script><script src="/uPortal/scripts/jstree/jstree.min.js" type="text/javascript"> </script><script src="/uPortal/rs/conflict-resolution/js/resolve-conflicts.min.js" type="text/javascript"> </script><script src="/uPortal/media/skins/respondr/WEX1PR1oUngKTsokfNXLAg.aggr.min.js" type="text/javascript"> </script><link rel="shortcut icon" href="/uPortal/favicon.ico" type="image/x-icon"/><script type="text/javascript">
+    var up = up || {};
+    up.jQuery = jQuery.noConflict(true);
+    up.fluid = fluid;
+    fluid = null;
+    fluid_1_5 = null;
+    up._ = _.noConflict();
+    up._.templateSettings = {
+      interpolate : /{{=(.+?)}}/g,
+      evaluate    : /{{(.+?)}}/g,
+      escape: /{{-([\s\S]+?)}}/g
+    };
+    up.Backbone = Backbone.noConflict();
 
-        <nav class="navigation-eyebrow" aria-label="Eyebrow navigation">
-    <div class="navigation-eyebrow-inner">
-        <ul class="eyebrow-list">
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://maps.uic.edu/">Map</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uic.edu/apps/departments-az/search">Directory</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/about/contact-us">Contact Us</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://library.uic.edu/">Library</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uicflames.com/">Athletics</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/life-at-uic/current-students">Current Students</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/life-at-uic/faculty-and-staff">Faculty and Staff</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://hospital.uillinois.edu/">UI Health</a></li>
-                                        <li class="eyebrow-list-item eyebrow-button"><a class="eyebrow-list-anchor" href="/alumni/give">Give</a></li>
-                            <li class="eyebrow-list-item search-button-item">
-                    <button class="search-button" type="button">
-                        <svg class="search-glass" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" aria-labelledby="title"><title id="title">Expand search box</title><path d="M19.7 18.3l-5.9-5.9c1-1.3 1.6-2.9 1.6-4.7C15.4 3.5 12 0 7.7 0S0 3.4 0 7.7c0 4.2 3.4 7.7 7.7 7.7 1.8 0 3.4-.6 4.7-1.6l5.9 5.9c.2.2.4.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4zM2 7.7C2 4.6 4.6 2 7.7 2s5.7 2.6 5.7 5.7-2.5 5.7-5.7 5.7C4.6 13.4 2 10.8 2 7.7z"/></svg>                    </button>
-                </li>
-        </ul>
-        <div class="search-input-container">
-            <form method="get" action="/search" role="search">
-                <input type="text" name="q" class="search-input" placeholder="Search..." disabled tabindex="-1" aria-label="Search">
-                <input type="submit" class="submit-button" name="search" value="Submit">
-            </form>
+    // fix console.log in IE8,9.  Though we don't commit to supporting these IE versions, this minor fix allows
+    // these browsers to work better.
+    if (!window.console) window.console = {};
+    if (!window.console.log) window.console.log = function() {};
+    if (!window.console.trace) window.console.trace = function() {};
+
+    (function($) {
+      $(function() {
+        var navMenuToggle = function() {
+          var menu = $(".portal-nav .menu"), menuToggle = $("#up-sticky-nav .menu-toggle");
+          // Toggle the nav visibility when the button is clicked.
+          menuToggle.click(function() {
+            // console.log("Handler for .click() called.");
+            // Open and animate the offcanvas
+            $('.row-offcanvas').toggleClass('active');
+            // show the nav
+            // menu.toggleClass("show");
+            // scroll top
+            $('html, body').animate({
+                scrollTop: 0
+            });
+            // animate the hamburger to an arrow
+            $('.hamburger').toggleClass("is-active");
+            return false;
+          });
+          // Console for debugging.
+          console.log("menu", menu, "menuToggle", menuToggle);
+        }
+
+        navMenuToggle();
+      });
+
+      $(document).ready(function() {
+          if (up.lightboxConfig) {
+            up.lightboxConfig.init();
+          }
+
+          // Unhide the portlet's options menu if there are option items to display.
+          $('div.portlet-options-menu').has('li').removeClass('hidden');
+
+          // If portlet chrome is configured to not show (shows on hover) and the portlet is not movable, the portlet chrome
+          // is hidden.  However if there are option items to display, allow the portlet chrome to show on hover.
+          $('div.hover-toolbar').filter('.hidden').has('li').removeClass('hidden');
+
+          // Attach behavior to the Move Portlet options menu
+          $('.portlet-options-menu .up-portlet-control.move').click(function() {
+             // If Move Portlet, unhide the grab handle and change the menu text
+             if ($(this).text() === $(this).attr('data-move-text')) {
+                $(this).parents('.up-portlet-titlebar').find('.grab-handle').removeClass('hidden');
+                $(this).text($(this).attr('data-cancel-move-text'));
+             } else {
+                // Else cancel the move by hiding the grab handle and reverting the text
+                $(this).parents('.up-portlet-titlebar').find('.grab-handle').addClass('hidden');
+                $(this).text($(this).attr('data-move-text'));
+             }
+          })
+      });
+
+    })(up.jQuery);
+  </script>
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/uPortal/media/skins/respondr/skin1280644432.css"/>
+
+<script src="/uPortal/scripts/respond-1.4.2.min.js" type="text/javascript"></script></head><body class="up dashboard portal fl-theme-mist"><div class="row-offcanvas"><div id="up-notification"></div><div id="wrapper"><div id="region-page-top" class="container-fluid"><div class="row"><div class="col-sm-12"><section id="portlet_u18l1n110" class="up-portlet-wrapper dynamic-respondr-skin">
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Generate a CONFIG URL where appropriate -->
+
+</section></div></div></div><header class="portal-header" role="banner"><div id="up-sticky-nav" class="container-fluid"><div class="portal-global row"><a href="javascript:void(0);" tabindex="0" class="menu-toggle pull-left" aria-label="Menu" role="button" title="Menu" data-toggle="offcanvas" aria-expanded="false" aria-haspopup="true" aria-controls="sidebar"><div class="hamburger hamburger-arrow"><div class="hamburger-box"><div class="hamburger-inner"></div></div></div></a><div id="region-pre-header" class="portal-user"><section id="portlet_u20l1n8" class="up-portlet-wrapper login-launcher">
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="webLoginContainer" class="fl-widget portal-login">
+  <div class="fl-widget-inner">
+    <div class="fl-widget-content">
+        <div id="portalLoginLink" class="fl-widget-content">
+            <a id="portalLoginLink" class="btn" title="Sign In" href="https://my.uic.edu/Shibboleth.sso/Login?target=https://my.uic.edu/uPortal/Login">Sign In</a>
         </div>
     </div>
-</nav>
-
-        <nav class="navigation-primary" aria-label="Primary navigation">
-    <div class="navigation-primary-inner">
-                <div class="circle-logo-container">
-            <a href="/">
-                <svg class="circle-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M36.5 17.3L33.1 19c-.3-1.3-1-2-2.3-2-1.7 0-2.5 1.4-2.5 3.6s.8 3.6 2.5 3.6c1.2 0 1.8-.6 2.2-1.6l3.5 1.3c-.9 2.1-2.8 3.5-5.8 3.5-4.1 0-6.5-2.8-6.5-6.8s2.5-6.8 6.6-6.8c3.2.1 5 1.8 5.7 3.5m-14.1 9.8h-3.9v-13h3.9v13zm-6.3-5.3c0 1.8-.2 2.7-.7 3.6-.9 1.4-3.2 2-5.2 2s-4.3-.6-5.2-2c-.5-.9-.7-1.8-.7-3.6v-7.7h3.9v7.8c0 .9.1 1.5.4 1.8.3.4.8.5 1.5.5s1.2-.2 1.5-.5c.3-.4.4-1 .4-1.8v-7.8h3.9v7.7zM40 20C40 9 31 0 20 0S0 9 0 20s9 20 20 20 20-9 20-20"/></svg>
-<span>University of Illinois at Chicago</span>            </a>
-        </div>
-                            <ul class="primary-nav-list">
-    <button class="menu-toggle" type="button" tabindex="-1">
-        <div class="menu-toggle-icon"></div>
-        <span>Expand menu</span>
-    </button>
-    <div class="menu-label-item"><span class="menu-label">Menu</span></div>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/admissions-aid">Admissions &amp; Aid</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/visit-campus">Visit Campus</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/paying-for-college">Paying for College</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/academics">Academics</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/programs-of-study">Programs of Study</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/colleges-schools">Colleges &amp; Schools</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/student-support">Student Support</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/research">Research</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-impact">Research Impact</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-strengths">Research Strengths</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/resources-facilities">Resources &amp; Facilities</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/student-research">Student Research</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item">
-            <a class="primary-list-anchor" href="/life-at-uic">Life at UIC</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/living-on-around-campus">Living On &amp; Around Campus</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/campus-resources">Campus Resources</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/current-students">Current Students</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/faculty-and-staff">Faculty and Staff</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/chicago">Chicago</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/exploring-chicago">Exploring Chicago</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/city-transportation">City Transportation</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/essential-chicago">Essential Chicago</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/alumni">Alumni</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/connect">Connect</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/engage">Engage</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/give">Give</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/about">About</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/visit-directions">Visit &amp; Directions</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/history">History</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/leadership">Leadership</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/public-media-resources">Public &amp; Media Resources</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/job-opportunities">Job Opportunities</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/contact-us">Contact Us</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/acerca">Acerca de la UIC (en español)</a></li>
-                                    </ul>
-                    </li>
-    </ul>            </div>
-</nav>
-
+  </div>
 </div>
-</header>
+</section></div></div></div><div class="container-fluid portal-header-main"><div class="row"><div id="region-header-left" class="col-sm-6 col-md-8 text-left"><section id="portlet_u18l1n210" class="up-portlet-wrapper portal-logo">
+<p><img alt=""
+    src="/SimpleContentPortlet/content/23211d6f-385c-4693-857a-b82d58107501/White_Logo_60.png" style="width: 65.0px;height: 65.0px;" /></p>
 
-<div class="ms-grid main">
-  <div class="ms-row">
-    <div class="m-col-1-4">
-      <nav class="navigation-sidebar" aria-label="Secondary navigation">
-      </nav>
-    </div>
-    <div class="m-col-3-4">
 
-      <nav class="breadcrumbs ms-row">
-        <div class="col-1-1">
-          <div class="red-circle" aria-hidden="true"></div>
-          <img class="first-breadcrumb-arrow" src="/images/breadcrumb-arrow.svg" aria-hidden="true" alt="Breadcrumb arrow">
-          <ul class="crumb-list">
-            <li class="crumb-item">
-                <a class="crumb-anchor active" href="/apps/find-people/search">Directory</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+</section></div><div id="region-header-right" class="col-sm-6 col-md-4 text-right"><section id="portlet_u25l1n110" class="up-portlet-wrapper search-launcher">
 
-      <main class="interior-page-intro">
-        <div class="ms-row">
-          <div class="col-1-1">
-            <h1 class="interior-page-title">Directory search</h1>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="webSearchContainer" class="fl-widget">
+    <div class="fl-widget-inner">
+      <div class="fl-widget-content">
+        
+        <form class="form-search" role="form" method="post" action="/uPortal/p/search.ctf1/normal/action.uP" id="Pluto_19_u25l1n110_11_webSearchForm">
+          <div class="input-group">
+            
+            
+            <input id="Pluto_19_u25l1n110_11_webSearchInput" class="searchInput input-large search-query form-control" value="" name="query" type="search" placeholder="Search" title="Search Terms"/>
+            <span class="input-group-btn">
+              <button id="webSearchSubmit" type="submit" name="submit" class="btn btn-default" value="Search">
+                <span>Search</span>
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </span>
           </div>
-        </div>
-
-<div class="ms-grid">
-  <div class="ms-row block-wysiwyg">
-    <div class="m-col-1-3">
-<form action="https://www.uic.edu/apps/departments-az/search" method="post">
-
-  <input type="hidden" name="dispatch" value="search" />
-  <input type="hidden" name="style" value="uic" />
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Department</span>
-      <input class="text-input" type="text" id="kwords" name="kwords">
-    </label>
-    <p class="form-help-text">
-    <em>
-      <strong>Tip</strong> Use * for wildcard search.
-    </em>
-  </p>
-  <button type="submit" class="button">Search</button>
-</form>
-</div>
-
-<div class="m-col-2-3">
- <div class="form-element">
-    <label>
-      <span class="form-element-label">Browse</span>
-    </label>
-<p>
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=A">A</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=B">B</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=C">C</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=D">D</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=E">E</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=F">F</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=G">G</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=H">H</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=I">I</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=J">J</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=K">K</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=L">L</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=M">M</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=N">N</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=O">O</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=P">P</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Q">Q</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=R">R</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=S">S</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=T">T</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=U">U</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=V">V</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=W">W</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=X">X</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Y">Y</a>&nbsp;
-<a href="https://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Z">Z</a>&nbsp;
-</p>
+        </form>
+      </div>
     </div>
-    </div>
-  </div>
 </div>
 
-<div style="height: 15px;">&nbsp;</div>
+<script type="text/javascript" src="/ResourceServingWebapp/rs/jquery/1.10.2/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/ResourceServingWebapp/rs/jqueryui/1.10.3/jquery-ui-1.10.3.min.js"></script>
+<script type="text/javascript" src="/uPortal/scripts/search/autosuggestHandler.js"></script>
+<link rel="stylesheet" type="text/css" href="/uPortal/css/search/autosuggest.css">
 
-<section role="region" class="text-block-with-large-image" aria-label="Campus Units Beginning with Z">
-<div class="ms-row title-row">
-  <div class="col-1-1">
-    <h2 id="Z" class="interior-section-header">Campus Units Beginning with Z</h2>
-  </div>
+<script language="javascript" type="text/javascript">var searchjQ=searchjQ||{};searchjQ.Pluto_19_u25l1n110_11_=searchjQ.Pluto_19_u25l1n110_11_||{};searchjQ.Pluto_19_u25l1n110_11_.jQuery=jQuery.noConflict(true);searchjQ.Pluto_19_u25l1n110_11_.jQuery(document).ready(function(){initSearchAuto(searchjQ.Pluto_19_u25l1n110_11_.jQuery,{searchFieldSelector:"#Pluto_19_u25l1n110_11_webSearchInput",prepopulateAutoSuggestUrl:"/uPortal/api/portletList",prepopulateUrlPattern:"/uPortal/p/$fname/max",autoSuggestResultsProcessor:"portletListProcessor",autoSuggestSearchUrl:"/uPortal/p/search.ctf1/normal/retrieveSearchJSONResults.resource.uP"});});searchjQ.Pluto_19_u25l1n110_11_.jQuery("#Pluto_19_u25l1n110_11_webSearchForm").submit(function(a){if(searchjQ.Pluto_19_u25l1n110_11_.jQuery("#Pluto_19_u25l1n110_11_webSearchInput").val().trim().length==0){a.preventDefault();}else{document.getElementById("webSearchSubmit").disabled=1;}});</script>
+</section></div></div></div><nav class="portal-nav"><div id="sidebar" class="sidebar-offcanvas container-fluid"><div id="portalNavigation" class="fl-widget"><div id="portalNavigationInner" class="fl-widget-inner header"><ul id="portalNavigationList" class="menu fl-tabs flc-reorderer-column list-group list-group-horizontal"><li id="portalNavigation_u20l1s1000" class="portal-navigation single active fl-tabs-active locked      list-group-item"><a id="tabLink_u20l1s1000" href="/uPortal/f/welcome/normal/render.uP" title="Welcome" class="portal-navigation-link  "><span title="" class="portal-navigation-label ">Welcome</span><i class="fa fa-chevron-right visible-xs"></i></a></li></ul></div></div></div></nav></header><div id="portalPageBody" class="portal-content" role="main"><div class="container-fluid"><div class="row"><div class="col-md-12"><div class="row"><div id="portalPageBodyMessage" class="col-md-12"></div></div><div id="portalPageBodyColumns" class="row"><div id="column_u20l1s1100" class="portal-page-column column-1 col-md-3     "><div id="inner-column_u20l1s1100" class="portal-page-column-inner"><section id="portlet_u20l1n1232" class="up-portlet-wrapper instructions-login locked     "><div class="modal fade" id="ratePortletModalu20l1n1232" tabindex="-1" role="dialog" aria-labelledby="RatingModal" aria-hidden="true" data-title="Rate Instructions Login" data-close.button.label="Close" data-save.button.label="Save &amp; Close" data-geturl="/uPortal/p/portletmarketplace.ctf2/normal/getRating.resource.uP?pP_portletFName=instructions-login" data-saveurl="/uPortal/p/portletmarketplace.ctf2/normal/saveRating.resource.uP?pP_portletFName=instructions-login" data-get.rating.unsucessful="Sorry, your previous rating of the portlet could not be retrieved" data-rating.save.successful="Your rating is much appreciated" data-rating.save.unsuccessful="Your rating did not save.  Please try again!" data-rating.instructions.unrated="You have not yet rated Instructions Login. Share a rating if you wish." data-rating.instructions.rated="You have already rated Instructions Login. You may update your rating if you wish."></div><script type="text/javascript">
+            (function($) {
+                $( document ).ready(function() {
+                    $('#ratePortletModalu20l1n1232').createRatingModal();
+                    $('#ratePortletModalu20l1n1232').find('input').rating();
+                });
+            })(up.jQuery);
+        </script><div class="up-portlet-wrapper-inner"><div id="toolbar_u20l1n1232" class="fl-widget-titlebar up-portlet-titlebar up-standard-chrome round-top"><h2 class="portlet-title round-top"><a id="u20l1n1232" href="/uPortal/f/welcome/p/instructions-login.u20l1n1232/max/render.uP?pCp">Instructions Login</a><div class="portlet-controls"><div class="grab-handle hidden"><i class="fa fa-arrows"></i></div><div class="portlet-options-menu btn-group hidden"><a class="btn btn-link dropdown-toggle" data-toggle="dropdown" title="Options" href="javascript:void(0);">Options<span class="caret"></span></a><ul class="dropdown-menu" style="right: 0; left: auto;"><li><a href="/uPortal/f/welcome/p/instructions-login.u20l1n1232/max/render.uP?pCp" title="Enter maximized mode for this portlet" class="up-portlet-control focus">Maximize</a></li><li><a href="/uPortal/f/welcome/normal/render.uP?pCt=instructions-login.u20l1n1232&amp;pCs=minimized&amp;pCp" title="Enter minimized mode for this portlet" class="up-portlet-control hide-content">Minimize</a></li></ul></div></div></h2></div><div id="portletContent_u20l1n1232" class="fl-widget-content fl-fix up-portlet-content-wrapper round-bottom"><div class="up-portlet-content-wrapper-inner">
+<div class="row">
+<div class="col-md-12" style="background-color: rgb(0,0,0);">&nbsp;</div>
 </div>
 
-<div class="ms-row text-row">
-  <div class="col-1-1 block-wysiwyg">
+
+<p>&nbsp;</p>
+
+
+<p><strong>Log in to the my.UIC.edu portal: </strong><a
+        href="https://my.uic.edu/Shibboleth.sso/Login?target=https://my.uic.edu/uPortal/Login"><strong><font color="#0066cc">Login</font></strong></a></p>
+
+
+<p><strong>Welcome to UIC!</strong> Once you activate your UIC NetID and password, use it to access most authenticated University of Illinois computing and networking services (e.g., Self-Service Enterprise applications like Student Registration &amp; Records, Financial Aid) as well as UIC campus-based services like email, Blackboard, Wifi and computer labs.</p>
+
+
+<p><strong>One NetID. One Password.</strong> Your new NetID is a unique identifier assigned to you. It becomes part of your UIC email address (<b>NetID@uic.edu</b>) and is your login name for these services.</p>
+
+
+<p>A secure and well-managed password is key to protecting your access to University of Illinois computing resources. The activation process includes setting up password recovery options for self-service management so that you will be prepared, in advance, if you need to recover your password.</p>
+
+
+<hr />
+
+<p><strong>First Time User:&nbsp;</strong><a href="https://ossswebcs4.admin.uillinois.edu/PORTAL_UIC/myuic/newstudent.html"><strong>Activate your NetId</strong></a></p>
+
+
+
+<p><b>Are you a new UIC employee?</b> You will create your NetID and password in <b><a
+      href="https://newhire.uihr.uillinois.edu/cf/newlog.cfm" target="_blank">UI New Hire</a></b>.</p>
+
+
+
+<p><strong>Already have a UIC NetID and password?</strong> Go to: <b><a
+      href="https://password.uic.edu/" target="_blank">password.uic.edu</a></b></p>
+
+
+<p><b>Click here if you have forgotten your password: <a href="https://identity.uillinois.edu/iamFrontEnd/iam/start">Password</a></b></p>
+
+
+</div></div></div></section></div></div><div id="column_u20l1s1200" class="portal-page-column column-2 col-md-6     "><div id="inner-column_u20l1s1200" class="portal-page-column-inner"><section id="portlet_u20l1n1305" class="up-portlet-wrapper campus-image locked   no-chrome  "><div class="modal fade" id="ratePortletModalu20l1n1305" tabindex="-1" role="dialog" aria-labelledby="RatingModal" aria-hidden="true" data-title="Rate Campus Image" data-close.button.label="Close" data-save.button.label="Save &amp; Close" data-geturl="/uPortal/p/portletmarketplace.ctf2/normal/getRating.resource.uP?pP_portletFName=campus-image" data-saveurl="/uPortal/p/portletmarketplace.ctf2/normal/saveRating.resource.uP?pP_portletFName=campus-image" data-get.rating.unsucessful="Sorry, your previous rating of the portlet could not be retrieved" data-rating.save.successful="Your rating is much appreciated" data-rating.save.unsuccessful="Your rating did not save.  Please try again!" data-rating.instructions.unrated="You have not yet rated Campus Image. Share a rating if you wish." data-rating.instructions.rated="You have already rated Campus Image. You may update your rating if you wish."></div><script type="text/javascript">
+            (function($) {
+                $( document ).ready(function() {
+                    $('#ratePortletModalu20l1n1305').createRatingModal();
+                    $('#ratePortletModalu20l1n1305').find('input').rating();
+                });
+            })(up.jQuery);
+        </script><div class="up-portlet-wrapper-inner no-chrome"><div id="toolbar_u20l1n1305" class="up-portlet-titlebar hover-toolbar hidden"><div class="portlet-controls"><div class="grab-handle hidden"><i class="fa fa-arrows"></i></div><div class="portlet-options-menu btn-group hidden"><a class="btn btn-link dropdown-toggle" data-toggle="dropdown" title="Options" href="javascript:void(0);"><i class="fa fa-bars"></i></a><ul class="dropdown-menu" style="right: 0; left: auto;"><li><a href="/uPortal/f/welcome/p/campus-image.u20l1n1305/max/render.uP?pCp" title="Enter maximized mode for this portlet" class="up-portlet-control focus">Maximize</a></li><li><a href="/uPortal/f/welcome/normal/render.uP?pCt=campus-image.u20l1n1305&amp;pCs=minimized&amp;pCp" title="Enter minimized mode for this portlet" class="up-portlet-control hide-content">Minimize</a></li></ul></div></div></div><div id="portletContent_u20l1n1305" class="up-portlet-content-wrapper"><div class="up-portlet-content-wrapper-inner">
+<p><img alt="UIC Winterscape" class="img-responsive" src="/SimpleContentPortlet/content/5c60768f-607d-45ec-8261-4d7a2a3c0f47/winter2.jpg" /></p>
+
+
+</div></div></div></section><section id="portlet_u20l1n1236" class="up-portlet-wrapper my-uic-edu-features locked     "><div class="modal fade" id="ratePortletModalu20l1n1236" tabindex="-1" role="dialog" aria-labelledby="RatingModal" aria-hidden="true" data-title="Rate my.uic.edu  - Features" data-close.button.label="Close" data-save.button.label="Save &amp; Close" data-geturl="/uPortal/p/portletmarketplace.ctf2/normal/getRating.resource.uP?pP_portletFName=my-uic-edu-features" data-saveurl="/uPortal/p/portletmarketplace.ctf2/normal/saveRating.resource.uP?pP_portletFName=my-uic-edu-features" data-get.rating.unsucessful="Sorry, your previous rating of the portlet could not be retrieved" data-rating.save.successful="Your rating is much appreciated" data-rating.save.unsuccessful="Your rating did not save.  Please try again!" data-rating.instructions.unrated="You have not yet rated my.uic.edu  - Features. Share a rating if you wish." data-rating.instructions.rated="You have already rated my.uic.edu  - Features. You may update your rating if you wish."></div><script type="text/javascript">
+            (function($) {
+                $( document ).ready(function() {
+                    $('#ratePortletModalu20l1n1236').createRatingModal();
+                    $('#ratePortletModalu20l1n1236').find('input').rating();
+                });
+            })(up.jQuery);
+        </script><div class="up-portlet-wrapper-inner"><div id="toolbar_u20l1n1236" class="fl-widget-titlebar up-portlet-titlebar up-standard-chrome round-top"><h2 class="portlet-title round-top"><a id="u20l1n1236" href="/uPortal/f/welcome/p/my-uic-edu-features.u20l1n1236/max/render.uP?pCp">my.uic.edu  - Features</a><div class="portlet-controls"><div class="grab-handle hidden"><i class="fa fa-arrows"></i></div><div class="portlet-options-menu btn-group hidden"><a class="btn btn-link dropdown-toggle" data-toggle="dropdown" title="Options" href="javascript:void(0);">Options<span class="caret"></span></a><ul class="dropdown-menu" style="right: 0; left: auto;"><li><a href="/uPortal/f/welcome/p/my-uic-edu-features.u20l1n1236/max/render.uP?pCp" title="Enter maximized mode for this portlet" class="up-portlet-control focus">Maximize</a></li><li><a href="/uPortal/f/welcome/normal/render.uP?pCt=my-uic-edu-features.u20l1n1236&amp;pCs=minimized&amp;pCp" title="Enter minimized mode for this portlet" class="up-portlet-control hide-content">Minimize</a></li></ul></div></div></h2></div><div id="portletContent_u20l1n1236" class="fl-widget-content fl-fix up-portlet-content-wrapper round-bottom"><div class="up-portlet-content-wrapper-inner">
+<div class="row">
+<div class="col-md-12" style="background-color: rgb(0,0,0);">&nbsp;</div>
+</div>
+
+
+<p style="text-align: center;"><span style="font-size: 20.0px;"><strong>New Features</strong></span></p>
+
+
+<p>The portal (my.uic.edu) has been redesigned with input from Students, Faculty and Staff. The changes and new features in the portal are:</p>
+
 
 <ul>
+	<li>There is only one tab level, reducing the number of clicks to access various systems.</li>
+	<li>Single Sign On for both Enterprise Applications (Registration, Grades, etc.) or Bluestem/Shibboleth Applications (email, Blackboard, etc.)</li>
+	<li>The most commonly used features are now on the Welcome tab (landing page).</li>
+	<li>Mobile friendly.</li>
+	<li>You can add any portlet to your &quot;My Favorites&quot;</li>
+	<li>There are fewer tabs: <strong>Welcome</strong> has the most commonly used functions; <strong>Student</strong> has all of the student functions; <strong>Student Services</strong> lists services on one tab; <strong>Help</strong> lists the support contacts.</li>
 </ul>
 
-  <div>
-<div>
-</section>
 
-<div class="ms-grid" style="margin-top: 40px;">
-  <div class="ms-row block-wysiwyg">
-    <div class="m-col-1-3">
-        <form method="get" action="/apps/find-people/search">
+<p>&nbsp;</p>
 
-<div class="form-element"> 
-	<h2>Individuals</h2>
+
+</div></div></div></section></div></div><div id="column_u20l1s1318" class="portal-page-column column-3 col-md-3     "><div id="inner-column_u20l1s1318" class="portal-page-column-inner"><section id="portlet_u20l1n1354" class="up-portlet-wrapper my-uic-edu-announcements locked     "><div class="modal fade" id="ratePortletModalu20l1n1354" tabindex="-1" role="dialog" aria-labelledby="RatingModal" aria-hidden="true" data-title="Rate my.UIC.edu Announcements" data-close.button.label="Close" data-save.button.label="Save &amp; Close" data-geturl="/uPortal/p/portletmarketplace.ctf2/normal/getRating.resource.uP?pP_portletFName=my-uic-edu-announcements" data-saveurl="/uPortal/p/portletmarketplace.ctf2/normal/saveRating.resource.uP?pP_portletFName=my-uic-edu-announcements" data-get.rating.unsucessful="Sorry, your previous rating of the portlet could not be retrieved" data-rating.save.successful="Your rating is much appreciated" data-rating.save.unsuccessful="Your rating did not save.  Please try again!" data-rating.instructions.unrated="You have not yet rated my.UIC.edu Announcements. Share a rating if you wish." data-rating.instructions.rated="You have already rated my.UIC.edu Announcements. You may update your rating if you wish."></div><script type="text/javascript">
+            (function($) {
+                $( document ).ready(function() {
+                    $('#ratePortletModalu20l1n1354').createRatingModal();
+                    $('#ratePortletModalu20l1n1354').find('input').rating();
+                });
+            })(up.jQuery);
+        </script><div class="up-portlet-wrapper-inner"><div id="toolbar_u20l1n1354" class="fl-widget-titlebar up-portlet-titlebar up-standard-chrome round-top"><h2 class="portlet-title round-top"><a id="u20l1n1354" href="/uPortal/f/welcome/p/my-uic-edu-announcements.u20l1n1354/max/render.uP?pCp">my.UIC.edu Announcements</a><div class="portlet-controls"><div class="grab-handle hidden"><i class="fa fa-arrows"></i></div><div class="portlet-options-menu btn-group hidden"><a class="btn btn-link dropdown-toggle" data-toggle="dropdown" title="Options" href="javascript:void(0);">Options<span class="caret"></span></a><ul class="dropdown-menu" style="right: 0; left: auto;"><li><a href="/uPortal/f/welcome/p/my-uic-edu-announcements.u20l1n1354/max/render.uP?pCp" title="Enter maximized mode for this portlet" class="up-portlet-control focus">Maximize</a></li><li><a href="/uPortal/f/welcome/normal/render.uP?pCt=my-uic-edu-announcements.u20l1n1354&amp;pCs=minimized&amp;pCp" title="Enter minimized mode for this portlet" class="up-portlet-control hide-content">Minimize</a></li></ul></div></div></h2></div><div id="portletContent_u20l1n1354" class="fl-widget-content fl-fix up-portlet-content-wrapper round-bottom"><div class="up-portlet-content-wrapper-inner">
+<div class="alert alert-warning" role="alert">There are no announcements at this time.</div>
+<!--<div class="alert alert-warning" role="alert">
+<h3>my.UIC Maintenance, Thursday March 26</h3>
+
+<p>my.UIC will be unavailable between approximately 6pm to 8pm for maintenance on Thursday, March 26.</p>
+</div>
+--></div></div></div></section><section id="portlet_u20l1n1249" class="up-portlet-wrapper my-uic-edu-resources locked     "><div class="modal fade" id="ratePortletModalu20l1n1249" tabindex="-1" role="dialog" aria-labelledby="RatingModal" aria-hidden="true" data-title="Rate my.uic.edu - Resources" data-close.button.label="Close" data-save.button.label="Save &amp; Close" data-geturl="/uPortal/p/portletmarketplace.ctf2/normal/getRating.resource.uP?pP_portletFName=my-uic-edu-resources" data-saveurl="/uPortal/p/portletmarketplace.ctf2/normal/saveRating.resource.uP?pP_portletFName=my-uic-edu-resources" data-get.rating.unsucessful="Sorry, your previous rating of the portlet could not be retrieved" data-rating.save.successful="Your rating is much appreciated" data-rating.save.unsuccessful="Your rating did not save.  Please try again!" data-rating.instructions.unrated="You have not yet rated my.uic.edu - Resources. Share a rating if you wish." data-rating.instructions.rated="You have already rated my.uic.edu - Resources. You may update your rating if you wish."></div><script type="text/javascript">
+            (function($) {
+                $( document ).ready(function() {
+                    $('#ratePortletModalu20l1n1249').createRatingModal();
+                    $('#ratePortletModalu20l1n1249').find('input').rating();
+                });
+            })(up.jQuery);
+        </script><div class="up-portlet-wrapper-inner"><div id="toolbar_u20l1n1249" class="fl-widget-titlebar up-portlet-titlebar up-standard-chrome round-top"><h2 class="portlet-title round-top"><a id="u20l1n1249" href="/uPortal/f/welcome/p/my-uic-edu-resources.u20l1n1249/max/render.uP?pCp">my.uic.edu - Resources</a><div class="portlet-controls"><div class="grab-handle hidden"><i class="fa fa-arrows"></i></div><div class="portlet-options-menu btn-group hidden"><a class="btn btn-link dropdown-toggle" data-toggle="dropdown" title="Options" href="javascript:void(0);">Options<span class="caret"></span></a><ul class="dropdown-menu" style="right: 0; left: auto;"><li><a href="/uPortal/f/welcome/p/my-uic-edu-resources.u20l1n1249/max/render.uP?pCp" title="Enter maximized mode for this portlet" class="up-portlet-control focus">Maximize</a></li><li><a href="/uPortal/f/welcome/normal/render.uP?pCt=my-uic-edu-resources.u20l1n1249&amp;pCs=minimized&amp;pCp" title="Enter minimized mode for this portlet" class="up-portlet-control hide-content">Minimize</a></li></ul></div></div></h2></div><div id="portletContent_u20l1n1249" class="fl-widget-content fl-fix up-portlet-content-wrapper round-bottom"><div class="up-portlet-content-wrapper-inner">
+<p><a href="https://registrar.uic.edu/student_records/transcripts/" target="_new">Alumni and Former UIC Students - Request a Transcript</a></p>
+
+
+<p><a
+    href="https://ossswebcs4.admin.uillinois.edu/PORTAL_UIC/finaidawdltrinstr.html" target="_new">Electronic Financial Aid Notification</a></p>
+
+
+<p><a
+    href="https://ossswebcs4.admin.uillinois.edu/PORTAL_UIC/faqsnewportal.html" target="_new">FAQ</a></p>
+
+
+<p><a
+    href="https://ossswebcs4.admin.uillinois.edu/PORTAL_UIC/myuic/Intenttoenroll1.html" target="_new">Intent to Enroll</a></p>
+
+
+<p><a href="https://admissions.uic.edu/explore-uic" target="_new">Parent or Guidance Counselors </a></p>
+
+
+<p><a
+    href="https://ossswebcs4.admin.uillinois.edu/PORTAL_UIC/myuic/classschedule.html" target="_new">Class Schedule</a></p>
+
+
+<p><a
+    href="https://ossswebcs4.admin.uillinois.edu/PORTAL_UIC/myuic/scheduletools.html" target="_new">Scheduling Tools</a></p>
+
+
+<p><a
+    href="https://ossswebcs4.admin.uillinois.edu/PORTAL_UIC/HELP_LOGIN_POP.php" target="_new">Support / Help</a></p>
+
+
+<p><a
+    href="https://ossswebcs4.admin.uillinois.edu/portal_UIC/learninghub.html" target="_new">The Learning Hub</a></p>
+
+
+</div></div></div></section><section id="portlet_u20l1n1254" class="up-portlet-wrapper university-links locked     "><div class="modal fade" id="ratePortletModalu20l1n1254" tabindex="-1" role="dialog" aria-labelledby="RatingModal" aria-hidden="true" data-title="Rate University Links" data-close.button.label="Close" data-save.button.label="Save &amp; Close" data-geturl="/uPortal/p/portletmarketplace.ctf2/normal/getRating.resource.uP?pP_portletFName=university-links" data-saveurl="/uPortal/p/portletmarketplace.ctf2/normal/saveRating.resource.uP?pP_portletFName=university-links" data-get.rating.unsucessful="Sorry, your previous rating of the portlet could not be retrieved" data-rating.save.successful="Your rating is much appreciated" data-rating.save.unsuccessful="Your rating did not save.  Please try again!" data-rating.instructions.unrated="You have not yet rated University Links. Share a rating if you wish." data-rating.instructions.rated="You have already rated University Links. You may update your rating if you wish."></div><script type="text/javascript">
+            (function($) {
+                $( document ).ready(function() {
+                    $('#ratePortletModalu20l1n1254').createRatingModal();
+                    $('#ratePortletModalu20l1n1254').find('input').rating();
+                });
+            })(up.jQuery);
+        </script><div class="up-portlet-wrapper-inner"><div id="toolbar_u20l1n1254" class="fl-widget-titlebar up-portlet-titlebar up-standard-chrome round-top"><h2 class="portlet-title round-top"><a id="u20l1n1254" href="/uPortal/f/welcome/p/university-links.u20l1n1254/max/render.uP?pCp">University Links</a><div class="portlet-controls"><div class="grab-handle hidden"><i class="fa fa-arrows"></i></div><div class="portlet-options-menu btn-group hidden"><a class="btn btn-link dropdown-toggle" data-toggle="dropdown" title="Options" href="javascript:void(0);">Options<span class="caret"></span></a><ul class="dropdown-menu" style="right: 0; left: auto;"><li><a href="/uPortal/f/welcome/p/university-links.u20l1n1254/max/render.uP?pCp" title="Enter maximized mode for this portlet" class="up-portlet-control focus">Maximize</a></li><li><a href="/uPortal/f/welcome/normal/render.uP?pCt=university-links.u20l1n1254&amp;pCs=minimized&amp;pCp" title="Enter minimized mode for this portlet" class="up-portlet-control hide-content">Minimize</a></li></ul></div></div></h2></div><div id="portletContent_u20l1n1254" class="fl-widget-content fl-fix up-portlet-content-wrapper round-bottom"><div class="up-portlet-content-wrapper-inner">
+<p><a href="http://www.uic.edu/academics" target="_new">Academics</a>&nbsp;</p>
+
+
+<p><a href="http://www.uic.edu/admissions-aid" target="_new">Admissions</a></p>
+
+
+<p><a href="http://www.uic.edu/chicago" target="_new">Chicago</a>&nbsp;</p>
+
+
+<p><a href="http://www.uic.edu/about/contact-us" target="_new">Contact us</a></p>
+
+
+<p><a href="http://www.uic.edu/apps/departments-az/search" target="_new">Directory</a>&nbsp;</p>
+
+
+<p><a href="http://www.uic.edu/life-at-uic" target="_new">Life At UIC</a></p>
+
+
+<p><a href="http://maps.uic.edu/" target="_new">Maps</a></p>
+
+
+<p><a
+    href="https://myuic.apps.uillinois.edu/uPortal/f/s1021/p/uic-alumni-information.n1050/max/render.uP?pCp" target="_self">UIC Alumni</a></p>
+
+
+</div></div></div></section></div></div></div></div></div></div></div><footer id="region-footer-first"><div class="container-fluid"><a name="sitemap"></a><div class="row"><div class="col-md-3"><h4><a href="/uPortal/f/welcome/normal/render.uP" class="">Welcome</a></h4><ul><li><a href="/uPortal/f/welcome/p/instructions-login.u20l1n1232/max/render.uP">Instructions Login</a></li><li><a href="/uPortal/f/welcome/p/campus-image.u20l1n1305/max/render.uP">Campus Image</a></li><li><a href="/uPortal/f/welcome/p/my-uic-edu-features.u20l1n1236/max/render.uP">my.uic.edu  - Features</a></li><li><a href="/uPortal/f/welcome/p/my-uic-edu-announcements.u20l1n1354/max/render.uP">my.UIC.edu Announcements</a></li><li><a href="/uPortal/f/welcome/p/my-uic-edu-resources.u20l1n1249/max/render.uP">my.uic.edu - Resources</a></li><li><a href="/uPortal/f/welcome/p/university-links.u20l1n1254/max/render.uP">University Links</a></li></ul></div></div></div></footer><footer id="region-footer-second" role="contentinfo"><section id="portlet_u25l1n510" class="up-portlet-wrapper legal-footer">
+<div class="container-fluid legal-footer">
+<div><a
+      href="http://www.apereo.org/uportal"
+      target="_blank">Powered by uPortal</a>, an open-source project by <a
+      href="http://www.apereo.org"
+      title="Apereo.org - Serving the Academic Mission">Apereo</a></div>
+
+<div><a
+      href="http://www.apereo.org/uportal/about/license" target="_blank"
+      title="uPortal">uPortal</a> is licensed under the <a
+      href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank"
+      title="Apache License, Version 2.0">Apache License, Version 2.0</a> as approved by the Open Source Initiative (OSI), an <a
+      href="http://www.opensource.org/docs/osd" target="_blank"
+      title="OSI-certified">OSI-certified</a> (&quot;open&quot;) and <a
+      href="http://www.gnu.org/licenses/license-list.html"
+      target="_blank"
+      title="Gnu/FSF-recognized">Gnu/FSF-recognized</a> (&quot;free&quot;) license.</div>
+
+<div>&copy; 2018 The Board of Trustees of the University of Illinois | <a
+      href="https://www.vpaa.uillinois.edu/resources/web_privacy" target="_blank">Privacy policy</a></div>
 </div>
 
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Last name</span>
-      <input class="text-input" type="text" id="lastname" name="lastname">
-    </label>
-  </div>
 
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">First name</span>
-      <input class="text-input" type="text" id="firstname" name="firstname">
-    </label>
-  </div>
+</section></footer><div id="region-page-bottom" class="container-fluid"><div class="row"><div class="col-sm-12"><section id="portlet_u25l1n610" class="up-portlet-wrapper attachments">
 
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">NetID</span>
-      <input class="text-input" type="text" id="netid" name="netid">
-    </label>
-  </div>
 
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Department</span>
-      <input class="text-input" type="text" id="department" name="department">
-    </label>
-  </div>
 
-  <button type="submit" class="button">Search</button>
 
-  <p class="form-help-text" style="margin-top: 15px;">
-    <em>
-      <strong>Tip</strong> Typing "Lee" into the Last Name
-      field will retrieve too many entries to print. But, adding
-      "R" to the First Name will narrow the search.
-    </em>
-  </p>
 
-</form>
 
-    </div>
 
-    <div class="m-col-2-3">
-        <form method="get" action="//www.uic.edu/apps/departments-az/search">
 
-<div class="form-element">
-<h2>Departments</h2>
-</div>
 
-  <div class="form-element">
-<span class="form-element-label">Browse</span>
-<p>
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=A">A</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=B">B</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=C">C</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=D">D</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=E">E</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=F">F</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=G">G</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=H">H</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=I">I</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=J">J</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=K">K</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=L">L</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=M">M</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=N">N</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=O">O</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=P">P</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Q">Q</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=R">R</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=S">S</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=T">T</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=U">U</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=V">V</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=W">W</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=X">X</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Y">Y</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Z">Z</a>&nbsp;
-    </p>
-  </div>
 
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Department</span>
-      <input class="text-input" type="text" id="kwords" name="kwords">
-    </label>
-  </div>
 
-  <input type="hidden" name="dispatch" value="search" />
-  <button type="submit" class="button">Search</button>
 
-  <p class="form-help-text" style="margin-top: 15px;">
-    <em>
-      <strong>Tip</strong>
-      Search for contact information for a specific department
-      or just select Department Search to browse the unit listing.
-    </em>
-  </p>
-</form>
 
-    </div>
-  </div>
-</div>
 
-      </main>
-    </div>
-  </div>
-</div>
 
-<footer class="footer">
-    <div class="footer-content" style="background-image: url(/images/footer.jpg)">
-        <div class="ms-grid">
-            <div class="ms-row">
-                <div class="s-col-1-2 m-col-1-4 l-col-3-12 footer-brand-address">
-                                            <img class="footer-brand" src="/images/footer-brand-mark.svg" alt="The University of Illinois at Chicago" aria-hidden="true">
-                                        <div class="footer-address">
-                        <div><strong>1200 West Harrison St.</strong></div>
-                        <div>Chicago, Illinois 60607</div>
-                        <div>312-996-7000</div>
+
+
+
+<script src="/SimpleContentPortlet/js/fineuploader/fineuploader-3.3.0.js"></script>
+<link rel="stylesheet" type="text/css" href="/SimpleContentPortlet/js/fineuploader/fineuploader-3.3.0.css" />
+<link rel="stylesheet" type="text/css" href="/SimpleContentPortlet/css/attachments.css" />
+
+<div id="Pluto_38_u25l1n610_11_attachments">
+    <div class="lb_backdrop"></div>
+    <div class="lb_container">
+        <div class="fl-widget portlet" role="section">
+            <div class="fl-widget-titlebar portlet-title" role="sectionhead">
+                <h2 role="heading">Attachments</h2>
+            </div> <!-- end: portlet-title -->
+            <div class="fl-widget-content portlet-body" role="main">
+                <div class="portlet-section" role="region">
+                    <div class="lb_body">
+                        <label>Filename</label> (optional)<br/>
+                        <input id="Pluto_38_u25l1n610_11_filename" type="text"/><br/>
+						<label>Source</label> (optional)<br/>
+						<input id="Pluto_38_u25l1n610_11_source" type="text"/>
+                        <br/><br/>
+                        <div id="Pluto_38_u25l1n610_11_file-uploader"></div>
                     </div>
                 </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-push-4" aria-label="Tools">
-                    <h1 class="footer-list-title">Tools</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://uic.blackboard.com/">
-        Blackboard
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://accc.uic.edu/service/g-suite">
-        GoogleApps@UIC
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://my.uic.edu/common/">
-        my UIC
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://www.hr.uillinois.edu/pay/">
-        My UI Info: Pay
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://outlook.uic.edu">
-        UIC Outlook Online
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://accc.uic.edu/service/uicalendar">
-        UICalendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/contact-us">
-        Contact the webmaster
-    </a>
-</li>                                            </ul>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12" aria-label="Resources">
-                    <h1 class="footer-list-title">Resources</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://catalog.uic.edu/ucat/academic-calendar/">
-        Academic Calendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/life-at-uic/current-students">
-        Current Students
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://events.uic.edu">
-        Event Calendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/life-at-uic/faculty-and-staff">
-        Faculty and Staff
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://maps.uic.edu">
-        Maps
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://today.uic.edu/uicnews">
-        UIC Today
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/visit-directions">
-        Visit &amp; Directions
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://clery.uic.edu/">
-        Clery Compliance
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://oae.uic.edu/UnlawfulDiscrimination/index.htm">
-        Nondiscrimination Policy
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://oae.uic.edu/TitleIX/index.htm">
-        Title IX: Sexual Misconduct
-    </a>
-</li>                                            </ul>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-pull-4" aria-label="Quick Links">
-                    <h1 class="footer-list-title">Quick Links</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uicflames.com/">
-        Athletics
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uic.edu/apps/departments-az/search">
-        Directory
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://disabilityresources.uic.edu/">
-        Disability Resources
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://emergency.uic.edu">
-        Emergency Information
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/job-opportunities">
-        Job Opportunities
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://library.uic.edu">
-        Library
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uic.edu/depts/dos/studentveteranaffairs.shtml">
-        Veterans Affairs
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://hospital.uillinois.edu">
-        University of Illinois Hospital &amp; Health Sciences System
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/acerca">
-        Acerca de la UIC (en español)
-    </a>
-</li>                                            </ul>
-                </div>
-                <div class="l-col-3-12">
-                    <div class="ms-row">
-                        <div role="navigation" class="s-col-1-2 l-col-1-1" aria-label="Calls to Action">
-                            <ul class="footer-button-list">
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/visit-us" role="button">
-                Book a Visit
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/undergraduate/request-information" role="button">
-                Request Info
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/apply-now" role="button">
-                Apply Now
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="/alumni/give" role="button">
-                Give
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://uicalumni.org/" role="button">
-                Join Alumni Association
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="/about/contact-us" role="button">
-                Contact Us
-            </a>
-        </li>
-    </ul>                        </div>
-                        <div class="s-col-1-2 l-col-1-1 footer-social-icons-cell">
-                            <ul class="social-icons-list">
-            <li>
-            <a href="https://www.facebook.com/uic.edu">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>            </a>
-        </li>
-                <li>
-            <a href="https://twitter.com/thisisuic">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>            </a>
-        </li>
-                <li>
-            <a href="https://instagram.com/uicamiridis/">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>            </a>
-        </li>
-                    <li>
-            <a href="https://www.youtube.com/user/thisisUIC">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>            </a>
-        </li>
-                    <li>
-            <a href="http://uicscience.tumblr.com/">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Tumblr</title><path d="M15.1 24.2c2.8.7 5.6-.9 5.6-.9v-3c-.8.9-2.6 1.1-3.9.7-1.2-.3-1.1-2-1.1-2v-5.7h4.4v-3h-4.4V5.6H13c-.3 5.1-3.8 5-3.8 5v2.7h2v6.8c.1 2.2 1.1 3.4 3.9 4.1z"/></svg>            </a>
-        </li>
-                        <li>
-            <a href="https://news.uic.edu/social-media-directory">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>More links</title><path d="M15 5C9.5 5 5 9.5 5 15s4.5 10 10 10 10-4.5 10-10S20.5 5 15 5zm4.7 11H16v3.7h-2V16h-3.7v-2H14v-3.7h2V14h3.7v2z"/></svg>            </a>
-        </li>
-    </ul>                        </div>
+                <div class="portlet-section" role="region">
+                    <div class="lb_controls">
+                    <input type="button" id="Pluto_38_u25l1n610_11_triggerUpload" class="btn btn-primary" value="Upload"/>
+                    <input type="button" id="Pluto_38_u25l1n610_11_cancelUpload" class="btn btn-primary lb_close" value="Cancel"/>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="footer-legal">
-        <div class="ms-grid">
-            <div class="ms-row">
-                <div class="l-col-1-2">
-                    &copy; 2016 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span> <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a>
-                </div>
-                <div class="l-col-1-2 campuses">
-                                            <a href="http://www.uillinois.edu/">University of Illinois</a> <span class="pipe-separator">|</span>
-                                            <a href="http://www.illinois.edu/">Urbana-Champaign</a> <span class="pipe-separator">|</span>
-                                            <a href="http://www.uis.edu/">Springfield</a> 
-                                    </div>
-            </div>
-        </div>
-    </div>
-  <a href="https://plus.google.com/+UicEdu" rel="publisher" hidden>UIC on Google+</a>
-</footer>
+</div>
 
-<link rel="stylesheet" href="/css/main.min.css" media="all"><script src="/js/concat/main.min.js"></script><script src="//www.uic.edu/inc/emergency/alert.js"></script></body></html>
+<script type="text/javascript">
+    var Pluto_38_u25l1n610_11_ = Pluto_38_u25l1n610_11_ || {};
+
+    
+        
+        
+            
+            Pluto_38_u25l1n610_11_.jQuery = up.jQuery;
+        
+    
+    
+    var upAttachments = upAttachments || {};
+
+    Pluto_38_u25l1n610_11_.jQuery(function () {
+        var $ = Pluto_38_u25l1n610_11_.jQuery;
+
+        var open_box = function()
+        {
+            var $ = Pluto_38_u25l1n610_11_.jQuery;
+            $("#Pluto_38_u25l1n610_11_attachments .lb_backdrop, #Pluto_38_u25l1n610_11_attachments .lb_container").animate({'opacity': '.50'}, 300, 'linear');
+            $("#Pluto_38_u25l1n610_11_attachments .lb_container").animate({'opacity': '1.00'}, 300, 'linear');
+            $("#Pluto_38_u25l1n610_11_attachments .lb_backdrop, #Pluto_38_u25l1n610_11_attachments .lb_container").css('display', 'block');
+        }
+
+        var close_box = function()
+        {
+            var $ = Pluto_38_u25l1n610_11_.jQuery;
+            $("#Pluto_38_u25l1n610_11_attachments .lb_backdrop, #Pluto_38_u25l1n610_11_attachments .lb_container").animate({'opacity':'0'}, 300, 'linear', function(){
+                $("#Pluto_38_u25l1n610_11_attachments .lb_backdrop, #Pluto_38_u25l1n610_11_attachments .lb_container").css('display', 'none');
+            });
+        }
+        
+        if (!upAttachments.show) {
+        	upAttachments = {
+        		hide: function() {
+        	        var $ = Pluto_38_u25l1n610_11_.jQuery;
+        	        $("#Pluto_38_u25l1n610_11_filename").val('');
+					$("#Pluto_38_u25l1n610_11_source").val('');
+        	        close_box();
+        	    },
+        	    show: function(callback) {
+        	        var $ = Pluto_38_u25l1n610_11_.jQuery;
+        	        var uploader = new qq.FineUploader({
+        	            element: $("#Pluto_38_u25l1n610_11_file-uploader")[0],
+
+    	                request: {
+        	                endpoint: "/SimpleContentPortlet/api/content/attach/local.json",
+        	                forceMultipart: true,
+        	                paramsInBody: true,
+        	                params: {
+        	                    filename: function () { return $("#Pluto_38_u25l1n610_11_filename").val(); },
+								source: function () { return $("#Pluto_38_u25l1n610_11_source").val(); }
+        	                }
+        	            },
+
+        	            multiple: false,
+
+        	            validation: {
+        	                allowedExtensions: [],
+        	                sizeLimit: 20971520,
+        	                stopOnFirstInvalidFile: true
+        	            },
+
+        	            autoUpload: false,
+
+        	            text: {
+        	                uploadButton: "Select File",
+        	                cancelButton: 'Cancel',
+        	                retryButton: 'Retry',
+        	                failUpload: 'Upload failed',
+        	                dragZone: 'Drop files here to upload',
+        	                formatProgress: "{percent}% of {total_size}",
+        	                waitingForResponse: "Processing..."
+        	            },
+
+        	            messages: {
+        	                typeError: "{file} has an invalid extension. Valid extension(s): {extensions}.",
+        	                sizeError: "{file} is too large, maximum file size is {sizeLimit}.",
+        	                minSizeError: "{file} is too small, minimum file size is {minSizeLimit}.",
+        	                emptyError: "{file} is empty, please select files again without it.",
+        	                noFilesError: "No files to upload.",
+        	                onLeave: "The files are being uploaded, if you leave now the upload will be cancelled."
+        	            },
+
+        	            debug: true,
+
+        	            callbacks: {
+        	                onSubmit: function (id, filename) {
+        	                    var $ = Pluto_38_u25l1n610_11_.jQuery;
+        	                },
+        	                onComplete: function (id, fileName, responseJSON) {
+        	                    var $ = Pluto_38_u25l1n610_11_.jQuery;
+        	                    delete responseJSON.success;
+        	                    callback(responseJSON);
+        	                },
+        	                showMessage: function (message) {
+        	                    var $ = Pluto_38_u25l1n610_11_.jQuery;
+        	                    $("#Pluto_38_u25l1n610_11_file-uploader").append('<div class="alert alert-error">' + message + '</div>');
+        	                }
+        	            }
+
+        	        });
+
+        	        $("#Pluto_38_u25l1n610_11_attachments .lb_close, #Pluto_38_u25l1n610_11_attachments .lb_backdrop").click(function () {
+        	            var $ = Pluto_38_u25l1n610_11_.jQuery;
+        	            uploader.reset();
+        	            $("#Pluto_38_u25l1n610_11_filename").val('');
+        	            close_box();
+        	        });
+
+        	        $("#Pluto_38_u25l1n610_11_triggerUpload").click(function () {
+        	            uploader.uploadStoredFiles();
+        	        })
+
+        	        open_box();
+        	    }
+        	};
+        }
+
+    });
+</script></section><section id="portlet_u25l1n620" class="up-portlet-wrapper google-analytics-config">
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+  var up = up || {};
+  up.analytics = up.analytics || {};
+  up.analytics.model = {"defaultConfig":{"name":"","propertyId":"UA-97834858-1","config":[],"dimensionGroups":[]},"hosts":[]};
+</script>
+</section></div></div></div><div id="config-lightbox" class="modal fade"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button><h4 class="modal-title">Configuration</h4></div><div class="modal-body"><div class="loading"></div><div class="modal-body-content"></div></div></div></div></div></div><div id="portalDropWarning" class="drop-warning" style="display:none;"><p>This portlet cannot be moved here. The portlet underneath is locked.</p></div><script type="text/javascript">
+    
+        up.jQuery(document).ready(function() {
+        
+            if(window.location.search.indexOf('redirectToDefault=true') > 0) {
+              up.jQuery('#up-notification').noty({text: 'It looks like the page you were attempting to go to does not exist so we redirected you here.', type: 'information'});
+            }
+
+            
+        });
+    </script><script type="text/javascript">
+                up.analytics = up.analytics || {};
+                up.analytics.host = 'my.uic.edu';
+                up.analytics.portletData = {"5396_u20l1n1354_11":{"fname":"my-uic-edu-announcements","executionTimeNano":438004},"17_u25l1n510_11":{"fname":"legal-footer","executionTimeNano":485358},"83_u25l1n620_11":{"fname":"google-analytics-config","executionTimeNano":61297855},"24_u18l1n110_11":{"fname":"dynamic-respondr-skin","executionTimeNano":3797058},"397_u20l1n1232_11":{"fname":"instructions-login","executionTimeNano":426553},"19_u25l1n110_11":{"fname":"search-launcher","executionTimeNano":23686965},"38_u25l1n610_11":{"fname":"attachments","executionTimeNano":2453989},"2504_u20l1n1305_11":{"fname":"campus-image","executionTimeNano":405388},"350_u20l1n1249_11":{"fname":"my-uic-edu-resources","executionTimeNano":424874},"7_u20l1n8_11":{"fname":"login-launcher","executionTimeNano":1842994},"1_u18l1n210_11":{"fname":"portal-logo","executionTimeNano":723495},"349_u20l1n1254_11":{"fname":"university-links","executionTimeNano":423032},"396_u20l1n1236_11":{"fname":"my-uic-edu-features","executionTimeNano":495655}};
+                up.analytics.pageData = {"urlState":"NORMAL","executionTimeNano":117727057,"tab":{"id":1,"fragmentName":"guest-lo","tabName":"Welcome","displayString":"Welcome (guest-lo)"}};
+            </script></div></body></html>

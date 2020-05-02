@@ -44,10 +44,10 @@
   id="update-form"
   method="post">
   <div class="hd">
-      <input name="text" type="hidden" value="2-Factor Authentication for My UI Info - https://today.uic.edu/2-factor-authentication-for-my-ui-info">
+      <input name="text" type="hidden" value="UIC to produce crucial material for COVID-19 testing - https://today.uic.edu/uic-to-produce-crucial-material-for-covid-19-testing">
 
       <input type="hidden" name="repost_after_login" value="/intent/tweet">
-    <input type="hidden" name="authenticity_token" value="f5ce3107cf9170c98dbb6fbbdc6336761831950c">
+    <input type="hidden" name="authenticity_token" value="cee842f484ac126b1dcc32174173cf88bf26ef4d">
 
     <label for="status" id="status-label">Tweet Text</label>
   </div>
@@ -58,7 +58,7 @@
       <textarea id="status" name="status" required autofocus
         aria-required="true" aria-describedby="post-error char-count"
         
-      >2-Factor Authentication for My UI Info - https://today.uic.edu/2-factor-authentication-for-my-ui-info</textarea>
+      >UIC to produce crucial material for COVID-19 testing - https://today.uic.edu/uic-to-produce-crucial-material-for-covid-19-testing</textarea>
     </span>
   </div>
 
@@ -133,9 +133,9 @@
 </div>
 
 
-    <script type="text/javascript" charset="utf-8" nonce="MGSyVW+kwlYEMpL42A5l0g==">
+    <script type="text/javascript" charset="utf-8" nonce="4smXGCpE4r7rP926hCwfyw==">
       var twttr = twttr || {};
-      twttr.form_authenticity_token = 'f5ce3107cf9170c98dbb6fbbdc6336761831950c';
+      twttr.form_authenticity_token = 'cee842f484ac126b1dcc32174173cf88bf26ef4d';
       if (self == top) {
         document.documentElement.style.display = 'block';
       }
@@ -143,7 +143,7 @@
 
     <script src="https://abs.twimg.com/a/1587147640/tfw/loadrunner.js" type="text/javascript" data-path="https://abs.twimg.com/a/1587147640/tfw" data-main="tfw/intents/main"></script>
 
-    <script type="text/javascript" charset="utf-8" nonce="MGSyVW+kwlYEMpL42A5l0g==">
+    <script type="text/javascript" charset="utf-8" nonce="4smXGCpE4r7rP926hCwfyw==">
 
   var twttr = twttr || {};
   twttr.tco = {
@@ -152,13 +152,13 @@
 
   using('tfw/intents/tweetbox', 'imports/jquery', function(Tweetbox, $) {
     $('#status').each(function() {
-      new Tweetbox(this, 0, 101);
+      new Tweetbox(this, 0, 129);
     });
   });
 
 </script>
 
-    <script type="text/javascript" nonce="MGSyVW+kwlYEMpL42A5l0g==">
+    <script type="text/javascript" nonce="4smXGCpE4r7rP926hCwfyw==">
   var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
   document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 

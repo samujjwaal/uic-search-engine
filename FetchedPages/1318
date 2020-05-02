@@ -1,376 +1,1047 @@
-<!DOCTYPE html><!--
-       .o                                8888       8888
-      .88                                8888       8888
-    o8888oo  ooo  oooo  ooo. .oo.  .oo.   888oooo.   888  oooo d8b
-    ""888""  888  "888  "888P"Y88bP"Y88b  d88' `88b  888  "888""8P
-      888    888   888   888   888   888  888   888  888   888
-      888 .  888   888   888   888   888  888.  888  888   888
-      "888Y  `V88V"V8P' o888o o888o o888o 88`bod8P' o888o d888b
+<!DOCTYPE html><html lang="en"><head><title>UIC Directory</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width"><style>.interior-page-intro .interior-page-title{ color: rgb(54, 54, 54); font-size: 36px; font-weight: 700; line-height: 1; margin-bottom: 12px; }
+.interior-section-header, .interior-page-intro .interior-page-subtitle{ color: rgb(54, 54, 54); font-size: 24px; font-weight: 400; line-height: 1.2; }
+body{ font-family: Theinhardt, Arial, sans-serif; }
+.body-text, .campus-reminders .reminder-text, .category-link-list .text-cell, .error-help, .text-input, .text-area, .number-input, .tel-input, .email-input, .form-help-text, .highlight .content-cell, .home-lists .home-list-blurb, .interior-page-intro .interior-page-text, .key-message-block .message-cell .text, .landing-page-intro .intro-text, .link-block .text, .link-list .text-cell, .text-block-with-inline-image .intro-row, .text-block-with-inline-image .text-and-image-row, .text-block-with-inline-image .link-list, .text-block-with-large-image .link-list, .topic-block-list .text-cell, .topic-block-list .topic-block-text-cell, .block-wysiwyg { color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1.36; }
+.body-text p, .campus-reminders .reminder-text p, .category-link-list .text-cell p, .error-help p, .text-input p, .text-area p, .number-input p, .tel-input p, .email-input p, .form-help-text p, .highlight .content-cell p, .home-lists .home-list-blurb p, .interior-page-intro .interior-page-text p, .key-message-block .message-cell .text p, .landing-page-intro .intro-text p, .link-block .text p, .link-list .text-cell p, .text-block-with-inline-image .intro-row p, .text-block-with-inline-image .text-and-image-row p, .text-block-with-inline-image .link-list p, .text-block-with-large-image .link-list p, .topic-block-list .text-cell p, .topic-block-list .topic-block-text-cell p, .block-wysiwyg p { margin-bottom: 1em; }
+.footer-list-item{ margin-bottom: 15px; }
+.footer-list-item:last-child{ margin-bottom: 0px; }
+.footer-list-link{ color: rgb(255, 255, 255); font-size: 14px; text-decoration: none; }
+.footer .footer-legal a{ color: rgb(153, 153, 153); text-decoration: none; }
+.footer .footer-legal .pipe-separator{ margin-top: 0em; margin-right: 0.5em; margin-bottom: 0em; margin-left: 0.5em; }
+.footer .footer-legal .campuses{ text-align: right; }
+.social-icons-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; overflow-x: hidden; overflow-y: hidden; }
+@media (min-width){
+.social-icons-list{ margin-top: 30px; }
+}
+.social-icons-list a{ text-decoration: none; }
+.social-icons-list svg{ fill: #ffffff; height: 30px; width: 30px; }
+.social-icons-list li{ border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; display: block; float: left; height: 30px; margin-top: 0px; margin-right: 10px; margin-bottom: 10px; margin-left: 0px; width: 30px; }
+.social-icons-list li:nth-of-type(5n+1){ clear: left; }
+.ms-grid, .ms-row, [class*="col-"]{ box-sizing: border-box; }
+.ms-grid{ display: block; position: relative; width: 100%; margin-left: auto; margin-right: auto; max-width: 1400px; padding-left: 12px; padding-right: 12px; }
+.ms-grid .ms-row{ }
+.ms-grid .ms-row::after, .ms-grid [class*="col-"]::after{ content: ''; display: table; clear: both; }
+[class*="col-"]{ float: left; width: 100%; position: relative; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; }
+@media screen and (min-width: 540px){
+.ms-grid{ padding-left: 24px; padding-right: 24px; }
+}
+@media screen and (min-width: 768px){
+.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
+}
+@media screen and (min-width: 2000px){
+.ms-grid .ms-row{ }
+.ms-grid .ms-row > [class*="col-"]{ }
+}
+@media screen and (min-width: 540px){
+.s-col-1-2{ width: 50%; }
+}
+@media screen and (min-width: 1084px){
+.l-col-1-2{ width: 50%; }
+}
+@media screen and (min-width: 1084px){
+.l-col-1-3{ width: 33.3333333333%; }
+}
+@media screen and (min-width: 768px){
+.m-col-1-4{ width: 25%; }
+.m-col-3-4{ width: 75%; }
+}
+@media screen and (min-width: 1084px){
+.l-col-2-12{ width: 16.6666666667%; }
+.l-col-3-12{ width: 25%; }
+}
+@media screen and (min-width: 1084px){
+.l-col-12-push-4{ left: 33.3333333333%; right: auto; }
+.l-col-12-pull-4{ right: 33.3333333333%; left: auto; }
+}
+*{ border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; box-sizing: border-box; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; }
+img{ vertical-align: bottom; }
+@media (min-width: 768px){
+.main{ margin-top: 40px; }
+}
+.ms-grid{ max-width: 1080px; }
+@media (max-width: 767px){
+.ms-grid{ padding-left: 20px; padding-right: 20px; overflow-x: hidden; overflow-y: hidden; }
+}
+@media (max-width: 1084px) and (min-width: 768px){
+.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
+}
+@media (min-width: 1140px){
+.ms-grid{ padding-left: 0px; padding-right: 0px; }
+}
+.component{ margin-bottom: 80px; }
+.interior-section-header{ font-size: 30px; }
+.subhead{ color: rgb(54, 54, 54); font-size: 18px; font-weight: 700; }
+body{ background-color: rgb(248, 248, 248); }
+.breadcrumbs{ line-height: 14px; margin-bottom: 34px; }
+@media (min-width: 768px){
+.breadcrumbs .red-circle{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(213, 0, 50); border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; display: inline-block; height: 14px; width: 14px; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
+}
+.breadcrumbs .first-breadcrumb-arrow{ display: none; }
+@media (min-width: 768px){
+.breadcrumbs .first-breadcrumb-arrow{ display: inline; }
+}
+.breadcrumbs .crumb-list{ display: inline; list-style-position: inside; list-style-type: none; list-style-image: initial; }
+@media (max-width: 768px){
+.breadcrumbs .crumb-list{ line-height: 1.4; }
+}
+.breadcrumbs .crumb-item{ display: inline-block; }
+.breadcrumbs .crumb-anchor{ color: rgb(54, 54, 54); font-size: 12px; font-weight: 500; text-transform: uppercase; }
+.breadcrumbs .crumb-anchor{ text-decoration: none; }
+ .breadcrumbs .crumb-anchor.active{ color: rgb(213, 0, 50); outline-style: none; outline-width: initial; outline-color: initial; }
+.breadcrumbs img{ display: inline-block; height: 6px; margin-top: 0px; margin-right: 14px; margin-bottom: 0px; margin-left: 14px; width: 6px; vertical-align: middle; }
+.footer .footer-brand{ height: 206px; margin-bottom: 15px; width: 150px; }
+.footer .footer-brand-address{ margin-bottom: 20px; }
+@media (min-width: 1084px){
+.footer .footer-brand-address{ margin-bottom: 0px; min-height: 280px; }
+}
+@media (min-width: 1084px){
+.footer .footer-address{ bottom: 0px; position: absolute; width: 100%; }
+}
+@media (max-width: 1084px){
+.footer .footer-list{ margin-bottom: 30px; }
+.footer .footer-list::after{ content: ''; display: table; clear: both; }
+}
+.footer .footer-button-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; margin-bottom: 12px; }
+@media (max-width: 1084px) and (min-width: 540px){
+.footer .footer-button-list{ padding-right: 20px; }
+}
+.footer .footer-button-item{ margin-bottom: 5px; }
+.footer .footer-button{ color: rgb(255, 255, 255); background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(37, 37, 37); display: block; font-size: 16px; font-weight: 700; line-height: 32px; height: 32px; padding-top: 0px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px; text-decoration: none; background-position: initial initial; background-repeat: initial initial; }
+@media (max-width: 1084px){
+.footer .footer-legal .campuses{ margin-top: 1em; text-align: left; }
+}
+@media (min-width: 1084px){
+.footer .l-col-1-1{ width: 100%; }
+}
+.footer-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; }
+.footer-list-title{ margin-bottom: 15px; }
+.footer-list-title{ color: rgb(255, 255, 255); font-size: 14px; font-weight: 900; text-transform: uppercase; }
+@media (min-width: 1084px){
+.no-flexbox .footer-social-icons-cell{ bottom: -30px; }
+.no-flexbox .footer-address{ bottom: -50px; }
+}
+.header{ position: relative; width: 100%; background-color: rgb(0, 0, 0); }
+.header-menu-bar{ position: relative; }
+.header--blue .header-menu-bar{ background-color: rgb(0, 127, 165); }
+@media (max-width: 1084px){
+.header--blue .navigation-primary .primary-nav-list .primary-list-item{ background-color: rgb(0, 127, 165); }
+}
+.header--blue .navigation-primary .primary-nav-list .expander, .header--blue .navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(0, 102, 132); }
+@media (max-width: 1084px){
+.header--blue .navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); }
+}
+@media (min-width: 1084px){
+.header--blue .navigation-eyebrow{ background-color: rgb(0, 127, 165); }
+}
+.header--blue .navigation-primary:not(.scrolled-after) .primary-nav-list .primary-second-tier-list{ border-top-color: rgb(0, 127, 165); border-right-color: rgb(0, 127, 165); border-bottom-color: rgb(0, 127, 165); border-left-color: rgb(0, 127, 165); }
+.header-background-image-container{ bottom: 0px; left: 0px; overflow-x: hidden; overflow-y: hidden; position: absolute; right: 0px; top: 0px; }
+.header-background-image{ background-size: cover; bottom: -5px; left: -5px; position: absolute; right: -5px; top: -5px; background-position: 50% 50%; background-repeat: no-repeat no-repeat; }
+.interior-page-header{ overflow-x: visible; overflow-y: visible; }
+@media (min-width: 1084px){
+.interior-page-header .header-menu-bar .navigation-primary .circle-logo-container{ margin-left: 0px; opacity: 1; z-index: 2; }
+}
+@media (min-width: 1084px){
+.interior-page-header .header-menu-bar .navigation-primary:not(.scrolled-after) .circle-logo-container{ top: 110px; }
+}
+@media (min-width: 1084px){
+.interior-page-header .header-menu-bar .navigation-eyebrow{ background-color: rgb(0, 127, 165); position: static; }
+}
+.interior-page-header .header-menu-bar .navigation-primary{ background-color: rgb(0, 127, 165); width: 100%; }
+.interior-page-header .header-menu-bar .navigation-primary .menu-toggle{ z-index: 2; }
+@media (min-width: 1084px){
+.interior-page-header .header-menu-bar .navigation-primary{ height: 60px; }
+}
+.interior-page-header .header-background-image{ display: none; }
+.interior-page-intro .interior-page-title{ color: rgb(213, 0, 50); }
+@media (min-width: 540px){
+.interior-page-intro .interior-page-title{ font-size: 48px; }
+}
+.interior-page-intro .interior-page-subtitle{ margin-bottom: 10px; }
+@media (min-width: 540px){
+.interior-page-intro .interior-page-subtitle{ font-size: 30px; }
+}
+.link-block-group .link-block-anchor { margin-top: 40px; }
+@media (min-width: 540px){
+.link-block-group .link-block-anchor { max-width: 50%; }
+}
+.link-block-group .link-block-anchor, .link-block-group .link-block-anchor:hover, .link-block-group .link-block-anchor:visited { color: rgb(54, 54, 54); text-decoration: none; }
+.link-block { padding-top: 1px; position: relative; }
+.link-block::before { background-color: rgb(213, 0, 50); content: ''; height: 1px; left: 0px; position: absolute; top: 1px; width: 100%; }
+.link-block .subhead { margin-top: 15px; margin-right: 0px; margin-bottom: 4px; margin-left: 0px; padding-right: 20px; position: relative; }
+.link-block .subhead .arrow { fill: #001e62; height: 10px; position: absolute; right: 5px; width: 10px; }
+.link-block-anchor:hover, .link-block-anchor:focus { outline-style: none; outline-width: initial; outline-color: initial; }
+.link-block-anchor:hover .link-block::before, .link-block-anchor:focus .link-block::before { height: 3px; }
+.link-block-anchor:hover .arrow, .link-block-anchor:focus .arrow { -webkit-transform: translateX(5px); }
+.link-list .interior-section-header{ margin-bottom: 15px; }
+.navigation-eyebrow{ height: 40px; }
+@media (min-width: 1084px){
+.navigation-eyebrow{ background-color: rgb(0, 127, 165); }
+}
+.navigation-eyebrow .navigation-eyebrow-inner{ margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 1080px; position: relative; }
+.navigation-eyebrow .eyebrow-list{ color: rgb(255, 255, 255); font-size: 14px; font-weight: 400; list-style-type: none; list-style-position: inside; list-style-image: initial; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; padding-top: 0px; padding-right: 20px; padding-bottom: 0px; padding-left: 20px; }
+@media (min-width: 1084px){
+.navigation-eyebrow .eyebrow-list{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 25%; }
+}
+.navigation-eyebrow .eyebrow-list-item{ display: none; line-height: 40px; height: 40px; }
+@media (min-width: 1084px){
+.navigation-eyebrow .eyebrow-list-item{ display: block; float: left; }
+}
+.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor{ overflow-x: hidden; overflow-y: hidden; position: relative; }
+.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
+.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
+.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
+.navigation-eyebrow .eyebrow-button{ }
+.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor{ font-weight: 700; padding-left: 34px; padding-right: 20px; overflow-x: hidden; overflow-y: hidden; position: relative; }
+.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
+.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
+.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
+.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::after{ content: '+'; left: 10px; position: absolute; text-align: center; top: 0px; width: 20px; }
+.navigation-eyebrow .eyebrow-list-anchor{ display: block; outline-style: none; outline-width: initial; outline-color: initial; }
+.navigation-eyebrow .eyebrow-list-anchor{ color: rgb(255, 255, 255); text-decoration: none; }
+.navigation-eyebrow .search-button-item{ display: block; height: 40px; position: absolute; top: 0px; right: 40px; width: 40px; z-index: 1; }
+@media (min-width: 1084px){
+.navigation-eyebrow .search-button-item{ height: 40px; position: relative; top: 0px; right: 0px; width: auto; }
+}
+.navigation-eyebrow .search-button{ background-color: transparent; cursor: pointer; height: 40px; width: 40px; }
+.navigation-eyebrow .search-button .search-glass{ fill: #ffffff; height: 20px; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; width: 20px; }
+.navigation-eyebrow .search-input-container{ position: absolute; top: 0px; height: 40px; right: 42px; -webkit-transform: translateY(-100%); width: 278px; z-index: 3; }
+@media (min-width: 1084px){
+.navigation-eyebrow .search-input-container{ height: 40px; right: 40px; }
+}
+.navigation-eyebrow .search-input-container form{ position: relative; width: 100%; height: 100%; }
+.navigation-eyebrow .search-input-container input[type="text"]{ color: rgb(149, 149, 149); height: 100%; padding-top: 0px; padding-right: 12px; padding-bottom: 0px; padding-left: 12px; font-size: 18px; width: 100%; }
+.navigation-eyebrow .search-input-container .submit-button{ -webkit-appearance: none; position: absolute !important; clip: rect(1px 1px 1px 1px); }
+@media (min-width: 1084px){
+.no-flexbox .eyebrow-list-item{ margin-left: 12px; }
+}
+.navigation-primary{ pointer-events: none; position: absolute; top: 0px; width: 100%; z-index: 2; }
+@media (min-width: 1084px){
+.navigation-primary{ pointer-events: auto; position: relative; }
+}
+.navigation-primary .navigation-primary-inner{ margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 1080px; position: relative; min-height: 40px; }
+.navigation-primary .primary-nav-list{ line-height: 1; list-style-type: none; list-style-position: inside; list-style-image: initial; overflow-x: hidden; overflow-y: hidden; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: absolute; right: 0px; top: 0px; width: 260px; }
+@media (min-width: 1084px){
+.navigation-primary .primary-nav-list{ left: 0px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; overflow-x: visible; overflow-y: visible; padding-top: 0px; padding-right: 0px; padding-left: 25%; position: relative; top: 0px; width: auto; }
+}
+.navigation-primary .primary-nav-list .primary-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(0, 127, 165); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; letter-spacing: 0.06em; position: relative; text-transform: uppercase; width: 100%; background-position: initial initial; background-repeat: initial initial; }
+@media (min-width: 1084px){
+.navigation-primary .primary-nav-list .primary-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; float: left; background-position: initial initial; background-repeat: initial initial; }
+}
+.navigation-primary .primary-nav-list .primary-list-anchor{ display: block; line-height: 1; }
+.navigation-primary .primary-nav-list .primary-list-anchor, .navigation-primary .primary-nav-list .primary-second-tier-list-anchor{ color: inherit; text-decoration: none; }
+.navigation-primary .primary-nav-list .primary-second-tier-list{ display: none; list-style-type: none; list-style-position: inside; list-style-image: initial; }
+.navigation-primary .primary-nav-list .primary-second-tier-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); color: rgb(54, 54, 54); font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 1.25; text-transform: none; background-position: initial initial; background-repeat: initial initial; }
+.navigation-primary .primary-nav-list .primary-second-tier-list-item:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
+.navigation-primary .primary-nav-list .primary-second-tier-list-item .primary-second-tier-list-anchor{ display: block; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; }
+.navigation-primary .primary-nav-list .expander{ display: none; }
+@media (min-width: 1084px){
+.navigation-primary .primary-nav-list .primary-list-item{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: relative; width: auto; }
+.navigation-primary .primary-nav-list .primary-list-item.primary-list-active-item > .primary-list-anchor{ border-bottom-width: 8px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); padding-bottom: 12px; }
+.navigation-primary .primary-nav-list .primary-list-item > .primary-list-anchor{ display: block; outline-style: none; outline-width: initial; outline-color: initial; padding-top: 22px; padding-right: 0px; padding-bottom: 22px; padding-left: 0px; }
+.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor{ overflow-x: hidden; overflow-y: hidden; position: relative; }
+.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
+.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
+.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(255, 255, 255); bottom: 2px; height: 8px; -webkit-transform: translateY(135%); }
+.navigation-primary .primary-nav-list .primary-second-tier-list{ border-right-width: 2px; border-right-style: solid; border-right-color: rgb(0, 127, 165); border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(0, 127, 165); border-left-width: 2px; border-left-style: solid; border-left-color: rgb(0, 127, 165); display: block; opacity: 0; pointer-events: none; position: absolute; left: -2px; top: 60px; width: 260px; }
+.navigation-primary .primary-nav-list .primary-list-item:nth-last-child(1) .primary-second-tier-list, .navigation-primary .primary-nav-list .primary-list-item:nth-last-child(2) .primary-second-tier-list{ left: auto; right: -2px; }
+}
+@media (max-width: 1083px){
+.navigation-primary .primary-nav-list .expander{ background-color: rgb(39, 152, 182); display: block; height: 44px; position: absolute; top: 0px; right: 0px; width: 44px; }
+.navigation-primary .primary-nav-list .expander::before{ color: rgb(255, 255, 255); content: '+'; display: block; line-height: 44px; text-align: center; width: 100%; }
+.navigation-primary .primary-nav-list .primary-list-anchor{ line-height: 24px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 20px; }
+.navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); padding-left: 22px; position: relative; }
+.navigation-primary .primary-nav-list .primary-list-item{ min-height: 44px; -webkit-transform: translateX(260px); }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+0){ }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+1){ }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+2){ }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+3){ }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+4){ }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+5){ }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+6){ }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+7){ }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+8){ }
+.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+9){ }
+}
+@media (max-width: 1083px){
+.navigation-primary .primary-nav-list{ pointer-events: none; }
+}
+.navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(39, 152, 182); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; height: 40px; letter-spacing: 0.06em; line-height: 40px; min-height: 40px; padding-top: 0px; padding-bottom: 0px; padding-left: 20px; position: relative; text-transform: uppercase; -webkit-transform: translateX(260px); width: 100%; }
+@media (min-width: 1084px){
+.navigation-primary .primary-nav-list .menu-label-item{ display: none; }
+}
+.navigation-primary .primary-nav-list .menu-label{ opacity: 0; }
+.navigation-primary .primary-nav-list .menu-toggle{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; display: block; height: 40px; pointer-events: auto; position: absolute; top: 0px; right: 0px; width: 40px; z-index: 1; background-position: initial initial; background-repeat: initial initial; }
+.navigation-primary .primary-nav-list .menu-toggle > span{ position: absolute; }
+.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); height: 2px; margin-left: 9px; position: absolute; top: 20px; width: 24px; background-position: initial initial; background-repeat: initial initial; }
+.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::after, .navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ content: ''; position: absolute; width: 100%; height: 100%; left: 0px; top: 6px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial; }
+.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ top: auto; bottom: 6px; }
+@media (min-width: 1083px){
+.navigation-primary .primary-nav-list .menu-toggle{ display: none; }
+}
+.navigation-primary .circle-logo-container{ height: 40px; left: 0px; opacity: 0; pointer-events: auto; position: absolute; -webkit-transform: translateY(-100px); top: 10px; width: 40px; z-index: 1; }
+@media (max-width: 1120px) and (min-width: 1080px){
+.navigation-primary .circle-logo-container{ left: 20px; }
+}
+.navigation-primary .circle-logo-container span{ -webkit-appearance: none; position: absolute !important; clip: rect(1px 1px 1px 1px); }
+@media (max-width: 1084px){
+.navigation-primary .circle-logo-container{ height: 32px; margin-left: 20px; opacity: 1; -webkit-transform: translateY(4px); top: 0px; width: 32px; }
+}
+.navigation-primary .circle-logo-container .circle-logo path{ fill: #ffffff; }
+.navigation-primary .circle-logo-container a{ color: rgb(255, 255, 255); outline-style: none; outline-width: initial; outline-color: initial; }
+.navigation-primary .circle-logo-container .circle-logo{ -webkit-transform: rotate(-360deg); }
+@media (min-width: 1084px){
+.no-flexbox .primary-list-item{ margin-left: 12px; }
+}
+.no-flexbox .primary-nav-list::after{ content: ''; display: table; clear: both; }
+.navigation-sidebar{ margin-left: -20px; margin-right: -20px; position: relative; }
+@media (min-width: 768px){
+.navigation-sidebar{ margin-left: 0px; margin-right: 0px; }
+}
+.navigation-sidebar .navigation-sidebar-title{ background-color: rgb(255, 255, 255); border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; color: rgb(0, 30, 98); font-size: 16px; font-weight: 900; line-height: 1.5; margin-bottom: 20px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 47px; position: relative; text-transform: uppercase; }
+.navigation-sidebar .navigation-sidebar-title a{ color: rgb(0, 30, 98); text-decoration: none; }
+.navigation-sidebar .navigation-sidebar-title::after{ content: ' Menu'; }
+@media (min-width: 768px){
+.navigation-sidebar .navigation-sidebar-title{ background-color: transparent; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 15px; padding-left: 0px; }
+.navigation-sidebar .navigation-sidebar-title::after{ content: none; }
+}
+.navigation-sidebar .navigation-sidebar-title .chevron{ display: block; height: 12px; left: 20px; position: absolute; width: 12px; }
+.navigation-sidebar .navigation-sidebar-title .chevron .anchor-point{ display: block; fill: #001e62; height: 8px; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto; -webkit-transform: rotate(-90deg); width: 12px; }
+@media (min-width: 768px){
+.navigation-sidebar .navigation-sidebar-title .chevron{ display: none; }
+}
+@media (max-width: 767px){
+.navigation-sidebar .navigation-sidebar-list-container{ overflow-x: hidden; overflow-y: hidden; pointer-events: none; position: absolute; top: 44px; width: 100%; z-index: 1; }
+}
+@media (max-width: 767px){
+.navigation-sidebar .navigation-sidebar-list{ background-color: rgb(255, 255, 255); border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); padding-left: 20px; padding-right: 20px; -webkit-transform: translateY(-100%); }
+}
+.navigation-sidebar .navigation-sidebar-list .anchor-point{ height: 5px; position: absolute; right: 0px; top: 4px; width: 8px; }
+.navigation-sidebar .navigation-sidebar-list .navigation-sidebar-anchor .anchor-point{ top: 21px; }
+.navigation-sidebar .navigation-sidebar-list, .navigation-sidebar .sidebar-second-tier-list, .navigation-sidebar .sidebar-third-tier-list, .navigation-sidebar .sidebar-fourth-tier-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; }
+.navigation-sidebar .navigation-sidebar-anchor, .navigation-sidebar .sidebar-second-tier-anchor, .navigation-sidebar .sidebar-third-tier-anchor, .navigation-sidebar .sidebar-fourth-tier-anchor{ display: block; width: 100%; }
+.navigation-sidebar .navigation-sidebar-item{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); min-height: 50px; }
+.navigation-sidebar .navigation-sidebar-item:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
+@media (min-width: 768px){
+.navigation-sidebar .navigation-sidebar-item:last-child{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); }
+}
+.navigation-sidebar .navigation-sidebar-anchor{ color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1; padding-top: 17px; padding-right: 0px; padding-bottom: 17px; padding-left: 0px; position: relative; text-decoration: none; }
+.navigation-sidebar .sidebar-second-tier-list{ padding-left: 14px; }
+.navigation-sidebar .sidebar-second-tier-item{ font-size: 14px; font-weight: 400; margin-bottom: 16px; }
+.navigation-sidebar .sidebar-second-tier-anchor{ color: rgb(54, 54, 54); position: relative; text-decoration: none; }
+.navigation-sidebar .sidebar-third-tier-list, .navigation-sidebar .sidebar-fourth-tier-list{ padding-top: 14px; padding-left: 14px; }
+.navigation-sidebar .sidebar-third-tier-item, .navigation-sidebar .sidebar-fourth-tier-item{ margin-bottom: 14px; }
+.navigation-sidebar .sidebar-third-tier-anchor, .navigation-sidebar .sidebar-fourth-tier-anchor{ color: rgb(54, 54, 54); position: relative; text-decoration: none; }
+.navigation-sidebar .navigation-sidebar-item.open .navigation-sidebar-anchor, .navigation-sidebar .sidebar-second-tier-item.open .sidebar-second-tier-anchor, .navigation-sidebar .sidebar-third-tier-item.open .sidebar-third-tier-anchor{ font-weight: 700; padding-right: 24px; width: 100%; }
+ .navigation-sidebar .sidebar-fourth-tier-item.active .sidebar-fourth-tier-anchor{ color: rgb(213, 0, 50); font-weight: 700; position: relative; }/* Styles appended to the end of every critical path css stylesheet */
+.navigation-primary .primary-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.navigation-eyebrow .eyebrow-list {
+    display: flex;
+    justify-content: space-between;
+}
+.calls-to-action .call-to-action {
+    align-items: center;
+    display: flex;
+}
+.calls-to-action .reminders-container {
+    display: flex;
+}
+.calls-to-action .reminders-anchor {
+    display: flex;
+}
+ </style></head><body>
+<header class="header interior-page-header header--blue">
+    <div class="header-background-image-container">
+        <div class="header-background-image" aria-hidden="true" style="background-image: url()"></div>
+    </div>
+        <div class="header-menu-bar">
 
-                                                                        --><!--[if lt IE 7]>      <html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7 loginandregister-context en_US" lang="en-US"> <![endif]--><!--[if IE 7]>         <html class="no-js ie ie7 lt-ie9 lt-ie8 loginandregister-context en_US" lang="en-US"> <![endif]--><!--[if IE 8]>         <html class="no-js ie ie8 lt-ie9 loginandregister-context en_US" lang="en-US"> <![endif]--><!--[if IE 9]>         <html class="no-js ie9 loginandregister-context en_US" lang="en-US"> <![endif]--><!--[if gt IE 9]><!--> <html class="no-js  loginandregister-context en_US" lang="en-US"> <!--<![endif]-->    <head><title>Log in | Tumblr</title><link rel="manifest" href="/manifest.json"><!--[if ie]><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/><![endif]--><meta http-equiv="Content-Type" content="text/html; charset=utf-8">    <meta http-equiv="x-dns-prefetch-control" content="off">    <meta name="application-name" content="Tumblr">    <meta name="msapplication-TileColor" content="#3645d">    <meta name="msapplication-TileImage" content="https://assets.tumblr.com/images/msfavicon.png?_v=245323c5cb69e705ea213d9ed60e543a">    <link rel="shortcut icon" href="https://assets.tumblr.com/images/favicons/favicon.ico?_v=8bfa6dd3e1249cd567350c606f8574dc" type="image/png">    <meta name="p:domain_verify" content="d06c4fa470a9a6935c9a7b43d57eb7d2">    <link rel="apple-touch-icon" sizes="57x57" href="https://assets.tumblr.com/images/apple-touch-icon-57x57.png?_v=81406f92242ce0166328bc17e4473e6e" type="image/png">    <link rel="apple-touch-icon" sizes="60x60" href="https://assets.tumblr.com/images/apple-touch-icon-60x60.png?_v=20e3957f7027b72d5aa60085204ae63c" type="image/png">    <link rel="apple-touch-icon" sizes="72x72" href="https://assets.tumblr.com/images/apple-touch-icon-72x72.png?_v=8df24181ba31066d8710f67c9a287241" type="image/png">    <link rel="apple-touch-icon" sizes="76x76" href="https://assets.tumblr.com/images/apple-touch-icon-76x76.png?_v=455617cae13eff40acffac5e489bde50" type="image/png">    <link rel="apple-touch-icon" sizes="120x120" href="https://assets.tumblr.com/images/apple-touch-icon-120x120.png?_v=5604f95b165810101ea055f2cb5206b9" type="image/png">    <link rel="apple-touch-icon" sizes="128x128" href="https://assets.tumblr.com/images/apple-touch-icon-128x128.png?_v=fd39307925fa7f1ada28b08d67e93da1" type="image/png">    <link rel="apple-touch-icon" sizes="144x144" href="https://assets.tumblr.com/images/apple-touch-icon-144x144.png?_v=dfd5b392d423c5f0278d9f498abda2fa" type="image/png">    <link rel="apple-touch-icon" sizes="152x152" href="https://assets.tumblr.com/images/apple-touch-icon-152x152.png?_v=73c2019bf6a75f7e476e01ba136cebec" type="image/png">    <link rel="apple-touch-icon" sizes="180x180" href="https://assets.tumblr.com/images/apple-touch-icon-180x180.png?_v=00127c0342d97d5f36cfd8aa6439ca10" type="image/png">    <link rel="apple-touch-icon" sizes="195x195" href="https://assets.tumblr.com/images/apple-touch-icon-195x194.png?_v=0" type="image/png">    <link rel="apple-touch-icon" sizes="196x196" href="https://assets.tumblr.com/images/apple-touch-icon-196x196.png?_v=bb4b7eef0ef8e28101acdf2f0c265cc7" type="image/png">    <link rel="apple-touch-icon" sizes="228x228" href="https://assets.tumblr.com/images/apple-touch-icon-228x228.png?_v=0c7874da12e347c2bdf95e5baa3f396a" type="image/png">    <meta name="robots" id="robots" content="noodp,noydir">    <meta name="description" id="description" content="Log in to your Tumblr account to start posting to your blog.">    <meta name="keywords" id="keywords" content="tumblelog, blog, tumblog, tumbler, tumblr, tlog, microblog">    <meta name="viewport" id="viewport" content="width=960">    <meta name="tumblr-form-key" id="tumblr_form_key" content="!1231588056829|dMBxRrFC9K58M2DMnzBpEX6qCY">    <meta name="tumblr-gpop" id="tumblr_gpop" content="Tumblr"><link rel="stylesheet" media="screen" href="https://assets.tumblr.com/assets/styles/global.css?_v=8dbc18d358a6c8b90b475766b8fb40cf"><link rel="stylesheet" media="screen" href="https://assets.tumblr.com/client/prod/app/global.build.css?_v=dfdd01c63b803e35a209784bb29d0ed2"><link rel="stylesheet" media="screen" href="https://assets.tumblr.com/assets/styles/landing_pages/logged_out_dashboard.css?_v=d934eeabee22d8f5a93bf0f19e491a2d"><link rel="stylesheet" media="screen" href="https://assets.tumblr.com/assets/styles/posts/posts.css?_v=ac903565f9114167e96e6c8129c08272"><link rel="stylesheet" media="screen" href="https://assets.tumblr.com/assets/styles/dashboard/notes_notifications.css?_v=6f89e843093c5be24b16b0c3f60dd55f"><link rel="stylesheet" media="screen" href="https://assets.tumblr.com/assets/styles/dashboard/new_post_buttons.css?_v=a48be79be4422ff38614e45bce3b20cf"><link rel="stylesheet" media="screen" href="https://assets.tumblr.com/assets/styles/password_strength_meter.css?_v=a63deabd4de89e594eaccaf76220d504"><link rel="stylesheet" media="screen" href="https://assets.tumblr.com/assets/styles/form_classic_onboarding.css?_v=96af88cefa4fd2e5ce63940a829beb90"><link rel="stylesheet" media="screen" href="https://assets.tumblr.com/client/prod/app/context/loginandregister/index.build.css?_v=c4d8a1c430689764959a8d857ab5e878"><script nonce="Dtm6rrwMMFAbCzFBomgM8t9dhk">
-            var tinyMCE,_sf_startpt=(new Date()).getTime();
-            var Tumblr = Tumblr || {};
-        </script><script type="text/javascript" nonce="Dtm6rrwMMFAbCzFBomgM8t9dhk">
-     var __ = (function() {
+        <nav class="navigation-eyebrow" aria-label="Eyebrow navigation">
+    <div class="navigation-eyebrow-inner">
+        <ul class="eyebrow-list">
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://maps.uic.edu/">Map</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uic.edu/apps/departments-az/search">Directory</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/about/contact-us">Contact Us</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://library.uic.edu/">Library</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uicflames.com/">Athletics</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/life-at-uic/current-students">Current Students</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/life-at-uic/faculty-and-staff">Faculty and Staff</a></li>
+                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://hospital.uillinois.edu/">UI Health</a></li>
+                                        <li class="eyebrow-list-item eyebrow-button"><a class="eyebrow-list-anchor" href="/alumni/give">Give</a></li>
+                            <li class="eyebrow-list-item search-button-item">
+                    <button class="search-button" type="button">
+                        <svg class="search-glass" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" aria-labelledby="title"><title id="title">Expand search box</title><path d="M19.7 18.3l-5.9-5.9c1-1.3 1.6-2.9 1.6-4.7C15.4 3.5 12 0 7.7 0S0 3.4 0 7.7c0 4.2 3.4 7.7 7.7 7.7 1.8 0 3.4-.6 4.7-1.6l5.9 5.9c.2.2.4.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4zM2 7.7C2 4.6 4.6 2 7.7 2s5.7 2.6 5.7 5.7-2.5 5.7-5.7 5.7C4.6 13.4 2 10.8 2 7.7z"/></svg>                    </button>
+                </li>
+        </ul>
+        <div class="search-input-container">
+            <form method="get" action="/search" role="search">
+                <input type="text" name="q" class="search-input" placeholder="Search..." disabled tabindex="-1" aria-label="Search">
+                <input type="submit" class="submit-button" name="search" value="Submit">
+            </form>
+        </div>
+    </div>
+</nav>
 
-        var translation = {
+        <nav class="navigation-primary" aria-label="Primary navigation">
+    <div class="navigation-primary-inner">
+                <div class="circle-logo-container">
+            <a href="/">
+                <svg class="circle-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M36.5 17.3L33.1 19c-.3-1.3-1-2-2.3-2-1.7 0-2.5 1.4-2.5 3.6s.8 3.6 2.5 3.6c1.2 0 1.8-.6 2.2-1.6l3.5 1.3c-.9 2.1-2.8 3.5-5.8 3.5-4.1 0-6.5-2.8-6.5-6.8s2.5-6.8 6.6-6.8c3.2.1 5 1.8 5.7 3.5m-14.1 9.8h-3.9v-13h3.9v13zm-6.3-5.3c0 1.8-.2 2.7-.7 3.6-.9 1.4-3.2 2-5.2 2s-4.3-.6-5.2-2c-.5-.9-.7-1.8-.7-3.6v-7.7h3.9v7.8c0 .9.1 1.5.4 1.8.3.4.8.5 1.5.5s1.2-.2 1.5-.5c.3-.4.4-1 .4-1.8v-7.8h3.9v7.7zM40 20C40 9 31 0 20 0S0 9 0 20s9 20 20 20 20-9 20-20"/></svg>
+<span>University of Illinois at Chicago</span>            </a>
+        </div>
+                            <ul class="primary-nav-list">
+    <button class="menu-toggle" type="button" tabindex="-1">
+        <div class="menu-toggle-icon"></div>
+        <span>Expand menu</span>
+    </button>
+    <div class="menu-label-item"><span class="menu-label">Menu</span></div>
+            <li class="primary-list-item ">
+            <a class="primary-list-anchor" href="/admissions-aid">Admissions &amp; Aid</a>
+                            <ul class="primary-second-tier-list">
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/visit-campus">Visit Campus</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/paying-for-college">Paying for College</a></li>
+                                    </ul>
+                    </li>
+            <li class="primary-list-item ">
+            <a class="primary-list-anchor" href="/academics">Academics</a>
+                            <ul class="primary-second-tier-list">
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/programs-of-study">Programs of Study</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/colleges-schools">Colleges &amp; Schools</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/student-support">Student Support</a></li>
+                                    </ul>
+                    </li>
+            <li class="primary-list-item ">
+            <a class="primary-list-anchor" href="/research">Research</a>
+                            <ul class="primary-second-tier-list">
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-impact">Research Impact</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-strengths">Research Strengths</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/resources-facilities">Resources &amp; Facilities</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/student-research">Student Research</a></li>
+                                    </ul>
+                    </li>
+            <li class="primary-list-item">
+            <a class="primary-list-anchor" href="/life-at-uic">Life at UIC</a>
+                            <ul class="primary-second-tier-list">
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/living-on-around-campus">Living On &amp; Around Campus</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/campus-resources">Campus Resources</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/current-students">Current Students</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/faculty-and-staff">Faculty and Staff</a></li>
+                                    </ul>
+                    </li>
+            <li class="primary-list-item ">
+            <a class="primary-list-anchor" href="/chicago">Chicago</a>
+                            <ul class="primary-second-tier-list">
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/exploring-chicago">Exploring Chicago</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/city-transportation">City Transportation</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/essential-chicago">Essential Chicago</a></li>
+                                    </ul>
+                    </li>
+            <li class="primary-list-item ">
+            <a class="primary-list-anchor" href="/alumni">Alumni</a>
+                            <ul class="primary-second-tier-list">
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/connect">Connect</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/engage">Engage</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/give">Give</a></li>
+                                    </ul>
+                    </li>
+            <li class="primary-list-item ">
+            <a class="primary-list-anchor" href="/about">About</a>
+                            <ul class="primary-second-tier-list">
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/visit-directions">Visit &amp; Directions</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/history">History</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/leadership">Leadership</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/public-media-resources">Public &amp; Media Resources</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/job-opportunities">Job Opportunities</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/contact-us">Contact Us</a></li>
+                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/acerca">Acerca de la UIC (en español)</a></li>
+                                    </ul>
+                    </li>
+    </ul>            </div>
+</nav>
 
-            "There was an error. Please try again." : 'There was an error. Please try again.',
-            "Oops. There was an error. Try again." : 'Oops. There was an error. Try again.',
+</div>
+</header>
 
-            "Don't forget your email address!" : 'Don\'t forget your email address!',
-            "You forgot to enter your email address!" : 'You forgot to enter your email address!',
+<div class="ms-grid main">
+  <div class="ms-row">
+    <div class="m-col-1-4">
+      <nav class="navigation-sidebar" aria-label="Secondary navigation">
+      </nav>
+    </div>
+    <div class="m-col-3-4">
 
-            "Don't forget your password!" : 'Don\'t forget your password!',
-            "You forgot to enter your password!" : 'You forgot to enter your password!',
+      <nav class="breadcrumbs ms-row">
+        <div class="col-1-1">
+          <div class="red-circle" aria-hidden="true"></div>
+          <img class="first-breadcrumb-arrow" src="/images/breadcrumb-arrow.svg" aria-hidden="true" alt="Breadcrumb arrow">
+          <ul class="crumb-list">
+            <li class="crumb-item">
+                <a class="crumb-anchor active" href="/apps/find-people/search">Directory</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-            "Don't forget your username!" : 'Don\'t forget your username!',
-            "You forgot to enter your username!" : 'You forgot to enter your username!',
+      <main class="interior-page-intro">
+        <div class="ms-row">
+          <div class="col-1-1">
+            <h1 class="interior-page-title">Directory search</h1>
+          </div>
+        </div>
 
-            "Verification is required. Please try again." : 'Verification is required. Please try again.',
+<section role="region" class="text-block-with-large-image" aria-label="ACADEMIC AFFAIRS, Office of the Vice President for  Unit Listing">
+<div class="ms-row title-row">
+  <div class="col-1-1">
+    <h2 class="interior-section-header">
+      ACADEMIC AFFAIRS, Office of the Vice President for </a>
+    </h2>
+  </div>
+</div>
 
-            "Don't forget to tell us your age!" : 'Don\'t forget to tell us your age!',
-            "You forgot to tell us your age." : 'You forgot to tell us your age.',
+<div class="ms-row text-row">
+  <div class="col-1-1 block-wysiwyg">
 
-            "Please enter a number!" : 'Please enter a number!',
-            "Please enter your age as a number only!" : 'Please enter your age as a number only!',
 
-            "One more thing &ndash; please accept our Terms!" : 'One more thing \x26ndash; please accept our Terms!',
-            "You must accept Tumblr's terms before proceeding." : 'You must accept Tumblr\'s terms before proceeding.',
+<table>
 
-            "Don't forget to fill out the Captcha!" : 'Don\'t forget to fill out the Captcha!',
-            "Please fill out the Captcha." : 'Please fill out the Captcha.',
+<tr>
+  <td style="vertical-align: top; font-weight: 400;">
+    <p>
+      Banner Dept: <span style="font-weight: 500;">9-709000</span>
+    </p>
+            414 AOB MC 760 <br />1737 W. Polk Street Chicago IL 60612        </td>
+        <td style="vertical-align: top;">
+            <a href="http://www.vpaa.uillinois.edu">Department Home Page</a>
+            <br />
+            <a href="/apps/departments-az/search?dispatch=roster&amp;style=uic&amp;orgid=99669">Department Roster</a>
+            <br />
+            Fax 217-244-4770            <br />
+        </td>
+    </tr>
 
-            "That's not a valid email address. Please try again." : 'That\'s not a valid email address. Please try again.',
+    			      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">BARBARA WILSON, Executive Vice President/Vice President for Academic Affairs</span>
+	    <br />
+	    414 AOB MC 760</br> 1737 West Polk Street Chicago IL 60612	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 217-333-3077	    <br />
+	    <strong>F</strong> 217-244-4770	    <br />
+	    <a style="font-weight: 400;" href="http://www.vpaa.uillinois.edu">Home Page</a>
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">SARAH ZEHR, Assistant Vice President for Academic Affairs</span>
+	    <br />
+	      </br> 506 S. Wright St., Henry Administration Building Urbana IL 61801	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 217-333-3077	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#122;&#101;&#104;&#114;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;">&#115;&#122;&#101;&#104;&#114;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">JULIAN PARROTT, Assistant Vice President for Academic Affairs</span>
+	    <br />
+	      </br> 506 S. Wright St., Henry Administration Building Urbana IL 61801	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 217-333-3079	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#112;&#97;&#114;&#114;&#111;&#116;&#116;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;">&#106;&#112;&#97;&#114;&#114;&#111;&#116;&#116;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">SONJA BEAN, Administrative Assistant</span>
+	    <br />
+	      </br> 506 S. Wright St., Henry Administration Building Urbana IL 61801	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 217-333-3077	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#98;&#101;&#97;&#110;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;">&#115;&#98;&#101;&#97;&#110;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">ALLISON SIVERS, Fiscal Planning & Budgeting Coordinator</span>
+	    <br />
+	    378  </br> 506 S. Wright St., Henry Administration Building Urbana IL 61801	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 217-244-9606	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#103;&#97;&#100;&#100;&#105;&#115;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;">&#97;&#103;&#97;&#100;&#100;&#105;&#115;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">CONNIE SAILOR, Administrative Aide, University Senates Conference</span>
+	    <br />
+	      </br> 506 S. Wright St., Henry Administration Building Urbana IL 61801	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 217-333-5227	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#115;&#97;&#105;&#108;&#111;&#114;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;">&#99;&#115;&#97;&#105;&#108;&#111;&#114;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">THOMAS RILEY, Executive Director of Labor & Special Counsel</span>
+	    <br />
+	    415E AOB MC 760</br> 1737 West Polk Street Chicago IL 60612	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 312-355-3883	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#104;&#114;&#105;&#108;&#101;&#121;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;">&#116;&#104;&#114;&#105;&#108;&#101;&#121;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">LAURIE MATHESON, Director, University of Press</span>
+	    <br />
+	    104  MC 566</br> 1325 S. Oak St. Champaign IL 61820	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 217-244-4685	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#109;&#97;&#116;&#104;&#101;&#115;&#111;&#64;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;">&#108;&#109;&#97;&#116;&#104;&#101;&#115;&#111;&#64;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">ANNE CRAIG, Senior Director, CARLI</span>
+	    <br />
+	    303  MC 638</br> 100 Trade Center Dr. Champaign IL 61820	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 217-244-7593	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#98;&#99;&#114;&#97;&#105;&#103;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;">&#97;&#98;&#99;&#114;&#97;&#105;&#103;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">ROBIN WILSON, Institute of Government and Public Affairs</span>
+	    <br />
+	      MC 037</br> 1007 W. Nevada Urbana IL 61801	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 312-996-6188<br /> <strong>T</strong> 217-333-3340	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#119;&#105;&#108;&#115;&#64;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;">&#119;&#105;&#108;&#115;&#64;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">JAMIE PAINTER, Asst VP, System Human Resources</span>
+	    <br />
+	    440  MC 312</br> 807 S. Wright St. Champaign IL 61820	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 217-333-2590	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#97;&#105;&#110;&#116;&#101;&#114;&#106;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;">&#112;&#97;&#105;&#110;&#116;&#101;&#114;&#106;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+	        	  <tr>
+    <th colspan="2" id="10001" style="font-weight: 400;">
+      Department Liaisons    </th>
+  </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">Phonebook Contact Person </span>
+	    <br />
+	    Brenda L Ankenbrand	    <br />
+	    377 HAB  MC 348</br>  Urbana IL	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 217-333-3077	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#97;&#110;&#107;&#101;&#110;&#98;&#114;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#98;&#97;&#110;&#107;&#101;&#110;&#98;&#114;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">Phonebook Contact Person </span>
+	    <br />
+	    Joyce A Williams	    <br />
+	    414 AOB MC 760</br>	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 312-413-9097	    <br />
+	    <strong>F</strong> 312-413-8301	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#119;&#105;&#108;&#108;&#105;&#97;&#109;&#52;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#119;&#105;&#108;&#108;&#105;&#97;&#109;&#52;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+		      <tr>
+    <td style="vertical-align: top; font-weight: 400;">
+	    <span style="font-weight: 500;">Phonebook Contact Person </span>
+	    <br />
+	    Nathan A Yelton	    <br />
+	    338 HAB  MC 360</br> 506 S Wright St Urbana IL 61801	</td>
+	<td style="vertical-align: top; font-weight: 400;">
+	    <strong>T</strong> 217-244-6131	    <br />
+	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#110;&#121;&#101;&#108;&#116;&#111;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#110;&#121;&#101;&#108;&#116;&#111;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
+	    <br />
+	</td>
+    </tr>
+	    </table>
 
-            "That email address is already in use. Please try again." : 'That email address is already in use. Please try again.',
-            "That email address is already associated with another account." : 'That email address is already associated with another account.',
+  </div>
+</div>
+</section>
 
-            "Oops. Did you mean %1$s ?" : 'Oops. Did you mean %1$s ?',
+<div class="ms-grid" style="margin-top: 40px;">
+  <div class="ms-row block-wysiwyg">
+    <div class="m-col-1-3">
+        <form method="get" action="/apps/find-people/search">
 
-            "Please choose a stronger password." : 'Please choose a stronger password.',
-            "Can't do dashes at the start or end. Middles only." : 'Can\'t do dashes at the start or end. Middles only.',
-            "Rule #14: You can't put Tumblr in your username." : 'Rule #14: You can\'t put Tumblr in your username.',
-        };
+<div class="form-element"> 
+	<h2>Individuals</h2>
+</div>
 
-        return function(string) {
-            return translation[string] || string;
-        };
+  <div class="form-element">
+    <label>
+      <span class="form-element-label">Last name</span>
+      <input class="text-input" type="text" id="lastname" name="lastname">
+    </label>
+  </div>
 
-    })();
-</script><script nonce="Dtm6rrwMMFAbCzFBomgM8t9dhk">
-var _flags = 'eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwibW9iaWxlX3dlYl9nYXRlIjp0cnVlLCJzYWZlX21vZGUiOnRydWUsInNhZmVfbW9kZV9lbmFibGVkIjp0cnVlLCJrZXljb21tYW5kX2F1dG9fcGFnaW5hdGUiOnRydWUsImxvZ2dlZF9vdXRfc2VhcmNoIjp0cnVlLCJrcmFrZW5fd2ViX2xvZ2dpbmdfbGlicmFyeSI6dHJ1ZSwidHVtYmxlbG9nX2NsaWNrdGhyb3VnaCI6dHJ1ZSwibGl2ZXBob3Rvc193ZWIiOnRydWUsInVzZXJfdGFnX2ZpbHRlcmluZyI6dHJ1ZSwicHJvamVjdF94X2FwcGVhbCI6dHJ1ZSwicHJvamVjdF94X3dlYl9zZW5zaXRpdmVfY292ZXJzIjp0cnVlLCJzYWZlX21vZGVfb3duX3Bvc3QiOnRydWUsIm1vYmlsZV93ZWJfcGhvdG9zZXRzIjp0cnVlLCJoaWRlX2RlZmF1bHRfaGVhZGVyc19ibG9nX2NhcmRzIjp0cnVlLCJub3RpZmljYXRpb25fcmVwbHlfbGlua190b19ub3RlcyI6dHJ1ZSwidHlwaW5nX2luZGljYXRvcl93cml0ZSI6dHJ1ZSwiZ2Rwcl9ndWNlX2lzX3JlcXVpcmVkIjp0cnVlLCJ0dW1ibHJfdmlkZW9fc3BvbnNvcmVkX2RheSI6dHJ1ZSwiY2FwdGNoYTp1c2VfcmVjYXB0Y2hhMiI6dHJ1ZSwibGl0dGxlX3Npc3RlciI6dHJ1ZSwiZW5hYmxlX2pzX2Vycm9yc19sb2ciOnRydWUsImxvZ19sYWR5Ijp0cnVlLCJzdGF0dXNfaW5kaWNhdG9yIjp0cnVlLCJjb252ZXJzYXRpb25hbF9ub3RpZmljYXRpb25zIjp0cnVlLCJzaG93X3JhbmRvbV91c2VybmFtZV9zdWdnZXN0aW9ucyI6dHJ1ZSwic2hvdWxkX3Nob3dfbG9nZ2VkX291dF9zZWFyY2giOnRydWV9';
-var _assets = 'https://assets.tumblr.com/client/prod/';
-</script><script nonce="Dtm6rrwMMFAbCzFBomgM8t9dhk" crossorigin="anonymous" src="https://assets.tumblr.com/client/prod/app/header.build.js?_v=84aeb9438f08801d93b71a8e96f9eb9d"></script><script nonce="Dtm6rrwMMFAbCzFBomgM8t9dhk">
-    (function(exports) {
-        'use strict';
+  <div class="form-element">
+    <label>
+      <span class="form-element-label">First name</span>
+      <input class="text-input" type="text" id="firstname" name="firstname">
+    </label>
+  </div>
 
-        exports.getRealNow = (function(p, ts) {
-            var start = (p && p.timing && p.timing.responseStart) || Date.now();
-            function getRealNow() {
-                return ts + (Date.now() - start);
-            };
-            getRealNow.startedAt = (new Date()).getTime();
-            getRealNow.realStartedAt = getRealNow();
-            return getRealNow;
-        })(window.performance, 1588056829000);
-    })(window.Tumblr || (window.Tumblr = {}));
-</script><script nonce="Dtm6rrwMMFAbCzFBomgM8t9dhk">if (top != self) top.location = self.location;</script><script src="https://assets.tumblr.com/languages/strings/en_US.js?1343"></script><script crossorigin="anonymous" src="https://assets.tumblr.com/assets/scripts/tumblr/utils/exceptions.js?_v=45347cc9cdb76e3c2b754e6bb06e8e20"></script><script nonce="Dtm6rrwMMFAbCzFBomgM8t9dhk" src="https://consent.cmp.oath.com/cmpStub.min.js"></script><!-- Consent Manager Tag : Script --><script nonce="Dtm6rrwMMFAbCzFBomgM8t9dhk" type="text/javascript" src="https://consent.cmp.oath.com/cmp3p.js" async></script><script nonce="Dtm6rrwMMFAbCzFBomgM8t9dhk" type="text/javascript">
-document.addEventListener("DOMContentLoaded", function() {
-    var parseCookie = function () {
-        var cookieValue = document.cookie;
-        var cookie, cookies, j, len, parts, ref;
-        cookies = {};
-        if (cookieValue) {
-            ref = cookieValue.split(';');
-            for (j = 0, len = ref.length; j < len; j++) {
-                cookie = ref[j];
-                parts = cookie.split(/=(.+)/);
-                cookies[parts[0].trim()] = (parts[1] || '').trim();
-            }
-        }
-        return cookies;
-    };
+  <div class="form-element">
+    <label>
+      <span class="form-element-label">NetID</span>
+      <input class="text-input" type="text" id="netid" name="netid">
+    </label>
+  </div>
 
-   var getCookie = function (name) {
-        return parseCookie()[name];
-    };
+  <div class="form-element">
+    <label>
+      <span class="form-element-label">Department</span>
+      <input class="text-input" type="text" id="department" name="department">
+    </label>
+  </div>
 
-    if (getCookie('EuConsent')) {
-        if (!window.__cmp) {
-            // find the CMP frame
-            var f = window;
-            var cmpFrame;
-            while (!cmpFrame) {
-                try {
-                    if (f.frames["__cmpLocator"]) cmpFrame = f;
-                } catch (e) {
-                }
-                if (f === window.top) break;
-                f = f.parent;
-            }
+  <button type="submit" class="button">Search</button>
 
-            var cmpCallbacks = {};
+  <p class="form-help-text" style="margin-top: 15px;">
+    <em>
+      <strong>Tip</strong> Typing "Lee" into the Last Name
+      field will retrieve too many entries to print. But, adding
+      "R" to the First Name will narrow the search.
+    </em>
+  </p>
 
-            /* Set up a __cmp function to do the postMessage and
-               stash the callback.
-               This function behaves (from the caller's perspective)
-               identically to the same frame __cmp call */
-            window.__cmp = function (cmd, arg, callback) {
-                if (!cmpFrame) {
-                    callback({msg: "CMP not found"}, false);
-                    return;
-                }
-                var callId = Math.random() + "";
-                var msg = {
-                    __cmpCall: {
-                        command: cmd,
-                        parameter: arg,
-                        callId: callId
-                    }
-                };
-                cmpCallbacks[callId] = callback;
-                cmpFrame.postMessage(msg, '*');
-            };
+</form>
 
-            /* when we get the return message, call the stashed callback */
-            window.addEventListener("message", function (event) {
-                var msgIsString = typeof event.data === "string";
-                var json = event.data;
-                if (msgIsString) {
-                    try {
-                        json = JSON.parse(event.data);
-                    } catch (e) {}
-                }
+    </div>
 
-                if (json.__cmpReturn) {
-                    var i = json.__cmpReturn;
-                    cmpCallbacks[i.callId](i.returnValue, i.success);
-                    delete cmpCallbacks[i.callId];
-                }
-            }, false);
-        } else {
-            window.__cmp('init', {
-                gdprAppliesGlobally: false,
-                uiDisplayMode: 'standalone'
-            });
-        }
-    }
-});
-</script><iframe height="1" width="1" frameborder="0" style="position:absolute;top:0;left:0;visibility:hidden;pointer-events:none;" tabindex="-1" allowtransparency="true" src="https://cookiex.ngd.yahoo.com/v2/cexposer/SIG=11lum9jej/*https%3A//www.tumblr.com/yahoo_cookie_receiver.html"></iframe></head><body 
-                id="account_actions_login_and_register"
-    
-        
+    <div class="m-col-2-3">
+        <form method="get" action="//www.uic.edu/apps/departments-az/search">
 
-                class="flag--reblog-ui-refresh flag--messaging-new-empty-inbox flag--npf-text-web-styles flag--npf-text-colors show_password_strength has_determine_step signup_determine dash_b show_form loading recaptcha2 show_form signup_login now recaptcha2 login-with-about identity base identity-refresh logged_out account_actions_login_and_register logged_out without_auto_paginate layout_onboarding"
-    
-        
-><div class="about-tumblr-showcase"><div class="dash_b_form_container with_bg no_subheading"><div class="dash_b_form_header"><h1 class="logo-word large" id="logo"><a class="logo_anchor" href="/" aria-label="Tumblr">Tumblr</a></h1></div><div class="form-header-welcome"><h2 class="section-title">Okay, it&rsquo;s not actually hard to explain.</h2><p class="subheading">We lied. But now you understand this thing. So come on in.</p></div><div class="dash_b_form"><div id="signup_forms" class="signup_forms clearfix"><div id="signup_forms_container" class="signup_forms_container clearfix"><div id="signup_forms_panel" class="signup_forms_panel clearfix"><form tabindex="-1" class="signup_form_form" id="signup_form" method="post" action="https://www.tumblr.com/login" data-secure-action="https://www.tumblr.com/login" data-secure-ajax-action="https://www.tumblr.com/svc/account/register"><div class="signup_view get_started" id="signup_get_started"></div><div class="signup_view determine" id="signup_determine"><div class="form_row form_row_email"><label for="signup_determine">Email</label><input type="email" name="determine_email" placeholder="Email" id="signup_determine_email"
-                                    data-required="required" value="" /><input type="password" id="signup_password_hidden" tabindex="-1"/></div></div><div class="signup_view account login" id="signup_account"><div class="form_row form_row_email"><label for="signup_email">Email</label><input type="email" name="user[email]" placeholder="Email" id="signup_email"                                     data-required="required" value="" /></div><div class="form_row form_row_password"><label for="signup_password">Password</label><input type="password" name="user[password]" placeholder="Password" id="signup_password" data-required="required"/></div><div class="form_row username"><label for="signup_username">Username</label><input type="text" name="tumblelog[name]" class="signup_username" placeholder="Username" id="signup_username" maxlength="32" autocorrect="off" autocapitalize="off" value="" /><span class="icon_checkmark signup_username_checkmark"></span></div></div><div class="signup_view birthday" id="signup_birthday"><div class="form_row"><div class="form_field age"><label for="signup_age" class="signup_age_label is_empty years_old"><b></b> <span class="placeholder">How old are you?</span></label><input type="text" name="user[age]" id="signup_age" value="" id="signup_age" class="signup_age is_empty" size="3" min="1" max="130" data-required="required" /></div></div><div class="form_row tos"><input type="checkbox" name="user[tos]" id="signup_tos" data-required="required" value="1"/> <label for="signup_tos">I have read, understand, and agree to the Tumblr <a href="/policy/" class="signup_terms_link" tabindex="-1" target="_new">Terms of Service</a>.</label></div></div><div class="captcha recaptcha2_captcha signup_view" id="signup_register"><div class="form_row"><div class="g-recaptcha" id="g-recaptcha" data-sitekey="6LcaLgATAAAAAMfyoZjBXW33zuRRJq9pFvsE9HJJ"></div>    </div></div><div class="form_row_hidden"><input type="hidden" name="context" value="no_referer"/><input type="hidden" name="version" value="STANDARD"/><input type="hidden" name="follow" value=""/><input type="hidden" name="redirect_to" value="https://www.tumblr.com/widgets/share/tool?shareSource=legacy&amp;canonicalUrl=&amp;url=https%3A%2F%2Ftoday.uic.edu%2Fvirtualevents&amp;posttype=link&amp;title=&amp;caption=&amp;content=https%3A%2F%2Ftoday.uic.edu%2Fvirtualevents"/><input type="hidden" name="form_key" value="!1231588056829|dMBxRrFC9K58M2DMnzBpEX6qCY" /><input type="hidden" id="seen_suggestion" name="seen_suggestion" value="0" /><input type="hidden" id="used_suggestion" name="used_suggestion" value="0" /><input type="hidden" id="used_auto_suggestion" name="used_auto_suggestion" value="0" /><input type="hidden" id="about_tumblr_slide" name="about_tumblr_slide" value="" /><input type="hidden" id="random_username_suggestions" name="random_username_suggestions" value="[&quot;ShadowyWombatDonut&quot;,&quot;FamousGiverDestiny&quot;,&quot;EnchantingTravelerFan&quot;,&quot;DangerousTurtlePerfection&quot;,&quot;CasualInfluencerPost&quot;]"/></div><div class="signup_view magiclink" id="signup_magiclink"><div class="magiclink_send_magic_link chrome blue"><a href="#" class="send_magic_link" tabindex="-1">Send me a magic link</a></div><div class="magiclink_password_container chrome"><a href="#" class="forgot_password_link" tabindex="-1">Use password to log in</a></div><div class="back_container"><a href="#" class="forgot_password_link" tabindex="-1">Back</a></div></div><div class="signup_view magiclinkemail" id="signup_magiclinkemail"><div class="form_row form_row_email"><input type="hidden" name="action" value="signup_determine"><div class="form-description"><h1 class="headline"><p> We sent you a magic link!</p></h1><p>We sent an email to <b class="email_user"></b>.</p><p>It contains a magic link that&#039;ll log you in.</p></div><br></div><div class="magiclink_password_container chrome"><a href="#" class="forgot_password_link" tabindex="-1">Use password to log in</a></div><div class="back_container"><a href="#" class="forgot_password_link" tabindex="-1">Back</a></div></div><button type="submit" class="signup_forms_submit_helper">Submit</button></form></div></div><ul class="signup_forms_errors" id="signup_form_errors" tabindex="0" aria-live="polite"></ul><div id="suggested_usernames_container" class="hidden"><div class="popover popover_onboarding popover_menu popover_gradient nipple_on_left" style="display:none;"><div class="popover_inner"><div class="username_note"><strong>How about one of these?</strong><br/>(You can always change it later.)                </div><div class="popover_header no_nipple">Available usernames</div><ul id="suggested_usernames"></ul></div></div></div><button class="chrome big signup_forms_submit touchy blue" id="signup_forms_submit"><span class="signup_get_started_btn">Get Started</span><span class="signup_determine_btn">Next</span><span class="signup_account_btn">Sign up</span><span class="signup_birthday_btn">Next</span><span class="signup_register_btn"><span><b>Almost</b> <b>Done!</b></span></span><span class="signup_login_btn">Log in</span></button><button class="chrome big signup_forms_submit touchy dark" id="signup_login_button"><span class="signup_get_started_btn">Log In</span></button><div class="forgot_password_container"><a href="/forgot_password" class="forgot_password_link" tabindex="-1">Forgot your password?</a></div></div><div class="signup_waiting" id="signup_waiting"></div></div><div class="mobile-apps"><ul class="apps"><li class="app-item"><a class="app-link app-ios" href="https://apps.apple.com/app/apple-store/id305343404?pt=212308&amp;ct=signup_page&amp;mt=8" aria-label="Download Tumblr on the App Store" target="_blank" rel="noopener noreferrer"></a></li><li class="app-item"><a class="app-link app-android" href="https://play.google.com/store/apps/details?id=com.tumblr&amp;referrer=utm_source%3Dtumblr%26utm_medium%3Diframe%26utm_campaign%3Dsignup_page" aria-label="Download Tumblr on Google Play" target="_blank" rel="noopener noreferrer"></a></li></ul></div></div><div class="showcase"><div class="section login-section active" data-section="login" data-section-title="Sign up"><div id="fullscreen_post_bg" class="fullscreen_post_bg" style="background-image:url('https://66.media.tumblr.com/1db5bb1c57ef78923716f62e926b1ef3/ffa9e893423a7895-2a/s1280x1920/0c00bca2bdb633fa8607c22502b584c9c0aeb09d.png');"><img id="fullscreen_post_image" src="https://66.media.tumblr.com/1db5bb1c57ef78923716f62e926b1ef3/ffa9e893423a7895-2a/s1280x1920/0c00bca2bdb633fa8607c22502b584c9c0aeb09d.png" alt="Posted by orenji--kun" /></div><div class="fullscreen_post_footer"><div class="fullscreen_post_footer_inner"><div class="footer_legal_links"><a href="https://www.tumblr.com/policy" target="_blank" class="login_link policy_link terms">Terms</a><a href="https://www.tumblr.com/privacy_policy" target="_blank" class="login_link policy_link privacy">Privacy</a><a href="https://www.tumblr.com/jobs" target="_blank" class="login_link policy_link jobs">Jobs</a><div data-drawer-open="helpform:login" tabindex="0" class="login_link support">Support</div><iframe src="https://tumblr.com/hsts" height="0" width="0" style="visibility:hidden;"></iframe></div><div class="fullscreen_post_posted_by show"><div class="post_info just_tumblelog"  data-tumblelog="orenji--kun" data-id="616161564270247936"><a href="https://orenji--kun.tumblr.com/post/616161564270247936/%F0%9D%90%8F%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%9C%F0%9D%90%9E-%F0%9D%90%86%F0%9D%90%A2%F0%9D%90%A8" target="_blank" rel="nofollow noopener noreferrer" title="Posted by orenji--kun">Posted by <strong>orenji--kun</strong></a>        <a href="https://orenji--kun.tumblr.com/post/616161564270247936/%F0%9D%90%8F%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%9C%F0%9D%90%9E-%F0%9D%90%86%F0%9D%90%A2%F0%9D%90%A8" target="_blank" rel="nofollow noopener noreferrer" title="orenji--kun" class="post_avatar root_tumblelog" id="post_avatar_616161564270247936" style="background-image:url('https://66.media.tumblr.com/97ae69f622106e49a4021fb152a17adf/225dd2804e643014-2d/s64x64u_c1/3def8c10f55c41bd40754da777b85384eee69906.jpg');"><img src="https://66.media.tumblr.com/97ae69f622106e49a4021fb152a17adf/225dd2804e643014-2d/s64x64u_c1/3def8c10f55c41bd40754da777b85384eee69906.jpg" alt="orenji--kun" /></a></div></div><script type="text/javascript" nonce="Dtm6rrwMMFAbCzFBomgM8t9dhk">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1588056829&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6Ly93d3cudHVtYmxyLmNvbS9sb2dpbj9yZWRpcmVjdF90bz1odHRwcyUzQSUyRiUyRnd3dy50dW1ibHIuY29tJTJGd2lkZ2V0cyUyRnNoYXJlJTJGdG9vbCUzRnNoYXJlU291cmNlJTNEbGVnYWN5JTI2Y2Fub25pY2FsVXJsJTNEJTI2dXJsJTNEaHR0cHMlMjUzQSUyNTJGJTI1MkZ0b2RheS51aWMuZWR1JTI1MkZ2aXJ0dWFsZXZlbnRzJTI2cG9zdHR5cGUlM0RsaW5rJTI2dGl0bGUlM0QlMjZjYXB0aW9uJTNEJTI2Y29udGVudCUzRGh0dHBzJTI1M0ElMjUyRiUyNTJGdG9kYXkudWljLmVkdSUyNTJGdmlydHVhbGV2ZW50cyIsInJlcXR5cGUiOjAsInJvdXRlIjoiL2xvZ2luIiwicG9zdHMiOlt7InBvc3RpZCI6IjYxNjE2MTU2NDI3MDI0NzkzNiIsImJsb2dpZCI6MjE0Njg5MDQ0LCJzb3VyY2UiOjMyfV19&U=OBHPHDEJBD&K=3ee31d034290642beb2c1f8db4627e4803c540f644ad95be3142ed7169775392&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1588056829&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6Ly93d3cudHVtYmxyLmNvbS9sb2dpbj9yZWRpcmVjdF90bz1odHRwcyUzQSUyRiUyRnd3dy50dW1ibHIuY29tJTJGd2lkZ2V0cyUyRnNoYXJlJTJGdG9vbCUzRnNoYXJlU291cmNlJTNEbGVnYWN5JTI2Y2Fub25pY2FsVXJsJTNEJTI2dXJsJTNEaHR0cHMlMjUzQSUyNTJGJTI1MkZ0b2RheS51aWMuZWR1JTI1MkZ2aXJ0dWFsZXZlbnRzJTI2cG9zdHR5cGUlM0RsaW5rJTI2dGl0bGUlM0QlMjZjYXB0aW9uJTNEJTI2Y29udGVudCUzRGh0dHBzJTI1M0ElMjUyRiUyNTJGdG9kYXkudWljLmVkdSUyNTJGdmlydHVhbGV2ZW50cyIsInJlcXR5cGUiOjAsInJvdXRlIjoiL2xvZ2luIiwicG9zdHMiOlt7InBvc3RpZCI6IjYxNjE2MTU2NDI3MDI0NzkzNiIsImJsb2dpZCI6MjE0Njg5MDQ0LCJzb3VyY2UiOjMyfV0sIm5vc2NyaXB0IjoxfQ==&U=OBHPHDEJBD&K=289892c36c9633b6c47866113cb16f0a73bf018a2c9b403e161c62a81140a40c&R="></noscript>        </div></div><div class="about-tumblr-btn">What is Tumblr?</div></div><div class="section about-section" data-section="about" data-section-title="So easy to use that it&rsquo;s hard to explain."><div class="section-wrapper"><svg class="about-graphic" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     viewBox="0 0 284.5 221.8" enable-background="new 0 0 284.5 221.8" xml:space="preserve"><g class="graphic-icon reblog-b"><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M138.5,209.7l9-9v6.5h16.9v-2.4l6.7-6.7v13c0,1.6-1.3,2.9-2.9,2.9h-20.7v6.6l-9-9C138,211,138,210.2,138.5,209.7z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M139.1,191.8c0-1.6,1.3-2.9,2.9-2.9h20.7v-6.6l9,9c0.5,0.5,0.5,1.3,0,1.8l-9,9v-6.5h-16.9v2.4l-6.7,6.7V191.8z"/></g><g class="graphic-icon reblog-a"><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M81.7,37.9l10.7-10.6v7.7h19.9V32l7.9-7.9v15.3c0,1.9-1.5,3.4-3.4,3.4H92.3v7.7L81.7,39.9C81.1,39.4,81.1,38.4,81.7,37.9z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M82.4,16.8c0-1.9,1.5-3.4,3.4-3.4h24.4V5.6l10.7,10.6c0.6,0.6,0.6,1.5,0,2.1l-10.7,10.6v-7.7H90.3v2.9L82.4,32V16.8z"/></g><g class="graphic-icon video-b"><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M45.7,32.1v-0.6h3.1h0h0h0.1v0c3.7,0,6.8,2.4,8,5.7c0.8-2.3,2.6-4.2,4.9-5.1v-0.6h2.3c0.3,0,0.6,0,0.8,0c0.3,0,0.6,0,0.9,0h0v0
-            c4.3,0.4,7.7,4.1,7.7,8.5c0,4.7-3.8,8.6-8.6,8.6H48.9c-4.7,0-8.6-3.8-8.6-8.6C40.3,36.4,42.6,33.3,45.7,32.1z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M53.1,48.7h18.9c1.1,0,2,0.9,2,2v0.7c0,1.1-0.9,2-2,2h-1.9V65c0,1.1-1.4,2-2.7,2H53.1V48.7z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M30.1,48.4c0.2-0.1,0.4-0.1,0.6-0.1c0.4,0,0.8,0.2,1.1,0.5c0,0,6,6.1,6.1,6.3v-6.3h30.9v4.8h-3.6V65c0,1.1-1.4,2-2.7,2H40.5
-            c-1.2,0-2.7-0.8-2.7-1.9v-5.7c-0.1,0.2-6.1,6.3-6.1,6.3c-0.3,0.3-0.7,0.5-1.1,0.5c-0.2,0-0.4,0-0.6-0.1c-0.6-0.2-1-0.8-1-1.4V49.8
-            C29.1,49.2,29.5,48.7,30.1,48.4z"/><line fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="37.8" y1="55" x2="37.8" y2="59.4"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M45.7,31.5c3.7,0,6.9,2.4,8.1,5.7c1.2-3.3,4.3-5.7,8.1-5.7c4.7,0,8.6,3.8,8.6,8.6s-3.8,8.6-8.6,8.6H45.7c-4.7,0-8.6-3.8-8.6-8.6
-            S41,31.5,45.7,31.5z"/><circle fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="61.8" cy="40" r="3.2"/><circle fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="45.7" cy="40" r="3.2"/><line fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="65" y1="31.5" x2="61.8" y2="31.5"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M53.8,34.6c-0.2-0.6-0.8-1.2-1.4-1.4"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M70.8,53.6c-1.1,0-2-0.9-2-2v-0.7c0-1.1,0.9-2,2-2"/></g><g class="graphic-icon video-a"><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M258.5,56.8v-0.7H255h0h0H255v0c-4.1,0-7.5,2.7-8.8,6.3c-0.9-2.6-2.9-4.6-5.4-5.6v-0.6h-2.6c-0.3,0-0.6,0-0.9,0c-0.3,0-0.6,0-1,0h0
-            v0c-4.8,0.5-8.5,4.5-8.5,9.4c0,5.2,4.2,9.4,9.4,9.4H255c5.2,0,9.4-4.2,9.4-9.4C264.5,61.6,262,58.2,258.5,56.8z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M250.3,75.1h-20.9c-1.2,0-2.2,1-2.2,2.2v0.8c0,1.2,1,2.2,2.2,2.2h2.1v12.7c0,1.2,1.6,2.2,2.9,2.2h15.9V75.1z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M275.8,74.8c-0.2-0.1-0.4-0.1-0.6-0.1c-0.4,0-0.9,0.2-1.2,0.5c0,0-6.6,6.7-6.7,6.9v-7h-34.1v5.3h4v12.7c0,1.2,1.6,2.2,2.9,2.2h24.2
-            c1.3,0,2.9-0.8,2.9-2.1v-6.3c0.1,0.2,6.7,6.9,6.7,6.9c0.3,0.3,0.8,0.5,1.2,0.5c0.2,0,0.4,0,0.6-0.1c0.6-0.3,1.1-0.9,1.1-1.6V76.4
-            C276.8,75.7,276.4,75.1,275.8,74.8z"/><line fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="267.2" y1="82.1" x2="267.2" y2="86.9"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M258.5,56.1c-4.1,0-7.6,2.6-8.9,6.3c-1.3-3.7-4.8-6.3-8.9-6.3c-5.2,0-9.4,4.2-9.4,9.4c0,5.2,4.2,9.4,9.4,9.4h17.8
-            c5.2,0,9.4-4.2,9.4-9.4C268,60.4,263.7,56.1,258.5,56.1z"/><circle fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="240.7" cy="65.6" r="3.6"/><circle fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="258.5" cy="65.6" r="3.6"/><line fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="237.2" y1="56.1" x2="240.7" y2="56.1"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M249.6,59.6c0.3-0.7,0.9-1.3,1.6-1.5"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M230.9,80.5c1.2,0,2.2-1,2.2-2.2v-0.8c0-1.2-1-2.2-2.2-2.2"/></g><g class="graphic-icon text-a"><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M184.5,104.3l-2.3-7.1h-11.5l-2.3,7.1h-9.2L172,68.4h9.2l12.7,35.9H184.5z M179.9,89.8l-3.3-10.3l-3.4,10.3H179.9z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M204.7,105.1c-2.5,0-4.6-0.7-6.2-2.2c-1.7-1.5-2.5-3.5-2.5-6.2c0-3.4,1.4-5.9,4-7.5c1.4-0.8,3.5-1.4,6.2-1.7l2.3-0.3
-            c1.4-0.2,2.1-0.4,2.4-0.5c0.9-0.4,1-0.8,1-1.2c0-1-0.4-1.3-0.7-1.5c-0.6-0.3-1.6-0.5-2.9-0.5c-1.3,0-2.3,0.3-2.8,0.9
-            c-0.4,0.5-0.6,1.1-0.8,2l-0.1,0.6h-7.9l0.1-0.8c0.1-2.4,0.8-4.4,2-5.9c1.9-2.4,5.2-3.7,9.7-3.7c2.9,0,5.5,0.6,7.8,1.7
-            c2.4,1.2,3.7,3.6,3.7,6.9v11.7c0,0.8,0,1.8,0,2.9c0.1,1,0.2,1.3,0.3,1.4c0.1,0.2,0.4,0.4,0.7,0.5l0.4,0.2v2.2h-8.5l-0.2-0.5
-            c-0.2-0.6-0.4-1.1-0.5-1.6c0,0,0,0,0,0c-0.7,0.6-1.4,1.1-2.2,1.6C208.5,104.7,206.7,105.1,204.7,105.1z M211.6,92.6
-            c-0.5,0.2-1.1,0.3-1.9,0.5l-1.5,0.3c-1.7,0.3-2.4,0.6-2.8,0.8c-0.8,0.5-1.2,1.2-1.2,2.2c0,0.9,0.2,1.5,0.7,1.9
-            c0.5,0.4,1.1,0.6,1.9,0.6c1.3,0,2.5-0.4,3.6-1.1c1-0.7,1.5-2,1.6-4v-1.2C211.7,92.5,211.7,92.5,211.6,92.6z"/></g><g class="graphic-icon photo-b"><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M50.1,77.3H39.9l-1.9-2.9H21.8L20,77.3H9.8c-4.2,0-7.6,3.4-7.6,7.6v29.2c0,4.2,3.4,7.6,7.6,7.6h40.4c4.2,0,7.6-3.4,7.6-7.6V84.9
-            C57.7,80.8,54.3,77.3,50.1,77.3z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M58.8,77.3H48.6l-1.9-2.9H30.5l-1.9,2.9H18.4c-4.2,0-7.6,3.4-7.6,7.6v29.2c0,4.2,3.4,7.6,7.6,7.6h40.4c4.2,0,7.6-3.4,7.6-7.6V84.9
-            C66.4,80.8,62.9,77.3,58.8,77.3z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M38.7,117.2c-9.1,0-16.5-7.4-16.5-16.5c0-9.1,7.4-16.5,16.5-16.5h4.9v33H38.7z"/><circle fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="43.7" cy="100.7" r="16.5"/><circle fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="43.7" cy="100.7" r="9.4"/><g><circle fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="43.7" cy="100.6" r="7.8"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M39.1,100.6c0-2.5,2.1-4.6,4.6-4.6"/></g><circle fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="59.1" cy="83.7" r="2.5"/></g><g class="graphic-icon photo-a"><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M223.1,159.8h-9l-1.7-2.6h-14.3l-1.7,2.6h-9c-3.7,0-6.7,3-6.7,6.7v25.8c0,3.7,3,6.7,6.7,6.7h35.6c3.7,0,6.7-3,6.7-6.7v-25.8
-            C229.8,162.8,226.8,159.8,223.1,159.8z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M230.7,159.8h-9l-1.7-2.6h-14.3l-1.7,2.6h-9c-3.7,0-6.7,3-6.7,6.7v25.8c0,3.7,3,6.7,6.7,6.7h35.6c3.7,0,6.7-3,6.7-6.7v-25.8
-            C237.4,162.8,234.4,159.8,230.7,159.8z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M213,194.9c-8.1,0-14.6-6.5-14.6-14.6c0-8.1,6.5-14.6,14.6-14.6h4.4v29.2H213z"/><circle fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="217.4" cy="180.3" r="14.6"/><circle fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="217.4" cy="180.3" r="8.3"/><g><circle fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="217.4" cy="180.3" r="6.9"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M213.3,180.3c0-2.2,1.8-4.1,4.1-4.1"/></g><circle fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="231" cy="165.4" r="2.2"/></g><g class="graphic-icon quote-b"><g><g><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                    M18.6,161.8c-5.8,0-9.6-4.3-9.6-10.8c0-8.1,6.8-15.5,13.2-19.6l0.6-0.4l4.2,4.2l-1.1,0.9c-2.6,1.9-5.8,4.3-7,7.3
-                    c5.3,0.5,8.7,4.2,8.7,9.6C27.6,157.9,23.6,161.8,18.6,161.8z"/></g></g><g><g><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                    M41.2,161.8c-5.8,0-9.6-4.3-9.6-10.8c0-8.1,6.8-15.5,13.2-19.6l0.6-0.4l4.2,4.2l-1.1,0.9c-2.6,1.9-5.8,4.3-7,7.3
-                    c5.3,0.5,8.7,4.2,8.7,9.6C50.3,157.9,46.3,161.8,41.2,161.8z"/></g></g></g><g class="graphic-icon quote-a"><g><g><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                    M262.9,106.7c5.8,0,9.6,4.3,9.6,10.8c0,8.1-6.8,15.5-13.2,19.6l-0.6,0.4l-4.2-4.2l1.1-0.9c2.6-1.9,5.8-4.3,7-7.3
-                    c-5.3-0.5-8.7-4.2-8.7-9.6C253.8,110.6,257.8,106.7,262.9,106.7z"/></g></g><g><g><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                    M240.2,106.7c5.8,0,9.6,4.3,9.6,10.8c0,8.1-6.8,15.5-13.2,19.6l-0.6,0.4l-4.2-4.2l1.1-0.9c2.6-1.9,5.8-4.3,7-7.3
-                    c-5.3-0.5-8.7-4.2-8.7-9.6C231.1,110.6,235.1,106.7,240.2,106.7z"/></g></g></g><g class="graphic-icon link-b"><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M108,113.1c-2.6-2.8-6.2-4.4-10.2-4.4c-7.9,0-14.9,6.4-15.5,14.3l-0.6,6.6h-6.6c-7.9,0-14.9,6.4-15.5,14.3c-0.3,4,0.9,7.8,3.5,10.6
-            c2.6,2.8,6.2,4.4,10.2,4.4c7.9,0,14.9-6.4,15.5-14.3l0.6-6.6H96c7.9,0,14.9-6.4,15.5-14.3C111.8,119.7,110.6,116,108,113.1z
-             M80.4,143.9c-0.3,3.6-3.6,6.6-7.2,6.6c-1.6,0-3-0.6-4-1.7c-1-1.1-1.5-2.6-1.3-4.2c0.3-3.6,3.6-6.6,7.2-6.6h5.9L80.4,143.9z
-             M96,129.6h-5.9l0.5-5.9c0.3-3.6,3.6-6.6,7.2-6.6c1.6,0,3,0.6,4,1.7c1,1.1,1.5,2.6,1.3,4.2C102.8,126.6,99.5,129.6,96,129.6z"/><line fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="81.6" y1="129.6" x2="90" y2="129.6"/><line fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="81.2" y1="138" x2="90" y2="138"/></g><g class="graphic-icon link-a"><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-            M243.2,19.3c-2.9-3.2-7-5-11.5-5c-8.9,0-16.8,7.2-17.6,16.2l-0.7,7.5H206c-8.9,0-16.8,7.2-17.6,16.1c-0.4,4.5,1,8.8,4,12
-            c2.9,3.2,7,5,11.5,5c8.9,0,16.8-7.2,17.6-16.2l0.7-7.5h7.5c8.9,0,16.8-7.2,17.6-16.2C247.6,26.7,246.1,22.5,243.2,19.3z M212,54
-            c-0.4,4.1-4.1,7.5-8.1,7.5c-1.8,0-3.4-0.7-4.5-1.9c-1.1-1.2-1.7-2.9-1.5-4.7c0.4-4.1,4.1-7.5,8.1-7.5h6.6L212,54z M229.6,37.9H223
-            l0.6-6.6c0.4-4.1,4.1-7.5,8.1-7.5c1.8,0,3.4,0.7,4.5,1.9c1.1,1.2,1.7,2.9,1.5,4.7C237.3,34.5,233.6,37.9,229.6,37.9z"/><line fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="213.3" y1="37.9" x2="222.8" y2="37.9"/><line fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="212.8" y1="47.4" x2="222.8" y2="47.4"/></g><g class="graphic-icon chat-c"><g><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M89.1,172.5H97c0,0-2.2-4.8-10.4-4.5l-0.4,1.3l2.6,3.3"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M97.7,183.2c0-2.7,0-5.5,0-7.8c0-4.3-4.3-7.8-9.4-7.8H65c-5.2,0-9.4,4.3-9.4,9.4v25.2c0,5.2,4.3,9.4,9.4,9.4h23.3
-                c5.2,0,9.4-3.5,9.4-7.8c0-2.3,0-5.1,0-7.8l6.5-6.4L97.7,183.2z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M89.8,183.2c0-2.7,0-5.5,0-7.8c0-4.3-4.3-7.8-9.4-7.8H57.1c-5.2,0-9.4,4.3-9.4,9.4v25.2c0,5.2,4.3,9.4,9.4,9.4h23.3
-                c5.2,0,9.4-3.5,9.4-7.8c0-2.3,0-5.1,0-7.8l6.5-6.4L89.8,183.2z"/><line fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="104.2" y1="189.6" x2="96.3" y2="189.6"/><path fill="#47B27F" d="M76.6,183.4c0-1,0.6-1.5,1.6-1.5c1,0,1.6,0.5,1.6,1.5v2.3c0,0.3,0,0.6-0.1,0.9l-0.6,4.7
-                c-0.1,0.6-0.4,0.7-0.9,0.7c-0.5,0-0.8-0.2-0.9-0.7l-0.6-4.7c0-0.3-0.1-0.6-0.1-0.9V183.4z"/><path fill="#47B27F" d="M68.4,195.3c0,0.8-0.3,1.5-1.5,1.5c-1.1,0-1.5-0.7-1.5-1.5v-5.1c0-1.2-0.6-2-1.8-2c-1,0-2.2,0.8-2.2,2.3
-                v4.8c0,0.8-0.3,1.5-1.5,1.5c-1.1,0-1.5-0.7-1.5-1.5v-12c0-1,0.6-1.5,1.5-1.5c0.9,0,1.5,0.5,1.5,1.5v4h0c0.6-0.8,1.6-1.5,3.3-1.5
-                c1.8,0,3.7,0.9,3.7,3.8V195.3z"/><path fill="#47B27F" d="M73.7,195.3c0,0.8-0.3,1.5-1.5,1.5c-1.1,0-1.5-0.7-1.5-1.5v-8c0-0.8,0.3-1.5,1.5-1.5
-                c1.1,0,1.5,0.7,1.5,1.5V195.3z"/><path fill="#47B27F" d="M72.3,184.8c-0.8,0-1.5-0.7-1.5-1.5c0-0.8,0.7-1.5,1.5-1.5c0.8,0,1.5,0.7,1.5,1.5
-                C73.8,184.2,73.1,184.8,72.3,184.8z"/><path fill="#47B27F" d="M78.2,196.7c-0.9,0-1.6-0.7-1.6-1.6c0-0.9,0.7-1.6,1.6-1.6c0.9,0,1.6,0.7,1.6,1.6
-                C79.9,195.9,79.1,196.7,78.2,196.7z"/></g><line fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="89.8" y1="183.2" x2="97.7" y2="183.2"/><line fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="90.6" y1="195.9" x2="97.7" y2="195.9"/></g><g class="graphic-icon chat-b"><g><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M162.9,12.2h6.1c0,0-1.7-3.7-8.1-3.5l-0.3,1l2,2.5"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M169.5,20.5c0-2.1,0-4.3,0-6.1c0-3.4-3.3-6.1-7.4-6.1h-18.1c-4,0-7.4,3.3-7.4,7.4v19.6c0,4,3.3,7.4,7.4,7.4h18.1
-                c4,0,7.4-2.7,7.4-6.1c0-1.8,0-4,0-6.1l5-5L169.5,20.5z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M163.4,20.5c0-2.1,0-4.3,0-6.1c0-3.4-3.3-6.1-7.4-6.1h-18.1c-4,0-7.4,3.3-7.4,7.4v19.6c0,4,3.3,7.4,7.4,7.4H156
-                c4,0,7.4-2.7,7.4-6.1c0-1.8,0-4,0-6.1l5-5L163.4,20.5z"/><line fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="174.6" y1="25.5" x2="168.4" y2="25.5"/><path fill="#47B27F" d="M153.1,20.7c0-0.8,0.5-1.2,1.2-1.2c0.8,0,1.2,0.4,1.2,1.2v1.8c0,0.2,0,0.5-0.1,0.7l-0.5,3.6
-                c-0.1,0.5-0.3,0.6-0.7,0.6c-0.4,0-0.6-0.1-0.7-0.6l-0.5-3.6c0-0.2-0.1-0.5-0.1-0.7V20.7z"/><path fill="#47B27F" d="M146.7,30c0,0.6-0.2,1.1-1.1,1.1c-0.9,0-1.1-0.5-1.1-1.1v-4c0-0.9-0.5-1.6-1.4-1.6c-0.8,0-1.7,0.7-1.7,1.8
-                V30c0,0.6-0.2,1.1-1.1,1.1c-0.9,0-1.1-0.5-1.1-1.1v-9.3c0-0.7,0.5-1.1,1.1-1.1c0.7,0,1.1,0.4,1.1,1.1v3.1h0
-                c0.5-0.6,1.2-1.2,2.5-1.2c1.4,0,2.9,0.7,2.9,3V30z"/><path fill="#47B27F" d="M150.9,30c0,0.6-0.2,1.1-1.1,1.1c-0.9,0-1.1-0.5-1.1-1.1v-6.3c0-0.6,0.2-1.1,1.1-1.1
-                c0.9,0,1.1,0.5,1.1,1.1V30z"/><circle fill="#47B27F" cx="149.8" cy="20.7" r="1.2"/><path fill="#47B27F" d="M154.4,31c-0.7,0-1.3-0.6-1.3-1.3c0-0.7,0.6-1.3,1.3-1.3c0.7,0,1.3,0.6,1.3,1.3
-                C155.6,30.5,155.1,31,154.4,31z"/></g><line fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="163.4" y1="20.5" x2="169.5" y2="20.5"/><line fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="164" y1="30.5" x2="169.5" y2="30.5"/></g><g class="graphic-icon chat-a"><g><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M190.5,120.1H185c0,0,1.5-3.4,7.2-3.2l0.3,0.9l-1.8,2.3"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M184.5,127.6c0-1.9,0-3.9,0-5.5c0-3,3-5.5,6.6-5.5h16.2c3.6,0,6.6,3,6.6,6.6v17.5c0,3.6-3,6.6-6.6,6.6h-16.2
-                c-3.6,0-6.6-2.5-6.6-5.5c0-1.6,0-3.6,0-5.5l-4.5-4.5L184.5,127.6z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M190,127.6c0-1.9,0-3.9,0-5.5c0-3,3-5.5,6.6-5.5h16.2c3.6,0,6.6,3,6.6,6.6v17.5c0,3.6-3,6.6-6.6,6.6h-16.2c-3.6,0-6.6-2.5-6.6-5.5
-                c0-1.6,0-3.6,0-5.5l-4.5-4.5L190,127.6z"/><line fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="180" y1="132.1" x2="185.5" y2="132.1"/><g><path fill="#47B27F" d="M210.3,127.8c0-0.7,0.4-1.1,1.1-1.1c0.7,0,1.1,0.4,1.1,1.1v1.6c0,0.2,0,0.4-0.1,0.7l-0.4,3.3
-                    c-0.1,0.4-0.2,0.5-0.6,0.5c-0.4,0-0.6-0.1-0.6-0.5l-0.4-3.3c0-0.2-0.1-0.4-0.1-0.7V127.8z"/><path fill="#47B27F" d="M204.5,136.1c0,0.5-0.2,1-1,1c-0.8,0-1-0.5-1-1v-3.6c0-0.8-0.4-1.4-1.3-1.4c-0.7,0-1.5,0.6-1.5,1.6v3.4
-                    c0,0.5-0.2,1-1,1c-0.8,0-1-0.5-1-1v-8.4c0-0.7,0.4-1,1-1c0.6,0,1,0.3,1,1v2.8h0c0.4-0.5,1.1-1.1,2.3-1.1c1.2,0,2.6,0.6,2.6,2.7
-                    V136.1z"/><path fill="#47B27F" d="M208.2,136.1c0,0.5-0.2,1-1,1c-0.8,0-1-0.5-1-1v-5.6c0-0.5,0.2-1,1-1c0.8,0,1,0.5,1,1V136.1z"/><circle fill="#47B27F" cx="207.2" cy="127.7" r="1.1"/><path fill="#47B27F" d="M211.4,137c-0.6,0-1.1-0.5-1.1-1.1c0-0.6,0.5-1.1,1.1-1.1c0.6,0,1.1,0.5,1.1,1.1
-                    C212.5,136.5,212,137,211.4,137z"/></g></g><line fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="184.4" y1="127.6" x2="189.9" y2="127.6"/><line fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="185" y1="136.5" x2="189.9" y2="136.5"/></g><g class="graphic-icon audio-b"><g><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M123,78.5c-1-13-10.5-21.3-22.1-21.3c-11.5,0-21.1,8.3-22.1,21.4l4.7-0.1c1-10.3,8.4-16.4,17.3-16.4c9,0,16.4,6.1,17.3,16.4
-                L123,78.5z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M79.3,78.6h6.3v19.5h-6.3c-2.7,0-4.8-2-4.8-4.6V83.2C74.5,80.7,76.6,78.6,79.3,78.6z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M123.3,78.6h-6v19.5h6c2.5,0,4.6-2,4.6-4.6V83.2C127.9,80.7,125.8,78.6,123.3,78.6z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M127.8,82.3c-0.4-2.1-2.3-3.7-4.5-3.7h-6v3.7H127.8z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M79.3,78.6h6.2v19.5h-6.2c-2.7,0-4.8-2-4.8-4.6V83.2C74.5,80.7,76.6,78.6,79.3,78.6z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M123.3,78.6h-6v19.5h6c2.5,0,4.6-2,4.6-4.6V83.2C127.9,80.7,125.8,78.6,123.3,78.6z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M115,76.9c1.7,0,3.1,1.2,3.1,2.7v17.4c0,1.5-1.4,2.7-3.1,2.7c-1.7,0-3.1-1.2-3.1-2.7V79.6C111.9,78.1,113.3,76.9,115,76.9z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M87.6,76.9c-1.5,0-2.7,1.2-2.7,2.7v17.4c0,1.5,1.2,2.7,2.7,2.7c1.5,0,2.7-1.2,2.7-2.7V79.6C90.3,78.1,89.1,76.9,87.6,76.9z"/></g><g><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M99.9,100.2c-0.1,0-0.2,0-0.3,0c-0.6-0.1-1.1-0.7-1.1-1.3l0-7l-1.5,0.5c-0.1,0-0.3,0.1-0.4,0.1c-0.4,0-0.7-0.2-1-0.4
-                c-0.4-0.4-0.5-0.9-0.3-1.4l4.8-12.3c0.2-0.5,0.7-0.9,1.2-0.9c0.1,0,0.2,0,0.3,0c0.6,0.1,1.1,0.7,1.1,1.3l0,7l2.4-0.8
-                c0.1,0,0.3-0.1,0.4-0.1c0.4,0,0.7,0.2,1,0.4c0.4,0.4,0.4,1,0.2,1.5l-5.7,12.6C101,99.9,100.5,100.2,99.9,100.2z"/></g></g><g class="graphic-icon audio-a"><g><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M279.7,160.9c-0.7-9.4-7.6-15.4-15.9-15.4c-8.3,0-15.2,6-15.9,15.4l3.4,0c0.7-7.4,6.1-11.8,12.5-11.8c6.5,0,11.8,4.4,12.5,11.8
-                L279.7,160.9z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M248.1,161h4.6v14.1h-4.6c-1.9,0-3.5-1.5-3.5-3.3v-7.5C244.6,162.5,246.2,161,248.1,161z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M279.9,161h-4.3v14.1h4.3c1.8,0,3.3-1.5,3.3-3.3v-7.5C283.2,162.5,281.7,161,279.9,161z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M283.1,163.7c-0.3-1.5-1.6-2.7-3.2-2.7h-4.3v2.7H283.1z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M248.1,161h4.5v14.1h-4.5c-1.9,0-3.5-1.5-3.5-3.3v-7.5C244.6,162.5,246.2,161,248.1,161z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M279.9,161h-4.3v14.1h4.3c1.8,0,3.3-1.5,3.3-3.3v-7.5C283.2,162.5,281.7,161,279.9,161z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M273.9,159.8c1.2,0,2.2,0.9,2.2,2v12.6c0,1.1-1,2-2.2,2c-1.2,0-2.2-0.9-2.2-2v-12.6C271.6,160.6,272.6,159.8,273.9,159.8z"/><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M254.1,159.8c-1.1,0-2,0.9-2,2v12.6c0,1.1,0.9,2,2,2c1.1,0,2-0.9,2-2v-12.6C256,160.6,255.2,159.8,254.1,159.8z"/></g><g><path fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-                M263,176.6c-0.1,0-0.1,0-0.2,0c-0.4-0.1-0.8-0.5-0.8-1l0-5l-1.1,0.4c-0.1,0-0.2,0-0.3,0c-0.3,0-0.5-0.1-0.7-0.3
-                c-0.3-0.3-0.3-0.7-0.2-1l3.5-8.9c0.1-0.4,0.5-0.6,0.9-0.6c0.1,0,0.1,0,0.2,0c0.5,0.1,0.8,0.5,0.8,1l0,5l1.7-0.6c0.1,0,0.2,0,0.3,0
-                c0.3,0,0.5,0.1,0.7,0.3c0.3,0.3,0.3,0.7,0.2,1.1l-4.1,9.1C263.7,176.4,263.4,176.6,263,176.6z"/></g></g><path class="graphic-icon like-c" fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-        M122.4,196.5c-0.3,0.2-0.7,0.2-1,0c-7-3.7-11.7-9-11.6-14.7c0.1-5.2,3.6-6.9,6.3-6.8c2.7,0.1,5,1.8,5.8,2.6h0
-        c0.8-0.8,3.1-2.5,5.8-2.6c2.7-0.1,6.2,1.6,6.3,6.8C134.1,187.5,129.4,192.8,122.4,196.5z"/><path class="graphic-icon like-b" fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-        M30.9,185.6c-0.2,0.1-0.5,0.1-0.7,0c-4.8-2.5-8-6.1-7.9-10.1c0.1-3.6,2.5-4.7,4.3-4.7c1.8,0,3.4,1.2,4,1.8h0c0.5-0.6,2.1-1.7,4-1.8
-        c1.8,0,4.2,1.1,4.3,4.7C39,179.5,35.7,183.1,30.9,185.6z"/><path class="graphic-icon like-a" fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-        M146.3,80.1c-0.4,0.2-0.8,0.2-1.1,0c-8.1-4.3-13.6-10.4-13.4-17c0.1-6,4.2-8,7.3-7.9c3.1,0.1,5.8,2,6.7,3h0c0.9-1,3.6-3,6.7-3
-        c3.1-0.1,7.2,1.9,7.3,7.9C159.9,69.7,154.5,75.8,146.3,80.1z"/><polygon class="graphic-icon follow-c" fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
-        120.9,158.3 112.9,158.3 112.9,166.3 105,166.3 105,158.3 97,158.3 97,150.3 105,150.3 105,142.3 112.9,142.3 112.9,150.3
-        120.9,150.3 "/><polygon class="graphic-icon follow-b" fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
-        175.1,144.9 170,144.9 170,150.1 164.8,150.1 164.8,144.9 159.6,144.9 159.6,139.8 164.8,139.8 164.8,134.6 170,134.6 170,139.8
-        175.1,139.8 "/><polygon class="graphic-icon follow-a" fill="#56BC8A" stroke="#47B27F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
-        197.7,30.7 192.5,30.7 192.5,35.9 187.3,35.9 187.3,30.7 182.1,30.7 182.1,25.6 187.3,25.6 187.3,20.4 192.5,20.4 192.5,25.6
-        197.7,25.6 "/><g class="big-t"><path fill="#56BC8A" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
-        d="M165.89,167c-2.68,2.86-8.89,4.8-14.45,4.89h-.61c-18.67,0-22.73-13.73-22.73-21.74V127.9h-7.35a1.54,1.54,0,0,1-1.54-1.54V115.85a2.62,2.62,0,0,1,1.74-2.47c9.59-3.38,12.59-11.74,13-18.1.12-1.7,1-2.52,2.48-2.52h11A1.54,1.54,0,0,1,149,94.3v17.81h12.84a1.54,1.54,0,0,1,1.54,1.54v12.63a1.54,1.54,0,0,1-1.54,1.54h-12.9v20.59c0,5.17,3.41,6.6,5.51,6.6a15.49,15.49,0,0,0,5-1.06,3.32,3.32,0,0,1,2-.35,1.63,1.63,0,0,1,1.14,1.22l3.4,9.94C166.22,165.54,166.46,166.4,165.89,167Z"/></g></svg><div class="section-content"><h1 class="section-title">Tumblr is so easy to use that it&rsquo;s hard to explain.</h1><p>We made it really, really simple for people to make a blog and put whatever they want on it. Stories, photos, GIFs, TV shows, links, quips, dumb jokes, smart jokes, Spotify tracks, mp3s, videos, fashion, art, deep stuff. Tumblr is 496 million different blogs, filled with literally whatever.</p></div></div></div><div class="section blogs-section" data-section="blogs" data-section-title="Tumblr is blogs."><div class="section-wrapper"><div class="section-content"><h1 class="section-title">Tumblr is blogs.</h1><p>Turns out that when you make it easy to create interesting things, that&rsquo;s exactly what people do. All those great, random blogs your friends send you, those are Tumblr blogs. We&rsquo;ll help you find and follow blogs like that, and we&rsquo;ll help other people find and follow yours.</p></div></div></div><div class="section dashboard-section" data-section="dashboard" data-section-title="You already know how this works."><div class="section-wrapper"><div class="section-content"><div class="dashboard-content"><h1 class="section-title">You already know how this works.</h1><p>Once you follow a blog, all of its posts show up in your dashboard, just like you&rsquo;d expect. See something great? Reblog it to your own blog. Add commentary if you like. Make it your own. Other people will do the same to your posts. That&rsquo;s how you meet people here.</p></div></div></div></div><div class="section create-section" data-section="create" data-section-title="Seriously, put anything you want here."><div class="section-wrapper"><div class="section-content"><h1 class="section-title">Seriously, put anything you want here.</h1><p>Seven post types to get you started. Your brain can do the rest. This thing is yours. Use it however you like.</p></div></div></div><div class="section welcome-section" data-section="welcome" data-section-title="Okay, it&rsquo;s not actually hard to explain."><div class="section-wrapper"></div></div></div></div><div class="l-header-container l-header-container--refresh l-header-container--transparent" prima-component="header"><div class="l-header  monochrome logged-out-header hide-logo"><h1 class="logo"><a tabindex="-1" class="logo-anchor" prima-component="header-logo" href="/" aria-label="Tumblr"><div class="png-logo"></div><div class="preload-container"></div></a></h1><div class="right"><a class="signup_link login-button" href="https://www.tumblr.com/login?redirect_to=https%3A%2F%2Fwww.tumblr.com%2Fwidgets%2Fshare%2Ftool%3FshareSource%3Dlegacy%26canonicalUrl%3D%26url%3Dhttps%253A%252F%252Ftoday.uic.edu%252Fvirtualevents%26posttype%3Dlink%26title%3D%26caption%3D%26content%3Dhttps%253A%252F%252Ftoday.uic.edu%252Fvirtualevents" role="button">Log in</a><a class="signup_link signup-button" href="https://www.tumblr.com/register?redirect_to=https%3A%2F%2Fwww.tumblr.com%2Fwidgets%2Fshare%2Ftool%3FshareSource%3Dlegacy%26canonicalUrl%3D%26url%3Dhttps%253A%252F%252Ftoday.uic.edu%252Fvirtualevents%26posttype%3Dlink%26title%3D%26caption%3D%26content%3Dhttps%253A%252F%252Ftoday.uic.edu%252Fvirtualevents" role="button">Sign up</a></div><div class="ui_search " id="search_field"><form method="get" action="/search" id="search_form" class="search_form is_tag_search" role="search" novalidate><input type="hidden" name="scope" id="search_scope" value="all_of_tumblr"/><div class="search_form_row "><div class="search_form_field"><input
-                tabindex="1"
-                type="text"
-                name="q"
-                id="search_query"
-                placeholder="Search Tumblr"
-                value=""
-                class="search_query popover_button "
-                autocomplete="off"
-                required="required"
-            /></div></div></form></div><div id="popover_search" class="popover popover_menu popover_gradient search_popover" style="display:none;"><div class="popover_inner"><div id="search_results_container" class="search_results_container popover_scroll"><div class="scrollable_container"><div class="tracked_tags tag search_results_section"></div>                </div></div>    </div></div><script type="text/tmpl" id="search_results_template"><%
-        var query = results['query'],
-            type = results['type'],
-            result_titles = {
-                'tag' : 'Search',
-                'blog' : 'Blogs'            },
-            items = results['items'];
-    %><div class="<%= type %> search_results_section"><h3 class="search_subheading"><%= result_titles[type] %></h3><% _.each(items, function(item) { %><%
-                    var template = _.template(results['item_template']);
-                    var item_data = {}; item_data[type] = item;
-                    var item_markup = template(item_data);
-                %><%= item_markup %><% }); %></div></div></script><script type="text/tmpl" id="search_results_item_blogs"><%
-        var title = (blog.title && blog.title.length) ? blog.hilite_title : blog.hilite_name;
-        var result_class = '';
+<div class="form-element">
+<h2>Departments</h2>
+</div>
 
-        if(blog.avatar_url) result_class += ' has_thumb';
-        if(blog.is_followed) result_class += ' is_followed';
-    %><div class="popover_menu_item"><div class="result <%= result_class %>"><a class="result_link" href="http://<%= blog.tumblr_url %>" id="result_link_<%= blog.name %>" tabindex="1" data-tumblelog-name="<%- blog.name %>" data-peepr='{"tumblelog":"<%- blog.name %>"}'><div class="result-left"><span class="result_title"><% if(blog.isGoToBlog) { %><div class="title-text"><span class="go-to-blog">Go to </span><%= title %></div><% } else { %><div class="title-text"><%= title %></div><% } %></span><% if(blog.url && !blog.isGoToBlog) { %><small class="result_sub_title"><%= blog.hilite_url %></small><% } %></div><div class="result-right"><% if(blog.avatar_url) {%><% if (blog.show_pixelation) { %><canvas class="thumb avatar pixelated-avatar needs-drawing hide" data-image-url="<%- blog.avatar_url %>" width="37" height="37"></canvas><% } else { %><span class="result_thumb thumb" style="background-image:url(<%- blog.avatar_url %>)"></span><% } %><% } %></div></a></div></div></script><script type="text/tmpl" id="search_results_item_tags"><%
-        var title = '';
-        var result_class = '';
+  <div class="form-element">
+<span class="form-element-label">Browse</span>
+<p>
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=A">A</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=B">B</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=C">C</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=D">D</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=E">E</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=F">F</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=G">G</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=H">H</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=I">I</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=J">J</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=K">K</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=L">L</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=M">M</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=N">N</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=O">O</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=P">P</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Q">Q</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=R">R</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=S">S</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=T">T</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=U">U</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=V">V</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=W">W</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=X">X</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Y">Y</a>&nbsp;
+<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Z">Z</a>&nbsp;
+    </p>
+  </div>
 
-        // If tag.is_query, we manufactured this tag in the client
-        // It's the current search term in the search field
-        // and that term did not return an exact match from the typeahead results
-        // so we're prepending it to the result set on the fly
-        if (tag.is_query) {
-            title = '<u>' + tag.tag + '</u>';
-        } else {
-            // Some tags don't match the substring and tag.hilite_tag doesn't get set
-            // This ifalls back to the plain escaped tag.
-            title = tag.hilite_tag || tag.escaped_tag;
-        }
+  <div class="form-element">
+    <label>
+      <span class="form-element-label">Department</span>
+      <input class="text-input" type="text" id="kwords" name="kwords">
+    </label>
+  </div>
 
-        if(!tag.featured && !tag.unread_count) result_class += ' no_count';
-        if(tag.thumb) result_class += ' has_thumb';
-        if(tag.is_query) result_class += ' is_query';
-        if(tag.is_featured) result_class += ' is_featured';
+  <input type="hidden" name="dispatch" value="search" />
+  <button type="submit" class="button">Search</button>
 
-        tag.url = tag.url.replace('/tagged/', '/search/');
+  <p class="form-help-text" style="margin-top: 15px;">
+    <em>
+      <strong>Tip</strong>
+      Search for contact information for a specific department
+      or just select Department Search to browse the unit listing.
+    </em>
+  </p>
+</form>
 
-        // Skip results that don't have a title
-        // because they look broken
-        if (!title.length) return;
-    %><div class="popover_menu_item"><div class="result <%= result_class %>"><a class="result_link search_typeahead" href="<%= tag.url %>" id="result_link_<%- tag.tag.replace(' ','-').toLowerCase() %>" tabindex="1" data-tag-result="<%- tag.tag %>"><span class="result_content"><div class="result-left"><span class="result_title"><div class="title-text"><%= title %></div></span></div><div class="result-right"><% if(tag.thumb) {%><span class="result_thumb thumb" style="background-image:url(<%= tag.thumb %>)"></span><% } %><% if(tag.unread_count) { %><small class="result_type count"><span <% if(tag.unread_count === 1) { %> style="display: block;" <% } else { %> style="display: none" <% } %>>1 new post</span><span <% if(tag.unread_count === 2) { %> style="display: block;" <% } else { %> style="display: none" <% } %>>2 new posts</span><span <% if(tag.unread_count === 3) { %> style="display: block;" <% } else { %> style="display: none" <% } %>>3 new posts</span><span <% if(tag.unread_count === 4) { %> style="display: block;" <% } else { %> style="display: none" <% } %>>4 new posts</span><span <% if(tag.unread_count === 5) { %> style="display: block;" <% } else { %> style="display: none" <% } %>>5 new posts</span><span <% if(tag.unread_count === 6) { %> style="display: block;" <% } else { %> style="display: none" <% } %>>6 new posts</span><span <% if(tag.unread_count === 7) { %> style="display: block;" <% } else { %> style="display: none" <% } %>>7 new posts</span><span <% if(tag.unread_count === 8) { %> style="display: block;" <% } else { %> style="display: none" <% } %>>8 new posts</span><span <% if(tag.unread_count === 9) { %> style="display: block;" <% } else { %> style="display: none" <% } %>>9 new posts</span><span <% if(tag.unread_count >= 10 || tag.unread_count === '10+' || tag.unread_count === '+10') { %> style="display: block;" <% } else { %> style="display: none" <% } %>>10 new posts</span></small><% } %></div></span></a></div></div></script><script nonce="Dtm6rrwMMFAbCzFBomgM8t9dhk">
-    document.addEventListener('DOMContentLoaded', function () {
-        new Tumblr.SearchPopover({
-            'el': '.l-header',
-            'base_blog_search_url': '/search/',
-            'blog_search_label': 'More results for \x22%1$s\x22'        });
-    });
-</script></div></div><script nonce="Dtm6rrwMMFAbCzFBomgM8t9dhk" type="text/javascript">
-            var _comscore = _comscore || [];
-            _comscore.push({"c1":"2","c2":"15742520"});
-            (function(){
-                var s = document.createElement("script");
-                s.async = true;
-                var el = document.getElementsByTagName("script")[0];
-                s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-                el.parentNode.insertBefore(s, el);
-            })();
-        </script><noscript><img src="https://sb.scorecardresearch.com/p?cv=2.0&amp;cj=1&amp;c1=2&amp;c2=15742520" /></noscript><script type="text/javascript" nonce="Dtm6rrwMMFAbCzFBomgM8t9dhk">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1588056829&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDovL3d3dy50dW1ibHIuY29tL2xvZ2luP3JlZGlyZWN0X3RvPWh0dHBzJTNBJTJGJTJGd3d3LnR1bWJsci5jb20lMkZ3aWRnZXRzJTJGc2hhcmUlMkZ0b29sJTNGc2hhcmVTb3VyY2UlM0RsZWdhY3klMjZjYW5vbmljYWxVcmwlM0QlMjZ1cmwlM0RodHRwcyUyNTNBJTI1MkYlMjUyRnRvZGF5LnVpYy5lZHUlMjUyRnZpcnR1YWxldmVudHMlMjZwb3N0dHlwZSUzRGxpbmslMjZ0aXRsZSUzRCUyNmNhcHRpb24lM0QlMjZjb250ZW50JTNEaHR0cHMlMjUzQSUyNTJGJTI1MkZ0b2RheS51aWMuZWR1JTI1MkZ2aXJ0dWFsZXZlbnRzIiwicmVxdHlwZSI6MCwicm91dGUiOiIvbG9naW4ifQ==&U=FEOONDDLAC&K=7c62e7bea7747f3483f58725fabd989a272a053bc9d9527e79309413ab2da6f2&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1588056829&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDovL3d3dy50dW1ibHIuY29tL2xvZ2luP3JlZGlyZWN0X3RvPWh0dHBzJTNBJTJGJTJGd3d3LnR1bWJsci5jb20lMkZ3aWRnZXRzJTJGc2hhcmUlMkZ0b29sJTNGc2hhcmVTb3VyY2UlM0RsZWdhY3klMjZjYW5vbmljYWxVcmwlM0QlMjZ1cmwlM0RodHRwcyUyNTNBJTI1MkYlMjUyRnRvZGF5LnVpYy5lZHUlMjUyRnZpcnR1YWxldmVudHMlMjZwb3N0dHlwZSUzRGxpbmslMjZ0aXRsZSUzRCUyNmNhcHRpb24lM0QlMjZjb250ZW50JTNEaHR0cHMlMjUzQSUyNTJGJTI1MkZ0b2RheS51aWMuZWR1JTI1MkZ2aXJ0dWFsZXZlbnRzIiwicmVxdHlwZSI6MCwicm91dGUiOiIvbG9naW4iLCJub3NjcmlwdCI6MX0=&U=FEOONDDLAC&K=153a7682328debca0c18618eb95c189567a7e292f741d9a0e587426c23d73ad4&R="></noscript><noscript id="bootloader" data-bootstrap="{&quot;Components&quot;:{&quot;PostActivity&quot;:[],&quot;NotificationPoller&quot;:{&quot;messaging_keys&quot;:[],&quot;token&quot;:&quot;c86f8a500596474a7ef5034081f694bd&quot;,&quot;inbox_unread&quot;:0},&quot;DesktopDashboardLogo&quot;:{&quot;animations&quot;:[[&quot;https:\/\/assets.tumblr.com\/images\/logo\/hover-animations\/1.png?_v=161861acded461bb6e995593a3bae835&quot;,&quot;https:\/\/assets.tumblr.com\/images\/logo\/hover-animations\/1@2x.png?_v=496a774637302a598c851381d00009b0&quot;]]},&quot;HelpForm&quot;:{&quot;language_notice&quot;:false,&quot;category_opt&quot;:{&quot;accountmanagement&quot;:&quot;I&#039;m having trouble managing my account&quot;,&quot;stability&quot;:&quot;Tumblr is crashing or won&#039;t load&quot;,&quot;feedback&quot;:&quot;I want to share my feedback&quot;,&quot;terminated&quot;:&quot;Terminated account&quot;,&quot;appeal&quot;:&quot;My blog was incorrectly marked as explicit&quot;,&quot;dashboardorsearch&quot;:&quot;My dashboard or searches are acting funny&quot;,&quot;blogorcustomize&quot;:&quot;I&#039;m having trouble customizing my blog&quot;,&quot;postsposting&quot;:&quot;I&#039;m having trouble posting&quot;,&quot;community&quot;:&quot;I can&#039;t like, follow, share, or engage with something or someone&quot;,&quot;else&quot;:&quot;Something else&quot;},&quot;lang&quot;:&quot;en&quot;,&quot;autolaunch&quot;:null,&quot;email&quot;:null,&quot;tumblelogs&quot;:null,&quot;recaptcha&quot;:&quot;\u003Cdiv class=\&quot;g-recaptcha\&quot; id=\&quot;g-recaptcha\&quot; data-sitekey=\&quot;6LcaLgATAAAAAMfyoZjBXW33zuRRJq9pFvsE9HJJ\&quot;\u003E\u003C\/div\u003E&quot;},&quot;AboutTumblr&quot;:{&quot;dashboard&quot;:{&quot;post_form&quot;:{&quot;avatar&quot;:&quot;https:\/\/assets.tumblr.com\/images\/default_avatar\/cube_closed_128.png?_v=22e8e575d904cbdf3195b7d87c03fa3f&quot;},&quot;post_top&quot;:{&quot;username&quot;:&quot;jonny&quot;,&quot;avatar&quot;:&quot;https:\/\/assets.tumblr.com\/images\/default_avatar\/octahedron_open_128.png?_v=ff90c34ff15bf159e69fe76d7c88c37e&quot;,&quot;post_image&quot;:&quot;https:\/\/assets.tumblr.com\/images\/about-tumblr\/dash-post-01.jpg?_v=e95f19da93d24c72c4af1c1c0afac7a5&quot;,&quot;notes&quot;:&quot;458 notes&quot;},&quot;post_bottom&quot;:{&quot;username&quot;:&quot;petervidani&quot;,&quot;avatar&quot;:&quot;https:\/\/assets.tumblr.com\/images\/default_avatar\/sphere_open_128.png?_v=d658b665dec71f981123d2d7608e1138&quot;,&quot;post_image&quot;:&quot;https:\/\/assets.tumblr.com\/images\/about-tumblr\/dash-post-02.jpg?_v=086c4fe2ac27181a4bef695cb36482b8&quot;,&quot;notes&quot;:&quot;363 notes&quot;},&quot;notification&quot;:{&quot;username&quot;:&quot;bradley&quot;,&quot;avatar&quot;:&quot;https:\/\/assets.tumblr.com\/images\/default_avatar\/cone_open_64.png?_v=3403811721d6ed5d9c9a993d343be2fa&quot;,&quot;preview&quot;:&quot;https:\/\/assets.tumblr.com\/images\/default_avatar\/cube_closed_64.png?_v=7c0793debac0f6b6ccca6f1e614ca28d&quot;}},&quot;welcome&quot;:{&quot;post&quot;:{&quot;post_image&quot;:&quot;https:\/\/66.media.tumblr.com\/b0555316225d7ac1c55a20664492aac3\/d3df850c93ad76a0-2c\/s1280x1920\/b63d2571a0946f60d2b8a1756193c9031ff65936.jpg&quot;,&quot;tumblelog_name&quot;:&quot;eleth89&quot;,&quot;tumblelog_url&quot;:&quot;https:\/\/eleth89.tumblr.com\/&quot;,&quot;avatar&quot;:&quot;https:\/\/66.media.tumblr.com\/avatar_ced3ca5805df_64.pnj&quot;}}}},&quot;Flags&quot;:{&quot;doods&quot;:&quot;eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwibW9iaWxlX3dlYl9nYXRlIjp0cnVlLCJzYWZlX21vZGUiOnRydWUsInNhZmVfbW9kZV9lbmFibGVkIjp0cnVlLCJrZXljb21tYW5kX2F1dG9fcGFnaW5hdGUiOnRydWUsImxvZ2dlZF9vdXRfc2VhcmNoIjp0cnVlLCJrcmFrZW5fd2ViX2xvZ2dpbmdfbGlicmFyeSI6dHJ1ZSwidHVtYmxlbG9nX2NsaWNrdGhyb3VnaCI6dHJ1ZSwibGl2ZXBob3Rvc193ZWIiOnRydWUsInVzZXJfdGFnX2ZpbHRlcmluZyI6dHJ1ZSwicHJvamVjdF94X2FwcGVhbCI6dHJ1ZSwicHJvamVjdF94X3dlYl9zZW5zaXRpdmVfY292ZXJzIjp0cnVlLCJzYWZlX21vZGVfb3duX3Bvc3QiOnRydWUsIm1vYmlsZV93ZWJfcGhvdG9zZXRzIjp0cnVlLCJoaWRlX2RlZmF1bHRfaGVhZGVyc19ibG9nX2NhcmRzIjp0cnVlLCJub3RpZmljYXRpb25fcmVwbHlfbGlua190b19ub3RlcyI6dHJ1ZSwidHlwaW5nX2luZGljYXRvcl93cml0ZSI6dHJ1ZSwiZ2Rwcl9ndWNlX2lzX3JlcXVpcmVkIjp0cnVlLCJ0dW1ibHJfdmlkZW9fc3BvbnNvcmVkX2RheSI6dHJ1ZSwiY2FwdGNoYTp1c2VfcmVjYXB0Y2hhMiI6dHJ1ZSwibGl0dGxlX3Npc3RlciI6dHJ1ZSwiZW5hYmxlX2pzX2Vycm9yc19sb2ciOnRydWUsImxvZ19sYWR5Ijp0cnVlLCJzdGF0dXNfaW5kaWNhdG9yIjp0cnVlLCJjb252ZXJzYXRpb25hbF9ub3RpZmljYXRpb25zIjp0cnVlLCJzaG93X3JhbmRvbV91c2VybmFtZV9zdWdnZXN0aW9ucyI6dHJ1ZSwic2hvdWxkX3Nob3dfbG9nZ2VkX291dF9zZWFyY2giOnRydWUsImxvYWRlZF95YWhvb19iX2Nvb2tpZSI6dHJ1ZX0=&quot;},&quot;Context&quot;:{&quot;name&quot;:&quot;loginandregister&quot;,&quot;time&quot;:1588056829000,&quot;userinfo&quot;:{&quot;primary&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;channels&quot;:[]},&quot;hosts&quot;:{&quot;assets_host&quot;:&quot;https:\/\/assets.tumblr.com&quot;,&quot;secure_assets_host&quot;:&quot;https:\/\/assets.tumblr.com&quot;,&quot;www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;secure_www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;embed_host&quot;:&quot;https:\/\/embed.tumblr.com&quot;,&quot;safe_host&quot;:&quot;https:\/\/safe.txmblr.com&quot;,&quot;platform_host&quot;:&quot;https:\/\/platform.tumblr.com&quot;},&quot;language&quot;:&quot;en_US&quot;,&quot;language_simple&quot;:&quot;en&quot;,&quot;assets&quot;:&quot;https:\/\/assets.tumblr.com\/client\/prod\/&quot;},&quot;Translations&quot;:{&quot;%1$sReport %2$s&#039;s post?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$sReport %2$s&#039;s reblog?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;,&quot;%1$sReport %2$s&#039;s reply?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$sReport %2$s&#039;s reblog?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;,&quot;Private Url&quot;:&quot;Private URL&quot;}}"></noscript><script crossorigin="anonymous" src="https://assets.tumblr.com/client/prod/app/vendor.build.js?_v=bd524db333718260a16c76eed5774b27"></script><script crossorigin="anonymous" src="https://assets.tumblr.com/client/prod/app/global.build.js?_v=a5088dfb3fad0875a72d878be23cc52c"></script><script crossorigin="anonymous" src="https://assets.tumblr.com/client/prod/app/context/loginandregister/index.build.js?_v=74792f994d91b4be5900781ad6893ac5"></script><script crossorigin="anonymous" src="https://assets.tumblr.com/assets/scripts/dashboard.js?_v=d72468a1f33a826693fc556627cbc8b9"></script><script crossorigin="anonymous" src="https://assets.tumblr.com/assets/scripts/tumblr/utils/popover.js?_v=c9e52da690ab5cf3a694a9e041925f17"></script><script crossorigin="anonymous" src="https://assets.tumblr.com/assets/scripts/registration/registration.js?_v=9735969ff0f116b7c28ce94886d80f2d"></script><script nonce="Dtm6rrwMMFAbCzFBomgM8t9dhk">
-            document.addEventListener('DOMContentLoaded', function() {
-                if (Tumblr.RegistrationForm) {
-                                        
-                    
-                    Tumblr.RegistrationForm.initialize({
-                        'clp_url' : ''                    });
-                }
-            });
-        </script></body></html>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </main>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-content" style="background-image: url(/images/footer.jpg)">
+        <div class="ms-grid">
+            <div class="ms-row">
+                <div class="s-col-1-2 m-col-1-4 l-col-3-12 footer-brand-address">
+                                            <img class="footer-brand" src="/images/footer-brand-mark.svg" alt="The University of Illinois at Chicago" aria-hidden="true">
+                                        <div class="footer-address">
+                        <div><strong>1200 West Harrison St.</strong></div>
+                        <div>Chicago, Illinois 60607</div>
+                        <div>312-996-7000</div>
+                    </div>
+                </div>
+                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-push-4" aria-label="Tools">
+                    <h1 class="footer-list-title">Tools</h1>
+                    <ul class="footer-list">
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://uic.blackboard.com/">
+        Blackboard
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://accc.uic.edu/service/g-suite">
+        GoogleApps@UIC
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://my.uic.edu/common/">
+        my UIC
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://www.hr.uillinois.edu/pay/">
+        My UI Info: Pay
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://outlook.uic.edu">
+        UIC Outlook Online
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://accc.uic.edu/service/uicalendar">
+        UICalendar
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="/about/contact-us">
+        Contact the webmaster
+    </a>
+</li>                                            </ul>
+                </div>
+                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12" aria-label="Resources">
+                    <h1 class="footer-list-title">Resources</h1>
+                    <ul class="footer-list">
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://catalog.uic.edu/ucat/academic-calendar/">
+        Academic Calendar
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="/life-at-uic/current-students">
+        Current Students
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://events.uic.edu">
+        Event Calendar
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="/life-at-uic/faculty-and-staff">
+        Faculty and Staff
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://maps.uic.edu">
+        Maps
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="https://today.uic.edu/uicnews">
+        UIC Today
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="/about/visit-directions">
+        Visit &amp; Directions
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://clery.uic.edu/">
+        Clery Compliance
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://oae.uic.edu/UnlawfulDiscrimination/index.htm">
+        Nondiscrimination Policy
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://oae.uic.edu/TitleIX/index.htm">
+        Title IX: Sexual Misconduct
+    </a>
+</li>                                            </ul>
+                </div>
+                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-pull-4" aria-label="Quick Links">
+                    <h1 class="footer-list-title">Quick Links</h1>
+                    <ul class="footer-list">
+                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://www.uicflames.com/">
+        Athletics
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://www.uic.edu/apps/departments-az/search">
+        Directory
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://disabilityresources.uic.edu/">
+        Disability Resources
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://emergency.uic.edu">
+        Emergency Information
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="/about/job-opportunities">
+        Job Opportunities
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://library.uic.edu">
+        Library
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://www.uic.edu/depts/dos/studentveteranaffairs.shtml">
+        Veterans Affairs
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="http://hospital.uillinois.edu">
+        University of Illinois Hospital &amp; Health Sciences System
+    </a>
+</li>                                                    <li class="footer-list-item">
+    <a class="footer-list-link" href="/about/acerca">
+        Acerca de la UIC (en español)
+    </a>
+</li>                                            </ul>
+                </div>
+                <div class="l-col-3-12">
+                    <div class="ms-row">
+                        <div role="navigation" class="s-col-1-2 l-col-1-1" aria-label="Calls to Action">
+                            <ul class="footer-button-list">
+            <li class="footer-button-item">
+            <a class="footer-button" href="http://admissions.uic.edu/visit-us" role="button">
+                Book a Visit
+            </a>
+        </li>
+            <li class="footer-button-item">
+            <a class="footer-button" href="http://admissions.uic.edu/undergraduate/request-information" role="button">
+                Request Info
+            </a>
+        </li>
+            <li class="footer-button-item">
+            <a class="footer-button" href="http://admissions.uic.edu/apply-now" role="button">
+                Apply Now
+            </a>
+        </li>
+            <li class="footer-button-item">
+            <a class="footer-button" href="/alumni/give" role="button">
+                Give
+            </a>
+        </li>
+            <li class="footer-button-item">
+            <a class="footer-button" href="http://uicalumni.org/" role="button">
+                Join Alumni Association
+            </a>
+        </li>
+            <li class="footer-button-item">
+            <a class="footer-button" href="/about/contact-us" role="button">
+                Contact Us
+            </a>
+        </li>
+    </ul>                        </div>
+                        <div class="s-col-1-2 l-col-1-1 footer-social-icons-cell">
+                            <ul class="social-icons-list">
+            <li>
+            <a href="https://www.facebook.com/uic.edu">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>            </a>
+        </li>
+                <li>
+            <a href="https://twitter.com/thisisuic">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>            </a>
+        </li>
+                <li>
+            <a href="https://instagram.com/uicamiridis/">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>            </a>
+        </li>
+                    <li>
+            <a href="https://www.youtube.com/user/thisisUIC">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>            </a>
+        </li>
+                    <li>
+            <a href="http://uicscience.tumblr.com/">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Tumblr</title><path d="M15.1 24.2c2.8.7 5.6-.9 5.6-.9v-3c-.8.9-2.6 1.1-3.9.7-1.2-.3-1.1-2-1.1-2v-5.7h4.4v-3h-4.4V5.6H13c-.3 5.1-3.8 5-3.8 5v2.7h2v6.8c.1 2.2 1.1 3.4 3.9 4.1z"/></svg>            </a>
+        </li>
+                        <li>
+            <a href="https://news.uic.edu/social-media-directory">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>More links</title><path d="M15 5C9.5 5 5 9.5 5 15s4.5 10 10 10 10-4.5 10-10S20.5 5 15 5zm4.7 11H16v3.7h-2V16h-3.7v-2H14v-3.7h2V14h3.7v2z"/></svg>            </a>
+        </li>
+    </ul>                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-legal">
+        <div class="ms-grid">
+            <div class="ms-row">
+                <div class="l-col-1-2">
+                    &copy; 2016 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span> <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a>
+                </div>
+                <div class="l-col-1-2 campuses">
+                                            <a href="http://www.uillinois.edu/">University of Illinois</a> <span class="pipe-separator">|</span>
+                                            <a href="http://www.illinois.edu/">Urbana-Champaign</a> <span class="pipe-separator">|</span>
+                                            <a href="http://www.uis.edu/">Springfield</a> 
+                                    </div>
+            </div>
+        </div>
+    </div>
+  <a href="https://plus.google.com/+UicEdu" rel="publisher" hidden>UIC on Google+</a>
+</footer>
+
+<link rel="stylesheet" href="/css/main.min.css" media="all"><script src="/js/concat/main.min.js"></script><script src="//www.uic.edu/inc/emergency/alert.js"></script></body></html>

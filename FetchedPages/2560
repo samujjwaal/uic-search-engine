@@ -1,510 +1,550 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-US">
 <head>
-<meta name="googlebot" content="noindex, noarchive, nofollow, nosnippet">
-<meta name="robots" content="noindex, noarchive, nofollow">
-<meta name="slurp" content="noindex, noarchive, nofollow, noodp, noydir">
-<meta name="msnbot" content="noindex, noarchive, nofollow, noodp">
+
+<!-- Google Analytics Code -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-20665772-1', 'auto');
+    ga('create', 'UA-4402713-9', 'auto', 'todayTracker');
+    ga('send', 'pageview');
+    ga('todayTracker.send', 'pageview');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-57G9C3Q');</script>
+<!-- End Google Tag Manager -->
+  
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="Cache-Control" content="no-cache">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="expires" content="0">
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Staff submission of possible COVID-19 exposure</title>
-<link rel="shortcut icon" href="/redcap_v9.6.1/Resources/images/favicon.ico">
-<link rel="apple-touch-icon-precomposed" href="/redcap_v9.6.1/Resources/images/apple-touch-icon.png">
-<link rel="stylesheet" type="text/css" media="screen,print" href="/redcap_v9.6.1/Resources/css/jquery-ui.min.css"/>
-<link rel="stylesheet" type="text/css" media="screen,print" href="/redcap_v9.6.1/Resources/css/style.css"/>
-<link rel="stylesheet" type="text/css" media="screen,print" href="/redcap_v9.6.1/Resources/css/survey.css"/>
-<link rel="stylesheet" type="text/css" media="screen,print" href="/redcap_v9.6.1/Resources/css/survey_text_large.css"/>
-<script type="text/javascript" src="/redcap_v9.6.1/Resources/js/base.js"></script>
-<script type="text/javascript" src="/redcap_v9.6.1/Resources/js/fontsize.js"></script>
-		<!--[if IE 9]>
-		<link rel="stylesheet" type="text/css" href="/redcap_v9.6.1/Resources/css/bootstrap-ie9.min.css">
-		<script type="text/javascript">$(function(){ie9FormFix()});</script>
-		<!--<![endif]-->
-		</head>
-<body><script type="text/javascript">
-	$(function () {
-		if ($('#project-menu-logo').length > 0 && true) {
-			var newPanel = $('#app_panel').clone()
-			newPanel.attr('id', 'external_modules_panel')
-			newPanel.find('.x-panel-header div:first-child').html("External Modules")
-			var menuToggle = newPanel.find('.projMenuToggle')
-			var menuId = "projMenuExternalModules";
-			menuToggle.attr('id', menuId)
-
-			var menubox = newPanel.find('.x-panel-body .menubox .menubox')
-			var exampleLink = menubox.find('.hang:first-child').clone()
-			menubox.html('')
-
-									menubox.append("\r\n\t\t\t<div>\r\n\t\t\t\t<img src='\/redcap_v9.6.1\/Resources\/images\/computer.png' style='width: 16px; height: 16px; text-align: center;'>\r\n\t\t\t\t<a href='https:\/\/www.redcap.ihrp.uic.edu\/redcap_v9.6.1\/ExternalModules\/?prefix=tableau_connector&page=index&pid=7715' target=''>Tableau Connector Instructions<\/a>\r\n\t\t\t<\/div>\r\n\t\t");
-						            // Only render the newPanel if the menubox contains links
-			if (menubox.children().length) {
-				newPanel.insertBefore('#help_panel')
-				
-				projectMenuToggle('#projMenuExternalModules')
-
-				var shouldBeCollapsed = false;
-				var isCollapsed = menuToggle.find('img')[0].src.indexOf('collapse') === -1
-				if(
-					(shouldBeCollapsed && !isCollapsed)
-					||
-					(!shouldBeCollapsed && isCollapsed)
-				){
-					menuToggle.click()
-				}
-			}
-		}
-	})
-</script>
-
-<div id="pagecontainer" class="container-fluid" role="main">
-<style type="text/css">
-body * { font-family: 'Open Sans',Helvetica,Arial,sans-serif !important; }
+
+<title>Communicating On Campus | UIC Today</title>
+
+<link rel="stylesheet" type="text/css" media="all" href="https://today.uic.edu/wp-content/themes/uictoday/style.css" />
+
+<link rel="stylesheet" type="text/css" media="all" href="https://today.uic.edu/wp-content/themes/uictoday/css/style.min.css" />
+    
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://today.uic.edu/feed" />
+
+<link rel="shortcut icon" href="https://today.uic.edu/wp-content/themes/uictoday/favicon.ico" />
+
+
+
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/today.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
 </style>
-
-<style type="text/css">
-
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://today.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ugb-style-css-css'  href='https://today.uic.edu/wp-content/plugins/stackable-ultimate-gutenberg-blocks/dist/frontend_blocks.css?ver=2.3.0' type='text/css' media='all' />
+<style id='ugb-style-css-inline-css' type='text/css'>
+:root {
+			--content-width: 900px;
+		}
 </style>
-	<script type="text/javascript">
-		var missing_data_codes = [""];
-	var missing_data_codes_check = false;
-	var app_name = 'travel_tracker_test';
-	var pid = 7715;
-	var status = 1;
-	var table_pk  = 'record_id'; var table_pk_label  = 'Record ID';
-	var longitudinal = 0;
-	var auto_inc_set = 1;
-	var file_upload_vault_enabled = 0;
-	var file_upload_versioning_enabled = 1;
-	var data_resolution_enabled = 1;
-	var lock_record = 2;
-	var shared_lib_browse_url = 'https://redcap.vanderbilt.edu/consortium/library/login.php?callback=https%3A%2F%2Fwww.redcap.ihrp.uic.edu%2Fredcap_v9.6.1%2FSharedLibrary%2Freceiver.php%3Fpid%3D7715&institution=University+of+Illinois+at+Chicago&user=9d9129d20801f870d85e831229af9912';
-		var redcap_version = '9.6.1';
-	var server_name = 'www.redcap.ihrp.uic.edu';
-	var app_path_webroot = '/redcap_v9.6.1/';
-	var app_path_webroot_full = 'https://www.redcap.ihrp.uic.edu/';
-	var app_path_images = '/redcap_v9.6.1/Resources/images/';
-	var page = 'surveys/index.php';
-	var sendit_enabled = 1;
-	var super_user = 0;
-	var surveys_enabled = 1;
-	var now = '2020-04-28 02:11:22'; var now_mdy = '04-28-2020 02:11:22'; var now_dmy = '28-04-2020 02:11:22';
-	var today = '2020-04-28'; var today_mdy = '04-28-2020'; var today_dmy = '28-04-2020';
-	var email_domain_whitelist = new Array();
-	var user_date_format_jquery = 'mm/dd/yy';
-	var user_date_format_validation = 'mdy';
-	var user_date_format_delimiter = '/';
-	var ALLOWED_TAGS = '<ol><ul><li><label><pre><p><a><br><center><font><b><i><u><h6><h5><h4><h3><h2><h1><hr><table><tbody><tr><th><td><thead><tfoot><img><span><div><em><strong><acronym><sub><sup><map><area>';
-	var AUTOMATE_ALL = '0';
-		var datatables_disable = [];	
-	var langMsg137 = 'NOTICE: It appears that you may have multiple browser windows/tabs open, which may prevent some things from working on this page until this page is refreshed. It is advised that you complete what you are doing, and then refresh this page.';
-	var langMsg68 = '(click to go to project)';
-	var langMsg69 = '(current project)';
-	var langTimepicker01 = 'Now';
-	var langTimepicker02 = 'Time';
-	var langTimepicker03 = 'Hour';
-	var langTimepicker04 = 'Minute';
-	var langTimepicker05 = 'Choose Time';
-	var langAutoLogout01 = 'REDCap Auto Logout Warning';
-	var langAutoLogout02 = 'Log In';
-	var langAutoLogout03 = 'Continue on this page';
-	var warn_timeout1 = 'You will be automatically logged out of REDCap in <b>2 MINUTES</b> due to inactivity. Click the button below to prevent auto logout.';
-	var warn_timeout2 = 'You will be automatically logged out of REDCap in <b>30 SECONDS</b> due to inactivity. Click the button below to prevent auto logout.';
-	var warn_timeout3 = '<b>Due to inactivity, your REDCap session has expired.</b> Click the button below to log in again.';
-	$(function(){
-		$.datepicker.setDefaults({
-			closeText: 'Done',
-			prevText: 'Prev',
-			nextText: 'Next',
-			currentText: 'Today',
-			monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
-			dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],
-			dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa']
-		});
-	});
-	</script>
-	<div id="container"><div id="pagecontent"><script type="text/javascript" src="/redcap_v9.6.1/Resources/js/survey.js"></script>
-<script type="text/javascript" src="/redcap_v9.6.1/Resources/js/DataEntrySurveyCommon.js"></script>
-<script type="text/javascript" src="/redcap_v9.6.1/Resources/js/geoPosition.js"></script>
-<script type="text/javascript" src="/redcap_v9.6.1/Resources/js/geoPositionSimulator.js"></script>
-<script type="text/javascript">
-// Set variables
-var record_exists = 0;
-var require_change_reason = 0;
-var event_id = 44629;
-// Set language variables
-var stopAction1 = 'End the survey now';
-var stopAction2 = 'Continue survey and undo last response';
-var stopAction3 = 'Continue survey';
-var langDlgSaveDataTitleCaps = 'SAVE YOUR CHANGES?';
-var langDlgSaveDataMsg = 'Are you sure you wish to close the survey? Any responses you have added on this page will be lost if you close the survey now. IF YOU DO NOT WISH TO ABANDON YOUR CHANGES, click the \'Stay on page\' button below and then click the button at the bottom of the page to save your changes.';
-var langCancel = 'Cancel';
-var langYes = 'Yes';
-var langRemoveSpaces = 'This field\'s value contains extra spaces at the beginning or end. Would you like to remove them?';
-var lang_remove_file = 'Remove file';
-var lang_send_it = 'Send-It';
-var lang_upload_new_version = 'Upload new version';
-$(function() {
-	// Check for any reserved parameters in query string
-	checkReservedSurveyParams(new Array('s','hash','page','event_id','pid','pnid','preview','id','sq'));
-		// Enable green row highlight for data entry form table
-	enableDataEntryRowHighlight();
-});
-</script>
-
-<!-- Title and/or Logo -->
-<div id="surveytitlelogo">
-	<table cellspacing="0" style="width:100%;max-width:100%;">
-		<tr>
-			<td valign="top">
-				<h1 id='surveytitle'>Staff submission of possible COVID-19 exposure</h1>			</td>
-			<!-- Increase/decrease font -->
-			<td valign="top" id="changeFont" aria-hidden="true">
-				<div class="nowrap">Resize font:</div>
-				<div class="nowrap"><a href="javascript:;" class="increaseFont" tabindex="-1"><i class="far fa-plus-square" alt="Click to increase font size"></i></a><span style="margin:0 5px;">|</span><a href="javascript:;" class="decreaseFont" tabindex="-1"><i class="far fa-minus-square" alt="Click to decrease font size"></i></a></div>
-			</td>
-					</tr>
-	</table>
-</div>
-
-<div id="surveyinstructions"><p><strong>Please provide as much information about your potential exposure as you can.</strong></p></div>
-<form action='/surveys/index.php?s=YMCT94H8AX' enctype='multipart/form-data' target='_self' method='post' name='form' id='form'><input type='hidden' name='redcap_csrf_token' value=''><div>        <script type="text/javascript">
-        var missing_data_replacement_js = '______';
-        var piping_receiver_class_field_js = '.piping_receiver.piperec-';
-        var lang_checked = 'Checked';
-        var lang_unchecked = 'Unchecked';
-        </script>
-        <span id="maxchecked_tag_label" class="" style="display:none;z-index:1000;">Cannot select choice! The maximum number of choices has been selected.</span><span id="matrix_rank_remove_label" class="opacity75" style="display:none;">Value removed!</span><div id='questiontable_loading'>
-					<img alt='Loading...' src='/redcap_v9.6.1/Resources/images/progress_circle.gif'> Loading...
-				</div>
-				<script type='text/javascript'>
-					setTimeout(function(){
-						document.getElementById('questiontable_loading').style.visibility='visible';
-					},750);
-				</script><table role='presentation' class='form_border container-fluid' style='display:none;' id='questiontable'><tbody class='formtbody'><tr  id='sub_last_name-tr' sq_id='sub_last_name' req='1'><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-sub_last_name' aria-hidden='true'> Last Name<div class='requiredlabel' aria-label='Question required.'>* must provide value</div></label></td><td class='data col-5'>	<input autocomplete='new-password' aria-required='true' aria-labelledby='label-sub_last_name' class='x-form-text x-form-field '  type='text' name='sub_last_name'  value=''
-							       tabindex='0'     >
-							  <div id='sub_last_name_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='sub_first_name-tr' sq_id='sub_first_name' req='1'><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-sub_first_name' aria-hidden='true'> First Name<div class='requiredlabel' aria-label='Question required.'>* must provide value</div></label></td><td class='data col-5'>	<input autocomplete='new-password' aria-required='true' aria-labelledby='label-sub_first_name' class='x-form-text x-form-field '  type='text' name='sub_first_name'  value=''
-							       tabindex='0'     >
-							  <div id='sub_first_name_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='sub_uin-tr' sq_id='sub_uin' req='1'><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-sub_uin' aria-hidden='true'> UIN<div class='requiredlabel' aria-label='Question required.'>* must provide value</div></label></td><td class='data col-5'>	<input autocomplete='new-password' aria-required='true' aria-labelledby='label-sub_uin' class='x-form-text x-form-field '  type='text' name='sub_uin'  value=''
-							       tabindex='0'     >
-							  <div id='sub_uin_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr class='@HIDEBUTTON' id='sub_dob-tr' sq_id='sub_dob' req='1'><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-sub_dob' aria-hidden='true'> Date of Birth<div class='requiredlabel' aria-label='Question required.'>* must provide value</div></label></td><td class='data col-5'>	<input autocomplete='new-password' aria-required='true' aria-labelledby='label-sub_dob' class='x-form-text x-form-field date_mdy'  type='text' name='sub_dob'  value=''
-							     onblur="redcap_validate(this,'','','soft_typed','date_mdy',1)"  tabindex='0' onkeydown="dateKeyDown(event,'sub_dob')"  fv='date_mdy'  >
-							<span class='df'>M-D-Y</span>  <div id='sub_dob_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='sub_best_phone-sh-tr' sq_id='{}'><td class='header'  colspan='3'>Contact Information</td></tr><tr  id='sub_best_phone-tr' sq_id='sub_best_phone' req='1'><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-sub_best_phone' aria-hidden='true'> Best phone number for follow-up<div class='requiredlabel' aria-label='Question required.'>* must provide value</div></label></td><td class='data col-5'>	<input autocomplete='new-password' aria-required='true' aria-labelledby='label-sub_best_phone' class='x-form-text x-form-field '  type='text' name='sub_best_phone'  value=''
-							       tabindex='0'     >
-							  <div id='sub_best_phone_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='sub_best_email-tr' sq_id='sub_best_email' req='1'><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-sub_best_email' aria-hidden='true'> Best email for follow-up<div class='requiredlabel' aria-label='Question required.'>* must provide value</div></label></td><td class='data col-5'>	<input autocomplete='new-password' aria-required='true' aria-labelledby='label-sub_best_email' class='x-form-text x-form-field '  type='text' name='sub_best_email'  value=''
-							     onblur="redcap_validate(this,'','','soft_typed','email',1)"  tabindex='0'   fv='email'  >
-							  <div id='sub_best_email_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='addr_street-sh-tr' sq_id='{}'><td class='header'  colspan='3'>Address</td></tr><tr  id='addr_street-tr' sq_id='addr_street' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-addr_street' aria-hidden='true'> Street</label></td><td class='data col-5'>	<input autocomplete='new-password' aria-labelledby='label-addr_street' class='x-form-text x-form-field '  type='text' name='addr_street'  value=''
-							       tabindex='0'     >
-							  <div id='addr_street_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='addr_city-tr' sq_id='addr_city' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-addr_city' aria-hidden='true'> City</label></td><td class='data col-5'>	<input autocomplete='new-password' aria-labelledby='label-addr_city' class='x-form-text x-form-field '  type='text' name='addr_city'  value=''
-							       tabindex='0'     >
-							  <div id='addr_city_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='addr_state-tr' sq_id='addr_state' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-addr_state' aria-hidden='true'> State</label></td><td class='data col-5'>	<input autocomplete='new-password' aria-labelledby='label-addr_state' class='x-form-text x-form-field '  type='text' name='addr_state'  value=''
-							       tabindex='0'     >
-							  <div id='addr_state_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='addr_zip-tr' sq_id='addr_zip' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-addr_zip' aria-hidden='true'> Zip Code</label></td><td class='data col-5'>	<input autocomplete='new-password' aria-labelledby='label-addr_zip' class='x-form-text x-form-field '  type='text' name='addr_zip'  value=''
-							       tabindex='0'     >
-							  <div id='addr_zip_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='sub_action_type-sh-tr' sq_id='{}'><td class='header'  colspan='3'> </td></tr><tr  id='sub_action_type-tr' sq_id='sub_action_type' req='1'><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-sub_action_type' aria-hidden='true'> Are you reporting an exposure/potential exposure, following up on test results, or asking about returning to work?<div class='requiredlabel' aria-label='Question required.'>* must provide value</div></label></td><td class='data col-5'><input name='sub_action_type' value='' tabindex='-1' class='hiddenradio' aria-labelledby='label-sub_action_type'><div class='choicevert' onclick='sr(this,event)'><input type='radio' tabindex='0' name='sub_action_type___radio'   aria-labelledby='label-sub_action_type label-sub_action_type-1'   onclick="document.forms['form'].sub_action_type.value=this.value;doBranching('sub_action_type');"    value='1' > <label id='label-sub_action_type-1' class='mc'>Exposure</label></div><div class='choicevert' onclick='sr(this,event)'><input type='radio' tabindex='0' name='sub_action_type___radio'   aria-labelledby='label-sub_action_type label-sub_action_type-2'   onclick="document.forms['form'].sub_action_type.value=this.value;doBranching('sub_action_type');"    value='2' > <label id='label-sub_action_type-2' class='mc'>Test result follow-up</label></div><div class='choicevert' onclick='sr(this,event)'><input type='radio' tabindex='0' name='sub_action_type___radio'   aria-labelledby='label-sub_action_type label-sub_action_type-3'   onclick="document.forms['form'].sub_action_type.value=this.value;doBranching('sub_action_type');"    value='3' > <label id='label-sub_action_type-3' class='mc'>Return to work question</label></div><div class='resetLinkParent'><a href='javascript:;' class='smalllink ' tabindex='0' style='display:;'
-						onclick="return radioResetVal('sub_action_type','form');">reset</a></div><div id='sub_action_type_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='sub_request_note-tr' sq_id='sub_request_note' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-11' colspan='2'> Thank you. Please submit this form, and UHS will reach out to you about your request using the contact information you provided.</td></tr><tr  id='sub_exp_type-tr' sq_id='sub_exp_type' req='1'><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-sub_exp_type' aria-hidden='true'> What type(s) of exposure, or potential exposure, are you reporting?<div class='requiredlabel' aria-label='Question required.'>* must provide value</div></label></td><td class='data col-5'><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_exp_type label-sub_exp_type-1' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_exp_type');"     id='id-__chk__sub_exp_type_RC_1' name='__chkn__sub_exp_type' code='1' onclick="checkboxClick('sub_exp_type','1',this,event,0);" ><input type="hidden" value="" name="__chk__sub_exp_type_RC_1"> <label id='label-sub_exp_type-1' class='mc' onclick="checkboxClick('sub_exp_type','1',this,event,0);">Travel</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_exp_type label-sub_exp_type-2' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_exp_type');"     id='id-__chk__sub_exp_type_RC_2' name='__chkn__sub_exp_type' code='2' onclick="checkboxClick('sub_exp_type','2',this,event,0);" ><input type="hidden" value="" name="__chk__sub_exp_type_RC_2"> <label id='label-sub_exp_type-2' class='mc' onclick="checkboxClick('sub_exp_type','2',this,event,0);">Exposure to unconfirmed COVID-19 infected person</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_exp_type label-sub_exp_type-3' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_exp_type');"     id='id-__chk__sub_exp_type_RC_3' name='__chkn__sub_exp_type' code='3' onclick="checkboxClick('sub_exp_type','3',this,event,0);" ><input type="hidden" value="" name="__chk__sub_exp_type_RC_3"> <label id='label-sub_exp_type-3' class='mc' onclick="checkboxClick('sub_exp_type','3',this,event,0);">Exposure to confirmed COVID-19 infected person</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_exp_type label-sub_exp_type-4' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_exp_type');"     id='id-__chk__sub_exp_type_RC_4' name='__chkn__sub_exp_type' code='4' onclick="checkboxClick('sub_exp_type','4',this,event,0);" ><input type="hidden" value="" name="__chk__sub_exp_type_RC_4"> <label id='label-sub_exp_type-4' class='mc' onclick="checkboxClick('sub_exp_type','4',this,event,0);">Experiencing symptoms</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_exp_type label-sub_exp_type-5' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_exp_type');"     id='id-__chk__sub_exp_type_RC_5' name='__chkn__sub_exp_type' code='5' onclick="checkboxClick('sub_exp_type','5',this,event,0);" ><input type="hidden" value="" name="__chk__sub_exp_type_RC_5"> <label id='label-sub_exp_type-5' class='mc' onclick="checkboxClick('sub_exp_type','5',this,event,0);">Other (specify below)</label></div><div class='space'></div><div id='sub_exp_type_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='sub_other_exp-tr' sq_id='sub_other_exp' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-sub_other_exp' aria-hidden='true'> Other exposure type</label></td><td class='data col-5'>	<input autocomplete='new-password' aria-labelledby='label-sub_other_exp' class='x-form-text x-form-field '  type='text' name='sub_other_exp'  value=''
-							       tabindex='0'     >
-							  <div id='sub_other_exp_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='source_pt_initials-tr' sq_id='source_pt_initials' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-source_pt_initials' aria-hidden='true'> What are the initials of the person to whom you were exposed?</label></td><td class='data col-5'>	<input autocomplete='new-password' aria-labelledby='label-source_pt_initials note-source_pt_initials' class='x-form-text x-form-field '  type='text' name='source_pt_initials'  value=''
-							       tabindex='0'     >
-							  <div id='note-source_pt_initials' class='note' aria-hidden='true'>(if known)</div><div id='source_pt_initials_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='source_pt_mrn-tr' sq_id='source_pt_mrn' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-source_pt_mrn' aria-hidden='true'> If the person to whom you were exposed was a patient, what is their MRN?</label></td><td class='data col-5'>	<input autocomplete='new-password' aria-labelledby='label-source_pt_mrn note-source_pt_mrn' class='x-form-text x-form-field '  type='text' name='source_pt_mrn'  value=''
-							     onblur="redcap_validate(this,'','','soft_typed','number',1)"  tabindex='0'   fv='number'  >
-							  <div id='note-source_pt_mrn' class='note' aria-hidden='true'>(if known)</div><div id='source_pt_mrn_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='sub_ppe_worn-tr' sq_id='sub_ppe_worn' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-sub_ppe_worn' aria-hidden='true'> What PPE were you wearing during the exposure?</label></td><td class='data col-5'><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_ppe_worn label-sub_ppe_worn-1' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_ppe_worn');"     id='id-__chk__sub_ppe_worn_RC_1' name='__chkn__sub_ppe_worn' code='1' onclick="checkboxClick('sub_ppe_worn','1',this,event,0);" ><input type="hidden" value="" name="__chk__sub_ppe_worn_RC_1"> <label id='label-sub_ppe_worn-1' class='mc' onclick="checkboxClick('sub_ppe_worn','1',this,event,0);">N95 mask</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_ppe_worn label-sub_ppe_worn-2' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_ppe_worn');"     id='id-__chk__sub_ppe_worn_RC_2' name='__chkn__sub_ppe_worn' code='2' onclick="checkboxClick('sub_ppe_worn','2',this,event,0);" ><input type="hidden" value="" name="__chk__sub_ppe_worn_RC_2"> <label id='label-sub_ppe_worn-2' class='mc' onclick="checkboxClick('sub_ppe_worn','2',this,event,0);">Surgical mask</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_ppe_worn label-sub_ppe_worn-3' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_ppe_worn');"     id='id-__chk__sub_ppe_worn_RC_3' name='__chkn__sub_ppe_worn' code='3' onclick="checkboxClick('sub_ppe_worn','3',this,event,0);" ><input type="hidden" value="" name="__chk__sub_ppe_worn_RC_3"> <label id='label-sub_ppe_worn-3' class='mc' onclick="checkboxClick('sub_ppe_worn','3',this,event,0);">Face mask w/ shield</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_ppe_worn label-sub_ppe_worn-4' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_ppe_worn');"     id='id-__chk__sub_ppe_worn_RC_4' name='__chkn__sub_ppe_worn' code='4' onclick="checkboxClick('sub_ppe_worn','4',this,event,0);" ><input type="hidden" value="" name="__chk__sub_ppe_worn_RC_4"> <label id='label-sub_ppe_worn-4' class='mc' onclick="checkboxClick('sub_ppe_worn','4',this,event,0);">Eye protection (e.g. glasses/goggles)</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_ppe_worn label-sub_ppe_worn-5' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_ppe_worn');"     id='id-__chk__sub_ppe_worn_RC_5' name='__chkn__sub_ppe_worn' code='5' onclick="checkboxClick('sub_ppe_worn','5',this,event,0);" ><input type="hidden" value="" name="__chk__sub_ppe_worn_RC_5"> <label id='label-sub_ppe_worn-5' class='mc' onclick="checkboxClick('sub_ppe_worn','5',this,event,0);">Gloves</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_ppe_worn label-sub_ppe_worn-6' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_ppe_worn');"     id='id-__chk__sub_ppe_worn_RC_6' name='__chkn__sub_ppe_worn' code='6' onclick="checkboxClick('sub_ppe_worn','6',this,event,0);" ><input type="hidden" value="" name="__chk__sub_ppe_worn_RC_6"> <label id='label-sub_ppe_worn-6' class='mc' onclick="checkboxClick('sub_ppe_worn','6',this,event,0);">Gown</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_ppe_worn label-sub_ppe_worn-7' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_ppe_worn');"     id='id-__chk__sub_ppe_worn_RC_7' name='__chkn__sub_ppe_worn' code='7' onclick="checkboxClick('sub_ppe_worn','7',this,event,0);" ><input type="hidden" value="" name="__chk__sub_ppe_worn_RC_7"> <label id='label-sub_ppe_worn-7' class='mc' onclick="checkboxClick('sub_ppe_worn','7',this,event,0);">PAPR (Powered Air Purifying Respirator)</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_ppe_worn label-sub_ppe_worn-8' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_ppe_worn');"     id='id-__chk__sub_ppe_worn_RC_8' name='__chkn__sub_ppe_worn' code='8' onclick="checkboxClick('sub_ppe_worn','8',this,event,0);" ><input type="hidden" value="" name="__chk__sub_ppe_worn_RC_8"> <label id='label-sub_ppe_worn-8' class='mc' onclick="checkboxClick('sub_ppe_worn','8',this,event,0);">Other (Specify Below)</label></div><div class='space'></div><div id='sub_ppe_worn_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='sub_oth_ppe-tr' sq_id='sub_oth_ppe' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-sub_oth_ppe' aria-hidden='true'> Other PPE worn</label></td><td class='data col-5'>	<input autocomplete='new-password' aria-labelledby='label-sub_oth_ppe' class='x-form-text x-form-field '  type='text' name='sub_oth_ppe'  value=''
-							       tabindex='0'     >
-							  <div id='sub_oth_ppe_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='sub_exp_date-tr' sq_id='sub_exp_date' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-sub_exp_date' aria-hidden='true'> Date of exposure / date of symptom onset</label></td><td class='data col-5'>	<input autocomplete='new-password' aria-labelledby='label-sub_exp_date' class='x-form-text x-form-field date_mdy'  type='text' name='sub_exp_date'  value=''
-							     onblur="redcap_validate(this,'','','soft_typed','date_mdy',1)"  tabindex='0' onkeydown="dateKeyDown(event,'sub_exp_date')"  fv='date_mdy'  >
-							&nbsp;&nbsp; <button ignore='Yes' class='jqbuttonsm' onclick="setToday('sub_exp_date','date_mdy');return false;">Today</button><span class='df'>M-D-Y</span>  <div id='sub_exp_date_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='expose_dt_only-tr' sq_id='expose_dt_only' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-expose_dt_only' aria-hidden='true'> On what date did the exposure occur?</label></td><td class='data col-5'>	<input autocomplete='new-password' aria-labelledby='label-expose_dt_only' class='x-form-text x-form-field date_mdy'  type='text' name='expose_dt_only'  value=''
-							     onblur="redcap_validate(this,'','','soft_typed','date_mdy',1)"  tabindex='0' onkeydown="dateKeyDown(event,'expose_dt_only')"  fv='date_mdy'  >
-							&nbsp;&nbsp; <button ignore='Yes' class='jqbuttonsm' onclick="setToday('expose_dt_only','date_mdy');return false;">Today</button><span class='df'>M-D-Y</span>  <div id='expose_dt_only_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><script type='text/javascript'>$(function(){
-									noneOfTheAboveAlert('sub_symptoms', '0', '1,2,3,4,5,6,7,8,9,10,11', 'Yes, clear other selections', 'Cancel');
-								});</script><div class="simpleDialog" title="Incompatible checkbox selection" id="noneOfTheAboveDialog">The option "<b id='noneOfTheAboveLabelDialog'></b>" can only be selected by itself. Selecting this option will clear your previous selections for this checkbox field. Are you sure?</div>
-<tr class='@NONEOFTHEABOVE' id='sub_symptoms-tr' sq_id='sub_symptoms' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-sub_symptoms' aria-hidden='true'> What symptoms are you experiencing, if any?</label></td><td class='data col-5'><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_symptoms note-sub_symptoms label-sub_symptoms-0' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_symptoms');"     id='id-__chk__sub_symptoms_RC_0' name='__chkn__sub_symptoms' code='0' onclick="checkboxClick('sub_symptoms','0',this,event,0);" ><input type="hidden" value="" name="__chk__sub_symptoms_RC_0"> <label id='label-sub_symptoms-0' class='mc' onclick="checkboxClick('sub_symptoms','0',this,event,0);">No symptoms (asymptomatic)</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_symptoms note-sub_symptoms label-sub_symptoms-1' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_symptoms');"     id='id-__chk__sub_symptoms_RC_1' name='__chkn__sub_symptoms' code='1' onclick="checkboxClick('sub_symptoms','1',this,event,0);" ><input type="hidden" value="" name="__chk__sub_symptoms_RC_1"> <label id='label-sub_symptoms-1' class='mc' onclick="checkboxClick('sub_symptoms','1',this,event,0);">Fever</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_symptoms note-sub_symptoms label-sub_symptoms-2' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_symptoms');"     id='id-__chk__sub_symptoms_RC_2' name='__chkn__sub_symptoms' code='2' onclick="checkboxClick('sub_symptoms','2',this,event,0);" ><input type="hidden" value="" name="__chk__sub_symptoms_RC_2"> <label id='label-sub_symptoms-2' class='mc' onclick="checkboxClick('sub_symptoms','2',this,event,0);">Cough</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_symptoms note-sub_symptoms label-sub_symptoms-3' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_symptoms');"     id='id-__chk__sub_symptoms_RC_3' name='__chkn__sub_symptoms' code='3' onclick="checkboxClick('sub_symptoms','3',this,event,0);" ><input type="hidden" value="" name="__chk__sub_symptoms_RC_3"> <label id='label-sub_symptoms-3' class='mc' onclick="checkboxClick('sub_symptoms','3',this,event,0);">Sore Throat</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_symptoms note-sub_symptoms label-sub_symptoms-4' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_symptoms');"     id='id-__chk__sub_symptoms_RC_4' name='__chkn__sub_symptoms' code='4' onclick="checkboxClick('sub_symptoms','4',this,event,0);" ><input type="hidden" value="" name="__chk__sub_symptoms_RC_4"> <label id='label-sub_symptoms-4' class='mc' onclick="checkboxClick('sub_symptoms','4',this,event,0);">Shortness of breath</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_symptoms note-sub_symptoms label-sub_symptoms-5' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_symptoms');"     id='id-__chk__sub_symptoms_RC_5' name='__chkn__sub_symptoms' code='5' onclick="checkboxClick('sub_symptoms','5',this,event,0);" ><input type="hidden" value="" name="__chk__sub_symptoms_RC_5"> <label id='label-sub_symptoms-5' class='mc' onclick="checkboxClick('sub_symptoms','5',this,event,0);">Chills</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_symptoms note-sub_symptoms label-sub_symptoms-6' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_symptoms');"     id='id-__chk__sub_symptoms_RC_6' name='__chkn__sub_symptoms' code='6' onclick="checkboxClick('sub_symptoms','6',this,event,0);" ><input type="hidden" value="" name="__chk__sub_symptoms_RC_6"> <label id='label-sub_symptoms-6' class='mc' onclick="checkboxClick('sub_symptoms','6',this,event,0);">Headache</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_symptoms note-sub_symptoms label-sub_symptoms-7' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_symptoms');"     id='id-__chk__sub_symptoms_RC_7' name='__chkn__sub_symptoms' code='7' onclick="checkboxClick('sub_symptoms','7',this,event,0);" ><input type="hidden" value="" name="__chk__sub_symptoms_RC_7"> <label id='label-sub_symptoms-7' class='mc' onclick="checkboxClick('sub_symptoms','7',this,event,0);">Muscle aches</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_symptoms note-sub_symptoms label-sub_symptoms-8' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_symptoms');"     id='id-__chk__sub_symptoms_RC_8' name='__chkn__sub_symptoms' code='8' onclick="checkboxClick('sub_symptoms','8',this,event,0);" ><input type="hidden" value="" name="__chk__sub_symptoms_RC_8"> <label id='label-sub_symptoms-8' class='mc' onclick="checkboxClick('sub_symptoms','8',this,event,0);">Vomiting</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_symptoms note-sub_symptoms label-sub_symptoms-9' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_symptoms');"     id='id-__chk__sub_symptoms_RC_9' name='__chkn__sub_symptoms' code='9' onclick="checkboxClick('sub_symptoms','9',this,event,0);" ><input type="hidden" value="" name="__chk__sub_symptoms_RC_9"> <label id='label-sub_symptoms-9' class='mc' onclick="checkboxClick('sub_symptoms','9',this,event,0);">Abdominal pain</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_symptoms note-sub_symptoms label-sub_symptoms-10' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_symptoms');"     id='id-__chk__sub_symptoms_RC_10' name='__chkn__sub_symptoms' code='10' onclick="checkboxClick('sub_symptoms','10',this,event,0);" ><input type="hidden" value="" name="__chk__sub_symptoms_RC_10"> <label id='label-sub_symptoms-10' class='mc' onclick="checkboxClick('sub_symptoms','10',this,event,0);">Diarrhea</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_symptoms note-sub_symptoms label-sub_symptoms-11' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_symptoms');"     id='id-__chk__sub_symptoms_RC_11' name='__chkn__sub_symptoms' code='11' onclick="checkboxClick('sub_symptoms','11',this,event,0);" ><input type="hidden" value="" name="__chk__sub_symptoms_RC_11"> <label id='label-sub_symptoms-11' class='mc' onclick="checkboxClick('sub_symptoms','11',this,event,0);">Other (specify below)</label></div><div class='space'></div><div id='sub_symptoms_MDLabel' class='MDLabel' style='display:none' code='' label=''></div><div id='note-sub_symptoms' class='note' aria-hidden='true'>Check all that apply</div></td></tr><tr  id='sub_other_symptoms-tr' sq_id='sub_other_symptoms' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-sub_other_symptoms' aria-hidden='true'> Other symptoms</label></td><td class='data col-5'>	<input autocomplete='new-password' aria-labelledby='label-sub_other_symptoms' class='x-form-text x-form-field '  type='text' name='sub_other_symptoms'  value=''
-							       tabindex='0'     >
-							  <div id='sub_other_symptoms_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='symptom_date_only-tr' sq_id='symptom_date_only' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-symptom_date_only' aria-hidden='true'> On what date did you first experience symptoms?</label></td><td class='data col-5'>	<input autocomplete='new-password' aria-labelledby='label-symptom_date_only' class='x-form-text x-form-field date_mdy'  type='text' name='symptom_date_only'  value=''
-							     onblur="redcap_validate(this,'','','soft_typed','date_mdy',1)"  tabindex='0' onkeydown="dateKeyDown(event,'symptom_date_only')"  fv='date_mdy'  >
-							&nbsp;&nbsp; <button ignore='Yes' class='jqbuttonsm' onclick="setToday('symptom_date_only','date_mdy');return false;">Today</button><span class='df'>M-D-Y</span>  <div id='symptom_date_only_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><script type='text/javascript'>$(function(){
-									noneOfTheAboveAlert('sub_comorb', '0', '1,2,3,4,5,6,7,8,9,10,11', 'Yes, clear other selections', 'Cancel');
-								});</script><div class="simpleDialog" title="Incompatible checkbox selection" id="noneOfTheAboveDialog">The option "<b id='noneOfTheAboveLabelDialog'></b>" can only be selected by itself. Selecting this option will clear your previous selections for this checkbox field. Are you sure?</div>
-<tr class='@NONEOFTHEABOVE' id='sub_comorb-tr' sq_id='sub_comorb' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-sub_comorb' aria-hidden='true'> Which of the following health conditions do you have, if any?</label></td><td class='data col-5'><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_comorb note-sub_comorb label-sub_comorb-0' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_comorb');"     id='id-__chk__sub_comorb_RC_0' name='__chkn__sub_comorb' code='0' onclick="checkboxClick('sub_comorb','0',this,event,0);" ><input type="hidden" value="" name="__chk__sub_comorb_RC_0"> <label id='label-sub_comorb-0' class='mc' onclick="checkboxClick('sub_comorb','0',this,event,0);">None</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_comorb note-sub_comorb label-sub_comorb-1' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_comorb');"     id='id-__chk__sub_comorb_RC_1' name='__chkn__sub_comorb' code='1' onclick="checkboxClick('sub_comorb','1',this,event,0);" ><input type="hidden" value="" name="__chk__sub_comorb_RC_1"> <label id='label-sub_comorb-1' class='mc' onclick="checkboxClick('sub_comorb','1',this,event,0);">Currently pregnant</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_comorb note-sub_comorb label-sub_comorb-2' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_comorb');"     id='id-__chk__sub_comorb_RC_2' name='__chkn__sub_comorb' code='2' onclick="checkboxClick('sub_comorb','2',this,event,0);" ><input type="hidden" value="" name="__chk__sub_comorb_RC_2"> <label id='label-sub_comorb-2' class='mc' onclick="checkboxClick('sub_comorb','2',this,event,0);">Diabetes</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_comorb note-sub_comorb label-sub_comorb-3' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_comorb');"     id='id-__chk__sub_comorb_RC_3' name='__chkn__sub_comorb' code='3' onclick="checkboxClick('sub_comorb','3',this,event,0);" ><input type="hidden" value="" name="__chk__sub_comorb_RC_3"> <label id='label-sub_comorb-3' class='mc' onclick="checkboxClick('sub_comorb','3',this,event,0);">Cardiac disease</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_comorb note-sub_comorb label-sub_comorb-4' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_comorb');"     id='id-__chk__sub_comorb_RC_4' name='__chkn__sub_comorb' code='4' onclick="checkboxClick('sub_comorb','4',this,event,0);" ><input type="hidden" value="" name="__chk__sub_comorb_RC_4"> <label id='label-sub_comorb-4' class='mc' onclick="checkboxClick('sub_comorb','4',this,event,0);">Hypertension</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_comorb note-sub_comorb label-sub_comorb-5' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_comorb');"     id='id-__chk__sub_comorb_RC_5' name='__chkn__sub_comorb' code='5' onclick="checkboxClick('sub_comorb','5',this,event,0);" ><input type="hidden" value="" name="__chk__sub_comorb_RC_5"> <label id='label-sub_comorb-5' class='mc' onclick="checkboxClick('sub_comorb','5',this,event,0);">Current smoker</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_comorb note-sub_comorb label-sub_comorb-6' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_comorb');"     id='id-__chk__sub_comorb_RC_6' name='__chkn__sub_comorb' code='6' onclick="checkboxClick('sub_comorb','6',this,event,0);" ><input type="hidden" value="" name="__chk__sub_comorb_RC_6"> <label id='label-sub_comorb-6' class='mc' onclick="checkboxClick('sub_comorb','6',this,event,0);">Former smoker</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_comorb note-sub_comorb label-sub_comorb-7' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_comorb');"     id='id-__chk__sub_comorb_RC_7' name='__chkn__sub_comorb' code='7' onclick="checkboxClick('sub_comorb','7',this,event,0);" ><input type="hidden" value="" name="__chk__sub_comorb_RC_7"> <label id='label-sub_comorb-7' class='mc' onclick="checkboxClick('sub_comorb','7',this,event,0);">Chronic pulmonary disease</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_comorb note-sub_comorb label-sub_comorb-8' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_comorb');"     id='id-__chk__sub_comorb_RC_8' name='__chkn__sub_comorb' code='8' onclick="checkboxClick('sub_comorb','8',this,event,0);" ><input type="hidden" value="" name="__chk__sub_comorb_RC_8"> <label id='label-sub_comorb-8' class='mc' onclick="checkboxClick('sub_comorb','8',this,event,0);">Chronic kidney disease</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_comorb note-sub_comorb label-sub_comorb-9' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_comorb');"     id='id-__chk__sub_comorb_RC_9' name='__chkn__sub_comorb' code='9' onclick="checkboxClick('sub_comorb','9',this,event,0);" ><input type="hidden" value="" name="__chk__sub_comorb_RC_9"> <label id='label-sub_comorb-9' class='mc' onclick="checkboxClick('sub_comorb','9',this,event,0);">Chronic liver disease</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_comorb note-sub_comorb label-sub_comorb-10' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_comorb');"     id='id-__chk__sub_comorb_RC_10' name='__chkn__sub_comorb' code='10' onclick="checkboxClick('sub_comorb','10',this,event,0);" ><input type="hidden" value="" name="__chk__sub_comorb_RC_10"> <label id='label-sub_comorb-10' class='mc' onclick="checkboxClick('sub_comorb','10',this,event,0);">Immunocompromised</label></div><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-sub_comorb note-sub_comorb label-sub_comorb-11' tabindex='0'  onchange="clean_datetime(this,'');doBranching('sub_comorb');"     id='id-__chk__sub_comorb_RC_11' name='__chkn__sub_comorb' code='11' onclick="checkboxClick('sub_comorb','11',this,event,0);" ><input type="hidden" value="" name="__chk__sub_comorb_RC_11"> <label id='label-sub_comorb-11' class='mc' onclick="checkboxClick('sub_comorb','11',this,event,0);">Other (specify below)</label></div><div class='space'></div><div id='sub_comorb_MDLabel' class='MDLabel' style='display:none' code='' label=''></div><div id='note-sub_comorb' class='note' aria-hidden='true'>Check all that apply</div></td></tr><tr  id='sub_oth_comorb-tr' sq_id='sub_oth_comorb' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-sub_oth_comorb' aria-hidden='true'> Other health conditions</label></td><td class='data col-5'>	<input autocomplete='new-password' aria-labelledby='label-sub_oth_comorb' class='x-form-text x-form-field '  type='text' name='sub_oth_comorb'  value=''
-							       tabindex='0'     >
-							  <div id='sub_oth_comorb_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='supervisor-tr' sq_id='supervisor' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-supervisor' aria-hidden='true'> Who is your direct supervisor?</label></td><td class='data col-5'>	<input autocomplete='new-password' aria-labelledby='label-supervisor' class='x-form-text x-form-field '  type='text' name='supervisor'  value=''
-							       tabindex='0'     >
-							  <div id='supervisor_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='super_email-tr' sq_id='super_email' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-super_email' aria-hidden='true'> What is your supervisor's email address?</label></td><td class='data col-5'>	<input autocomplete='new-password' aria-labelledby='label-super_email' class='x-form-text x-form-field '  type='text' name='super_email'  value=''
-							     onblur="redcap_validate(this,'','','soft_typed','email',1)"  tabindex='0'   fv='email'  >
-							  <div id='super_email_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr><tr  id='sub_oth_info-tr' sq_id='sub_oth_info' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-sub_oth_info' aria-hidden='true'> Any other information you wish to communicate</label></td><td class='data col-5'>	<textarea autocomplete='new-password' class='x-form-field notesbox' aria-labelledby='label-sub_oth_info' id='sub_oth_info' name='sub_oth_info' tabindex='0'       ></textarea>
-							<div id='sub_oth_info-expand' class='expandLinkParent'>
-								<a href='javascript:;' tabindex='-1' class='expandLink' onclick="growTextarea('sub_oth_info')">Expand</a>&nbsp;
-
-							</div><div id='sub_oth_info_MDLabel' class='MDLabel' style='display:none' code='' label=''></div> </td></tr>
-<input type='hidden' name='submit-action' id="submit-action" value='Save Record'>
-<input type='hidden' name='record_id' id="record_id" value='2337'>
-<input type='hidden' name='__page__'  value='1'>
-<input type='hidden' name='__page_hash__'  value='4ba3ebf294ba787ba5a8ec3ae15cf4f7'>
-<input type='hidden' name='__response_hash__'  value=''>
-<input type='hidden' name='staff_submission_form_complete'  value=''><tr  class='surveysubmit' ><td class='labelrc col-12' style='padding:5px;' colspan='3'><table cellspacing="0">
-	<tr>
-		<td colspan="2" style="text-align:center;padding:15px 0;">
-			<button name="submit-btn-saverecord" tabindex="0" class="jqbutton nowrap" style="color:#800000;width:100%;max-width:140px;" onclick="$(this).button(&quot;disable&quot;);dataEntrySubmit(this);return false;">Submit</button>
-		</td>
-	</tr>
-</table>
-</td></tr><tr  id='show_combined_date-tr' sq_id='show_combined_date' ><td class='labelrc questionnum col-1' valign='top'></td><td class='labelrc col-6'><label class='fl' id='label-show_combined_date' aria-hidden='true'>Label</label></td><td class='data col-5'><div class='choicevert' onclick='sr(this,event)'><input type='checkbox'  aria-labelledby='label-show_combined_date label-show_combined_date-1' tabindex='0'       id='id-__chk__show_combined_date_RC_1' name='__chkn__show_combined_date' code='1' onclick="checkboxClick('show_combined_date','1',this,event,0);" ><input type="hidden" value="" name="__chk__show_combined_date_RC_1"> <label id='label-show_combined_date-1' class='mc' onclick="checkboxClick('show_combined_date','1',this,event,0);">Yes</label></div><div class='space'></div><div id='show_combined_date_MDLabel' class='MDLabel' style='display:none' code='' label=''></div></td></tr></tbody></table></div></form>
-<!-- Calculation Trigger Fields -->
-<script type="text/javascript">
-function ctf(t,c){
-  if(t==''){return true;}var o=new Object();
-  if(typeof o[t]=='undefined') return true;
-  var oa=o[t].split('|');for(var i=0;i<oa.length;i++){if(typeof o[oa[i]]!='undefined'){return true;}}
-  return (o[t].indexOf('|'+c+'|')>-1);
-}
+<link rel='stylesheet' id='wp-components-css'  href='https://today.uic.edu/wp-includes/css/dist/components/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-editor-font-css'  href='https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&#038;ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-editor-css'  href='https://today.uic.edu/wp-includes/css/dist/block-editor/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-nux-css'  href='https://today.uic.edu/wp-includes/css/dist/nux/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-editor-css'  href='https://today.uic.edu/wp-includes/css/dist/editor/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='sld_block-cgb-style-css-css'  href='https://today.uic.edu/wp-content/plugins/simple-link-directory/gutenberg/sld-block/dist/blocks.style.build.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='events-manager-css'  href='https://today.uic.edu/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.97' type='text/css' media='all' />
+<link rel='stylesheet' id='ssp-frontend-player-css'  href='https://today.uic.edu/wp-content/plugins/seriously-simple-podcasting/assets/css/player.css?ver=1.20.11' type='text/css' media='all' />
+<link rel='stylesheet' id='wow-icons-fa-css'  href='https://today.uic.edu/wp-content/plugins/wow-icons//assets/fontawesome/font-awesome.min.css?ver=2.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='upw_theme_standard-css'  href='https://today.uic.edu/wp-content/plugins/ultimate-posts-widget/css/upw-theme-standard.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://today.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
+<style id='tablepress-default-inline-css' type='text/css'>
+.tablepress-id-1 .column-1{vertical-align:middle}.tablepress-id-1 tbody td{font-size:15px}.tablepress-id-1{width:auto important!}.tablepress-id-1 img{margin:0!important}.tablepress-id-6 .column-1{vertical-align:middle}.tablepress-id-6 tbody td{font-size:15px}.tablepress-id-6{width:auto important!}.tablepress-id-6 img{margin:0!important}.tablepress-id-3 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-3 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-3 .odd td{background-color:#e6e6e6}.tablepress-id-3 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-3 .column-1{width:50%}.tablepress-id-4 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-4 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-4 .odd td{background-color:#e6e6e6}.tablepress-id-4 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-4 .column-1{width:50%}.tablepress-id-5 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-5 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-5 .odd td{background-color:#e6e6e6}.tablepress-id-5 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-5 .column-1{width:50%}
+</style>
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/stackable-ultimate-gutenberg-blocks/dist/frontend_blocks.js?ver=2.3.0'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
 </script>
-<!-- Calculations -->
-<script type="text/javascript">
-function calculate(t,isOnPageLoad){
-  var a,b,c;if(typeof t=='undefined') t='';if(typeof isOnPageLoad=='undefined') isOnPageLoad=false;
-  try{updateCalcPipingReceivers()}catch(e){}
-  return false;
-}
-calcErrExist = calculate('',true);
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4'></script>
+<script type='text/javascript'>
+( 'fetch' in window ) || document.write( '<script src="https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.26.0-0"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );
 </script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/dist/dom-ready.min.js?ver=2.5.1'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/dist/a11y.min.js?ver=2.5.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var EM = {"ajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"mm\/dd\/yy","ui_css":"https:\/\/today.uic.edu\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"0","is_ssl":"1","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","event_detach_warning":"Are you sure you want to detach this event? By doing so, this event will be independent of the recurring set of events.","delete_recurrence_warning":"Are you sure you want to delete all recurrences of this event? All events will be moved to trash."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.97'></script>
+<link rel='https://api.w.org/' href='https://today.uic.edu/wp-json/' />
+<link rel="canonical" href="https://today.uic.edu/contact/communicating-on-campus" />
+<link rel='shortlink' href='https://today.uic.edu/?p=16' />
+<link rel="alternate" type="application/json+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fcontact%2Fcommunicating-on-campus" />
+<link rel="alternate" type="text/xml+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fcontact%2Fcommunicating-on-campus&#038;format=xml" />
+    <style type="text/css" media="screen">
+      div.printfriendly a, div.printfriendly a:link, div.printfriendly a:hover, div.printfriendly a:visited, div.printfriendly a:focus {
+        text-decoration: none;
+        border: none;
+        -webkit-box-shadow:none!important;
+        box-shadow:none!important;
+      }
+    </style>
+           <style type="text/css" media="screen">
+          div.printfriendly {
+            margin: 0px 0px 0px 0px;
+          }
+          div.printfriendly a, div.printfriendly a:link, div.printfriendly a:visited {
+            font-size: 14px;
+            color: #55750C;
+          }
+        </style>
+		<link rel="stylesheet" href="https://today.uic.edu/wp-content/plugins/printfriendly/printfriendly.css" media="screen" />
+        <style type="text/css" media="print">
+          .printfriendly {
+            display: none;
+          }
+        </style>
+
+<link rel="alternate" type="application/rss+xml" title="Podcast RSS feed" href="https://today.uic.edu/feed/podcast" />
+
 <script type="text/javascript">
-if(calcErrExist){calcErr2()}
+           var ajaxurl = "https://today.uic.edu/wp-admin/admin-ajax.php";
+         </script>
+<!-- Put the following javascript before the closing </head> tag. -->
+
+<script>
+  (function() {
+    var cx = '009511351313755808885:xdz07yl93pe';
+    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  })();
 </script>
 
-<!-- Branching Logic Trigger Fields -->
-<script type="text/javascript">
-function dbtf(t,c){
-  if(t==''){return true;}var o=new Object();
-  o.sub_action_type='|sub_request_note|sub_exp_type|sub_other_exp|source_pt_initials|source_pt_mrn|sub_ppe_worn|sub_oth_ppe|sub_exp_date|expose_dt_only|sub_symptoms|sub_other_symptoms|symptom_date_only|sub_comorb|sub_oth_comorb|';
-  o.sub_exp_type='|sub_other_exp|source_pt_initials|source_pt_mrn|sub_ppe_worn|sub_oth_ppe|expose_dt_only|symptom_date_only|';
-  o.sub_ppe_worn='|sub_oth_ppe|';
-  o.show_combined_date='|sub_exp_date|';
-  o.sub_symptoms='|sub_other_symptoms|symptom_date_only|';
-  o.sub_comorb='|sub_oth_comorb|';
-  if(typeof o[t]=='undefined') return true;
-  var oa=o[t].split('|');for(var i=0;i<oa.length;i++){if(typeof o[oa[i]]!='undefined'){return true;}}
-  return (o[t].indexOf('|'+c+'|')>-1);
-}
-</script>
-<!-- Branching Logic -->
-<script type="text/javascript">
-function doBranching(t,b,isOnPageLoad){
-  if(typeof isOnPageLoad=='undefined') isOnPageLoad=false;
-  var c;if(typeof b=='undefined') b=false;if(typeof t=='undefined') t='';
-  c='sub_request_note';try{if(dbtf(t,c))evalLogic(c,b,(document.form.sub_action_type.value=='2' || document.form.sub_action_type.value=='3'))}catch(e){brErr(c)}
-  c='sub_exp_type';try{if(dbtf(t,c))evalLogic(c,b,(document.form.sub_action_type.value!='2' && document.form.sub_action_type.value!='3'))}catch(e){brErr(c)}
-  c='sub_other_exp';try{if(dbtf(t,c))evalLogic(c,b,((( document.forms['form'].elements['__chk__sub_exp_type_RC_5'].value=='' ? 0 : 1))=='1'))}catch(e){brErr(c)}
-  c='source_pt_initials';try{if(dbtf(t,c))evalLogic(c,b,((( document.forms['form'].elements['__chk__sub_exp_type_RC_2'].value=='' ? 0 : 1))=='1' || (( document.forms['form'].elements['__chk__sub_exp_type_RC_3'].value=='' ? 0 : 1))=='1'))}catch(e){brErr(c)}
-  c='source_pt_mrn';try{if(dbtf(t,c))evalLogic(c,b,((( document.forms['form'].elements['__chk__sub_exp_type_RC_2'].value=='' ? 0 : 1))=='1' || (( document.forms['form'].elements['__chk__sub_exp_type_RC_3'].value=='' ? 0 : 1))=='1'))}catch(e){brErr(c)}
-  c='sub_ppe_worn';try{if(dbtf(t,c))evalLogic(c,b,((( document.forms['form'].elements['__chk__sub_exp_type_RC_2'].value=='' ? 0 : 1))=='1' || (( document.forms['form'].elements['__chk__sub_exp_type_RC_3'].value=='' ? 0 : 1))=='1'))}catch(e){brErr(c)}
-  c='sub_oth_ppe';try{if(dbtf(t,c))evalLogic(c,b,((( document.forms['form'].elements['__chk__sub_ppe_worn_RC_8'].value=='' ? 0 : 1))=='1'))}catch(e){brErr(c)}
-  c='sub_exp_date';try{if(dbtf(t,c))evalLogic(c,b,(document.form.sub_action_type.value!='2' && document.form.sub_action_type.value!='3' && (( document.forms['form'].elements['__chk__show_combined_date_RC_1'].value=='' ? 0 : 1))=="1"))}catch(e){brErr(c)}
-  c='expose_dt_only';try{if(dbtf(t,c))evalLogic(c,b,((( document.forms['form'].elements['__chk__sub_exp_type_RC_2'].value=='' ? 0 : 1))=='1' || (( document.forms['form'].elements['__chk__sub_exp_type_RC_3'].value=='' ? 0 : 1))=='1'))}catch(e){brErr(c)}
-  c='sub_symptoms';try{if(dbtf(t,c))evalLogic(c,b,(document.form.sub_action_type.value!='2' && document.form.sub_action_type.value!='3'))}catch(e){brErr(c)}
-  c='sub_other_symptoms';try{if(dbtf(t,c))evalLogic(c,b,((( document.forms['form'].elements['__chk__sub_symptoms_RC_11'].value=='' ? 0 : 1))=='1'))}catch(e){brErr(c)}
-  c='symptom_date_only';try{if(dbtf(t,c))evalLogic(c,b,((( document.forms['form'].elements['__chk__sub_exp_type_RC_4'].value=='' ? 0 : 1))=="1" || (( document.forms['form'].elements['__chk__sub_symptoms_RC_1'].value=='' ? 0 : 1))=="1" || (( document.forms['form'].elements['__chk__sub_symptoms_RC_1'].value=='' ? 0 : 1))=="1" || (( document.forms['form'].elements['__chk__sub_symptoms_RC_2'].value=='' ? 0 : 1))=="1" || (( document.forms['form'].elements['__chk__sub_symptoms_RC_3'].value=='' ? 0 : 1))=="1" || (( document.forms['form'].elements['__chk__sub_symptoms_RC_4'].value=='' ? 0 : 1))=="1" || (( document.forms['form'].elements['__chk__sub_symptoms_RC_5'].value=='' ? 0 : 1))=="1" || (( document.forms['form'].elements['__chk__sub_symptoms_RC_6'].value=='' ? 0 : 1))=="1" || (( document.forms['form'].elements['__chk__sub_symptoms_RC_7'].value=='' ? 0 : 1))=="1" || (( document.forms['form'].elements['__chk__sub_symptoms_RC_8'].value=='' ? 0 : 1))=="1" || (( document.forms['form'].elements['__chk__sub_symptoms_RC_9'].value=='' ? 0 : 1))=="1" || (( document.forms['form'].elements['__chk__sub_symptoms_RC_10'].value=='' ? 0 : 1))=="1" || (( document.forms['form'].elements['__chk__sub_symptoms_RC_11'].value=='' ? 0 : 1))=="1"))}catch(e){brErr(c)}
-  c='sub_comorb';try{if(dbtf(t,c))evalLogic(c,b,(document.form.sub_action_type.value!='2' && document.form.sub_action_type.value!='3'))}catch(e){brErr(c)}
-  c='sub_oth_comorb';try{if(dbtf(t,c))evalLogic(c,b,((( document.forms['form'].elements['__chk__sub_comorb_RC_11'].value=='' ? 0 : 1))=='1'))}catch(e){brErr(c)}
-  hideSectionHeaders();
-  $(function(){ updateHiddenEnhancedChoices(); });
-  $(function(){ triggerActionTagsHidden(true); });
-  if (!isOnPageLoad) enabledFloatingMatrixHeaders();
-  return false;
-}
-if (elementExists(document.getElementById('formtop-div'))) document.getElementById('formtop-div').style.display='none';
-document.getElementById('questiontable_loading').style.display='none';
-document.getElementById('questiontable').style.display='table';
-if (elementExists(document.getElementById('form_response_header'))) document.getElementById('form_response_header').style.display='block';
-if (elementExists(document.getElementById('formtop-div'))) document.getElementById('formtop-div').style.display='block';
-if (elementExists(document.getElementById('inviteFollowupSurveyBtn'))) document.getElementById('inviteFollowupSurveyBtn').style.display='block';
-brErrExist = doBranching('',false,true);
-</script>
-<script type="text/javascript">
-if(brErrExist){brErr2()}
-</script>
-<script type='text/javascript'>document.getElementById('show_combined_date-tr').style.display='none';</script><script type='text/javascript'>
-$(function(){
-});
-</script><div id="stopActionPrompt" title="End the survey?">
-	<b>You have selected an option that triggers this survey to end right now.</b>&nbsp;To save your responses and end the survey, click the
-			button below to do so. If you have selected the wrong option by accident and do not wish to leave the survey,
-			you may click the other button below to continue, which will also remove the value of the option you just selected
-			to allow you to enter it again and continue the survey.
+</head>
+
+<body role="document" class="page-template-default page page-id-16 page-parent page-child parent-pageid-215 wp-embed-responsive">
+  
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57G9C3Q"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<div id="skip" role="complementary">
+<a href="#the_content">Skip to main content</a></div>
+
+
+
+<div id="header" role="banner">
+
+
+
+
+         		<div id="header-background">
+
+
+
+<!-- removed color wash for now.
+
+			<div class="color-wash">
+            <img src="" alt="   ">
+            </div>
+
+            -->
+
+
+
+            <div class="uic-type-wrapper">
+
+
+            <div class="last-update-timestamp">
+            	Updated: Apr 30, 2020 at 02:48 PM
+            </div><!--  last-update-timestamp   -->
+
+
+            <div class="uic-type-treatment">
+
+  			<div class="_mark">
+    		<a href="http://uic.edu" class="uic-logo-icon" aria-label="UIC logo">
+ 			<svg aria-label="UIC.edu" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ 			<title>UIC Logo</title>
+ 			<circle class="_circle" cx="27" cy="27" r="25" fill="none"></circle>
+ <path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#d50032" fill-rule="evenodd"></path>
+</svg>
+</a>
+  			</div><!--  _mark   -->
+
+  			<div class="_text">
+    		<a href="/">
+        	  Today
+      		  </a>
+ 			</div><!--  _text   -->
+
+
+			</div><!--  uic-type-treatment   -->
+
+
+
+            <!-- Put search box here -->
+<div class="search-box" aria-label="Search U I C today">
+    <form role="search" method="get" action="https://today.uic.edu/">
+     
+        <input type="text" id="s" name="s" aria-label="Search" size="25" value="" placeholder="Search">
+
+<button type="submit" value="Submit" style="border: 0;
+clip: rect( 1px, 1px, 1px, 1px );
+clip-path: inset( 50% );
+height: 1px;
+margin: -1px;
+overflow: hidden;
+padding: 0;
+position: absolute;
+width: 1px;
+word-wrap: normal;">
+Submit
+</button>
+
+    </form>
+    
+    
 </div>
-<div id="stopActionReturn" title="Value has been removed!">
-	The response has now been removed for the last question for which you selected a value. You may now enter
-			a new response for that question and continue the survey.
+
+
+
+<!-- End search box code -->
+
+
+
+			</div><!--  uic-type-wrapper    -->
+
+
+		</div><!--  header-background   -->
+
+
+
+
+
+		<div id="main_nav" role="navigation" aria-label="Site">
+	  	 	<div class="main_nav_container"><ul id="menu-main_nav" class="menu"><li id="menu-item-57546"><a href="https://today.uic.edu/campus-news">Campus News</a></li>
+<li id="menu-item-57547"><a href="https://today.uic.edu/academics-research">Academics &#038; Research</a></li>
+<li id="menu-item-57548"><a href="https://today.uic.edu/events">Events</a></li>
+<li id="menu-item-67603"><a href="https://today.uic.edu/resources">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-67604"><a href="https://today.uic.edu/resources/current-students">Current Student Resources</a></li>
+	<li id="menu-item-67605"><a href="https://today.uic.edu/resources/faculty-staff">Faculty &#038; Staff Resources</a></li>
+	<li id="menu-item-81898"><a href="https://today.uic.edu/resources/photo-video-policies">Photography/Video</a></li>
+	<li id="menu-item-82144"><a href="https://today.uic.edu/resources/social-media-inquiry-form">Social Media Account Request Form</a></li>
+	<li id="menu-item-82376"><a href="https://today.uic.edu/uic-social-media-guidelines-and-best-practices">UIC Social Media Guidelines and Best Practices</a></li>
+</ul>
+</li>
+<li id="menu-item-92036"><a href="https://today.uic.edu/coronavirus">COVID-19</a>
+<ul class="sub-menu">
+	<li id="menu-item-92300"><a href="https://today.uic.edu/frequently-asked-questions">Frequently Asked Questions</a></li>
+	<li id="menu-item-92297"><a href="https://today.uic.edu/what-you-need-to-know-about-covid-19">What you need to know about COVID-19</a></li>
+	<li id="menu-item-92298"><a href="https://today.uic.edu/support-for-the-uic-community">Support for the UIC community (COVID-19)</a></li>
+	<li id="menu-item-92299"><a href="https://today.uic.edu/teaching-learning-and-working-resources">Teaching, learning and working resources</a></li>
+	<li id="menu-item-93028"><a href="https://today.uic.edu/in-the-news-covid-19">In the News: COVID-19</a></li>
+</ul>
+</li>
+<li id="menu-item-57549"><a href="https://today.uic.edu/contact">Contact</a>
+<ul class="sub-menu">
+	<li id="menu-item-57551"><a href="https://today.uic.edu/contact/communicating-on-campus" aria-current="page">Communicating On Campus</a></li>
+	<li id="menu-item-57552"><a href="https://today.uic.edu/contact/communicating-on-campus/sending-massmails-dddh">Sending Announcements / DDDH</a></li>
+	<li id="menu-item-57550"><a href="https://today.uic.edu/contact/social-media-directory">UIC Social Media Directory</a></li>
+</ul>
+</li>
+</ul></div>	    </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+		</div>
+
+
+
+
+
+
+
+
+ <div id="container" role="main" aria-label="Main content" class="clearfix">
+
+
+<a name="the_content" id="the_content" tabindex="-1" aria-label="Main content area"></a>
+
+
+
+
+		<div id="content">
+		<h1>Communicating On Campus</h1>
+		<p><div class="pf-content"><p>The Public Affairs unit is the official source of news and information about the University of Illinois at Chicago and is part of the <a href="http://pga.uic.edu">UIC Office of Public and Government Affairs</a>.</p>
+<p>UIC is on Facebook at <a href="http://www.facebook.com/uicnews" target="_blank" rel="noopener noreferrer">UIC News</a> and <a href="http://www.facebook.com/uic.edu" target="_blank" rel="noopener noreferrer">UIC</a>, on Twitter at <a href="http://twitter.com/uicnews" target="_blank" rel="noopener noreferrer">@UIC News</a> and <a href="http://twitter.com/thisisUIC" target="_blank" rel="noopener noreferrer">@ThisIsUIC</a>, and on YouTube at <a href="http://www.youtube.com/uicmedia" target="_blank" rel="noopener noreferrer">UICmedia</a> and <a href="http://www.youtube.com/user/thisisUIC" target="_blank" rel="noopener noreferrer">ThisIsUIC</a>. A blog on science and research at UIC, <a href="http://uicscience.tumblr.com" target="_blank" rel="noopener noreferrer">UICscience</a>, is on tumblr.</p>
+<h3>UIC Today</h3>
+<p><a href="http://today.uic.edu">UIC Today</a> provides up-to-the-minute news and information of interest to the campus community. <a href="https://today.uic.edu/contact/communicating-on-campus/request-photos-or-video"><span class="s1">Contact us to request published photos or B-roll footage of the campus or campus events.</span></a></p>
+<h3>The News Bureau</h3>
+<p>The News Bureau informs the public about the activities and accomplishments of UIC faculty, staff and students and the University’s contributions in teaching, research, public service and economic development. We work closely with national and local news media while ensuring that privacy and disclosure laws affecting students, patients and employees are followed. Staff are assigned to specific units on campus to serve as media liaisons to communicate with stakeholders through news releases, videos and podcasts.</p>
+<h4 style="padding-left: 30px;">Publicizing events:</h4>
+<p style="padding-left: 30px;">Contact the News Bureau during the earliest planning stages of your event, so that external and internal publicity goals can become part of the plan. We will publicize events or activities that are newsworthy to all or most of our key audiences – current students, prospective students, alumni, Illinois citizens, elected officials, visitors, and colleagues at other institutions. News that is of interest primarily to internal audiences may be reported in UIC Today. We generally do not publicize events solely sponsored by independent student groups, to avoid confusion as to what constitutes an official event or activity of a state public university.</p>
+<h4 style="padding-left: 30px;">Publicizing research news:</h4>
+<p style="padding-left: 30px;">If you are publishing or presenting research findings, contact the News Bureau as soon as your paper has been accepted or your presentation has been confirmed. We need time to review the findings for newsworthiness, prepare drafts, and determine how best to disseminate the information to the media in a timely manner. We will ensure that embargoes are enforced and public-release timelines are kept.</p>
+<h3></h3>
+<h3></h3>
+</div></p>
+	</div>	
+
+<!-- Need 2 closing divs before footer to close divs from page header include -->
+	</div>
+    
+</div>    
+
+<div class="clearThis">&nbsp;</div>
+
+
+
+
+
+    
+
+    <footer id="footer" class="footer u-dark-region" role="contentinfo">
+
+
+  <div class="footer-contact">
+    <div class="l-full">
+
+
+            <div class="uic-type-wrapper-footer">
+
+            <div class="uic-type-treatment-footer">
+            
+  			<div class="_mark"> 
+    		<a href="http://uic.edu" class="uic-logo-icon" aria-label="UIC logo">
+ 			<svg aria-label="UIC.edu" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ 			<title>UIC Logo</title>
+ 			<circle class="_circle" cx="27" cy="27" r="25" fill="none"></circle>
+ <path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#d50032" fill-rule="evenodd"></path>
+</svg>
+</a>
+  			</div><!--  _mark   -->   
+            
+  			<div class="_text">
+    		<a href="/">
+        	  Today
+      		  </a>
+ 			</div><!--  _text   -->
+
+            
+			</div><!--  uic-type-treatment-footer   -->
+
+
+			</div><!--  uic-type-wrapper-footer    -->
+ 
+
+
+  <div class="_contact">
+  
+  
+    <h2>Contact</h2>
+    
+    
+		<div class="site-address">Office of Public and Government Affairs <br />
+		601 S. Morgan St., 1320 UH, Chicago, IL 60607</div>
+      
+      
+		<div class="site-email"><a href="mailto:uictoday@uic.edu">uictoday@uic.edu</a></div>
+        
+        
+		<div aria-label="Social Media Accounts" class="_social" role="navigation">
+			<h2 class="assistive-text">Social Media Accounts</h2> 
+  			<ul class="site-social-links">
+            <li><a href="https://www.facebook.com/uicnews "><img src="/wp-content/themes/uictoday/images/social-media-icons/facebook.png" alt="Facebook"></a></li>
+            <li><a href="https://instagram.com/thisisuic/"><img src="/wp-content/themes/uictoday/images/social-media-icons/instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://today.uic.edu/campus-news/campus-newspaper/subscribe-to-uic-today"><img src="/wp-content/themes/uictoday/images/social-media-icons/rss.png" alt="RSS feed"></a></li>
+            <li><a href="https://uicscience.tumblr.com/"><img src="/wp-content/themes/uictoday/images/social-media-icons/tumblr.png" alt="tumblr"></a></li>
+            <li><a href="https://twitter.com/UICnews"><img src="/wp-content/themes/uictoday/images/social-media-icons/twitter.png" alt="Twitter"></a></li>
+            <li><a href="https://www.youtube.com/user/uicmedia"><img src="/wp-content/themes/uictoday/images/social-media-icons/youtube.png" alt="YouTube"></a></li>
+            <li><a href="https://today.uic.edu/contact/social-media-directory"><img src="/wp-content/themes/uictoday/images/social-media-icons/directory.png" alt="Social media directory"></a></li>
+            </ul>
+            
+            
+		</div>        
+        
+        
+  </div>
+
+    
+
+       
+
+
+   
+
+
+
+
+
+		<div id="quicklinks_footer" role="navigation" aria-label="Quick Links" >
+			<div id="quicklinks_footer_container">
+	  	 	<div class="menu-footer-quicklinks-container"><ul id="menu-footer-quicklinks" class="menu"><li id="menu-item-57564"><a href="/news-release/news-release/">For the Media</a></li>
+<li id="menu-item-57555"><a href="https://today.uic.edu/experts-guide">Experts Guide</a></li>
+<li id="menu-item-57577"><a href="https://today.uic.edu/contact/communicating-on-campus/submit-announcements">Submit Announcements</a></li>
+<li id="menu-item-57578"><a href="https://today.uic.edu/submit-an-event">Submit an Event</a></li>
+<li id="menu-item-67562"><a href="https://today.uic.edu/campus-news/campus-newspaper/subscribe-to-uic-today">Subscribe to UIC Today</a></li>
+</ul></div>        	</div>
+	    </div>      
+
+
 </div>
-<div id="survey_queue_corner_dialog" style="position: absolute; z-index: 100; width: 802px; display: none;border:1px solid #800000;"></div>
-<div id="overlay" class="ui-widget-overlay" style="position: absolute; background-color:#333;z-index:99;display:none;"></div>
-    <!-- Password+File Upload Vault dialog -->
-    	<!-- Edoc file upload dialog pop-up divs and javascript -->
-	<div id="file_upload" class="simpleDialog" title="Upload file"></div>
-	<div id="fade" class="black_overlay"></div>
-	<script type='text/javascript'>
-	// Set html for file upload pop-up (for resetting purposes)
-	var file_upload_win = '<form autocomplete="new-password" id="form_file_upload" action="/surveys/index.php?pid=7715&__passthru=DataEntry%2Ffile_upload.php&id=2337&event_id=44629&instance=1&s=YMCT94H8AX" method="post" enctype="multipart/form-data" target="upload_target" onsubmit="return startUpload();" >  <div id="this_upload_field">   <div style="font-size:14px;font-weight:bold;" id="field_name_popup">Loading...</div>  </div>  <div id="signature-div" onchange=\'if($(this).jSignature("getData","base30")[1].length){ $("#f1_upload_form input[name=myfile_base64_edited]").val("1"); }\'></div>  <div id="signature-div-actions" style="padding-top:25px;">   <button class="btn btn-primaryrc btn-fileupload" style="font-size:14px;" onclick="saveSignature();return false;">Save signature</button>   <a href="javascript:;" style="margin-left:15px;text-decoration:underline;" onclick=\'$("#signature-div").jSignature("reset");$("#f1_upload_form input[name=myfile_base64_edited]").val("0");return false;\'>reset</a>  </div>  <div id="f1_upload_process" style="display:none;font-weight:bold;font-size:14px;text-align:center;">   <br>Upload in progress...<br><img src="/redcap_v9.6.1/Resources/images/loader.gif" alt="Upload in progress...">  </div>  <div id="f1_upload_form"><div style="color:#800000;margin:20px 0;font-size:14px;">Select a file then click the \'Upload File\' button</div>  <div style="margin:15px 0;">  <input name="myfile" type="file" size="40">  <input name="myfile_base64" type="hidden">  <input name="myfile_base64_edited" type="hidden" value="0">  <input name="myfile_replace" type="hidden" value="0">  </div>  <button class="btn btn-primaryrc btn-fileupload" style="font-size:14px;" onclick="uploadFilePreProcess();return false;"><i class="fas fa-upload"></i> Upload file</button>  <span style="margin-left:10px;color:#888;">(Max file size: 10 MB)</span></div>  <input type="hidden" id="field_name" name="field_name" value="">    <iframe id="upload_target" name="upload_target" src="/surveys/index.php?pid=7715&__passthru=DataEntry%2Fempty.php&s=YMCT94H8AX" style="width:0;height:0;border:0px solid #fff;"></iframe>  </form>';
-	var f1_upload_form = '<div style="color:#800000;margin:20px 0;font-size:14px;">Select a file then click the \'Upload File\' button</div>  <div style="margin:15px 0;">  <input name="myfile" type="file" size="40">  <input name="myfile_base64" type="hidden">  <input name="myfile_base64_edited" type="hidden" value="0">  <input name="myfile_replace" type="hidden" value="0">  </div>  <button class="btn btn-primaryrc btn-fileupload" style="font-size:14px;" onclick="uploadFilePreProcess();return false;"><i class="fas fa-upload"></i> Upload file</button>  <span style="margin-left:10px;color:#888;">(Max file size: 10 MB)</span>';
-	// Language for file upload dialog title
-	var lang_file_upload_title1 = 'Upload file';
-	var lang_file_upload_title2 = 'Add signature';
-    var lang_file_upload_title3 = 'Upload new version (replace and keep current file)';
-	</script>
-	<script type="text/javascript" src="/redcap_v9.6.1/Resources/js/jSignature.js"></script>
-	<script type="text/javascript" src="/redcap_v9.6.1/Resources/js/jSignature.SignHere.js"></script>
-	<!--[if lt IE 9]>
-	<script type="text/javascript" src="/redcap_v9.6.1/Resources/js/flashcanvas.js"></script>
-	<![endif]-->
-		<script type='text/javascript'>
-	// Set secondary_id and see if it's on this page
-	var secondary_pk = '';
-	// Initial function (default return true)
-	var checkSecondaryUniqueField = function(){ return; };
-	// On pageload
-	$(function(){
-		// Create onblur event to make an ajax call to check uniqueness
-		if (secondary_pk != '' && $('#form :input[name="'+secondary_pk+'"]').length) {
-			// Add extra inline onblur attribute for fastest reaction time to prevent submitting form
-			var onblur = ($('#form :input[name="'+secondary_pk+'"]').attr('onblur') == null) ? '' : ($('#form :input[name="'+secondary_pk+'"]').attr('onblur')+';');
-			$('#form :input[name="'+secondary_pk+'"]').attr('onblur', onblur+'checkSecondaryUniqueField($(this));');
-			// Check if value is unique
-			checkSecondaryUniqueField = function(ob){
-				// Disable all form buttons temporarily
-				$('#formSaveTip input[type="button"], #form input[type="button"], #form :input[name="'+secondary_pk+'"]').prop('disabled', true);
-				// Init values
-				//var ob = $(this);
-				var url_base = 'DataEntry/check_unique_ajax.php';
-				if (page == 'surveys/index.php') {
-					// Survey page
-					var record = ((document.form.__response_hash__.value == '') ? '' : $('#form :input[name="'+table_pk+'"]').val());
-					var url = app_path_webroot_full+page+'?s='+getParameterByName('s')+'&__passthru='+encodeURIComponent(url_base);
-				} else {
-					// Data entry page
-					var record = ((document.form.hidden_edit_flag.value == '0') ? '' : getParameterByName('id'));
-					var url = app_path_webroot+url_base+'?page='+getParameterByName('page');
-				}
-				ob.val( trim(ob.val()) );
-				if (ob.val().length > 0) {
-					// Make ajax request
-					$.ajax({
-						url: url,
-						type: 'GET',
-						data: { pid: pid, field_name: secondary_pk, event_id: event_id, record: record, instance: '1', value: ob.val() },
-						async: false,
-						success:
-							function(data){
-								if (data.length == 0) {
-									alert(woops);
-									setTimeout(function () { ob.focus() }, 1);
-								} else if (data != '0') {
-									if (page == 'surveys/index.php') {
-										simpleDialog('The current question requires that its value never duplicate the value from a prior survey response. The value you entered ("'+ob.val()
-											+ '") has already been taken, so please enter another value. You must change this value before you can proceed.','DUPLICATE VALUE!',null,null,"$('#form :input[name="+secondary_pk+"]').focus();",'Close');
-									} else {
-										simpleDialog('The current field is the secondary unique field ('+secondary_pk
-											+ '), so its value must be unique for all records and cannot be duplicated. Another record or another event within the current record '
-											+ 'already has this same value ("'+ob.val()
-											+ '"). You must change this value before you can proceed.','DUPLICATE VALUE!',null,null,"$('#form :input[name="+secondary_pk+"]').focus();",'Close');
-									}
-									ob.css('font-weight','bold');
-									ob.css('background-color','#FFB7BE');									
-									// If this is a DDP project and the DDP "preview data" dialog is displayed, close it
-									if ($('#rtws_idfield_new_record_warning').length && $('#rtws_idfield_new_record_warning').hasClass('ui-dialog-content')) {
-										$('#rtws_idfield_new_record_warning').dialog('close');
-									}
-								} else {
-									ob.css('font-weight','normal');
-									ob.css('background-color','#FFFFFF');
-								}
-								// Enable all form buttons again
-								$('#formSaveTip input[type="button"], #form input[type="button"], #form :input[name="'+secondary_pk+'"]').prop('disabled', false);
-							}
-					});
-				} else {
-					// Enable all form buttons again
-					$('#formSaveTip input[type="button"], #form input[type="button"], #form :input[name="'+secondary_pk+'"]').prop('disabled', false);
-				}
-			}
-		}
-	});
-	</script>
-				<script>
-				(function () {
-					$('#form').append($('<input>').attr({
-						type: 'hidden',
-						name: "external-modules-temporary-record-id",
-						value: "external-modules-temporary-record-id-1588057882-1869299321"					}))
-				})()
-			</script>
-			<script>function addZ(n) {
-					  return n < 10 ? '0' + n : '' + n;
-					}
-				</script></div></div><div id="footer" class="d-none d-sm-block col-md-12" aria-hidden="true"><a href="https://projectredcap.org" tabindex="-1" target="_blank">Powered by REDCap</a></div></div><div id="working">
-	<img alt="Working..." src="/redcap_v9.6.1/Resources/images/progress_circle.gif"/>
-	&nbsp;Working...
+
+    
+    </div>
+  </div>
+
+
+
+
+<div class="footer-wrapper-uic-menu-legal">
+
+
+  <div class="footer-uic-menu">
+    <div class="ll-full">
+
+      <div role="navigation" aria-label="UIC.edu Links" >
+  <h2 class="assistive-text">UIC.edu links</h2>
+  <ul class="uic-footer-menu">
+    <li><a href="http://uic.edu/">UIC.edu</a></li>
+    <li><a href="http://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></li>
+    <li><a href="http://uicflames.com/">Athletics</a></li>
+    <li><a href="http://www.uic.edu/apps/departments-az/search">Campus Directory</a></li>
+    <li><a href="http://disabilityresources.uic.edu/">Disability Resources</a></li>
+    <li><a href="http://emergency.uic.edu/">Emergency Information</a></li>
+    <li><a href="http://events.uic.edu/">Event Calendar</a></li>
+    <li><a href="http://uic.edu/about/job-opportunities">Job Openings</a></li>
+    <li><a href="http://library.uic.edu/">Library</a></li>
+    <li><a href="http://maps.uic.edu/">Maps</a></li>
+    <li><a href="http://hospital.uillinois.edu/">UI Health</a></li>
+    <li><a href="http://dos.uic.edu/studentveteranaffairs.shtml">Veterans Affairs</a></li>
+  </ul>
 </div>
-<div id="fade"></div>
-
-	<!-- Add hidden text for slider accessiblity on surveys -->
-	<div id="slider-0means" class="hidden">0% means</div>
-	<div id="slider-50means" class="hidden">50% means</div>
-	<div id="slider-100means" class="hidden">100% means</div>
-
-	<!-- Text used for field validation errors -->
-	<div id="valtext_divs">
-		<div id="valtext_number">This value you provided is not a number. Please try again.</div>
-		<div id="valtext_integer">This value you provided is not an integer. Please try again.</div>
-		<div id="valtext_vmrn">The value entered is not a valid Vanderbilt Medical Record Number (i.e. 4- to 9-digit number, excluding leading zeros). Please try again.</div>
-		<div id="valtext_rangehard">The value you provided must be within the suggested range.</div>
-		<div id="valtext_rangesoft1">The value you provided is outside the suggested range.</div>
-		<div id="valtext_rangesoft2">This value is admissible, but you may wish to double check it.</div>
-		<div id="valtext_time">The value entered must be a time value in the following format HH:MM within the range 00:00-23:59 (e.g., 04:32 or 23:19).</div>
-		<div id="valtext_zipcode">This field must be a 5 or 9 digit U.S. ZIP Code (like 94043). Please re-enter it now.</div>
-		<div id="valtext_phone">This field must be a 10 digit U.S. phone number (like 415 555 1212). Please re-enter it now.</div>
-		<div id="valtext_email">This field must be a valid email address (like joe@user.com). Please re-enter it now.</div>
-		<div id="valtext_regex">The value you provided could not be validated because it does not follow the expected format. Please try again.</div>
-		<div id="valtext_requiredformat">Required format:</div>
-	</div>
-	<!-- Regex used for field validation -->
-	<div id="valregex_divs">
-			<div id="valregex-postalcode_french" datatype="postal_code" label="Code Postal 5 caracteres (France)">/^((0?[1-9])|([1-8][0-9])|(9[0-8]))[0-9]{3}$/</div>
-			<div id="valregex-date_dmy" datatype="date" label="Date (D-M-Y)">/^((29([-\/])02\3(\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1\d|2[0-8])([-\/])(0[1-9]|1[012]))|((29|30)([-\/])(0[13-9]|1[012]))|(31([-\/])(0[13578]|1[02])))(\11|\15|\18)\d{4}))$/</div>
-			<div id="valregex-date_mdy" datatype="date" label="Date (M-D-Y)">/^((02([-\/])29\3(\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1[012])([-\/])(0[1-9]|1\d|2[0-8]))|((0[13-9]|1[012])([-\/])(29|30))|((0[13578]|1[02])([-\/])31))(\11|\15|\19)\d{4}))$/</div>
-			<div id="valregex-date_ymd" datatype="date" label="Date (Y-M-D)">/^(((\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00))([-\/])02(\6)29)|(\d{4}([-\/])((0[1-9]|1[012])(\9)(0[1-9]|1\d|2[0-8])|((0[13-9]|1[012])(\9)(29|30))|((0[13578]|1[02])(\9)31))))$/</div>
-			<div id="valregex-datetime_dmy" datatype="datetime" label="Datetime (D-M-Y H:M)">/^((29([-\/])02\3(\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1\d|2[0-8])([-\/])(0[1-9]|1[012]))|((29|30)([-\/])(0[13-9]|1[012]))|(31([-\/])(0[13578]|1[02])))(\11|\15|\18)\d{4})) (\d|[0-1]\d|[2][0-3]):[0-5]\d$/</div>
-			<div id="valregex-datetime_mdy" datatype="datetime" label="Datetime (M-D-Y H:M)">/^((02([-\/])29\3(\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1[012])([-\/])(0[1-9]|1\d|2[0-8]))|((0[13-9]|1[012])([-\/])(29|30))|((0[13578]|1[02])([-\/])31))(\11|\15|\19)\d{4})) (\d|[0-1]\d|[2][0-3]):[0-5]\d$/</div>
-			<div id="valregex-datetime_ymd" datatype="datetime" label="Datetime (Y-M-D H:M)">/^(((\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00))([-\/])02(\6)29)|(\d{4}([-\/])((0[1-9]|1[012])(\9)(0[1-9]|1\d|2[0-8])|((0[13-9]|1[012])(\9)(29|30))|((0[13578]|1[02])(\9)31)))) (\d|[0-1]\d|[2][0-3]):[0-5]\d$/</div>
-			<div id="valregex-datetime_seconds_dmy" datatype="datetime_seconds" label="Datetime w/ seconds (D-M-Y H:M:S)">/^((29([-\/])02\3(\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1\d|2[0-8])([-\/])(0[1-9]|1[012]))|((29|30)([-\/])(0[13-9]|1[012]))|(31([-\/])(0[13578]|1[02])))(\11|\15|\18)\d{4})) (\d|[0-1]\d|[2][0-3])(:[0-5]\d){2}$/</div>
-			<div id="valregex-datetime_seconds_mdy" datatype="datetime_seconds" label="Datetime w/ seconds (M-D-Y H:M:S)">/^((02([-\/])29\3(\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1[012])([-\/])(0[1-9]|1\d|2[0-8]))|((0[13-9]|1[012])([-\/])(29|30))|((0[13578]|1[02])([-\/])31))(\11|\15|\19)\d{4})) (\d|[0-1]\d|[2][0-3])(:[0-5]\d){2}$/</div>
-			<div id="valregex-datetime_seconds_ymd" datatype="datetime_seconds" label="Datetime w/ seconds (Y-M-D H:M:S)">/^(((\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00))([-\/])02(\6)29)|(\d{4}([-\/])((0[1-9]|1[012])(\9)(0[1-9]|1\d|2[0-8])|((0[13-9]|1[012])(\9)(29|30))|((0[13578]|1[02])(\9)31)))) (\d|[0-1]\d|[2][0-3])(:[0-5]\d){2}$/</div>
-			<div id="valregex-email" datatype="email" label="Email">/^(?!\.)((?!.*\.{2})[a-zA-Z0-9\u0080-\u00FF\u0100-\u017F\u0180-\u024F\u0250-\u02AF\u0300-\u036F\u0370-\u03FF\u0400-\u04FF\u0500-\u052F\u0530-\u058F\u0590-\u05FF\u0600-\u06FF\u0700-\u074F\u0750-\u077F\u0780-\u07BF\u07C0-\u07FF\u0900-\u097F\u0980-\u09FF\u0A00-\u0A7F\u0A80-\u0AFF\u0B00-\u0B7F\u0B80-\u0BFF\u0C00-\u0C7F\u0C80-\u0CFF\u0D00-\u0D7F\u0D80-\u0DFF\u0E00-\u0E7F\u0E80-\u0EFF\u0F00-\u0FFF\u1000-\u109F\u10A0-\u10FF\u1100-\u11FF\u1200-\u137F\u1380-\u139F\u13A0-\u13FF\u1400-\u167F\u1680-\u169F\u16A0-\u16FF\u1700-\u171F\u1720-\u173F\u1740-\u175F\u1760-\u177F\u1780-\u17FF\u1800-\u18AF\u1900-\u194F\u1950-\u197F\u1980-\u19DF\u19E0-\u19FF\u1A00-\u1A1F\u1B00-\u1B7F\u1D00-\u1D7F\u1D80-\u1DBF\u1DC0-\u1DFF\u1E00-\u1EFF\u1F00-\u1FFF\u20D0-\u20FF\u2100-\u214F\u2C00-\u2C5F\u2C60-\u2C7F\u2C80-\u2CFF\u2D00-\u2D2F\u2D30-\u2D7F\u2D80-\u2DDF\u2F00-\u2FDF\u2FF0-\u2FFF\u3040-\u309F\u30A0-\u30FF\u3100-\u312F\u3130-\u318F\u3190-\u319F\u31C0-\u31EF\u31F0-\u31FF\u3200-\u32FF\u3300-\u33FF\u3400-\u4DBF\u4DC0-\u4DFF\u4E00-\u9FFF\uA000-\uA48F\uA490-\uA4CF\uA700-\uA71F\uA800-\uA82F\uA840-\uA87F\uAC00-\uD7AF\uF900-\uFAFF\.!#$%&'*+-/=?^_`{|}~\-\d]+)@(?!\.)([a-zA-Z0-9\u0080-\u00FF\u0100-\u017F\u0180-\u024F\u0250-\u02AF\u0300-\u036F\u0370-\u03FF\u0400-\u04FF\u0500-\u052F\u0530-\u058F\u0590-\u05FF\u0600-\u06FF\u0700-\u074F\u0750-\u077F\u0780-\u07BF\u07C0-\u07FF\u0900-\u097F\u0980-\u09FF\u0A00-\u0A7F\u0A80-\u0AFF\u0B00-\u0B7F\u0B80-\u0BFF\u0C00-\u0C7F\u0C80-\u0CFF\u0D00-\u0D7F\u0D80-\u0DFF\u0E00-\u0E7F\u0E80-\u0EFF\u0F00-\u0FFF\u1000-\u109F\u10A0-\u10FF\u1100-\u11FF\u1200-\u137F\u1380-\u139F\u13A0-\u13FF\u1400-\u167F\u1680-\u169F\u16A0-\u16FF\u1700-\u171F\u1720-\u173F\u1740-\u175F\u1760-\u177F\u1780-\u17FF\u1800-\u18AF\u1900-\u194F\u1950-\u197F\u1980-\u19DF\u19E0-\u19FF\u1A00-\u1A1F\u1B00-\u1B7F\u1D00-\u1D7F\u1D80-\u1DBF\u1DC0-\u1DFF\u1E00-\u1EFF\u1F00-\u1FFF\u20D0-\u20FF\u2100-\u214F\u2C00-\u2C5F\u2C60-\u2C7F\u2C80-\u2CFF\u2D00-\u2D2F\u2D30-\u2D7F\u2D80-\u2DDF\u2F00-\u2FDF\u2FF0-\u2FFF\u3040-\u309F\u30A0-\u30FF\u3100-\u312F\u3130-\u318F\u3190-\u319F\u31C0-\u31EF\u31F0-\u31FF\u3200-\u32FF\u3300-\u33FF\u3400-\u4DBF\u4DC0-\u4DFF\u4E00-\u9FFF\uA000-\uA48F\uA490-\uA4CF\uA700-\uA71F\uA800-\uA82F\uA840-\uA87F\uAC00-\uD7AF\uF900-\uFAFF\-\.\d]+)((\.([a-zA-Z\u0080-\u00FF\u0100-\u017F\u0180-\u024F\u0250-\u02AF\u0300-\u036F\u0370-\u03FF\u0400-\u04FF\u0500-\u052F\u0530-\u058F\u0590-\u05FF\u0600-\u06FF\u0700-\u074F\u0750-\u077F\u0780-\u07BF\u07C0-\u07FF\u0900-\u097F\u0980-\u09FF\u0A00-\u0A7F\u0A80-\u0AFF\u0B00-\u0B7F\u0B80-\u0BFF\u0C00-\u0C7F\u0C80-\u0CFF\u0D00-\u0D7F\u0D80-\u0DFF\u0E00-\u0E7F\u0E80-\u0EFF\u0F00-\u0FFF\u1000-\u109F\u10A0-\u10FF\u1100-\u11FF\u1200-\u137F\u1380-\u139F\u13A0-\u13FF\u1400-\u167F\u1680-\u169F\u16A0-\u16FF\u1700-\u171F\u1720-\u173F\u1740-\u175F\u1760-\u177F\u1780-\u17FF\u1800-\u18AF\u1900-\u194F\u1950-\u197F\u1980-\u19DF\u19E0-\u19FF\u1A00-\u1A1F\u1B00-\u1B7F\u1D00-\u1D7F\u1D80-\u1DBF\u1DC0-\u1DFF\u1E00-\u1EFF\u1F00-\u1FFF\u20D0-\u20FF\u2100-\u214F\u2C00-\u2C5F\u2C60-\u2C7F\u2C80-\u2CFF\u2D00-\u2D2F\u2D30-\u2D7F\u2D80-\u2DDF\u2F00-\u2FDF\u2FF0-\u2FFF\u3040-\u309F\u30A0-\u30FF\u3100-\u312F\u3130-\u318F\u3190-\u319F\u31C0-\u31EF\u31F0-\u31FF\u3200-\u32FF\u3300-\u33FF\u3400-\u4DBF\u4DC0-\u4DFF\u4E00-\u9FFF\uA000-\uA48F\uA490-\uA4CF\uA700-\uA71F\uA800-\uA82F\uA840-\uA87F\uAC00-\uD7AF\uF900-\uFAFF]){2,63})+)$/i</div>
-			<div id="valregex-integer" datatype="integer" label="Integer">/^[-+]?\b\d+\b$/</div>
-			<div id="valregex-alpha_only" datatype="text" label="Letters only">/^[a-z]+$/i</div>
-			<div id="valregex-mrn_10d" datatype="mrn" label="MRN (10 digits)">/^\d{10}$/</div>
-			<div id="valregex-mrn_generic" datatype="mrn" label="MRN (generic)">/^[a-z0-9-_]+$/i</div>
-			<div id="valregex-number" datatype="number" label="Number">/^[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?$/</div>
-			<div id="valregex-number_1dp_comma_decimal" datatype="number_comma_decimal" label="Number (1 decimal place - comma as decimal)">/^-?\d+,\d$/</div>
-			<div id="valregex-number_1dp" datatype="number" label="Number (1 decimal place)">/^-?\d+\.\d$/</div>
-			<div id="valregex-number_2dp_comma_decimal" datatype="number_comma_decimal" label="Number (2 decimal places - comma as decimal)">/^-?\d+,\d{2}$/</div>
-			<div id="valregex-number_2dp" datatype="number" label="Number (2 decimal places)">/^-?\d+\.\d{2}$/</div>
-			<div id="valregex-number_3dp_comma_decimal" datatype="number_comma_decimal" label="Number (3 decimal places - comma as decimal)">/^-?\d+,\d{3}$/</div>
-			<div id="valregex-number_3dp" datatype="number" label="Number (3 decimal places)">/^-?\d+\.\d{3}$/</div>
-			<div id="valregex-number_4dp_comma_decimal" datatype="number_comma_decimal" label="Number (4 decimal places - comma as decimal)">/^-?\d+,\d{4}$/</div>
-			<div id="valregex-number_4dp" datatype="number" label="Number (4 decimal places)">/^-?\d+\.\d{4}$/</div>
-			<div id="valregex-number_comma_decimal" datatype="number_comma_decimal" label="Number (comma as decimal)">/^[-+]?[0-9]*,?[0-9]+([eE][-+]?[0-9]+)?$/</div>
-			<div id="valregex-phone_australia" datatype="phone" label="Phone (Australia)">/^(\(0[2-8]\)|0[2-8])\s*\d{4}\s*\d{4}$/</div>
-			<div id="valregex-phone" datatype="phone" label="Phone (North America)">/^(?:\(?([2-9]0[1-9]|[2-9]1[02-9]|[2-9][2-9][0-9])\)?)\s*(?:[.-]\s*)?([2-9]\d{2})\s*(?:[.-]\s*)?(\d{4})(?:\s*(?:#|x\.?|ext\.?|extension)\s*(\d+))?$/</div>
-			<div id="valregex-postalcode_australia" datatype="postal_code" label="Postal Code (Australia)">/^\d{4}$/</div>
-			<div id="valregex-postalcode_canada" datatype="postal_code" label="Postal Code (Canada)">/^[ABCEGHJKLMNPRSTVXY]{1}\d{1}[A-Z]{1}\s*\d{1}[A-Z]{1}\d{1}$/i</div>
-			<div id="valregex-postalcode_germany" datatype="postal_code" label="Postal Code (Germany)">/^(0[1-9]|[1-9]\d)\d{3}$/</div>
-			<div id="valregex-ssn" datatype="ssn" label="Social Security Number (U.S.)">/^\d{3}-\d\d-\d{4}$/</div>
-			<div id="valregex-time" datatype="time" label="Time (HH:MM)">/^([0-9]|[0-1][0-9]|[2][0-3]):([0-5][0-9])$/</div>
-			<div id="valregex-time_mm_ss" datatype="time" label="Time (MM:SS)">/^[0-5]\d:[0-5]\d$/</div>
-			<div id="valregex-vmrn" datatype="mrn" label="Vanderbilt MRN">/^[0-9]{4,9}$/</div>
-			<div id="valregex-zipcode" datatype="postal_code" label="Zipcode (U.S.)">/^\d{5}(-\d{4})?$/</div>
-		</div>
-	<div id="random_text_hidden_div" style="display:none;">MYd8vbJrPtyUwitfYusIMYfqbpGfwIxB6ASsy3fAVIUxaHLzIuYmv</div>
-</body></html>
+
+    </div><!--  ll-full   -->
+    
+    <div class="m-full">
+    <img src="/wp-content/themes/uictoday/images/uihealth.png" alt="UI Health and UIC co-branded logo">
+    </div><!--  m-full   -->
+    
+  </div><!--  footer-uic-menu   --> 
+
+
+
+
+  <div class="footer-legal">
+    <div class="l-full">
+
+      <div class="site-copyright">
+  &copy; 2020 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
+  <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a>
+</div>
+
+<div class="campuses" role="navigation" aria-label="University of Illinois campus web sites">
+  <h2 class="assistive-text">Campuses</h2>
+  <ul class="campuses-list">
+    <li><a href="https://uillinois.edu/">University of Illinois System</a></li>
+    <li><a href="https://illinois.edu/">Urbana-Champaign</a></li>
+    <li><a href="https://uis.edu/">Springfield</a></li>
+  </ul>
+</div>
+
+    </div>
+
+
+
+</div><!--  footer-wrapper-uic-menu-legal   --> 
+    
+    
+  </div>
+
+</footer>
+
+
+
+
+
+</div>
+
+
+		<style type="text/css">
+			.ssp-wave wave wave {
+				background: #28c0e1 !important;
+			}
+		</style>
+		<script type="text/javascript">
+  document.write(unescape("%3Cscript src='//www.uic.edu/inc/emergency/alert.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+      <script type="text/javascript">
+
+          var pfHeaderImgUrl = 'https://today.uic.edu/files/2019/10/TodayPrintHeader.jpg';
+          var pfHeaderTagline = 'UIC Today';
+          var pfdisableClickToDel = '0';
+          var pfImagesSize = 'full-size';
+          var pfImageDisplayStyle = 'right';
+          var pfEncodeImages = '0';
+          var pfDisableEmail = '0';
+          var pfDisablePDF = '0';
+          var pfDisablePrint = '0';
+          var pfCustomCSS = '';
+          var pfPlatform = 'Wordpress';
+      </script>
+      <script async src='https://cdn.printfriendly.com/printfriendly.js'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+
+</body>
+</html><!-- WP Fastest Cache file was created in 0.079770088195801 seconds, on 30-04-20 15:00:19 -->

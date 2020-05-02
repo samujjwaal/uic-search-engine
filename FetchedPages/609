@@ -1,1913 +1,355 @@
-  
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
-<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
-<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js" lang="en-US"> <!--<![endif]-->
-
-    <head>
-
-<!-- Google Analytics script (RED and this site) -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    
-        ga('create', 'UA-20665772-1', 'auto');
-    
-        ga('create', 'UA-143421502-1', 'auto', 'acccTracker');
-    
-        ga('send', 'pageview');
-    
-        ga('acccTracker.send', 'pageview');
-      </script>
-<!-- End Google Analytics script (RED and this site) -->
-
-
-
-<!-- Google Tag Manager script for RED multisite -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
-              (window,document,'script','dataLayer','GTM-W2Q8D2K');
-  </script>
-<!-- End Google Tag Manager script for RED multisite -->
-
-
-
-
-<!-- Google Tag Manager script for this site -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
-              (window,document,'script','dataLayer','GTM-WWKDFTR');
-  </script>
-<!-- End Google Tag Manager script for this site -->
-
-
-        <title>
-                            Academic Computing and Communications Center | University of Illinois at Chicago
-                    </title>
-
-
-
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="pingback" href="https://accc.uic.edu/xmlrpc.php" />
-
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60.png" />
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png" />
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76.png" />
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
-<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
-<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
-<link rel="icon" type="image/png" href="/favicon-128.png" sizes="128x128" />
-<meta name="application-name" content="&nbsp;"/>
-<meta name="msapplication-TileColor" content="#FFFFFF" />
-<meta name="msapplication-TileImage" content="mstile-144x144.png" />
-<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
-<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
-<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
-<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
-
-    <link rel="stylesheet" href="https://accc.uic.edu/wp-content/themes/uic-red/main.css?v=1587475706" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://accc.uic.edu/wp-content/themes/uic-red/theinhardt.css?v=1587475706" type="text/css" media="all">
-
-    <link rel='dns-prefetch' href='//www.uic.edu' />
-<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
-<link rel='dns-prefetch' href='//s.w.org' />
-		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/accc.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6"}};
-			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='https://accc.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6' type='text/css' media='all' />
-<link rel='stylesheet' id='sb_instagram_styles-css'  href='https://accc.uic.edu/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.12.1' type='text/css' media='all' />
-<link rel='stylesheet' id='sb-font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='tablepress-default-css'  href='https://accc.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
-<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
-<link rel='https://api.w.org/' href='https://accc.uic.edu/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://accc.uic.edu/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://accc.uic.edu/wp-includes/wlwmanifest.xml" /> 
-
-<script type="text/javascript">
-(function(url){
-	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
-	var addEvent = function(evt, handler) {
-		if (window.addEventListener) {
-			document.addEventListener(evt, handler, false);
-		} else if (window.attachEvent) {
-			document.attachEvent('on' + evt, handler);
-		}
-	};
-	var removeEvent = function(evt, handler) {
-		if (window.removeEventListener) {
-			document.removeEventListener(evt, handler, false);
-		} else if (window.detachEvent) {
-			document.detachEvent('on' + evt, handler);
-		}
-	};
-	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
-	var logHuman = function() {
-		if (window.wfLogHumanRan) { return; }
-		window.wfLogHumanRan = true;
-		var wfscr = document.createElement('script');
-		wfscr.type = 'text/javascript';
-		wfscr.async = true;
-		wfscr.src = url + '&r=' + Math.random();
-		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
-		for (var i = 0; i < evts.length; i++) {
-			removeEvent(evts[i], logHuman);
-		}
-	};
-	for (var i = 0; i < evts.length; i++) {
-		addEvent(evts[i], logHuman);
-	}
-})('//accc.uic.edu/?wordfence_lh=1&hid=444D26C9329FBD1E1653F37A5560B289');
-</script>
-</head>
-      
-  <body>
-
-<!-- Google Tag Manager for RED multisite (noscript) -->
-<noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2Q8D2K" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager for RED multisite (noscript) -->
-
-<!-- Google Tag Manager for this site (noscript) -->
-<noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id='GTM-WWKDFTR'" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager for this site (noscript) -->
-
-
-
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  <div class="l-page home blog post-type-- is-homepage site-type-b theme--blue no-sidebar  ">
-
-
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!-- InstanceBegin template="/templates/current_students_template.dwt" codeOutsideHTMLIsLocked="false" --> <!--<![endif]-->
+<head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Transcripts | UIC Office of the Registrar</title>
+    <!-- InstanceEndEditable -->
+    <meta name="author" content="University of Illinois at Chicago">
+    <meta name="keywords" content="University of Illinois at Chicago, Chicago, UIC, Registrar, UIC Registrar">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS -->
+    <link href="../../assets/css/layout.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="../../assets/css/main.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="../../assets/css/header_red.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="../../assets/css/print.css" rel="stylesheet" type="text/css" media="print">
+    <!--[if lt IE 9]>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,700,600,800%7COpen+Sans+Condensed:300,300italic,700%7CShadows+Into+Light+Two" rel="stylesheet" type="text/css">
     <!--[if lte IE 9]>
-<div class="browser-stripe u-dark-region">
-  <div class="l-full">
-      <h2>Your browser is unsupported</h2>
-      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
-  </div>
-</div>
-<![endif]-->
-<div class="browser-stripe u-dark-region ie10">
-  <div class="l-full">
-      <h2>Your browser is unsupported</h2>
-      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
-  </div>
-</div>
-    
-<header class="l-header" role="banner">
-
-  
-  <div class="header-navigation">
-
-      <div id="skip" class="skip-menu assistive-text">
-  <p>
-    <span class="_main">
-    <a href="#article">Skip to the content of this page</a>,
-    </span>
-    <a class="_primary-menu" href="#menu-main">the main menu</a>,
-
-    
-    
-    <a class="_search" href="#search">the site search form</a>,
-
-    <a class="_home" href="https://accc.uic.edu">the site home page</a>.
-  </p>
-</div>
-
-      <div class="eyebrow-mobile-wrapper js-eyebrow-mobile">
-<div class="eyebrow-mobile">
-            <div class="eyebrow-mobile-logo eyebrow-logo">
-            <a href="http://uic.edu" class="uic-logo-icon eyebrow-mobile-logo__uic-logo">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
-    </div>
-                <div class="site-title-eyebrow-mobile">
-          <a href="https://accc.uic.edu">Academic Computing and Communications Center</a>
-        </div>
-    
-    <button aria-label="Search the site" class="search-toggle-mobile js-search-toggle-mobile">
-  <span class="icon-search ">
-        <span class="assistive-text">Search the site</span>
-      </span>
-    </button>
-    <button class="nav-header-toggle js-nav-header-toggle">
-      <span class="icon-menu ">
-      Toggle Menu
-      </span>
-    </button>
-  </div>
-  <div class="search-input-container-mobile">
-    <div class="search-input-container-mobile__content">
-      <div class="search-title">
-        Search
-        <a class="search-close search-toggle-mobile">
-          <svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22">
-            <use xlink:href="https://accc.uic.edu/wp-content/themes/uic-red/images/svgs/svgs.svg#icon-close"></use>
-          </svg>
-        </a>
-      </div>
-      <form method="get" action="/search" role="search" aria-label="Search this site on your mobile device">
-        <input type="text" name="q" class="search-input-mobile" placeholder="Search..." tabindex="-1" aria-label="Search this site on your mobile device" disabled="">
-        <input type="submit" class="submit-button" name="search" value="Submit">
-      </form>
-    </div>
-  </div>
-</div>
-
-    <div class="header-navigation__eyebrow">
-
-                    <div class="header-navigation-logo header-logo">
-                        <a href="http://uic.edu" class="uic-logo-icon header-navigation-logo__uic-logo">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:800italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+    <![endif]-->
+    <!-- Favicons -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+    <script src="/assets/js/cookielaw.js"></script>
+    <script src="../../assets/js/respond.js"></script>
+    <script src="../../assets/js/rwd-nav.js"></script>
+    <script src="../../assets/js/analytics.js"></script>
+    <script src="../../assets/js/nav-menu-slider.js" type="text/javascript"></script>
+    <script src="../../assets/js/search-bar-replace-txt.js" type="text/javascript"></script>
+    <script src="../../assets/js/breadcrumb.js" type="text/javascript"></script>
+    <script src="../../assets/js/notification.js" type="text/javascript"></script>
+    <!-- topmenu -->
+    <!-- topmenu -->
+    <!-- InstanceBeginEditable name="head" -->
+    <style>
+        #content{
+            box-sizing:border-box;
+            padding-right:15px;
+        }
+        th {
+            text-align: center;
+            vertical-align: middle;
+        }
+        td {
+            padding: 1em;
+        }
+        td ul {
+             -webkit-margin-before: 0;
+             -webkit-margin-after: 0;
+             -webkit-margin-start: 0px;
+             -webkit-margin-end: 0px;
+             -webkit-padding-start: 0;
+             padding: .5em;
+         }
+        td ul li {
+            padding: 0 !important;
+            margin-bottom: 1em;
+        }
+        span.highlight {
+            background: yellow;
+        }
+    </style>
+    <!-- InstanceEndEditable -->
+</head>
+<body onload="showMenu()">
+<div id="top" role="banner">
+    <div id="header">
+        <a href="../../index.html">
+            <img alt="UIC Office of the Registrar" src="../../assets/images/registrar-logo-white.png" class="logo">
+            <img alt="UIC Office of the Registrar" src="../../assets/images/registrar-logo-red.png" class="logo-print"></a>
+        <div id="topNav_01">
+            <div id="topLinks">
+                <a href="../transcripts/">Transcripts</a>
+                <a href="/registration/">Registration</a>
+                <a href="../../contact/">Contact us</a>
+                <a href="http://www.uic.edu">UIC Home</a>
             </div>
-                <div class="header-navigation__eyebrow-menus">
-
-            <div class="header-navigation__logo-and-site-title">
-
-                                <div class="site-title-main ">
-                                      <a href="https://accc.uic.edu">Academic Computing and Communications Center</a>
-                                    </div>
-              
-            </div>
-          <nav class="header-menus js-header-menus " aria-label="Primary" role="navigation">
-
-  <div class="site-title-mobile-menu">
-    <a href="https://accc.uic.edu">Academic Computing and Communications Center</a>
-  </div>
-
-  
-  <h2 class="assistive-text">Main Menu</h2>
-  <ul id="menu-main" class="menu menu-main" aria-label="Main Menu">
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-8922 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/services/"
-        target="_self">
-
-        Services
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Services menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Services menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-8945 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/services/communication-collaboration/"
-                  target="_self">
-
-                  Communication and Collaboration
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-8980 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/services/computing/"
-                  target="_self">
-
-                  Computing Services
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-8992 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/services/infrastructure/"
-                  target="_self">
-
-                  Infrastructure
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-9026 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/services/professional-services/"
-                  target="_self">
-
-                  Professional Services
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-9050 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/services/research-support/"
-                  target="_self">
-
-                  Research
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-9056 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/services/security/"
-                  target="_self">
-
-                  Security
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-9089 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/services/teaching-learning/"
-                  target="_self">
-
-                  Teaching and Learning
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
         </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-8926 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/support/"
-        target="_self">
+        <div id="search" role="search">
+            <form action="https://registrar.uic.edu/search/" id="cse-search-box">
+                <label for="vaquestion" class="offPage">Search:</label>
+                <input name="cx" value="013828019967465427494:hgaggi0gegq" type="hidden">
+                <input value="FORID:11" name="cof" type="hidden">
+                <input name="ie" value="UTF-8" type="hidden">
+                <input name="q" class="searchText" id="vaquestion" size="20" maxlength="200" placeholder="enter your question" onfocus="clickTextbox(this.id)" onblur="blurTextbox(this.id)" type="text" value="Search website..." />
 
-        Support
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Support menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Support menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-16162">
-                <a 
-                  class="menu-main__second-link"
-                  href="/support/academic-continuity/"
-                  target="_self">
-
-                  Academic Continuity
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13096">
-                <a 
-                  class="menu-main__second-link"
-                  href="/support/academic-multimedia-lab/"
-                  target="_self">
-
-                  Academic Multimedia Lab and Lightboard Studio
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13093">
-                <a 
-                  class="menu-main__second-link"
-                  href="/support/arc-helpdesk/"
-                  target="_self">
-
-                  ARC Helpdesk
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13095">
-                <a 
-                  class="menu-main__second-link"
-                  href="/support/c-stop-bsb/"
-                  target="_self">
-
-                  C-Stop BSB
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13094">
-                <a 
-                  class="menu-main__second-link"
-                  href="/support/c-stop-lhs/"
-                  target="_self">
-
-                  C-Stop LHS
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13098">
-                <a 
-                  class="menu-main__second-link"
-                  href="/support/daley-library-helpdesk/"
-                  target="_self">
-
-                  Daley Library Helpdesk
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13097">
-                <a 
-                  class="menu-main__second-link"
-                  href="/support/lts-support-office/"
-                  target="_self">
-
-                  LTS Support Office
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-11601 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/service-status/"
-        target="_self">
-
-        Service Status
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Service Status menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Service Status menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-12409">
-                <a 
-                  class="menu-main__second-link"
-                  href="/service-status/service-notices/"
-                  target="_self">
-
-                  Service Notices
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-9129 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/news-highlights/"
-        target="_self">
-
-        News
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand News menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand News menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13410">
-                <a 
-                  class="menu-main__second-link"
-                  href="/news-highlights/news-2/"
-                  target="_self">
-
-                  All News
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-8925">
-      <a 
-        class="menu-main__first-link"
-        href="/forms/"
-        target="_self">
-
-        Forms
-      </a>
-
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-8924 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/about/"
-        target="_self">
-
-        About
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand About menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand About menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-15685">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/identity/"
-                  target="_self">
-
-                  Identity
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-14966">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/leadership-3/"
-                  target="_self">
-
-                  Leadership
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-15104">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/policies/"
-                  target="_self">
-
-                  Policies
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-11597">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/reports/"
-                  target="_self">
-
-                  Reports
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-11595">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/jobs/"
-                  target="_self">
-
-                  Jobs
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-  </ul>
-
-  <div class="l-eyebrow">
-
-    <h2 class="assistive-text">Eyebrow menu</h2>
-    <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
-            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-8875">
-            <a  href="https://webstore.illinois.edu/shop/category.aspx?zcid=107" target="_blank">WebStore</a>
-        </li>
-            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-10777">
-            <a  href="http://go.uic.edu/linkedinlearning" target="_blank">Online Training</a>
-        </li>
-            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-10195">
-            <a  href="https://answers.uillinois.edu/uic/" target="_blank">Answers</a>
-        </li>
-    </ul>
-
-    <h2 class="assistive-text">UIC menu</h2>
-    <ul class="menu-uic">
-      <li class="_item">
-    <a href="http://uic.edu">UIC.edu</a>
-  </li>
-  <li class="_item">
-    <a href="http://maps.uic.edu/">Campus Map</a>
-  </li>
-</ul>
-
-
-
-    <div aria-label="Primary" role="search" class="search-wrapper">
-
-      <button id="search" class="search-toggle">
-        <span class="icon-search ">
-          <span class="assistive-text">Search</span>
-        </span>
-      </button>
-
-      <div class="search-input-container">
-        <div class="search-input-container__form">
-          <form method="get" action="/search" >
-            <input type="text" name="q" class="search-input" placeholder="Search..." tabindex="-1" aria-label="Search" disabled="">
-            <input type="submit" class="submit-button" name="search" value="Submit">
-          </form>
-        </div>
-      </div>
-
-    </div>
-
-
-  </div>
-
-
-</nav>
+                <input name="sa" id="btnask" value="Search" type="submit">
+            </form>
         </div>
     </div>
-
-    
-  </div>
-
-                  <div
-  class="header-title header-title--wordmark header-title--hero header-title--home"
-  style="
-    background-image:url('https://accc.uic.edu/wp-content/uploads/sites/372/2019/07/smilingWOMAN-cover3-1440x420.jpg');">      <div class="color-wash-gradient            
-            ">
-
-                  <img src="" alt="Douglas Hall at UIC">
-        
-    </div>
-    <div class="l-full">
-    <div class="header-title__content header-title__content--horizontal">
-              <div class="_brand">
-            <div class="header-hero-logo">
-                  <div class="uic-wordmark  ">
-
-  <div class="_mark">
-    <a href="http://uic.edu" class="uic-logo-icon ">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
-  </div>
-
-  <div class="_text">
-    <a href="https://accc.uic.edu">
-                  <span class="_line">Academic</span>
-              <span class="_line">Computing</span>
-              <span class="_line">And</span>
-              <span class="_line">Communications</span>
-              <span class="_line">Center</span>
-              </a>
-  </div>
-
 </div>
-          </div>
-        </div>
-            <div class="_text ">
-                  <h1 class="assistive-text">Academic Computing and Communications Center</h1>
-          <div
-            class="header-title-title header-title-title--b">Inspiring excellence through technology.</div>
-              </div>
-    </div>
-  </div>
-</div>
-          
-                <div class="
-    component-call-to-action
-    component-call-to-action--dark
-    component-call-to-action--header-strip
-    ">
-
-    
-    <ul class="_items call-to-action-links">
-              <li>
-                      <a  href="https://accc.uic.edu/support/academic-continuity/"
-            target="_self">
-                            <span class="call-to-action-links__icon call-to-action-links__icon--dark check-icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Check icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <ellipse class="_circle" fill="#001E62" cx="18" cy="18" rx="18" ry="18"/>
-    <path class="_mark" d="M15.168 24.555c.396.593 1.268.593 1.664 0l8-12c.306-.46.182-1.08-.277-1.387-.46-.306-1.08-.182-1.387.277l-8 12h1.664l-4-6c-.306-.46-.927-.583-1.387-.277-.46.306-.583.927-.277 1.387l4 6z" fill="#FFF"/>
-  </g>
-</svg>
-                </span>
-                <span class="_text">Academic Continuity</span>
-              
-            </a>
-                  </li>
-              <li>
-                      <a  href="https://uic.blackboard.com"
-            target="_blank">
-                            <span class="call-to-action-links__icon call-to-action-links__icon--dark text-icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Document icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <rect class="_mark" fill="#FFF" x="10" y="11" width="16" height="2" rx="1"/>
-    <rect class="_mark" fill="#FFF" x="10" y="23" width="10" height="2" rx="1"/>
-    <rect class="_mark" fill="#FFF" x="10" y="19" width="16" height="2" rx="1"/>
-    <rect class="_mark" fill="#FFF" x="10" y="15" width="10" height="2" rx="1"/>
-  </g>
-</svg>
-                </span>
-                <span class="_text">Blackboard</span>
-              
-            </a>
-                  </li>
-              <li>
-                      <a  href="https://uofi.account.box.com/login"
-            target="_blank">
-                            <span class="call-to-action-links__icon call-to-action-links__icon--dark flag-icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Flag icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <path class="_mark" d="M9 10l3 18" stroke="#FFF" stroke-width="2" stroke-linecap="round"/>
-    <path class="_mark" d="M11 11s9-2 10 0 5 0 5 0l3 10s-6.167 3-7 1c-1-2-8 1-8 1l-3-12z" fill="#FFF"/>
-  </g>
-</svg>
-                </span>
-                <span class="_text">UIC Box</span>
-              
-            </a>
-                  </li>
-              <li>
-                      <a  href="https://uichicago.webex.com/webappng/sites/uichicago/dashboard?siteurl=uichicago"
-            target="_blank">
-                            <span class="call-to-action-links__icon call-to-action-links__icon--dark speech-icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Speech bubble icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <path class="_mark" d="M8 17.1C8 12.626 12.477 9 18 9s10 3.626 10 8.1-4.477 8.1-10 8.1c-1.502 0-2.927-.268-4.205-.75L9 27l.887-5.163C8.7 20.505 8 18.867 8 17.1z" stroke="#FFF" stroke-width="2"/>
-  </g>
-</svg>
-                </span>
-                <span class="_text">Webex</span>
-              
-            </a>
-                  </li>
-              <li>
-                      <a  href="https://answers.uillinois.edu/uic/94070"
-            target="_blank">
-                            <span class="call-to-action-links__icon call-to-action-links__icon--dark graduate-icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Graduate icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <path class="_mark" d="M18 27c-3.314 0-6-1.79-6-4v-4.5l6 3.5 6-3.5V23c0 2.21-2.686 4-6 4z" fill="#FFF"/>
-    <path class="_mark" fill="#FFF" d="M6 14l12 7 12-7-12-5"/>
-    <path class="_mark" d="M9.5 15v10" stroke="#FFF" stroke-linecap="round"/>
-  </g>
-</svg>
-                </span>
-                <span class="_text">Webinars</span>
-              
-            </a>
-                  </li>
-              <li>
-                      <a  href="https://uic.zoom.us/"
-            target="_blank">
-                            <span class="call-to-action-links__icon call-to-action-links__icon--dark matrix-icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Matrix icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <circle class="_mark" fill="#FFF" cx="12" cy="24" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="18" cy="24" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="24" cy="24" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="12" cy="18" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="18" cy="18" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="24" cy="18" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="12" cy="12" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="18" cy="12" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="24" cy="12" r="2"/>
-  </g>
-</svg>
-                </span>
-                <span class="_text">Zoom</span>
-              
-            </a>
-                  </li>
-          </ul>
-  </div>
-    
-</header>
-
-    <main id="main" class="l-content-wrapper" role="main">
-
-      
-      
-      <div class="">
-
-        <div class="l-content ">
-
-                    
-					
-						
-					<div id="noticeblock" class="notification u-dark-region">
-			<div class="l-full">
-				<div class="notification__container">
-
-                      <h2 class="notification__title invisible">Service and Operations Status</h2>
-          
-					<a class="notification__close" href=""><span class="icon-close"></span></a>
-
-					<div class="notification__content">
-						Most ACCC services remain fully available and supported at this time. For more information regarding service levels and operational status please visit:
-					</div>
-
-											<div class="notification__link">
-              <a  href="https://accc.uic.edu/support/academic-continuity/accc-operations" class="button" target="_blank" rel="noopener">Services &amp; Operational Status</a>
-						</div>
-									</div>
-        </div>
-			</div>
-			          
-          
-          <article class="post-type-" id="article">
-                <div class="l-full">
-                  <div class="intro-text">
-
-                      
-            
-    
-    
-        
-  </div>
-    </div>
-    <div class="components">
-
-  
-    
-      
-
-<section class="component  ">
-
-      <div class="l-full">
-  
-        
-
-
-<div class="highlight component-highlight-image
-">
-
-
-  <div class="_image" style="
-  background-image: url('https://accc.uic.edu/wp-content/uploads/sites/372/2020/03/UIC-Banners-550x550.png')
-  ">
-    <img src="https://accc.uic.edu/wp-content/uploads/sites/372/2020/03/UIC-Banners-550x550.png" alt="UIC Campus Banners Image" class="invisible">
-  </div>
-
-
-  <div class="_content u-dark-region">
-      
-  <div class="highlight-image">
-    <h2 class="_title visible">COVID-19 Information &amp; Resources</h2>
-    <div class="_text"><p>Officials at the University of Illinois at Chicago, the University of Illinois System and public health officials locally and nationally, are closely monitoring an outbreak of respiratory illness caused by a novel (new) coronavirus, named COVID-19.</p>
-<p>UIC has created a central webpage to bring the latest news and information about COVID-19 to the campus community. Use the link below to stay informed.</p>
-</div>
-            <a  href="https://today.uic.edu/coronavirus" class="_button button" target="_blank" rel="noopener">
-      COVID-19 UPDATES
-    </a>
-          </div>
-
-  </div>
-
-</div>
-
-      </div>
-  
-</section>
-
-    
-
-    
-      
-
-<section class="component  ">
-
-      <div class="l-full">
-  
-      <div class="component-highlight-news">
-        
-    <div class="component-description">
-                    <h2 id="service-notices" class="__title visible">Service Notices</h2>
-                    </div>
-                            <div class="component-highlight-news__tile">
-                
-                    
-                                                                                                            
-                    <div class="component-highlight-news__item--tile">
-                        <div class="tile-item ">
-    <a  class="tile-item__link"
-       href="https://accc.uic.edu/news-stories/zoom-data-center-region-restriction-4-20/"
-       target="_self">
-    
-    <div class="
-        tile-item__content-container
-        tile-item__content-container--none
-        tile-item__content-container--image">
-        <div class="
-            tile-item__title
-            tile-item__title--image">
-            Zoom Data Center Region Restriction 4/20
-        </div>
-
-                <div class="tile-item__subtitle">
-            Thursday, April 16, 2020
-        </div>
-        
-                    <div class="tile-item__description">
-                ACCC will be implementing a restriction on data center regions utilized by Zoom meeting traffic to use only United States data centers starting on Monday, April 20, at 10:00am. If you have any&hellip;
-            </div>
-            </div>
-    </a>
-</div>
-                    </div>
-                
-                    
-                                                                                                            
-                    <div class="component-highlight-news__item--tile">
-                        <div class="tile-item ">
-    <a  class="tile-item__link"
-       href="https://accc.uic.edu/news-stories/authentication-maintenance-4-28/"
-       target="_self">
-    
-    <div class="
-        tile-item__content-container
-        tile-item__content-container--none
-        tile-item__content-container--image">
-        <div class="
-            tile-item__title
-            tile-item__title--image">
-            Authentication Maintenance 4/28
-        </div>
-
-                <div class="tile-item__subtitle">
-            Thursday, April 16, 2020
-        </div>
-        
-                    <div class="tile-item__description">
-                ACCC will be updating the SSL (security) certificate used for Shibboleth authentication on Tuesday, April 28, from 7:05am to 7:10am. This brief update will require a restart of the service and new authentication&hellip;
-            </div>
-            </div>
-    </a>
-</div>
-                    </div>
-                
-                    
-                                                                                                            
-                    <div class="component-highlight-news__item--tile">
-                        <div class="tile-item ">
-    <a  class="tile-item__link"
-       href="https://accc.uic.edu/news-stories/gmail-delivery-delays/"
-       target="_self">
-    
-    <div class="
-        tile-item__content-container
-        tile-item__content-container--none
-        tile-item__content-container--image">
-        <div class="
-            tile-item__title
-            tile-item__title--image">
-            Gmail delivery delays [resolved]
-        </div>
-
-                <div class="tile-item__subtitle">
-            Wednesday, April 8, 2020
-        </div>
-        
-                    <div class="tile-item__description">
-                4/8/20, 11:00am &#8212; The Gmail issue has been resolved and all delayed email has been delivered. We apologize for the inconvenience. For questions, please contact consult@uic.edu or 312-413-0003, option 2. 4/8/20, 9:47am &#8212;&hellip;
-            </div>
-            </div>
-    </a>
-</div>
-                    </div>
-                            </div>
-                    </div>
-
-
-      </div>
-  
-</section>
-
-    
-
-    
-      
-
-<section class="component  ">
-
-      <div class="l-full">
-  
-      <div class="component-highlight-news">
-        
-    <div class="component-description">
-                    <h2 id="recent-news-articles" class="__title visible">Recent News Articles</h2>
-                    </div>
-                            <div class="component-highlight-news__tile">
-                
-                    
-                                                                                                            
-                    <div class="component-highlight-news__item--tile">
-                        <div class="tile-item ">
-    <a  class="tile-item__link"
-       href="https://accc.uic.edu/news-stories/stay-safe-dont-get-scammed-during-covid-19/"
-       target="_self">
-            <div class="tile-item__image-container">
-            <img
-                class="tile-item__image"
-                
-                src="https://accc.uic.edu/wp-content/uploads/sites/372/2020/04/phishing-news-600x365.jpg"
-                alt="Stay Safe! Don't Get Scammed During COVID-19">
-        </div>
-    
-    <div class="
-        tile-item__content-container
-        tile-item__content-container--none
-        tile-item__content-container--image">
-        <div class="
-            tile-item__title
-            tile-item__title--image">
-            Stay Safe! Don't Get Scammed During COVID-19
-        </div>
-
-                <div class="tile-item__subtitle">
-            Monday, April 27, 2020
-        </div>
-        
-                    <div class="tile-item__description">
-                Along with the COVID-19 measures that require us to work, teach and learn remotely, we’ve seen a spike in online service usage and communications. Experts warn that cybercriminal activity (including online and phone&hellip;
-            </div>
-            </div>
-    </a>
-</div>
-                    </div>
-                
-                    
-                                                                                                            
-                    <div class="component-highlight-news__item--tile">
-                        <div class="tile-item ">
-    <a  class="tile-item__link"
-       href="https://accc.uic.edu/news-stories/online-proctoring-tool-respondus-available-for-remote-assessments/"
-       target="_self">
-            <div class="tile-item__image-container">
-            <img
-                class="tile-item__image"
-                
-                src="https://accc.uic.edu/wp-content/uploads/sites/372/2020/04/respondus-news-600x365.jpg"
-                alt="Respondus LockDown Browser &amp; Monitor are used for secure online proctoring.">
-        </div>
-    
-    <div class="
-        tile-item__content-container
-        tile-item__content-container--none
-        tile-item__content-container--image">
-        <div class="
-            tile-item__title
-            tile-item__title--image">
-            Online Proctoring Tool Respondus Available for Remote Assessments
-        </div>
-
-                <div class="tile-item__subtitle">
-            Tuesday, April 21, 2020
-        </div>
-        
-                    <div class="tile-item__description">
-                As teaching moves online, conducting assessments and exams while maintaining academic integrity can be a challenge for instructors. The ACCC has recently acquired licensing to LockDown Browser and Respondus Monitor.
-            </div>
-            </div>
-    </a>
-</div>
-                    </div>
-                
-                    
-                                                                                                            
-                    <div class="component-highlight-news__item--tile">
-                        <div class="tile-item ">
-    <a  class="tile-item__link"
-       href="https://accc.uic.edu/news-stories/easily-convert-files-with-blackboard-ally-file-transformer/"
-       target="_self">
-            <div class="tile-item__image-container">
-            <img
-                class="tile-item__image"
-                
-                src="https://accc.uic.edu/wp-content/uploads/sites/372/2020/04/Ally-600x365.png"
-                alt="Ally File Transformer">
-        </div>
-    
-    <div class="
-        tile-item__content-container
-        tile-item__content-container--none
-        tile-item__content-container--image">
-        <div class="
-            tile-item__title
-            tile-item__title--image">
-            Easily Convert Files with Blackboard Ally File Transformer
-        </div>
-
-                <div class="tile-item__subtitle">
-            Monday, April 13, 2020
-        </div>
-        
-                    <div class="tile-item__description">
-                Greetings Remote Learners! Have you ever accessed a file that was difficult to read, or you wish came in a different format? Now you can download alternative formats directly from your Blackboard course.&hellip;
-            </div>
-            </div>
-    </a>
-</div>
-                    </div>
-                            </div>
-                            <div class="component-highlight-news__button">
-                              <a  href="https://accc.uic.edu/news-highlights/" class="button ">
-  More News
-</a>
-                          </div>
-            </div>
-
-
-      </div>
-  
-</section>
-
-    
-
-    
-      
-
-<section class="component  ">
-
-  
-    <div class="weighted-calls-to-action">
-    <div class="weighted-calls-to-action__image-container">
-      <img class="weighted-calls-to-action__image" src="https://accc.uic.edu/wp-content/uploads/sites/372/2019/03/withHAIR.png" alt="vewfew">
-    </div>
-    <div class="weighted-calls-to-action__content-container">
-      <div class="weighted-calls-to-action__full l-full">
-        
-    <div class="component-description">
-                    <h2 id="service-categories" class="__title visible">Service Categories</h2>
-                    </div>
-        <ul class="weighted-calls-to-action__list">
-                      <li class="weighted-calls-to-action__item">
-              <a 
-                class="weighted-calls-to-action__link"
-                href="
-                                      https://accc.uic.edu/services/
-                                  "
-                target="_self">
-
-                <span class="weighted-calls-to-action__icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Matrix icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <circle class="_mark" fill="#FFF" cx="12" cy="24" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="18" cy="24" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="24" cy="24" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="12" cy="18" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="18" cy="18" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="24" cy="18" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="12" cy="12" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="18" cy="12" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="24" cy="12" r="2"/>
-  </g>
-</svg>
-                </span>
-                <span class="weighted-calls-to-action__text">View all services</span>
-              </a>
+<div id="container">
+    <div id="menu" class="menu" role="menubar">
+        <h2 class="offPage">Top Navigation</h2>
+        <ul id="topNav2" class="topNav2">
+            <li class="top-level rightMenu item-with-ul"><a href="../../current_students/" class="topLVL link-with-ul">Current Students</a>
+                <h3 class="offPage">Current Students</h3>
+                <ul class="sub-menu" role="menuitem">
+                    <li class="subLVL"><a href="../../registration/">Registration Services</a></li>
+                    <li class="subLVL"><a href="../../current_students/calendars/">Calendars</a></li>
+                    <li class="subLVL"><a href="../../financial_matters/">Financial Matters</a></li>
+                    <li class="subLVL"><a href="../../student_records/">Student Records</a></li>
+                    <li class="subLVL"><a href="../transcripts/">Transcripts</a></li>
+                    <li class="subLVL"><a href="../../campus_policies/">Campus Policies</a></li>
+                </ul>
             </li>
-                      <li class="weighted-calls-to-action__item">
-              <a 
-                class="weighted-calls-to-action__link"
-                href="
-                                      https://accc.uic.edu/services/communication-collaboration/
-                                  "
-                target="_self">
+            <li class="top-level item-with-ul"><a href="../../current_students/" class="topLVL link-with-ul">Former Students</a>
 
-                <span class="weighted-calls-to-action__icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Calendar icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <path class="_mark" d="M13 12h1v-2h8v1-2.502c0-.275.232-.498.5-.498.276 0 .5.215.5.498V12h1v-2h3v17H9V10h3v1-2.502c0-.275.232-.498.5-.498.276 0 .5.215.5.498V12zm-2 10h4v3h-4v-3zm5 0h4v3h-4v-3zm5 0h4v3h-4v-3zm-10-4h4v3h-4v-3zm5 0h4v3h-4v-3zm5 0h4v3h-4v-3zm-10-4h4v3h-4v-3zm5 0h4v3h-4v-3zm5 0h4v3h-4v-3z" fill="#FFF"/>
-  </g>
-</svg>
-                </span>
-                <span class="weighted-calls-to-action__text">Communication and Collaboration</span>
-              </a>
+                <h3 class="offPage">Former Students</h3>
+                <ul class="sub-menu" role="menuitem">
+                    <li class="subLVL"><a href="../../current_students/calendars/">Calendars</a></li>
+                    <li class="subLVL"><a href="../../student_records/">Student Records</a></li>
+                    <li class="subLVL"><a href="../transcripts/">Transcripts</a></li>
+                    <li class="subLVL"><a href="../../campus_policies/">Campus Policies</a></li>
+                </ul>
             </li>
-                      <li class="weighted-calls-to-action__item">
-              <a 
-                class="weighted-calls-to-action__link"
-                href="
-                                      https://accc.uic.edu/services/computing/
-                                  "
-                target="_self">
-
-                <span class="weighted-calls-to-action__icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Envelope icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <rect class="_mark" fill="#FFF" x="8" y="10" width="20" height="16" rx="1"/>
-    <path class="_circle-color" d="M22.354 19.646c-.196-.195-.512-.195-.708 0-.195.196-.195.512 0 .708l4 4c.196.195.512.195.708 0 .195-.196.195-.512 0-.708l-4-4zM9.646 23.646c-.195.196-.195.512 0 .708.196.195.512.195.708 0l4-4c.195-.196.195-.512 0-.708-.196-.195-.512-.195-.708 0l-4 4zM17.646 20.354c.196.195.512.195.708 0l8-8c.195-.196.195-.512 0-.708-.196-.195-.512-.195-.708 0l-8 8h.708l-8-8c-.196-.195-.512-.195-.708 0-.195.196-.195.512 0 .708l8 8z" fill="#001E62"/>
-  </g>
-</svg>
-                </span>
-                <span class="weighted-calls-to-action__text">Computing Services</span>
-              </a>
+            <li class="top-level item-with-ul"><a href="https://registrar.uic.edu/uic_faculty_staff/" class="topLVL link-with-ul">Faculty &amp; Staff</a>
+                <h3 class="offPage">Faculty &amp; Staff</h3>
+                <ul class="sub-menu" role="menuitem">
+                    <li class="subLVL"><a href="../../uic_faculty_staff/classroom_scheduling/">Classroom Scheduling</a></li>
+                    <li  class="subLVL"><a href="../../uic_faculty_staff/faculty_self_service/">Faculty Self-Service</a></li>
+                    <li class="subLVL"><a href="../../uic_faculty_staff/calendars/">Calendars</a></li>
+                    <li class="subLVL"><a href="../../uic_faculty_staff/classes.html">Classes</a></li>
+                    <li class="subLVL"><a href="../../uic_faculty_staff/grades/">Grades</a></li>
+                    <li class="subLVL"><a href="../../uic_faculty_staff/registration/">Registration</a></li>
+                    <li class="subLVL"><a href="http://uic.verbacollect.com">Textbook Adoption</a></li>
+                    <li class="subLVL"><a href="../../uic_faculty_staff/student_records_policy/">Student Records Policy</a></li>
+                </ul>
             </li>
-                      <li class="weighted-calls-to-action__item">
-              <a 
-                class="weighted-calls-to-action__link"
-                href="
-                                      https://accc.uic.edu/services/infrastructure/
-                                  "
-                target="_self">
-
-                <span class="weighted-calls-to-action__icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Phone icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <path class="_mark" d="M12 8.992c0-.548.456-.992 1.002-.992h9.996C23.55 8 24 8.455 24 8.992v18.016c0 .548-.456.992-1.002.992h-9.996C12.45 28 12 27.545 12 27.008V8.992zM13 11h10v14H13V11z" fill="#FFF"/>
-  </g>
-</svg>
-                </span>
-                <span class="weighted-calls-to-action__text">Infrastructure</span>
-              </a>
+            <li class="top-level item-with-ul"><a href="https://registrar.uic.edu/uic_faculty_staff/" class="topLVL link-with-ul">Other Links...</a>
+                <h3 class="offPage">Other Links... sub-category</h3>
+                <ul class="sub-menu" role="menuitem">
+                    <li class="subLVL"><a href="https://admissions.uic.edu/undergraduate">Prospective Students</a></li>
+                    <li class="subLVL"><a href="https://aes.uic.edu/aes-staff/">AES Staff</a></li>
+                </ul>
             </li>
-                      <li class="weighted-calls-to-action__item">
-              <a 
-                class="weighted-calls-to-action__link"
-                href="
-                                      https://accc.uic.edu/services/professional-services/
-                                  "
-                target="_self">
+        </ul>
+    </div> <!-- // end div menu -->
+    <div class="embed-notification"><p></p></div>
+    <div id="leftNav" role="complementary">
+        <span class="offPage">Section navigation</span>
+        <ul>
+            <li class="nav-current"><a href="#">Go to Section...</a></li>
+            <li><a href="/registration/">Registration Services</a></li>
+            <li><a href="../../current_students/calendars/">Calendars</a></li>
+            <li><a href="../../financial_matters/">Financial Matters</a></li>
+            <li><a href="../../student_records/">Student Records</a></li>
+            <li><a href="../transcripts/">Transcripts</a></li>
+            <li><a href="../../campus_policies/">Campus Policies</a></li>
+        </ul>
+    </div><!-- // end div leftnav -->
+    <nav id="breadcrumb" role="navigation">
+        <!-- InstanceBeginEditable name="breadcrumb" -->
+        <a href="../../index.html">Home</a> &raquo; <a href="./">Student Records</a> &raquo; Transcripts	    <!-- InstanceEndEditable -->
+    </nav><!-- // end div breadcrumb -->
+    <div id="content" role="main">
+        <!-- InstanceBeginEditable name="content" --><!-- #BeginLibraryItem "/Library/transcripts.lbi" -->
+        <h1>Transcripts</h1>
+        <blockquote>
+            <p style="margin-top: 1em;color: red; font-weight: bold;">NOTE: Due to social distancing mandates related to COVID-19, we will not have pickup service for transcripts until further notice.</p>
+        </blockquote>
+        <p>The official transcript is the University's statement of a student's academic record issued by the Office of the Registrar. It lists all courses completed and grades earned in chronological order by term. Transcripts also contain notations of distinctions, transfer coursework summary, academic status, administrative actions and degrees received.</p>
+        <p>Immediately after a term's final exams have ended, transcripts listing final grades may not be available for a period of up to two weeks. Transcripts listing final degree awarded may not be available for a period of four to six weeks following final exams of the final term in which the degree is earned. Transcripts will not be released if there is a hold on the student's record.</p>
+        <table border="0" cellspacing="1" cellpadding="4">
+            <caption>
+                Summary of transcript ordering options with cost and delivery  details
+            </caption>
+            <tr>
+                <th valign="top">Transcript Type</th>
+                <th valign="top">Ordering Method</th>
+                <th valign="top">Processing &amp; Delivery</th>
+                <th valign="top">Price</th>
+                <th valign="top">Details</th>
+            </tr>
 
-                <span class="weighted-calls-to-action__icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Check icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <ellipse class="_circle" fill="#001E62" cx="18" cy="18" rx="18" ry="18"/>
-    <path class="_mark" d="M15.168 24.555c.396.593 1.268.593 1.664 0l8-12c.306-.46.182-1.08-.277-1.387-.46-.306-1.08-.182-1.387.277l-8 12h1.664l-4-6c-.306-.46-.927-.583-1.387-.277-.46.306-.583.927-.277 1.387l4 6z" fill="#FFF"/>
-  </g>
-</svg>
-                </span>
-                <span class="weighted-calls-to-action__text">Professional Services</span>
-              </a>
-            </li>
-                      <li class="weighted-calls-to-action__item">
-              <a 
-                class="weighted-calls-to-action__link"
-                href="
-                                      https://accc.uic.edu/services/research-support/
-                                  "
-                target="_self">
+            <tr>
+                <td><strong>Electronic Transcript</strong></td>
+                <td>Online</td>
+                <td><strong>Next Business Day or Sooner</strong><br>
+                    (via secured PDF e-mail)</td>
+                <td>$14.35 per copy<br><br>$12 per copy +<br>
+                    $2.35 service charge, per copy.</td>
+                <td>
+                    <ul>
+                        <li>The option to request electronic/PDF delivery <strong>appears in the final stages of ordering</strong>.</li>
+                        <li>You will be asked to provide a postal address for a recipient prior to selecting electronic/PDF delivery.</li>
+                    </ul>
+                    <p>Visit <a href="https://www.credentials-inc.com/CGI-BIN/frontcgi.pgm?ALUMNI001776" title="Crendetial Solutions Electronic Transcript Order Form" target="_blank">Order Electronic Transcript</a> page.</p>
+                </td>
+            </tr>
 
-                <span class="weighted-calls-to-action__icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Document icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <rect class="_mark" fill="#FFF" x="10" y="11" width="16" height="2" rx="1"/>
-    <rect class="_mark" fill="#FFF" x="10" y="23" width="10" height="2" rx="1"/>
-    <rect class="_mark" fill="#FFF" x="10" y="19" width="16" height="2" rx="1"/>
-    <rect class="_mark" fill="#FFF" x="10" y="15" width="10" height="2" rx="1"/>
-  </g>
-</svg>
-                </span>
-                <span class="weighted-calls-to-action__text">Research (ACER)</span>
-              </a>
-            </li>
-                      <li class="weighted-calls-to-action__item">
-              <a 
-                class="weighted-calls-to-action__link"
-                href="
-                                      https://accc.uic.edu/services/security/
-                                  "
-                target="_self">
+            <tr>
+                <td rowspan="3"><strong>Paper Transcript</strong></td>
+                <td rowspan="2">Online</td>
+                <td rowspan="2"><strong>3-5 Business Days for Processing</strong><br>
+                    (via first class mail)</td>
+                <td>$16.65 per copy<br><br>$12 per copy + <br/> $2.35 service charge and $2.30 postal charge per copy. Express delivery available at extra cost.</td>
+                <td><strong>Current Students:</strong> - order paper transcripts from <a href="http://my.uic.edu"><strong>my.uic.edu</strong></a><br>
+                    (Once logged in, search for Transcript Ordering.)<br></td>
+            </tr>
 
-                <span class="weighted-calls-to-action__icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Flag icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <path class="_mark" d="M9 10l3 18" stroke="#FFF" stroke-width="2" stroke-linecap="round"/>
-    <path class="_mark" d="M11 11s9-2 10 0 5 0 5 0l3 10s-6.167 3-7 1c-1-2-8 1-8 1l-3-12z" fill="#FFF"/>
-  </g>
-</svg>
-                </span>
-                <span class="weighted-calls-to-action__text">Security</span>
-              </a>
-            </li>
-                      <li class="weighted-calls-to-action__item">
-              <a 
-                class="weighted-calls-to-action__link"
-                href="
-                                      https://accc.uic.edu/services/teaching-learning/
-                                  "
-                target="_self">
+            <tr>
+                <td>$16.65 per copy<br><br>$12 per copy + <br/> $2.35 service charge and $2.30 postal charge per copy. Express delivery available at extra cost.</td>
+                <td><strong>Non-current students</strong>: <a href="https://www.credentials-inc.com/CGI-BIN/dvcgitp.pgm?ALUMTRO001776" title="Credential Solutions Transcript Order Form" target="_blank">order paper transcripts from non-current-student system</a><br>
+                </td>
+            </tr>
 
-                <span class="weighted-calls-to-action__icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Graduate icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <path class="_mark" d="M18 27c-3.314 0-6-1.79-6-4v-4.5l6 3.5 6-3.5V23c0 2.21-2.686 4-6 4z" fill="#FFF"/>
-    <path class="_mark" fill="#FFF" d="M6 14l12 7 12-7-12-5"/>
-    <path class="_mark" d="M9.5 15v10" stroke="#FFF" stroke-linecap="round"/>
-  </g>
-</svg>
-                </span>
-                <span class="weighted-calls-to-action__text">Teaching and Learning</span>
-              </a>
-            </li>
-                  </ul>
-      </div>
-    </div>
-  </div>
+            <tr>
+                <td>In writing</td>
+                <td><strong>3-5 Business Days for Processing</strong><br>
+                    (via first class mail)</td>
+                <td>$12 per copy</td>
+                <td>See section below about ordering transcripts in writing.</td>
+            </tr>
+            <tr>
+                <td><strong>Current Student Academic History </strong></td>
+                <td>Online</td>
+                <td><strong>Immediate</strong></td>
+                <td>Free</td>
+                <td>Current students can view and print academic history via <a href="http://my.uic.edu">my.UIC.edu</a>.</td>
+            </tr>
+        </table>
+        <p><a href="https://www.credentials-inc.com/cgi-bin/rechkcgi.pgm?TPORDER" title="Credential Solutions Order Status">Check the status of your order.</a></p>
+        <h2><a name="online"></a>Ordering Transcripts Online</h2>
+        <h3>Current students</h3>
+        <p>Once logged in to <a href="http://my.uic.edu">my.uic.edu</a>, search for Transcript Ordering.  Indicate postal mailing address.</p>
 
-  
-</section>
+        <h3>All others</h3>
+        <p>If you are unable to access <a href="http://my.uic.edu">my.UIC.edu</a>, you can still <a href="https://www.credentials-inc.com/CGI-BIN/dvcgitp.pgm?ALUMTRO001776" title="Credential Solutions Transcripts Order Form">order transcripts from an online system</a>. University Identification Number (UIN) is requested to assist us in processing your request. If you were enrolled in 1981 or later, you may have had a UIN assigned to you.  If you have difficulty retrieving your UIN, the Transcripts Office can process your transcript request using other information about you.  You'll need your SSN and birthday to <a href="https://www.icardnet.uillinois.edu/public/uin-find.cfm">look up your UIN</a>.</p>
+        <p>The site will walk you through placing your order, including delivery options and fees. You can order as many transcripts as you like in a single session. A $2.35 processing fee will be charged per copy with additional fees for first class postal mailing, or express mailing of transcripts. Order updates will be emailed to all requestors and updates can be sent through cell phone texts if you choose. </p>
+        <h3>All Students  who seek speedy secured delivery via e-mail</h3>
+        <p><a href="https://www.credentials-inc.com/CGI-BIN/frontcgi.pgm?ALUMNI001776" title="Credential Solutions Transcripts Order Form" target="_blank">Order electronic transcript</a></p>
+        <p>Please make sure that your recipient accepts transcripts via e-mailed secure PDF and that you have the correct email address.  University Identification Number (UIN) is requested to assist us in processing your request. If you were enrolled in 1981 or later, you may have had a UIN assigned to you.  If you have difficulty retrieving your UIN, the Transcripts Office can process your transcript request using other information about you. Social Security Number and birthday is required to <a href="https://www.icardnet.uillinois.edu/public/uin-find.cfm">look up your UIN</a>.  Cost per electronic copy is $14.35.</p>
+        <h2><a name="writing"></a>Ordering Transcripts in Writing</h2>
+        <p>If you do not have  access to the Internet or use of a credit card, transcripts may also be requested in writing. Print and complete the <a href="/forms/UIC-transcript_request_form.pdf" title="Transcript Request Form">Transcript Request Form</a>, or write a letter providing the information below:</p>
+        <ul type="disc">
+            <li>Full name (please include maiden name if applicable) </li>
+            <li>University Identification Number (UIN) is  requested to assist us in processing your request. If you were enrolled in 1981  or later, you may have had a UIN assigned to you.  If you have difficulty retrieving your UIN,  the Transcripts Office can process your transcript request using other information  about you. You'll need your SSN and birthday to <a href="https://www.icardnet.uillinois.edu/public/uin-find.cfm" target="_blank">look up your UIN</a> </li>
+            <li>Social Security Number (SSN) is optional. If UIN unavailable, providing a SSN will greatly aid us in locating records. </li>
+            <li>Current address </li>
+            <li>Date of birth </li>
+            <li>Dates of attendance </li>
+            <li>Student's college </li>
+            <li>UIC Degree(s) </li>
+            <li>Name(s) and address(es) to where transcript(s) will be sent </li>
+            <li>Student's original signature (unsigned requests <em>cannot</em> be processed) </li>
+            <li>A check or money order payable to the 'University of Illinois at Chicago'. Cost is $12 per copy.</li>
+        </ul>
+        <p><em>Mail your request to:</em><br>
+            Office of the Registrar (MC 018)<br/>
+            University of Illinois at Chicago<br/>
+            Suite 1200 Student Services Building<br/>
+            1200 West Harrison Street<br>
+            Chicago, Illinois 60607-7161</p>
 
-    
+        <h2>First class mail delivery</h2>
+        <p>Please note that transcripts are mailed first class standard via the United States Postal Service. If you require express mail service delivery of paper transcripts, select that option when ordering online.</p>
 
-    
-      
+        <h2 id="co-curricular-transcript">Co-Curricular Transcript</h2>
+        <p>A Co-Curricular Transcript provides an official record of out-of-the-classroom student involvement, participation, awards, honors, and certificates.  Co-Curricular Transcripts may include: student organization involvement, student organization leadership, community service, leadership training, workshops and seminars, awards, honors, and certifications.</p>
+        <p>To order a Co-Curricular Transcript for current students visit: <a href="https://impact.uic.edu/" title="Student Affirs: UIC Impact Page"  target="_blank">https://impact.uic.edu/</a> and under Quick Links select Order a Co-Curricular Transcript on the right hand side of the webpage.</p>
+        <!--
+        <p>To order a Co-Curricular Transcript if you have been away from the university for 6 months or more: email your Co-Curricular Transcript request (with subject line: Co-curricular Transcript Request) to <a href="mailto:uicimpact@uic.edu">uicimpact@uic.edu</a>. Please include your name at time of attendance, net id, dates of attendance, and University Identification Number (UIN) in the body of the email.  Please call 312-413-5070 with any questions regarding the Co-Curricular Transcript.</p>
+        -->
+        <h2>Special Notice for former students of the Michael Reese School of Nursing</h2>
+        <p>Transcripts from the Michael Reese School of Nursing may be obtained from the University of Illinois at Chicago (UIC).  Print and complete the <a href="/forms/transcript-request_Michael-Reese.pdf" target="_blank">Michael Reese School of Nursing Transcript Request Form</a>, or write a letter providing the information below:</p>
+        <ul>
+            <li>Full name (please include maiden name if applicable)</li>
+            <li>Social Security Number (SSN) is optional, providing a SSN will greatly aid us in locating records.</li>
+            <li>Current address</li>
+            <li>Date of birth</li>
+            <li>Dates of attendance</li>
+            <li>Name(s) and address(es) to where transcript(s) will be sent</li>
+            <li>Student's original signature (unsigned requests cannot be processed)</li>
+            <li>A check or money order payable to the 'University of Illinois at Chicago'. Cost is $22 per copy.</li>
+        </ul>
+        <p>Mail your request to:</p>
+        <pre>
+            Office of the Registrar (MC 018)
+            University of Illinois at Chicago
+            Suite 1200 Student Services Building
+            1200 West Harrison Street
+            Chicago, Illinois 60607-7161
+        </pre>
 
-<section class="component  ">
+        <h2>Additional Information</h2>
+        <p>For additional information on transcripts please contact the <a href="mailto:TSCRIPTSLIST@listserv.uic.edu">Transcripts Department</a>.</p>
+        <!-- #EndLibraryItem --><p>&nbsp;</p>
 
-      <div class="l-full">
-  
-  
-    <div class="
-    component-call-to-action
-    
-    
-    ">
-
-    
-    <div class="component-description">
-                    <h2 id="popular-with-students" class="__title visible">Popular with Students</h2>
-                    </div>
-
-    <ul class="_items call-to-action-links">
-              <li>
-                      <a  href="https://accc.uic.edu/services/computing/printing/"
-            target="_self">
-                            <span class="call-to-action-links__icon text-icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Document icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <rect class="_mark" fill="#FFF" x="10" y="11" width="16" height="2" rx="1"/>
-    <rect class="_mark" fill="#FFF" x="10" y="23" width="10" height="2" rx="1"/>
-    <rect class="_mark" fill="#FFF" x="10" y="19" width="16" height="2" rx="1"/>
-    <rect class="_mark" fill="#FFF" x="10" y="15" width="10" height="2" rx="1"/>
-  </g>
-</svg>
-                </span>
-                <span class="_text">Printing</span>
-              
-            </a>
-                  </li>
-              <li>
-                      <a  href="https://accc.uic.edu/services/communication-collaboration/productivity-software/g-suite/"
-            target="_self">
-                            <span class="call-to-action-links__icon write-icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Edit icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <path class="_mark" d="M23 24l1-1H12l1 1V12l-1 1h6c.552 0 1-.448 1-1s-.448-1-1-1h-7v14h14v-7c0-.552-.448-1-1-1s-1 .448-1 1v6z" fill="#FFF"/>
-    <path class="_mark" fill="#FFF" d="M21 13.5l1.5 1.5-5.5 5.5-2 .5.5-2M24.5 10l1.5 1.5-2.5 2.5-1.5-1.5z"/>
-  </g>
-</svg>
-                </span>
-                <span class="_text">G Suite</span>
-              
-            </a>
-                  </li>
-              <li>
-                      <a  href="https://accc.uic.edu/services/computing/software-licensing-and-sales/software-licensing/"
-            target="_self">
-                            <span class="call-to-action-links__icon matrix-icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Matrix icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <circle class="_mark" fill="#FFF" cx="12" cy="24" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="18" cy="24" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="24" cy="24" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="12" cy="18" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="18" cy="18" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="24" cy="18" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="12" cy="12" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="18" cy="12" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="24" cy="12" r="2"/>
-  </g>
-</svg>
-                </span>
-                <span class="_text">WebStore</span>
-              
-            </a>
-                  </li>
-              <li>
-                      <a  href="https://accc.uic.edu/services/professional-services/pd-training/online-training/"
-            target="_self">
-                            <span class="call-to-action-links__icon graduate-icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Graduate icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <path class="_mark" d="M18 27c-3.314 0-6-1.79-6-4v-4.5l6 3.5 6-3.5V23c0 2.21-2.686 4-6 4z" fill="#FFF"/>
-    <path class="_mark" fill="#FFF" d="M6 14l12 7 12-7-12-5"/>
-    <path class="_mark" d="M9.5 15v10" stroke="#FFF" stroke-linecap="round"/>
-  </g>
-</svg>
-                </span>
-                <span class="_text">Online Training</span>
-              
-            </a>
-                  </li>
-              <li>
-                      <a  href="https://accc.uic.edu/services/teaching-learning/equipment-lending/"
-            target="_self">
-                            <span class="call-to-action-links__icon phone-icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Phone icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <path class="_mark" d="M12 8.992c0-.548.456-.992 1.002-.992h9.996C23.55 8 24 8.455 24 8.992v18.016c0 .548-.456.992-1.002.992h-9.996C12.45 28 12 27.545 12 27.008V8.992zM13 11h10v14H13V11z" fill="#FFF"/>
-  </g>
-</svg>
-                </span>
-                <span class="_text">Equipment Lending</span>
-              
-            </a>
-                  </li>
-          </ul>
-  </div>
-
-
-      </div>
-  
-</section>
-
-    
-
-    
-      
-
-<section class="component  ">
-
-      <div class="l-full">
-  
-  
-    <div class="
-    component-call-to-action
-    
-    
-    ">
-
-    
-    <div class="component-description">
-                    <h2 id="popular-with-faculty-staff" class="__title visible">Popular with Faculty/Staff</h2>
-                    </div>
-
-    <ul class="_items call-to-action-links">
-              <li>
-                      <a  href="https://accc.uic.edu/services/teaching-learning/media-streaming/panopto/"
-            target="_self">
-                            <span class="call-to-action-links__icon user-icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>User icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <path class="_mark" d="M28.09 26.197C25.707 29.127 22.072 31 18 31s-7.707-1.872-10.09-4.803c1.367-.762 4.573-2.54 5.125-2.744.182-.077.428-.823.488-1.48l.04-.428h.455l.304-1.474.007-.02c.013-.05.022-.174-.018-.2-.473-.32-1.248-1.518-1.41-3.416l-.327-.17-.298-2.284.502-.326-.118-3.344-.004-.02c-.022-.16-.455-3.955 7.11-5.145l.088-.014c.24.036.476.076.71.123l-.28.56c-.028.067-.098.343.384.618.812.468 2.276 1.307 2.608 3.184h.07l-.002.484-.004.102.032.5h-.05l-.103 2.954.503.326-.298 2.283-.327.17c-.162 1.9-.937 3.097-1.41 3.416-.044.028-.025.173-.017.2l.312 1.495h.455l.04.427c.07.735.324 1.41.488 1.48.553.205 3.76 1.983 5.125 2.745z" fill="#FFF"/>
-  </g>
-</svg>
-                </span>
-                <span class="_text">Panopto</span>
-              
-            </a>
-                  </li>
-              <li>
-                      <a  href="https://accc.uic.edu/services/teaching-learning/lecture-capture/echo360-platform/"
-            target="_self">
-                            <span class="call-to-action-links__icon speech-icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Speech bubble icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <path class="_mark" d="M8 17.1C8 12.626 12.477 9 18 9s10 3.626 10 8.1-4.477 8.1-10 8.1c-1.502 0-2.927-.268-4.205-.75L9 27l.887-5.163C8.7 20.505 8 18.867 8 17.1z" stroke="#FFF" stroke-width="2"/>
-  </g>
-</svg>
-                </span>
-                <span class="_text">Echo360 Platform</span>
-              
-            </a>
-                  </li>
-              <li>
-                      <a  href="https://accc.uic.edu/services/teaching-learning/learning-management-system/blackboard/"
-            target="_self">
-                            <span class="call-to-action-links__icon graduate-icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Graduate icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <path class="_mark" d="M18 27c-3.314 0-6-1.79-6-4v-4.5l6 3.5 6-3.5V23c0 2.21-2.686 4-6 4z" fill="#FFF"/>
-    <path class="_mark" fill="#FFF" d="M6 14l12 7 12-7-12-5"/>
-    <path class="_mark" d="M9.5 15v10" stroke="#FFF" stroke-linecap="round"/>
-  </g>
-</svg>
-                </span>
-                <span class="_text">Blackboard Learn</span>
-              
-            </a>
-                  </li>
-              <li>
-                      <a  href="https://accc.uic.edu/services/communication-collaboration/email-calendaring/exchange/"
-            target="_self">
-                            <span class="call-to-action-links__icon user-icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>User icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <path class="_mark" d="M28.09 26.197C25.707 29.127 22.072 31 18 31s-7.707-1.872-10.09-4.803c1.367-.762 4.573-2.54 5.125-2.744.182-.077.428-.823.488-1.48l.04-.428h.455l.304-1.474.007-.02c.013-.05.022-.174-.018-.2-.473-.32-1.248-1.518-1.41-3.416l-.327-.17-.298-2.284.502-.326-.118-3.344-.004-.02c-.022-.16-.455-3.955 7.11-5.145l.088-.014c.24.036.476.076.71.123l-.28.56c-.028.067-.098.343.384.618.812.468 2.276 1.307 2.608 3.184h.07l-.002.484-.004.102.032.5h-.05l-.103 2.954.503.326-.298 2.283-.327.17c-.162 1.9-.937 3.097-1.41 3.416-.044.028-.025.173-.017.2l.312 1.495h.455l.04.427c.07.735.324 1.41.488 1.48.553.205 3.76 1.983 5.125 2.745z" fill="#FFF"/>
-  </g>
-</svg>
-                </span>
-                <span class="_text">Exchange</span>
-              
-            </a>
-                  </li>
-              <li>
-                      <a  href="https://accc.uic.edu/services/communication-collaboration/cloud-storage/box/"
-            target="_self">
-                            <span class="call-to-action-links__icon write-icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Edit icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <path class="_mark" d="M23 24l1-1H12l1 1V12l-1 1h6c.552 0 1-.448 1-1s-.448-1-1-1h-7v14h14v-7c0-.552-.448-1-1-1s-1 .448-1 1v6z" fill="#FFF"/>
-    <path class="_mark" fill="#FFF" d="M21 13.5l1.5 1.5-5.5 5.5-2 .5.5-2M24.5 10l1.5 1.5-2.5 2.5-1.5-1.5z"/>
-  </g>
-</svg>
-                </span>
-                <span class="_text">Box</span>
-              
-            </a>
-                  </li>
-          </ul>
-  </div>
-
-
-      </div>
-  
-</section>
-
-    
-
-    
-      
-
-<section class="component  ">
-
-      <div class="l-full">
-  
-  <h2 id="sign-up-for-uic-emergency-alerts"><a class="jumbo-link" href="http://getrave.com/login/uic" target="_blank">
-  <span class="_prefix"></span>
-  <span class="_text">Sign Up for UIC Emergency Alerts</span>
-</a></h2>
-
-      </div>
-  
-</section>
-
-    
-
-    
-
-</div>
-          </article>
+        <!-- InstanceEndEditable -->
+        <p class="last">&nbsp;</p>
+    </div> <!-- // end div content -->
+</div> <!-- // end div container -->
+<div id="bottom" role="contentinfo">
+    <div id="footer">
+        <div class="bottomNav">
+            <h2>Office of the Registrar, MC 018</h2>
+            <ul>
+                <li>University of Illinois at Chicago</li>
+                <li>Suite 1200 Student Services Building</li>
+                <li>1200 West Harrison Street</li>
+                <li>Chicago, Illinois 60607-7161</li>
+                <li>312-996-4350</li>
+            </ul>
+            <h2>Hours of Operation</h2>
+            <ul>
+                <li>Monday - Friday, 8:30-5:00pm</li>
+            </ul>
         </div>
-
-          
-                          </div>
-    </main>
-
-    
-        <footer id="footer" class="footer u-dark-region" role="contentinfo">
-
-  <div class="footer-contact">
-    <div class="l-full">
-
-          <div class="mega-footer-contact">
-
-    <div class="mega-footer-contact__brand mega-footer-contact__brand--wordmark">
-        <div class="footer-logo">
-                        <div class="footer-logo__wordmark-wrapper">
-                <div class="uic-wordmark  uic-wordmark--mega-footer">
-
-  <div class="_mark">
-    <a href="http://uic.edu" class="uic-logo-icon ">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
-  </div>
-
-  <div class="_text">
-    <a href="https://accc.uic.edu">
-                  <span class="_line">Academic</span>
-              <span class="_line">Computing</span>
-              <span class="_line">And</span>
-              <span class="_line">Communications</span>
-              <span class="_line">Center</span>
-              </a>
-  </div>
-
-</div>
-            </div>
-            </div>
+        <!-- end of div bottomNav -->
+        <div class="bottomNav">
+            <h2><a href="../../current_students/">UIC Office of the Registrar</a></h2>
+            <ul>
+                <li> </li>
+                <li> <a href="../../current_students/">Current &amp; Former Students</a></li>
+                <li><a href="../../uic_faculty_staff/">UIC Faculty &amp; Staff</a></li>
+            </ul>
+            <h2><a href="../../contact/">Contact us!</a></h2>
+            <ul>
+                <li><a href="../../contact/form_current_students.html">Registrar Webform</a></li>
+                <li><a href="mailto:aes_webmaster@helpdesk.uic.edu?subject=Registrar Website">Webmaster</a></li>
+                <li><a href="../../sitemap">Sitemap</a></li>
+            </ul>
+        </div>
+        <!-- end of div bottomNav -->
+        <img class="bottomImage" src="../../assets/images/uic-logo-mark-wht.png" alt="UIC Sign in front of Chicago Skyline">
+        <img class="bottomImage-print" src="../../assets/images/uic-logo-mark-red.png" alt="UIC Sign in front of Chicago Skyline">
     </div>
-
-  <div class="mega-footer-contact__menus">
-
-        <div class="mega-footer-contact__quick-menus _quick-menus">
-
-      
-            <nav class="mega-footer-contact__quick-menu" id="menu2" aria-label="footer-menu-2">
-        <h2>Quick Links</h2>
-        <ul id="menu-quick-2" class="menu menu-quick-2" aria-label="Quick Links">
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-5377">
-      <a href="/services/" target="_self">Services</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-11003">
-      <a href="/support/" target="_self">Support</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-11789">
-      <a href="/service-status/" target="_self">Service Status</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-5376">
-      <a href="/news-highlights/" target="_self">News</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-11004">
-      <a href="/forms/" target="_self">Forms</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-5374">
-      <a href="/about/" target="_self">About</a>
-    </li>
-  </ul>
-      </nav>
-      
-            <nav class="mega-footer-contact__quick-menu" id="menu3" aria-label="footer-menu-3">
-        <h2>Support Locations</h2>
-        <ul id="menu-quick-3" class="menu menu-quick-3" aria-label="Support Locations">
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13091">
-      <a href="/support/academic-multimedia-lab/" target="_self">Academic Multimedia Lab</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13086">
-      <a href="/support/arc-helpdesk/" target="_self">ARC Helpdesk</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13088">
-      <a href="/support/c-stop-bsb/" target="_self">C-Stop BSB</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13087">
-      <a href="/support/c-stop-lhs/" target="_self">C-Stop LHS</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13089">
-      <a href="/support/daley-library-helpdesk/" target="_self">Daley Library Helpdesk</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13090">
-      <a href="/support/lts-support-office/" target="_self">LTS Support Office</a>
-    </li>
-  </ul>
-      </nav>
-      
-    </div>
-    
-        <div class="mega-footer-contact__button-menus">
-      <nav class="mega-footer-contact__button-menu" id="menu4" aria-label="footer-menu-4">
-        <h2 class="assistive-text">Footer Menu</h2>
-
-        <ul id="button-menu" class="menu button-menu" aria-label="Footer Menu">
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-11006">
-      <a href="https://hipaa.uillinois.edu/" target="_blank">HIPAA</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-14102">
-      <a href="https://identity.uillinois.edu/" target="_blank">IAM Password Manager</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-77">
-      <a href="https://security.uic.edu/" target="_blank">Information Security</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-11008">
-      <a href="https://itgc.uic.edu/" target="_blank">IT Governance</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-11382">
-      <a href="/about/jobs/" target="_self">Jobs</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-15103">
-      <a href="/about/policies/" target="_self">Policies</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-5155">
-      <a href="https://acer.uic.edu/" target="_blank">Research (ACER)</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-11007">
-      <a href="https://getrave.com/login/uic" target="_blank">Sign Up for UIC Emergency Alerts</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-12641">
-      <a href="https://accc.drupal.uic.edu" target="_blank">ACCC Drupal Site</a>
-    </li>
-  </ul>
-
-      </nav>
-    </div>
-    
-  </div>
-
-  <div class="mega-footer-contact__contact">
-
-    <div class="_contact">
-      <h2>Contact</h2>
-      <div class="site-contact-container">  <div class="site-unit-name"><h3>To report a service outage please call (312) 413-0003 option 2</h3></div>
-            <div class="site-email"><a  href="mailto:consult@uic.edu">consult@uic.edu</a></div>
+    <!--OneTrust Cookies Settings button start -->
+    <a class="optanon-show-settings">CookieSettings</a>
+    <!--OneTrust Cookies Settings button end -->
 </div>
-      <div class="site-contact-container">        </div>
-    </div>
-
-    <div class="mega-footer-contact__site-social-links">
-       <div aria-label="Social Media Accounts" class="site-social-links">
-  <h2 class="site-social-links__header assistive-text">Social Media Accounts</h2>
-  <ul class="site-social-links__list">
-        <li class="site-social-links__list-item"><a  class="site-social-links__link facebook" href="https://www.facebook.com/CstopUIC">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Facebook"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>
-    </a></li>
-                <li class="site-social-links__list-item"><a  class="site-social-links__link twitter" href="https://twitter.com/UIC_ACCC">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Twitter"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>
-    </a></li>
-                  </ul>
-</div>
-    </div>
-  </div>
-</div>
-    
-    </div>
-  </div>
-
-  
-  <div class="footer-uic-menu">
-    <div class="l-full">
-
-      <div aria-label="UIC.edu Links">
-  <h2 class="assistive-text">UIC.edu links</h2>
-  <ul class="uic-footer-menu">
-    <li><strong><a href="https://uic.edu/">UIC.edu</a></strong></li>
-    <li><a href="https://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></li>
-    <li><a href="https://uicflames.com/">Athletics</a></li>
-    <li><a href="https://www.uic.edu/apps/departments-az/search">Campus Directory</a></li>
-    <li><a href="https://disabilityresources.uic.edu/">Disability Resources</a></li>
-    <li><a href="https://emergency.uic.edu/">Emergency Information</a></li>
-    <li><a href="https://today.uic.edu/events">Event Calendar</a></li>
-    <li><a href="https://uic.edu/about/job-opportunities">Job Openings</a></li>
-    <li><a href="https://library.uic.edu/">Library</a></li>
-    <li><a href="https://maps.uic.edu/">Maps</a></li>
-    <li><a href="https://ready.uic.edu/digital-materials/uic-safe-mobile-app/">UIC Safe Mobile App</a></li>
-    <li><a href="https://today.uic.edu/">UIC Today</a></li>
-    <li><a href="https://uihealth.uic.edu/">UI Health</a></li>
-    <li><a href="https://dos.uic.edu/student-veterans-affairs/">Veterans Affairs</a></li>
-  </ul>
-</div>
-
-    </div>
-  </div>
-
-  <div class="footer-legal">
-    <div class="l-full">
-
-      <div class="red-version">Powered by Red 2.38.0</div>
-
-<div class="site-copyright">
-  &copy; 2020 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
-  <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a>
-</div>
-
-<div class="campuses" aria-label="Campuses">
-  <h2 class="assistive-text">Campuses</h2>
-  <ul class="campuses-list">
-    <li><a href="https://www.uillinois.edu/">University of Illinois System</a></li>
-    <li><a href="https://illinois.edu/">Urbana-Champaign</a></li>
-    <li><a href="https://www.uis.edu/">Springfield</a></li>
-  </ul>
-</div>
-<div class="cookie-banner">
-  <div id="footer-bottom">
-    <a class="optanon-show-settings">Cookie Settings</a>
-  </div>
-</div>
-    </div>
-  </div>
-
-</footer>
-
-	    </div>
-
-
-  <!-- Instagram Feed JS -->
-<script type="text/javascript">
-var sbiajaxurl = "https://accc.uic.edu/wp-admin/admin-ajax.php";
-</script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var sb_instagram_js_options = {"sb_instagram_at":"","font_method":"svg"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://accc.uic.edu/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.12.1'></script>
-<script type='text/javascript' src='https://accc.uic.edu/wp-content/plugins/uic-red/js-admin/acf-field-group-toggle.js?ver=1.0.0'></script>
-<script type='text/javascript' src='//www.uic.edu/apps/web-alert/alert.js?ver=3'></script>
-<script type='text/javascript' src='https://accc.uic.edu/wp-content/themes/uic-red/js/main.js?ver=1'></script>
-<script type='text/javascript' src='https://accc.uic.edu/wp-includes/js/wp-embed.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
-
-
-
-  
-  
-  <script async src="https://cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js" type="text/javascript" charset="UTF-8"></script>
-
-  </body>
-</html>
+<!-- Classic Analytics -->
+</body>
+<!-- InstanceEnd --></html>

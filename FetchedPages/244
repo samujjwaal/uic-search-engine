@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="content-type" content="text/html" charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>Emergency Information | UIC Emergency Information</title>
+<title>UIC Alerts | Emergency Information</title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="https://emergency.uic.edu/xmlrpc.php" />
 <!--[if lt IE 9]>
@@ -15,6 +15,7 @@
 <link rel="shortcut icon" href="https://emergency.uic.edu/files/2016/02/CAMP.CIRC_.LG_.RED-2-300x300.png" /><link rel='dns-prefetch' href='//s.w.org' />
 <link rel="alternate" type="application/rss+xml" title="Emergency Information &raquo; Feed" href="https://emergency.uic.edu/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Emergency Information &raquo; Comments Feed" href="https://emergency.uic.edu/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Emergency Information &raquo; UIC Alerts Category Feed" href="https://emergency.uic.edu/category/uic-alerts/feed/" />
 <link rel='stylesheet' id='events-manager-css'  href='https://emergency.uic.edu/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.63' type='text/css' media='all' />
 <link rel='stylesheet' id='page-list-style-css'  href='https://emergency.uic.edu/wp-content/plugins/page-list/css/page-list.css?ver=5.1' type='text/css' media='all' />
 <link rel='stylesheet' id='simple-staff-list-css'  href='https://emergency.uic.edu/wp-content/plugins/simple-staff-list/public/css/simple-staff-list-public.css?ver=1.17' type='text/css' media='all' />
@@ -23,7 +24,7 @@
 <link rel='stylesheet' id='tablepress-default-css'  href='https://emergency.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.7' type='text/css' media='all' />
 <link rel='stylesheet' id='uicnetwork-css'  href='https://emergency.uic.edu/wp-content/themes/uic-network-2013/css/uicnetwork.css?ver=4.7.2' type='text/css' media='all' />
 <link rel='stylesheet' id='prettyPhoto-css'  href='https://emergency.uic.edu/wp-content/themes/uic-network-2013/css/prettyPhoto.css?ver=4.7.2' type='text/css' media='all' />
-<link rel='stylesheet' id='dynamic-styles-css'  href='https://emergency.uic.edu/index.php?dynamiccss=1&#038;id=29&#038;ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dynamic-styles-css'  href='https://emergency.uic.edu/index.php?dynamiccss=1&#038;id=6432&#038;ver=4.7.2' type='text/css' media='all' />
 <link rel='stylesheet' id='style-css'  href='https://emergency.uic.edu/wp-content/themes/uic-network-2013/style.css?ver=4.7.2' type='text/css' media='all' />
 <link rel='stylesheet' id='PT Sans-css'  href='https://fonts.googleapis.com/css?family=PT+Sans:400italic,700italic,400,700' type='text/css' media='all' />
 <link rel='stylesheet' id='Oswald-css'  href='https://fonts.googleapis.com/css?family=Oswald:400italic,700italic,400,700' type='text/css' media='all' />
@@ -52,7 +53,7 @@ var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result 
 <script type='text/javascript' src='https://emergency.uic.edu/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var EM = {"ajaxurl":"https:\/\/emergency.uic.edu\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/emergency.uic.edu\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"mm\/dd\/yy","ui_css":"https:\/\/emergency.uic.edu\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"0","is_ssl":"1","bookingInProgress":"Please wait while the booking is being submitted.","tickets_save":"Save Ticket","bookingajaxurl":"https:\/\/emergency.uic.edu\/wp-admin\/admin-ajax.php","bookings_export_save":"Export Bookings","bookings_settings_save":"Save Settings","booking_delete":"Are you sure you want to delete?","bb_full":"Sold Out","bb_book":"Book Now","bb_booking":"Booking...","bb_booked":"Booking Submitted","bb_error":"Booking Error. Try again?","bb_cancel":"Cancel","bb_canceling":"Canceling...","bb_cancelled":"Cancelled","bb_cancel_error":"Cancellation Error. Try again?","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","event_reschedule_warning":"Are you sure you want to reschedule this recurring event? If you do this, you will lose all booking information and the old recurring events will be deleted.","event_detach_warning":"Are you sure you want to detach this event? By doing so, this event will be independent of the recurring set of events.","delete_recurrence_warning":"Are you sure you want to delete all recurrences of this event? All events will be moved to trash.","disable_bookings_warning":"Are you sure you want to disable bookings? If you do this and save, you will lose all previous bookings. If you wish to prevent further bookings, reduce the number of spaces available to the amount of bookings you currently have","booking_warning_cancel":"Are you sure you want to cancel your booking?","cache":""};
+var EM = {"ajaxurl":"https:\/\/emergency.uic.edu\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/emergency.uic.edu\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"mm\/dd\/yy","ui_css":"https:\/\/emergency.uic.edu\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"0","is_ssl":"1","bookingInProgress":"Please wait while the booking is being submitted.","tickets_save":"Save Ticket","bookingajaxurl":"https:\/\/emergency.uic.edu\/wp-admin\/admin-ajax.php","bookings_export_save":"Export Bookings","bookings_settings_save":"Save Settings","booking_delete":"Are you sure you want to delete?","bb_full":"Sold Out","bb_book":"Book Now","bb_booking":"Booking...","bb_booked":"Booking Submitted","bb_error":"Booking Error. Try again?","bb_cancel":"Cancel","bb_canceling":"Canceling...","bb_cancelled":"Cancelled","bb_cancel_error":"Cancellation Error. Try again?","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","cache":""};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://emergency.uic.edu/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.63'></script>
@@ -64,14 +65,10 @@ var EM = {"ajaxurl":"https:\/\/emergency.uic.edu\/wp-admin\/admin-ajax.php","loc
 <script type='text/javascript' src='https://emergency.uic.edu/wp-content/themes/uic-network-2013/js/jquery.prettyPhoto.js?ver=4.7.2'></script>
 <script type='text/javascript' src='https://emergency.uic.edu/wp-content/themes/uic-network-2013/js/uicnetwork_contact.js?ver=4.7.2'></script>
 <script type='text/javascript' src='https://emergency.uic.edu/wp-content/themes/uic-network-2013/js/jquery.carouFredSel-6.1.0-packed.js?ver=4.7.2'></script>
-<script type='text/javascript' src='https://emergency.uic.edu/index.php?dynamicjs=1&#038;id=29&#038;ver=4.7.2'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/index.php?dynamicjs=1&#038;id=6432&#038;ver=4.7.2'></script>
 <link rel='https://api.w.org/' href='https://emergency.uic.edu/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://emergency.uic.edu/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 4.7.2" />
-<link rel="canonical" href="https://emergency.uic.edu/" />
-<link rel='shortlink' href='https://emergency.uic.edu/' />
-<link rel="alternate" type="application/json+oembed" href="https://emergency.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Femergency.uic.edu%2F" />
-<link rel="alternate" type="text/xml+oembed" href="https://emergency.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Femergency.uic.edu%2F&#038;format=xml" />
 		<style type="text/css">
 		.em-booking-form span.form-tip { text-decoration:none; border-bottom:1px dotted #aaa; padding-bottom:2px; }
 		.input-group .em-date-range input { width:100px; }
@@ -116,7 +113,7 @@ var EM = {"ajaxurl":"https:\/\/emergency.uic.edu\/wp-admin\/admin-ajax.php","loc
 <link rel='stylesheet' id='mccss_stylesheet' href='https://emergency.uic.edu/files/my_custom_css/my_style_id-398.css?1587396571' type='text/css' media='all' />
 <!-- My Custom CSS -->
 </head>
-<body class="home page-template-default page page-id-29">
+<body class="archive category category-uic-alerts category-8">
 
 	<!-- Page Layout
 	================================================== -->
@@ -162,8 +159,8 @@ var EM = {"ajaxurl":"https:\/\/emergency.uic.edu\/wp-admin\/admin-ajax.php","loc
         <a name ="main-content" id="page-content" class="screen-reader-shortcut" title="Skip to Content" tabindex = "-1">Skip to Content</a>
 		<div class="menu-container">
             <h2>Main Navigation</h2>
-		    <div class="menu-global-navigation-container"><ul id="menu-global-navigation" class="menu sf-menu"><li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-29 current_page_item menu-item-41"><a href="https://emergency.uic.edu/">Home</a></li>
-<li id="menu-item-454" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-454"><a href="https://emergency.uic.edu/category/uic-alerts/">UIC Alerts</a></li>
+		    <div class="menu-global-navigation-container"><ul id="menu-global-navigation" class="menu sf-menu"><li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-41"><a href="https://emergency.uic.edu/">Home</a></li>
+<li id="menu-item-454" class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-454"><a href="https://emergency.uic.edu/category/uic-alerts/">UIC Alerts</a></li>
 <li id="menu-item-453" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-453"><a href="https://emergency.uic.edu/category/public-safety/">Public Safety Advisories</a></li>
 <li id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-151"><a href="https://emergency.uic.edu/web-alerts/">Get alerts for websites</a></li>
 </ul></div>		    <select id="dropdown-menu"><option value="">Main Menu</option><option value="https://emergency.uic.edu/">Home</option><option value="https://emergency.uic.edu/category/uic-alerts/">UIC Alerts</option><option value="https://emergency.uic.edu/category/public-safety/">Public Safety Advisories</option><option value="https://emergency.uic.edu/web-alerts/">Get alerts for websites</option></select>		</div>
@@ -174,54 +171,373 @@ var EM = {"ajaxurl":"https:\/\/emergency.uic.edu\/wp-admin\/admin-ajax.php","loc
 
 
 
-	        <div id="main-content" class="container">
-                <div id="sidebar-container" class="left">
-    <ul id="sidebar">
-        
-<li id="nav_menu-6" class="widget widget_nav_menu"><h3 class="widget-title">Related Links</h3><div class="menu-related-links-sidebar-menu-container"><ul id="menu-related-links-sidebar-menu" class="menu"><li id="menu-item-145" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-145"><a href="https://police.uic.edu/">UIC Police</a></li>
-<li id="menu-item-444" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-444"><a href="https://ready.uic.edu/digital-materials/uic-safe-app/">UIC Safe (Mobile Appl)</a></li>
-<li id="menu-item-245" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-245"><a href="https://police.uic.edu/crime-data/annual-safety-report/">Annual Safety and Security Report</a></li>
-<li id="menu-item-146" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146"><a href="https://vcas.uic.edu/extreme-weather-emergency-conditions/">Extreme Weather Policies</a></li>
-<li id="menu-item-224" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-224"><a href="http://transportation.uic.edu/night-ride/">Night Ride</a></li>
-<li id="menu-item-243" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-243"><a href="https://ready.uic.edu/">Ready UIC</a></li>
-</ul></div></li><li id="widget_sp_image-5" class="widget widget_sp_image"><img width="540" height="400" alt="Diall 5-5555 in an emergency" class="attachment-large aligncenter" style="max-width: 100%;" src="https://emergency.uic.edu/files/2013/11/emergency.png" /></li>    </ul>
-</div>		        <div id="page-container" class="right with-sidebar post-29 page type-page status-publish hentry" tabindex="-1">
-			        			            <h1 id="page-title" class="page-title" tabindex="-1">Emergency Information</h1>
-			        <h2></h2>
-<h2>In an emergency go to the <a href="https://emergency.uic.edu/uic-alerts/">UIC Alerts tab</a> for ongoing communications</h2>
-<div class="one-half">
-<h2>Get Help</h2>
-<ul>
-<li>To summon Police or Fire for any on-campus emergency, call <strong>5-5555</strong> &#8220;Five Fives for Help.&#8221; Phone stickers are available from the UIC Police.</li>
-<li>Set up the complete number, 312-355-5555, on speed-dial on your cell phone.</li>
-<li>More than 1,300 emergency call boxes are on campus. A red button activates an alarm and flashing light and immediately connects you to UIC Police. Spot the phone locations as you make your way around campus.</li>
-<li><a href="https://ready.uic.edu/digital-materials/be-safe-and-prepared/other-safety-resources/">Safety tips</a></li>
-</ul>
-</div>
-<div class="one-half">
-<h2>Get Information</h2>
-<ul>
-<li>Subscribe your cell phone to receive <a href="https://getrave.com/login/uic">text message alerts</a>. An immediate SMS text alert will be sent in case of a serious crime in progress, a weather emergency, or other urgent situation. Log in to <a href="https://accc.uic.edu/services/communication-collaboration/emergency-communications/uic-alert/">accc.uic.edu/service/uic-alert</a> from any computer to subscribe.</li>
-<li>Call the UIC Hotline at 312-413-9696. In addition to emergency information, the hotline will alert you to building closures or class relocations.</li>
-<li>Watch your UIC email account for UIC Alert email messages.</li>
-<li><a href="http://www.getrave.com/rss/uic/channel1">Subscribe to our urgent/emergency RSS feed</a>.</li>
-</ul>
-</div>
-<h2>Update your emergency contact information</h2>
-<ul>
-<li>To update emergency contacts, go to <a href="https://my.uic.edu/common/" target="_blank">my.UIC</a>. Under the Academics tab, select Registration, enter Student Self-Service, select Personal Information, and then select Emergency Contacts.</li>
-<li>If you have questions about loading an Emergency Contact in Banner Student Self-Service, you can contact the Registration Help Line at 312-996-8600, Monday through Friday, 8:30 am to 5:00 pm.</li>
-</ul>
+	<div id="main-content" class="container">
 
-                    <!-- <br class="clear" /> -->
-			        
-                </div>
-	            <!-- End page container -->
+		        <div id="sidebar-container" class="right">
+            <ul id="sidebar">
+                
+                                    <li id="recent" class="widget-container">
+                        <h3 class="widget-title">Recent Posts</h3>
+                        <ul>
+                            	<li><a href='https://emergency.uic.edu/uic-alert-all-clear-power-has-been-restored-to-all-campus-buildings-contact-uic-fm-at-312-996-7511-to-report-issues-return-to-your-normal-activities/'>UIC Alert ALL CLEAR Power has been restored to all campus buildings. Contact UIC FM at 312-996-7511 to report issues. Return to your normal activities.</a></li>
+	<li><a href='https://emergency.uic.edu/update-2-east-campus-restored-facilities-continues-to-respond-to-west-campus-if-you-need-assistance-contact-uic-police-at-312-355-5555/'>Update #2 East campus restored. Facilities continues to respond to West campus. If you need assistance , contact UIC Police at 312-355-5555</a></li>
+	<li><a href='https://emergency.uic.edu/uic-alert-outage-update-1-facilities-continues-to-respond-if-you-need-assistance-or-medical-attention-contact-uic-police-at-312-355-5555/'>Outage Update #1 Facilities continues to respond. If you need assistance or medical attention, contact UIC Police at 312-355-5555.</a></li>
+	<li><a href='https://emergency.uic.edu/power-outage-affecting-buildings-on-both-the-east-and-west-campus-uic-facilities-and-police-are-responding-execute-appropriate-safety-precaution/'>POWER OUTAGE affecting buildings on both the East and West Campus. UIC Facilities and Police are responding. Execute appropriate safety precaution.</a></li>
+	<li><a href='https://emergency.uic.edu/power-outage-affecting-buildings-on-the-west-campus-uic-facilities-and-police-are-responding-execute-appropriate-safety-precautions/'>POWER OUTAGE affecting buildings on the West Campus. UIC Facilities and Police are responding. Execute appropriate safety precautions.</a></li>
+                        </ul>
+                    </li>
+                    <li id="archives" class="widget-container">
+                        <h3 class="widget-title">Archives</h3>
+                        <ul>
+                            	<li><a href='https://emergency.uic.edu/2020/04/'>April 2020</a></li>
+	<li><a href='https://emergency.uic.edu/2020/03/'>March 2020</a></li>
+	<li><a href='https://emergency.uic.edu/2020/02/'>February 2020</a></li>
+	<li><a href='https://emergency.uic.edu/2019/12/'>December 2019</a></li>
+	<li><a href='https://emergency.uic.edu/2019/11/'>November 2019</a></li>
+	<li><a href='https://emergency.uic.edu/2019/10/'>October 2019</a></li>
+	<li><a href='https://emergency.uic.edu/2019/08/'>August 2019</a></li>
+	<li><a href='https://emergency.uic.edu/2019/07/'>July 2019</a></li>
+	<li><a href='https://emergency.uic.edu/2019/05/'>May 2019</a></li>
+	<li><a href='https://emergency.uic.edu/2019/04/'>April 2019</a></li>
+	<li><a href='https://emergency.uic.edu/2019/03/'>March 2019</a></li>
+	<li><a href='https://emergency.uic.edu/2019/01/'>January 2019</a></li>
+                        </ul>
+                    </li>
+                            </ul>
+        </div>
+        <!-- End sidebar -->
 
-                            </div>
-            <!-- End main content -->
+		<div id="page-container" class="left with-sidebar" tabindex="-1">
+							
+							
+									<h1 id="page-title" class="page-title">Category: UIC Alerts</h1>
+				
+													
+						
+		
 
-			<div id="sub-footer"><div class="container">
+				
+			<div id="post-6432" class="post-6432 post type-post status-publish format-standard hentry category-uic-alerts">
+
+                                <div class="postmetadata">
+					<span class="meta-date"><a href="https://emergency.uic.edu/uic-alert-all-clear-power-has-been-restored-to-all-campus-buildings-contact-uic-fm-at-312-996-7511-to-report-issues-return-to-your-normal-activities/" title="UIC Alert ALL CLEAR Power has been restored to all campus buildings. Contact UIC FM at 312-996-7511 to report issues. Return to your normal activities." rel="bookmark">
+						<span class="month">Apr</span>
+						<span class="day">20</span>
+						<span class="year">2020</span>
+					</a></span>
+
+
+					
+
+					<span class="meta-author"><span>by UIC Alert</span></span>
+
+				</div>
+                
+				<div class="post-contents">
+										<h3 class="entry-title">
+					<a href="https://emergency.uic.edu/uic-alert-all-clear-power-has-been-restored-to-all-campus-buildings-contact-uic-fm-at-312-996-7511-to-report-issues-return-to-your-normal-activities/" title="UIC Alert ALL CLEAR Power has been restored to all campus buildings. Contact UIC FM at 312-996-7511 to report issues. Return to your normal activities." rel="bookmark">UIC Alert ALL CLEAR Power has been restored to all campus buildings. Contact UIC FM at 312-996-7511 to report issues. Return to your normal activities.</a>
+					</h3>
+                    					    <div class="post-category">Posted in <a href="https://emergency.uic.edu/category/uic-alerts/">UIC Alerts</a></div>
+                    					<div class="post-content">
+					<p>UIC Alert ALL CLEAR Power has been restored to all campus buildings. Contact UIC FM at 312-996-7511 to report issues. Return to your normal activities.</p>
+					</div>
+				</div>
+				<br class="clear" />
+
+			</div><!-- end div post -->
+
+		
+			<div id="post-6430" class="post-6430 post type-post status-publish format-standard hentry category-uic-alerts">
+
+                                <div class="postmetadata">
+					<span class="meta-date"><a href="https://emergency.uic.edu/update-2-east-campus-restored-facilities-continues-to-respond-to-west-campus-if-you-need-assistance-contact-uic-police-at-312-355-5555/" title="Update #2 East campus restored. Facilities continues to respond to West campus. If you need assistance , contact UIC Police at 312-355-5555" rel="bookmark">
+						<span class="month">Apr</span>
+						<span class="day">20</span>
+						<span class="year">2020</span>
+					</a></span>
+
+
+					
+
+					<span class="meta-author"><span>by UIC Alert</span></span>
+
+				</div>
+                
+				<div class="post-contents">
+										<h3 class="entry-title">
+					<a href="https://emergency.uic.edu/update-2-east-campus-restored-facilities-continues-to-respond-to-west-campus-if-you-need-assistance-contact-uic-police-at-312-355-5555/" title="Update #2 East campus restored. Facilities continues to respond to West campus. If you need assistance , contact UIC Police at 312-355-5555" rel="bookmark">Update #2 East campus restored. Facilities continues to respond to West campus. If you need assistance , contact UIC Police at 312-355-5555</a>
+					</h3>
+                    					    <div class="post-category">Posted in <a href="https://emergency.uic.edu/category/uic-alerts/">UIC Alerts</a></div>
+                    					<div class="post-content">
+					<p>UIC Alert: Update #2 East campus restored. Facilities continues to respond to West campus. If you need assistance or medical attention, contact UIC Police at 312-355-5555. More information as available at emergency.uic.edu.</p>
+					</div>
+				</div>
+				<br class="clear" />
+
+			</div><!-- end div post -->
+
+		
+			<div id="post-6428" class="post-6428 post type-post status-publish format-standard hentry category-uic-alerts">
+
+                                <div class="postmetadata">
+					<span class="meta-date"><a href="https://emergency.uic.edu/uic-alert-outage-update-1-facilities-continues-to-respond-if-you-need-assistance-or-medical-attention-contact-uic-police-at-312-355-5555/" title="Outage Update #1 Facilities continues to respond. If you need assistance or medical attention, contact UIC Police at 312-355-5555." rel="bookmark">
+						<span class="month">Apr</span>
+						<span class="day">20</span>
+						<span class="year">2020</span>
+					</a></span>
+
+
+					
+
+					<span class="meta-author"><span>by UIC Alert</span></span>
+
+				</div>
+                
+				<div class="post-contents">
+										<h3 class="entry-title">
+					<a href="https://emergency.uic.edu/uic-alert-outage-update-1-facilities-continues-to-respond-if-you-need-assistance-or-medical-attention-contact-uic-police-at-312-355-5555/" title="Outage Update #1 Facilities continues to respond. If you need assistance or medical attention, contact UIC Police at 312-355-5555." rel="bookmark">Outage Update #1 Facilities continues to respond. If you need assistance or medical attention, contact UIC Police at 312-355-5555.</a>
+					</h3>
+                    					    <div class="post-category">Posted in <a href="https://emergency.uic.edu/category/uic-alerts/">UIC Alerts</a></div>
+                    					<div class="post-content">
+					<p>UIC Alert: Outage Update #1 Facilities continues to respond. If you need assistance or medical attention, contact UIC Police at 312-355-5555. More information as available at emergency.uic.edu.</p>
+					</div>
+				</div>
+				<br class="clear" />
+
+			</div><!-- end div post -->
+
+		
+			<div id="post-6427" class="post-6427 post type-post status-publish format-standard hentry category-uic-alerts">
+
+                                <div class="postmetadata">
+					<span class="meta-date"><a href="https://emergency.uic.edu/power-outage-affecting-buildings-on-both-the-east-and-west-campus-uic-facilities-and-police-are-responding-execute-appropriate-safety-precaution/" title="POWER OUTAGE affecting buildings on both the East and West Campus. UIC Facilities and Police are responding. Execute appropriate safety precaution." rel="bookmark">
+						<span class="month">Apr</span>
+						<span class="day">20</span>
+						<span class="year">2020</span>
+					</a></span>
+
+
+					
+
+					<span class="meta-author"><span>by UIC Alert</span></span>
+
+				</div>
+                
+				<div class="post-contents">
+										<h3 class="entry-title">
+					<a href="https://emergency.uic.edu/power-outage-affecting-buildings-on-both-the-east-and-west-campus-uic-facilities-and-police-are-responding-execute-appropriate-safety-precaution/" title="POWER OUTAGE affecting buildings on both the East and West Campus. UIC Facilities and Police are responding. Execute appropriate safety precaution." rel="bookmark">POWER OUTAGE affecting buildings on both the East and West Campus. UIC Facilities and Police are responding. Execute appropriate safety precaution.</a>
+					</h3>
+                    					    <div class="post-category">Posted in <a href="https://emergency.uic.edu/category/uic-alerts/">UIC Alerts</a></div>
+                    					<div class="post-content">
+					<p>UIC Alert: POWER OUTAGE affecting buildings on both the East and West Campus. UIC Facilities and Police are responding. Execute appropriate safety precautions. More information as available at emergency.uic.edu.</p>
+					</div>
+				</div>
+				<br class="clear" />
+
+			</div><!-- end div post -->
+
+		
+			<div id="post-6425" class="post-6425 post type-post status-publish format-standard hentry category-uic-alerts">
+
+                                <div class="postmetadata">
+					<span class="meta-date"><a href="https://emergency.uic.edu/power-outage-affecting-buildings-on-the-west-campus-uic-facilities-and-police-are-responding-execute-appropriate-safety-precautions/" title="POWER OUTAGE affecting buildings on the West Campus. UIC Facilities and Police are responding. Execute appropriate safety precautions." rel="bookmark">
+						<span class="month">Apr</span>
+						<span class="day">20</span>
+						<span class="year">2020</span>
+					</a></span>
+
+
+					
+
+					<span class="meta-author"><span>by UIC Alert</span></span>
+
+				</div>
+                
+				<div class="post-contents">
+										<h3 class="entry-title">
+					<a href="https://emergency.uic.edu/power-outage-affecting-buildings-on-the-west-campus-uic-facilities-and-police-are-responding-execute-appropriate-safety-precautions/" title="POWER OUTAGE affecting buildings on the West Campus. UIC Facilities and Police are responding. Execute appropriate safety precautions." rel="bookmark">POWER OUTAGE affecting buildings on the West Campus. UIC Facilities and Police are responding. Execute appropriate safety precautions.</a>
+					</h3>
+                    					    <div class="post-category">Posted in <a href="https://emergency.uic.edu/category/uic-alerts/">UIC Alerts</a></div>
+                    					<div class="post-content">
+					<p>UIC Alert: POWER OUTAGE affecting buildings on the West Campus. UIC Facilities and Police are responding. Execute appropriate safety precautions. More information as available at emergency.uic.edu.</p>
+					</div>
+				</div>
+				<br class="clear" />
+
+			</div><!-- end div post -->
+
+		
+			<div id="post-6423" class="post-6423 post type-post status-publish format-standard hentry category-uic-alerts">
+
+                                <div class="postmetadata">
+					<span class="meta-date"><a href="https://emergency.uic.edu/uic-alert-test-this-is-an-all-clear-notification-the-uic-alert-emergency-notification-system-test-has-ended/" title="UIC ALERT [TEST]: This is an ALL CLEAR notification. The UIC ALERT emergency notification system TEST has ended." rel="bookmark">
+						<span class="month">Apr</span>
+						<span class="day">07</span>
+						<span class="year">2020</span>
+					</a></span>
+
+
+					
+
+					<span class="meta-author"><span>by UIC Alert</span></span>
+
+				</div>
+                
+				<div class="post-contents">
+										<h3 class="entry-title">
+					<a href="https://emergency.uic.edu/uic-alert-test-this-is-an-all-clear-notification-the-uic-alert-emergency-notification-system-test-has-ended/" title="UIC ALERT [TEST]: This is an ALL CLEAR notification. The UIC ALERT emergency notification system TEST has ended." rel="bookmark">UIC ALERT [TEST]: This is an ALL CLEAR notification. The UIC ALERT emergency notification system TEST has ended.</a>
+					</h3>
+                    					    <div class="post-category">Posted in <a href="https://emergency.uic.edu/category/uic-alerts/">UIC Alerts</a></div>
+                    					<div class="post-content">
+					<p>UIC ALERT [TEST]: This is an ALL CLEAR notification. The UIC ALERT emergency notification system TEST has ended.</p>
+<p>Additional information about emergency situations, active threat response, and important weather announcements can be found on emergency.uic.edu and ready.uic.edu.</p>
+<p>Thank you for your participation.</p>
+					</div>
+				</div>
+				<br class="clear" />
+
+			</div><!-- end div post -->
+
+		
+			<div id="post-6421" class="post-6421 post type-post status-publish format-standard hentry category-uic-alerts">
+
+                                <div class="postmetadata">
+					<span class="meta-date"><a href="https://emergency.uic.edu/uic-alert-test-this-is-a-test-of-the-uic-alert-emergency-notification-system-no-action-is-required-this-is-only-a-test-3/" title="UIC ALERT TEST: This is a TEST of the UIC ALERT emergency notification system. No action is required. This is only a test." rel="bookmark">
+						<span class="month">Apr</span>
+						<span class="day">07</span>
+						<span class="year">2020</span>
+					</a></span>
+
+
+					
+
+					<span class="meta-author"><span>by UIC Alert</span></span>
+
+				</div>
+                
+				<div class="post-contents">
+										<h3 class="entry-title">
+					<a href="https://emergency.uic.edu/uic-alert-test-this-is-a-test-of-the-uic-alert-emergency-notification-system-no-action-is-required-this-is-only-a-test-3/" title="UIC ALERT TEST: This is a TEST of the UIC ALERT emergency notification system. No action is required. This is only a test." rel="bookmark">UIC ALERT TEST: This is a TEST of the UIC ALERT emergency notification system. No action is required. This is only a test.</a>
+					</h3>
+                    					    <div class="post-category">Posted in <a href="https://emergency.uic.edu/category/uic-alerts/">UIC Alerts</a></div>
+                    					<div class="post-content">
+					<p>UIC ALERT [TEST]: This is a TEST of the UIC ALERT emergency notification system. No action is required. This is only a test.</p>
+<p>In the event of an actual emergency, you would be given brief details and directed to the emergency.uic.edu and the uic.edu homepage.</p>
+<p>Thank you for your participation.</p>
+					</div>
+				</div>
+				<br class="clear" />
+
+			</div><!-- end div post -->
+
+		
+			<div id="post-6394" class="post-6394 post type-post status-publish format-standard hentry category-uic-alerts">
+
+                                <div class="postmetadata">
+					<span class="meta-date"><a href="https://emergency.uic.edu/uic-alert-this-is-an-all-clear-notification-the-uic-alert-emergency-notification-system-test-has-ended/" title="UIC ALERT : This is an ALL CLEAR notification. The UIC ALERT emergency notification system TEST has ended." rel="bookmark">
+						<span class="month">Mar</span>
+						<span class="day">03</span>
+						<span class="year">2020</span>
+					</a></span>
+
+
+					
+
+					<span class="meta-author"><span>by UIC Alert</span></span>
+
+				</div>
+                
+				<div class="post-contents">
+										<h3 class="entry-title">
+					<a href="https://emergency.uic.edu/uic-alert-this-is-an-all-clear-notification-the-uic-alert-emergency-notification-system-test-has-ended/" title="UIC ALERT : This is an ALL CLEAR notification. The UIC ALERT emergency notification system TEST has ended." rel="bookmark">UIC ALERT : This is an ALL CLEAR notification. The UIC ALERT emergency notification system TEST has ended.</a>
+					</h3>
+                    					    <div class="post-category">Posted in <a href="https://emergency.uic.edu/category/uic-alerts/">UIC Alerts</a></div>
+                    					<div class="post-content">
+					<p>UIC ALERT [TEST]: This is an ALL CLEAR notification. The UIC ALERT emergency notification system TEST has ended.<br />
+Additional information about emergency situations, active threat response, and important weather announcements can be found on emergency.uic.edu and ready.uic.edu.<br />
+Thank you for your participation.</p>
+					</div>
+				</div>
+				<br class="clear" />
+
+			</div><!-- end div post -->
+
+		
+			<div id="post-6393" class="post-6393 post type-post status-publish format-standard hentry category-uic-alerts">
+
+                                <div class="postmetadata">
+					<span class="meta-date"><a href="https://emergency.uic.edu/uic-alert-test-this-is-a-test-of-the-uic-alert-emergency-notification-system-no-action-is-required-this-is-only-a-test/" title="UIC ALERT TEST: This is a TEST of the UIC ALERT emergency notification system. No action is required. This is only a test." rel="bookmark">
+						<span class="month">Mar</span>
+						<span class="day">03</span>
+						<span class="year">2020</span>
+					</a></span>
+
+
+					
+
+					<span class="meta-author"><span>by UIC Alert</span></span>
+
+				</div>
+                
+				<div class="post-contents">
+										<h3 class="entry-title">
+					<a href="https://emergency.uic.edu/uic-alert-test-this-is-a-test-of-the-uic-alert-emergency-notification-system-no-action-is-required-this-is-only-a-test/" title="UIC ALERT TEST: This is a TEST of the UIC ALERT emergency notification system. No action is required. This is only a test." rel="bookmark">UIC ALERT TEST: This is a TEST of the UIC ALERT emergency notification system. No action is required. This is only a test.</a>
+					</h3>
+                    					    <div class="post-category">Posted in <a href="https://emergency.uic.edu/category/uic-alerts/">UIC Alerts</a></div>
+                    					<div class="post-content">
+					<p>UIC ALERT [TEST]: This is a TEST of the UIC ALERT emergency notification system. No action is required. This is only a test.<br />
+In the event of an actual emergency, you would be given brief details and directed to the emergency.uic.edu and the uic.edu homepage.<br />
+Thank you for your participation.</p>
+					</div>
+				</div>
+				<br class="clear" />
+
+			</div><!-- end div post -->
+
+		
+			<div id="post-5319" class="post-5319 post type-post status-publish format-standard hentry category-uic-alerts">
+
+                                <div class="postmetadata">
+					<span class="meta-date"><a href="https://emergency.uic.edu/all-clear-at-the-blue-line-uic-halsted-stop-police-activity-has-dissipated-there-is-no-threat-to-campus-resume-regular-campus-activities/" title="All Clear at the Blue Line &#8211; UIC Halsted stop. Police activity has dissipated. There is no threat to campus. Resume regular campus activities." rel="bookmark">
+						<span class="month">Feb</span>
+						<span class="day">05</span>
+						<span class="year">2020</span>
+					</a></span>
+
+
+					
+
+					<span class="meta-author"><span>by UIC Alert</span></span>
+
+				</div>
+                
+				<div class="post-contents">
+										<h3 class="entry-title">
+					<a href="https://emergency.uic.edu/all-clear-at-the-blue-line-uic-halsted-stop-police-activity-has-dissipated-there-is-no-threat-to-campus-resume-regular-campus-activities/" title="All Clear at the Blue Line &#8211; UIC Halsted stop. Police activity has dissipated. There is no threat to campus. Resume regular campus activities." rel="bookmark">All Clear at the Blue Line &#8211; UIC Halsted stop. Police activity has dissipated. There is no threat to campus. Resume regular campus activities.</a>
+					</h3>
+                    					    <div class="post-category">Posted in <a href="https://emergency.uic.edu/category/uic-alerts/">UIC Alerts</a></div>
+                    					<div class="post-content">
+					<p>UIC ALERT: All Clear at the Blue Line &#8211; UIC Halsted stop. Campus administrators have declared the incident under control. There is no threat to campus. It is safe to resume normal activities.</p>
+					</div>
+				</div>
+				<br class="clear" />
+
+			</div><!-- end div post -->
+
+				
+			<div class="page_nav">
+								<div class="previous"><a href="https://emergency.uic.edu/category/uic-alerts/page/2/" class="mg-page-next">Previous Posts</a></div>
+											</div>
+
+		</div>
+		<!-- End page container -->
+
+
+
+	</div>
+	<!-- End main content -->
+
+	<div id="sub-footer"><div class="container">
 				<div class="sub-footer-left">&nbsp;</div>
 
 		<div class="sub-footer-right">
@@ -238,7 +554,7 @@ var EM = {"ajaxurl":"https:\/\/emergency.uic.edu\/wp-admin\/admin-ajax.php","loc
 			  <li id="uicnetworksocialmediawidget-2" class="one-fourth widget uicnetworksocialmediaWidget"><h3 class="widget-title">Follow Us</h3><div class="socialmedia-widget-wrap"><a href="http://facebook.com/uicnews" class="facebook" target="_blank"></a><a href="http://twitter.com/uicnews" class="twitter" target="_blank"></a><a href="http://www.getrave.com/rss/uic/channel1" class="rss"></a></div></li><li id="text-3" class="one-fourth widget widget_text">			<div class="textwidget"></div>
 		</li><li id="text-4" class="one-fourth widget widget_text">			<div class="textwidget"></div>
 		</li><li id="nav_menu-4" class="one-fourth widget widget_nav_menu"><div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32"><a href="http://disabilityresources.uic.edu/">Disability Resources</a></li>
-<li id="menu-item-33" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-33"><a href="http://emergency.uic.edu">Emergency Information</a></li>
+<li id="menu-item-33" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-33"><a href="http://emergency.uic.edu">Emergency Information</a></li>
 <li id="menu-item-34" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Policy</a></li>
 <li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="https://emergency.uic.edu/contact-us/">Contact Us</a></li>
 </ul></div></li>			  </ul>

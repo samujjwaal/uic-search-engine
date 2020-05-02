@@ -1,718 +1,1005 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
-  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/"
-  xmlns:dc="http://purl.org/dc/terms/"
-  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-  xmlns:og="http://ogp.me/ns#"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:sioc="http://rdfs.org/sioc/ns#"
-  xmlns:sioct="http://rdfs.org/sioc/types#"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+        <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-WXRNQ8');</script> <!-- End Google Tag Manager -->
+    <title>Use accessibility services</title>
+    <link rel="stylesheet" href="/css/gdpr.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/css/main.min.css?version=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<head profile="http://www.w3.org/1999/xhtml/vocab">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
-  <title>Computer Labs | Academic Computing and Communications Center  </title>
-  <link type="text/css" rel="stylesheet" href="https://accc.drupal.uic.edu/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
-<link type="text/css" rel="stylesheet" href="https://accc.drupal.uic.edu/sites/default/files/css/css_C97MNtte-L48LG9bh-ZvFzSRgqR9x1gIfrvIDp9o6Y4.css" media="all" />
-<link type="text/css" rel="stylesheet" href="https://accc.drupal.uic.edu/sites/default/files/css/css_UXueROLBs7H9Pb6mPrTxSmTpNwsD8B6DLrm4J5yVOSo.css" media="all" />
-<link type="text/css" rel="stylesheet" href="https://accc.drupal.uic.edu/sites/default/files/css/css_Gi2KQBa4KQP-viS3Xs9utbwGTmqh2ceGxVSM10J8c9c.css" media="all" />
-<link type="text/css" rel="stylesheet" href="https://accc.drupal.uic.edu/sites/default/files/css/css_2THG1eGiBIizsWFeexsNe1iDifJ00QRS9uSd03rY9co.css" media="print" />
+    <script>
+        document.documentElement.className = "js";
 
-<!--[if lte IE 7]>
-<link type="text/css" rel="stylesheet" href="https://accc.drupal.uic.edu/sites/all/themes/acccbartik/css/ie.css?q7epeq" media="all" />
-<![endif]-->
+        // utilities
+        var getQueryString = function ( field, url ) {
+            // hat tip https://goo.gl/Q6Hyyx
+            var href = url ? url : window.location.href;
+            var reg = new RegExp( '[?&]' + field + '=([^&#]*)', 'i' );
+            var string = reg.exec(href);
+            return string ? string[1] : null;
+        };
+    </script>
 
-<!--[if IE 6]>
-<link type="text/css" rel="stylesheet" href="https://accc.drupal.uic.edu/sites/all/themes/acccbartik/css/ie6.css?q7epeq" media="all" />
-<![endif]-->
-  <script type="text/javascript" src="https://accc.drupal.uic.edu/sites/default/files/js/js_qikmINIYTWe4jcTUn8cKiMr8bmSDiZB9LQqvceZ6wlM.js"></script>
-<script type="text/javascript" src="https://accc.drupal.uic.edu/sites/default/files/js/js_f_6-OzlFXjayKlsU5sJKLwjz7LFQvdIZDm-Mt6jKwyM.js"></script>
-<script type="text/javascript" src="https://accc.drupal.uic.edu/sites/default/files/js/js_OGG2LAhvAJVgUGcoPxPJH0sAMTBwILD4E31m1DCbV-s.js"></script>
-<script type="text/javascript">
-<!--//--><![CDATA[//><!--
-(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://accc.drupal.uic.edu/sites/default/files/googleanalytics/analytics.js?q7epeq","ga");ga("create", "UA-27751174-1", {"cookieDomain":"auto"});ga("send", "pageview");
-//--><!]]>
-</script>
-<script type="text/javascript">
-<!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"acccbartik","theme_token":"zhtCUf332mhrjYlLMltZgzyjQ54g9EADvxt3u4VxhMs","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"sites\/all\/modules\/field_group\/field_group.js":1,"sites\/all\/modules\/ctools\/js\/jump-menu.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"sites\/all\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/shib_auth\/shib_auth.css":1,"sites\/all\/modules\/tagclouds\/tagclouds.css":1,"sites\/all\/themes\/acccbartik\/ds_layouts\/small_left_col\/small_left_col.css":1,"themes\/bartik\/css\/layout.css":1,"themes\/bartik\/css\/style.css":1,"sites\/all\/themes\/acccbartik\/css\/colors.css":1,"sites\/all\/themes\/acccbartik\/css\/acccbartik.css":1,"themes\/bartik\/css\/print.css":1,"sites\/all\/themes\/acccbartik\/css\/ie.css":1,"sites\/all\/themes\/acccbartik\/css\/ie6.css":1}},"googleCSE":{"cx":"007190388697399463499:niyo8zpomss","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":true},"field_group":{"div":"teaser"},"urlIsAjaxTrusted":{"\/lab\/all":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
-//--><!]]>
-</script>
+
+    <script src="//v2.libanswers.com/load_chat.php?hash=a8f3cdd768831e345ca9d2f796ff5e5d"></script>
+    <script src="https://cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js" type="text/javascript" charset="UTF-8"></script>
 </head>
-<body class="html not-front not-logged-in one-sidebar sidebar-first page-lab page-lab-all footer-columns" >
-  <div id="skip-link">
-    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
-    <a href="/service/learning-environments/accessibility" class="element-invisible element-focusable">Accessibility Resources</a>
+<body class="theme--navy">
+    <!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXRNQ8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) -->
+    <div class="page l-page ">
+
+        <header role="banner">
+                            <!--[if lte IE 9]>
+<div class="browser-stripe u-dark-region">
+  <div class="l-full">
+      <h2>Your browser is unsupported</h2>
+      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
   </div>
-    <div id="page-wrapper"><div id="page">
+</div>
+<![endif]-->
+<div class="browser-stripe u-dark-region ie10">
+  <div class="l-full">
+      <h2>This page is taking too long to load.</h2>
+      <p>Try refreshing the page, or you may need to update your browser. We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
+  </div>
+</div>
+                
+<div class="l-header">
 
-  <div id="header" class="without-secondary-menu"><div class="section clearfix">
+    <div class="eyebrow-mobile-wrapper js-eyebrow-mobile">
+  <div class="eyebrow-mobile">
+    <a href="http://uic.edu" class="icon-uic-logo eyebrow-logo">UIC.edu Home</a>
+    <div class="site-title-eyebrow-mobile">
+      <a href="/">University Library</a>
+    </div>
+    <button class="search-toggle-mobile js-search-toggle-mobile">
+      <span class="icon-search-mobile">
+      Toggle Search
+      </span>
+    </button>
+    <button class="nav-header-toggle js-nav-header-toggle">
+      <span class="icon-menu">
+      Toggle Menu
+      </span>
+    </button>
+  </div>
+    <div class="search-input-container-mobile">
+      <div class="search-title">
+        Search
+        <a class="search-close search-toggle-mobile">
+<svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1.41421;"><g id="icon-close"><path id="Line" d="M2,2l18,18" style="fill:none;stroke-width:2px;stroke:#fff;"/><path id="Line1" d="M20,2l-18,18" style="fill:none;stroke-width:2px;stroke:#fff;"/></g></svg>
+        </a>
+    </div>
+      <form method="get" action="/search" role="search" aria-label="Search this site on your mobile device">
+        <input type="text" name="q" class="search-input-mobile" placeholder="Search..." tabindex="-1" aria-label="Search this site on your mobile device" disabled="">
+        <input type="submit" class="submit-button" name="search" value="Submit">
+      </form>
+    </div>
+</div>
 
-          <a href="/" title="Home" rel="home" id="logo">
-        <img src="https://accc.drupal.uic.edu/sites/default/files/logo-50.png" alt="Home" />
-      </a>
+    <a href="http://uic.edu" class="icon-uic-logo header-logo">UIC.edu Home</a>
+
+    <div class="l-full">
+        <div class="site-title-main -large">
+            <a href="/">University Library</a>
+        </div>
+        <nav class="header-menus js-header-menus" role="navigation">
+
+  <div id="skip" class="skip-menu assistive-text">
+  <p>
+    Skip to
+    <a class="_main" href="#main">the content of this page</a>,
+    <a class="_primary-menu" href="#menu-main">the main menu</a>,
+        <a class="_search" href="#search">the site search form</a>
+    or go to the
+    <a class="_home" href="/">the site home page</a>.
+  </p>
+</div>
+
+  <div class="site-title-mobile-menu">
+    <a href="/">University Library</a>
+  </div>
+
+  <h2 class="assistive-text">Main Menu</h2>
+  <ul id="menu-main" class="menu menu-main" aria-label="Main menu">
+	<li class="_item current-menu-item current-page-ancestor">
+		<a href="/help" target="_self">Help</a>
+    	</li>
+	<li class="_item menu-item-has-children">
+		<a href="/collections" target="_self">Collections</a>
+          <button role="button" class="expand-item js-expand-item">Expand Collections menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/collections/articles" target="_self">Articles</a>
+    </li>
+    <li class="_item ">
+    <a href="/collections/books-media" target="_self">Books &#038; Media</a>
+    </li>
+    <li class="_item menu-item-has-children">
+    <a href="/collections/digital-images" target="_self">Digital Images</a>
+        <button role="button" class="expand-item js-expand-item">Expand Digital Images menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/collections/digital-images/uic-image-collections" target="_self">UIC Image Collections</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item ">
+    <a href="/special-collections-university-archives" target="_self">Special Collections & University Archives</a>
+    </li>
+    <li class="_item ">
+    <a href="/collections/maps-gis" target="_self">Maps & GIS</a>
+    </li>
+    <li class="_item ">
+    <a href="/collections/uic-publications" target="_self">Theses, Dissertations & UIC Publications</a>
+    </li>
+  </ul>
+	</li>
+	<li class="_item menu-item-has-children">
+		<a href="/libraries" target="_self">Libraries</a>
+          <button role="button" class="expand-item js-expand-item">Expand Libraries menu</button>
+  <ul class="_child">
+    <li class="_item menu-item-has-children">
+    <a href="/libraries/daley" target="_self">Chicago-Daley</a>
+        <button role="button" class="expand-item js-expand-item">Expand Chicago-Daley menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/libraries/daley/hours" target="_self">Hours & Location</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item menu-item-has-children">
+    <a href="/libraries/lhs-chicago" target="_self">Chicago-Health Sciences</a>
+        <button role="button" class="expand-item js-expand-item">Expand Chicago-Health Sciences menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/libraries/lhs-chicago/hours" target="_self">Hours & Location</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item menu-item-has-children">
+    <a href="/libraries/lhs-peoria" target="_self">Peoria-Health Sciences</a>
+        <button role="button" class="expand-item js-expand-item">Expand Peoria-Health Sciences menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/libraries/lhs-peoria/hours" target="_self">Hours & Location</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item menu-item-has-children">
+    <a href="/libraries/lhs-rockford" target="_self">Rockford-Health Sciences</a>
+        <button role="button" class="expand-item js-expand-item">Expand Rockford-Health Sciences menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/libraries/lhs-rockford/hours" target="_self">Hours & Location</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item menu-item-has-children">
+    <a href="/libraries/lhs-urbana" target="_self">Urbana-Health Sciences</a>
+        <button role="button" class="expand-item js-expand-item">Expand Urbana-Health Sciences menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/libraries/lhs-urbana/hours" target="_self">Hours & Location</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item ">
+    <a href="http://library.uic.edu/special-collections-university-archives" target="_self">Special Collections & University Archives</a>
+    </li>
+    <li class="_item ">
+    <a href="https://www.jmls.edu/library/" target="_self">UIC John Marshall Law School Library</a>
+    </li>
+  </ul>
+	</li>
+	<li class="_item menu-item-has-children">
+		<a href="/about" target="_self">About</a>
+          <button role="button" class="expand-item js-expand-item">Expand About menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about/events" target="_self">Events</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/news" target="_self">News</a>
+    </li>
+    <li class="_item menu-item-has-children">
+    <a href="/about/employment" target="_self">Jobs & Careers</a>
+        <button role="button" class="expand-item js-expand-item">Expand Jobs & Careers menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about/employment/faculty-support" target="_self">Faculty Support</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item menu-item-has-children">
+    <a href="/about/directory" target="_self">People</a>
+        <button role="button" class="expand-item js-expand-item">Expand People menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about/directory/liaisons" target="_self">Subject Librarians</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/directory/faculty" target="_self">Faculty</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/directory/staff" target="_self">Staff</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/library-departments" target="_self">Library Departments</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item ">
+    <a href="/about/digital-scholarship" target="_self">Digital Scholarship</a>
+    </li>
+    <li class="_item menu-item-has-children">
+    <a href="/about/faculty" target="_self">Faculty</a>
+        <button role="button" class="expand-item js-expand-item">Expand Faculty menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about/faculty/projects" target="_self">Projects and Initiatives</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/faculty/teaching" target="_self">Teaching and Learning</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item menu-item-has-children">
+    <a href="/about/policies" target="_self">Library Policies</a>
+        <button role="button" class="expand-item js-expand-item">Expand Library Policies menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about/policies/privacy-policy" target="_self">User Privacy Policy</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/policies/code-of-conduct" target="_self">Code of Conduct</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/policies/service-policy" target="_self">Service Policy</a>
+    </li>
+    <li class="_item menu-item-has-children">
+    <a href="/about/policies/collection-development-policy" target="_self">Collection Development Policy</a>
+        <button role="button" class="expand-item js-expand-item">Expand Collection Development Policy menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/collections/fy19-collections-changes" target="_self">FY19 Collections Changes</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item ">
+    <a href="/help/article/1901/find-out-when-items-are-due/" target="_self">Renewal and Return Policies</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/policies/daley" target="_self">Daley Library Policies</a>
+    </li>
+    <li class="_item ">
+    <a href="/about/policies/classroom-reservations-policy" target="_self">Daley Library IDEA Commons Classroom Reservations</a>
+    </li>
+  </ul>
+  </li>
+    <li class="_item ">
+    <a href="/about/strategic-plan" target="_self">Strategic Plan</a>
+    </li>
+    <li class="_item menu-item-has-children">
+    <a href="/covid-19" target="_self">COVID-19 and the Library</a>
+        <button role="button" class="expand-item js-expand-item">Expand COVID-19 and the Library menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/covid-19/covid-student-support" target="_self">COVID-19 Student Support Resources</a>
+    </li>
+  </ul>
+  </li>
+  </ul>
+	</li>
+	<li class="_item menu-item-has-children">
+		<a href="/special-collections-university-archives" target="_self">Special Collections & University Archives</a>
+          <button role="button" class="expand-item js-expand-item">Expand Special Collections & University Archives menu</button>
+  <ul class="_child">
+    <li class="_item ">
+    <a href="/about-special-collections-university-archives" target="_self">About Special Collections & University Archives</a>
+    </li>
+    <li class="_item ">
+    <a href="/finding-aids" target="_self">Finding Aids</a>
+    </li>
+    <li class="_item ">
+    <a href="/rare-books" target="_self">Rare Books</a>
+    </li>
+    <li class="_item ">
+    <a href="http://library.uic.edu/collections/maps-gis" target="_self">Maps & GIS</a>
+    </li>
+    <li class="_item ">
+    <a href="http://library.uic.edu/collections/digital-images" target="_self">Digital Images</a>
+    </li>
+    <li class="_item ">
+    <a href="http://library.uic.edu/help/search?q=&t%5B%5D=29" target="_self">Using Special Collections & University Archives</a>
+    </li>
+    <li class="_item ">
+    <a href="http://researchguides.uic.edu/subject/special-collections-archives" target="_self">Special Collections Research Guides</a>
+    </li>
+  </ul>
+	</li>
+</ul>
+
+  <div class="l-eyebrow">
+
+    <h2 class="assistive-text">Eyebrow menu</h2>
+    <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
+	<li class="_item ">
+		<a href="/contact" target="_self">Contact Us</a>
+    	</li>
+	<li class="_item ">
+		<a href="/accounts" target="_self">My Accounts</a>
+    	</li>
+	<li class="_item ">
+		<a href="/donate" target="_self">Give to the Library</a>
+    	</li>
+	<li class="_item ">
+		<a href="/covid-19" target="_self">COVID-19</a>
+    	</li>
+</ul>
+
+    <h2 class="assistive-text">UIC menu</h2>
+    <ul class="menu-uic">
+  <li class="_item">
+    <a href="http://uic.edu">UIC.edu</a>
+  </li>
+  <li class="_item">
+    <a href="http://maps.uic.edu/">Campus Map</a>
+  </li>
+  <li class="_item">
+    <a href="http://today.uic.edu/">UIC Today</a>
+  </li>
+</ul>
+
+    <button id="header-search" class="search-toggle">
+      <span class="icon-search">
+      Toggle Search
+      </span>
+    </button>
+
+    <div class="search-input-container">
+      <form method="get" action="/search" role="search" aria-label="Search this site">
+        <input type="text" name="q" class="search-input" placeholder="Search..." tabindex="-1" aria-label="Search" disabled="">
+        <input type="submit" class="submit-button" name="search" value="Submit">
+      </form>
+    </div>
+
+  </div>
+
+
+</nav>
+    </div>
+
     
-          <div id="name-and-slogan" class="element-invisible">
+    
+</div>
+                    </header>
 
-                              <div id="site-name" class="element-invisible">
-              <strong>
-                <a href="/" title="Home" rel="home"><span>Academic Computing and Communications Center  </span></a>
-              </strong>
+                <main id="main" class="page__main">
+            
+    <div class="layout ">
+    <div class="layout__main">
+            <!-- help-article.twig main -->
+        <nav class="breadcrumbs" aria-label="Breadcrumbs">
+        <h2 class="breadcrumbs__header">Breadcrumbs</h2>
+        <ol>
+                                                <li class="breadcrumbs__list-item">
+                        <a class="breadcrumb breadcrumb--home" href="/">Home</a>
+                    </li>
+                                                                <li class="breadcrumbs__list-item">
+                        <a href="/help"><span class="breadcrumb breadcrumb--here">Help</span></a>
+                    </li>
+                                    </ol>
+    </nav>
+
+    <h1 class="page-title">Use accessibility services</h1>
+            <div class="intro">
+    <p>The UIC Library welcomes users with disabilities, and is committed to providing accessible services, spaces and resources for everyone.  The following information aims to assist users with disabilities to effectively use the Library.</p>
+<p>If there are additional accessibility services you would find helpful, or you have any questions, please let us know by contacting the Library Accessibility Committee at <a href="mailto:lib-access@uic.edu">lib-access@uic.edu</a>.</p>
+
+</div>    
+            <section aria-label="Article content">
+            <!-- container.twig -->
+<div class="content-container">
+  
+          <div class="text-content"><h2 id="contents">Contents</h2>
+<ol>
+<li><a href="#research-assistance">Research assistance</a></li>
+<li><a href="#requesting-books">Requesting books from the shelf</a></li>
+<li><a href="#designate-someone">Designate someone to check out books for you</a></li>
+<li><a href="#scanning-library-materials">Scanning library materials</a></li>
+<li><a href="#using-assistive-technology">Using assistive technology</a></li>
+<li><a href="#printing">Printing</a></li>
+<li><a href="#quiet-areas">Quiet Areas</a></li>
+<li><a href="#distraction-free-study">Distraction-free study</a></li>
+<li><a href="#accessible-restrooms">Accessible restrooms</a></li>
+<li><a href="#service-dogs">Service dogs vs. therapy and emotional support animals</a></li>
+<li><a href="#emergency-evacuation">Emergency evacuation</a></li>
+<li><a href="#commitment">Commitment</a></li>
+</ol>
+<h2 id="research-assistance">Research assistance</h2>
+<p><a href="http://library.uic.edu/help/article/1919/make-an-appointment-with-a-librarian">Make an appointment with a librarian</a> to discuss your research assignments and identify relevant resources. One option is to meet online, sharing a screen to walk through the search process together. To work in person with a librarian and a sign language interpreter, please use <a href="https://drc.uic.edu/asl-cart-requestform/">this form</a> to request an interpreter. It is recommended that you allow one week&#8217;s notice for this.<br />
+<a href="http://library.uic.edu/contact">Other options to get help</a>.</p>
+<h2 id="requesting-books">Requesting books from the shelf</h2>
+<p>Anyone may request that books be pulled for picked up at the front desk:</p>
+<ol>
+<li>Locate the item of interest in the <a href="https://i-share.carli.illinois.edu/vf-uic/">Library Catalog</a>.</li>
+<li>Click “Request Item.”</li>
+<li>Log in.</li>
+<li>Click “Check if item can be requested.”</li>
+<li>Click “Request This Item.&#8221;</li>
+<li>Select your “Pick Up Library” and “Pick Up Location.”</li>
+<li>Click “Place Request.”</li>
+<li>You’ll get an email when the book is ready to pick up (usually 1-2 days).
+<p>As staffing permits, Library staff can also accompany students and employees who need assistance to the stacks in order to browse and retrieve books.</li>
+</ol>
+<h2 id="designate-someone">Designate someone to check out books for you</h2>
+<p>Patrons with disabilities can designate a proxy, another person who has authority to check out books for you using their own i-cards.<br />
+<a href="https://library.uic.edu/help/article/1875/assign-someone-to-pick-up-library-items-for-me/">Assign a person to check out your materials</a>.</p>
+<h2 id="scanning-library-materials">Scanning library materials</h2>
+<p><strong>Students</strong> in need of alternate format of inaccessible library materials must first register with the <a href="https://uic-accommodate.symplicity.com/public_accommodation/">Disability Resource Center (DRC)</a>, then fill out the <a href="https://drc.uic.edu/alternative-text-request-form/">Alternate Format Request Form</a>. The DRC and the Library work collaboratively through this process to ensure students have equitable access to educational materials in a timely manner.<br />
+<strong>Faculty and staff</strong> who have requested and received an <a href="https://oae.uic.edu/disability-accommodations/accommodation-request-form/">accommodation from the Office for Access and Equity (OAE)</a> may place requests for materials by contacting their nearest ILL office using the relevant email address listed below.</p>
+<table>
+<tbody>
+<tr>
+<td><strong>UIC Library</strong></td>
+<td><strong>ILL Email</strong></td>
+</tr>
+<tr>
+<td>Richard J. Daley Library</td>
+<td>lib-ill@uic.edu</td>
+</tr>
+<tr>
+<td>Library of the Health Sciences-Chicago</td>
+<td>lib-lhsill@uic.edu</td>
+</tr>
+<tr>
+<td>Library of the Health Sciences-Peoria</td>
+<td>lib-pcir@uic.edu</td>
+</tr>
+<tr>
+<td>Library of the Health Sciences-Rockford</td>
+<td>lib-lhsr@uic.edu</td>
+</tr>
+<tr>
+<td>Library of the Health Sciences-Urbana</td>
+<td>lib-lhsu@uic.edu</td>
+</tr>
+</tbody>
+</table>
+<h2 id="using-assistive-technology">Using assistive technology</h2>
+<p>The library has screen reader software and text magnification software in the Daley Library and the Library of the Health Sciences-Chicago, and some of these are installed on computers on adjustable tables.<br />
+<a href="https://library.uic.edu/help/article/1957/use-assistive-technologies/">Learn more about assistive technology.</a></p>
+<h2 id="printing">Printing</h2>
+<p><a href="https://answers.uillinois.edu/uic/75041">Accessible WEPA printers are available</a> in the Daley Library (IDEA Commons) and in the Library of Health Sciences, Chicago.</p>
+<h2 id="quiet-areas">Quiet Areas</h2>
+<p>Both Daley and the Library of the Health Sciences have designated quiet areas that are available for all students.<br />
+In the Daley Library, the Circle Reading Room is an enclosed room on the first floor of the library that is a designated quiet space. Also, the third and fourth floors are both designated as quiet floors.<br />
+In the Library of the Health Sciences, there is a large quiet enclosed reading room (107) on the first floor, and also the third floor is the designated quiet floor.</p>
+<h2 id="distraction-free-study">Distraction-free study</h2>
+<p>The Daley Library has a room reserved for students who require individual, distraction-free study space.  <a href="https://libcal.uic.edu/reserve/daley-distraction-reduced">Registration is available online</a>.  Please note this is a limited resource; priority should be given to students requiring accommodations.</p>
+<h2 id="accessible-restrooms">Accessible restrooms</h2>
+<p>In the Daley Library, there are multi-stall restrooms on all four floors that have a wheelchair accessible stall. On the second floor, there is a gender-inclusive, single person restroom which is wheelchair accessible.<br />
+In the Library of the Health Sciences, there are multi-stall restrooms with a wheelchair accessible stall on the lower level and the third floor. The first floor has a gender-inclusive, single person restroom which is wheelchair accessible.</p>
+<h2 id="service-dogs">Service dogs vs. therapy and emotional support animals</h2>
+<p>Service dogs are welcome in the UIC Library. Service dogs are trained to do specific tasks and must be under control at all times. Therapy and emotional support animals that do not perform specific tasks are not permitted in the UIC Library.</p>
+<h2 id="emergency-evacuation">Emergency evacuation</h2>
+<p>When elevators are not in service proceed to the designated Area of Rescue Assistance or nearest stairwell if you can and wait there to be evacuated by a member of the UIC Police Department (UICPD) or an emergency responder.<br />
+If possible, ask a member of the library staff or another person to accompany you to the stairwell. Ask the person to immediately inform UICPD and/or other emergency responders of your exact location (floor, stairwell number, ect.) once the person has evacuated.</p>
+<p>Once in the stairwell, call UICPD (312-355-5555) for help; if no help arrives in 5-10 minutes, call again.</p>
+<h2 id="commitment">Commitment</h2>
+<p>The University of Illinois at Chicago is committed to maintaining a barrier-free environment so that individuals with disabilities can fully access programs, courses, services and activities at UIC. Individuals with concerns about the library should contact Mary Case, University Librarian at marycase@uic.edu or (312) 996-2716.</p>
+</div>    
+    
+    
+    
+    
+  </div>
+        </section>
+    
+    
+    </div>
+    <div class="layout__sidebar">
+        
+            <section class="filter-links" aria-label="Filters to limit results">
+
+    <h2 class="filter-links__title">Filter by Location</h2>
+
+    <ul class="filter-links__list">
+                    <li class="filter-links__item">
+                <a href="/help/search?l%5B0%5D=386">Chicago-Daley</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?l%5B0%5D=388">Chicago-Health Sciences</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?l%5B0%5D=389">Peoria-Health Sciences</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?l%5B0%5D=390">Rockford-Health Sciences</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?l%5B0%5D=391">Urbana-Health Sciences</a>
+            </li>
+            </ul>
+
+</section>
+    
+            <section class="filter-links" aria-label="Filters to limit results">
+
+    <h2 class="filter-links__title">Filter by Topic</h2>
+
+    <ul class="filter-links__list">
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=17">Accessibility</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=18">Borrowing</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=19">Computers, Printing &amp; Scanning</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=48">Copyright &amp; Scholarly Publishing</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=20">Course Reserves</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=21">Electronic Resources</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=23">Library Accounts</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=24">Off-Campus Access</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=26">Requesting Materials</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=27">Research Help</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=361">Searching</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=29">Special Collections &amp; University Archives</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=208">Study Spaces</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=1">Uncategorized</a>
+            </li>
+                    <li class="filter-links__item">
+                <a href="/help/search?t%5B0%5D=286">Writing, Style &amp; Citations</a>
+            </li>
+            </ul>
+
+</section>
+    
+    </div>
+</div>
+
+    <div class="contact-callout" aria-label="Contact a Librarian">
+    <div class="contact-callout__container uic_grid">
+        <div class="contact-callout__content">
+            <div>
+                <a href="/contact" class="jumbo-link">
+                    <span class="_prefix">Need help?</span>
+                    <span class="_text">Contact a Librarian!</span>
+                </a>
             </div>
-                  
-        
-      </div> <!-- /#name-and-slogan -->
-    
-      <div class="region region-header">
-    <div id="block-search-form" class="block block-search">
-
-    
-  <div class="content">
-    <form class="google-cse" action="/lab/all" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
-      <h2 class="element-invisible">Search form</h2>
-    <div class="form-item form-type-textfield form-item-search-block-form">
-  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
- <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
-</div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-j-4-XJUkB-baqH2gCCwOwuqsNfCGSUn9hKUh1JA7pyU" />
-<input type="hidden" name="form_id" value="search_block_form" />
-</div>
-</div></form>  </div>
-</div>
-<div id="block-block-14" class="block block-block">
-
-    
-  <div class="content">
-    <iframe allowtransparency="true" frameborder="0" scrolling="no" src="//platform.twitter.com/widgets/follow_button.html?screen_name=uic_accc&show_count=false" style="width:115px; height:20px;"></iframe>  </div>
-</div>
-  </div>
-
-          <div id="main-menu" class="navigation">
-        <h2 class="element-invisible">Main menu</h2><ul id="main-menu-links" class="links clearfix"><li class="menu-9734 first"><a href="http://accc.uic.edu" title="">New ACCC Site</a></li>
-<li class="menu-227"><a href="/">Home</a></li>
-<li class="menu-9732"><a href="https://accc.drupal.uic.edu/classroom/all" title="">Classrooms</a></li>
-<li class="menu-9733"><a href="https://accc.drupal.uic.edu/lab/all" title="">Labs</a></li>
-<li class="menu-568"><a href="/service-status">Service Status</a></li>
-<li class="menu-4776 last"><a href="/contact">Contact</a></li>
-</ul>      </div> <!-- /#main-menu -->
-    
-    
-  </div></div> <!-- /.section, /#header -->
-
-  
-  
-  <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
-
-          <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a> » <a href="/service/all">Service Catalog</a></div></div>
-    
-          <div id="sidebar-first" class="column sidebar"><div class="section">
-          <div class="region region-sidebar-first">
-    <div id="block-views-computer-labs-block-1" class="block block-views">
-
-    <h2><a href="/lab/all" class="block-title-link active">Computer Labs</a></h2>
-  
-  <div class="content">
-    <div class="view view-computer-labs view-id-computer_labs view-display-id-block_1 view-dom-id-235b7b9f1fda7e0e39c16dba031de426">
-        
-  
-  
-      <div class="view-content">
-      <form action="/lab/all" method="post" id="ctools-jump-menu" accept-charset="UTF-8"><div><div class="container-inline"><div class="form-item form-type-select form-item-jump">
- <select class="ctools-jump-menu-select ctools-jump-menu-change form-select" id="edit-jump" name="jump"><option value="" selected="selected">Choose computer lab</option><optgroup label="Campus: West"><option value="b494c5bcd68d81e931881bf934614914::/lab/bgrc-105a">  
-          BGRC 105A  </option><option value="818806046c3ee94b355702c70871b71c::/lab/bgrc-105b">  
-          BGRC 105B  </option><option value="4e1f3627e90e90ba7af98a7a9b1dddf0::/lab/srh-209">  
-          SRH 209  </option></optgroup><optgroup label="Campus: East"><option value="222e6217de20de1c49a8a4fb21082a73::/lab/bsb-4133">  
-          BSB 4133  </option><option value="00d23e3ba6a37982c181e8b06ee0e7bd::/lab/bsb-b001">  
-          BSB B001  </option><option value="232bbf2dae5a9db7112a410e4a6cceba::/lab/gh-304">  
-          GH 304  </option><option value="db653e00b87b131da82131c8ebda81d8::/lab/gh-306">  
-          GH 306  </option><option value="d617d42e538fd940b4fb2cf55e52a200::/lab/lib-1-270">  
-          LIB 1-270  </option><option value="0f3c256fb228e95c03d092d41bfc3879::/lab/lib-1st-floor">  
-          LIB 1st Floor  </option><option value="da2c002f3ac6ea8f61686d6574a5d1dd::/lab/lib-2nd-floor">  
-          LIB 2nd Floor  </option><option value="f56e2b3b6c3332ce71bd66c2d2c1c3a9::/lab/lib-3rd-floor">  
-          LIB 3rd Floor  </option><option value="076dda3e96751047f4871cdba47d6588::/lab/lib-4th-floor">  
-          LIB 4th Floor  </option><option value="33541a1582a8fae67facbff93354da00::/lab/lib-idea-commons">  
-          LIB IDEA Commons  </option><option value="976bc461caaebf695ecc28a51c872009::/lab/sce-401">  
-          SCE 401  </option><option value="3942b387372f61900447c4da89b5a6b2::/lab/sce-408">  
-          SCE 408  </option><option value="9e1dc86892bcda520bc8f0743df676eb::/lab/sele-2058">  
-          SELE 2058  </option><option value="8d98f2c3b0f7f05ffe5a656686caae6a::/lab/sele-2249e">  
-          SELE 2249E  </option><option value="ce4d66793d5d43730d3a081e54b963a9::/lab/sele-2249f">  
-          SELE 2249F  </option><option value="613c5c4fda428efb0c2db12d4c6a2f87::/lab/sele-2263">  
-          SELE 2263  </option><option value="346d4a5fb983cdd012094d7cff99ed1e::/lab/sele-2265">  
-          SELE 2265  </option><option value="165802dc84a1f16e3d783393b996880e::/lab/seo-1200">  
-          SEO 1200  </option><option value="36e456a979eb12a17397d0256228941a::/lab/ses-205b">  
-          SES 205B  </option><option value="0866023964cc3acc2316cdb3363525fc::/lab/src-2027">  
-          SRC 2027  </option></optgroup><optgroup label="Campus: South"><option value="109f0d3f27eab7e58058cb13f6105ac4::/lab/jjst-214">  
-          JJST 214  </option><option value="882e96aaad810bfee9896612eb292cc7::/lab/mrh-156">  
-          MRH 156  </option><option value="127afa5b4ec9b884807bad885d3a173a::/lab/tbh-181">  
-          TBH 181  </option></optgroup></select>
-</div>
-<input class="ctools-jump-menu-button ctools-jump-menu-hide form-submit" type="submit" id="edit-go" name="op" value="Go" /></div><input type="hidden" name="form_build_id" value="form-h8Wt_jk6bijos0TAXZoMBNkXnKBaM29h5I2waVmOXdY" />
-<input type="hidden" name="form_id" value="ctools_jump_menu" />
-</div></form>    </div>
-  
-  
-  
-  
-  
-  
-</div>  </div>
-</div>
-<div id="block-views-computer-labs-block-2" class="block block-views">
-
-    <h2>Computer Labs</h2>
-  
-  <div class="content">
-    <div class="view view-computer-labs view-id-computer_labs view-display-id-block_2 view-dom-id-fa94a88523b2727564733ee240cf35e7">
-            <div class="view-header">
-      <p>Computer labs are completely reinstalled ("reimaged") once a semester. Below are the dates on which the lab has been or will be reimaged.</p>
+        </div>
     </div>
-  
-  
-  
-      <div class="view-content">
-      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
-          <a href="/lab/bgrc-105a">BGRC 105A</a>    
-          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-08-17T09:00:00-05:00">Sat, Aug 17</span>  </li>
-          <li class="views-row views-row-2 views-row-even">  
-          <a href="/lab/bgrc-105b">BGRC 105B</a>    
+</div>
+
+        </main>
+        
+        <footer class="page__footer" role="contentinfo">
+                            <div class="footer uic-footer">
+
+    <section class="uic-footer__site" aria-label="Website footer, with miscellaneous site and location links">
+        <div class="uic-footer__site-container">
+            <div class="uic-footer__site-title">
+                                    <span class="wordmark" style="display: inline-block;">
+    <span class="wordmark__container">
+        <span class="wordmark__content">
+            <span class="wordmark__logo"><svg class="uic-circle-logo" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54">
+    <title>Logo for the University of Illinois at Chicago</title>
+    <rect class="uic-circle-logo__text" x="5" y="17" width="46" height="20"/>
+    <path class="uic-circle-logo__circle" d="M54,27C54,12.1,41.9,0,27,0S0,12.1,0,27s12.1,27,27,27S54,41.9,54,27z M21.8,29.4c0,2.5-0.3,3.6-1,4.8
+	c-1.2,1.9-4.3,2.7-7,2.7s-5.8-0.8-7-2.7c-0.7-1.2-1-2.4-1-4.8V19H11v10.5c-0.1,0.9,0.1,1.8,0.6,2.5c0.5,0.5,1.3,0.8,2.1,0.7
+	c0.8,0.1,1.6-0.2,2.2-0.8c0.5-0.7,0.7-1.6,0.6-2.5V19h5.3V29.4z M25,19h5.3v17.6H25V19z M49.3,23.4l-4.6,2.2
+	c-0.4-1.7-1.4-2.7-3.1-2.7c-2.2,0-3.4,1.9-3.4,4.9s1.1,4.8,3.4,4.8c1.4,0.1,2.7-0.8,3-2.2l4.8,1.7c-1.2,2.8-3.8,4.8-7.8,4.8
+	c-5.6,0-8.8-3.7-8.8-9.1s3.4-9.1,8.9-9.1C45.9,18.7,48.3,21.1,49.3,23.4L49.3,23.4z"/>
+</svg>
+</span>
+            <span class="wordmark__text">
+                <span class="wordmark__line wordmark__university">University</span>
+                <span class="wordmark__line wordmark__library">Library</span>
+            </span>
+        </span>
+    </span>
+</span>
+                            </div>
+            <div class="uic-footer__site-content-and-links">
+                <div class="uic-footer__site-content">
+                                            <section class="footer-locations"  aria-label="Library locations">
+
+    <h2 class="footer-locations__header">Locations</h2>
+
+    <ul class="footer-locations__list">
+                    <li class="footer-locations__list-item">
+                <article aria-label="Footer for location Richard J. Daley Library">
+
+    <article class="footer-location">
+        <a href="/libraries/daley">
+
+            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
+</div>
+
+            <h3 class="footer-location__name">Richard J. <span class="last-two-words">Daley Library</span></h3>
+
+                            <div class="footer-location__address">
+                    <div class="footer-location-address">
+    <p>801 S. Morgan</p>
+
+    <p>
+        <span class="city">Chicago</span>,
+        <span class="state">IL</span>
+        <span class="zip">60607</span>
+    </p>
+</div>
+                </div>
+            
+                            <div class="footer-location__phones">
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Circulation</span>
+    <span class="footer-location-phone__number">(312) 996-2724</span>
+</div>
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Reference</span>
+    <span class="footer-location-phone__number">(312) 996-2726</span>
+</div>
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Special Collections & University Archives</span>
+    <span class="footer-location-phone__number">(312) 996-2742</span>
+</div>
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Course Reserves</span>
+    <span class="footer-location-phone__number">(312) 996-2719</span>
+</div>
+                                    </div>
+            
+        </a>
+    </article>
+
+    <br />
+
+
+            <div class="footer-location__socialicon">
+                            <a href="https://www.facebook.com/uicdaleylibrary">
+                                           <svg width="10px" height="20px" viewBox="12 8 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M21.568676,36.4557627 L21.568676,22.1991924 L25.4569425,22.1991924 C25.4569425,22.1991924 25.8207426,19.8149587 25.9965387,17.3257356 L21.5906505,17.3257356 L21.5906505,14.0808338 C21.5906505,13.5961739 22.2230279,12.9418219 22.8456388,12.9418219 L25.856146,12.9418219 C25.8891077,12.193468 26.0551373,10.061941 26.2162837,8 L21.7115102,8 C15.6306765,8 15.7747316,12.7501554 15.7747316,13.4618852 L15.7747316,17.3440477 L12,17.3440477 L12,22.1991924 L15.7747316,22.1991924 L15.7747316,36.4557627 L21.568676,36.4557627 Z" id="Fill-1" stroke="none" fill-rule="evenodd"></path>
+</svg>                                    </a>
+                &nbsp;
+                            <a href="https://twitter.com/uiclibrary">
+                                           <svg width="10px" height="20px" viewBox="32 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M49.771,6.589 C50.624,6.077 51.28,5.267 51.588,4.302 C50.79,4.776 49.905,5.119 48.964,5.305 C48.21,4.502 47.136,4 45.947,4 C43.665,4 41.814,5.85 41.814,8.133 C41.814,8.457 41.85,8.773 41.921,9.075 C38.486,8.902 35.44,7.256 33.402,4.756 C33.046,5.367 32.843,6.076 32.843,6.834 C32.843,8.268 33.572,9.533 34.681,10.275 C34.004,10.253 33.366,10.067 32.809,9.758 L32.809,9.81 C32.809,11.812 34.233,13.483 36.124,13.862 C35.777,13.956 35.412,14.007 35.035,14.007 C34.769,14.007 34.51,13.98 34.258,13.932 C34.783,15.575 36.31,16.77 38.119,16.803 C36.704,17.912 34.922,18.572 32.985,18.572 C32.652,18.572 32.323,18.552 32,18.514 C33.829,19.687 36.001,20.372 38.335,20.372 C45.937,20.372 50.094,14.073 50.094,8.612 C50.094,8.433 50.091,8.254 50.082,8.077 C50.89,7.495 51.591,6.767 52.145,5.938 C51.404,6.266 50.607,6.488 49.771,6.589 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                                    </a>
+                &nbsp;
+            	    
+        </div>
+    
+</article>
             </li>
-          <li class="views-row views-row-3 views-row-odd">  
-          <a href="/lab/bsb-4133">BSB 4133</a>    
+                    <li class="footer-locations__list-item">
+                <article aria-label="Footer for location Library of the Health Sciences-Chicago">
+
+    <article class="footer-location">
+        <a href="/libraries/lhs-chicago">
+
+            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
+</div>
+
+            <h3 class="footer-location__name">Library of the <span class="last-two-words">Health Sciences-Chicago</span></h3>
+
+                            <div class="footer-location__address">
+                    <div class="footer-location-address">
+    <p>1750 W. Polk St.</p>
+
+    <p>
+        <span class="city">Chicago</span>,
+        <span class="state">IL</span>
+        <span class="zip">60612</span>
+    </p>
+</div>
+                </div>
+            
+                            <div class="footer-location__phones">
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Circulation</span>
+    <span class="footer-location-phone__number">(312) 996-8966</span>
+</div>
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Reference</span>
+    <span class="footer-location-phone__number">(312) 996-9163</span>
+</div>
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Special Collections & University Archives</span>
+    <span class="footer-location-phone__number">(312) 996-8977</span>
+</div>
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Course Reserves</span>
+    <span class="footer-location-phone__number">(312) 996-8963</span>
+</div>
+                                    </div>
+            
+        </a>
+    </article>
+
+    <br />
+
+
+            <div class="footer-location__socialicon">
+                            <a href="https://www.facebook.com/LHSChicago">
+                                           <svg width="10px" height="20px" viewBox="12 8 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M21.568676,36.4557627 L21.568676,22.1991924 L25.4569425,22.1991924 C25.4569425,22.1991924 25.8207426,19.8149587 25.9965387,17.3257356 L21.5906505,17.3257356 L21.5906505,14.0808338 C21.5906505,13.5961739 22.2230279,12.9418219 22.8456388,12.9418219 L25.856146,12.9418219 C25.8891077,12.193468 26.0551373,10.061941 26.2162837,8 L21.7115102,8 C15.6306765,8 15.7747316,12.7501554 15.7747316,13.4618852 L15.7747316,17.3440477 L12,17.3440477 L12,22.1991924 L15.7747316,22.1991924 L15.7747316,36.4557627 L21.568676,36.4557627 Z" id="Fill-1" stroke="none" fill-rule="evenodd"></path>
+</svg>                                    </a>
+                &nbsp;
+                            <a href="https://twitter.com/LHS_Chicago">
+                                           <svg width="10px" height="20px" viewBox="32 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M49.771,6.589 C50.624,6.077 51.28,5.267 51.588,4.302 C50.79,4.776 49.905,5.119 48.964,5.305 C48.21,4.502 47.136,4 45.947,4 C43.665,4 41.814,5.85 41.814,8.133 C41.814,8.457 41.85,8.773 41.921,9.075 C38.486,8.902 35.44,7.256 33.402,4.756 C33.046,5.367 32.843,6.076 32.843,6.834 C32.843,8.268 33.572,9.533 34.681,10.275 C34.004,10.253 33.366,10.067 32.809,9.758 L32.809,9.81 C32.809,11.812 34.233,13.483 36.124,13.862 C35.777,13.956 35.412,14.007 35.035,14.007 C34.769,14.007 34.51,13.98 34.258,13.932 C34.783,15.575 36.31,16.77 38.119,16.803 C36.704,17.912 34.922,18.572 32.985,18.572 C32.652,18.572 32.323,18.552 32,18.514 C33.829,19.687 36.001,20.372 38.335,20.372 C45.937,20.372 50.094,14.073 50.094,8.612 C50.094,8.433 50.091,8.254 50.082,8.077 C50.89,7.495 51.591,6.767 52.145,5.938 C51.404,6.266 50.607,6.488 49.771,6.589 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                                    </a>
+                &nbsp;
+            	    
+        </div>
+    
+</article>
             </li>
-          <li class="views-row views-row-4 views-row-even">  
-          <a href="/lab/bsb-b001">BSB B001</a>    
+                    <li class="footer-locations__list-item">
+                <article aria-label="Footer for location Library of the Health Sciences-Peoria">
+
+    <article class="footer-location">
+        <a href="/libraries/lhs-peoria">
+
+            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
+</div>
+
+            <h3 class="footer-location__name">Library of the <span class="last-two-words">Health Sciences-Peoria</span></h3>
+
+                            <div class="footer-location__address">
+                    <div class="footer-location-address">
+    <p>One Illini Drive</p>
+
+    <p>
+        <span class="city">Peoria</span>,
+        <span class="state">IL</span>
+        <span class="zip">61605</span>
+    </p>
+</div>
+                </div>
+            
+                            <div class="footer-location__phones">
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Phone</span>
+    <span class="footer-location-phone__number">(309) 671-8490</span>
+</div>
+                                    </div>
+            
+        </a>
+    </article>
+
+    <br />
+
+
+            <div class="footer-location__socialicon">
+                            <a href="https://twitter.com/uiclibrary">
+                                           <svg width="10px" height="20px" viewBox="32 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M49.771,6.589 C50.624,6.077 51.28,5.267 51.588,4.302 C50.79,4.776 49.905,5.119 48.964,5.305 C48.21,4.502 47.136,4 45.947,4 C43.665,4 41.814,5.85 41.814,8.133 C41.814,8.457 41.85,8.773 41.921,9.075 C38.486,8.902 35.44,7.256 33.402,4.756 C33.046,5.367 32.843,6.076 32.843,6.834 C32.843,8.268 33.572,9.533 34.681,10.275 C34.004,10.253 33.366,10.067 32.809,9.758 L32.809,9.81 C32.809,11.812 34.233,13.483 36.124,13.862 C35.777,13.956 35.412,14.007 35.035,14.007 C34.769,14.007 34.51,13.98 34.258,13.932 C34.783,15.575 36.31,16.77 38.119,16.803 C36.704,17.912 34.922,18.572 32.985,18.572 C32.652,18.572 32.323,18.552 32,18.514 C33.829,19.687 36.001,20.372 38.335,20.372 C45.937,20.372 50.094,14.073 50.094,8.612 C50.094,8.433 50.091,8.254 50.082,8.077 C50.89,7.495 51.591,6.767 52.145,5.938 C51.404,6.266 50.607,6.488 49.771,6.589 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                                    </a>
+                &nbsp;
+            	    
+        </div>
+    
+</article>
             </li>
-          <li class="views-row views-row-5 views-row-odd">  
-          <a href="/lab/gh-304">GH 304</a>    
+                    <li class="footer-locations__list-item">
+                <article aria-label="Footer for location Crawford Library of the Health Sciences-Rockford">
+
+    <article class="footer-location">
+        <a href="/libraries/lhs-rockford">
+
+            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
+</div>
+
+            <h3 class="footer-location__name">Crawford Library of the <span class="last-two-words">Health Sciences-Rockford</span></h3>
+
+                            <div class="footer-location__address">
+                    <div class="footer-location-address">
+    <p>1601 Parkview Ave.</p>
+
+    <p>
+        <span class="city">Rockford</span>,
+        <span class="state">IL</span>
+        <span class="zip">61107</span>
+    </p>
+</div>
+                </div>
+            
+                            <div class="footer-location__phones">
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Phone</span>
+    <span class="footer-location-phone__number">(815) 395-5650</span>
+</div>
+                                    </div>
+            
+        </a>
+    </article>
+
+    <br />
+
+
+            <div class="footer-location__socialicon">
+                            <a href="https://www.facebook.com/CLHSRockford">
+                                           <svg width="10px" height="20px" viewBox="12 8 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M21.568676,36.4557627 L21.568676,22.1991924 L25.4569425,22.1991924 C25.4569425,22.1991924 25.8207426,19.8149587 25.9965387,17.3257356 L21.5906505,17.3257356 L21.5906505,14.0808338 C21.5906505,13.5961739 22.2230279,12.9418219 22.8456388,12.9418219 L25.856146,12.9418219 C25.8891077,12.193468 26.0551373,10.061941 26.2162837,8 L21.7115102,8 C15.6306765,8 15.7747316,12.7501554 15.7747316,13.4618852 L15.7747316,17.3440477 L12,17.3440477 L12,22.1991924 L15.7747316,22.1991924 L15.7747316,36.4557627 L21.568676,36.4557627 Z" id="Fill-1" stroke="none" fill-rule="evenodd"></path>
+</svg>                                    </a>
+                &nbsp;
+                            <a href="https://twitter.com/CrawfordLibrary">
+                                           <svg width="10px" height="20px" viewBox="32 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M49.771,6.589 C50.624,6.077 51.28,5.267 51.588,4.302 C50.79,4.776 49.905,5.119 48.964,5.305 C48.21,4.502 47.136,4 45.947,4 C43.665,4 41.814,5.85 41.814,8.133 C41.814,8.457 41.85,8.773 41.921,9.075 C38.486,8.902 35.44,7.256 33.402,4.756 C33.046,5.367 32.843,6.076 32.843,6.834 C32.843,8.268 33.572,9.533 34.681,10.275 C34.004,10.253 33.366,10.067 32.809,9.758 L32.809,9.81 C32.809,11.812 34.233,13.483 36.124,13.862 C35.777,13.956 35.412,14.007 35.035,14.007 C34.769,14.007 34.51,13.98 34.258,13.932 C34.783,15.575 36.31,16.77 38.119,16.803 C36.704,17.912 34.922,18.572 32.985,18.572 C32.652,18.572 32.323,18.552 32,18.514 C33.829,19.687 36.001,20.372 38.335,20.372 C45.937,20.372 50.094,14.073 50.094,8.612 C50.094,8.433 50.091,8.254 50.082,8.077 C50.89,7.495 51.591,6.767 52.145,5.938 C51.404,6.266 50.607,6.488 49.771,6.589 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                                    </a>
+                &nbsp;
+            	    
+        </div>
+    
+</article>
             </li>
-          <li class="views-row views-row-6 views-row-even">  
-          <a href="/lab/gh-306">GH 306</a>    
+                    <li class="footer-locations__list-item">
+                <article aria-label="Footer for location Library of the Health Sciences-Urbana">
+
+    <article class="footer-location">
+        <a href="/libraries/lhs-urbana">
+
+            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
+</svg>
+</div>
+
+            <h3 class="footer-location__name">Library of the <span class="last-two-words">Health Sciences-Urbana</span></h3>
+
+                            <div class="footer-location__address">
+                    <div class="footer-location-address">
+    <p>470 Grainger Engineering Library Information Center,<br />
+1301 W. Springfield Ave.</p>
+
+    <p>
+        <span class="city">Urbana</span>,
+        <span class="state">IL</span>
+        <span class="zip">61801</span>
+    </p>
+</div>
+                </div>
+            
+                            <div class="footer-location__phones">
+                                            <div class="footer-location-phone">
+    <span class="footer-location-phone__name">Circulation and Reference</span>
+    <span class="footer-location-phone__number">(217) 244-2261</span>
+</div>
+                                    </div>
+            
+        </a>
+    </article>
+
+    <br />
+
+
+            <div class="footer-location__socialicon">
+                            <a href="https://www.facebook.com/pages/Library-of-the-Health-Sciences-Urbana/59707691709">
+                                           <svg width="10px" height="20px" viewBox="12 8 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M21.568676,36.4557627 L21.568676,22.1991924 L25.4569425,22.1991924 C25.4569425,22.1991924 25.8207426,19.8149587 25.9965387,17.3257356 L21.5906505,17.3257356 L21.5906505,14.0808338 C21.5906505,13.5961739 22.2230279,12.9418219 22.8456388,12.9418219 L25.856146,12.9418219 C25.8891077,12.193468 26.0551373,10.061941 26.2162837,8 L21.7115102,8 C15.6306765,8 15.7747316,12.7501554 15.7747316,13.4618852 L15.7747316,17.3440477 L12,17.3440477 L12,22.1991924 L15.7747316,22.1991924 L15.7747316,36.4557627 L21.568676,36.4557627 Z" id="Fill-1" stroke="none" fill-rule="evenodd"></path>
+</svg>                                    </a>
+                &nbsp;
+                            <a href="https://twitter.com/uiclibrary">
+                                           <svg width="10px" height="20px" viewBox="32 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M49.771,6.589 C50.624,6.077 51.28,5.267 51.588,4.302 C50.79,4.776 49.905,5.119 48.964,5.305 C48.21,4.502 47.136,4 45.947,4 C43.665,4 41.814,5.85 41.814,8.133 C41.814,8.457 41.85,8.773 41.921,9.075 C38.486,8.902 35.44,7.256 33.402,4.756 C33.046,5.367 32.843,6.076 32.843,6.834 C32.843,8.268 33.572,9.533 34.681,10.275 C34.004,10.253 33.366,10.067 32.809,9.758 L32.809,9.81 C32.809,11.812 34.233,13.483 36.124,13.862 C35.777,13.956 35.412,14.007 35.035,14.007 C34.769,14.007 34.51,13.98 34.258,13.932 C34.783,15.575 36.31,16.77 38.119,16.803 C36.704,17.912 34.922,18.572 32.985,18.572 C32.652,18.572 32.323,18.552 32,18.514 C33.829,19.687 36.001,20.372 38.335,20.372 C45.937,20.372 50.094,14.073 50.094,8.612 C50.094,8.433 50.091,8.254 50.082,8.077 C50.89,7.495 51.591,6.767 52.145,5.938 C51.404,6.266 50.607,6.488 49.771,6.589 Z" stroke="none" fill-rule="evenodd"></path>
+</svg>
+                                    </a>
+                &nbsp;
+            	    
+        </div>
+    
+</article>
             </li>
-          <li class="views-row views-row-7 views-row-odd">  
-          <a href="/lab/jjst-214">JJST 214</a>    
-            </li>
-          <li class="views-row views-row-8 views-row-even">  
-          <a href="/lab/lib-1-270">LIB 1-270</a>    
-            </li>
-          <li class="views-row views-row-9 views-row-odd">  
-          <a href="/lab/lib-1st-floor">LIB 1st Floor</a>    
-            </li>
-          <li class="views-row views-row-10 views-row-even">  
-          <a href="/lab/lib-2nd-floor">LIB 2nd Floor</a>    
-            </li>
-          <li class="views-row views-row-11 views-row-odd">  
-          <a href="/lab/lib-3rd-floor">LIB 3rd Floor</a>    
-            </li>
-          <li class="views-row views-row-12 views-row-even">  
-          <a href="/lab/lib-4th-floor">LIB 4th Floor</a>    
-            </li>
-          <li class="views-row views-row-13 views-row-odd">  
-          <a href="/lab/lib-idea-commons">LIB IDEA Commons</a>    
-            </li>
-          <li class="views-row views-row-14 views-row-even">  
-          <a href="/lab/mrh-156">MRH 156</a>    
-            </li>
-          <li class="views-row views-row-15 views-row-odd">  
-          <a href="/lab/sce-401">SCE 401</a>    
-            </li>
-          <li class="views-row views-row-16 views-row-even">  
-          <a href="/lab/sce-408">SCE 408</a>    
-            </li>
-          <li class="views-row views-row-17 views-row-odd">  
-          <a href="/lab/sele-2058">SELE 2058</a>    
-            </li>
-          <li class="views-row views-row-18 views-row-even">  
-          <a href="/lab/sele-2249e">SELE 2249E</a>    
-            </li>
-          <li class="views-row views-row-19 views-row-odd">  
-          <a href="/lab/sele-2249f">SELE 2249F</a>    
-            </li>
-          <li class="views-row views-row-20 views-row-even">  
-          <a href="/lab/sele-2263">SELE 2263</a>    
-            </li>
-          <li class="views-row views-row-21 views-row-odd">  
-          <a href="/lab/sele-2265">SELE 2265</a>    
-            </li>
-          <li class="views-row views-row-22 views-row-even">  
-          <a href="/lab/seo-1200">SEO 1200</a>    
-            </li>
-          <li class="views-row views-row-23 views-row-odd">  
-          <a href="/lab/ses-205b">SES 205B</a>    
-            </li>
-          <li class="views-row views-row-24 views-row-even">  
-          <a href="/lab/src-2027">SRC 2027</a>    
-            </li>
-          <li class="views-row views-row-25 views-row-odd">  
-          <a href="/lab/srh-209">SRH 209</a>    
-            </li>
-          <li class="views-row views-row-26 views-row-even views-row-last">  
-          <a href="/lab/tbh-181">TBH 181</a>    
-            </li>
-      </ul></div>    </div>
-  
-  
-  
-  
-  
-  
-</div>  </div>
-</div>
-  </div>
-      </div></div> <!-- /.section, /#sidebar-first -->
-    
-    <div id="content" class="column"><div class="section">
-            <a id="main-content"></a>
-                    <h1 class="title" id="page-title">
-          Computer Labs        </h1>
-                          <div class="tabs">
-                  </div>
-                          <div class="region region-content">
-    <div class="view view-computer-labs view-id-computer_labs view-display-id-page_1 view-dom-id-7f16d7fc5a4886e4c5b429d07c99b175">
-            <div class="view-header">
-      Displaying 1 - 26 of 26 computer labs    </div>
-  
-  
-  
-      <div class="view-content">
-        <div class="views-row views-row-1 views-row-odd views-row-first">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser group-one-column clearfix">
-
-    
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/bgrc-105a">BGRC 105A</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/all" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">All</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/benjamin-goldberg-research-center" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Benjamin Goldberg Research Center</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">8</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-2 views-row-even">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser clearfix">
-
-    
-      <div class="ds-left">
-      <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item odd"><a href="/lab/bgrc-105b"><img typeof="foaf:Image" src="https://accc.drupal.uic.edu/sites/default/files/styles/large_thumbnail/public/bgrc105b-1.jpg?itok=XRkNZ9-6" width="150" height="100" alt="" /></a></div></div></div>    </div>
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/bgrc-105b">BGRC 105B</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--2" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/all" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">All</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/benjamin-goldberg-research-center" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Benjamin Goldberg Research Center</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">18</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-3 views-row-odd">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser clearfix">
-
-    
-      <div class="ds-left">
-      <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item odd"><a href="/lab/bsb-4133"><img typeof="foaf:Image" src="https://accc.drupal.uic.edu/sites/default/files/styles/large_thumbnail/public/best_bsb4133img_1888.jpg?itok=f8rw0t8f" width="150" height="100" alt="" /></a></div></div></div>    </div>
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/bsb-4133">BSB 4133</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--3" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/limited" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Limited</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/behavioral-sciences-building" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Behavioral Sciences Building</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">27</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-4 views-row-even">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser clearfix">
-
-    
-      <div class="ds-left">
-      <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item odd"><a href="/lab/bsb-b001"><img typeof="foaf:Image" src="https://accc.drupal.uic.edu/sites/default/files/styles/large_thumbnail/public/best_bsbimg1946web_0.jpg?itok=-nzWA0__" width="150" height="100" alt="" /></a></div></div></div>    </div>
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/bsb-b001">BSB B001</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--4" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/all" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">All</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/behavioral-sciences-building" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Behavioral Sciences Building</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">56</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-5 views-row-odd">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser clearfix">
-
-    
-      <div class="ds-left">
-      <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item odd"><a href="/lab/gh-304"><img typeof="foaf:Image" src="https://accc.drupal.uic.edu/sites/default/files/styles/large_thumbnail/public/best_gh304crw_1658.jpg?itok=WUBZwwsB" width="150" height="100" alt="" /></a></div></div></div>    </div>
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/gh-304">GH 304</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--5" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/limited" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Limited</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/grant-hall" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Grant Hall</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">24</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-6 views-row-even">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser clearfix">
-
-    
-      <div class="ds-left">
-      <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item odd"><a href="/lab/gh-306"><img typeof="foaf:Image" src="https://accc.drupal.uic.edu/sites/default/files/styles/large_thumbnail/public/bestgh306crw_1650.jpg?itok=c-5OB8YY" width="150" height="100" alt="" /></a></div></div></div>    </div>
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/gh-306">GH 306</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--6" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/all" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">All</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/grant-hall" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Grant Hall</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">25</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-7 views-row-odd">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser group-one-column clearfix">
-
-    
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/jjst-214">JJST 214</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--7" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/limited" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Limited</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/james-j-stukel-towers" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">James J. Stukel Towers</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">Yes</span></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-8 views-row-even">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser group-one-column clearfix">
-
-    
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/lib-1-270">LIB 1-270</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--8" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/all" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">All</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/richard-j-daley-library" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Richard J. Daley Library</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">15</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-9 views-row-odd">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser group-one-column clearfix">
-
-    
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/lib-1st-floor">LIB 1st Floor</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--9" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/all" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">All</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/richard-j-daley-library" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Richard J. Daley Library</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">No</span></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-10 views-row-even">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser group-one-column clearfix">
-
-    
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/lib-2nd-floor">LIB 2nd Floor</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--10" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/all" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">All</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/richard-j-daley-library" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Richard J. Daley Library</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">42</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-11 views-row-odd">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser group-one-column clearfix">
-
-    
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/lib-3rd-floor">LIB 3rd Floor</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--11" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/all" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">All</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/richard-j-daley-library" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Richard J. Daley Library</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">18</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-12 views-row-even">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser group-one-column clearfix">
-
-    
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/lib-4th-floor">LIB 4th Floor</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--12" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/all" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">All</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/richard-j-daley-library" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Richard J. Daley Library</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">24</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-13 views-row-odd">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser clearfix">
-
-    
-      <div class="ds-left">
-      <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item odd"><a href="/lab/lib-idea-commons"><img typeof="foaf:Image" src="https://accc.drupal.uic.edu/sites/default/files/styles/large_thumbnail/public/lib-idea-commons.jpg?itok=-YPNeq-L" width="150" height="100" alt="" /></a></div></div></div>    </div>
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/lib-idea-commons">LIB IDEA Commons</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--13" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/all" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">All</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/richard-j-daley-library" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Richard J. Daley Library</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">80</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-14 views-row-even">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser group-one-column clearfix">
-
-    
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/mrh-156">MRH 156</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--14" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/limited" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Limited</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/marie-robinson-hall" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Marie Robinson Hall</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">13</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-15 views-row-odd">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser clearfix">
-
-    
-      <div class="ds-left">
-      <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item odd"><a href="/lab/sce-401"><img typeof="foaf:Image" src="https://accc.drupal.uic.edu/sites/default/files/styles/large_thumbnail/public/sce401.jpg?itok=FHnaewXf" width="150" height="100" alt="" /></a></div></div></div>    </div>
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/sce-401">SCE 401</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--15" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/all" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">All</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/student-center-east" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Student Center East</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">123</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-16 views-row-even">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser clearfix">
-
-    
-      <div class="ds-left">
-      <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item odd"><a href="/lab/sce-408"><img typeof="foaf:Image" src="https://accc.drupal.uic.edu/sites/default/files/styles/large_thumbnail/public/sce408.jpg?itok=g8Hjtclb" width="150" height="100" alt="" /></a></div></div></div>    </div>
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/sce-408">SCE 408</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--16" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/all" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">All</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/student-center-east" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Student Center East</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">39</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-17 views-row-odd">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser clearfix">
-
-    
-      <div class="ds-left">
-      <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item odd"><a href="/lab/sele-2058"><img typeof="foaf:Image" src="https://accc.drupal.uic.edu/sites/default/files/styles/large_thumbnail/public/sele2058.jpg?itok=9BGq94zm" width="150" height="100" alt="" /></a></div></div></div>    </div>
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/sele-2058">SELE 2058</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--17" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/all" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">All</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/science-and-engineering-laboratory-east" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Science and Engineering Laboratory East</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">26</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-18 views-row-even">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser clearfix">
-
-    
-      <div class="ds-left">
-      <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item odd"><a href="/lab/sele-2249e"><img typeof="foaf:Image" src="https://accc.drupal.uic.edu/sites/default/files/styles/large_thumbnail/public/sele2249.jpg?itok=YwaAMelI" width="150" height="100" alt="" /></a></div></div></div>    </div>
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/sele-2249e">SELE 2249E</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--18" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/all" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">All</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/science-and-engineering-laboratory-east" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Science and Engineering Laboratory East</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">26</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-19 views-row-odd">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser clearfix">
-
-    
-      <div class="ds-left">
-      <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item odd"><a href="/lab/sele-2249f"><img typeof="foaf:Image" src="https://accc.drupal.uic.edu/sites/default/files/styles/large_thumbnail/public/sele2249f.jpg?itok=Hp-qNyRV" width="150" height="100" alt="" /></a></div></div></div>    </div>
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/sele-2249f">SELE 2249F</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--19" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/all" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">All</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/science-and-engineering-laboratory-east" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Science and Engineering Laboratory East</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">24</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-20 views-row-even">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser clearfix">
-
-    
-      <div class="ds-left">
-      <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item odd"><a href="/lab/sele-2263"><img typeof="foaf:Image" src="https://accc.drupal.uic.edu/sites/default/files/styles/large_thumbnail/public/sele2263_08-2018.jpeg?itok=Ac8hWgiK" width="150" height="100" alt="View of SELE 2263" /></a></div></div></div>    </div>
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/sele-2263">SELE 2263</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--20" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/all" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">All</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/science-and-engineering-laboratory-east" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Science and Engineering Laboratory East</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">32</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-21 views-row-odd">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser clearfix">
-
-    
-      <div class="ds-left">
-      <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item odd"><a href="/lab/sele-2265"><img typeof="foaf:Image" src="https://accc.drupal.uic.edu/sites/default/files/styles/large_thumbnail/public/sele2265.jpg?itok=q63TubHw" width="150" height="100" alt="View of SELE 2265 computer lab" title="View of SELE 2265 computer lab" /></a></div></div></div>    </div>
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/sele-2265">SELE 2265</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--21" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/all" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">All</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/science-and-engineering-laboratory-east" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Science and Engineering Laboratory East</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">22</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-22 views-row-even">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser group-one-column clearfix">
-
-    
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/seo-1200">SEO 1200</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--22" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/all" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">All</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/science-and-engineering-offices" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Science and Engineering Offices</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">24</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-23 views-row-odd">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser clearfix">
-
-    
-      <div class="ds-left">
-      <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item odd"><a href="/lab/ses-205b"><img typeof="foaf:Image" src="https://accc.drupal.uic.edu/sites/default/files/styles/large_thumbnail/public/ses205bc_08-2018_0.jpeg?itok=VWuA_sfb" width="150" height="100" alt="" /></a></div></div></div>    </div>
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/ses-205b">SES 205B</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--23" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/all" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">All</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/science-and-engineering-south" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Science and Engineering South</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">40</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-24 views-row-even">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser clearfix">
-
-    
-      <div class="ds-left">
-      <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item odd"><a href="/lab/src-2027"><img typeof="foaf:Image" src="https://accc.drupal.uic.edu/sites/default/files/styles/large_thumbnail/public/bestsrccrw_1597.jpg?itok=hsZNZlok" width="150" height="100" alt="" /></a></div></div></div>    </div>
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/src-2027">SRC 2027</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--24" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/limited" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Limited</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/student-residence-and-commons-south" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Student Residence and Commons - South</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">36</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-25 views-row-odd">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser clearfix">
-
-    
-      <div class="ds-left">
-      <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item odd"><a href="/lab/srh-209"><img typeof="foaf:Image" src="https://accc.drupal.uic.edu/sites/default/files/styles/large_thumbnail/public/srh_0.jpg?itok=UkbVwZsI" width="150" height="100" alt="" /></a></div></div></div>    </div>
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/srh-209">SRH 209</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--25" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/limited" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Limited</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/student-residence-hall" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Student Residence Hall</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">16</div></div></div></div>    </div>
-    
-</div>
-  </div>
-  <div class="views-row views-row-26 views-row-even views-row-last">
-    
-
-
-<div class="node node-computer-lab node-teaser view-mode-teaser group-one-column clearfix">
-
-    
-  
-      <div class="ds-right">
-      <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item odd" property="dc:title"><h2><a href="/lab/tbh-181">TBH 181</a></h2></div></div></div><div id="node-computer-lab-teaser-group-location-meta--26" class=" group-location-meta field-group-div"><div class="field field-name-field-lab-access field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Lab access:&nbsp;</strong><span class="field-items"><a href="/lab-access/limited" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Limited</a></span></div><div class="field field-name-field-building field-type-taxonomy-term-reference field-label-inline clearfix inline-list"><strong class="field-label bold-label">Location:&nbsp;</strong><span class="field-items"><a href="/building/thomas-beckham-hall" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Thomas Beckham Hall</a></span></div><div class="field field-name-field-reservable field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Reservable:&nbsp;</strong><span class="field-items">No</span></div><div class="field field-name-field-accessible field-type-list-boolean field-label-inline clearfix inline-list"><strong class="field-label bold-label">Accessible:&nbsp;</strong><span class="field-items">Yes</span></div><div class="field field-name-field-seats field-type-number-integer field-label-inline clearfix"><div class="field-label">Seats:&nbsp;</div><div class="field-items"><div class="field-item odd">14</div></div></div></div>    </div>
-    
-</div>
-  </div>
+            </ul>
+
+</section>
+                                    </div>
+                <div class="uic-footer__site-links">
+                                            <ul class="footer-buttons">
+            <li>
+            <a class="footer-button" href="/help/article/1891/faculty-services">Faculty services</a>        </li>
+            <li>
+            <a class="footer-button" href="/help/article/1873/alumni-services">Alumni services</a>        </li>
+            <li>
+            <a class="footer-button" href="/help/article/1887/distance-student-services">Distance education user services</a>        </li>
+            <li>
+            <a class="footer-button" href="/help/article/1955/use-accessibility-services">Accessibility services</a>        </li>
+    </ul>                                                                <nav class="uic-social-navigation" aria-labelledby="social-nav-header">
+    <h2 id="social-nav-header">Social Networking</h2>
+    <ul>
+            </ul>
+</nav>
+                                    </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="uic-footer__university" aria-label="University links">
+
+        <section class="uic-footer-legal" aria-label="Legal, privacy, and copyright links">
+    <div class="uic-footer-legal__container">
+
+        <div class="uic-footer-legal__legal">
+            <p class="uic-footer-legal__copyright">&copy; 2020 The Board of Trustees of the University of Illinois</p>
+            <p class="uic-footer-legal__privacy-link"><a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Policy</a></p>
+            <br/>
+            <p class="uic-footer-legal__govt-docs"><a href="http://researchguides.uic.edu/gov">Federal Depository Library for U.S. Government Documents</a></p>
+            <p class="uic-footer-legal__govt-docs"><a href="http://researchguides.uic.edu/gov">GDPR</a></p>
+        </div>
+
+        <div class="uic-footer-legal__university-links">
+            <h2>Campus Links</h2>
+            <ul>
+                <li><a href="http://uillinois.edu/">University of Illinois</a></li>
+                <li><a href="http://uic.edu/">Chicago</a></li>
+                <li><a href="http://illinois.edu/">Urbana-Champaign</a></li>
+                <li><a href="http://uis.edu/">Springfield</a></li>
+            </ul>
+        </div>
+
+    <!--OneTrust Cookies Settings button start --><a class="optanon-show-settings">Cookie Settings</a><!--OneTrust Cookies Settings button end -->
     </div>
-  
-  
-  
-  
-  
-  
-</div>  </div>
-      
-    </div></div> <!-- /.section, /#content -->
+</section>
 
-    
-  </div></div> <!-- /#main, /#main-wrapper -->
+    </section>
+    <div class="chat-widget" aria-labelledby="chat-window-title">
+    <div class="chat-widget__header">
+        <a href="#" id="chat-window-title" class="chat-widget__title">
+            Chat with a Librarian
+        </a>
+        <a href="#" class="chat-widget__close">
+            Close
+        </a>
+    </div>
+    <div class="chat-widget__embed">
+        <div class="chat-widget__embed-content">
+            <div id="libchat_a8f3cdd768831e345ca9d2f796ff5e5d"></div>
+        </div>
+    </div>
+</div></div>
+                    </footer>
 
-  
-  <div id="footer-wrapper"><div class="section">
-
-          <div id="footer-columns" class="clearfix">
-                  <div class="region region-footer-secondcolumn">
-    <div id="block-menu-menu-tools" class="block block-menu">
-
-    <h2>Quick Links</h2>
-  
-  <div class="content">
-    <ul class="menu clearfix"><li class="first leaf"><a href="http://uic.blackboard.com" title="Log in to Blackboard Learn">Blackboard Learn</a></li>
-<li class="leaf"><a href="http://sms.accc.uic.edu" title="Subscribe to UIC emergency SMS notifications">Emergency SMS</a></li>
-<li class="last leaf"><a href="http://gmail.uic.edu" title="">GoogleApps@UIC</a></li>
-</ul>  </div>
-</div>
-  </div>
-                  <div class="region region-footer-fourthcolumn">
-    <div id="block-menu-menu-accc-liaison-resources" class="block block-menu">
-
-    <h2>Liaison Resources</h2>
-  
-  <div class="content">
-    <ul class="menu clearfix"><li class="first leaf"><a href="http://wiki.uic.edu/ACCC/PbContacts/WebHome" title="Phonebook Contacts Wiki">Phonebook Contacts Wiki</a></li>
-<li class="last leaf"><a href="http://wiki.uic.edu/ACCC/REACH/WebHome" title="REACH Wiki">REACH Wiki</a></li>
-</ul>  </div>
-</div>
-<div id="block-shib-auth-login-box" class="block block-shib-auth">
-
-    
-  <div class="content">
-    <div id="shib_login_url">
-  <a href="https://accc.drupal.uic.edu/Shibboleth.sso/Login?target=https%3A%2F%2Faccc.drupal.uic.edu%2F%3Fq%3Dshib_login%2Flab%2Fall">Log in</a>
-</div>
-  </div>
-</div>
-  </div>
-      </div> <!-- /#footer-columns -->
-    
-          <div id="footer" class="clearfix">
-          <div class="region region-footer">
-    <div id="block-block-3" class="block block-block">
-
-    
-  <div class="content">
-    <p><a href="http://www.uic.edu"><img alt="University of Illinois at Chicago" src="/sites/all/themes/acccbartik/images/uic-stacked-logo-180.png" style="float:left; height:136px; margin-right:1em; width:180px" /></a> © Copyright 2020 The Board of Trustees of the University of Illinois | <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a></p>
-  </div>
-</div>
-  </div>
-      </div> <!-- /#footer -->
-    
-  </div></div> <!-- /.section, /#footer-wrapper -->
-
-</div></div> <!-- /#page, /#page-wrapper -->
-  </body>
+    </div>
+    <script src="/js/main.js"></script>
+    <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
+</body>
 </html>

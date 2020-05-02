@@ -1,542 +1,312 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title>Fellows</title>
-<style type="text/css">
-table{width:90%;margin:0 auto;}
-thead tr,th{text-align:left;background-color:silver;}
-</style>
-</head>
-<body>
-<table border="1"><thead><tr><th>&nbsp;</th><th>First Name</th><th>Last Name</th><th>Department</th><th>College</th><th>Address</th><th>Mail Code</th><th>Email Address</th></tr></thead><tbody>
-<tr><td>1</td><td>Crystal</td><td>Tse</td><td>ACE</td><td></td><td>2982 SSB</td><td>327</td><td>tsecryst@uic.edu</td></tr>
-<tr><td>2</td><td>Leila</td><td>Amiri</td><td>Admissions &amp; Recruitment </td><td></td><td>165 CMET</td><td>783</td><td>lamiri@uic.edu</td></tr>
-<tr><td>3</td><td>Mark</td><td>Martell</td><td>Asian American Resource and Cultural Center</td><td></td><td>101 TH</td><td>203</td><td>mmartell@uic.edu</td></tr>
-<tr><td>4</td><td>Nick</td><td>Ardinger</td><td>Campus Housing</td><td></td><td>335 SRH</td><td>579</td><td>ardinger@uic.edu</td></tr>
-<tr><td>5</td><td>Susan</td><td>Poser</td><td>Provost</td><td></td><td>2832 UH</td><td>105</td><td>sposer@uic.edu</td></tr>
-<tr><td>6</td><td>Robert</td><td>Barish</td><td>Vice Chancellor</td><td></td><td>101 MCA</td><td>973</td><td>rbarish@uic.edu</td></tr>
-<tr><td>7</td><td>Michelle</td><td>Manno</td><td>Vice Provost for Diversity</td><td></td><td>2621 UH</td><td>103</td><td>mmanno2@uic.edu</td></tr>
-<tr><td>8</td><td>Charu</td><td>Thakral</td><td>Vice Provost for Diversity</td><td></td><td>2620 UH</td><td>747</td><td>charuth1@uic.edu</td></tr>
-<tr><td>9</td><td>Susan</td><td>Farruggia</td><td>Vice Provost for Undergraduate Affairs</td><td></td><td>2704 UH</td><td>103</td><td>spf@uic.edu</td></tr>
-<tr><td>10</td><td>Phillip</td><td>Beverly</td><td>President's Award Program</td><td>Academic and Enrollment Services</td><td></td><td>276</td><td>pbeverly@uic.edu</td></tr>
-<tr><td>11</td><td>Tiana</td><td>Kieso</td><td>Administration</td><td>Applied Health Sciences</td><td>516 AHSB</td><td>528</td><td>tkieso1@uic.edu</td></tr>
-<tr><td>12</td><td>Jessie</td><td>Chin</td><td>Biomedical and Health Information Sciences</td><td>Applied Health Sciences</td><td>264 AHSB</td><td>530</td><td>chin5@uic.edu</td></tr>
-<tr><td>13</td><td>Margaret</td><td>Czart</td><td>Biomedical and Health Information Sciences</td><td>Applied Health Sciences</td><td>250 AHSB</td><td>530</td><td>mczart1@uic.edu</td></tr>
-<tr><td>14</td><td>Spyros</td><td>Kitsiou</td><td>Biomedical and Health Information Sciences</td><td>Applied Health Sciences</td><td>
-205 AHSB</td><td>530</td><td>skitsiou@uic.edu</td></tr>
-<tr><td>15</td><td>Karen</td><td>Patena</td><td>Biomedical and Health Information Sciences</td><td>Applied Health Sciences</td><td>250 AHSB</td><td>530</td><td>patena@uic.edu</td></tr>
-<tr><td>16</td><td>Eric</td><td>Swirsky</td><td>Biomedical and Health Information Sciences</td><td>Applied Health Sciences</td><td>250 AHSB</td><td>530</td><td>eswir@uic.edu</td></tr>
-<tr><td>17</td><td>Felecia</td><td>Williams</td><td>Biomedical and Health Information Sciences</td><td>Applied Health Sciences</td><td>260 AHSB</td><td>530</td><td>feleciaw@uic.edu</td></tr>
-<tr><td>18</td><td>Ashley</td><td>Hughes</td><td>Biomedical and Health Information Sciences </td><td>Applied Health Sciences</td><td>AHSB</td><td>530</td><td>amhughes@uic.edu</td></tr>
-<tr><td>19</td><td>Fabricio</td><td>Balcazar</td><td>Disability and Human Development</td><td>Applied Health Sciences</td><td>442 DHSP</td><td>626</td><td>fabricio@uic.edu</td></tr>
-<tr><td>20</td><td>Kate</td><td>Caldwell</td><td>Disability and Human Development</td><td>Applied Health Sciences</td><td>538 DHSP</td><td>626</td><td>kcaldw3@uic.edu</td></tr>
-<tr><td>21</td><td>Brian</td><td>Grossman</td><td>Disability and Human Development</td><td>Applied Health Sciences</td><td>712 DHSP</td><td>626</td><td>brg@uic.edu</td></tr>
-<tr><td>22</td><td>Alyson</td><td>Patsavas</td><td>Disability and Human Development</td><td>Applied Health Sciences</td><td>211a DHSP</td><td>626</td><td>apatsa2@uic.edu</td></tr>
-<tr><td>23</td><td>Lieke</td><td>van Heumen</td><td>Disability and Human Development</td><td>Applied Health Sciences</td><td></td><td></td><td>lvheumen@uic.edu</td></tr>
-<tr><td>24</td><td>Tracy</td><td>Baynard</td><td>Kinesiology and Nutrition</td><td>Applied Health Sciences</td><td>527 AHSB</td><td>517</td><td>tbaynard@uic.edu</td></tr>
-<tr><td>25</td><td>Abbey</td><td>Breckling</td><td>Kinesiology and Nutrition</td><td>Applied Health Sciences</td><td>337 PEB</td><td>194</td><td>abreck2@uic.edu </td></tr>
-<tr><td>26</td><td>John</td><td>Coumbe'lilley</td><td>Kinesiology and Nutrition</td><td>Applied Health Sciences</td><td>344 PEB</td><td>194</td><td>jcoumb1@uic.edu</td></tr>
-<tr><td>27</td><td>Giamila</td><td>Fantuzzi</td><td>Kinesiology and Nutrition</td><td>Applied Health Sciences</td><td>506H AHSB</td><td>517</td><td>giamila@uic.edu</td></tr>
-<tr><td>28</td><td>Mark</td><td>Grabiner</td><td>Kinesiology and Nutrition</td><td>Applied Health Sciences</td><td>648 CME</td><td>994</td><td>grabiner@uic.edu</td></tr>
-<tr><td>29</td><td>Craig</td><td>Horswill</td><td>Kinesiology and Nutrition</td><td>Applied Health Sciences</td><td>343 PEB</td><td>194</td><td>horswill@uic.edu</td></tr>
-<tr><td>30</td><td>Timothy</td><td>Koh</td><td>Kinesiology and Nutrition</td><td>Applied Health Sciences</td><td>529 AHBS</td><td>994</td><td>tjkoh@uic.edu</td></tr>
-<tr><td>31</td><td>David</td><td>Marquez</td><td>Kinesiology and Nutrition</td><td>Applied Health Sciences</td><td>625 AHSB</td><td>517</td><td>marquezd@uic.edu</td></tr>
-<tr><td>32</td><td>Angela</td><td>Odoms-Young</td><td>Kinesiology and Nutrition</td><td>Applied Health Sciences</td><td>650 AHSB</td><td>517</td><td>odmyoung@uic.edu</td></tr>
-<tr><td>33</td><td>Shayna</td><td>Oshita</td><td>Kinesiology and Nutrition</td><td>Applied Health Sciences</td><td>502C AHSB</td><td>517</td><td>soshit2@uic.edu</td></tr>
-<tr><td>34</td><td>Andrew</td><td>Sawers</td><td>Kinesiology and Nutrition</td><td>Applied Health Sciences</td><td>502A AHSB</td><td>517</td><td>asawers@uic.edu</td></tr>
-<tr><td>35</td><td>Gail</td><td>Fisher</td><td>Occupational Therapy</td><td>Applied Health Sciences</td><td>317A AHSB</td><td>811</td><td>gfisher@uic.edu</td></tr>
-<tr><td>36</td><td>Leah</td><td>Goodman</td><td>Occupational Therapy</td><td>Applied Health Sciences</td><td>307 AHSB</td><td>811</td><td>lgoodm2@uic.edu</td></tr>
-<tr><td>37</td><td>Celeste</td><td>Januszewski</td><td>Occupational Therapy</td><td>Applied Health Sciences</td><td>329 AHSB</td><td>811</td><td>celestej@uic.edu</td></tr>
-<tr><td>38</td><td>Mary</td><td>Khetani</td><td>Occupational Therapy</td><td>Applied Health Sciences</td><td>
-316A AHSB</td><td>811</td><td>mkhetani@uic.edu</td></tr>
-<tr><td>39</td><td>Susan</td><td>Magasi</td><td>Occupational Therapy</td><td>Applied Health Sciences</td><td>327 AHSB</td><td>811</td><td>smagas1@uic.edu</td></tr>
-<tr><td>40</td><td>Ashley</td><td>Stoffel </td><td>Occupational Therapy</td><td>Applied Health Sciences</td><td>351 AHSB</td><td>811</td><td>astoffel@uic.edu</td></tr>
-<tr><td>41</td><td>Renee</td><td>Taylor</td><td>Occupational Therapy</td><td>Applied Health Sciences</td><td>322 AHSB</td><td>811</td><td>rtaylor@uic.edu</td></tr>
-<tr><td>42</td><td>Tanvi</td><td>Bhatt</td><td>Physical Therapy</td><td>Applied Health Sciences</td><td>729 AHSB</td><td>898</td><td>tbhatt6@uic.edu</td></tr>
-<tr><td>43</td><td>Michelle</td><td>Bulanda</td><td>Physical Therapy</td><td>Applied Health Sciences</td><td>443 AHSB</td><td>898</td><td>mbulanda@uic.edu</td></tr>
-<tr><td>44</td><td>Aaron</td><td>Keil</td><td>Physical Therapy</td><td>Applied Health Sciences</td><td>336 DHSP</td><td>887</td><td>akeil123@uic.edu</td></tr>
-<tr><td>45</td><td>Deepika</td><td>Laddu-Patel</td><td>Physical Therapy</td><td>Applied Health Sciences</td><td>443 AHSB</td><td>898</td><td>dladdu@uic.edu</td></tr>
-<tr><td>46</td><td>Sangeetha</td><td>Madhavan</td><td>Physical Therapy</td><td>Applied Health Sciences</td><td>447 AHSB</td><td>898</td><td>smadhava@uic.edu</td></tr>
-<tr><td>47</td><td>Cemal</td><td>Ozemek</td><td>Physical Therapy</td><td>Applied Health Sciences</td><td>308A DHSP</td><td></td><td>ozemek@uic.edu</td></tr>
-<tr><td>48</td><td>Shane</td><td>Phillips</td><td>Physical Therapy</td><td>Applied Health Sciences</td><td>506D AHSB</td><td>898</td><td>shanep@uic.edu</td></tr>
-<tr><td>49</td><td>Jennifer </td><td>Wescott</td><td>Rehabilitation Science</td><td>Applied Health Sciences</td><td>560 AHSB</td><td>528</td><td>jwesco2@uic.edu</td></tr>
-<tr><td>50</td><td>Kelly</td><td>Bair</td><td>Architecture</td><td>Architecture, Design, and the Arts</td><td>3100 ADS</td><td>030</td><td>kbair@uic.edu</td></tr>
-<tr><td>51</td><td>David</td><td>Brown</td><td>Architecture</td><td>Architecture, Design, and the Arts</td><td>3100 ADS</td><td>030</td><td>dpb@uic.edu</td></tr>
-<tr><td>52</td><td>Judith</td><td>De Jong</td><td>Architecture</td><td>Architecture, Design, and the Arts</td><td>3100 ADS</td><td>030</td><td>jdejong@uic.edu</td></tr>
-<tr><td>53</td><td>Sarah</td><td>Dunn</td><td>Architecture</td><td>Architecture, Design, and the Arts</td><td>3100 ADS</td><td>030</td><td>sedunn@uic.edu</td></tr>
-<tr><td>54</td><td>Alexander</td><td>Eisenschmidt</td><td>Architecture</td><td>Architecture, Design, and the Arts</td><td>3100 ADS</td><td>030</td><td>aeisensc@uic.edu</td></tr>
-<tr><td>55</td><td>Paul</td><td>Preissner</td><td>Architecture</td><td>Architecture, Design, and the Arts</td><td>3100 ADS</td><td>030</td><td>ppreiss@uic.edu</td></tr>
-<tr><td>56</td><td>Beate</td><td>Geissler</td><td>Art</td><td>Architecture, Design, and the Arts</td><td>106 JH</td><td>036</td><td>beate@uic.edu</td></tr>
-<tr><td>57</td><td>Silvia</td><td>Malagrino</td><td>Art</td><td>Architecture, Design, and the Arts</td><td>106 JH</td><td>036</td><td>libraes@uic.edu</td></tr>
-<tr><td>58</td><td>Matthew</td><td>Metzger</td><td>Art</td><td>Architecture, Design, and the Arts</td><td>106 JH</td><td>036</td><td>matmetz@uic.edu</td></tr>
-<tr><td>59</td><td>Jennifer</td><td>Reeder</td><td>Art</td><td>Architecture, Design, and the Arts</td><td>106 JH</td><td>036</td><td>reederj@uic.edu</td></tr>
-<tr><td>60</td><td>Omur</td><td>Harmansah</td><td>Art History</td><td>Architecture, Design, and the Arts</td><td>211B HH</td><td>201</td><td>omur@uic.edu</td></tr>
-<tr><td>61</td><td>Hannah</td><td>Higgins</td><td>Art History</td><td>Architecture, Design, and the Arts</td><td>305 HH</td><td>201</td><td>higgins@uic.edu</td></tr>
-<tr><td>62</td><td>Martha</td><td>Pollak</td><td>Art History</td><td>Architecture, Design, and the Arts</td><td>202A HH</td><td>201</td><td>mpollak@uic.edu</td></tr>
-<tr><td>63</td><td>Therese</td><td>Quinn</td><td>Art History</td><td>Architecture, Design, and the Arts</td><td>206 HH</td><td>201</td><td>thereseq@uic.edu</td></tr>
-<tr><td>64</td><td>Linda</td><td>Bracamontes-roeger</td><td>Design</td><td>Architecture, Design, and the Arts</td><td>106 JH</td><td>036</td><td>lindabr@uic.edu</td></tr>
-<tr><td>65</td><td>Philip</td><td>Burton</td><td>Design</td><td>Architecture, Design, and the Arts</td><td>106 JH</td><td>036</td><td>pcburton@uic.edu</td></tr>
-<tr><td>66</td><td>Meghan</td><td>Ferrill</td><td>Design</td><td>Architecture, Design, and the Arts</td><td>106 JH</td><td>036</td><td>mferrill@uic.edu</td></tr>
-<tr><td>67</td><td>Sung</td><td>Jang</td><td>Design</td><td>Architecture, Design, and the Arts</td><td></td><td></td><td>sungjang@uic.edu</td></tr>
-<tr><td>68</td><td>Stephen</td><td>Melamed</td><td>Design</td><td>Architecture, Design, and the Arts</td><td>106 JH</td><td>036</td><td>melamed@uic.edu</td></tr>
-<tr><td>69</td><td>Kimberlee</td><td>Wilkens</td><td>Design</td><td>Architecture, Design, and the Arts</td><td>106 JH</td><td>36</td><td>harteliu@uic.edu</td></tr>
-<tr><td>70</td><td>John</td><td>Behling</td><td>Music</td><td>Architecture, Design, and the Arts</td><td>L017 ETMSW</td><td>255</td><td>behlingj@uic.edu</td></tr>
-<tr><td>71</td><td>Ruth</td><td>Rosenberg</td><td>Music</td><td>Architecture, Design, and the Arts</td><td>L042 ETMSW</td><td>255</td><td>rrose76@uic.edu</td></tr>
-<tr><td>72</td><td>Cheryl</td><td>Wilson</td><td>Music</td><td>Architecture, Design, and the Arts</td><td>L017 ETMSW</td><td>255</td><td>wilsonc@uic.edu</td></tr>
-<tr><td>73</td><td>Tom</td><td>Moss</td><td>Student Affairs</td><td>Architecture, Design, and the Arts</td><td>208 JH</td><td>033</td><td>tommoss@uic.edu</td></tr>
-<tr><td>74</td><td>Jason</td><td>Martin</td><td>Theatre</td><td>Architecture, Design, and the Arts</td><td>L250 ETMSW</td><td>255</td><td>jkmartin@uic.edu</td></tr>
-<tr><td>75</td><td>Derrick</td><td>Sanders</td><td>Theatre</td><td>Architecture, Design, and the Arts</td><td>L404 EPASW</td><td>255</td><td>sandersd@uic.edu</td></tr>
-<tr><td>76</td><td>Rachelle</td><td>Tsachor</td><td>Theatre</td><td>Architecture, Design, and the Arts</td><td>L424 ETMSW</td><td>255</td><td>rtsachor@uic.edu</td></tr>
-<tr><td>77</td><td>Sudhakar</td><td>Balachandran</td><td>Accounting</td><td>Business Administration</td><td>2310 UH</td><td>006</td><td>sidbala@uic.edu</td></tr>
-<tr><td>78</td><td>Somnath</td><td>Das</td><td>Accounting</td><td>Business Administration</td><td>2313 UH</td><td>006</td><td>sdas@uic.edu</td></tr>
-<tr><td>79</td><td>Ellen</td><td>Engel</td><td>Accounting</td><td>Business Administration</td><td>2309 UH</td><td>006</td><td>elleneng@uic.edu</td></tr>
-<tr><td>80</td><td>Abel</td><td>Galvan</td><td>Accounting</td><td>Business Administration</td><td>2319 UH</td><td>006</td><td>galvan@uic.edu</td></tr>
-<tr><td>81</td><td>Michael</td><td>Kirschenheiter</td><td>Accounting</td><td>Business Administration</td><td>2309 UH</td><td>006</td><td>mkirsche@uic.edu</td></tr>
-<tr><td>82</td><td>Melissa</td><td>Martin</td><td>Accounting</td><td>Business Administration</td><td>2321 UH</td><td>006</td><td>mamarti@uic.edu</td></tr>
-<tr><td>83</td><td>Shailendra</td><td>Pandit</td><td>Accounting</td><td>Business Administration</td><td>2323 UH</td><td>006</td><td>shail@uic.edu</td></tr>
-<tr><td>84</td><td>Ram</td><td>Ramakrishnan</td><td>Accounting</td><td>Business Administration</td><td>2300 UH</td><td>006</td><td>rramakri@uic.edu</td></tr>
-<tr><td>85</td><td>Yehia</td><td>Salama</td><td>Accounting</td><td>Business Administration</td><td>2312 UH</td><td>006</td><td>ysalama@uic.edu</td></tr>
-<tr><td>86</td><td>Ozgur</td><td>Arslan Ayaydin</td><td>Finance</td><td>Business Administration</td><td>2129 UH</td><td>168</td><td>orslan@uic.edu</td></tr>
-<tr><td>87</td><td>Gilbert</td><td>Bassett</td><td>Finance</td><td>Business Administration</td><td>2433 UH</td><td>168</td><td>gib@uic.edu</td></tr>
-<tr><td>88</td><td>Andriy</td><td>Bodnaruk</td><td>Finance</td><td>Business Administration</td><td>2421 UH</td><td>168</td><td>bodnaruk@uic.edu</td></tr>
-<tr><td>89</td><td>Oleg</td><td>Bondarenko</td><td>Finance</td><td>Business Administration</td><td>2419 UH</td><td>168</td><td>olegb@uic.edu</td></tr>
-<tr><td>90</td><td>Hsiu-Lang</td><td>Chen</td><td>Finance</td><td>Business Administration</td><td>2425 UH</td><td>168</td><td>hsiulang@uic.edu</td></tr>
-<tr><td>91</td><td>Robert</td><td>Chirinko</td><td>Finance</td><td>Business Administration</td><td>2333 UH</td><td>168</td><td>chirinko@uic.edu</td></tr>
-<tr><td>92</td><td>Lingjie</td><td>Ma</td><td>Finance</td><td>Business Administration</td><td>2322 UH</td><td>168</td><td>lingma1@uic.edu</td></tr>
-<tr><td>93</td><td>William</td><td>O'Brien</td><td>Finance</td><td>Business Administration</td><td>2424 UH</td><td>168</td><td>obrienw@uic.edu</td></tr>
-<tr><td>94</td><td>Lan</td><td>Zhang</td><td>Finance</td><td>Business Administration</td><td>2430 UH</td><td>168</td><td>lanzhang@uic.edu</td></tr>
-<tr><td>95</td><td>Vijay </td><td>Kamble</td><td>Information &amp; Decision Sciences</td><td>Business Administration</td><td>2409 UH</td><td>294</td><td>kamble@uic.edu</td></tr>
-<tr><td>96</td><td>Siddhartha</td><td>Bhattacharyya</td><td>Information and Decision Sciences</td><td>Business Administration</td><td>2408 UH</td><td>294</td><td>sidb@uic.edu</td></tr>
-<tr><td>97</td><td>Kyle</td><td>Cheek</td><td>Information and Decision Sciences</td><td>Business Administration</td><td>2421 UH</td><td>294</td><td>kdcheek@uic.edu</td></tr>
-<tr><td>98</td><td>Doug</td><td>Lundquist</td><td>Information and Decision Sciences</td><td>Business Administration</td><td>2424 UH</td><td>294</td><td>dlundq1@uic.edu</td></tr>
-<tr><td>99</td><td>Unsal</td><td>Ozdogru</td><td>Information and Decision Sciences</td><td>Business Administration</td><td>2419 UH</td><td>294</td><td>uozdogru@uic.edu</td></tr>
-<tr><td>100</td><td>Richard</td><td>Potter</td><td>Information and Decision Sciences</td><td>Business Administration</td><td>2415 UH</td><td>294</td><td>rpotter@uic.edu</td></tr>
-<tr><td>101</td><td>Theja</td><td>Tulabandhula</td><td>Information and Decision Sciences</td><td>Business Administration</td><td>2404 UH</td><td>294</td><td>theja@uic.edu</td></tr>
-<tr><td>102</td><td>Mary  Beth</td><td>Watson-Manheim</td><td>Information and Decision Sciences</td><td>Business Administration</td><td>2426 UH</td><td>294</td><td>mbwm@uic.edu</td></tr>
-<tr><td>103</td><td>James</td><td>Cooper</td><td>Managerial Studies</td><td>Business Administration</td><td>2328 UH</td><td>243</td><td>jcoop1@uic.edu</td></tr>
-<tr><td>104</td><td>Anna</td><td>Cui</td><td>Managerial Studies</td><td>Business Administration</td><td>2223 UH</td><td>243</td><td>ascui@uic.edu</td></tr>
-<tr><td>105</td><td>Daniel</td><td>Hogan</td><td>Managerial Studies</td><td>Business Administration</td><td>2245 UH</td><td>243</td><td>dhogan6@uic.edu</td></tr>
-<tr><td>106</td><td>Sajna</td><td>Ibrahim</td><td>Managerial Studies</td><td>Business Administration</td><td>2213 UH</td><td>243</td><td>sajna@uic.edu</td></tr>
-<tr><td>107</td><td>John</td><td>Lynch</td><td>Managerial Studies</td><td>Business Administration</td><td>2205 UH</td><td>243</td><td>jwlynch@uic.edu</td></tr>
-<tr><td>108</td><td>Alan</td><td>Malter</td><td>Managerial Studies</td><td>Business Administration</td><td>2221 UH</td><td>243</td><td>amalter@uic.edu</td></tr>
-<tr><td>109</td><td>Michael</td><td>Miller</td><td>Managerial Studies</td><td>Business Administration</td><td>2219 UH</td><td>243</td><td>millerm@uic.edu</td></tr>
-<tr><td>110</td><td>Kim</td><td>Moon</td><td>Managerial Studies</td><td>Business Administration</td><td>2222 UH</td><td>243</td><td>kimmoon@uic.edu</td></tr>
-<tr><td>111</td><td>Anthony</td><td>Pagano</td><td>Managerial Studies</td><td>Business Administration</td><td>2218 UH</td><td>243</td><td>amp@uic.edu</td></tr>
-<tr><td>112</td><td>Jeffrey</td><td>Parker</td><td>Managerial Studies</td><td>Business Administration</td><td>2228 UH</td><td>243</td><td>jeff@uic.edu</td></tr>
-<tr><td>113</td><td>Steve</td><td>Sauerwald</td><td>Managerial Studies</td><td>Business Administration</td><td>2210 UH</td><td>243</td><td>ssauerw@uic.edu</td></tr>
-<tr><td>114</td><td>Elina Yihui</td><td>Tang</td><td>Managerial Studies</td><td>Business Administration</td><td>2208 UH</td><td>243</td><td>etang@uic.edu</td></tr>
-<tr><td>115</td><td>Peter</td><td>Thompson</td><td>Managerial Studies</td><td>Business Administration</td><td>2220 UH</td><td>243</td><td>pthomp1@uic.edu</td></tr>
-<tr><td>116</td><td>Sandra</td><td>Wayne</td><td>Managerial Studies</td><td>Business Administration</td><td>2233 UH</td><td>243</td><td>sjwayne@uic.edu</td></tr>
-<tr><td>117</td><td>Satish</td><td>Alapati</td><td>Endodontics</td><td>Dentistry</td><td>236B DENT</td><td>642</td><td>salapati@uic.edu</td></tr>
-<tr><td>118</td><td>Rhonna</td><td>Cohen</td><td>Molecular Biology of Oral Diseases</td><td>Dentistry</td><td>530E DENT</td><td>860</td><td>rcohen@uic.edu</td></tr>
-<tr><td>119</td><td>Lyndon</td><td>Cooper</td><td>Oral Biology</td><td>Dentistry</td><td>402E DENT</td><td>690</td><td>cooperlf@uic.edu</td></tr>
-<tr><td>120</td><td>David</td><td>Reed</td><td>Oral Biology</td><td>Dentistry</td><td>436B DENT</td><td>690</td><td>reedd@uic.edu</td></tr>
-<tr><td>121</td><td>Blase</td><td>Brown</td><td>Oral Medicine and Diagnostic Sciences</td><td>Dentistry</td><td>350 DENT</td><td>555</td><td>bpbrown@uic.edu</td></tr>
-<tr><td>122</td><td>Asha</td><td>Eapen</td><td>Oral Medicine and Diagnostic Sciences</td><td>Dentistry</td><td></td><td></td><td>ashasara@uic.edu</td></tr>
-<tr><td>123</td><td>Phimon</td><td>Atsawasuwan</td><td>Orthodontics</td><td>Dentistry</td><td>109E DENT</td><td>841</td><td>patsawas@uic.edu</td></tr>
-<tr><td>124</td><td>Christina</td><td>Nicholas</td><td>Orthodontics</td><td>Dentistry</td><td>DENT</td><td></td><td>clnichol@uic.edu</td></tr>
-<tr><td>125</td><td>Shahrbanoo</td><td>Fadavi</td><td>Pediatric Dentistry</td><td>Dentistry</td><td>269 DENT</td><td>850</td><td>sfadavi@uic.edu</td></tr>
-<tr><td>126</td><td>Darryl</td><td>Pendleton</td><td>Pediatric Dentistry</td><td>Dentistry</td><td>104 DENT</td><td>621</td><td>dpendle@uic.edu</td></tr>
-<tr><td>127</td><td>Indru</td><td>Punwani</td><td>Pediatric Dentistry</td><td>Dentistry</td><td>530D DENT</td><td>850</td><td>ipunwani@uic.edu</td></tr>
-<tr><td>128</td><td>Sheela</td><td>Raja</td><td>Pediatric Dentistry</td><td>Dentistry</td><td>304A DENT</td><td>850</td><td>sraja1@uic.edu</td></tr>
-<tr><td>129</td><td>Patrick</td><td>Smith</td><td>Pediatric Dentistry</td><td>Dentistry</td><td>102GC DENT</td><td>621</td><td>psmith26@uic.edu</td></tr>
-<tr><td>130</td><td>Christine</td><td>Wu</td><td>Pediatric Dentistry</td><td>Dentistry</td><td>469J DENT</td><td>850</td><td>chriswu@uic.edu</td></tr>
-<tr><td>131</td><td>Luisa</td><td>Dipietro</td><td>Periodontics</td><td>Dentistry</td><td>452 DENT</td><td>859</td><td>ldipiet@uic.edu</td></tr>
-<tr><td>132</td><td>Ana</td><td>Bedran-Russo</td><td>Restorative Dentistry</td><td>Dentistry</td><td>531A DENT</td><td>555</td><td>bedran@uic.edu</td></tr>
-<tr><td>133</td><td>Farhad</td><td>Fayz</td><td>Restorative Dentistry</td><td>Dentistry</td><td>502ADENT</td><td>555</td><td>fayz@uic.edu</td></tr>
-<tr><td>134</td><td>Danny Bernard</td><td>Martin</td><td>Curriculum and Instruction</td><td>Education</td><td>3436 ETMSW</td><td>147</td><td>dbmartin@uic.edu</td></tr>
-<tr><td>135</td><td>Lynette</td><td>Mawhinney</td><td>Curriculum and Instruction</td><td>Education</td><td>3238 ETMSW</td><td></td><td>lynnette@uic.edu</td></tr>
-<tr><td>136</td><td>Paola Zitlali</td><td>Morales</td><td>Curriculum and Instruction</td><td>Education</td><td>3234 ETMSW</td><td>147</td><td>zitlali@uic.edu</td></tr>
-<tr><td>137</td><td>Maria</td><td>Varelas</td><td>Curriculum and Instruction</td><td>Education</td><td>3513 ETMSW</td><td>147</td><td>mvarelas@uic.edu</td></tr>
-<tr><td>138</td><td>Nicole</td><td>Nguyen</td><td>Educational Policy Studies</td><td>Education</td><td>3406 ETMSW</td><td>147</td><td>nguyenn@uic.edu</td></tr>
-<tr><td>139</td><td>Benjamin</td><td>Superfine</td><td>Educational Policy Studies</td><td>Education</td><td>1208 ETMSW</td><td>147</td><td>bsuperfi@uic.edu</td></tr>
-<tr><td>140</td><td>Sarai</td><td>Coba-Rodriguez</td><td>Educational Psychology</td><td>Education</td><td>1242 ETMSW</td><td></td><td>scobaro2@uic.edu</td></tr>
-<tr><td>141</td><td>Nic</td><td>Weststrate</td><td>Educational Psychology</td><td>Education</td><td>3521 ETMSW</td><td>147</td><td>nicwest@uic.edu</td></tr>
-<tr><td>142</td><td>Michelle</td><td>Parker-Katz</td><td>Special Education</td><td>Education</td><td>3412 ETMSW</td><td>147</td><td>mparker@uic.edu</td></tr>
-<tr><td>143</td><td>Marie</td><td>Tejero Hughes</td><td>Special Education</td><td>Education</td><td>3432 ETMSW</td><td>147</td><td>marieth@uic.edu</td></tr>
-<tr><td>144</td><td>David</td><td>Eddington</td><td>Bioengineering</td><td>Engineering</td><td>211 SEO</td><td>063</td><td>dte@uic.edu</td></tr>
-<tr><td>145</td><td>Anthony</td><td>Felder</td><td>Bioengineering</td><td>Engineering</td><td>208 SEO</td><td>063</td><td>afelde2@uic.edu</td></tr>
-<tr><td>146</td><td>John</td><td>Hetling</td><td>Bioengineering</td><td>Engineering</td><td>232 SEO</td><td>063</td><td>jhetli1@uic.edu</td></tr>
-<tr><td>147</td><td>Dieter</td><td>Klatt</td><td>Bioengineering</td><td>Engineering</td><td>110B NMRL</td><td>563</td><td>dklatt@uic.edu</td></tr>
-<tr><td>148</td><td>Miiri</td><td>Kotche</td><td>Bioengineering</td><td>Engineering</td><td>233 SEO</td><td>063</td><td>mkotch2@uic.edu</td></tr>
-<tr><td>149</td><td>James</td><td>Lee</td><td>Bioengineering</td><td>Engineering</td><td>1117 COMRB</td><td>563</td><td>leejam@uic.edu</td></tr>
-<tr><td>150</td><td>Jie</td><td>Liang</td><td>Bioengineering</td><td>Engineering</td><td>164J CSN</td><td>563</td><td>jliang@uic.edu</td></tr>
-<tr><td>151</td><td>Andreas</td><td>Linninger</td><td>Bioengineering</td><td>Engineering</td><td>206 SEO</td><td>063</td><td>linninge@uic.edu</td></tr>
-<tr><td>152</td><td>Thomas</td><td>Royston</td><td>Bioengineering</td><td>Engineering</td><td>212 SEO</td><td>063</td><td>troyston@uic.edu</td></tr>
-<tr><td>153</td><td>Tolou</td><td>Shokuhfar</td><td>Bioengineering</td><td>Engineering</td><td>202 SEO</td><td>063</td><td>tolou@uic.edu</td></tr>
-<tr><td>154</td><td>Vikas</td><td>Berry</td><td>Chemical Engineering</td><td>Engineering</td><td>124 CEB</td><td>110</td><td>vikasb@uic.edu</td></tr>
-<tr><td>155</td><td>Ying</td><td>Liu</td><td>Chemical Engineering</td><td>Engineering</td><td>CEB 211</td><td>110</td><td>liuying@uic.edu</td></tr>
-<tr><td>156</td><td>Vivek</td><td>Sharma</td><td>Chemical Engineering</td><td>Engineering</td><td>245 EIB</td><td>110</td><td>viveks@uic.edu</td></tr>
-<tr><td>157</td><td>Meenesh</td><td>Singh</td><td>Chemical Engineering</td><td>Engineering</td><td>251 EIB</td><td>110</td><td>mrsingh@uic.edu</td></tr>
-<tr><td>158</td><td>Lewis</td><td>Wedgewood</td><td>Chemical Engineering</td><td>Engineering</td><td>207 CEB</td><td>110</td><td>wedge@uic.edu</td></tr>
-<tr><td>159</td><td>Matt</td><td>Daly</td><td>Civil &amp; Materials Engineering</td><td>Engineering</td><td>3089 ERF</td><td>246</td><td>mattdaly@uic.edu</td></tr>
-<tr><td>160</td><td>Sybil</td><td>Derrible</td><td>Civil &amp; Materials Engineering</td><td>Engineering</td><td>2071 ERF</td><td>246</td><td>derrible@uic.edu</td></tr>
-<tr><td>161</td><td>Didem</td><td>Ozevin</td><td>Civil &amp; Materials Engineering</td><td>Engineering</td><td>3073 ERF</td><td>246</td><td>dozevin@uic.edu</td></tr>
-<tr><td>162</td><td>Farid</td><td>Peiravian</td><td>Civil &amp; Materials Engineering</td><td>Engineering</td><td>3067 ERF</td><td>246</td><td>peiravi@uic.edu</td></tr>
-<tr><td>163</td><td>Krishna</td><td>Reddy</td><td>Civil &amp; Materials Engineering</td><td>Engineering</td><td>2091 ERF</td><td>246</td><td>kreddy@uic.edu</td></tr>
-<tr><td>164</td><td>Joseph</td><td>Schulenberg</td><td>Civil &amp; Materials Engineering</td><td>Engineering</td><td>2075 ERF</td><td>246</td><td>schulenj@uic.edu</td></tr>
-<tr><td>165</td><td>Bo</td><td>Zou</td><td>Civil &amp; Materials Engineering</td><td>Engineering</td><td>2073 ERF</td><td>246</td><td>bzou@uic.edu</td></tr>
-<tr><td>166</td><td>Bhaskar</td><td>DasGupta</td><td>Computer Science</td><td>Engineering</td><td>933 SEO</td><td>152</td><td>bdasgup@uic.edu</td></tr>
-<tr><td>167</td><td>Barbara</td><td>Di Eugenio</td><td>Computer Science</td><td>Engineering</td><td>916 SEO</td><td>152</td><td>bdieugen@uic.edu</td></tr>
-<tr><td>168</td><td>Jakob</td><td>Eriksson</td><td>Computer Science</td><td>Engineering</td><td>2054 ERF</td><td>152</td><td>jakob@uic.edu</td></tr>
-<tr><td>169</td><td>Joseph </td><td>Hummel</td><td>Computer Science</td><td>Engineering</td><td>908 SEO</td><td>152</td><td>jhummel2@uic.edu</td></tr>
-<tr><td>170</td><td>Andrew</td><td>Johnson</td><td>Computer Science</td><td>Engineering</td><td>2032 ERF</td><td>152</td><td>ajohnson@uic.edu</td></tr>
-<tr><td>171</td><td>Chris</td><td>Kanich</td><td>Computer Science</td><td>Engineering</td><td>1220 SEO</td><td>152</td><td>ckanich@uic.edu</td></tr>
-<tr><td>172</td><td>John</td><td>Lillis</td><td>Computer Science</td><td>Engineering</td><td>936 SEO</td><td>152</td><td>Lillis@uic.edu</td></tr>
-<tr><td>173</td><td>William</td><td>Mansky</td><td>Computer Science</td><td>Engineering</td><td>1331 SEO</td><td>152</td><td>mansky1@uic.edu</td></tr>
-<tr><td>174</td><td>Georgeta-Elisabeta</td><td>Marai</td><td>Computer Science</td><td>Engineering</td><td>2032A ERF</td><td>152</td><td>gmarai@uic.edu</td></tr>
-<tr><td>175</td><td>Dale</td><td>Reed</td><td>Computer Science</td><td>Engineering</td><td>917 SEO</td><td>152</td><td>reed@uic.edu</td></tr>
-<tr><td>176</td><td>Anastasios</td><td>Sidiropoulos</td><td>Computer Science</td><td>Engineering</td><td>1240 SEO</td><td>152</td><td>sidiropo@uic.edu</td></tr>
-<tr><td>177</td><td>Robert</td><td>Sloan</td><td>Computer Science</td><td>Engineering</td><td>1112 SEO</td><td>152</td><td>sloan@uic.edu</td></tr>
-<tr><td>178</td><td>Mitchell</td><td>Theys</td><td>Computer Science</td><td>Engineering</td><td>941 SEO</td><td>152</td><td>mtheys@uic.edu</td></tr>
-<tr><td>179</td><td>Xingbo</td><td>Wu</td><td>Computer Science</td><td>Engineering</td><td>1338 SEO</td><td>152</td><td>wuxb@uic.edu</td></tr>
-<tr><td>180</td><td>Vahe</td><td>Caliskan</td><td>Electrical and Computer Engineering</td><td>Engineering</td><td>1023 SEO</td><td>154</td><td>vahe@uic.edu</td></tr>
-<tr><td>181</td><td>Natasha</td><td>Devroye</td><td>Electrical and Computer Engineering</td><td>Engineering</td><td>1039 SEO</td><td>154</td><td>devroye@uic.edu</td></tr>
-<tr><td>182</td><td>Danilo</td><td>Erricolo</td><td>Electrical and Computer Engineering</td><td>Engineering</td><td>1111 SEO</td><td>154</td><td>derric1@uic.edu</td></tr>
-<tr><td>183</td><td>Sudip</td><td>Mazumder</td><td>Electrical and Computer Engineering</td><td>Engineering</td><td>3013 ERF</td><td>154</td><td>mazumder@uic.edu</td></tr>
-<tr><td>184</td><td>Milos</td><td>Zefran</td><td>Electrical and Computer Engineering</td><td>Engineering</td><td>1041 SEO</td><td>154</td><td>mzefran@uic.edu</td></tr>
-<tr><td>185</td><td>Houshang</td><td>Darabi</td><td>Industrial Engineering</td><td>Engineering</td><td>2055 ERF</td><td>251</td><td>hdarabi@uic.edu</td></tr>
-<tr><td>186</td><td>Mengqi</td><td>Hu</td><td>Industrial Engineering</td><td>Engineering</td><td>3023 ERF</td><td>251</td><td>mhu@uic.edu</td></tr>
-<tr><td>187</td><td>Lin</td><td>Li</td><td>Industrial Engineering</td><td>Engineering</td><td>3057 ERF</td><td>251</td><td>linli@uic.edu</td></tr>
-<tr><td>188</td><td>Quintin</td><td>Williams</td><td>Industrial Engineering</td><td>Engineering</td><td>3059 ERF</td><td>251</td><td>qwilli1@uic.edu</td></tr>
-<tr><td>189</td><td>Thomas</td><td>Theis</td><td>Institute for Environmental Science &amp; Policy</td><td>Engineering</td><td>530 SPHW</td><td>673</td><td>theist@uic.edu</td></tr>
-<tr><td>190</td><td>Jeremiah</td><td>Abiade</td><td>Mechanical and Industrial Engineering</td><td>Engineering</td><td>3049 ERF</td><td>251</td><td>jta@uic.edu</td></tr>
-<tr><td>191</td><td>Max</td><td>Berniker</td><td>Mechanical and Industrial Engineering</td><td>Engineering</td><td>2023 ERF</td><td>251</td><td>mbernike@uic.edu</td></tr>
-<tr><td>192</td><td>Carmen</td><td>Lilley</td><td>Mechanical and Industrial Engineering</td><td>Engineering</td><td>3031 ERF</td><td>251</td><td>clilley@uic.edu</td></tr>
-<tr><td>193</td><td>Constantine</td><td>Megaridis</td><td>Mechanical and Industrial Engineering</td><td>Engineering</td><td>3035 ERF</td><td>251</td><td>cmm@uic.edu</td></tr>
-<tr><td>194</td><td>William</td><td>Ryan</td><td>Mechanical and Industrial Engineering</td><td>Engineering</td><td>3053 ERF</td><td>251</td><td>wryan@uic.edu</td></tr>
-<tr><td>195</td><td>Reza</td><td>Shahbazian-Yassar</td><td>Mechanical and Industrial Engineering</td><td>Engineering</td><td>3037 ERF</td><td>273</td><td>rsyassar@uic.edu</td></tr>
-<tr><td>196</td><td>Yeow</td><td>Siow</td><td>Mechanical and Industrial Engineering</td><td>Engineering</td><td>3033 ERF</td><td>251</td><td>yeowsiow@uic.edu</td></tr>
-<tr><td>197</td><td>Jamison</td><td>Szwalek</td><td>Mechanical and Industrial Engineering</td><td>Engineering</td><td>3047 ERF</td><td>251</td><td>jszwalek@uic.edu</td></tr>
-<tr><td>198</td><td>Jie</td><td>Xu</td><td>Mechanical and Industrial Engineering</td><td>Engineering</td><td>3051 ERF</td><td>251</td><td>jiexu@uic.edu</td></tr>
-<tr><td>199</td><td>Natasha</td><td>Barnes</td><td>African American Studies</td><td>Liberal Arts and Sciences</td><td>1207 UH</td><td>069</td><td>nbbarnes@uic.edu</td></tr>
-<tr><td>200</td><td>Cynthia</td><td>Blair</td><td>African American Studies</td><td>Liberal Arts and Sciences</td><td>1231 UH</td><td>069</td><td>cmblair@uic.edu</td></tr>
-<tr><td>201</td><td>Johari</td><td>Jabir</td><td>African American Studies</td><td>Liberal Arts and Sciences</td><td>1203 UH</td><td>069</td><td>jjabir@uic.edu</td></tr>
-<tr><td>202</td><td>Lynette</td><td>Jackson</td><td>African American Studies</td><td>Liberal Arts and Sciences</td><td>1230 UH</td><td>360</td><td>lajackso@uic.edu</td></tr>
-<tr><td>203</td><td>Jane</td><td>Rhodes</td><td>African American Studies</td><td>Liberal Arts and Sciences</td><td>1231 UH</td><td>069</td><td>rhodesj@uic.edu</td></tr>
-<tr><td>204</td><td>Beth</td><td>Richie</td><td>African American Studies</td><td>Liberal Arts and Sciences</td><td>1231 UH</td><td>069</td><td>brichie@uic.edu</td></tr>
-<tr><td>205</td><td>Tarini</td><td>Bedi</td><td>Anthropology</td><td>Liberal Arts and Sciences</td><td>2102 BSB</td><td>027</td><td>tbedi@uic.edu</td></tr>
-<tr><td>206</td><td>Molly</td><td>Doane</td><td>Anthropology</td><td>Liberal Arts and Sciences</td><td>3148C BSB</td><td>027</td><td>mdoane@uic.edu</td></tr>
-<tr><td>207</td><td>Mitchel</td><td>Hendrickson</td><td>Anthropology</td><td>Liberal Arts and Sciences</td><td>2012 BSB</td><td>027</td><td>mjhend@uic.edu</td></tr>
-<tr><td>208</td><td>Laura</td><td>Junker</td><td>Anthropology</td><td>Liberal Arts and Sciences</td><td>2138B BSB</td><td>027</td><td>ljunker@uic.edu</td></tr>
-<tr><td>209</td><td>Vincent</td><td>LaMotta</td><td>Anthropology</td><td>Liberal Arts and Sciences</td><td>3128B BSB</td><td>027</td><td>vlamotta@uic.edu</td></tr>
-<tr><td>210</td><td>William</td><td>Parkinson</td><td>Anthropology</td><td>Liberal Arts and Sciences</td><td></td><td></td><td>wparkins@uic.edu</td></tr>
-<tr><td>211</td><td>Anna</td><td>Roosevelt</td><td>Anthropology</td><td>Liberal Arts and Sciences</td><td>3110-B BSB</td><td>027</td><td>amazonla@uic.edu</td></tr>
-<tr><td>212</td><td>Sloan</td><td>Williams</td><td>Anthropology</td><td>Liberal Arts and Sciences</td><td>3128C BSB</td><td>027</td><td>sloanw@uic.edu</td></tr>
-<tr><td>213</td><td>Som</td><td>Ale</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>3358 SES</td><td>066</td><td>sale1@uic.edu</td></tr>
-<tr><td>214</td><td>Aixa</td><td>Alfonso</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>3067 SEL</td><td>067</td><td>aalfonso@uic.edu</td></tr>
-<tr><td>215</td><td>Hormoz</td><td>Bassirirad</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>4103 SEL</td><td>066</td><td>hormoz@uic.edu</td></tr>
-<tr><td>216</td><td>Chieh</td><td>Chang</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>4072 MBRB</td><td>567</td><td>chiehc@uic.edu</td></tr>
-<tr><td>217</td><td>Chiou-Fen</td><td>Chuang</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>4070 MBRB</td><td>567</td><td>chioufen@uic.edu</td></tr>
-<tr><td>218</td><td>Ronald</td><td>Dubreuil</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>4152 MBRB</td><td>567</td><td>ron@uic.edu</td></tr>
-<tr><td>219</td><td>Liang-wei</td><td>Gong</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>4296 SEL</td><td>067</td><td>lwgong@uic.edu</td></tr>
-<tr><td>220</td><td>Miguel</td><td>Gonzalez-Meler</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>3338 SES</td><td>066</td><td>mmeler@uic.edu</td></tr>
-<tr><td>221</td><td>Jeremy</td><td>Lynch</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>4020 MBRB</td><td>567</td><td>jlynch42@uic.edu</td></tr>
-<tr><td>222</td><td>Robert Paul</td><td>Malchow</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>4083 SEL</td><td>067</td><td>paulmalc@uic.edu</td></tr>
-<tr><td>223</td><td>Suzanne</td><td>McCutcheon</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>3050 SEL</td><td>067</td><td>suzanne@uic.edu</td></tr>
-<tr><td>224</td><td>Emily</td><td>Minor</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>3346 SES</td><td>066</td><td>eminor@uic.edu</td></tr>
-<tr><td>225</td><td>Alan</td><td>Molumby</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>3084 SELE</td><td>067</td><td>molumby@uic.edu</td></tr>
-<tr><td>226</td><td>Donald</td><td>Morrison</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>4102 MBRB</td><td>567</td><td>damorris@uic.edu</td></tr>
-<tr><td>227</td><td>Michael</td><td>Muller</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>3092 SELE</td><td>067</td><td>mmuller@uic.edu</td></tr>
-<tr><td>228</td><td>Karin</td><td>Nelson</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>3378 SES</td><td>066</td><td>knelsonn@uic.edu</td></tr>
-<tr><td>229</td><td>Peter</td><td>Okkema</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>4052 MBRB</td><td>567</td><td>okkema@uic.edu</td></tr>
-<tr><td>230</td><td>Teresa</td><td>Orenic</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>4220 MBRB</td><td>567</td><td>torenic@uic.edu</td></tr>
-<tr><td>231</td><td>Thomas</td><td>Park</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>4278 SEL</td><td>067</td><td>tpark@uic.edu</td></tr>
-<tr><td>232</td><td>Yury</td><td>Polikanov</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>4170 MBRB</td><td>567</td><td>yuryp@uic.edu</td></tr>
-<tr><td>233</td><td>Rachel</td><td>Poretsky</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>4100a SELE</td><td>067</td><td>microbe@uic.edu</td></tr>
-<tr><td>234</td><td>Janet</td><td>Richmond</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>4309 SEL</td><td>067</td><td>jer@uic.edu</td></tr>
-<tr><td>235</td><td>Ankur</td><td>Saxena</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>4120 MBRB</td><td>567</td><td>saxenaa@uic.edu</td></tr>
-<tr><td>236</td><td>Eric</td><td>Stabb</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td></td><td></td><td>estabb@uic.edu</td></tr>
-<tr><td>237</td><td>David</td><td>Stone</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>3476 SES</td><td>066</td><td>dstone@uic.edu</td></tr>
-<tr><td>238</td><td>Katherine Mary</td><td>Warpeha</td><td>Biological Sciences</td><td>Liberal Arts and Sciences</td><td>4268 MBRB</td><td>567</td><td>kwarpeha@uic.edu</td></tr>
-<tr><td>239</td><td>Leslie</td><td>Aldrich</td><td>Chemistry</td><td>Liberal Arts and Sciences</td><td>2230 SELW</td><td>111</td><td>aldrich@uic.edu</td></tr>
-<tr><td>240</td><td>Laura</td><td>Anderson</td><td>Chemistry</td><td>Liberal Arts and Sciences</td><td>2230 SELE</td><td>111</td><td>lauralin@uic.edu</td></tr>
-<tr><td>241</td><td>Jordi</td><td>Cabana-Jimenez</td><td>Chemistry</td><td>Liberal Arts and Sciences</td><td>4146 SES</td><td>111</td><td>jcabana@uic.edu</td></tr>
-<tr><td>242</td><td>Ginevra</td><td>Clark</td><td>Chemistry</td><td>Liberal Arts and Sciences</td><td>205A SES</td><td>111</td><td>ginevra@uic.edu</td></tr>
-<tr><td>243</td><td>Stephanie</td><td>Cologna</td><td>Chemistry</td><td>Liberal Arts and Sciences</td><td>4500 SES</td><td>111</td><td>cologna@uic.edu</td></tr>
-<tr><td>244</td><td>Tom</td><td>Driver</td><td>Chemistry</td><td>Liberal Arts and Sciences</td><td>3220 SEL</td><td>111</td><td>tgd@uic.edu</td></tr>
-<tr><td>245</td><td>Luke</td><td>Hanley</td><td>Chemistry</td><td>Liberal Arts and Sciences</td><td>5105 SES</td><td>111</td><td>lhanley@uic.edu</td></tr>
-<tr><td>246</td><td>Ying Samuel</td><td>Hu </td><td>Chemistry</td><td>Liberal Arts and Sciences</td><td></td><td></td><td>yshu@uic.edu</td></tr>
-<tr><td>247</td><td>Nan</td><td>Jiang</td><td>Chemistry</td><td>Liberal Arts and Sciences</td><td>4500 SES</td><td>111</td><td>njiang@uic.edu</td></tr>
-<tr><td>248</td><td>Neal</td><td>Mankad</td><td>Chemistry</td><td>Liberal Arts and Sciences</td><td>4178 SES</td><td>111</td><td>npm@uic.edu</td></tr>
-<tr><td>249</td><td>Lawrence</td><td>Miller</td><td>Chemistry</td><td>Liberal Arts and Sciences</td><td>5205 SES</td><td>111</td><td>lwm2006@uic.edu</td></tr>
-<tr><td>250</td><td>Justin</td><td>Mohr</td><td>Chemistry</td><td>Liberal Arts and Sciences</td><td>5124 SES</td><td>111</td><td>jtmohr@uic.edu</td></tr>
-<tr><td>251</td><td>Scott</td><td>Shippy</td><td>Chemistry</td><td>Liberal Arts and Sciences</td><td>5417 SES</td><td>111</td><td>sshippy@uic.edu</td></tr>
-<tr><td>252</td><td>Preston</td><td>Snee</td><td>Chemistry</td><td>Liberal Arts and Sciences</td><td>4176 SES</td><td>111</td><td>sneep@uic.edu</td></tr>
-<tr><td>253</td><td>Mike</td><td>Stieff</td><td>Chemistry</td><td>Liberal Arts and Sciences</td><td>4376 SES</td><td>111</td><td>mstieff@uic.edu</td></tr>
-<tr><td>254</td><td>Duncan</td><td>Wardrop</td><td>Chemistry</td><td>Liberal Arts and Sciences</td><td>4446 SES</td><td>111</td><td>wardropd@uic.edu</td></tr>
-<tr><td>255</td><td>Donald</td><td>Wink</td><td>Chemistry</td><td>Liberal Arts and Sciences</td><td>4478 SES</td><td>111</td><td>dwink@uic.edu</td></tr>
-<tr><td>256</td><td>Karen</td><td>Ros</td><td>Classics and Mediterranean Studies</td><td>Liberal Arts and Sciences</td><td>1804 UH</td><td>129</td><td>kros@uic.edu</td></tr>
-<tr><td>257</td><td>Rebecca</td><td>Lind</td><td>Communication</td><td>Liberal Arts and Sciences</td><td>1160A BSB</td><td>132</td><td>rebecca@uic.edu</td></tr>
-<tr><td>258</td><td>Zachary</td><td>McDowell</td><td>Communication</td><td>Liberal Arts and Sciences</td><td>1159 BSB</td><td>132</td><td>zjm@uic.edu</td></tr>
-<tr><td>259</td><td>Zizi</td><td>Papacharissi</td><td>Communication</td><td>Liberal Arts and Sciences</td><td>1140A BSB</td><td>132</td><td>zizi@uic.edu</td></tr>
-<tr><td>260</td><td>Andrew</td><td>Rojecki</td><td>Communication</td><td>Liberal Arts and Sciences</td><td>1152C BSB</td><td>132</td><td>arojecki@uic.edu</td></tr>
-<tr><td>261</td><td>Lisa</td><td>Frohmann</td><td>Criminology, Law, and Justice</td><td>Liberal Arts and Sciences</td><td>4022A BSB</td><td>141</td><td>lfrohman@uic.edu</td></tr>
-<tr><td>262</td><td>Greg</td><td>Matoesian</td><td>Criminology, Law, and Justice</td><td>Liberal Arts and Sciences</td><td>4060B BSB</td><td>141</td><td>matoesia@uic.edu</td></tr>
-<tr><td>263</td><td>William</td><td>McCarty</td><td>Criminology, Law, and Justice</td><td>Liberal Arts and Sciences</td><td>4060A BSB</td><td>141</td><td>mccartyw@uic.edu</td></tr>
-<tr><td>264</td><td>Paul</td><td>Schewe</td><td>Criminology, Law, and Justice</td><td>Liberal Arts and Sciences</td><td>3040 BSB</td><td>285</td><td>schewepa@uic.edu</td></tr>
-<tr><td>265</td><td>Amie</td><td>Schuck</td><td>Criminology, Law, and Justice</td><td>Liberal Arts and Sciences</td><td>4022A BSB</td><td>141</td><td>amms@uic.edu</td></tr>
-<tr><td>266</td><td>Sarah</td><td>Ullman</td><td>Criminology, Law, and Justice</td><td>Liberal Arts and Sciences</td><td>4050B BSB</td><td>141</td><td>seullman@uic.edu</td></tr>
-<tr><td>267</td><td>Andrew</td><td>Dombard</td><td>Earth and Environmental Sciences</td><td>Liberal Arts and Sciences</td><td>2464 SES</td><td>186</td><td>adombard@uic.edu</td></tr>
-<tr><td>268</td><td>D'arcy</td><td>Meyer-dombard</td><td>Earth and Environmental Sciences</td><td>Liberal Arts and Sciences</td><td>2474 SES</td><td>186</td><td>drmd@uic.edu</td></tr>
-<tr><td>269</td><td>Roy</td><td>Plotnick</td><td>Earth and Environmental Sciences</td><td>Liberal Arts and Sciences</td><td>2454 SES</td><td>186</td><td>plotnick@uic.edu</td></tr>
-<tr><td>270</td><td>Patrick</td><td>Baude</td><td>Economics</td><td>Liberal Arts and Sciences</td><td>709 UH</td><td>144</td><td>pbaude2@uic.edu</td></tr>
-<tr><td>271</td><td>Evelyn</td><td>Lehrer</td><td>Economics</td><td>Liberal Arts and Sciences</td><td>710 UH</td><td>144</td><td>elehrer@uic.edu</td></tr>
-<tr><td>272</td><td>Lawrence</td><td>Officer</td><td>Economics</td><td>Liberal Arts and Sciences</td><td>704 UH</td><td>144</td><td>lofficer@uic.edu</td></tr>
-<tr><td>273</td><td>Richard</td><td>Peck</td><td>Economics</td><td>Liberal Arts and Sciences</td><td>726 UH</td><td>144</td><td>rmpeck@uic.edu</td></tr>
-<tr><td>274</td><td>Joseph</td><td>Persky</td><td>Economics</td><td>Liberal Arts and Sciences</td><td>711 UH</td><td>144</td><td>jpersky@uic.edu</td></tr>
-<tr><td>275</td><td>Helen</td><td>Roberts</td><td>Economics</td><td>Liberal Arts and Sciences</td><td>721 UH</td><td>144</td><td>hroberts@uic.edu</td></tr>
-<tr><td>276</td><td>Jennifer</td><td>Ashton</td><td>English</td><td>Liberal Arts and Sciences</td><td>1912 UH</td><td>162</td><td>jashton@uic.edu</td></tr>
-<tr><td>277</td><td>Lauren</td><td>Bell</td><td>English</td><td>Liberal Arts and Sciences</td><td>1900 UH</td><td>162</td><td>ldejbel@uic.edu</td></tr>
-<tr><td>278</td><td>Mark</td><td>Canuel</td><td>English</td><td>Liberal Arts and Sciences</td><td>1910 UH</td><td>162</td><td>mcanuel@uic.edu</td></tr>
-<tr><td>279</td><td>Marsha</td><td>Cassidy</td><td>English</td><td>Liberal Arts and Sciences</td><td>1920 UH</td><td>162</td><td>mcassidy@uic.edu</td></tr>
-<tr><td>280</td><td>Mark</td><td>Chiang</td><td>English</td><td>Liberal Arts and Sciences</td><td>1020 UH</td><td>231</td><td>mchiang@uic.edu</td></tr>
-<tr><td>281</td><td>Ainsworth</td><td>Clarke</td><td>English</td><td>Liberal Arts and Sciences</td><td>1205 UH</td><td>069</td><td>ac57@uic.edu</td></tr>
-<tr><td>282</td><td>Todd</td><td>Destigter</td><td>English</td><td>Liberal Arts and Sciences</td><td>1902 UH</td><td>162</td><td>tdestig@uic.edu</td></tr>
-<tr><td>283</td><td>Christopher</td><td>Glomski</td><td>English</td><td>Liberal Arts and Sciences</td><td>1823 UH</td><td>162</td><td>vivo@uic.edu</td></tr>
-<tr><td>284</td><td>Robin</td><td>Grey</td><td>English</td><td>Liberal Arts and Sciences</td><td>1925UH</td><td>162</td><td>rgrey@uic.edu</td></tr>
-<tr><td>285</td><td>Rachel</td><td>Havrelock</td><td>English</td><td>Liberal Arts and Sciences</td><td>1909 UH</td><td>162</td><td>raheleh@uic.edu</td></tr>
-<tr><td>286</td><td>Jeffrey</td><td>Kessler</td><td>English</td><td>Liberal Arts and Sciences</td><td>2011 UH</td><td>162</td><td>jckessle@uic.edu</td></tr>
-<tr><td>287</td><td>Anna</td><td>Kornbluh</td><td>English</td><td>Liberal Arts and Sciences</td><td>2015 UH</td><td>162</td><td>kornbluh@uic.edu</td></tr>
-<tr><td>288</td><td>Christian</td><td>Messenger</td><td>English</td><td>Liberal Arts and Sciences</td><td>1920 UH</td><td>162</td><td>chrism1@uic.edu</td></tr>
-<tr><td>289</td><td>Jennifer</td><td>Rupert</td><td>English</td><td>Liberal Arts and Sciences</td><td>2026 UH</td><td>162</td><td>jruper1@uic.edu</td></tr>
-<tr><td>290</td><td>David</td><td>Schaafsma</td><td>English</td><td>Liberal Arts and Sciences</td><td>1904UH</td><td>162</td><td>schaaf1@uic.edu</td></tr>
-<tr><td>291</td><td>John</td><td>Ireland</td><td>French &amp; Francophone Studies</td><td>Liberal Arts and Sciences</td><td>1611 UH</td><td>315</td><td>jireland@uic.edu</td></tr>
-<tr><td>292</td><td>Ellen</td><td>McClure</td><td>French &amp; Francophone Studies</td><td>Liberal Arts and Sciences</td><td>1613 UH</td><td>315</td><td>ellenmc@uic.edu</td></tr>
-<tr><td>293</td><td>Kishonna</td><td>Gray</td><td>Gender and Women's Studies</td><td>Liberal Arts and Sciences</td><td>1222 UH</td><td>360</td><td>unicorn@uic.edu</td></tr>
-<tr><td>294</td><td>Gayatri</td><td>Reddy</td><td>Gender and Women's Studies</td><td>Liberal Arts and Sciences</td><td>1226 UH</td><td>360</td><td>gayatri@uic.edu</td></tr>
-<tr><td>295</td><td>Sara</td><td>Hall</td><td>Germanic Studies</td><td>Liberal Arts and Sciences</td><td>1506 UH</td><td>189</td><td>sahall@uic.edu</td></tr>
-<tr><td>296</td><td>Elizabeth</td><td>Loentz</td><td>Germanic Studies</td><td>Liberal Arts and Sciences</td><td>1530 UH</td><td>189</td><td>loentz@uic.edu</td></tr>
-<tr><td>297</td><td>Imke</td><td>Meyer</td><td>Germanic Studies</td><td>Liberal Arts and Sciences</td><td>1512 UH</td><td>189</td><td>ixmeyer@uic.edu</td></tr>
-<tr><td>298</td><td>Susanne</td><td>Rott</td><td>Germanic Studies</td><td>Liberal Arts and Sciences</td><td>1530 UH</td><td>315</td><td>srott@uic.edu</td></tr>
-<tr><td>299</td><td>Anna</td><td>Guevarra</td><td>Global Asian Studies</td><td>Liberal Arts and Sciences</td><td>1030 UH</td><td>231</td><td>guevarra@uic.edu</td></tr>
-<tr><td>300</td><td>Michael</td><td>Jin</td><td>Global Asian Studies</td><td>Liberal Arts and Sciences</td><td>1012 UH</td><td>231</td><td>mrjin@uic.edu</td></tr>
-<tr><td>301</td><td>Rosilie</td><td>Hernandez-Pecoraro</td><td>Hispanic and Italian Studies</td><td>Liberal Arts and Sciences</td><td>1610 UH</td><td>315</td><td>rosieher@uic.edu</td></tr>
-<tr><td>302</td><td>Kara</td><td>Morgan-Short</td><td>Hispanic and Italian Studies</td><td>Liberal Arts and Sciences</td><td>1706 UH</td><td>315</td><td>karams@uic.edu</td></tr>
-<tr><td>303</td><td>Dianna</td><td>Niebylski</td><td>Hispanic and Italian Studies</td><td>Liberal Arts and Sciences</td><td>1609 UH</td><td>315</td><td>dcn@uic.edu</td></tr>
-<tr><td>304</td><td>John</td><td>Abbott</td><td>History</td><td>Liberal Arts and Sciences</td><td>1014 UH</td><td>198</td><td> jabbot1@uic.edu</td></tr>
-<tr><td>305</td><td>Christopher</td><td>Boyer</td><td>History</td><td>Liberal Arts and Sciences</td><td>901 UH</td><td>198</td><td>crboyer@uic.edu</td></tr>
-<tr><td>306</td><td>Bao</td><td>Bui</td><td>History</td><td>Liberal Arts and Sciences</td><td>UH 916</td><td></td><td>longbui2@uic.edu</td></tr>
-<tr><td>307</td><td>Joaquin</td><td>Chavez</td><td>History</td><td>Liberal Arts and Sciences</td><td>1017 UH</td><td>198</td><td>chavezj1@uic.edu</td></tr>
-<tr><td>308</td><td>Jonathan</td><td>Daly</td><td>History</td><td>Liberal Arts and Sciences</td><td>1019 UH</td><td>198</td><td>daly@uic.edu</td></tr>
-<tr><td>309</td><td>Nicole</td><td>Jordan</td><td>History</td><td>Liberal Arts and Sciences</td><td>1005 UH</td><td>198</td><td>njordan@uic.edu</td></tr>
-<tr><td>310</td><td>Ralph</td><td>Keen</td><td>History</td><td>Liberal Arts and Sciences</td><td>925 UH</td><td>198</td><td>rkeen01@uic.edu</td></tr>
-<tr><td>311</td><td>Junaid</td><td>Quadri</td><td>History</td><td>Liberal Arts and Sciences</td><td>925 UH</td><td>198</td><td>jquadri@uic.edu</td></tr>
-<tr><td>312</td><td>Keely</td><td>Stauter-halsted</td><td>History</td><td>Liberal Arts and Sciences</td><td>913 UH</td><td>198</td><td>stauterh@uic.edu</td></tr>
-<tr><td>313</td><td>Andreas</td><td>Feldmann</td><td>Latin American and Latino Studies</td><td>Liberal Arts and Sciences</td><td>1511 UH</td><td>219</td><td>feldmana@uic.edu</td></tr>
-<tr><td>314</td><td>Amalia</td><td>Pallares</td><td>Latin American and Latino Studies</td><td>Liberal Arts and Sciences</td><td>1525 UH</td><td>219</td><td>amalia@uic.edu</td></tr>
-<tr><td>315</td><td>Cristian</td><td>Roa</td><td>Latin American and Latino Studies</td><td>Liberal Arts and Sciences</td><td>1523 UH</td><td>219</td><td>roa@uic.edu</td></tr>
-<tr><td>316</td><td>Lev</td><td>Reyzin</td><td>Mathematical Computer Science</td><td>Liberal Arts and Sciences</td><td>418 SEO</td><td>249</td><td>lreyzin@uic.edu</td></tr>
-<tr><td>317</td><td>Jan</td><td>Verschelde</td><td>Mathematical Computer Science</td><td>Liberal Arts and Sciences</td><td>1210 SEO</td><td>249</td><td>janv@uic.edu</td></tr>
-<tr><td>318</td><td>Gyorgy</td><td>Turan</td><td>Mathematics, Statistics &amp; Computer Science</td><td>Liberal Arts and Sciences</td><td>425 SEO</td><td>249</td><td>gyt@uic.edu</td></tr>
-<tr><td>319</td><td>Ben</td><td>Antieau</td><td>Mathematics, Statistics, &amp; Computer Science</td><td>Liberal Arts and Sciences</td><td>419 SEO</td><td>249</td><td>dantie1@uic.edu</td></tr>
-<tr><td>320</td><td>Jerry</td><td>Bona</td><td>Mathematics, Statistics, &amp; Computer Science</td><td>Liberal Arts and Sciences</td><td>1206 SEO</td><td>249</td><td>jbona@uic.edu</td></tr>
-<tr><td>321</td><td>Alison</td><td>Castro Superfine</td><td>Mathematics, Statistics, &amp; Computer Science</td><td>Liberal Arts and Sciences</td><td>327 SEO</td><td>249</td><td>amcastro@uic.edu</td></tr>
-<tr><td>322</td><td>Alina</td><td>Cojocaru</td><td>Mathematics, Statistics, &amp; Computer Science</td><td>Liberal Arts and Sciences</td><td>415 SEO</td><td>249</td><td>cojocaru@uic.edu</td></tr>
-<tr><td>323</td><td>Izzet</td><td>Coskun</td><td>Mathematics, Statistics, &amp; Computer Science</td><td>Liberal Arts and Sciences</td><td>423 SEO</td><td>249</td><td>icoskun@uic.edu</td></tr>
-<tr><td>324</td><td>Samad</td><td>Hedayat</td><td>Mathematics, Statistics, &amp; Computer Science</td><td>Liberal Arts and Sciences</td><td>525 SEO</td><td>249</td><td>hedayat@uic.edu</td></tr>
-<tr><td>325</td><td>David</td><td>Marker</td><td>Mathematics, Statistics, &amp; Computer Science</td><td>Liberal Arts and Sciences</td><td>411 SEO</td><td>249</td><td>marker@uic.edu</td></tr>
-<tr><td>326</td><td>Mara</td><td>Martinez</td><td>Mathematics, Statistics, &amp; Computer Science</td><td>Liberal Arts and Sciences</td><td>610 SEO</td><td>249</td><td>maravmar@uic.edu</td></tr>
-<tr><td>327</td><td>Will</td><td>Perkins</td><td>Mathematics, Statistics, &amp; Computer Science</td><td>Liberal Arts and Sciences</td><td></td><td>249</td><td>willp@uic.edu</td></tr>
-<tr><td>328</td><td>Julius</td><td>Ross</td><td>Mathematics, Statistics, &amp; Computer Science</td><td>Liberal Arts and Sciences</td><td>512 SEO</td><td>249</td><td>juliusro@uic.edu</td></tr>
-<tr><td>329</td><td>Bhama</td><td>Srinivasan</td><td>Mathematics, Statistics, &amp; Computer Science</td><td>Liberal Arts and Sciences</td><td>531 SEO</td><td>249</td><td>srinivas@uic.edu</td></tr>
-<tr><td>330</td><td>Ramin</td><td>Takloo-Bighash</td><td>Mathematics, Statistics, &amp; Computer Science</td><td>Liberal Arts and Sciences</td><td>420 SEO</td><td>249</td><td>rtakloo@uic.edu</td></tr>
-<tr><td>331</td><td>Kevin</td><td>Tucker</td><td>Mathematics, Statistics, &amp; Computer Science</td><td>Liberal Arts and Sciences</td><td>417 SEO</td><td>249</td><td>kftucker@uic.edu</td></tr>
-<tr><td>332</td><td>Jing</td><td>Wang</td><td>Mathematics, Statistics, &amp; Computer Science</td><td>Liberal Arts and Sciences</td><td>523 SEO</td><td>249</td><td>jiwang12@uic.edu</td></tr>
-<tr><td>333</td><td>Nicholas</td><td>Huggett</td><td>Philosophy</td><td>Liberal Arts and Sciences</td><td>1413 UH</td><td>267</td><td>huggett@uic.edu</td></tr>
-<tr><td>334</td><td>Georgette</td><td>Sinkler</td><td>Philosophy</td><td>Liberal Arts and Sciences</td><td>1409 UH</td><td>267</td><td>egalite@uic.edu</td></tr>
-<tr><td>335</td><td>Richard</td><td>Cavanaugh</td><td>Physics</td><td>Liberal Arts and Sciences</td><td>2268 SES</td><td>273</td><td>cavana@uic.edu</td></tr>
-<tr><td>336</td><td>Cecilia</td><td>Gerber</td><td>Physics</td><td>Liberal Arts and Sciences</td><td>2270 SES</td><td>273</td><td>gerber@uic.edu</td></tr>
-<tr><td>337</td><td>Robert</td><td>Klie</td><td>Physics</td><td>Liberal Arts and Sciences</td><td>2374 SES</td><td>273</td><td>rfklie@uic.edu</td></tr>
-<tr><td>338</td><td>Elizabeth</td><td>Kocs</td><td>Physics</td><td>Liberal Arts and Sciences</td><td>2352 SES</td><td>273</td><td>ekocs@uic.edu</td></tr>
-<tr><td>339</td><td>Jan</td><td>Spille</td><td>Physics</td><td>Liberal Arts and Sciences</td><td>3136 SES</td><td>273</td><td>jhspille@uic.edu</td></tr>
-<tr><td>340</td><td>Claudio</td><td>Ugalde</td><td>Physics</td><td>Liberal Arts and Sciences</td><td>2176 SES</td><td>273</td><td>cugalde@uic.edu</td></tr>
-<tr><td>341</td><td>Nikos</td><td>Varelas</td><td>Physics</td><td>Liberal Arts and Sciences</td><td>2134 SES</td><td>273</td><td>varelas@uic.edu</td></tr>
-<tr><td>342</td><td>Robert</td><td>Bruhl</td><td>Political Science</td><td>Liberal Arts and Sciences</td><td>1114C BSB</td><td>276</td><td>rbruhl1@uic.edu</td></tr>
-<tr><td>343</td><td>Alexandra</td><td>Filindra</td><td>Political Science</td><td>Liberal Arts and Sciences</td><td>1108D BSB</td><td>276</td><td>aleka@uic.edu</td></tr>
-<tr><td>344</td><td>Katharine</td><td>Floros</td><td>Political Science</td><td>Liberal Arts and Sciences</td><td>1170B BSB</td><td>276</td><td>kmfloros@uic.edu</td></tr>
-<tr><td>345</td><td>Petia</td><td>Kostadinova</td><td>Political Science</td><td>Liberal Arts and Sciences</td><td>1136 BSB</td><td>276</td><td>pkostad@uic.edu</td></tr>
-<tr><td>346</td><td>Kevin</td><td>Lyles</td><td>Political Science</td><td>Liberal Arts and Sciences</td><td>1102A BSB</td><td>276</td><td>lyles@uic.edu</td></tr>
-<tr><td>347</td><td>Evan</td><td>McKenzie</td><td>Political Science</td><td>Liberal Arts and Sciences</td><td>1122D BSB</td><td>276</td><td>mckenzie@uic.edu</td></tr>
-<tr><td>348</td><td>Norma</td><td>Moruzzi</td><td>Political Science</td><td>Liberal Arts and Sciences</td><td>1122A BSB</td><td>276</td><td>nmoruzzi@uic.edu</td></tr>
-<tr><td>349</td><td>Dick</td><td>Simpson</td><td>Political Science</td><td>Liberal Arts and Sciences</td><td>1126C BSB</td><td>276</td><td>simpson@uic.edu</td></tr>
-<tr><td>350</td><td>Sultan</td><td>Tepe</td><td>Political Science</td><td>Liberal Arts and Sciences</td><td>1114-A BSB</td><td>276</td><td>sultant@uic.edu</td></tr>
-<tr><td>351</td><td>Yue</td><td>Zhang</td><td>Political Science</td><td>Liberal Arts and Sciences</td><td>1134 BSB</td><td>276</td><td>yuezhang@uic.edu</td></tr>
-<tr><td>352</td><td>Chris</td><td>Baker</td><td>Psychology</td><td>Liberal Arts and Sciences</td><td>2056A BSB</td><td></td><td>bakerc@uic.edu</td></tr>
-<tr><td>353</td><td>Bette</td><td>Bottoms</td><td>Psychology</td><td>Liberal Arts and Sciences</td><td>1062C BSB</td><td>285</td><td>bbottoms@uic.edu</td></tr>
-<tr><td>354</td><td>Daniel</td><td>Cervone</td><td>Psychology</td><td>Liberal Arts and Sciences</td><td>1008 BSB</td><td>285</td><td>dcervone@uic.edu</td></tr>
-<tr><td>355</td><td>Kathryn</td><td>Engel</td><td>Psychology</td><td>Liberal Arts and Sciences</td><td>1018A BSB</td><td>285</td><td>engel@uic.edu</td></tr>
-<tr><td>356</td><td>Susan</td><td>Goldman</td><td>Psychology</td><td>Liberal Arts and Sciences</td><td>1022C BSB</td><td>285</td><td>sgoldman@uic.edu</td></tr>
-<tr><td>357</td><td>Ellen</td><td>Herbener</td><td>Psychology</td><td>Liberal Arts and Sciences</td><td>1046 BSB</td><td></td><td>herbener@uic.edu</td></tr>
-<tr><td>358</td><td>Michael</td><td>Meinzer</td><td>Psychology</td><td>Liberal Arts and Sciences</td><td></td><td></td><td>mmeinzer@uic.edu</td></tr>
-<tr><td>359</td><td>James</td><td>Pellegrino</td><td>Psychology</td><td>Liberal Arts and Sciences</td><td>1018B BSB</td><td>285</td><td>pellegjw@uic.edu</td></tr>
-<tr><td>360</td><td>Michael</td><td>Ragozzino</td><td>Psychology</td><td>Liberal Arts and Sciences</td><td>1066B BSB</td><td>285</td><td>mrago@uic.edu</td></tr>
-<tr><td>361</td><td>Gary</td><td>Raney</td><td>Psychology</td><td>Liberal Arts and Sciences</td><td>1046B BSB</td><td>285</td><td>geraney@uic.edu</td></tr>
-<tr><td>362</td><td>Jamie</td><td>Roitman</td><td>Psychology</td><td>Liberal Arts and Sciences</td><td>1042A BSB</td><td>285</td><td>jroitman@uic.edu</td></tr>
-<tr><td>363</td><td>Mitchell</td><td>Roitman</td><td>Psychology</td><td>Liberal Arts and Sciences</td><td>1042C SSB</td><td>285</td><td>mroitman@uic.edu</td></tr>
-<tr><td>364</td><td>Amanda</td><td>Roy</td><td>Psychology</td><td>Liberal Arts and Sciences</td><td>1066 BSB</td><td>285</td><td>alroy28@uic.edu</td></tr>
-<tr><td>365</td><td>Jessica</td><td>Shaw</td><td>Psychology</td><td>Liberal Arts and Sciences</td><td></td><td></td><td>jlshaw2@uic.edu</td></tr>
-<tr><td>366</td><td>Megin</td><td>Wardle</td><td>Psychology</td><td>Liberal Arts and Sciences</td><td></td><td></td><td>mwardle@uic.edu</td></tr>
-<tr><td>367</td><td>Jennifer</td><td>Wiley</td><td>Psychology</td><td>Liberal Arts and Sciences</td><td>1054B BSB</td><td>285</td><td>jwiley@uic.edu</td></tr>
-<tr><td>368</td><td>R. David</td><td>Wirtshafter</td><td>Psychology</td><td>Liberal Arts and Sciences</td><td>2010 BSB</td><td>285</td><td>davew@uic.edu</td></tr>
-<tr><td>369</td><td>Katherine</td><td>Zinsser</td><td>Psychology</td><td>Liberal Arts and Sciences</td><td>BSB 1050D</td><td>285</td><td>kzinsser@uic.edu</td></tr>
-<tr><td>370</td><td>Michal Pawel</td><td>Markowski</td><td>Slavic &amp; Baltic Languages &amp; Literatures</td><td>Liberal Arts and Sciences</td><td>1630 UH</td><td>036</td><td>markowsk@uic.edu</td></tr>
-<tr><td>371</td><td>Amy</td><td>Bailey</td><td>Sociology</td><td>Liberal Arts and Sciences</td><td>4140D BSB</td><td>312</td><td>akbailey@uic.edu</td></tr>
-<tr><td>372</td><td>Richard</td><td>Barrett</td><td>Sociology</td><td>Liberal Arts and Sciences</td><td>4126D BSB</td><td>708</td><td>barrett@uic.edu</td></tr>
-<tr><td>373</td><td>Andrew</td><td>Clarno</td><td>Sociology</td><td>Liberal Arts and Sciences</td><td>4125 BSB</td><td>312</td><td>aclarno@uic.edu</td></tr>
-<tr><td>374</td><td>Rachel</td><td>Gordon</td><td>Sociology</td><td>Liberal Arts and Sciences</td><td>4140A BSB</td><td>312</td><td>ragordon@uic.edu</td></tr>
-<tr><td>375</td><td>Maria</td><td>Krysan</td><td>Sociology</td><td>Liberal Arts and Sciences</td><td>4112E BSB</td><td>312</td><td>krysan@uic.edu</td></tr>
-<tr><td>376</td><td>Paul-Brian</td><td>McInerney</td><td>Sociology</td><td>Liberal Arts and Sciences</td><td>4140B BSB</td><td>312</td><td>pbm@uic.edu</td></tr>
-<tr><td>377</td><td>Barbara</td><td>Risman</td><td>Sociology</td><td>Liberal Arts and Sciences</td><td>4112E BSB</td><td>312</td><td>brisman@uic.edu</td></tr>
-<tr><td>378</td><td>Atef</td><td>Said</td><td>Sociology</td><td>Liberal Arts and Sciences</td><td>4146A BSB</td><td>312</td><td>atefsaid@uic.edu</td></tr>
-<tr><td>379</td><td>Anne</td><td>Armstrong</td><td>Library</td><td>Library</td><td>2-171 LIB</td><td>234</td><td>annie@uic.edu</td></tr>
-<tr><td>380</td><td>David </td><td>Greenstein</td><td>Special Collections and University Archives</td><td>Library</td><td>3-330 LIB</td><td>234</td><td>greenstn@uic.edu</td></tr>
-<tr><td>381</td><td>Ananya</td><td>Gangopadhyaya</td><td>Academic Internal Medicine</td><td>Medicine</td><td></td><td>718</td><td>agango1@uic.edu</td></tr>
-<tr><td>382</td><td>John</td><td>Tulley</td><td>Academic Internal Medicine</td><td>Medicine</td><td>440 CSN</td><td>718</td><td>jetulley@uic.edu</td></tr>
-<tr><td>383</td><td>Annette</td><td>Zacharia</td><td>Academic Internal Medicine</td><td>Medicine</td><td>Internal Med</td><td>718</td><td>azachar1@UIC.EDU</td></tr>
-<tr><td>384</td><td>Raymond</td><td>Curry</td><td>Administration</td><td>Medicine</td><td>E106 MSB</td><td>784</td><td>curryrh@uic.edu</td></tr>
-<tr><td>385</td><td>Simon</td><td>Alford</td><td>Anatomy and Cell Biology</td><td>Medicine</td><td>578 CMET</td><td>215</td><td>sta@uic.edu</td></tr>
-<tr><td>386</td><td>Swetha </td><td>Gowrishankar</td><td>Anatomy and Cell Biology</td><td>Medicine</td><td>7055 COMRB</td><td>512</td><td>swethag@uic.edu</td></tr>
-<tr><td>387</td><td>Mary Jo</td><td>LaDu</td><td>Anatomy and Cell Biology</td><td>Medicine</td><td>7091 COMRB</td><td>512</td><td>mladu@uic.edu</td></tr>
-<tr><td>388</td><td>Sarah</td><td>Lutz</td><td>Anatomy and Cell Biology</td><td>Medicine</td><td>1113 COMRB</td><td>512</td><td>selutz@uic.edu</td></tr>
-<tr><td>389</td><td>Anna</td><td>Lysakowski</td><td>Anatomy and Cell Biology</td><td>Medicine</td><td>6055 COMRB</td><td>512</td><td>alysakow@uic.edu</td></tr>
-<tr><td>390</td><td>Christian</td><td>Peters</td><td>Anatomy and Cell Biology</td><td>Medicine</td><td></td><td></td><td>cjpeters@uic.edu</td></tr>
-<tr><td>391</td><td>Leon</td><td>Tai</td><td>Anatomy and Cell Biology</td><td>Medicine</td><td>567B CMET</td><td>512</td><td>leontai@uic.edu</td></tr>
-<tr><td>392</td><td>Akira</td><td>Yoshii</td><td>Anatomy and Cell Biology</td><td>Medicine</td><td>5061 COMRB</td><td>512</td><td>ayoshii@uic.edu</td></tr>
-<tr><td>393</td><td>Biji</td><td>Mathew</td><td>Anesthesiology</td><td>Medicine</td><td>E717 MSB</td><td></td><td>bijim@uic.edu</td></tr>
-<tr><td>394</td><td>Steven</td><td>Roth</td><td>Anesthesiology</td><td>Medicine</td><td>3200W UIH</td><td>515</td><td>rothgas@uic.edu</td></tr>
-<tr><td>395</td><td>Donald</td><td>Chambers</td><td>Biochemistry and Molecular Genetics</td><td>Medicine</td><td>A309 CMW</td><td>536</td><td>donc@uic.edu</td></tr>
-<tr><td>396</td><td>George</td><td>Kondos</td><td>Cardiology</td><td>Medicine</td><td>1020 CSB</td><td>787</td><td>gtkondos@uic.edu</td></tr>
-<tr><td>397</td><td>Sara</td><td>Heinert</td><td>Department of Emergency Medicine</td><td>Medicine</td><td></td><td></td><td>sheinert@uic.edu</td></tr>
-<tr><td>398</td><td>Jose</td><td>Cordoba-Chacon</td><td>Endocrinology, Diabetes &amp; Metabolism</td><td>Medicine</td><td>E625 MSB</td><td>640</td><td>jcordoba@uic.edu</td></tr>
-<tr><td>399</td><td>Kirstie</td><td>Danielson</td><td>Endocrinology, Diabetes &amp; Metabolism</td><td>Medicine</td><td>520 CSB</td><td>958</td><td>kdaniel@uic.edu</td></tr>
-<tr><td>400</td><td>Md. Wasim</td><td>Khan</td><td>Endocrinology, Diabetes &amp; Metabolism</td><td>Medicine</td><td></td><td></td><td>mkhan268@uic.edu</td></tr>
-<tr><td>401</td><td>Medha</td><td>Priyadarshini</td><td>Endocrinology, Diabetes &amp; Metabolism</td><td>Medicine</td><td></td><td></td><td>mpriya2@uic.edu</td></tr>
-<tr><td>402</td><td>Terry</td><td>Unterman</td><td>Endocrinology, Diabetes &amp; Metabolism</td><td>Medicine</td><td>A224 WSVA-MP151</td><td>787</td><td>unterman@uic.edu</td></tr>
-<tr><td>403</td><td>Pingwen</td><td>Xu</td><td>Endocrinology, Diabetes &amp; Metabolism</td><td>Medicine</td><td></td><td></td><td>pingwenx@uic.edu</td></tr>
-<tr><td>404</td><td>Abeer</td><td>Mohamed</td><td>Endocrinology/Diabetes and Metabolism</td><td>Medicine</td><td>4th FL, AHSB</td><td>898</td><td>amahmo4@uic.edu</td></tr>
-<tr><td>405</td><td>Memoona</td><td>Hasnain</td><td>Family Medicine</td><td>Medicine</td><td>151 AHSB</td><td>663</td><td>memoona@uic.edu</td></tr>
-<tr><td>406</td><td>Pooja</td><td>Malhotra</td><td>Gastroenterology and Hepatology</td><td>Medicine</td><td></td><td></td><td>poojam@uic.edu</td></tr>
-<tr><td>407</td><td>Lisa</td><td>Tussing-Humphreys</td><td>Health Promotion Research</td><td>Medicine</td><td>416 WRB</td><td>275</td><td>ltussing@uic.edu</td></tr>
-<tr><td>408</td><td>Robert</td><td>Molokie</td><td>Hematology/Oncology</td><td>Medicine</td><td>172 CSN</td><td>712</td><td>remoloki@uic.edu</td></tr>
-<tr><td>409</td><td>Laura</td><td>Hirshfield</td><td>Medical Education</td><td>Medicine</td><td>986 CMET</td><td>591</td><td>lhirshf@uic.edu</td></tr>
-<tr><td>410</td><td>Timothy</td><td>Murphy</td><td>Medical Education</td><td>Medicine</td><td>964 CMET</td><td>591</td><td>tmurphy@uic.edu</td></tr>
-<tr><td>411</td><td>Leslie</td><td>Sandlow</td><td>Medical Education</td><td>Medicine</td><td>974 CMET</td><td>591</td><td>ljs@uic.edu</td></tr>
-<tr><td>412</td><td>Alan</td><td>Schwartz</td><td>Medical Education</td><td>Medicine</td><td>976 CMET</td><td>591</td><td>alansz@uic.edu</td></tr>
-<tr><td>413</td><td>Sandra</td><td>Sufian</td><td>Medical Education</td><td>Medicine</td><td>980 CME</td><td>591</td><td>sufians@uic.edu</td></tr>
-<tr><td>414</td><td>William</td><td>Chamberlin</td><td>Medicine</td><td>Medicine</td><td>207 MCA</td><td>904</td><td>whchamberlin@gmail.com</td></tr>
-<tr><td>415</td><td>Justin</td><td>Richner</td><td>Microbiology and Immunology</td><td>Medicine</td><td>E-829 MSB</td><td>790</td><td>richner@uic.edu</td></tr>
-<tr><td>416</td><td>Konstantin</td><td>Slavin</td><td>Neurological Surgery</td><td>Medicine</td><td>451N NPI</td><td>799</td><td>kslavin@uic.edu</td></tr>
-<tr><td>417</td><td>Jeffrey</td><td>Loeb</td><td>Neurology and Rehabilitation</td><td>Medicine</td><td>657N NPI</td><td>796</td><td>jaloeb@uic.edu</td></tr>
-<tr><td>418</td><td>Fei</td><td>Song</td><td>Neurology and Rehabilitation Medicine</td><td>Medicine</td><td></td><td></td><td>feisong@uic.edu</td></tr>
-<tr><td>419</td><td>Vinay</td><td>Aakalu</td><td>Ophthalmology and Visual Science</td><td>Medicine</td><td>1855 W. Taylor</td><td>648</td><td>vaakalu@uic.edu</td></tr>
-<tr><td>420</td><td>Dingcai</td><td>Cao</td><td>Ophthalmology and Visual Science</td><td>Medicine</td><td>1855 W Taylor</td><td>158</td><td>dcao98@uic.edu</td></tr>
-<tr><td>421</td><td>Timothy</td><td>McMahon</td><td>Ophthalmology and Visual Science</td><td>Medicine</td><td>EEI Room 3.154</td><td>648</td><td>timomcma@uic.edu</td></tr>
-<tr><td>422</td><td>H Steven</td><td>Sims</td><td>Otolaryngology</td><td>Medicine</td><td>2.42 EEI</td><td>648</td><td>hssims@uic.edu</td></tr>
-<tr><td>423</td><td>Jonathan</td><td>Klein</td><td>Pediatrics</td><td>Medicine</td><td>1801 W Taylor</td><td></td><td>jonklein@uic.edu</td></tr>
-<tr><td>424</td><td>De-Ann</td><td>Pillers</td><td>Pediatrics</td><td>Medicine</td><td>1257 CSB</td><td>856</td><td>pillersd@uic.edu</td></tr>
-<tr><td>425</td><td>Reshma</td><td>Shah</td><td>Pediatrics</td><td>Medicine</td><td>1206 CSB</td><td>856</td><td>reshmamd@uic.edu</td></tr>
-<tr><td>426</td><td>Saul</td><td>Weiner</td><td>Pediatrics</td><td>Medicine</td><td>2732 UH</td><td>103</td><td>sweiner@uic.edu</td></tr>
-<tr><td>427</td><td>Richard</td><td>Minshall</td><td>Pharmacology</td><td>Medicine</td><td>E102 MSB</td><td></td><td>rminsh@uic.edu</td></tr>
-<tr><td>428</td><td>Jae-Won</td><td>Shin</td><td>Pharmacology and Bioengineering</td><td>Medicine</td><td>5091 COMRB</td><td>868</td><td>stem.jwshin@gmail.com</td></tr>
-<tr><td>429</td><td>Monica</td><td>Lee</td><td>Physiology &amp; Biophysics</td><td>Medicine</td><td>1113 COMRB</td><td>901</td><td>monicayl@uic.edu</td></tr>
-<tr><td>430</td><td>Chong Wee</td><td>Liew</td><td>Physiology &amp; Biophysics</td><td>Medicine</td><td>2099 COMRB</td><td>901</td><td>cwliew@uic.edu</td></tr>
-<tr><td>431</td><td>Alexandra</td><td>Naba</td><td>Physiology &amp; Biophysics</td><td>Medicine</td><td>2035 COMRB</td><td>901</td><td>anaba@uic.edu</td></tr>
-<tr><td>432</td><td>Mrinalini</td><td>Rao</td><td>Physiology &amp; Biophysics</td><td>Medicine</td><td>2093 COMRB</td><td>901</td><td>meenarao@uic.edu</td></tr>
-<tr><td>433</td><td>Mark</td><td>Rasenick</td><td>Physiology &amp; Biophysics</td><td>Medicine</td><td>2095 COMRB</td><td>901</td><td>raz@uic.edu</td></tr>
-<tr><td>434</td><td>Erbo</td><td>Dong</td><td>Psychiatry</td><td>Medicine</td><td>256 PI</td><td>912</td><td>erbodong@uic.edu</td></tr>
-<tr><td>435</td><td>David</td><td>Gavin</td><td>Psychiatry</td><td>Medicine</td><td>3270 MBRB</td><td>669</td><td>dgavin1@uic.edu</td></tr>
-<tr><td>436</td><td>Liz</td><td>Glover</td><td>Psychiatry</td><td>Medicine</td><td>418 SPHPI</td><td>912</td><td>ejglover@uic.edu</td></tr>
-<tr><td>437</td><td>Alessandro</td><td>Guidotti</td><td>Psychiatry</td><td>Medicine</td><td>256A PI</td><td>912</td><td>aguidott@uic.edu</td></tr>
-<tr><td>438</td><td>Amy</td><td>Lasek</td><td>Psychiatry</td><td>Medicine</td><td></td><td></td><td>alasek@uic.edu</td></tr>
-<tr><td>439</td><td>Pauline</td><td>Maki</td><td>Psychiatry</td><td>Medicine</td><td>328 NPI</td><td>913</td><td>pmaki1@uic.edu</td></tr>
-<tr><td>440</td><td>Amynah</td><td>Pradhan</td><td>Psychiatry</td><td>Medicine</td><td>464 SPHPI</td><td>912</td><td>pradhan4@uic.edu</td></tr>
-<tr><td>441</td><td>Dana</td><td>Rusch</td><td>Psychiatry</td><td>Medicine</td><td>1747 Roosevelt</td><td>747</td><td>drusch1@uic.edu</td></tr>
-<tr><td>442</td><td>Neil</td><td>Smalheiser</td><td>Psychiatry</td><td>Medicine</td><td>525 PI</td><td>912</td><td>neils@uic.edu</td></tr>
-<tr><td>443</td><td>Patrick</td><td>Belvitch</td><td>Pulmonary, Critical Care, Sleep and Allergy</td><td>Medicine</td><td>3135 COMRB</td><td>719</td><td>pbelvitc@uic.edu</td></tr>
-<tr><td>444</td><td>Drew</td><td>Fancher</td><td>Pulmonary, Critical Care, Sleep and Allergy</td><td>Medicine</td><td></td><td></td><td>ifancher@uic.edu</td></tr>
-<tr><td>445</td><td>Irena</td><td>Levitan</td><td>Pulmonary, Critical Care, Sleep and Allergy</td><td>Medicine</td><td>3097 COMRB</td><td>719</td><td>levitan@uic.edu</td></tr>
-<tr><td>446</td><td>Valentin</td><td>Prieto-Centurion</td><td>Pulmonary, Critical Care, Sleep and Allergy</td><td>Medicine</td><td></td><td>719</td><td>vprieto@uic.edu</td></tr>
-<tr><td>447</td><td>Shiva</td><td>Shahrara</td><td>Rheumatology</td><td>Medicine</td><td>1113 CSB</td><td>733</td><td>shahrara@uic.edu</td></tr>
-<tr><td>448</td><td>Michael</td><td>Calik</td><td>Biobehavioral Health Science</td><td>Nursing</td><td>740 NURS</td><td>804</td><td>mcalik@uic.edu</td></tr>
-<tr><td>449</td><td>Melissa</td><td>Carlucci</td><td>Biobehavioral Health Science</td><td>Nursing</td><td>718 NURS</td><td>802</td><td>mcarlu2@uic.edu</td></tr>
-<tr><td>450</td><td>Lauren</td><td>Diegel-Vacek</td><td>Biobehavioral Health Science</td><td>Nursing</td><td>760 NURS</td><td>802</td><td>ljvacek@uic.edu</td></tr>
-<tr><td>451</td><td>Carol</td><td>Ferrans</td><td>Biobehavioral Health Science</td><td>Nursing</td><td>606 NURS</td><td>802</td><td>cferrans@uic.edu</td></tr>
-<tr><td>452</td><td>Anne</td><td>Fink</td><td>Biobehavioral Health Science</td><td>Nursing</td><td>752 NURS</td><td>802</td><td>afink2@uic.edu</td></tr>
-<tr><td>453</td><td>Cynthia</td><td>Fritschi</td><td>Biobehavioral Health Science</td><td>Nursing</td><td>646 NURS</td><td>802</td><td>fritschi@uic.edu</td></tr>
-<tr><td>454</td><td>Bilgay</td><td>Izci Balserak</td><td>Biobehavioral Health Science</td><td>Nursing</td><td>638 NURS</td><td>802</td><td>bilgay@uic.edu</td></tr>
-<tr><td>455</td><td>Denise</td><td>Kent</td><td>Biobehavioral Health Science</td><td>Nursing</td><td>717 NURS</td><td>802</td><td>dlynch7@uic.edu</td></tr>
-<tr><td>456</td><td>Pamela</td><td>Martyn-Nemeth</td><td>Biobehavioral Health Science</td><td>Nursing</td><td>720 NURS</td><td>802</td><td>pmartyn@uic.edu</td></tr>
-<tr><td>457</td><td>Lauretta</td><td>Quinn</td><td>Biobehavioral Health Science</td><td>Nursing</td><td>724 NURS</td><td>802</td><td>lquinn1@uic.edu</td></tr>
-<tr><td>458</td><td>Wendy</td><td>Bostwick</td><td>Health Systems Science</td><td>Nursing</td><td>954 NURS</td><td>802</td><td>wbostw1@uic.edu</td></tr>
-<tr><td>459</td><td>Colleen</td><td>Corte</td><td>Health Systems Science</td><td>Nursing</td><td>938 NURS</td><td>802</td><td>ccorte@uic.edu</td></tr>
-<tr><td>460</td><td>Kamal</td><td>Eldeirawi</td><td>Health Systems Science</td><td>Nursing</td><td>1054 NURS</td><td>802</td><td>keldei1@uic.edu</td></tr>
-<tr><td>461</td><td>Geraldine</td><td>Gorman</td><td>Health Systems Science</td><td>Nursing</td><td>1058 NURS</td><td>802</td><td>ggorman@uic.edu</td></tr>
-<tr><td>462</td><td>Patricia</td><td>Hershberger</td><td>Health Systems Science</td><td>Nursing</td><td>1044 NURS</td><td>802</td><td>phersh@uic.edu</td></tr>
-<tr><td>463</td><td>Saria</td><td>Lofton</td><td>Health Systems Science</td><td>Nursing</td><td>1038 NURS</td><td>802</td><td>slofto4@uic.edu</td></tr>
-<tr><td>464</td><td>Gwyneth</td><td>Milbrath</td><td>Health Systems Science</td><td>Nursing</td><td>948 NURS</td><td>802</td><td>gwyneth@uic.edu</td></tr>
-<tr><td>465</td><td>Shannon</td><td>Zenk</td><td>Health Systems Science</td><td>Nursing</td><td>960 NURS</td><td>802</td><td>szenk@uic.edu</td></tr>
-<tr><td>466</td><td>Jeannie</td><td>Van Schyndel</td><td>Pre-Nursing (Springfield Campus)</td><td>Nursing</td><td>Springfield</td><td></td><td>jvanschy@uic.edu</td></tr>
-<tr><td>467</td><td>Krista</td><td>Jones</td><td>Regional Nursing Program</td><td>Nursing</td><td>URBANA</td><td>313</td><td>kjones29@uic.edu</td></tr>
-<tr><td>468</td><td>Teresa</td><td>Krassa</td><td>Regional Nursing Program</td><td>Nursing</td><td>URBANA</td><td>313</td><td>tjkrassa@uic.edu</td></tr>
-<tr><td>469</td><td>Sarah</td><td>Abboud</td><td>Women, Children, and Family Health Science</td><td>Nursing</td><td>816 NURS</td><td>802</td><td>abbouds@uic.edu</td></tr>
-<tr><td>470</td><td>Natasha</td><td>Crooks</td><td>Women, Children, and Family Health Science</td><td>Nursing</td><td>816 NURS</td><td>802</td><td>ncrooks@uic.edu</td></tr>
-<tr><td>471</td><td>Pamela</td><td>Gampetro</td><td>Women, Children, and Family Health Science</td><td>Nursing</td><td>844 NURS</td><td>802</td><td>gampetro@uic.edu</td></tr>
-<tr><td>472</td><td>Mary Dawn</td><td>Koenig</td><td>Women, Children, and Family Health Science</td><td>Nursing</td><td>814 NURS</td><td>802</td><td>marydh@uic.edu</td></tr>
-<tr><td>473</td><td>Crystal</td><td>Patil</td><td>Women, Children, and Family Health Science</td><td>Nursing</td><td>848 NURS</td><td>802</td><td>cpatil@uic.edu</td></tr>
-<tr><td>474</td><td>Em</td><td>Rabelais</td><td>Women, Children, and Family Health Science</td><td>Nursing</td><td>620 NURS</td><td>802</td><td>rabelais@uic.edu</td></tr>
-<tr><td>475</td><td>Julienne</td><td>Rutherford</td><td>Women, Children, and Family Health Science</td><td>Nursing</td><td>
-822 NURS</td><td>802</td><td>ruther4d@uic.edu</td></tr>
-<tr><td>476</td><td>Judith</td><td>Schlaeger</td><td>Women, Children, and Family Health Science</td><td>Nursing</td><td>856 NURS</td><td>802</td><td>jschlaeg@uic.edu</td></tr>
-<tr><td>477</td><td>Susan</td><td>Vonderheid</td><td>Women, Children, and Family Health Science</td><td>Nursing</td><td>843 NURS</td><td>802</td><td>vonde@uic.edu</td></tr>
-<tr><td>478</td><td>Richard</td><td>Gemeinhart</td><td>Biopharmaceutical Sciences</td><td>Pharmacy</td><td>357 PHARM</td><td>865</td><td>rag@uic.edu</td></tr>
-<tr><td>479</td><td>Steve</td><td>Lee</td><td>Biopharmaceutical Sciences</td><td>Pharmacy</td><td>335 PHARM</td><td>781</td><td>ssylee@uic.edu</td></tr>
-<tr><td>480</td><td>Z. Jim</td><td>Wang</td><td>Biopharmaceutical Sciences</td><td>Pharmacy</td><td>3320 MBRB</td><td>865</td><td>zjwang@uic.edu</td></tr>
-<tr><td>481</td><td>Ashley</td><td>Hall</td><td>Forensic Science</td><td>Pharmacy</td><td>456A PHARM</td><td>865</td><td>amhall7@uic.edu</td></tr>
-<tr><td>482</td><td>Karl</td><td>Larsen</td><td>Forensic Science</td><td>Pharmacy</td><td>452 PHARM</td><td>865</td><td>larsena@uic.edu</td></tr>
-<tr><td>483</td><td>Joanna</td><td>Burdette</td><td>Medicinal Chemistry and Pharmacognosy</td><td>Pharmacy</td><td>3202 MBRB</td><td>781</td><td>joannab@uic.edu</td></tr>
-<tr><td>484</td><td>Chun-Tao</td><td>Che</td><td>Medicinal Chemistry and Pharmacognosy</td><td>Pharmacy</td><td>323 PHARM</td><td>781</td><td>chect@uic.edu</td></tr>
-<tr><td>485</td><td>Stephen</td><td>DiMagno</td><td>Medicinal Chemistry and Pharmacognosy</td><td>Pharmacy</td><td>597 PHARM</td><td>781</td><td>sdimagno@uic.edu</td></tr>
-<tr><td>486</td><td>Alessandra</td><td>Eustaquio</td><td>Medicinal Chemistry and Pharmacognosy</td><td>Pharmacy</td><td>4352 MBRB</td><td>870</td><td>ase@uic.edu</td></tr>
-<tr><td>487</td><td>Yu (Tom)</td><td>Gao</td><td>Medicinal Chemistry and Pharmacognosy</td><td>Pharmacy</td><td>505 PHARM</td><td>781</td><td>yugao@uic.edu</td></tr>
-<tr><td>488</td><td>Alexander</td><td>Mankin</td><td>Medicinal Chemistry and Pharmacognosy</td><td>Pharmacy</td><td>3052 MBRB</td><td>870</td><td>shura@uic.edu</td></tr>
-<tr><td>489</td><td>Terry</td><td>Moore</td><td>Medicinal Chemistry and Pharmacognosy</td><td>Pharmacy</td><td>504 PHARM</td><td>781</td><td>twmoore@uic.edu</td></tr>
-<tr><td>490</td><td>Brian</td><td>Murphy</td><td>Medicinal Chemistry and Pharmacognosy</td><td>Pharmacy</td><td>3120 MBRB</td><td>781</td><td>btmurphy@uic.edu</td></tr>
-<tr><td>491</td><td>Andrew</td><td>Riley</td><td>Medicinal Chemistry and Pharmacognosy </td><td>Pharmacy</td><td>505 PHARM</td><td>781</td><td>apriley@uic.edu</td></tr>
-<tr><td>492</td><td>Laura</td><td>Sanchez</td><td>Medicinal Chemistry and Pharmacognosy</td><td>Pharmacy</td><td>321 PHARM</td><td>781</td><td>sanchelm@uic.edu</td></tr>
-<tr><td>493</td><td>Juliana</td><td>Chan</td><td>Pharmacy Practice</td><td>Pharmacy</td><td>164 CSB</td><td>886</td><td>jchan@uic.edu</td></tr>
-<tr><td>494</td><td>Gail</td><td>Mahady</td><td>Pharmacy Practice</td><td>Pharmacy</td><td>122 PHARM</td><td>886</td><td>mahady@uic.edu</td></tr>
-<tr><td>495</td><td>Angela</td><td>Kong</td><td>Pharmacy Systems</td><td>Pharmacy</td><td></td><td></td><td>akong@uic.edu</td></tr>
-<tr><td>496</td><td>Clara</td><td>Awe</td><td>Pharmacy Systems, Outcomes and Policy</td><td>Pharmacy</td><td>176 PHARM</td><td>874</td><td>awe@uic.edu</td></tr>
-<tr><td>497</td><td>Gregory</td><td>Calip</td><td>Pharmacy Systems, Outcomes and Policy</td><td>Pharmacy</td><td>287C PHARM</td><td>871</td><td>gcalip@uic.edu</td></tr>
-<tr><td>498</td><td>Stephanie</td><td>Crawford</td><td>Pharmacy Systems, Outcomes and Policy</td><td>Pharmacy</td><td>258 PHARM</td><td>871</td><td>crawford@uic.edu</td></tr>
-<tr><td>499</td><td>A. Simon</td><td>Pickard</td><td>Pharmacy Systems, Outcomes and Policy</td><td>Pharmacy</td><td>254 PHARM</td><td>871</td><td>pickard1@uic.edu</td></tr>
-<tr><td>500</td><td>Nicholas</td><td>Popovich</td><td>Pharmacy Systems, Outcomes and Policy</td><td>Pharmacy</td><td></td><td></td><td>nickp@uic.edu</td></tr>
-<tr><td>501</td><td>Karin</td><td>Opacich</td><td>Administration</td><td>Public Health</td><td>1182 SPHPI</td><td>923</td><td>kopacich@uic.edu</td></tr>
-<tr><td>502</td><td>Karen</td><td>Peters</td><td>Community Health Sciences</td><td>Public Health</td><td>678B SPHPI</td><td>923</td><td>kpeters@uic.edu</td></tr>
-<tr><td>503</td><td>Wayne</td><td>Giles</td><td>Epidemiology and Biostatistics</td><td>Public Health</td><td>1175 SPHPI</td><td>923</td><td>wgiles@uic.edu</td></tr>
-<tr><td>504</td><td>William</td><td>Kling</td><td>Health Policy and Administration</td><td>Public Health</td><td>749 SPHPI</td><td>923</td><td>wkling@uic.edu</td></tr>
-<tr><td>505</td><td>Faith</td><td>Bonecutter</td><td>Social Work</td><td>Social Work</td><td>4034 ECSW</td><td>309</td><td>faithjb@uic.edu</td></tr>
-<tr><td>506</td><td>Barbara</td><td>Coats</td><td>Social Work</td><td>Social Work</td><td>4131 ETMSW</td><td>309</td><td>bc1972@uic.edu</td></tr>
-<tr><td>507</td><td>Christopher</td><td>Mitchell</td><td>Social Work</td><td>Social Work</td><td>4022 ETMSW</td><td>309</td><td>cgm@uic.edu</td></tr>
-<tr><td>508</td><td>Amy</td><td>Watson</td><td>Social Work</td><td>Social Work</td><td>4242 EPSAW</td><td>309</td><td>acwatson@uic.edu</td></tr>
-<tr><td>509</td><td>Art</td><td>Acevedo</td><td>Law</td><td>UIC John Marshall Law School</td><td></td><td></td><td>aaceved@uic.edu</td></tr>
-<tr><td>510</td><td>Cynthia</td><td>Bond</td><td>Law</td><td>UIC John Marshall Law School</td><td>315 S Plymouth</td><td>300</td><td>cbond3@uic.edu</td></tr>
-<tr><td>511</td><td>Karen</td><td>Cross</td><td>Law</td><td>UIC John Marshall Law School</td><td></td><td></td><td>7cross@jmls.edu</td></tr>
-<tr><td>512</td><td>Darby</td><td>Dickerson </td><td>Law</td><td>UIC John Marshall Law School</td><td></td><td></td><td>darbyd@uic.edu</td></tr>
-<tr><td>513</td><td>Ramsey</td><td>Donnell</td><td>Law</td><td>UIC John Marshall Law School</td><td>315 S Plymouth</td><td>300</td><td>rdonnell@uic.edu</td></tr>
-<tr><td>514</td><td>Sonia</td><td>Green</td><td>Law</td><td>UIC John Marshall Law School</td><td></td><td></td><td>sbgreen@uic.edu</td></tr>
-<tr><td>515</td><td>Cecil</td><td>Hunt</td><td>Law</td><td>UIC John Marshall Law School</td><td></td><td></td><td>7hunt@jmls.edu</td></tr>
-<tr><td>516</td><td>Hugh</td><td>Mundy</td><td>Law</td><td>UIC John Marshall Law School</td><td></td><td></td><td>hmundy@uic.edu</td></tr>
-<tr><td>517</td><td>Steve</td><td>Schwinn</td><td>Law</td><td>UIC John Marshall Law School</td><td>315 S Plymouth</td><td>300</td><td>schwinn@uic.edu</td></tr>
-<tr><td>518</td><td>Mark</td><td>Wojcik</td><td>Law</td><td>UIC John Marshall Law School</td><td></td><td></td><td>mwojcik@uic.edu</td></tr>
-<tr><td>519</td><td>Rebecca</td><td>Hendrick</td><td>Public Administration</td><td>Urban Planning and Public Affairs</td><td>134 CUPPAH</td><td>278</td><td>hendrick@uic.edu</td></tr>
-<tr><td>520</td><td>Kelly</td><td>LeRoux</td><td>Public Administration</td><td>Urban Planning and Public Affairs</td><td>135 CUPPAH</td><td>278</td><td>kleroux@uic.edu</td></tr>
-<tr><td>521</td><td>Kheir</td><td>Al-Kodmany</td><td>Urban Planning and Policy</td><td>Urban Planning and Public Affairs</td><td>237 CUPPAH</td><td>348</td><td>kheir@uic.edu</td></tr>
-<tr><td>522</td><td>Phil</td><td>Ashton</td><td>Urban Planning and Policy</td><td>Urban Planning and Public Affairs</td><td>217 CUPPAH</td><td>348</td><td>pashton@uic.edu</td></tr>
-<tr><td>523</td><td>Kate</td><td>Lowe</td><td>Urban Planning and Policy</td><td>Urban Planning and Public Affairs</td><td>238 CUPPA Hall</td><td>348</td><td>katelowe@uic.edu</td></tr>
-<tr><td>524</td><td>Brenda</td><td>Parker</td><td>Urban Planning and Policy</td><td>Urban Planning and Public Affairs</td><td>242 CUPPA</td><td>348</td><td>bkparker@uic.edu</td></tr>
-<tr><td>525</td><td>Sanjeev</td><td>Vidyarthi</td><td>Urban Planning and Policy</td><td>Urban Planning and Public Affairs</td><td>219 CUPPAH</td><td>248</td><td>svidy@uic.edu</td></tr></tbody></table></body>
-</html>
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+﻿
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>UIC Online Giving</title>
+
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="theme-color" content="#131f36" />
+	<meta name="msapplication-TileColor" content="#131f36" />
+	<meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png" />
+
+	<link href="assets/css/normalize.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/formstyle.css" rel="stylesheet" type="text/css" />
+
+	<link rel="apple-touch-icon" sizes="57x57"   href="images/favicons/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="60x60"   href="images/favicons/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon" sizes="72x72"   href="images/favicons/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76"   href="images/favicons/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-touch-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon-180x180.png" />
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicons/favicon.ico" />
+
+	<link rel="icon" type="image/png" href="images/favicons/android-chrome-192x192.png" sizes="192x192" />
+	<link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="images/favicons/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16" />
+
+	<link rel="manifest" href="images/favicons/manifest.json" />
+
+	<script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/slick.min.js"></script>
+</head>
+
+   <body id="home">
+      <div id="addedfade">
+         <div class="innercont">Fund Added<br />to Cart</div>
+      </div>
+      <div class="fade">
+         <div class="slide1"></div>
+         <div class="slide2"></div>
+         <div class="slide3"></div>
+         <div class="slide4"></div>
+         <div class="slide5"></div>
+      </div>
+      <div id="container">
+         <div id="main" role="main" aria-labelledby="main-wrapper">
+            <div class="wrapper" id="main-wrapper">
+               <div id="paddingcont">
+                  <div class="content float-up">
+                     <div id="donation-wrapper">
+                        <form method="post" action="" id="formbody">
+
+									<input name="TRACKING_CODE" type="hidden" value="20051">
+									<input name="SKIN_ID" type="hidden" value="chicagoannualgiving">
+
+                              <div id="donation-main">
+                                 <div class="addpadding">
+                                 <a href="http://advance.uic.edu" title="UIC Advancement Home" target="_blank"><img alt="Give to UIC" class="fadeIn fade-in one" id="givelogo" src="images/ignitelogo.png"></a>
+                                 <h1>Make Your Gift <span class="hide950">to UIC</span></h1>
+
+                                    <div class="donation-form-row">
+                                       <h2><label for="funds-scholarships-dropdown">Scholarship Funds</label></h2>
+                                       <select id="funds-scholarships-dropdown" class="inline left">
+                                          <option value="">------ Make a selection ------</option>
+
+                                       <option value="12343008/UIC Student Scholarships">UIC Student Scholarships</option>
+<option value="12341410/UIC Graduate Fellowships">UIC Graduate Fellowships</option>
+<option value="12340493/Applied Health Sciences Scholarships">Applied Health Sciences Scholarships</option>
+<option value="12342589/Architecture, Design, and the Arts Scholarships">Architecture, Design, and the Arts Scholarships</option>
+<option value="12340210/Athletics Scholarships">Athletics Scholarships</option>
+<option value="12340621/Business Scholarships">Business Scholarships</option>
+<option value="12341931/UIC College of Dentistry A.C.E. Student Scholars Fund">UIC College of Dentistry A.C.E. Student Scholars Fund</option>
+<option value="12340986/Partners in Education Scholarship">Partners in Education Scholarship</option>
+<option value="12341002/Engineering Scholarships">Engineering Scholarships</option>
+<option value="12342175/Honors College Scholarships Honors College Scholarships">Honors College Scholarships Honors College Scholarships</option>
+<option value="12340040/Jane Addams College of Social Work Scholarships">Jane Addams College of Social Work Scholarships</option>
+<option value="12332206/Liberal Arts and Sciences Scholarships">Liberal Arts and Sciences Scholarships</option>
+<option value="12342500/Medicine at Chicago Scholarships">Medicine at Chicago Scholarships</option>
+<option value="12342780/Medicine at Peoria Scholarships">Medicine at Peoria Scholarships</option>
+<option value="12342922/Medicine at Rockford Scholarships">Medicine at Rockford Scholarships</option>
+<option value="12775819/Medicine at Urbana Medical Scholars Program">Medicine at Urbana Medical Scholars Program</option>
+<option value="12342725/Nursing Scholarships">Nursing Scholarships</option>
+<option value="12778442/Regional Nursing Scholarships">Regional Nursing Scholarships</option>
+<option value="12342820/Pharmacy Scholarships">Pharmacy Scholarships</option>
+<option value="12340494/UIC College of Pharmacy at Rockford Scholarships Fund">UIC College of Pharmacy at Rockford Scholarships Fund</option>
+<option value="12338504/UIC SPH General Scholarship Fund">UIC SPH General Scholarship Fund</option>
+<option value="12342458/Urban Planning and Public Affairs Undergraduate Scholarships">Urban Planning and Public Affairs Undergraduate Scholarships</option>
+
+                                       </select>
+                                       <div class="inline relative dollar-wrapper left">
+                                          <span class="dollar-sign-span">$</span>
+                                          <h2><label for="donation-scholarships-amount" class="off-screen">Donation Amount</label></h2>
+                                          <input type="text" id="donation-scholarships-amount" class="inline dollar-sign-input" value="0.00" />
+                                          <input type="button" value="Add" class="inline" id="donation-scholarships-amount-submit" />
+                                       </div>
+                                       <div class="clear"></div>
+                                    </div>
+
+                                    <div class="donation-form-row">
+                                       <h2><label for="funds-annual-dropdown">Annual Funds</label></h2>
+                                       <select id="funds-annual-dropdown" class="inline left">
+                                          <option value="">------ Make a selection ------</option>
+
+                                       <option value="12342758/UIC U&I Care Emergency Student Fund">UIC U&I Care Emergency Student Fund</option>
+<option value="12335794/UIC Crisis Response and Healthcare Delivery Fund">UIC Crisis Response and Healthcare Delivery Fund</option>
+<option value="12330017/UIC Chicago Campus Unrestricted Fund">UIC Chicago Campus Unrestricted Fund</option>
+<option value="12330431/Applied Health Sciences Annual Fund">Applied Health Sciences Annual Fund</option>
+<option value="12330410/Architecture, Design and the Arts Annual Fund">Architecture, Design and the Arts Annual Fund</option>
+<option value="12331830/UIC Athletics Program Fund">UIC Athletics Program Fund</option>
+<option value="12330670/Business Dean's Fund for Advancement">Business Dean's Fund for Advancement</option>
+<option value="12331331/Dentistry Deans Fund for Excellence">Dentistry Deans Fund for Excellence</option>
+<option value="12331430/Education Deans Fund for Excellence">Education Deans Fund for Excellence</option>
+<option value="12331476/Engineering Excellence Fund">Engineering Excellence Fund</option>
+<option value="12331840/Graduate College Deans Fund">Graduate College Deans Fund</option>
+<option value="12331893/Honors College Fund">Honors College Fund</option>
+<option value="12330231/Jane Addams College of Social Work Annual Fund">Jane Addams College of Social Work Annual Fund</option>
+<option value="12332200/Liberal Arts and Sciences Fund">Liberal Arts and Sciences Fund</option>
+<option value="12332390/UIC Library of the Health Sciences">UIC Library of the Health Sciences</option>
+<option value="12332265/University Library Annual Fund">University Library Annual Fund</option>
+<option value="12332609/Medicine at Chicago Annual Fund">Medicine at Chicago Annual Fund</option>
+<option value="12333230/Medicine at Peoria Dean's Fund">Medicine at Peoria Dean's Fund</option>
+<option value="12333719/Medicine at Rockford Annual Fund">Medicine at Rockford Annual Fund</option>
+<option value="12775300/Medicine at Urbana Dean's Fund">Medicine at Urbana Dean's Fund</option>
+<option value="12331920/UIC University of Illinois Hospital">UIC University of Illinois Hospital</option>
+<option value="12332980/Nursing Annual Fund">Nursing Annual Fund</option>
+<option value="12333265/UIC College of Pharmacy Dean's Fund for Excellence">UIC College of Pharmacy Dean's Fund for Excellence</option>
+<option value="12335383/UIC College of Pharmacy Rockford Dean's Fund for Excellence">UIC College of Pharmacy Rockford Dean's Fund for Excellence</option>
+<option value="12333483/UIC School of Public Health Dean's Fund for Excellence">UIC School of Public Health Dean's Fund for Excellence</option>
+<option value="12331087/UIC Student Program Fund">UIC Student Program Fund</option>
+<option value="12334307/UIC CUPPA Dean's Fund for Excellence">UIC CUPPA Dean's Fund for Excellence</option>
+
+                                       </select>
+                                       <div class="inline relative dollar-wrapper left">
+                                          <span class="dollar-sign-span">$</span>
+                                          <h2><label for="donation-annual-amount" class="off-screen">Donation Amount</label></h2>
+                                          <input type="text" id="donation-annual-amount" class="inline dollar-sign-input" value="0.00" />
+                                          <input type="button" value="Add" class="inline" id="donation-annual-amount-submit" />
+                                       </div>
+                                       <div class="clear"></div>
+                                    </div>
+
+                                    <!-- .donation-form-row -->
+                                    <div class="donation-form-row" id="donation-form-row-search" style=" position: relative;">
+                                       <h4>Looking for a different fund? Try our search function below.</h4>
+                                       <h2><label for "fundSearch">Search</label></h2>
+                                       <div id="UpdatePanel1">
+                                             <div class="inline relative valign-top dollar-wrapper-textbox left">
+                                                <input name="FundsSearch" type="text" id="FundsSearch" class="inline dollar-sign-input" style="height:16px;width:330px;" />
+                                                <input type="submit" name="btnSearch" value="Search" id="btnSearch" class="inline result-label-add" />
+                                             </div>
+                                             <label for="funds-scholarships-dropdown">
+                                                <span id="Label1"></span>
+                                             </label>
+                                             <div class="clear"></div>
+                                             <!--<input type="text" id="FundsSearch" />-->
+                                             <div id="txtHint">
+
+                                             </div>
+
+                                       </div>
+                                       <div class="clear"></div>
+                                    </div>
+                                    <!-- .donation-form-row -->
+                                    <div class="donation-form-row" id="donation-form-row-designate">
+                                       <h2><label for="donation-designate">Other <small>(Indicate where to direct donation)</small></label></h2>
+                                       <input id="donation-designate" class="left" />
+                                       <div class="inline relative valign-top dollar-wrapper-textbox left">
+                                          <span class="dollar-sign-span">$</span>
+                                          <h2><label for="donation-designate-input" class="off-screen">Amt</label></h2>
+                                          <input type="text" id="donation-designate-input" class="inline valign-top dollar-sign-input" value="0.00" />
+                                          <input type="button" id="donation-designate-submit" class="inline valign-top" value="Add" />
+                                       </div>
+                                       <div class="clear"></div>
+                                    </div>
+                                    <div id="donation-designate-rule">
+                                       <!-- Text here -->
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- #donation-main -->
+                              <div id="donation-results">
+                                 <a href="mailto:advance@uic.edu"><img id="contactus" class="" src="images/contact.png" alt="Give to UIC" /></a>
+                                 <a href="mailto:advance@uic.edu"><img id="contactus2" class="" src="images/contact2.png" alt="Give to UIC" /></a>
+                                 <div class="donation-form-row" id="donation-form-results">
+                                    <h2><label for="donation-results-total">Total Donation</h2>
+                                    <div class="relative dollar-total-wrapper">
+                                       <span class="dollar-sign-span">$</span>
+                                       <input type="text" id="donation-results-total" class="clear dollar-sign-input" value="0.00" />
+                                    </div>
+                                 </div>
+                                 <div class="donation-form-row-last" style="border: none; margin-top: 18px; text-align: center;">
+                                    <input id="form-submit-btn" class="submit-btn-disabled" type="submit" value="Continue" onclick="submitme();" />
+                                 </div>
+                                 <p class="middlefont">Have a personalized <span class="bold">WEB CODE</span>? <a href="https://bbis.uif.uillinois.edu/uif/uif_chicago-web-code">Enter it here.</a></p>
+                              </div>
+                              <!-- #donation-results -->
+                              <div class="donation-clear"></div>
+                           </div>
+                        </form>
+                     </div>
+                     <!-- #donation-wrapper -->
+                     <script src="assets/js/donation-form-functions.js"></script>
+                  </div>
+                  <!-- .content -->
+                  <!-- .sidebar -->
+                  <div class="clear"></div>
+               </div>
+               <div class="clear"></div>
+            <div class="footer">
+               <label for="donation-results-total"><b>Office of the Vice Chancellor for Advancement</b><br />
+               601 South Morgan Street (MC 002)<span class="hidesmall">,</span>
+               <span class="showsmall"></span>Chicago, Illinois 60607<br />
+               E-mail: <a href="mailto:advance@uic.edu">advance@uic.edu</a><br />
+               Phone: (312) 413-8876
+               </label>
+            </div>
+               <!-- .wrapper -->
+            </div>
+         </div>
+         <!-- #main -->
+         <!-- #footer -->
+      </div>
+      <!-- #container -->
+
+	<script type="text/javascript" >
+		function submitme() {
+			var vform = document.getElementById('formbody');
+
+			vform.action = "https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx";
+
+      	return true;
+      }
+   </script>
+
+   <script>
+   // This will prevent a second "Other" fund from being entered
+
+   $( "#donation-designate-submit" ).click(function() {
+      if ($("#donation-results").find( '[id^="fund-custom-"]' ).length) {
+         $("#donation-form-row-designate").addClass( "disabled" );
+         $("#donation-designate-rule").append('Our system can currently only accept one write-in fund. If you need to write in another fund, please attempt to search for it or contact the <a href="http://advance.uic.edu">UIC Office of the Vice Chancellor for Advancement<\/a> at (312) 413-2992.');
+      }
+   });
+
+   // Enter Key Override for "Add Buttons"
+
+  $('.dollar-sign-input').keypress(function(e) {
+    if (e.which == 13) {
+    e.preventDefault();
+    $(this).blur();
+    $(this).next('input.inline').click();
+    }
+  });
+$('#donation-designate').keypress(function(e) {
+    if (e.which == 13) {
+    e.preventDefault();
+    $(this).blur();
+    $('#donation-designate-input').click().focus();
+    }
+  });
+   </script>
+
+   <script>
+   //Slider
+
+      $('.fade').slick({
+         slidesToShow: 1,
+         variableWidth: true,
+         draggable: false,
+         pauseOnHover: false,
+         centerMode: false,
+         dots: false,
+         infinite: true,
+         speed: 3000,
+         autoplaySpeed: 15000,
+         fade: true,
+         arrows: false,
+         autoplay: true,
+         adaptiveHeight: true,
+         cssEase: 'ease',
+         easing: 'linear',
+         lazyLoad: 'progressive',
+         centerPadding: '0px'
+      });
+   </script>
+
+      <!-- Google Analytics -->
+   <script>
+/*
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-88249997-1', 'auto');
+      ga('send', 'pageview');
+*/
+   </script>
+
+<!-- University of Illinois Foundation ChatBot -->
+   <script id="chatbot" data-skin="uic" type="text/javascript" src="https://online.uif.uillinois.edu/libraries/chatbot/chatbot.min.js"></script>
+<!-- End University of Illinois Foundation ChatBot -->
+
+   </body>
+</html>

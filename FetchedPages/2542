@@ -17,9 +17,11 @@
     
         ga('create', 'UA-20665772-1', 'auto');
     
+        ga('create', 'UA-143421502-1', 'auto', 'acccTracker');
     
         ga('send', 'pageview');
     
+        ga('acccTracker.send', 'pageview');
       </script>
 <!-- End Google Analytics script (RED and this site) -->
 
@@ -35,10 +37,16 @@
 
 
 
+<!-- Google Tag Manager script for this site -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
+              (window,document,'script','dataLayer','GTM-WWKDFTR');
+  </script>
+<!-- End Google Tag Manager script for this site -->
 
 
         <title>
-                            Photo Services | University of Illinois at Chicago
+                            Technology Basics for Academic Continuity - Staff Focused | Academic Computing and Communications Center | University of Illinois at Chicago
                     </title>
 
 
@@ -46,7 +54,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="pingback" href="https://photo.uic.edu/xmlrpc.php" />
+    <link rel="pingback" href="https://accc.uic.edu/xmlrpc.php" />
 
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
@@ -69,13 +77,14 @@
 <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
 <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 
-    <link rel="stylesheet" href="https://photo.uic.edu/wp-content/themes/uic-red/main.css?v=1587475706" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://photo.uic.edu/wp-content/themes/uic-red/theinhardt.css?v=1587475706" type="text/css" media="all">
+    <link rel="stylesheet" href="https://accc.uic.edu/wp-content/themes/uic-red/main.css?v=1587475706" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://accc.uic.edu/wp-content/themes/uic-red/theinhardt.css?v=1587475706" type="text/css" media="all">
 
     <link rel='dns-prefetch' href='//www.uic.edu' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
 		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/photo.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6"}};
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/accc.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6"}};
 			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
 		<style type="text/css">
@@ -92,13 +101,14 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='https://photo.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6' type='text/css' media='all' />
-<link rel='stylesheet' id='sb_instagram_styles-css'  href='https://photo.uic.edu/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.12.1' type='text/css' media='all' />
-<link rel='stylesheet' id='tablepress-default-css'  href='https://photo.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://accc.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6' type='text/css' media='all' />
+<link rel='stylesheet' id='sb_instagram_styles-css'  href='https://accc.uic.edu/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.12.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sb-font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://accc.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
 <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
-<link rel='https://api.w.org/' href='https://photo.uic.edu/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://photo.uic.edu/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://photo.uic.edu/wp-includes/wlwmanifest.xml" /> 
+<link rel='https://api.w.org/' href='https://accc.uic.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://accc.uic.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://accc.uic.edu/wp-includes/wlwmanifest.xml" /> 
 
 <script type="text/javascript">
 (function(url){
@@ -133,7 +143,7 @@ img.emoji {
 	for (var i = 0; i < evts.length; i++) {
 		addEvent(evts[i], logHuman);
 	}
-})('//photo.uic.edu/?wordfence_lh=1&hid=48393373E8DD02BAAFCBECCCB767A299');
+})('//accc.uic.edu/?wordfence_lh=1&hid=976FC075D0207052ECF65F8926A4BEC1');
 </script>
 </head>
       
@@ -145,6 +155,11 @@ img.emoji {
 </noscript>
 <!-- End Google Tag Manager for RED multisite (noscript) -->
 
+<!-- Google Tag Manager for this site (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id='GTM-WWKDFTR'" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager for this site (noscript) -->
 
 
 
@@ -152,13 +167,7 @@ img.emoji {
   
   
 
-  
-  
-
-  
-  
-
-  <div class="l-page home blog post-type-- is-homepage site-type-b theme--blue no-sidebar  ">
+  <div class="l-page page-template-default page page-id-16116 page-child parent-pageid-16091 post-type--page  site-type-b theme--blue is-sidebar  ">
 
 
     <!--[if lte IE 9]>
@@ -188,11 +197,12 @@ img.emoji {
     </span>
     <a class="_primary-menu" href="#menu-main">the main menu</a>,
 
+        <a class="_secondary-menu" href="#menu-secondary">the secondary menu</a>,
     
     
     <a class="_search" href="#search">the site search form</a>,
 
-    <a class="_home" href="https://photo.uic.edu">the site home page</a>.
+    <a class="_home" href="https://accc.uic.edu">the site home page</a>.
   </p>
 </div>
 
@@ -208,7 +218,7 @@ img.emoji {
 </a>
     </div>
                 <div class="site-title-eyebrow-mobile">
-          <a href="https://photo.uic.edu">Photo Services</a>
+          <a href="https://accc.uic.edu">Academic Computing and Communications Center</a>
         </div>
     
     <button aria-label="Search the site" class="search-toggle-mobile js-search-toggle-mobile">
@@ -228,7 +238,7 @@ img.emoji {
         Search
         <a class="search-close search-toggle-mobile">
           <svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22">
-            <use xlink:href="https://photo.uic.edu/wp-content/themes/uic-red/images/svgs/svgs.svg#icon-close"></use>
+            <use xlink:href="https://accc.uic.edu/wp-content/themes/uic-red/images/svgs/svgs.svg#icon-close"></use>
           </svg>
         </a>
       </div>
@@ -255,26 +265,369 @@ img.emoji {
 
             <div class="header-navigation__logo-and-site-title">
 
-                                <div class="site-title-main -large">
-                                      <a href="https://photo.uic.edu">Photo Services</a>
+                                <div class="site-title-main ">
+                                      <a href="https://accc.uic.edu">Academic Computing and Communications Center</a>
                                     </div>
               
             </div>
           <nav class="header-menus js-header-menus " aria-label="Primary" role="navigation">
 
   <div class="site-title-mobile-menu">
-    <a href="https://photo.uic.edu">Photo Services</a>
+    <a href="https://accc.uic.edu">Academic Computing and Communications Center</a>
   </div>
 
   
   <h2 class="assistive-text">Main Menu</h2>
   <ul id="menu-main" class="menu menu-main" aria-label="Main Menu">
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-8922 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/services/"
+        target="_self">
+
+        Services
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Services menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Services menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-8945 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/services/communication-collaboration/"
+                  target="_self">
+
+                  Communication and Collaboration
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-8980 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/services/computing/"
+                  target="_self">
+
+                  Computing Services
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-8992 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/services/infrastructure/"
+                  target="_self">
+
+                  Infrastructure
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-9026 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/services/professional-services/"
+                  target="_self">
+
+                  Professional Services
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-9050 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/services/research-support/"
+                  target="_self">
+
+                  Research
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-9056 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/services/security/"
+                  target="_self">
+
+                  Security
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-9089 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/services/teaching-learning/"
+                  target="_self">
+
+                  Teaching and Learning
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-8926 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/support/"
+        target="_self">
+
+        Support
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Support menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Support menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-16162">
+                <a 
+                  class="menu-main__second-link"
+                  href="/support/academic-continuity/"
+                  target="_self">
+
+                  Academic Continuity
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13096">
+                <a 
+                  class="menu-main__second-link"
+                  href="/support/academic-multimedia-lab/"
+                  target="_self">
+
+                  Academic Multimedia Lab and Lightboard Studio
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13093">
+                <a 
+                  class="menu-main__second-link"
+                  href="/support/arc-helpdesk/"
+                  target="_self">
+
+                  ARC Helpdesk
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13095">
+                <a 
+                  class="menu-main__second-link"
+                  href="/support/c-stop-bsb/"
+                  target="_self">
+
+                  C-Stop BSB
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13094">
+                <a 
+                  class="menu-main__second-link"
+                  href="/support/c-stop-lhs/"
+                  target="_self">
+
+                  C-Stop LHS
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13098">
+                <a 
+                  class="menu-main__second-link"
+                  href="/support/daley-library-helpdesk/"
+                  target="_self">
+
+                  Daley Library Helpdesk
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13097">
+                <a 
+                  class="menu-main__second-link"
+                  href="/support/lts-support-office/"
+                  target="_self">
+
+                  LTS Support Office
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-11601 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/service-status/"
+        target="_self">
+
+        Service Status
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Service Status menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Service Status menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-12409">
+                <a 
+                  class="menu-main__second-link"
+                  href="/service-status/service-notices/"
+                  target="_self">
+
+                  Service Notices
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-9129 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/news-highlights/"
+        target="_self">
+
+        News
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand News menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand News menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13410">
+                <a 
+                  class="menu-main__second-link"
+                  href="/news-highlights/news-2/"
+                  target="_self">
+
+                  All News
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-8925">
+      <a 
+        class="menu-main__first-link"
+        href="/forms/"
+        target="_self">
+
+        Forms
+      </a>
+
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-8924 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/about/"
+        target="_self">
+
+        About
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand About menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand About menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-15685">
+                <a 
+                  class="menu-main__second-link"
+                  href="/about/identity/"
+                  target="_self">
+
+                  Identity
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-14966">
+                <a 
+                  class="menu-main__second-link"
+                  href="/about/leadership-3/"
+                  target="_self">
+
+                  Leadership
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-15104">
+                <a 
+                  class="menu-main__second-link"
+                  href="/about/policies/"
+                  target="_self">
+
+                  Policies
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-11597">
+                <a 
+                  class="menu-main__second-link"
+                  href="/about/reports/"
+                  target="_self">
+
+                  Reports
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-11595">
+                <a 
+                  class="menu-main__second-link"
+                  href="/about/jobs/"
+                  target="_self">
+
+                  Jobs
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
   </ul>
 
   <div class="l-eyebrow">
 
     <h2 class="assistive-text">Eyebrow menu</h2>
     <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
+            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-8875">
+            <a  href="https://webstore.illinois.edu/shop/category.aspx?zcid=107" target="_blank">WebStore</a>
+        </li>
+            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-10777">
+            <a  href="http://go.uic.edu/linkedinlearning" target="_blank">Online Training</a>
+        </li>
+            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-10195">
+            <a  href="https://answers.uillinois.edu/uic/" target="_blank">Answers</a>
+        </li>
     </ul>
 
     <h2 class="assistive-text">UIC menu</h2>
@@ -319,77 +672,70 @@ img.emoji {
     
   </div>
 
-                  <div
-  class="header-title header-title--type-treatment header-title--hero header-title--home"
-  style="
-    background-image:url('https://photo.uic.edu/wp-content/uploads/sites/151/2017/09/east_side_overhead.jpg');">      <div class="color-wash-gradient            
-            ">
-
-                  <img src="" alt="Aerial photo of east side of campus">
-        
-    </div>
-    <div class="l-full">
-    <div class="header-title__content header-title__content--horizontal">
-              <div class="_brand">
-            <div class="header-hero-logo">
-                  <div class="uic-type-treatment -large ">
-
-  <div class="_mark">
-    <a href="http://uic.edu" class="uic-logo-icon ">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
-  </div>
-
-  <div class="_text">
-    <a href="https://photo.uic.edu">
-          Photo Services
-        </a>
-  </div>
-
-</div>
-          </div>
-        </div>
-            <div class="_text  _text--no-wordmark ">
-                  <h1 class="assistive-text">Photo Services</h1>
-          <div
-            class="header-title-title header-title-title--b">Resources for Photography and Video</div>
-              </div>
-    </div>
-  </div>
-</div>
-          
+    
+        <a href="#menu-secondary" class="menu-secondary-anchor">
+      View Menu
+      <svg aria-label="Down arrow icon" width="32" height="32" viewBox="0 0 32 32" role="presentation">
+        <title>Down arrow icon</title>
+        <g fill="none" fill-rule="evenodd">
+          <circle class="_circle" stroke-width="1" stroke="#007Da5" fill="#fff" cx="16" cy="16" r="15"/>
+          <path class="_arrow" stroke-width="2" stroke="#001E62" stroke-linecap="round" d="M12 17l4 4 4-4M16 20v-9"/>
+        </g>
+      </svg>
+    </a>
         
 </header>
 
     <main id="main" class="l-content-wrapper" role="main">
 
       
-      
-      <div class="">
+                
+	      
+      <div class="l-full">
 
         <div class="l-content ">
 
-                    
-	          
           
-          <article class="post-type-" id="article">
-                <div class="l-full">
-                  <div class="intro-text">
+                      <nav class="breadcrumbs" aria-label="Breadcrumbs">
+  <h2 class="assistive-text">Breadcrumbs</h2>
+  <ol class="menu" vocab="https://schema.org/" typeof="BreadcrumbList">
 
-                      
+  
+          <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://accc.uic.edu"><span property="name">Academic Computing and Communications Center</span></a>
+        <meta property="position" content="0">
+      </li>
+    
+  
+          <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://accc.uic.edu/support/"><span property="name">Support</span></a>
+        <meta property="position" content="1">
+      </li>
+    
+  
+          <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://accc.uic.edu/support/academic-continuity/"><span property="name">Academic Continuity</span></a>
+        <meta property="position" content="2">
+      </li>
+    
+  
+          <li property="itemListElement" typeof="ListItem"><span property="name">Technology Basics for Academic Continuity - Staff Focused</span>
+        <meta property="position" content="3">
+      </li>
+    
+  
+  </ol>
+</nav>
+          
+          <article class="post-type-page" id="article">
             
-    
-    
-              <p>Images are an important component of UIC’s identity, providing perspectives of life in Chicago and showcasing the university’s academic excellence and accomplishments. Departments using photography and video in print and digital communications are encouraged to follow these guidelines and policies. The internal resources listed below can provide high quality photos and video for your needs.</p>
+          <div class="intro-text">
 
+                      <h1 class="_title post-title">Technology Basics for Academic Continuity &#8211; Staff Focused</h1>
+              
+            
+              
     
+        
   </div>
-    </div>
-    <div class="components">
+        <div class="components">
 
   
     
@@ -397,195 +743,1966 @@ img.emoji {
 
 <section class="component  ">
 
-      <div class="l-full">
+  
+    <div class="component-accordion js-component-accordion">
+
+    
+    <div class="component-description">
+                    <h2 id="technology-basics-for-academic-continuity-staff-focused" class="__title invisible">Technology Basics for Academic Continuity - Staff Focused</h2>
+                            <div class="__description">
+                <p>ACCC offers the resources and support you need in the event that you are authorized to perform your work remotely.</p>
+
+            </div>
+            </div>
+
+    <dl class="component-accordion__accordion"
+        role="presentation">
+
+    <dt class="component-accordion__title"
+          role="heading"
+          aria-level="1">
+        <button
+          class="component-accordion__button js-toggle-acc"
+          aria-expanded="false"
+          aria-controls="panel-sectionID-1-1"
+          id="tab-sectionID-1-1"
+          type="button">
+            Securely Access UIC Resources
+        </button>
+      </dt>
+
+      <dd class="component-accordion__content component-accordion__content--collapsed"
+          aria-labelledby="tab-sectionID-1-1"
+          id="panel-sectionID-1-1"
+          role="region">
+
+          <div class="component-accordion__content-wrapper">
+            <div class="components">
+
+  
+    
+      
+
+<div class="component  component--is-in-another-component">
+
   
   <div class="component-text-block">
   
     <div class="component-description">
-                    <h2 id="keys-to-successful-photo-and-video-projects" class="__title visible">Keys to successful photo and video projects</h2>
+                    <h2 id="securely-access-uic-resources" class="__title invisible">Securely access UIC resources</h2>
                     </div>
 
-    <figure class="_image captioned-image image-right-half">
-  <img src="https://photo.uic.edu/wp-content/uploads/sites/151/2017/09/colorwash_student_skyline.jpg" alt="colorwashed image of student looking toward chicago skyline">
-  </figure>
   
-  <p>All campus units should use professional-quality images that represent the campus, its diverse students, faculty and staff and its academic and research endeavors in a positive light. Imagery should feel true to the university. The use of negative space and color is encouraged to showcase UIC’s vibrancy.</p>
-<h3>Copyright and Permissions</h3>
-<p>When working with outside photographers, make sure that all contracts specify that UIC will own exclusive rights to the use of the images. This will allow the images to be used for current and future projects without having to purchase additional rights.</p>
-<h3>Photo Release</h3>
-<p>Other than those photographed for news coverage by independent news organizations, any individuals who may be identified by their image must sign a photo release form before they are photographed for a UIC project. The release gives UIC permission to use the photo in any university communication vehicle or any outside medium used to represent the campus. It acknowledges that the signatory understands that the information may be published and shown in public and that there will be no compensation provided for its use.</p>
+  <h3><a href="https://accc.uic.edu/services/security/authentication/2fa/" rel="noopener">2-Factor Authentication</a></h3>
+<p>2-Factor Authentication (2FA) adds an additional layer of security for many University resources. Enrollment in 2FA is necessary to access some services, including the Virtual Private Network. Find out more about 2FA and enrolling at <a href="https://answers.uillinois.edu/systemoffices/internal/2fa" target="_blank" rel="noopener">https://answers.uillinois.edu/systemoffices/internal/2fa</a></p>
+<h3><a href="https://accc.uic.edu/services/infrastructure/network/virtual-private-network/" rel="noopener">Virtual Private Network</a></h3>
+<p>Securely access UIC resources over a non-UIC Internet connection. While connected to the VPN, your UIC-related data is encrypted.</p>
 
 
 
-      <ul class="link-list">
-  <li class="_item">
-    <a  href="https://today.uic.edu/contact/communicating-on-campus/photo-video-policies" target="_blank">
-      Policies & Consent Forms
-    </a>
-  </li>
-</ul>
   
 </div>
 
-      </div>
   
-</section>
+</div>
 
     
 
+</div>
+          </div>
+      </dd>
+
+    <dt class="component-accordion__title"
+          role="heading"
+          aria-level="2">
+        <button
+          class="component-accordion__button js-toggle-acc"
+          aria-expanded="false"
+          aria-controls="panel-sectionID-1-2"
+          id="tab-sectionID-1-2"
+          type="button">
+            Host Meetings Online
+        </button>
+      </dt>
+
+      <dd class="component-accordion__content component-accordion__content--collapsed"
+          aria-labelledby="tab-sectionID-1-2"
+          id="panel-sectionID-1-2"
+          role="region">
+
+          <div class="component-accordion__content-wrapper">
+            <div class="components">
+
+  
     
       
 
-<section class="component  ">
+<div class="component  component--is-in-another-component">
 
-      <div class="l-full">
   
+  <div class="component-text-block">
   
+    <div class="component-description">
+                    <h2 id="host-meetings-online" class="__title invisible">Host meetings online</h2>
+                    </div>
+
   
-  <ul class="component-link-tile ">
-      <li class="component-link-tile__item component-link-tile__item--regular">
+  <h3></h3>
+<h3><a href="https://accc.uic.edu/services/communication-collaboration/conferencing/google-hangouts-meet/" rel="noopener">Google Meet</a></h3>
+<p>Host a conversation, video call, or phone call with up to 250 people at a time, and collaborate on Google documents. Hangouts sync automatically across devices. Users must create a UIC G Suite account to use Google Meet.</p>
+<h3><a href="https://accc.uic.edu/services/communication-collaboration/conferencing/webex-meetings/" rel="noopener">Webex Meetings</a></h3>
+<p>Host a video and/or audio conference with integrated collaboration tools such as whiteboard, chat, and screen share. While hosts need a Webex account to initiate meetings, participants are not required to have an account.</p>
+<h3><a href="https://uic.zoom.us/" rel="noopener">Zoom</a></h3>
+<p>Host a video and/or audio conference with integrated collaboration tools such as whiteboard, chat, and screen share. While hosts need a Zoom account to initiate meetings, participants are not required to have an account.</p>
+<p>&nbsp;</p>
 
-                  <div class="tile-item ">
-    <a  class="tile-item__link"
-       href="http://marketing.uic.edu/marketing-toolbox/photography/"
-       target="_blank">
-    
-    <div class="
-        tile-item__content-container
-        tile-item__content-container--external
-        tile-item__content-container--regular">
-        <div class="
-            tile-item__title
-            tile-item__title--regular">
-            Marketing and Brand Management Gallery
-        </div>
 
-        
-                    <div class="tile-item__description">
-                Free photos and videos of campus, students, and events to use in your marketing materials
-            </div>
-            </div>
-    </a>
+
+  
 </div>
 
-    </li>
-      <li class="component-link-tile__item component-link-tile__item--regular">
-
-                  <div class="tile-item ">
-    <a  class="tile-item__link"
-       href="https://creative.uic.edu/photography"
-       target="_blank">
-    
-    <div class="
-        tile-item__content-container
-        tile-item__content-container--external
-        tile-item__content-container--regular">
-        <div class="
-            tile-item__title
-            tile-item__title--regular">
-            Creative & Digital Services Photography
-        </div>
-
-        
-                    <div class="tile-item__description">
-                Experienced photographers offer event photography and studio portraiture, as well as post-shoot editing
-            </div>
-            </div>
-    </a>
+  
 </div>
 
-    </li>
-      <li class="component-link-tile__item component-link-tile__item--regular">
-
-                  <div class="tile-item ">
-    <a  class="tile-item__link"
-       href="https://creative.uic.edu/videography"
-       target="_blank">
     
-    <div class="
-        tile-item__content-container
-        tile-item__content-container--external
-        tile-item__content-container--regular">
-        <div class="
-            tile-item__title
-            tile-item__title--regular">
-            Creative & Digital Services Video
-        </div>
 
-        
-                    <div class="tile-item__description">
-                Skilled videographers and post-production specialists can handle anything from documentary event coverage and webcasting
-            </div>
-            </div>
-    </a>
+</div>
+          </div>
+      </dd>
+
+    <dt class="component-accordion__title"
+          role="heading"
+          aria-level="3">
+        <button
+          class="component-accordion__button js-toggle-acc"
+          aria-expanded="false"
+          aria-controls="panel-sectionID-1-3"
+          id="tab-sectionID-1-3"
+          type="button">
+            Use Virtual Collaboration Spaces
+        </button>
+      </dt>
+
+      <dd class="component-accordion__content component-accordion__content--collapsed"
+          aria-labelledby="tab-sectionID-1-3"
+          id="panel-sectionID-1-3"
+          role="region">
+
+          <div class="component-accordion__content-wrapper">
+            <div class="components">
+
+  
+    
+      
+
+<div class="component  component--is-in-another-component">
+
+  
+  <div class="component-text-block">
+  
+    <div class="component-description">
+                    <h2 id="use-virtual-collaboration-spaces" class="__title invisible">Use virtual collaboration spaces</h2>
+                    </div>
+
+  
+  <h3></h3>
+<h3><a href="https://accc.uic.edu/services/communication-collaboration/virtual-collaboration-spaces/google-hangouts/" rel="noopener">Google Hangouts Chat</a></h3>
+<p>From direct messages to group conversations, Chat helps teams collaborate easily and efficiently.</p>
+<h3><a href="https://accc.uic.edu/services/communication-collaboration/virtual-collaboration-spaces/microsoft-teams/" rel="noopener">Microsoft Teams</a></h3>
+<p>A chat-based workspace and real-time collaboration tool that combines workplace chat, meetings, file storage, and application integration. *MS Teams provides end-to-end security but it is not an approved HIPAA-compliant resource at UIC.</p>
+<p>&nbsp;</p>
+
+
+
+  
 </div>
 
-    </li>
-      <li class="component-link-tile__item component-link-tile__item--regular">
-
-                  <div class="tile-item ">
-    <a  class="tile-item__link"
-       href="http://library.uic.edu/collections/digital-images"
-       target="_blank">
-    
-    <div class="
-        tile-item__content-container
-        tile-item__content-container--external
-        tile-item__content-container--regular">
-        <div class="
-            tile-item__title
-            tile-item__title--regular">
-            UIC Library Digital Images
-        </div>
-
-        
-                    <div class="tile-item__description">
-                Digital image collections, online exhibits and databases
-            </div>
-            </div>
-    </a>
+  
 </div>
 
-    </li>
-      <li class="component-link-tile__item component-link-tile__item--regular">
-
-                  <div class="tile-item ">
-    <a  class="tile-item__link"
-       href="https://today.uic.edu/contact/communicating-on-campus/request-photos-or-video"
-       target="_blank">
     
-    <div class="
-        tile-item__content-container
-        tile-item__content-container--external
-        tile-item__content-container--regular">
-        <div class="
-            tile-item__title
-            tile-item__title--regular">
-            Request photos or video from UIC Today archives
-        </div>
 
-        
-                    <div class="tile-item__description">
-                Contact UIC Today for published photos or B-roll video footage of the campus or campus events
-            </div>
-            </div>
-    </a>
+</div>
+          </div>
+      </dd>
+
+    <dt class="component-accordion__title"
+          role="heading"
+          aria-level="4">
+        <button
+          class="component-accordion__button js-toggle-acc"
+          aria-expanded="false"
+          aria-controls="panel-sectionID-1-4"
+          id="tab-sectionID-1-4"
+          type="button">
+            Share Documents Online
+        </button>
+      </dt>
+
+      <dd class="component-accordion__content component-accordion__content--collapsed"
+          aria-labelledby="tab-sectionID-1-4"
+          id="panel-sectionID-1-4"
+          role="region">
+
+          <div class="component-accordion__content-wrapper">
+            <div class="components">
+
+  
+    
+      
+
+<div class="component  component--is-in-another-component">
+
+  
+  <div class="component-text-block">
+  
+    <div class="component-description">
+                    <h2 id="share-documents-online" class="__title invisible">Share documents online</h2>
+                    </div>
+
+  
+  <h3><a href="https://accc.uic.edu/services/communication-collaboration/cloud-storage/box/" rel="noopener">Box</a></h3>
+<p>Use the Box online file sharing to access documents from any location for collaboration with other University users or external parties on a computer or mobile devices. Request a PHI folder for secure sharing, or a Team folder for online collaboration.</p>
+<h3><a href="https://accc.uic.edu/services/communication-collaboration/cloud-storage/google-drive/" rel="noopener">Google Drive</a></h3>
+<p>Use Google’s online solution for storing and sharing a variety of documents, from spreadsheets to forms and presentations. Access files on any smartphone, tablet or computer.</p>
+<h3><a href="https://accc.uic.edu/services/communication-collaboration/cloud-storage/one-drive/" rel="noopener">OneDrive</a></h3>
+<p>Use Microsoft&#8217;s online solution for storing, backing up, and sharing documents, allowing easy access to files from any computer or mobile device.</p>
+
+
+
+  
 </div>
 
-    </li>
-    </ul>
+  
+</div>
 
-      </div>
+    
+
+</div>
+          </div>
+      </dd>
+
+    <dt class="component-accordion__title"
+          role="heading"
+          aria-level="5">
+        <button
+          class="component-accordion__button js-toggle-acc"
+          aria-expanded="false"
+          aria-controls="panel-sectionID-1-5"
+          id="tab-sectionID-1-5"
+          type="button">
+            Access Your Email and Calendar
+        </button>
+      </dt>
+
+      <dd class="component-accordion__content component-accordion__content--collapsed"
+          aria-labelledby="tab-sectionID-1-5"
+          id="panel-sectionID-1-5"
+          role="region">
+
+          <div class="component-accordion__content-wrapper">
+            <div class="components">
+
+  
+    
+      
+
+<div class="component  component--is-in-another-component">
+
+  
+  <div class="component-text-block">
+  
+    <div class="component-description">
+                    <h2 id="access-your-email-and-calendar" class="__title invisible">Access your email and calendar</h2>
+                    </div>
+
+  
+  <h3><a href="https://accc.uic.edu/services/communication-collaboration/email-calendaring/exchange/" rel="noopener">Exchange</a></h3>
+<p>Use UIC&#8217;s Exchange system to access your email and calendar. Don&#8217;t have the Outlook client installed? You can access Outlook on the web at <a href="https://outlook.uic.edu/" target="_blank" rel="noopener">outlook.uic.edu</a>.</p>
+<h3><a href="https://accc.uic.edu/services/communication-collaboration/email-calendaring/gmail/" rel="noopener">Gmail</a></h3>
+<p>Visit <a href="http://gmail.uic.edu/" target="_blank" rel="noopener">gmail.uic.edu</a> to access your UIC Gmail email and calendar.</p>
+
+
+
+  
+</div>
+
+  
+</div>
+
+    
+
+</div>
+          </div>
+      </dd>
+
+    <dt class="component-accordion__title"
+          role="heading"
+          aria-level="6">
+        <button
+          class="component-accordion__button js-toggle-acc"
+          aria-expanded="false"
+          aria-controls="panel-sectionID-1-6"
+          id="tab-sectionID-1-6"
+          type="button">
+            Access Your Voicemail Remotely
+        </button>
+      </dt>
+
+      <dd class="component-accordion__content component-accordion__content--collapsed"
+          aria-labelledby="tab-sectionID-1-6"
+          id="panel-sectionID-1-6"
+          role="region">
+
+          <div class="component-accordion__content-wrapper">
+            <div class="components">
+
+  
+    
+      
+
+<div class="component  component--is-in-another-component">
+
+  
+  <div class="component-text-block">
+  
+    <div class="component-description">
+                    <h2 id="access-your-voicemail-remotely" class="__title invisible">Access your voicemail remotely</h2>
+                    </div>
+
+  
+  <h3><a href="https://accc.uic.edu/services/communication-collaboration/phone-services/voicemail/" rel="noopener">Voicemail</a></h3>
+<ul>
+<li><a href="https://answers.uillinois.edu/uic/94397" target="_blank" rel="noopener">Remotely access the VoIP Unity voicemail system</a> (Most VoIP users are now on this system)</li>
+<li><a href="https://answers.uillinois.edu/uic/94402" target="_blank" rel="noopener">Remotely access the VoIP Asterisk voicemail system</a> (Some VoIP users are currently still on this system)</li>
+</ul>
+
+
+
+  
+</div>
+
+  
+</div>
+
+    
+
+</div>
+          </div>
+      </dd>
+
+    <dt class="component-accordion__title"
+          role="heading"
+          aria-level="7">
+        <button
+          class="component-accordion__button js-toggle-acc"
+          aria-expanded="false"
+          aria-controls="panel-sectionID-1-7"
+          id="tab-sectionID-1-7"
+          type="button">
+            Get Help
+        </button>
+      </dt>
+
+      <dd class="component-accordion__content component-accordion__content--collapsed"
+          aria-labelledby="tab-sectionID-1-7"
+          id="panel-sectionID-1-7"
+          role="region">
+
+          <div class="component-accordion__content-wrapper">
+            <div class="components">
+
+  
+    
+      
+
+<div class="component  component--is-in-another-component">
+
+  
+  <div class="component-text-block">
+  
+    <div class="component-description">
+                    <h2 id="get-help" class="__title invisible">Get help</h2>
+                    </div>
+
+  
+  <ul>
+<li>Looking for more tools facilitating remote work? Browse our complete list of IT services, tools and resources at <a href="http://accc.uic.edu">accc.uic.edu</a>.</li>
+<li>Get answers to the most common questions about online collaboration tools and more in the UIC Answers Knowledge Base at <a href="https://answers.uillinois.edu/uic/" target="_blank" rel="noopener">answers.uillinois.edu/uic</a>.</li>
+<li>Get Troubleshooting Tips on VPN, Blackboard Learn, software, WiFi, virtual lectures using Collaborate, Zoom or Webex, and more through ACCC’s Guide: <a href="https://go.uic.edu/troubleshooting-tips" target="_blank" rel="noopener">go.uic.edu/troubleshooting-tips</a></li>
+<li>Support via email will be available Monday through Friday 9:00am to 5:00pm. We recommend using our <a href="https://accc.uic.edu/forms/contact-us">Contact Us form</a>, or you can email us at <a href="mailto:consult@uic.edu.">consult@uic.edu. </a></li>
+<li>Phone support will be available on a limited basis Monday through Friday 9:00am to 5:00pm by calling <strong>312-413-0003 option 9</strong>. If you leave a message, a ticket will automatically be created on your behalf and we will follow up with you.</li>
+</ul>
+
+
+
+  
+</div>
+
+  
+</div>
+
+    
+
+</div>
+          </div>
+      </dd>
+
+    
+    </dl>
+  </div>
+
   
 </section>
 
     
 
-    
-
 </div>
+
           </article>
         </div>
+
+                                            
+                                 
+              
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+
+                      <div class="l-sidebar">
+             <nav role="navigation" id="menu-secondary" aria-label="Secondary Support" class="menu-secondary">
+               <div class="menu-secondary__title-container">
+                 <h2 class="menu-secondary__title"><a  class="menu-secondary__title-link" href="https://accc.uic.edu/support/">Support</a></h2>
+                 <a  class="menu-secondary__back-to-content" href="#main">
+                   <svg aria-label="Back to main content" width="32" height="32" viewBox="0 0 32 32">
+                     <title>Back to main content</title>
+                     <g fill="none" fill-rule="evenodd">
+                       <circle class="_circle" fill="#fff" stroke="#007FA5" stroke-width="1" cx="16" cy="16" r="15"/>
+                       <path class="_arrow" d="M16 21v-9M12 15l4-4 4 4" stroke="#001E62" stroke-width="2" stroke-linecap="round"/>
+                     </g>
+                   </svg>
+                 </a>
+               </div>
+
+                <ul  class="menu ">
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-16162">
+                    <a  href="/support/academic-continuity/" target="_self"><span>Academic Continuity</span></a>                                      </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13096">
+                    <a  href="/support/academic-multimedia-lab/" target="_self"><span>Academic Multimedia Lab and Lightboard Studio</span></a>                                      </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13093">
+                    <a  href="/support/arc-helpdesk/" target="_self"><span>ARC Helpdesk</span></a>                                      </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13095">
+                    <a  href="/support/c-stop-bsb/" target="_self"><span>C-Stop BSB</span></a>                                      </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13094">
+                    <a  href="/support/c-stop-lhs/" target="_self"><span>C-Stop LHS</span></a>                                      </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13098">
+                    <a  href="/support/daley-library-helpdesk/" target="_self"><span>Daley Library Helpdesk</span></a>                                      </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13097">
+                    <a  href="/support/lts-support-office/" target="_self"><span>LTS Support Office</span></a>                                      </li>
+                                  </ul>
+
+              </nav>
+            </div>
+       
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+
 
           
                           </div>
@@ -597,10 +2714,12 @@ img.emoji {
   <div class="footer-contact">
     <div class="l-full">
 
-          <div class="simple-footer-contact">
-  <div class="simple-footer-contact__wordmark">
-    <div class="footer-logo">
-                        <div class="uic-type-treatment -large uic-wordmark--footer">
+          <div class="mega-footer-contact">
+
+    <div class="mega-footer-contact__brand mega-footer-contact__brand--wordmark">
+        <div class="footer-logo">
+                        <div class="footer-logo__wordmark-wrapper">
+                <div class="uic-wordmark  uic-wordmark--mega-footer">
 
   <div class="_mark">
     <a href="http://uic.edu" class="uic-logo-icon ">
@@ -613,32 +2732,138 @@ img.emoji {
   </div>
 
   <div class="_text">
-    <a href="https://photo.uic.edu">
-          Photo Services
-        </a>
+    <a href="https://accc.uic.edu">
+                  <span class="_line">Academic</span>
+              <span class="_line">Computing</span>
+              <span class="_line">And</span>
+              <span class="_line">Communications</span>
+              <span class="_line">Center</span>
+              </a>
   </div>
 
 </div>
             </div>
+            </div>
+    </div>
+
+  <div class="mega-footer-contact__menus">
+
+        <div class="mega-footer-contact__quick-menus _quick-menus">
+
+      
+            <nav class="mega-footer-contact__quick-menu" id="menu2" aria-label="footer-menu-2">
+        <h2>Quick Links</h2>
+        <ul id="menu-quick-2" class="menu menu-quick-2" aria-label="Quick Links">
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-5377">
+      <a href="/services/" target="_self">Services</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-11003">
+      <a href="/support/" target="_self">Support</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-11789">
+      <a href="/service-status/" target="_self">Service Status</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-5376">
+      <a href="/news-highlights/" target="_self">News</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-11004">
+      <a href="/forms/" target="_self">Forms</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-5374">
+      <a href="/about/" target="_self">About</a>
+    </li>
+  </ul>
+      </nav>
+      
+            <nav class="mega-footer-contact__quick-menu" id="menu3" aria-label="footer-menu-3">
+        <h2>Support Locations</h2>
+        <ul id="menu-quick-3" class="menu menu-quick-3" aria-label="Support Locations">
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13091">
+      <a href="/support/academic-multimedia-lab/" target="_self">Academic Multimedia Lab</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13086">
+      <a href="/support/arc-helpdesk/" target="_self">ARC Helpdesk</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13088">
+      <a href="/support/c-stop-bsb/" target="_self">C-Stop BSB</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13087">
+      <a href="/support/c-stop-lhs/" target="_self">C-Stop LHS</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13089">
+      <a href="/support/daley-library-helpdesk/" target="_self">Daley Library Helpdesk</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13090">
+      <a href="/support/lts-support-office/" target="_self">LTS Support Office</a>
+    </li>
+  </ul>
+      </nav>
+      
+    </div>
+    
+        <div class="mega-footer-contact__button-menus">
+      <nav class="mega-footer-contact__button-menu" id="menu4" aria-label="footer-menu-4">
+        <h2 class="assistive-text">Footer Menu</h2>
+
+        <ul id="button-menu" class="menu button-menu" aria-label="Footer Menu">
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-11006">
+      <a href="https://hipaa.uillinois.edu/" target="_blank">HIPAA</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-14102">
+      <a href="https://identity.uillinois.edu/" target="_blank">IAM Password Manager</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-77">
+      <a href="https://security.uic.edu/" target="_blank">Information Security</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-11008">
+      <a href="https://itgc.uic.edu/" target="_blank">IT Governance</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-11382">
+      <a href="/about/jobs/" target="_self">Jobs</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-15103">
+      <a href="/about/policies/" target="_self">Policies</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-5155">
+      <a href="https://acer.uic.edu/" target="_blank">Research (ACER)</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-11007">
+      <a href="https://getrave.com/login/uic" target="_blank">Sign Up for UIC Emergency Alerts</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-12641">
+      <a href="https://accc.drupal.uic.edu" target="_blank">ACCC Drupal Site</a>
+    </li>
+  </ul>
+
+      </nav>
+    </div>
+    
   </div>
 
+  <div class="mega-footer-contact__contact">
 
-  <div class="simple-footer-contact__contact">
-        <h2 class="simple-footer-contact__header ">Contact</h2>
-    <div class="simple-footer-contact__contact_container">          <div class="site-email"><a  href="mailto:uictoday@uic.edu">uictoday@uic.edu</a></div>
+    <div class="_contact">
+      <h2>Contact</h2>
+      <div class="site-contact-container">  <div class="site-unit-name"><h3>To report a service outage please call (312) 413-0003 option 2</h3></div>
+            <div class="site-email"><a  href="mailto:consult@uic.edu">consult@uic.edu</a></div>
 </div>
-    <div class="simple-footer-contact__contact_container">        </div>
-  </div>
+      <div class="site-contact-container">        </div>
+    </div>
 
-
-  <div class="simple-footer-contact__site-social-links">
-     <div aria-label="Social Media Accounts" class="site-social-links">
+    <div class="mega-footer-contact__site-social-links">
+       <div aria-label="Social Media Accounts" class="site-social-links">
   <h2 class="site-social-links__header assistive-text">Social Media Accounts</h2>
   <ul class="site-social-links__list">
-                          </ul>
+        <li class="site-social-links__list-item"><a  class="site-social-links__link facebook" href="https://www.facebook.com/CstopUIC">
+      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Facebook"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>
+    </a></li>
+                <li class="site-social-links__list-item"><a  class="site-social-links__link twitter" href="https://twitter.com/UIC_ACCC">
+      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Twitter"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>
+    </a></li>
+                  </ul>
 </div>
+    </div>
   </div>
-
 </div>
     
     </div>
@@ -704,19 +2929,19 @@ img.emoji {
 
   <!-- Instagram Feed JS -->
 <script type="text/javascript">
-var sbiajaxurl = "https://photo.uic.edu/wp-admin/admin-ajax.php";
+var sbiajaxurl = "https://accc.uic.edu/wp-admin/admin-ajax.php";
 </script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var sb_instagram_js_options = {"sb_instagram_at":"","font_method":"svg"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://photo.uic.edu/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.12.1'></script>
-<script type='text/javascript' src='https://photo.uic.edu/wp-content/plugins/uic-red/js-admin/uic-publish-post-settings.js?ver=1.0.0'></script>
-<script type='text/javascript' src='https://photo.uic.edu/wp-content/plugins/uic-red/js-admin/acf-field-group-toggle.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://accc.uic.edu/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.12.1'></script>
+<script type='text/javascript' src='https://accc.uic.edu/wp-content/plugins/uic-red/js-admin/uic-publish-post-settings.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://accc.uic.edu/wp-content/plugins/uic-red/js-admin/acf-field-group-toggle.js?ver=1.0.0'></script>
 <script type='text/javascript' src='//www.uic.edu/apps/web-alert/alert.js?ver=3'></script>
-<script type='text/javascript' src='https://photo.uic.edu/wp-content/themes/uic-red/js/main.js?ver=1'></script>
-<script type='text/javascript' src='https://photo.uic.edu/wp-includes/js/wp-embed.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
+<script type='text/javascript' src='https://accc.uic.edu/wp-content/themes/uic-red/js/main.js?ver=1'></script>
+<script type='text/javascript' src='https://accc.uic.edu/wp-includes/js/wp-embed.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
 
 
 

@@ -1,419 +1,1226 @@
- <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1"/>
-        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-        <meta http-equiv="cache-control" content="no-cache,no-store"/>
-        <meta http-equiv="pragma" content="no-cache"/>
-        <meta http-equiv="expires" content="-1"/>
-        <meta name='mswebdialog-title' content='Connecting to University Of Illinois at Chicago'/>
-
-        <title>Sign In</title>
-        <script type='text/javascript'>
-//<![CDATA[
-function LoginErrors(){this.userNameFormatError = 'Enter your user ID in the format \u0026quot;domain\\user\u0026quot; or \u0026quot;user@domain\u0026quot;.'; this.passwordEmpty = 'Enter your password.'; this.passwordTooLong = 'Password is too long (\u0026gt; 128 characters).';}; var maxPasswordLength = 128;
-//]]>
-</script>
-
-<script type='text/javascript'>
-//<![CDATA[
-// Copyright (c) Microsoft Corporation.  All rights reserved.
-function InputUtil(errTextElementID, errDisplayElementID) {
-
-    if (!errTextElementID)  errTextElementID = 'errorText'; 
-    if (!errDisplayElementID)  errDisplayElementID = 'error'; 
-
-    this.hasFocus = false;
-    this.errLabel = document.getElementById(errTextElementID);
-    this.errDisplay = document.getElementById(errDisplayElementID);
-};
-InputUtil.prototype.canDisplayError = function () {
-    return this.errLabel && this.errDisplay;
-}
-InputUtil.prototype.checkError = function () {
-    if (!this.canDisplayError){
-        throw new Error ('Error element not present');
-    }
-    if (this.errLabel && this.errLabel.innerHTML) {
-        this.errDisplay.style.display = '';        
-        var cause = this.errLabel.getAttribute('for');
-        if (cause) {
-            var causeNode = document.getElementById(cause);
-            if (causeNode && causeNode.value) {
-                causeNode.focus();
-                this.hasFocus = true;
-            }
-        }
-    }
-    else {
-        this.errDisplay.style.display = 'none';
-    }
-};
-InputUtil.prototype.setInitialFocus = function (input) {
-    if (this.hasFocus) return;
-    var node = document.getElementById(input);
-    if (node) {
-        if ((/^\s*$/).test(node.value)) {
-            node.focus();
-            this.hasFocus = true;
-        }
-    }
-};
-InputUtil.prototype.setError = function (input, errorMsg) {
-    if (!this.canDisplayError) {
-        throw new Error('Error element not present');
-    }
-    input.focus();
-
-    if (errorMsg) {
-        this.errLabel.innerHTML = errorMsg;
-    }
-    this.errLabel.setAttribute('for', input.id);
-    this.errDisplay.style.display = '';
-};
-InputUtil.makePlaceholder = function (input) {
-    var ua = navigator.userAgent;
-
-    if (ua != null && 
-        (ua.match(/MSIE 9.0/) != null || 
-         ua.match(/MSIE 8.0/) != null ||
-         ua.match(/MSIE 7.0/) != null)) {
-        var node = document.getElementById(input);
-        if (node) {
-            var placeholder = node.getAttribute("placeholder");
-            if (placeholder != null && placeholder != '') {
-                var label = document.createElement('input');
-                label.type = "text";
-                label.value = placeholder;
-                label.readOnly = true;
-                label.style.position = 'absolute';
-                label.style.borderColor = 'transparent';
-                label.className = node.className + ' hint';
-                label.tabIndex = -1;
-                label.onfocus = function () { this.nextSibling.focus(); };
-
-                node.style.position = 'relative';
-                node.parentNode.style.position = 'relative';
-                node.parentNode.insertBefore(label, node);
-                node.onkeyup = function () { InputUtil.showHint(this); };
-                node.onblur = function () { InputUtil.showHint(this); };
-                node.style.background = 'transparent';
-
-                node.setAttribute("placeholder", "");
-                InputUtil.showHint(node);
-            }
-        }
-    }
-};
-InputUtil.focus = function (inputField) {
-    var node = document.getElementById(inputField);
-    if (node) node.focus();
-};
-InputUtil.hasClass = function(node, clsName) {
-    return node.className.match(new RegExp('(\\s|^)' + clsName + '(\\s|$)'));
-};
-InputUtil.addClass = function(node, clsName) {
-    if (!this.hasClass(node, clsName)) node.className += " " + clsName;
-};
-InputUtil.removeClass = function(node, clsName) {
-    if (this.hasClass(node, clsName)) {
-        var reg = new RegExp('(\\s|^)' + clsName + '(\\s|$)');
-        node.className = node.className.replace(reg, ' ');
-    }
-};
-InputUtil.showHint = function (node, gotFocus) {
-    if (node.value && node.value != '') {
-        node.previousSibling.style.display = 'none';
-    }
-    else {
-        node.previousSibling.style.display = '';
-    }
-};
-InputUtil.updatePlaceholder = function (input, placeholderText) {
-    var node = document.getElementById(input);
-    if (node) {
-        var ua = navigator.userAgent;
-        if (ua != null &&
-            (ua.match(/MSIE 9.0/) != null ||
-            ua.match(/MSIE 8.0/) != null ||
-            ua.match(/MSIE 7.0/) != null)) {
-            var label = node.previousSibling;
-            if (label != null) {
-                label.value = placeholderText;
-            }
-        }
-        else {
-            node.placeholder = placeholderText;
-        }
-    }
-};
-
-//]]>
-</script>
-
-
-        
-        <link rel="stylesheet" type="text/css" href="/adfs/portal/css/style.css?id=0A13280A86E7DFA6949BD016EA848912FCAFC05E88CBEDF538AC325B27041205" /><style>.illustrationClass {background-image:url(/adfs/portal/illustration/illustration.jpg?id=808E1558CEC804CA97DF46169A5849E8BD0D6CC43078193550F80AAEF4C12BFF);}</style>
-
-    </head>
-    <body dir="ltr" class="body">
-    <div id="noScript" style="position:static; width:100%; height:100%; z-index:100">
-        <h1>JavaScript required</h1>
-        <p>JavaScript is required. This web browser does not support JavaScript or JavaScript in this web browser is not enabled.</p>
-        <p>To find out if your web browser supports JavaScript or to enable JavaScript, see web browser help.</p>
-    </div>
-    <script type="text/javascript" language="JavaScript">
-         document.getElementById("noScript").style.display = "none";
-    </script>
-    <div id="fullPage">
-        <div id="brandingWrapper" class="float">
-            <div id="branding"></div>
-        </div>
-        <div id="contentWrapper" class="float">
-            <div id="content">
-                <div id="header">
-                    <img class='logoImage' id='companyLogo' src='/adfs/portal/logo/logo.png?id=56D84665F4894C3135CF1B1DAC899CF8E3DFA135AA6BD8D44D350B34335904E3' alt='University Of Illinois at Chicago'/>
-                </div>
-                <div id="workArea">
-                    
-    <div id="authArea" class="groupMargin">
-        
-        
-        
-    <div id="loginArea">        
-        <div id="loginMessage" class="groupMargin">Sign in with your organizational account</div>
-
-        <form method="post" id="loginForm" autocomplete="off" novalidate="novalidate" onKeyPress="if (event && event.keyCode == 13) Login.submitLoginRequest();" action="/adfs/ls/?client-request-id=8c2d5fae-2f18-4543-9586-83c7b216f4b6&username=&wa=wsignin1.0&wtrealm=urn%3Afederation%3AMicrosoftOnline&wctx=estsredirect%3D2%26estsrequest%3DrQIIAY2RO2_TUACFe-PWVbuAEELd6MDUcO3rt2WJwXWcEGPTpjWQeIn8TKwmuamfwYgJCTEwdGHpgsSYgaEDQvwBpLKUNb-AESEGRhKxsMEZPp3x6Dt7BEMxyh30JyxcEaIoYqAfrtpfSW5sX3_fh693aE1_8_LF54tbPz-cg8089qkwyOfg9jDLpqlC0zjPRhifUDiKYj-kfDymcenSHwG4AmBek0ROYjlRYAVRliR5WVmKEwNG4GUXukzAQF6WZegJLg9dL4qQKwkcLwaL2rUDNc-G7Ao4iavwR20rwsm4P8Vpdk4UjV5haD211FXVNn1d1FN2NkNh6tiPDK2NB_sPM-5-dWg5YjlzRp3W7Jg_7QgDbOBO-6l-nLa6nKbHWnWgnoxyq7K8QWTYhfekGTfbrV7xOBBOIxt6WdI1A7eSD7uo6KudOfFf9i4IcilijCeXBImn4SQOrtbBr3XwbmOpdfHsy117r2_Nn8dfF-jt2uUGnfSO1LzJ8ozTQ2m9kTkTNKzrcVkaRaY-ME0zaeaNVDvy69Y9RmHOSHBGkt9I8J0ErzbXPm39643F9k0WscuNPGTlXSQqnKgg2fkN0" >
-            <div id="error" class="fieldMargin error smallText">
-                <span id="errorText" for=""></span>
-            </div>
-
-            <div id="formsAuthenticationArea">
-                <div id="userNameArea">
-                    <label id="userNameInputLabel" for="userNameInput" class="hidden">User Account</label>
-                    <input id="userNameInput" name="UserName" type="email" value="" tabindex="1" class="text fullWidth"
-                        spellcheck="false" placeholder="someone@example.com" autocomplete="off"/>
-                </div>
-
-                <div id="passwordArea">
-                    <label id="passwordInputLabel" for="passwordInput" class="hidden">Password</label>
-                    <input id="passwordInput" name="Password" type="password" tabindex="2" class="text fullWidth"
-                        placeholder="Password" autocomplete="off"/>
-                </div>
-                <div id="kmsiArea" style="display:none">
-                    <input type="checkbox" name="Kmsi" id="kmsiInput" value="true" tabindex="3" />
-                    <label for="kmsiInput">Keep me signed in</label>
-                </div>
-                <div id="submissionArea" class="submitMargin">
-                    <span id="submitButton" class="submit" tabindex="4" role="button"
-                        onKeyPress="if (event && event.keyCode == 32) Login.submitLoginRequest();"
-                        onclick="return Login.submitLoginRequest();">Sign in</span>
-                </div>
-            </div>
-            <input id="optionForms" type="hidden" name="AuthMethod" value="FormsAuthentication"/>
-        </form>
-
-             <div id="authOptions">
-        <form id="options"  method="post" action="https://sts.uic.edu:443/adfs/ls/?client-request-id=8c2d5fae-2f18-4543-9586-83c7b216f4b6&username=&wa=wsignin1.0&wtrealm=urn%3Afederation%3AMicrosoftOnline&wctx=estsredirect%3D2%26estsrequest%3DrQIIAY2RO2_TUACFe-PWVbuAEELd6MDUcO3rt2WJwXWcEGPTpjWQeIn8TKwmuamfwYgJCTEwdGHpgsSYgaEDQvwBpLKUNb-AESEGRhKxsMEZPp3x6Dt7BEMxyh30JyxcEaIoYqAfrtpfSW5sX3_fh693aE1_8_LF54tbPz-cg8089qkwyOfg9jDLpqlC0zjPRhifUDiKYj-kfDymcenSHwG4AmBek0ROYjlRYAVRliR5WVmKEwNG4GUXukzAQF6WZegJLg9dL4qQKwkcLwaL2rUDNc-G7Ao4iavwR20rwsm4P8Vpdk4UjV5haD211FXVNn1d1FN2NkNh6tiPDK2NB_sPM-5-dWg5YjlzRp3W7Jg_7QgDbOBO-6l-nLa6nKbHWnWgnoxyq7K8QWTYhfekGTfbrV7xOBBOIxt6WdI1A7eSD7uo6KudOfFf9i4IcilijCeXBImn4SQOrtbBr3XwbmOpdfHsy117r2_Nn8dfF-jt2uUGnfSO1LzJ8ozTQ2m9kTkTNKzrcVkaRaY-ME0zaeaNVDvy69Y9RmHOSHBGkt9I8J0ErzbXPm39643F9k0WscuNPGTlXSQqnKgg2fkN0">
-            <script type="text/javascript">
-                function SelectOption(option) {
-                    var i = document.getElementById('optionSelection');
-                    i.value = option;
-                    document.forms['options'].submit();
-                    return false;
-                }
-            </script>
-            <input id="optionSelection" type="hidden" name="AuthMethod" />
-            <div id='authOptionLinks' class='groupMargin'></div>
-        </form>
-      </div>
-
-        <div id="introduction" class="groupMargin">
-                                 
-        </div>
-
-        <script type="text/javascript">
-        //<![CDATA[
-
-            function Login() {
-            }
-
-            Login.userNameInput = 'userNameInput';
-            Login.passwordInput = 'passwordInput';
-
-            Login.initialize = function () {
-
-                var u = new InputUtil();
-
-                u.checkError();
-                u.setInitialFocus(Login.userNameInput);
-                u.setInitialFocus(Login.passwordInput);
-            }();
-
-            Login.submitLoginRequest = function () { 
-                var u = new InputUtil();
-                var e = new LoginErrors();
-
-                var userName = document.getElementById(Login.userNameInput);
-                var password = document.getElementById(Login.passwordInput);
-
-                if (!userName.value || !userName.value.match('[@\\\\]')) {
-                    u.setError(userName, e.userNameFormatError);
-                    return false;
-                }
-
-                if (!password.value) {
-                    u.setError(password, e.passwordEmpty);
-                    return false;
-                }
-
-                if (password.value.length > maxPasswordLength) {
-                    u.setError(password, e.passwordTooLong);
-                    return false;
-                }
-
-                document.forms['loginForm'].submit();
-                return false;
-            };
-
-            InputUtil.makePlaceholder(Login.userNameInput);
-            InputUtil.makePlaceholder(Login.passwordInput);
-        //]]>
-        </script>
-    </div>
-
-    </div>
-
-                </div>
-                <div id="footerPlaceholder"></div>
-            </div>
-            <div id="footer">
-                <div id="footerLinks" class="floatReverse">
-                     <div><span id="copyright">&#169; 2016 Microsoft</span><a id="home" class="pageLink" href="https://uic.edu">Home</a><a id="helpDesk" class="pageLink" href="https://accc.uic.edu">Help</a></div>
-                </div>
-            </div>
-        </div> 
-    </div>
-    <script type='text/javascript'>
-//<![CDATA[
-// Copyright (c) Microsoft Corporation.  All rights reserved.
-
-// This file contains several workarounds on inconsistent browser behaviors that administrators may customize.
-"use strict";
-
-// iPhone email friendly keyboard does not include "\" key, use regular keyboard instead.
-// Note change input type does not work on all versions of all browsers.
-if (navigator.userAgent.match(/iPhone/i) != null) {
-    var emails = document.querySelectorAll("input[type='email']");
-    if (emails) {
-        for (var i = 0; i < emails.length; i++) {
-            emails[i].type = 'text';
-        }
-    }
-}
-
-// In the CSS file we set the ms-viewport to be consistent with the device dimensions, 
-// which is necessary for correct functionality of immersive IE. 
-// However, for Windows 8 phone we need to reset the ms-viewport's dimension to its original
-// values (auto), otherwise the viewport dimensions will be wrong for Windows 8 phone.
-// Windows 8 phone has agent string 'IEMobile 10.0'
-if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-    var msViewportStyle = document.createElement("style");
-    msViewportStyle.appendChild(
-        document.createTextNode(
-            "@-ms-viewport{width:auto!important}"
-        )
-    );
-    msViewportStyle.appendChild(
-        document.createTextNode(
-            "@-ms-viewport{height:auto!important}"
-        )
-    );
-    document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
-}
-
-// If the innerWidth is defined, use it as the viewport width.
-if (window.innerWidth && window.outerWidth && window.innerWidth !== window.outerWidth) {
-    var viewport = document.querySelector("meta[name=viewport]");
-    viewport.setAttribute('content', 'width=' + window.innerWidth + ', initial-scale=1.0, user-scalable=1');
-}
-
-// Gets the current style of a specific property for a specific element.
-function getStyle(element, styleProp) {
-    var propStyle = null;
-
-    if (element && element.currentStyle) {
-        propStyle = element.currentStyle[styleProp];
-    }
-    else if (element && window.getComputedStyle) {
-        propStyle = document.defaultView.getComputedStyle(element, null).getPropertyValue(styleProp);
-    }
-
-    return propStyle;
-}
-
-// The script below is used for downloading the illustration image 
-// only when the branding is displaying. This script work together
-// with the code in PageBase.cs that sets the html inline style
-// containing the class 'illustrationClass' with the background image.
-var computeLoadIllustration = function () {
-    var branding = document.getElementById("branding");
-    var brandingDisplay = getStyle(branding, "display");
-    var brandingWrapperDisplay = getStyle(document.getElementById("brandingWrapper"), "display");
-
-    if (brandingDisplay && brandingDisplay !== "none" &&
-        brandingWrapperDisplay && brandingWrapperDisplay !== "none") {
-        var newClass = "illustrationClass";
-
-        if (branding.classList && branding.classList.add) {
-            branding.classList.add(newClass);
-        } else if (branding.className !== undefined) {
-            branding.className += " " + newClass;
-        }
-        if (window.removeEventListener) {
-            window.removeEventListener('load', computeLoadIllustration, false);
-            window.removeEventListener('resize', computeLoadIllustration, false);
-        }
-        else if (window.detachEvent) {
-            window.detachEvent('onload', computeLoadIllustration);
-            window.detachEvent('onresize', computeLoadIllustration);
-        }
-    }
-};
-
-if (window.addEventListener) {
-    window.addEventListener('resize', computeLoadIllustration, false);
-    window.addEventListener('load', computeLoadIllustration, false);
-}
-else if (window.attachEvent) {
-    window.attachEvent('onresize', computeLoadIllustration);
-    window.attachEvent('onload', computeLoadIllustration);
-}
-
-// Function to change illustration image. Usage example below.
-function SetIllustrationImage(imageUri) {
-    var illustrationImageClass = '.illustrationClass {background-image:url(' + imageUri + ');}';
-
-    var css = document.createElement('style');
-    css.type = 'text/css';
-
-    if (css.styleSheet) css.styleSheet.cssText = illustrationImageClass;
-    else css.appendChild(document.createTextNode(illustrationImageClass));
-
-    document.getElementsByTagName("head")[0].appendChild(css);
-}
-
-// Example to change illustration image on HRD page after adding the image to active theme:
-// PSH> Set-AdfsWebTheme -TargetName <activeTheme> -AdditionalFileResource @{uri='/adfs/portal/images/hrd.jpg';path='.\hrd.jpg'}
-//
-//if (typeof HRD != 'undefined') {
-//    SetIllustrationImage('/adfs/portal/images/hrd.jpg');
-//}
-//]]>
-</script>
-
-
-    </body>
-</html> 
-
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<!-- Google Analytics Code -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-20665772-1', 'auto');
+    ga('create', 'UA-4402713-9', 'auto', 'todayTracker');
+    ga('send', 'pageview');
+    ga('todayTracker.send', 'pageview');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-57G9C3Q');</script>
+<!-- End Google Tag Manager -->
+  
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Events | UIC Today</title>
+
+<link rel="stylesheet" type="text/css" media="all" href="https://today.uic.edu/wp-content/themes/uictoday/style.css" />
+
+<link rel="stylesheet" type="text/css" media="all" href="https://today.uic.edu/wp-content/themes/uictoday/css/style.min.css" />
+    
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://today.uic.edu/feed" />
+
+<link rel="shortcut icon" href="https://today.uic.edu/wp-content/themes/uictoday/favicon.ico" />
+
+
+
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/today.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://today.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ugb-style-css-css'  href='https://today.uic.edu/wp-content/plugins/stackable-ultimate-gutenberg-blocks/dist/frontend_blocks.css?ver=2.3.0' type='text/css' media='all' />
+<style id='ugb-style-css-inline-css' type='text/css'>
+:root {
+			--content-width: 900px;
+		}
+</style>
+<link rel='stylesheet' id='wp-components-css'  href='https://today.uic.edu/wp-includes/css/dist/components/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-editor-font-css'  href='https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&#038;ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-editor-css'  href='https://today.uic.edu/wp-includes/css/dist/block-editor/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-nux-css'  href='https://today.uic.edu/wp-includes/css/dist/nux/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-editor-css'  href='https://today.uic.edu/wp-includes/css/dist/editor/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='sld_block-cgb-style-css-css'  href='https://today.uic.edu/wp-content/plugins/simple-link-directory/gutenberg/sld-block/dist/blocks.style.build.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='events-manager-css'  href='https://today.uic.edu/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.97' type='text/css' media='all' />
+<link rel='stylesheet' id='ssp-frontend-player-css'  href='https://today.uic.edu/wp-content/plugins/seriously-simple-podcasting/assets/css/player.css?ver=1.20.11' type='text/css' media='all' />
+<link rel='stylesheet' id='wow-icons-fa-css'  href='https://today.uic.edu/wp-content/plugins/wow-icons//assets/fontawesome/font-awesome.min.css?ver=2.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='upw_theme_standard-css'  href='https://today.uic.edu/wp-content/plugins/ultimate-posts-widget/css/upw-theme-standard.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://today.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
+<style id='tablepress-default-inline-css' type='text/css'>
+.tablepress-id-1 .column-1{vertical-align:middle}.tablepress-id-1 tbody td{font-size:15px}.tablepress-id-1{width:auto important!}.tablepress-id-1 img{margin:0!important}.tablepress-id-6 .column-1{vertical-align:middle}.tablepress-id-6 tbody td{font-size:15px}.tablepress-id-6{width:auto important!}.tablepress-id-6 img{margin:0!important}.tablepress-id-3 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-3 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-3 .odd td{background-color:#e6e6e6}.tablepress-id-3 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-3 .column-1{width:50%}.tablepress-id-4 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-4 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-4 .odd td{background-color:#e6e6e6}.tablepress-id-4 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-4 .column-1{width:50%}.tablepress-id-5 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-5 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-5 .odd td{background-color:#e6e6e6}.tablepress-id-5 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-5 .column-1{width:50%}
+</style>
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/stackable-ultimate-gutenberg-blocks/dist/frontend_blocks.js?ver=2.3.0'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4'></script>
+<script type='text/javascript'>
+( 'fetch' in window ) || document.write( '<script src="https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.26.0-0"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );
+</script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/dist/dom-ready.min.js?ver=2.5.1'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/dist/a11y.min.js?ver=2.5.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var EM = {"ajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"mm\/dd\/yy","ui_css":"https:\/\/today.uic.edu\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"0","is_ssl":"1","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","event_detach_warning":"Are you sure you want to detach this event? By doing so, this event will be independent of the recurring set of events.","delete_recurrence_warning":"Are you sure you want to delete all recurrences of this event? All events will be moved to trash."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.97'></script>
+<link rel='https://api.w.org/' href='https://today.uic.edu/wp-json/' />
+<link rel="canonical" href="https://today.uic.edu/events" />
+<link rel='shortlink' href='https://today.uic.edu/?p=543' />
+<link rel="alternate" type="application/json+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fevents" />
+<link rel="alternate" type="text/xml+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fevents&#038;format=xml" />
+    <style type="text/css" media="screen">
+      div.printfriendly a, div.printfriendly a:link, div.printfriendly a:hover, div.printfriendly a:visited, div.printfriendly a:focus {
+        text-decoration: none;
+        border: none;
+        -webkit-box-shadow:none!important;
+        box-shadow:none!important;
+      }
+    </style>
+           <style type="text/css" media="screen">
+          div.printfriendly {
+            margin: 0px 0px 0px 0px;
+          }
+          div.printfriendly a, div.printfriendly a:link, div.printfriendly a:visited {
+            font-size: 14px;
+            color: #55750C;
+          }
+        </style>
+		<link rel="stylesheet" href="https://today.uic.edu/wp-content/plugins/printfriendly/printfriendly.css" media="screen" />
+        <style type="text/css" media="print">
+          .printfriendly {
+            display: none;
+          }
+        </style>
+
+<link rel="alternate" type="application/rss+xml" title="Podcast RSS feed" href="https://today.uic.edu/feed/podcast" />
+
+<script type="text/javascript">
+           var ajaxurl = "https://today.uic.edu/wp-admin/admin-ajax.php";
+         </script>
+<!-- Put the following javascript before the closing </head> tag. -->
+
+<script>
+  (function() {
+    var cx = '009511351313755808885:xdz07yl93pe';
+    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+</head>
+
+<body role="document" class="page-template-default page page-id-543 wp-embed-responsive">
+  
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57G9C3Q"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<div id="skip" role="complementary">
+<a href="#the_content">Skip to main content</a></div>
+
+
+
+<div id="header" role="banner">
+
+
+
+
+         		<div id="header-background">
+
+
+
+<!-- removed color wash for now.
+
+			<div class="color-wash">
+            <img src="" alt="   ">
+            </div>
+
+            -->
+
+
+
+            <div class="uic-type-wrapper">
+
+
+            <div class="last-update-timestamp">
+            	Updated: Apr 30, 2020 at 02:48 PM
+            </div><!--  last-update-timestamp   -->
+
+
+            <div class="uic-type-treatment">
+
+  			<div class="_mark">
+    		<a href="http://uic.edu" class="uic-logo-icon" aria-label="UIC logo">
+ 			<svg aria-label="UIC.edu" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ 			<title>UIC Logo</title>
+ 			<circle class="_circle" cx="27" cy="27" r="25" fill="none"></circle>
+ <path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#d50032" fill-rule="evenodd"></path>
+</svg>
+</a>
+  			</div><!--  _mark   -->
+
+  			<div class="_text">
+    		<a href="/">
+        	  Today
+      		  </a>
+ 			</div><!--  _text   -->
+
+
+			</div><!--  uic-type-treatment   -->
+
+
+
+            <!-- Put search box here -->
+<div class="search-box" aria-label="Search U I C today">
+    <form role="search" method="get" action="https://today.uic.edu/">
+     
+        <input type="text" id="s" name="s" aria-label="Search" size="25" value="" placeholder="Search">
+
+<button type="submit" value="Submit" style="border: 0;
+clip: rect( 1px, 1px, 1px, 1px );
+clip-path: inset( 50% );
+height: 1px;
+margin: -1px;
+overflow: hidden;
+padding: 0;
+position: absolute;
+width: 1px;
+word-wrap: normal;">
+Submit
+</button>
+
+    </form>
+    
+    
+</div>
+
+
+
+<!-- End search box code -->
+
+
+
+			</div><!--  uic-type-wrapper    -->
+
+
+		</div><!--  header-background   -->
+
+
+
+
+
+		<div id="main_nav" role="navigation" aria-label="Site">
+	  	 	<div class="main_nav_container"><ul id="menu-main_nav" class="menu"><li id="menu-item-57546"><a href="https://today.uic.edu/campus-news">Campus News</a></li>
+<li id="menu-item-57547"><a href="https://today.uic.edu/academics-research">Academics &#038; Research</a></li>
+<li id="menu-item-57548"><a href="https://today.uic.edu/events" aria-current="page">Events</a></li>
+<li id="menu-item-67603"><a href="https://today.uic.edu/resources">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-67604"><a href="https://today.uic.edu/resources/current-students">Current Student Resources</a></li>
+	<li id="menu-item-67605"><a href="https://today.uic.edu/resources/faculty-staff">Faculty &#038; Staff Resources</a></li>
+	<li id="menu-item-81898"><a href="https://today.uic.edu/resources/photo-video-policies">Photography/Video</a></li>
+	<li id="menu-item-82144"><a href="https://today.uic.edu/resources/social-media-inquiry-form">Social Media Account Request Form</a></li>
+	<li id="menu-item-82376"><a href="https://today.uic.edu/uic-social-media-guidelines-and-best-practices">UIC Social Media Guidelines and Best Practices</a></li>
+</ul>
+</li>
+<li id="menu-item-92036"><a href="https://today.uic.edu/coronavirus">COVID-19</a>
+<ul class="sub-menu">
+	<li id="menu-item-92300"><a href="https://today.uic.edu/frequently-asked-questions">Frequently Asked Questions</a></li>
+	<li id="menu-item-92297"><a href="https://today.uic.edu/what-you-need-to-know-about-covid-19">What you need to know about COVID-19</a></li>
+	<li id="menu-item-92298"><a href="https://today.uic.edu/support-for-the-uic-community">Support for the UIC community (COVID-19)</a></li>
+	<li id="menu-item-92299"><a href="https://today.uic.edu/teaching-learning-and-working-resources">Teaching, learning and working resources</a></li>
+	<li id="menu-item-93028"><a href="https://today.uic.edu/in-the-news-covid-19">In the News: COVID-19</a></li>
+</ul>
+</li>
+<li id="menu-item-57549"><a href="https://today.uic.edu/contact">Contact</a>
+<ul class="sub-menu">
+	<li id="menu-item-57551"><a href="https://today.uic.edu/contact/communicating-on-campus">Communicating On Campus</a></li>
+	<li id="menu-item-57552"><a href="https://today.uic.edu/contact/communicating-on-campus/sending-massmails-dddh">Sending Announcements / DDDH</a></li>
+	<li id="menu-item-57550"><a href="https://today.uic.edu/contact/social-media-directory">UIC Social Media Directory</a></li>
+</ul>
+</li>
+</ul></div>	    </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+		</div>
+
+
+
+
+
+
+
+
+ <div id="container" role="main" aria-label="Main content" class="clearfix">
+
+
+<a name="the_content" id="the_content" tabindex="-1" aria-label="Main content area"></a>
+
+
+
+
+
+
+	<div id="content">
+		<h1>Events</h1>
+		<p><div id="em-wrapper"><div class="pf-content"><h2><a href="https://today.uic.edu/submit-an-event">Submit your events</a></h2>
+<p>All postings for Research Subjects should be <a href="https://today.uic.edu/contact/communicating-on-campus/submit-announcements">submitted to Announcements</a>.</p>
+<p><div class="em-search-wrapper">
+<div class="em-events-search em-search css-search has-search-term has-search-geo has-search-main has-advanced advanced-hidden">
+	<form action="https://today.uic.edu/events" method="post" class="em-events-search-form em-search-form">
+		<input type="hidden" name="action" value="search_events" />
+				<div class="em-search-main">
+						<!-- START General Search -->
+<div class="em-search-text em-search-field">
+	<script type="text/javascript">
+	EM.search_term_placeholder = 'Search';
+	</script>
+	<label>
+		<span class="screen-reader-text">Search</span>
+		<input type="text" name="em_search" class="em-events-search-text em-search-text" value="" />
+	</label>
+</div>
+<!-- END General Search --><!-- START General Search -->
+<div class="em-search-geo em-search-field">
+		<label>
+		<span class="screen-reader-text">Near...</span>
+		<input type="text" name="geo" class="em-search-geo" value=""/>
+	</label>
+	<input type="hidden" name="near" class="em-search-geo-coords" value="" />
+	<div id="em-search-geo-attr" ></div>
+	<script type="text/javascript">
+	EM.geo_placeholder = 'Near...';
+	EM.geo_alert_guess = 'We are going to use %s for searching. \n\n If this is incorrect, click cancel and try a more specific address.';
+	function em_geo_search_init(){
+	jQuery('input.em-search-geo').each(function(i){
+		var input = /** @type {HTMLInputElement} */ jQuery(this);
+		var wrapper = input.closest('div.em-search-geo'); 
+		var autocomplete = new google.maps.places.Autocomplete(input[0]);
+		var geo_coords = wrapper.find("input.em-search-geo-coords");
+
+		var geo_field_status = function( status ){
+			wrapper.data('status',status);
+			var em_search = wrapper.closest('.em-search');
+			if( status == 'on' ){
+				wrapper.css('background-image', wrapper.css('background-image').replace('search-geo.png', 'search-geo-on.png').replace('search-geo-off.png', 'search-geo-on.png'));
+				em_search.find('select.em-search-country option:first-child').prop('selected','selected').trigger('change');
+				em_search.find('.em-search-location').slideUp();
+				em_search.find('.em-search-geo-units').slideDown();
+			}else{
+				if( status == 'off' ){
+					wrapper.css('background-image', wrapper.css('background-image').replace('search-geo.png', 'search-geo-off.png').replace('search-geo-on.png', 'search-geo-off.png'));
+				}else{
+					wrapper.css('background-image', wrapper.css('background-image').replace('search-geo-off.png', 'search-geo.png').replace('search-geo-on.png', 'search-geo.png'));
+				}
+				geo_coords.val('');
+				em_search.find('.em-search-location').slideDown();
+				em_search.find('.em-search-geo-units').slideUp();
+			}
+		};
+
+		var ac_listener = function( place ) {
+			var place = autocomplete.getPlace();
+			if( !place || !place.geometry ){ //place not found
+				if( input.val() == '' || input.val() == EM.geo_placeholder ){ 
+					geo_field_status(false);
+				}else{
+					if( wrapper.data('last-search') == input.val() ){ 
+						geo_field_status('on');
+						geo_coords.val( wrapper.data('last-coords') );
+						return; 
+					}
+	              	//do a nearest match suggestion as last resort
+					if( input.val().length >= 2 ){
+						geo_field_status(false);
+						autocompleteService = new google.maps.places.AutocompleteService();
+				        autocompleteService.getPlacePredictions( {'input': input.val(), 'offset': input.val().length }, function listentoresult(list, status) {
+		                    if(list != null && list.length != 0) {
+		                        placesService = new google.maps.places.PlacesService(document.getElementById('em-search-geo-attr'));
+		                        placesService.getDetails( {'reference': list[0].reference}, function detailsresult(detailsResult, placesServiceStatus) {
+		                            //we have a match, ask the user
+                    				wrapper.data('last-search', detailsResult.formatted_address );
+                    				wrapper.data('last-coords', detailsResult.geometry.location.lat() + ',' + detailsResult.geometry.location.lng());
+	                                if( input.val() == detailsResult.formatted_address || confirm(EM.geo_alert_guess.replace('%s', '"'+detailsResult.formatted_address+'"')) ){
+		                                geo_coords.val( detailsResult.geometry.location.lat() + ',' + detailsResult.geometry.location.lng() );
+		        						geo_field_status('on');
+		                                input.val(detailsResult.formatted_address);
+	                                }else{
+	                                	input.data('last-key',false);
+	                					geo_field_status('off');
+	                                }
+		                        });
+		                    }else{ geo_field_status('off'); }
+						});
+					}else{ geo_field_status('off'); }
+				}
+				wrapper.data('last-search', input.val() );
+				wrapper.data('last-coords', geo_coords.val());
+				return;
+			}
+			geo_coords.val( place.geometry.location.lat() + ',' + place.geometry.location.lng() );
+			geo_field_status('on');
+			wrapper.data('last-search', input.val() );
+			wrapper.data('last-coords', geo_coords.val());
+		};
+		google.maps.event.addListener(autocomplete, 'place_changed', ac_listener);
+				
+		if( geo_coords.val() != '' ){
+			geo_field_status('on');
+			wrapper.data('last-search', input.val() );
+			wrapper.data('last-coords', geo_coords.val() );
+		}
+		input.keypress( function(e) {
+			//if enter is pressed once during 'near' input, don't do anything so Google can select location, otherwise let behavior (form submittal) proceed 
+			if( e.which == 13 ) {
+				if( input.data('last-key') != 13 || wrapper.data('status') != 'on' ){
+					e.preventDefault();
+				}
+			}else{
+				geo_field_status(false);
+			}
+		}).keyup( function(e) {
+			if( this.value == '' ){ geo_field_status(false); }
+			else if( wrapper.data('last-search') != this.value ){ geo_field_status('off'); }
+			input.data('last-key', e.which);
+		}).blur( function(e){ //create HTML 5 placeholder effect if not HTML 5
+			if( this.value == '' && !('placeholder' in document.createElement('input')) ) this.value = EM.geo_placeholder;
+		}).focus( function(e){
+			if( this.value == EM.geo_placeholder ) this.value='';
+			input.data('last-key', 13);
+		}).attr('placeholder', EM.geo_placeholder);
+	});
+}
+jQuery(document).bind('em_maps_loaded', function(){ em_geo_search_init(); });	</script>
+</div>
+<!-- END General Search -->						<button type="submit" class="em-search-submit loading">
+								<!--[if IE 7]><span><![endif]-->
+				<img src="https://today.uic.edu/wp-content/plugins/events-manager/includes/images/search-mag.png" alt="Search" />
+				<!--[if IE 7]></span><![endif]-->
+			</button>
+					</div>
+						<div class="em-search-advanced" style="display:none">
+			<!-- START Date Search -->
+<div class="em-search-scope em-search-field">
+	<span class="em-search-scope em-events-search-dates em-date-range">
+		<label>
+			<span>Dates</span>
+			<input type="text" class="em-date-input-loc em-date-start" />
+			<input type="hidden" class="em-date-input" name="scope[0]" value="" />
+		</label>
+		<label>
+			 - 			<input type="text" class="em-date-input-loc em-date-end" />
+			<input type="hidden" class="em-date-input" name="scope[1]" value="" />
+		</label>
+	</span>
+</div>
+<!-- END Date Search --><!-- START Category Search -->
+<div class="em-search-category em-search-field">
+	<label>
+		<span>Category</span>
+		<select  name='category' id='category' class='em-events-search-category' >
+	<option value='0' selected='selected'>All Categories</option>
+	<option class="level-0" value="1675">Art exhibit</option>
+	<option class="level-0" value="1677">Conference</option>
+	<option class="level-0" value="6613">Featured</option>
+	<option class="level-0" value="6585">Health &amp; Medicine</option>
+	<option class="level-0" value="1667">Lecture</option>
+	<option class="level-0" value="1666">Museum exhibit</option>
+	<option class="level-0" value="2028">Performance</option>
+	<option class="level-0" value="1678">Special event</option>
+	<option class="level-0" value="1676">Sports</option>
+	<option class="level-0" value="6497">Sustainability</option>
+	<option class="level-0" value="1674">Workshop</option>
+</select>
+	</label>
+</div>
+<!-- END Category Search --><div class="em-search-location" >
+	<!-- START Country Search -->
+<div class="em-search-country em-search-field">
+	<label>
+		<span>Country</span>
+		<select name="country" class="em-search-country em-events-search-country">
+			<option value=''>All Countries</option>
+						<option value="US" selected="selected">United States</option>
+					</select>
+	</label>
+</div>
+<!-- END Country Search -->	<div class="em-search-location-meta" >
+	<!-- START Region Search -->
+<div class="em-search-region em-search-field">
+	<label>
+		<span>Region</span>
+		<select name="region" class="em-search-region em-events-search-region">
+			<option value=''>All Regions</option>
+							 <option>60607</option>
+								 <option>60612</option>
+								 <option>chicago</option>
+								 <option>Great Lakes</option>
+								 <option>Midwest</option>
+								 <option>UIC Campus</option>
+								 <option>UIC East Campus </option>
+								 <option>United States</option>
+						</select>
+	</label>
+</div>	
+<!-- END Region Search --><!-- START State/County Search -->
+<div class="em-search-state em-search-field">
+	<label>
+		<span>State/County</span>
+		<select name="state" class="em-search-state em-events-search-state">
+			<option value=''>All States</option>
+							 <option>Cook</option>
+								 <option>IL</option>
+								 <option>Illinois</option>
+								 <option>United States</option>
+								 <option>United States 1</option>
+						</select>
+	</label>
+</div>
+<!-- END State/County Search -->	</div>
+</div>								</div>
+						<div class="em-search-options">
+			<a href="#" class="em-toggle" rel=".em-search-advanced:.em-search-form">
+				<span class="hide-advanced" style="display:none;">Hide Advanced Search</span>
+				<span class="show-advanced">Show Advanced Search</span>
+			</a>
+		</div>
+								    <input name="near_distance" type="hidden" value="25" />		    <input name="near_unit" type="hidden" value="mi" />			</form>
+</div>
+</div><div class="event-list-body-container">
+<div class="teaser-list"><article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">Apr</span>
+    <span class="_day">9</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/earth-day-2020-plastic-free-uic">Earth Day 2020: Plastic-Free UIC!</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">Apr</span>
+    <span class="_day">30</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/competitive-gaming-club-discord-2020-04-30">Competitive Gaming Club Discord</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">Apr</span>
+    <span class="_day">30</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/uic-campus-recreation-free-online-workouts-2020-04-30">UIC Campus Recreation free online workouts</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">Apr</span>
+    <span class="_day">30</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/black-hair-quilt-project-3">Black Hair Quilt Project</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        3:00 pm - 5:00 pm</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">1</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/competitive-gaming-club-discord-2020-05-01">Competitive Gaming Club Discord</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">1</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/uic-campus-recreation-free-online-workouts-2020-05-01">UIC Campus Recreation free online workouts</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">1</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/write-wlrc-zoom-session-2020-05-01">Write @ WLRC: Zoom Session</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        10:00 am - 12:00 pm</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">1</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/craftivism-during-a-pandemic">Craftivism during a Pandemic</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        12:00 pm - 1:00 pm</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">1</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/the-breathing-room-unbelievable-and-media-portrayals-of-gender-based-violence">The Breathing Room: Unbelievable and Media Portrayals of Gender-based Violence</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        12:00 pm - 1:00 pm</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">2</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/competitive-gaming-club-discord-2020-05-02">Competitive Gaming Club Discord</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">3</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/competitive-gaming-club-discord-2020-05-03">Competitive Gaming Club Discord</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">3</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/uic-campus-recreation-free-online-workouts-2020-05-03">UIC Campus Recreation free online workouts</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">4</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/competitive-gaming-club-discord-2020-05-04">Competitive Gaming Club Discord</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">4</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/uic-campus-recreation-free-online-workouts-2020-05-04">UIC Campus Recreation free online workouts</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+<article class="event-teaser">
+
+  <div class="_colA">
+    <span class="date-circle -light">
+    <span class="_month">May</span>
+    <span class="_day">5</span>
+    <span class="_year">2020</span>
+</span>
+  </div>
+
+
+  <div class="_colB">
+    <h2 class="_name">
+      <a href="https://today.uic.edu/events/competitive-gaming-club-discord-2020-05-05">Competitive Gaming Club Discord</a>
+    </h2>
+
+    <div class="_time-and-place">
+      <div class="_time">
+        All Day</div>
+              
+          </div>
+
+      </div>
+
+</article>
+
+
+
+</div>
+<div class="event-cat-sidebar uic-list">
+<h2 class="event-sub-header">Events by Category</h2>
+<ul>
+ 	<li><a href="https://today.uic.edu/events/categories/event-art-exhibit">Art exhibit</a></li>
+
+ 	<li><a href="https://today.uic.edu/events/categories/event-conference">Conference</a></li>
+
+ 	<li><a href="https://today.uic.edu/events/categories/event-featured">Featured</a></li>
+
+ 	<li><a href="https://today.uic.edu/events/categories/event-health-medicine">Health &amp; Medicine</a></li>
+
+ 	<li><a href="https://today.uic.edu/events/categories/event-lecture">Lecture</a></li>
+
+ 	<li><a href="https://today.uic.edu/events/categories/event-museum-exhibit">Museum exhibit</a></li>
+
+ 	<li><a href="https://today.uic.edu/events/categories/performance">Performance</a></li>
+
+ 	<li><a href="https://today.uic.edu/events/categories/event-special-event">Special event</a></li>
+
+ 	<li><a href="https://today.uic.edu/events/categories/event-sports">Sports</a></li>
+
+ 	<li><a href="https://today.uic.edu/events/categories/event-sustainability">Sustainability</a></li>
+
+ 	<li><a href="https://today.uic.edu/events/categories/event-workshop">Workshop</a></li>
+</ul>
+
+<div class="uic-list">
+<h2 class="event-sub-header">More Events</h2>
+<ul>
+<li><a href=" https:=">RSS feed of UIC Today Events <img src="/files/2017/08/external_link.png" alt="external_link" width="15" height="15"></a></li>
+<li><a href="http://www.uic.edu/htbin/eventcal/eventcal.fcgi">UIC Calendar of Events <img src="/files/2017/08/external_link.png" alt="external_link" width="15" height="15"></a></li>
+<li><a href="/submit-an-event/">Submit an Event ➔</a></li>
+</div>
+
+</div>
+</div><span class="em-pagination" > <strong><span class="page-numbers current">1</span></strong> <a class="page-numbers" href="/events?pno=2" title="2">2</a>  <a class="page-numbers" href="/events?pno=3" title="3">3</a>  <a class="page-numbers" href="/events?pno=4" title="4">4</a>  <a class="page-numbers" href="/events?pno=5" title="5">5</a>  <a class="page-numbers" href="/events?pno=6" title="6">6</a>  <a class="page-numbers" href="/events?pno=7" title="7">7</a>  <a class="page-numbers" href="/events?pno=8" title="8">8</a>  <a class="page-numbers" href="/events?pno=9" title="9">9</a>  <a class="page-numbers" href="/events?pno=10" title="10">10</a>  <a class="next page-numbers" href="/events?pno=2" title="2">&gt;</a>  <a class="next page-numbers" href="/events?pno=27" title="27">&gt;&gt;</a> </span></p>
+</div></div></p>
+	</div>
+	
+	<div id="right_sidebar">
+<div class="rightBar_widgets">	
+	
+</div>
+
+</div>		
+
+
+</div>
+
+<div class="clearThis">&nbsp;</div>
+
+
+
+
+
+    
+
+    <footer id="footer" class="footer u-dark-region" role="contentinfo">
+
+
+  <div class="footer-contact">
+    <div class="l-full">
+
+
+            <div class="uic-type-wrapper-footer">
+
+            <div class="uic-type-treatment-footer">
+            
+  			<div class="_mark"> 
+    		<a href="http://uic.edu" class="uic-logo-icon" aria-label="UIC logo">
+ 			<svg aria-label="UIC.edu" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ 			<title>UIC Logo</title>
+ 			<circle class="_circle" cx="27" cy="27" r="25" fill="none"></circle>
+ <path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#d50032" fill-rule="evenodd"></path>
+</svg>
+</a>
+  			</div><!--  _mark   -->   
+            
+  			<div class="_text">
+    		<a href="/">
+        	  Today
+      		  </a>
+ 			</div><!--  _text   -->
+
+            
+			</div><!--  uic-type-treatment-footer   -->
+
+
+			</div><!--  uic-type-wrapper-footer    -->
+ 
+
+
+  <div class="_contact">
+  
+  
+    <h2>Contact</h2>
+    
+    
+		<div class="site-address">Office of Public and Government Affairs <br />
+		601 S. Morgan St., 1320 UH, Chicago, IL 60607</div>
+      
+      
+		<div class="site-email"><a href="mailto:uictoday@uic.edu">uictoday@uic.edu</a></div>
+        
+        
+		<div aria-label="Social Media Accounts" class="_social" role="navigation">
+			<h2 class="assistive-text">Social Media Accounts</h2> 
+  			<ul class="site-social-links">
+            <li><a href="https://www.facebook.com/uicnews "><img src="/wp-content/themes/uictoday/images/social-media-icons/facebook.png" alt="Facebook"></a></li>
+            <li><a href="https://instagram.com/thisisuic/"><img src="/wp-content/themes/uictoday/images/social-media-icons/instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://today.uic.edu/campus-news/campus-newspaper/subscribe-to-uic-today"><img src="/wp-content/themes/uictoday/images/social-media-icons/rss.png" alt="RSS feed"></a></li>
+            <li><a href="https://uicscience.tumblr.com/"><img src="/wp-content/themes/uictoday/images/social-media-icons/tumblr.png" alt="tumblr"></a></li>
+            <li><a href="https://twitter.com/UICnews"><img src="/wp-content/themes/uictoday/images/social-media-icons/twitter.png" alt="Twitter"></a></li>
+            <li><a href="https://www.youtube.com/user/uicmedia"><img src="/wp-content/themes/uictoday/images/social-media-icons/youtube.png" alt="YouTube"></a></li>
+            <li><a href="https://today.uic.edu/contact/social-media-directory"><img src="/wp-content/themes/uictoday/images/social-media-icons/directory.png" alt="Social media directory"></a></li>
+            </ul>
+            
+            
+		</div>        
+        
+        
+  </div>
+
+    
+
+       
+
+
+   
+
+
+
+
+
+		<div id="quicklinks_footer" role="navigation" aria-label="Quick Links" >
+			<div id="quicklinks_footer_container">
+	  	 	<div class="menu-footer-quicklinks-container"><ul id="menu-footer-quicklinks" class="menu"><li id="menu-item-57564"><a href="/news-release/news-release/">For the Media</a></li>
+<li id="menu-item-57555"><a href="https://today.uic.edu/experts-guide">Experts Guide</a></li>
+<li id="menu-item-57577"><a href="https://today.uic.edu/contact/communicating-on-campus/submit-announcements">Submit Announcements</a></li>
+<li id="menu-item-57578"><a href="https://today.uic.edu/submit-an-event">Submit an Event</a></li>
+<li id="menu-item-67562"><a href="https://today.uic.edu/campus-news/campus-newspaper/subscribe-to-uic-today">Subscribe to UIC Today</a></li>
+</ul></div>        	</div>
+	    </div>      
+
+
+</div>
+
+    
+    </div>
+  </div>
+
+
+
+
+<div class="footer-wrapper-uic-menu-legal">
+
+
+  <div class="footer-uic-menu">
+    <div class="ll-full">
+
+      <div role="navigation" aria-label="UIC.edu Links" >
+  <h2 class="assistive-text">UIC.edu links</h2>
+  <ul class="uic-footer-menu">
+    <li><a href="http://uic.edu/">UIC.edu</a></li>
+    <li><a href="http://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></li>
+    <li><a href="http://uicflames.com/">Athletics</a></li>
+    <li><a href="http://www.uic.edu/apps/departments-az/search">Campus Directory</a></li>
+    <li><a href="http://disabilityresources.uic.edu/">Disability Resources</a></li>
+    <li><a href="http://emergency.uic.edu/">Emergency Information</a></li>
+    <li><a href="http://events.uic.edu/">Event Calendar</a></li>
+    <li><a href="http://uic.edu/about/job-opportunities">Job Openings</a></li>
+    <li><a href="http://library.uic.edu/">Library</a></li>
+    <li><a href="http://maps.uic.edu/">Maps</a></li>
+    <li><a href="http://hospital.uillinois.edu/">UI Health</a></li>
+    <li><a href="http://dos.uic.edu/studentveteranaffairs.shtml">Veterans Affairs</a></li>
+  </ul>
+</div>
+
+    </div><!--  ll-full   -->
+    
+    <div class="m-full">
+    <img src="/wp-content/themes/uictoday/images/uihealth.png" alt="UI Health and UIC co-branded logo">
+    </div><!--  m-full   -->
+    
+  </div><!--  footer-uic-menu   --> 
+
+
+
+
+  <div class="footer-legal">
+    <div class="l-full">
+
+      <div class="site-copyright">
+  &copy; 2020 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
+  <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a>
+</div>
+
+<div class="campuses" role="navigation" aria-label="University of Illinois campus web sites">
+  <h2 class="assistive-text">Campuses</h2>
+  <ul class="campuses-list">
+    <li><a href="https://uillinois.edu/">University of Illinois System</a></li>
+    <li><a href="https://illinois.edu/">Urbana-Champaign</a></li>
+    <li><a href="https://uis.edu/">Springfield</a></li>
+  </ul>
+</div>
+
+    </div>
+
+
+
+</div><!--  footer-wrapper-uic-menu-legal   --> 
+    
+    
+  </div>
+
+</footer>
+
+
+
+
+
+</div>
+
+
+		<style type="text/css">
+			.ssp-wave wave wave {
+				background: #28c0e1 !important;
+			}
+		</style>
+		<script type="text/javascript">
+  document.write(unescape("%3Cscript src='//www.uic.edu/inc/emergency/alert.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+      <script type="text/javascript">
+
+          var pfHeaderImgUrl = 'https://today.uic.edu/files/2019/10/TodayPrintHeader.jpg';
+          var pfHeaderTagline = 'UIC Today';
+          var pfdisableClickToDel = '0';
+          var pfImagesSize = 'full-size';
+          var pfImageDisplayStyle = 'right';
+          var pfEncodeImages = '0';
+          var pfDisableEmail = '0';
+          var pfDisablePDF = '0';
+          var pfDisablePrint = '0';
+          var pfCustomCSS = '';
+          var pfPlatform = 'Wordpress';
+      </script>
+      <script async src='https://cdn.printfriendly.com/printfriendly.js'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+
+</body>
+</html><!-- WP Fastest Cache file was created in 0.16640591621399 seconds, on 30-04-20 15:02:58 -->
