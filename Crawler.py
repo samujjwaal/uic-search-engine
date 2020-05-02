@@ -25,7 +25,7 @@ from collections import deque
 
 # +
 domain = "uic.edu"
-start_url = "https://www.cs.uic.edu/"
+start_url = "https://www.cs.uic.edu/"                ######## update url
 
 pages_folder = "./FetchedPages/"
 
@@ -131,3 +131,9 @@ with open(pickle_folder + 'pages_crawled.pickle', 'rb') as f:
 
 # +
 # pages == pages_crawled
+
+# +
+# pages_crawled[203]
+# -
+
+

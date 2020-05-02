@@ -158,3 +158,15 @@ len(inverted_index)
 # #     print(item)
 #     if not webpage_tokens[item]:
 #         print(item)
+
+# +
+# len(webpage_tokens['672'])
+
+# +
+# # files[2638]
+# for i,j in enumerate(files):
+#     if(j == '1180'):
+#         print(i)
+# -
+
+
