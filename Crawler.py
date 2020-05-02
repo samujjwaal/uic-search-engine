@@ -29,7 +29,7 @@ start_url = "https://www.cs.uic.edu/"
 
 pages_folder = "./FetchedPages/"
 
-pickle_folder = "./PickelFiles/"
+pickle_folder = "./PickleFiles/"
 os.makedirs(pickle_folder, exist_ok=True)
 
 # file extensions to ignore while crawling pages
@@ -43,9 +43,8 @@ crawl_limit = 3000
 
 # to make sure error log file is initially empty
 error_file = "error_log.txt"
-os.makedirs(os.path.dirname(error_file), exist_ok=True)
-f = open(error_file, "r+")
-f.truncate()
+f = open(error_file, "w+")
+# f.truncate()
 f.close()
 
 # queue to perform BFS web traversal
@@ -67,36 +66,41 @@ while url_q:
         rqst = requests.get(url)            # get html code of web page
 
         if (rqst.status_code == 200):
-            pages_crawled[page_no] = url    
-
-            output_file = pages_folder + str(page_no)
             
-            os.makedirs(os.path.dirname(output_file), exist_ok=True)     # create file to store html code
-
-            with open(output_file, "w", encoding="utf-8") as file:
-                file.write(rqst.text)
-            file.close()
-
             soup = BeautifulSoup(rqst.text, 'lxml')
             tags_extracted = soup.find_all('a')                 # extract all 'a' tags from page
+            
+            if len(tags_extracted) != 0:                        # to reject pages which don't link to another page
+                pages_crawled[page_no] = url    
 
-            for tag in tags_extracted:
-                
-                l = tag.get('href')
+                output_file = pages_folder + str(page_no)
 
-                if l is not None and l.startswith("http"):
+                os.makedirs(os.path.dirname(output_file), exist_ok=True)     # create file to store html code
 
-                    if not any(ext in l for ext in ignore_ext):
+                with open(output_file, "w", encoding="utf-8") as file:
+                    file.write(rqst.text)
+                file.close()
 
-                        if l not in urls_crawled and domain in l:
-#                             print(l)
-                            url_q.append(l)                 # valid URL to append to the queue
-                            urls_crawled.append(l)
+                for tag in tags_extracted:
 
-            if (len(pages_crawled) > crawl_limit):
-                break                                        # stop crawling when reached limit
+                    l = tag.get('href')
 
-            page_no += 1
+                    if l is not None and l.startswith("http"):
+
+                        if not any(ext in l for ext in ignore_ext):
+
+                            if l not in urls_crawled and domain in l:
+    #                             print(l)
+                                url_q.append(l)                 # valid URL to append to the queue
+                                urls_crawled.append(l)
+
+                if (len(pages_crawled) > crawl_limit):
+                    break                                       # stop crawling when reached limit
+
+                page_no += 1
+            
+#             else:
+#                 print(url,soup.getText())
 
     except Exception as e:
         with open(error_file, "a+") as log:                  # add error message to error log
@@ -108,21 +112,22 @@ while url_q:
         print("Error occured: ", e, " \n")
         continue
         
-        
+
+# Pickling the dict of crawled pages
 with open(pickle_folder + 'pages_crawled.pickle', 'wb') as f:
     pickle.dump(pages_crawled,f)
-
-# +
-# len(pages_crawled)
-# count
-
-
-# +
-# pages_crawled
 # -
 
-with open('pages.pickle', 'rb') as f:
+len(pages_crawled)
+
+
+# +
+# pickle_folder = "./PickleFiles/"
+# os.makedirs(pickle_folder, exist_ok=True)
+# -
+
+with open(pickle_folder + 'pages_crawled.pickle', 'rb') as f:
     pages = pickle.load(f)
 
 # +
-# pages
+# pages == pages_crawled
