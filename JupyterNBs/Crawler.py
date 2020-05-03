@@ -23,26 +23,23 @@ import pickle
 from bs4 import BeautifulSoup
 from collections import deque
 
-# +
+# + run_control={"marked": false}
 domain = "uic.edu"
-start_url = "https://www.cs.uic.edu/"                ######## update url
+start_url = "https://cs.uic.edu"                
 
-pages_folder = "./FetchedPages/"
-
-pickle_folder = "./PickleFiles/"
-os.makedirs(pickle_folder, exist_ok=True)
+pages_folder = "../FetchedPages/"
 
 # file extensions to ignore while crawling pages
 ignore_ext = [
     '.pdf', '.doc', '.docx', '.ppt', '.pptx', '.xls', '.xlsx', '.css', '.js',
-    '.aspx', '.png', '.jpg', '.jpeg', '.JPG', '.gif', '.svg', '.ico', '.mp4',
+    '.aspx', '.png', '.jpg', '.jpeg', '.gif', '.svg', '.ico', '.mp4',
     '.avi', '.tar', '.gz', '.tgz', '.zip'
 ]
 
-crawl_limit = 3000
+crawl_limit = 6000
 
 # to make sure error log file is initially empty
-error_file = "error_log.txt"
+error_file = "../error_log.txt"
 f = open(error_file, "w+")
 # f.truncate()
 f.close()
@@ -83,24 +80,27 @@ while url_q:
 
                 for tag in tags_extracted:
 
-                    l = tag.get('href')
+                    link = tag.get('href')                  
 
-                    if l is not None and l.startswith("http"):
+                    if link is not None and link.startswith("http") and not any(ext in link.lower() for ext in ignore_ext):
+                        
+                        link = link.lower()
 
-                        if not any(ext in l for ext in ignore_ext):
+                        link = link.split('#')[0]
+                        link = link.split('?', maxsplit=1)[0]
+                        link = link.rstrip('/')
+                        link = link.strip()
 
-                            if l not in urls_crawled and domain in l:
-    #                             print(l)
-                                url_q.append(l)                 # valid URL to append to the queue
-                                urls_crawled.append(l)
+                        if link not in urls_crawled and domain in link:
+#                             print(link)
+                            url_q.append(link)                 # valid URL to append to the queue
+                            urls_crawled.append(link)
 
                 if (len(pages_crawled) > crawl_limit):
                     break                                       # stop crawling when reached limit
 
                 page_no += 1
             
-#             else:
-#                 print(url,soup.getText())
 
     except Exception as e:
         with open(error_file, "a+") as log:                  # add error message to error log
@@ -111,29 +111,24 @@ while url_q:
         print("Could not connect to ", url)
         print("Error occured: ", e, " \n")
         continue
-        
+
+
+# +
+pickle_folder = "../PickleFiles/"
+os.makedirs(pickle_folder, exist_ok=True)
 
 # Pickling the dict of crawled pages
-with open(pickle_folder + 'pages_crawled.pickle', 'wb') as f:
+with open(pickle_folder + '6000_pages_crawled.pickle', 'wb') as f:
     pickle.dump(pages_crawled,f)
 # -
 
 len(pages_crawled)
 
 
-# +
-# pickle_folder = "./PickleFiles/"
-# os.makedirs(pickle_folder, exist_ok=True)
-# -
+pickle_folder = "../PickleFiles/"
+os.makedirs(pickle_folder, exist_ok=True)
 
-with open(pickle_folder + 'pages_crawled.pickle', 'rb') as f:
+with open(pickle_folder + '3000_pages_crawled.pickle', 'rb') as f:
     pages = pickle.load(f)
 
-# +
-# pages == pages_crawled
-
-# +
-# pages_crawled[203]
-# -
-
-
+pages_crawled == pages
