@@ -1,920 +1,171 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-        <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-WXRNQ8');</script> <!-- End Google Tag Manager -->
-    <title>Library</title>
-    <link rel="stylesheet" href="/css/gdpr.css">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="/css/main.min.css?version=1">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Cornelia Caragea</title>
+  
+  <meta name="robots" content="index, follow" />
+  <meta name="description" content="Cornelia Caragea at UIC" />
+  <meta name="keywords" content="University of Illinois Chicago, Computer Science, Cornelia Caragea, Machine Learning, Artificial Intelligence, Natural Language Processing, Computational Linguistics, Data Mining, Knowledge Discovery, keyphrase extraction, citation contexts, citation networks, CiteTextRank, PageRank, unsupervised keyphrase extraction, supervised keyphrase extraction, document networks" />
+  <meta name="author" content="Cornelia Caragea, Juan Pablo Fernandez Ramirez" /> 
+  <link type="text/css" href="css/style.css" rel="stylesheet" media="screen" />
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript" src="js/customFunctions.js"></script>
+  <script type="text/javascript" src="js/customJquery.js"></script>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    <script>
-        document.documentElement.className = "js";
+    ga('create', 'UA-68280330-1', 'auto');
+    ga('send', 'pageview');
 
-        // utilities
-        var getQueryString = function ( field, url ) {
-            // hat tip https://goo.gl/Q6Hyyx
-            var href = url ? url : window.location.href;
-            var reg = new RegExp( '[?&]' + field + '=([^&#]*)', 'i' );
-            var string = reg.exec(href);
-            return string ? string[1] : null;
-        };
-    </script>
-
-
-    <script src="//v2.libanswers.com/load_chat.php?hash=a8f3cdd768831e345ca9d2f796ff5e5d"></script>
-    <script src="https://cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js" type="text/javascript" charset="UTF-8"></script>
+  </script>
 </head>
-<body class="theme--navy">
-    <!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXRNQ8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) -->
-    <div class="page l-page ">
+<body>
+  <div id="main">
+	      <div id="bottom">
+		  <center>
+		  <a id="selected" href="index.html">Home</a> |
+		  <a href="research.html">Research</a> |
+		  <a href="publications.html">Publications</a> |
+		  <!--<a href="projects.html">Projects</a> |-->
+		  <a href="teaching.html">Teaching</a> |
+		  <a href="cv_cornelia.html">Curriculum Vitae</a>  |
+		  <a href="links.html">Links</a>
+		  </center>
+	      </div>
+      <div id="column2">
+        <br/> 
+        <span class="left"><a href="color-picture.html"><img src="images/c_3.png" style="width: 125px; height: 140px;" alt="Cornelia Caragea" title="Cornelia Caragea" /></a></span>
+		<!--<span class="left"><a href="color-picture.html"><img src="images/c_3.png" style="width: 140px; height: 160px;" alt="Cornelia Caragea" title="Cornelia Caragea" /></a></span>-->
+        <p><strong>Cornelia Caragea</strong><br/>
+			Associate Professor <!--and <a href="http://www.k-state.edu/about/faculty//endowed/">The Lloyd T. Smith Creativity in Engineering Chair</a>-->
+		</p>
+        <!--<address>--> 
+		<!--<p>
+          2166 Engineering Hall <br/>
+          <a href="http://www.cs.ksu.edu/" title="CS">Computer Science</a><br />
+		  <a href="http://www.k-state.edu/" title="KSU">Kansas State University</a> <br/>
+          Manhattan, KS 66502, USA <br />
+          
+          <bdo dir="rtl">ude.etats-k@aegaracc</bdo>
+	  	</p>-->
+        <!--</address>-->
+        <p>
+          Science and Engineering Offices <br/>
+          <a href="https://www.cs.uic.edu/" title="CS">Computer Science</a><br />
+		  <a href="https://www.uic.edu/" title="UIC">University of Illinois at Chicago</a> <br/>
+          Chicago, IL 60607, USA <br />
+          
+          <bdo dir="rtl">ude.ciu@ailenroc</bdo>
+	  	</p>
+        <div class="spacer"></div>
+			<!--<p>I am an Associate Professor of <a href="http://www.cs.ksu.edu/" title="CSE">Computer Science</a> and the Lloyd T. Smith Creativity in Engineering Chair at <a href="http://www.k-state.edu/" title="KSU">Kansas State University</a>.</p> Previously, I was an Assistant Professor of <a href="http://www.cse.unt.edu/" title="CSE">Computer Science and Engineering</a> at the <a href="http://www.unt.edu/" title="UNT">University of North Texas</a>.--> 
+				
+			<p><!--I am an Associate Professor of <a href="https://www.cs.uic.edu/" title="CS">Computer Science</a> at <a href="https://uic.edu/" title="UIC">University of Illinois at Chicago</a>. I also hold an Adjunct Associate Professor position in <a href="http://www.cs.ksu.edu/" title="CS">Computer Science</a> at <a href="http://www.k-state.edu/" title="KSU">Kansas State University</a>.--> My research interests are in natural language processing, information retrieval, artificial intelligence, and machine learning. <!--, with applications to scholarly big data and digital libraries.--></p>
+			<!--<p><span style="color:RGB(155,0,0)"><b>Several Research Assistantships Available:</b></span> I am currently looking for smart and highly motivated PhD students. If you are a student interested in Natural Language Processing, Information Retrieval, and Machine Learning, and would like to work as a research assistant with me, send me an email at <span style="color:RGB(155,0,0)"><b><bdo dir="rtl">ude.ciu@ailenroc</bdo></b></span>.</p>-->
+			<!--<p><span style="color:RGB(155,0,0)"><b>Several Research Assistantships Available:</b></span> I am currently looking for smart and highly motivated PhD students. If you are a student interested in Natural Language Processing, Information Retrieval, or Machine Learning, and would like to work as a research assistant with me, please send me an email!</p>-->
+			<h3>News</h3>
+    		<ul>
 
-        <header role="banner">
-                            <!--[if lte IE 9]>
-<div class="browser-stripe u-dark-region">
-  <div class="l-full">
-      <h2>Your browser is unsupported</h2>
-      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
+    			<li><p><span style="color:RGB(155,0,0)"><b>A two-year post-doc position on natural language processing and information extraction is available in my group starting January 2020.</b></span>  Please email me at <span style="color:RGB(34,78,182)"><b><bdo dir="rtl">ude.ciu@ailenroc</bdo></b></span> for more information.</p></li>
+
+				<li><p><span style="color:RGB(155,0,0)"><b>Several Research Assistantships Available:</b></span> I am currently looking for smart and highly motivated PhD students. If you are a student interested in Natural Language Processing, Information Retrieval, and Machine Learning, and would like to work as a research assistant with me, send me an email at <span style="color:RGB(34,78,182)"><b><bdo dir="rtl">ude.ciu@ailenroc</bdo></b></span>.</p></li>
+				
+				<!--<li><p>I participate in a panel on <span style="color:RGB(155,0,0)"><b>Approaching the Singularity: The Future of Computational Intelligence</b></span> at the <a href="http://www.metrocon.org/2017/">IEEE MetroCon</a> at the Arlington Convention Center, in Arlington, TX, October 26th, 2017.
+				<li><p>I participate in a panel on <span style="color:RGB(155,0,0)"><b>Making the Leap: Jumping into An(other) Academic Position</b></span> at the <a href="https://ghc.anitab.org/">Grace Hopper Celebration for Women in Computing</a>, October 5th, 2017.
+				-->
+				<!--<li><p><span style="color:RGB(155,0,0)"><b>Burse de studii in computer science pentru master si doctorat cu specializare in natural language processing, information retrieval si machine learning sunt oferite in America  pentru studenti romani.</b></span> Pentru mai multe informatii, trmiteti un email la <span style="color:RGB(155,0,0)"><b><bdo dir="rtl">ude.ciu@ailenroc</bdo></b></span>.</p></li>-->
+				<!--<li><p><span style="color:RGB(155,0,0)"><b> </b></span>Congratulations to my student <a href="https://ashwinitonge.github.io/">Ashwini Tonge</a> on successfully defending her PhD on "Image Privacy Prediction using Deep Learning." (March 28, 2019)</p></li>
+				<li><p><span style="color:RGB(155,0,0)"><b>Two talks at AIDR 2019. </b></span>I will be giving two talks at the <a href="https://events.library.cmu.edu/aidr2019/program/">Artificial Intelligence for Data Discovery and Reuse</a>, an NSF-supported conference @ Carnegie Mellon University.</p></li>
+				-->
+				<li><p><span style="color:RGB(155,0,0)"><b>Two papers accepted at EMNLP 2019.</b> <!--</span>Congratulations to <a href="https://ashwinitonge.github.io/">Ashwini Tonge</a>, Rabah Al-Zaidy, and Jishnu Ray Chowdhury.--></p></li>
+				<li><p><span style="color:RGB(155,0,0)"><b>Three papers accepted at WWW 2019.</b> <!--</span>Congratulations to <a href="https://ashwinitonge.github.io/">Ashwini Tonge</a>, Rabah Al-Zaidy, and Jishnu Ray Chowdhury.--></p></li>
+				<!--<li><p><span style="color:RGB(155,0,0)"><b>RAAI-17 Invited Speaker:</b></span> I gave an invited talk at the <a href="http://unibuc.ro/~conference/raai2017/">1st Conference on Recent Advances in Artificial Intelligence</a>, organized by the University of Bucharest, Romania.</p></li>
+				<li><p><span style="color:RGB(155,0,0)"><b>PETRA-17 Invited Presentation:</b></span> I gave an invited presentation at the <a href="http://www.petrae.org/">10th International Conference on Pervasive Technologies Related to Assistive Environments</a>.</p></li>
+				-->
+				<!--<li><p><span style="color:RGB(155,0,0)"><b>I received an NSF CAREER award.</b></span> Me at -->
+					<!--<a href=" http://engineering.unt.edu/digital-data-knowledge-researcher-receives-nsf-career-award">Engineering</a>, at--> 
+				<!--	<a href=" http://news.unt.edu/news-releases/digital-data-knowledge-unt-researcher-receives-nsf-career-award">UNT</a>, on <a href=" https://www.facebook.com/untengineering/posts/10155333751184078">Facebook</a> and <a href=" https://twitter.com/UNTPrez/status/854725024485396482">Twitter</a>!</p></li>
+				-->
+				<!--
+					<li><p><span style="color:RGB(155,0,0)"><b>Summer 2016 Course on Knowledge Discovery in Information Networks at UniAndes:</b></span> I taught a short summer course in the Department of Computer Science and Engineering at University of the Andes, Bogota, Colombia!</p></li>
+					<li><p><span style="color:RGB(155,0,0)"><b>IJCAI-16 Workshop: </b></span><a href="http://research.microsoft.com/en-us/people/makhab/">Madian Khabsa</a>, <a href="https://sites.google.com/site/sujathadas/">Sujatha Das Gollapalli</a>, <a href="http://clgiles.ist.psu.edu/">C. Lee Giles</a>, <a href="http://research.microsoft.com/en-us/people/awade/">Alex Wade</a> and I co-chair <a href="http://www.cse.unt.edu/~ccaragea/ijcai2016ws.html">
+				The IJCAI-16 Workshop on Scholarly Big Data: AI Perspectives, Challenges and Ideas</a>.
+				</li>
+				<li><p><span style="color:RGB(155,0,0)"><b>AAAI-16 Workshop: </b></span><a href="http://clgiles.ist.psu.edu/">C. Lee Giles</a>, <a href="http://research.microsoft.com/en-us/people/awade/">Alex Wade</a>, <a href="http://people.cis.ksu.edu/~dcaragea/">Doina Caragea</a>, <a href="http://allenai.org/about.html">Vu Ha</a>, <a href="http://research.microsoft.com/en-us/people/makhab/">Madian Khabsa</a>, <a href =" http://www.cse.cuhk.edu.hk/irwin.king">Irwin King</a>, <a href="http://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>, and I co-chair <a href="http://www.cse.unt.edu/~ccaragea/aaai2016ws.html">
+				The AAAI-16 International Workshop on Scholarly Big Data: AI Perspectives, Challenges and Ideas</a>.
+				</li>
+				<li>Sujatha Das G., <a href="http://clgiles.ist.psu.edu/">C. Lee Giles</a>, Xiaoli Li, and I organize <a href="http://www.cse.unt.edu/~ccaragea/acl2015ws.html">The ACL-15 International Workshop on Novel Computational Approaches to Keyphrase Extraction.</a></li>
+    			<li><a href="http://www.cs.uic.edu/~liub/">Bing Liu</a> and I are the workshop co-chairs for <a href="http://nlp.eecs.umich.edu/~naacl15/">NAACL '15</a>.
+				</li>
+				<li>Sujatha Das G., <a href="http://clgiles.ist.psu.edu/">C. Lee Giles</a>, Xiaoli Li, and I organize <a href="http://www.cse.unt.edu/~ccaragea/acl2015ws.html">The ACL-15 International Workshop on Novel Computational Approaches to Keyphrase Extraction.</a>
+				<li><a href="http://clgiles.ist.psu.edu/">C. Lee Giles</a> and I co-chair <a href="http://www.cse.unt.edu/~ccaragea/aaai2015ws.html">
+				The AAAI-15 International Workshop on Scholarly Big Data: AI Perspectives, Challenges and Ideas</a>.
+				</li>-->
+			</ul>
+			<h3>Selected Publications</h3>
+    		<ul>
+    			<li><p>Jishnu Ray Chowdhury, <a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>, Doina Caragea. "On Identifying Hashtags in Disaster Twitter Data." In: Proceedings of the 34th American Association for Artificial Intelligence (<b>AAAI 2020</b>), New York, USA, 2020. [<a href="papers/aaai20_1.pdf">pdf</a>]</p></li>
+				<li><p>Yingjie Li and <a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>. "Multi-Task Stance Detection with Sentiment and Stance Lexicons." In: Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP 2019</b>), Hong Kong, 2019.
+				<li><p><a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>, Ana Sabina Uban, and Liviu P. Dinu. "The Myth of Double-Blind Review Revisited: ACL vs. EMNLP." In: Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP 2019</b>), Hong Kong, 2019.
+				<li><p>Ashwini Tonge and <a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>. "Dynamic Deep Multi-modal Fusion for Image Privacy Prediction." In: Proceedings of The Web Conference (<b>WWW 2019</b>), San Francisco, California, USA, 2019. <!--[<a href="papers/www19_1.pdf">pdf</a>]--><!--[To appear]</p></li>-->
+				<li><p>Rabah Al-Zaidy, <a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>, and C. Lee Giles. "Bi-LSTM-CRF Sequence Labeling for Keyphrase Extraction from Scholarly Documents." In: Proceedings of The Web Conference (<b>WWW 2019</b>), San Francisco, California, USA, 2019. <!--[<a href="papers/www19_3.pdf">pdf</a>]--><!--[To appear]</p></li>-->
+				<li><p>Jishnu Ray Chowdhury, <a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>, and Doina Caragea. "Keyphrase Extraction from Disaster-related Tweets." In: Proceedings of The Web Conference (<b>WWW 2019</b>), San Francisco, California, USA, 2019. <!--[<a href="papers/www19_3.pdf">pdf</a>]--><!--[To appear]</p></li>-->
+    			<li><p><a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>, Liviu P. Dinu, and Bogdan Dumitru. "Exploring Optimism and Pessimism in Twitter Using Deep Learning." In: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP 2018</b>), Brussels, Belgium, 2018. [<a href="papers/emnlp18_op.pdf">pdf</a>]</p></li>
+				<li><p>Hamed Khanpour and <a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>. "Fine-Grained Emotion Detection in Health-Related Online Posts." In: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP 2018</b>), Brussels, Belgium, 2018. [<a href="papers/emnlp18_emo.pdf">pdf</a>]</p></li>
+				<li><p>Hamed Khanpour and <a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>. "Fine-Grained Information Identification in Health Related Posts." In: Proceedings of the 41st International ACM SIGIR Conference on Research and Development in Information Retrieval (<b>SIGIR 2018</b>), Ann Arbor, Michigan, USA, 2018. [<a href="papers/sigir18.pdf">pdf</a>]</p></li>
+				<li><p>Corina Florescu and <a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>. "PositionRank: An Unsupervised Approach to Keyphrase Extraction from Scholarly Documents." In: Proceedings of the Annual Meeting of the Association for Computational Linguistics (<b>ACL 2017</b>), Vancouver, Canada, 2017. [<a href="papers/acl17.pdf">pdf</a>]</p></li>
+				<li><p>Lucas Sterckx, <a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>, Thomas Demeester, and Chris Develder. "Supervised Keyphrase Extraction as Positive Unlabeled Learning." In: Proceedings of the Conference on Empirical Methods in Natural Language Processing (<b>EMNLP 2016</b>), Austin, Texas, USA, 2016. [<a href="papers/emnlp16.pdf">pdf</a>]</p></li>
+				<li><p>Ashwini Tonge and <a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>. "Image Privacy Prediction Using Deep Features." In: Proceedings of the 30th American Association for Artificial Intelligence (<b>AAAI 2016</b>), Student Abstract and Poster Program, Phoenix, Arizona, USA, 2016. [<a href="posters/aaai16.pdf">pdf</a>]</p></li>
+				<li><p><a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>, Florin Bulgarov, and Rada Mihalcea. "Co-Training for Topic Classification of Scholarly Data." In: Proceedings of the Conference on Empirical Methods in Natural Language Processing (<b>EMNLP 2015</b>), Lisbon, Portugal, 2015. [<a href="papers/emnlp15.pdf">pdf</a>] [<a href="papers/emnlp15_slides.pdf">slides</a>]</p></li>
+    			<li><p>Sujatha Das Gollapalli and <a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>. "Extracting Keyphrases from Research Papers using Citation Networks." In: Proceedings of the 28th American Association for Artificial Intelligence (<b>AAAI 2014</b>), Quebec City, Quebec, Canada, 2014. Full Oral Presentation. [<a href="papers/aaai14.pdf">pdf</a>][<a href="slides/aaai14.pdf">slides</a>]</p>
+			</li>
+			<li>
+	  	  <p><a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>, Florin Bulgarov, Andreea Godea, and Sujatha Das Gollapalli. "Citation-Enhanced Keyphrase Extraction from Research Papers: A Supervised Approach." In: Proceedings of the Conference on Empirical Methods in Natural Language Processing (<b>EMNLP 2014</b>), Doha, Qatar, 2014. [<a href="papers/emnlp14.pdf">pdf</a>]</p>
+		  </li>
+		  <!--<li>
+	  	  <p>Prakhar Biyani, <a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>, Prasenjit Mitra, and John Yen. "Identifying Emotional and Informational Support in Online Health Communities." In: Proceedings of the 25th International Conference on Computational Linguistics (<b>Coling 2014</b>), Dublin, Ireland, 2014. [<a href="papers/coling14.pdf">pdf</a>]</p>
+		  </li>-->
+		  <li>
+	  	  <p><a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>, Jian Wu, Alina Ciobanu, Kyle Williams, Juan Fernandez-Ramirez, Hung-Hsuan Chen, Zhaohui Wu, and C. Lee Giles. “CiteSeerX: A Scholarly Big Dataset.” In: Proceedings of the 36th European Conference on Information Retrieval (<b>ECIR 2014</b>), Amsterdam, Netherlands, 2014. [<a href="papers/ecir14.pdf">pdf</a>] [<a href="slides/ecir14.pdf">slides</a>] [<a href="https://www.cs.uic.edu/~cornelia/citeseer">link to project website</a>]
+		  </li>
+		  <li>
+	  	  <p>Sujatha Das Gollapalli, <a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>,  Prasenjit Mitra, and C. Lee Giles. "Researcher Homepage Classification using Unlabeled Data." In: Proceedings of the 22nd International World Wide Web Conference (<b>WWW 2013</b>), Rio de Janeiro, Brazil, 2013.
+	  	  [<a href="papers/www13.pdf">pdf</a>]</p>
+		  </li>
+		  <!--<li>
+	  	  <p>Prakhar Biyani, Sumit Bhatia, <a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>, and Prasenjit Mitra. "Thread Specific Features Are Helpful For Identifying Subjectivity Orientation of Online Forum Threads." In: Proceedings of the 24th International Conference on Computational Linguistics (<b>Coling 2012</b>), Mumbai, India, 2012. 
+	  	  [<a href="papers/coling12.pdf">pdf</a>]</p>
+		  </li>-->
+		  <li>
+	  	  <!--<p>Wenyi Huang, Saurabh Kataria, <a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>, Prasenjit Mitra, C. Lee Giles, Lior Rokach, "Recommending Citations: Translating Papers into References." In: Proceedings of the 21st ACM International Conference on Information and Knowledge Management (<b>CIKM 2012</b>), Maui, Hawaii, 2012. [<a href="papers/cikm12wh.pdf">pdf</a>] </p>-->
+	  	  <p><a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>,
+	  	  Adrian Silvescu, and Prasenjit Mitra. "Combining Hashing and Abstraction in Sparse High Dimensional Feature Spaces." In: Proceedings of the American Association for Artificial Intelligence (<b>AAAI 2012</b>), Toronto, Ontario, Canada, 2012. 
+	  	  [<a href="papers/aaai12.pdf">pdf</a>]</p>
+		  </li>
+		  <!--<li> <p>Saurabh Kataria, Prasenjit Mitra, <a href="https://www.cs.uic.edu/~cornelia/">
+	  	  Cornelia Caragea</a>, and C. Lee Giles. "Context Sensitive Topic Models for Author 
+	  	  Influence in Document Networks." In: Proceedings of the 22nd International
+	  	  Joint Conference on Artificial Intelligence (<b>IJCAI 2011</b>), Barcelona, Spain, 2011. 
+	  	  [<a href="papers/ijcai11.pdf">pdf</a>]</p> </li>-->
+	  	  <!--<p>Sujatha Das, C. Lee Giles, Prasenjit Mitra, and 
+	  	  <a href="https://www.cs.uic.edu/~cornelia/">Cornelia Caragea</a>. 
+	  	  "On Identifying Academic Homepages for Digital Libraries." 
+	  	  In: Proceedings of the ACM/IEEE Joint Conference on Digital 
+	  	  Libraries (<b>JCDL 2011</b>), Ottawa, Canada, 2011. [<a href="papers/jcdl11.pdf">pdf</a>]</p>-->
+			</ul>
+      </div>
+	  
+
+
+	  
+    </div>
+    <div id="footer">
+      <a href="#">cornelia [[at]] uic.edu</a> | <a href="http://validator.w3.org/check?uri=referer">XHTML 1.1</a> | <a href="http://jigsaw.w3.org/css-valdator/check/referer">CSS</a>
+    </div>
   </div>
-</div>
-<![endif]-->
-<div class="browser-stripe u-dark-region ie10">
-  <div class="l-full">
-      <h2>This page is taking too long to load.</h2>
-      <p>Try refreshing the page, or you may need to update your browser. We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
-  </div>
-</div>
-                
-<div class="l-header">
-
-    <div class="eyebrow-mobile-wrapper js-eyebrow-mobile">
-  <div class="eyebrow-mobile">
-    <a href="http://uic.edu" class="icon-uic-logo eyebrow-logo">UIC.edu Home</a>
-    <div class="site-title-eyebrow-mobile">
-      <a href="/">University Library</a>
-    </div>
-    <button class="search-toggle-mobile js-search-toggle-mobile">
-      <span class="icon-search-mobile">
-      Toggle Search
-      </span>
-    </button>
-    <button class="nav-header-toggle js-nav-header-toggle">
-      <span class="icon-menu">
-      Toggle Menu
-      </span>
-    </button>
-  </div>
-    <div class="search-input-container-mobile">
-      <div class="search-title">
-        Search
-        <a class="search-close search-toggle-mobile">
-<svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1.41421;"><g id="icon-close"><path id="Line" d="M2,2l18,18" style="fill:none;stroke-width:2px;stroke:#fff;"/><path id="Line1" d="M20,2l-18,18" style="fill:none;stroke-width:2px;stroke:#fff;"/></g></svg>
-        </a>
-    </div>
-      <form method="get" action="/search" role="search" aria-label="Search this site on your mobile device">
-        <input type="text" name="q" class="search-input-mobile" placeholder="Search..." tabindex="-1" aria-label="Search this site on your mobile device" disabled="">
-        <input type="submit" class="submit-button" name="search" value="Submit">
-      </form>
-    </div>
-</div>
-
-    <a href="http://uic.edu" class="icon-uic-logo header-logo">UIC.edu Home</a>
-
-    <div class="l-full">
-        <div class="site-title-main -large">
-            <a href="/">University Library</a>
-        </div>
-        <nav class="header-menus js-header-menus" role="navigation">
-
-  <div id="skip" class="skip-menu assistive-text">
-  <p>
-    Skip to
-    <a class="_main" href="#main">the content of this page</a>,
-    <a class="_primary-menu" href="#menu-main">the main menu</a>,
-        <a class="_secondary-menu" href="#menu-secondary">the secondary menu</a>,
-        <a class="_search" href="#search">the site search form</a>
-    or go to the
-    <a class="_home" href="/">the site home page</a>.
-  </p>
-</div>
-
-  <div class="site-title-mobile-menu">
-    <a href="/">University Library</a>
-  </div>
-
-  <h2 class="assistive-text">Main Menu</h2>
-  <ul id="menu-main" class="menu menu-main" aria-label="Main menu">
-	<li class="_item ">
-		<a href="/help" target="_self">Help</a>
-    	</li>
-	<li class="_item menu-item-has-children">
-		<a href="/collections" target="_self">Collections</a>
-          <button role="button" class="expand-item js-expand-item">Expand Collections menu</button>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/collections/articles" target="_self">Articles</a>
-    </li>
-    <li class="_item ">
-    <a href="/collections/books-media" target="_self">Books &#038; Media</a>
-    </li>
-    <li class="_item menu-item-has-children">
-    <a href="/collections/digital-images" target="_self">Digital Images</a>
-        <button role="button" class="expand-item js-expand-item">Expand Digital Images menu</button>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/collections/digital-images/uic-image-collections" target="_self">UIC Image Collections</a>
-    </li>
-  </ul>
-  </li>
-    <li class="_item ">
-    <a href="/special-collections-university-archives" target="_self">Special Collections & University Archives</a>
-    </li>
-    <li class="_item ">
-    <a href="/collections/maps-gis" target="_self">Maps & GIS</a>
-    </li>
-    <li class="_item ">
-    <a href="/collections/uic-publications" target="_self">Theses, Dissertations & UIC Publications</a>
-    </li>
-  </ul>
-	</li>
-	<li class="_item menu-item-has-children current-page-ancestor">
-		<a href="/libraries" target="_self">Libraries</a>
-          <button role="button" class="expand-item js-expand-item">Expand Libraries menu</button>
-  <ul class="_child">
-    <li class="_item menu-item-has-children">
-    <a href="/libraries/daley" target="_self">Chicago-Daley</a>
-        <button role="button" class="expand-item js-expand-item">Expand Chicago-Daley menu</button>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/libraries/daley/hours" target="_self">Hours & Location</a>
-    </li>
-  </ul>
-  </li>
-    <li class="_item menu-item-has-children">
-    <a href="/libraries/lhs-chicago" target="_self">Chicago-Health Sciences</a>
-        <button role="button" class="expand-item js-expand-item">Expand Chicago-Health Sciences menu</button>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/libraries/lhs-chicago/hours" target="_self">Hours & Location</a>
-    </li>
-  </ul>
-  </li>
-    <li class="_item menu-item-has-children">
-    <a href="/libraries/lhs-peoria" target="_self">Peoria-Health Sciences</a>
-        <button role="button" class="expand-item js-expand-item">Expand Peoria-Health Sciences menu</button>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/libraries/lhs-peoria/hours" target="_self">Hours & Location</a>
-    </li>
-  </ul>
-  </li>
-    <li class="_item menu-item-has-children current-page-ancestor">
-    <a href="/libraries/lhs-rockford" target="_self">Rockford-Health Sciences</a>
-        <button role="button" class="expand-item js-expand-item">Expand Rockford-Health Sciences menu</button>
-  <ul class="_child">
-    <li class="_item current-menu-item current-page-ancestor">
-    <a href="/libraries/lhs-rockford/hours" target="_self">Hours & Location</a>
-    </li>
-  </ul>
-  </li>
-    <li class="_item menu-item-has-children">
-    <a href="/libraries/lhs-urbana" target="_self">Urbana-Health Sciences</a>
-        <button role="button" class="expand-item js-expand-item">Expand Urbana-Health Sciences menu</button>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/libraries/lhs-urbana/hours" target="_self">Hours & Location</a>
-    </li>
-  </ul>
-  </li>
-    <li class="_item ">
-    <a href="http://library.uic.edu/special-collections-university-archives" target="_self">Special Collections & University Archives</a>
-    </li>
-    <li class="_item ">
-    <a href="https://www.jmls.edu/library/" target="_self">UIC John Marshall Law School Library</a>
-    </li>
-  </ul>
-	</li>
-	<li class="_item menu-item-has-children">
-		<a href="/about" target="_self">About</a>
-          <button role="button" class="expand-item js-expand-item">Expand About menu</button>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/about/events" target="_self">Events</a>
-    </li>
-    <li class="_item ">
-    <a href="/about/news" target="_self">News</a>
-    </li>
-    <li class="_item menu-item-has-children">
-    <a href="/about/employment" target="_self">Jobs & Careers</a>
-        <button role="button" class="expand-item js-expand-item">Expand Jobs & Careers menu</button>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/about/employment/faculty-support" target="_self">Faculty Support</a>
-    </li>
-  </ul>
-  </li>
-    <li class="_item menu-item-has-children">
-    <a href="/about/directory" target="_self">People</a>
-        <button role="button" class="expand-item js-expand-item">Expand People menu</button>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/about/directory/liaisons" target="_self">Subject Librarians</a>
-    </li>
-    <li class="_item ">
-    <a href="/about/directory/faculty" target="_self">Faculty</a>
-    </li>
-    <li class="_item ">
-    <a href="/about/directory/staff" target="_self">Staff</a>
-    </li>
-    <li class="_item ">
-    <a href="/about/library-departments" target="_self">Library Departments</a>
-    </li>
-  </ul>
-  </li>
-    <li class="_item ">
-    <a href="/about/digital-scholarship" target="_self">Digital Scholarship</a>
-    </li>
-    <li class="_item menu-item-has-children">
-    <a href="/about/faculty" target="_self">Faculty</a>
-        <button role="button" class="expand-item js-expand-item">Expand Faculty menu</button>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/about/faculty/projects" target="_self">Projects and Initiatives</a>
-    </li>
-    <li class="_item ">
-    <a href="/about/faculty/teaching" target="_self">Teaching and Learning</a>
-    </li>
-  </ul>
-  </li>
-    <li class="_item menu-item-has-children">
-    <a href="/about/policies" target="_self">Library Policies</a>
-        <button role="button" class="expand-item js-expand-item">Expand Library Policies menu</button>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/about/policies/privacy-policy" target="_self">User Privacy Policy</a>
-    </li>
-    <li class="_item ">
-    <a href="/about/policies/code-of-conduct" target="_self">Code of Conduct</a>
-    </li>
-    <li class="_item ">
-    <a href="/about/policies/service-policy" target="_self">Service Policy</a>
-    </li>
-    <li class="_item menu-item-has-children">
-    <a href="/about/policies/collection-development-policy" target="_self">Collection Development Policy</a>
-        <button role="button" class="expand-item js-expand-item">Expand Collection Development Policy menu</button>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/collections/fy19-collections-changes" target="_self">FY19 Collections Changes</a>
-    </li>
-  </ul>
-  </li>
-    <li class="_item ">
-    <a href="/help/article/1901/find-out-when-items-are-due/" target="_self">Renewal and Return Policies</a>
-    </li>
-    <li class="_item ">
-    <a href="/about/policies/daley" target="_self">Daley Library Policies</a>
-    </li>
-    <li class="_item ">
-    <a href="/about/policies/classroom-reservations-policy" target="_self">Daley Library IDEA Commons Classroom Reservations</a>
-    </li>
-  </ul>
-  </li>
-    <li class="_item ">
-    <a href="/about/strategic-plan" target="_self">Strategic Plan</a>
-    </li>
-    <li class="_item menu-item-has-children">
-    <a href="/covid-19" target="_self">COVID-19 and the Library</a>
-        <button role="button" class="expand-item js-expand-item">Expand COVID-19 and the Library menu</button>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/covid-19/covid-student-support" target="_self">COVID-19 Student Support Resources</a>
-    </li>
-  </ul>
-  </li>
-  </ul>
-	</li>
-	<li class="_item menu-item-has-children">
-		<a href="/special-collections-university-archives" target="_self">Special Collections & University Archives</a>
-          <button role="button" class="expand-item js-expand-item">Expand Special Collections & University Archives menu</button>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/about-special-collections-university-archives" target="_self">About Special Collections & University Archives</a>
-    </li>
-    <li class="_item ">
-    <a href="/finding-aids" target="_self">Finding Aids</a>
-    </li>
-    <li class="_item ">
-    <a href="/rare-books" target="_self">Rare Books</a>
-    </li>
-    <li class="_item ">
-    <a href="http://library.uic.edu/collections/maps-gis" target="_self">Maps & GIS</a>
-    </li>
-    <li class="_item ">
-    <a href="http://library.uic.edu/collections/digital-images" target="_self">Digital Images</a>
-    </li>
-    <li class="_item ">
-    <a href="http://library.uic.edu/help/search?q=&t%5B%5D=29" target="_self">Using Special Collections & University Archives</a>
-    </li>
-    <li class="_item ">
-    <a href="http://researchguides.uic.edu/subject/special-collections-archives" target="_self">Special Collections Research Guides</a>
-    </li>
-  </ul>
-	</li>
-</ul>
-
-  <div class="l-eyebrow">
-
-    <h2 class="assistive-text">Eyebrow menu</h2>
-    <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
-	<li class="_item ">
-		<a href="/contact" target="_self">Contact Us</a>
-    	</li>
-	<li class="_item ">
-		<a href="/accounts" target="_self">My Accounts</a>
-    	</li>
-	<li class="_item ">
-		<a href="/donate" target="_self">Give to the Library</a>
-    	</li>
-	<li class="_item ">
-		<a href="/covid-19" target="_self">COVID-19</a>
-    	</li>
-</ul>
-
-    <h2 class="assistive-text">UIC menu</h2>
-    <ul class="menu-uic">
-  <li class="_item">
-    <a href="http://uic.edu">UIC.edu</a>
-  </li>
-  <li class="_item">
-    <a href="http://maps.uic.edu/">Campus Map</a>
-  </li>
-  <li class="_item">
-    <a href="http://today.uic.edu/">UIC Today</a>
-  </li>
-</ul>
-
-    <button id="header-search" class="search-toggle">
-      <span class="icon-search">
-      Toggle Search
-      </span>
-    </button>
-
-    <div class="search-input-container">
-      <form method="get" action="/search" role="search" aria-label="Search this site">
-        <input type="text" name="q" class="search-input" placeholder="Search..." tabindex="-1" aria-label="Search" disabled="">
-        <input type="submit" class="submit-button" name="search" value="Submit">
-      </form>
-    </div>
-
-  </div>
-
-
-</nav>
-    </div>
-
-    
-            <a href="#menu-secondary" class="menu-secondary-anchor">View Menu</a>
-    
-</div>
-                    </header>
-
-                <main id="main" class="page__main">
-            
-    <div class="layout library-hours-layout">
-    <div class="layout__main">
-        
-        <nav class="breadcrumbs" aria-label="Breadcrumbs">
-        <h2 class="breadcrumbs__header">Breadcrumbs</h2>
-        <ol>
-                                                <li class="breadcrumbs__list-item">
-                        <a class="breadcrumb breadcrumb--home" href="/">Home</a>
-                    </li>
-                                                                <li class="breadcrumbs__list-item">
-                        <a class="breadcrumb " href="/libraries">Libraries</a>
-                    </li>
-                                                                <li class="breadcrumbs__list-item">
-                        <a class="breadcrumb " href="/libraries/lhs-rockford">Rockford-Health Sciences</a>
-                    </li>
-                                                                <li class="breadcrumbs__list-item">
-                        <a href="/libraries/lhs-rockford/hours"><span class="breadcrumb breadcrumb--here">Hours & Location</span></a>
-                    </li>
-                                    </ol>
-    </nav>
-
-    <h1 class="page-title">Crawford Library of the Health Sciences-Rockford</h1>
-    <script type="application/json" id="initialData">{"has_desc":true,"weekly_hours":[{"lid":1988,"name":"Crawford Library of the Health Sciences - Rockford","desc":"Library buildings currently closed.&nbsp; <b><a href=\"https:\/\/library.uic.edu\/contact\">Online help is&nbsp;available<\/a>.<\/b>","weeks":[[{"date":"2020-04-26","hours":"Closed","is_closed":true},{"date":"2020-04-27","hours":"Closed","is_closed":true},{"date":"2020-04-28","hours":"Closed","is_closed":true},{"date":"2020-04-29","hours":"Closed","is_closed":true},{"date":"2020-04-30","hours":"Closed","is_closed":true},{"date":"2020-05-01","hours":"To be determined","is_closed":false},{"date":"2020-05-02","hours":"To be determined","is_closed":false}],[{"date":"2020-05-03","hours":"To be determined","is_closed":false},{"date":"2020-05-04","hours":"To be determined","is_closed":false},{"date":"2020-05-05","hours":"To be determined","is_closed":false},{"date":"2020-05-06","hours":"To be determined","is_closed":false},{"date":"2020-05-07","hours":"To be determined","is_closed":false},{"date":"2020-05-08","hours":"To be determined","is_closed":false},{"date":"2020-05-09","hours":"To be determined","is_closed":false}],[{"date":"2020-05-10","hours":"To be determined","is_closed":false},{"date":"2020-05-11","hours":"To be determined","is_closed":false},{"date":"2020-05-12","hours":"To be determined","is_closed":false},{"date":"2020-05-13","hours":"To be determined","is_closed":false},{"date":"2020-05-14","hours":"To be determined","is_closed":false},{"date":"2020-05-15","hours":"To be determined","is_closed":false},{"date":"2020-05-16","hours":"To be determined","is_closed":false}],[{"date":"2020-05-17","hours":"To be determined","is_closed":false},{"date":"2020-05-18","hours":"To be determined","is_closed":false},{"date":"2020-05-19","hours":"To be determined","is_closed":false},{"date":"2020-05-20","hours":"To be determined","is_closed":false},{"date":"2020-05-21","hours":"To be determined","is_closed":false},{"date":"2020-05-22","hours":"To be determined","is_closed":false},{"date":"2020-05-23","hours":"To be determined","is_closed":false}],[{"date":"2020-05-24","hours":"To be determined","is_closed":false},{"date":"2020-05-25","hours":"To be determined","is_closed":false},{"date":"2020-05-26","hours":"To be determined","is_closed":false},{"date":"2020-05-27","hours":"To be determined","is_closed":false},{"date":"2020-05-28","hours":"To be determined","is_closed":false},{"date":"2020-05-29","hours":"To be determined","is_closed":false},{"date":"2020-05-30","hours":"To be determined","is_closed":false}],[{"date":"2020-05-31","hours":"To be determined","is_closed":false},{"date":"2020-06-01","hours":"To be determined","is_closed":false},{"date":"2020-06-02","hours":"","is_closed":false},{"date":"2020-06-03","hours":"","is_closed":false},{"date":"2020-06-04","hours":"","is_closed":false},{"date":"2020-06-05","hours":"","is_closed":false},{"date":"2020-06-06","hours":"","is_closed":false}],[{"date":"2020-06-07","hours":"","is_closed":false},{"date":"2020-06-08","hours":"","is_closed":false},{"date":"2020-06-09","hours":"","is_closed":false},{"date":"2020-06-10","hours":"","is_closed":false},{"date":"2020-06-11","hours":"","is_closed":false},{"date":"2020-06-12","hours":"","is_closed":false},{"date":"2020-06-13","hours":"","is_closed":false}],[{"date":"2020-06-14","hours":"","is_closed":false},{"date":"2020-06-15","hours":"","is_closed":false},{"date":"2020-06-16","hours":"","is_closed":false},{"date":"2020-06-17","hours":"","is_closed":false},{"date":"2020-06-18","hours":"","is_closed":false},{"date":"2020-06-19","hours":"","is_closed":false},{"date":"2020-06-20","hours":"","is_closed":false}],[{"date":"2020-06-21","hours":"","is_closed":false},{"date":"2020-06-22","hours":"","is_closed":false},{"date":"2020-06-23","hours":"","is_closed":false},{"date":"2020-06-24","hours":"","is_closed":false},{"date":"2020-06-25","hours":"","is_closed":false},{"date":"2020-06-26","hours":"","is_closed":false},{"date":"2020-06-27","hours":"","is_closed":false}],[{"date":"2020-06-28","hours":"","is_closed":false},{"date":"2020-06-29","hours":"","is_closed":false},{"date":"2020-06-30","hours":"","is_closed":false},{"date":"2020-07-01","hours":"","is_closed":false},{"date":"2020-07-02","hours":"","is_closed":false},{"date":"2020-07-03","hours":"","is_closed":false},{"date":"2020-07-04","hours":"","is_closed":false}],[{"date":"2020-07-05","hours":"","is_closed":false},{"date":"2020-07-06","hours":"","is_closed":false},{"date":"2020-07-07","hours":"","is_closed":false},{"date":"2020-07-08","hours":"","is_closed":false},{"date":"2020-07-09","hours":"","is_closed":false},{"date":"2020-07-10","hours":"","is_closed":false},{"date":"2020-07-11","hours":"","is_closed":false}],[{"date":"2020-07-12","hours":"","is_closed":false},{"date":"2020-07-13","hours":"","is_closed":false},{"date":"2020-07-14","hours":"","is_closed":false},{"date":"2020-07-15","hours":"","is_closed":false},{"date":"2020-07-16","hours":"","is_closed":false},{"date":"2020-07-17","hours":"","is_closed":false},{"date":"2020-07-18","hours":"","is_closed":false}],[{"date":"2020-07-19","hours":"","is_closed":false},{"date":"2020-07-20","hours":"","is_closed":false},{"date":"2020-07-21","hours":"","is_closed":false},{"date":"2020-07-22","hours":"","is_closed":false},{"date":"2020-07-23","hours":"","is_closed":false},{"date":"2020-07-24","hours":"","is_closed":false},{"date":"2020-07-25","hours":"","is_closed":false}],[{"date":"2020-07-26","hours":"","is_closed":false},{"date":"2020-07-27","hours":"","is_closed":false},{"date":"2020-07-28","hours":"","is_closed":false},{"date":"2020-07-29","hours":"","is_closed":false},{"date":"2020-07-30","hours":"","is_closed":false},{"date":"2020-07-31","hours":"","is_closed":false},{"date":"2020-08-01","hours":"","is_closed":false}],[{"date":"2020-08-02","hours":"","is_closed":false},{"date":"2020-08-03","hours":"","is_closed":false},{"date":"2020-08-04","hours":"","is_closed":false},{"date":"2020-08-05","hours":"","is_closed":false},{"date":"2020-08-06","hours":"","is_closed":false},{"date":"2020-08-07","hours":"","is_closed":false},{"date":"2020-08-08","hours":"","is_closed":false}],[{"date":"2020-08-09","hours":"","is_closed":false},{"date":"2020-08-10","hours":"","is_closed":false},{"date":"2020-08-11","hours":"","is_closed":false},{"date":"2020-08-12","hours":"","is_closed":false},{"date":"2020-08-13","hours":"","is_closed":false},{"date":"2020-08-14","hours":"","is_closed":false},{"date":"2020-08-15","hours":"","is_closed":false}]]},{"lid":12580,"name":"Online Chat","desc":"Library buildings currently closed.&nbsp; <b><a href=\"https:\/\/library.uic.edu\/contact\">Online help is&nbsp;available<\/a>.<\/b>","weeks":[[{"date":"2020-04-26","hours":"Closed","is_closed":true},{"date":"2020-04-27","hours":"7:30am - 1am","is_closed":false},{"date":"2020-04-28","hours":"7:30am - 1am","is_closed":false},{"date":"2020-04-29","hours":"7:30am - 1am","is_closed":false},{"date":"2020-04-30","hours":"7:30am - 1am","is_closed":false},{"date":"2020-05-01","hours":"To be determined","is_closed":false},{"date":"2020-05-02","hours":"To be determined","is_closed":false}],[{"date":"2020-05-03","hours":"To be determined","is_closed":false},{"date":"2020-05-04","hours":"To be determined","is_closed":false},{"date":"2020-05-05","hours":"To be determined","is_closed":false},{"date":"2020-05-06","hours":"To be determined","is_closed":false},{"date":"2020-05-07","hours":"To be determined","is_closed":false},{"date":"2020-05-08","hours":"To be determined","is_closed":false},{"date":"2020-05-09","hours":"To be determined","is_closed":false}],[{"date":"2020-05-10","hours":"To be determined","is_closed":false},{"date":"2020-05-11","hours":"To be determined","is_closed":false},{"date":"2020-05-12","hours":"To be determined","is_closed":false},{"date":"2020-05-13","hours":"To be determined","is_closed":false},{"date":"2020-05-14","hours":"To be determined","is_closed":false},{"date":"2020-05-15","hours":"To be determined","is_closed":false},{"date":"2020-05-16","hours":"To be determined","is_closed":false}],[{"date":"2020-05-17","hours":"To be determined","is_closed":false},{"date":"2020-05-18","hours":"To be determined","is_closed":false},{"date":"2020-05-19","hours":"To be determined","is_closed":false},{"date":"2020-05-20","hours":"To be determined","is_closed":false},{"date":"2020-05-21","hours":"To be determined","is_closed":false},{"date":"2020-05-22","hours":"To be determined","is_closed":false},{"date":"2020-05-23","hours":"To be determined","is_closed":false}],[{"date":"2020-05-24","hours":"To be determined","is_closed":false},{"date":"2020-05-25","hours":"To be determined","is_closed":false},{"date":"2020-05-26","hours":"To be determined","is_closed":false},{"date":"2020-05-27","hours":"To be determined","is_closed":false},{"date":"2020-05-28","hours":"To be determined","is_closed":false},{"date":"2020-05-29","hours":"To be determined","is_closed":false},{"date":"2020-05-30","hours":"To be determined","is_closed":false}],[{"date":"2020-05-31","hours":"To be determined","is_closed":false},{"date":"2020-06-01","hours":"To be determined","is_closed":false},{"date":"2020-06-02","hours":"","is_closed":false},{"date":"2020-06-03","hours":"","is_closed":false},{"date":"2020-06-04","hours":"","is_closed":false},{"date":"2020-06-05","hours":"","is_closed":false},{"date":"2020-06-06","hours":"","is_closed":false}],[{"date":"2020-06-07","hours":"","is_closed":false},{"date":"2020-06-08","hours":"","is_closed":false},{"date":"2020-06-09","hours":"","is_closed":false},{"date":"2020-06-10","hours":"","is_closed":false},{"date":"2020-06-11","hours":"","is_closed":false},{"date":"2020-06-12","hours":"","is_closed":false},{"date":"2020-06-13","hours":"","is_closed":false}],[{"date":"2020-06-14","hours":"","is_closed":false},{"date":"2020-06-15","hours":"","is_closed":false},{"date":"2020-06-16","hours":"","is_closed":false},{"date":"2020-06-17","hours":"","is_closed":false},{"date":"2020-06-18","hours":"","is_closed":false},{"date":"2020-06-19","hours":"","is_closed":false},{"date":"2020-06-20","hours":"","is_closed":false}],[{"date":"2020-06-21","hours":"","is_closed":false},{"date":"2020-06-22","hours":"","is_closed":false},{"date":"2020-06-23","hours":"","is_closed":false},{"date":"2020-06-24","hours":"","is_closed":false},{"date":"2020-06-25","hours":"","is_closed":false},{"date":"2020-06-26","hours":"","is_closed":false},{"date":"2020-06-27","hours":"","is_closed":false}],[{"date":"2020-06-28","hours":"","is_closed":false},{"date":"2020-06-29","hours":"","is_closed":false},{"date":"2020-06-30","hours":"","is_closed":false},{"date":"2020-07-01","hours":"","is_closed":false},{"date":"2020-07-02","hours":"","is_closed":false},{"date":"2020-07-03","hours":"","is_closed":false},{"date":"2020-07-04","hours":"","is_closed":false}],[{"date":"2020-07-05","hours":"","is_closed":false},{"date":"2020-07-06","hours":"","is_closed":false},{"date":"2020-07-07","hours":"","is_closed":false},{"date":"2020-07-08","hours":"","is_closed":false},{"date":"2020-07-09","hours":"","is_closed":false},{"date":"2020-07-10","hours":"","is_closed":false},{"date":"2020-07-11","hours":"","is_closed":false}],[{"date":"2020-07-12","hours":"","is_closed":false},{"date":"2020-07-13","hours":"","is_closed":false},{"date":"2020-07-14","hours":"","is_closed":false},{"date":"2020-07-15","hours":"","is_closed":false},{"date":"2020-07-16","hours":"","is_closed":false},{"date":"2020-07-17","hours":"","is_closed":false},{"date":"2020-07-18","hours":"","is_closed":false}],[{"date":"2020-07-19","hours":"","is_closed":false},{"date":"2020-07-20","hours":"","is_closed":false},{"date":"2020-07-21","hours":"","is_closed":false},{"date":"2020-07-22","hours":"","is_closed":false},{"date":"2020-07-23","hours":"","is_closed":false},{"date":"2020-07-24","hours":"","is_closed":false},{"date":"2020-07-25","hours":"","is_closed":false}],[{"date":"2020-07-26","hours":"","is_closed":false},{"date":"2020-07-27","hours":"","is_closed":false},{"date":"2020-07-28","hours":"","is_closed":false},{"date":"2020-07-29","hours":"","is_closed":false},{"date":"2020-07-30","hours":"","is_closed":false},{"date":"2020-07-31","hours":"","is_closed":false},{"date":"2020-08-01","hours":"","is_closed":false}],[{"date":"2020-08-02","hours":"","is_closed":false},{"date":"2020-08-03","hours":"","is_closed":false},{"date":"2020-08-04","hours":"","is_closed":false},{"date":"2020-08-05","hours":"","is_closed":false},{"date":"2020-08-06","hours":"","is_closed":false},{"date":"2020-08-07","hours":"","is_closed":false},{"date":"2020-08-08","hours":"","is_closed":false}],[{"date":"2020-08-09","hours":"","is_closed":false},{"date":"2020-08-10","hours":"","is_closed":false},{"date":"2020-08-11","hours":"","is_closed":false},{"date":"2020-08-12","hours":"","is_closed":false},{"date":"2020-08-13","hours":"","is_closed":false},{"date":"2020-08-14","hours":"","is_closed":false},{"date":"2020-08-15","hours":"","is_closed":false}]]}]}</script>
-    <div id="hours"></div>
-
-    <script src="/dist/vendor.js?version=1"></script>
-    <script src="/dist/hours.js?version=1" async></script>
-
-    
-    
-    <section class="location-contact-block" aria-label="Contact Crawford Library of the Health Sciences-Rockford">
-
-    <div class="highlight component-highlight-contact">
-        <div class="_image">
-            <a href="https://maps.google.com/maps?q=1601%20Parkview%20Ave.%0A%20Rockford%20IL">
-    <img src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyBbEbxlD-SkiCV-qagosjsMaL0MyCtVYBU&center=1601%20Parkview%20Ave.%0A%20Rockford%20IL&zoom=15&size=400x400&markers=color:0xd50032%7C1601%20Parkview%20Ave.%0A%20Rockford%20IL" alt="Map of 1601&#x20;Parkview&#x20;Ave.&#x0A;&#x20;Rockford&#x20;IL">
-</a>
-        </div>
-        <div class="_content u-dark-region">
-            <div class="highlight-contact">
-                <h2 class="_title">Crawford Library of the Health Sciences-Rockford</h2>
-
-                                    <div class="_address">
-                        <span class="_address"><p>1601 Parkview Ave.</p>
-</span>
-                        <span class="_city">Rockford,</span>
-                        <span class="_state">IL</span>
-                        <span class="_zipcode">61107</span>
-                    </div>
-                
-                                    <div class="_contactinfo">
-                                                    <div class="_phone">
-                                <strong>Phone: </strong>(815) 395-5650
-                            </div>
-                                            </div>
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-    
-
-    </div>
-    <div class="layout__sidebar">
-        
-    <section aria-label="Secondary Menu" >
-    <div id="menu-secondary" class="menu-secondary">
-        <div class="_title">
-                        <h2><a href="/libraries">Libraries</a></h2>
-                        <a class="icon-circle-arrow-up" href="#main">Back to content</a>
-        </div>
-        <ul  class="menu " aria-label="Secondary menu">
-	<li class="_item menu-item-has-children">
-		<a href="/libraries/daley" target="_self">Chicago-Daley</a>
-          <span class="expand-item"></span>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/libraries/daley/hours" target="_self">Hours & Location</a>
-    </li>
-  </ul>
-	</li>
-	<li class="_item menu-item-has-children">
-		<a href="/libraries/lhs-chicago" target="_self">Chicago-Health Sciences</a>
-          <span class="expand-item"></span>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/libraries/lhs-chicago/hours" target="_self">Hours & Location</a>
-    </li>
-  </ul>
-	</li>
-	<li class="_item menu-item-has-children">
-		<a href="/libraries/lhs-peoria" target="_self">Peoria-Health Sciences</a>
-          <span class="expand-item"></span>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/libraries/lhs-peoria/hours" target="_self">Hours & Location</a>
-    </li>
-  </ul>
-	</li>
-	<li class="_item menu-item-has-children current-page-ancestor">
-		<a href="/libraries/lhs-rockford" target="_self">Rockford-Health Sciences</a>
-          <span class="expand-item"></span>
-  <ul class="_child">
-    <li class="_item current-menu-item current-page-ancestor">
-    <a href="/libraries/lhs-rockford/hours" target="_self">Hours & Location</a>
-    </li>
-  </ul>
-	</li>
-	<li class="_item menu-item-has-children">
-		<a href="/libraries/lhs-urbana" target="_self">Urbana-Health Sciences</a>
-          <span class="expand-item"></span>
-  <ul class="_child">
-    <li class="_item ">
-    <a href="/libraries/lhs-urbana/hours" target="_self">Hours & Location</a>
-    </li>
-  </ul>
-	</li>
-	<li class="_item ">
-		<a href="http://library.uic.edu/special-collections-university-archives" target="_self">Special Collections & University Archives</a>
-    	</li>
-	<li class="_item ">
-		<a href="https://www.jmls.edu/library/" target="_self">UIC John Marshall Law School Library</a>
-    	</li>
-</ul>
-    </div>
-</section>
-
-    </div>
-</div>
-
-        </main>
-        
-        <footer class="page__footer" role="contentinfo">
-                            <div class="footer uic-footer">
-
-    <section class="uic-footer__site" aria-label="Website footer, with miscellaneous site and location links">
-        <div class="uic-footer__site-container">
-            <div class="uic-footer__site-title">
-                                    <span class="wordmark" style="display: inline-block;">
-    <span class="wordmark__container">
-        <span class="wordmark__content">
-            <span class="wordmark__logo"><svg class="uic-circle-logo" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54">
-    <title>Logo for the University of Illinois at Chicago</title>
-    <rect class="uic-circle-logo__text" x="5" y="17" width="46" height="20"/>
-    <path class="uic-circle-logo__circle" d="M54,27C54,12.1,41.9,0,27,0S0,12.1,0,27s12.1,27,27,27S54,41.9,54,27z M21.8,29.4c0,2.5-0.3,3.6-1,4.8
-	c-1.2,1.9-4.3,2.7-7,2.7s-5.8-0.8-7-2.7c-0.7-1.2-1-2.4-1-4.8V19H11v10.5c-0.1,0.9,0.1,1.8,0.6,2.5c0.5,0.5,1.3,0.8,2.1,0.7
-	c0.8,0.1,1.6-0.2,2.2-0.8c0.5-0.7,0.7-1.6,0.6-2.5V19h5.3V29.4z M25,19h5.3v17.6H25V19z M49.3,23.4l-4.6,2.2
-	c-0.4-1.7-1.4-2.7-3.1-2.7c-2.2,0-3.4,1.9-3.4,4.9s1.1,4.8,3.4,4.8c1.4,0.1,2.7-0.8,3-2.2l4.8,1.7c-1.2,2.8-3.8,4.8-7.8,4.8
-	c-5.6,0-8.8-3.7-8.8-9.1s3.4-9.1,8.9-9.1C45.9,18.7,48.3,21.1,49.3,23.4L49.3,23.4z"/>
-</svg>
-</span>
-            <span class="wordmark__text">
-                <span class="wordmark__line wordmark__university">University</span>
-                <span class="wordmark__line wordmark__library">Library</span>
-            </span>
-        </span>
-    </span>
-</span>
-                            </div>
-            <div class="uic-footer__site-content-and-links">
-                <div class="uic-footer__site-content">
-                                            <section class="footer-locations"  aria-label="Library locations">
-
-    <h2 class="footer-locations__header">Locations</h2>
-
-    <ul class="footer-locations__list">
-                    <li class="footer-locations__list-item">
-                <article aria-label="Footer for location Richard J. Daley Library">
-
-    <article class="footer-location">
-        <a href="/libraries/daley">
-
-            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
-    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
-</svg>
-</div>
-
-            <h3 class="footer-location__name">Richard J. <span class="last-two-words">Daley Library</span></h3>
-
-                            <div class="footer-location__address">
-                    <div class="footer-location-address">
-    <p>801 S. Morgan</p>
-
-    <p>
-        <span class="city">Chicago</span>,
-        <span class="state">IL</span>
-        <span class="zip">60607</span>
-    </p>
-</div>
-                </div>
-            
-                            <div class="footer-location__phones">
-                                            <div class="footer-location-phone">
-    <span class="footer-location-phone__name">Circulation</span>
-    <span class="footer-location-phone__number">(312) 996-2724</span>
-</div>
-                                            <div class="footer-location-phone">
-    <span class="footer-location-phone__name">Reference</span>
-    <span class="footer-location-phone__number">(312) 996-2726</span>
-</div>
-                                            <div class="footer-location-phone">
-    <span class="footer-location-phone__name">Special Collections & University Archives</span>
-    <span class="footer-location-phone__number">(312) 996-2742</span>
-</div>
-                                            <div class="footer-location-phone">
-    <span class="footer-location-phone__name">Course Reserves</span>
-    <span class="footer-location-phone__number">(312) 996-2719</span>
-</div>
-                                    </div>
-            
-        </a>
-    </article>
-
-    <br />
-
-
-            <div class="footer-location__socialicon">
-                            <a href="https://www.facebook.com/uicdaleylibrary">
-                                           <svg width="10px" height="20px" viewBox="12 8 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M21.568676,36.4557627 L21.568676,22.1991924 L25.4569425,22.1991924 C25.4569425,22.1991924 25.8207426,19.8149587 25.9965387,17.3257356 L21.5906505,17.3257356 L21.5906505,14.0808338 C21.5906505,13.5961739 22.2230279,12.9418219 22.8456388,12.9418219 L25.856146,12.9418219 C25.8891077,12.193468 26.0551373,10.061941 26.2162837,8 L21.7115102,8 C15.6306765,8 15.7747316,12.7501554 15.7747316,13.4618852 L15.7747316,17.3440477 L12,17.3440477 L12,22.1991924 L15.7747316,22.1991924 L15.7747316,36.4557627 L21.568676,36.4557627 Z" id="Fill-1" stroke="none" fill-rule="evenodd"></path>
-</svg>                                    </a>
-                &nbsp;
-                            <a href="https://twitter.com/uiclibrary">
-                                           <svg width="10px" height="20px" viewBox="32 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M49.771,6.589 C50.624,6.077 51.28,5.267 51.588,4.302 C50.79,4.776 49.905,5.119 48.964,5.305 C48.21,4.502 47.136,4 45.947,4 C43.665,4 41.814,5.85 41.814,8.133 C41.814,8.457 41.85,8.773 41.921,9.075 C38.486,8.902 35.44,7.256 33.402,4.756 C33.046,5.367 32.843,6.076 32.843,6.834 C32.843,8.268 33.572,9.533 34.681,10.275 C34.004,10.253 33.366,10.067 32.809,9.758 L32.809,9.81 C32.809,11.812 34.233,13.483 36.124,13.862 C35.777,13.956 35.412,14.007 35.035,14.007 C34.769,14.007 34.51,13.98 34.258,13.932 C34.783,15.575 36.31,16.77 38.119,16.803 C36.704,17.912 34.922,18.572 32.985,18.572 C32.652,18.572 32.323,18.552 32,18.514 C33.829,19.687 36.001,20.372 38.335,20.372 C45.937,20.372 50.094,14.073 50.094,8.612 C50.094,8.433 50.091,8.254 50.082,8.077 C50.89,7.495 51.591,6.767 52.145,5.938 C51.404,6.266 50.607,6.488 49.771,6.589 Z" stroke="none" fill-rule="evenodd"></path>
-</svg>
-                                    </a>
-                &nbsp;
-            	    
-        </div>
-    
-</article>
-            </li>
-                    <li class="footer-locations__list-item">
-                <article aria-label="Footer for location Library of the Health Sciences-Chicago">
-
-    <article class="footer-location">
-        <a href="/libraries/lhs-chicago">
-
-            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
-    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
-</svg>
-</div>
-
-            <h3 class="footer-location__name">Library of the <span class="last-two-words">Health Sciences-Chicago</span></h3>
-
-                            <div class="footer-location__address">
-                    <div class="footer-location-address">
-    <p>1750 W. Polk St.</p>
-
-    <p>
-        <span class="city">Chicago</span>,
-        <span class="state">IL</span>
-        <span class="zip">60612</span>
-    </p>
-</div>
-                </div>
-            
-                            <div class="footer-location__phones">
-                                            <div class="footer-location-phone">
-    <span class="footer-location-phone__name">Circulation</span>
-    <span class="footer-location-phone__number">(312) 996-8966</span>
-</div>
-                                            <div class="footer-location-phone">
-    <span class="footer-location-phone__name">Reference</span>
-    <span class="footer-location-phone__number">(312) 996-9163</span>
-</div>
-                                            <div class="footer-location-phone">
-    <span class="footer-location-phone__name">Special Collections & University Archives</span>
-    <span class="footer-location-phone__number">(312) 996-8977</span>
-</div>
-                                            <div class="footer-location-phone">
-    <span class="footer-location-phone__name">Course Reserves</span>
-    <span class="footer-location-phone__number">(312) 996-8963</span>
-</div>
-                                    </div>
-            
-        </a>
-    </article>
-
-    <br />
-
-
-            <div class="footer-location__socialicon">
-                            <a href="https://www.facebook.com/LHSChicago">
-                                           <svg width="10px" height="20px" viewBox="12 8 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M21.568676,36.4557627 L21.568676,22.1991924 L25.4569425,22.1991924 C25.4569425,22.1991924 25.8207426,19.8149587 25.9965387,17.3257356 L21.5906505,17.3257356 L21.5906505,14.0808338 C21.5906505,13.5961739 22.2230279,12.9418219 22.8456388,12.9418219 L25.856146,12.9418219 C25.8891077,12.193468 26.0551373,10.061941 26.2162837,8 L21.7115102,8 C15.6306765,8 15.7747316,12.7501554 15.7747316,13.4618852 L15.7747316,17.3440477 L12,17.3440477 L12,22.1991924 L15.7747316,22.1991924 L15.7747316,36.4557627 L21.568676,36.4557627 Z" id="Fill-1" stroke="none" fill-rule="evenodd"></path>
-</svg>                                    </a>
-                &nbsp;
-                            <a href="https://twitter.com/LHS_Chicago">
-                                           <svg width="10px" height="20px" viewBox="32 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M49.771,6.589 C50.624,6.077 51.28,5.267 51.588,4.302 C50.79,4.776 49.905,5.119 48.964,5.305 C48.21,4.502 47.136,4 45.947,4 C43.665,4 41.814,5.85 41.814,8.133 C41.814,8.457 41.85,8.773 41.921,9.075 C38.486,8.902 35.44,7.256 33.402,4.756 C33.046,5.367 32.843,6.076 32.843,6.834 C32.843,8.268 33.572,9.533 34.681,10.275 C34.004,10.253 33.366,10.067 32.809,9.758 L32.809,9.81 C32.809,11.812 34.233,13.483 36.124,13.862 C35.777,13.956 35.412,14.007 35.035,14.007 C34.769,14.007 34.51,13.98 34.258,13.932 C34.783,15.575 36.31,16.77 38.119,16.803 C36.704,17.912 34.922,18.572 32.985,18.572 C32.652,18.572 32.323,18.552 32,18.514 C33.829,19.687 36.001,20.372 38.335,20.372 C45.937,20.372 50.094,14.073 50.094,8.612 C50.094,8.433 50.091,8.254 50.082,8.077 C50.89,7.495 51.591,6.767 52.145,5.938 C51.404,6.266 50.607,6.488 49.771,6.589 Z" stroke="none" fill-rule="evenodd"></path>
-</svg>
-                                    </a>
-                &nbsp;
-            	    
-        </div>
-    
-</article>
-            </li>
-                    <li class="footer-locations__list-item">
-                <article aria-label="Footer for location Library of the Health Sciences-Peoria">
-
-    <article class="footer-location">
-        <a href="/libraries/lhs-peoria">
-
-            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
-    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
-</svg>
-</div>
-
-            <h3 class="footer-location__name">Library of the <span class="last-two-words">Health Sciences-Peoria</span></h3>
-
-                            <div class="footer-location__address">
-                    <div class="footer-location-address">
-    <p>One Illini Drive</p>
-
-    <p>
-        <span class="city">Peoria</span>,
-        <span class="state">IL</span>
-        <span class="zip">61605</span>
-    </p>
-</div>
-                </div>
-            
-                            <div class="footer-location__phones">
-                                            <div class="footer-location-phone">
-    <span class="footer-location-phone__name">Phone</span>
-    <span class="footer-location-phone__number">(309) 671-8490</span>
-</div>
-                                    </div>
-            
-        </a>
-    </article>
-
-    <br />
-
-
-            <div class="footer-location__socialicon">
-                            <a href="https://twitter.com/uiclibrary">
-                                           <svg width="10px" height="20px" viewBox="32 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M49.771,6.589 C50.624,6.077 51.28,5.267 51.588,4.302 C50.79,4.776 49.905,5.119 48.964,5.305 C48.21,4.502 47.136,4 45.947,4 C43.665,4 41.814,5.85 41.814,8.133 C41.814,8.457 41.85,8.773 41.921,9.075 C38.486,8.902 35.44,7.256 33.402,4.756 C33.046,5.367 32.843,6.076 32.843,6.834 C32.843,8.268 33.572,9.533 34.681,10.275 C34.004,10.253 33.366,10.067 32.809,9.758 L32.809,9.81 C32.809,11.812 34.233,13.483 36.124,13.862 C35.777,13.956 35.412,14.007 35.035,14.007 C34.769,14.007 34.51,13.98 34.258,13.932 C34.783,15.575 36.31,16.77 38.119,16.803 C36.704,17.912 34.922,18.572 32.985,18.572 C32.652,18.572 32.323,18.552 32,18.514 C33.829,19.687 36.001,20.372 38.335,20.372 C45.937,20.372 50.094,14.073 50.094,8.612 C50.094,8.433 50.091,8.254 50.082,8.077 C50.89,7.495 51.591,6.767 52.145,5.938 C51.404,6.266 50.607,6.488 49.771,6.589 Z" stroke="none" fill-rule="evenodd"></path>
-</svg>
-                                    </a>
-                &nbsp;
-            	    
-        </div>
-    
-</article>
-            </li>
-                    <li class="footer-locations__list-item">
-                <article aria-label="Footer for location Crawford Library of the Health Sciences-Rockford">
-
-    <article class="footer-location">
-        <a href="/libraries/lhs-rockford">
-
-            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
-    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
-</svg>
-</div>
-
-            <h3 class="footer-location__name">Crawford Library of the <span class="last-two-words">Health Sciences-Rockford</span></h3>
-
-                            <div class="footer-location__address">
-                    <div class="footer-location-address">
-    <p>1601 Parkview Ave.</p>
-
-    <p>
-        <span class="city">Rockford</span>,
-        <span class="state">IL</span>
-        <span class="zip">61107</span>
-    </p>
-</div>
-                </div>
-            
-                            <div class="footer-location__phones">
-                                            <div class="footer-location-phone">
-    <span class="footer-location-phone__name">Phone</span>
-    <span class="footer-location-phone__number">(815) 395-5650</span>
-</div>
-                                    </div>
-            
-        </a>
-    </article>
-
-    <br />
-
-
-            <div class="footer-location__socialicon">
-                            <a href="https://www.facebook.com/CLHSRockford">
-                                           <svg width="10px" height="20px" viewBox="12 8 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M21.568676,36.4557627 L21.568676,22.1991924 L25.4569425,22.1991924 C25.4569425,22.1991924 25.8207426,19.8149587 25.9965387,17.3257356 L21.5906505,17.3257356 L21.5906505,14.0808338 C21.5906505,13.5961739 22.2230279,12.9418219 22.8456388,12.9418219 L25.856146,12.9418219 C25.8891077,12.193468 26.0551373,10.061941 26.2162837,8 L21.7115102,8 C15.6306765,8 15.7747316,12.7501554 15.7747316,13.4618852 L15.7747316,17.3440477 L12,17.3440477 L12,22.1991924 L15.7747316,22.1991924 L15.7747316,36.4557627 L21.568676,36.4557627 Z" id="Fill-1" stroke="none" fill-rule="evenodd"></path>
-</svg>                                    </a>
-                &nbsp;
-                            <a href="https://twitter.com/CrawfordLibrary">
-                                           <svg width="10px" height="20px" viewBox="32 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M49.771,6.589 C50.624,6.077 51.28,5.267 51.588,4.302 C50.79,4.776 49.905,5.119 48.964,5.305 C48.21,4.502 47.136,4 45.947,4 C43.665,4 41.814,5.85 41.814,8.133 C41.814,8.457 41.85,8.773 41.921,9.075 C38.486,8.902 35.44,7.256 33.402,4.756 C33.046,5.367 32.843,6.076 32.843,6.834 C32.843,8.268 33.572,9.533 34.681,10.275 C34.004,10.253 33.366,10.067 32.809,9.758 L32.809,9.81 C32.809,11.812 34.233,13.483 36.124,13.862 C35.777,13.956 35.412,14.007 35.035,14.007 C34.769,14.007 34.51,13.98 34.258,13.932 C34.783,15.575 36.31,16.77 38.119,16.803 C36.704,17.912 34.922,18.572 32.985,18.572 C32.652,18.572 32.323,18.552 32,18.514 C33.829,19.687 36.001,20.372 38.335,20.372 C45.937,20.372 50.094,14.073 50.094,8.612 C50.094,8.433 50.091,8.254 50.082,8.077 C50.89,7.495 51.591,6.767 52.145,5.938 C51.404,6.266 50.607,6.488 49.771,6.589 Z" stroke="none" fill-rule="evenodd"></path>
-</svg>
-                                    </a>
-                &nbsp;
-            	    
-        </div>
-    
-</article>
-            </li>
-                    <li class="footer-locations__list-item">
-                <article aria-label="Footer for location Library of the Health Sciences-Urbana">
-
-    <article class="footer-location">
-        <a href="/libraries/lhs-urbana">
-
-            <div class="footer-location__icon"><svg class="arrow-right-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
-    <path d="M1 3.9h5L3.9 1.8c-.4-.4-.4-1.1 0-1.5.4-.4 1.1-.4 1.5 0L10 5 5.4 9.7c-.2.2-.5.3-.8.3s-.5-.1-.7-.3c-.4-.4-.4-1.1 0-1.5L6.1 6H1c-.5 0-1-.4-1-1s.5-1.1 1-1.1z"/>
-</svg>
-</div>
-
-            <h3 class="footer-location__name">Library of the <span class="last-two-words">Health Sciences-Urbana</span></h3>
-
-                            <div class="footer-location__address">
-                    <div class="footer-location-address">
-    <p>470 Grainger Engineering Library Information Center,<br />
-1301 W. Springfield Ave.</p>
-
-    <p>
-        <span class="city">Urbana</span>,
-        <span class="state">IL</span>
-        <span class="zip">61801</span>
-    </p>
-</div>
-                </div>
-            
-                            <div class="footer-location__phones">
-                                            <div class="footer-location-phone">
-    <span class="footer-location-phone__name">Circulation and Reference</span>
-    <span class="footer-location-phone__number">(217) 244-2261</span>
-</div>
-                                    </div>
-            
-        </a>
-    </article>
-
-    <br />
-
-
-            <div class="footer-location__socialicon">
-                            <a href="https://www.facebook.com/pages/Library-of-the-Health-Sciences-Urbana/59707691709">
-                                           <svg width="10px" height="20px" viewBox="12 8 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M21.568676,36.4557627 L21.568676,22.1991924 L25.4569425,22.1991924 C25.4569425,22.1991924 25.8207426,19.8149587 25.9965387,17.3257356 L21.5906505,17.3257356 L21.5906505,14.0808338 C21.5906505,13.5961739 22.2230279,12.9418219 22.8456388,12.9418219 L25.856146,12.9418219 C25.8891077,12.193468 26.0551373,10.061941 26.2162837,8 L21.7115102,8 C15.6306765,8 15.7747316,12.7501554 15.7747316,13.4618852 L15.7747316,17.3440477 L12,17.3440477 L12,22.1991924 L15.7747316,22.1991924 L15.7747316,36.4557627 L21.568676,36.4557627 Z" id="Fill-1" stroke="none" fill-rule="evenodd"></path>
-</svg>                                    </a>
-                &nbsp;
-                            <a href="https://twitter.com/uiclibrary">
-                                           <svg width="10px" height="20px" viewBox="32 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M49.771,6.589 C50.624,6.077 51.28,5.267 51.588,4.302 C50.79,4.776 49.905,5.119 48.964,5.305 C48.21,4.502 47.136,4 45.947,4 C43.665,4 41.814,5.85 41.814,8.133 C41.814,8.457 41.85,8.773 41.921,9.075 C38.486,8.902 35.44,7.256 33.402,4.756 C33.046,5.367 32.843,6.076 32.843,6.834 C32.843,8.268 33.572,9.533 34.681,10.275 C34.004,10.253 33.366,10.067 32.809,9.758 L32.809,9.81 C32.809,11.812 34.233,13.483 36.124,13.862 C35.777,13.956 35.412,14.007 35.035,14.007 C34.769,14.007 34.51,13.98 34.258,13.932 C34.783,15.575 36.31,16.77 38.119,16.803 C36.704,17.912 34.922,18.572 32.985,18.572 C32.652,18.572 32.323,18.552 32,18.514 C33.829,19.687 36.001,20.372 38.335,20.372 C45.937,20.372 50.094,14.073 50.094,8.612 C50.094,8.433 50.091,8.254 50.082,8.077 C50.89,7.495 51.591,6.767 52.145,5.938 C51.404,6.266 50.607,6.488 49.771,6.589 Z" stroke="none" fill-rule="evenodd"></path>
-</svg>
-                                    </a>
-                &nbsp;
-            	    
-        </div>
-    
-</article>
-            </li>
-            </ul>
-
-</section>
-                                    </div>
-                <div class="uic-footer__site-links">
-                                            <ul class="footer-buttons">
-            <li>
-            <a class="footer-button" href="/help/article/1891/faculty-services">Faculty services</a>        </li>
-            <li>
-            <a class="footer-button" href="/help/article/1873/alumni-services">Alumni services</a>        </li>
-            <li>
-            <a class="footer-button" href="/help/article/1887/distance-student-services">Distance education user services</a>        </li>
-            <li>
-            <a class="footer-button" href="/help/article/1955/use-accessibility-services">Accessibility services</a>        </li>
-    </ul>                                                                <nav class="uic-social-navigation" aria-labelledby="social-nav-header">
-    <h2 id="social-nav-header">Social Networking</h2>
-    <ul>
-            </ul>
-</nav>
-                                    </div>
-            </div>
-        </div>
-    </section>
-
-    
-    <section class="uic-footer__university" aria-label="University links">
-
-        <section class="uic-footer-legal" aria-label="Legal, privacy, and copyright links">
-    <div class="uic-footer-legal__container">
-
-        <div class="uic-footer-legal__legal">
-            <p class="uic-footer-legal__copyright">&copy; 2020 The Board of Trustees of the University of Illinois</p>
-            <p class="uic-footer-legal__privacy-link"><a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Policy</a></p>
-            <br/>
-            <p class="uic-footer-legal__govt-docs"><a href="http://researchguides.uic.edu/gov">Federal Depository Library for U.S. Government Documents</a></p>
-            <p class="uic-footer-legal__govt-docs"><a href="http://researchguides.uic.edu/gov">GDPR</a></p>
-        </div>
-
-        <div class="uic-footer-legal__university-links">
-            <h2>Campus Links</h2>
-            <ul>
-                <li><a href="http://uillinois.edu/">University of Illinois</a></li>
-                <li><a href="http://uic.edu/">Chicago</a></li>
-                <li><a href="http://illinois.edu/">Urbana-Champaign</a></li>
-                <li><a href="http://uis.edu/">Springfield</a></li>
-            </ul>
-        </div>
-
-    <!--OneTrust Cookies Settings button start --><a class="optanon-show-settings">Cookie Settings</a><!--OneTrust Cookies Settings button end -->
-    </div>
-</section>
-
-    </section>
-    <div class="chat-widget" aria-labelledby="chat-window-title">
-    <div class="chat-widget__header">
-        <a href="#" id="chat-window-title" class="chat-widget__title">
-            Chat with a Librarian
-        </a>
-        <a href="#" class="chat-widget__close">
-            Close
-        </a>
-    </div>
-    <div class="chat-widget__embed">
-        <div class="chat-widget__embed-content">
-            <div id="libchat_a8f3cdd768831e345ca9d2f796ff5e5d"></div>
-        </div>
-    </div>
-</div></div>
-                    </footer>
-
-    </div>
-    <script src="/js/main.js"></script>
-    <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
-</body>
+</body>  
 </html>

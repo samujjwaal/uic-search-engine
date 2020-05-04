@@ -1,0 +1,511 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js  ie lt-ie9 lt-ie8 lt-ie7 gray-background fg-item-page"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js  ie lt-ie9 lt-ie8 gray-background fg-item-page"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js  ie lt-ie9 gray-background fg-item-page"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js  ie ie9 gray-background fg-item-page"> <![endif]-->
+<!--[if IE  ]>         <html class="no-js  ie gray-background fg-item-page"> <![endif]-->
+<!--[if IE]><!--> <html class="no-js  gray-background fg-item-page" lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      Human-Computer Interaction Logs
+    </title>
+    <meta name="referrer" content="origin"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="csrf_token" content="f71aa9a6-de66-4da8-a6ae-98bc5f0a4831" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public/global/favicon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public/global/favicon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public/global/favicon/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public/global/favicon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public/global/favicon/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public/global/favicon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public/global/favicon/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public/global/favicon/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public/global/favicon/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public/global/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public/global/favicon/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public/global/favicon/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public/global/favicon/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public/global/favicon/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public/global/favicon/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public/global/favicon/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public/global/favicon/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public/global/favicon/mstile-310x310.png" />
+    
+  
+  
+  
+    <meta name="DC.identifier.DOI" content="doi:10.25417/uic.11923386.v1" />
+  
+  <meta property="og:title" content="Human-Computer Interaction Logs">
+  <meta name="twitter:title" content="Human-Computer Interaction Logs">
+  <meta itemprop="name" content="Human-Computer Interaction Logs">
+
+
+  
+    <meta name="DataCite.contributor" content="Theis, Julian" />
+  
+    <meta name="DataCite.contributor" content="Darabi, Houshang" />
+  
+  <meta name="DataCite.title" content="Human-Computer Interaction Logs" />
+  <meta name="DC.type" content="dataset"/>
+  <meta name="DC.publisher" content="University of Illinois at Chicago"/>
+  <meta name="citation_online_date" content="2020/04/03" />
+  <meta name="description" content="Human-Computer Interaction Logs" />
+  <meta name="abstract" content="This dataset comprises ten human-computer interaction logs of real participants who solved a given task in a Windows environment. The participants were allowed to use the standard notepad, calculator, and file explorer. All recordings are anonymized and do not contain any private information.Simple:Each of the five log files in the folder simple contains Human-Computer Interaction recordings of a participant solving a simple task. Participants were provided 30 raw text files where each one contained data about the revenue and expenses of a single product for a given time period. In total 15 summaries were asked to be created by summarizing the data of two files and calculating the combined revenue, expenses, and profit. Complex:Each of the five log files in the folder complex contains Human-Computer Interaction recordings of a participant solving a more advanced task. In particular, participants were given a folder of text documents and were asked to create summary documents that contain the total revenue and expenses of the quarter, profit, and, where applicable, profit improvement compared to the previous quarter and the same quarter of the previous year. Each quarter’s data comprised multiple text files.The logging application that has been used is the one described inJulian Theis and Houshang Darabi. 2019. Behavioral Petri Net Mining and Automated Analysis for Human-Computer Interaction Recommendations in Multi-Application Environments. Proc. ACM Hum.-Comput. Interact. 3, EICS, Article 13 (June 2019), 16 pages. DOI: https://doi.org/10.1145/3331155Please refer to Table 1 and Table 2 of this publication regarding the structure of the log files. The first column corresponds to the timestamp in milliseconds, the second column represents the event key, and the third column contains additional event-specific information." />
+  <meta property="og:description" content="This dataset comprises ten human-computer interaction logs of real participants who solved a given task in a Windows environment. The participants were allowed to use the standard notepad, calculator, and file explorer. All recordings are anonymized and do not contain any private information.Simple:Each of the five log files in the folder simple contains Human-Computer Interaction recordings of a participant solving a simple task. Participants were provided 30 raw text files where each one contained data about the revenue and expenses of a single product for a given time period. In total 15 summaries were asked to be created by summarizing the data of two files and calculating the combined revenue, expenses, and profit. Complex:Each of the five log files in the folder complex contains Human-Computer Interaction recordings of a participant solving a more advanced task. In particular, participants were given a folder of text documents and were asked to create summary documents that contain the total revenue and expenses of the quarter, profit, and, where applicable, profit improvement compared to the previous quarter and the same quarter of the previous year. Each quarter’s data comprised multiple text files.The logging application that has been used is the one described inJulian Theis and Houshang Darabi. 2019. Behavioral Petri Net Mining and Automated Analysis for Human-Computer Interaction Recommendations in Multi-Application Environments. Proc. ACM Hum.-Comput. Interact. 3, EICS, Article 13 (June 2019), 16 pages. DOI: https://doi.org/10.1145/3331155Please refer to Table 1 and Table 2 of this publication regarding the structure of the log files. The first column corresponds to the timestamp in milliseconds, the second column represents the event key, and the third column contains additional event-specific information.">
+  <meta name="twitter:description" content="This dataset comprises ten human-computer interaction logs of real participants who solved a given task in a Windows environment. The participants were allowed to use the standard notepad, calculator, and file explorer. All recordings are anonymized and do not contain any private information.Simple:Each of the five log files in the folder simple contains Human-Computer Interaction recordings of a participant solving a simple task. Participants were provided 30 raw text files where each one contained data about the revenue and expenses of a single product for a given time period. In total 15 summaries were asked to be created by summarizing the data of two files and calculating the combined revenue, expenses, and profit. Complex:Each of the five log files in the folder complex contains Human-Computer Interaction recordings of a participant solving a more advanced task. In particular, participants were given a folder of text documents and were asked to create summary documents that contain the total revenue and expenses of the quarter, profit, and, where applicable, profit improvement compared to the previous quarter and the same quarter of the previous year. Each quarter’s data comprised multiple text files.The logging application that has been used is the one described inJulian Theis and Houshang Darabi. 2019. Behavioral Petri Net Mining and Automated Analysis for Human-Computer Interaction Recommendations in Multi-Application Environments. Proc. ACM Hum.-Comput. Interact. 3, EICS, Article 13 (June 2019), 16 pages. DOI: https://doi.org/10.1145/3331155Please refer to Table 1 and Table 2 of this publication regarding the structure of the log files. The first column corresponds to the timestamp in milliseconds, the second column represents the event key, and the third column contains additional event-specific information.">
+  <meta itemprop="description" content="This dataset comprises ten human-computer interaction logs of real participants who solved a given task in a Windows environment. The participants were allowed to use the standard notepad, calculator, and file explorer. All recordings are anonymized and do not contain any private information.Simple:Each of the five log files in the folder simple contains Human-Computer Interaction recordings of a participant solving a simple task. Participants were provided 30 raw text files where each one contained data about the revenue and expenses of a single product for a given time period. In total 15 summaries were asked to be created by summarizing the data of two files and calculating the combined revenue, expenses, and profit. Complex:Each of the five log files in the folder complex contains Human-Computer Interaction recordings of a participant solving a more advanced task. In particular, participants were given a folder of text documents and were asked to create summary documents that contain the total revenue and expenses of the quarter, profit, and, where applicable, profit improvement compared to the previous quarter and the same quarter of the previous year. Each quarter’s data comprised multiple text files.The logging application that has been used is the one described inJulian Theis and Houshang Darabi. 2019. Behavioral Petri Net Mining and Automated Analysis for Human-Computer Interaction Recommendations in Multi-Application Environments. Proc. ACM Hum.-Comput. Interact. 3, EICS, Article 13 (June 2019), 16 pages. DOI: https://doi.org/10.1145/3331155Please refer to Table 1 and Table 2 of this publication regarding the structure of the log files. The first column corresponds to the timestamp in milliseconds, the second column represents the event key, and the third column contains additional event-specific information.">
+  <meta name="google" content="notranslate" />
+  <meta property="og:url" content="https://indigo.uic.edu/articles/Human-Computer_Interaction_Logs/11923386">
+  <meta name="twitter:url" content="https://indigo.uic.edu/articles/Human-Computer_Interaction_Logs/11923386">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="figshare">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@figshare">
+
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+    
+      <link rel="stylesheet" type="text/css" href="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public/global/styles/main.css" />
+    
+    <link rel="stylesheet" type="text/css" href="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public.css" />
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    
+    
+
+  </head>
+  <body>
+    <div class="translate-reset"></div>
+    <div id="global-messenger"></div>
+    <div id="global-overlays"></div>
+    <div id="ck-banner"></div>
+    <div id="main-container">
+    
+      
+
+
+<div id="main-header">
+    <header class="domain-header" role="banner">
+        <div class="dh-wrapper">
+            <div class="dh-column dh-left">
+                <a class="dh-home-button" role="button" href=https://indigo.uic.edu/>
+                    <div class="inst-logo-component il-default">
+                        
+                            <img alt="https://s3-eu-west-1.amazonaws.com/876az-branding-figshare/uic/logo_header.png" class="il-image" src="https://s3-eu-west-1.amazonaws.com/876az-branding-figshare/uic/logo_header.png" title="https://s3-eu-west-1.amazonaws.com/876az-branding-figshare/uic/logo_header.png">
+                        
+                    </div>
+                </a>
+            </div>
+            <div class="dh-column dh-middle rd-hide-under-640">
+                
+                    <a class="normal-link dh-button dh-browse" href="https://indigo.uic.edu/browse" rel="noopener noreferrer">
+                        Browse
+                    </a>
+                
+                
+                    <form class="search-form dh-search-form" action="https://indigo.uic.edu/search">
+                        <div class="text-input-component-wrapper sf-input">
+                            <input type="search" name="q" class="text-input-component" placeholder="Search on University of Illinois at Chicago..." value="" />
+                        </div>
+                        <button class="sf-submit" type="submit" />
+                    </form>
+                
+            </div>
+            <div class="dh-column dh-right" />
+        </div>
+    </header>
+</div>
+    
+
+    
+
+    
+
+
+  
+
+<div id="app-root" data-page-type="public" data-app="item">
+  <div class="item-page">
+    <div class="loader show-content">
+      <div class="item-page">
+        <div class="global-message-queue"></div>
+        <div class="item-preview expanded">
+          <div class="figshare-viewer">
+            <div class="display"></div>
+            <div class="controls-wrapper"></div>
+          </div>
+          <div class="actions-bar-wrap">
+            <div class="actions-bar">
+              <div class="items">
+                <a class="simple-pink-button citation-button">Cite</a>
+                
+                  <a class="normal-link download-button shallow-button" href="https://indigo.uic.edu/ndownloader/files/21881838">Download</a>
+                
+                <a class="normal-link">Share</a>
+                <a class="normal-link">Embed</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item-wrap">
+          <div class="center-layout cf">
+            <div class="item-left">
+              <h2 class="title">Human-Computer Interaction Logs</h2>
+              <div class="details section">
+                <span>2020-04-03T18:45:02Z</span> (GMT)
+                <span>
+                  by
+                  <span class="authors-holder">
+                    
+                      
+  
+    
+  
+<a class="normal-link author" href="https://indigo.uic.edu/authors/Julian_Theis/8500869">
+  Julian Theis
+</a>
+                    
+                      
+  
+<a class="normal-link author" href="">
+  Houshang Darabi
+</a>
+                    </span>
+                </span>
+              </div>
+              <div class="description section"><p>This dataset comprises ten human-computer interaction logs of real participants who solved a given task in a Windows environment. The participants were allowed to use the standard notepad, calculator, and file explorer. All recordings are anonymized and do not contain any private information.</p><br><p><b>Simple</b>:</p><p>Each of the five log files in the folder <i>simple </i>contains Human-Computer Interaction recordings of a participant solving a simple task. Participants were provided 30 raw text files where each one contained data about the revenue and expenses of a single product for a given time period. In total 15 summaries were asked to be created by summarizing the data of two files and calculating the combined revenue, expenses, and profit. </p><br><p><b>Complex</b>:</p><p>Each of the five log files in the folder <i>complex </i>contains Human-Computer Interaction recordings of a participant solving a more advanced task. In particular, participants were given a folder of text documents and were asked to create summary documents that contain the total revenue and expenses of the quarter, profit, and, where applicable, profit improvement compared to the previous quarter and the same quarter of the previous year. Each quarter’s data comprised multiple text files.</p><br><p>The logging application that has been used is the one described in</p><p><i>Julian Theis and Houshang Darabi. 2019. Behavioral Petri Net Mining and Automated Analysis for Human-Computer Interaction Recommendations in Multi-Application Environments. Proc. ACM Hum.-Comput. Interact. 3, EICS, Article 13 (June 2019), 16 pages. DOI: <a href="https://doi.org/10.1145/3331155">https://doi.org/10.1145/3331155</a></i></p><br>Please refer to Table 1 and Table 2 of this publication regarding the structure of the log files. The first column corresponds to the timestamp in milliseconds, the second column represents the event key, and the third column contains additional event-specific information.</div>
+            </div>
+            <div class="item-right">
+            
+            
+              <div class="categories section">
+                <h4>Categories</h4>
+                <ul class="normal-list">
+                  
+                  <li><a class="normal-link" href="/search?q=:category: \"Software Engineering\"">Software Engineering</a></li>
+                  
+                  <li><a class="normal-link" href="/search?q=:category: \"Computer-Human Interaction\"">Computer-Human Interaction</a></li>
+                  
+                  <li><a class="normal-link" href="/search?q=:category: \"Input, Output and Data Devices\"">Input, Output and Data Devices</a></li>
+                  
+                  <li><a class="normal-link" href="/search?q=:category: \"Computer Software\"">Computer Software</a></li>
+                  
+                  <li><a class="normal-link" href="/search?q=:category: \"Data Format\"">Data Format</a></li>
+                  
+                </ul>
+              </div>
+            
+            
+              <div class="tags section">
+                <h4>Keyword(s)</h4>
+                <div>
+                 
+                  <a class="tag-wrap" href="/search?q=:keyword: Event Logs"><span class="inner-wrap">Event Logs</span></a>
+                
+                  <a class="tag-wrap" href="/search?q=:keyword: Process Mining"><span class="inner-wrap">Process Mining</span></a>
+                
+                  <a class="tag-wrap" href="/search?q=:keyword: Task Mining"><span class="inner-wrap">Task Mining</span></a>
+                
+                  <a class="tag-wrap" href="/search?q=:keyword: HCI"><span class="inner-wrap">HCI</span></a>
+                
+                  <a class="tag-wrap" href="/search?q=:keyword: Robotic Process Automation"><span class="inner-wrap">Robotic Process Automation</span></a>
+                
+                  <a class="tag-wrap" href="/search?q=:keyword: Human-Computer Interaction"><span class="inner-wrap">Human-Computer Interaction</span></a>
+                
+                </div>
+              </div>
+            
+            
+              <div class="license section">
+                <h4>License</h4>
+                <div>CC BY 4.0</div>
+              </div>
+            
+              <div class="exports-wrap section">
+                <h4>Export</h4>
+                  <div>
+                    <a class="normal-link" href="/articles/11923386/1/citations/refworks" target="_blank">RefWorks</a>
+                  </div>
+                  <div>
+                    <a class="normal-link" href="/articles/11923386/1/citations/bibtex" target="_blank">BibTeX</a></div>
+                  <div>
+                    <a class="normal-link" href="/articles/11923386/1/citations/endnote" target="_blank">Endnote</a></div><div><a class="normal-link" href="/articles/11923386/1/citations/datacite" target="_blank">DataCite</a></div><div><a class="normal-link" href="/articles/11923386/1/citations/nlm" target="_blank">NLM</a>
+                  </div>
+                  <div>
+                    <a class="normal-link" href="/articles/11923386/1/citations/dc" target="_blank">DC</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </div>
+
+    
+      <div id="footerContainer" class="footer-initial-hide">
+ <div id="showHideFooterButtonContainer">
+   <button class="footerControlButton footerControlCollapseButton">
+     <span class="footerControlButtonExpandIcon" />
+     <span class="footerControlCollapseButtonText">
+       Hide footer
+     </span>
+   </button>
+ </div>
+ <footer id="footer" role="contentinfo">
+    <div class="f-sitemap">
+      <div class="center-layout">
+        
+            <ul class="fs-links">
+              
+                
+                  
+                  
+                    <li><a target=&#34;_blank&#34; href="//researchguides.uic.edu/indigo/about">About</a></li>
+                  
+                
+                  
+                  
+                    <li><a target=&#34;_blank&#34; href="//researchguides.uic.edu/indigo/deposit">How to Deposit</a></li>
+                  
+                
+                  
+                  
+                    <li><a target=&#34;_blank&#34; href="//researchguides.uic.edu/indigo/data">Preparing Data</a></li>
+                  
+                
+                  
+                  
+                    <li><a target=&#34;_blank&#34; href="//dmptool.org/">DMP Tool</a></li>
+                  
+                
+                  
+                  
+                    <li><a target=&#34;_blank&#34; href="//researchguides.uic.edu/indigo/support">Support</a></li>
+                  
+                
+                  
+                  
+                    <li><a target=&#34;_blank&#34; href="//researchguides.uic.edu/indigo/terms">Deposit Agreement</a></li>
+                  
+                
+                  
+                  
+                    <li><a target=&#34;_blank&#34; href="//researchguides.uic.edu/indigo/terms">Terms</a></li>
+                  
+                
+                  
+                  
+                    <li><a target=&#34;_blank&#34; href="//figshare.com/tools">Tools</a></li>
+                  
+                
+                  
+                  
+                    <li><a target=&#34;_blank&#34; href="//knowledge.figshare.com/ ">FAQs</a></li>
+                  
+                
+              
+              <li><a target="_blank" href="https://figshare.com/disclaimer">Disclaimer</a></li>
+              
+                <li class="last"><a href="/sitemap/siteindex.xml">Sitemap</a></li>
+              
+            </ul>
+            
+        
+      </div>
+    </div>
+    <div class="f-informations">
+      <div class="center-layout">
+        <div class="fi-figshare">fig<strong>share</strong>. credit for <strong>all</strong> your research.</div>
+        
+
+        
+        
+        </div>
+    </div>
+  </footer>
+</div>
+
+<div id="footerContainer-hidden" style="opacity: 0;">
+ <footer id="footer-hidden">
+    <div class="f-sitemap">
+      <div class="center-layout">
+        
+            <ul class="fs-links">
+              
+                
+                  
+                  
+                    <li><a target=&#34;_blank&#34; href="//researchguides.uic.edu/indigo/about">About</a></li>
+                  
+                
+                  
+                  
+                    <li><a target=&#34;_blank&#34; href="//researchguides.uic.edu/indigo/deposit">How to Deposit</a></li>
+                  
+                
+                  
+                  
+                    <li><a target=&#34;_blank&#34; href="//researchguides.uic.edu/indigo/data">Preparing Data</a></li>
+                  
+                
+                  
+                  
+                    <li><a target=&#34;_blank&#34; href="//dmptool.org/">DMP Tool</a></li>
+                  
+                
+                  
+                  
+                    <li><a target=&#34;_blank&#34; href="//researchguides.uic.edu/indigo/support">Support</a></li>
+                  
+                
+                  
+                  
+                    <li><a target=&#34;_blank&#34; href="//researchguides.uic.edu/indigo/terms">Deposit Agreement</a></li>
+                  
+                
+                  
+                  
+                    <li><a target=&#34;_blank&#34; href="//researchguides.uic.edu/indigo/terms">Terms</a></li>
+                  
+                
+                  
+                  
+                    <li><a target=&#34;_blank&#34; href="//figshare.com/tools">Tools</a></li>
+                  
+                
+                  
+                  
+                    <li><a target=&#34;_blank&#34; href="//knowledge.figshare.com/ ">FAQs</a></li>
+                  
+                
+              
+              <li><a target="_blank" href="https://figshare.com/disclaimer">Disclaimer</a></li>
+              
+                <li class="last"><a href="/sitemap/siteindex.xml">Sitemap</a></li>
+              
+            </ul>
+            
+        
+      </div>
+    </div>
+    <div class="f-informations">
+      <div class="center-layout">
+        <div class="fi-figshare">fig<strong>share</strong>. credit for <strong>all</strong> your research.</div>
+        
+
+        
+        
+        </div>
+    </div>
+  </footer>
+  </div>
+    
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-20427479-1', 'figshare.com');
+      ga('require', 'displayfeatures');
+      ga('send', 'pageview');
+      
+          ga('create', 'UA-58839701-15', 'auto', 'clientTracker');
+          ga('clientTracker.send', 'pageview');
+      
+    </script>
+    <script type="text/javascript" src="https://jsprodlogin.figstatic.com/control_cookie"></script>
+    
+  <script id="app-data" type="text/json">{"article": {"isLastVersion": true, "linkbackCollection": null, "filesCount": 1, "supplementaryFields": [], "citation": {"text": "Theis, Julian; Darabi, Houshang (2020): Human-Computer Interaction Logs. University of Illinois at Chicago. Dataset. https://doi.org/10.25417/uic.11923386.v1", "doi": "10.25417/uic.11923386.v1", "handle": "", "publisher": "University of Illinois at Chicago"}, "confidentialReason": "", "actions": [], "mintingInfo": "doi", "virusScanInfo": {"message": "File not scanned yet", "error": false, "virus_found": false, "scan_done": false}, "references": ["https://dl.acm.org/doi/10.1145/3331155"], "citationPublicationDate": "2020/04/03", "curationStatus": null, "tags": ["Event Logs", "Process Mining", "Task Mining", "HCI", "Robotic Process Automation", "Human-Computer Interaction"], "resourceTitle": null, "id": 11923386, "size": 997800, "group": {"timelineSettings": {"enabled": [], "order": "asc"}, "parentId": 24501, "id": 24525, "name": "College of Engineering", "mintingInfo": ["doi", "self_handle"]}, "thumb": "", "title": "Human-Computer Interaction Logs", "fullKeywords": ["Event Logs", "Process Mining", "Task Mining", "HCI", "Robotic Process Automation", "Human-Computer Interaction", "Software Engineering", "Computer-Human Interaction", "Input, Output and Data Devices", "Computer Software", "Data Format"], "isConfidential": false, "version": 1, "citationOnlineDate": "2020/04/03", "isActive": true, "branding": {"url": "https://indigo.uic.edu/engineering", "logo": ""}, "customFields": [{"name": "Publisher Statement", "fieldType": "textarea", "value": null, "settings": {"validations": {"min_length": 1, "max_length": 10000}, "placeholder": "Please add the publisher statement", "triggerType": "placeholder"}}, {"name": "Citation", "fieldType": "textarea", "value": null, "settings": {"validations": {"min_length": 10, "max_length": 1000}, "placeholder": "Please add the citation", "triggerType": "placeholder"}}, {"name": "Publisher", "fieldType": "text", "value": null, "settings": {"validations": {"min_length": 1, "max_length": 250}, "placeholder": "Please add the publisher", "triggerType": "placeholder"}}, {"name": "Language", "fieldType": "dropdown", "value": ["en_US"], "settings": {"placeholder": "Please select the language", "options": ["en", "en_US", "es", "spa", "fr"], "triggerType": "placeholder"}}, {"name": "issn", "fieldType": "text", "value": null, "settings": {"validations": {"min_length": 1, "max_length": 250}, "placeholder": "Please add the issn", "triggerType": "placeholder"}}, {"name": "isbn", "fieldType": "text", "value": null, "settings": {"validations": {"min_length": 1, "max_length": 250}, "placeholder": "Please add the isbn", "triggerType": "placeholder"}}, {"name": "Issue date", "fieldType": "date", "value": "", "settings": {}}], "accountId": 2272104, "definedType": {"name": "dataset", "icon": "dataset", "id": 3, "publicDescription": "Datasets usually provide raw data for analysis. This raw data often comes in spreadsheet form, but can be any collection of data, on which analysis can be performed.", "privateDescription": "Datasets usually provide raw data for analysis. This raw data often comes in spreadsheet form, but can be any collection of data, on which analysis can be performed."}, "metadataReason": "", "publicUrl": "https://indigo.uic.edu/articles/Human-Computer_Interaction_Logs/11923386", "files": [{"MIMEType": "application/zip", "status": "available", "viewerType": "archive", "virusScanInfo": {"message": "No virus found", "error": false, "virus_found": false, "scan_done": true}, "md5": "ec57b7e9e5854f40af84dfc6212371a4", "id": 21881838, "size": 997800, "downloadUrl": "https://indigo.uic.edu/ndownloader/files/21881838", "isLinkOnly": false, "thumb": null, "coversheetGenerated": false, "coversheetEnabled": false, "name": "hci-logs.zip", "previewMeta": {"version": "1.0.0", "baseUrl": "https://indigo.uic.edu/ndownloader/files/21881838/preview", "key": "21881838/structure.json"}, "suppliedMd5": "ec57b7e9e5854f40af84dfc6212371a4", "previewState": "preview_available", "previewLocation": "https://s3-eu-west-1.amazonaws.com/ppreviews-uic-1063003817"}], "isPublic": true, "baseIdentifier": "https://doi.org/10.25417/uic.11923386", "description": "<p>This dataset comprises ten human-computer interaction logs of real participants who solved a given task in a Windows environment. The participants were allowed to use the standard notepad, calculator, and file explorer. All recordings are anonymized and do not contain any private information.</p><br><p><b>Simple</b>:</p><p>Each of the five log files in the folder <i>simple </i>contains Human-Computer Interaction recordings of a participant solving a simple task. Participants were provided 30 raw text files where each one contained data about the revenue and expenses of a single product for a given time period. In total 15 summaries were asked to be created by summarizing the data of two files and calculating the combined revenue, expenses, and profit. </p><br><p><b>Complex</b>:</p><p>Each of the five log files in the folder <i>complex </i>contains Human-Computer Interaction recordings of a participant solving a more advanced task. In particular, participants were given a folder of text documents and were asked to create summary documents that contain the total revenue and expenses of the quarter, profit, and, where applicable, profit improvement compared to the previous quarter and the same quarter of the previous year. Each quarter\u2019s data comprised multiple text files.</p><br><p>The logging application that has been used is the one described in</p><p><i>Julian Theis and Houshang Darabi. 2019. Behavioral Petri Net Mining and Automated Analysis for Human-Computer Interaction Recommendations in Multi-Application Environments. Proc. ACM Hum.-Comput. Interact. 3, EICS, Article 13 (June 2019), 16 pages. DOI: <a href=\"https://doi.org/10.1145/3331155\">https://doi.org/10.1145/3331155</a></i></p><br>Please refer to Table 1 and Table 2 of this publication regarding the structure of the log files. The first column corresponds to the timestamp in milliseconds, the second column represents the event key, and the third column contains additional event-specific information.", "publishedDate": "2020-04-03T18:45:02Z", "embargoDate": null, "timeline": {"submission": "2020-03-02T22:05:25", "onlinePublication": "2020-04-03T18:45:02", "posted": "2020-04-03T18:45:02", "revision": "2020-04-03T18:45:02"}, "exportPdfDownloadUrl": null, "authorId": null, "funding": [], "modifiedDate": "2020-04-03T18:45:06Z", "isEmbargoed": false, "authors": [{"openInNewTab": false, "firstName": "Julian", "photoUrl": "https://secure.gravatar.com/avatar/d7e2e1c2f41f6bf88340967a2683b530?s=250&d=https%3A%2F%2Fwebsite-p-eu.figstatic.com%2Fassets%2F01aa21e51a09bf99cb9b3a534dcaba1b94819002%2Fpublic%2Fprofile%2Favatar.jpg", "lastName": "Theis", "isPublic": true, "id": 8500869, "title": "", "location": "Chicago, IL", "jobTitle": "", "urlName": "Julian_Theis", "name": "Julian Theis", "email": "j*****3@uic.edu", "isActive": true, "publicUrl": "https://indigo.uic.edu/authors/Julian_Theis/8500869"}, {"openInNewTab": true, "firstName": "Houshang", "photoUrl": "https://secure.gravatar.com/avatar/3b00f639ceb4219aa6ec9f8d1b64dbd1?s=250&d=https%3A%2F%2Fwebsite-p-eu.figstatic.com%2Fassets%2F01aa21e51a09bf99cb9b3a534dcaba1b94819002%2Fpublic%2Fprofile%2Favatar.jpg", "lastName": "Darabi", "isPublic": true, "id": 8521153, "title": "", "location": "", "jobTitle": "", "urlName": "_", "email": "h*****i@uic.edu", "isActive": false, "name": "Houshang Darabi"}], "hasLinkedFile": false, "resourcePublication": null, "citationDissertationInstitution": "University of Illinois at Chicago", "categories": [{"urlName": "Software_Engineering", "parentId": 5, "id": 23, "name": "Software Engineering"}, {"urlName": "Computer_Human_Interaction", "parentId": 52, "id": 982, "name": "Computer-Human Interaction"}, {"urlName": "Input_Output_and_Data_Devices", "parentId": 1039, "id": 1081, "name": "Input, Output and Data Devices"}, {"urlName": "Computer_Software", "parentId": 52, "id": 181, "name": "Computer Software"}, {"urlName": "Data_Format", "parentId": 52, "id": 182, "name": "Data Format"}], "handle": "", "publisher": "University of Illinois at Chicago", "createdDate": "2020-04-03T18:45:02Z", "doi": "10.25417/uic.11923386.v1", "isEmbargoedPublished": false, "license": {"url": "https://creativecommons.org/licenses/by/4.0/", "logo": "https://s3-eu-west-1.amazonaws.com/staticfigassets/images/CC-BY.png", "name": "CC BY 4.0", "value": 1}, "versions": [{"coversheetsGenerated": false, "downloadUrl": "https://indigo.uic.edu/ndownloader/articles/11923386/versions/1", "date": "2020-04-03T18:45:02Z", "id": 1, "coversheetsEnabled": false}], "isMetadataRecord": false, "baseDoi": "10.25417/uic.11923386", "curationReviewDate": null, "embargoReason": "", "resourceDOI": null, "downloadUrl": "https://indigo.uic.edu/ndownloader/articles/11923386", "citationKeywords": "Event Logs;Process Mining;Task Mining;HCI;Robotic Process Automation;Human-Computer Interaction", "status": "public", "embargoType": 2}, "institution": {"googleTrackingCode": "UA-58839701-15", "stringId": "uic", "name": "University of Illinois at Chicago", "exportPdfEnabled": null}}</script>
+  <script type="text/javascript" src="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/public/index.js"></script>
+  <script type="text/javascript" src="//website-p-eu.figstatic.com/assets/01aa21e51a09bf99cb9b3a534dcaba1b94819002/vendor/altmetric/altmetric.js"></script>
+
+  <script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://indigo.uic.edu/articles/Human-Computer_Interaction_Logs/11923386",
+
+    "identifier": "https://doi.org/10.25417/uic.11923386.v1",
+
+
+    "dateCreated": "2020-04-03T18:45:02Z",
+    "datePublished": "2020-04-03T18:45:02Z",
+    "dateModified": "2020-04-03T18:45:06Z",
+    "name": "Human-Computer Interaction Logs",
+    "description": "This dataset comprises ten human-computer interaction logs of real participants who solved a given task in a Windows environment. The participants were allowed to use the standard notepad, calculator, and file explorer. All recordings are anonymized and do not contain any private information.\n\nSimple:\nEach of the five log files in the folder simple contains Human-Computer Interaction recordings of a participant solving a simple task. Participants were provided 30 raw text files where each one contained data about the revenue and expenses of a single product for a given time period. In total 15 summaries were asked to be created by summarizing the data of two files and calculating the combined revenue, expenses, and profit. \n\nComplex:\nEach of the five log files in the folder complex contains Human-Computer Interaction recordings of a participant solving a more advanced task. In particular, participants were given a folder of text documents and were asked to create summary documents that contain the total revenue and expenses of the quarter, profit, and, where applicable, profit improvement compared to the previous quarter and the same quarter of the previous year. Each quarter’s data comprised multiple text files.\n\nThe logging application that has been used is the one described in\nJulian Theis and Houshang Darabi. 2019. Behavioral Petri Net Mining and Automated Analysis for Human-Computer Interaction Recommendations in Multi-Application Environments. Proc. ACM Hum.-Comput. Interact. 3, EICS, Article 13 (June 2019), 16 pages. DOI: https://doi.org/10.1145/3331155\n\nPlease refer to Table 1 and Table 2 of this publication regarding the structure of the log files. The first column corresponds to the timestamp in milliseconds, the second column represents the event key, and the third column contains additional event-specific information.",
+    "url": "https://indigo.uic.edu/articles/Human-Computer_Interaction_Logs/11923386",
+    "discussionUrl": "https://indigo.uic.edu/articles/Human-Computer_Interaction_Logs/11923386",
+    "sameAs": "https://indigo.uic.edu/articles/Human-Computer_Interaction_Logs/11923386",
+    "version": "1",
+    "keywords": "Event Logs, Process Mining, Task Mining, HCI, Robotic Process Automation, Human-Computer Interaction, Software Engineering, Computer-Human Interaction, Input, Output and Data Devices, Computer Software, Data Format",
+    "variablesMeasured": "none",
+    "thumbnailUrl": "",
+    "publisher": {
+        "@type": "Organization",
+        "name": "University of Illinois at Chicago"
+    },
+    "creator": [
+      
+      {
+        "@type": "Person",
+        "name": "Julian Theis"
+      }
+      
+      ,{
+        "@type": "Person",
+        "name": "Houshang Darabi"
+      }
+      
+      
+    ],
+    "distribution": [
+      
+      {
+        "@type": "DataDownload",
+        "contentUrl": "https://indigo.uic.edu/ndownloader/files/21881838",
+        "encodingFormat": "application/zip",
+        "license": "https://creativecommons.org/licenses/by/4.0/"
+      }
+      
+      
+    ]
+  }</script>
+
+
+    
+      <script id="domain-data" type="text/json">
+      {"domain": "indigo.uic.edu", "domainAccountId": null, "customizations": {}, "dapTrackingCode": null, "actions": {"browse": {"url": "https://indigo.uic.edu/browse", "name": "Browse"}, "home": {"url": "https://indigo.uic.edu/", "name": "University of Illinois at Chicago"}, "search": {"url": "https://indigo.uic.edu/search", "name": "Search on University of Illinois at Chicago..."}, "login": {"url": "https://login.figshare.com/Shibboleth.sso/Login?entityID=https%3A%2F%2Fshibboleth.uic.edu%2Fshibboleth&target=https%3A%2F%2Flogin.figshare.com%2Fexternal%2Fshibboleth%2Fcallback%3Ftoken%3DIjY5MyI.5KoKoLnJ4ZTYSCd3cSKgVltANJI.EZpQ7w.djDWsNXU72avn7p6mt7wwrKjfz4", "name": "Log in"}}, "cookieTest": {"set": "https://jsprodlogin.figstatic.com/control_cookie", "get": "https://jsprodlogin.figstatic.com/get_cookie"}, "baseDomain": "figshare.com", "mandatory_author_fields": ["last_name"], "branding": {"logo": "https://s3-eu-west-1.amazonaws.com/876az-branding-figshare/uic/logo_header.png", "name": "University of Illinois at Chicago"}, "isIsolatedDomain": null, "supportEmail": "support@figshare.com", "mandatory_account_fields": []}
+      </script>
+    
+  </body>
+</html>

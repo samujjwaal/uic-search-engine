@@ -40,7 +40,7 @@
 
 
         <title>
-                            Brent Stephens receives NSF CAREER award | Department of Computer Science | University of Illinois at Chicago
+                            UIC CS students help Chicago Public School students explore computer science | Department of Computer Science | University of Illinois at Chicago
                     </title>
 
 
@@ -71,8 +71,8 @@
 <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
 <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 
-    <link rel="stylesheet" href="https://cs.uic.edu/wp-content/themes/uic-red/main.css?v=1587475706" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://cs.uic.edu/wp-content/themes/uic-red/theinhardt.css?v=1587475706" type="text/css" media="all">
+    <link rel="stylesheet" href="https://cs.uic.edu/wp-content/themes/uic-red/main.css?v=1588698688" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://cs.uic.edu/wp-content/themes/uic-red/theinhardt.css?v=1588698688" type="text/css" media="all">
 
     <link rel='dns-prefetch' href='//www.uic.edu' />
 <link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
@@ -137,7 +137,7 @@ img.emoji {
 	for (var i = 0; i < evts.length; i++) {
 		addEvent(evts[i], logHuman);
 	}
-})('//cs.uic.edu/?wordfence_lh=1&hid=163671B18E989F76DCA348F1174DD402');
+})('//cs.uic.edu/?wordfence_lh=1&hid=D61F260013B217C4442135C5029891BB');
 </script>
 </head>
       
@@ -156,7 +156,7 @@ img.emoji {
   
   
 
-  <div class="l-page news-template-default single single-news postid-3716 post-type--news  site-type-b theme--navy no-sidebar  ">
+  <div class="l-page news-template-default single single-news postid-3701 post-type--news  site-type-b theme--navy no-sidebar  ">
 
 
     <!--[if lte IE 9]>
@@ -825,13 +825,13 @@ img.emoji {
             
       <div class="intro-text">
 
-                      <h1 class="_title post-title">Brent Stephens receives NSF CAREER award</h1>
+                      <h1 class="_title post-title">UIC CS students help Chicago Public School students explore computer science</h1>
               
               <div class="post-meta">
     <div class="post-date-line">
             <span class="post-author">by Andrea Poet</span>
       <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>April 30, 2020</strong></span>
+            <span class="post-date">Posted on <strong>April 10, 2020</strong></span>
     </div>
               </div>
         
@@ -852,26 +852,41 @@ img.emoji {
   <div class="component-text-block">
   
     <div class="component-description">
-                    <h2 id="brent-stephens-receives-nsf-career-award" class="__title invisible">Brent Stephens receives NSF CAREER award</h2>
+                    <h2 id="uic-cs-students-help-chicago-public-school-students-explore-computer-science" class="__title invisible">UIC CS students help Chicago Public School students explore computer science</h2>
                     </div>
 
+    <figure class="_image captioned-image image-full">
+  <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2020/04/Jones-CS-Tse-and-Chen-1090x817.png" alt="Chen (standing, left) and Tse (standing, right) instruct students at Jones Prep">
+      <figcaption class="_byline">
+              <div class="_attribution">
+          Images courtesy of Jones Prep High School
+        </div>
+                    <div class="_caption">
+          Chen (standing, left) and Tse (standing, right) instruct students at Jones Prep
+        </div>
+          </figcaption>
+  </figure>
   
-  <p>Brent Stephens, assistant professor of computer science, has received a $500,000 National Science Foundation CAREER award. His project aims to rethink the way that distributed computing systems are implemented and deployed.</p>
-<p>The CAREER award is the National Science Foundation’s most prestigious honor in support of early-career faculty. Since arriving at UIC, Stephens has received two other grants in support of his work. He received a Google Faculty Award in 2018 and the following year received a $175,000 NSF Computer and Information Science and Engineering Research Initiation Initiative (CRII) grant.</p>
-<p>Stephens came to UIC in 2018 after working for several years as a postdoctoral researcher at the University of Wisconsin at Madison. He earned his PhD in computer science at Rice University. His work is largely at the intersection of networking, operating systems, and computer architecture.</p>
-<p>More specifically, Stephens is focused on addressing one of the biggest challenges in computing today: the need to scale application performance. Scaling application performance is key not only to support the continued growth of important existing services in computing such as search and email, but also to enable new computationally intense applications that rely on machine learning, such as self-driving cars.</p>
-<p>Unfortunately, it is no longer possible to scale application performance by improving the efficiency of a single computer. For more than 40 years, that had been the case. Transistors became ever smaller, allowing the density of transistors on each microchip to double roughly every two years. These more powerful chips increased the speed of central processing units, or CPUs—the part of a computer where most calculations take place—by 40 percent, without a corresponding increase in power consumption. Today, CPUs have reached the upper limits of those gains. According to Stephens, a single computing core within a network can generate about 35 to 40 gigabits per second (Gbps), which can also be quantified as six million packets per second—a level of performance that has not changed significantly over the past five years. By contrast, the performance of networks as a whole is continuing to increase: exponentially, in fact, to rates of 100 gigabits per second and beyond.</p>
-<p>“This means there is an ever-increasing gap in between the amount of data we can consume, process, and generate on a CPU, and the amount of data the network can carry,” Stephens explained.</p>
-<p>To address the problems created by this performance gap, Stephens is working on a few research projects that share a common theme. He is moving computation from computers attached to the network into the network itself, which can overcome the limitations of existing systems, and he’s continuing to scale application-level performance to meet the needs of existing and emerging applications.</p>
-<p>Stephens’ CAREER award proposal, titled &#8220;NIC-Accelerated Active Messaging as a Generic Replacement for RDMA,” is an extension of the work he did with his Google grant. In this project, he is rethinking the design of server-side networking with a new networking framework called Network Interface Card (NIC) Accelerated Active Messaging (NAAM).</p>
-<p>In NAAM, functions are written in a high-level language, then compiled to a bytecode, which is a simple, faster code for processing, and verified before they are executed on a network interface card. This new paradigm enables accelerating message processing and offloading of computation from the main processors, while providing a simple and expressive interface to application programmers.</p>
-<p>Stephens sees this as an improvement over Remote Direct Memory Access, or RDMA, an existing technology that allows computers in a network to exchange data in main memory without involving the processor of either computer. While RDMA is fast, it presents challenges for developers and suffers from harmful performance variations that are hard to predict.</p>
-<p>“RDMA network cards have advanced functionality, but no one is willing to use them because they are difficult to use, and the underlying network is essentially incompatible with them,” Stephens said.</p>
-<p>His first NSF grant focuses on a related area: controlling the flow of data in a network to prevent packet loss, which occurs when one or more packets of data travelling across a computer network fail to reach their destination.</p>
-<p>“As soon as your input rate is greater than your service rate, things are going to continue piling up, which is called congestion,” Stephens said. “Buffer space isn&#8217;t infinite in computers, so that&#8217;s really where packet loss comes from.”</p>
-<p>While cutting down on packet loss will help, a shift to a new networking framework can solve some of the limitations present in current hardware and improve server-utilization efficiency, Stephens believes.</p>
-<p>&#8220;Buying lots of servers and not using them all is wasteful, especially from an environmental perspective,” he said. “A lot of this push comes from extracting as much performance as we can from these servers.” He added: “It’s about creating new programming paradigms and frameworks for executing these programs as well as new approaches for handling congestion that overcome these non-starter limitations on current RDMA hardware.”</p>
-<p>For more on Stephens, visit his website at <a href="https://www.cs.uic.edu/~brents/" target="_blank" rel="noopener">https://www.cs.uic.edu/~brents/</a></p>
+  <p>UIC Computer Science students Lydia Tse and Clark Chen spent part of their spring semester at Jones College Prep, mentoring students in the school’s Exploring Computer Science classes, as part of their CS 398 undergraduate research project. The high school computer science class is a recent graduation requirement for Chicago Public School (CPS) high school students, and Tse and Chen taught cybersecurity and robotics in three sections of teacher Cindy Lilagan’s honors classes.</p>
+<p>Tse heard about the program after reading about <a href="https://cs.uic.edu/news-stories/uic-faculty-member-dale-reed-helps-bring-computer-science-to-every-chicago-public-school-student/" target="_blank" rel="noopener">Dale Reed’s involvement in bringing computer science instruction to CPS schools</a>. Reed, a clinical professor and director of undergraduate recruitment at UIC, was interested in seeing how high school students would relate to and understand more advanced computer science curriculum. Chen has served as a teaching assistant (TA) for Reed for four semesters. Tse and Chen were accepted by Lilagan and Jones Prep to teach the course.</p>
+<p>Chen said the use of robotics could teach the students cybersecurity concepts: when a student writes code, they can spoof each other’s robots, intercept and break one another’s encryption signals, and use Caesar&#8217;s cipher, one of the simplest and most widely known encryption methods, where each plain text letter is replaced by another set number or position down the alphabet.</p>
+<p>“The students knew some of this already, but we also went over how things are hacked in their social life—how advertising companies get their information online, for example,” Chen said.</p>
+<p>Upcoming lessons would involve battles between the student’s robots.</p>
+<p>With CPS classes moved online due to Covid19, the future of Tse and Chen’s involvement in the program for this semester is uncertain. They finished designing the entire curriculum, but some of the material—including the robot battles—cannot easily translate online.</p>
+<p>“Miss Lilagan said it’s possible to host a Google meetup or hangout, but some of CPS online learning is up in the air. Some students do not have access,” Tse said.</p>
+<p>For Tse, helping expose high schoolers to computer science is a passion. Tse was on the path to becoming a doctor, and holds a bachelor’s degree in biochemistry from Case Western University. After shadowing a few doctors, she had a change of heart, just before graduation.</p>
+<p>Tse discovered computer science through her younger sister, and decided to return to school for a second bachelor’s degree, after working with <a href="https://girlswhocode.com/" target="_blank" rel="noopener">Girls Who Code</a>, a nonprofit that teaches women coding and computer skills (UIC also offers a <a href="https://wiep.uic.edu/k12/gwcuic/" target="_blank" rel="noopener">Girls Who Code at UIC Club</a>). Now, Tse is working on a dual bachelor’s/master’s degree in computer science at UIC.</p>
+<p>“I’m at a crossroads right now. I’m very interested in a PhD in learning sciences intermixed with CS,” Tse said. “I’m also interning as a data engineer, which is very interesting as well.”</p>
+<p>Tse is working with Reed and PhD candidates at UIC, getting a sense for what life as a PhD student would be like. Her internship is with Synchrony Financial, where she is developing a tool for their enterprise data lake. (Both data lakes and data warehouses are widely used for storing big data, but a data lake is a large pool of raw data, whereas information held in a data warehouse is structured, and has already been processed for a specific purpose.) Tse is helping the transition to data lakes for the company. She worked previously as a summer immersion program instructor with Girls Who Code.</p>
+<p>“It is so important that students, especially high schoolers, get exposed to computer science,” Tse said.</p>
+<p>Chen, a junior, is hoping to work with the Jones students, even in a volunteer capacity, perhaps in the fall. He returned over UIC’s spring break to his family’s home in Taiwan, and will complete the school year from overseas.</p>
+<p>Although he’s been a TA for two years at UIC, Chen has found the experience at Jones to be enlightening.</p>
+<p>“You can teach hard material in an easier and more understandable way. Even the most difficult material can be taught more simply,” Chen said.</p>
+<p>Chen is looking forward to his senior year at UIC, and hopes to work as a software engineer after graduation.</p>
+<p>Learn more about <a href="http://www.exploringcs.org/" target="_blank" rel="noopener">CPS’ Explore Computer Science</a> program.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 
 
@@ -885,6 +900,9 @@ img.emoji {
 
 </div>
 
+          <div class="post-date-line">
+        <span class="post-date">Modified on <strong>April 13, 2020</strong></span>
+      </div>
     
               </article>
         </div>

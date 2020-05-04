@@ -1,0 +1,787 @@
+<!DOCTYPE html><html lang="en"><head><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5MRHB7J');</script><meta http-equiv="content-type" content="text/html; charset=utf-8"/><meta name="description" content="UIC ACCC Answers"/><meta name="keywords" content="KnowledgeBase, knowledge base, university, universities, colleges, higher education, knowledge sharing, knowledge collaboration, technical support self-service solutions"/><meta name="application-name" content="University KnowledgeBase"/><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="canonical" href="https://answers.uillinois.edu/uic/page.php?id=83500" /><title>How do I connect to UIC-WiFi using Android?</title><script src="/css/common.js" type="text/javascript"></script><link href="https://cdn.jsdelivr.net/npm/froala-editor@3.0.3/css/froala_style.min.css" rel="stylesheet" type="text/css"/><style>.fr-view table td { padding: 5px; }.fr-view blockquote { border-left: solid 0 #000; color: #000; }.fr-view blockquote blockquote { border-left: solid 0 #000; color: #000; }.fr-view blockquote blockquote blockquote { border-left: solid 0 #000; color: #000; }.fr-element { z-index: 0; }</style><link rel="stylesheet" type="text/css" media="print" href="/css/print.css" /><link rel="stylesheet" type="text/css" media="screen" href="/css/default_layout1.css" /><style type="text/css">/* Font */
+
+@font-face {
+  font-family: Theinhardt-Regular;
+  src: url(/images/group178/logo/Theinhardt-Regular.otf);
+}
+
+@font-face {
+  font-family: Theinhardt-Black;
+  src: url(/images/group178/logo/Theinhardt-Black.otf);
+}
+
+@font-face {
+  font-family: Theinhardt-Bold;
+  src: url(/images/group178/logo/Theinhardt-Bold.otf);
+}
+
+@font-face {
+  font-family: Theinhardt-BoldIta;
+  src: url(/images/group178/logo/Theinhardt-BoldIta.otf);
+}
+
+@font-face {
+  font-family: Theinhardt-Medium;
+  src: url(/images/group178/logo/Theinhardt-Medium.otf);
+}
+
+@font-face {
+  font-family: Theinhardt-MediumIta;
+  src: url(/images/group178/logo/Theinhardt-MediumIta.otf);
+}
+
+/* Make Suggestion */
+
+.no_match {
+    font-size: 15px;
+    color: #E1E000;
+}
+
+
+/* Docs Style */
+
+#page-content {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 30px;
+    font-family: Theinhardt-Regular;
+    font-size: 16px;
+
+}
+
+/*Top Documents of the week style */
+span.listdoc {
+    display: block;
+    font-family: Theinhardt-Regular;
+
+}
+
+
+#page-content p {
+   font-size: 16px;
+}
+
+#doc-summary {
+     margin-bottom: 15px;
+}
+
+/*Search Results style*/
+
+#search-result, #search-result-table1, #result-pagination-table, #topic-search-result, #relevant-search-result {
+    font-family: Theinhardt-Regular;
+    font-size: 16px;
+}
+
+div#filter-by-topics {
+    margin-top: 30px;
+}
+
+span.cursor1 {
+    color: #BB16A3;
+    text-decoration: none !important;
+    font-size: 20px;
+    width: 100%;
+    float: none;
+    margin-top: 10px;
+    display:block;
+
+}
+
+.topic-path {
+    float: none;
+    display:block;
+    width: 100%;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+
+span.topic-path a {
+    font-size: 14px;
+}
+
+span.topic-path em {
+    width: 100%;
+    display: inline-block;
+}
+
+span.topic-path, .topic-path a {
+    font-family: Theinhardt-Regular;
+    color: #007fa5;
+
+}
+
+/* The upper bar */
+
+#top-right-links a:hover, #top-left-links a:hover {
+}
+
+#top-links {
+    background-color: #001E62;
+
+    padding-left: 6%;
+    padding-right: 6%;
+    font-family: Theinhardt-Medium;
+}
+
+a {
+    line-height: 1.25em;
+    font-size: 16px;
+    font-weight: 400; 
+}
+
+/* Hide the topic tree drop down list */
+#search-form .selectBox {
+    //display: none;
+    //-webkit-appearance: none;
+    //-moz-appearance: none;
+    //appearance: none;
+    border-color: #00bffd;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 8px;
+    padding-left: 0px;
+    padding-right: 0px;    
+    width: 275px;
+    height: 34px;
+}
+
+/* Search header container */
+
+#logo-search {
+    background-color: #007fa5;
+    padding-left: 6%;  
+    margin-bottom: 0px;
+	z-index: 500;
+}
+
+/* UIC LOGO */
+
+#group-logo {
+    margin: 15px auto 10px 4px;
+}
+
+
+/* Search icon */
+input.search {
+    background: url(/images/group178/logo/icons8-search-filled-30.png) no-repeat scroll right bottom rgba(0, 0, 0, 0);
+    background-size: 30px 30px;
+    background-position: center; 
+    color: transparent;
+    border: none;
+    display: inline;
+    padding: .2em;
+    margin-left: .4em;
+    width: 38px;
+    height: 38px;
+    font-family: Theinhardt-Medium;
+}
+
+input.search:hover {
+    background-color: #001E62;
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+}
+
+#search-form a.advanced {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: none;
+    border: none;
+    font-family: Theinhardt-Medium;
+}
+
+#search-form .inputBox {
+    border-color: #00bffd;
+    height: 15px;
+    font-size: 150%;
+    font-weight: normal;
+    padding: 8px;
+    width: 275px;
+}
+
+.span_logo-search_2_of_2 {
+    text-align: center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + #container {
+  padding-top: 102px;
+}
+
+
+/* SEARCH END */
+
+/*  Body Style  */
+
+
+li {
+    font-size: 16px !important;
+}
+
+a.seemore, a.rss {
+    font-size: 10px !important;
+} 
+
+.kbleftlinks .head, .kbrightlinks .head, #qlinks .head, #resource-links .head, #qcats .head, #news h2, #topDocs h2, #recentDocs h2, .custom h2 {
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+ul#kbnews {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+span.title {
+    font-size: 16px !important;
+}
+
+.news-update-time {
+    font-size: 16px;
+}
+
+#news .summary {
+    font-size: 16px;
+}
+
+#news, #topDocs, #recentDocs {
+    margin-left:6%;
+    margin-right:6%;
+    font-family: Theinhardt-Medium;
+}
+
+#news h2, #topDocs h2, #recentDocs h2 {
+    font-family: Theinhardt-Bold;
+}
+
+
+#news a, #topDocs a, #recentDocs a, .custom a {
+    text-decoration: none;
+    color: #001e62;
+}
+
+#news .nonews {
+    color: black;
+}
+
+#container {
+    padding-top: 0px;
+    position: inherit;
+}
+
+#middle-sect1 {
+    margin: 0;
+    padding: 0;
+}
+
+/*  Tagline Background  */
+
+#custom0 {
+    background:
+        linear-gradient(to bottom,
+              rgba(43, 204, 244, 0.50),
+              rgba(229, 58, 204, 0.70)
+              
+        ),
+        url(/images/group178/logo/3Wcomputers.jpg);
+    //background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+
+#custom0 h2, .custom h2 {
+    background-color: transparent;
+    border-bottom: none;
+    color: transparent;
+}
+
+#news h2 {
+    margin-top: 40px;
+}
+
+/*  Tagline  */
+
+#custom0 span {
+    display: inherit;
+    font-size: 56px !important;
+    font-family: Theinhardt-Bold !important;
+    margin-left: 47%;
+    margin-right: 3%;
+    margin-top: 48px;
+    width: 50%;
+    color: white;
+    overflow-wrap: break-word;
+    font-weight: 900;
+    line-height: 1;
+    max-width: 645px;
+}
+
+
+/* Footer Start */
+
+#copyright a {
+    color: white;
+    font-size: 14px;
+}
+
+#copyright {
+  background-color: #252525;
+  border-top: none;
+}
+
+/* Style the bot bar */
+
+.botnav-container {
+  background-color: #363636;
+}
+
+.botnav {
+  overflow: hidden;
+  background-color: #363636;
+  clear: left;
+}
+
+/* Style the botnav links */
+.botnav a {
+  float: left;
+  text-align: center;
+  padding: 10px 14px;
+}
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create two equal columns */
+.col-legal {
+  float: left;
+  width: 50%;
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.col-contact {
+  float: left;
+  width: 50%;
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.site-unit-name h3, .site-unit-name_SiteContact2 h3 {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+#view-toggle {
+    clear: left;
+}
+
+.footer-button-list, .footer-button-list-mid {
+    list-style: none inside;
+    padding-left: 0px;
+
+}
+
+/* Social Media */
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Social Media End */
+
+.footer-button {
+    background: #363636 !important;
+    display: block;
+    font-size: 16px !important;
+    line-height: 32px;
+    height: 32px;
+    padding: 3px 15px;;
+    transition: color .4s;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: background-color 0.5s ease-out;
+
+}
+
+a.footer-button:hover {
+    background-color: #007fa5 !important;
+    text-decoration: none !important;
+}
+
+#footer-list-title {
+    color: white;
+    margin-bottom: 13px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-button-item-mid {
+    margin-bottom: 7px;
+}
+
+/* Footer End */
+
+
+/* Responsive layout*/
+
+@media screen and (max-width:650px) {
+  .column {
+    width: 100% !important;
+  }
+
+  #logo-search {
+    padding-left: 0px;
+  }
+
+  #custom0 span {
+    font-size: 44px !important;
+  }
+}
+
+@media screen and (max-width:500px) {
+  html {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width:1190px) {
+  .col-legal {
+    width: 100%;
+  }
+
+  #col-legal-1 {
+    text-align: left !important;
+  }
+
+  #custom0 span {
+    margin-left: 6% !important;
+    margin-right: 6% !important;
+    width: 88%;
+  }
+
+  #search-form .inputBox {
+    width: 150px;
+    height: 14px;
+  }
+  
+#search-form .selectBox {
+    width: 150px;
+    height: 34px;
+}
+
+#search-form option {
+   padding: 2px;
+}
+
+}
+
+@media (min-width:650px) and (max-width:1130px) {
+    #footer-logo {
+      width: 50% !important;
+    }
+    #column-mid {
+      width: 50% !important;
+    }
+    #footer-filer {
+      padding: 0;    
+    }
+}
+
+/* Responsive Header */
+
+@media screen and (max-width:780px) {
+    .span_top_2_of_3 {
+      width: 50%;
+    }
+
+    .span_top_3_of_3 {
+      width: 50%;
+    }
+
+    #top-left-links ul {
+      text-align: left;
+    }
+
+    #top-right-links ul {
+      text-align: right;
+    }
+
+    #logo-search {
+      height: 150px;
+    }
+
+    .sticky {
+       display: none;
+    }
+
+}
+
+@media screen and (min-width:1090px) {
+   #news, #topDocs, #recentDocs, .section.group.top, #credit-feedback, #page-content, #search-result, #search-result-table1, #result-pagination-table, #topic-search-result, #relevant-search-result, #filter-by-topics, #cross-inst-search, #maincontent p, #maincontent h2, span.cursor1, .topic-path, .listdoc, h1, ol, span.listdoc, .responsiveCal {
+     max-width: 1080px;
+     margin: 0 auto;
+   }
+   .title {
+     max-width: 1080px;
+     margin-top: 15px;
+     margin-right: auto;
+     margin-bottom: 15px;
+     margin-left: auto;
+   }
+   #page-content {
+     margin-top: 30px;
+   }
+   .section.group.logo-search {
+     max-width: 1080px;
+     margin: 0 auto;
+   }
+   #logo-search {
+     padding-left: 0px;
+   }
+   #maincontent h2 {
+     padding-top: 15px;
+   }
+
+}
+
+
+.responsiveCal {
+ 
+position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+ 
+}
+ 
+.responsiveCal iframe {
+ 
+position: absolute; top:0; left: 0; width: 100%; height: 100%;
+ 
+}</style></head><body><div id="skip-nav"><a href="#maincontent">Skip navigation</a></div><div id="body-container"><header role="banner"><div id="top-links"><div class="section group top"><div class="col span_top_1_of_3"><span class="hidden">UIC ACCC Answers </span></div><div class="col span_top_2_of_3"><div id="top-left-links"><ul><li class="first"><a href="http://accc.uic.edu" target="_blank">Go to ACCC →</a></li></ul></div></div><div class="col span_top_3_of_3"><div id="top-right-links"><ul><li class="first"><a href="https://answers.uillinois.edu/uic/contact-us">Contact Us</a></li></ul></div></div></div></div><div id="logo-search"><div class="section group logo-search"><div class="col span_logo-search_1_of_2"><div id="group-logo"><a href="./"><img src="/images/group178/logo/OTH.ACCC.ANSWERS.WHT.png" alt="UIC ACCC Answers" width="250" height="" /><span class="group-name-hide">University of Illinois at Chicago ACCC</span></a></div></div><div class="col span_logo-search_2_of_2"><div id="search-form" class="upper" role="search"><form accept-charset="UTF-8" method="get" action="search.php" title="Search"><span id="resultc" role="status" aria-live="polite"></span><br /><label for="q" class="hidden">Search term</label><input class="inputBox" id="q" type="text" name="q" placeholder="Search the KB..." value="" size="30" maxlength="140" onkeyup="resultC(this.value)" aria-controls="resultc" aria-expanded="false" aria-autocomplete="both" /> <label for="cat" class="hidden">Select topic</label><select class="selectBox" id="cat" name="cat" onchange="this.form.submit();"><option value="0">All Topics</option><option value="8620">ACCC Services Financial Documentation</option><option value="7275">Communication & Collaboration</option><option value="7536">&nbsp; Cloud Storage</option><option value="7537">&nbsp; &nbsp; Box</option><option value="7539">&nbsp; &nbsp; Google Drive</option><option value="7538">&nbsp; &nbsp; OneDrive</option><option value="7393">&nbsp; Conferencing</option><option value="7442">&nbsp; &nbsp; Blackboard Collaborate</option><option value="7444">&nbsp; &nbsp; Google Meet</option><option value="7443">&nbsp; &nbsp; Webex Meetings</option><option value="9631">&nbsp; &nbsp; Zoom</option><option value="8519">&nbsp; Digital Signage</option><option value="8520">&nbsp; &nbsp; Industry Weapon</option><option value="7473">&nbsp; Email & Calendaring</option><option value="7474">&nbsp; &nbsp; Exchange</option><option value="7585">&nbsp; &nbsp; Gmail</option><option value="8516">&nbsp; &nbsp; Google Calendar</option><option value="7540">&nbsp; &nbsp; Listserv</option><option value="7453">&nbsp; Emergency Communications</option><option value="8048">&nbsp; &nbsp; Startel</option><option value="8047">&nbsp; &nbsp; UIC Alert</option><option value="7449">&nbsp; Instant Messaging</option><option value="8517">&nbsp; &nbsp; Jabber</option><option value="7925">&nbsp; Phone Services</option><option value="8537">&nbsp; &nbsp; Automatic Call Distribution</option><option value="8539">&nbsp; &nbsp; Mobile Devices</option><option value="8540">&nbsp; &nbsp; Telephones</option><option value="8541">&nbsp; &nbsp; Voicemail</option><option value="8512">&nbsp; Productivity Software</option><option value="8514">&nbsp; &nbsp; G Suite</option><option value="8513">&nbsp; &nbsp; Office 365</option><option value="7478">&nbsp; Virtual Collaboration Spaces</option><option value="9720">&nbsp; &nbsp; Google Chat</option><option value="7479">&nbsp; &nbsp; Microsoft Teams</option><option value="7876">&nbsp; &nbsp; Webex Teams</option><option value="7923">&nbsp; Website Services</option><option value="8041">&nbsp; &nbsp; Google Sites</option><option value="8043">&nbsp; &nbsp; Microsoft IIS</option><option value="8044">&nbsp; &nbsp; People.uic.edu</option><option value="8042">&nbsp; &nbsp; Red Multisite</option><option value="8045">&nbsp; &nbsp; SharePoint</option><option value="8046">&nbsp; &nbsp; Webhost.uic.edu</option><option value="7276">Computing Services</option><option value="7948">&nbsp; Device Charging</option><option value="8883">&nbsp; &nbsp; Recharge Stations</option><option value="7873">&nbsp; Endpoint Management</option><option value="7875">&nbsp; &nbsp; Jamf</option><option value="7874">&nbsp; &nbsp; SCCM</option><option value="7441">&nbsp; Printing</option><option value="7448">&nbsp; &nbsp; U-Print</option><option value="8522">&nbsp; &nbsp; Wepa</option><option value="8523">&nbsp; Software Licensing & Sales</option><option value="8524">&nbsp; &nbsp; Webstore</option><option value="7278">Infrastructure</option><option value="7433">&nbsp; Backups</option><option value="8533">&nbsp; &nbsp; ADSM</option><option value="8532">&nbsp; &nbsp; Crashplan</option><option value="8970">&nbsp; Cloud Computing</option><option value="8971">&nbsp; &nbsp; Azure</option><option value="8525">&nbsp; Colocation Server Hosting</option><option value="8534">&nbsp; &nbsp; Datacenter</option><option value="7436">&nbsp; Database Services</option><option value="8527">&nbsp; &nbsp; MSSQL</option><option value="8526">&nbsp; &nbsp; MySQL</option><option value="7947">&nbsp; Monitoring</option><option value="7929">&nbsp; Network</option><option value="8538">&nbsp; &nbsp; Data Jacks</option><option value="8529">&nbsp; &nbsp; Domain Name System</option><option value="8528">&nbsp; &nbsp; Guest Wireless</option><option value="7933">&nbsp; &nbsp; Residence Hall Network (ResNet)</option><option value="7930">&nbsp; &nbsp; Virtual Private Network (VPN)</option><option value="7931">&nbsp; &nbsp; Wired Network</option><option value="7932">&nbsp; &nbsp; Wireless Network</option><option value="7935">&nbsp; Storage</option><option value="8530">&nbsp; &nbsp; Active Directory Desktop Advantage</option><option value="8531">&nbsp; &nbsp; Active Directory Network Storage</option><option value="7431">&nbsp; Virtual Machines</option><option value="8536">&nbsp; &nbsp; Linux VM</option><option value="8535">&nbsp; &nbsp; Windows VM</option><option value="7280">Professional Services</option><option value="8547">&nbsp; Desktop Support</option><option value="8562">&nbsp; &nbsp; Contracted Support</option><option value="8561">&nbsp; &nbsp; Hourly Service Calls</option><option value="8548">&nbsp; Device Maintenance</option><option value="8563">&nbsp; &nbsp; Personal Device Maintenance</option><option value="8546">&nbsp; Event Support </option><option value="8544">&nbsp; IT Memberships</option><option value="8556">&nbsp; &nbsp; Corporate Executive Board</option><option value="8558">&nbsp; &nbsp; Educause</option><option value="8557">&nbsp; &nbsp; Gartner</option><option value="8559">&nbsp; &nbsp; REACH</option><option value="8542">&nbsp; Professional Development & Training</option><option value="8555">&nbsp; &nbsp; AVIXA</option><option value="8553">&nbsp; &nbsp; Online Training</option><option value="8554">&nbsp; &nbsp; Webinars and Workshops</option><option value="8545">&nbsp; Ticketing System</option><option value="8560">&nbsp; &nbsp; Request Tracker</option><option value="7279">Research</option><option value="7439">&nbsp; Research Computing</option><option value="8566">&nbsp; &nbsp; High-Performance Computing (HPC)</option><option value="8567">&nbsp; &nbsp; Secure Computing Environment (SCE)</option><option value="7440">&nbsp; Research Networks</option><option value="8852">&nbsp; &nbsp; High-Performance Research Network (HPRNet)</option><option value="9745">&nbsp; Surveys for Research</option><option value="8896">&nbsp; &nbsp; Qualtrics</option><option value="7277">Security</option><option value="8574">&nbsp; Account Administration</option><option value="8589">&nbsp; &nbsp; NetID Activation</option><option value="8590">&nbsp; &nbsp; UIC Account Portal</option><option value="8569">&nbsp; Antivirus</option><option value="8580">&nbsp; &nbsp; Symantec Endpoint Protection</option><option value="8581">&nbsp; &nbsp; System Center Endpoint Protection</option><option value="8573">&nbsp; Authentication</option><option value="8587">&nbsp; &nbsp; 2-Factor Authentication</option><option value="8586">&nbsp; &nbsp; Active Directory (AD)</option><option value="8585">&nbsp; &nbsp; Bluestem</option><option value="8854">&nbsp; &nbsp; Shibboleth Framework</option><option value="8572">&nbsp; Certificates</option><option value="8584">&nbsp; &nbsp; SSL/TLS Certificates</option><option value="8576">&nbsp; Directory Services</option><option value="8593">&nbsp; &nbsp; Active Directory</option><option value="8595">&nbsp; &nbsp; DeptUpdate</option><option value="8592">&nbsp; &nbsp; Online Directory</option><option value="8568">&nbsp; Encryption</option><option value="8579">&nbsp; &nbsp; BitLocker</option><option value="8578">&nbsp; &nbsp; PGP Desktop</option><option value="8570">&nbsp; Event Logging</option><option value="8582">&nbsp; &nbsp; Splunk</option><option value="8932">&nbsp; Identity Management</option><option value="8933">&nbsp; &nbsp; Affiliations</option><option value="8935">&nbsp; &nbsp; NetID</option><option value="8934">&nbsp; &nbsp; UIN</option><option value="8571">&nbsp; Network Security Vulnerability Scanner</option><option value="8577">&nbsp; Password Management</option><option value="8597">&nbsp; &nbsp; NetID Password Manager</option><option value="8598">&nbsp; &nbsp; Secondary NetID Password Manager</option><option value="8575">&nbsp; Role-based Authorization</option><option value="8591">&nbsp; &nbsp; Liaison Manager</option><option value="8594">&nbsp; &nbsp; PbUpdate</option><option value="7272">Teaching & Learning</option><option value="7937">&nbsp; Active Learning Systems</option><option value="8886">&nbsp; &nbsp; Echo360 Engagement</option><option value="8887">&nbsp; &nbsp; iClicker</option><option value="8888">&nbsp; &nbsp; PollEverywhere</option><option value="8889">&nbsp; &nbsp; Wireless Collaboration and Presentation</option><option value="9756">&nbsp; Digital Texbooks</option><option value="7941">&nbsp; eLearning Authoring</option><option value="8749">&nbsp; &nbsp; Adobe Captivate</option><option value="8750">&nbsp; &nbsp; Adobe Presenter</option><option value="8751">&nbsp; &nbsp; Camtasia</option><option value="8752">&nbsp; &nbsp; Panopto</option><option value="8753">&nbsp; &nbsp; PowerPoint</option><option value="8754">&nbsp; &nbsp; VoiceThread</option><option value="7445">&nbsp; Equipment Lending</option><option value="8755">&nbsp; &nbsp; Extended Laptop Loan</option><option value="8756">&nbsp; &nbsp; Short Term Lending</option><option value="7281">&nbsp; Learning Environments</option><option value="8599">&nbsp; &nbsp; Classrooms</option><option value="8600">&nbsp; &nbsp; Computer Labs</option><option value="9669">&nbsp; &nbsp; Virtual Computer Lab</option><option value="7273">&nbsp; Learning Management System</option><option value="8746">&nbsp; &nbsp; Blackboard Learn</option><option value="7274">&nbsp; Lecture Capture</option><option value="8855">&nbsp; &nbsp; Echo360 Platform</option><option value="8856">&nbsp; &nbsp; Panopto</option><option value="7938">&nbsp; Media Streaming</option><option value="8890">&nbsp; &nbsp; Echo360 Platform</option><option value="8891">&nbsp; &nbsp; Google Drive</option><option value="8892">&nbsp; &nbsp; Panopto</option><option value="7940">&nbsp; Multimedia Production</option><option value="8601">&nbsp; &nbsp; Lightboard Studio</option><option value="8893">&nbsp; &nbsp; Media Conversion</option><option value="9642">&nbsp; Online Proctoring</option><option value="9643">&nbsp; &nbsp; Respondus</option><option value="7936">&nbsp; Surveys</option><option value="8894">&nbsp; &nbsp; Blackboard Surveys</option><option value="8895">&nbsp; &nbsp; Google Forms</option></select> <input class="search" type="submit" value="SEARCH" />&nbsp;<a class="advanced" href="advanced.php">Advanced</a></form></div></div></div></div></header><div id="container"><div id="middle-sect1"><main id="maincontent" role="main"><div id="page-content" role="article"><div class="fr-element fr-view"><br /><span class="topic-path"><a href="topics.php">Topics Map</a> &gt; <a href="search.php?cat=7278">Infrastructure</a> &gt; <a href="search.php?cat=7929">Network</a> &gt; <a href="search.php?cat=7932">Wireless Network</a> <br /></span><h1 class="title">How do I connect to UIC-WiFi using Android?</h1><div style="float:right;text-align:right;background-color:#F6F4F0;padding:1px;border:0px solid #e5e5e5;border-radius:2px;"></div><div id="doc-summary"><p>These instructions should help you to connect your Android (2.1 or higher) device to the campus wireless network.</p></div><p><p>UIC-WiFi uses WPA2 Enterprise security with 802.1x authentication, PEAP with&nbsp;MSCHAP v2. These instructions should help you to connect your Android (2.1 or higher) device to the campus wireless network.&nbsp;<strong>You need to be on campus to do this, near a UIC-WiFi access point.&nbsp;</strong>If you have trouble connecting to UIC-WiFi, please visit <span><a href="https://accc.uic.edu/support/" target="_self" title="c-stop locations">C-Stop walk-in locations</a></span>.</p><p><span style="font-size: 14px;"><strong>Watch a video on how to connect to UIC-WiFi with Android:</strong></span></p><p><span><a href="https://uic.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ae2f510e-d8be-4ecb-b468-ab26012e0339" target="_self" title="connect UIC wifi android"><img src="/images/group178/83500/connectingUICWiFismallvideoicon.JPG" title="" alt="" class="fr-fic fr-dii" style="width: 100px;"></a></span><br /></p><p><br /></p><ol><li>While you are on campus, near a UIC-WiFi access point, tap&nbsp;<strong>Menu</strong> then&nbsp;<strong>Wireless &amp; networks</strong>.<br /><img src="/images/group178/83500/1.jpg" title="1" alt="1" class="fr-fic fr-dii" style="width: 200px;"><br />&nbsp;</li><li>Enable Wi-Fi by clicking box beside&nbsp;<strong>Wi-Fi</strong>, then tap&nbsp;<strong>Wi-Fi Settings.</strong><br /><img src="/images/group178/83500/2.jpg" title="2" alt="2" class="fr-fic fr-dii" style="width: 200px;"><br />&nbsp;</li><li>Tap to select the network&nbsp;<strong>UIC-WiFi.</strong>&nbsp;<br /><img src="/images/group178/83500/3.jpg" title="3" alt="3" class="fr-fic fr-dii" style="width: 200px;"><br />&nbsp;</li><li>If you have not already established a credential storage password, your Android will prompt you to enter one. This password is local to your device and is similar to the keychain password on OS X. Otherwise enter your password for storing credentials.</li><li>For&nbsp;<strong>EAP method</strong> select&nbsp;<strong>PEAP</strong>.</li><li>For&nbsp;<strong>Phase 2 authentication</strong> select&nbsp;<strong>MSCHAP</strong>.</li><li>For&nbsp;<strong>Identity</strong> use your UIC NetID.&nbsp;<br />For&nbsp;<strong>Anonymous identity</strong> use <strong>Anonymous</strong><br />For Wireless Password use your UIC Common Password<br />Tap <strong>Connect</strong>.&nbsp;<br /><img src="/images/group178/83500/4.jpg" title="4" alt="4" class="fr-fic fr-dii" style="width: 200px;"><br />&nbsp;</li><li>Confirm: you are connected? If you are, it will say&nbsp;<strong>Connected</strong> underneath UIC-WiFi.<br /><img src="/images/group178/83500/5.jpg" title="5" alt="5" class="fr-fic fr-dii" style="width: 200px;"><br /></li></ol><p>&nbsp;</p><p>** If asked for "<strong>domain</strong>" in the network configuration menu, please enter "<strong>ad.uic.edu</strong>" **</p><div style="font-family: arial, sans-serif, helvetica; font-size: small;"><span style="font-family: Arial;">For more information on different connections choose the device you are trying to connect with and click below.</span></div><div style="font-family: arial, sans-serif, helvetica; font-size: small;"><font face="Arial"><a href="https://answers.uillinois.edu/uic/page.php?id=83495" style="user-select: auto; color: rgb(128, 0, 128); background-color: inherit;">How do I connect to UIC-WiFi using Windows?</a></font></div><div style="font-family: arial, sans-serif, helvetica; font-size: small;"><font face="Arial"><a href="https://answers.uillinois.edu/uic/page.php?id=83496" style="user-select: auto; color: rgb(128, 0, 128); background-color: inherit;">How do I connect to UIC-WiFi using iPhone, iPod touch or iPad?</a></font></div><div style="font-family: arial, sans-serif, helvetica; font-size: small;"><font face="Arial"><a href="https://answers.uillinois.edu/uic/page.php?id=83501" style="user-select: auto; color: rgb(128, 0, 128); background-color: inherit;">How do I connect to UIC-WiFi with a Kindle Fire?</a></font></div><div style="font-family: arial, sans-serif, helvetica; font-size: small;"><font face="Arial"><a href="https://answers.uillinois.edu/uic/internal/page.php?id=96749" style="user-select: auto; color: rgb(128, 0, 128); background-color: inherit;">How do I connect to UIC-WiFi using Mac OS X?</a></font></div><h3 style="font-size: 16px; line-height: 18px; font-family: arial, sans-serif, helvetica;"><ul type="disc" style="margin-top: 0in;"><ul type="circle" style="margin-top: 0in;"></ul></ul><font size="3"><br /></font></h3><div style="font-family: arial, sans-serif, helvetica; font-size: small;"><p class="MsoPlainText"><span style="font-family: Arial;">For more answers about getting connected, please&nbsp;</span><a href="https://answers.uillinois.edu/uic/contact-us" target="_blank" title="Contact ACCC" style="user-select: auto; color: rgb(128, 0, 128); background-color: inherit; font-family: Arial;">contact ACCC</a><span style="font-family: Arial;">&nbsp;or visit one of the C-Stop locations:</span></p><p class="MsoPlainText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; East Campus:&nbsp;<a href="https://accc.uic.edu/support/c-stop-bsb/" target="_blank" title="C-stop eas campus" style="user-select: auto; color: rgb(128, 0, 128); background-color: inherit;">https://accc.uic.edu/support/c-stop-bsb/</a>&nbsp;</p><p class="MsoPlainText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; West Campus:&nbsp;<a href="https://accc.uic.edu/support/c-stop-lhs/" style="user-select: auto; color: rgb(128, 0, 128); background-color: inherit;">https://accc.uic.edu/support/c-stop-lhs/</a></p></div><p>&nbsp;</p><p>Please note these instructions are written specifically to connect to UIC-WiFi.&nbsp;This has only been tested on a few devices. Other devices may appear slightly different from the screenshots shown.&nbsp;Please send a note to <span><a href="mailto:consult@uic.edu">consult@uic.edu</a></span>&nbsp;if you have any questions or further comments.</p></p></div></div><div id="credit-feedback"><br style="clear:both;" /><br /><hr class="kbhr1"><table class="kbfeedbacktable1"><tr><th>Keywords:</th><td><span id="kb-page-keywords">connection, uic wifi, wireless</span> &nbsp; <span id="suggestk-button"><a class="feedback-btn-link" onclick="suggestK(83500,'How+do+I+connect+to+UIC-WiFi+using+Android%3F','connection%2C+uic+wifi%2C+wireless');">Suggest&nbsp;keywords</a></span><span id="suggestk"></span><span id="ks-thank-you"></span></td><th>Doc ID:</th><td>83500</td></tr><tr><th>Owner:</th><td>William L.</td><th>Group:</th><td>University of Illinois at Chicago ACCC</td></tr><tr><th>Created:</th><td>2018-07-09 15:12 CDT</td><th>Updated:</th><td>2019-12-20 10:30 CDT</td></tr><tr><th>Sites:</th><td colspan="3">University of Illinois at Chicago ACCC</td></tr><tr><th>Feedback:</th><td colspan="3">&nbsp;<span id="vote-yes"><input type="button" class="feedback-btn-yes" value="Helpful" onclick="submitVote(83500,'yes');"></span> <span id="count-yes">3</span> &nbsp; <span id="vote-no"><input type="button" class="feedback-btn-no" value="Unhelpful" onclick="submitVote(83500,'no');"></span> <span id="count-no">21</span> &nbsp; &nbsp; <a class="feedback-btn-link" href="feedback.php?action=2&amp;help=comment&amp;id=83500">Comment</a><span class="suggest-doc3"> &nbsp; <a class="feedback-btn-link" href="feedback.php?action=2&amp;help=suggest&amp;id=83500">Suggest a new document</a></span> &nbsp; <a class="feedback-btn-link" href="internal/feedback.php?action=2&amp;help=subscription&amp;id=83500">Subscribe to changes</a><span id="feedback-thank-you"></span></td></tr></table></div><div class="topic-footer"><br /><br /></div></main></div><footer><div id="copyright" role="contentinfo"><div id = "footer-main">
+<div class= "footer-container" style = "font-family: Theinhardt-Regular;">
+<div style = "max-width: 1200px; margin: 0 auto;">
+<div class="row" style = "margin-left: 6%; margin-right: 6%; padding-top: 40px; padding-bottom: 40px; text-align: left;">
+
+  <div class="column" id="footer-logo" style = "width: 25%;">
+    <a href="https://accc.uic.edu/" target="_blank"><img src="/images/group379/logo/OTH.ACCC.LOCKA.SM.WHT.PNG" alt="" width="" height=""></a>
+  </div>
+
+  <div class="column"  style = "width: 45%;">  
+
+    <div class="column" id="footer-filer" style = "width: 30%;"></div>
+
+    <!-- QUICK LINKS LIST -->
+
+    <div class="column"  id = "column-mid" style = "width: 35%;">
+      <div id ="footer-list-title" style = "font-family: Theinhardt-Bold;">QUICK LINKS</div>
+      <ul class="footer-button-list-mid" style = "list-style: none inside;">
+        <li class="footer-button-item-mid">
+            <a class="footer-button-mid" href="https://accc.uic.edu/services/" role="button">Services</a>
+        </li>
+        <li class="footer-button-item-mid">
+            <a class="footer-button-mid" href="https://accc.uic.edu/support/" role="button">Support</a>
+        </li>
+        <li class="footer-button-item-mid">
+            <a class="footer-button-mid" href="https://accc.uic.edu/service-status/" role="button">Service Status</a>
+        </li>
+        <li class="footer-button-item-mid">
+            <a class="footer-button-mid" href="https://accc.uic.edu/news-highlights/" role="button">News</a>
+        </li>
+        <li class="footer-button-item-mid">
+            <a class="footer-button-mid" href="https://accc.uic.edu/forms/" role="button">Forms</a>
+        </li>
+        <li class="footer-button-item-mid">
+            <a class="footer-button-mid" href="https://accc.uic.edu/about/" role="button">About</a>
+        </li>
+     </ul>
+    </div>
+
+    <!-- SUPPORT LOCATIONS -->
+
+    <div class="column" id = "column-mid" style = "width: 35%;"> 
+      <div id ="footer-list-title" style = "font-family: Theinhardt-Bold;">SUPPORT LOCATIONS</div>
+      <ul class="footer-button-list-mid" style = "list-style: none inside;">
+        <li class="footer-button-item-mid">
+
+            <a class="footer-button-mid" href="https://accc.uic.edu/support/academic-multimedia-lab/" role="button">
+                Academic Multimedia Lab
+            </a>
+        </li>
+
+        <li class="footer-button-item-mid">
+
+            <a class="footer-button-mid" href="https://accc.uic.edu/support/arc-helpdesk/" role="button">
+                ARC Helpdesk
+            </a>
+        </li>
+
+        <li class="footer-button-item-mid">
+            <a class="footer-button-mid" href="https://accc.uic.edu/support/c-stop-bsb/" role="button">
+                C-Stop BSB
+            </a>
+        </li>
+
+        <li class="footer-button-item-mid">
+            <a class="footer-button-mid" href="https://accc.uic.edu/support/c-stop-lhs/" role="button">
+                C-Stop LHS
+            </a>
+        </li>
+
+        <li class="footer-button-item-mid">
+            <a class="footer-button-mid" href="https://accc.uic.edu/support/daley-library-helpdesk/" role="button">
+                Daley Library Helpdesk
+            </a>
+        </li>
+        
+        <li class="footer-button-item-mid">
+            <a class="footer-button-mid" href="https://accc.uic.edu/support/lts-support-office/" role="button">
+                LTS Support Office
+            </a>
+        </li>
+     </ul>
+    </div>
+  </div>
+  
+  <div class="column"  id = "column-mid" style = "width: 30%; white-space: nowrap;">
+    <ul class="footer-button-list" style = "list-style: none inside;">
+        <li class="footer-button-item">
+            <a class="footer-button" href="https://hipaa.uillinois.edu/" role="button" target="_blank">HIPAA</a>
+        </li>
+        <li class="footer-button-item">
+            <a class="footer-button" href="https://identity.uillinois.edu/" role="button" target="_blank">NetID Password Manager</a>
+        </li>
+        <li class="footer-button-item">
+            <a class="footer-button" href="https://security.uic.edu/" role="button" target="_blank">Information Security</a>
+        </li>
+        <li class="footer-button-item">
+            <a class="footer-button" href="https://itgc.uic.edu/" role="button" target="_blank">IT Governance</a>
+        </li>
+        <li class="footer-button-item">
+            <a class="footer-button" href="https://accc.uic.edu/jobs" role="button">Jobs</a>
+        </li>
+        <li class="footer-button-item">
+            <a class="footer-button" href="https://uofi.app.box.com/folder/79662903850" role="button" target="_blank">Policies</a>
+        </li>
+        <li class="footer-button-item">
+            <a class="footer-button" href="https://acer.uic.edu/" role="button" target="_blank">Research (ACER)</a>
+        </li>
+        <li class="footer-button-item">
+            <a class="footer-button" href="http://sms.accc.uic.edu/" role="button">Sign Up for UIC Emergency Alerts</a>
+        </li>
+        <li class="footer-button-item">
+            <a class="footer-button" href="https://accc.drupal.uic.edu/" role="button" target="_blank">ACCC Drupal Site</a>
+        </li>
+    </ul>
+  </div>
+ </div>
+
+<div class="footer-contact" style = "font-family: Theinhardt-Regular;"> 
+  <div class="ms-grid" style = "margin-left: 6%; margin-right: 6%; padding-bottom: 80px;">
+   <div class="ms-row" style = "clear: left;">
+     <div class="col-contact" style = "width: 100%;">
+
+        <div class="column" style = "padding:0; text-align: left; font-weight: 400; font-size: 30px; width: 75%; font-family: Theinhardt-Bold;">Contact</div>
+
+        <div class="column" style = "padding:0; text-align: right; width: 25%">
+
+           <a href="https://www.facebook.com/CstopUIC" class="fa fa-facebook" target="_blank"><img src="/images/group379/logo/facebook_icon_white.png" height="30" width="30"></a>
+           <a href="https://twitter.com/UIC_ACCC" class="fa fa-twitter" target="_blank"><img src="/images/group379/logo/twitter_icon_white.png" height="30" width="30"></a>
+
+        </div>
+
+     </div>
+     <div class="site-contact-container" style = "clear: left; text-align: left; padding: 15px; font-size: 16px; color: white; line-height: 1.5em;">
+       <div class="site-unit-name" style = "font-weight: 600; font-size: 1em;">To report a service outage please call <a href="tel:(312) 413-0003">(312) 413-0003 option 2</a></div>
+       <div><a href="mailto:consult@uic.edu">Contact Us</a></div>
+     </div>
+   </div>
+</div>
+</div>
+</div>
+
+
+<div class ="botnav-container">
+<div class="botnav" style = "padding-left: 6%; padding-right: 6%;">
+     <div style = "max-width: 1050px; margin: 0 auto;">
+
+  <a href="https://uic.edu/" target="_blank">UIC.edu</a>
+  <a href="https://catalog.uic.edu/ucat/academic-calendar/" target="_blank">Academic Calendar</a>
+  <a href="https://uicflames.com/" target="_blank">Athletics</a>
+  <a href="https://www.uic.edu/apps/departments-az/search" target="_blank">Campus Directory</a>
+  <a href="https://disabilityresources.uic.edu/" target="_blank"> Disability Resources</a>
+  <a href="https://emergency.uic.edu/" target="_blank"> Emergency Information</a>
+  <a href="https://today.uic.edu/events" target="_blank"> Event Calendar</a>
+  <a href="https://uic.edu/about/job-opportunities" target="_blank"> Job Openings</a>
+  <a href="https://library.uic.edu/" target="_blank"> Library</a>
+  <a href="https://maps.uic.edu/" target="_blank"> Maps</a>
+  <a href="https://ready.uic.edu/digital-materials/uic-safe-mobile-app/" target="_blank">UIC Safe Mobile App</a>
+  <a href="https://today.uic.edu/" target="_blank">UIC Today</a>
+  <a href="https://uihealth.uic.edu/" target="_blank"> UI Health</a>
+  <a href="https://dos.uic.edu/student-veterans-affairs/" target="_blank">Veterans Affairs</a>
+</div>
+</div>
+</div>
+
+<div class="footer-legal" style = "max-width: 1200px; margin: 0 auto;">
+        <div class="ms-grid" style = "margin-left: 6%; margin-right: 6%;">
+            <div class="ms-row">
+                <div class="col-legal" style = "text-align: left;">© 2019 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span> <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a>
+                </div>
+                <div class="col-legal" id = "col-legal-1" style = "text-align: right;">
+                    <a href="http://www.uillinois.edu/">University of Illinois System</a> <span class="pipe-separator">|</span>
+                    <a href="http://www.illinois.edu/">Urbana-Champaign</a> <span class="pipe-separator">|</span>
+                    <a href="http://www.uis.edu/">Springfield</a> 
+                </div>
+            </div>
+        </div
+    </div>
+  </div>
+</div><br /><div id="view-toggle"><p></p></div></div></div></div><script type="text/javascript">// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("logo-search");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}</script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-120753622-2', 'auto');ga('send', 'pageview');</script></footer></body></html>

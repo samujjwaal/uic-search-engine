@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C/DTD HTML 4.01//EN">
+<html lang="en">
+  <head>
+    <title>University Archives Holdings Database </title> 
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" type="text/css" href="/static/master.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <a href="http://library.uic.edu/collections/special-collections-university-archives"><img src="/static/LIB.SCUA.LOCKB.SM.RED.PNG" width="200px" alt="Back to Special Collections & University Archives"/></a>
+      <h1 class="page-title">University Archives Holdings Database</h1>
+      <section>
+	<div class="page-main">
+	  
+  <h1>Search the Database</h1>
+
+  <p>Archival materials are available for use during <a href="http://library.uic.edu/collections/special-collections-university-archives">Special Collections and University Archives'</a> normal business hours. For help locating records and papers in the University Library, please <a href="">Ask A Librarian</a></p>
+
+  <form class="form" action="." method="GET">
+    <label for="q"></label>
+    <div class="form-element">
+      <input id="search_holdings" class="text-input" type="text" name="q" value="" aria-label="Search holdings">
+    </div>
+    <button type="submit" class="button">Search</button>
+  </form>
+
+  
+
+	</div>
+      </section>
+  </body>
+</html>

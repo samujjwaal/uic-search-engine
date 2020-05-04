@@ -1,0 +1,1035 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+                        <link rel="stylesheet" href="/assets/fonts/theinhardt.css">
+            <link rel="stylesheet" href="/css/main.min.css">
+    
+    </head>
+<body>
+
+<div class="l-page page news-post-page is-sidebar">
+    <header class="l-header" role="banner">
+
+        <div class="header-navigation">
+
+            <div id="skip" class="skip-menu assistive-text">
+    <p>
+        Skip to
+    <span class="_main">
+    <a href="#main">the content of this page</a>,
+    </span>
+        <a class="_primary-menu" href="#menu-main">the main menu</a>,
+                    <a class="_secondary-menu" href="#menu-secondary">the secondary menu</a>,
+                <a class="_search" href="#google_translate_element">Google Translate</a>,
+        <a class="_search" href="#search">the site search form</a>
+        or go to the
+        <a class="_home" href="http://ahs.uic.edu/">the site home page</a>.
+    </p>
+</div>
+
+            <div class="eyebrow-mobile-wrapper js-eyebrow-mobile">
+    <div class="eyebrow-mobile">
+        <a href="http://uic.edu" class="uic-logo-icon eyebrow-logo">
+    <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+        <title>UIC Logo</title>
+        <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
+        <path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF" fill-rule="evenodd"/>
+    </svg>
+</a>
+        <div class="site-title-eyebrow-mobile">
+            <a href="http://ahs.uic.edu/">College of Applied Health Sciences</a>
+        </div>
+        <button class="search-toggle-mobile js-search-toggle-mobile">
+      <span class="search-icon">
+        <span class="assistive-text">Search the site</span>
+        <svg aria-label="Search the site" width="20" height="20" viewBox="0 0 20 20">
+            <use xlink:href="/images/svgs/svgs.svg#icon-search"></use>
+        </svg>
+
+      </span>
+        </button>
+        <button class="nav-header-toggle js-nav-header-toggle">
+      <span class="icon-menu">
+      Toggle Menu
+      </span>
+        </button>
+    </div>
+    <div class="search-input-container-mobile">
+        <div class="search-title">
+            Search
+            <a class="search-close search-toggle-mobile">
+                <svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22">
+                    <use xlink:href="/images/svgs/svgs.svg#icon-close"></use>
+                </svg>
+            </a>
+        </div>
+        <form method="get" action="/search" role="search" aria-label="Search this site on your mobile device">
+            <input type="text" name="q" class="search-input-mobile" placeholder="Search..." tabindex="-1" aria-label="Search this site on your mobile device" disabled="">
+            <input type="submit" class="submit-button" name="search" value="Submit">
+        </form>
+    </div>
+</div>
+
+            <a href="http://uic.edu" class="uic-logo-icon header-logo">
+    <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+        <title>UIC Logo</title>
+        <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
+        <path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF" fill-rule="evenodd"/>
+    </svg>
+</a>
+
+            <div class="l-full">
+    <div class="site-title-main ">
+        <a href="http://ahs.uic.edu/">College of Applied Health Sciences</a>
+    </div>
+    <nav class="header-menus js-header-menus" role="navigation" aria-label="Primary Navigation">
+
+    <div class="site-title-mobile-menu">
+        <a href="http://ahs.uic.edu/">College of Applied Health Sciences</a>
+    </div>
+
+    <h2 class="assistive-text">Google Translate</h2>
+    
+        <h2 class="assistive-text">Main Menu</h2>
+    <ul id="menu-main" class="menu menu-main" aria-label="Main menu">
+            <li class="_item menu-item-has-children">
+            <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/" target="_self">Faculty and Staff Resources</a>
+                        <button role="button" class="expand-item js-expand-item">
+
+            <svg aria-label="Expand Faculty and Staff Resources menu" width="32" height="32" viewBox="0 0 32 32">
+                <title>Expand Faculty and Staff Resources menu</title>
+                <g fill="none" fill-rule="evenodd">
+                    <ellipse class="_circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"/>
+                    <path class="_chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"/>
+                </g>
+            </svg>
+
+        </button>
+        <ul class="_child">
+                            <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/college-awards/" target="_self">AHS Awards</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/communications/" target="_self">Communications</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/ahs-human-resources/" target="_self">Human Resources</a>
+                            </li>
+                    <li class="_item menu-item-has-children">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/office-of-research/" target="_self">Office of Research</a>
+                            <button role="button" class="expand-item js-expand-item">
+
+            <svg aria-label="Expand Office of Research menu" width="32" height="32" viewBox="0 0 32 32">
+                <title>Expand Office of Research menu</title>
+                <g fill="none" fill-rule="evenodd">
+                    <ellipse class="_circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"/>
+                    <path class="_chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"/>
+                </g>
+            </svg>
+
+        </button>
+        <ul class="_child">
+                            <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/office-of-research/proposal-development/" target="_self">Proposal Development</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/office-of-research/ahs-approval/" target="_self">AHS Approval</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/office-of-research/external-review/" target="_self">External Review</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/office-of-research/irb-applications/" target="_self">IRB Applications</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/office-of-research/poster-printing/" target="_self">Poster Printing</a>
+                            </li>
+                    <li class="_item menu-item-has-children">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/office-of-research/interdisciplinary-pilot-grants/" target="_self">AHS Interdisciplinary Pilot Grant Program</a>
+                            <button role="button" class="expand-item js-expand-item">
+
+            <svg aria-label="Expand AHS Interdisciplinary Pilot Grant Program menu" width="32" height="32" viewBox="0 0 32 32">
+                <title>Expand AHS Interdisciplinary Pilot Grant Program menu</title>
+                <g fill="none" fill-rule="evenodd">
+                    <ellipse class="_circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"/>
+                    <path class="_chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"/>
+                </g>
+            </svg>
+
+        </button>
+        <ul class="_child">
+                            <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/office-of-research/interdisciplinary-pilot-grants/interdisciplinary-pilot-grant-past-awardees/" target="_self">AHS Interdisciplinary Pilot Grant recipients</a>
+                            </li>
+            </ul>
+            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/office-of-research/funding-agency-newsletters/" target="_self">Funding Agency Newsletters</a>
+                            </li>
+            </ul>
+            </li>
+            </ul>
+        </li>
+            <li class="_item menu-item-has-children">
+            <a href="https://ahs.uic.edu/inside-ahs/student-resources/" target="_self">Student Resources</a>
+                        <button role="button" class="expand-item js-expand-item">
+
+            <svg aria-label="Expand Student Resources menu" width="32" height="32" viewBox="0 0 32 32">
+                <title>Expand Student Resources menu</title>
+                <g fill="none" fill-rule="evenodd">
+                    <ellipse class="_circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"/>
+                    <path class="_chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"/>
+                </g>
+            </svg>
+
+        </button>
+        <ul class="_child">
+                            <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/new-students/" target="_self">New Students</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/advising/" target="_self">Advising</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/registration/" target="_self">Registration and Forms</a>
+                            </li>
+                    <li class="_item menu-item-has-children">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/support/" target="_self">Support</a>
+                            <button role="button" class="expand-item js-expand-item">
+
+            <svg aria-label="Expand Support menu" width="32" height="32" viewBox="0 0 32 32">
+                <title>Expand Support menu</title>
+                <g fill="none" fill-rule="evenodd">
+                    <ellipse class="_circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"/>
+                    <path class="_chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"/>
+                </g>
+            </svg>
+
+        </button>
+        <ul class="_child">
+                            <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/support/tutoring-schedule-and-staff/" target="_self">ASAP Tutoring schedule and staff</a>
+                            </li>
+            </ul>
+            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/involvement/" target="_self">Involvement</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/policies/" target="_self">Policies and Handbooks</a>
+                            </li>
+                    <li class="_item menu-item-has-children">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/graduation/" target="_self">Graduation</a>
+                            <button role="button" class="expand-item js-expand-item">
+
+            <svg aria-label="Expand Graduation menu" width="32" height="32" viewBox="0 0 32 32">
+                <title>Expand Graduation menu</title>
+                <g fill="none" fill-rule="evenodd">
+                    <ellipse class="_circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"/>
+                    <path class="_chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"/>
+                </g>
+            </svg>
+
+        </button>
+        <ul class="_child">
+                            <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/graduation/apply-to-graduate/" target="_self">Apply to Graduate</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/graduation/faculty-information/" target="_self">Faculty Information</a>
+                            </li>
+            </ul>
+            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/career/" target="_self">Career</a>
+                            </li>
+            </ul>
+        </li>
+            <li class="_item ">
+            <a href="/inside-ahs/inside-ahs-events" target="_self">Calendar</a>
+                    </li>
+            <li class="_item ">
+            <a href="/inside-ahs/inside-ahs-news" target="_self">News</a>
+                    </li>
+            <li class="_item ">
+            <a href="/inside-ahs/submit" target="_self">Submit</a>
+                    </li>
+            <li class="_item ">
+            <a href="https://ahs.uic.edu/inside-ahs/coronavirus-disease-2019-covid-19/" target="_self">COVID-19</a>
+                    </li>
+    </ul>
+    
+    <div class="l-eyebrow">
+
+                <h2 class="assistive-text">Eyebrow menu</h2>
+        <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
+            <li class="_item ">
+            <a href="/inside-ahs" target="_self">Inside AHS</a>
+                    </li>
+            <li class="_item ">
+            <a href="/directory" target="_self">AHS Directory</a>
+                    </li>
+            <li class="_item ">
+            <a href="/alumni/give-to-ahs/" target="_self">Give to AHS</a>
+                    </li>
+    </ul>
+        
+        <h2 class="assistive-text">UIC menu</h2>
+        <ul class="menu-uic">
+            <li class="_item">
+                <a href="http://uic.edu">UIC.edu</a>
+            </li>
+            <li class="_item">
+                <a href="https://uihealth.uic.edu">UI Health</a>
+            </li>
+            <li class="_item">
+                <a href="http://maps.uic.edu/">Campus Map</a>
+            </li>
+        </ul>
+
+        <button id="search" class="search-toggle">
+      <span class="search-icon">
+        <span class="assistive-text">Search the site</span>
+        <svg aria-label="Search the site" width="22" height="22" viewBox="0 0 22 22">
+            <use xlink:href="/images/svgs/svgs.svg#icon-search"></use>
+        </svg>
+
+      </span>
+        </button>
+
+        <div class="search-input-container">
+            <form method="get" action="/search" role="search" aria-label="Search this site">
+                <input type="text" name="q" class="search-input" placeholder="Search..." tabindex="-1" aria-label="Search" disabled="">
+                <input type="submit" class="submit-button" name="search" value="Submit">
+            </form>
+        </div>
+
+    </div>
+
+
+</nav>
+</div>
+
+        </div>
+
+                    <section class="header__announcement" role="region" aria-label="Announcement">
+                <div class="announcement">
+    <div class="announcement__container-1 l-full">
+        <div class="announcement__container-2">
+            <div class="announcement__container-3">
+                                <a href="https://ahs.uic.edu/inside-ahs/coronavirus-disease-2019-covid-19/">
+                    
+                    <div class="announcement__icon">
+                        <svg class="alert-icon" viewBox="9 8 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-label="Alert icon" role="img">
+    <rect class="alert-icon__lip" stroke="none" x="9" y="23" width="18" height="2.0884394" rx="1"></rect>
+    <path class="alert-icon__cap" d="M21,26 C20.7163641,27.1411202 19.4810001,28 18,28 C16.5189999,28 15.2836359,27.1411202 15,26 L21,26 L21,26 Z"></path>
+    <rect class="alert-icon__middle" stroke="none" x="12.6666667" y="10" width="10.6666667" height="15.0884394" rx="5.33333333"></rect>
+    <path class="alert-icon__side alert-icon__side--right" d="M23.3437399,15.3333384 C23.3437399,19.3571429 23.3437398,23.3333333 26.0104065,23.3333333 L21.3333333,23.3333333 L21.3333334,15.3333333 L23.3437399,15.3333384 Z"></path>
+    <path class="alert-icon__side alert-icon__side--left" d="M12.6666666,15.3333384 C12.6666666,19.3571429 12.6666667,23.3333333 10,23.3333333 L14.6770732,23.3333333 L14.6770731,15.3333333 L12.6666666,15.3333384 Z"></path>
+    <ellipse class="alert-icon__striker" cx="18" cy="10" rx="2" ry="2"></ellipse>
+</svg>
+                    </div>
+                    <h2 class="announcement__title">COVID-19 on Inside AHS</h2>
+                    <div class="announcement__text">COVID-19 updates, resources and announcements for AHS students, faculty and staff</div>
+
+                                    </a>
+                        </div>
+        </div>
+    </div>
+</div>
+            </section>
+        
+        
+                    <a href="#menu-secondary" class="menu-secondary-anchor">
+    View Menu
+    <svg aria-label="Down arrow icon" width="32" height="32" viewBox="0 0 32 32" role="presentation">
+        <title>Down arrow icon</title>
+        <g fill="none" fill-rule="evenodd">
+            <circle class="_circle" stroke-width="1" stroke="#007Da5" fill="#fff" cx="16" cy="16" r="15"/>
+            <path class="_arrow" stroke-width="2" stroke="#001E62" stroke-linecap="round" d="M12 17l4 4 4-4M16 20v-9"/>
+        </g>
+    </svg>
+</a>
+        
+    </header>
+
+    <main>
+        
+    <div class="l-content-wrapper content-with-sidebar">
+    <div class="l-full">
+
+        <div class="l-content">
+            
+            
+            <div id="main">
+
+                <article class="news-post-full">
+
+    <h1 class="news-post-full__title">Transitioning to online teaching at AHS</h1>
+
+        <div class="news-post-full__dateline-and-sharing">
+        <div class="news-post-full__categories-and-date-container">
+                            <div class="news-post-full__categories-container">
+                    <span class="news-post-full__categories-title">Categories: </span>
+                                            <a href="/inside-ahs/inside-ahs-news?category=4688">COVID-19</a>
+                                                            </div>
+            
+            <div class="news-dateline">
+
+            <p class="news-dateline__author">Renee Taylor</p>
+    
+            <p class="news-dateline__date">Monday, March 16, 2020</p>
+    
+</div>
+        </div>
+
+        <section class="share" role="region" aria-label="Share this on Social Media">
+
+            <div class="share__icon share__icon--facebook">
+            <a class="share__link" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fahs.uic.edu%2Finside-ahs%2Fnews%2Ftransitioning-from-remote-to-online-teaching-at-ahs%2F">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Facebook"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>
+            </a>
+        </div>
+    
+            <div class="share__icon share__icon--twitter">
+            <a class="share__link" href="https://twitter.com/intent/tweet?text=Transitioning+to+online+teaching+at+AHS&url=https%3A%2F%2Fahs.uic.edu%2Finside-ahs%2Fnews%2Ftransitioning-from-remote-to-online-teaching-at-ahs%2F">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Twitter"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>
+            </a>
+        </div>
+    
+            <div class="share__icon share__icon--email">
+            <a class="share__link" href="mailto:?subject=Transitioning+to+online+teaching+at+AHS&body=https%3A%2F%2Fahs.uic.edu%2Finside-ahs%2Fnews%2Ftransitioning-from-remote-to-online-teaching-at-ahs%2F">
+                <svg class="email-icon" viewBox="0 0 18 14" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-label="Email"><title>Email</title><g><path d="M18,1c0,-0.552 -0.448,-1 -1,-1l-16,0c-0.552,0 -1,0.448 -1,1l0,12c0,0.552 0.448,1 1,1l16,0c0.552,0 1,-0.448 1,-1l0,-12Z" /><path d="M1.5,12.5l7.5,-8.5l7.5,8.5" class="email-icon__flap" /><path d="M1.5,1.5l7.5,8.5l7.5,-8.5" class="email-icon__flap" /></g></svg>
+            </a>
+        </div>
+    
+</section>
+    </div>
+    
+    
+
+    <div class="news-post-full__body-container">
+
+        
+        <div class="news-post-full__body"></div>
+
+    </div>
+
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            <div class="richtext-component text component component-text-block"><p>The AHS Office of the Dean remains in awe of everyone’s courage and efforts to make it possible to preserve our students’ success and keep them as educationally whole as possible by converting to a 100% online learning and advising environment within a little more than a single business day. <strong>Below are several links to an abundance of information</strong> that you may find useful.</p>
+<p>The UIC Disability Resource Center has put together some <a href="https://docs.google.com/document/d/1lT5sG4IgqzaLUacLbs--Q8mCJbS6RRa6jSl1LqWuFpI/edit">guidelines for accessibility in online teaching</a>. This <a href="https://docs.google.com/document/d/1lT5sG4IgqzaLUacLbs--Q8mCJbS6RRa6jSl1LqWuFpI/edit">Excel spreadsheet outlining external resources for online teaching</a> was assembled is just an example of the beginning of something that could be crowdsourced within your own departments. ACCC has outlined <a href="https://accc.uic.edu/support/academic-continuity/technology-basics-for-academic-continuity-instructor/">technology basics for academic continuity that is instructor focused</a>.</p>
+<p>While we want to support you in your work, our intention is not to make more work for you or add to your current workload, so please do not interpret our sending these resources as anything more than an effort to be supportive. We all acknowledge that the transition to online learning will be gradual, requiring tremendous work on your part.</p>
+<p>Please continue to take care of yourselves and those around you. We will do the same because we want to be here for you and our students. We will continue to keep you posted about matters affecting AHS and your important role in our students’ education.</p>
+<p><a href="https://ahs.uic.edu/directory/fernhall-bo/">Bo Fernhall</a>, Dean and Professor</p>
+<p><a href="https://ahs.uic.edu/occupational-therapy/directory/taylor-renee/">Renee Taylor</a>, Associate Dean for Academic and Faculty Affairs and Professor</p>
+<p><strong>Transitioning from remote to online teaching at AHS<br />
+</strong>The document below was developed with the assumption that many of us are not currently experts in online teaching. In recognizing this, we need to be patient with ourselves as we transition from remote teaching and learning (a more beginning level) to online teaching and learning. One of the best pieces of advice during this transitional process is to start simply and build over time. Below are some online resources with helpful details and recommendations for teaching online and delivering exams, quizzes, etc. online. Though they may seem overwhelming, a lot of information was included to acknowledge that faculty may be at different learning and experience stages.</p>
+<p><strong>Instructional Delivery Tools</strong></p>
+<p><a href="https://help.blackboard.com/Collaborate/Ultra/Participant/Get_Started">Blackboard Collaborate</a> (UIC Supported)<br />
+<strong>What is It</strong>: Online streaming app that permits instructor to share a whiteboard, apps (e.g., PowerPoint/OneNote/ChemDraw), and interact with students through chat/audio/video<br />
+<strong>Benefits</strong>: Easy to Use, Break-out Rooms, Live Streaming, Moderated Chatlog, LMS Integration, Live Polling-Engage<br />
+<strong>Trade-offs</strong>: Clunky Interface, Limited Free Drawing</p>
+<p><a href="http://uic.zoom.us">Zoom</a>/<a href="https://accc.uic.edu/services/communication-collaboration/conferencing/webex-meetings/">Web-Ex</a> (UIC Supported)<strong><br />
+What Are They</strong>: Web-conferencing services<br />
+<strong>Benefits</strong>: Webex is approved for <a href="https://answers.uillinois.edu/uic/75101">telehealth</a>, Each vendor offers different features and integrations<br />
+<strong>Trade-offs</strong>: Both have significantly unique trade-offs</p>
+<p><a href="https://uofi.app.box.com/s/39x6jxlqptj8dum88qqo4c4z4uo9881g">Panopto</a> (UIC Supported)<br />
+<strong>What is It</strong>: Online streaming &amp; video sharing app that permits instructor to share and interact with students through chatlog. Alternatively, pre-recorded videos can be released for scheduled viewing.<br />
+<strong>Benefits</strong>: Shallow Learning Curve, Live Streaming, Moderated Chatlog, LMS Integration, Live-Polling-Engage, Live-Polling-Assess, <a href="https://uic.hosted.panopto.com/Panopto/Pages/Home.aspx">Multiple Short Tutorials Available</a><strong><br />
+Trade-offs</strong>: Stand-alone App, Limited Interactivity, No Embedded Whiteboard</p>
+<p><a href="https://support.echo360.com/hc/en-us">Echo360</a> (UIC Supported, many support links appear broken at UIC)<br />
+<strong>What is It</strong>: Online streaming &amp; video sharing app that permits instructor to live stream a screen share and interact with students through chat. Alternatively, pre-recorded videos can be released for scheduled viewing.<br />
+<strong>Benefits</strong>: Shallow Learning Curve, Live Streaming, Comment Log, LMS Integration, Live-Polling-Engage, Live-Polling-Assess, Integrated Notetaking, Confusion Alerts<br />
+<strong>Trade-offs</strong>: Stand-alone App, Limited Interactivity, No Embedded Whiteboard</p>
+<p><a href="https://www.youtube.com/">YouTube</a><strong><br />
+What is It</strong>: Video sharing app that permits asynchronous comments from students<br />
+<strong>Benefits</strong>: Wide Distribution (anyone can access with permission), Comment Log<br />
+<strong>Trade-offs</strong>: Limited Interactivity, No Live Polling, Inevitable Trolling in Feed</p>
+<p><a href="https://app.reef-education.com/#/login">IClicker/Reef</a><strong><br />
+What Is It</strong>: Interactive polling app that permits students to use a remote inside the classroom or a mobile device from home<br />
+<strong>Benefits</strong>: Many instructors currently using tool in live classrooms. Seamless conversion to mobile for free with <a href="https://docs.google.com/forms/d/e/1FAIpQLSfCUxmEZKS0rsricrOxmZVnj4a4Oxlyi5xzttG4IVIVq4oTQw/viewform">code</a><strong><br />
+Trade-offs</strong>: You will need to screenshare questions and launch iClicker to collect answers.</p>
+<p><strong>Assessing Online<br />
+</strong>IU has created an exceptional <a href="https://keepteaching.iu.edu/resources/docs/exams.html">FAQ</a> regarding different options for online testing. Below are some options available to UIC.</p>
+<p><strong><em>If you want students to complete assessments online</em></strong></p>
+<p><a href="https://help.blackboard.com/Learn/Instructor/Assignments">Blackboard Assignments</a><strong><br />
+What is It</strong>: Tool that permits deliver of timed assignment directly from Blackboard<br />
+<strong>Benefits</strong>: Question Pools, Randomization, Automated Scoring, Partial Credit, Individual Student Scheduling &amp; Timing, File Upload Questions, Wide Variety of Question Types, LMS Integration<br />
+<strong>Trade-offs</strong>: Each question must be created individually in the assessment, No drawing tool for students</p>
+<p><a href="https://createwp.customer.mheducation.com/wordpress-mu/success-academy/using-question-pools/">McGraw-Hill Connect</a><strong><br />
+What is It</strong>: Online tool with pre-populated test bank<br />
+<strong>Benefits</strong>: Question Pools, Randomization, Automated Scoring, Partial Credit, Individual Student Scheduling &amp; Timing<br />
+<strong>Trade-offs</strong>: Available for college chemistry course published by McGraw-Hill</p>
+<p><a href="https://wileyplus.gallery.video/">WileyPlus</a><strong><br />
+What is It</strong>: Online tool with pre-populated test bank instructors can choose from<br />
+<strong>Benefits</strong>: Question Pools, Randomization, Automated Scoring, Partial Credit, Individual Student Scheduling &amp; Timing, Browser Lock-down<br />
+<strong>Trade-offs</strong>: McGraw-Hill textbooks online</p>
+<p><a href="https://www.macmillanlearning.com/college/us/digital/sapling/instructor-benefits">MacMillan</a> (Sapling)<br />
+<strong>What is It</strong>: Online tool with pre-populated test bank instructors can choose from<br />
+<strong>Benefits</strong>: Question Pool, Randomization, Automated Scoring, Partial Credit, Instructor-Created Items<br />
+<strong>Trade-offs</strong>: Limited question types, MacMillan textbooks only</p>
+<p><strong><em>If you want students to complete an assessment at home and return it to you for grading</em></strong></p>
+<p><a href="https://help.blackboard.com/Learn/Instructor/Assignments">Blackboard Assignments</a><br />
+*As above, but upload your exam for students and allow them to download, fill out, scan, and upload back into Blackboard</p>
+<p><a href="https://crowdmark.com/">Crowdmark</a>/<a href="https://www.gradescope.com/">Gradescope</a><strong><br />
+What Are They</strong>: Online <em>grading tools </em>that permit students to uploaded scanned images of their exams for grading<br />
+<strong>Benefits</strong>: Instructor-Created Items, Multiple Choice Grading, Support Tools for Manual Grading by TAs, *Crowdmark is integrated directly into Blackboard<br />
+<strong>Trade-offs</strong>: Automated scoring only for multiple-choice questions only, Learning curve for TAs, Scoring rubric must be built by TAs</p>
+<p><strong><em>If you want to live proctor exams remotely</em></strong></p>
+<p>UIC is currently not providing a proctoring service online, but this may change in the future. In the interim, you have a few options as below.</p>
+<ol>
+<li>Use Blackboard Groups to assign <strong>up to four students</strong> to a video web-conference chatroom (uses a version of the Collaborate tool). Assign a TA to remain in the room with students to live proctor them. Students must have a webcam for this to work. The maximum number of participants in a room (including the TA) is 5. Schedule exam at different times for different students to address limited number of proctors. Record session for later reviewing, if you want. Make sure to turn off all interactive features in Groups so students cannot exchange files. Keep audio on in case students are on different machines in the same room.</li>
+<li>Use Zoom to assign <strong>up to 99 students</strong> to a video web-conference chatroom. Assign a TA to remain in the room with students to live proctor them. Students must have a webcam for this to work. The maximum number of participants in a room (including the TA) is 5. Schedule exam at different times for different students to address limited number of proctors. Zoom only permits 40 minutes of streaming on free accounts. Record session for later reviewing, if you want. Make sure to turn off all interactive features in Groups so students cannot exchange files. Keep audio on in case students are on different machines in the same room.</li>
+<li>Live administer exam through Collaborate or Zoom. You can screen share assessments live in both tools and give students a time limit to upload their responses to Blackboard.</li>
+</ol>
+<p>Key terms<br />
+<em>Break-out Rooms</em>: Separate live streaming rooms for small groups of students to interact with using audio or video. You can join any of these rooms, but students join only those they are assigned to.<br />
+<em>Browser Lock-down</em>: Students install browser plug-in that stops them from navigating away from the assessment to search for answers online.<br />
+<em>Chatlog</em>: Audience can post questions during a live stream that you and your moderators (TAs) can review and respond to in real-time.<br />
+<em>Confusion Alert</em>: Confusion Alert (Students can flag slides/time stamps to indicate they are confused)<br />
+<em>File Upload Questions: </em>Blackboard permits individual questions to be designated as “file upload”; Students can draw an answer and upload a photo of their answer to this specific question.<br />
+<em>Individual Student Scheduling &amp; Timing</em>: Release the same assessment at different times; Provide students with different time limits (useful for accommodations).<br />
+<em>Integrated Notetaking</em>: Students can take notes in the app as they watch your stream/video.<br />
+<em>Live Streaming</em>: Turn on your camera and start broadcasting to a live audience<br />
+<em>LMS Integration</em>: App is currently integrated into Blackboard.<br />
+<em>Live Polling-Assess:</em> Project questions to audience to assess learning-responses are scored<br />
+<em>Live Polling-Engage:</em> Project questions to audience to engage students-responses not scored.<em><br />
+Question Pools</em>: Create a pool of questions and designate how many questions from the pool are delivered to a student. Questions are selected randomly.<br />
+<em>Randomization</em>: Items can be presented to students randomly.<br />
+<em>Video Sharing</em>: Record a video and share online at any time.</p>
+<p>(Parts of this resource represents an AHS version/adaptation of a document that I have modified, with permission from the original creator, Professor Mike Steiff (Chemistry and LSRI), a co-principal-investigator on an HHMI grant project that we have here at UIC. Please note that this is not an endorsement for any of these resources, it is just a gathering of resources. Please vet and discuss with others in your department as to the relevance/viability/safety of what you intend to use.)</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+    
+    
+    
+    
+    
+    
+    
+</article>
+
+            </div>
+
+        
+        </div>
+
+        <div class="l-sidebar content-with-sidebar__sidebar">
+                                                
+    <nav role="navigation" id="menu-secondary" aria-label="Secondary Navigation for Inside AHS section" class="menu-secondary">
+        <div class="_title">
+            <h2><a href="/inside-ahs/">Inside AHS</a></h2>
+            <a class="_back-to-content" href="#main">
+    <svg aria-label="Back to main content" width="32" height="32" viewBox="0 0 32 32">
+        <title>Back to main content</title>
+        <g fill="none" fill-rule="evenodd">
+            <circle class="_circle" fill="#fff" stroke="#007FA5" stroke-width="1" cx="16" cy="16" r="15"/>
+            <path class="_arrow" d="M16 21v-9M12 15l4-4 4 4" stroke="#001E62" stroke-width="2" stroke-linecap="round"/>
+        </g>
+    </svg>
+</a>
+        </div>
+        <ul  class="menu ">
+                            <li class="_item menu-item-has-children">
+                    <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/" target="_self">Faculty and Staff Resources</a>
+                                <button role="button" class="expand-item js-expand-item">
+
+            <svg aria-label="Expand Faculty and Staff Resources menu" width="32" height="32" viewBox="0 0 32 32">
+                <title>Expand Faculty and Staff Resources menu</title>
+                <g fill="none" fill-rule="evenodd">
+                    <ellipse class="_circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"/>
+                    <path class="_chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"/>
+                </g>
+            </svg>
+
+        </button>
+        <ul class="_child">
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/college-awards/" target="_self">AHS Awards</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/communications/" target="_self">Communications</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/ahs-human-resources/" target="_self">Human Resources</a>
+                            </li>
+                    <li class="_item menu-item-has-children">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/office-of-research/" target="_self">Office of Research</a>
+                            <button role="button" class="expand-item js-expand-item">
+
+            <svg aria-label="Expand Office of Research menu" width="32" height="32" viewBox="0 0 32 32">
+                <title>Expand Office of Research menu</title>
+                <g fill="none" fill-rule="evenodd">
+                    <ellipse class="_circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"/>
+                    <path class="_chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"/>
+                </g>
+            </svg>
+
+        </button>
+        <ul class="_child">
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/office-of-research/proposal-development/" target="_self">Proposal Development</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/office-of-research/ahs-approval/" target="_self">AHS Approval</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/office-of-research/external-review/" target="_self">External Review</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/office-of-research/irb-applications/" target="_self">IRB Applications</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/office-of-research/poster-printing/" target="_self">Poster Printing</a>
+                            </li>
+                    <li class="_item menu-item-has-children">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/office-of-research/interdisciplinary-pilot-grants/" target="_self">AHS Interdisciplinary Pilot Grant Program</a>
+                            <button role="button" class="expand-item js-expand-item">
+
+            <svg aria-label="Expand AHS Interdisciplinary Pilot Grant Program menu" width="32" height="32" viewBox="0 0 32 32">
+                <title>Expand AHS Interdisciplinary Pilot Grant Program menu</title>
+                <g fill="none" fill-rule="evenodd">
+                    <ellipse class="_circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"/>
+                    <path class="_chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"/>
+                </g>
+            </svg>
+
+        </button>
+        <ul class="_child">
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/office-of-research/interdisciplinary-pilot-grants/interdisciplinary-pilot-grant-past-awardees/" target="_self">AHS Interdisciplinary Pilot Grant recipients</a>
+                            </li>
+            </ul>
+            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/faculty-and-staff-resources/office-of-research/funding-agency-newsletters/" target="_self">Funding Agency Newsletters</a>
+                            </li>
+            </ul>
+            </li>
+            </ul>
+                </li>
+                            <li class="_item menu-item-has-children">
+                    <a href="https://ahs.uic.edu/inside-ahs/student-resources/" target="_self">Student Resources</a>
+                                <button role="button" class="expand-item js-expand-item">
+
+            <svg aria-label="Expand Student Resources menu" width="32" height="32" viewBox="0 0 32 32">
+                <title>Expand Student Resources menu</title>
+                <g fill="none" fill-rule="evenodd">
+                    <ellipse class="_circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"/>
+                    <path class="_chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"/>
+                </g>
+            </svg>
+
+        </button>
+        <ul class="_child">
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/new-students/" target="_self">New Students</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/advising/" target="_self">Advising</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/registration/" target="_self">Registration and Forms</a>
+                            </li>
+                    <li class="_item menu-item-has-children">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/support/" target="_self">Support</a>
+                            <button role="button" class="expand-item js-expand-item">
+
+            <svg aria-label="Expand Support menu" width="32" height="32" viewBox="0 0 32 32">
+                <title>Expand Support menu</title>
+                <g fill="none" fill-rule="evenodd">
+                    <ellipse class="_circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"/>
+                    <path class="_chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"/>
+                </g>
+            </svg>
+
+        </button>
+        <ul class="_child">
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/support/tutoring-schedule-and-staff/" target="_self">ASAP Tutoring schedule and staff</a>
+                            </li>
+            </ul>
+            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/involvement/" target="_self">Involvement</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/policies/" target="_self">Policies and Handbooks</a>
+                            </li>
+                    <li class="_item menu-item-has-children">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/graduation/" target="_self">Graduation</a>
+                            <button role="button" class="expand-item js-expand-item">
+
+            <svg aria-label="Expand Graduation menu" width="32" height="32" viewBox="0 0 32 32">
+                <title>Expand Graduation menu</title>
+                <g fill="none" fill-rule="evenodd">
+                    <ellipse class="_circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"/>
+                    <path class="_chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"/>
+                </g>
+            </svg>
+
+        </button>
+        <ul class="_child">
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/graduation/apply-to-graduate/" target="_self">Apply to Graduate</a>
+                            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/graduation/faculty-information/" target="_self">Faculty Information</a>
+                            </li>
+            </ul>
+            </li>
+                    <li class="_item ">
+                <a href="https://ahs.uic.edu/inside-ahs/student-resources/career/" target="_self">Career</a>
+                            </li>
+            </ul>
+                </li>
+                            <li class="_item ">
+                    <a href="/inside-ahs/inside-ahs-events" target="_self">Calendar</a>
+                                    </li>
+                            <li class="_item ">
+                    <a href="/inside-ahs/inside-ahs-news" target="_self">News</a>
+                                    </li>
+                            <li class="_item ">
+                    <a href="/inside-ahs/submit" target="_self">Submit</a>
+                                    </li>
+                            <li class="_item ">
+                    <a href="https://ahs.uic.edu/inside-ahs/coronavirus-disease-2019-covid-19/" target="_self">COVID-19</a>
+                                    </li>
+                    </ul>
+    </nav>
+                                    </div>
+
+    </div>
+</div>
+
+    </main>
+
+                        <div class="promos   promos--with-social" role="complementary" aria-label="Promos">
+    <div class="billboards">
+        <div class="l-full">
+            <div class="promos__container">
+
+                
+                
+                                    <div class="promos__social">
+                        <h2 class="promos__social-header">Follow Inside AHS</h2>
+                        <div class="promos__social-links">
+                            <ul class="social-links">
+            <li>
+            <a class="social-links__facebook" href="https://www.facebook.com/UICAHS/">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Facebook"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>
+            </a>
+        </li>
+                <li>
+            <a class="social-links__twitter" href="https://www.twitter.com/UICAHS">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Twitter"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>
+            </a>
+        </li>
+                <li>
+            <a class="social-links__linkedin" href="https://www.linkedin.com/school/uicahs/">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="97 40 19 20" aria-label="LinkedIn"><title>LinkedIn</title><path d="M97.1530891,59 L100.989423,59 L100.989423,46.2122188 L97.1530891,46.2122188 L97.1530891,59 Z M99.5526745,40 C98.884652,40 98.3121208,40.2395578 97.8496757,40.7122794 C97.3872306,41.1845748 97.1532976,41.7702552 97.1532976,42.4526964 C97.1532976,43.1355639 97.3872306,43.7212443 97.8496757,44.1935397 C98.3121208,44.6662613 98.884652,44.9058191 99.5526745,44.9058191 C100.220697,44.9058191 100.793228,44.6662613 101.255673,44.1935397 C101.718118,43.7212443 101.952051,43.1355639 101.952051,42.4526964 C101.952051,41.7702552 101.718118,41.1845748 101.255673,40.7122794 C100.793228,40.2395578 100.220697,40 99.5526745,40 Z M114.577803,47.1791882 C113.643739,46.1825938 112.471572,45.6774765 111.092994,45.6774765 C110.029245,45.6774765 109.040555,46.0197627 108.14402,46.6966626 L108.14402,45.8812284 L103.92155,45.8812284 L103.92155,58.9997869 L108.14402,58.9997869 L108.14402,51.7376059 C108.14402,50.9059739 108.342926,50.3040957 108.751996,49.898723 C109.164402,49.489514 109.633102,49.2904509 110.183115,49.2904509 C110.915355,49.2904509 111.756012,49.5581418 111.756012,51.6468127 L111.756012,58.9997869 L115.978482,58.9997869 L115.978482,51.1250712 C115.978482,49.4980392 115.50728,48.1706675 114.577803,47.1791882 Z"></path></svg>
+            </a>
+        </li>
+                <li>
+            <a class="social-links__instagram" href="https://www.instagram.com/uicahs/">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Instagram"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>            </a>
+        </li>
+                <li>
+            <a class="social-links__youtube" href="https://www.youtube.com/channel/UC8xaGDqRHnWEsbFZy0dkTrA">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Youtube"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>            </a>
+        </li>
+                    <li>
+            <a class="social-links__hashtags" href="http://ahs.uic.edu/social-media/">
+                <svg width="16px" height="18px" viewBox="4 3 16 18" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M7.418419,16 L5,16 C4.447715,16 4,15.5522847 4,15 C4,14.4477153 4.447715,14 5,14 L7.704133,14 L8.275562,10 L6,10 C5.447715,10 5,9.5522847 5,9 C5,8.44771525 5.447715,8 6,8 L8.561276,8 L9.010051,4.85857864 C9.088155,4.31184464 9.594687,3.93194565 10.141421,4.01005051 C10.688155,4.08815536 11.068054,4.59468735 10.989949,5.14142136 L10.581581,8 L14.561276,8 L15.010051,4.85857864 C15.088155,4.31184464 15.594687,3.93194565 16.141421,4.01005051 C16.688155,4.08815536 17.068054,4.59468735 16.989949,5.14142136 L16.581581,8 L19,8 C19.552285,8 20,8.44771525 20,9 C20,9.5522847 19.552285,10 19,10 L16.295867,10 L15.724438,14 L18,14 C18.552285,14 19,14.4477153 19,15 C19,15.5522847 18.552285,16 18,16 L15.438724,16 L14.989949,19.1414214 C14.911845,19.6881554 14.405313,20.0680544 13.858579,19.9899495 C13.311845,19.9118446 12.931946,19.4053127 13.010051,18.8585786 L13.418419,16 L9.438724,16 L8.989949,19.1414214 C8.911845,19.6881554 8.405313,20.0680544 7.858579,19.9899495 C7.311845,19.9118446 6.931946,19.4053127 7.010051,18.8585786 L7.418419,16 Z M13.704133,14 L14.275562,10 L10.295867,10 L9.724438,14 L13.704133,14 Z"></path>
+</svg>            </a>
+        </li>
+    </ul>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+            
+    <footer id="footer" class="footer u-dark-region" role="contentinfo">
+
+
+    <div class="footer-contact">
+        <div class="l-full">
+
+            <div class="footer-contact__mega">
+
+                <div class="footer-mega__brand">
+                    <div class="footer-mega__college-name">
+                        <a href="http://ahs.uic.edu/">
+                                                                                                <span class="_line">College of<br /></span>
+                                                                    <span class="_line">Applied Health<br /></span>
+                                                                    <span class="_line">Sciences</span>
+                                                                                    </a>
+                    </div>
+                    <div class="footer-mega__ui-health-logo">
+                        <a href="https://uihealth.uic.edu/" class="ui-health-logo-link ">
+    <svg class="ui-health-logo" aria-label="UI Health" viewBox="0 0 1050 150" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+         clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+        <title>UI Health Logo</title>
+        <g fill="#fff" fill-rule="nonzero" class="_uih-mark">
+            <path d="M0 61.638h54.48v11H0z"/>
+            <path d="M43.738 18.671v26.85H.005v10.996H54.48V18.671H43.738z"/>
+            <path d="M42.968 76.971h11v54.475h-11z"/>
+            <path d="M.003 76.971v10.738h26.846v43.737h11.004V76.971H.003z"/>
+            <path d="M58.563 18.417h10.996v54.475H58.563z"/>
+            <path d="M85.676 62.155V18.417h-11v54.475h37.846V62.155H85.676z"/>
+            <path d="M58.043 77.225h54.479v11h-54.48l.001-11z"/>
+            <path d="M112.523 93.342H58.044v37.85h10.742v-26.854h43.737V93.342z"/>
+        </g>
+        <path class="_uic-mark-text" fill="none"
+              d="M1047.515 75.005c0-29.892-24.236-54.13-54.127-54.13-29.9 0-54.135 24.234-54.135 54.13 0 29.895 24.236 54.129 54.135 54.129 29.89 0 54.127-24.234 54.127-54.13"/>
+        <path class="_uic-mark-circle" fill="#fff" fill-rule="nonzero"
+              d="M1039.889 67.505l-9.59 4.604c-.92-3.575-2.92-5.684-6.39-5.684-4.71 0-7.1 3.9-7.1 10.284 0 6.341 2.39 10.137 7.1 10.137 3.25 0 5.15-1.733 6.18-4.604l10.02 3.57c-2.6 5.913-7.85 9.972-16.25 9.972-11.65 0-18.32-7.8-18.32-19.075 0-11.317 7.05-19.063 18.54-19.063 8.78 0 13.97 5.038 15.81 9.859m-39.71 27.629h-11.05V58.292h11.05v36.842zm-17.77-15.059c0 5.146-.54 7.634-2 10.13-2.44 4.066-8.94 5.633-14.62 5.633-5.7 0-12.2-1.567-14.63-5.633-1.47-2.496-2.02-4.984-2.02-10.13V58.292h11.06v21.996c0 2.492.33 4.12 1.25 5.204.87 1.03 2.27 1.517 4.34 1.517 2.05 0 3.46-.488 4.33-1.517.92-1.083 1.24-2.712 1.24-5.204V58.292h11.05v21.783zm67.46-5.07c0-31.192-25.29-56.484-56.48-56.484-31.2 0-56.49 25.288-56.49 56.484 0 31.195 25.29 56.483 56.49 56.483 31.19 0 56.48-25.288 56.48-56.483"/>
+        <path class="_divider" fill="#fff" d="M865.929 0h3v150h-3z"/>
+        <g fill="#fff" fill-rule="nonzero" class="_text">
+            <path d="M153.449 83.963v-62.93h8v62.16c0 25.387 13.692 40.003 36.463 40.003 21.85 0 35.854-13.233 35.854-39.233v-62.93h8v62.005c0 30.93-18.004 47.392-44.158 47.392-25.85 0-44.158-16.309-44.158-46.467"/>
+            <path d="M270.097 21.034h8v107.704h-8z"/>
+            <path d="M526.155 85.809c-1.079-15.846-10.154-30.463-28.158-30.463-15.537 0-27.542 13.08-28.925 30.463h57.083zm-65.083 3.85v-.309c0-22.775 16-40.925 37.233-40.925 22.005 0 36.005 17.842 36.005 41.08 0 1.383 0 1.845-.15 3.075h-65.088c1.383 19.541 15.388 30.925 30.77 30.925 12.16 0 20.468-5.384 26.93-12.309l5.23 4.617c-8 8.617-17.388 14.77-32.467 14.77-20.617 0-38.463-16.462-38.463-40.924M607.255 99.35v-8.925c-6.612-1.691-15.383-3.537-26.616-3.537-16.617 0-25.85 7.383-25.85 18.308v.309c0 11.383 10.77 18 22.775 18 16 0 29.691-9.846 29.691-24.155m-60.466 6.617v-.308c0-16.309 14.004-25.542 34.308-25.542 10.925 0 18.467 1.388 26.008 3.383v-3.383c0-15.846-9.695-24-25.85-24-9.537 0-17.387 2.617-24.616 6.308l-2.775-6.616c8.616-4 17.079-6.771 27.854-6.771 10.617 0 19.075 2.925 24.767 8.617 5.233 5.233 8 12.462 8 22.154v48.929h-7.38v-13.08c-5.387 7.542-15.083 14.926-30.004 14.926-14.62 0-30.312-8.309-30.312-24.617M357.351 21.034h8v49.85h68.93v-49.85h8v107.704h-8V78.271h-68.93v50.467h-8V21.034z"/>
+            <path d="M639.585 16.421h7.541v112.317h-7.541zM677.901 108.584V57.196h-11.387v-6.925h11.387V25.192h7.542v25.08h27.538v6.924h-27.538v50.617c0 11.233 6.613 15.233 15.692 15.233 3.846 0 7.079-.77 11.541-2.77v7.079c-4.004 1.845-7.85 2.766-12.775 2.766-12.131 0-21.963-6.591-22-21.537zM732.222 16.421h7.542v48.463c5.23-9.23 14-16.459 28.304-16.459 19.851 0 31.391 13.538 31.391 32.309v48.004h-7.54v-46.62c0-16.155-9.08-26.772-24.921-26.772-15.388 0-27.234 11.692-27.234 28v45.392h-7.542V16.421z"/>
+        </g>
+    </svg>
+</a>
+                    </div>
+                </div>
+
+                <div class="footer-mega__menus">
+                    <div class="quick-menus _quick-menus">
+
+                                                <nav class="quick-menu" id="footer-menu-1" aria-labelledby="footer-menu-1-title">
+                            <h2 id="footer-menu-1-title">Quick Links</h2>
+                            <ul id="menu-quick-1" class="menu menu-quick-1" aria-label="Quick Links">
+            <li class="_item ">
+            <a href="/events" target="_self">Calendar</a>
+                    </li>
+            <li class="_item ">
+            <a href="/directory" target="_self">Directory</a>
+                    </li>
+            <li class="_item ">
+            <a href="/news" target="_self">News</a>
+                    </li>
+            <li class="_item ">
+            <a href="/inside-ahs" target="_self">Inside AHS</a>
+                    </li>
+            <li class="_item ">
+            <a href="/inside-ahs/student-resources/graduation/" target="_self">Graduation</a>
+                    </li>
+    </ul>
+                        </nav>
+                        
+                                                <nav class="quick-menu" id="footer-menu-2" aria-labelledby="footer-menu-2-title">
+                            <h2 id="footer-menu-2-title">Resources</h2>
+                            <ul id="menu-quick-2" class="menu menu-quick-2" aria-label="Resources">
+            <li class="_item ">
+            <a href="/inside-ahs/student-resources/academic-support-and-achievement-program/" target="_self">Academic Support and Achievement Program</a>
+                    </li>
+            <li class="_item ">
+            <a href="/inside-ahs/student-resources/" target="_self">Student Resources</a>
+                    </li>
+            <li class="_item ">
+            <a href="/inside-ahs/faculty-and-staff-resources/" target="_self">Faculty and Staff Resources</a>
+                    </li>
+            <li class="_item ">
+            <a href="http://catalog.uic.edu/ucat/academic-calendar/" target="_self">Academic Calendar</a>
+                    </li>
+    </ul>
+                        </nav>
+                        
+                                                <nav class="quick-menu" id="footer-menu-3" aria-labelledby="footer-menu-3-title">
+                            <h2 id="footer-menu-3-title">Tools</h2>
+                            <ul id="menu-quick-3" class="menu menu-quick-3" aria-label="Tools">
+            <li class="_item ">
+            <a href="https://my.uic.edu/common/" target="_self">myUIC</a>
+                    </li>
+            <li class="_item ">
+            <a href="http://www.uic.edu/depts/accc/google/" target="_self">GoogleApps@UIC</a>
+                    </li>
+            <li class="_item ">
+            <a href="https://webmail.uic.edu/" target="_self">Webmail</a>
+                    </li>
+            <li class="_item ">
+            <a href="http://uic.blackboard.com/" target="_self">Blackboard</a>
+                    </li>
+            <li class="_item ">
+            <a href="https://nessie.uihr.uillinois.edu/cf/index.cfm" target="_self">Nessie</a>
+                    </li>
+    </ul>
+                        </nav>
+                        
+                    </div>
+
+                                        <div class="button-menus _button-menus">
+                        <nav class="button-menu" id="footer-menu-4" aria-labelledby="footer-menu-4-title">
+                            <h2 id="footer-menu-4-title">Connect with AHS</h2>
+
+                            <ul id="button-menu" class="menu button-menu" aria-label="Connect with AHS">
+            <li class="_item ">
+            <a href="/contact" target="_self">Contact us</a>
+                    </li>
+            <li class="_item ">
+            <a href="/applying" target="_self">Apply Now</a>
+                    </li>
+            <li class="_item ">
+            <a href="/alumni/give-to-ahs/" target="_self">Give to AHS</a>
+                    </li>
+    </ul>
+
+                        </nav>
+                    </div>
+                    
+                </div>
+
+                <div class="footer-mega__contact">
+
+                    <div class="_contact">
+                                                    <div class="site-address">1919 W Taylor St, Chicago, IL 60612</div>
+                                                                            <div class="site-phone">312-996-6695</div>
+                                                                            <div class="site-email"><a href="mailto:ahsinfo@uic.edu">ahsinfo@uic.edu</a></div>
+                                            </div>
+
+
+                    <div aria-label="Social Media Accounts" class="_social">
+    <h2 class="assistive-text">Social Media Accounts</h2>
+    <div class="site-social-links">
+        <ul class="social-links">
+            <li>
+            <a class="social-links__facebook" href="https://www.facebook.com/UICAHS/">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Facebook"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>
+            </a>
+        </li>
+                <li>
+            <a class="social-links__twitter" href="https://www.twitter.com/UICAHS">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Twitter"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>
+            </a>
+        </li>
+                <li>
+            <a class="social-links__linkedin" href="https://www.linkedin.com/company/18256505/">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="97 40 19 20" aria-label="LinkedIn"><title>LinkedIn</title><path d="M97.1530891,59 L100.989423,59 L100.989423,46.2122188 L97.1530891,46.2122188 L97.1530891,59 Z M99.5526745,40 C98.884652,40 98.3121208,40.2395578 97.8496757,40.7122794 C97.3872306,41.1845748 97.1532976,41.7702552 97.1532976,42.4526964 C97.1532976,43.1355639 97.3872306,43.7212443 97.8496757,44.1935397 C98.3121208,44.6662613 98.884652,44.9058191 99.5526745,44.9058191 C100.220697,44.9058191 100.793228,44.6662613 101.255673,44.1935397 C101.718118,43.7212443 101.952051,43.1355639 101.952051,42.4526964 C101.952051,41.7702552 101.718118,41.1845748 101.255673,40.7122794 C100.793228,40.2395578 100.220697,40 99.5526745,40 Z M114.577803,47.1791882 C113.643739,46.1825938 112.471572,45.6774765 111.092994,45.6774765 C110.029245,45.6774765 109.040555,46.0197627 108.14402,46.6966626 L108.14402,45.8812284 L103.92155,45.8812284 L103.92155,58.9997869 L108.14402,58.9997869 L108.14402,51.7376059 C108.14402,50.9059739 108.342926,50.3040957 108.751996,49.898723 C109.164402,49.489514 109.633102,49.2904509 110.183115,49.2904509 C110.915355,49.2904509 111.756012,49.5581418 111.756012,51.6468127 L111.756012,58.9997869 L115.978482,58.9997869 L115.978482,51.1250712 C115.978482,49.4980392 115.50728,48.1706675 114.577803,47.1791882 Z"></path></svg>
+            </a>
+        </li>
+                <li>
+            <a class="social-links__instagram" href="https://www.instagram.com/uicahs/">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Instagram"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>            </a>
+        </li>
+                <li>
+            <a class="social-links__youtube" href="https://www.youtube.com/channel/UC8xaGDqRHnWEsbFZy0dkTrA">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Youtube"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>            </a>
+        </li>
+                    <li>
+            <a class="social-links__hashtags" href="http://ahs.uic.edu/social-media/">
+                <svg width="16px" height="18px" viewBox="4 3 16 18" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M7.418419,16 L5,16 C4.447715,16 4,15.5522847 4,15 C4,14.4477153 4.447715,14 5,14 L7.704133,14 L8.275562,10 L6,10 C5.447715,10 5,9.5522847 5,9 C5,8.44771525 5.447715,8 6,8 L8.561276,8 L9.010051,4.85857864 C9.088155,4.31184464 9.594687,3.93194565 10.141421,4.01005051 C10.688155,4.08815536 11.068054,4.59468735 10.989949,5.14142136 L10.581581,8 L14.561276,8 L15.010051,4.85857864 C15.088155,4.31184464 15.594687,3.93194565 16.141421,4.01005051 C16.688155,4.08815536 17.068054,4.59468735 16.989949,5.14142136 L16.581581,8 L19,8 C19.552285,8 20,8.44771525 20,9 C20,9.5522847 19.552285,10 19,10 L16.295867,10 L15.724438,14 L18,14 C18.552285,14 19,14.4477153 19,15 C19,15.5522847 18.552285,16 18,16 L15.438724,16 L14.989949,19.1414214 C14.911845,19.6881554 14.405313,20.0680544 13.858579,19.9899495 C13.311845,19.9118446 12.931946,19.4053127 13.010051,18.8585786 L13.418419,16 L9.438724,16 L8.989949,19.1414214 C8.911845,19.6881554 8.405313,20.0680544 7.858579,19.9899495 C7.311845,19.9118446 6.931946,19.4053127 7.010051,18.8585786 L7.418419,16 Z M13.704133,14 L14.275562,10 L10.295867,10 L9.724438,14 L13.704133,14 Z"></path>
+</svg>            </a>
+        </li>
+    </ul>
+    </div>
+</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="footer-uic-menu">
+        <div class="l-full">
+
+            <div aria-label="UIC.edu Links">
+    <h2 class="assistive-text">UIC.edu links</h2>
+    <ul class="uic-footer-menu">
+        <li><strong><a href="http://uic.edu/">UIC.edu</a></strong></li>
+        <li><a href="http://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></li>
+        <li><a href="http://www.uicflames.com/">Athletics</a></li>
+        <li><a href="http://www.uic.edu/apps/departments-az/search">Campus Directory</a></li>
+        <li><a href="http://disabilityresources.uic.edu/">Disability Resources</a></li>
+        <li><a href="http://emergency.uic.edu/">Emergency Information</a></li>
+        <li><a href="http://events.uic.edu/">Event Calendar</a></li>
+        <li><a href="http://uic.edu/about/job-opportunities">Job Openings</a></li>
+        <li><a href="http://library.uic.edu/">Library</a></li>
+        <li><a href="http://maps.uic.edu/">Maps</a></li>
+        <li><a href="http://news.uic.edu/uicnews">UIC News</a></li>
+        <li><a href="http://hospital.uillinois.edu/">UI Health</a></li>
+        <li><a href="http://www.uic.edu/depts/dos/studentveteranaffairs.shtml">Veterans Affairs</a></li>
+    </ul>
+</div>
+
+        </div>
+    </div>
+
+
+    <div class="footer-legal">
+        <div class="l-full">
+
+            <div class="site-copyright">
+    &copy; 2020 The Board of Trustees of the University of Illinois
+    <span class="pipe-separator">|</span>
+    <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a>
+</div>
+
+<div class="campuses" aria-label="Campuses">
+    <h2 class="assistive-text">Campuses</h2>
+    <ul class="campuses-list">
+                    <li><a href="http://www.uillinois.edu/">University of Illinois System</a></li>
+                    <li><a href="http://www.illinois.edu/">Urbana-Champaign</a></li>
+                    <li><a href="http://www.uis.edu/">Springfield</a></li>
+            </ul>
+</div>
+
+        </div>
+    </div>
+
+</footer>
+
+
+</div>
+
+
+
+<script src="/js/main.js" async></script>
+
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-88207893-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>

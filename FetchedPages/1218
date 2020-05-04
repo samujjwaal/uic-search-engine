@@ -1,236 +1,289 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-	<meta charset="utf-8">
-	<title>evl | electronic visualization laboratory</title>
-	<link rel="stylesheet" href="/style.css">
-	<script>
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-26425659-14']);
-		_gaq.push(['_trackPageview']);
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
+	<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="pingback" href="https://ccbmdr.ahslabs.uic.edu/xmlrpc.php" />
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
 	</script>
-</head>
-<body>
-	<div id="header_area">
-		<table style="width:1030px; height:104px;" class="fixedTable">
-			<tr>
-				<td style="width:254px; height:104px;">
-					<div id="header_logo">
-						<a href="/index.php"><img
-							src="/misc/logo.png"
-							onmouseover="this.src='/misc/logo_on.png';"
-							onmouseout="this.src='/misc/logo.png';"
-							alt="evl"
-							title="evl"
-							width="250"
-							height="100"
-						></a>
-					</div>
-				</td>
-				<td style="width:776px; height:104px;">
-					<table style="width:776px; height:104px;" class="fixedTable">
-						<tr>
-							<td style="width:496px; height:48px;">
-								<div class="header_menu">
-									<a href="/menuPage.php?id=5"><h3>About</h3></a>
-									<a href="/menuPage.php?id=4"><h3>Location</h3></a>
-									<a href="/list.php?id=2"><h3>People</h3></a>
-									<a href="/menuPage.php?id=3"><h3>Join Us</h3></a>
-								</div>
-							</td>
-							<td style="width:56px; height:48px;">
-								<div class="header_social">
-									<a href="http://www.youtube.com/user/evltube" target="_blank"><img
-										src="/misc/youtube.png"
-										onmouseover="this.src='/misc/youtube_on.png';"
-										onmouseout="this.src='/misc/youtube.png';"
-										alt=""
-										title="YouTube"
-										width="44"
-										height="44"
-									></a>
-								</div>
-							</td>
-							<td style="width:56px; height:48px;">
-								<div class="header_social">
-									<a href="https://www.facebook.com/UIC.EVL" target="_blank"><img
-										src="/misc/facebook.png"
-										onmouseover="this.src='/misc/facebook_on.png';"
-										onmouseout="this.src='/misc/facebook.png';"
-										alt=""
-										title="Facebook"
-										width="44"
-										height="44"
-									></a>
-								</div>
-							</td>
-							<td style="width:56px; height:48px;">
-								<div class="header_social">
-									<a href="https://twitter.com/evl_uic" target="_blank"><img
-										src="/misc/twitter.png"
-										onmouseover="this.src='/misc/twitter_on.png';"
-										onmouseout="this.src='/misc/twitter.png';"
-										alt=""
-										title="Twitter"
-										width="44"
-										height="44"
-									></a>
-								</div>
-							</td>
-							<td style="width:56px; height:48px;">
-								<div class="header_social">
-									<a href="/menuPage.php?id=2"><img
-										src="/misc/donate.png"
-										onmouseover="this.src='/misc/donate_on.png';"
-										onmouseout="this.src='/misc/donate.png';"
-										alt=""
-										title="Donate"
-										width="44"
-										height="44"
-									></a>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<td colspan="6" style="width:776px; height:8px;"></td>
-						</tr>
-						<tr>
-							<td style="width:496px; height:48px;">
-								<div class="header_menu">
-									<a href="/list.php?id=3"><h3>Events</h3></a>
-									<a href="/list.php?id=4"><h3>Papers</h3></a>
-									<a href="/list.php?id=5"><h3>Research</h3></a>
-									<a href="/list.php?id=1"><h3>Art</h3></a>
-								</div>
-							</td>
-							<td colspan="5" style="vertical-align:middle; width:280px; height:48px;">
-								<form action="/search.php" method="get">
-									<input id="header_search" name="search" type="search" placeholder="Search" maxlength="32">
-								</form>
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-		</table>
-	</div>
-<!-- Begin Content -->
-<!-- Begin Entry -->
-<table id='entry_area' class='fixedTable'>
-	<tr>
-		<td style='width:676px;'>
-			<div id='entry_info'>
-<!-- Begin Entry Info -->
-<h3>&ldquo;Continuum&rdquo; Supports Distributed Scientists In Intensive Collaborative Sessions</h3><br>
-<div class='entry_content'>
-	<strong>Participants:</strong> <a href='/entry.php?id=168'>Allan Spale</a>, <a href='/entry.php?id=215'>Gideon Goldman</a>, <a href='/entry.php?id=21'>Jason Leigh</a><br><br>
-	Chicago, IL<br><br>
-<!-- Begin Entry Description -->
-Specially equipped rooms in a business headquarters used for conferences and planning, often referred to as war rooms, contain media intended to support or facilitate intense problem solving sessions. While flip-style tablets and white boards have long given way to computer technology and videoconferencing, these rooms remain largely self-contained. Researchers at University of Illinois at Chicago&rsquo;s Electronic Visualization Laboratory (EVL) have developed a high-tech war room for scientists called the Continuum, where distributed collaborators solve problems assisted by advanced collaboration, computation and visualization technologies backed by PC clusters connected over gigabit networks.<br><br>
-
-At this year&rsquo;s National Center for Supercomputing Applications (NCSA) Private Sector Program Annual Meeting April 26-28, EVL associate professor Jason Leigh and Ph.D. student Allan Spale will demonstrate three core technologies of the Continuum Project - GeoWall, TeraVision and Access Grid.<br><br>
-
-EVL&rsquo;s Continuum Project aims to develop integrated ubiquitous tools environments to enhance collaboration. These include interactive stereoscopic displays, multi-site audio / video conferencing, and high-resolution tiled displays.<br><br>
-
-&ldquo;We want to understand how to build rooms with walls made of high-resolution displays capable of both stereoscopic and monoscopic projection - allowing scientists and decision makers to see all of their data, all of the time,&rdquo; said Leigh. &ldquo;We believe display-rich environments are a powerful way to enhance group awareness in distance collaborations. It&rsquo;s something that today&rsquo;s basic video conferencing tools have great difficulty conveying.&rdquo;<br><br>
-
-Working in a collaborative session between EVL in Chicago, the Technology Research, Education, and Commercialization Center (TRECC) in DuPage County and Beckman Institute in University of Illinois at Urbana-Champaign (UIUC), Leigh and Spale will operate two applications, MAEviz and ImmersaView.<br><br>
-
-MAEviz is an interactive visualization tool for earthquake risk assessment developed by UIUC&rsquo;s Mid-America Earthquake Center (MAE Center) in collaboration with NCSA. ImmersaView is an EVL-developed tool for viewing stereoscopic three-dimensional data sets on the GeoWall, its portable, passive-stereo projection system.<br><br>
-
-Graphics from MAEviz will be streamed to the collaborators at NCSA and TRECC using EVL&rsquo;s TeraVision, a system for real-time high-resolution graphics distribution. The AccessGrid will provide videocasting as well as a standardized environment for launching collaborative applications such as ImmersaView.<br><br>
-
-&ldquo;Our goal with the Continuum Project is to make long-distance partnerships more productive,&rdquo; said Tom Prudhomme, Senior Associate Director of NCSA&rsquo;s Cybercommunities Directorate and the leader of the TRECC project. &ldquo;Continuum combines the hardware, software, networks, and techniques that can enable researchers and knowledge workers to transcend geographic boundaries.&rdquo;<br><br>
-
-TRECC, located at the DuPage County Airport, is a UIUC program funded by the Office of Naval Research (ONR) and administered by NCSA. It supports innovative research in advanced information technologies and their application for the Navy R&amp;D community. It also provides the DuPage business and education communities access to next-generation technologies and commercialization opportunities.<br><br>
-
-NCSA&rsquo;s Private Sector Program provides a competitive edge to American companies, allowing them to access the emerging technologies and innovations developed by NCSA and its partners. Through partnerships with leading-edge companies, NCSA ensures that its developments address real-world challenges. The current industrial partners are Allstate, Boeing, Caterpillar, Motorola and Sears.<br><br>
-
-<em>The NCSA Private Sector Program meeting takes place April 26-28 at University of Illinois at Urbana-Champaign&rsquo;s Beckman Institute.</em><br><br>
-
-<strong>About the Electronic Visualization Laboratory (EVL):</strong><br>
-EVL is an interdisciplinary laboratory offering degrees in computer science and art, and specializing in virtual reality over high-speed networks. Located at the University of Illinois at Chicago, EVL&rsquo;s funded research projects include tele-immersion and collaboration software, the development of viable, scalable, deployable stereo displays, and management of next-generation advanced networking initiatives. For the past several years, EVL has been conducting research in next-generation VR devices, to construct variable resolution and desktop/office-sized displays.<br><br>
-
-<strong>About the National Center for Supercomputing Applications (NCSA):</strong><br>
-NCSA is a national high-performance computing center that develops and deploys cutting-edge computing, networking and information technologies. Located at the University of Illinois at Urbana-Champaign UIUC), NCSA is funded by the National Science Foundation. Additional support comes from the state of Illinois, the University of Illinois, private sector partners and other federal agencies.<br><br>
-
-<strong>For More Information Please Contact:</strong><br>
-Trish Barker<br>
-National Center for Supercomputing Applications<br>
-University of Illinois, Urbana-Champaign<br><br>
-<!-- End Entry Description -->
-	<strong>Email:</strong> <a href='mailto:tlbarker@ncsa.uiuc.edu'>tlbarker@ncsa.uiuc.edu</a><br><br>
-	<strong>Date:</strong> April 26, 2004 - April 28, 2004
-</div>
-<!-- End Entry Info -->
-			</div>
-		</td>
-		<td style='width:374px;'>
-			<div id='entry_sidebar'>
-<!-- Begin Entry Sidebar -->
-<div id='entry_image_small'>
-	<img src='/misc/default_700x272.png' alt='' title='&ldquo;Continuum&rdquo; Supports Distributed Scientists In Intensive Collaborative Sessions' width='350' height='136'>
-</div>
-<div class='entry_content'>
-	<h3>Related Entries</h3>
-	<strong>Directory:</strong><br>
-	<ul>
-		<li><a href='/entry.php?id=21'>Jason Leigh</a></li>
-		<li><a href='/entry.php?id=168'>Allan Spale</a></li>
-		<li><a href='/entry.php?id=215'>Gideon Goldman</a></li>
-	</ul><br>
-	<strong>Papers:</strong><br>
-	<ul>
-		<li><a href='/entry.php?id=1361'>Enhancing Cooperative Work In Amplified Collaboration Environments</a></li>
-		<li><a href='/entry.php?id=1353'>Impact of Display-rich Environments for Enhancing Task Parallelism and Group Awareness in Advanced Collaborative Environments</a></li>
-		<li><a href='/entry.php?id=1355'>An Experimental OptIPuter Architecture for Data-Intensive Collaborative Visualization</a></li>
-		<li><a href='/entry.php?id=1350'>Amplified Collaboration Environments</a></li>
-		<li><a href='/entry.php?id=1314'>AGAVE : Access Grid Augmented Virtual Environment</a></li>
-		<li><a href='/related.php?id=546&amp;related=4'><strong>View more&hellip;</strong></a></li>
-	</ul><br>
-	<strong>Research:</strong><br>
-	<ul>
-		<li><a href='/entry.php?id=1839'>The OptIPuter</a></li>
-		<li><a href='/entry.php?id=1863'>GeoWall 2</a></li>
-		<li><a href='/entry.php?id=1825'>TeraVision</a></li>
-		<li><a href='/entry.php?id=1827'>ImmersaView</a></li>
-		<li><a href='/entry.php?id=1836'>GeoWall</a></li>
-		<li><a href='/related.php?id=546&amp;related=5'><strong>View more&hellip;</strong></a></li>
-	</ul><br>
-	<h3>Related Categories</h3>
-	<ul>
-		<li><a href='/category.php?id=3&amp;related=3'>Applications</a></li>
-		<li><a href='/category.php?id=17&amp;related=3'>Multimedia</a></li>
-		<li><a href='/category.php?id=19&amp;related=3'>Networking</a></li>
-		<li><a href='/category.php?id=22&amp;related=3'>Supercomputing</a></li>
-		<li><a href='/category.php?id=27&amp;related=3'>Visualization</a></li>
-	</ul>
-</div>
-<!-- End Entry Sidebar-->
-			</div>
-		</td>
-	</tr>
-</table>
-<!-- End Entry -->
-<script>
-	// Making both divs the same height is much easier in JavaScript
-	var entryInfo = document.getElementById("entry_info");
-	var entrySidebar = document.getElementById("entry_sidebar");
-	
-	if (entryInfo && entrySidebar) {
-		var maxHeight = Math.max(entryInfo.offsetHeight, entrySidebar.offsetHeight)-20;
-		entryInfo.style.height = maxHeight+"px";
-		entrySidebar.style.height = maxHeight+"px";
-	}
+
+	<script>var et_site_url='https://ccbmdr.ahslabs.uic.edu';var et_post_id='2';function et_core_page_resource_fallback(a,b){"undefined"===typeof b&&(b=a.sheet.cssRules&&0===a.sheet.cssRules.length);b&&(a.onerror=null,a.onload=null,a.href?a.href=et_site_url+"/?et_core_page_resource="+a.id+et_post_id:a.src&&(a.src=et_site_url+"/?et_core_page_resource="+a.id+et_post_id))}
+</script><title>Center for Capacity Building on Minorities with Disabilities Research |</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Center for Capacity Building on Minorities with Disabilities Research &raquo; Feed" href="https://ccbmdr.ahslabs.uic.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Center for Capacity Building on Minorities with Disabilities Research &raquo; Comments Feed" href="https://ccbmdr.ahslabs.uic.edu/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Center for Capacity Building on Minorities with Disabilities Research &raquo; Home Comments Feed" href="https://ccbmdr.ahslabs.uic.edu/home/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/ccbmdr.ahslabs.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.1"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<meta content="Divi v.4.1" name="generator"/><style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://ccbmdr.ahslabs.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-css'  href='https://ccbmdr.ahslabs.uic.edu/wp-content/plugins/themeisle-companion/obfx_modules/gutenberg-blocks/assets/fontawesome/css/all.min.css?ver=5.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shims-css'  href='https://ccbmdr.ahslabs.uic.edu/wp-content/plugins/themeisle-companion/obfx_modules/gutenberg-blocks/assets/fontawesome/css/v4-shims.min.css?ver=5.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='themeisle-block_styles-css'  href='https://ccbmdr.ahslabs.uic.edu/wp-content/plugins/themeisle-companion/vendor/codeinwp/gutenberg-blocks/build/style.css?ver=5.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpsm_ac-font-awesome-front-css'  href='https://ccbmdr.ahslabs.uic.edu/wp-content/plugins/responsive-accordion-and-collapse/css/font-awesome/css/font-awesome.min.css?ver=5.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpsm_ac_bootstrap-front-css'  href='https://ccbmdr.ahslabs.uic.edu/wp-content/plugins/responsive-accordion-and-collapse/css/bootstrap-front.css?ver=5.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://ccbmdr.ahslabs.uic.edu/wp-content/plugins/LayerSlider/static/css/layerslider.css?ver=5.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='ls-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&#038;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-style-css'  href='https://ccbmdr.ahslabs.uic.edu/wp-content/themes/Divi/style.css?ver=4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://ccbmdr.ahslabs.uic.edu/wp-includes/css/dashicons.min.css?ver=5.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sccss_style-css'  href='https://ccbmdr.ahslabs.uic.edu/?sccss=1&#038;ver=5.4.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://ccbmdr.ahslabs.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://ccbmdr.ahslabs.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pf = {"spam":{"label":"I'm human!","value":"8cb1a5bfd5"}};
+/* ]]> */
 </script>
-<!-- End Content -->
-	<div id="footer_area">
-		<a href="mailto:evl-web@uic.edu"><h3>Contact</h3></a>
-	</div>
+<script type='text/javascript' src='https://ccbmdr.ahslabs.uic.edu/wp-content/plugins/pirate-forms/public/js/custom-spam.js?ver=5.4.1'></script>
+<script type='text/javascript' src='https://ccbmdr.ahslabs.uic.edu/wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquery.js?ver=5.2.0'></script>
+<script type='text/javascript' src='https://ccbmdr.ahslabs.uic.edu/wp-content/plugins/LayerSlider/static/js/greensock.js?ver=1.11.2'></script>
+<script type='text/javascript' src='https://ccbmdr.ahslabs.uic.edu/wp-content/plugins/LayerSlider/static/js/layerslider.transitions.js?ver=5.2.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var et_core_api_spam_recaptcha = {"site_key":"","page_action":{"action":"ccbmdr.ahslabs.uic.edu"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ccbmdr.ahslabs.uic.edu/wp-content/themes/Divi/core/admin/js/recaptcha.js?ver=5.4.1'></script>
+<link rel='https://api.w.org/' href='https://ccbmdr.ahslabs.uic.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ccbmdr.ahslabs.uic.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://ccbmdr.ahslabs.uic.edu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.1" />
+<link rel="canonical" href="https://ccbmdr.ahslabs.uic.edu/" />
+<link rel='shortlink' href='https://ccbmdr.ahslabs.uic.edu/' />
+<link rel="alternate" type="application/json+oembed" href="https://ccbmdr.ahslabs.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fccbmdr.ahslabs.uic.edu%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://ccbmdr.ahslabs.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fccbmdr.ahslabs.uic.edu%2F&#038;format=xml" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f3f3f3; }
+</style>
+	<link rel="stylesheet" id="et-core-unified-2-cached-inline-styles" href="https://ccbmdr.ahslabs.uic.edu/wp-content/et-cache/1/5/2/et-core-unified-2-15880284637183.min.css" onerror="et_core_page_resource_fallback(this, true)" onload="et_core_page_resource_fallback(this)" /></head>
+<body class="home page-template-default page page-id-2 page-parent custom-background et_color_scheme_red et_pb_button_helper_class et_fullwidth_nav et_fixed_nav et_show_nav et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_centered et_pb_footer_columns4 et_cover_background et_pb_gutter et_pb_gutters3 et_pb_pagebuilder_layout et_no_sidebar et_divi_theme et-db et_minified_js et_minified_css">
+	<div id="page-container">
+
+	
+	
+			<header id="main-header" data-height-onload="101">
+			<div class="container clearfix et_menu_container">
+							<div class="logo_container">
+					<span class="logo_helper"></span>
+					<a href="https://ccbmdr.ahslabs.uic.edu/">
+						<img src="http://ccbmdr.ahslabs.uic.edu/wp-content/uploads/sites/5/2017/05/ccbmdr_white.png" alt="Center for Capacity Building on Minorities with Disabilities Research" id="logo" data-height-percentage="61" />
+					</a>
+				</div>
+							<div id="et-top-navigation" data-height="101" data-fixed-height="40">
+											<nav id="top-menu-nav">
+						<ul id="top-menu" class="nav"><li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-32"><a href="https://ccbmdr.ahslabs.uic.edu/projects/">Projects</a>
+<ul class="sub-menu">
+	<li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="https://ccbmdr.ahslabs.uic.edu/projects/">Current Projects</a></li>
+	<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="https://ccbmdr.ahslabs.uic.edu/projects/past/">Past Projects</a></li>
+	<li id="menu-item-96" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96"><a href="https://ccbmdr.ahslabs.uic.edu/projects/arra/">ARRA Funded Projects</a></li>
+	<li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74"><a href="https://ccbmdr.ahslabs.uic.edu/projects/individual/">Individual Projects</a></li>
+</ul>
+</li>
+<li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-31"><a href="https://ccbmdr.ahslabs.uic.edu/products/">Products</a>
+<ul class="sub-menu">
+	<li id="menu-item-464" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-464"><a href="https://ccbmdr.ahslabs.uic.edu/products/en-espanol/">Productos (en Español)</a></li>
+</ul>
+</li>
+<li id="menu-item-197" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-197"><a href="#">Publications</a>
+<ul class="sub-menu">
+	<li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"><a href="https://ccbmdr.ahslabs.uic.edu/publications/books/">Books</a></li>
+	<li id="menu-item-114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114"><a href="https://ccbmdr.ahslabs.uic.edu/publications/peer-reviewed-publications/">Peer Reviewed Publications</a></li>
+	<li id="menu-item-113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113"><a href="https://ccbmdr.ahslabs.uic.edu/publications/publications-in-spanish/">Publications in Spanish</a></li>
+	<li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="https://ccbmdr.ahslabs.uic.edu/publications/newsletters/">Newsletters</a></li>
+</ul>
+</li>
+<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="https://ccbmdr.ahslabs.uic.edu/resources/">Resources</a></li>
+<li id="menu-item-556" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-556"><a href="https://ccbmdr.ahslabs.uic.edu/home/contact/">Contact Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-601"><a href="https://ccbmdr.ahslabs.uic.edu/home/contact/projects/">Project Contacts</a></li>
+</ul>
+</li>
+</ul>						</nav>
+					
+					
+					
+										<div id="et_top_search">
+						<span id="et_search_icon"></span>
+					</div>
+					
+					<div id="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="select_page">Select Page</span>
+					<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+				</div>
+			</div>				</div> <!-- #et-top-navigation -->
+			</div> <!-- .container -->
+			<div class="et_search_outer">
+				<div class="container et_search_form_container">
+					<form role="search" method="get" class="et-search-form" action="https://ccbmdr.ahslabs.uic.edu/">
+					<input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />					</form>
+					<span class="et_close_search_field"></span>
+				</div>
+			</div>
+		</header> <!-- #main-header -->
+			<div id="et-main-area">
+	
+<div id="main-content">
+
+
+			
+				<article id="post-2" class="post-2 page type-page status-publish hentry">
+
+				
+					<div class="entry-content">
+					<div id="et-boc" class="et-boc">
+			
+		<div class="et-l et-l--post">
+			<div class="et_builder_inner_content et_pb_gutters3">
+		<div class="et_pb_section et_pb_section_0 et_pb_fullwidth_section et_section_regular">
+				
+				
+				
+				
+					<div class="et_pb_module et_pb_fullwidth_slider_0 et_hover_enabled et_pb_slider">
+				<div class="et_pb_slides">
+					 <div class="et_pb_slide et_pb_slide_0 et_pb_bg_layout_dark et_pb_media_alignment_center et-pb-active-slide" data-slide-id="et_pb_slide_0">
+				
+				
+				<div class="et_pb_container clearfix">
+					<div class="et_pb_slider_container_inner">
+						
+						<div class="et_pb_slide_description">
+							<h2 class="et_pb_slide_title">Promoting empowerment of minority individuals with disabilities</h2>
+							
+						</div> <!-- .et_pb_slide_description -->
+					</div>
+				</div> <!-- .et_pb_container -->
+				
+			</div> <!-- .et_pb_slide -->
+			 
+				</div> <!-- .et_pb_slides -->
+				
+			</div> <!-- .et_pb_slider -->
+			
+				
+				
+			</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_section_1 et_section_regular">
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_0">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><h2 class="iconbox_title">Our Mission</h2>
+<p>Our mission is to generate state of the art research and interventions designed to promote empowerment of minority individuals with disabilities and capacity building among agencies delivering services to minority populations. We follow a participatory action research approach in cooperation with consumers, families, businesses, local state and federal agencies in the greater community in order to enhance the quality of life of individuals with disabilities. We utilize both quantitative and qualitative research approaches in order to inform stakeholders about policy recommendations benefiting individuals with disabilities.</p></div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section -->		</div><!-- .et_builder_inner_content -->
+	</div><!-- .et-l -->
+	
+			
+		</div><!-- #et-boc -->
+							</div> <!-- .entry-content -->
+
+				
+				</article> <!-- .et_pb_post -->
+
+			
+
+</div> <!-- #main-content -->
+
+
+			<footer id="main-footer">
+				
+<div class="container">
+    <div id="footer-widgets" class="clearfix">
+		<div class="footer-widget"><div id="text-3" class="fwidget et_pb_widget widget_text">			<div class="textwidget"><p><a href="https://www.vpaa.uillinois.edu/resources/web_privacy" target="_blank" rel="noopener noreferrer">Privacy Statement</a></p>
+</div>
+		</div> <!-- end .fwidget --></div> <!-- end .footer-widget --><div class="footer-widget"></div> <!-- end .footer-widget --><div class="footer-widget"></div> <!-- end .footer-widget --><div class="footer-widget"></div> <!-- end .footer-widget -->    </div> <!-- #footer-widgets -->
+</div>    <!-- .container -->
+
+		
+				<div id="footer-bottom">
+					<div class="container clearfix">
+				<ul class="et-social-icons">
+
+	<li class="et-social-icon et-social-facebook">
+		<a href="#" class="icon">
+			<span>Facebook</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-twitter">
+		<a href="#" class="icon">
+			<span>Twitter</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-google-plus">
+		<a href="#" class="icon">
+			<span>Google</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-rss">
+		<a href="https://ccbmdr.ahslabs.uic.edu/feed/" class="icon">
+			<span>RSS</span>
+		</a>
+	</li>
+
+</ul><p id="footer-info">Designed by <a href="http://www.elegantthemes.com" title="Premium WordPress Themes">Elegant Themes</a> | Powered by <a href="http://www.wordpress.org">WordPress</a></p>					</div>	<!-- .container -->
+				</div>
+			</footer> <!-- #main-footer -->
+		</div> <!-- #et-main-area -->
+
+
+	</div> <!-- #page-container -->
+
+	<script type="text/javascript">!function(t,e){"use strict";function n(){if(!a){a=!0;for(var t=0;t<d.length;t++)d[t].fn.call(window,d[t].ctx);d=[]}}function o(){"complete"===document.readyState&&n()}t=t||"docReady",e=e||window;var d=[],a=!1,c=!1;e[t]=function(t,e){return a?void setTimeout(function(){t(e)},1):(d.push({fn:t,ctx:e}),void("complete"===document.readyState||!document.attachEvent&&"interactive"===document.readyState?setTimeout(n,1):c||(document.addEventListener?(document.addEventListener("DOMContentLoaded",n,!1),window.addEventListener("load",n,!1)):(document.attachEvent("onreadystatechange",o),window.attachEvent("onload",n)),c=!0)))}}("wpBruiserDocReady",window);
+			(function(){var wpbrLoader = (function(){var g=document,b=g.createElement('script'),c=g.scripts[0];b.async=1;b.src='https://ccbmdr.ahslabs.uic.edu/?gdbc-client=3.1.30-'+(new Date()).getTime();c.parentNode.insertBefore(b,c);});wpBruiserDocReady(wpbrLoader);window.onunload=function(){};window.addEventListener('pageshow',function(event){if(event.persisted){(typeof window.WPBruiserClient==='undefined')?wpbrLoader():window.WPBruiserClient.requestTokens();}},false);})();
+</script><script type='text/javascript' src='https://ccbmdr.ahslabs.uic.edu/wp-content/plugins/responsive-accordion-and-collapse/js/bootstrap.js?ver=5.4.1'></script>
+<script type='text/javascript' src='https://ccbmdr.ahslabs.uic.edu/wp-content/plugins/responsive-accordion-and-collapse/js/accordion.js?ver=5.4.1'></script>
+<script type='text/javascript' src='https://ccbmdr.ahslabs.uic.edu/wp-includes/js/comment-reply.min.js?ver=5.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_shortcodes_strings = {"previous":"Previous","next":"Next"};
+var et_pb_custom = {"ajaxurl":"https:\/\/ccbmdr.ahslabs.uic.edu\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/ccbmdr.ahslabs.uic.edu\/wp-content\/themes\/Divi\/images","builder_images_uri":"https:\/\/ccbmdr.ahslabs.uic.edu\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"423a82fb49","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"64c3f1b0c9","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"2","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"no","is_shortcode_tracking":"","tinymce_uri":""}; var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_box_shadow_elements = [".et_pb_fullwidth_slider_0",".et_pb_fullwidth_slider_0",".et_pb_fullwidth_slider_0"];
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ccbmdr.ahslabs.uic.edu/wp-content/themes/Divi/js/custom.min.js?ver=4.1'></script>
+<script type='text/javascript' src='https://ccbmdr.ahslabs.uic.edu/wp-content/themes/Divi/core/admin/js/common.js?ver=4.1'></script>
+<script type='text/javascript' src='https://ccbmdr.ahslabs.uic.edu/wp-includes/js/wp-embed.min.js?ver=5.4.1'></script>
 </body>
 </html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+
+Served from: ccbmdr.ahslabs.uic.edu @ 2020-05-11 01:05:49 by W3 Total Cache
+-->

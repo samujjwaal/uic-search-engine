@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en-US"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en-US"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en-US"> <![endif]-->
+<head>
+<meta http-equiv="content-type" content="text/html" charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Definitions | ACCC Information Security and Privacy Office</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://security.uic.edu/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="https://security.uic.edu/wp-content/themes/uic-network-2013/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="shortcut icon" href="http://uic.edu/favicon.ico" /><link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="ACCC Information Security and Privacy Office &raquo; Feed" href="https://security.uic.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ACCC Information Security and Privacy Office &raquo; Comments Feed" href="https://security.uic.edu/comments/feed/" />
+<link rel='stylesheet' id='events-manager-css'  href='https://security.uic.edu/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.63' type='text/css' media='all' />
+<link rel='stylesheet' id='page-list-style-css'  href='https://security.uic.edu/wp-content/plugins/page-list/css/page-list.css?ver=5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='simple-staff-list-css'  href='https://security.uic.edu/wp-content/plugins/simple-staff-list/public/css/simple-staff-list-public.css?ver=1.17' type='text/css' media='all' />
+<link rel='stylesheet' id='staff-list-custom-css-css'  href='https://security.uic.edu/wp-content/themes/uic-network-2013/simple-staff-list-custom.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='swl-style-css'  href='https://security.uic.edu/wp-content/plugins/social-web-links/social-web-links.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://security.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='uicnetwork-css'  href='https://security.uic.edu/wp-content/themes/uic-network-2013/css/uicnetwork.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='https://security.uic.edu/wp-content/themes/uic-network-2013/css/prettyPhoto.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dynamic-styles-css'  href='https://security.uic.edu/index.php?dynamiccss=1&#038;id=271&#038;ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='https://security.uic.edu/wp-content/themes/uic-network-2013/style.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='PT Sans-css'  href='https://fonts.googleapis.com/css?family=PT+Sans:400italic,700italic,400,700' type='text/css' media='all' />
+<link rel='stylesheet' id='Oswald-css'  href='https://fonts.googleapis.com/css?family=Oswald:400italic,700italic,400,700' type='text/css' media='all' />
+<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/wp-a11y.min.js?ver=4.7.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://security.uic.edu/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var EM = {"ajaxurl":"https:\/\/security.uic.edu\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/security.uic.edu\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"dd\/mm\/yy","ui_css":"https:\/\/security.uic.edu\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"","is_ssl":"1","bookingInProgress":"Please wait while the booking is being submitted.","tickets_save":"Save Ticket","bookingajaxurl":"https:\/\/security.uic.edu\/wp-admin\/admin-ajax.php","bookings_export_save":"Export Bookings","bookings_settings_save":"Save Settings","booking_delete":"Are you sure you want to delete?","bb_full":"Sold Out","bb_book":"Book Now","bb_booking":"Booking...","bb_booked":"Booking Submitted","bb_error":"Booking Error. Try again?","bb_cancel":"Cancel","bb_canceling":"Canceling...","bb_cancelled":"Cancelled","bb_cancel_error":"Cancellation Error. Try again?","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","event_reschedule_warning":"Are you sure you want to reschedule this recurring event? If you do this, you will lose all booking information and the old recurring events will be deleted.","event_detach_warning":"Are you sure you want to detach this event? By doing so, this event will be independent of the recurring set of events.","delete_recurrence_warning":"Are you sure you want to delete all recurrences of this event? All events will be moved to trash.","disable_bookings_warning":"Are you sure you want to disable bookings? If you do this and save, you will lose all previous bookings. If you wish to prevent further bookings, reduce the number of spaces available to the amount of bookings you currently have","booking_warning_cancel":"Are you sure you want to cancel your booking?","cache":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://security.uic.edu/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.63'></script>
+<script type='text/javascript' src='https://security.uic.edu/wp-content/plugins/events-manager-pro/includes/js/events-manager-pro.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://security.uic.edu/wp-content/plugins/simple-staff-list/public/js/simple-staff-list-public.js?ver=1.17'></script>
+<script type='text/javascript' src='https://security.uic.edu/wp-content/themes/uic-network-2013/js/uicnetwork.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://security.uic.edu/wp-content/themes/uic-network-2013/js/superfish.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://security.uic.edu/wp-content/themes/uic-network-2013/js/jquery.flexslider-min.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://security.uic.edu/wp-content/themes/uic-network-2013/js/jquery.prettyPhoto.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://security.uic.edu/wp-content/themes/uic-network-2013/js/uicnetwork_contact.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://security.uic.edu/wp-content/themes/uic-network-2013/js/jquery.carouFredSel-6.1.0-packed.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://security.uic.edu/index.php?dynamicjs=1&#038;id=271&#038;ver=4.7.2'></script>
+<link rel='https://api.w.org/' href='https://security.uic.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://security.uic.edu/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 4.7.2" />
+<link rel="canonical" href="https://security.uic.edu/policies/definitions/" />
+<link rel='shortlink' href='https://security.uic.edu/?p=271' />
+<link rel="alternate" type="application/json+oembed" href="https://security.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsecurity.uic.edu%2Fpolicies%2Fdefinitions%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://security.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsecurity.uic.edu%2Fpolicies%2Fdefinitions%2F&#038;format=xml" />
+		<style type="text/css">
+		.em-booking-form span.form-tip { text-decoration:none; border-bottom:1px dotted #aaa; padding-bottom:2px; }
+		.input-group .em-date-range input { width:100px; }
+		.input-group .em-time-range input { width:80px; }
+		 div.em-gateway-buttons { height:50px; width: 100%; }
+		 div.em-gateway-buttons .first { padding-left:0px; margin-left:0px; border-left:none; }
+		 div.em-gateway-button { float:left; padding-left:20px; margin-left:20px; border-left:1px solid #777; }
+		/* Cart CSS */
+		.em-cart-widget-content .em-cart-widget-total { border-top:1px solid #efefef; margin-top:5px; }
+		.em-cart-actions { text-align:right; margin:10px 0px;}
+		 /* Checkout Form CSS */
+		.em-cart-table { border-collapse:collapse; border-spacing:0; width:100%; }		 
+		.em-cart-table { border-collapse:0px; }
+		.em-cart-table th, table.em-cart-table td { border:1px solid #efefef; padding:10px; }
+		.em-cart-table th { background-color:#eee; text-align:center; }
+		.em-cart-table td { background-color:#fff; }
+		.em-cart-table th.em-cart-title-event { text-align:left; }
+		.em-cart-table tbody.em-cart-totals th { text-align:right; padding-right:20px; }
+		.em-cart-table .em-cart-table-details-hide { display:none; visibility:none; }
+		.em-cart-table .em-cart-table-event-details { display:none; visibility:none; }
+		.em-cart-table .em-cart-table-event-title { font-weight:bold; }
+		.em-cart-table .em-cart-table-spaces { text-align:center; }
+		.em-cart-table .em-cart-table-price, tbody.em-cart-totals td { text-align:right; }
+		.em-cart-table-event-details .em-cart-table-ticket { font-weight:bold; }
+		.em-cart-info .em-cart-info-title { text-decoration:underline; }
+		.em-cart-info .em-cart-info-booking-title { font-weight:bold; }
+		.em-cart-info .em-cart-info-values label { font-style:italic; display: inline-block; width:150px; }		 
+		/*! qTip2 v2.0.0 | http://craigsworks.com/projects/qtip2/ | Licensed MIT, GPL */#qtip-rcontainer{position:absolute;left:-28000px;top:-28000px;display:block;visibility:hidden}#qtip-rcontainer .ui-tooltip{display:block!important;visibility:hidden!important;position:static!important;float:left!important}.ui-tooltip,.qtip{position:absolute;left:-28000px;top:-28000px;display:none;max-width:280px;min-width:50px;font-size:10.5px;line-height:12px}.ui-tooltip-content{position:relative;padding:5px 9px;overflow:hidden;text-align:left;word-wrap:break-word}.ui-tooltip-titlebar{position:relative;min-height:14px;padding:5px 35px 5px 10px;overflow:hidden;border-width:0 0 1px;font-weight:700}.ui-tooltip-titlebar+.ui-tooltip-content{border-top-width:0!important}.ui-tooltip-titlebar .ui-state-default{position:absolute;right:4px;top:50%;margin-top:-9px;cursor:pointer;outline:medium none;border-width:1px;border-style:solid}* html .ui-tooltip-titlebar .ui-state-default{top:16px}.ui-tooltip-titlebar .ui-icon,.ui-tooltip-icon .ui-icon{display:block;text-indent:-1000em;direction:ltr}.ui-tooltip-icon,.ui-tooltip-icon .ui-icon{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;text-decoration:none}.ui-tooltip-icon .ui-icon{width:18px;height:14px;text-align:center;text-indent:0;font:normal bold 10px/13px Tahoma,sans-serif;color:inherit;background:transparent none no-repeat -100em -100em}.ui-tooltip-focus{}.ui-tooltip-hover{}.ui-tooltip-default{border-width:1px;border-style:solid;border-color:#F1D031;background-color:#FFFFA3;color:#555}.ui-tooltip-default .ui-tooltip-titlebar{background-color:#FFEF93}.ui-tooltip-default .ui-tooltip-icon{border-color:#CCC;background:#F1F1F1;color:#777}.ui-tooltip-default .ui-tooltip-titlebar .ui-state-hover{border-color:#AAA;color:#111}/*! Light tooltip style */.ui-tooltip-light{background-color:#fff;border-color:#E2E2E2;color:#454545}.ui-tooltip-light .ui-tooltip-titlebar{background-color:#f1f1f1}/*! Dark tooltip style */.ui-tooltip-dark{background-color:#505050;border-color:#303030;color:#f3f3f3}.ui-tooltip-dark .ui-tooltip-titlebar{background-color:#404040}.ui-tooltip-dark .ui-tooltip-icon{border-color:#444}.ui-tooltip-dark .ui-tooltip-titlebar .ui-state-hover{border-color:#303030}/*! Cream tooltip style */.ui-tooltip-cream{background-color:#FBF7AA;border-color:#F9E98E;color:#A27D35}.ui-tooltip-cream .ui-tooltip-titlebar{background-color:#F0DE7D}.ui-tooltip-cream .ui-state-default .ui-tooltip-icon{background-position:-82px 0}/*! Red tooltip style */.ui-tooltip-red{background-color:#F78B83;border-color:#D95252;color:#912323}.ui-tooltip-red .ui-tooltip-titlebar{background-color:#F06D65}.ui-tooltip-red .ui-state-default .ui-tooltip-icon{background-position:-102px 0}.ui-tooltip-red .ui-tooltip-icon{border-color:#D95252}.ui-tooltip-red .ui-tooltip-titlebar .ui-state-hover{border-color:#D95252}/*! Green tooltip style */.ui-tooltip-green{background-color:#CAED9E;border-color:#90D93F;color:#3F6219}.ui-tooltip-green .ui-tooltip-titlebar{background-color:#B0DE78}.ui-tooltip-green .ui-state-default .ui-tooltip-icon{background-position:-42px 0}/*! Blue tooltip style */.ui-tooltip-blue{background-color:#E5F6FE;border-color:#ADD9ED;color:#5E99BD}.ui-tooltip-blue .ui-tooltip-titlebar{background-color:#D0E9F5}.ui-tooltip-blue .ui-state-default .ui-tooltip-icon{background-position:-2px 0}.ui-tooltip-shadow{-webkit-box-shadow:1px 1px 3px 1px rgba(0,0,0,.15);-moz-box-shadow:1px 1px 3px 1px rgba(0,0,0,.15);box-shadow:1px 1px 3px 1px rgba(0,0,0,.15)}.ui-tooltip-rounded,.ui-tooltip-tipsy,.ui-tooltip-bootstrap{-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}.ui-tooltip-youtube{-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;-webkit-box-shadow:0 0 3px #333;-moz-box-shadow:0 0 3px #333;box-shadow:0 0 3px #333;color:#fff;border-width:0;background:#4A4A4A;background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0, #4A4A4A),color-stop(100%,black));background-image:-webkit-linear-gradient(top, #4A4A4A 0,black 100%);background-image:-moz-linear-gradient(top, #4A4A4A 0,black 100%);background-image:-ms-linear-gradient(top, #4A4A4A 0,black 100%);background-image:-o-linear-gradient(top, #4A4A4A 0,black 100%)}.ui-tooltip-youtube .ui-tooltip-titlebar{background-color:#4A4A4A;background-color:rgba(0,0,0,0)}.ui-tooltip-youtube .ui-tooltip-content{padding:.75em;font:12px arial,sans-serif;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#4a4a4a, EndColorStr=#000000);-ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#4a4a4a, EndColorStr=#000000);"}.ui-tooltip-youtube .ui-tooltip-icon{border-color:#222}.ui-tooltip-youtube .ui-tooltip-titlebar .ui-state-hover{border-color:#303030}.ui-tooltip-jtools{background:#232323;background:rgba(0,0,0,.7);background-image:-webkit-gradient(linear,left top,left bottom,from( #717171),to( #232323));background-image:-moz-linear-gradient(top, #717171, #232323);background-image:-webkit-linear-gradient(top, #717171, #232323);background-image:-ms-linear-gradient(top, #717171, #232323);background-image:-o-linear-gradient(top, #717171, #232323);border:2px solid #ddd;border:2px solid rgba(241,241,241,1);-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;-webkit-box-shadow:0 0 12px #333;-moz-box-shadow:0 0 12px #333;box-shadow:0 0 12px #333}.ui-tooltip-jtools .ui-tooltip-titlebar{background-color:transparent;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#717171, endColorstr=#4A4A4A);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#717171, endColorstr=#4A4A4A)"}.ui-tooltip-jtools .ui-tooltip-content{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4A4A4A, endColorstr=#232323);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#4A4A4A, endColorstr=#232323)"}.ui-tooltip-jtools .ui-tooltip-titlebar,.ui-tooltip-jtools .ui-tooltip-content{background:transparent;color:#fff;border:0 dashed transparent}.ui-tooltip-jtools .ui-tooltip-icon{border-color:#555}.ui-tooltip-jtools .ui-tooltip-titlebar .ui-state-hover{border-color:#333}.ui-tooltip-cluetip{-webkit-box-shadow:4px 4px 5px rgba(0,0,0,.4);-moz-box-shadow:4px 4px 5px rgba(0,0,0,.4);box-shadow:4px 4px 5px rgba(0,0,0,.4);background-color:#D9D9C2;color:#111;border:0 dashed transparent}.ui-tooltip-cluetip .ui-tooltip-titlebar{background-color:#87876A;color:#fff;border:0 dashed transparent}.ui-tooltip-cluetip .ui-tooltip-icon{border-color:#808064}.ui-tooltip-cluetip .ui-tooltip-titlebar .ui-state-hover{border-color:#696952;color:#696952}.ui-tooltip-tipsy{background:#000;background:rgba(0,0,0,.87);color:#fff;border:0 solid transparent;font-size:11px;font-family:'Lucida Grande',sans-serif;font-weight:700;line-height:16px;text-shadow:0 1px black}.ui-tooltip-tipsy .ui-tooltip-titlebar{padding:6px 35px 0 10;background-color:transparent}.ui-tooltip-tipsy .ui-tooltip-content{padding:6px 10}.ui-tooltip-tipsy .ui-tooltip-icon{border-color:#222;text-shadow:none}.ui-tooltip-tipsy .ui-tooltip-titlebar .ui-state-hover{border-color:#303030}.ui-tooltip-tipped{border:3px solid #959FA9;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;background-color:#F9F9F9;color:#454545;font-weight:400;font-family:serif}.ui-tooltip-tipped .ui-tooltip-titlebar{border-bottom-width:0;color:#fff;background:#3A79B8;background-image:-webkit-gradient(linear,left top,left bottom,from( #3A79B8),to( #2E629D));background-image:-webkit-linear-gradient(top, #3A79B8, #2E629D);background-image:-moz-linear-gradient(top, #3A79B8, #2E629D);background-image:-ms-linear-gradient(top, #3A79B8, #2E629D);background-image:-o-linear-gradient(top, #3A79B8, #2E629D);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3A79B8, endColorstr=#2E629D);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#3A79B8, endColorstr=#2E629D)"}.ui-tooltip-tipped .ui-tooltip-icon{border:2px solid #285589;background:#285589}.ui-tooltip-tipped .ui-tooltip-icon .ui-icon{background-color:#FBFBFB;color:#555}.ui-tooltip-bootstrap{font-size:13px;line-height:18px;color:#333;background-color:#fff;border:1px solid #ccc;border:1px solid rgba(0,0,0,.2);*border-right-width:2px;*border-bottom-width:2px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 5px 10px rgba(0,0,0,.2);-moz-box-shadow:0 5px 10px rgba(0,0,0,.2);box-shadow:0 5px 10px rgba(0,0,0,.2);-webkit-background-clip:padding-box;-moz-background-clip:padding;background-clip:padding-box}.ui-tooltip-bootstrap .ui-tooltip-titlebar{font-size:18px;line-height:22px;border-bottom:1px solid #ccc;background-color:transparent}.ui-tooltip-bootstrap .ui-tooltip-titlebar .ui-state-default{right:9px;top:49%;border-style:none}.ui-tooltip-bootstrap .ui-tooltip-icon{background:#fff}.ui-tooltip-bootstrap .ui-tooltip-icon .ui-icon{width:auto;height:auto;float:right;font-size:20px;font-weight:700;line-height:18px;color:#000;text-shadow:0 1px 0 #fff;opacity:.2;filter:alpha(opacity=20)}.ui-tooltip-bootstrap .ui-tooltip-icon .ui-icon:hover{color:#000;text-decoration:none;cursor:pointer;opacity:.4;filter:alpha(opacity=40)}.ui-tooltip:not(.ie9haxors) div.ui-tooltip-content,.ui-tooltip:not(.ie9haxors) div.ui-tooltip-titlebar{filter:none;-ms-filter:none}.ui-tooltip .ui-tooltip-tip{margin:0 auto;overflow:hidden;z-index:10}.ui-tooltip .ui-tooltip-tip,.ui-tooltip .ui-tooltip-tip .qtip-vml{position:absolute;line-height:.1px!important;font-size:.1px!important;color:#123456;background:transparent;border:0 dashed transparent}.ui-tooltip .ui-tooltip-tip canvas{top:0;left:0}.ui-tooltip .ui-tooltip-tip .qtip-vml{behavior:url(#default#VML);display:inline-block;visibility:visible}#qtip-overlay{position:fixed;left:-10000em;top:-10000em}#qtip-overlay.blurs{cursor:pointer}#qtip-overlay div{position:absolute;left:0;top:0;width:100%;height:100%;background-color:#000;opacity:.7;filter:alpha(opacity=70);-ms-filter:"alpha(Opacity=70)"}
+		</style>
+				<style type="text/css">
+			.em-coupon-code { width:150px; }
+			#em-coupon-loading { display:inline-block; width:16px; height: 16px; margin-left:4px; background:url(https://security.uic.edu/wp-content/plugins/events-manager-pro/includes/images/spinner.gif)}
+			.em-coupon-message { display:inline-block; margin:5px 0px 0px 105px; text-indent:22px; }
+			.em-coupon-success { color:green; background:url(https://security.uic.edu/wp-content/plugins/events-manager-pro/includes/images/success.png) 0px 0px no-repeat }
+			.em-coupon-error { color:red; background:url(https://security.uic.edu/wp-content/plugins/events-manager-pro/includes/images/error.png) 0px 0px no-repeat }
+			.em-cart-coupons-form .em-coupon-message{ margin:5px 0px 0px 0px; }
+			#em-coupon-loading { margin-right:4px; }	
+		</style>
+				<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		</head>
+<body class="page-template-default page page-id-271 page-child parent-pageid-149">
+
+	<!-- Page Layout
+	================================================== -->
+	<div id="header-wrap-top"><div id="header" class="container">
+      <div id="eyebrow">
+        <a class="screen-reader-shortcut" href="#page-container" title="Skip to Content">Skip to Content</a>
+        <div class="menu-container">
+            <h2>Eyebrow Navigation</h2>
+        <div class="menu-eyebrow-container"><ul id="menu-eyebrow" class="menu sf-menu"><li id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="http://uic.edu/">UIC</a></li>
+<li id="menu-item-219" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-219"><a href="http://www.uic.edu/uic/search/">Find People</a></li>
+<li id="menu-item-220" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-220"><a href="http://www.uic.edu/htbin/ulist/az">DEPARTMENTS A-Z</a></li>
+<li id="menu-item-221" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-221"><a href="http://library.uic.edu/">LIBRARY</a></li>
+<li id="menu-item-222" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-222"><a href="http://www.uicflames.com/">ATHLETICS</a></li>
+</ul></div>        <select id="eyebrow-menu"><option value="">Common U I C menu</option><option value="http://uic.edu/">UIC</option><option value="http://www.uic.edu/uic/search/">Find People</option><option value="http://www.uic.edu/htbin/ulist/az">DEPARTMENTS A-Z</option><option value="http://library.uic.edu/">LIBRARY</option><option value="http://www.uicflames.com/">ATHLETICS</option></select>        </div>
+      </div><!-- /#eyebrow -->
+
+			<div id="logo">
+                <div class="logo-inner">
+                    <h1>
+                        <a href="https://security.uic.edu">
+                                                            <img src="http://security.publish.uic.edu/files/2014/08/ADM.ACCC_.NOUNIV.LG_.PMS_-300x70.png" alt="ACCC Information Security and Privacy Office">
+                                                    </a>
+                    </h1>
+                </div>
+			</div>
+
+      <div id="nav-search">
+        <form role="search" method="get" id="searchform" class="searchform" action="https://security.uic.edu/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form>      </div>
+
+			                    <div id="page-header-image">
+                                                    <img width="1000" height="352" src="http://security.publish.uic.edu/files/2014/07/DG13_09_15_287.jpg" class="attachment-page-header-image-thumbnail" alt="Photo of UIC">
+                                                </div><!-- /#page-header-image -->
+                    
+		</div><!-- End header -->
+
+	<div id="navbar" class="container">
+        <a name ="main-content" id="page-content" class="screen-reader-shortcut" title="Skip to Content" tabindex = "-1">Skip to Content</a>
+		<div class="menu-container">
+            <h2>Main Navigation</h2>
+		    <div class="menu-cispo-main-menu-container"><ul id="menu-cispo-main-menu" class="menu sf-menu"><li id="menu-item-206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-206"><a href="https://security.uic.edu/">Home</a></li>
+<li id="menu-item-365" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children menu-parent-item menu-item-365"><a href="https://security.uic.edu/policies/">IT Security Program</a>
+<ul class="sub-menu">
+	<li id="menu-item-398" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-398"><a href="https://security.uic.edu/policies/uiso/">Unit Information Security Officers (UISOs)</a></li>
+	<li id="menu-item-480" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-480"><a href="https://security.uic.edu/policies/summary/">How Does the UIC IT Security Program Affect Me?</a></li>
+</ul>
+</li>
+<li id="menu-item-191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-parent-item menu-item-191"><a href="https://security.uic.edu/awareness/">Awareness</a>
+<ul class="sub-menu">
+	<li id="menu-item-1027" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1027"><a href="https://security.uic.edu/awareness/ncsam-2019/week-1-malware/">Week 1: Malware</a></li>
+	<li id="menu-item-1026" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1026"><a href="https://security.uic.edu/awareness/ncsam-2019/week-2-email-safety/">Week 2: Email Safety</a></li>
+	<li id="menu-item-1025" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1025"><a href="https://security.uic.edu/awareness/ncsam-2019/week-3-software-safety/">Week 3: Software Safety</a></li>
+	<li id="menu-item-1024" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1024"><a href="https://security.uic.edu/awareness/ncsam-2019/week-4-authentication/">Week 4: Authentication</a></li>
+	<li id="menu-item-1023" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1023"><a href="https://security.uic.edu/awareness/ncsam-2019/week-5-encryption/">Week 5: Encryption</a></li>
+</ul>
+</li>
+<li id="menu-item-153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-153"><a href="https://security.uic.edu/contact-us/">Contact Us</a></li>
+</ul></div>		    <select id="dropdown-menu"><option value="">Main Menu</option><option value="https://security.uic.edu/">Home</option><option value="https://security.uic.edu/policies/">IT Security Program</option><option value="https://security.uic.edu/policies/uiso/">Unit Information Security Officers (UISOs)</option><option value="https://security.uic.edu/policies/summary/">How Does the UIC IT Security Program Affect Me?</option><option value="https://security.uic.edu/awareness/">Awareness</option><option value="https://security.uic.edu/awareness/ncsam-2019/week-1-malware/">Week 1: Malware</option><option value="https://security.uic.edu/awareness/ncsam-2019/week-2-email-safety/">Week 2: Email Safety</option><option value="https://security.uic.edu/awareness/ncsam-2019/week-3-software-safety/">Week 3: Software Safety</option><option value="https://security.uic.edu/awareness/ncsam-2019/week-4-authentication/">Week 4: Authentication</option><option value="https://security.uic.edu/awareness/ncsam-2019/week-5-encryption/">Week 5: Encryption</option><option value="https://security.uic.edu/contact-us/">Contact Us</option></select>		</div>
+
+	</div><!-- End navbar -->
+</div><!-- End Header wrap -->
+	<div id="main-wrap" class="boxed">
+
+
+
+	        <div id="main-content" class="container">
+                <div id="sidebar-container" class="left">
+    <ul id="sidebar">
+        
+<li id="subpages-widget-3" class="widget widget_subpages"><h3 class="widget-title">IT Security Program</h3><ul><li class="menu-item-224 first-menu-item"><a href="https://security.uic.edu/policies/uic-it-security-policies-abstract/">Abstract</a></li><li class="menu-item-226"><a href="https://security.uic.edu/policies/procedures-standards-worksheets-guidelines/">Procedures, Standards, Worksheets & Guidelines</a></li><li class="menu-item-228"><a href="https://security.uic.edu/policies/security-policy-sections/">Security Policy Sections</a></li><li class="menu-item-230"><a href="https://security.uic.edu/policies/security-program-pdf/">Security Program PDF</a></li><li class="menu-item-232"><a href="https://security.uic.edu/policies/primer-2/">Primer</a></li><li class="menu-item-234"><a href="https://security.uic.edu/policies/implementation-schedule/">Implementation Schedule</a></li><li class="menu-item-243"><a href="https://security.uic.edu/policies/security-program-overview/">Security Program Overview</a></li><li class="menu-item-271 widget_subpages_current_page"><a href="https://security.uic.edu/policies/definitions/">Definitions</a></li><li class="menu-item-273"><a href="https://security.uic.edu/policies/faq/">FAQ</a></li><li class="menu-item-380"><a href="https://security.uic.edu/policies/uiso/">Unit Information Security Officers (UISOs)</a></li><li class="menu-item-477"><a href="https://security.uic.edu/policies/summary/">How Does the UIC IT Security Program Affect Me?</a></li></ul></li>    </ul>
+</div>		        <div id="page-container" class="right with-sidebar post-271 page type-page status-publish hentry" tabindex="-1">
+			        <div class="breadcrumbs">
+    </div>			            <h1 id="page-title" class="page-title" tabindex="-1">Definitions</h1>
+			        <h1>IT Security Program Definitions</h1>
+<p><strong>                                                                                                                                                         </strong></p>
+<p><strong>Authentication</strong><strong> – </strong>A process to verify that someone is who they claim they are.</p>
+<p><strong>Authorization – </strong>A process to verify that a person, once authenticated, has been granted rights to do what they attempt to do.</p>
+<p><strong>Availability – </strong><em>The NIST Federal Information Processing Standards (FIPS) Publication Series 200, “Minimum Security Requirements for Federal Information and Information Systems”</em></p>
+<p><a href="http://csrc.nist.gov/publications/fips/fips200/FIPS-200-final-march.pdf">http://csrc.nist.gov/publications/fips/fips200/FIPS-200-final-march.pdf</a></p>
+<p>defines <strong>availability</strong> as “(e)nsuring timely and reliable access to and use of information.”</p>
+<p><strong>Best practice</strong> &#8211; Ideas that represent the most efficient or prudent course of action based upon collective experience, including:</p>
+<ul>
+<li>Operational practices based on repeatable procedures that have proven themselves over time</li>
+<li>Generally agreed upon processes and policies that should be undertaken when purchasing and deploying information technology projects in order to decrease operational and financial risk</li>
+<li>Strategies derived from industry experts and their working groups who have, through experimentation, observation, and experience, discovered methods for design, development, and operation of information technology systems which increase the degree or chances of success and decrease cost and risk of those systems and their outcomes</li>
+<li>Risk-based policies and procedures that cost-effectively reduce information security risks throughout the life cycle of each information system in an information security program <a href="http://www.gao.gov/key_issues/leading_practices_information_technology_management/issue_summary">http://www.gao.gov/key_issues/leading_practices_information_technology_management/issue_summary</a></li>
+</ul>
+<p><strong>Breach (HIPAA Breach) &#8211; </strong>The HIPAA Breach Notification Rule, <a href="http://www.gpo.gov/fdsys/browse/collectionCfr.action?collectionCode=CFR&amp;searchPath=Title+45%2FSubtitle+A%2FSubchapter+C%2FPart+164%2FSubpart+D&amp;oldPath=Title+45%2FSubtitle+A%2FSubchapter+C%2FPart+164&amp;isCollapsed=true&amp;selectedYearFrom=2014&amp;ycord=2151">45 CFR Sections 164.400-414</a>, requires HIPAA covered entities and their business associates to provide notification following a breach of unsecured protected health information. <a href="http://www.gpo.gov/fdsys/pkg/CFR-2014-title45-vol1/pdf/CFR-2014-title45-vol1-part164-subpartD.pdf">Section 164.402</a> defines Breach as “the acquisition, access,</p>
+<p>use, or disclosure of protected health information in a manner not permitted under subpart E of this part which compromises the security or privacy of the protected health information.</p>
+<p><strong>Breached Credential – </strong>A<strong> Credential</strong> which has been the subject of<strong> a </strong>HIPAA Section 164.402 Breach (see <strong>Breach</strong>).</p>
+<p><strong>Breached System &#8211;</strong> A <strong>System</strong> which has experienced a HIPAA Section 164.402 Breach (see <strong>Breach</strong>).</p>
+<p><strong>Business process </strong><strong>(Business function) –</strong> a process or function carried out by a <strong>Unit </strong>and its<strong> Workforce</strong> in the course of executing its role assigned by the University, or which supports or facilitates such activity.</p>
+<p><strong>Business Unit – </strong>An administrative or operational entity within a <strong>Unit</strong> implementing or operating <strong>University</strong> <strong>business processes</strong>. These are typically directed by Business Administrators.</p>
+<p><strong>Campus Community</strong> – Participants in the University <strong>business processes</strong> including its <strong>Workforce</strong>, research partners, affiliates, Business Associates covered by <a href="#_DCS.10_Business_Associate">HIPAA Business Associate Agreements</a>, and those who, through the University’s <strong>business processes</strong>, have access to non-<strong>Public</strong> <strong>University Data</strong> in performance of their responsibilities or obtaining information or services from <strong>University Data</strong> or University computational resources.</p>
+<p><strong>Campus Information Technology Principals</strong> – <strong>Units</strong> providing campus or University-wide information technology services: specifically including ACCC, AITS, the University HIPAA Privacy and Security Officer, and the University of Illinois Hospital and Health Sciences System.</p>
+<p><strong>Cloud Computing Services – </strong>NIST in “The NIST Definition of Cloud Computing” (2011) <a href="http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf">http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf</a></p>
+<p>states “Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, Servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction. This cloud model is composed of five essential characteristics, three service models, and four deployment model.”</p>
+<p>The five essential characteristics of cloud computing services are on-demand self-service provisioning of computing capabilities, broad network access to the service, resource pooling, rapid elasticity in provisioning capabilities, and automated and optimizing service measurement.</p>
+<p>The three service models of cloud computing services are organized under a three tier architectural model: Software as a service (SaaS), platform as a service (PaaS), and infrastructure as a service (IaaS). This model can further be extended with tiers for desktop as a service (DaaS), backend as a service (BaaS), and information technology management as a service (ITMaaS).</p>
+<p><strong>Cloud Storage – </strong>Cloud storage is a model of networked online storage in which data is stored on virtualized pools of storage which are generally hosted by third parties.</p>
+<p><strong>Compromise </strong> – an executed <strong>threat</strong> in an <strong>IT Security Incident</strong> upon a <strong>University Information System</strong> or <strong>University data</strong> such that unauthorized changes have occurred or are possible to its configuration, programs, or data. Those actual or possible changes have caused or may cause the System or the data accessed by it, or in the case of stored data, the data itself, to become insecure, such that intended University<strong> confidentiality</strong>, <strong>integrity</strong>, or <strong>availability</strong> needs and standards defined by this Program can no longer be assured.</p>
+<p><strong>Compromised System</strong> &#8211; a <strong>University Information System</strong> which has experienced or is believed to have experienced a <strong>compromise</strong>. A Compromised system can no longer be guaranteed to meet intended University confidentiality, integrity, or availability needs and standards defined by this Program. It is <strong>prohibited</strong> to connect a Compromised System to a University network, or to use the system for any <strong>University</strong> <strong>business Process</strong>. The system must be processed through the <a href="#_RC.P.5.0_Reporting_and">RC.P.5 </a></p>
+<p><a href="#_RC.P.5.0_Reporting_and">Reporting and Responding to IT Security Incidents Procedure</a></p>
+<p><strong>Confidential data – </strong>private organizational information not intended to be disclosed outside the context of the University or organization responsible for that information.</p>
+<p><strong>Confidentiality – </strong>The <em>NIST Federal Information Processing Standards (FIPS) Publication Series 200, “Minimum Security Requirements for Federal Information and Information Systems”</em></p>
+<p><a href="http://csrc.nist.gov/publications/fips/fips200/FIPS-200-final-march.pdf">http://csrc.nist.gov/publications/fips/fips200/FIPS-200-final-march.pdf</a></p>
+<p>defines <strong>confidentiality</strong> as “(p)reserving authorized restrictions on information access and disclosure, including means for protecting personal privacy and proprietary information.”</p>
+<p><strong>Contingency operations</strong> &#8211; the bare minimum services a <strong>Unit </strong>needs to operate its <strong>core business processes</strong>.</p>
+<p><strong>Control effectiveness &#8211; </strong>the ability of existing control measures implemented to measurably or estimably reduce risk.</p>
+<p><strong>Core business process (core business function) –</strong> an essential process or function carried out by a <strong>Unit</strong> and its <strong>Workforce</strong> in the course of executing its role assigned by the University, and tabulated as a Core Business Process by the <strong>Unit</strong> under its Business Continuity Plan in the University’s UIReady (Kuali) Business Continuity Planning tool.</p>
+<p><strong>Covered Entity – </strong>The University of Illinois, as defined by the Board of Trustees of the University of Illinois in “Designate the University of Illinois Health Insurance Portability and Accountability Act Hybrid Entity and Adopt Health Insurance Portability and Accountability Act Privacy and Security Compliance Policy” dated November 14, 2013:</p>
+<p><a href="http://www.trustees.uillinois.edu/trustees/agenda/November-14-2013/018-nov-HIPAA-Board-Item.pdf%20">http://www.trustees.uillinois.edu/trustees/agenda/November-14-2013/018-nov-HIPAA-Board-Item.pdf</a></p>
+<p><strong>Credential (Login credentials) &#8211; </strong>Login credentials to a <strong>System</strong> or to utilize a network address usually consist of a User ID and password. The login process may also use Identification through a PKI certificate, and an <strong>Authentication</strong> portion of the login process may use Tokens, biometrics, or a set of personal questions that the <strong>User</strong> must answer.</p>
+<p><strong>Critical business process &#8211; </strong>Unit University <strong>core business processes</strong> identified by a Unit handling <strong>PHI</strong> to specifically meet the HIPAA Security Regulation Emergency Mode Operation Plan requirements reviewed in <a href="#_DP.4_Emergency_Mode">Policy DP.4 Emergency Mode Operations Plan</a>.</p>
+<p><strong>Critical data</strong> – information which, if damaged or destroyed, would cause considerable inconvenience and/or require replacement or recreation at significant cost.</p>
+<p><strong>Critical Levels – </strong>There are four levels of criticality in a Disaster Recovery scenario and they have been defined for the University of Illinois enterprise-wide by the Kuali Ready Business Continuity System (<a href="https://us.ready.kuali.org">https://us.ready.kuali.org</a>). They are as follows:</p>
+<ul>
+<li>Critical 1: Cannot pause and <strong>must</strong> be continued at normal or increased service load. The <strong>Recovery Time Objective</strong> (<strong>RTO</strong>) or the maximum amount of time that activities must be recovered and operational is within 0 to 8 hours. (Examples: inpatient care, police services, network/IT, animal care)</li>
+</ul>
+<p><strong> </strong></p>
+<ul>
+<li>Critical 2: <strong>Must</strong> be continued if at all possible, perhaps in reduced mode. Pausing completely will have grave consequences. The <strong>RTO</strong> is within 8 to 24 hours. (Examples: provision of care to at risk outpatients, functioning of data networks, at risk research)</li>
+</ul>
+<p><strong> </strong></p>
+<ul>
+<li>Critical 3: May continue in reduced mode or pause if forced to do so, but <strong>must</strong> resume in 96 hours or sooner. The <strong>RTO</strong> is within 24 to 96 hours. (Examples: classroom instruction, research, payroll, student advising)</li>
+</ul>
+<p><strong> </strong></p>
+<ul>
+<li>Critical 4: May be paused or be deferred, then resumed when conditions permit. The <strong>RTO</strong> is &gt; 1 week, but &lt; 30 days. (Examples: elective surgery, routine building maintenance, HR-training)</li>
+</ul>
+<p><strong>Data Custodian</strong> &#8211; a person with a role responsible for providing and supporting elements of an infrastructure in support of access to <strong>University Data</strong> and its transmission, receipt, and storage, assuring its <strong>confidentiality</strong> while providing for its <strong>availability</strong> according to diverse <strong>Unit business process</strong> needs, and ensuring its <strong>integrity</strong>. The Data Custodian may also provide and support secure access to computational resources utilized by <strong>Data Users</strong>, the <strong>Workforce</strong>, and the <strong>Campus Community</strong>, including, but not limited to, providing physical security, backup and recovery processes, granting access privileges to system <strong>Users</strong> as authorized by <strong>Data Stewards</strong>, and implementing and administering controls over that data.</p>
+<p><strong>Data Steward</strong> &#8211; the individual (or possibly, a group of individuals) who has a role with direct operational-level responsibility for the acquisition, management, and preservation of <strong>University Data</strong> &#8211; usually <strong>Unit </strong>heads or directors. The Data Steward may be the person responsible for the original collection or aggregation of the data, for example, a Principal Investigator whose study collects <strong>ePHI</strong> from subjects. As another example, the Data Steward may be the assigned <strong>University business process</strong> owner, e.g. a department’s Director of Graduate Admissions who supervises the collection of departmental supplemental graduate applications.</p>
+<p><strong>Data User</strong> – an individual who uses <strong>University Data</strong> as part of their assigned duties or in fulfillment of their assigned roles or functions carrying out <strong>University</strong> <strong>business processes</strong> within the University community</p>
+<p><strong>DE-CENT Computing Environment</strong> &#8211; <strong>Units</strong> in which each <strong>Workforce </strong>member may store <strong>University Data</strong> on their own, or each subordinate <strong>Unit</strong> and its <strong>Workforce</strong> may individually chose how to store <strong>University Data</strong>. In this type of environment, <strong>Workforce</strong> awareness of what computing equipment exists in their <strong>Unit</strong> or what type of data is stored may be limited.</p>
+<p><strong>Delegate –</strong> Staff assuming <strong>Program</strong> responsibility or implementation duties.</p>
+<p><strong>Delegation Agreement </strong>– A written document stipulating the terms of the delegation of a duty under this <strong>Program</strong>, defining what duty is delegated, to whom it is delegated, and the duties still required of the delegating <strong>Unit</strong>.</p>
+<p><strong>Emergency Mode Operations Plan – </strong>a plan that enables the continuation of <strong>critical business processes</strong> as identified by the <strong>Unit</strong> under the requirements of <a href="#_DP.4_Emergency_Mode">Policy DP.4 <em>Emergency Mode Operations Plan</em></a>, developed under the Unit’s <em>DP.G.4 Emergency Mode Operations Plan</em>.</p>
+<p><strong>Encryption &#8211; </strong>the process of encoding messages or information through a cryptographic algorithm so that only parties having authorized access to the encryption keys can decrypt and read the original data.</p>
+<p><strong>Endorsed campus solution</strong> (“<strong>endorsed</strong>”) – A product or service approved by Campus Information Technology Principals or the University Office of Business and Financial Services for purchase or use by the Campus Community, or by a specific subset of those individuals or units. For example, under site licensing agreements, one endorsed encryption product may only be available for purchase from the University by eligible faculty and staff, and a differing endorsed encryption product may only be available for purchase from the University by eligible students.</p>
+<p><strong>EPHI</strong> (<strong>ePHI</strong>) – Electronically protected health information as defined in the <em>Health Insurance Portability and Accountability Act of 1996 (HIPAA), Title II Administrative Simplification, Subpart A: General Provisions, section 160.103</em>. Quoting from it,</p>
+<p><strong>PHI </strong>(<strong>Protected health information</strong>) means individually identifiable health information.</p>
+<p><strong>EPHI</strong> is <strong>PHI</strong> transmitted by electronic media, maintained in electronic media, or transmitted or maintained in any other form or media. <strong>EPHI </strong>includes the following types of health information:</p>
+<p><strong> </strong></p>
+<ol>
+<li>Names</li>
+<li>All geographic subdivisions smaller than a State, including street address, city, county, precinct, zip code, and their equivalent geocodes, except for the initial three digits of a zip code if, according to the current publicly available data from the Bureau of the Census the geographic unit formed by combining all zip codes with the same three initial digits contains less than 20,000 people</li>
+<li>All elements of dates (except year) for dates directly related to an individual, including birth date, admission date, discharge date, date of death; and all ages over 89 and all elements of dates (including year) indicative of such age, except that such ages and elements may be aggregated into a single category of age 90 or older</li>
+<li>Telephone numbers</li>
+<li>Fax numbers</li>
+<li>Electronic mail addresses</li>
+<li>Social security numbers</li>
+<li>Medical record numbers</li>
+<li>Health plan beneficiary numbers</li>
+<li>Account numbers</li>
+<li>Certificate/license numbers</li>
+<li>Vehicle identifiers and serial numbers, including license plate numbers</li>
+<li>Device identifiers and serial numbers</li>
+<li>Web Universal Resource Locators (URLs)</li>
+<li>Internet Protocol (IP) address numbers</li>
+<li>Biometric identifiers, including finger and voice prints</li>
+<li>Full face photographic images and any comparable images; and</li>
+<li>Any other unique identifying number, characteristic, or code that is derived from or related to information about the individual.</li>
+</ol>
+<p><strong>Full backup</strong> &#8211; A backup of all data and configurations of a <strong>system</strong> including metadata describing the system as well as its installed programs and the operating system.</p>
+<p><strong>HIGH-CENT Computing Environment &#8211; </strong>Highly centralized and controlled computing environment in which a <strong>Unit</strong> knows fairly exactly what computing equipment they have, what data they have, and in addition they maintain a high level of security in their environment so that may ensure that the <strong>Unit University Data</strong> cannot be stored in places the data custodians and data stewards are not aware of.</p>
+<p><strong>High Risk Data – </strong>Information assets for which there are legal requirements for preventing disclosure or financial penalties for disclosure. Data covered by federal and state legislation, such as the federal Health Insurance Portability and Accountability Act (HIPAA) or the Illinois Personal Information Protection Act (IL PIPA), are in this class. Payroll, personnel, and financial information are also in this class because of privacy requirements. The <strong>Program </strong>recognizes that other data including <strong>Confidential Data</strong> may need to be treated as High Risk Data because it would cause severe damage to the University if its unauthorized disclosure or modification occurs through a <strong>compromise</strong>. The <strong>Data Steward</strong> should make this determination. It is the <strong>Data Steward</strong>&#8216;s responsibility to request the <strong>Data Custodian</strong> implement the necessary security requirements for <strong>High Risk Data</strong> under this Program.</p>
+<p>For a fuller discussion, please see the University of Illinois Information Security Policy:</p>
+<p><a href="http://www.obfs.uillinois.edu/bfpp/section-19-business-systems-access-security/section-19-5">http://www.obfs.uillinois.edu/bfpp/section-19-business-systems-access-security/</a><a href="http://www.obfs.uillinois.edu/bfpp/section-19-business-systems-access-security/section-19-5">section-19-5</a></p>
+<p><strong>HIPAA – </strong>The <em>Health Insurance Portability and Accountability Act of 1996 (HIPAA)</em></p>
+<p><a href="http://www.access.gpo.gov/nara/cfr/waisidx_07/45cfr160_07.html">http://www.access.gpo.gov/nara/cfr/waisidx_07/45cfr160_07.html</a></p>
+<p><a href="http://www.access.gpo.gov/nara/cfr/waisidx_07/45cfr164_07.html">http://www.access.gpo.gov/nara/cfr/waisidx_07/45cfr164_07.html</a></p>
+<p>subject to later modification by the <em>Health Information Technology for Economic and Clinical Health (HITECH) Act of 2009</em> as part of the <em>American Recovery and Reinvestment Act (ARRA) of 2009</em></p>
+<p><a href="http://edocket.access.gpo.gov/2009/pdf/E9-20169.pdf">http://edocket.access.gpo.gov/2009/pdf/E9-20169.pdf</a></p>
+<p>and revision under the 2013 Final Omnibus Rule Update</p>
+<p><a href="http://www.gpo.gov/fdsys/pkg/FR-2013-01-25/pdf/2013-01073.pdf">http://www.gpo.gov/fdsys/pkg/FR-2013-01-25/pdf/2013-01073.pdf</a></p>
+<p>&nbsp;</p>
+<p><strong>Impact </strong><em>(in a risk context)</em><strong> &#8211; </strong>the financial or reputational harm that would be incurred by affected parties including the University if an adverse event occurred.</p>
+<p><strong>Impact level – </strong>Three impact levels are defined: Low, Moderate, and High.</p>
+<p>The potential <strong>impact</strong> is LOW if the loss of <strong>confidentiality, integrity, </strong>or<strong> availability</strong> could be expected to have a limited adverse effect on <strong>University business processes</strong>, University assets including <strong>University Information Assets</strong>, or individuals. A limited adverse effect means that, for example, the loss of confidentiality, integrity, or availability might (i) cause a degradation in business process capability to an extent and duration that the organization is able to perform its primary functions, but the effectiveness of the functions is noticeably reduced; (ii) result in minor damage to organizational assets; (iii) result in minor financial loss; or (iv) result in minor harm to individuals.</p>
+<p>&nbsp;</p>
+<p>The potential <strong>impact</strong> is MODERATE if the loss of <strong>confidentiality, integrity, </strong>or<strong> availability</strong> could be expected to have a serious adverse effect on <strong>University business processes</strong>, including <strong>University Information Assets</strong>, or individuals. A serious adverse effect means that, for example, the loss of confidentiality, integrity, or availability might (i) cause a significant degradation in business process capability to an extent and duration that the organization is able to perform its primary functions, but the effectiveness of the functions is significantly reduced; (ii) result in significant damage to organizational assets; (iii) result in significant financial loss; or (iv) result in significant harm to individuals that does not involve loss of life or serious life threatening injuries.</p>
+<p>&nbsp;</p>
+<p>The potential <strong>impact</strong> is HIGH if the loss of <strong>confidentiality, integrity, </strong>or<strong> availability</strong> could be expected to have a severe or catastrophic adverse effect on <strong>University business processes</strong>, including <strong>University Information Assets</strong>, or individuals. A severe or catastrophic adverse effect means that, for example, the loss of confidentiality, integrity, or availability might (i) cause a severe degradation in or loss of business process capability to an extent and duration that the organization is not able to perform one or more of its primary functions; (ii) result in major damage to organizational assets; (iii) result in major financial loss; or (iv) result in severe or catastrophic harm to individuals involving loss of life or serious life threatening injuries.</p>
+<p>&nbsp;</p>
+<p>Harm to individuals as described in these impact levels is easier to understand with examples. A <strong>compromise </strong>of the confidentiality of PII at the low <strong>impact</strong> level would not cause harm greater than inconvenience, such as changing a telephone number. The types of harm that could be caused by a <strong>compromise</strong> involving PII at the moderate <strong>impact</strong> level include financial loss due to identity theft or denial of benefits, public humiliation, discrimination, and the potential for blackmail. Harm at the high <strong>impact</strong> level involves serious physical, social, or financial harm, resulting in potential loss of life, loss of livelihood, or inappropriate physical detention.</p>
+<p><strong>Incremental backup</strong> &#8211; A backup of only files which have changed since the last full backup.</p>
+<p>&nbsp;</p>
+<p><strong>Information Asset &#8211; </strong>information, software, services, intangibles (e.g. reputation), and physical assets (devices or components) used to access, store, or process information assets.</p>
+<p>&nbsp;</p>
+<p><strong>Instructional Systems</strong> – <strong>Workstations </strong>dedicated for the use of instructional software or to display presentations of educational material which 1) do not have any High Risk Data, Sensitive Data Collections, or Sensitive Data stored on them and 2) and which are not configured to have access to such data on file shares.</p>
+<p>&nbsp;</p>
+<p><strong>Integrity &#8211; </strong>The <em>NIST Federal Information Processing Standards (FIPS) Publication Series 200, “Minimum Security Requirements for Federal Information and Information Systems”</em></p>
+<p><a href="http://csrc.nist.gov/publications/fips/fips200/FIPS-200-final-march.pdf">http://csrc.nist.gov/publications/fips/fips200/FIPS-200-final-march.pdf</a></p>
+<p>defines integrity as “(g)uarding against improper information modification or destruction, and includes ensuring information non-repudiation and authenticity.”</p>
+<p>&nbsp;</p>
+<p><strong>Internal Data</strong> &#8211; information that, if disclosed or modified without authorization, would have moderate adverse effect on the operations, assets, or reputation of the University, or the University&#8217;s obligations concerning information privacy.</p>
+<p><strong>IT Security Incident – </strong>The <em>NIST Federal Information Processing Standards (FIPS) Publication Series 200, “Minimum Security Requirements for Federal Information and Information Systems”</em></p>
+<p><a href="http://csrc.nist.gov/publications/fips/fips200/FIPS-200-final-march.pdf">http://csrc.nist.gov/publications/fips/fips200/FIPS-200-final-march.pdf</a></p>
+<p>defines an information technology (<strong>IT</strong>)<strong> security incident</strong> as “(a)n occurrence that actually or potentially jeopardizes the <strong>confidentiality</strong>, <strong>integrity</strong>, or <strong>availability</strong> of an information system or the information the system processes, stores, or transmits, or that constitutes a violation or imminent threat of violation of security policies, security procedures, or acceptable use policies.”</p>
+<p>&nbsp;</p>
+<p>Some of the ways an IT Security Incident at this University may affect:</p>
+<p>&nbsp;</p>
+<ol>
+<li><strong>Confidentiality</strong> is by unauthorized disclosure of <strong>University Data</strong>;</li>
+<li><strong>Integrity</strong> is by unauthorized change or deletion of <strong>University Data</strong>;</li>
+<li><strong>Availability</strong> is by inhibition of access to or control of computer or network based resources used in <strong>University</strong> <strong>business processes</strong>.</li>
+</ol>
+<p>&nbsp;</p>
+<p>An IT Security Incident may occur</p>
+<p>&nbsp;</p>
+<ol>
+<li>Intentionally, for example in the course of a malefactor’s violation of a statute or regulatory requirement, or</li>
+<li>Unintentionally, for example, in the course of a natural disaster.</li>
+</ol>
+<p>IT Security Incident <strong>threats</strong> arise or have the potential to arise when <strong>vulnerabilities</strong> can be exploited.</p>
+<p>&nbsp;</p>
+<p><strong>Likelihood</strong> &#8211; the perceived likelihood of an adverse event occurring over a certain time range, typically one year.</p>
+<p>&nbsp;</p>
+<p><strong>Low strength encryption</strong> (&#8220;low strength&#8221;) – encryption cipher strength less than <strong>Medium strength encryption.</strong></p>
+<p>&nbsp;</p>
+<p><strong>Medium strength encryption</strong> (&#8220;Medium strength&#8221;) &#8211; minimum 128 bit AES, IDEA or RC4 encryption level or 168 bit (effectively 112 bit) 3DES encryption ciphers.</p>
+<p>&nbsp;</p>
+<p><strong>MIXED Computing Environment &#8211; </strong>A mixture of varying levels of awareness of Unit<strong> University Data</strong> distribution, and of the effectiveness of administrative control of the systems and data storage.</p>
+<p>&nbsp;</p>
+<p><strong>Non-Secure Systems</strong> &#8211; <strong>Workforce</strong> member’s personal computers not administered and secured by Unit staff under <a href="#_SS.1_Establish_Workstation">Policy SS.2</a> <em>Establish Workstation and Server Access Controls,</em> but utilized to carry out University business processes or to access University data</p>
+<p>&nbsp;</p>
+<p><strong>Offsite backup</strong> &#8211; Backup media physically stored elsewhere besides a Unit’s assigned space or the campus building in which that space is located.</p>
+<p>&nbsp;</p>
+<p><strong>Originator Usage Period</strong> &#8211; applicable to the use of a unique Symmetric Data Encryption key in applying the original cryptographic protection to information (i.e., encrypting storage under <em><a href="#_DCS.S.4.1_Data_Encryption_1">DCS.S.4.1.2, Data Encryption Storage Standards</a>)</em>. During the originator-usage period, information may be encrypted by the data-encryption key; the key shall not be used for performing an encryption operation on information beyond this period. However, the key may need to be available to decrypt the protected data beyond the originator-usage period (i.e., the recipient-usage period may need to extend beyond the originator-usage period).</p>
+<p><strong>Personally Identifiable Information (PII)</strong> – NIST SP 800-122, <em>Guide to Protecting the Confidentiality of Personally Identifiable Information (PII)</em></p>
+<p><em> </em><a href="http://csrc.nist.gov/publications/nistpubs/800-122/sp800-122.pdf">http://csrc.nist.gov/publications/nistpubs/800-122/sp800-122.pdf</a></p>
+<p>&nbsp;</p>
+<p>defines PII Data as any information about an individual maintained by a Unit, including (1) any information that can be used to distinguish or trace an individual‘s identity, such as name, social security number, date and place of birth, mother‘s maiden name, or biometric records; and (2) any other information that is linked or linkable to an individual, such as medical, educational, financial, and employment information.</p>
+<p>&nbsp;</p>
+<p>At a minimum, Personally Identifiable Information (PII) must be treated as Internal Data, and elements of PII may be classified as Sensitive, Confidential, or High Risk Data. This definition, however, does not supersede University policy on FERPA data.</p>
+<p>&nbsp;</p>
+<p>Examples of PII Data include, but are not limited to:</p>
+<p>&nbsp;</p>
+<ol>
+<li>Name, such as full name, maiden name, mother‘s maiden name, or alias</li>
+<li>Personal identification number, such as social security number (SSN), passport number, driver‘s license number, taxpayer identification number, patient identification number, and financial account or credit card number21</li>
+<li>Address information, such as street address or email address</li>
+<li>Asset information, such as Internet Protocol (IP) or Media Access Control (MAC) address or other host-specific persistent static identifier that consistently links to a particular person or small, well-defined group of people</li>
+<li>Telephone numbers, including mobile, business, and personal numbers</li>
+<li>Personal characteristics, including photographic image (especially of face or other distinguishing characteristic), x-rays, fingerprints, or other biometric image or template data (e.g., retina scan, voice signature, facial geometry)</li>
+<li>Information identifying personally owned property, such as vehicle registration number or title number and related information</li>
+<li>Information about an individual that is linked or linkable to one of the above (e.g., date of birth, place of birth, race, religion, weight, activities, geographical indicators, employment information, medical information, education information, financial information).</li>
+</ol>
+<p><strong> </strong></p>
+<p><strong>PHI (Protected health information) &#8211; </strong>individually identifiable health information. See <strong>ePHI</strong></p>
+<p><strong>PIPA – </strong>Illinois Public Act 094-0036 ”Personal Information Protection Act”, Illinois Compiled Statutes Chapter 815, Act 530</p>
+<p><a href="http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2702&amp;ChapterID=67">http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2702&amp;ChapterID=67</a></p>
+<p>and revised under Senate Bill 1833, passed by both Houses 5/31/15:</p>
+<p><a href="http://www.ilga.gov/legislation/fulltext.asp?DocName=&amp;SessionId=88&amp;GA=99&amp;DocTypeId=SB&amp;DocNum=1833&amp;GAID=13&amp;LegID=88670&amp;SpecSess=0&amp;Session=0">http://www.ilga.gov/legislation/fulltext.asp?DocName=&amp;SessionId=88&amp;GA=99&amp;DocTypeId=SB&amp;DocNum=1833&amp;GAID=13&amp;LegID=88670&amp;SpecSess=0&amp;Session=0</a></p>
+<p>&nbsp;</p>
+<p><strong>Portable data storage media (portable media) – </strong>magnetic, optical, or other data storage technology media intended to be removed from devices storing or reading information on the media, thereby portable media: typically CDs, DVDs, or tapes.</p>
+<p>&nbsp;</p>
+<p><strong>Portable data storage device</strong> – any physical computing device capable of data storage designed to be readily picked up and transported by persons from workplace to workplace, as opposed to “desktop computers” or other bulkier and less transportable systems such as <strong>servers</strong> generally meant to be utilized at a relatively permanent and single fixed physical location. Portable data storage devices include tablet, laptop, or notebook computers, and also handheld devices such as PDAs, USB interface storage devices including “thumb drives” and “flash drives”, and all types of <strong>portable data storage media</strong>.</p>
+<p><strong>Principals – </strong>see<strong> Campus Information Technology Security Principals</strong></p>
+<p><strong>Private Data</strong> – Data that is to be observed only by the originator or sender(s) and a designated recipient or receiver(s).</p>
+<p><strong>Program </strong>– this Information Technology Security Program.</p>
+<p><strong>Program Components </strong>– this Information Technology Security Program’s Information Technology Security Policies, Procedures, Forms (Worksheets), Guidelines and Standards.</p>
+<p><strong>Public Access Systems – </strong>Systems identified by the <em><a href="#_DCS.2.4_Conduct_Risk">Guideline DCS.G.2.4 Conduct Risk Assessment</a></em> and evaluated under the <em><a href="#_DCS.2.5_Implement_Risk">DCS.G.2.5 Implement Risk Management Program</a></em> process which are designed to allow unauthenticated access. These systems are specifically exempted from the <em><a href="#_SS.5_Automatic_Locking">Policy SS.5 Automatic Locking</a></em> requirements for non-privileged login accounts which provide unauthenticated access services. As an example, a unit may define publicly accessible information kiosks (where the public may input information queries) or ACCC administered Pharos print stations as Public Access Systems if they are identified and evaluated as Public Access Systems in the above Guidelines.</p>
+<p><strong>Public Data </strong>– Public Data is <strong>University Data</strong> intended for public use that, when used as intended, would have no adverse effect on the operations, assets, or reputation of the University, or the University&#8217;s obligations concerning information privacy.</p>
+<p>&nbsp;</p>
+<p><strong>Recipient Usage Period</strong> &#8211; applicable to the use of a unique Symmetric Data Encryption key in decrypting information (i.e., encrypted storage under <em><a href="#_DCS.S.4.1_Data_Encryption_1">DCS.S.4.1.2, Data Encryption Storage Standards</a></em>). During the Recipient Usage Period, information may be decrypted by the data-encryption key. The Recipient Usage Period should not exceed the Originator Usage Period plus three years. Thus, a unique Symmetric Data Encryption key under the DCS.S.4.1.2 Standard shall not be used for a period exceeding 5 years from the date the information has been encrypted.</p>
+<p><strong>Reporter </strong>– Any <strong>Unit</strong> staff member who identifies a potential or actual conflict in responsibility or implementation of any <strong>Program</strong> requirement.</p>
+<p>&nbsp;</p>
+<p><strong>RPO</strong> &#8211; <strong>Recovery Point Objective</strong>. The maximum tolerable period in which data might be lost from an information technology service due to a major incident.</p>
+<p>&nbsp;</p>
+<p><strong>RTO</strong> &#8211; <strong>Recovery Time Objective</strong>. The duration of time within which a business process <strong>must</strong> be restored after a disaster in order to avoid unacceptable consequences associated with a break in business continuity.</p>
+<p><strong>Sensitive Data – </strong>Information that, if disclosed or modified without authorization, would have serious adverse effect on the operations, assets, or reputation of the University, or the University&#8217;s obligations concerning information privacy. Sensitive Data includes information that is covered by FERPA, Non-Disclosure Agreements (NDAs), and other intellectual property are, as a minimum, in this class.</p>
+<p>&nbsp;</p>
+<p>Note: Data described in Non-Disclosure Agreements may fall into the <strong>High Risk Data</strong> or <strong>Sensitive Data</strong> categories, and should be individually evaluated.</p>
+<p><strong>Sensitive Data Collection</strong> <strong>– </strong>a collection of <strong>Sensitive Data</strong> that results from compiling (i.e., collecting) the <strong>Sensitive Data</strong> from multiple sources. For example, an instructor’s compilation of grades for his/her own classes, held on their own computer, would not be a <strong>Sensitive Data Collection</strong>. However, a department’s compilation of all the grades for all the classes in the department, held in storage, would be a <strong>Sensitive Data Collection</strong>.</p>
+<p>&nbsp;</p>
+<p>Where a requirement is given in this Program for <strong>Sensitive Data</strong>, the same requirements apply to <strong>Sensitive Data Collections</strong> as a minimum threshold. <strong>Sensitive Data Collections</strong> are specifically identified in this program where a more restrictive or extensive requirement is applied to a <strong>Sensitive Data Collection</strong> than <strong>Sensitive Data</strong>.</p>
+<p>&nbsp;</p>
+<p><strong>Server </strong><strong>– </strong>any <strong>system</strong>, application, or data storage device which is configured to allow access to it by a more than one <strong>User</strong> (excluding a single <strong>User</strong> per device and the system administrator, if separate from the <strong>User</strong>) concurrently.</p>
+<p>&nbsp;</p>
+<p><strong>Strong encryption (&#8220;Strong” or “High strength&#8221;) &#8211; </strong>ciphers with an encryption level at least as strong as AES (192, and 256-bit key lengths), Blowfish (128 to 448-bit key lengths, in 8-bit increments), and ARCFOUR (2048-bit).</p>
+<p><strong>System </strong>– Any computer or networking resource such as a Workstation, Server, or router.</p>
+<p><strong>Threat – </strong>The <em>NIST Federal Information Processing Standards (FIPS) Publication Series 200, “Minimum Security Requirements for Federal Information and Information Systems”</em></p>
+<p><a href="http://csrc.nist.gov/publications/fips/fips200/FIPS-200-final-march.pdf">http://csrc.nist.gov/publications/fips/fips200/FIPS-200-final-march.pdf</a></p>
+<p>defines a <strong>threat</strong> as “(a)ny circumstance or event with the potential to adversely <strong>impact</strong> organizational operations (including mission, functions, image, or reputation), organizational assets, or individuals through an information system via unauthorized access, destruction, disclosure, modification of information, and/or denial of service. Also, the potential for a threat-source to successfully exploit a particular information system vulnerability.”</p>
+<p><strong>UISO –</strong> Unit Information Security Officer, typically at the college or upper administrative Unit level.</p>
+<p><strong>UISOO – </strong>Unit Information Systems Operations Officer. These are staff assigned system administration or operations duties, or managers of such staff (IT Directors for example).<strong><br />
+</strong></p>
+<p><strong>Unit – </strong>an entity of administrative organization at the University of Illinois. The term is defined respectively by the University under its Statutes, and by its Office of Business and Financial Services:</p>
+<p>&nbsp;</p>
+<ul>
+<li>The University of Illinois Statutes, as amended January 24, 2013</li>
+</ul>
+<p><a href="http://www.uillinois.edu/trustees/statutes.cfm">http://www.uillinois.edu/trustees/statutes.cfm</a> describes Units at:</p>
+<p>&nbsp;</p>
+<p><em>Article III. Campuses, Colleges, and Similar Units</em></p>
+<p><em> </em></p>
+<p><em>Section 1. The Campus</em></p>
+<p><em> </em></p>
+<ol>
+<li>The campus is the largest educational and administrative group. It is composed of colleges, schools, institutes, and other educational units in conjunction with administrative and service organizations.</li>
+</ol>
+<p><strong> </strong></p>
+<p><em>Section 4. The School and Similar Campus Units</em></p>
+<p><em> </em></p>
+<ol>
+<li>In addition to colleges and departments, there may be other units of a campus, such as a school, institute, center, hospital, and laboratory, of an intermediate character designed to meet particular needs.</li>
+</ol>
+<p><strong> </strong></p>
+<p><em>Article VIII. Changes in Academic Organization</em></p>
+<p>&nbsp;</p>
+<p><em>Section 1. Definitions                                                               </em></p>
+<p><em> </em></p>
+<ol>
+<li>Unit. For the purposes of Article VIII, a unit is a division of the University to which academic appointments can be made and to which resources can be allocated, including departments or similar units, centers, institutes, schools, and colleges.</li>
+</ol>
+<p><strong> </strong></p>
+<ul>
+<li>The University of Illinois Office of Business and Financial Services (OBFS) defines a functional reporting Unit (such as a school, college, or department) with discrete financial activities as an organization, and utilizes a segment of the C-FOAPAL accounting string to identify Banner chart/org combinations that define university business units.</li>
+</ul>
+<p>&nbsp;</p>
+<p>The OBFS Banner Alerts and Resources at <a href="http://www.obfs.uillinois.edu/banner-alerts/">http://www.obfs.uillinois.edu/banner-alerts/</a> give instructions on accessing the Banner FIFGRORGH (Organization Hierarchy) report of organizations (functional reporting Units with discrete financial activities) at the University.<strong><br />
+</strong></p>
+<p><strong>University business process – </strong>see<strong> business process: </strong>a process or function carried out by a Unit and its <strong>Workforce</strong> in the course of executing its role assigned by the University, or which supports or facilitates such activity.</p>
+<p><strong>University Data – </strong>A type of <strong>University Information Asset: </strong>data created or acquired by the University and its <strong>Workforce</strong> in the course of planning or carrying out <strong>University</strong> <strong>business processes</strong> (Business functions).</p>
+<p><strong>University Information Asset – </strong>all <strong>Information Assets</strong> with <u>value</u> to the University as defined by one or more of the following criteria:</p>
+<p><strong> </strong></p>
+<p>1) by their usage in <strong>University</strong> <strong>business processes</strong> as identified in ,</p>
+<p><strong>                                                                       </strong></p>
+<p>2) by the reputational risk to the University if the <strong>availability</strong>, <strong>integrity</strong>, or <strong>confidentiality</strong> of the University Information Asset is <strong>compromised</strong>,</p>
+<p>3) or resources consistent with the definition of the University’s data in the University’s Office of Business and Financial Services’ Business and Financial Policies and Procedures, Section 19.5 “Information Security Policy &#8211; The University of Illinois”</p>
+<p><u>h</u><a href="http://www.obfs.uillinois.edu/bfpp/section-19-business-systems-access-security/section_19_5">ttp://www.obfs.uillinois.edu/bfpp/section-19-business-systems-access-security/section_19_5</a><a href="http://www.obfs.uillinois.edu/bfpp/section-19-business-systems-access-security/section_19_5/">/</a></p>
+<p><strong>Vulnerability – </strong>The <em>NIST Federal Information Processing Standards (FIPS) Publication Series 200, “Minimum Security Requirements for Federal Information and Information Systems”</em></p>
+<p><a href="http://csrc.nist.gov/publications/fips/fips200/FIPS-200-final-march.pdf">http://csrc.nist.gov/publications/fips/fips200/FIPS-200-final-march.pdf</a></p>
+<p>defines a <strong>vulnerability</strong> as “(a) weakness in an information system, system security procedures, internal controls, or implementation that could be exploited or triggered by a <strong>threat</strong> source.”</p>
+<p>&nbsp;</p>
+<p><strong>Whole/Full Disk Encryption</strong> <strong>(FDE)</strong> &#8211; the process of encrypting all the data on a physical hard drive, or aggregation of physical hard drives through RAID technology.</p>
+<p>&nbsp;</p>
+<p><strong>Workforce</strong> <strong>– </strong>All University employees with appointments in a specific Unit, and also employees of external companies engaged in University contracts to carry out <strong>University business processes</strong> utilizing <strong>University Data</strong> for a Unit.</p>
+<p><strong>Workstation – </strong>any computer hardware which is implemented to provide <strong>User</strong> access to <strong>University Information Assets</strong> including systems, applications, or data regardless of the technology by which the data is stored, transmitted to, or accessed by that Workstation.</p>
+<p><strong> </strong></p>
+<p>Workstations include traditional terminals and notebook, laptop, portable and desktop personal computers as well as tablet computers, personal digital assistants, and mobile / wireless / broadband telephone or other such network access devices.</p>
+<p>How a service became approved was never specified.</p>
+<p>Moved to ‘Cloud Services’</p>
+<p>Added new def to be cited at the beginning of SPO</p>
+<p>Added Breach definition and Breached credential and system below</p>
+<p>The term “business process” appeared often in the Program but was never defined. Added this def. and University business process definition</p>
+<p>Added new def, put in terms of AIC (avail, integ…)</p>
+<p>Formerly the defined term was Compromise (Breach). Created separate definition for Breach as it is a HIPAA defined term</p>
+<p>AS for Compromise, removed ()Breached). Added hyperlink.</p>
+<p>Along with the Compromise and Breach def. Changes/addition, added this def</p>
+<p>Cited the source for the levels and their values</p>
+
+                    <!-- <br class="clear" /> -->
+			        
+                </div>
+	            <!-- End page container -->
+
+                            </div>
+            <!-- End main content -->
+
+			<div id="sub-footer"><div class="container">
+				<div class="sub-footer-left">&nbsp;</div>
+
+		<div class="sub-footer-right">
+	    <img class="subfooterlogo" src="https://security.uic.edu/wp-content/themes/uic-network-2013/img/uic-office-notred.png" alt="UIC Logo" title="UIC" width="46" height="19" />&nbsp;
+	    <p>© Copyright 2014-2020 The Board of Trustees of the University of Illinois</p>
+		</div>
+	</div></div><!-- /#sub-footer -->
+
+	
+		<div id="footer">
+		  <div class="container">
+              <h2 class="nav-title">Footer Navigation</h2>
+			  <ul>
+			  <li id="widget_sp_image-7" class="one-fourth widget widget_sp_image"><h3 class="widget-title">UIC</h3><a href="http://www.uic.edu" id="" target="_blank" class="widget_sp_image-image-link" title="UIC Logo" rel=""><img width="125" height="138" alt="UIC Logo" class="attachment-full" style="max-width: 100%;" src="https://security.uic.edu/files/2014/08/CAMP.STACKED.NOTL_.LG_.WHT_125x138.png" /></a></li><li id="nav_menu-6" class="one-fourth widget widget_nav_menu"><h3 class="widget-title">Website Menu</h3><div class="menu-mini-menu-container"><ul id="menu-mini-menu" class="menu"><li id="menu-item-256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-256"><a href="https://security.uic.edu/">Home</a></li>
+<li id="menu-item-261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-261"><a href="https://security.uic.edu/students/">Students</a></li>
+<li id="menu-item-260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-260"><a href="https://security.uic.edu/staff/">Staff</a></li>
+<li id="menu-item-259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-259"><a href="https://security.uic.edu/research/">Research</a></li>
+<li id="menu-item-258" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-258"><a href="https://security.uic.edu/policies/">IT Security Program</a></li>
+<li id="menu-item-257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-257"><a href="https://security.uic.edu/contact-us/">Contact Us</a></li>
+</ul></div></li><li id="nav_menu-7" class="one-fourth widget widget_nav_menu"><h3 class="widget-title">Footer</h3><div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32"><a href="http://www.uic.edu/uic/studentlife/studentservices/disability.shtml">Disability Resources</a></li>
+<li id="menu-item-33" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33"><a href="http://www.uic.edu/uic/studentlife/campus/emergency-information.shtml">Emergency Information</a></li>
+<li id="menu-item-34" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Policy</a></li>
+<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="https://security.uic.edu/contact-us/">Contact Us</a></li>
+</ul></div></li><li id="text-2" class="one-fourth widget widget_text"><h3 class="widget-title">Follow Us</h3>			<div class="textwidget"><a class="twitter-follow-button" href="https://twitter.com/ACCCSecurity">Follow @ACCCSecurity</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+		</li>			  </ul>
+		  </div>
+		</div>
+
+	
+
+	<!-- End Footer -->
+
+</div>
+<!-- End main wrap -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-27751174-8', 'auto');
+  ga('send', 'pageview');
+
+</script><script type='text/javascript' src='https://security.uic.edu/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<!-- End Document
+================================================== -->
+</body>
+</html>

@@ -128,7 +128,7 @@ len(pages_crawled)
 pickle_folder = "../PickleFiles/"
 os.makedirs(pickle_folder, exist_ok=True)
 
-with open(pickle_folder + '3000_pages_crawled.pickle', 'rb') as f:
+with open(pickle_folder + '6000_pages_crawled.pickle', 'rb') as f:
     pages = pickle.load(f)
 
 pages_crawled == pages

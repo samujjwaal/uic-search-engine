@@ -1,933 +1,652 @@
-<!DOCTYPE html><html lang="en"><head><title>UIC Directory</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width"><style>.interior-page-intro .interior-page-title{ color: rgb(54, 54, 54); font-size: 36px; font-weight: 700; line-height: 1; margin-bottom: 12px; }
-.interior-section-header, .interior-page-intro .interior-page-subtitle{ color: rgb(54, 54, 54); font-size: 24px; font-weight: 400; line-height: 1.2; }
-body{ font-family: Theinhardt, Arial, sans-serif; }
-.body-text, .campus-reminders .reminder-text, .category-link-list .text-cell, .error-help, .text-input, .text-area, .number-input, .tel-input, .email-input, .form-help-text, .highlight .content-cell, .home-lists .home-list-blurb, .interior-page-intro .interior-page-text, .key-message-block .message-cell .text, .landing-page-intro .intro-text, .link-block .text, .link-list .text-cell, .text-block-with-inline-image .intro-row, .text-block-with-inline-image .text-and-image-row, .text-block-with-inline-image .link-list, .text-block-with-large-image .link-list, .topic-block-list .text-cell, .topic-block-list .topic-block-text-cell, .block-wysiwyg { color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1.36; }
-.body-text p, .campus-reminders .reminder-text p, .category-link-list .text-cell p, .error-help p, .text-input p, .text-area p, .number-input p, .tel-input p, .email-input p, .form-help-text p, .highlight .content-cell p, .home-lists .home-list-blurb p, .interior-page-intro .interior-page-text p, .key-message-block .message-cell .text p, .landing-page-intro .intro-text p, .link-block .text p, .link-list .text-cell p, .text-block-with-inline-image .intro-row p, .text-block-with-inline-image .text-and-image-row p, .text-block-with-inline-image .link-list p, .text-block-with-large-image .link-list p, .topic-block-list .text-cell p, .topic-block-list .topic-block-text-cell p, .block-wysiwyg p { margin-bottom: 1em; }
-.footer-list-item{ margin-bottom: 15px; }
-.footer-list-item:last-child{ margin-bottom: 0px; }
-.footer-list-link{ color: rgb(255, 255, 255); font-size: 14px; text-decoration: none; }
-.footer .footer-legal a{ color: rgb(153, 153, 153); text-decoration: none; }
-.footer .footer-legal .pipe-separator{ margin-top: 0em; margin-right: 0.5em; margin-bottom: 0em; margin-left: 0.5em; }
-.footer .footer-legal .campuses{ text-align: right; }
-.social-icons-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; overflow-x: hidden; overflow-y: hidden; }
-@media (min-width){
-.social-icons-list{ margin-top: 30px; }
-}
-.social-icons-list a{ text-decoration: none; }
-.social-icons-list svg{ fill: #ffffff; height: 30px; width: 30px; }
-.social-icons-list li{ border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; display: block; float: left; height: 30px; margin-top: 0px; margin-right: 10px; margin-bottom: 10px; margin-left: 0px; width: 30px; }
-.social-icons-list li:nth-of-type(5n+1){ clear: left; }
-.ms-grid, .ms-row, [class*="col-"]{ box-sizing: border-box; }
-.ms-grid{ display: block; position: relative; width: 100%; margin-left: auto; margin-right: auto; max-width: 1400px; padding-left: 12px; padding-right: 12px; }
-.ms-grid .ms-row{ }
-.ms-grid .ms-row::after, .ms-grid [class*="col-"]::after{ content: ''; display: table; clear: both; }
-[class*="col-"]{ float: left; width: 100%; position: relative; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; }
-@media screen and (min-width: 540px){
-.ms-grid{ padding-left: 24px; padding-right: 24px; }
-}
-@media screen and (min-width: 768px){
-.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
-}
-@media screen and (min-width: 2000px){
-.ms-grid .ms-row{ }
-.ms-grid .ms-row > [class*="col-"]{ }
-}
-@media screen and (min-width: 540px){
-.s-col-1-2{ width: 50%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-1-2{ width: 50%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-1-3{ width: 33.3333333333%; }
-}
-@media screen and (min-width: 768px){
-.m-col-1-4{ width: 25%; }
-.m-col-3-4{ width: 75%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-2-12{ width: 16.6666666667%; }
-.l-col-3-12{ width: 25%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-12-push-4{ left: 33.3333333333%; right: auto; }
-.l-col-12-pull-4{ right: 33.3333333333%; left: auto; }
-}
-*{ border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; box-sizing: border-box; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; }
-img{ vertical-align: bottom; }
-@media (min-width: 768px){
-.main{ margin-top: 40px; }
-}
-.ms-grid{ max-width: 1080px; }
-@media (max-width: 767px){
-.ms-grid{ padding-left: 20px; padding-right: 20px; overflow-x: hidden; overflow-y: hidden; }
-}
-@media (max-width: 1084px) and (min-width: 768px){
-.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
-}
-@media (min-width: 1140px){
-.ms-grid{ padding-left: 0px; padding-right: 0px; }
-}
-.component{ margin-bottom: 80px; }
-.interior-section-header{ font-size: 30px; }
-.subhead{ color: rgb(54, 54, 54); font-size: 18px; font-weight: 700; }
-body{ background-color: rgb(248, 248, 248); }
-.breadcrumbs{ line-height: 14px; margin-bottom: 34px; }
-@media (min-width: 768px){
-.breadcrumbs .red-circle{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(213, 0, 50); border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; display: inline-block; height: 14px; width: 14px; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
-}
-.breadcrumbs .first-breadcrumb-arrow{ display: none; }
-@media (min-width: 768px){
-.breadcrumbs .first-breadcrumb-arrow{ display: inline; }
-}
-.breadcrumbs .crumb-list{ display: inline; list-style-position: inside; list-style-type: none; list-style-image: initial; }
-@media (max-width: 768px){
-.breadcrumbs .crumb-list{ line-height: 1.4; }
-}
-.breadcrumbs .crumb-item{ display: inline-block; }
-.breadcrumbs .crumb-anchor{ color: rgb(54, 54, 54); font-size: 12px; font-weight: 500; text-transform: uppercase; }
-.breadcrumbs .crumb-anchor{ text-decoration: none; }
- .breadcrumbs .crumb-anchor.active{ color: rgb(213, 0, 50); outline-style: none; outline-width: initial; outline-color: initial; }
-.breadcrumbs img{ display: inline-block; height: 6px; margin-top: 0px; margin-right: 14px; margin-bottom: 0px; margin-left: 14px; width: 6px; vertical-align: middle; }
-.footer .footer-brand{ height: 206px; margin-bottom: 15px; width: 150px; }
-.footer .footer-brand-address{ margin-bottom: 20px; }
-@media (min-width: 1084px){
-.footer .footer-brand-address{ margin-bottom: 0px; min-height: 280px; }
-}
-@media (min-width: 1084px){
-.footer .footer-address{ bottom: 0px; position: absolute; width: 100%; }
-}
-@media (max-width: 1084px){
-.footer .footer-list{ margin-bottom: 30px; }
-.footer .footer-list::after{ content: ''; display: table; clear: both; }
-}
-.footer .footer-button-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; margin-bottom: 12px; }
-@media (max-width: 1084px) and (min-width: 540px){
-.footer .footer-button-list{ padding-right: 20px; }
-}
-.footer .footer-button-item{ margin-bottom: 5px; }
-.footer .footer-button{ color: rgb(255, 255, 255); background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(37, 37, 37); display: block; font-size: 16px; font-weight: 700; line-height: 32px; height: 32px; padding-top: 0px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px; text-decoration: none; background-position: initial initial; background-repeat: initial initial; }
-@media (max-width: 1084px){
-.footer .footer-legal .campuses{ margin-top: 1em; text-align: left; }
-}
-@media (min-width: 1084px){
-.footer .l-col-1-1{ width: 100%; }
-}
-.footer-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.footer-list-title{ margin-bottom: 15px; }
-.footer-list-title{ color: rgb(255, 255, 255); font-size: 14px; font-weight: 900; text-transform: uppercase; }
-@media (min-width: 1084px){
-.no-flexbox .footer-social-icons-cell{ bottom: -30px; }
-.no-flexbox .footer-address{ bottom: -50px; }
-}
-.header{ position: relative; width: 100%; background-color: rgb(0, 0, 0); }
-.header-menu-bar{ position: relative; }
-.header--blue .header-menu-bar{ background-color: rgb(0, 127, 165); }
-@media (max-width: 1084px){
-.header--blue .navigation-primary .primary-nav-list .primary-list-item{ background-color: rgb(0, 127, 165); }
-}
-.header--blue .navigation-primary .primary-nav-list .expander, .header--blue .navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(0, 102, 132); }
-@media (max-width: 1084px){
-.header--blue .navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); }
-}
-@media (min-width: 1084px){
-.header--blue .navigation-eyebrow{ background-color: rgb(0, 127, 165); }
-}
-.header--blue .navigation-primary:not(.scrolled-after) .primary-nav-list .primary-second-tier-list{ border-top-color: rgb(0, 127, 165); border-right-color: rgb(0, 127, 165); border-bottom-color: rgb(0, 127, 165); border-left-color: rgb(0, 127, 165); }
-.header-background-image-container{ bottom: 0px; left: 0px; overflow-x: hidden; overflow-y: hidden; position: absolute; right: 0px; top: 0px; }
-.header-background-image{ background-size: cover; bottom: -5px; left: -5px; position: absolute; right: -5px; top: -5px; background-position: 50% 50%; background-repeat: no-repeat no-repeat; }
-.interior-page-header{ overflow-x: visible; overflow-y: visible; }
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary .circle-logo-container{ margin-left: 0px; opacity: 1; z-index: 2; }
-}
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary:not(.scrolled-after) .circle-logo-container{ top: 110px; }
-}
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-eyebrow{ background-color: rgb(0, 127, 165); position: static; }
-}
-.interior-page-header .header-menu-bar .navigation-primary{ background-color: rgb(0, 127, 165); width: 100%; }
-.interior-page-header .header-menu-bar .navigation-primary .menu-toggle{ z-index: 2; }
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary{ height: 60px; }
-}
-.interior-page-header .header-background-image{ display: none; }
-.interior-page-intro .interior-page-title{ color: rgb(213, 0, 50); }
-@media (min-width: 540px){
-.interior-page-intro .interior-page-title{ font-size: 48px; }
-}
-.interior-page-intro .interior-page-subtitle{ margin-bottom: 10px; }
-@media (min-width: 540px){
-.interior-page-intro .interior-page-subtitle{ font-size: 30px; }
-}
-.link-block-group .link-block-anchor { margin-top: 40px; }
-@media (min-width: 540px){
-.link-block-group .link-block-anchor { max-width: 50%; }
-}
-.link-block-group .link-block-anchor, .link-block-group .link-block-anchor:hover, .link-block-group .link-block-anchor:visited { color: rgb(54, 54, 54); text-decoration: none; }
-.link-block { padding-top: 1px; position: relative; }
-.link-block::before { background-color: rgb(213, 0, 50); content: ''; height: 1px; left: 0px; position: absolute; top: 1px; width: 100%; }
-.link-block .subhead { margin-top: 15px; margin-right: 0px; margin-bottom: 4px; margin-left: 0px; padding-right: 20px; position: relative; }
-.link-block .subhead .arrow { fill: #001e62; height: 10px; position: absolute; right: 5px; width: 10px; }
-.link-block-anchor:hover, .link-block-anchor:focus { outline-style: none; outline-width: initial; outline-color: initial; }
-.link-block-anchor:hover .link-block::before, .link-block-anchor:focus .link-block::before { height: 3px; }
-.link-block-anchor:hover .arrow, .link-block-anchor:focus .arrow { -webkit-transform: translateX(5px); }
-.link-list .interior-section-header{ margin-bottom: 15px; }
-.navigation-eyebrow{ height: 40px; }
-@media (min-width: 1084px){
-.navigation-eyebrow{ background-color: rgb(0, 127, 165); }
-}
-.navigation-eyebrow .navigation-eyebrow-inner{ margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 1080px; position: relative; }
-.navigation-eyebrow .eyebrow-list{ color: rgb(255, 255, 255); font-size: 14px; font-weight: 400; list-style-type: none; list-style-position: inside; list-style-image: initial; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; padding-top: 0px; padding-right: 20px; padding-bottom: 0px; padding-left: 20px; }
-@media (min-width: 1084px){
-.navigation-eyebrow .eyebrow-list{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 25%; }
-}
-.navigation-eyebrow .eyebrow-list-item{ display: none; line-height: 40px; height: 40px; }
-@media (min-width: 1084px){
-.navigation-eyebrow .eyebrow-list-item{ display: block; float: left; }
-}
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor{ overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
-.navigation-eyebrow .eyebrow-button{ }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor{ font-weight: 700; padding-left: 34px; padding-right: 20px; overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::after{ content: '+'; left: 10px; position: absolute; text-align: center; top: 0px; width: 20px; }
-.navigation-eyebrow .eyebrow-list-anchor{ display: block; outline-style: none; outline-width: initial; outline-color: initial; }
-.navigation-eyebrow .eyebrow-list-anchor{ color: rgb(255, 255, 255); text-decoration: none; }
-.navigation-eyebrow .search-button-item{ display: block; height: 40px; position: absolute; top: 0px; right: 40px; width: 40px; z-index: 1; }
-@media (min-width: 1084px){
-.navigation-eyebrow .search-button-item{ height: 40px; position: relative; top: 0px; right: 0px; width: auto; }
-}
-.navigation-eyebrow .search-button{ background-color: transparent; cursor: pointer; height: 40px; width: 40px; }
-.navigation-eyebrow .search-button .search-glass{ fill: #ffffff; height: 20px; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; width: 20px; }
-.navigation-eyebrow .search-input-container{ position: absolute; top: 0px; height: 40px; right: 42px; -webkit-transform: translateY(-100%); width: 278px; z-index: 3; }
-@media (min-width: 1084px){
-.navigation-eyebrow .search-input-container{ height: 40px; right: 40px; }
-}
-.navigation-eyebrow .search-input-container form{ position: relative; width: 100%; height: 100%; }
-.navigation-eyebrow .search-input-container input[type="text"]{ color: rgb(149, 149, 149); height: 100%; padding-top: 0px; padding-right: 12px; padding-bottom: 0px; padding-left: 12px; font-size: 18px; width: 100%; }
-.navigation-eyebrow .search-input-container .submit-button{ -webkit-appearance: none; position: absolute !important; clip: rect(1px 1px 1px 1px); }
-@media (min-width: 1084px){
-.no-flexbox .eyebrow-list-item{ margin-left: 12px; }
-}
-.navigation-primary{ pointer-events: none; position: absolute; top: 0px; width: 100%; z-index: 2; }
-@media (min-width: 1084px){
-.navigation-primary{ pointer-events: auto; position: relative; }
-}
-.navigation-primary .navigation-primary-inner{ margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 1080px; position: relative; min-height: 40px; }
-.navigation-primary .primary-nav-list{ line-height: 1; list-style-type: none; list-style-position: inside; list-style-image: initial; overflow-x: hidden; overflow-y: hidden; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: absolute; right: 0px; top: 0px; width: 260px; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list{ left: 0px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; overflow-x: visible; overflow-y: visible; padding-top: 0px; padding-right: 0px; padding-left: 25%; position: relative; top: 0px; width: auto; }
-}
-.navigation-primary .primary-nav-list .primary-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(0, 127, 165); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; letter-spacing: 0.06em; position: relative; text-transform: uppercase; width: 100%; background-position: initial initial; background-repeat: initial initial; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .primary-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; float: left; background-position: initial initial; background-repeat: initial initial; }
-}
-.navigation-primary .primary-nav-list .primary-list-anchor{ display: block; line-height: 1; }
-.navigation-primary .primary-nav-list .primary-list-anchor, .navigation-primary .primary-nav-list .primary-second-tier-list-anchor{ color: inherit; text-decoration: none; }
-.navigation-primary .primary-nav-list .primary-second-tier-list{ display: none; list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); color: rgb(54, 54, 54); font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 1.25; text-transform: none; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item .primary-second-tier-list-anchor{ display: block; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; }
-.navigation-primary .primary-nav-list .expander{ display: none; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .primary-list-item{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: relative; width: auto; }
-.navigation-primary .primary-nav-list .primary-list-item.primary-list-active-item > .primary-list-anchor{ border-bottom-width: 8px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); padding-bottom: 12px; }
-.navigation-primary .primary-nav-list .primary-list-item > .primary-list-anchor{ display: block; outline-style: none; outline-width: initial; outline-color: initial; padding-top: 22px; padding-right: 0px; padding-bottom: 22px; padding-left: 0px; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor{ overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(255, 255, 255); bottom: 2px; height: 8px; -webkit-transform: translateY(135%); }
-.navigation-primary .primary-nav-list .primary-second-tier-list{ border-right-width: 2px; border-right-style: solid; border-right-color: rgb(0, 127, 165); border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(0, 127, 165); border-left-width: 2px; border-left-style: solid; border-left-color: rgb(0, 127, 165); display: block; opacity: 0; pointer-events: none; position: absolute; left: -2px; top: 60px; width: 260px; }
-.navigation-primary .primary-nav-list .primary-list-item:nth-last-child(1) .primary-second-tier-list, .navigation-primary .primary-nav-list .primary-list-item:nth-last-child(2) .primary-second-tier-list{ left: auto; right: -2px; }
-}
-@media (max-width: 1083px){
-.navigation-primary .primary-nav-list .expander{ background-color: rgb(39, 152, 182); display: block; height: 44px; position: absolute; top: 0px; right: 0px; width: 44px; }
-.navigation-primary .primary-nav-list .expander::before{ color: rgb(255, 255, 255); content: '+'; display: block; line-height: 44px; text-align: center; width: 100%; }
-.navigation-primary .primary-nav-list .primary-list-anchor{ line-height: 24px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 20px; }
-.navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); padding-left: 22px; position: relative; }
-.navigation-primary .primary-nav-list .primary-list-item{ min-height: 44px; -webkit-transform: translateX(260px); }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+0){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+1){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+2){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+3){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+4){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+5){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+6){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+7){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+8){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+9){ }
-}
-@media (max-width: 1083px){
-.navigation-primary .primary-nav-list{ pointer-events: none; }
-}
-.navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(39, 152, 182); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; height: 40px; letter-spacing: 0.06em; line-height: 40px; min-height: 40px; padding-top: 0px; padding-bottom: 0px; padding-left: 20px; position: relative; text-transform: uppercase; -webkit-transform: translateX(260px); width: 100%; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .menu-label-item{ display: none; }
-}
-.navigation-primary .primary-nav-list .menu-label{ opacity: 0; }
-.navigation-primary .primary-nav-list .menu-toggle{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; display: block; height: 40px; pointer-events: auto; position: absolute; top: 0px; right: 0px; width: 40px; z-index: 1; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle > span{ position: absolute; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); height: 2px; margin-left: 9px; position: absolute; top: 20px; width: 24px; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::after, .navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ content: ''; position: absolute; width: 100%; height: 100%; left: 0px; top: 6px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ top: auto; bottom: 6px; }
-@media (min-width: 1083px){
-.navigation-primary .primary-nav-list .menu-toggle{ display: none; }
-}
-.navigation-primary .circle-logo-container{ height: 40px; left: 0px; opacity: 0; pointer-events: auto; position: absolute; -webkit-transform: translateY(-100px); top: 10px; width: 40px; z-index: 1; }
-@media (max-width: 1120px) and (min-width: 1080px){
-.navigation-primary .circle-logo-container{ left: 20px; }
-}
-.navigation-primary .circle-logo-container span{ -webkit-appearance: none; position: absolute !important; clip: rect(1px 1px 1px 1px); }
-@media (max-width: 1084px){
-.navigation-primary .circle-logo-container{ height: 32px; margin-left: 20px; opacity: 1; -webkit-transform: translateY(4px); top: 0px; width: 32px; }
-}
-.navigation-primary .circle-logo-container .circle-logo path{ fill: #ffffff; }
-.navigation-primary .circle-logo-container a{ color: rgb(255, 255, 255); outline-style: none; outline-width: initial; outline-color: initial; }
-.navigation-primary .circle-logo-container .circle-logo{ -webkit-transform: rotate(-360deg); }
-@media (min-width: 1084px){
-.no-flexbox .primary-list-item{ margin-left: 12px; }
-}
-.no-flexbox .primary-nav-list::after{ content: ''; display: table; clear: both; }
-.navigation-sidebar{ margin-left: -20px; margin-right: -20px; position: relative; }
-@media (min-width: 768px){
-.navigation-sidebar{ margin-left: 0px; margin-right: 0px; }
-}
-.navigation-sidebar .navigation-sidebar-title{ background-color: rgb(255, 255, 255); border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; color: rgb(0, 30, 98); font-size: 16px; font-weight: 900; line-height: 1.5; margin-bottom: 20px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 47px; position: relative; text-transform: uppercase; }
-.navigation-sidebar .navigation-sidebar-title a{ color: rgb(0, 30, 98); text-decoration: none; }
-.navigation-sidebar .navigation-sidebar-title::after{ content: ' Menu'; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-title{ background-color: transparent; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 15px; padding-left: 0px; }
-.navigation-sidebar .navigation-sidebar-title::after{ content: none; }
-}
-.navigation-sidebar .navigation-sidebar-title .chevron{ display: block; height: 12px; left: 20px; position: absolute; width: 12px; }
-.navigation-sidebar .navigation-sidebar-title .chevron .anchor-point{ display: block; fill: #001e62; height: 8px; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto; -webkit-transform: rotate(-90deg); width: 12px; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-title .chevron{ display: none; }
-}
-@media (max-width: 767px){
-.navigation-sidebar .navigation-sidebar-list-container{ overflow-x: hidden; overflow-y: hidden; pointer-events: none; position: absolute; top: 44px; width: 100%; z-index: 1; }
-}
-@media (max-width: 767px){
-.navigation-sidebar .navigation-sidebar-list{ background-color: rgb(255, 255, 255); border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); padding-left: 20px; padding-right: 20px; -webkit-transform: translateY(-100%); }
-}
-.navigation-sidebar .navigation-sidebar-list .anchor-point{ height: 5px; position: absolute; right: 0px; top: 4px; width: 8px; }
-.navigation-sidebar .navigation-sidebar-list .navigation-sidebar-anchor .anchor-point{ top: 21px; }
-.navigation-sidebar .navigation-sidebar-list, .navigation-sidebar .sidebar-second-tier-list, .navigation-sidebar .sidebar-third-tier-list, .navigation-sidebar .sidebar-fourth-tier-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.navigation-sidebar .navigation-sidebar-anchor, .navigation-sidebar .sidebar-second-tier-anchor, .navigation-sidebar .sidebar-third-tier-anchor, .navigation-sidebar .sidebar-fourth-tier-anchor{ display: block; width: 100%; }
-.navigation-sidebar .navigation-sidebar-item{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); min-height: 50px; }
-.navigation-sidebar .navigation-sidebar-item:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-item:last-child{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); }
-}
-.navigation-sidebar .navigation-sidebar-anchor{ color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1; padding-top: 17px; padding-right: 0px; padding-bottom: 17px; padding-left: 0px; position: relative; text-decoration: none; }
-.navigation-sidebar .sidebar-second-tier-list{ padding-left: 14px; }
-.navigation-sidebar .sidebar-second-tier-item{ font-size: 14px; font-weight: 400; margin-bottom: 16px; }
-.navigation-sidebar .sidebar-second-tier-anchor{ color: rgb(54, 54, 54); position: relative; text-decoration: none; }
-.navigation-sidebar .sidebar-third-tier-list, .navigation-sidebar .sidebar-fourth-tier-list{ padding-top: 14px; padding-left: 14px; }
-.navigation-sidebar .sidebar-third-tier-item, .navigation-sidebar .sidebar-fourth-tier-item{ margin-bottom: 14px; }
-.navigation-sidebar .sidebar-third-tier-anchor, .navigation-sidebar .sidebar-fourth-tier-anchor{ color: rgb(54, 54, 54); position: relative; text-decoration: none; }
-.navigation-sidebar .navigation-sidebar-item.open .navigation-sidebar-anchor, .navigation-sidebar .sidebar-second-tier-item.open .sidebar-second-tier-anchor, .navigation-sidebar .sidebar-third-tier-item.open .sidebar-third-tier-anchor{ font-weight: 700; padding-right: 24px; width: 100%; }
- .navigation-sidebar .sidebar-fourth-tier-item.active .sidebar-fourth-tier-anchor{ color: rgb(213, 0, 50); font-weight: 700; position: relative; }/* Styles appended to the end of every critical path css stylesheet */
-.navigation-primary .primary-list {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-.navigation-eyebrow .eyebrow-list {
-    display: flex;
-    justify-content: space-between;
-}
-.calls-to-action .call-to-action {
-    align-items: center;
-    display: flex;
-}
-.calls-to-action .reminders-container {
-    display: flex;
-}
-.calls-to-action .reminders-anchor {
-    display: flex;
-}
- </style></head><body>
-<header class="header interior-page-header header--blue">
-    <div class="header-background-image-container">
-        <div class="header-background-image" aria-hidden="true" style="background-image: url()"></div>
-    </div>
-        <div class="header-menu-bar">
-
-        <nav class="navigation-eyebrow" aria-label="Eyebrow navigation">
-    <div class="navigation-eyebrow-inner">
-        <ul class="eyebrow-list">
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://maps.uic.edu/">Map</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uic.edu/apps/departments-az/search">Directory</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/about/contact-us">Contact Us</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://library.uic.edu/">Library</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uicflames.com/">Athletics</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/life-at-uic/current-students">Current Students</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/life-at-uic/faculty-and-staff">Faculty and Staff</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://hospital.uillinois.edu/">UI Health</a></li>
-                                        <li class="eyebrow-list-item eyebrow-button"><a class="eyebrow-list-anchor" href="/alumni/give">Give</a></li>
-                            <li class="eyebrow-list-item search-button-item">
-                    <button class="search-button" type="button">
-                        <svg class="search-glass" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" aria-labelledby="title"><title id="title">Expand search box</title><path d="M19.7 18.3l-5.9-5.9c1-1.3 1.6-2.9 1.6-4.7C15.4 3.5 12 0 7.7 0S0 3.4 0 7.7c0 4.2 3.4 7.7 7.7 7.7 1.8 0 3.4-.6 4.7-1.6l5.9 5.9c.2.2.4.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4zM2 7.7C2 4.6 4.6 2 7.7 2s5.7 2.6 5.7 5.7-2.5 5.7-5.7 5.7C4.6 13.4 2 10.8 2 7.7z"/></svg>                    </button>
-                </li>
-        </ul>
-        <div class="search-input-container">
-            <form method="get" action="/search" role="search">
-                <input type="text" name="q" class="search-input" placeholder="Search..." disabled tabindex="-1" aria-label="Search">
-                <input type="submit" class="submit-button" name="search" value="Submit">
-            </form>
-        </div>
-    </div>
-</nav>
-
-        <nav class="navigation-primary" aria-label="Primary navigation">
-    <div class="navigation-primary-inner">
-                <div class="circle-logo-container">
-            <a href="/">
-                <svg class="circle-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M36.5 17.3L33.1 19c-.3-1.3-1-2-2.3-2-1.7 0-2.5 1.4-2.5 3.6s.8 3.6 2.5 3.6c1.2 0 1.8-.6 2.2-1.6l3.5 1.3c-.9 2.1-2.8 3.5-5.8 3.5-4.1 0-6.5-2.8-6.5-6.8s2.5-6.8 6.6-6.8c3.2.1 5 1.8 5.7 3.5m-14.1 9.8h-3.9v-13h3.9v13zm-6.3-5.3c0 1.8-.2 2.7-.7 3.6-.9 1.4-3.2 2-5.2 2s-4.3-.6-5.2-2c-.5-.9-.7-1.8-.7-3.6v-7.7h3.9v7.8c0 .9.1 1.5.4 1.8.3.4.8.5 1.5.5s1.2-.2 1.5-.5c.3-.4.4-1 .4-1.8v-7.8h3.9v7.7zM40 20C40 9 31 0 20 0S0 9 0 20s9 20 20 20 20-9 20-20"/></svg>
-<span>University of Illinois at Chicago</span>            </a>
-        </div>
-                            <ul class="primary-nav-list">
-    <button class="menu-toggle" type="button" tabindex="-1">
-        <div class="menu-toggle-icon"></div>
-        <span>Expand menu</span>
-    </button>
-    <div class="menu-label-item"><span class="menu-label">Menu</span></div>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/admissions-aid">Admissions &amp; Aid</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/visit-campus">Visit Campus</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/paying-for-college">Paying for College</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/academics">Academics</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/programs-of-study">Programs of Study</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/colleges-schools">Colleges &amp; Schools</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/student-support">Student Support</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/research">Research</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-impact">Research Impact</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-strengths">Research Strengths</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/resources-facilities">Resources &amp; Facilities</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/student-research">Student Research</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item">
-            <a class="primary-list-anchor" href="/life-at-uic">Life at UIC</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/living-on-around-campus">Living On &amp; Around Campus</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/campus-resources">Campus Resources</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/current-students">Current Students</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/faculty-and-staff">Faculty and Staff</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/chicago">Chicago</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/exploring-chicago">Exploring Chicago</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/city-transportation">City Transportation</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/essential-chicago">Essential Chicago</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/alumni">Alumni</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/connect">Connect</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/engage">Engage</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/give">Give</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/about">About</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/visit-directions">Visit &amp; Directions</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/history">History</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/leadership">Leadership</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/public-media-resources">Public &amp; Media Resources</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/job-opportunities">Job Opportunities</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/contact-us">Contact Us</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/acerca">Acerca de la UIC (en español)</a></li>
-                                    </ul>
-                    </li>
-    </ul>            </div>
-</nav>
-
-</div>
-</header>
-
-<div class="ms-grid main">
-  <div class="ms-row">
-    <div class="m-col-1-4">
-      <nav class="navigation-sidebar" aria-label="Secondary navigation">
-      </nav>
-    </div>
-    <div class="m-col-3-4">
-
-      <nav class="breadcrumbs ms-row">
-        <div class="col-1-1">
-          <div class="red-circle" aria-hidden="true"></div>
-          <img class="first-breadcrumb-arrow" src="/images/breadcrumb-arrow.svg" aria-hidden="true" alt="Breadcrumb arrow">
-          <ul class="crumb-list">
-            <li class="crumb-item">
-                <a class="crumb-anchor active" href="/apps/find-people/search">Directory</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <main class="interior-page-intro">
-        <div class="ms-row">
-          <div class="col-1-1">
-            <h1 class="interior-page-title">Directory search</h1>
-          </div>
-        </div>
-
-<section role="region" class="text-block-with-large-image" aria-label="VCHA-STRAT INV FND Unit Listing">
-<div class="ms-row title-row">
-  <div class="col-1-1">
-    <h2 class="interior-section-header">
-      VCHA-STRAT INV FND</a>
-    </h2>
-  </div>
-</div>
-
-<div class="ms-row text-row">
-  <div class="col-1-1 block-wysiwyg">
-
-
-<table>
-
-<tr>
-  <td style="vertical-align: top; font-weight: 400;">
-    <p>
-      Banner Dept: <span style="font-weight: 500;">2-467002</span>
-    </p>
-        </td>
-        <td style="vertical-align: top;">
-        </td>
-    </tr>
-
-    		        	  <tr>
-    <th colspan="2" id="10001" style="font-weight: 400;">
-      Department Liaisons    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Jerome Monegan	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-6183 X5-6183 	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#109;&#111;&#110;&#101;&#103;&#97;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#106;&#109;&#111;&#110;&#101;&#103;&#97;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Tareg M Qtami	    <br />
-	    360-CU3 WROB MC 807</br> 1747 W. Roosevelt Road Chicago IL 60608	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-8186	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#113;&#116;&#97;&#109;&#105;&#49;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#116;&#113;&#116;&#97;&#109;&#105;&#49;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Sandra Giovana Calderon	    <br />
-	    380, CU2 UIH MC 807</br> 1747 W. Roosevelt Road Chicago IL 60608	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-4673	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#99;&#97;&#108;&#100;&#101;&#51;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#115;&#99;&#97;&#108;&#100;&#101;&#51;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Ashly Adriana Orama	    <br />
-	    380 CU2 WROB MC 807</br><br /> WROB MC 807</br> 1747 W. Roosevelt Road Chicago IL 60608	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-1596	    <br />
-	    <strong>F</strong> 312-996-8081	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#97;&#108;&#118;&#97;&#114;&#101;&#122;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#97;&#97;&#108;&#118;&#97;&#114;&#101;&#122;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	    </table>
-
-  </div>
-</div>
-</section>
-
-<div class="ms-grid" style="margin-top: 40px;">
-  <div class="ms-row block-wysiwyg">
-    <div class="m-col-1-3">
-        <form method="get" action="/apps/find-people/search">
-
-<div class="form-element"> 
-	<h2>Individuals</h2>
-</div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Last name</span>
-      <input class="text-input" type="text" id="lastname" name="lastname">
-    </label>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">First name</span>
-      <input class="text-input" type="text" id="firstname" name="firstname">
-    </label>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">NetID</span>
-      <input class="text-input" type="text" id="netid" name="netid">
-    </label>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Department</span>
-      <input class="text-input" type="text" id="department" name="department">
-    </label>
-  </div>
-
-  <button type="submit" class="button">Search</button>
-
-  <p class="form-help-text" style="margin-top: 15px;">
-    <em>
-      <strong>Tip</strong> Typing "Lee" into the Last Name
-      field will retrieve too many entries to print. But, adding
-      "R" to the First Name will narrow the search.
-    </em>
-  </p>
-
-</form>
-
-    </div>
-
-    <div class="m-col-2-3">
-        <form method="get" action="//www.uic.edu/apps/departments-az/search">
-
-<div class="form-element">
-<h2>Departments</h2>
-</div>
-
-  <div class="form-element">
-<span class="form-element-label">Browse</span>
-<p>
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=A">A</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=B">B</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=C">C</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=D">D</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=E">E</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=F">F</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=G">G</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=H">H</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=I">I</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=J">J</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=K">K</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=L">L</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=M">M</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=N">N</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=O">O</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=P">P</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Q">Q</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=R">R</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=S">S</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=T">T</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=U">U</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=V">V</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=W">W</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=X">X</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Y">Y</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Z">Z</a>&nbsp;
-    </p>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Department</span>
-      <input class="text-input" type="text" id="kwords" name="kwords">
-    </label>
-  </div>
-
-  <input type="hidden" name="dispatch" value="search" />
-  <button type="submit" class="button">Search</button>
-
-  <p class="form-help-text" style="margin-top: 15px;">
-    <em>
-      <strong>Tip</strong>
-      Search for contact information for a specific department
-      or just select Department Search to browse the unit listing.
-    </em>
-  </p>
-</form>
-
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </main>
-    </div>
-  </div>
-</div>
-
-<footer class="footer">
-    <div class="footer-content" style="background-image: url(/images/footer.jpg)">
-        <div class="ms-grid">
-            <div class="ms-row">
-                <div class="s-col-1-2 m-col-1-4 l-col-3-12 footer-brand-address">
-                                            <img class="footer-brand" src="/images/footer-brand-mark.svg" alt="The University of Illinois at Chicago" aria-hidden="true">
-                                        <div class="footer-address">
-                        <div><strong>1200 West Harrison St.</strong></div>
-                        <div>Chicago, Illinois 60607</div>
-                        <div>312-996-7000</div>
-                    </div>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-push-4" aria-label="Tools">
-                    <h1 class="footer-list-title">Tools</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://uic.blackboard.com/">
-        Blackboard
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://accc.uic.edu/service/g-suite">
-        GoogleApps@UIC
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://my.uic.edu/common/">
-        my UIC
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://www.hr.uillinois.edu/pay/">
-        My UI Info: Pay
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://outlook.uic.edu">
-        UIC Outlook Online
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://accc.uic.edu/service/uicalendar">
-        UICalendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/contact-us">
-        Contact the webmaster
-    </a>
-</li>                                            </ul>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12" aria-label="Resources">
-                    <h1 class="footer-list-title">Resources</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://catalog.uic.edu/ucat/academic-calendar/">
-        Academic Calendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/life-at-uic/current-students">
-        Current Students
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://events.uic.edu">
-        Event Calendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/life-at-uic/faculty-and-staff">
-        Faculty and Staff
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://maps.uic.edu">
-        Maps
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://today.uic.edu/uicnews">
-        UIC Today
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/visit-directions">
-        Visit &amp; Directions
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://clery.uic.edu/">
-        Clery Compliance
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://oae.uic.edu/UnlawfulDiscrimination/index.htm">
-        Nondiscrimination Policy
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://oae.uic.edu/TitleIX/index.htm">
-        Title IX: Sexual Misconduct
-    </a>
-</li>                                            </ul>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-pull-4" aria-label="Quick Links">
-                    <h1 class="footer-list-title">Quick Links</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uicflames.com/">
-        Athletics
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uic.edu/apps/departments-az/search">
-        Directory
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://disabilityresources.uic.edu/">
-        Disability Resources
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://emergency.uic.edu">
-        Emergency Information
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/job-opportunities">
-        Job Opportunities
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://library.uic.edu">
-        Library
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uic.edu/depts/dos/studentveteranaffairs.shtml">
-        Veterans Affairs
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://hospital.uillinois.edu">
-        University of Illinois Hospital &amp; Health Sciences System
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/acerca">
-        Acerca de la UIC (en español)
-    </a>
-</li>                                            </ul>
-                </div>
-                <div class="l-col-3-12">
-                    <div class="ms-row">
-                        <div role="navigation" class="s-col-1-2 l-col-1-1" aria-label="Calls to Action">
-                            <ul class="footer-button-list">
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/visit-us" role="button">
-                Book a Visit
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/undergraduate/request-information" role="button">
-                Request Info
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/apply-now" role="button">
-                Apply Now
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="/alumni/give" role="button">
-                Give
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://uicalumni.org/" role="button">
-                Join Alumni Association
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="/about/contact-us" role="button">
-                Contact Us
-            </a>
-        </li>
-    </ul>                        </div>
-                        <div class="s-col-1-2 l-col-1-1 footer-social-icons-cell">
-                            <ul class="social-icons-list">
-            <li>
-            <a href="https://www.facebook.com/uic.edu">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>            </a>
-        </li>
-                <li>
-            <a href="https://twitter.com/thisisuic">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>            </a>
-        </li>
-                <li>
-            <a href="https://instagram.com/uicamiridis/">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>            </a>
-        </li>
-                    <li>
-            <a href="https://www.youtube.com/user/thisisUIC">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>            </a>
-        </li>
-                    <li>
-            <a href="http://uicscience.tumblr.com/">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Tumblr</title><path d="M15.1 24.2c2.8.7 5.6-.9 5.6-.9v-3c-.8.9-2.6 1.1-3.9.7-1.2-.3-1.1-2-1.1-2v-5.7h4.4v-3h-4.4V5.6H13c-.3 5.1-3.8 5-3.8 5v2.7h2v6.8c.1 2.2 1.1 3.4 3.9 4.1z"/></svg>            </a>
-        </li>
-                        <li>
-            <a href="https://news.uic.edu/social-media-directory">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>More links</title><path d="M15 5C9.5 5 5 9.5 5 15s4.5 10 10 10 10-4.5 10-10S20.5 5 15 5zm4.7 11H16v3.7h-2V16h-3.7v-2H14v-3.7h2V14h3.7v2z"/></svg>            </a>
-        </li>
-    </ul>                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-legal">
-        <div class="ms-grid">
-            <div class="ms-row">
-                <div class="l-col-1-2">
-                    &copy; 2016 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span> <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a>
-                </div>
-                <div class="l-col-1-2 campuses">
-                                            <a href="http://www.uillinois.edu/">University of Illinois</a> <span class="pipe-separator">|</span>
-                                            <a href="http://www.illinois.edu/">Urbana-Champaign</a> <span class="pipe-separator">|</span>
-                                            <a href="http://www.uis.edu/">Springfield</a> 
-                                    </div>
-            </div>
-        </div>
-    </div>
-  <a href="https://plus.google.com/+UicEdu" rel="publisher" hidden>UIC on Google+</a>
-</footer>
-
-<link rel="stylesheet" href="/css/main.min.css" media="all"><script src="/js/concat/main.min.js"></script><script src="//www.uic.edu/inc/emergency/alert.js"></script></body></html>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!-- InstanceBegin template="/templates/current_students_template.dwt" codeOutsideHTMLIsLocked="false" --> <!--<![endif]-->
+<head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Registration Policies and Procedures | UIC Office of the Registrar</title>
+    <!-- InstanceEndEditable -->
+    <meta name="author" content="University of Illinois at Chicago">
+    <meta name="keywords" content="University of Illinois at Chicago, Chicago, UIC, Registrar, UIC Registrar">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS -->
+    <link href="../assets/css/layout.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="../assets/css/main.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="../assets/css/header_red.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="../assets/css/print.css" rel="stylesheet" type="text/css" media="print">
+    <!--[if lt IE 9]>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,700,600,800%7COpen+Sans+Condensed:300,300italic,700%7CShadows+Into+Light+Two" rel="stylesheet" type="text/css">
+    <!--[if lte IE 9]>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:800italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+    <![endif]-->
+    <!-- Favicons -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+    <script src="../assets/js/respond.js"></script>
+    <script src="../assets/js/rwd-nav.js"></script>
+    <script src="/assets/js/cookielaw.js"></script>
+    <script src="../assets/js/analytics.js"></script>
+    <script src="../assets/js/nav-menu-slider.js" type="text/javascript"></script>
+    <script src="../assets/js/search-bar-replace-txt.js" type="text/javascript"></script>
+    <script src="../assets/js/breadcrumb.js" type="text/javascript"></script>
+    <script src="../assets/js/notification.js" type="text/javascript"></script>
+    <!-- topmenu -->
+    <!-- topmenu -->
+    <!-- InstanceBeginEditable name="head" -->
+    <!-- InstanceEndEditable -->
+</head>
+<body onload="showMenu()">
+<div id="top" role="banner">
+    <div id="header">
+        <a href="../index.html">
+            <img alt="UIC Office of the Registrar" src="../assets/images/registrar-logo-white.png" class="logo">
+            <img alt="UIC Office of the Registrar" src="../assets/images/registrar-logo-red.png" class="logo-print"></a>
+        <div id="topNav_01">
+            <div id="topLinks">
+                <a href="../student_records/transcripts/">Transcripts</a>
+                <a href="/registration/">Registration</a>
+                <a href="../contact/">Contact us</a>
+                <a href="http://www.uic.edu">UIC Home</a>
+            </div>
+        </div>
+        <div id="search" role="search">
+            <form action="/search/" id="cse-search-box">
+                <label for="vaquestion" class="offPage">Search:</label>
+                <input name="cx" value="013828019967465427494:hgaggi0gegq" type="hidden">
+                <input value="FORID:11" name="cof" type="hidden">
+                <input name="ie" value="UTF-8" type="hidden">
+                <input name="q" class="searchText" id="vaquestion" size="20" maxlength="200" placeholder="enter your question" onfocus="clickTextbox(this.id)" onblur="blurTextbox(this.id)" type="text" value="Search website..." />
+
+                <input name="sa" id="btnask" value="Search" type="submit">
+            </form>
+        </div>
+    </div>
+</div>
+<div id="container">
+    <div id="menu" class="menu" role="menubar">
+        <h2 class="offPage">Top Navigation</h2>
+        <ul id="topNav2" class="topNav2">
+            <li class="top-level rightMenu item-with-ul"><a href="../current_students/" class="topLVL link-with-ul">Current Students</a>
+                <h3 class="offPage">Current Students</h3>
+                <ul class="sub-menu" role="menuitem">
+                    <li class="subLVL"><a href="../registration/">Registration Services</a></li>
+                    <li class="subLVL"><a href="../current_students/calendars/">Calendars</a></li>
+                    <li class="subLVL"><a href="../financial_matters/">Financial Matters</a></li>
+                    <li class="subLVL"><a href="../student_records/">Student Records</a></li>
+                    <li class="subLVL"><a href="../student_records/transcripts/">Transcripts</a></li>
+                    <li class="subLVL"><a href="../campus_policies/">Campus Policies</a></li>
+                </ul>
+            </li>
+            <li class="top-level item-with-ul"><a href="../current_students/" class="topLVL link-with-ul">Former Students</a>
+
+                <h3 class="offPage">Former Students</h3>
+                <ul class="sub-menu" role="menuitem">
+                    <li class="subLVL"><a href="../current_students/calendars/">Calendars</a></li>
+                    <li class="subLVL"><a href="../student_records/">Student Records</a></li>
+                    <li class="subLVL"><a href="../student_records/transcripts/">Transcripts</a></li>
+                    <li class="subLVL"><a href="../campus_policies/">Campus Policies</a></li>
+                </ul>
+            </li>
+            <li class="top-level item-with-ul"><a href="/uic_faculty_staff/" class="topLVL link-with-ul">Faculty &amp; Staff</a>
+                <h3 class="offPage">Faculty &amp; Staff</h3>
+                <ul class="sub-menu" role="menuitem">
+                    <li class="subLVL"><a href="../uic_faculty_staff/classroom_scheduling/">Classroom Scheduling</a></li>
+                    <li class="subLVL"><a href="../uic_faculty_staff/faculty_self_service/">Faculty Self-Service</a></li>
+                    <li class="subLVL"><a href="../uic_faculty_staff/calendars/">Calendars</a></li>
+                    <li class="subLVL"><a href="../uic_faculty_staff/classes.html">Classes</a></li>
+                    <li class="subLVL"><a href="../uic_faculty_staff/grades/">Grades</a></li>
+                    <li class="subLVL"><a href="../uic_faculty_staff/registration/">Registration</a></li>
+                    <li class="subLVL"><a href="http://uic.verbacollect.com">Textbook Adoption</a></li>
+                    <li class="subLVL"><a href="../uic_faculty_staff/student_records_policy/">Student Records Policy</a></li>
+                </ul>
+            </li>
+            <li class="top-level item-with-ul"><a href="/uic_faculty_staff/" class="topLVL link-with-ul">Other Links...</a>
+                <h3 class="offPage">Other Links... sub-category</h3>
+                <ul class="sub-menu" role="menuitem">
+                    <li class="subLVL"><a href="https://admissions.uic.edu/undergraduate">Prospective Students</a></li>
+                    <li class="subLVL"><a href="https://aes.uic.edu/aes-staff/">AES Staff</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div> <!-- // end div menu -->
+    <div class="embed-notification"><p></p></div>
+    <div id="leftNav" role="complementary">
+        <span class="offPage">Section navigation</span>
+        <ul>
+            <li class="nav-current"><a href="#">Go to Section...</a></li>
+            <li><a href="/registration/">Registration Services</a></li>
+            <li><a href="../current_students/calendars/">Calendars</a></li>
+            <li><a href="../financial_matters/">Financial Matters</a></li>
+            <li><a href="../student_records/">Student Records</a></li>
+            <li><a href="../student_records/transcripts/">Transcripts</a></li>
+            <li><a href="../campus_policies/">Campus Policies</a></li>
+        </ul>
+    </div><!-- // end div leftnav -->
+    <nav id="breadcrumb" role="navigation">
+        <!-- InstanceBeginEditable name="breadcrumb" -->
+        <a href="../index.html">Home</a> &raquo; <a href="../current_students/index.html">Current Students</a> &raquo; <a href="/registration/">Registration Services</a> &raquo; Registration Policies and Procedures	    <!-- InstanceEndEditable -->
+    </nav><!-- // end div breadcrumb -->
+    <div id="content" role="main">
+        <!-- InstanceBeginEditable name="content" --><!-- #BeginLibraryItem "/Library/policies_procedures.lbi" --><title></title>
+        <h1>Registration Policies and Procedures<br>
+        </h1>
+        <ul><li><a href="#when">When to Register</a></li>
+            <li><a href="#help">Registration Help Line</a><br>
+                <br>
+            </li>
+            <li><a href="#load">Academic Load / Time Status</a></li>
+            <li><a href="#standing">Class Standing</a></li>
+            <li><a href="#numbering">Course Numbering</a><br>
+                <br>
+            </li>
+            <li><a href="#prerequisites">Prerequisites</a></li>
+            <li><a href="#dropping">Dropping Courses</a></li>
+            <li><a href="#late">Late Registration - Drop/Add Period</a></li>
+            <li><a href="#eligibility">Eligibility to Register</a><br>
+                <br>
+            </li>
+            <li><a href="#holds">Holds</a></li>
+            <li><a href="#placement">Placement Tests</a></li>
+            <li><a href="#enterprise">Enterprise ID and Password</a></li>
+            <li><a href="#intercampus">Intercampus Registration</a></li>
+            <li><a href="#concurrent">Concurrent Multi-campus Registration</a><br>
+                <br>
+            </li>
+            <li><a href="#withdrawal">Withdrawal from UIC - Fall &amp; Spring</a></li>
+            <ul type="circle">
+                <li>Full 16 week term</li>
+                <li>Part of Term A  - First 8 weeks</li>
+                <li>Part of Term B  - Second 8 weeks</li>
+            </ul>
+            <li><a href="#withdrawalSum">Withdrawal from UIC - Summer</a></li>
+            <ul type="circle">
+                <li>Summer Session 1 – First 4 weeks</li>
+                <li>Summer Session 2 – Second 8 weeks</li>
+                <li>Full 12 week term</li>
+                <li>Part of Term A</li>
+                <li>Part of Term B</li>
+            </ul>
+            <li><a href="withdrawal_military_undergrad.html">Withdrawal from UIC - Military (Undergrad)</a>
+            <li><a href="withdrawal_military_grad.html">Withdrawal from UIC - Military (Graduate)</a></li>
+            <li><a href="https://uofi.app.box.com/s/2g6z7y3yb9m520qi02rg2lzg30kb43ms">Withdrawal from UIC - Military (Law - John Marshall Law School)</a><br>
+                <br>
+            </li>
+            <li><a href="#health">Student Health Insurance</a></li>
+        </ul>
+        <h2 class="orangeFont"><a name="when" id="when"></a>When to Register</h2>
+        <h3>New Undergraduate</h3>
+        <p>New undergraduate students will register for the fall and spring semesters as part of the New Student Orientation Program, which is conducted during the summer months. New undergraduate students will receive information in the mail telling them how to reserve places in summer orientation sessions.</p>
+
+        <h3>New Graduate</h3>
+        <p>If you are a new, degree seeking graduate student, you will receive advising information from your department.</p>
+
+        <h3>Continuing Students</h3>
+        <p>All eligible continuing students will be able to view their time ticket (appointment to register) on the web in mid March for registration for summer and fall courses. Time tickets are available on the web in mid October for registration for spring courses. Students in certain Health Sciences professional colleges may receive other registration information from their colleges.</p>
+
+        <h3>Visiting/Summer Session Students</h3>
+        <p>If you are NOT a UIC student but you are an undergraduate at another college or university and are interested in taking courses at UIC in the summer, you will need to complete a Summer Session Only Application. You can apply directly online on the Summer Session web site at <a href="http://summer.uic.edu">summer.uic.edu</a>. Additional application information is also available through the Summer Session Office - (312) 996-9099<!-- or (800) 625-2013-->. Once admitted, you can register online through the <a href="https://my.uic.edu" title="UIC Student Portal">XE Registration system (available via my.UIC.edu)</a>. You do this during the Open Registration Period, which begins late April.<!-- Note: For students who choose not to, or are unable to, provide a social security number (SSN), a 9 digit Temporary Control Number (TCN) will be assigned and noted in your letter of admission. This number should be used in place of the SSN for student account setup purposes.--></p>
+
+        <img src="../assets/images/arrow_up.gif" alt="" /> <a href="#top">top of page</a>
+        <br /><br />
+
+        <a name="help" id="help"></a>
+        <h2 class="orangeFont">Registration Help Line</h2>
+        <p>If you need general assistance with Registration, call the Registration Help Line at (312) 996-8600. The Help Line is available Monday through Friday from 8:30 am until 5:00 pm, central standard time.</p>
+
+
+        <img src="../assets/images/arrow_up.gif" alt="" /> <a href="#top">top of page</a>
+        <br /><br />
+
+        <a name="load" id="load"></a>
+        <h2 class="orangeFont">Academic Load / Time Status</h2>
+        <p>During the fall and spring terms, the University considers 12 semester hours as the minimum number necessary to constitute full time undergraduate enrollment (9 hours for graduate students). For Summer Session 1 (Four Week) and Summer Session 2 (Eight Week), UIC considers a total aggregate of 6 semester hours (5 hours for graduate students) as the minimum number necessary to constitute full time enrollment.  <br>
+        </p>
+        <p>For students in the professional programs of Doctors of Dental Surgery, Medicine, Pharmacy, and Physical Therapy, the University considers 12 semester hours as the minimum number necessary to constitute full time enrollment. For Summer Session 1 (Four Week) and Summer Session 2 (Eight Week), UIC considers a total aggregate of 6 semester hours as the minimum number necessary to constitute full time enrollment in professional programs. </p>
+        <img src="../assets/images/arrow_up.gif" alt="" /> <a href="#top">top of page</a>
+        <br /><br />
+
+        <a name="standing" id="standing"></a>
+        <h2 class="orangeFont">Class Standing</h2>
+        <p>The University requires a student to earn at least 120 semester hours of acceptable credit in order to receive a baccalaureate degree. The exact required number of hours varies according to college, school, and curriculum. Student academic classification is determined as follows:</p>
+        <h3>Class Semester Hours</h3>
+        <ul>
+            <li>Freshmen 0 through 29</li>
+            <li>Sophomores 30 through 59</li>
+            <li>Juniors 60 through 89</li>
+            <li>Seniors 90-hour minimum</li>
+        </ul>
+
+        <img src="../assets/images/arrow_up.gif" alt="" /> <a href="#top">top of page</a>
+        <br /><br />
+
+        <a name="numbering" id="numbering"></a>
+        <h2 class="orangeFont">Courses Numbering</h2>
+        <h3>Courses:</h3>
+        <p><strong>From 001-099:</strong> Courses contribute toward the calculation of tuition, full- or part-time enrollment status, and financial aid eligibility. Grades for these courses are not calculated in the grade point average, nor do these courses carry credit towards graduation.</p>
+
+        <p><strong>From 100-199:</strong> Open to all undergraduates, particularly first year students.</p>
+        <p><strong>From 200-299:</strong> Intended for sophomores, juniors and seniors who have completed 100-level prerequisites.</p>
+        <p><strong>From 300-399:</strong> Intended for juniors and seniors, and sophomores who have completed 200-level prerequisites.</p>
+        <p><strong>From 400-499:</strong> Intended for advanced undergraduate and graduate students.</p>
+        <p><strong>From 500-599:</strong> Open only to graduate students.</p>
+
+        <img src="../assets/images/arrow_up.gif" alt="" /> <a href="#top">top of page</a>
+        <br /><br />
+
+        <a name="prerequisites" id="prerequisites"></a>
+        <h2 class="orangeFont">Prerequisites</h2>
+        <p>Prerequisites, if any, are included in the course description. Students are responsible for completing all prerequisites prior to enrolling in a course. For some courses, the student registration system will prevent students from registering if prerequisites have not been completed. Regardless of whether or not the registration system prevents a student from enrolling in a course, the University will not be responsible for a student's failure to adhere to those prerequisites.</p>
+
+        <img src="../assets/images/arrow_up.gif" alt="" /> <a href="#top">top of page</a>
+        <br /><br />
+
+        <a name="dropping" id="dropping"></a>
+        <h2 class="orangeFont">Dropping Courses</h2>
+        <h4>Guide for understanding fall and spring course drop calendar:</h4>
+
+        <table border="0" cellspacing="1" cellpadding="3">
+            <caption>Online Drop/Add - Fall &amp; Spring</caption>
+            <tr>
+                <th width="25%"><strong>Fall &amp; Spring</strong></th>
+                <th width="25%"><strong>Course Length</strong></th>
+                <th width="25%"><strong>Deadline</strong></th>
+                <th width="25%"><strong>Tuition Adjustment</strong></th>
+            </tr>
+            <tr>
+                <td>Part A</td>
+                <td>First 8 weeks</td>
+                <td>First Friday of Term</td>
+                <td>Through First Friday</td>
+            </tr>
+            <tr>
+                <td>Part B</td>
+                <td>Second 8 weeks</td>
+                <td>Ninth Friday of Term</td>
+                <td>Through Ninth Friday</td>
+            </tr>
+            <tr>
+                <td>Full Term</td>
+                <td>16 weeks</td>
+                <td>Second Friday of Term</td>
+                <td>Through Second Friday</td>
+            </tr>
+        </table>
+        <br>
+        <table border="0" cellspacing="1" cellpadding="3">
+            <caption>Online Drop/Add - Summer
+            </caption>
+
+            <tr>
+                <th width="25%"><strong>Summer</strong></th>
+                <th width="25%"><strong>Course Length</strong></th>
+                <th width="25%"><strong>Deadline</strong></th>
+                <th width="25%"><strong>Tuition Adjustment</strong></th>
+            </tr>
+            <tr>
+                <td>Summer Session 1</td>
+                <td>4 weeks</td>
+                <td>First Wednesday</td>
+                <td>Through First Wednesday</td>
+            </tr>
+            <tr>
+                <td>Summer Session 2</td>
+                <td>8 weeks</td>
+                <td>First Friday</td>
+                <td>Through First Friday</td>
+            </tr>
+            <tr>
+                <td>Full Term</td>
+                <td>12 weeks</td>
+                <td>Second Friday</td>
+                <td>Through Second Friday</td>
+            </tr>
+            <tr>
+                <td>Part A</td>
+                <td>8 weeks</td>
+                <td>First Friday</td>
+                <td>Through First Friday</td>
+            </tr>
+            <tr>
+                <td>Part B</td>
+                <td>8 weeks</td>
+                <td>First Friday</td>
+                <td>Through First Friday of Part B</td>
+            </tr>
+            <tr>
+                <td>Part of Term 1-Online 8 Week session</td>
+                <td>8 weeks</td>
+                <td>First Friday</td>
+                <td>Through First Friday</td>
+            </tr>
+        </table>
+        <p>See <a href="https://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></p>
+        <h3>Reduction of Range</h3>
+        <p><strong>For 16-week courses:</strong> If you drop courses and thereby reduce your course enrollment to a lower tuition assessment range (e.g. from Range 1 to Range 2), then you will receive a refund of the tuition difference between the two ranges, provided the change is made by the <strong>second Friday</strong> of fall and spring. No refund for course drops is available thereafter.</p>
+        <p><strong>For fall and spring Part-of-Term courses:</strong>If you drop a <strong>Part-of-Term A</strong> course (meets for first 8 weeks) and thereby reduce your course enrollment to a lower tuition assessment range (e.g. from Range 1 to Range 2), then you will receive a refund of the tuition difference between the two ranges, provided the change is made by the <strong>first Friday</strong> of that Part-of-Term A course. No refund for a Part-of-Term A course is available thereafter.</p>
+        <p>If you drop a <strong>Part-of-Term B</strong> course (meets second 8 weeks) and thereby reduce your course enrollment to a lower tuition assessment range (e.g. from Range 1 to Range 2), then you will receive a refund of the tuition difference between the two ranges, provided the change is made by the <strong>first Friday</strong> of that Part-of-Term B course. No refund for course drops is available thereafter. <em>Note: The online drop and add deadline extends only through the second Friday of fall and spring terms for all courses except Part-of-Term B courses.  Part-of-Term B courses can be dropped online through the first Friday.</em></p>
+        <p>		  <strong>For summer courses:</strong> If you drop a <strong>Summer Session 1</strong> course (meets first 4 weeks) and thereby reduce your course enrollment to a lower tuition assessment range (e.g. from Range 1 to Range 2), then you will receive a refund of the tuition difference between the two ranges, provided the change is made by the <strong>first Wednesday</strong> of that Summer Session 1 course. No refund for a Summer Session 1 course is available thereafter. </p>
+        <p>If you drop a <strong>Summer Session 2</strong> course (meets second 8 weeks) and thereby reduce your course enrollment to a lower tuition assessment range (e.g. from Range 1 to Range 2), then you will receive a refund of the tuition difference between the two ranges, provided the change is made by the  <strong>first Friday</strong> of that Summer Session 2 course. No refund for course drops is available thereafter.</p>
+        <h4>Drop Deadlines</h4>
+        <p>The course online self-drop deadline <a href="https://my.uic.edu" title="UIC Student Portal">XE Registration system (available via my.UIC.edu)</a> for all students, is the second Friday of fall, spring and summer full term; the first Wednesday of Summer Session 1; the first Friday of Summer Session 2, and the first Friday of both Parts of Term A and B.</p>
+        <p><em>Starting with the third week and ending with the tenth week of the term (second Wednesday of Summer Session 1 and weeks 2 through 5 for Summer Session 2)</em>, undergraduate students may drop individual courses in their college offices, up to the maximum permitted limit of four over the course of their undergraduate degree programs. Graduate students are able to drop with approval of their individual Directors of Graduate Study. (See <a href="/registration/add_drop.html">Adding/Dropping Classes</a>)</p>
+        <p>Undergraduate and graduate students who drop during this time period will receive a  "W" grade on their academic records. <strong>There is no refund for course drops made after the second Friday of fall, spring or summer full term; the first Wednesday of Summer Session 1; the first Friday of Summer Session 2, or the first Friday of both Parts-of-Term A and B</strong>.</p>
+        <p>		  <img src="../assets/images/arrow_up.gif" alt="" /> <a href="#top">top of page</a> <br />
+            <br />
+
+            <a name="late" id="late"></a>
+        </p>
+        <h2 class="orangeFont">Late Registration - Drop/Add Period</h2>
+        <p>All students unable to enroll during advance registration must register during the Late Registration and Drop/Add period which extends until the second Friday of fall, spring or summer full term; the first Wednesday of Summer Session 1; the first Friday of Summer Session 2, and the first Friday of Parts of Term A and B.</p>
+        <h3>Late Registration after Online Drop/Add Period</h3>
+        <p>Students who are unable to register for classes by the conclusion of the online add/drop period may contact their college to find out the late registration petition process.   If late registration is approved a  $50.00 late fee will be assessed.</p>
+        <h3>Adding Classes after First Week</h3>
+        <p>The College of Liberal Arts and Sciences  (LAS) restricts entry into classes after the first week of the fall and spring term, regardless of whether the class is still available. Students are advised to check with the course instructor teaching the class before enrolling. In addition, all pre-requisite requirements for course registration must be met by enrolling students.<br>
+            <br>
+            <a name="eligibility"></a></p>
+        <h2 class="orangeFont">Eligibility to Register</h2>
+        <p>Currently enrolled continuing students are eligible to register during advance registration. Information about registration will be sent in an email notification to students. Students who are continuing but not currently enrolled are eligible to register beginning with the Open Registration period. Readmitted students will receive registration information along with their notices of readmission.</p>
+        <p><strong>You are NOT ELIGIBLE to register if you:</strong></p>
+        <ul type="disc">
+            <li>Have lost continuing status (i.e., have not attended for two or more semesters in succession, excluding summer session or approved leave of absence).</li>
+            <li>Missed the term of admittance.</li>
+            <li>Were dropped by your college or the University for poor scholarship or disciplinary reasons. </li>
+            <li>Have a financial indebtedness to the University. </li>
+            <li>Failed to satisfy the requirements of the Illinois Proof of Immunity Law. </li>
+            <li>Have any other academic or administrative hold that precludes registration. </li>
+        </ul>
+        <p><img src="../assets/images/arrow_up.gif" alt="top of page" /> <a href="#top">top of page</a> <br>
+            <a name="holds"></a></p>
+        <h2 class="orangeFont">Holds</h2>
+        <p>If you have a hold on your records, you may not register or, in many cases, obtain transcripts until that hold is cleared with the office imposing the hold. A hold may be imposed for financial indebtedness to the University (i.e., unpaid tuition and fees, unpaid library fines), reasons pertaining to unmet financial aid obligations, academic or disciplinary reasons, or an incomplete Medical Immunization Record. If you have not cleared your holds before the start of Advance Registration, your registration will not be accepted until the hold is cleared!</p>
+        <h3>Advising Hold</h3>
+        <p>An advising hold may be placed on your record if you are in a college that requires advising prior to registration. You must complete an advising session before your college will clear you to enroll.</p>
+        <h3>Pending Graduation Registration Hold</h3>
+        <p>Undergraduates who have submitted an Intent to Graduate will have a Pending Graduation Registration Hold placed to prevent registration for future terms.  This hold can be lifted by a college advisor.  College policies vary in regard to allowing students to register beyond the initial bachelor&rsquo;s degree.  Contact with an advisor is needed when an undergraduate degree is to be earned and registration is sought for future terms.  Please note that students enrolled in the College of Liberal Arts and Sciences may only have their hold lifted if they cancel their intent to graduate.</p>
+        <h3>Financial Hold</h3>
+        <p>You cannot register if you are indebted to the University. You may verify your account balance by going to <a href="https://my.uic.edu" title="UIC Student Portal">my.UIC.edu</a> and clicking on the Finances tab.</p>
+        <p>You may clear a financial hold by paying your past due balance. Please visit <a href="https://paymybill.uillinois.edu/MakingPayments" title="University of Illinois USFCO - How to Make Payments">https://paymybill.uillinois.edu/MakingPayments</a> for detailed information on making payments to the University.</p>
+        <p>If you have questions regarding your student account balance, please contact University Student Financial Services and Cashier Operations (USFSCO) at <a href="mailto:usfscohelp@uillinois.edu">usfscohelp@uillinois.edu</a>. Additional information can be found at <a href="https://paymybill.uillinois.edu" title="University of Illinois USFCO">https://paymybill.uillinois.edu</a>.</p>
+        <!--<p>You cannot register  if you are indebted to the University. You may verify your account balance, and hold status by dialing (312) 996-8574, viewing my.UIC.edu at the Finances tab or visiting the "Account Billing Information" section within Banner <a href="https://apps.uillinois.edu/selfservice/">Student Self-Service</a>. A helpful website can found at <a href="http://paymybill.uillinois.edu/">http://paymybill.uillinois.edu</a>.  You may also verify your account balance by visiting the Student Accounts Receivable Office located in Room 1900 of the Student Services Building at the northwest corner of Racine Avenue and Harrison Street.</p>
+        <p>You may clear a financial hold by paying your bill at three student payment locations:</p>
+<ol start="1" type="1">
+          <li>Cashiers Office, Room 116, Marshfield Building, 809 South Marshfield Avenue. Hours: 8:45 am - 4:00 pm </li>
+          <li>Main entrance of the Student Services Building. </li>
+          <li>1st Floor of the Marshfield Bldg., across from the Cashiers Office. </li>
+</ol>
+        <p>Depositories are accessible during normal building hours. Payment should be made by check or money order. ALLOW THREE BUSINESS DAYS for the payment to be posted and your financial hold removed. DO NOT DEPOSIT CASH!<br>
+ If you have questions regarding your statement, you may contact Accounts Receivable, (312) 996-8574 or visit our office located in Room 1900 of the Student Services Building at the northwest corner of Racine Avenue and Harrison Street. Student Accounts Receivable staff can clear a financial hold once you present a receipt, proof of payment, or proof of pending financial aid.</p> -->
+        <h3>Immunization Hold</h3>
+        <p>The Illinois Department of Public Health requires that all students born on or after January 1, 1957, entering a post secondary institution, and living in on-campus housing, are required to present documented proof of immunity against measles, mumps, rubella, tetanus, and diphtheria as a prerequisite to registration. Students in the health professions colleges are also required to provide proof of immunity against polio and tuberculosis.</p>
+        <p>An immunization hold will be placed on your record if you are not properly immunized and have not submitted a written statement of medical, philosophical, or religious exemption. A religious exemption need not be based on the tenets of an established religion.  You will not be permitted to register until you have cleared the medical immunization hold. To clear the hold, you must submit a comprehensive immunization record, certified by a health care provider, to the Office of Medical Immunization Records prior to your appointed registration day.</p>
+        <p>Students registering only for on-campus courses (including any prior terms) or for more than five credit hours (including any prior terms) are required to comply with immunization requirements. Prior to registering for on-campus courses or for more than five credit hours, students must submit proof of immunity or secure an approved medical or religious exemption.</p>
+        <p>Questions pertaining to acceptable proof of immunity may be directed to:</p>
+        <pre class="address">
+            <a href="/student_records/medical_immunization.html">Office of Medical Immunization Records</a>
+            Office of the Registrar, MC 018
+            University of Illinois at Chicago
+            Suite 1200 Student Services Building
+            1200 West Harrison Street
+            Chicago, Illinois 60607-7161
+            (312) 413-0464
+            8:30 am-5:00 pm, Monday through Friday
+        </pre>
+        <h3>International Student Hold</h3>
+        <p>An International Student Hold is placed on your record if you are a new International Student. Only by checking in with the Office of International Services (OIS) will you be cleared to enroll for classes. OIS is located in 2160 Student Services Building (SSB).</p>
+        <h3>New Student Hold (LAS)</h3>
+        <p>The College of Liberal Arts and sciences  (LAS) has mandatory freshmen advising in place for all of its first year students. All LAS students, who are in their first year of enrollment, are affected and must consult an LAS academic counselor before they will be able to register.</p>
+        <p><img src="../assets/images/arrow_up.gif" alt="top of page" /> <a href="#top">top of page</a><br>
+            <br>
+            <a name="placement"></a></p>
+        <h2 class="orangeFont">Placement Tests </h2>
+        <p>Placement tests are required for admission to introductory courses in mathematics, chemistry, composition, and foreign languages. These tests are included in the Pre-enrollment Evaluation Program (PEP) administered to newly admitted UIC students. Students (1) who did not take the required tests during the PEP testing, or (2) whose placement test results have expired (consult the specific department) are required to take the tests prior to registering for these courses. Students required to take more than one placement test may need to attend more than one testing session. Students who have not taken placement tests will be able to take placement tests through the <a href="http://testing.uic.edu/placement-testing/">Office of Testing Services</a>.</p>
+        <p><img src="../assets/images/arrow_up.gif" alt="top of page" /> <a href="#top">top of page</a><br>
+            <br>
+            <a name="enterprise"></a></p>
+        <h2 class="orangeFont">Enterprise ID and Password</h2>
+        <p>An Enterprise ID and Password are required to register. Newly admitted students should claim their Enterprise IDs and Passwords well in advance of registering. New students should refer to instructions provided through the UIC personalized information gateway, called <u>my.UIC.edu</u>, at <a href="https://my.uic.edu/">https://my.uic.edu/</a>. Information on how to access <u>my.UIC.edu </u>is also provided to new students along with their admission packets. Claiming the Enterprise ID and Password allows students to access a range of services, including the following: submitting the Intent-to-Enroll online, reserving a place in a New Student Orientation Program (for undergraduates), and accessing <a href="https://my.uic.edu" title="UIC Student Portal">XE Registration system (available via my.UIC.edu)</a>, the registration, records and billing access system for students at UIC.</p>
+        <p>To access online registration go to Enterprise Application Login page at <u><a href="https://apps.uillinois.edu/">https://apps.uillinois.edu</a></u>, select Student &amp; Faculty Self-Service, and then select University of Illinois at Chicago (UIC).</p>
+        <p><img src="../assets/images/arrow_up.gif" alt="top of page" /> <a href="#top">top of page</a><br>
+            <br>
+            <a name="intercampus"></a></p>
+        <h2 class="orangeFont">Intercampus Registration</h2>
+        <h3>Intent of the Program</h3>
+        <p>The intent of the Intercampus Registration Program is to allow students at one campus of the University the opportunity to take advantage of experiences unique to another campus of the University without having to transfer. It is not designed to replace concurrent enrollment or transfer. The program also provides for summer enrollment at another University campus. </p>
+        <h3>How the program works </h3>
+        <p>If a student is interested in participating in the program the student should: </p>
+        <ol start="1" type="1">
+            <li>Obtain information on the availability of the desired course(s) at the host campus. Assistance may be obtained from the following people: </li>
+            <ul type="circle">
+                <li><a href="http://www.uic.edu">UIC</a>: Ryan Clements, Registration and Records Specialist, Office of Registration and Records, 1217 Student Services Building, (312) 996-9581 </li>
+                <li><a href="http://www.uis.edu">UIS</a>: Evan Stanley, Student Enrollment Coordinator, Admissions &amp; Records, SAB 20, (217) 206-6389 </li>
+                <li><a href="http://illinois.edu/">UIUC</a>: Jessica Orban, Registration Services, Admissions &amp; Records Office, 901 W. Illinois Street, (217)-333-6565 </li>
+            </ul>
+            <li>Obtain a copy of the <a href="http://www.usp.uillinois.edu/InterCamp/Rev_Form.pdf" target="_blank">Intercampus Registration application form</a> (pdf). The form may also be obtained from your Registrar's Office listed above. </li>
+            <li>Complete the <a href="http://www.usp.uillinois.edu/InterCamp/Rev_Form.pdf" target="_blank">Intercampus Registration application form</a> (pdf) and obtain a signature of authorization from home college Dean. The Dean should review the proposed courses and approve their transfer. </li>
+            <li>Submit the completed, signed form to the Registrar's Office on the home campus by the appropriate deadline. Deadlines are May 15 for summer intercampus enrollment**; August 15 for the fall term; and December 15 for the spring term.<br>
+                <em>**NOTE: For students attending UIC Summer Session, application deadlines vary:  mid May for the Four-Week Session, early June for the Eight-Week Session</em>.  Review the Summer Session web site at <a href="http://summer.uic.edu">summer.uic.edu</a> for specific deadline dates. Additional application information is also available through the Summer Session Office - (312) 996-9099 or (800) 625-2013.</li>
+            <li>Provide a permanent, valid mailing address on the application, so that the host campus can provide the notification of acceptance information about how and when to register, and other necessary information to the student. </li>
+            <li>Clear all encumbrances at the home campus prior to the start of the term at the host campus.</li>
+            <li>Note that financial aid for students participating in the Intercampus Registration Program will take longer to process. Aid for students registered for fall or spring terms will not be available until the fourth or fifth week of the term. Aid for the summer term will not be available until late June or early July. Notify the Financial Aid Office on the home campus of plans to enroll at the host campus so that financial aid will continue. </li>
+            <li>Notify the home campus Financial Aid Office of any withdrawal or reduction in your course load at the host campus. <strong>Such changes may result in reduced financial aid eligibility. Failure to do so will result in having to repay the home campus Financial Aid Office for aid received above that appropriate for the load taken.</strong> </li>
+            <li>Follow the refund policies of the host campus, since billing and refunds will be done through the host campus. </li>
+        </ol>
+
+        <p><img src="../assets/images/arrow_up.gif" alt="top of page" /> <a href="#top">top of page</a></p>
+        <a name="concurrent"></a>
+        <h2 class="orangeFont">Concurrent Multi-campus Registration</h2>
+        <p>The Concurrent Registration program is intended to allow UIC students to enroll for courses during a given semester on more than one campus of the University of Illinois. The approval process originates in the student's own department/college by filling out the <a href="/forms/application_for_concurrent_registraiton.pdf" title="University of Illinois Application for Concurrent Registration">Application for Concurrent Registration</a>.</p>
+        <p><img src="../assets/images/arrow_up.gif" alt="top of page" /> <a href="#top">top of page</a><br>
+            <br>
+
+        <h2 id="withdrawal" class="orangeFont">Fall and spring withdrawal from UIC</h2>
+        <p>To officially withdraw from the University for fall and spring semesters, you must follow the established procedure outlined below:</p>
+        <p>Before the start of fall or spring classes:</p>
+        <p><strong>Cancellation of Registration (100% Refund)</strong><strong> <br>
+        </strong>To drop all of your courses by 11:59pm by the second Friday of fall or spring* means that you are canceling your total registration for that term. You are able to cancel your registration in one of two ways:</p>
+        <ol>
+            <li><strong>Online (<a href="https://my.uic.edu" title="UIC Student Portal">XE Registration system</a>):</strong> You must drop all your fall or spring courses by 11:59pm by the second Friday of fall or spring (<strong><a href="#dropping">for deadlines on Part of Term courses click here</a></strong>) of the term to receive a 100% refund. The system allows you to web-drop all of your classes via XE Registration. Students must drop all of their courses by 11:59pm by the second Friday (<a href="/registration/policies_procedures#dropping" title="Part of Term Add/Drop Deadlines">for deadlines on Part of Term courses click here</a>) of fall or spring. Your student account will be adjusted accordingly.<br>
+                <br>
+            </li>
+            <li>Online (Student Self-Service system): You must drop all your fall or spring courses by 11:59pm by the second Friday of fall or spring (<a href="/registration/policies_procedures#dropping" title="Part of Term Add/Drop Deadlines">for deadlines on Part of Term courses click here</a>) of the term to receive a 100% refund. The system allows you to drop all but your last class yourself; you then must select the "Withdraw from Term / Cancel Registration" menu item on the "Registration" menu of Student Self-Service. The UIC Student Self-Service request to drop your last class must be received by the Registration Office by 11:59pm by the second Friday (<a href="/registration/policies_procedures#dropping" title="Part of Term Add/Drop Deadlines">for deadlines on Part of Term courses click here</a>) of fall or spring. After submitting the request, the Office of the Registrar will cancel your registration within two business days. Your student account will be adjusted accordingly.
+ 3.	In-Person: You can complete a "Cancellation of Registration" form at the reception desk in the Office of the Registrar, 1200 Student Services Building (SSB), no later than 5:00pm of the second Friday of fall or spring (for deadlines on Part of Term courses click here).
+                *Please note: This policy is effective Spring 2011 on forth.
+ You must follow one of these  </li>
+            <li><strong>In-Person:</strong> You can complete a "Cancellation of Registration" form at the reception desk in the Office of the Registrar, 1200 Student Services Building (SSB), no later than 5:00pm of the second Friday of fall or spring (<strong><a href="#dropping">for deadlines on Part of Term courses click here</a>).</strong></li>
+        </ol>
+        <p><strong>*Please note:</strong>This policy is effective Spring 2011 on forth.</p>
+        <p>You must follow one of these three procedures or your registration will not be properly cancelled, and you will be obligated to pay tuition and fees for the term according to University policies (See Pro-Rata <a href="/financial_matters/refund_schedule.php">Refund Schedule</a>). You can get more information by calling the Registration Help Line at (312) 996-8600 8:30 AM - 5:00 PM Central Time Monday - Friday. </p>
+        <h3>After classes begin:</h3>
+        <p><strong>After the second Friday of the Fall or Spring term:</strong><strong><br>
+        </strong>A withdrawal after the second Friday means you will issued W&rsquo;s instead of traditional grades for all the courses you are registered for during the semester. The W&rsquo;s will appear on your academic transcript but they will not affect your GPA. Depending on the date of withdrawal you may be eligible to receive a pro-rated refund. Please see our refund schedule. <a href="/financial_matters/refund_schedule.php">/financial_matters/refund_schedule</a></p>
+        <p>To withdraw from all of your courses after the second Friday of the Fall or Spring term you must submit a Term Withdrawal Request at <a href="/registration/term-withdrawal" title="UIC Registrar Term Withdrawal Page">http://registrar.uic.edu/registration/term-withdrawal</a>. Consult your college for more specific withdrawal policies. <em>You cannot withdraw via XE Registration after the second Friday of fall and spring except for Parts of Term B courses only</em>.
+        </p>
+        <h3><a name="withdrawalMilitary"></a>Withdrawal to Enter U.S. Military Service Due to National Emergency</h3>
+        <p>See:</p>
+        <ul>
+            <li><a href="withdrawal_military_undergrad.html">Withdrawal from UIC - Military (Undergrad)</a><br>
+            <li><a href="withdrawal_military_grad.html">Withdrawal from UIC - Military (Graduate)</a></li>
+            <li><a href="https://uofi.app.box.com/s/2g6z7y3yb9m520qi02rg2lzg30kb43ms">Withdrawal from UIC - Military (Law - John Marshall Law School)</a></li>
+        </ul>
+        <p><img src="../assets/images/arrow_up.gif" alt="top of page" /> <a href="#top">top of page</a><br>
+            <br>
+            <a name="withdrawalSum"></a></p>
+        <h2 class="orangeFont">Summer withdrawal from UIC</h2>
+        <p>To officially withdraw from the University in summer, refer to the chart below and follow the procedure outlined below:</p>
+
+        <table width="95%" border="0" cellpadding="4" cellspacing="1">
+            <tr>
+                <th width="25%">Part of summer term </th>
+                <th width="25%">Part of summer term length and dates</th>
+                <th width="25%">Last day students can cancel registration with 100% refund</th>
+                <th width="25%">Deadline for withdrawal online with no W on record:</th>
+            </tr>
+            <tr>
+                <td>Summer Session 1</td>
+                <td>First 4 weeks<br>
+                </td>
+                <td>First Wednesday</td>
+                <td>First Wednesday</td>
+            </tr>
+            <tr>
+                <td>Summer Session 2</td>
+                <td>Second 8 weeks</td>
+                <td>First Friday</td>
+                <td>First Friday</td>
+            </tr>
+            <tr>
+                <td>Full term</td>
+                <td>12 weeks</td>
+                <td>Second Friday</td>
+                <td>Second Friday</td>
+            </tr>
+            <tr>
+                <td>Part of Term A</td>
+                <td>8 weeks</td>
+                <td>First Friday</td>
+                <td>First Friday</td>
+            </tr>
+            <tr>
+                <td>Part of Term B</td>
+                <td>8 weeks</td>
+                <td>First Friday</td>
+                <td>First Friday</td>
+            </tr>
+            <tr>
+                <td>Part of Term 1-Online 8 Week Session</td>
+                <td>8 weeks</td>
+                <td>First Friday</td>
+                <td>First Friday</td>
+            </tr>
+        </table>
+
+        <p><strong>Cancellation of Registration and 100% Refund period:</strong><strong><br>
+        </strong>You must cancel your registration by the deadline dates (<a href="https://catalog.uic.edu/ucat/academic-calendar/">academic calendar</a>) applicable to your summer session in order to avoid tuition and fee assessment. You must follow one of these three procedures or your registration will not be properly cancelled, and you will be obligated to pay tuition and fees for the term according to University policies (See Pro-Rata <a href="/financial_matters/refund_schedule.php">Refund Schedule</a>). You can get more information by calling the Registration Help Line at (312) 996-8600 8:30 AM - 5:00 PM central time Monday through Friday.<strong></strong></p>
+        <ol>
+            <li><strong>Online (XE Registration System):</strong> You must drop <strong><u>all</u></strong> your Summer Session 1, Summer Session 2, Full Term, Parts-of-Term A and B, or Part of Term 1-Online 8 Week Session courses by the end of the online add/drop period to receive a 100% refund. The system allows you to web-drop all of your courses via <a href="https://my.uic.edu" title="UIC Student Portal">XE Registration system (available via my.UIC.edu)</a>. Students must drop all of their courses by the posted deadline. Your student account will be adjusted accordingly.<br>
+                <br>
+            </li>
+            <li><strong>Online (Student Self-Service system)</strong>: You must drop all your Summer Session 1, Summer Session 2, Full Term, Parts-of-Term A and B, or Part of Term 1-Online 8 Week Session courses by the end of the online add/drop period to receive a 100% refund. The system allows you to drop all but your last class yourself; you then must select the "Withdraw from Term / Cancel Registration" menu item on the "Registration" menu of Student Self Service. After submitting the request, the Office of the Registrar will cancel your registration within two business days. Your student account will be adjusted accordingly.
+            </li>
+            <li><strong>In-Person:</strong> You can complete a "Cancellation of Registration" form at the reception desk in the Office of the Registrar, 1200 W. Harrison, Student Services Building (SSB), no later than 5:00pm, by the first Wednesday of Summer Session 1, first Friday of Summer Session 2 or the second Friday of the 12-week term. <strong>The deadline to cancel your registration in-person, and receive a 100% refund, is 5:00pm, on the last day of the add/drop period for the earliest term in which you are registered whether Summer Session 1, Summer Session 2, Full term, or Parts-of-Term A and B</strong>. </li>
+        </ol>
+        <h3>After Summer Session 1 classes begin:</h3>
+        <p><strong>Summer Session 1 (first four weeks)</strong><br>
+            <strong>After the first Wednesday of Summer Session 1:</strong><strong><br>
+            </strong>To withdraw from your Summer Session 1 courses after the first Wednesday of Summer Session 1, you must submit a Term Withdrawal Request at <a href="/registration/term-withdrawal" title="UIC Registrar Term Withdrawal Page">http://registrar.uic.edu/registration/term-withdrawal</a>. Consult your college for specific withdrawal policies. Visiting students enrolled for Summer Session only through the Summer Session Office should contact the Office of the Registrar at 312-996-8600, Monday through Friday, 8:30 am to 5:00 pm. <strong><em>You cannot withdraw via XE Registration after the first Wednesday of Summer Session 1 if you are enrolled for Summer Session 1 courses.&nbsp; You can however continue to web-drop Summer Session 2 courses <a href="https://my.uic.edu" title="UIC Student Portal">XE Registration system (available via my.UIC.edu)</a>.</em></strong></p>
+        <h3><strong>After Summer Session 2 classes begin:</strong> <br>
+        </h3>
+        <p><strong>Summer Session 2 (eight weeks)</strong><br>
+        </p>
+        <p><strong>After the first Friday of Summer Session 2:</strong><strong><br>
+        </strong>To withdraw from your Summer Session 2 courses after the first Friday of Summer Session 2, you must submit a Term Withdrawal Request at <a href="/registration/term-withdrawal" title="UIC Registrar Term Withdrawal Page">http://registrar.uic.edu/registration/term-withdrawal</a>. Consult your college for specific withdrawal policies. Visiting students enrolled for Summer Session only through the UIC Summer Session Office  should contact the Office of the Registrar at 312-996-8600, Monday through Friday, 8:30 am to 5:00 pm. <em><strong>You cannot withdraw via XE Registration after the first Friday of Summer Session 2.</strong></em></p>
+        <h3><strong>After Summer Full Term&nbsp;classes begin:</strong></h3>
+        <p><strong>Summer Full Term (full 12 weeks)&nbsp;</strong></p>
+        <p><strong>After the second Friday of Summer Full Term:</strong><strong><br>
+        </strong>To withdraw from your Summer Full Term courses after the second Friday of Summer Full Term, you must submit a Term Withdrawal Request at <a href="/registration/term-withdrawal" title="UIC Registrar Term Withdrawal Page">http://registrar.uic.edu/registration/term-withdrawal</a>. Consult your college for specific withdrawal policies. Visiting students enrolled for Summer Session Only through the UIC Summer Session Office  should contact the Office of the Registrar at 312-996-8600, Monday through Friday, 8:30 am to 5:00 pm. <em><strong>You cannot withdraw via XE Registration after the second</strong></em><strong><em> Friday of Summer Full Term.</em></strong></p>
+
+        <h3><strong>After Summer Part-of-Term 1-Online 8 Week class begin:</strong></h3>
+        <p><strong>Summer Part-of-Term 1-Online 8 Week Session</strong></p>
+        <p><strong>After the first Friday of Summer Part-of-Term 1-Online 8 Week Session:</strong><strong><br>
+        </strong>To withdraw from your Summer &nbsp;Part-of-Term 1-Online 8 Week Session courses after the first Friday of Summer Part-of-Term 1-Online 8 Week Session, you must submit a Term Withdrawal Request at <a href="/registration/term-withdrawal" title="UIC Registrar Term Withdrawal Page">http://registrar.uic.edu/registration/term-withdrawal</a>. Consult your college for specific withdrawal policies. Visiting students enrolled for Summer Session Only through the UIC Summer Session Office  should contact the Office of the Registrar at 312-996-8600, Monday through Friday, 8:30 am to 5:00 pm. <em><strong>You cannot withdraw via <a href="https://my.uic.edu" title="UIC Student Portal">XE Registration system (available via my.UIC.edu)</a> after the first</strong></em><strong><em> Friday of Summer &nbsp;Part-of-Term 1-Online 8 Week Session.</em></strong></p>
+        <p>&nbsp;</p>
+        <p><img src="../assets/images/arrow_up.gif" alt="top of page" /> <a href="#top">top of page</a><br>
+            <br>
+        </p>
+        <p><a name="health"></a></p>
+        <h2 class="orangeFont">Student Health Insurance</h2>
+        <p>Campus Care is a comprehensive student health benefit program offered by the University of Illinois to eligible enrolled students at the Chicago, Peoria, and Rockford campuses. <strong>All registered students who have NOT previously waived out of the Student Health Benefits Program are automatically enrolled</strong>. For more information visit <a href="http://campuscare.uic.edu/">Campus Care web site</a>.</p>
+        <h3>What you should know about the Campus Care Program:</h3>
+        <ul type="disc">
+            <li>The University automatically enrolls all Undergraduates, Transfer, Graduate, and Professional students. </li>
+            <li>There is no enrollment form to complete. </li>
+            <li>Premiums are assessed to the students account with assessment of tuition and fees for registered hours. </li>
+            <li>The coverage provides a full array of Health Care Services including: </li>
+            <ul type="circle">
+                <li>Physician and Hospital Services Inpatient and Outpatient </li>
+                <li>Prescription Drugs </li>
+                <li>Emergency Room Services </li>
+                <li>Physical Therapy </li>
+                <li>Home Health </li>
+                <li>Mental and Substance Services </li>
+            </ul>
+            <li>All services must be provided or preauthorized by a Campus Care Health Center Physician. </li>
+            <li>Services NOT authorized by a Campus Care Health Center Physician will be the student's financial responsibility. </li>
+        </ul>
+        <p>For complete details of the program including benefits and listing of Health Center Physician locations, visit the <a href="http://campuscare.uic.edu/">Campus Care web site</a>.</p>
+        <h3>Waivers of Campus Care and reinstatement</h3>
+        <ul type="disc">
+            <!-- <li><strong>June 9, 2009</strong> is the Summer 2009 deadline that Students with other comparable health insurance coverage can waive out of Campus Care by submitting an on-line Waiver Form.</li> -->
+            <li>Contact <a href="http://campuscare.uic.edu/">Campus Care</a> for deadline information to waive health insurance<strong>. </strong>Students can waive out of Campus Care by submitting an on-line <a href="http://campuscare.uic.edu/waivers-reinstatement-forms/">Waiver Form</a>. </li>
+            <li>Contact <a href="http://campuscare.uic.edu/">Campus Care</a> about waiver policies.</li>
+            <li>For Spring Semester, 28 days from the first day of classes is the deadline.</li>
+            <li>For Summer Semester, June 1 is the deadline.</li>
+            <li>Students who waive out of the program will be asked to provide proof of other health insurance coverage. </li>
+            <li>Students who already have approved waivers DO NOT need to submit a waiver each term. </li>
+            <li>Students who have previously waived out of the Campus Care program may reinstate coverage by submitting the on-line Reinstatement Application Form. Contact Campus Care for the deadline that covered Students can enroll or remove qualified dependents by submitting the proper form(s) on-line.</li>
+        </ul>
+        <p><img src="../assets/images/arrow_up.gif" alt="top of page" /> <a href="#top">top of page</a></p>
+        <!-- #EndLibraryItem --><!-- InstanceEndEditable -->
+        <p class="last">&nbsp;</p>
+    </div> <!-- // end div content -->
+</div> <!-- // end div container -->
+<div id="bottom" role="contentinfo">
+    <div id="footer">
+        <div class="bottomNav">
+            <h2>Office of the Registrar, MC 018</h2>
+            <ul>
+                <li>University of Illinois at Chicago</li>
+                <li>Suite 1200 Student Services Building</li>
+                <li>1200 West Harrison Street</li>
+                <li>Chicago, Illinois 60607-7161</li>
+                <li>312-996-4350</li>
+            </ul>
+            <h2>Hours of Operation</h2>
+            <ul>
+                <li>Monday - Friday, 8:30-5:00pm</li>
+            </ul>
+        </div>
+        <!-- end of div bottomNav -->
+        <div class="bottomNav">
+            <h2><a href="../current_students/">UIC Office of the Registrar</a></h2>
+            <ul>
+                <li> </li>
+                <li> <a href="../current_students/">Current &amp; Former Students</a></li>
+                <li><a href="../uic_faculty_staff/">UIC Faculty &amp; Staff</a></li>
+            </ul>
+            <h2><a href="../contact/">Contact us!</a></h2>
+            <ul>
+                <li><a href="../contact/form_current_students.html">Registrar Webform</a></li>
+                <li><a href="mailto:aes_webmaster@helpdesk.uic.edu?subject=Registrar Website">Webmaster</a></li>
+                <li><a href="../sitemap">Sitemap</a></li>
+            </ul>
+        </div>
+        <!-- end of div bottomNav -->
+        <img class="bottomImage" src="../assets/images/uic-logo-mark-wht.png" alt="UIC Sign in front of Chicago Skyline">
+        <img class="bottomImage-print" src="../assets/images/uic-logo-mark-red.png" alt="UIC Sign in front of Chicago Skyline">
+    </div>
+    <!--OneTrust Cookies Settings button start -->
+    <a class="optanon-show-settings">CookieSettings</a>
+    <!--OneTrust Cookies Settings button end -->
+</div>
+<!-- Classic Analytics -->
+</body>
+<!-- InstanceEnd --></html>

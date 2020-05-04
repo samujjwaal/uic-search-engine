@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>UIC Specialized Care for Children &#8212; Log in</title>
+
+        <link rel="stylesheet" href="/eb58e/static/css/ce.css" type="text/css"/>
+
+        <script src="/eb58e/static/js/modernizr.js"></script>
+        
+        
+        
+        <script src="/eb58e/static/js/raven.min.js" crossorigin="anonymous"></script>
+        <script>
+            Raven.config('https://f0377897579e409094fd34983abb141f@sentry.stratalabs.com/2').install()
+        </script>
+        
+        <script>
+            var STATIC_URL = "/eb58e/static/";
+        </script>
+        
+	</head>
+    <body class='theme-darkblue'>
+        <div class="container">
+            
+            <div id="banner">
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <div class="container-fluid">
+                            
+                                <a class="brand" href="/"><img alt="" src="/eb58e/static/img/logo.png"/></a>
+                            
+
+                            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                Menu
+                            </a>
+
+                            <div class="nav-collapse">
+                                <ul class="nav pull-right">
+                                    
+                                        <li><a href="/contact/">Help</a></li>
+                                    
+                                    
+                                </ul>
+
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="content_wrapper">
+                <div id="notifications">
+                    <div class="container-fluid">
+                        
+
+                        
+                    </div>
+                </div>
+
+                
+                <div class="container-fluid">
+                    <div class="row-fluid">
+                        
+                        
+                        
+
+                        
+                        <div id="main-container" class="span12">
+                            <div id="main">
+                              
+
+<div class="row-fluid">
+    <div class="span6">
+        <h2>Log in</h2>
+
+        <div class="well">
+            
+
+            <form method="post" action=".">
+                <input type="hidden" name="csrfmiddlewaretoken" value="r8Al4ossGZrvN61EXyD896iqwcJ2CMTUHdFI3xBUNk06AeT06pSg0Qe67hKyy9YW">
+                <div id="controls-id_username" class="control-group "><label class="control-label" for="id_username">Username:</label><div class="controls"><input type="text" name="username" autofocus required id="id_username"><div id="errors-id_username" class="error"></div></div></div>
+                <div id="controls-id_password" class="control-group "><label class="control-label" for="id_password">Password:</label><div class="controls"><input type="password" name="password" required id="id_password"><div id="errors-id_password" class="error"></div></div></div>
+                <div>
+                    <button class="btn" type="submit">Log in</button>
+                </div>
+            </form>
+        </div>
+        <p>
+            Forgot your password?
+            <a class="btn" href="/password_reset_request/">Click here to reset.</a>
+        </p>
+    </div>
+
+    <div class="span6">
+        
+<div class="alert alert-danger">
+    <h2>Important Message</h2>
+
+    <p style="font-size: 1.2em;">Providers will continue to receive <strong>fee-for-service reimbursement</strong> for DSCC-enrolled children. Stay up to date and learn more about managed care and working with DSCC by <a href="http://dscc.uic.edu/medicaid-managed-care-for-providers/">clicking this link</a>.</p>
+</div>
+
+<hr>
+
+
+        <h2>New Users</h2>
+
+        <p>Register here for 24x7 access.</p>
+        
+<p>
+    <a class="btn" href="/provider/register/">Create your account</a>
+</p>
+
+
+        
+
+
+        
+    </div>
+</div>
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+
+            <footer>
+                <div class="container-fluid">
+                    <div class="row-fluid">
+                        
+                            <div class="span6">
+                                <h3>UIC Specialized Care for Children</h3>
+                                
+                                <div class="row-fluid">
+                                    
+<a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm" target="_blank">Privacy Policy / Terms of Use</a>
+
+                                </div>
+                            </div>
+                        
+                        <div class="span6">
+                            
+                                <dl class="dl-horizontal pull-right">
+                                    <dt>Data current as of:</dt><dd id="data-timestamp">May 10 2020</dd>
+                                    
+                                    
+                                </dl>
+                            
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        
+        
+        <script src="/eb58e/static/js/jquery.js"></script>
+        <script src="/eb58e/static/js/underscore-min.js"></script>
+        <script src="/eb58e/static/js/ce.js"></script>
+        <script src="/eb58e/static/js/bootstrap.min.js"></script>
+
+        
+
+        <script>
+            
+            function csrfSafeMethod(method) {
+                return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+            }
+
+            function getCsrfCookie() {
+                var name = 'cec_b833782ccc0011e2b2b85254003401a6';
+                var cookieValue = null;
+                if (document.cookie && document.cookie !== '') {
+                    var cookies = document.cookie.split(';');
+                    for (var i = 0; i < cookies.length; i++) {
+                        var cookie = jQuery.trim(cookies[i]);
+                        if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                            cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                            break;
+                        }
+                    }
+                }
+                return cookieValue;
+            }
+
+            $.ajaxSetup({
+                crossDomain: false,
+                beforeSend: function(xhr, settings) {
+                    if (!csrfSafeMethod(settings.type)) {
+                        xhr.setRequestHeader("X-CSRFToken", getCsrfCookie());
+                    }
+                }
+            });
+
+            
+            $(function() {
+                $("body").on("click", "a.broadcast", function() {
+                    $.post(
+                        "/alerts/broadcast/close/",
+                        {
+                            id: $(this).data("message")
+                        }
+                    );
+                });
+            });
+        </script>
+
+        <script type="text/javascript">
+            var $buoop = {
+                required: {i:11,f:27,o:12.1,s:7,c:30},
+                api: 2019.02,
+                reminder: 0,
+                reminderClosed: 10,
+                noclose:true,
+                no_permanent_hide: true,
+                text: "<strong>Your web browser ({brow_name}) is outdated</strong> and will stop working properly in March 2020. Please update your browser now (or ask I.T. to do so).<br /><a{up_but}>Update Browser</a> <a{ignore_but}>Ignore</a>",
+            };
+            function $buo_f(){
+                var e = document.createElement("script");
+                e.setAttribute("type", "text/javascript");
+                e.setAttribute("src", "/eb58e/static/js/browser-update.js");
+                document.body.appendChild(e);
+            };
+            try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+            catch(e){window.attachEvent("onload", $buo_f)}
+        </script>
+
+        
+<script>
+document.getElementById('id_username').focus();
+</script>
+
+    </body>
+</html>

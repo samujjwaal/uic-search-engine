@@ -1,0 +1,762 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:cvent_events="http://ogp.me/ns/fb/cvent_events#" xml:lang="en" >
+
+<head id="ctl00_Head1" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# cvent_events: http://ogp.me/ns/fb/cvent_events#"><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"4b6efa9038","applicationID":"8572220","transactionName":"NQMBY0QEV0MFB00KCQxJImRmSlBeAgsWEBMPCwJFT0tYQxQc","queueTime":0,"applicationTime":214,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwAHUl5RGwsFU1NQBQE=",licenseKey:"4b6efa9038",applicationID:"8572220"};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(21),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(22),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(9),t(8),"addEventListener"in window&&t(5),c.xhrWrappable&&t(10),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(9),s=t(8),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",g="pushState",y=t("loader");y.features.stn=!0,t(7),"addEventListener"in window&&t(5);var x=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof x&&(this.bstStart=y.now())}),o.on(w,function(t,n){var e=t[0];e instanceof x&&i("bst",[e,n,this.bstStart,y.now()])}),a.on(m,function(t,n,e){this.bstStart=y.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,y.now(),this.bstType])}),s.on(m,function(){this.bstStart=y.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,y.now(),"requestAnimationFrame"])}),o.on(g+p,function(t){this.time=y.now(),this.startPath=location.pathname+location.hash}),o.on(g+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){function r(t,n,e){var r=t[n];"function"==typeof r&&(t[n]=function(){var t=i(arguments),n={};o.emit(e+"before-start",[t],n);var a;n[m]&&n[m].dt&&(a=n[m].dt);var s=r.apply(this,t);return o.emit(e+"start",[t,a],s),s.then(function(t){return o.emit(e+"end",[null,t],s),t},function(t){throw o.emit(e+"end",[t],s),t})})}var o=t("ee").get("fetch"),i=t(22),a=t(21);n.exports=o;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,l=s.Response,p=s.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,n){r(d[h],n,f),r(l[h],n,f)}),r(s,"fetch",c),o.on(c+"end",function(t,n){var e=this;if(n){var r=n.headers.get("content-length");null!==r&&(e.rxSize=r),o.emit(c+"done",[null,n],e)}else o.emit(c+"done",[t],e)}))},{}],7:[function(t,n,e){var r=t("ee").get("history"),o=t("wrap-function")(r);n.exports=r;var i=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;i&&i.pushState&&i.replaceState&&(a=i),o.inPlace(a,["pushState","replaceState"],"-")},{}],8:[function(t,n,e){var r=t("ee").get("raf"),o=t("wrap-function")(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],9:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t("wrap-function")(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],10:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,g,"fn-",s)}function i(t){y.push(t),h&&(b?b.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",g=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];n.exports=u;var x=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],11:[function(t,n,e){function r(t){if(!i(t))return null;var n=window.NREUM;if(!n.loader_config)return null;var e=(n.loader_config.accountID||"").toString()||null,r=(n.loader_config.agentID||"").toString()||null,s=(n.loader_config.trustKey||"").toString()||null;if(!e||!r)return null;var c=a.generateCatId(),f=a.generateCatId(),u=Date.now(),d=o(c,f,u,e,r,s);return{header:d,guid:c,traceId:f,timestamp:u}}function o(t,n,e,r,o,i){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:o,id:t,tr:n,ti:e}};return i&&r!==i&&(s.d.tk=i),btoa(JSON.stringify(s))}function i(t){var n=!1,e=!1,r={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(r=NREUM.init.distributed_tracing,e=!!r.enabled),e)if(t.sameOrigin)n=!0;else if(r.allowed_origins instanceof Array)for(var o=0;o<r.allowed_origins.length;o++){var i=s(r.allowed_origins[o]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){n=!0;break}}return e&&n}var a=t(19),s=t(13);n.exports={generateTracePayload:r,shouldGenerateTrace:i}},{}],12:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);n.aborted||(e.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==n.status&&(n.status=0):i(this,t),e.cbTime=this.cbTime,u.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime]))}}function o(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.parsedOrigin=c(n),t.sameOrigin=t.parsedOrigin.sameOrigin}function i(t,n){t.params.status=n.status;var e=w(n,t.lastSize);if(e&&(t.metrics.rxSize=e),t.sameOrigin){var r=n.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(13),f=t(11).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(17),m=t(16),w=t(14),v=window.XMLHttpRequest;a.features.xhr=!0,t(10),t(6),u.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,n.loadCaptureCalled=!1,t.addEventListener("load",function(e){i(n,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var e=f(this.parsedOrigin);e&&e.header&&(n.setRequestHeader("newrelic",e.header),this.dt=e)}),u.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=m(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<l;s++)n.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),u.on("xhr-load-added",function(t,n){var e=""+p(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,n){var e=""+p(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,n){n instanceof v&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],n)}),u.on("removeEventListener-end",function(t,n){n instanceof v&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],n)}),u.on("fn-start",function(t,n,e){n instanceof v&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,n){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)}),u.on("fetch-before-start",function(t){var n,e=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url&&(n=t[0].url),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var r=f(this.parsedOrigin);if(r&&r.header){var o=r.header;if("string"==typeof t[0]){var i={};for(var a in e)i[a]=e[a];i.headers=new Headers(e.headers||{}),i.headers.set("newrelic",o),this.dt=r,t.length>1?t[1]=i:t.push(i)}else t[0]&&t[0].headers&&(t[0].headers.append("newrelic",o),this.dt=r)}})}},{}],13:[function(t,n,e){var r={};n.exports=function(t){if(t in r)return r[t];var n=document.createElement("a"),e=window.location,o={};n.href=t,o.port=n.port;var i=n.href.split("://");!o.port&&i[1]&&(o.port=i[1].split("/")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===i[0]?"443":"80"),o.hostname=n.hostname||e.hostname,o.pathname=n.pathname,o.protocol=i[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var a=!n.protocol||":"===n.protocol||n.protocol===e.protocol,s=n.hostname===document.domain&&n.port===e.port;return o.sameOrigin=a&&(!n.hostname||s),"/"===o.pathname&&(r[t]=o),o}},{}],14:[function(t,n,e){function r(t,n){var e=t.responseType;return"json"===e&&null!==n?n:"arraybuffer"===e||"blob"===e||"json"===e?o(t.response):"text"===e||"document"===e||""===e||void 0===e?o(t.responseText):void 0}var o=t(16);n.exports=r},{}],15:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(21),s=t(22),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,n])}},{}],16:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],17:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],18:[function(t,n,e){function r(t,n){var e=t.getEntries();e.forEach(function(t){"first-paint"===t.name?c("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&c("timing",["fcp",Math.floor(t.startTime)])})}function o(t,n){var e=t.getEntries();e.length>0&&c("lcp",[e[e.length-1]])}function i(t){if(t instanceof u&&!l){var n,e=Math.round(t.timeStamp);n=e>1e12?Date.now()-e:f.now()-e,l=!0,c("timing",["fi",e,{type:t.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,s,c=t("handle"),f=t("loader"),u=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),s=new PerformanceObserver(o);try{a.observe({entryTypes:["paint"]}),s.observe({entryTypes:["largest-contentful-paint"]})}catch(d){}}if("addEventListener"in document){var l=!1,p=["click","keydown","mousedown","pointerdown","touchstart"];p.forEach(function(t){document.addEventListener(t,i,!1)})}}},{}],19:[function(t,n,e){function r(){function t(){return n?15&n[e++]:16*Math.random()|0}var n=null,e=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(n=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){function t(){return n?15&n[e++]:16*Math.random()|0}var n=null,e=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(n=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<16;i++)o.push(t().toString(16));return o.join("")}n.exports={generateUuid:r,generateCatId:o}},{}],20:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],21:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],22:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],23:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([x,e,r,a]),a}}function p(t,n){g[t]=m(t).concat(n)}function h(t,n){var e=g[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return g[t]||[]}function w(t){return d[t]=d[t]||o(e)}function v(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var g={},y={},x={on:p,addEventListener:p,removeEventListener:h,emit:e,get:w,listeners:m,context:n,buffer:v,abort:a,aborted:!1};return x}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(21),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=b.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(21),u=t("ee"),d=t(20),l=window,p=l.document,h="addEventListener",m="attachEvent",w=l.XMLHttpRequest,v=w&&w.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:w,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var g=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},x=w&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:g,features:{},xhrWrappable:x,userAgent:d};t(15),t(18),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(23)},{}],"wrap-function":[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(22),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}]},{},["loader",2,12,4,3]);</script><title>
+	UIC College of Dentistry Alumni Reunion 2020 - Event Summary | Online Registration by Cvent
+</title><script id="jquery_js" type="text/javascript" src="/a/planner-side/jquery-1.12.4.noconflict.min.js"></script><script id="prototype_js" type="text/javascript" src="/events/WebResource.axd?d=UwrBnXYMH7_UGh9fmphnOW2S8ZwLMXgXdEIxUhFkjTbql25m0JautbxOBKi39cnsZTun33YDStEjOND8rL6_UoOhaxJN3RlSS8z311cOpe8B11ZrYrbVkNdiErV8B_j5pOvDFw2&t=637245323220000000"></script><link rel='apple-touch-icon' sizes='180x180' href='/g/apple-touch-icon.png?version=10.0.33'/><link rel='icon' type='image/png' sizes='32x32' href='/g/favicon-32x32.png?version=10.0.33'/><link rel='icon' type='image/png' sizes='192x192' href='/g/android-chrome-192x192.png?version=10.0.33'/><link rel='icon' type='image/png' sizes='16x16' href='/g/favicon-16x16.png?version=10.0.33'/><link rel='manifest' href='/g/site.webmanifest?version=10.0.33'/><link rel='mask-icon' href='/g/safari-pinned-tab.svg?version=10.0.33'/><meta name='msapplication-TileColor' content='#2b5797'/><meta name='msapplication-TileImage' content='/g/mstile-144x144.png'/><meta name='theme-color' content='#ffffff'/><script type="text/javascript" src="/Events/JavascriptLib/DocumentRenderUtility.js?version=10.0.33"></script>
+<link type="text/css" rel="stylesheet" href="/Events/stylesheets/site1.css?version=10.0.33" />
+<link href="/events/stylesheets/questionRedesign.css?version=10.0.33" rel="stylesheet" type="text/css" /><link href="/g/css/themes/001/event.css?version=10.0.33" rel="stylesheet" type="text/css" /><link href="/g/images/buttons/set44/buttonImage.css?version=10.0.33" rel="stylesheet" type="text/css" /><style type = "text/css">TD.BodyText1{ COLOR: #003366} TD.BodyTextBold1{ COLOR: #003366}  ul.sf-menu.sf-navbar li.sfHover ul li.current a, div.two-column.left div.navigation ul li li a:hover, div.two-column.left div.navigation ul li li.current a, div.two-column.right div.navigation ul li li a:hover, div.two-column.right div.navigation ul li li.current a, div.split-nav ul.sub-menu a:hover, div.split-nav ul.sub-menu li.current a { color: #003366} .footertext{ COLOR: #003366} div.header-bar, .dd-list dd ul, TD.ListCellBgrd1, div.two-column div.navigation ul li li a, div.split-nav ul.sub-menu a, div.reg-summary-left-column { BACKGROUND-COLOR: #D9E6F3} div.two-column.left div.main, div.two-column.right div.main { border-color: #D9E6F3} .sf-menu.follow-us span.sf-sub-indicator { border-left-color: #D9E6F3; border-right-color: #D9E6F3}.sf-menu.follow-us li a, .sf-menu.follow-us li ul li a, ul.sf-menu li.sfHover a { background-color: #D9E6F3}A.grButtonText {Color: #012448} TD.grButtonMid { BACKGROUND-COLOR: #B9CBDE} .srHeader2 { COLOR: #003366} .srHeaderText2 { COLOR: #003366} .question-text { COLOR: #003366} .QNumber { COLOR: #003366} .question-answer { COLOR: #003366} .choices { COLOR: #003366} .question-image {COLOR: #003366} .QDivider { COLOR: #003366} .matrix-header { COLOR: #003366} .matrix-cell { COLOR: #003366} .list-row-label { COLOR: #003366} .list-text { COLOR: #003366} .radio-btn { COLOR: #003366} .list-row { COLOR: #003366} .alt-list-row {COLOR: #003366} table.matrix td:hover {background: #D9E6F3;} div.header-bar div.arrow { border-color : #003366 #D9E6F3 #D9E6F3;}body {background-color: #808F9B}.group-flight-tabs ul.flight-tabs li.ui-tabs-active, div.header, div.single-column.normal div.content, div.single-column.wide div.content, div.two-column.left div.top, div.two-column.right div.top, div.two-column.left.normal div.middle, div.two-column.left.wide div.middle, div.two-column.right.wide div.middle, div.two-column.right.normal div.middle, ul.sf-menu.sf-navbar li li.current, ul.sf-menu.sf-navbar li li.current:hover, table.grid th, div.two-column.left div.main, div.two-column.right div.main, div.two-column.left div.navigation ul li li a:hover, div.two-column.left div.navigation ul li li.current a, div.two-column.right div.navigation ul li li a:hover, div.two-column.right div.navigation ul li li.current a, ul.sf-menu li li a:hover, div.split-nav ul.sub-menu a:hover, div.split-nav ul.sub-menu li.current a, div.agenda-advanced-search span.active, div.agenda-advanced-search-content {background-color: #EEF6FE}div.main {border-color: #D9E6F3}h2.section-header {background-color: #B9CBDE}table.grid, div.reg-table table tr, div.reg-table table tfoot tr {background-color: #EEF6FE}table.flight-info tbody tr.alt-row,tr.agenda-alt-row, table.grid tr.alternate-row, .travel th, table.reg-summary-table tr.alt-row, .select-session .alternate-row, div.reg-table table tr th, div.reg-table table tr.alt-row, h3.guest-name, ul.confirmation-dropdown-menu, .group-reg-dropdown, ul.reg-dropdown-buttons, table.my-reg-table thead tr {background-color: #D9E6F3} .appt-details .attendee, .appt-details .attendee dl, .appt-details .attendee dl dt, .appt-details .attendee dl dd, table.my-reg-table.my-group, table.my-reg-table.my-group tbody tr td {border-color: #D9E6F3}a {color: #003366}body, div.reg-second-header span {color: #003366} div.reg-second-hdr-container {border-bottom-color:#003366}a.grButtonText {Color: #012448}div.header-bar ul li a {color: #003366}div.single-column h1, div.two-column h1 {color: #003366}h3.details-header {color: #003366} table.grid th, div.reg-process h2.reg-sub-header, div.invite-field inpu, h2.session-title, div.view-session-container h3, div.sub-headers h2 {color: #003366}.group-flight-airports label, .group-flight-airports span, h2.section-header, ul.sf-menu.sf-navbar li.sf-breadcrumb.sfHover a, ul.sf-menu.sf-navbar .sfHover a, ul.sf-menu li a, div.two-column div.navigation ul li a, div.reg-matrix-header h3, span.simple-matrix-price, span.simple-matrix-time {color: #012448}h3, .appt-details .question-text, .cancel-appt .appt-title, div.reg-third-header span, div.view-session-container h4, div.reg-summary-main-content h3  {color: #003366} div.reg-table table, div.agenda-advanced-search span.active, div.reg-table table, div.agenda-advanced-search span.active, .order-summary-total, .group-flight-tabs ul.flight-tabs li, .group-flight-info {border-top-color:#003366} div.reg-process h2.reg-sub-header, h2.session-title, div.view-session-container h3,div.reg-table table tr th, div.reg-table table tr td, div.reg-table table tfoot tr td, div.session-list-row p, div.session-content, div.optional-items, table.flight-info tbody tr td {border-bottom-color:#003366;} div.reg-table table, div.session-content, div.optional-items, div.agenda-advanced-search span.active, .group-flight-tabs ul.flight-tabs li, .group-flight-info, table.flight-info tbody tr td.group-flights-cost {border-left-color:#003366} div.session-content, div.optional-items, div.agenda-advanced-search span.active, div.reg-table table tr th, div.reg-table table tr td, .group-flight-tabs ul.flight-tabs li, .group-flight-info {border-right-color:#003366} div.agenda-advanced-search-content,div.reg-matrix-header, .registrant-container, ul.confirmation-dropdown-menu, ul.reg-dropdown-buttons, .request-info, .group-flight-content {border-color:#003366} .group-flight-tabs ul.flight-tabs li, .group-flight-airports-body table.flight-info, table.flight-info tbody tr td.group-flights-cost, div.reg-field-container, div.reg-invite-others-container, div.session-content, div.optional-items, div.reg-search, div.search-critera, div.discount-code-container, div.reg-process-content div.fieldset {background:#ECF2F9;}  h2.registrant-name-hdr {color:#003366;} div.sidebar, td.ListCellBgrd1, div.reg-summary-left-column ul li, div.reg-summary-left-column ul li a, div.session-description {color: #003366} div.reg-matrix-header, .group-flight-airports-hdr {
+            filter: progid: DXImageTransform.Microsoft.gradient(startColorstr = '#B9CBDE', endColorstr = '#96B1CD');
+            -ms-filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr = '#B9CBDE', endColorstr = '#96B1CD')";
+            background-image: -moz-linear-gradient(top, #B9CBDE, #96B1CD);
+            background-image: -ms-linear-gradient(top, #B9CBDE, #96B1CD);
+            background-image: -o-linear-gradient(top, #B9CBDE, #96B1CD);
+            background-image: -webkit-gradient(linear, center top, center bottom, from(#B9CBDE), to(#96B1CD));
+            background-image: -webkit-linear-gradient(top, #B9CBDE, #96B1CD);
+            background-image: linear-gradient(top, #B9CBDE, #96B1CD);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B9CBDE', endColorstr='#96B1CD',GradientType=0 ); /* IE6-9 */} ul.sf-menu.sf-navbar li li.current, .sf-menu.sf-navbar li li.current:hover, div.two-column.left div.navigation ul li li a:hover, div.two-column.left div.navigation ul li li.current a, div.split-nav ul.sub-menu a:hover, div.split-nav ul.sub-menu li.current a, div.two-column.right.normal div.middle, div.two-column.right div.navigation ul li li a:hover, div.two-column.right div.navigation ul li li.current a, div.split-nav ul.sub-menu a:hover, div.split-nav ul.sub-menu li.current a, ul.sf-menu li li a:hover, div.single-column div.content { background-color: #EEF6FE} div.two-column div.navigation ul li li a, ul.sf-menu.sf-navbar li a, ul.sf-menu li:hover, ul.sf-menu li.sfHover, ul.sf-menu li li, ul.sf-menu.sf-navbar li, div.split-nav ul.sub-menu a { background-color: #D9E6F3} ul.sf-menu, div.two-column div.navigation ul li, ul.sf-menu.sf-navbar li ul, ul.sf-menu.sf-navbar li:hover, ul.sf-menu.sf-navbar li.sfHover, ul.sf-menu.sf-navbar li.current, ul.sf-menu.sf-navbar a:focus, ul.sf-menu.sf-navbar a:hover, ul.sf-menu.sf-navbar a:active, ul.sf-menu.sf-navbar li.sf-breadcrumb.sfHover a, ul.sf-menu.sf-navbar .sfHover a, ul.sf-menu.sf-navbar li li, ul.sf-menu li,  div.two-column.left div.navigation, div.two-column.right div.navigation, div.two-column div.navigation ul li a, div.two-column div.navigation ul li { background-color: #B9CBDE} ul.sf-menu.sf-navbar li ul li.current a { color: #003366} div.two-column.right div.header,  div.two-column.left div.header, div.single-column div.header{ background:url(/g/images/pix.gif);} #top_header.grMidPane { background-image:url(/g/images/pix.gif); padding-bottom:0;}div.single-column h1{text-align:center;} div.two-column h1{text-align:center;}</style><meta property="og:title" content="UIC College of Dentistry Alumni Reunion 2020" /><meta property="og:type" content="cvent_events:event" /><meta property="og:image" content="http://app.cvent.com/a/images/cvent_social_media.png" /><meta property="og:url" content="http://www.cvent.com/events/uic-college-of-dentistry-alumni-reunion-2020/event-summary-107910575893400697e614f1c017af12.aspx?lang=en" /><meta property="fb:app_id" content="273056202727397" /><meta property="og:site_name" content="Cvent" /><meta property="og:description" content="" /><meta property="og:latitude" content="41.83624" /><meta property="og:longitude" content="-88.00545" /><meta property="og:street-address" content="The Carlisle Banquets, 435 E. Butterfield Rd., , " /><meta property="og:locality" content="Lombard" /><meta property="og:region" content="Illinois" /><meta property="og:postal-code" content="60148" /><meta property="og:country-name" content="USA" /><meta property="twitter:card" content="summary" /><meta property="twitter:url" content="http://www.cvent.com/events/uic-college-of-dentistry-alumni-reunion-2020/event-summary-107910575893400697e614f1c017af12.aspx?lang=en" /><meta property="twitter:title" content="UIC College of Dentistry Alumni Reunion 2020" /><meta property="twitter:description" content="" /><meta property="twitter:image" content="http://app.cvent.com/a/images/cvent_social_media.png" /><meta name="description" content="UIC College of Dentistry Alumni Reunion 2020. Online registration by Cvent" /><meta name="keywords" content="UIC College of Dentistry Alumni Reunion 2020, events, cvent, event management, online registration, event registration software, meeting planning" /><meta name="title" content="UIC College of Dentistry Alumni Reunion 2020" /><link type="text/css" rel="stylesheet" href="/Events/stylesheets/colorbox.css?version=10.0.33" />
+<!--[if lt IE 8]><link href="/g/css/common/ie-lt8.css" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if IE 6]><link href="/g/css/common/ie-6.css" rel="stylesheet" type="text/css" /><![endif]-->
+<script type="text/javascript" src="/Events/JavascriptLib/jquery.colorbox-min.js?version=10.0.33"></script>
+<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.ui/1.9.0/jquery-ui.min.js"></script><script type="text/javascript" src="/Events/JavascriptLib/jquery.blockUI.js?version=10.0.33"></script>
+<script type="text/javascript" src="/Events/JavascriptLib/PopUpUtility.js?version=10.0.33"></script>
+<script type="text/javascript" src="/Events/JavascriptLib/utility.js?version=10.0.33"></script>
+</head>
+
+    <body id="ctl00_bodyMaster">
+        <script type="text/javascript" src="/Events/JavascriptLib/superfish-min.js?version=10.0.33"></script>
+        <script type="text/javascript" src="/Events/JavascriptLib/init-superfish.js?version=10.0.33"></script>
+        <script type="text/javascript" src="/Events/JavascriptLib/hoverIntent-minified.js?version=10.0.33" ></script>
+        <script type="text/javascript" src="/Events/JavascriptLib/my-confirmation.js?version=10.0.33"></script>
+		<script type="text/javascript" src="/Events/JavascriptLib/jquery-ui-custom.min.js?version=10.0.33" ></script>
+        <script language="javascript" type="text/javascript">
+            var qstr = 'e=10791057-5893-4006-97e6-14f1c017af12';
+            function OpenNavLink(pageUrl)
+		    {
+			    var s;
+                if (pageUrl.indexOf("?") != -1) {
+                    s = utility_GetAppRoot() + pageUrl + "&" + qstr;
+                } else {
+                    s = utility_GetAppRoot() + pageUrl + "?" + qstr;
+                } 
+			    document.location = s;
+			}
+            
+            function OpenNewNavLink(pageUrl) {
+                window.open(utility_GetAppRoot() + pageUrl);
+            }
+
+            function OpenCustomPageNavLink(pageUrl) {
+                var s = utility_GetAppRoot() + pageUrl + "&" + _qstr;
+                document.location = s;
+            }
+
+            var _Url = "StaffPrinterFriendly.aspx?e=" + "bf1e386a-0063-4b4c-8790-59044d8eee26"
+
+            function showPrinterFriendly() {
+                newWindow = window.open(_Url, "popup", "height=500, width=700, menubar, scrollbars, resizable, status");
+            }
+
+            // Social Media Follow Bar
+            function PopupSocial(_sSocialMediaUrl) {
+                newWindow = window.open(_sSocialMediaUrl, "popup", "height=700, width=880, menubar, scrollbars, resizable, status");
+            }
+		</script>
+
+		<script language="javascript" type="text/javascript">
+			j$(document).ready(function () {
+				j$('.cvt-social-popup').on('click', function () {
+					PopupSocial(decodeURIComponent(j$(this).data('url')));
+				});
+			});
+		</script>
+
+	    <form name="aspnetForm" method="post" action="/events/uic-college-of-dentistry-alumni-reunion-2020/event-summary-107910575893400697e614f1c017af12.aspx" id="aspnetForm" style="height:100%; vertical-align:top;">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="su0w200Eia8lN/Gs0MK/CBXPMFFzLpMJ1T6gR5kVGQ0NPNJr9B+2DZCk2Md1LU2Mcq1sOKzFkB7/GSdAxznyRlfkyYY=" />
+</div>
+
+<script type="text/javascript" src="/Events/JavascriptLib/full-height.js?version=10.0.33"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="38750F34" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div>
+	        
+            
+	        <div id="ctl00_container1" class="container-1 two-column left ff-arial fs-small normal ">
+	            
+	            <div class="header-bar clearfix">
+	                <div class="container-7">
+                        <ul class="sf-menu follow-us">
+                            
+                        </ul>
+                        <ul>
+        	                <li class="last"><span id="ctl00_lblAlreadyRegisteredLinkTop"><a class='ListText2' href="https://www.cvent.com/Events/Register/RegNumConfirmation.aspx?e=10791057-5893-4006-97e6-14f1c017af12">Already Registered?</a></span></li>
+                        </ul>
+                    </div>
+                    <div class="shadow"></div>
+                </div><!-- end of header-bar -->
+                 
+	            
+                
+	            <div class="container-2 container clearfix">
+	                <div id="ctl00_divContainer3" class="container-3 prepend-2 span-20 append-2"> 
+        	            <div id="ctl00_divContainer4" class="container-4 png-fix span-20">
+        	                <div class='content  custom-image-header '>
+        	                     
+                                    <div class="top"> 
+                                    <div class="skip-navigation">
+                                        <a id="skip-navigation" href="#content">Skip Navigation</a>
+                                    </div>
+                                    
+                                    <div class="header" align='center'>
+
+
+                                
+                                 <div class="header-inner">
+                                 
+                                </div>
+                                <div style='background-color:#      ;'><img id='HeaderImage1' border='0'title='UIC College of Dentistry Alumni Reunion 2020' alt='UIC College of Dentistry Alumni Reunion 2020' src='http://custom.cvent.com/C8402976630A457CAB1857D3532C4753/pix/a529e290a0324810b51c7d51e28c25fc.png'/></div> 
+                            </div><!-- end of header -->
+              	                </div><!-- end of top -->
+              	                
+              	                <div class="middle clearfix">
+              	                    
+              	                    <div class="sidebar column">
+                                        <div class='navigation  nav-single-tab '>
+              		                        <ul id="menu" class=''>
+              		                            <li id="ctl00_info" class="current">
+              		                                
+              		                                <ul id="ctl00_blInfo">
+	<li class="current"><a href="/events/uic-college-of-dentistry-alumni-reunion-2020/event-summary-107910575893400697e614f1c017af12.aspx">Summary</a></li><li><a href="/events/uic-college-of-dentistry-alumni-reunion-2020/invitation-107910575893400697e614f1c017af12.aspx">Invitation</a></li><li><a href="/events/uic-college-of-dentistry-alumni-reunion-2020/fees-107910575893400697e614f1c017af12.aspx">Fees</a></li><li><a href="/events/uic-college-of-dentistry-alumni-reunion-2020/staff-107910575893400697e614f1c017af12.aspx">Reunion Class Representatives</a></li><li><a href="/events/uic-college-of-dentistry-alumni-reunion-2020/contactus-107910575893400697e614f1c017af12.aspx">Contact Us</a></li><li><a href="/events/uic-college-of-dentistry-alumni-reunion-2020/location-107910575893400697e614f1c017af12.aspx">Location</a></li><li><a href="/events/uic-college-of-dentistry-alumni-reunion-2020/custom-17-107910575893400697e614f1c017af12.aspx">Hotel Information</a></li><li><a href="/events/uic-college-of-dentistry-alumni-reunion-2020/custom-18-107910575893400697e614f1c017af12.aspx">Attendees</a></li>
+</ul>
+              		                            </li>
+              		                        </ul><!-- end of menu -->
+              		                    </div><!-- end of navigation -->
+              		                </div><!-- end of sidebar -->
+              		                
+              		                <div class="main column">
+              		                
+                                          
+                                          <div id="ctl00_divSocialMediaShareBar" class="share-bar">
+<script type="text/javascript">
+    j$(document).ready(function () {
+        var ua = j$.browser;
+        var sharebarobj = j$('div.share-bar');
+        var windowWidth = j$(window).width();
+        var middleWidth = parseInt(j$('div.content').css('width'));
+        var shareWidth = parseInt(j$('div.share-bar ul li').css('width'));
+        var totalWidth = middleWidth + shareWidth + 120;
+        var classes = j$('div.share-bar').attr('class');
+
+        if (ua.msie) {
+            j$('#share-bar li.facebook .sub').css({
+                'left': '-99999px',
+                'display': 'block'
+            });
+        }
+        j$('#share-bar li').hover(function () {
+            j$(this).find('div.sub').removeAttr('style').stop(true, true).animate({ 'height': 'show' }, 250).css({ 'display': 'block', 'z-index': 500 });
+            if (ua.mozilla || ua.chrome) {
+                j$('#share-bar li.facebook .sub .fb-like span, #share-bar li.facebook .sub .fb-like span iframe').css({ 'width': '100px', 'height': '100px' });
+            }  
+        }, function () {
+            if (!j$('table.pls-container').length) {
+                j$(this).find('div.sub').stop(true, true).animate({ 'height': 'hide' }, 50).css({ 'z-index': 450 }).hide();
+            }
+        });
+
+        if (ua.msie && j$.browser.version == 7.0) {
+            if (j$('div.share-bar').hasClass('vertical')) {
+                if (j$('div.share-bar').hasClass('left')) {
+                    j$('div.share-bar').css({
+                        'position': 'absolute',
+                        'left': '-45px',
+                        'top': 0
+                    });
+                }
+                else if (j$('div.share-bar').hasClass('right')) {
+                    j$('div.share-bar').css({
+                        'position': 'absolute',
+                        'right': '-45px',
+                        'top': 0
+                    });
+                }
+                if (totalWidth > windowWidth) {
+                    j$('div.share-bar').insertAfter('div.breadcrumb').removeClass('vertical left right').removeAttr('style');
+                }
+            }
+            j$(window).resize(function () {
+                windowWidth = j$(window).width();
+                if (totalWidth > windowWidth) {
+                    j$('div.share-bar').insertAfter('div.breadcrumb').removeClass('vertical left right').removeAttr('style');
+                } else if ((totalWidth < windowWidth) && j$('div.share-bar').hasClass('vertical')) {
+                    j$('div.share-bar').appendTo('div.middle');
+                    if (j$('div.share-bar').hasClass('left')) {
+                        j$('div.share-bar').css({
+                            'position': 'absolute',
+                            'left': '-45px',
+                            'top': 0
+                        })
+                    }
+                    else {
+                        j$('div.share-bar').css({
+                            'position': 'absolute',
+                            'right': '-45px',
+                            'top': 0
+                        })
+                    }
+                } else {
+                    j$('div.share-bar').attr('class', classes);
+                }
+            });
+        }
+        else {
+            //move sharebar on pageload if window is smaller than content
+            if (totalWidth > windowWidth) {
+                j$('div.share-bar').removeClass('vertical').removeClass('left').removeClass('right');
+            }
+
+            //on window resize, test to see if window is smaller than content, if so, move sharebar
+            j$(window).resize(function () {
+                windowWidth = j$(window).width();
+                if (totalWidth > windowWidth) {
+                    j$('div.share-bar').removeClass('vertical').removeClass('left').removeClass('right');
+                } else if ((totalWidth < windowWidth) && j$('div.share-bar').hasClass('vertical')) {
+                    //do nothing
+                } else {
+                    j$('div.share-bar').attr('class', classes);
+                }
+            });
+        }
+
+        j$('div:not(#share-bar)').click(function () {
+            j$('#share-bar li').each(function () { j$(this).find('div.sub').stop(true, true).animate({ 'height': 'hide' }, 50).css({ 'z-index': 450 }).hide(); });
+        });
+
+        j$('#share-bar li > a[href="#"]').click(function () { return false; })
+    });
+
+</script>
+<ul id="share-bar">
+    <li class="facebook"><a href="#" title="Facebook"><span>Facebook</span></a>
+        <div class="sub">
+            <div id="fb-root">
+            </div>
+            <script type="text/javascript">                (function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) { return; }
+                    js = d.createElement(s); js.id = id;
+                    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=273056202727397";
+                    fjs.parentNode.insertBefore(js, fjs);
+                } (document, 'script', 'facebook-jssdk'));</script>
+            <div class="fb-like" data-href="http://www.cvent.com/events/uic-college-of-dentistry-alumni-reunion-2020/event-summary-107910575893400697e614f1c017af12.aspx?lang=en&sms=1" data-send="true" data-layout="box_count"
+                data-width="100" data-show-faces="false" data-font="verdana">
+            </div>
+        </div>
+    </li>
+    <li class="twitter"><a href="#" title="Twitter"><span>Twitter</span></a>
+        <div class="sub" style="display:block; opacity:0; filter:alpha(opacity=0)">
+            <div>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.cvent.com/events/uic-college-of-dentistry-alumni-reunion-2020/event-summary-107910575893400697e614f1c017af12.aspx?lang=en&sms=2." data-counturl="http://www.cvent.com/events/uic-college-of-dentistry-alumni-reunion-2020/event-summary-107910575893400697e614f1c017af12.aspx?lang=en&sms=2."
+                    data-text="Join me for this event: UIC College of Dentistry Alumni Reunion 2020 " data-count="vertical" data-lang="en">
+                    Tweet </a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+            </div>
+        </div>
+    </li>
+    <li class="linkedin"><a href="#" title="LinkedIn"><span>LinkedIn</span></a>
+        <div class="sub">
+            <script src="https://platform.linkedin.com/in.js" type="text/javascript"></script>
+            <script type="IN/Share" data-url="http://www.cvent.com/events/uic-college-of-dentistry-alumni-reunion-2020/event-summary-107910575893400697e614f1c017af12.aspx?lang=en&sms=3" data-counter="top"></script>
+        </div>
+    </li>
+    
+</ul></div>
+                                          
+                                    <div class="clear">
+                                    <a id="content" name="content"></a>
+                                    
+                                        <h1>UIC College of Dentistry Alumni Reunion 2020</h1>
+                                    
+						            
+<script type="text/javascript">
+    // focus returns to this element after popup is hidden
+    var returnFocus;
+    j$.fn.extend({
+        social: {
+
+            // add events to icons from the array
+            addPopupEvents: function(arr) {
+
+                j$(arr).each(function() {
+                    var icon_id = this[0];
+                    var td_id = this[1];
+                    var popup_id = this[2];
+                    var url = this[3];
+
+                    // show popup when icons are clicked
+                    j$(icon_id).click(function(e) {
+                        j$.fn.social.iconAction(icon_id, td_id, popup_id, url);
+                        e.stopPropagation();
+                        e.preventDefault();
+                    });
+
+                    // actions for pressing enter and esc on icons
+                    j$(icon_id).keypress(function(e) {
+                        if (e.keyCode == 13) // Enter
+                        {
+                            j$.fn.social.iconAction(icon_id, td_id, popup_id, url);
+                            e.preventDefault();
+                        }
+                        else if (e.keyCode == 27) // Esc
+                            j$.fn.social.removePopup();
+                    });
+
+                    // do not hide the popup if blank area on it is clicked
+                    j$(popup_id).click(function(e) {
+                        e.stopPropagation();
+                    });
+
+                    // remove popup when a link is clicked on popup
+                    j$(popup_id).find("a").each(function(el) {
+                        var pClick = this.onclick;
+                        this.onclick = null;
+                        j$(this).click(function(e) {
+                        
+                            j$.fn.social.removePopup();
+                            e.stopPropagation();
+                            if (pClick != undefined)
+                                pClick(e);    
+                            //e.preventDefault();    
+                        });
+                    });
+
+                    // remove popup if escape is pressed
+                    j$(popup_id).find("a").keydown(function(e) {
+                        if (e.keyCode == 27)
+                            j$.fn.social.removePopup();
+                    });
+
+                    // remove popup if tab is pressed on last link
+                    // do not remove if shift+tab is pressed
+                    j$(popup_id).find("a:last").keydown(function(e) {
+                        if (!e.shiftKey && e.keyCode == 9)
+                            j$.fn.social.removePopup();
+                    });
+
+                    // remove popup if shift+tab is pressed on first link
+                    // do not remove if tab is pressed
+                    j$(popup_id).find("a:first").keydown(function(e) {
+                        if (e.shiftKey && e.keyCode == 9)
+                            j$.fn.social.removePopup();
+                    });
+
+                });
+
+                // remove popup if clicked elsewhere
+                j$(document).click(function() {
+                    j$.fn.social.removePopup();
+                });
+            },
+
+            // first remove all open popups then open one and focus its first link
+            showPopup: function(pop_id,td_id) {
+                j$.fn.social.removePopup();
+                j$(td_id).css({"display":"block","margin-top":"0"});
+                j$(pop_id).css("display", "block");
+                j$(pop_id).find("a:first").focus();
+            },
+
+            // remove all open popups
+            removePopup: function() {
+                j$(popup_array).each(function() {
+                    if (j$(this[2]).css("display") && j$(this[2]).css("display") != "none") {
+                        j$(this[2]).css("display", "none");
+                    }
+
+                    //Make the popup container invisible only if it's completely empty                  
+                    // Container may have things other than Popup, it could be some text like 'Add to Calendar'
+                    //Prod-2168 && Prod-2273
+                    if (j$(this[1]).is(":empty") && j$(this[1]).css("display") && j$(this[1]).css("display") != "none") {
+                        j$(this[1]).css("display", "none");
+                    }
+                });
+                if(returnFocus) {
+					j$(returnFocus).focus();
+					returnFocus = undefined;
+				}
+            },
+
+            iconAction: function(icon_id, td_id, pop_id, url) {
+                if (td_id)
+                    j$(pop_id).appendTo(j$(td_id)); //j$(td_id).append(j$(pop_id)); //j$(pop_id).appendTo(j$(td_id));
+                else
+                    j$(pop_id).appendTo(j$(icon_id).parent());
+                if (url != "" && url != "#") {
+                    j$(pop_id).find("a").each(function() {
+                        j$(this).attr("href", url);
+                    });
+                }
+                returnFocus = icon_id;
+                j$.fn.social.showPopup(pop_id,td_id);
+            }
+
+        }
+    });
+
+    j$(document).ready(function() {
+        popup_array = popup_stuff;
+        j$.fn.social.addPopupEvents(popup_array);
+
+        if (j$("#NFContainerContainer").height() > 150)
+            j$("#NFContainerContainer").height(150);
+    });
+
+</script>
+
+<style type="text/css">
+    .HoverContainer
+    {
+        border:1px solid gray;
+        position:absolute;
+        left:0px;
+        background-color:White;
+        text-align:left;
+        display:none;
+        z-index: 200; 
+        width: 260px;
+    }
+    div.layout-2 li.when table.HoverContainer, div.layout-1 li.when table.HoverContainer
+    {
+        width:260px;
+    }
+    div.layout-2 li.when table.HoverContainer td, div.layout-1 li.when table.HoverContainer td
+    {
+        text-align:left;
+    }
+    div.layout-2 li.when table.CalContainer, div.layout-1 li.when table.CalContainer
+    {
+        width:150px;
+    }
+    .HoverContainer td
+    {
+        padding:5px;
+    }
+    .HoverContainer .ItemClass
+    {
+        padding-right:10px;
+        padding-left:10px;
+        vertical-align:top;
+    }
+    .HoverContainer a
+    {
+        text-decoration:none;
+    }
+    .HoverContainer a .SName
+    {
+        text-decoration:underline;
+        padding-left:5px;
+        vertical-align:top;
+    }
+    table.HoverContainer a span.SName
+    {
+        font-size: 8pt;
+    }
+    .CalContainer
+    {
+        width:150px;
+    }
+    #NFContainerContainer
+    {
+        width:215px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        position: absolute;
+        display: none;
+        border: 1px solid gray;
+    }
+    #NFContainerContainer table
+    {
+        display: block;
+        border: none;
+        position: static;
+        width: 100%;
+        background-color:White;
+        text-align:left;
+    }
+    
+</style>
+	
+	
+<script language="javascript">
+    var _vCalUrl = "/Events/Info/AddToCalendar.aspx?e=" + '10791057-5893-4006-97e6-14f1c017af12' + "&cal_type=1&pageId=" + '10';
+    var _iCalUrl = "/Events/Info/AddToCalendar.aspx?e=" + '10791057-5893-4006-97e6-14f1c017af12' + "&cal_type=2&pageId=" + '10';
+            var _CustUrl = '';
+            var _CustLocUrl = '';
+            var _WeatherUrl = '';
+            var _EmailToPlnrUrl = "/Events/Info/EmailToPlanner.aspx?" + 'e=10791057-5893-4006-97e6-14f1c017af12';
+      </script>
+
+        <script language="javascript">
+            
+			function vCalendar()
+			{
+				document.location = _vCalUrl;
+				
+			}
+            function iCalendar()
+            {
+                document.location=_iCalUrl;
+            }
+			function CustPopLocationMap()
+			{
+				newWindow = window.open(_CustLocUrl, "popup", "height=700, width=880, menubar, scrollbars, resizable, status");
+			}
+			function CustPopMap()
+			{
+				newWindow = window.open(_CustUrl, "popup", "height=700, width=880, menubar, scrollbars, resizable, status");
+			}
+			function PopWeather()
+			{
+				newWindow = window.open(_WeatherUrl, "popup", "height=700, width=880, menubar, scrollbars, resizable, status");
+			}
+			function PopEmailToPlanner()
+			{
+				newWindow = window.open(_EmailToPlnrUrl, "popup", "height=620, width=840, menubar, scrollbars, resizable, status");
+			}
+        </script>
+
+    <div class="summary clear">
+        
+    </div>
+
+    <div class="social-media clear">
+                       
+        <input type="hidden" name="planner" value='' />
+        <input type="hidden" name="title" value='' />
+        <input type="hidden" name="start" value='' />
+        <input type="hidden" name="end" value='' />
+        <input type="hidden" name="loc" value='' />
+        <input type="hidden" name="desc" value='' />
+        <input type="hidden" name="createdate" value='' />
+    </div>
+
+    <div class="details clear">
+         
+            <h2 class="png-fix section-header"><span>
+                Details
+            </span></h2>
+        
+    </div>
+    
+        <div class="when clear">
+                <ul class="details">
+                    <li><h3>When</h3></li>
+                    <li><p>Friday, April 24, 2020<br/>  6:30 PM -  11:00 PM</p></li>
+                </ul>
+                
+                        <ul class="icons">
+                    
+                        <li>
+                            <a id='lnkAddCal' href='javascript:void(1);' style="text-decoration: none">
+                                <img src='/g/images/details-calendar-large.png' title='Add to Calendar'alt='Add to Calendar' /><span style="display:block">Add to Calendar</span>
+                            </a>
+                            <p id='tdCal' style="position:relative;display:none;">                                
+                            </p>
+                        </li>
+                    
+                        </ul>
+                    
+                <input type="hidden" name="planner" value='' />
+                <input type="hidden" name="title" value='' />
+                <input type="hidden" name="start" value='' />
+                <input type="hidden" name="end" value='' />
+                <input type="hidden" name="loc" value='' />
+                <input type="hidden" name="desc" value='' />
+                <input type="hidden" name="createdate" value='' />
+        </div>
+    
+        <div class="where clear">
+                <ul class="details">
+                    <li><h3>Where</h3></li>
+                    <li><p>The Carlisle Banquets<br>435 E. Butterfield Rd.<br>Lombard, Illinois 60148<br>630-960-0210<br></p></li>
+                </ul>
+                
+                        <ul class="icons">
+                    
+                        <li>
+                            <a id='' href='http://www.cvent.com/events/uic-college-of-dentistry-alumni-reunion-2020/directions-107910575893400697e614f1c017af12.aspx' style="text-decoration: none">
+                                <img src='/g/images/details-directions-large.png' title='Get Driving Directions'alt='Get Driving Directions' /><span style="display:block">Get Driving Directions</span>
+                            </a>
+                        </li>
+                    
+                        </ul>
+                    
+        </div>
+    
+        <div class="planner clear">
+            <ul class="details">
+                    <li><h3>Planner</h3></li>
+                    <li><p><a id="ctl00_ContentPlaceHolder1_ucSummary_hlPlanner" href="/events/uic-college-of-dentistry-alumni-reunion-2020/contactus-107910575893400697e614f1c017af12.aspx">UIC College of Dentistry</a></p></li>
+            </ul>
+            
+                    <ul class="icons">
+                
+                    <li>
+                        <a id='' href='/events/uic-college-of-dentistry-alumni-reunion-2020/contactus-107910575893400697e614f1c017af12.aspx'  style="text-decoration: none">
+                            <img src='/g/images/details-contactus-large.png' title='Contact Us'alt='Contact Us' /><span style="display:block">Contact Us</span>
+                        </a>
+                    </li>
+                
+                    </ul>
+                
+        </div>
+    
+    <div class="addinfo clear">
+        
+    </div>
+
+	
+	<table id="ctl00_ContentPlaceHolder1_lstCal" class="HoverContainer CalContainer" cellspacing="0" border="0" style="border-collapse:collapse;">
+	<tr>
+		<td class="ItemClass">
+	        <a href="#"
+	            onclick="vCalendar(arguments);return false"
+	            title='Outlook'>
+	            <span><img src='/g/images/icon_outlook.gif' 
+	                    alt='Outlook' 
+	                    style="border-style:none;height:16px;width:16px;" /></span>
+	            <span class="SName">Outlook</span>
+	        </a>
+	    </td>
+	</tr><tr>
+		<td class="ItemClass">
+	        <a href="#"
+	            onclick="iCalendar(arguments);return false"
+	            title='iCal'>
+	            <span><img src='/g/images/icon_ical.gif' 
+	                    alt='iCal' 
+	                    style="border-style:none;height:16px;width:16px;" /></span>
+	            <span class="SName">iCal</span>
+	        </a>
+	    </td>
+	</tr><tr>
+		<td class="ItemClass">
+	        <a href="#"
+	            onclick="window.open('http://www.google.com/calendar/event?action=TEMPLATE&text=UIC+College+of+Dentistry+Alumni+Reunion+2020&dates=20200424T233000Z/20200425T040000Z&location=The+Carlisle+Banquets%2c+435+E.+Butterfield+Rd.%2c+Lombard%2c+IL%2c+60148%2c+USA%2c+630-960-0210&trp=false&details=','','width=600px,height=500px,resizable=1,scrollbars=1');"
+	            title='Google'>
+	            <span><img src='/g/images/icon_google.gif' 
+	                    alt='Google' 
+	                    style="border-style:none;height:16px;width:16px;" /></span>
+	            <span class="SName">Google</span>
+	        </a>
+	    </td>
+	</tr><tr>
+		<td class="ItemClass">
+	        <a href="#"
+	            onclick="window.open('http://calendar.yahoo.com/?v=60&view=d&type=20&title=UIC+College+of+Dentistry+Alumni+Reunion+2020&st=20200424T233000Z&dur=0430&in_loc=The+Carlisle+Banquets%2c+435+E.+Butterfield+Rd.%2c+Lombard%2c+IL%2c+60148%2c+USA%2c+630-960-0210&URL=http%3a%2f%2fwww.cvent.com%2fd%2fchqhch%2f5s&desc=','','width=600px,height=500px,resizable=1,scrollbars=1');"
+	            title='Yahoo!'>
+	            <span><img src='/g/images/icon_yahoo.gif' 
+	                    alt='Yahoo!' 
+	                    style="border-style:none;height:16px;width:16px;" /></span>
+	            <span class="SName">Yahoo!</span>
+	        </a>
+	    </td>
+	</tr><tr>
+		<td class="ItemClass">
+	        <a href="#"
+	            onclick="window.open('https://outlook.live.com/owa/?path=/calendar/action/compose&rru=addevent&startdt=20200424T233000Z&enddt=20200425T040000Z&subject=UIC+College+of+Dentistry+Alumni+Reunion+2020&body=&location=The+Carlisle+Banquets%2c+435+E.+Butterfield+Rd.%2c+Lombard%2c+IL%2c+60148%2c+USA%2c+630-960-0210','','width=600px,height=500px,resizable=1,scrollbars=1');"
+	            title='MSN'>
+	            <span><img src='/g/images/icon_msn.gif' 
+	                    alt='MSN' 
+	                    style="border-style:none;height:16px;width:16px;" /></span>
+	            <span class="SName">MSN</span>
+	        </a>
+	    </td>
+	</tr>
+</table>
+    
+    <script type="text/javascript">
+        var popup_stuff = new Array([j$("#lnkAddCal"), j$("#tdCal"), j$("#ctl00_ContentPlaceHolder1_lstCal"), "#"]);
+    </script>
+
+						             
+                                        
+                                            <div class="register-btn-bottom">
+		                                        <table cellspacing="0" cellpadding="0"  width="100%">
+		                                            <tr>
+		                                                <td class="BodyText1" style="">
+		                                                    <span id="ctl00_lblAlreadyRegisteredLink"><a class='ListText2' href="https://www.cvent.com/Events/Register/RegNumConfirmation.aspx?e=10791057-5893-4006-97e6-14f1c017af12">Already Registered?</a></span>
+		                                                </td>
+		                                            </tr>
+	                                            </table>
+	                                        </div>
+	                                    
+	                                
+	                                <div class="bottom clear"> 
+                                        <div style="text-align: center;">
+                                        
+                                            </div>
+                	                    <div class="copyright cvent-footer"> 
+                                            <div class='cvent-footer-wrapper'><a href='http://www.cvent.com/' target='_blank'><img src='/g/images/cvent-logo-footer.png' alt=' Cvent Online Event Registration Software' title='Cvent Online Event Registration Software' class='cvent-logo'></a><p>Cvent Online Event Registration Software<span> | </span>Copyright © 2000-2020 Cvent, Inc. All rights reserved.</p><ul class='product-links'><li><a target='_blank' href='http://www.cvent.com/en/event-management-software/'>Event Management Software</a> <span>|</span></li><li> <a target='_blank' href='http://www.cvent.com/en/web-survey-software/'>Survey Software</a> <span>|</span></li><li> <a target='_blank' href='http://www.cvent.com/rfp/'>Event Venues</a> <span>|</span> </li> <li><a class='privacy-policy' target='_blank' href='http://www.cvent.com/en/privacy-policy-global.shtml'>Privacy Policy</a></li></ul><a class='cvent-footer-eula' target='_blank' href='http://www.cvent.com/en/eula.shtml' >End User License Agreement</a></div>
+                                        </div><!-- end of copyright --> 
+                                    </div><!-- end of bottom --> 
+                                      
+                                    </div>
+                                    </div><!-- end of main -->
+					            </div><!-- end of middle -->
+                            </div>  <!-- end of content -->          
+                        </div><!-- end of container-4 -->
+                    </div><!-- end of container-3 -->
+                </div><!-- end of container-2 -->
+            </div><!-- end of container-1 -->
+            
+	    <div id='dialogContentHolder' style="display:none"></div>
+        <div class="backToTop scroll">
+          <div class="arrow"></div>
+          <span class="topText">
+            Top
+          </span>
+        </div>
+	    
+<script>SetDefaultFocus();</script></form>
+    <script type="text/javascript">
+    Event.observe(document.body, 'load', function(e) {
+        var pad = $("top_header").height() + 'px 0px 0px 0px';
+        $("left_nav").setStyle({ padding: pad });
+
+        var HeaderImg = $("HeaderImage");
+        if (HeaderImg != null)
+            if (HeaderImg.getWidth() > 780)
+            HeaderImg.setStyle({ width: '780px' });
+
+        var tableHeader = $("TableHeader");
+        var leftTab = $("LeftTab-selected");
+        var verticalBar = $("vertical_bar");
+        if (tableHeader != null) // not printer friendly page
+        {
+            if (leftTab != null) {
+                if (verticalBar.getWidth() > 1)
+                    $("masterTable").setStyle({ width: '1006px' });
+                else
+                    $("masterTable").setStyle({ width: '1004px' });
+            }
+            else {
+                if (verticalBar.getWidth() > 1)
+                    $("masterTable").setStyle({ width: '852px' });
+                else
+                    $("masterTable").setStyle({ width: '850px' });
+            }
+
+        }
+    }, false);
+</script>
+    </body>
+
+</html>
+
+

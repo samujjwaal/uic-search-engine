@@ -1,2156 +1,319 @@
-<!DOCTYPE html><html lang="en"><head><title>UIC Directory</title>
+<!DOCTYPE html>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width"><style>.interior-page-intro .interior-page-title{ color: rgb(54, 54, 54); font-size: 36px; font-weight: 700; line-height: 1; margin-bottom: 12px; }
-.interior-section-header, .interior-page-intro .interior-page-subtitle{ color: rgb(54, 54, 54); font-size: 24px; font-weight: 400; line-height: 1.2; }
-body{ font-family: Theinhardt, Arial, sans-serif; }
-.body-text, .campus-reminders .reminder-text, .category-link-list .text-cell, .error-help, .text-input, .text-area, .number-input, .tel-input, .email-input, .form-help-text, .highlight .content-cell, .home-lists .home-list-blurb, .interior-page-intro .interior-page-text, .key-message-block .message-cell .text, .landing-page-intro .intro-text, .link-block .text, .link-list .text-cell, .text-block-with-inline-image .intro-row, .text-block-with-inline-image .text-and-image-row, .text-block-with-inline-image .link-list, .text-block-with-large-image .link-list, .topic-block-list .text-cell, .topic-block-list .topic-block-text-cell, .block-wysiwyg { color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1.36; }
-.body-text p, .campus-reminders .reminder-text p, .category-link-list .text-cell p, .error-help p, .text-input p, .text-area p, .number-input p, .tel-input p, .email-input p, .form-help-text p, .highlight .content-cell p, .home-lists .home-list-blurb p, .interior-page-intro .interior-page-text p, .key-message-block .message-cell .text p, .landing-page-intro .intro-text p, .link-block .text p, .link-list .text-cell p, .text-block-with-inline-image .intro-row p, .text-block-with-inline-image .text-and-image-row p, .text-block-with-inline-image .link-list p, .text-block-with-large-image .link-list p, .topic-block-list .text-cell p, .topic-block-list .topic-block-text-cell p, .block-wysiwyg p { margin-bottom: 1em; }
-.footer-list-item{ margin-bottom: 15px; }
-.footer-list-item:last-child{ margin-bottom: 0px; }
-.footer-list-link{ color: rgb(255, 255, 255); font-size: 14px; text-decoration: none; }
-.footer .footer-legal a{ color: rgb(153, 153, 153); text-decoration: none; }
-.footer .footer-legal .pipe-separator{ margin-top: 0em; margin-right: 0.5em; margin-bottom: 0em; margin-left: 0.5em; }
-.footer .footer-legal .campuses{ text-align: right; }
-.social-icons-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; overflow-x: hidden; overflow-y: hidden; }
-@media (min-width){
-.social-icons-list{ margin-top: 30px; }
-}
-.social-icons-list a{ text-decoration: none; }
-.social-icons-list svg{ fill: #ffffff; height: 30px; width: 30px; }
-.social-icons-list li{ border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; display: block; float: left; height: 30px; margin-top: 0px; margin-right: 10px; margin-bottom: 10px; margin-left: 0px; width: 30px; }
-.social-icons-list li:nth-of-type(5n+1){ clear: left; }
-.ms-grid, .ms-row, [class*="col-"]{ box-sizing: border-box; }
-.ms-grid{ display: block; position: relative; width: 100%; margin-left: auto; margin-right: auto; max-width: 1400px; padding-left: 12px; padding-right: 12px; }
-.ms-grid .ms-row{ }
-.ms-grid .ms-row::after, .ms-grid [class*="col-"]::after{ content: ''; display: table; clear: both; }
-[class*="col-"]{ float: left; width: 100%; position: relative; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; }
-@media screen and (min-width: 540px){
-.ms-grid{ padding-left: 24px; padding-right: 24px; }
-}
-@media screen and (min-width: 768px){
-.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
-}
-@media screen and (min-width: 2000px){
-.ms-grid .ms-row{ }
-.ms-grid .ms-row > [class*="col-"]{ }
-}
-@media screen and (min-width: 540px){
-.s-col-1-2{ width: 50%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-1-2{ width: 50%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-1-3{ width: 33.3333333333%; }
-}
-@media screen and (min-width: 768px){
-.m-col-1-4{ width: 25%; }
-.m-col-3-4{ width: 75%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-2-12{ width: 16.6666666667%; }
-.l-col-3-12{ width: 25%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-12-push-4{ left: 33.3333333333%; right: auto; }
-.l-col-12-pull-4{ right: 33.3333333333%; left: auto; }
-}
-*{ border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; box-sizing: border-box; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; }
-img{ vertical-align: bottom; }
-@media (min-width: 768px){
-.main{ margin-top: 40px; }
-}
-.ms-grid{ max-width: 1080px; }
-@media (max-width: 767px){
-.ms-grid{ padding-left: 20px; padding-right: 20px; overflow-x: hidden; overflow-y: hidden; }
-}
-@media (max-width: 1084px) and (min-width: 768px){
-.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
-}
-@media (min-width: 1140px){
-.ms-grid{ padding-left: 0px; padding-right: 0px; }
-}
-.component{ margin-bottom: 80px; }
-.interior-section-header{ font-size: 30px; }
-.subhead{ color: rgb(54, 54, 54); font-size: 18px; font-weight: 700; }
-body{ background-color: rgb(248, 248, 248); }
-.breadcrumbs{ line-height: 14px; margin-bottom: 34px; }
-@media (min-width: 768px){
-.breadcrumbs .red-circle{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(213, 0, 50); border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; display: inline-block; height: 14px; width: 14px; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
-}
-.breadcrumbs .first-breadcrumb-arrow{ display: none; }
-@media (min-width: 768px){
-.breadcrumbs .first-breadcrumb-arrow{ display: inline; }
-}
-.breadcrumbs .crumb-list{ display: inline; list-style-position: inside; list-style-type: none; list-style-image: initial; }
-@media (max-width: 768px){
-.breadcrumbs .crumb-list{ line-height: 1.4; }
-}
-.breadcrumbs .crumb-item{ display: inline-block; }
-.breadcrumbs .crumb-anchor{ color: rgb(54, 54, 54); font-size: 12px; font-weight: 500; text-transform: uppercase; }
-.breadcrumbs .crumb-anchor{ text-decoration: none; }
- .breadcrumbs .crumb-anchor.active{ color: rgb(213, 0, 50); outline-style: none; outline-width: initial; outline-color: initial; }
-.breadcrumbs img{ display: inline-block; height: 6px; margin-top: 0px; margin-right: 14px; margin-bottom: 0px; margin-left: 14px; width: 6px; vertical-align: middle; }
-.footer .footer-brand{ height: 206px; margin-bottom: 15px; width: 150px; }
-.footer .footer-brand-address{ margin-bottom: 20px; }
-@media (min-width: 1084px){
-.footer .footer-brand-address{ margin-bottom: 0px; min-height: 280px; }
-}
-@media (min-width: 1084px){
-.footer .footer-address{ bottom: 0px; position: absolute; width: 100%; }
-}
-@media (max-width: 1084px){
-.footer .footer-list{ margin-bottom: 30px; }
-.footer .footer-list::after{ content: ''; display: table; clear: both; }
-}
-.footer .footer-button-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; margin-bottom: 12px; }
-@media (max-width: 1084px) and (min-width: 540px){
-.footer .footer-button-list{ padding-right: 20px; }
-}
-.footer .footer-button-item{ margin-bottom: 5px; }
-.footer .footer-button{ color: rgb(255, 255, 255); background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(37, 37, 37); display: block; font-size: 16px; font-weight: 700; line-height: 32px; height: 32px; padding-top: 0px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px; text-decoration: none; background-position: initial initial; background-repeat: initial initial; }
-@media (max-width: 1084px){
-.footer .footer-legal .campuses{ margin-top: 1em; text-align: left; }
-}
-@media (min-width: 1084px){
-.footer .l-col-1-1{ width: 100%; }
-}
-.footer-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.footer-list-title{ margin-bottom: 15px; }
-.footer-list-title{ color: rgb(255, 255, 255); font-size: 14px; font-weight: 900; text-transform: uppercase; }
-@media (min-width: 1084px){
-.no-flexbox .footer-social-icons-cell{ bottom: -30px; }
-.no-flexbox .footer-address{ bottom: -50px; }
-}
-.header{ position: relative; width: 100%; background-color: rgb(0, 0, 0); }
-.header-menu-bar{ position: relative; }
-.header--blue .header-menu-bar{ background-color: rgb(0, 127, 165); }
-@media (max-width: 1084px){
-.header--blue .navigation-primary .primary-nav-list .primary-list-item{ background-color: rgb(0, 127, 165); }
-}
-.header--blue .navigation-primary .primary-nav-list .expander, .header--blue .navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(0, 102, 132); }
-@media (max-width: 1084px){
-.header--blue .navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); }
-}
-@media (min-width: 1084px){
-.header--blue .navigation-eyebrow{ background-color: rgb(0, 127, 165); }
-}
-.header--blue .navigation-primary:not(.scrolled-after) .primary-nav-list .primary-second-tier-list{ border-top-color: rgb(0, 127, 165); border-right-color: rgb(0, 127, 165); border-bottom-color: rgb(0, 127, 165); border-left-color: rgb(0, 127, 165); }
-.header-background-image-container{ bottom: 0px; left: 0px; overflow-x: hidden; overflow-y: hidden; position: absolute; right: 0px; top: 0px; }
-.header-background-image{ background-size: cover; bottom: -5px; left: -5px; position: absolute; right: -5px; top: -5px; background-position: 50% 50%; background-repeat: no-repeat no-repeat; }
-.interior-page-header{ overflow-x: visible; overflow-y: visible; }
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary .circle-logo-container{ margin-left: 0px; opacity: 1; z-index: 2; }
-}
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary:not(.scrolled-after) .circle-logo-container{ top: 110px; }
-}
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-eyebrow{ background-color: rgb(0, 127, 165); position: static; }
-}
-.interior-page-header .header-menu-bar .navigation-primary{ background-color: rgb(0, 127, 165); width: 100%; }
-.interior-page-header .header-menu-bar .navigation-primary .menu-toggle{ z-index: 2; }
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary{ height: 60px; }
-}
-.interior-page-header .header-background-image{ display: none; }
-.interior-page-intro .interior-page-title{ color: rgb(213, 0, 50); }
-@media (min-width: 540px){
-.interior-page-intro .interior-page-title{ font-size: 48px; }
-}
-.interior-page-intro .interior-page-subtitle{ margin-bottom: 10px; }
-@media (min-width: 540px){
-.interior-page-intro .interior-page-subtitle{ font-size: 30px; }
-}
-.link-block-group .link-block-anchor { margin-top: 40px; }
-@media (min-width: 540px){
-.link-block-group .link-block-anchor { max-width: 50%; }
-}
-.link-block-group .link-block-anchor, .link-block-group .link-block-anchor:hover, .link-block-group .link-block-anchor:visited { color: rgb(54, 54, 54); text-decoration: none; }
-.link-block { padding-top: 1px; position: relative; }
-.link-block::before { background-color: rgb(213, 0, 50); content: ''; height: 1px; left: 0px; position: absolute; top: 1px; width: 100%; }
-.link-block .subhead { margin-top: 15px; margin-right: 0px; margin-bottom: 4px; margin-left: 0px; padding-right: 20px; position: relative; }
-.link-block .subhead .arrow { fill: #001e62; height: 10px; position: absolute; right: 5px; width: 10px; }
-.link-block-anchor:hover, .link-block-anchor:focus { outline-style: none; outline-width: initial; outline-color: initial; }
-.link-block-anchor:hover .link-block::before, .link-block-anchor:focus .link-block::before { height: 3px; }
-.link-block-anchor:hover .arrow, .link-block-anchor:focus .arrow { -webkit-transform: translateX(5px); }
-.link-list .interior-section-header{ margin-bottom: 15px; }
-.navigation-eyebrow{ height: 40px; }
-@media (min-width: 1084px){
-.navigation-eyebrow{ background-color: rgb(0, 127, 165); }
-}
-.navigation-eyebrow .navigation-eyebrow-inner{ margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 1080px; position: relative; }
-.navigation-eyebrow .eyebrow-list{ color: rgb(255, 255, 255); font-size: 14px; font-weight: 400; list-style-type: none; list-style-position: inside; list-style-image: initial; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; padding-top: 0px; padding-right: 20px; padding-bottom: 0px; padding-left: 20px; }
-@media (min-width: 1084px){
-.navigation-eyebrow .eyebrow-list{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 25%; }
-}
-.navigation-eyebrow .eyebrow-list-item{ display: none; line-height: 40px; height: 40px; }
-@media (min-width: 1084px){
-.navigation-eyebrow .eyebrow-list-item{ display: block; float: left; }
-}
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor{ overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
-.navigation-eyebrow .eyebrow-button{ }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor{ font-weight: 700; padding-left: 34px; padding-right: 20px; overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::after{ content: '+'; left: 10px; position: absolute; text-align: center; top: 0px; width: 20px; }
-.navigation-eyebrow .eyebrow-list-anchor{ display: block; outline-style: none; outline-width: initial; outline-color: initial; }
-.navigation-eyebrow .eyebrow-list-anchor{ color: rgb(255, 255, 255); text-decoration: none; }
-.navigation-eyebrow .search-button-item{ display: block; height: 40px; position: absolute; top: 0px; right: 40px; width: 40px; z-index: 1; }
-@media (min-width: 1084px){
-.navigation-eyebrow .search-button-item{ height: 40px; position: relative; top: 0px; right: 0px; width: auto; }
-}
-.navigation-eyebrow .search-button{ background-color: transparent; cursor: pointer; height: 40px; width: 40px; }
-.navigation-eyebrow .search-button .search-glass{ fill: #ffffff; height: 20px; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; width: 20px; }
-.navigation-eyebrow .search-input-container{ position: absolute; top: 0px; height: 40px; right: 42px; -webkit-transform: translateY(-100%); width: 278px; z-index: 3; }
-@media (min-width: 1084px){
-.navigation-eyebrow .search-input-container{ height: 40px; right: 40px; }
-}
-.navigation-eyebrow .search-input-container form{ position: relative; width: 100%; height: 100%; }
-.navigation-eyebrow .search-input-container input[type="text"]{ color: rgb(149, 149, 149); height: 100%; padding-top: 0px; padding-right: 12px; padding-bottom: 0px; padding-left: 12px; font-size: 18px; width: 100%; }
-.navigation-eyebrow .search-input-container .submit-button{ -webkit-appearance: none; position: absolute !important; clip: rect(1px 1px 1px 1px); }
-@media (min-width: 1084px){
-.no-flexbox .eyebrow-list-item{ margin-left: 12px; }
-}
-.navigation-primary{ pointer-events: none; position: absolute; top: 0px; width: 100%; z-index: 2; }
-@media (min-width: 1084px){
-.navigation-primary{ pointer-events: auto; position: relative; }
-}
-.navigation-primary .navigation-primary-inner{ margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 1080px; position: relative; min-height: 40px; }
-.navigation-primary .primary-nav-list{ line-height: 1; list-style-type: none; list-style-position: inside; list-style-image: initial; overflow-x: hidden; overflow-y: hidden; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: absolute; right: 0px; top: 0px; width: 260px; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list{ left: 0px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; overflow-x: visible; overflow-y: visible; padding-top: 0px; padding-right: 0px; padding-left: 25%; position: relative; top: 0px; width: auto; }
-}
-.navigation-primary .primary-nav-list .primary-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(0, 127, 165); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; letter-spacing: 0.06em; position: relative; text-transform: uppercase; width: 100%; background-position: initial initial; background-repeat: initial initial; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .primary-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; float: left; background-position: initial initial; background-repeat: initial initial; }
-}
-.navigation-primary .primary-nav-list .primary-list-anchor{ display: block; line-height: 1; }
-.navigation-primary .primary-nav-list .primary-list-anchor, .navigation-primary .primary-nav-list .primary-second-tier-list-anchor{ color: inherit; text-decoration: none; }
-.navigation-primary .primary-nav-list .primary-second-tier-list{ display: none; list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); color: rgb(54, 54, 54); font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 1.25; text-transform: none; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item .primary-second-tier-list-anchor{ display: block; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; }
-.navigation-primary .primary-nav-list .expander{ display: none; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .primary-list-item{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: relative; width: auto; }
-.navigation-primary .primary-nav-list .primary-list-item.primary-list-active-item > .primary-list-anchor{ border-bottom-width: 8px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); padding-bottom: 12px; }
-.navigation-primary .primary-nav-list .primary-list-item > .primary-list-anchor{ display: block; outline-style: none; outline-width: initial; outline-color: initial; padding-top: 22px; padding-right: 0px; padding-bottom: 22px; padding-left: 0px; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor{ overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(255, 255, 255); bottom: 2px; height: 8px; -webkit-transform: translateY(135%); }
-.navigation-primary .primary-nav-list .primary-second-tier-list{ border-right-width: 2px; border-right-style: solid; border-right-color: rgb(0, 127, 165); border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(0, 127, 165); border-left-width: 2px; border-left-style: solid; border-left-color: rgb(0, 127, 165); display: block; opacity: 0; pointer-events: none; position: absolute; left: -2px; top: 60px; width: 260px; }
-.navigation-primary .primary-nav-list .primary-list-item:nth-last-child(1) .primary-second-tier-list, .navigation-primary .primary-nav-list .primary-list-item:nth-last-child(2) .primary-second-tier-list{ left: auto; right: -2px; }
-}
-@media (max-width: 1083px){
-.navigation-primary .primary-nav-list .expander{ background-color: rgb(39, 152, 182); display: block; height: 44px; position: absolute; top: 0px; right: 0px; width: 44px; }
-.navigation-primary .primary-nav-list .expander::before{ color: rgb(255, 255, 255); content: '+'; display: block; line-height: 44px; text-align: center; width: 100%; }
-.navigation-primary .primary-nav-list .primary-list-anchor{ line-height: 24px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 20px; }
-.navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); padding-left: 22px; position: relative; }
-.navigation-primary .primary-nav-list .primary-list-item{ min-height: 44px; -webkit-transform: translateX(260px); }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+0){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+1){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+2){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+3){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+4){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+5){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+6){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+7){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+8){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+9){ }
-}
-@media (max-width: 1083px){
-.navigation-primary .primary-nav-list{ pointer-events: none; }
-}
-.navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(39, 152, 182); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; height: 40px; letter-spacing: 0.06em; line-height: 40px; min-height: 40px; padding-top: 0px; padding-bottom: 0px; padding-left: 20px; position: relative; text-transform: uppercase; -webkit-transform: translateX(260px); width: 100%; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .menu-label-item{ display: none; }
-}
-.navigation-primary .primary-nav-list .menu-label{ opacity: 0; }
-.navigation-primary .primary-nav-list .menu-toggle{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; display: block; height: 40px; pointer-events: auto; position: absolute; top: 0px; right: 0px; width: 40px; z-index: 1; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle > span{ position: absolute; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); height: 2px; margin-left: 9px; position: absolute; top: 20px; width: 24px; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::after, .navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ content: ''; position: absolute; width: 100%; height: 100%; left: 0px; top: 6px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ top: auto; bottom: 6px; }
-@media (min-width: 1083px){
-.navigation-primary .primary-nav-list .menu-toggle{ display: none; }
-}
-.navigation-primary .circle-logo-container{ height: 40px; left: 0px; opacity: 0; pointer-events: auto; position: absolute; -webkit-transform: translateY(-100px); top: 10px; width: 40px; z-index: 1; }
-@media (max-width: 1120px) and (min-width: 1080px){
-.navigation-primary .circle-logo-container{ left: 20px; }
-}
-.navigation-primary .circle-logo-container span{ -webkit-appearance: none; position: absolute !important; clip: rect(1px 1px 1px 1px); }
-@media (max-width: 1084px){
-.navigation-primary .circle-logo-container{ height: 32px; margin-left: 20px; opacity: 1; -webkit-transform: translateY(4px); top: 0px; width: 32px; }
-}
-.navigation-primary .circle-logo-container .circle-logo path{ fill: #ffffff; }
-.navigation-primary .circle-logo-container a{ color: rgb(255, 255, 255); outline-style: none; outline-width: initial; outline-color: initial; }
-.navigation-primary .circle-logo-container .circle-logo{ -webkit-transform: rotate(-360deg); }
-@media (min-width: 1084px){
-.no-flexbox .primary-list-item{ margin-left: 12px; }
-}
-.no-flexbox .primary-nav-list::after{ content: ''; display: table; clear: both; }
-.navigation-sidebar{ margin-left: -20px; margin-right: -20px; position: relative; }
-@media (min-width: 768px){
-.navigation-sidebar{ margin-left: 0px; margin-right: 0px; }
-}
-.navigation-sidebar .navigation-sidebar-title{ background-color: rgb(255, 255, 255); border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; color: rgb(0, 30, 98); font-size: 16px; font-weight: 900; line-height: 1.5; margin-bottom: 20px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 47px; position: relative; text-transform: uppercase; }
-.navigation-sidebar .navigation-sidebar-title a{ color: rgb(0, 30, 98); text-decoration: none; }
-.navigation-sidebar .navigation-sidebar-title::after{ content: ' Menu'; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-title{ background-color: transparent; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 15px; padding-left: 0px; }
-.navigation-sidebar .navigation-sidebar-title::after{ content: none; }
-}
-.navigation-sidebar .navigation-sidebar-title .chevron{ display: block; height: 12px; left: 20px; position: absolute; width: 12px; }
-.navigation-sidebar .navigation-sidebar-title .chevron .anchor-point{ display: block; fill: #001e62; height: 8px; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto; -webkit-transform: rotate(-90deg); width: 12px; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-title .chevron{ display: none; }
-}
-@media (max-width: 767px){
-.navigation-sidebar .navigation-sidebar-list-container{ overflow-x: hidden; overflow-y: hidden; pointer-events: none; position: absolute; top: 44px; width: 100%; z-index: 1; }
-}
-@media (max-width: 767px){
-.navigation-sidebar .navigation-sidebar-list{ background-color: rgb(255, 255, 255); border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); padding-left: 20px; padding-right: 20px; -webkit-transform: translateY(-100%); }
-}
-.navigation-sidebar .navigation-sidebar-list .anchor-point{ height: 5px; position: absolute; right: 0px; top: 4px; width: 8px; }
-.navigation-sidebar .navigation-sidebar-list .navigation-sidebar-anchor .anchor-point{ top: 21px; }
-.navigation-sidebar .navigation-sidebar-list, .navigation-sidebar .sidebar-second-tier-list, .navigation-sidebar .sidebar-third-tier-list, .navigation-sidebar .sidebar-fourth-tier-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.navigation-sidebar .navigation-sidebar-anchor, .navigation-sidebar .sidebar-second-tier-anchor, .navigation-sidebar .sidebar-third-tier-anchor, .navigation-sidebar .sidebar-fourth-tier-anchor{ display: block; width: 100%; }
-.navigation-sidebar .navigation-sidebar-item{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); min-height: 50px; }
-.navigation-sidebar .navigation-sidebar-item:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-item:last-child{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); }
-}
-.navigation-sidebar .navigation-sidebar-anchor{ color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1; padding-top: 17px; padding-right: 0px; padding-bottom: 17px; padding-left: 0px; position: relative; text-decoration: none; }
-.navigation-sidebar .sidebar-second-tier-list{ padding-left: 14px; }
-.navigation-sidebar .sidebar-second-tier-item{ font-size: 14px; font-weight: 400; margin-bottom: 16px; }
-.navigation-sidebar .sidebar-second-tier-anchor{ color: rgb(54, 54, 54); position: relative; text-decoration: none; }
-.navigation-sidebar .sidebar-third-tier-list, .navigation-sidebar .sidebar-fourth-tier-list{ padding-top: 14px; padding-left: 14px; }
-.navigation-sidebar .sidebar-third-tier-item, .navigation-sidebar .sidebar-fourth-tier-item{ margin-bottom: 14px; }
-.navigation-sidebar .sidebar-third-tier-anchor, .navigation-sidebar .sidebar-fourth-tier-anchor{ color: rgb(54, 54, 54); position: relative; text-decoration: none; }
-.navigation-sidebar .navigation-sidebar-item.open .navigation-sidebar-anchor, .navigation-sidebar .sidebar-second-tier-item.open .sidebar-second-tier-anchor, .navigation-sidebar .sidebar-third-tier-item.open .sidebar-third-tier-anchor{ font-weight: 700; padding-right: 24px; width: 100%; }
- .navigation-sidebar .sidebar-fourth-tier-item.active .sidebar-fourth-tier-anchor{ color: rgb(213, 0, 50); font-weight: 700; position: relative; }/* Styles appended to the end of every critical path css stylesheet */
-.navigation-primary .primary-list {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-.navigation-eyebrow .eyebrow-list {
-    display: flex;
-    justify-content: space-between;
-}
-.calls-to-action .call-to-action {
-    align-items: center;
-    display: flex;
-}
-.calls-to-action .reminders-container {
-    display: flex;
-}
-.calls-to-action .reminders-anchor {
-    display: flex;
-}
- </style></head><body>
-<header class="header interior-page-header header--blue">
-    <div class="header-background-image-container">
-        <div class="header-background-image" aria-hidden="true" style="background-image: url()"></div>
-    </div>
-        <div class="header-menu-bar">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en-US"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en-US"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en-US"> <![endif]-->
+<head>
+<meta http-equiv="content-type" content="text/html" charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Continued police activity at Blue Line &#8211; UIC Halsted. No threat to the campus. CTA trains are on bypass and heavy vehicle traffic. Avoid the area. | Emergency Information</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://emergency.uic.edu/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="https://emergency.uic.edu/wp-content/themes/uic-network-2013/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="shortcut icon" href="https://emergency.uic.edu/files/2016/02/CAMP.CIRC_.LG_.RED-2-300x300.png" /><link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Emergency Information &raquo; Feed" href="https://emergency.uic.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Emergency Information &raquo; Comments Feed" href="https://emergency.uic.edu/comments/feed/" />
+<link rel='stylesheet' id='events-manager-css'  href='https://emergency.uic.edu/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.63' type='text/css' media='all' />
+<link rel='stylesheet' id='page-list-style-css'  href='https://emergency.uic.edu/wp-content/plugins/page-list/css/page-list.css?ver=5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='simple-staff-list-css'  href='https://emergency.uic.edu/wp-content/plugins/simple-staff-list/public/css/simple-staff-list-public.css?ver=1.17' type='text/css' media='all' />
+<link rel='stylesheet' id='staff-list-custom-css-css'  href='https://emergency.uic.edu/wp-content/themes/uic-network-2013/simple-staff-list-custom.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='swl-style-css'  href='https://emergency.uic.edu/wp-content/plugins/social-web-links/social-web-links.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://emergency.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='uicnetwork-css'  href='https://emergency.uic.edu/wp-content/themes/uic-network-2013/css/uicnetwork.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='https://emergency.uic.edu/wp-content/themes/uic-network-2013/css/prettyPhoto.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dynamic-styles-css'  href='https://emergency.uic.edu/index.php?dynamiccss=1&#038;id=5315&#038;ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='https://emergency.uic.edu/wp-content/themes/uic-network-2013/style.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='PT Sans-css'  href='https://fonts.googleapis.com/css?family=PT+Sans:400italic,700italic,400,700' type='text/css' media='all' />
+<link rel='stylesheet' id='Oswald-css'  href='https://fonts.googleapis.com/css?family=Oswald:400italic,700italic,400,700' type='text/css' media='all' />
+<script type='text/javascript' src='https://emergency.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-includes/js/wp-a11y.min.js?ver=4.7.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var EM = {"ajaxurl":"https:\/\/emergency.uic.edu\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/emergency.uic.edu\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"mm\/dd\/yy","ui_css":"https:\/\/emergency.uic.edu\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"0","is_ssl":"1","bookingInProgress":"Please wait while the booking is being submitted.","tickets_save":"Save Ticket","bookingajaxurl":"https:\/\/emergency.uic.edu\/wp-admin\/admin-ajax.php","bookings_export_save":"Export Bookings","bookings_settings_save":"Save Settings","booking_delete":"Are you sure you want to delete?","bb_full":"Sold Out","bb_book":"Book Now","bb_booking":"Booking...","bb_booked":"Booking Submitted","bb_error":"Booking Error. Try again?","bb_cancel":"Cancel","bb_canceling":"Canceling...","bb_cancelled":"Cancelled","bb_cancel_error":"Cancellation Error. Try again?","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","cache":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.63'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-content/plugins/events-manager-pro/includes/js/events-manager-pro.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-content/plugins/simple-staff-list/public/js/simple-staff-list-public.js?ver=1.17'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-content/themes/uic-network-2013/js/uicnetwork.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-content/themes/uic-network-2013/js/superfish.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-content/themes/uic-network-2013/js/jquery.flexslider-min.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-content/themes/uic-network-2013/js/jquery.prettyPhoto.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-content/themes/uic-network-2013/js/uicnetwork_contact.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/wp-content/themes/uic-network-2013/js/jquery.carouFredSel-6.1.0-packed.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://emergency.uic.edu/index.php?dynamicjs=1&#038;id=5315&#038;ver=4.7.2'></script>
+<link rel='https://api.w.org/' href='https://emergency.uic.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://emergency.uic.edu/xmlrpc.php?rsd" />
+<link rel='prev' title='Continued police activity at Blue Line &#8211; UIC Halsted. No threat to campus. CTA trains are on bypass and heavy vehicle traffic. Avoid the area.' href='https://emergency.uic.edu/continued-police-activity-at-blue-line-uic-halsted-no-threat-to-campus-cta-trains-are-on-bypass-and-heavy-vehicle-traffic-avoid-the-area/' />
+<link rel='next' title='[URGENT] Public Safety Advisory' href='https://emergency.uic.edu/urgent-public-safety-advisory-2/' />
+<meta name="generator" content="WordPress 4.7.2" />
+<link rel="canonical" href="https://emergency.uic.edu/continued-police-activity-at-blue-line-uic-halsted-no-threat-to-the-campus-cta-trains-are-on-bypass-and-heavy-vehicle-traffic-avoid-the-area/" />
+<link rel='shortlink' href='https://emergency.uic.edu/?p=5315' />
+<link rel="alternate" type="application/json+oembed" href="https://emergency.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Femergency.uic.edu%2Fcontinued-police-activity-at-blue-line-uic-halsted-no-threat-to-the-campus-cta-trains-are-on-bypass-and-heavy-vehicle-traffic-avoid-the-area%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://emergency.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Femergency.uic.edu%2Fcontinued-police-activity-at-blue-line-uic-halsted-no-threat-to-the-campus-cta-trains-are-on-bypass-and-heavy-vehicle-traffic-avoid-the-area%2F&#038;format=xml" />
+		<style type="text/css">
+		.em-booking-form span.form-tip { text-decoration:none; border-bottom:1px dotted #aaa; padding-bottom:2px; }
+		.input-group .em-date-range input { width:100px; }
+		.input-group .em-time-range input { width:80px; }
+		 div.em-gateway-buttons { height:50px; width: 100%; }
+		 div.em-gateway-buttons .first { padding-left:0px; margin-left:0px; border-left:none; }
+		 div.em-gateway-button { float:left; padding-left:20px; margin-left:20px; border-left:1px solid #777; }
+		/* Cart CSS */
+		.em-cart-widget-content .em-cart-widget-total { border-top:1px solid #efefef; margin-top:5px; }
+		.em-cart-actions { text-align:right; margin:10px 0px;}
+		 /* Checkout Form CSS */
+		.em-cart-table { border-collapse:collapse; border-spacing:0; width:100%; }		 
+		.em-cart-table { border-collapse:0px; }
+		.em-cart-table th, table.em-cart-table td { border:1px solid #efefef; padding:10px; }
+		.em-cart-table th { background-color:#eee; text-align:center; }
+		.em-cart-table td { background-color:#fff; }
+		.em-cart-table th.em-cart-title-event { text-align:left; }
+		.em-cart-table tbody.em-cart-totals th { text-align:right; padding-right:20px; }
+		.em-cart-table .em-cart-table-details-hide { display:none; visibility:none; }
+		.em-cart-table .em-cart-table-event-details { display:none; visibility:none; }
+		.em-cart-table .em-cart-table-event-title { font-weight:bold; }
+		.em-cart-table .em-cart-table-spaces { text-align:center; }
+		.em-cart-table .em-cart-table-price, tbody.em-cart-totals td { text-align:right; }
+		.em-cart-table-event-details .em-cart-table-ticket { font-weight:bold; }
+		.em-cart-info .em-cart-info-title { text-decoration:underline; }
+		.em-cart-info .em-cart-info-booking-title { font-weight:bold; }
+		.em-cart-info .em-cart-info-values label { font-style:italic; display: inline-block; width:150px; }		 
+		/*! qTip2 v2.0.0 | http://craigsworks.com/projects/qtip2/ | Licensed MIT, GPL */#qtip-rcontainer{position:absolute;left:-28000px;top:-28000px;display:block;visibility:hidden}#qtip-rcontainer .ui-tooltip{display:block!important;visibility:hidden!important;position:static!important;float:left!important}.ui-tooltip,.qtip{position:absolute;left:-28000px;top:-28000px;display:none;max-width:280px;min-width:50px;font-size:10.5px;line-height:12px}.ui-tooltip-content{position:relative;padding:5px 9px;overflow:hidden;text-align:left;word-wrap:break-word}.ui-tooltip-titlebar{position:relative;min-height:14px;padding:5px 35px 5px 10px;overflow:hidden;border-width:0 0 1px;font-weight:700}.ui-tooltip-titlebar+.ui-tooltip-content{border-top-width:0!important}.ui-tooltip-titlebar .ui-state-default{position:absolute;right:4px;top:50%;margin-top:-9px;cursor:pointer;outline:medium none;border-width:1px;border-style:solid}* html .ui-tooltip-titlebar .ui-state-default{top:16px}.ui-tooltip-titlebar .ui-icon,.ui-tooltip-icon .ui-icon{display:block;text-indent:-1000em;direction:ltr}.ui-tooltip-icon,.ui-tooltip-icon .ui-icon{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;text-decoration:none}.ui-tooltip-icon .ui-icon{width:18px;height:14px;text-align:center;text-indent:0;font:normal bold 10px/13px Tahoma,sans-serif;color:inherit;background:transparent none no-repeat -100em -100em}.ui-tooltip-focus{}.ui-tooltip-hover{}.ui-tooltip-default{border-width:1px;border-style:solid;border-color:#F1D031;background-color:#FFFFA3;color:#555}.ui-tooltip-default .ui-tooltip-titlebar{background-color:#FFEF93}.ui-tooltip-default .ui-tooltip-icon{border-color:#CCC;background:#F1F1F1;color:#777}.ui-tooltip-default .ui-tooltip-titlebar .ui-state-hover{border-color:#AAA;color:#111}/*! Light tooltip style */.ui-tooltip-light{background-color:#fff;border-color:#E2E2E2;color:#454545}.ui-tooltip-light .ui-tooltip-titlebar{background-color:#f1f1f1}/*! Dark tooltip style */.ui-tooltip-dark{background-color:#505050;border-color:#303030;color:#f3f3f3}.ui-tooltip-dark .ui-tooltip-titlebar{background-color:#404040}.ui-tooltip-dark .ui-tooltip-icon{border-color:#444}.ui-tooltip-dark .ui-tooltip-titlebar .ui-state-hover{border-color:#303030}/*! Cream tooltip style */.ui-tooltip-cream{background-color:#FBF7AA;border-color:#F9E98E;color:#A27D35}.ui-tooltip-cream .ui-tooltip-titlebar{background-color:#F0DE7D}.ui-tooltip-cream .ui-state-default .ui-tooltip-icon{background-position:-82px 0}/*! Red tooltip style */.ui-tooltip-red{background-color:#F78B83;border-color:#D95252;color:#912323}.ui-tooltip-red .ui-tooltip-titlebar{background-color:#F06D65}.ui-tooltip-red .ui-state-default .ui-tooltip-icon{background-position:-102px 0}.ui-tooltip-red .ui-tooltip-icon{border-color:#D95252}.ui-tooltip-red .ui-tooltip-titlebar .ui-state-hover{border-color:#D95252}/*! Green tooltip style */.ui-tooltip-green{background-color:#CAED9E;border-color:#90D93F;color:#3F6219}.ui-tooltip-green .ui-tooltip-titlebar{background-color:#B0DE78}.ui-tooltip-green .ui-state-default .ui-tooltip-icon{background-position:-42px 0}/*! Blue tooltip style */.ui-tooltip-blue{background-color:#E5F6FE;border-color:#ADD9ED;color:#5E99BD}.ui-tooltip-blue .ui-tooltip-titlebar{background-color:#D0E9F5}.ui-tooltip-blue .ui-state-default .ui-tooltip-icon{background-position:-2px 0}.ui-tooltip-shadow{-webkit-box-shadow:1px 1px 3px 1px rgba(0,0,0,.15);-moz-box-shadow:1px 1px 3px 1px rgba(0,0,0,.15);box-shadow:1px 1px 3px 1px rgba(0,0,0,.15)}.ui-tooltip-rounded,.ui-tooltip-tipsy,.ui-tooltip-bootstrap{-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}.ui-tooltip-youtube{-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;-webkit-box-shadow:0 0 3px #333;-moz-box-shadow:0 0 3px #333;box-shadow:0 0 3px #333;color:#fff;border-width:0;background:#4A4A4A;background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0, #4A4A4A),color-stop(100%,black));background-image:-webkit-linear-gradient(top, #4A4A4A 0,black 100%);background-image:-moz-linear-gradient(top, #4A4A4A 0,black 100%);background-image:-ms-linear-gradient(top, #4A4A4A 0,black 100%);background-image:-o-linear-gradient(top, #4A4A4A 0,black 100%)}.ui-tooltip-youtube .ui-tooltip-titlebar{background-color:#4A4A4A;background-color:rgba(0,0,0,0)}.ui-tooltip-youtube .ui-tooltip-content{padding:.75em;font:12px arial,sans-serif;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#4a4a4a, EndColorStr=#000000);-ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#4a4a4a, EndColorStr=#000000);"}.ui-tooltip-youtube .ui-tooltip-icon{border-color:#222}.ui-tooltip-youtube .ui-tooltip-titlebar .ui-state-hover{border-color:#303030}.ui-tooltip-jtools{background:#232323;background:rgba(0,0,0,.7);background-image:-webkit-gradient(linear,left top,left bottom,from( #717171),to( #232323));background-image:-moz-linear-gradient(top, #717171, #232323);background-image:-webkit-linear-gradient(top, #717171, #232323);background-image:-ms-linear-gradient(top, #717171, #232323);background-image:-o-linear-gradient(top, #717171, #232323);border:2px solid #ddd;border:2px solid rgba(241,241,241,1);-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;-webkit-box-shadow:0 0 12px #333;-moz-box-shadow:0 0 12px #333;box-shadow:0 0 12px #333}.ui-tooltip-jtools .ui-tooltip-titlebar{background-color:transparent;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#717171, endColorstr=#4A4A4A);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#717171, endColorstr=#4A4A4A)"}.ui-tooltip-jtools .ui-tooltip-content{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4A4A4A, endColorstr=#232323);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#4A4A4A, endColorstr=#232323)"}.ui-tooltip-jtools .ui-tooltip-titlebar,.ui-tooltip-jtools .ui-tooltip-content{background:transparent;color:#fff;border:0 dashed transparent}.ui-tooltip-jtools .ui-tooltip-icon{border-color:#555}.ui-tooltip-jtools .ui-tooltip-titlebar .ui-state-hover{border-color:#333}.ui-tooltip-cluetip{-webkit-box-shadow:4px 4px 5px rgba(0,0,0,.4);-moz-box-shadow:4px 4px 5px rgba(0,0,0,.4);box-shadow:4px 4px 5px rgba(0,0,0,.4);background-color:#D9D9C2;color:#111;border:0 dashed transparent}.ui-tooltip-cluetip .ui-tooltip-titlebar{background-color:#87876A;color:#fff;border:0 dashed transparent}.ui-tooltip-cluetip .ui-tooltip-icon{border-color:#808064}.ui-tooltip-cluetip .ui-tooltip-titlebar .ui-state-hover{border-color:#696952;color:#696952}.ui-tooltip-tipsy{background:#000;background:rgba(0,0,0,.87);color:#fff;border:0 solid transparent;font-size:11px;font-family:'Lucida Grande',sans-serif;font-weight:700;line-height:16px;text-shadow:0 1px black}.ui-tooltip-tipsy .ui-tooltip-titlebar{padding:6px 35px 0 10;background-color:transparent}.ui-tooltip-tipsy .ui-tooltip-content{padding:6px 10}.ui-tooltip-tipsy .ui-tooltip-icon{border-color:#222;text-shadow:none}.ui-tooltip-tipsy .ui-tooltip-titlebar .ui-state-hover{border-color:#303030}.ui-tooltip-tipped{border:3px solid #959FA9;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;background-color:#F9F9F9;color:#454545;font-weight:400;font-family:serif}.ui-tooltip-tipped .ui-tooltip-titlebar{border-bottom-width:0;color:#fff;background:#3A79B8;background-image:-webkit-gradient(linear,left top,left bottom,from( #3A79B8),to( #2E629D));background-image:-webkit-linear-gradient(top, #3A79B8, #2E629D);background-image:-moz-linear-gradient(top, #3A79B8, #2E629D);background-image:-ms-linear-gradient(top, #3A79B8, #2E629D);background-image:-o-linear-gradient(top, #3A79B8, #2E629D);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3A79B8, endColorstr=#2E629D);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#3A79B8, endColorstr=#2E629D)"}.ui-tooltip-tipped .ui-tooltip-icon{border:2px solid #285589;background:#285589}.ui-tooltip-tipped .ui-tooltip-icon .ui-icon{background-color:#FBFBFB;color:#555}.ui-tooltip-bootstrap{font-size:13px;line-height:18px;color:#333;background-color:#fff;border:1px solid #ccc;border:1px solid rgba(0,0,0,.2);*border-right-width:2px;*border-bottom-width:2px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 5px 10px rgba(0,0,0,.2);-moz-box-shadow:0 5px 10px rgba(0,0,0,.2);box-shadow:0 5px 10px rgba(0,0,0,.2);-webkit-background-clip:padding-box;-moz-background-clip:padding;background-clip:padding-box}.ui-tooltip-bootstrap .ui-tooltip-titlebar{font-size:18px;line-height:22px;border-bottom:1px solid #ccc;background-color:transparent}.ui-tooltip-bootstrap .ui-tooltip-titlebar .ui-state-default{right:9px;top:49%;border-style:none}.ui-tooltip-bootstrap .ui-tooltip-icon{background:#fff}.ui-tooltip-bootstrap .ui-tooltip-icon .ui-icon{width:auto;height:auto;float:right;font-size:20px;font-weight:700;line-height:18px;color:#000;text-shadow:0 1px 0 #fff;opacity:.2;filter:alpha(opacity=20)}.ui-tooltip-bootstrap .ui-tooltip-icon .ui-icon:hover{color:#000;text-decoration:none;cursor:pointer;opacity:.4;filter:alpha(opacity=40)}.ui-tooltip:not(.ie9haxors) div.ui-tooltip-content,.ui-tooltip:not(.ie9haxors) div.ui-tooltip-titlebar{filter:none;-ms-filter:none}.ui-tooltip .ui-tooltip-tip{margin:0 auto;overflow:hidden;z-index:10}.ui-tooltip .ui-tooltip-tip,.ui-tooltip .ui-tooltip-tip .qtip-vml{position:absolute;line-height:.1px!important;font-size:.1px!important;color:#123456;background:transparent;border:0 dashed transparent}.ui-tooltip .ui-tooltip-tip canvas{top:0;left:0}.ui-tooltip .ui-tooltip-tip .qtip-vml{behavior:url(#default#VML);display:inline-block;visibility:visible}#qtip-overlay{position:fixed;left:-10000em;top:-10000em}#qtip-overlay.blurs{cursor:pointer}#qtip-overlay div{position:absolute;left:0;top:0;width:100%;height:100%;background-color:#000;opacity:.7;filter:alpha(opacity=70);-ms-filter:"alpha(Opacity=70)"}
+		</style>
+				<style type="text/css">
+			.em-coupon-code { width:150px; }
+			#em-coupon-loading { display:inline-block; width:16px; height: 16px; margin-left:4px; background:url(https://emergency.uic.edu/wp-content/plugins/events-manager-pro/includes/images/spinner.gif)}
+			.em-coupon-message { display:inline-block; margin:5px 0px 0px 105px; text-indent:22px; }
+			.em-coupon-success { color:green; background:url(https://emergency.uic.edu/wp-content/plugins/events-manager-pro/includes/images/success.png) 0px 0px no-repeat }
+			.em-coupon-error { color:red; background:url(https://emergency.uic.edu/wp-content/plugins/events-manager-pro/includes/images/error.png) 0px 0px no-repeat }
+			.em-cart-coupons-form .em-coupon-message{ margin:5px 0px 0px 0px; }
+			#em-coupon-loading { margin-right:4px; }	
+		</style>
+				<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		
+<!-- My Custom CSS -->
+<link rel='stylesheet' id='mccss_stylesheet' href='https://emergency.uic.edu/files/my_custom_css/my_style_id-398.css?1587396571' type='text/css' media='all' />
+<!-- My Custom CSS -->
+</head>
+<body class="post-template-default single single-post postid-5315 single-format-standard">
 
-        <nav class="navigation-eyebrow" aria-label="Eyebrow navigation">
-    <div class="navigation-eyebrow-inner">
-        <ul class="eyebrow-list">
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://maps.uic.edu/">Map</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uic.edu/apps/departments-az/search">Directory</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/about/contact-us">Contact Us</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://library.uic.edu/">Library</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uicflames.com/">Athletics</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/life-at-uic/current-students">Current Students</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/life-at-uic/faculty-and-staff">Faculty and Staff</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://hospital.uillinois.edu/">UI Health</a></li>
-                                        <li class="eyebrow-list-item eyebrow-button"><a class="eyebrow-list-anchor" href="/alumni/give">Give</a></li>
-                            <li class="eyebrow-list-item search-button-item">
-                    <button class="search-button" type="button">
-                        <svg class="search-glass" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" aria-labelledby="title"><title id="title">Expand search box</title><path d="M19.7 18.3l-5.9-5.9c1-1.3 1.6-2.9 1.6-4.7C15.4 3.5 12 0 7.7 0S0 3.4 0 7.7c0 4.2 3.4 7.7 7.7 7.7 1.8 0 3.4-.6 4.7-1.6l5.9 5.9c.2.2.4.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4zM2 7.7C2 4.6 4.6 2 7.7 2s5.7 2.6 5.7 5.7-2.5 5.7-5.7 5.7C4.6 13.4 2 10.8 2 7.7z"/></svg>                    </button>
-                </li>
-        </ul>
-        <div class="search-input-container">
-            <form method="get" action="/search" role="search">
-                <input type="text" name="q" class="search-input" placeholder="Search..." disabled tabindex="-1" aria-label="Search">
-                <input type="submit" class="submit-button" name="search" value="Submit">
-            </form>
-        </div>
-    </div>
-</nav>
+	<!-- Page Layout
+	================================================== -->
+	<div id="header-wrap-top"><div id="header" class="container">
+      <div id="eyebrow">
+        <a class="screen-reader-shortcut" href="#page-container" title="Skip to Content">Skip to Content</a>
+        <div class="menu-container">
+            <h2>Eyebrow Navigation</h2>
+        <div class="menu-eyebrow-container"><ul id="menu-eyebrow" class="menu sf-menu"><li id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="http://uic.edu/">UIC</a></li>
+<li id="menu-item-36" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36"><a href="http://www.uic.edu/uic/search/">Find People</a></li>
+<li id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37"><a href="http://www.uic.edu/htbin/ulist/az">Departments A-Z</a></li>
+<li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-61"><a href="http://library.uic.edu/">Library</a></li>
+<li id="menu-item-62" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62"><a href="http://www.uicflames.com/">Athletics</a></li>
+</ul></div>        <select id="eyebrow-menu"><option value="">Common U I C menu</option><option value="http://uic.edu/">UIC</option><option value="http://www.uic.edu/uic/search/">Find People</option><option value="http://www.uic.edu/htbin/ulist/az">Departments A-Z</option><option value="http://library.uic.edu/">Library</option><option value="http://www.uicflames.com/">Athletics</option></select>        </div>
+      </div><!-- /#eyebrow -->
 
-        <nav class="navigation-primary" aria-label="Primary navigation">
-    <div class="navigation-primary-inner">
-                <div class="circle-logo-container">
-            <a href="/">
-                <svg class="circle-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M36.5 17.3L33.1 19c-.3-1.3-1-2-2.3-2-1.7 0-2.5 1.4-2.5 3.6s.8 3.6 2.5 3.6c1.2 0 1.8-.6 2.2-1.6l3.5 1.3c-.9 2.1-2.8 3.5-5.8 3.5-4.1 0-6.5-2.8-6.5-6.8s2.5-6.8 6.6-6.8c3.2.1 5 1.8 5.7 3.5m-14.1 9.8h-3.9v-13h3.9v13zm-6.3-5.3c0 1.8-.2 2.7-.7 3.6-.9 1.4-3.2 2-5.2 2s-4.3-.6-5.2-2c-.5-.9-.7-1.8-.7-3.6v-7.7h3.9v7.8c0 .9.1 1.5.4 1.8.3.4.8.5 1.5.5s1.2-.2 1.5-.5c.3-.4.4-1 .4-1.8v-7.8h3.9v7.7zM40 20C40 9 31 0 20 0S0 9 0 20s9 20 20 20 20-9 20-20"/></svg>
-<span>University of Illinois at Chicago</span>            </a>
-        </div>
-                            <ul class="primary-nav-list">
-    <button class="menu-toggle" type="button" tabindex="-1">
-        <div class="menu-toggle-icon"></div>
-        <span>Expand menu</span>
-    </button>
-    <div class="menu-label-item"><span class="menu-label">Menu</span></div>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/admissions-aid">Admissions &amp; Aid</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/visit-campus">Visit Campus</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/paying-for-college">Paying for College</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/academics">Academics</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/programs-of-study">Programs of Study</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/colleges-schools">Colleges &amp; Schools</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/student-support">Student Support</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/research">Research</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-impact">Research Impact</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-strengths">Research Strengths</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/resources-facilities">Resources &amp; Facilities</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/student-research">Student Research</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item">
-            <a class="primary-list-anchor" href="/life-at-uic">Life at UIC</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/living-on-around-campus">Living On &amp; Around Campus</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/campus-resources">Campus Resources</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/current-students">Current Students</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/faculty-and-staff">Faculty and Staff</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/chicago">Chicago</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/exploring-chicago">Exploring Chicago</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/city-transportation">City Transportation</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/essential-chicago">Essential Chicago</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/alumni">Alumni</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/connect">Connect</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/engage">Engage</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/give">Give</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/about">About</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/visit-directions">Visit &amp; Directions</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/history">History</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/leadership">Leadership</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/public-media-resources">Public &amp; Media Resources</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/job-opportunities">Job Opportunities</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/contact-us">Contact Us</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/acerca">Acerca de la UIC (en español)</a></li>
-                                    </ul>
-                    </li>
-    </ul>            </div>
-</nav>
-
-</div>
-</header>
-
-<div class="ms-grid main">
-  <div class="ms-row">
-    <div class="m-col-1-4">
-      <nav class="navigation-sidebar" aria-label="Secondary navigation">
-      </nav>
-    </div>
-    <div class="m-col-3-4">
-
-      <nav class="breadcrumbs ms-row">
-        <div class="col-1-1">
-          <div class="red-circle" aria-hidden="true"></div>
-          <img class="first-breadcrumb-arrow" src="/images/breadcrumb-arrow.svg" aria-hidden="true" alt="Breadcrumb arrow">
-          <ul class="crumb-list">
-            <li class="crumb-item">
-                <a class="crumb-anchor active" href="/apps/find-people/search">Directory</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <main class="interior-page-intro">
-        <div class="ms-row">
-          <div class="col-1-1">
-            <h1 class="interior-page-title">Directory search</h1>
-          </div>
-        </div>
-
-<section role="region" class="text-block-with-large-image" aria-label="ADMINISTRATION, Physical Plant Unit Listing">
-<div class="ms-row title-row">
-  <div class="col-1-1">
-    <h2 class="interior-section-header">
-      ADMINISTRATION, Physical Plant</a>
-    </h2>
-  </div>
-</div>
-
-<div class="ms-row text-row">
-  <div class="col-1-1 block-wysiwyg">
-
-
-<table>
-
-<tr>
-  <td style="vertical-align: top; font-weight: 400;">
-    <p>
-      Also known as CAMPUS AUTO RENTAL SERVICE (CARS), FACILITIES MANAGEMENT, GROUNDS, MAINTENANCE, PHYSICAL PLANT OPERATIONS  - CHICAGO, TRANSPORTATION   </p>
-    <p>
-      Banner Dept: <span style="font-weight: 500;">2-577000</span>
-    </p>
-             PPB MC 270 <br />1140 S. Morgan Chicago IL         </td>
-        <td style="vertical-align: top;">
-            <a href="https://fm.uic.edu/">Department Home Page</a>
-            <br />
-            <a href="/apps/departments-az/search?dispatch=roster&amp;style=uic&amp;orgid=99730">Department Roster</a>
-            <br />
-        </td>
-    </tr>
-
-    			      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Facilities Customer Support -To Report a Problem</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7511	    <br />
-	    <strong>F</strong> 312-413-9051	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#101;&#114;&#118;&#100;&#101;&#115;&#107;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#115;&#101;&#114;&#118;&#100;&#101;&#115;&#107;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	    <a style="font-weight: 400;" href="https://www.fm.uic.edu/">Home Page</a>
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">General Information</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-8500	    <br />
-	    <strong>F</strong> 312-996-6687	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10001" style="font-weight: 400;">
-      Administration    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Vice Chancellor for Administrative Services</span>
-	    <br />
-	    John Coronado	    <br />
-	    138 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-1401	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#99;&#111;&#114;&#111;&#110;&#97;&#100;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#106;&#99;&#111;&#114;&#111;&#110;&#97;&#100;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Executive Associate Vice Chancellor for Administrative Services</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-1227	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Assistant to the Vice Chancellor</span>
-	    <br />
-	    119 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-1404	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10017" style="font-weight: 400;">
-      Capital Programs - Chicago    </th>
-  </tr>
-    <tr>
-	<td style="vertical-align: top; font-weight: 400;">
-	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-            <strong><a href="http://www.ocp.uic.edu">Home Page</a></strong>
-	    <br />
-	    <strong>F</strong> 312-996-2853	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10005" style="font-weight: 400;">
-      Central Receiving    </th>
-  </tr>
-    <tr>
-	<td style="vertical-align: top; font-weight: 400;">
-	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>F</strong> 312-413-9129	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Central Receiving</span>
-	    <br />
-	      MC 187</br> 1515 West 15th Street Chicago IL 60608	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-1038	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Receiving Dock - East</span>
-	    <br />
-	      MC 187</br> 1515 West 15th Street Chicago IL 60608	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-2877	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Receiving Dock - West</span>
-	    <br />
-	    C600 UIH MC 723</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7099	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10018" style="font-weight: 400;">
-      Contract Management    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Manager</span>
-	    <br />
-	    146P PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-6645	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10010" style="font-weight: 400;">
-      Finance/Accounting    </th>
-  </tr>
-    <tr>
-	<td style="vertical-align: top; font-weight: 400;">
-	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>F</strong> 312-355-0628	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">General Information</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-5193	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Associate Director</span>
-	    <br />
-	    Kimberley M Egan	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#101;&#103;&#97;&#110;&#52;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#107;&#101;&#103;&#97;&#110;&#52;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10011" style="font-weight: 400;">
-      Human Resources    </th>
-  </tr>
-    <tr>
-	<td style="vertical-align: top; font-weight: 400;">
-	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>F</strong> 312-996-1077	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Director for Human Resources</span>
-	    <br />
-	    La Donna Hudson	    <br />
-	    100 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-2143	    <br />
-	    <strong>F</strong> 312-413-7800	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#100;&#104;&#117;&#100;&#115;&#111;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#108;&#100;&#104;&#117;&#100;&#115;&#111;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Human Resource Associate</span>
-	    <br />
-	    Sharon M Carrillo	    <br />
-	    115 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-3231	    <br />
-	    <strong>F</strong> 312-413-1077	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#104;&#97;&#114;&#111;&#110;&#109;&#99;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#115;&#104;&#97;&#114;&#111;&#110;&#109;&#99;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10006" style="font-weight: 400;">
-      Information Technology    </th>
-  </tr>
-    <tr>
-	<td style="vertical-align: top; font-weight: 400;">
-	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>F</strong> 312-996-8858	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Director of Technology & Building Systems</span>
-	    <br />
-	    Sandeep M Dath	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-1005	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#97;&#116;&#104;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#100;&#97;&#116;&#104;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Assistant Director, Systems & Networks</span>
-	    <br />
-	    Alex Esparza	    <br />
-	    107 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-0674	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#101;&#115;&#112;&#97;&#114;&#122;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#97;&#101;&#115;&#112;&#97;&#114;&#122;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10015" style="font-weight: 400;">
-      Mail Service    </th>
-  </tr>
-    <tr>
-	<td style="vertical-align: top; font-weight: 400;">
-	    B75 PPB MC 766 	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Manager/Business Manager</span>
-	    <br />
-	    Michael McGowan	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-0613	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#109;&#97;&#99;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#109;&#109;&#97;&#99;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10002" style="font-weight: 400;">
-      Operations and Maintenance    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Executive Director of Operations & Maintenance</span>
-	    <br />
-	    Clarence E Bridges	    <br />
-	    120 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-5946	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#98;&#114;&#105;&#100;&#103;&#101;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#99;&#98;&#114;&#105;&#100;&#103;&#101;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Facility Manager, Medical Center (Ambulatory)</span>
-	    <br />
-	    Fred J Piemonte	    <br />
-	    1165 OCC MC 643</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-4546	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#102;&#114;&#101;&#100;&#112;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#102;&#114;&#101;&#100;&#112;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Assistant Director Facilities Management - West</span>
-	    <br />
-	    Steven B Cross	    <br />
-	    B37 CSN MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-0879	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#98;&#99;&#114;&#111;&#115;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#115;&#98;&#99;&#114;&#111;&#115;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Superintendent, Building Maintenance - West</span>
-	    <br />
-	    B47 CSN MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7101	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Superintendent of Building Maintenance - West</span>
-	    <br />
-	    Winston A Atwater	    <br />
-	    B36 CSN MC 543</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-6533	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#119;&#97;&#116;&#119;&#97;&#116;&#101;&#114;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#119;&#97;&#116;&#119;&#97;&#116;&#101;&#114;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Facilities Manager</span>
-	    <br />
-	    B37 CSN MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-8474	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Assistant Director Facilities Management  - East</span>
-	    <br />
-	    Gabriel Augusto Bernal	    <br />
-	    163A PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-5913	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#103;&#97;&#98;&#101;&#114;&#110;&#97;&#108;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#103;&#97;&#98;&#101;&#114;&#110;&#97;&#108;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Zone Manager</span>
-	    <br />
-	    C504A UIH MC 720</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-3042	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Zone Manager</span>
-	    <br />
-	    Kathleen Russell	    <br />
-	    142 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-5001	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#97;&#116;&#104;&#121;&#114;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#107;&#97;&#116;&#104;&#121;&#114;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Zone Manager</span>
-	    <br />
-	    Marwan Chehade	    <br />
-	    B016 ERF MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-1720	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#99;&#104;&#101;&#104;&#97;&#49;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#109;&#99;&#104;&#101;&#104;&#97;&#49;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Zone Manager</span>
-	    <br />
-	    Jessica Dawn Gallo	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7264	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#103;&#97;&#108;&#108;&#111;&#49;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#106;&#103;&#97;&#108;&#108;&#111;&#49;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Zone Manager</span>
-	    <br />
-	    Brian Robert Gavaghan	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7265	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#103;&#97;&#118;&#97;&#103;&#104;&#97;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#103;&#97;&#118;&#97;&#103;&#104;&#97;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Zone Manager</span>
-	    <br />
-	    Michael Bankston Duncan	    <br />
-	    156B PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-0719	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#98;&#100;&#117;&#110;&#99;&#97;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#109;&#98;&#100;&#117;&#110;&#99;&#97;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Zone Manager</span>
-	    <br />
-	    226 PSB MC 892</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-2332	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Lamp Maintenance</span>
-	    <br />
-	    125 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-0665	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Chief Plant Operating Engineer - East</span>
-	    <br />
-	    Andrew Joseph Barrett	    <br />
-	    B16 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-5149	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#110;&#100;&#114;&#101;&#119;&#98;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#97;&#110;&#100;&#114;&#101;&#119;&#98;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Chief Plant Operating Engineer - West</span>
-	    <br />
-	    Anthony V Civito	    <br />
-	    B26 CSB MC 896</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-0008	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#118;&#99;&#105;&#118;&#105;&#116;&#111;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#97;&#118;&#99;&#105;&#118;&#105;&#116;&#111;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Project Weekend Coordinator & Roofing Tech</span>
-	    <br />
-	    Michael Diiacova	    <br />
-	    113 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-0166	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#105;&#105;&#97;&#99;&#111;&#118;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#100;&#105;&#105;&#97;&#99;&#111;&#118;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10016" style="font-weight: 400;">
-      Parking Services    </th>
-  </tr>
-    <tr>
-	<td style="vertical-align: top; font-weight: 400;">
-	    122 WSPS MC 044 	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>F</strong> 312-413-5840	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Director</span>
-	    <br />
-	    Wanda M Perry	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-5800	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#119;&#97;&#110;&#100;&#97;&#112;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#119;&#97;&#110;&#100;&#97;&#112;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10014" style="font-weight: 400;">
-      Small Project Management    </th>
-  </tr>
-    <tr>
-	<td style="vertical-align: top; font-weight: 400;">
-	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>F</strong> 312-413-1678	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Director</span>
-	    <br />
-	    Vytenis Anth Milunas	    <br />
-	    125 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-1361	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#118;&#109;&#105;&#108;&#117;&#110;&#97;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#118;&#109;&#105;&#108;&#117;&#110;&#97;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Associate Director</span>
-	    <br />
-	    125 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-0513	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Assistant to the Director</span>
-	    <br />
-	    Nina R. Smith	    <br />
-	    125 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-8852	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#109;&#105;&#116;&#104;&#110;&#114;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#115;&#109;&#105;&#116;&#104;&#110;&#114;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Administrative Assistant</span>
-	    <br />
-	    Tonya C Spencer	    <br />
-	    125 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-1956	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#99;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#116;&#99;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10008" style="font-weight: 400;">
-      Purchasing, Procurement, and Material Distribution    </th>
-  </tr>
-    <tr>
-	<td style="vertical-align: top; font-weight: 400;">
-	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>F</strong> 312-996-2055	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">General Information</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-9400	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Manager</span>
-	    <br />
-	    168 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-0300	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10009" style="font-weight: 400;">
-      Recycling Program    </th>
-  </tr>
-    <tr>
-	<td style="vertical-align: top; font-weight: 400;">
-	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-            <strong><a href="http://sustainability.uic.edu/recycling">Home Page</a></strong>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Recycling Office</span>
-	    <br />
-	    150 PSB MC 996</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-2517	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#101;&#99;&#121;&#99;&#108;&#105;&#110;&#103;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#114;&#101;&#99;&#121;&#99;&#108;&#105;&#110;&#103;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">General Information</span>
-	    <br />
-	    150 PSB MC 996</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-9816	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10003" style="font-weight: 400;">
-      Facilities Customer Support    </th>
-  </tr>
-    <tr>
-	<td style="vertical-align: top; font-weight: 400;">
-	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-            <strong><a href="http://www.fm.uic.edu">Home Page</a></strong>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Facilities Customer Support</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7511	    <br />
-	    <strong>F</strong> 312-413-9051	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#101;&#114;&#118;&#100;&#101;&#115;&#107;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#115;&#101;&#114;&#118;&#100;&#101;&#115;&#107;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Facilities Customer Support Director</span>
-	    <br />
-	    156 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-6699	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10004" style="font-weight: 400;">
-      Services    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Air Conditioning Problems</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7511	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">AV & Multimedia Classroom Problems</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-2751	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Billing Information, Accounting</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-5193	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Building Maintenance Requisition/ Work-Order Status</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7511	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Building Repairs</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7511	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Bus Schedules</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-2842	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">CARS - Campus Auto Rental Service</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-2886	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Chauffeur Service</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-2843	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Cleaning of Outside Doorways,  Stairwells, and Landings</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7511	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Construction Company</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-1361	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Courier/Package Delivery</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-2842	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Custodial</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7511	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Customer Satisfaction/ Quality Assurance</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-3067	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Electrical Repairs</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7511	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Elevator/Escalator Repairs</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7511	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Environmental Health and Safety</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7233	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Exterminating</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7511	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Glass Replacement</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7511	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Grass, Shrub, Tree Maintenance</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7511	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Heating/Cooling Problems</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7511	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Human Resources</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-8307	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">General Information</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-8500	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Keys Ordering, Pick-up, Master Keys</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-2826	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Lighting</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7511	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Moves (Furniture and Equipment)</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7511	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Paratransit/Day</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-2842	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Paratransit/Night</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-6800	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Plumbing Repairs</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7511	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Project Assignment Desk</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-6829	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Red Car Escort</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-6800	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Roof Repairs</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7511	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Snow Removal</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7511	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Transportation Service Information</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-2842	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Ventilation Problems</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7511	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Water Leaks of All Types</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7511	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10012" style="font-weight: 400;">
-      Transportation and Grounds    </th>
-  </tr>
-    <tr>
-	<td style="vertical-align: top; font-weight: 400;">
-	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>F</strong> 312-996-4456	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Associate Director, Facilities Management, Transportation</span>
-	    <br />
-	    Pablo Acevedo	    <br />
-	    101 TF MC 269</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-2106	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#99;&#101;&#118;&#101;&#100;&#111;&#112;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#97;&#99;&#101;&#118;&#101;&#100;&#111;&#112;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Information Services Supervisor</span>
-	    <br />
-	    103 TF MC 269</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7105	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Campus Auto Rental Service (CARS)</span>
-	    <br />
-	    100 TF MC 269</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-2886	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10013" style="font-weight: 400;">
-      Utilities    </th>
-  </tr>
-    <tr>
-	<td style="vertical-align: top; font-weight: 400;">
-	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>F</strong> 312-996-5143	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Director</span>
-	    <br />
-	    Robert Raymond Roman	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-0323	    <br />
-	    <strong>F</strong> 312-996-5143	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#111;&#109;&#97;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#114;&#111;&#109;&#97;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">General Information</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-3317	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10019" style="font-weight: 400;">
-      Department Liaisons    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Daniel Hunter Hinspeter	    <br />
-	    107 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-8718	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#104;&#105;&#110;&#115;&#112;&#50;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#100;&#104;&#105;&#110;&#115;&#112;&#50;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Sandeep M Dath	    <br />
-	    107 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-1005	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#97;&#116;&#104;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#100;&#97;&#116;&#104;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    James Cohara	    <br />
-	    107 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-5125	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#99;&#111;&#104;&#97;&#114;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#106;&#99;&#111;&#104;&#97;&#114;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Richard Lindsay Thunell	    <br />
-	     PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#105;&#99;&#107;&#121;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#114;&#105;&#99;&#107;&#121;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Phyllis Hill	    <br />
-	    112 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-1360	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#99;&#110;&#117;&#108;&#116;&#121;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#109;&#99;&#110;&#117;&#108;&#116;&#121;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Alex Esparza	    <br />
-	    107E PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#101;&#115;&#112;&#97;&#114;&#122;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#97;&#101;&#115;&#112;&#97;&#114;&#122;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Guillermo Villanueva	    <br />
-	    107 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-4872	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#118;&#105;&#108;&#108;&#97;&#103;&#50;&#51;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#118;&#105;&#108;&#108;&#97;&#103;&#50;&#51;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Amy L Crawford	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#109;&#121;&#99;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#97;&#109;&#121;&#99;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Michael Adam Yates	    <br />
-	    107 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#121;&#97;&#116;&#101;&#115;&#109;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#121;&#97;&#116;&#101;&#115;&#109;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Sharon M Carrillo	    <br />
-	    115 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-3231	    <br />
-	    <strong>F</strong> 312-413-1077	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#104;&#97;&#114;&#111;&#110;&#109;&#99;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#115;&#104;&#97;&#114;&#111;&#110;&#109;&#99;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Benjamin Leska	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-3176	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#108;&#101;&#115;&#107;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#98;&#108;&#101;&#115;&#107;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">REACH Contact</span>
-	    <br />
-	    Madan Gopal Venkatesan	    <br />
-	    107A PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-1764	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#118;&#101;&#110;&#107;&#97;&#55;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#109;&#118;&#101;&#110;&#107;&#97;&#55;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">REACH Contact</span>
-	    <br />
-	    Benjamin Leska	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-3176	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#108;&#101;&#115;&#107;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#98;&#108;&#101;&#115;&#107;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">REACH Contact</span>
-	    <br />
-	    Gregory Donels	    <br />
-	    107B PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-3143	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#103;&#100;&#111;&#110;&#101;&#108;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#103;&#100;&#111;&#110;&#101;&#108;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">REACH Contact</span>
-	    <br />
-	    Michael Adam Yates	    <br />
-	    107 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#121;&#97;&#116;&#101;&#115;&#109;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#121;&#97;&#116;&#101;&#115;&#109;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">REACH Contact</span>
-	    <br />
-	    Daniel Hunter Hinspeter	    <br />
-	    107 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-8718	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#104;&#105;&#110;&#115;&#112;&#50;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#100;&#104;&#105;&#110;&#115;&#112;&#50;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">REACH Contact</span>
-	    <br />
-	    Alex Esparza	    <br />
-	    107E PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#101;&#115;&#112;&#97;&#114;&#122;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#97;&#101;&#115;&#112;&#97;&#114;&#122;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">REACH Contact</span>
-	    <br />
-	    Guillermo Villanueva	    <br />
-	    107 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-4872	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#118;&#105;&#108;&#108;&#97;&#103;&#50;&#51;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#118;&#105;&#108;&#108;&#97;&#103;&#50;&#51;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">REACH Contact</span>
-	    <br />
-	    Richard Lindsay Thunell	    <br />
-	     PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#105;&#99;&#107;&#121;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#114;&#105;&#99;&#107;&#121;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">REACH Contact</span>
-	    <br />
-	    Sandeep M Dath	    <br />
-	    107 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-1005	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#97;&#116;&#104;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#100;&#97;&#116;&#104;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Webmaster</span>
-	    <br />
-	    Guillermo Villanueva	    <br />
-	    107 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-4872	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#118;&#105;&#108;&#108;&#97;&#103;&#50;&#51;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#118;&#105;&#108;&#108;&#97;&#103;&#50;&#51;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Webmaster</span>
-	    <br />
-	    Betsy Gates-Ehlers	    <br />
-	    211 1333SH MC 134</br><br />107 PPB MC 270</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-1872<br /> <strong>T</strong> 312-996-8575	    <br />
-	    <strong>F</strong> 312-355-0720	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#101;&#109;&#103;&#97;&#116;&#101;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#101;&#109;&#103;&#97;&#116;&#101;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	    </table>
-
-  </div>
-</div>
-</section>
-
-<div class="ms-grid" style="margin-top: 40px;">
-  <div class="ms-row block-wysiwyg">
-    <div class="m-col-1-3">
-        <form method="get" action="/apps/find-people/search">
-
-<div class="form-element"> 
-	<h2>Individuals</h2>
-</div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Last name</span>
-      <input class="text-input" type="text" id="lastname" name="lastname">
-    </label>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">First name</span>
-      <input class="text-input" type="text" id="firstname" name="firstname">
-    </label>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">NetID</span>
-      <input class="text-input" type="text" id="netid" name="netid">
-    </label>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Department</span>
-      <input class="text-input" type="text" id="department" name="department">
-    </label>
-  </div>
-
-  <button type="submit" class="button">Search</button>
-
-  <p class="form-help-text" style="margin-top: 15px;">
-    <em>
-      <strong>Tip</strong> Typing "Lee" into the Last Name
-      field will retrieve too many entries to print. But, adding
-      "R" to the First Name will narrow the search.
-    </em>
-  </p>
-
-</form>
-
-    </div>
-
-    <div class="m-col-2-3">
-        <form method="get" action="//www.uic.edu/apps/departments-az/search">
-
-<div class="form-element">
-<h2>Departments</h2>
-</div>
-
-  <div class="form-element">
-<span class="form-element-label">Browse</span>
-<p>
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=A">A</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=B">B</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=C">C</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=D">D</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=E">E</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=F">F</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=G">G</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=H">H</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=I">I</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=J">J</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=K">K</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=L">L</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=M">M</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=N">N</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=O">O</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=P">P</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Q">Q</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=R">R</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=S">S</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=T">T</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=U">U</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=V">V</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=W">W</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=X">X</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Y">Y</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Z">Z</a>&nbsp;
-    </p>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Department</span>
-      <input class="text-input" type="text" id="kwords" name="kwords">
-    </label>
-  </div>
-
-  <input type="hidden" name="dispatch" value="search" />
-  <button type="submit" class="button">Search</button>
-
-  <p class="form-help-text" style="margin-top: 15px;">
-    <em>
-      <strong>Tip</strong>
-      Search for contact information for a specific department
-      or just select Department Search to browse the unit listing.
-    </em>
-  </p>
-</form>
-
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </main>
-    </div>
-  </div>
-</div>
-
-<footer class="footer">
-    <div class="footer-content" style="background-image: url(/images/footer.jpg)">
-        <div class="ms-grid">
-            <div class="ms-row">
-                <div class="s-col-1-2 m-col-1-4 l-col-3-12 footer-brand-address">
-                                            <img class="footer-brand" src="/images/footer-brand-mark.svg" alt="The University of Illinois at Chicago" aria-hidden="true">
-                                        <div class="footer-address">
-                        <div><strong>1200 West Harrison St.</strong></div>
-                        <div>Chicago, Illinois 60607</div>
-                        <div>312-996-7000</div>
-                    </div>
+			<div id="logo">
+                <div class="logo-inner">
+                    <h1>
+                        <a href="https://emergency.uic.edu">
+                                                            <img src="https://emergency.uic.edu/files/2016/02/CAMP.CIRC_.LG_.RED-2-150x150.png" alt="Emergency Information">
+                                                    </a>
+                    </h1>
                 </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-push-4" aria-label="Tools">
-                    <h1 class="footer-list-title">Tools</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://uic.blackboard.com/">
-        Blackboard
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://accc.uic.edu/service/g-suite">
-        GoogleApps@UIC
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://my.uic.edu/common/">
-        my UIC
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://www.hr.uillinois.edu/pay/">
-        My UI Info: Pay
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://outlook.uic.edu">
-        UIC Outlook Online
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://accc.uic.edu/service/uicalendar">
-        UICalendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/contact-us">
-        Contact the webmaster
-    </a>
-</li>                                            </ul>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12" aria-label="Resources">
-                    <h1 class="footer-list-title">Resources</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://catalog.uic.edu/ucat/academic-calendar/">
-        Academic Calendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/life-at-uic/current-students">
-        Current Students
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://events.uic.edu">
-        Event Calendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/life-at-uic/faculty-and-staff">
-        Faculty and Staff
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://maps.uic.edu">
-        Maps
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://today.uic.edu/uicnews">
-        UIC Today
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/visit-directions">
-        Visit &amp; Directions
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://clery.uic.edu/">
-        Clery Compliance
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://oae.uic.edu/UnlawfulDiscrimination/index.htm">
-        Nondiscrimination Policy
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://oae.uic.edu/TitleIX/index.htm">
-        Title IX: Sexual Misconduct
-    </a>
-</li>                                            </ul>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-pull-4" aria-label="Quick Links">
-                    <h1 class="footer-list-title">Quick Links</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uicflames.com/">
-        Athletics
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uic.edu/apps/departments-az/search">
-        Directory
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://disabilityresources.uic.edu/">
-        Disability Resources
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://emergency.uic.edu">
-        Emergency Information
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/job-opportunities">
-        Job Opportunities
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://library.uic.edu">
-        Library
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uic.edu/depts/dos/studentveteranaffairs.shtml">
-        Veterans Affairs
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://hospital.uillinois.edu">
-        University of Illinois Hospital &amp; Health Sciences System
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/acerca">
-        Acerca de la UIC (en español)
-    </a>
-</li>                                            </ul>
-                </div>
-                <div class="l-col-3-12">
-                    <div class="ms-row">
-                        <div role="navigation" class="s-col-1-2 l-col-1-1" aria-label="Calls to Action">
-                            <ul class="footer-button-list">
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/visit-us" role="button">
-                Book a Visit
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/undergraduate/request-information" role="button">
-                Request Info
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/apply-now" role="button">
-                Apply Now
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="/alumni/give" role="button">
-                Give
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://uicalumni.org/" role="button">
-                Join Alumni Association
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="/about/contact-us" role="button">
-                Contact Us
-            </a>
-        </li>
-    </ul>                        </div>
-                        <div class="s-col-1-2 l-col-1-1 footer-social-icons-cell">
-                            <ul class="social-icons-list">
-            <li>
-            <a href="https://www.facebook.com/uic.edu">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>            </a>
-        </li>
-                <li>
-            <a href="https://twitter.com/thisisuic">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>            </a>
-        </li>
-                <li>
-            <a href="https://instagram.com/uicamiridis/">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>            </a>
-        </li>
-                    <li>
-            <a href="https://www.youtube.com/user/thisisUIC">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>            </a>
-        </li>
-                    <li>
-            <a href="http://uicscience.tumblr.com/">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Tumblr</title><path d="M15.1 24.2c2.8.7 5.6-.9 5.6-.9v-3c-.8.9-2.6 1.1-3.9.7-1.2-.3-1.1-2-1.1-2v-5.7h4.4v-3h-4.4V5.6H13c-.3 5.1-3.8 5-3.8 5v2.7h2v6.8c.1 2.2 1.1 3.4 3.9 4.1z"/></svg>            </a>
-        </li>
-                        <li>
-            <a href="https://news.uic.edu/social-media-directory">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>More links</title><path d="M15 5C9.5 5 5 9.5 5 15s4.5 10 10 10 10-4.5 10-10S20.5 5 15 5zm4.7 11H16v3.7h-2V16h-3.7v-2H14v-3.7h2V14h3.7v2z"/></svg>            </a>
-        </li>
-    </ul>                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-legal">
-        <div class="ms-grid">
-            <div class="ms-row">
-                <div class="l-col-1-2">
-                    &copy; 2016 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span> <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a>
-                </div>
-                <div class="l-col-1-2 campuses">
-                                            <a href="http://www.uillinois.edu/">University of Illinois</a> <span class="pipe-separator">|</span>
-                                            <a href="http://www.illinois.edu/">Urbana-Champaign</a> <span class="pipe-separator">|</span>
-                                            <a href="http://www.uis.edu/">Springfield</a> 
-                                    </div>
-            </div>
-        </div>
-    </div>
-  <a href="https://plus.google.com/+UicEdu" rel="publisher" hidden>UIC on Google+</a>
-</footer>
+			</div>
 
-<link rel="stylesheet" href="/css/main.min.css" media="all"><script src="/js/concat/main.min.js"></script><script src="//www.uic.edu/inc/emergency/alert.js"></script></body></html>
+      <div id="nav-search">
+        <form role="search" method="get" id="searchform" class="searchform" action="https://emergency.uic.edu/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form>      </div>
+
+			                    <div id="page-header-image">
+                                                    <img width="1000" height="352" src="https://emergency.uic.edu/files/2015/08/DG13_09_15_2831.jpg" class="attachment-page-header-image-thumbnail" alt="Photo of UIC">
+                                                </div><!-- /#page-header-image -->
+                    
+		</div><!-- End header -->
+
+	<div id="navbar" class="container">
+        <a name ="main-content" id="page-content" class="screen-reader-shortcut" title="Skip to Content" tabindex = "-1">Skip to Content</a>
+		<div class="menu-container">
+            <h2>Main Navigation</h2>
+		    <div class="menu-global-navigation-container"><ul id="menu-global-navigation" class="menu sf-menu"><li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-41"><a href="https://emergency.uic.edu/">Home</a></li>
+<li id="menu-item-454" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-454"><a href="https://emergency.uic.edu/category/uic-alerts/">UIC Alerts</a></li>
+<li id="menu-item-453" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-453"><a href="https://emergency.uic.edu/category/public-safety/">Public Safety Advisories</a></li>
+<li id="menu-item-6443" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6443"><a href="https://emergency.uic.edu/category/campus-general/">Campus General</a></li>
+<li id="menu-item-6445" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6445"><a href="https://emergency.uic.edu/category/monthly-test/">Monthly Test Alerts</a></li>
+<li id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-151"><a href="https://emergency.uic.edu/web-alerts/">Get alerts for websites</a></li>
+</ul></div>		    <select id="dropdown-menu"><option value="">Main Menu</option><option value="https://emergency.uic.edu/">Home</option><option value="https://emergency.uic.edu/category/uic-alerts/">UIC Alerts</option><option value="https://emergency.uic.edu/category/public-safety/">Public Safety Advisories</option><option value="https://emergency.uic.edu/category/campus-general/">Campus General</option><option value="https://emergency.uic.edu/category/monthly-test/">Monthly Test Alerts</option><option value="https://emergency.uic.edu/web-alerts/">Get alerts for websites</option></select>		</div>
+
+	</div><!-- End navbar -->
+</div><!-- End Header wrap -->
+	<div id="main-wrap" class="boxed">
+
+
+
+	<div class="container" id="main-content">
+		
+        <div id="sidebar-container" class="right">
+            <ul id="sidebar">
+                
+                                    <li id="recent" class="widget-container">
+                        <h3 class="widget-title">Recent Posts</h3>
+                        <ul>
+                            	<li><a href='https://emergency.uic.edu/voip-phone-issues-all-operations-are-back-to-normal/'>*** VOIP PHONE ISSUES *** All operations are back to normal.</a></li>
+	<li><a href='https://emergency.uic.edu/voip-phone-issues-we-are-aware-that-some-users-may-be-experiencing-issues-calling-on-campus-voip-phones-accc-is-aware-of-the-problem/'>*** VoIP Phone Issues***     We are aware that some users may be experiencing issues calling on-campus VoIP phones.  ACCC is aware of the problem.</a></li>
+	<li><a href='https://emergency.uic.edu/uic-alert-this-is-an-all-clear-notification-the-uic-alert-emergency-notification-system-test-has-ended-3/'>UIC ALERT : This is an ALL CLEAR notification. The UIC ALERT emergency notification system TEST has ended.</a></li>
+	<li><a href='https://emergency.uic.edu/uic-alert-test-this-is-a-test-of-the-uic-alert-emergency-notification-system-no-action-is-required-this-is-only-a-test-4/'>UIC ALERT TEST: This is a TEST of the UIC ALERT emergency notification system. No action is required. This is only a test.</a></li>
+	<li><a href='https://emergency.uic.edu/uic-alert-all-clear-power-has-been-restored-to-all-campus-buildings-contact-uic-fm-at-312-996-7511-to-report-issues-return-to-your-normal-activities/'>UIC Alert ALL CLEAR Power has been restored to all campus buildings. Contact UIC FM at 312-996-7511 to report issues. Return to your normal activities.</a></li>
+                        </ul>
+                    </li>
+                    <li id="archives" class="widget-container">
+                        <h3 class="widget-title">Archives</h3>
+                        <ul>
+                            	<li><a href='https://emergency.uic.edu/2020/05/'>May 2020</a></li>
+	<li><a href='https://emergency.uic.edu/2020/04/'>April 2020</a></li>
+	<li><a href='https://emergency.uic.edu/2020/03/'>March 2020</a></li>
+	<li><a href='https://emergency.uic.edu/2020/02/'>February 2020</a></li>
+	<li><a href='https://emergency.uic.edu/2019/12/'>December 2019</a></li>
+	<li><a href='https://emergency.uic.edu/2019/11/'>November 2019</a></li>
+	<li><a href='https://emergency.uic.edu/2019/10/'>October 2019</a></li>
+	<li><a href='https://emergency.uic.edu/2019/08/'>August 2019</a></li>
+	<li><a href='https://emergency.uic.edu/2019/07/'>July 2019</a></li>
+	<li><a href='https://emergency.uic.edu/2019/05/'>May 2019</a></li>
+	<li><a href='https://emergency.uic.edu/2019/04/'>April 2019</a></li>
+	<li><a href='https://emergency.uic.edu/2019/03/'>March 2019</a></li>
+	<li><a href='https://emergency.uic.edu/2019/01/'>January 2019</a></li>
+                        </ul>
+                    </li>
+                            </ul>
+        </div>
+        <!-- End sidebar column -->
+
+		<div id="page-container" class="left with-sidebar" tabindex="-1">
+            <? include('template-parts/breadcrumbs.php') ?>
+
+						
+			<div id="post-5315" class="single-post post-5315 post type-post status-publish format-standard hentry category-uic-alerts">
+
+				<div class="postmetadata">
+					<span class="meta-date"><a href="https://emergency.uic.edu/continued-police-activity-at-blue-line-uic-halsted-no-threat-to-the-campus-cta-trains-are-on-bypass-and-heavy-vehicle-traffic-avoid-the-area/" title="Continued police activity at Blue Line &#8211; UIC Halsted. No threat to the campus. CTA trains are on bypass and heavy vehicle traffic. Avoid the area." rel="bookmark">
+						<span class="month">Feb</span>
+						<span class="day">05</span>
+						<span class="year">2020</span>
+					</a></span>
+
+					
+					<span class="meta-author"><span>by UIC Alert</span></span>
+
+				</div>
+
+				
+				<div class="post-contents">
+					<h3 class="entry-title">
+					<a href="https://emergency.uic.edu/continued-police-activity-at-blue-line-uic-halsted-no-threat-to-the-campus-cta-trains-are-on-bypass-and-heavy-vehicle-traffic-avoid-the-area/" title="Continued police activity at Blue Line &#8211; UIC Halsted. No threat to the campus. CTA trains are on bypass and heavy vehicle traffic. Avoid the area." rel="bookmark">Continued police activity at Blue Line &#8211; UIC Halsted. No threat to the campus. CTA trains are on bypass and heavy vehicle traffic. Avoid the area.</a>
+					</h3>
+					<div class="post-category">Posted in <a href="https://emergency.uic.edu/category/uic-alerts/">UIC Alerts</a></div>
+					<p>UIC ALERT: Continued police activity affecting normal operations at the Blue Line &#8211; UIC Halsted stop. No immediate threat to the campus. CTA trains are on bypass and there is heavy vehicle traffic on Halsted St. Find an alternate route, avoid the area.</p>
+
+					<div class="clear"></div>
+					
+					
+
+				</div>
+				<br class="clear" />
+
+			</div><!-- end div post -->
+
+			<div class="article_nav">
+								<div class="next"><a href="https://emergency.uic.edu/urgent-public-safety-advisory-2/" rel="next">Next Post</a></div>
+												<div class="previous"><a href="https://emergency.uic.edu/continued-police-activity-at-blue-line-uic-halsted-no-threat-to-campus-cta-trains-are-on-bypass-and-heavy-vehicle-traffic-avoid-the-area/" rel="prev">Previous Post</a></div>
+								<br class="clear" />
+			</div>
+
+
+			
+			
+			
+		</div>
+		<!-- End page container -->
+
+
+
+
+	</div>
+	<!-- End main content -->
+
+	<div id="sub-footer"><div class="container">
+				<div class="sub-footer-left">&nbsp;</div>
+
+		<div class="sub-footer-right">
+	    <img class="subfooterlogo" src="https://emergency.uic.edu/wp-content/themes/uic-network-2013/img/uic-office-notred.png" alt="UIC Logo" title="UIC" width="46" height="19" />&nbsp;
+	    <p>© Copyright 2015-2020 The Board of Trustees of the University of Illinois</p>
+		</div>
+	</div></div><!-- /#sub-footer -->
+
+	
+		<div id="footer">
+		  <div class="container">
+              <h2 class="nav-title">Footer Navigation</h2>
+			  <ul>
+			  <li id="uicnetworksocialmediawidget-2" class="one-fourth widget uicnetworksocialmediaWidget"><h3 class="widget-title">Follow Us</h3><div class="socialmedia-widget-wrap"><a href="http://facebook.com/uicnews" class="facebook" target="_blank"></a><a href="http://twitter.com/uicnews" class="twitter" target="_blank"></a><a href="http://www.getrave.com/rss/uic/channel1" class="rss"></a></div></li><li id="text-3" class="one-fourth widget widget_text">			<div class="textwidget"></div>
+		</li><li id="text-4" class="one-fourth widget widget_text">			<div class="textwidget"></div>
+		</li><li id="nav_menu-4" class="one-fourth widget widget_nav_menu"><div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32"><a href="http://disabilityresources.uic.edu/">Disability Resources</a></li>
+<li id="menu-item-33" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-33"><a href="http://emergency.uic.edu">Emergency Information</a></li>
+<li id="menu-item-34" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Policy</a></li>
+<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="https://emergency.uic.edu/contact-us/">Contact Us</a></li>
+</ul></div></li>			  </ul>
+		  </div>
+		</div>
+
+	
+
+	<!-- End Footer -->
+
+</div>
+<!-- End main wrap -->
+
+<script type="text/javascript">
+  document.write(unescape("%3Cscript src='//www.uic.edu/inc/emergency/alert.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-20665772-1', 'auto');
+    
+        ga('send', 'pageview');
+      </script><script type='text/javascript' src='https://emergency.uic.edu/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<!-- End Document
+================================================== -->
+</body>
+</html>

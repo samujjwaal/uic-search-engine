@@ -1,130 +1,4191 @@
-<!DOCTYPE html
-  PUBLIC "XSLT-compat">
-<html xmlns:xs="http://www.w3.org/2001/XMLSchema"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>UIC Hourly Employee Pay Directive</title><link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"></head><body style="margin:0;"><!--[if (gte mso 9) | (gte IE 7)]><style>
-                    /* set table width for Outlook 2007+ */
-                    table#wrapper 
-                    { 
-                        width:580px !important; 
-                    } 
-                </style><![endif]--><style>
-                    table#wrapper
-                    {
-                        max-width:580px !important;
-                        box-shadow:none;
-                    }
-                    table th, 
-                    table td
-                    {
-                        padding:0 !important;
-                    }
-                    .col-2 table td {
-                    padding: 10px !important;
-                    }
-                    #outlook a
-                    {
-                        padding:0;
-                    }
-                    .ExternalClass
-                    {
-                        width:100%;
-                    }
-                    .ExternalClass, 
-                    .ExternalClass p, 
-                    .ExternalClass span, 
-                    .ExternalClass font, 
-                    .ExternalClass td, 
-                    .ExternalClass div
-                    {
-                        line-height:100% !important;
-                    }
-                    #footer a
-                    {
-                        color: #990000;
-                        text-decoration: underline;
-                    }
-                    #footer a:hover
-                    {
-                        color: #;
-                        text-decoration: none;
-                    }
-                    #footer img
-                    {
-                        border:0;
-                    }
-					#main td{
-						padding:0;
-					}
-				</style><style>
-					span.previewText {
-						display: none !important;
-						max-height: 0;
-						overflow: hidden;
-						width: 75px;
-					}</style> <style type="text/css">
-#main td  {
-padding:0px;
-}
-#main td .edu-uiuc-webservices-calendar-title  {
-padding-top:2px;
-padding-bottom:1px;
-padding-right:10px;
+  
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
+<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en-US"> <!--<![endif]-->
 
-}
-</style>
- <span class="previewText"> </span><div style="display: none; max-height: 0px; overflow: hidden;"> &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
-					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
-					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
-					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
-					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
-					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
-					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
-					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
-					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
-					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
-					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌</div><!-- SKIN BODY --><table bgcolor="#E8F8F8" style="background-color:#E8F8F8;width:100%; border-collapse: collapse;"><tbody><tr><td><!-- SKIN ARCHIVE LINK --><table align="center" border="0" cellpadding="0" cellspacing="0" id="archive-label" style="max-width:580px;" width=""><!-- ARCHIVE_LINK_START --><tr><td align="left" bgcolor="#E8F8F8" style="background:#E8F8F8;line-height:12px;padding:0;">&nbsp;</td></tr><tr><td align="center" bgcolor="#E8F8F8" colspan="5" style="font-size:13px;height:18px;line-height:18px;font-family:arial;"><a href="https://emails.uofi.uic.edu/newsletter/8243105.html" style="color:#000000;text-decoration: underline;"><span id="archive-label" style="color:#000000;">Click here to see this online</span></a></td></tr><!-- ARCHIVE_LINK_STOP --><tr><td align="left" bgcolor="#E8F8F8" style="background:#E8F8F8;line-height:12px;padding:0;">&nbsp;</td></tr></table><!-- SKIN TABLE --><table align="center" border="0" cellpadding="0" cellspacing="0" id="wrapper" style="border:none;max-width:580px;border-collapse:collapse;" width=""><!-- HEADER ROW--><tr id="header"><td align="left" bgcolor="#FFFFFF" colspan="3" style="background:#FFFFFF;padding:0;width:100%;border-bottom:1px solid #FFFFFF;"><img alt="UIC  DDDH Message" src="https://skins.webservices.illinois.edu/files/36485/wizard_header.jpg?iIndex=0306T150150" style="vertical-align:top;width:100%;"></td></tr><tbody><tr><td align="left" colspan="3" style="padding:0;width:100%;"><table background="#ffffff" bgcolor="#ffffff" cellpadding="0" cellspacing="0" id="content-tb" style="background:#ffffff;border:none;border-top:none;width:100%;"><tbody><tr><td align="left" colspan="3" style="padding:0;line-height:24px;height:24px;font-size:24px;">&nbsp;</td></tr><tr><td align="left" style="padding:0;width:5%;" width="5%">&nbsp;</td><td align="left" class="content-td" style="padding:0;width:90%;min-height:20vh;" width="90%;"><table cellpadding="0" cellspacing="0" class="content-div" style="width:100%;"><tr><td><div id="system-form-header"></div><!-- MESSAGE START -->
-																		<!--CONTENT_STARTS--><!-- SKIN: 36485 --><style rel="stylesheet" type="text/css">
-            @media screen and (max-width:525px) {
-              iframe 
-                    width: 100% !important;
-                }
-            }
-        </style><!-- BLOCK_content --><!-- ELEMENT_1583163_START --><style rel="stylesheet" type="text/css">
-            #content_1 a {
-                color:#d50032;
-            }
-            #content_1 p {
-                line-height: 20px;
-                margin: 0 0 21px 0;
-            }
-            .content-td a, .content-div a {
-                text-decoration: underline !important;
-            }
-        </style><a id="element_1583163" name="element_1583163"></a><table border="0" cellpadding="0" cellspacing="0" style="width:100%;"><tr><td><table align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" id="content_1" style="background: transparent; border: none; width: 100%;"><tbody><tr><td style="padding: 0; font-weight:normal; font-family: Arial;line-height:20px;font-size:14px;color:#363636"><p>Chancellor Amiridis wants to reassure employees that the university intends to continue to pay all our employees during this COVID-19 pandemic. This is consistent with guidance from Governor Pritzker as outlined in the following release under <strong>ACTIONS TO PROTECT STATE WORKFORCE: </strong><a style="color: #d50032;" href="https://www2.illinois.gov/Pages/news-item.aspx?ReleaseID=21254"><span style="color: #d50032;">https://www2.illinois.gov/Pages/news-item.aspx?ReleaseID=21254</span></a></p>
-<p>This applies to all regularly appointed employees, whether full or part-time, as well as students and extra-help hourly employees who support our campuses throughout the state. Employees should be paid consistent with how they were being paid prior to this incident:</p>
-<ul>
-<li>For those regularly appointed individuals with an established schedule/FTE.</li>
-<li>To the extent practicable, all employees should be assigned duties to allow them to work remotely, assuming their job allows for such. Please use maximum flexibility.
-<ul>
-<li>Units and their supervisors should work with their employees to determine required work responsibilities.</li>
+    <head>
+
+<!-- Google Analytics script (RED and this site) -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    
+        ga('create', 'UA-20665772-1', 'auto');
+    
+    
+        ga('send', 'pageview');
+    
+      </script>
+<!-- End Google Analytics script (RED and this site) -->
+
+
+
+<!-- Google Tag Manager script for RED multisite -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
+              (window,document,'script','dataLayer','GTM-W2Q8D2K');
+  </script>
+<!-- End Google Tag Manager script for RED multisite -->
+
+
+
+
+<!-- Google Tag Manager script for this site -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
+              (window,document,'script','dataLayer','GTM-MMCNB64');
+  </script>
+<!-- End Google Tag Manager script for this site -->
+
+
+        <title>
+                            Master of Business Administration | UIC Business | University of Illinois at Chicago
+                    </title>
+
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="pingback" href="https://business.uic.edu/xmlrpc.php" />
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+    <link rel="stylesheet" href="https://business.uic.edu/wp-content/themes/uic-red/main.css?v=1588698688" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://business.uic.edu/wp-content/themes/uic-red/theinhardt.css?v=1588698688" type="text/css" media="all">
+
+    <link rel='dns-prefetch' href='//www.uic.edu' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/business.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://business.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6' type='text/css' media='all' />
+<link rel='stylesheet' id='sb_instagram_styles-css'  href='https://business.uic.edu/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.12.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sb-font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://business.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
+<link rel='https://api.w.org/' href='https://business.uic.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://business.uic.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://business.uic.edu/wp-includes/wlwmanifest.xml" /> 
+
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//business.uic.edu/?wordfence_lh=1&hid=A9707132B55153F8BB993DA811D1CC2F');
+</script>
+</head>
+      
+  <body>
+
+<!-- Google Tag Manager for RED multisite (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2Q8D2K" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager for RED multisite (noscript) -->
+
+<!-- Google Tag Manager for this site (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id='GTM-MMCNB64'" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager for this site (noscript) -->
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  <div class="l-page page-template-default page page-id-128 page-parent page-child parent-pageid-959 post-type--page  site-type-b theme--navy is-sidebar  ">
+
+
+    <!--[if lte IE 9]>
+<div class="browser-stripe u-dark-region">
+  <div class="l-full">
+      <h2>Your browser is unsupported</h2>
+      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
+  </div>
+</div>
+<![endif]-->
+<div class="browser-stripe u-dark-region ie10">
+  <div class="l-full">
+      <h2>Your browser is unsupported</h2>
+      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
+  </div>
+</div>
+    
+<header class="l-header" role="banner">
+
+  
+  <div class="header-navigation">
+
+      <div id="skip" class="skip-menu assistive-text">
+  <p>
+    <span class="_main">
+    <a href="#article">Skip to the content of this page</a>,
+    </span>
+    <a class="_primary-menu" href="#menu-main">the main menu</a>,
+
+        <a class="_secondary-menu" href="#menu-secondary">the secondary menu</a>,
+    
+    
+    <a class="_search" href="#search">the site search form</a>,
+
+    <a class="_home" href="https://business.uic.edu">the site home page</a>.
+  </p>
+</div>
+
+      <div class="eyebrow-mobile-wrapper js-eyebrow-mobile">
+<div class="eyebrow-mobile">
+            <div class="eyebrow-mobile-logo eyebrow-logo">
+            <a href="http://uic.edu" class="uic-logo-icon eyebrow-mobile-logo__uic-logo">
+ <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ <title>UIC Logo</title>
+ <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
+<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
+</svg>
+</a>
+    </div>
+                <div class="site-title-eyebrow-mobile">
+          <a href="https://business.uic.edu">UIC Business</a>
+        </div>
+    
+    <button aria-label="Search the site" class="search-toggle-mobile js-search-toggle-mobile">
+  <span class="icon-search ">
+        <span class="assistive-text">Search the site</span>
+      </span>
+    </button>
+    <button class="nav-header-toggle js-nav-header-toggle">
+      <span class="icon-menu ">
+      Toggle Menu
+      </span>
+    </button>
+  </div>
+  <div class="search-input-container-mobile">
+    <div class="search-input-container-mobile__content">
+      <div class="search-title">
+        Search
+        <a class="search-close search-toggle-mobile">
+          <svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22">
+            <use xlink:href="https://business.uic.edu/wp-content/themes/uic-red/images/svgs/svgs.svg#icon-close"></use>
+          </svg>
+        </a>
+      </div>
+      <form method="get" action="/search" role="search" aria-label="Search this site on your mobile device">
+        <input type="text" name="q" class="search-input-mobile" placeholder="Search..." tabindex="-1" aria-label="Search this site on your mobile device" disabled="">
+        <input type="submit" class="submit-button" name="search" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+    <div class="header-navigation__eyebrow">
+
+                    <div class="header-navigation-logo header-logo">
+                        <a href="http://uic.edu" class="uic-logo-icon header-navigation-logo__uic-logo">
+ <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ <title>UIC Logo</title>
+ <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
+<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
+</svg>
+</a>
+            </div>
+                <div class="header-navigation__eyebrow-menus">
+
+            <div class="header-navigation__logo-and-site-title">
+
+                                <div class="site-title-main -large">
+                                      <a href="https://business.uic.edu">UIC Business</a>
+                                    </div>
+              
+            </div>
+          <nav class="header-menus js-header-menus " aria-label="Primary" role="navigation">
+
+  <div class="site-title-mobile-menu">
+    <a href="https://business.uic.edu">UIC Business</a>
+  </div>
+
+  
+  <h2 class="assistive-text">Main Menu</h2>
+  <ul id="menu-main" class="menu menu-main" aria-label="Main Menu">
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-56 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/undergraduate-programs/"
+        target="_self">
+
+        Undergraduate
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Undergraduate menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Undergraduate menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-67">
+                <a 
+                  class="menu-main__second-link"
+                  href="/undergraduate-programs/undergraduate-admissions/"
+                  target="_self">
+
+                  Undergrad Admissions
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-953 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/undergraduate-programs/undergraduate-degrees/"
+                  target="_self">
+
+                  Undergraduate Degrees
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-113">
+                <a 
+                  class="menu-main__second-link"
+                  href="/undergraduate-programs/uic-business-scholars/"
+                  target="_self">
+
+                  UIC Business Scholars
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-6130">
+                <a 
+                  class="menu-main__second-link"
+                  href="/undergraduate-programs/pre-college-programs/"
+                  target="_self">
+
+                  Pre-College Programs
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-121">
+                <a 
+                  class="menu-main__second-link"
+                  href="/undergraduate-programs/student-life-uic-business/"
+                  target="_self">
+
+                  Student Life at UIC Business
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-122">
+                <a 
+                  class="menu-main__second-link"
+                  href="/undergraduate-programs/business-career-center/"
+                  target="_self">
+
+                  Business Career Center
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-123">
+                <a 
+                  class="menu-main__second-link"
+                  href="/undergraduate-programs/ilead-professional-development-program/"
+                  target="_self">
+
+                  Professional Development
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current_page_ancestor menu-item-127 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/graduate-programs/"
+        target="_self">
+
+        Graduate
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Graduate menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Graduate menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-142">
+                <a 
+                  class="menu-main__second-link"
+                  href="/graduate-programs/graduate-admissions/"
+                  target="_self">
+
+                  Graduate Admissions
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-962 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/graduate-programs/graduate-degrees/"
+                  target="_self">
+
+                  Graduate Degrees
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1505">
+                <a 
+                  class="menu-main__second-link"
+                  href="/graduate-programs/guaranteed-and-preferred-admissions/"
+                  target="_self">
+
+                  Guaranteed and Preferred Admissions
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-153">
+                <a 
+                  class="menu-main__second-link"
+                  href="/graduate-programs/graduate-career-services/"
+                  target="_self">
+
+                  Graduate Career Services
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-197 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/doctoral-programs/"
+        target="_self">
+
+        Doctoral
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Doctoral menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Doctoral menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1359 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/doctoral-programs/degrees/"
+                  target="_self">
+
+                  Doctoral Degrees
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1015">
+                <a 
+                  class="menu-main__second-link"
+                  href="/doctoral-programs/uic-doctoral-students/"
+                  target="_self">
+
+                  UIC Doctoral Students
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-207 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/alumni-and-community/"
+        target="_self">
+
+        Alumni
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Alumni menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Alumni menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2662">
+                <a 
+                  class="menu-main__second-link"
+                  href="/alumni-and-community/give-to-uic-business/"
+                  target="_self">
+
+                  Give to UIC Business
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-238">
+                <a 
+                  class="menu-main__second-link"
+                  href="/alumni-and-community/why-give/"
+                  target="_self">
+
+                  Why I Give
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-237">
+                <a 
+                  class="menu-main__second-link"
+                  href="/alumni-and-community/donor-recognition-society/"
+                  target="_self">
+
+                  Donor Recognition Society
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-236">
+                <a 
+                  class="menu-main__second-link"
+                  href="/alumni-and-community/student-scholarship-support/"
+                  target="_self">
+
+                  Student Scholarship Support
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-235">
+                <a 
+                  class="menu-main__second-link"
+                  href="/alumni-and-community/ways-get-involved/"
+                  target="_self">
+
+                  Ways to Get Involved
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-234">
+                <a 
+                  class="menu-main__second-link"
+                  href="/alumni-and-community/alumni-leadership-academy/"
+                  target="_self">
+
+                  Alumni Leadership Academy
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-233">
+                <a 
+                  class="menu-main__second-link"
+                  href="/alumni-and-community/contact-office-advancement/"
+                  target="_self">
+
+                  Contact the Office of Advancement
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-244 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/recruiters-and-companies/"
+        target="_self">
+
+        Recruiters
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Recruiters menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Recruiters menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-245">
+                <a 
+                  class="menu-main__second-link"
+                  href="/recruiters-and-companies/center-for-applied-analytics/"
+                  target="_self">
+
+                  Center for Applied Analytics
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-257 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/faculty-and-research/"
+        target="_self">
+
+        Faculty/Research
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Faculty/Research menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Faculty/Research menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-957 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/faculty-and-research/faculty/"
+                  target="_self">
+
+                  Faculty
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-260">
+                <a 
+                  class="menu-main__second-link"
+                  href="/faculty-and-research/research-2/"
+                  target="_self">
+
+                  Research
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-259">
+                <a 
+                  class="menu-main__second-link"
+                  href="/faculty-and-research/international-center-futures-derivatives/"
+                  target="_self">
+
+                  International Center for Futures and Derivatives (ICFD)
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-258">
+                <a 
+                  class="menu-main__second-link"
+                  href="/faculty-and-research/ilead-institute-leadership-excellence-development/"
+                  target="_self">
+
+                  Institute for Leadership Excellence and Development (iLEAD)
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-4257">
+                <a 
+                  class="menu-main__second-link"
+                  href="/faculty-and-research/uic-entrepreneurial-support-program/"
+                  target="_self">
+
+                  UIC Entrepreneurial Support Program
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1021">
+                <a 
+                  class="menu-main__second-link"
+                  href="/faculty-and-research/for-the-media/"
+                  target="_self">
+
+                  For the Media
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1591">
+                <a 
+                  class="menu-main__second-link"
+                  href="/faculty-and-research/faculty/faculty-recruitment/"
+                  target="_self">
+
+                  Faculty Recruitment
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+  </ul>
+
+  <div class="l-eyebrow">
+
+    <h2 class="assistive-text">Eyebrow menu</h2>
+    <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
+            <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2470">
+            <a  href="/alumni-and-community/give-to-uic-business/" target="_self">Give Now</a>
+        </li>
+            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-51">
+            <a  href="http://blog.business.uic.edu/" target="_self">Visit Our Blog</a>
+        </li>
+            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-52">
+            <a  href="http://businessconnect.uic.edu/" target="_blank">Current Students</a>
+        </li>
+            <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-981">
+            <a  href="/about-uic-business/" target="_self">About Us</a>
+        </li>
+    </ul>
+
+    <h2 class="assistive-text">UIC menu</h2>
+    <ul class="menu-uic">
+      <li class="_item">
+    <a href="http://uic.edu">UIC.edu</a>
+  </li>
+  <li class="_item">
+    <a href="http://maps.uic.edu/">Campus Map</a>
+  </li>
 </ul>
-</li>
-<li>To determine the appropriate hours to record for hourly and student employees, HR managers should review the last 4 weeks of hours recorded to compute an average they will be paid going forward until this situation is resolved.</li>
-<li>Extra-Help employees are not allowed to exceed their 900 hour limit.</li>
-<li>Other exceptions would be hourly employees who had previously been informed that their hourly job would end prior to March 15, 2020.</li>
-<li>Hourly employees should continue to fill out their time reports to record all time worked.</li>
+
+
+
+    <div aria-label="Primary" role="search" class="search-wrapper">
+
+      <button id="search" class="search-toggle">
+        <span class="icon-search ">
+          <span class="assistive-text">Search</span>
+        </span>
+      </button>
+
+      <div class="search-input-container">
+        <div class="search-input-container__form">
+          <form method="get" action="/search" >
+            <input type="text" name="q" class="search-input" placeholder="Search..." tabindex="-1" aria-label="Search" disabled="">
+            <input type="submit" class="submit-button" name="search" value="Submit">
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+</nav>
+        </div>
+    </div>
+
+    
+  </div>
+
+    
+        <a href="#menu-secondary" class="menu-secondary-anchor">
+      View Menu
+      <svg aria-label="Down arrow icon" width="32" height="32" viewBox="0 0 32 32" role="presentation">
+        <title>Down arrow icon</title>
+        <g fill="none" fill-rule="evenodd">
+          <circle class="_circle" stroke-width="1" stroke="#007Da5" fill="#fff" cx="16" cy="16" r="15"/>
+          <path class="_arrow" stroke-width="2" stroke="#001E62" stroke-linecap="round" d="M12 17l4 4 4-4M16 20v-9"/>
+        </g>
+      </svg>
+    </a>
+        
+</header>
+
+    <main id="main" class="l-content-wrapper" role="main">
+
+      
+                
+	      
+      <div class="l-full">
+
+        <div class="l-content ">
+
+          
+                      <nav class="breadcrumbs" aria-label="Breadcrumbs">
+  <h2 class="assistive-text">Breadcrumbs</h2>
+  <ol class="menu" vocab="https://schema.org/" typeof="BreadcrumbList">
+
+  
+          <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://business.uic.edu"><span property="name">UIC Business</span></a>
+        <meta property="position" content="0">
+      </li>
+    
+  
+          <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://business.uic.edu/graduate-programs/"><span property="name">Graduate Programs</span></a>
+        <meta property="position" content="1">
+      </li>
+    
+  
+          <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://business.uic.edu/graduate-programs/graduate-degrees/"><span property="name">Graduate Degrees</span></a>
+        <meta property="position" content="2">
+      </li>
+    
+  
+          <li property="itemListElement" typeof="ListItem"><span property="name">Master of Business Administration</span>
+        <meta property="position" content="3">
+      </li>
+    
+  
+  </ol>
+</nav>
+          
+          <article class="post-type-page" id="article">
+            
+          <div class="intro-text">
+
+                      <h1 class="_title post-title">Master of Business Administration</h1>
+              
+            
+              
+          <p class="_subtitle">Accelerate your career with an MBA from the UIC Business Liautaud Graduate School.</p>
+    
+              <p>An MBA from UIC Business Liautaud Graduate School offers you the flexibility to pursue your MBA in a format that best suits your needs. You’ll earn a degree that is tailored to your specific interests and gain the hard and soft skills that will set you apart. The program is ranked #65 by U.S. News &amp; World Report.</p>
+
+    
+  </div>
+        <div class="components">
+
+  
+    
+      
+
+<section class="component  ">
+
+  
+  
+    <div class="
+    component-call-to-action
+    
+    
+    ">
+
+    
+    <div class="component-description">
+                    <h2 id="learn-more" class="__title invisible">Learn More</h2>
+                    </div>
+
+    <ul class="_items call-to-action-links">
+              <li>
+                      <a  href="https://applygrad.uic.edu/register/?id=7aba2f49-dec8-4266-9e74-da8033e045ca"
+            target="_blank">
+                            <span class="call-to-action-links__icon write-icon" aria-hidden="true">
+                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+  <title>Edit icon</title>
+  <g fill="none" fill-rule="evenodd">
+    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
+    <path class="_mark" d="M23 24l1-1H12l1 1V12l-1 1h6c.552 0 1-.448 1-1s-.448-1-1-1h-7v14h14v-7c0-.552-.448-1-1-1s-1 .448-1 1v6z" fill="#FFF"/>
+    <path class="_mark" fill="#FFF" d="M21 13.5l1.5 1.5-5.5 5.5-2 .5.5-2M24.5 10l1.5 1.5-2.5 2.5-1.5-1.5z"/>
+  </g>
+</svg>
+                </span>
+                <span class="_text">Request Information</span>
+              
+            </a>
+                  </li>
+              <li>
+                      <a  href="https://business.uic.edu/graduate-programs/graduate-events/"
+            target="_self">
+                            <span class="call-to-action-links__icon calendar-icon" aria-hidden="true">
+                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+  <title>Calendar icon</title>
+  <g fill="none" fill-rule="evenodd">
+    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
+    <path class="_mark" d="M13 12h1v-2h8v1-2.502c0-.275.232-.498.5-.498.276 0 .5.215.5.498V12h1v-2h3v17H9V10h3v1-2.502c0-.275.232-.498.5-.498.276 0 .5.215.5.498V12zm-2 10h4v3h-4v-3zm5 0h4v3h-4v-3zm5 0h4v3h-4v-3zm-10-4h4v3h-4v-3zm5 0h4v3h-4v-3zm5 0h4v3h-4v-3zm-10-4h4v3h-4v-3zm5 0h4v3h-4v-3zm5 0h4v3h-4v-3z" fill="#FFF"/>
+  </g>
+</svg>
+                </span>
+                <span class="_text">Attend An Event</span>
+              
+            </a>
+                  </li>
+              <li>
+                      <a  href="https://admissions.uic.edu/graduate-professional/apply"
+            target="_blank">
+                            <span class="call-to-action-links__icon check-icon" aria-hidden="true">
+                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+  <title>Check icon</title>
+  <g fill="none" fill-rule="evenodd">
+    <ellipse class="_circle" fill="#001E62" cx="18" cy="18" rx="18" ry="18"/>
+    <path class="_mark" d="M15.168 24.555c.396.593 1.268.593 1.664 0l8-12c.306-.46.182-1.08-.277-1.387-.46-.306-1.08-.182-1.387.277l-8 12h1.664l-4-6c-.306-.46-.927-.583-1.387-.277-.46.306-.583.927-.277 1.387l4 6z" fill="#FFF"/>
+  </g>
+</svg>
+                </span>
+                <span class="_text">Apply Now</span>
+              
+            </a>
+                  </li>
+          </ul>
+  </div>
+
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+    <div class="at-a-glance-tiles">
+
+    
+    <div class="component-description">
+                    <h2 id="mba-programs" class="__title visible">MBA Programs</h2>
+                            <div class="__description">
+                The UIC Business Liautaud Graduate School offers MBA programs designed to support your academic and professional development. With classes offered in the daytime, evenings and on weekends, you can find the option that best fits your needs. Some core courses are also offered online, providing you with additional scheduling flexibility.
+            </div>
+            </div>
+
+    <ul class="at-a-glance-tiles__list">
+              <li class="at-a-glance-tiles__item">
+          <p class="at-a-glance-tiles__header">Full-Time, Accelerated MBA</p>
+          <div class="at-a-glance-tiles__text">
+            <div>
+<ul>
+<li>Fall start only</li>
+<li>On-campus cohort program with daytime classes</li>
+<li>Finish in three semesters</li>
+<li>Build a strong career network</li>
+<li>Concentrations available in Business Analytics, Finance and Marketing</li>
 </ul>
-<p><strong>Employees who are unable to work remotely should still continue to be paid. As employees document time reporting in the Employee Self-Service System they should record all work days as Regular Pay.</strong> Exceptions to this will be for employees who utilized approved vacation, sick or other benefit time including employees who have chosen to not report to work. Employees who work in units which utilize a feeder system not in Banner Web Time (UI Health, Vice Chancellor for Administrative Services and Vice Chancellor for Student Affairs units) should consult with their HR representative.</p>
-<p>The following resources are available to you if you have specific questions or concerns:</p>
-<p>Human Resources for Extra Help Employees: <a style="color: #d50032;" href="mailto:uichrextrahelpadmin@uillinois.edu"><span style="color: #d50032;">uichrextrahelpadmin@uillinois.edu</span></a></p>
-<p>Student Employment: <a style="color: #d50032;" href="mailto:studentjobs@uic.edu"><span style="color: #d50032;">studentjobs@uic.edu</span></a></p>
-<p>UIC COVID-19 website: <a style="color: #d50032;" href="https://today.uic.edu/coronavirus"><span style="color: #d50032;">https://today.uic.edu/coronavirus</span></a></p>
-<p>Sincerely,</p>
-<p>Michael Ginsburg, Associate Vice Chancellor, UIC Human Resources</p>
-<p>Rex Tolliver, Vice Chancellor, Student Affairs</p>
-<p>Janet Parker, Associate Chancellor, Budget and Financial Administration</p></td></tr></tbody></table></td></tr></table><!-- ELEMENT_1583163_STOP --><!--CONTENT_ENDS--> 
-																		<!-- MESSAGE END --></td></tr></table></td><td align="left" style="padding:0;width:5%;" width="5%">&nbsp;</td></tr><tr><td align="left" colspan="3" style="padding:0;line-height:24px;height:24px;font-size:24px;">&nbsp;</td></tr></tbody></table></td></tr><!-- SKIN FOOTER --><tr><td align="left" bgcolor="#E8F8F8" colspan="3" style="background:#E8F8F8;padding:0;line-height:8px;">&nbsp;</td></tr><tr id="footer-wrapper"><td align="left" bgcolor="#E8F8F8" style="background:#E8F8F8;padding:0;width:35px;">&nbsp;</td><td align="center" bgcolor="#E8F8F8" border="0" id="footer" style="width:510px;text-align:center;background-color:#E8F8F8;color:#000000;font-family:Arial;font-size:100%;padding:0;"><p style="text-align: center;">&copy; Copyright 2020 The Board of Trustees of the University of Illinois</p></td><td align="left" bgcolor="#E8F8F8" style="background:#E8F8F8;padding:0;width:35px;">&nbsp;</td></tr><tr><td align="left" bgcolor="#E8F8F8" colspan="3" style="background:#E8F8F8;padding:0;line-height:8px;">&nbsp;</td></tr><!-- SUBSCRIBE UNSUBSCRIBE --><tr id="subscribe-wrapper"><td align="left" bgcolor="#E8F8F8" style="background:#E8F8F8;padding:0;width:35px;">&nbsp;</td><td align="center" bgcolor="#E8F8F8" border="0" id="subscribe" style="width:510px;text-align:center;background-color:#E8F8F8;color:#000000;font-family:Arial;font-size:100%;padding:0;"><span id="subscription"></span></td><td align="left" bgcolor="#E8F8F8" style="background:#E8F8F8;padding:0;width:35px;">&nbsp;</td></tr><tr><td align="left" bgcolor="#E8F8F8" colspan="3" style="background:#E8F8F8;padding:0;line-height:8px;">&nbsp;</td></tr></tbody></table></td></tr><tr><td align="left" style="padding:0;">&nbsp;</td></tr><tr><td align="left" style="padding:0;">&nbsp;</td></tr></tbody></table><script>
-            		if(window.top != window.self)
-            		{ 
-	            		document.body.style.backgroundColor = '#E8F8F8';
-    				}
-            	</script></body></html>
+</div>
+
+          </div>
+        </li>
+              <li class="at-a-glance-tiles__item">
+          <p class="at-a-glance-tiles__header">Weekend MBA</p>
+          <div class="at-a-glance-tiles__text">
+            <div>
+<ul>
+<li>Fall start only</li>
+<li>Two-year cohort program</li>
+<li>Meets on Saturdays</li>
+<li>Ideal for working professionals</li>
+<li>Concentrations available in Finance and Management</li>
+</ul>
+</div>
+
+          </div>
+        </li>
+              <li class="at-a-glance-tiles__item">
+          <p class="at-a-glance-tiles__header">Flexible MBA Program</p>
+          <div class="at-a-glance-tiles__text">
+            <div>
+<ul>
+<li>Fall, Spring or Summer start</li>
+<li>Set your own pace (full- or part-time)</li>
+<li>Take classes at night or on Saturdays</li>
+<li>Finish in as little as 18 months</li>
+<li>All concentrations available</li>
+</ul>
+</div>
+
+          </div>
+        </li>
+          </ul>
+  </div>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+    <div class="component-highlight-events">
+
+  
+    <div class="component-description">
+                    <h2 id="summer-2020-admission-deadlines" class="__title visible">Summer 2020 Admission Deadlines</h2>
+                    </div>
+
+    
+            <div class="component-highlight-events__tile-container">
+                                                                                <div class="component-highlight-events__event">
+                <div class="component-highlight-events__date-circle">
+                    <span class="date-circle -light-blue -thick">
+    <span class="_month">Mar</span>
+    <span class="_day">15</span>
+    <span class="_year">2020</span>
+</span>
+                </div>
+                <div class="component-highlight-events__event-item">
+                    <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://business.uic.edu/events/summer-domestic-admissions-deadline/"
+       target="_self">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--none
+        tile-item__content-container--plain">
+        <div class="
+            tile-item__title
+            tile-item__title--plain">
+            Domestic Applications
+        </div>
+
+                <div class="tile-item__subtitle">
+            Sunday
+        </div>
+        
+            </div>
+    </a>
+</div>
+                </div>
+            </div>
+                </div>
+          </div>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+    <div class="component-highlight-events">
+
+  
+    <div class="component-description">
+                    <h2 id="fall-2020-admission-deadlines" class="__title visible">Fall 2020 Admission Deadlines</h2>
+                    </div>
+
+    
+            <div class="component-highlight-events__tile-container">
+                                                                                <div class="component-highlight-events__event">
+                <div class="component-highlight-events__date-circle">
+                    <span class="date-circle -light-blue -thick">
+    <span class="_month">Dec</span>
+    <span class="_day">15</span>
+    <span class="_year">2019</span>
+</span>
+                </div>
+                <div class="component-highlight-events__event-item">
+                    <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://business.uic.edu/events/round-one-fall-applications/"
+       target="_self">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--none
+        tile-item__content-container--plain">
+        <div class="
+            tile-item__title
+            tile-item__title--plain">
+            Round One: International and Domestic Applications
+        </div>
+
+                <div class="tile-item__subtitle">
+            Sunday
+        </div>
+        
+            </div>
+    </a>
+</div>
+                </div>
+            </div>
+                                                                                <div class="component-highlight-events__event">
+                <div class="component-highlight-events__date-circle">
+                    <span class="date-circle -light-blue -thick">
+    <span class="_month">Mar</span>
+    <span class="_day">15</span>
+    <span class="_year">2020</span>
+</span>
+                </div>
+                <div class="component-highlight-events__event-item">
+                    <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://business.uic.edu/events/round-two-fall-applications/"
+       target="_self">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--none
+        tile-item__content-container--plain">
+        <div class="
+            tile-item__title
+            tile-item__title--plain">
+            Round Two: International and Domestic Applications
+        </div>
+
+                <div class="tile-item__subtitle">
+            Sunday
+        </div>
+        
+            </div>
+    </a>
+</div>
+                </div>
+            </div>
+                                                                                <div class="component-highlight-events__event">
+                <div class="component-highlight-events__date-circle">
+                    <span class="date-circle -light-blue -thick">
+    <span class="_month">Apr</span>
+    <span class="_day">1</span>
+    <span class="_year">2020</span>
+</span>
+                </div>
+                <div class="component-highlight-events__event-item">
+                    <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://business.uic.edu/events/round-three-fall-domestic-applications/"
+       target="_self">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--none
+        tile-item__content-container--plain">
+        <div class="
+            tile-item__title
+            tile-item__title--plain">
+            Round Three: International Applications
+        </div>
+
+                <div class="tile-item__subtitle">
+            Wednesday
+        </div>
+        
+            </div>
+    </a>
+</div>
+                </div>
+            </div>
+                                                                                <div class="component-highlight-events__event">
+                <div class="component-highlight-events__date-circle">
+                    <span class="date-circle -light-blue -thick">
+    <span class="_month">Jul</span>
+    <span class="_day">1</span>
+    <span class="_year">2020</span>
+</span>
+                </div>
+                <div class="component-highlight-events__event-item">
+                    <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://business.uic.edu/events/round-three-fall-domestic-applications-2/"
+       target="_self">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--none
+        tile-item__content-container--plain">
+        <div class="
+            tile-item__title
+            tile-item__title--plain">
+            Round Three: Domestic Applications
+        </div>
+
+                <div class="tile-item__subtitle">
+            Wednesday
+        </div>
+        
+            </div>
+    </a>
+</div>
+                </div>
+            </div>
+                </div>
+          </div>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+    <div class="component-highlight-events">
+
+  
+    <div class="component-description">
+                    <h2 id="spring-2021-admission-deadlines" class="__title visible">Spring 2021 Admission Deadlines</h2>
+                    </div>
+
+    
+            <div class="component-highlight-events__tile-container">
+                                                                                <div class="component-highlight-events__event">
+                <div class="component-highlight-events__date-circle">
+                    <span class="date-circle -light-blue -thick">
+    <span class="_month">Sep</span>
+    <span class="_day">1</span>
+    <span class="_year">2020</span>
+</span>
+                </div>
+                <div class="component-highlight-events__event-item">
+                    <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://business.uic.edu/events/international-applications/"
+       target="_self">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--none
+        tile-item__content-container--plain">
+        <div class="
+            tile-item__title
+            tile-item__title--plain">
+            International Applications
+        </div>
+
+                <div class="tile-item__subtitle">
+            Tuesday
+        </div>
+        
+            </div>
+    </a>
+</div>
+                </div>
+            </div>
+                                                                                <div class="component-highlight-events__event">
+                <div class="component-highlight-events__date-circle">
+                    <span class="date-circle -light-blue -thick">
+    <span class="_month">Nov</span>
+    <span class="_day">1</span>
+    <span class="_year">2020</span>
+</span>
+                </div>
+                <div class="component-highlight-events__event-item">
+                    <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://business.uic.edu/events/domestic-applications/"
+       target="_self">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--none
+        tile-item__content-container--plain">
+        <div class="
+            tile-item__title
+            tile-item__title--plain">
+            Domestic Applications
+        </div>
+
+                <div class="tile-item__subtitle">
+            Sunday
+        </div>
+        
+            </div>
+    </a>
+</div>
+                </div>
+            </div>
+                </div>
+          </div>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+      <div class="component-multi-column-text">
+
+        
+    <div class="component-description">
+                    <h2 id="featured-courses" class="__title visible">Featured Courses</h2>
+                    </div>
+
+        <div class="component-multi-column-text__columns">
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--three">
+
+                                            <h3 id="ba-520-improv-and-leadership" class="component-multi-column-text__column__title visible">
+                          BA 520 Improv and Leadership
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <p>Using improvisational theatre techniques taught in workshop exercise of graduating difficulty, this course creates a safe laboratory for students to experiment with the elements of their own executive presence.</p>
+
+                    </div>
+
+                                    </div>
+
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--three">
+
+                                            <h3 id="mba-590-web-analytics" class="component-multi-column-text__column__title visible">
+                          MBA 590 Web Analytics
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <p>This course will introduce students to the fundamentals of web analytics, including metrics like web traffic and how long customers spend at pages. Students will learn to use Google&#8217;s online and offline software tools.</p>
+
+                    </div>
+
+                                    </div>
+
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--three">
+
+                                            <h3 id="mba-590-social-entrepreneurs-leading-change" class="component-multi-column-text__column__title visible">
+                          MBA 590 Social Entrepreneurs Leading Change
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <p>The aim of this course is to study “the triple bottom line.” Social enterprises utilize the business itself to serve as a vehicle for social change. As business leaders, social entrepreneurs want to improve the common good and solve a social problem.</p>
+
+                    </div>
+
+                                    </div>
+
+                    </div>
+    </div>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+    <div class="testimonial">
+    
+    <div class="component-description">
+                    <h2 id="in-their-own-words" class="__title visible">In Their Own Words</h2>
+                    </div>
+
+          <div class="testimonial__item">
+        <div class="testimonial__image-container">
+          <img class="testimonial__image" src="https://business.uic.edu/wp-content/uploads/sites/91/2018/05/Guerrero_Christian-240x240.jpg" alt="Christian Guerrero, UIC MBA 2016">
+        </div>
+        <blockquote class="testimonial__body">
+          <div class="testimonial__quote"><p>“The Liautaud experience has been phenomenal. As a part of the Accelerated Cohort MBA program, I appreciate the connections I&#8217;m developing with my classmates, laying down a solid foundation for my career network.”</p>
+</div>
+                      <div class="_citation">
+          <span class="_author">
+  Christian Guerrero, American Medical Association
+  </span>
+              &nbsp;|&nbsp;
+              <span class="_description">
+  MBA '16
+  </span>
+      </div>
+        </blockquote>
+      </div>
+      </div>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+      <div class="component-multi-column-text">
+
+        
+    <div class="component-description">
+                    <h2 id="earning-your-mba" class="__title visible">Earning Your MBA</h2>
+                            <div class="__description">
+                <p>Learn more about our MBA Program.</p>
+
+            </div>
+            </div>
+
+        <div class="component-multi-column-text__columns">
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--two">
+
+                                            <h3 id="credits-and-courses" class="component-multi-column-text__column__title visible">
+                          Credits and Courses
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <p>The MBA program is 54 credits in length composed of 26 credits of core courses and 28 credits of electives. Your core courses introduce the fundamental concepts needed to understand the many facets of a complex organization and provide a foundation for further, more in-depth functional business study.</p>
+<p>The core curriculum consists of the following seven courses:</p>
+<ul>
+<li>Financial Accounting (4 credits)</li>
+<li>Corporate Finance (4 credits)</li>
+<li>Marketing (4 credits)</li>
+<li>Microeconomics (4 credits)</li>
+<li>Operations Management (4 credits)</li>
+<li>Organizational Behavior (4 credits)</li>
+<li>Enterprise Strategy (capstone course, 2 credits)</li>
+</ul>
+
+                    </div>
+
+                                    </div>
+
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--two">
+
+                                            <h3 id="tuition" class="component-multi-column-text__column__title visible">
+                          Tuition
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <p>UIC Business is part of a public research university, so tuition and fees vary by residency. Also, because our programs offer flexible options, our tuition varies based on the number of classes you are taking each semester. To calculate your tuition and fees, please visit the <a href="https://registrar.uic.edu/tuition/grad/graduate-tuition-fall-2019-spring-2020">Tuition Information</a> page.</p>
+<p>Don&#8217;t forget, UIC Business offers graduate assistantships, scholarships and partial tuition waivers. Ask an admissions representative about the many options we offer to help you afford your education.</p>
+
+                    </div>
+
+                                    </div>
+
+                    </div>
+    </div>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+      <div class="component-multi-column-text">
+
+        
+    <div class="component-description">
+                    <h2 id="concentrations" class="__title visible">Concentrations</h2>
+                    </div>
+
+        <div class="component-multi-column-text__columns">
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--three">
+
+                                            <h3 id="accounting" class="component-multi-column-text__column__title visible">
+                          Accounting
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <p>Accounting is the language of business. With this concentration, you&#8217;ll learn how to maintain the financial health of an organization.</p>
+<p><strong>Sample of courses:</strong></p>
+<ul>
+<li>Financial Accounting</li>
+<li>Management Accounting</li>
+<li>Financial Statement Analysis</li>
+<li>Taxes and Business Policy</li>
+</ul>
+
+                    </div>
+
+                                    </div>
+
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--three">
+
+                                            <h3 id="business-analytics" class="component-multi-column-text__column__title visible">
+                          Business Analytics
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <p>This concentration trains students in the use of data and models for business decisions, and how to leverage ‘big’ data and analytics for competitive advantage. MBA students with the Business Analytics concentration are prepared to meet demand in one of the most rapidly expanding fields in business.</p>
+<p><strong>Sample of courses:</strong></p>
+<ul>
+<li>Business Data Mining</li>
+<li>Data Visualization</li>
+<li>Social Media and Network Analysis</li>
+<li>Analytics Strategy and Practice</li>
+<li>Statistical Models and Methods for Business Analytics</li>
+</ul>
+
+                    </div>
+
+                                    </div>
+
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--three">
+
+                                            <h3 id="economics" class="component-multi-column-text__column__title visible">
+                          Economics
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <p>Economics gives you an in-depth look at what drives businesses and consumers. This concentration focuses on applied economics with a focus on health, education and urban issues.</p>
+<p><strong>Sample of courses:</strong></p>
+<ul>
+<li>Managerial Economics</li>
+<li>International Economics for Business</li>
+<li>Labor Economics</li>
+<li>Econometrics</li>
+</ul>
+
+                    </div>
+
+                                    </div>
+
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--three">
+
+                                            <h3 id="entrepreneurship" class="component-multi-column-text__column__title visible">
+                          Entrepreneurship
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <p>With this concentration, you&#8217;ll learn how to evaluate the risks and rewards of a new venture, skills which can be applied to both new and existing businesses.</p>
+<p><strong>Sample of courses:</strong></p>
+<ul>
+<li>Social Entrepreneurship</li>
+<li>Startup Launch</li>
+<li>Entrepreneurial Electronic Commerce</li>
+<li>Business Models for Technology Ventures</li>
+</ul>
+
+                    </div>
+
+                                    </div>
+
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--three">
+
+                                            <h3 id="finance" class="component-multi-column-text__column__title visible">
+                          Finance
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <p>Students will gain a better understanding of financial assets and how to manage risks and investments.</p>
+<p><strong>Sample of courses:</strong></p>
+<ul>
+<li>Corporate Finance</li>
+<li>Portfolio Analysis</li>
+<li>Financial Decision Making</li>
+<li>Risk Management</li>
+</ul>
+
+                    </div>
+
+                                    </div>
+
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--three">
+
+                                            <h3 id="international-business" class="component-multi-column-text__column__title visible">
+                          International Business
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <p>Get a closer look at the global business environment. If you are looking to work abroad or for a large multinational company, these courses will deepen your understanding of business on a global scale.</p>
+<p><strong>Sample of courses:</strong></p>
+<ul>
+<li>International Finance</li>
+<li>International Management</li>
+<li>International Business Operations</li>
+<li>Global Innovation Management</li>
+</ul>
+
+                    </div>
+
+                                    </div>
+
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--three">
+
+                                            <h3 id="management" class="component-multi-column-text__column__title visible">
+                          Management
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <p>This concentration will equip the knowledge to lead people and organizations with an understanding of human resource management, strategic management, leadership, managerial skills and logistics.</p>
+<p><strong>Sample of courses:</strong></p>
+<ul>
+<li>Competitive Strategy</li>
+<li>Human Resource Management</li>
+<li>Negotiations</li>
+<li>Organizational Design</li>
+</ul>
+
+                    </div>
+
+                                    </div>
+
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--three">
+
+                                            <h3 id="management-information-systems" class="component-multi-column-text__column__title visible">
+                          Management Information Systems
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <p>With a concentration in MIS, you&#8217;ll learn how to design and manage information and IT systems in ways that have a direct impact on strategy and operational decisions.</p>
+<p><strong>Sample of courses:</strong></p>
+<ul>
+<li>Information Systems Strategy and Policy</li>
+<li>Innovation and Technology Change</li>
+<li>Enterprise Information Infrastructure and Security</li>
+<li>Audit and Control of Information Systems</li>
+<li>Enterprise Application Development</li>
+</ul>
+
+                    </div>
+
+                                    </div>
+
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--three">
+
+                                            <h3 id="marketing" class="component-multi-column-text__column__title visible">
+                          Marketing
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <p>Students in this concentration develop a strong understanding of the entire marketing process in business from research and product development to communications planning and measurement.</p>
+<p><strong>Sample of courses:</strong></p>
+<ul>
+<li>Marketing Communication and Promotional Strategy</li>
+<li>Marketing Channels Management</li>
+<li>Product Planning</li>
+<li>Services Marketing</li>
+</ul>
+
+                    </div>
+
+                                    </div>
+
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--three">
+
+                                            <h3 id="operations-and-supply-chain-management" class="component-multi-column-text__column__title visible">
+                          Operations and Supply-Chain Management
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <p>MBA students in this concentration study the strategic management and operation of global supply chains, the flow of goods and services and complex business processes.</p>
+<p><strong>Sample of Courses</strong></p>
+<ul>
+<li>Supply Chain Management</li>
+<li>Global Sourcing and Logistics Managing Service Operations</li>
+<li>Quality Control and Lean Process Management</li>
+<li>Revenue Management</li>
+</ul>
+
+                    </div>
+
+                                    </div>
+
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--three">
+
+                                            <h3 id="real-estate" class="component-multi-column-text__column__title visible">
+                          Real Estate
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <p>Combining economics, finance, and urban planning students gain a full perspective of the field of real estate with an emphasis in urban real estate markets using metropolitan Chicago as a working laboratory.</p>
+<p><strong>Sample of Courses</strong></p>
+<ul>
+<li>Real Estate Finance</li>
+<li>Urban Real Estate and Land Economics</li>
+<li>Urban Economics</li>
+<li>Investments</li>
+</ul>
+
+                    </div>
+
+                                    </div>
+
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--three">
+
+                                            <h3 id="self-directed" class="component-multi-column-text__column__title visible">
+                          Self-Directed
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <p>If the other concentrations don&#8217;t fit the career path you are building, work with an adviser to develop one.</p>
+
+                    </div>
+
+                                    </div>
+
+                    </div>
+    </div>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+  <div class="component-text-block">
+  
+    <div class="component-description">
+                    <h2 id="joint-degrees" class="__title visible">Joint Degrees</h2>
+                    </div>
+
+  
+  <ul>
+<li><a href="https://catalog.uic.edu/gcat/colleges-schools/business-administration/actg/mba-ms-actg/">Master of Business Administration and Master of Science in Accounting</a></li>
+<li><a href="https://www.google.com/url?q=https://catalog.uic.edu/gcat/colleges-schools/business-administration/fin/ms-fin-mba/&amp;sa=D&amp;source=hangouts&amp;ust=1570214126864000&amp;usg=AFQjCNFooKYf2ngR9TIvUB0WRExxTweYgQ">Master of Business Administration and Master of Science in Finance</a></li>
+<li><a href="https://catalog.uic.edu/gcat/colleges-schools/business-administration/mis/mba-ms-mis/">Master of Business Administration and Master of Science in Management Information Systems</a></li>
+<li><a href="https://medicine.uic.edu/education/md-curriculum/curricular-programs">Master of Business Administration and Doctor of Medicine</a></li>
+<li><a href="https://pharmacy.uic.edu/programs/joint-degree-programs">Master of Business Administration and Doctor of Pharmacy</a></li>
+<li><a href="http://publichealth.uic.edu/academics/joint-degrees">Master of Business Administration and Master of Public Health</a></li>
+<li><a href="https://catalog.uic.edu/gcat/colleges-schools/business-administration/bus-anal/ms-mba/">Master of Business Administration and Master of Science in Business Analytics</a></li>
+<li><a href="https://catalog.uic.edu/gcat/colleges-schools/business-administration/supply-chain-operations-mgmt/joint-ms-mba/">Master of Business Administration and Master of Science in Supply Chain and Operations Management</a></li>
+</ul>
+
+
+
+  
+</div>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+      <div class="component-multi-column-text">
+
+        
+    <div class="component-description">
+                    <h2 id="study-abroad-programs" class="__title visible">Study Abroad Programs</h2>
+                            <div class="__description">
+                <p>Interested in studying outside of the United States? UIC Business offers several opportunities to study abroad.</p>
+
+            </div>
+            </div>
+
+        <div class="component-multi-column-text__columns">
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--two">
+
+                                            <h3 id="doing-business-in-brazil" class="component-multi-column-text__column__title visible">
+                          Doing Business in Brazil
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <p>Doing Business in Brazil is a two-week course in Sao Paulo, Brazil, at the Fundacao Getulio Vargas, considered one of the top business schools in South America. This English-language course covers Brazilian and South American business issues, the political and social climate, national culture, consumer marketing and Mercosur. MBA students receive four elective credits for participating in the program.</p>
+
+                    </div>
+
+                                    </div>
+
+            
+                <div class="component-multi-column-text__column component-multi-column-text__column--two">
+
+                                            <h3 id="know-europe" class="component-multi-column-text__column__title visible">
+                          Know Europe
+                        </h3>
+                    
+                    
+                    <div class="component-multi-column-text__content">
+                        <p>Know Europe is a four-week course, through the ESC Normandy. Study is organized in Brussels, Belgium; Haarlem, Amsterdam; Paris, Le Havre and Caen, France; and Barcelona, Spain. Professors are drawn from Europe, the United Kingdom and Australia. The program includes meetings with local businesses, field visits to seats of European government and presentations on major aspects of European administration and culture. MBA students receive six elective credits for participating in the program.</p>
+
+                    </div>
+
+                                    </div>
+
+                    </div>
+    </div>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+          <div class="component-highlight-directory">
+
+    
+    <div class="component-description">
+                    <h2 id="program-faculty" class="__title visible">Program Faculty</h2>
+                    </div>
+
+        <div class="_list">
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Sudhakar (Sid)
+    
+    Balachandran  </h3>
+
+  <div class="_academic-title">
+    Associate Professor and Director of MBA Graduate Studies
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 996-2529">
+          (312) 996-2529
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:sidbala@uic.edu">
+          sidbala@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/sudhakar-sid-balachandran/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Christopher
+    
+    Barlow  </h3>
+
+  <div class="_academic-title">
+    Clinical Assistant Professor
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 355-2150">
+          (312) 355-2150
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:barlowc@uic.edu">
+          barlowc@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/christopher-barlow/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Gib
+    
+    Bassett  </h3>
+
+  <div class="_academic-title">
+    Emeritus Professor and Director of the International Center for Futures and Derivatives (ICFD)
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 996-5777">
+          (312) 996-5777
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:gib@uic.edu">
+          gib@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/gib-bassett/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Oleg
+    
+    Bondarenko  </h3>
+
+  <div class="_academic-title">
+    Professor
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 996-2362">
+          (312) 996-2362
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:olegb@uic.edu">
+          olegb@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/bondarenko-oleg/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Shelley
+    
+    Brickson  </h3>
+
+  <div class="_academic-title">
+    Associate Professor
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 613-0626">
+          (312) 613-0626
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:brickson@uic.edu">
+          brickson@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/brickson-shelley/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Ranganathan
+    
+    Chandrasekaran  </h3>
+
+  <div class="_academic-title">
+    Professor and Director of Master of Science in Management Information Systems (MSMIS) Graduate Studies
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 996-2847">
+          (312) 996-2847
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:ranga@uic.edu">
+          ranga@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/chandrasekaran-ranganathan/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Hsiu-Lang
+    
+    Chen  </h3>
+
+  <div class="_academic-title">
+    Associate Professor and Director of Master of Science in Finance (MSF) Graduate Studies
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 355-1024">
+          (312) 355-1024
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:hsiulang@uic.edu">
+          hsiulang@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/hsiu-lang-chen/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Anna
+    
+    Cui  </h3>
+
+  <div class="_academic-title">
+    Associate Professor
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 996-7326">
+          (312) 996-7326
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:ascui@uic.edu">
+          ascui@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/anna-cui/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Somnath
+    
+    Das  </h3>
+
+  <div class="_academic-title">
+    Professor and Coordinator of Accounting PhD Program
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 996-4482">
+          (312) 996-4482
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:sdas@uic.edu">
+          sdas@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/somnath-das/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Ellen
+    
+    Engel  </h3>
+
+  <div class="_academic-title">
+    Associate Professor
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 413-3418">
+          (312) 413-3418
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:elleneng@uic.edu">
+          elleneng@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/ellen-engel/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    David
+    
+    Gal  </h3>
+
+  <div class="_academic-title">
+    Professor and Coordinator of Marketing PhD Program
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 996-6202">
+          (312) 996-6202
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:davidgal@uic.edu">
+          davidgal@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/david-gal/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Eliane
+    
+    Karsaklian  </h3>
+
+  <div class="_academic-title">
+    Visiting Professor
+  </div>
+
+    <div class="_contact">
+
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:ekarsa2@uic.edu">
+          ekarsa2@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/eliane-karsaklian/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Michael
+    
+    Kirschenheiter  </h3>
+
+  <div class="_academic-title">
+    Professor and Department Head
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 996-2284">
+          (312) 996-2284
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:mkirsche@uic.edu">
+          mkirsche@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/michael-kirschenheiter/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Matt
+    
+    Liotine  </h3>
+
+  <div class="_academic-title">
+    Clinical Associate Professor and Director of Master of Science in Supply Chain and Operations Management (MSSCOM) Graduate Studies
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 413-2360">
+          (312) 413-2360
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:mliotine@uic.edu">
+          mliotine@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/matt-liotine/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Alan
+    
+    Malter  </h3>
+
+  <div class="_academic-title">
+    Associate Professor and Director of Master of Science in Marketing (MSM) Graduate Studies
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 413-4142">
+          (312) 413-4142
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:amalter@uic.edu">
+          amalter@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/alan-malter/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Abagail
+    
+    McWilliams  </h3>
+
+  <div class="_academic-title">
+    Professor and Associate Dean of BBA Programs
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 996-5201">
+          (312) 996-5201
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:abby@uic.edu">
+          abby@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/abagail-mcwilliams/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    John
+    
+    Miller  </h3>
+
+  <div class="_academic-title">
+    Clinical Assistant Professor and Director of CME Market Training Lab
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 355-0316">
+          (312) 355-0316
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:jpmill@uic.edu">
+          jpmill@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/john-miller/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Kim
+    
+    Moon  </h3>
+
+  <div class="_academic-title">
+    Lecturer
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 413-9362">
+          (312) 413-9362
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:kimmoon@uic.edu">
+          kimmoon@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/kim-moon/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Selva
+    
+    Nadarajah  </h3>
+
+  <div class="_academic-title">
+    Assistant Professor
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 355-2774">
+          (312) 355-2774
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:selvan@uic.edu">
+          selvan@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/selva-nadarajah/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Unsal
+    
+    Ozdogru  </h3>
+
+  <div class="_academic-title">
+    Clinical Assistant Professor
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 996-9260">
+          (312) 996-9260
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:uozdogru@uic.edu">
+          uozdogru@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/unsal-ozdogru/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Susan
+    
+    Perkins  </h3>
+
+  <div class="_academic-title">
+    Associate Professor
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 996-3794">
+          (312) 996-3794
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:susanp@uic.edu">
+          susanp@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/susan-perkins/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Michael
+    
+    Popowits  </h3>
+
+  <div class="_academic-title">
+    Senior Lecturer and Director of Student Professional Development
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 413-0998">
+          (312) 413-0998
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:popowits@uic.edu">
+          popowits@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/popowits-michael/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Ram
+    
+    Ramakrishnan  </h3>
+
+  <div class="_academic-title">
+    Professor and Director of Master of Science in Accounting (MSA) Graduate Studies
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 996-3270">
+          (312) 996-3270
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:rramakri@uic.edu">
+          rramakri@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/ramakrishnan-ram/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Steve
+    
+    Sauerwald  </h3>
+
+  <div class="_academic-title">
+    Assistant Professor
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 996-4054">
+          (312) 996-4054
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:ssauerw@uic.edu">
+          ssauerw@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/steve-sauerwald/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    George
+    
+    Scully  </h3>
+
+  <div class="_academic-title">
+    Clinical Assistant Professor
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 355-4238">
+          (312) 355-4238
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:gscully@uic.edu">
+          gscully@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/george-scully/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Mark
+    
+    Shanley  </h3>
+
+  <div class="_academic-title">
+    Professor and Associate Dean for Academic Affairs
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 996-6229">
+          (312) 996-6229
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:mshanley@uic.edu">
+          mshanley@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/mark-shanley/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    John
+    
+    Sparks  </h3>
+
+  <div class="_academic-title">
+    Clinical Assistant Professor
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 996-8368">
+          (312) 996-8368
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:jspark4@uic.edu">
+          jspark4@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/john-sparks/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    Ali
+    
+    Tafti  </h3>
+
+  <div class="_academic-title">
+    Associate Professor
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(201) 424-6276">
+          (201) 424-6276
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:atafti@uic.edu">
+          atafti@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/ali-tafti/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                            <div class="_grid">
+                                            <article class="list-profile">
+  <h3 class="_name">
+    J Christopher
+    
+    Westland  </h3>
+
+  <div class="_academic-title">
+    Professor
+  </div>
+
+    <div class="_contact">
+
+        <div class="_phone">
+      <h4 class="_label">Phone:</h4>
+      <div class="_content">
+        <a href="tel:(312) 996-2323">
+          (312) 996-2323
+        </a>
+      </div>
+    </div>
+    
+        <div class="_email">
+      <h4 class="_label">Email:</h4>
+      <div class="_content">
+        <a href="mailto:westland@uic.edu">
+          westland@uic.edu
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="_link">
+    <a class="u-arrow-link" href="https://business.uic.edu/profiles/j-christopher-westland/">
+      View Profile
+    </a>
+  </div>
+</article>
+                                    </div>
+                    </div>
+
+    </div>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+    <div class="component-accordion js-component-accordion">
+
+    
+    <div class="component-description">
+                    <h2 id="frequently-asked-questions" class="__title visible">Frequently Asked Questions</h2>
+                    </div>
+
+    <dl class="component-accordion__accordion"
+        role="presentation">
+
+    <dt class="component-accordion__title"
+          role="heading"
+          aria-level="1">
+        <button
+          class="component-accordion__button js-toggle-acc"
+          aria-expanded="false"
+          aria-controls="panel-sectionID-13-1"
+          id="tab-sectionID-13-1"
+          type="button">
+            Which semesters can I start?
+        </button>
+      </dt>
+
+      <dd class="component-accordion__content component-accordion__content--collapsed"
+          aria-labelledby="tab-sectionID-13-1"
+          id="panel-sectionID-13-1"
+          role="region">
+
+          <div class="component-accordion__content-wrapper">
+            <div class="components">
+
+  
+    
+      
+
+<div class="component  component--is-in-another-component">
+
+  
+  <div class="component-text-block">
+  
+    <div class="component-description">
+                    <h2 id="which-semesters-can-i-start" class="__title invisible">Which semesters can I start?</h2>
+                    </div>
+
+  
+  <p>The Weekend MBA Program and the Accelerated MBA start in the fall semester only. Students in the flexible program can start in the summer, fall or spring.</p>
+
+
+
+  
+</div>
+
+  
+</div>
+
+    
+
+</div>
+          </div>
+      </dd>
+
+    <dt class="component-accordion__title"
+          role="heading"
+          aria-level="2">
+        <button
+          class="component-accordion__button js-toggle-acc"
+          aria-expanded="false"
+          aria-controls="panel-sectionID-13-2"
+          id="tab-sectionID-13-2"
+          type="button">
+            What is the difference between online courses and traditional on-campus courses?
+        </button>
+      </dt>
+
+      <dd class="component-accordion__content component-accordion__content--collapsed"
+          aria-labelledby="tab-sectionID-13-2"
+          id="panel-sectionID-13-2"
+          role="region">
+
+          <div class="component-accordion__content-wrapper">
+            <div class="components">
+
+  
+    
+      
+
+<div class="component  component--is-in-another-component">
+
+  
+  <div class="component-text-block">
+  
+    <div class="component-description">
+                    <h2 id="what-is-the-difference-between-online-courses-and-traditional-on-campus-courses" class="__title invisible">What is the difference between online courses and traditional on-campus courses?</h2>
+                    </div>
+
+  
+  <p>Online courses are often very different than traditional on-campus courses in terms of how the material is presented, the nature of the interaction among class members and the overall learning experience. However, the course load is at the same level as the face-to-face version; the only amount of time saved is your commute time to and from campus. Our online courses use the Blackboard software. Select courses are offered online, and offerings vary each semester.</p>
+
+
+
+  
+</div>
+
+  
+</div>
+
+    
+
+</div>
+          </div>
+      </dd>
+
+    <dt class="component-accordion__title"
+          role="heading"
+          aria-level="3">
+        <button
+          class="component-accordion__button js-toggle-acc"
+          aria-expanded="false"
+          aria-controls="panel-sectionID-13-3"
+          id="tab-sectionID-13-3"
+          type="button">
+            Does UIC offer an Online MBA?
+        </button>
+      </dt>
+
+      <dd class="component-accordion__content component-accordion__content--collapsed"
+          aria-labelledby="tab-sectionID-13-3"
+          id="panel-sectionID-13-3"
+          role="region">
+
+          <div class="component-accordion__content-wrapper">
+            <div class="components">
+
+  
+    
+      
+
+<div class="component  component--is-in-another-component">
+
+  
+  <div class="component-text-block">
+  
+    <div class="component-description">
+                    <h2 id="does-uic-offer-an-online-mba" class="__title invisible">Does UIC offer an Online MBA?</h2>
+                    </div>
+
+  
+  <p>UIC does not offer an exclusively online MBA degree. Online coursework is offered for five of the 14 courses required to complete an MBA (remaining courses typically have evening and weekend offering times to make it convenient for working professionals). Our campus-based MBA delivers deep and interactive class discussions that encourage critical thinking and problem solving, and promotes networking, team projects and campus involvement.</p>
+
+
+
+  
+</div>
+
+  
+</div>
+
+    
+
+</div>
+          </div>
+      </dd>
+
+    <dt class="component-accordion__title"
+          role="heading"
+          aria-level="4">
+        <button
+          class="component-accordion__button js-toggle-acc"
+          aria-expanded="false"
+          aria-controls="panel-sectionID-13-4"
+          id="tab-sectionID-13-4"
+          type="button">
+            Should I apply even though I do not have any work experience?
+        </button>
+      </dt>
+
+      <dd class="component-accordion__content component-accordion__content--collapsed"
+          aria-labelledby="tab-sectionID-13-4"
+          id="panel-sectionID-13-4"
+          role="region">
+
+          <div class="component-accordion__content-wrapper">
+            <div class="components">
+
+  
+    
+      
+
+<div class="component  component--is-in-another-component">
+
+  
+  <div class="component-text-block">
+  
+    <div class="component-description">
+                    <h2 id="should-i-apply-even-though-i-do-not-have-any-work-experience" class="__title invisible">Should I apply even though I do not have any work experience?</h2>
+                    </div>
+
+  
+  <p>MBA applicants are expected to have at least two years of business related work experience after the completion of a 4-year bachelor’s degree. Historically, our typical admitted student had more than this level of experience prior to applying to the UIC Business MBA program.</p>
+
+
+
+  
+</div>
+
+  
+</div>
+
+    
+
+</div>
+          </div>
+      </dd>
+
+    <dt class="component-accordion__title"
+          role="heading"
+          aria-level="5">
+        <button
+          class="component-accordion__button js-toggle-acc"
+          aria-expanded="false"
+          aria-controls="panel-sectionID-13-5"
+          id="tab-sectionID-13-5"
+          type="button">
+            How do I apply for a joint degree program?
+        </button>
+      </dt>
+
+      <dd class="component-accordion__content component-accordion__content--collapsed"
+          aria-labelledby="tab-sectionID-13-5"
+          id="panel-sectionID-13-5"
+          role="region">
+
+          <div class="component-accordion__content-wrapper">
+            <div class="components">
+
+  
+    
+      
+
+<div class="component  component--is-in-another-component">
+
+  
+  <div class="component-text-block">
+  
+    <div class="component-description">
+                    <h2 id="how-do-i-apply-for-a-joint-degree-program" class="__title invisible">How do I apply for a joint degree program?</h2>
+                    </div>
+
+  
+  <p>Applicants may apply to a joint degree program during the initial application process, or they may apply to their second program upon gaining admission and enrolling in their first program.</p>
+<p>First time applicants to UIC wishing to enroll in a joint degree program are required to apply separately to both programs, making sure to follow the application procedures/requirements for each program.</p>
+<p>Current UIC graduate students interested in applying to a joint degree program should work closely with academic advisers in both programs and visit <a href="https://businessconnect.uic.edu/graduate/current-grad-students/">Business Connnect</a> for additional instruction.</p>
+
+
+
+  
+</div>
+
+  
+</div>
+
+    
+
+</div>
+          </div>
+      </dd>
+
+    <dt class="component-accordion__title"
+          role="heading"
+          aria-level="6">
+        <button
+          class="component-accordion__button js-toggle-acc"
+          aria-expanded="false"
+          aria-controls="panel-sectionID-13-6"
+          id="tab-sectionID-13-6"
+          type="button">
+            Do I need an undergraduate degree in business to be accepted into the program?
+        </button>
+      </dt>
+
+      <dd class="component-accordion__content component-accordion__content--collapsed"
+          aria-labelledby="tab-sectionID-13-6"
+          id="panel-sectionID-13-6"
+          role="region">
+
+          <div class="component-accordion__content-wrapper">
+            <div class="components">
+
+  
+    
+      
+
+<div class="component  component--is-in-another-component">
+
+  
+  <div class="component-text-block">
+  
+    <div class="component-description">
+                    <h2 id="do-i-need-an-undergraduate-degree-in-business-to-be-accepted-into-the-program" class="__title invisible">Do I need an undergraduate degree in business to be accepted into the program?</h2>
+                    </div>
+
+  
+  <p>An undergraduate degree in business administration is not required. In fact, our Accelerated MBA Program is designed specifically for those with an undergraduate background in a non-business field. Approximately 50% of our student body does not have an undergraduate business background. We do recommend that students have had a class in statistics. If they have not, they can take one during their first semester.</p>
+
+
+
+  
+</div>
+
+  
+</div>
+
+    
+
+</div>
+          </div>
+      </dd>
+
+    <dt class="component-accordion__title"
+          role="heading"
+          aria-level="7">
+        <button
+          class="component-accordion__button js-toggle-acc"
+          aria-expanded="false"
+          aria-controls="panel-sectionID-13-7"
+          id="tab-sectionID-13-7"
+          type="button">
+            Can I take courses as a non-degree seeking student?
+        </button>
+      </dt>
+
+      <dd class="component-accordion__content component-accordion__content--collapsed"
+          aria-labelledby="tab-sectionID-13-7"
+          id="panel-sectionID-13-7"
+          role="region">
+
+          <div class="component-accordion__content-wrapper">
+            <div class="components">
+
+  
+    
+      
+
+<div class="component  component--is-in-another-component">
+
+  
+  <div class="component-text-block">
+  
+    <div class="component-description">
+                    <h2 id="can-i-take-courses-as-a-non-degree-seeking-student" class="__title invisible">Can I take courses as a non-degree seeking student?</h2>
+                    </div>
+
+  
+  <p>You may be admitted to the Liautaud MBA Program on a non-degree basis only in the following two cases:</p>
+<p>1. If you have already completed an MBA or other approved management degree from an AACSB accredited institution and wish to pursue further course work, you may enroll in MBA classes on a space-available basis as long as you maintain good academic standing. The application for admission and proof of MBA degree (a photocopy of your transcript or diploma showing a completed MBA degree) must be submitted by the application deadline for the desired term of study.</p>
+<p>2. If you are currently enrolled in an MBA program at another AACSB institution and wish to take courses that will be accepted by your university as transfer courses, you may enroll in MBA courses to the extent approved by your MBA program and by the MBA Program. The MBA application for admission, application fee, proof of baccalaureate degree and letter from the director of your MBA program indicating that you are in good academic standing and list the courses approved to be transferred must be submitted by the application deadline for the desired term of study. You may also be asked by the admissions committee to provide additional information regarding your academic credentials.</p>
+
+
+
+  
+</div>
+
+  
+</div>
+
+    
+
+</div>
+          </div>
+      </dd>
+
+    
+    </dl>
+  </div>
+
+  
+</section>
+
+    
+
+</div>
+
+          </article>
+        </div>
+
+                                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+
+                      <div class="l-sidebar">
+             <nav role="navigation" id="menu-secondary" aria-label="Secondary Graduate" class="menu-secondary">
+               <div class="menu-secondary__title-container">
+                 <h2 class="menu-secondary__title"><a  class="menu-secondary__title-link" href="https://business.uic.edu/graduate-programs/">Graduate</a></h2>
+                 <a  class="menu-secondary__back-to-content" href="#main">
+                   <svg aria-label="Back to main content" width="32" height="32" viewBox="0 0 32 32">
+                     <title>Back to main content</title>
+                     <g fill="none" fill-rule="evenodd">
+                       <circle class="_circle" fill="#fff" stroke="#007FA5" stroke-width="1" cx="16" cy="16" r="15"/>
+                       <path class="_arrow" d="M16 21v-9M12 15l4-4 4 4" stroke="#001E62" stroke-width="2" stroke-linecap="round"/>
+                     </g>
+                   </svg>
+                 </a>
+               </div>
+
+                <ul  class="menu ">
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-142">
+                    <a  href="/graduate-programs/graduate-admissions/" target="_self"><span>Graduate Admissions</span></a>                                      </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-962 menu-item-has-children">
+                    <a  href="/graduate-programs/graduate-degrees/" target="_self"><span>Graduate Degrees</span>                          <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-128 current_page_item menu-item-148">
+    <a href="/graduate-programs/graduate-degrees/master-business-administration/" target="_self"><span>Master of Business Administration</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-147">
+    <a href="/graduate-programs/graduate-degrees/master-science-accounting/" target="_self"><span>Master of Science in Accounting</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-146">
+    <a href="/graduate-programs/graduate-degrees/master-science-business-analytics/" target="_self"><span>Master of Science in Business Analytics</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-145">
+    <a href="/graduate-programs/graduate-degrees/master-science-finance/" target="_self"><span>Master of Science in Finance</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-144">
+    <a href="/graduate-programs/graduate-degrees/master-science-management-information-systems/" target="_self"><span>Master of Science in Management Information Systems</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-143">
+    <a href="/graduate-programs/graduate-degrees/master-science-marketing/" target="_self"><span>Master of Science in Marketing</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1492">
+    <a href="/graduate-programs/graduate-degrees/master-of-science-in-supply-chain-and-operations-management/" target="_self"><span>Master of Science in Supply Chain and Operations Management</span></a>    </li>
+  </ul>
+                  </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1505">
+                    <a  href="/graduate-programs/guaranteed-and-preferred-admissions/" target="_self"><span>Guaranteed and Preferred Admissions</span></a>                                      </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-153">
+                    <a  href="/graduate-programs/graduate-career-services/" target="_self"><span>Graduate Career Services</span></a>                                      </li>
+                                  </ul>
+
+              </nav>
+            </div>
+       
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+
+
+          
+                          </div>
+    </main>
+
+    
+        <footer id="footer" class="footer u-dark-region" role="contentinfo">
+
+  <div class="footer-contact">
+    <div class="l-full">
+
+          <div class="mega-footer-contact">
+
+    <div class="mega-footer-contact__brand mega-footer-contact__brand--wordmark">
+        <div class="footer-logo">
+                        <div class="footer-logo__wordmark-wrapper">
+                <div class="uic-wordmark -large uic-wordmark--mega-footer">
+
+  <div class="_mark">
+    <a href="http://uic.edu" class="uic-logo-icon ">
+ <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ <title>UIC Logo</title>
+ <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
+<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
+</svg>
+</a>
+  </div>
+
+  <div class="_text">
+    <a href="https://business.uic.edu">
+                  <span class="_line">College Of</span>
+              <span class="_line">Business</span>
+              <span class="_line">Administration</span>
+              </a>
+  </div>
+
+</div>
+            </div>
+            </div>
+    </div>
+
+  <div class="mega-footer-contact__menus">
+
+        <div class="mega-footer-contact__quick-menus _quick-menus">
+
+      
+            <nav class="mega-footer-contact__quick-menu" id="menu2" aria-label="footer-menu-2">
+        <h2>Quick Links</h2>
+        <ul id="menu-quick-2" class="menu menu-quick-2" aria-label="Quick Links">
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-982">
+      <a href="/about-uic-business/" target="_self">About Us</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-270">
+      <a href="/faculty-and-research/for-the-media/" target="_self">Media</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-73">
+      <a href="/events-2/" target="_self">Events</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-634">
+      <a href="/news-2/" target="_self">News</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1916">
+      <a href="/cmba/" target="_self">Corporate MBA Programs at UIC</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2664">
+      <a href="/alumni-and-community/give-to-uic-business/" target="_self">Give to UIC Business</a>
+    </li>
+  </ul>
+      </nav>
+      
+            <nav class="mega-footer-contact__quick-menu" id="menu3" aria-label="footer-menu-3">
+        <h2>External Links</h2>
+        <ul id="menu-quick-3" class="menu menu-quick-3" aria-label="External Links">
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-45">
+      <a href="http://blog.business.uic.edu/" target="_self">Visit Our Blog</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-46">
+      <a href="http://www.uic.edu/" target="_blank">UIC.edu</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-47">
+      <a href="http://www.uic.edu/admissions-aid/visit-campus" target="_blank">Visit Campus</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-48">
+      <a href="http://businessconnect.uic.edu/" target="_blank">Current Students</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-49">
+      <a href="http://accc.uic.edu/service/directory" target="_blank">Phone Book</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1032">
+      <a href="https://www.vpaa.uillinois.edu/resources/web_privacy" target="_blank">Privacy Notice</a>
+    </li>
+  </ul>
+      </nav>
+      
+    </div>
+    
+        <div class="mega-footer-contact__button-menus">
+      <nav class="mega-footer-contact__button-menu" id="menu4" aria-label="footer-menu-4">
+        <h2 class="assistive-text">Contact Us</h2>
+
+        <ul id="button-menu" class="menu button-menu" aria-label="Contact Us">
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-112">
+      <a href="/contact-uic-business/" target="_self">Contact Us</a>
+    </li>
+  </ul>
+
+      </nav>
+    </div>
+    
+  </div>
+
+  <div class="mega-footer-contact__contact">
+
+    <div class="_contact">
+      <h2>Contact</h2>
+      <div class="site-contact-container">    <div class="site-address">601 S. Morgan St., 11th Floor, Chicago, IL 60607</div>
+      <div class="site-phone">Phone: <a  href="tel:(312) 996-2700">(312) 996-2700</a></div>
+        <div class="site-email"><a  href="mailto:uicbusiness@uic.edu">uicbusiness@uic.edu</a></div>
+</div>
+      <div class="site-contact-container">        </div>
+    </div>
+
+    <div class="mega-footer-contact__site-social-links">
+       <div aria-label="Social Media Accounts" class="site-social-links">
+  <h2 class="site-social-links__header assistive-text">Social Media Accounts</h2>
+  <ul class="site-social-links__list">
+        <li class="site-social-links__list-item"><a  class="site-social-links__link facebook" href="https://www.facebook.com/UICBusiness">
+      <svg class="site-social-links__link-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Facebook"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>
+    </a></li>
+                <li class="site-social-links__list-item"><a  class="site-social-links__link twitter" href="https://twitter.com/uicbusiness">
+      <svg class="site-social-links__link-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Twitter"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>
+    </a></li>
+            <li class="site-social-links__list-item"><a  class="site-social-links__link instagram" href="https://instagram.com/uicbusiness/">
+      <svg class="site-social-links__link-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Instagram"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>
+    </a></li>
+            <li class="site-social-links__list-item"><a  class="site-social-links__link youtube" href="https://www.youtube.com/channel/UCTU8aYjwIrx9s96FHILffNA?view_as=subscriber">
+      <svg class="site-social-links__link-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Youtube"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>
+    </a></li>
+          </ul>
+</div>
+    </div>
+  </div>
+</div>
+    
+    </div>
+  </div>
+
+        <div class="footer-images">
+	<div class="l-full">
+
+		
+				<div class="footer-images-wrap">
+						<div class="footer-image">
+								<a href="http://www.aacsb.edu/accreditation"><img src="https://business.uic.edu/wp-content/uploads/sites/91/2018/10/AACSB-logo-accredited-reverse-color-RGB.png" alt="AACSB Accreditation Logo"></a>
+							</div>
+					</div>
+		
+	</div>
+</div>
+  
+  <div class="footer-uic-menu">
+    <div class="l-full">
+
+      <div aria-label="UIC.edu Links">
+  <h2 class="assistive-text">UIC.edu links</h2>
+  <ul class="uic-footer-menu">
+    <li><strong><a href="https://uic.edu/">UIC.edu</a></strong></li>
+    <li><a href="https://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></li>
+    <li><a href="https://uicflames.com/">Athletics</a></li>
+    <li><a href="https://www.uic.edu/apps/departments-az/search">Campus Directory</a></li>
+    <li><a href="https://disabilityresources.uic.edu/">Disability Resources</a></li>
+    <li><a href="https://emergency.uic.edu/">Emergency Information</a></li>
+    <li><a href="https://today.uic.edu/events">Event Calendar</a></li>
+    <li><a href="https://uic.edu/about/job-opportunities">Job Openings</a></li>
+    <li><a href="https://library.uic.edu/">Library</a></li>
+    <li><a href="https://maps.uic.edu/">Maps</a></li>
+    <li><a href="https://ready.uic.edu/digital-materials/uic-safe-mobile-app/">UIC Safe Mobile App</a></li>
+    <li><a href="https://today.uic.edu/">UIC Today</a></li>
+    <li><a href="https://uihealth.uic.edu/">UI Health</a></li>
+    <li><a href="https://dos.uic.edu/student-veterans-affairs/">Veterans Affairs</a></li>
+  </ul>
+</div>
+
+    </div>
+  </div>
+
+  <div class="footer-legal">
+    <div class="l-full">
+
+      <div class="red-version">Powered by Red 2.38.0</div>
+
+<div class="site-copyright">
+  &copy; 2020 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
+  <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a>
+</div>
+
+<div class="campuses" aria-label="Campuses">
+  <h2 class="assistive-text">Campuses</h2>
+  <ul class="campuses-list">
+    <li><a href="https://www.uillinois.edu/">University of Illinois System</a></li>
+    <li><a href="https://illinois.edu/">Urbana-Champaign</a></li>
+    <li><a href="https://www.uis.edu/">Springfield</a></li>
+  </ul>
+</div>
+<div class="cookie-banner">
+  <div id="footer-bottom">
+    <a class="optanon-show-settings">Cookie Settings</a>
+  </div>
+</div>
+    </div>
+  </div>
+
+</footer>
+
+	    </div>
+
+
+  
+
+<!-- www.socialintents.com -->
+<script type="text/javascript">
+(function() {function socialintents(){
+    var siJsHost = (("https:" === document.location.protocol) ? "https://" : "http://");
+    var s = document.createElement('script');s.type = 'text/javascript';s.async = true;s.src = siJsHost+'www.socialintents.com/api/chat/socialintents.1.3.js#2c9fa23c7104afe9017107e4651d0665';
+    var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);};
+if (window.attachEvent)window.attachEvent('onload', socialintents);else window.addEventListener('load', socialintents, false);})();
+</script>
+<!-- Instagram Feed JS -->
+<script type="text/javascript">
+var sbiajaxurl = "https://business.uic.edu/wp-admin/admin-ajax.php";
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sb_instagram_js_options = {"sb_instagram_at":"","font_method":"svg"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://business.uic.edu/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.12.1'></script>
+<script type='text/javascript' src='https://business.uic.edu/wp-content/plugins/uic-red/js-admin/uic-publish-post-settings.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://business.uic.edu/wp-content/plugins/uic-red/js-admin/acf-field-group-toggle.js?ver=1.0.0'></script>
+<script type='text/javascript' src='//www.uic.edu/apps/web-alert/alert.js?ver=3'></script>
+<script type='text/javascript' src='https://business.uic.edu/wp-content/themes/uic-red/js/main.js?ver=1'></script>
+<script type='text/javascript' src='https://business.uic.edu/wp-includes/js/wp-embed.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
+
+
+
+  
+  
+  <script async src="https://cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js" type="text/javascript" charset="UTF-8"></script>
+
+  </body>
+</html>

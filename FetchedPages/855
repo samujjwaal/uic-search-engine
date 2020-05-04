@@ -1,1337 +1,1018 @@
-  
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
-<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
-<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js" lang="en-US"> <!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/sites/default/files/chameleon_favicon.png" type="image/png" />
+<link rel="alternate" type="application/rss+xml" title="" href="https://acm.cs.uic.edu/rss.xml" />
 
-    <head>
-
-<!-- Google Analytics script (RED and this site) -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <title>Home | ACM@UIC</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_DfIk0kDE_97QqZBJr5TF4iiP6Rt7nG3gWSu-Jh5AKCY.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_oix8Ve-4mzhBGRQpeaBbIoErqWWYv1baLhRDxvoRzmw.css" />
 
     
-        ga('create', 'UA-20665772-1', 'auto');
-    
-        ga('create', 'UA-102819527-1', 'auto', 'engineeringTracker');
-    
-        ga('send', 'pageview');
-    
-        ga('engineeringTracker.send', 'pageview');
-      </script>
-<!-- End Google Analytics script (RED and this site) -->
-
-
-
-<!-- Google Tag Manager script for RED multisite -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
-              (window,document,'script','dataLayer','GTM-W2Q8D2K');
-  </script>
-<!-- End Google Tag Manager script for RED multisite -->
-
-
-
-
-
-
-        <title>
-                            Recreating embryonic conditions at break sites can help bones heal faster | College of Engineering | University of Illinois at Chicago
-                    </title>
-
-
-
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="pingback" href="https://engineering.uic.edu/xmlrpc.php" />
-
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60.png" />
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png" />
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76.png" />
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
-<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
-<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
-<link rel="icon" type="image/png" href="/favicon-128.png" sizes="128x128" />
-<meta name="application-name" content="&nbsp;"/>
-<meta name="msapplication-TileColor" content="#FFFFFF" />
-<meta name="msapplication-TileImage" content="mstile-144x144.png" />
-<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
-<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
-<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
-<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
-
-    <link rel="stylesheet" href="https://engineering.uic.edu/wp-content/themes/uic-red/main.css?v=1587475706" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://engineering.uic.edu/wp-content/themes/uic-red/theinhardt.css?v=1587475706" type="text/css" media="all">
-
-    <link rel='dns-prefetch' href='//www.uic.edu' />
-<link rel='dns-prefetch' href='//s.w.org' />
-		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/engineering.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6"}};
-			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='https://engineering.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6' type='text/css' media='all' />
-<link rel='stylesheet' id='sb_instagram_styles-css'  href='https://engineering.uic.edu/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.12.1' type='text/css' media='all' />
-<link rel='stylesheet' id='tablepress-default-css'  href='https://engineering.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
-<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
-<link rel='https://api.w.org/' href='https://engineering.uic.edu/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://engineering.uic.edu/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://engineering.uic.edu/wp-includes/wlwmanifest.xml" /> 
-
-<script type="text/javascript">
-(function(url){
-	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
-	var addEvent = function(evt, handler) {
-		if (window.addEventListener) {
-			document.addEventListener(evt, handler, false);
-		} else if (window.attachEvent) {
-			document.attachEvent('on' + evt, handler);
-		}
-	};
-	var removeEvent = function(evt, handler) {
-		if (window.removeEventListener) {
-			document.removeEventListener(evt, handler, false);
-		} else if (window.detachEvent) {
-			document.detachEvent('on' + evt, handler);
-		}
-	};
-	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
-	var logHuman = function() {
-		if (window.wfLogHumanRan) { return; }
-		window.wfLogHumanRan = true;
-		var wfscr = document.createElement('script');
-		wfscr.type = 'text/javascript';
-		wfscr.async = true;
-		wfscr.src = url + '&r=' + Math.random();
-		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
-		for (var i = 0; i < evts.length; i++) {
-			removeEvent(evts[i], logHuman);
-		}
-	};
-	for (var i = 0; i < evts.length; i++) {
-		addEvent(evts[i], logHuman);
-	}
-})('//engineering.uic.edu/?wordfence_lh=1&hid=B70C8D6561B74372D8C91EC2D215E224');
-</script>
-</head>
-      
-  <body>
-
-<!-- Google Tag Manager for RED multisite (noscript) -->
-<noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2Q8D2K" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager for RED multisite (noscript) -->
-
-
-
-
-
-  
-  
-
-  <div class="l-page news-template-default single single-news postid-1449 post-type--news  site-type-b theme--navy no-sidebar  ">
-
-
-    <!--[if lte IE 9]>
-<div class="browser-stripe u-dark-region">
-  <div class="l-full">
-      <h2>Your browser is unsupported</h2>
-      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
-  </div>
-</div>
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
 <![endif]-->
-<div class="browser-stripe u-dark-region ie10">
-  <div class="l-full">
-      <h2>Your browser is unsupported</h2>
-      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
-  </div>
-</div>
-    
-<header class="l-header" role="banner">
 
+  </head>
+  <body class="path-frontpage">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+<!-- Header and Navbar -->
+<header class="main-header">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="row">
+      <div class="navbar-header col-md-3">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+                    <div class="region region-header">
+    <div id="block-drupal8-zymphonies-theme-branding" class="settings-tray-editable site-branding block block-system block-system-branding-block" data-drupal-settingstray="editable">
   
-  <div class="header-navigation">
-
-      <div id="skip" class="skip-menu assistive-text">
-  <p>
-    <span class="_main">
-    <a href="#article">Skip to the content of this page</a>,
-    </span>
-    <a class="_primary-menu" href="#menu-main">the main menu</a>,
-
     
-    
-    <a class="_search" href="#search">the site search form</a>,
-
-    <a class="_home" href="https://engineering.uic.edu">the site home page</a>.
-  </p>
-</div>
-
-      <div class="eyebrow-mobile-wrapper js-eyebrow-mobile">
-<div class="eyebrow-mobile">
-            <div class="eyebrow-mobile-logo eyebrow-logo">
-            <a href="http://uic.edu" class="uic-logo-icon eyebrow-mobile-logo__uic-logo">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
+        <div class="brand logo">
+      <a href="/" title="Home" rel="home" class="site-branding__logo">
+        <img src="/sites/default/files/chameleon_logo.gif.png" alt="Home" />
+      </a>
     </div>
-                <div class="site-title-eyebrow-mobile">
-          <a href="https://engineering.uic.edu">College of Engineering</a>
-        </div>
-    
-    <button aria-label="Search the site" class="search-toggle-mobile js-search-toggle-mobile">
-  <span class="icon-search ">
-        <span class="assistive-text">Search the site</span>
-      </span>
-    </button>
-    <button class="nav-header-toggle js-nav-header-toggle">
-      <span class="icon-menu ">
-      Toggle Menu
-      </span>
-    </button>
+        <div class="brand site-name">
+                    <div class="site-branding__slogan">Association for Computing Machinery Student Chapter at the University of Illinois at Chicago</div>
+          </div>
   </div>
-  <div class="search-input-container-mobile">
-    <div class="search-input-container-mobile__content">
-      <div class="search-title">
-        Search
-        <a class="search-close search-toggle-mobile">
-          <svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22">
-            <use xlink:href="https://engineering.uic.edu/wp-content/themes/uic-red/images/svgs/svgs.svg#icon-close"></use>
-          </svg>
-        </a>
-      </div>
-      <form method="get" action="/search" role="search" aria-label="Search this site on your mobile device">
-        <input type="text" name="q" class="search-input-mobile" placeholder="Search..." tabindex="-1" aria-label="Search this site on your mobile device" disabled="">
-        <input type="submit" class="submit-button" name="search" value="Submit">
-      </form>
-    </div>
+
   </div>
-</div>
 
-    <div class="header-navigation__eyebrow">
+              </div>
 
-                    <div class="header-navigation-logo header-logo">
-                        <a href="http://uic.edu" class="uic-logo-icon header-navigation-logo__uic-logo">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
-            </div>
-                <div class="header-navigation__eyebrow-menus">
+      <!-- Navigation -->
+      <div class="col-md-9">
+                    <div class="region region-primary-menu">
+    <nav role="navigation" aria-labelledby="block-drupal8-zymphonies-theme-main-menu-menu" id="block-drupal8-zymphonies-theme-main-menu" class="settings-tray-editable" data-drupal-settingstray="editable">
+            
+  <h2 class="visually-hidden" id="block-drupal8-zymphonies-theme-main-menu-menu">Main navigation</h2>
+  
 
-            <div class="header-navigation__logo-and-site-title">
+        
+              <ul class="sm menu-base-theme" id="main-menu"  class="menu nav navbar-nav">
+                      <li>
+        <a href="/" data-drupal-link-system-path="&lt;front&gt;" class="is-active">Home</a>
+                  </li>
+        </ul>
+  
 
-                                <div class="site-title-main -large">
-                                      <a href="https://engineering.uic.edu">College of Engineering</a>
-                                    </div>
+
+  </nav>
+
+  </div>
+
               
-            </div>
-          <nav class="header-menus js-header-menus " aria-label="Primary" role="navigation">
+      </div>
+      <!--End Navigation -->
 
-  <div class="site-title-mobile-menu">
-    <a href="https://engineering.uic.edu">College of Engineering</a>
-  </div>
+      </div>
+    </div>
+  </nav>
 
   
-  <h2 class="assistive-text">Main Menu</h2>
-  <ul id="menu-main" class="menu menu-main" aria-label="Main Menu">
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1583 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/undergraduate/"
-        target="_self">
+</header>
+<!--End Header & Navbar -->
 
-        Undergraduate
-      </a>
 
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Undergraduate menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Undergraduate menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
+<!--Highlighted-->
+      <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <div class="region region-highlighted">
+    <div data-drupal-messages-fallback class="hidden"></div>
 
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3598">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/welcome/"
-                  target="_self">
+  </div>
 
-                  Admitted Student Information
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1584">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/undergraduate-admissions/"
-                  target="_self">
-
-                  Admissions
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-324">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/advising/"
-                  target="_self">
-
-                  Advising
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-323">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/career-outcomes/"
-                  target="_self">
-
-                  Career Outcomes
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-336">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/diversity/"
-                  target="_self">
-
-                  Diversity
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-321">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/engineering-expo/"
-                  target="_self">
-
-                  Engineering Expo
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-246">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/questions-answers/"
-                  target="_self">
-
-                  FAQ
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1602">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/majors-and-minors/"
-                  target="_self">
-
-                  Majors and Minors
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-249">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/guaranteed-paid-internship-program/"
-                  target="_self">
-
-                  Paid Internships
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-250">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/scholarships/"
-                  target="_self">
-
-                  Scholarships
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-319">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/student-groups/"
-                  target="_self">
-
-                  Student Groups
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1587">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/resources/"
-                  target="_self">
-
-                  Student Resources
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-247">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/women-in-engineering/"
-                  target="_self">
-
-                  Women in Engineering
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
         </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1582">
-      <a 
-        class="menu-main__first-link"
-        href="/graduate/"
-        target="_self">
+      </div>
+    </div>
+  <!--End Highlighted-->
 
-        Graduate
-      </a>
 
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-259">
-      <a 
-        class="menu-main__first-link"
-        href="/coe-departments/"
-        target="_self">
+<!-- Start Top Widget -->
+<!--End Top Widget -->
 
-        Departments
-      </a>
 
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-311 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/coe-research/"
-        target="_self">
+<!-- Page Title -->
+<!-- End Page Title -- >
 
-        Research
-      </a>
 
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Research menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Research menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
+<!-- layout -->
+<div id="wrapper">
+  <!-- start: Container -->
+  <div class="container">
+    
+    <!--Content top-->
+          <!--End Content top-->
+    
+    <!--start:content -->
+    <div class="row">
+      <div class="col-md-12"></div>
+    </div>
 
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1608">
-                <a 
-                  class="menu-main__second-link"
-                  href="/coe-research/interdisciplinary-research/"
-                  target="_self">
+    <div class="row layout">
+      <!--- Start Left SideBar -->
+              <div class="sidebar" >
+          <div class = col-md-3 >
+              <div class="region region-sidebar-first">
+    <div id="block-user-2" class="settings-tray-editable block block-user block-user-login-block" data-drupal-settingstray="editable" role="form">
+  
+    
+      <form class="user-login-form" data-drupal-selector="user-login-form" action="/node?destination=/node" method="post" id="user-login-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-item-name js-form-item-name">
+      <label for="edit-name" class="js-form-required form-required">Username</label>
+        <input autocorrect="none" autocapitalize="none" spellcheck="false" data-drupal-selector="edit-name" type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" required="required" aria-required="true" />
 
-                  Interdisciplinary Research
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-314">
-                <a 
-                  class="menu-main__second-link"
-                  href="/coe-research/centers/"
-                  target="_self">
-
-                  Labs and Centers
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
         </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-2960 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/support"
-        target="_self">
+<div class="js-form-item form-item js-form-type-password form-item-pass js-form-item-pass">
+      <label for="edit-pass" class="js-form-required form-required">Password</label>
+        <input data-drupal-selector="edit-pass" type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" required="required" aria-required="true" />
 
-        Support UIC
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Support UIC menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Support UIC menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-3503">
-                <a 
-                  class="menu-main__second-link"
-                  href="https://engineeringalumni.uic.edu/support-uic-college-engineering/"
-                  target="_blank">
-
-                  Donate Online
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3542">
-                <a 
-                  class="menu-main__second-link"
-                  href="/support/how-to-give/"
-                  target="_self">
-
-                  How to Give
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3545">
-                <a 
-                  class="menu-main__second-link"
-                  href="/support/help-students/"
-                  target="_self">
-
-                  Help Students
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3544">
-                <a 
-                  class="menu-main__second-link"
-                  href="/support/empower-faculty/"
-                  target="_self">
-
-                  Empower Faculty
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3546">
-                <a 
-                  class="menu-main__second-link"
-                  href="/support/invest-in-capital-projects/"
-                  target="_self">
-
-                  Capital Projects
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
         </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-199 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/about/"
-        target="_self">
+<input autocomplete="off" data-drupal-selector="form-g-eabycaupbbqcgv6hz1ikqurx7liuk3f1vzp3sieey" type="hidden" name="form_build_id" value="form-G-EAbYcaupBBQCGv6hz1iKqurx7LIUK3F1Vzp3SieeY" />
+<input data-drupal-selector="edit-user-login-form" type="hidden" name="form_id" value="user_login_form" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Log in" class="button js-form-submit form-submit" />
+</div>
 
-        About
-      </a>
+</form>
+<ul><li><a href="/user/password" title="Send password reset instructions via email." class="request-password-link">Reset your password</a></li></ul>
+  </div>
+<nav role="navigation" aria-labelledby="block-user-3-menu" id="block-user-3" class="settings-tray-editable" data-drupal-settingstray="editable">
+            
+  <h2 class="visually-hidden" id="block-user-3-menu">Tools</h2>
+  
 
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand About menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand About menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1950">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/dean/"
-                  target="_self">
-
-                  Dean
-                </a>
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/join">Not a member? Click here!</a>
               </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-200 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/faculty/"
-                  target="_self">
+        </ul>
+  
 
-                  Faculty
-                </a>
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-menu-menu" id="block-menu" class="settings-tray-editable" data-drupal-settingstray="editable">
+      
+  <h2 id="block-menu-menu">ACM Menu</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/about">About</a>
               </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1757">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/administration/"
-                  target="_self">
-
-                  Administration
-                </a>
+                <li class="menu-item">
+        <a href="/officers" title="View the current ACM officers">Officers</a>
               </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-214">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/staff/"
-                  target="_self">
-
-                  Staff
-                </a>
+                <li class="menu-item">
+        <a href="/bylaws">ACM Constitution</a>
               </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-173">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/alumni/"
-                  target="_self">
-
-                  Alumni
-                </a>
+                <li class="menu-item">
+        <a href="/policies">Office Policies</a>
               </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-213">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/advisoryboard/"
-                  target="_self">
-
-                  Advisory Board
-                </a>
+                <li class="menu-item">
+        <a href="/members">Members</a>
               </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1591 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/facilities/"
-                  target="_self">
+        </ul>
+  
 
-                  Facilities
-                </a>
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-menu-1-menu" id="block-menu-1" class="settings-tray-editable" data-drupal-settingstray="editable">
+      
+  <h2 id="block-menu-1-menu">SIGs - Active</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/sigai" title="SIG AI">SIG AI</a>
               </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1898">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/uic-engineering-summer-camp/"
-                  target="_self">
-
-                  Summer Camp
-                </a>
+                <li class="menu-item">
+        <a href="/SIGAlgoTrading">SIG AlgoTrading</a>
               </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-212 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/coe-news/"
-                  target="_self">
-
-                  News
-                </a>
+                <li class="menu-item">
+        <a href="/sigblockchain">SIG BlockChain</a>
               </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-201">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/contact/"
-                  target="_self">
-
-                  Contact
-                </a>
+                <li class="menu-item">
+        <a href="/sig-game">SIG Game</a>
               </li>
-                      </ul>
+                <li class="menu-item">
+        <a href="/sigmathcoding">SIG Math Coding</a>
+              </li>
+                <li class="menu-item">
+        <a href="/sigsysadmin">SIG SysAdmin</a>
+              </li>
+                <li class="menu-item">
+        <a href="/sigwindows">SIG Windows</a>
+              </li>
+        </ul>
+  
 
-          <div class="menu-main__mega-menu-container">
-                      </div>
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-menu-20-menu" id="block-menu-20" class="settings-tray-editable" data-drupal-settingstray="editable">
+      
+  <h2 id="block-menu-20-menu">SIGs - Defunct</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/sigapp">SIG App</a>
+              </li>
+                <li class="menu-item">
+        <a href="/sig-android">SIG Android</a>
+              </li>
+                <li class="menu-item">
+        <a href="/sigbuild">SIG Build</a>
+              </li>
+                <li class="menu-item">
+        <a href="/sigcompete">SIG Compete</a>
+              </li>
+                <li class="menu-item">
+        <a href="/sigsecurity">SIG Security</a>
+              </li>
+                <li class="menu-item">
+        <a href="/sigcode">SIG Code</a>
+              </li>
+                <li class="menu-item">
+        <a href="/sigmedtech">SIG MedTech</a>
+              </li>
+                <li class="menu-item">
+        <a href="/sigsudo">SIG Sudo</a>
+              </li>
+                <li class="menu-item">
+        <a href="/sighci">SIG HCI</a>
+              </li>
+                <li class="menu-item">
+        <a href="/sigmicro">SIG Micro</a>
+              </li>
+                <li class="menu-item">
+        <a href="/sigux">SIG UX</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/sigweb">LUG Web</a>
+              </li>
+                <li class="menu-item">
+        <a href="/sigpwn">SIG Pwn</a>
+              </li>
+                <li class="menu-item">
+        <a href="/sigcodereview">SIG Code Review</a>
+              </li>
+                <li class="menu-item">
+        <a href="/sigopen">SIG Open</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+          </div>
         </div>
-          </li>
-  </ul>
+            <!---End Right SideBar -->
 
-  <div class="l-eyebrow">
+      <!--- Start content -->
+              <div class="content_layout">
+          <div class=col-md-6>
+              <div class="region region-content">
+    <div id="block-drupal8-zymphonies-theme-content" class="block block-system block-system-main-block">
+  
+      <h2></h2>
+    
+      <div class="views-element-container"><div class="js-view-dom-id-215bd431da34255b03e0e5b0dde8ce04979633e7bc7eae75c9c5786b045a8535">
+  
+  
+  
 
-    <h2 class="assistive-text">Eyebrow menu</h2>
-    <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
-            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-3504">
-            <a  href="https://engineeringalumni.uic.edu/support-uic-college-engineering/" target="_blank">Give</a>
-        </li>
-            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-187">
-            <a  href="http://ecc.uic.edu" target="_blank">Careers</a>
-        </li>
-            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1621">
-            <a  href="https://engineeringalumni.uic.edu" target="_blank">Alumni</a>
-        </li>
-    </ul>
+  
+  
+  
 
-    <h2 class="assistive-text">UIC menu</h2>
-    <ul class="menu-uic">
-      <li class="_item">
-    <a href="http://uic.edu">UIC.edu</a>
-  </li>
-  <li class="_item">
-    <a href="http://maps.uic.edu/">Campus Map</a>
-  </li>
+      <div class="views-row">
+    
+<article data-history-node-id="364" role="article" about="/node/364" class="node node--type-story node--promoted node--view-mode-teaser">
+
+  
+      <h2>
+      <a href="/node/364" rel="bookmark"><span>ACM General Body Meeting Recap - January 23, 2020</span>
+</a>
+    </h2>
+    
+
+      <footer class="comment-submitted">
+      <div class="node__submitted">
+        Submitted by <span><span lang="" about="/user/1" typeof="schema:Person" property="schema:name" datatype="">acmadmin</span></span>
+ on <span>Fri, 01/24/2020 - 10:54</span>
+        
+      </div>
+    </footer>
+  
+  <div class="node__content">
+    
+            <div><p>Thanks to everyone who came to our first general body meeting of Spring 2020!</p>
+
+<p>The slides can be found here: <a href="https://bit.ly/36oTglw">https://bit.ly/36oTglw</a></p>
+
+<p><strong>To recap</strong>:</p>
+
+<p>New SIG: SIG WebDev<br />
+Revived SIG: SIG Build</p>
+
+<p>Upcoming events include:</p>
+
+<ul>
+	<li><strong>Optum Info Session, January 30 5PM</strong></li>
 </ul>
 
+<p>Join our Slack channel <a href="https://uicacm.slack.com/signup">here</a>, and our mailing list <a href="https://acm.cs.uic.edu/mailsignup">here</a>.</p>
 
+<p>SIG meetings start this week! See the <a href="https://acm.cs.uic.edu/calendar">calendar</a> for meeting times.</p>
 
-    <div aria-label="Primary" role="search" class="search-wrapper">
+<p>We realized that not everyone was able to sign up today. Fear not — you have more time to sign up by dropping by the ACM Office SELE 2264 and talking to one of the officers(President, Vice-president, or Treasurer). Please be sure to fill out the <a href="https://acm.cs.uic.edu/join">ACM application form</a> <strong>in addition</strong> to the payment dues.</p>
 
-      <button id="search" class="search-toggle">
-        <span class="icon-search ">
-          <span class="assistive-text">Search</span>
-        </span>
-      </button>
+<p>Thanks again, and hope to see you all again soon!</p>
 
-      <div class="search-input-container">
-        <div class="search-input-container__form">
-          <form method="get" action="/search" >
-            <input type="text" name="q" class="search-input" placeholder="Search..." tabindex="-1" aria-label="Search" disabled="">
-            <input type="submit" class="submit-button" name="search" value="Submit">
-          </form>
-        </div>
-      </div>
-
-    </div>
-
-
+<p>Bharat Middha<br />
+President</p></div>
+      <ul class="links inline"><li class="node-readmore"><a href="/node/364" rel="tag" title="ACM General Body Meeting Recap - January 23, 2020" hreflang="en">Read more<span class="visually-hidden"> about ACM General Body Meeting Recap - January 23, 2020</span></a></li><li class="comment-forbidden"><a href="/user/login?destination=/comment/reply/node/364/comment_node_story%23comment-form">Log in</a> to post comments</li></ul>
   </div>
 
+</article>
 
-</nav>
-        </div>
-    </div>
-
-    
   </div>
-
+    <div class="views-row">
     
-        
-</header>
-
-    <main id="main" class="l-content-wrapper" role="main">
-
-      
-                
-	      
-      <div class="l-full">
-
-        <div class="l-content ">
-
-          
-                                        
-          <article class="post-type-news" id="article">
-            
-      <div class="intro-text">
-
-                      <h1 class="_title post-title">Recreating embryonic conditions at break sites can help bones heal faster</h1>
-              
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">Sharon Parmet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>June 06, 2019</strong></span>
-    </div>
-              </div>
-        
-              
-    
-        
-  </div>
-
-    <div class="components">
+<article data-history-node-id="363" role="article" about="/node/363" class="node node--type-story node--promoted node--view-mode-teaser">
 
   
-    
-      
-
-<section class="component  ">
-
-  
-  <div class="component-text-block">
-  
-    <div class="component-description">
-                    <h2 id="recreating-embryonic-conditions-at-break-sites-can-help-bones-heal-faster" class="__title invisible">Recreating embryonic conditions at break sites can help bones heal faster</h2>
-                    </div>
-
-  
-  <p>Researchers at the University of Illinois at Chicago and the University of Pennsylvania have developed a unique technique that uses stem cells and flexible implantable bone-stabilizing plates to help speed the healing of large breaks or defects.</p>
-<p>The technique allows the stem cells applied to break sites to experience some mechanical stress, as they do in developing embryos. These forces may help encourage stem cells to differentiate into cartilage and bone, as well as encourage other cells in the bone to regenerate.</p>
-<p>Their findings are <a href="https://stm.sciencemag.org/content/11/495/eaav7756">reported</a> in the journal Science Translational Medicine.</p>
-<p>Stem cells need environmental cues to differentiate into cells that make up unique tissues. Stem cells that give rise to bone and cartilage are subject to mechanical forces during development and healing, explained Eben Alsberg, the Richard and Loan Hill Professor of Bioengineering and Orthopaedics at the University of Illinois at Chicago and a senior author on the paper.</p>
-<p>When a bone heals, stem cells in the marrow near the break site first become cartilage cells and later bone cells — ultimately knitting together the break. When there are large gaps between broken or deformed bones, applying additional stem cells to break sites can help bones heal faster by either actively participating in the regenerative process or stimulating bone formation by neighboring cells.</p>
-<p>But to use stem cells for bone regeneration, they need to be delivered to the defect site and differentiate appropriately to stimulate repair.</p>
-<p>Alsberg and colleagues developed a unique preparation of the cells that can be handled and manipulated easily for implantation and that supports the cellular differentiation events that occur in embryonic bone development.</p>
-<p>In Alsberg’s preparation, stem cells are cultured so that they link to each other to form either sheets or plugs. The preparation also contains gelatin microparticles loaded with growth factors that help the stem cells differentiate. These sheets or plugs can be manipulated and implanted and reduce the tendency for cells to drift away. Alsberg calls these materials “condensates.”</p>
-<p>In previous studies, Alsberg and colleagues used condensates in a rodent model to help heal bone defects in the skull. They saw that the condensates stayed in place and were able to improve the rate and extent of bone regeneration.</p>
-<p>More recently, Alsberg teamed up with Joel Boerckel, assistant professor of orthopedic surgery and bioengineering at Penn Medicine and a senior author on the paper, to take the idea one step further.</p>
-<p>Boerckel has developed a unique, flexible “fixator.” Fixators, as they are known to orthopedic surgeons, usually are stiff metal plates or bars that are used to stabilize bones at break sites. These kinds of fixators minimize the amount of mechanical stress breaks experience as they are healing.</p>
-<p>Boerckel’s flexible fixator would allow the cells in Alsberg’s condensates to experience the compressive forces that are critical for stimulating enhanced cartilage and bone formation.</p>
-<p>The researchers used a rat model to determine how the mechanical forces present within bone defects affected the ability of condensates to contribute to bone regeneration. When the researchers used condensate sheets together with a flexible fixator in rats with a defect in their femur, they saw that there was enhanced healing and the bones had better mechanical function compared with control rats that received condensates and stiff, traditional fixators.</p>
-<p>“Devices and techniques we develop out of this research could also influence the way we implement physical therapy after injury,” Boerckel said. “Our findings support the emerging paradigm of ‘regenerative rehabilitation,’ a concept that marries principles from physical therapy and regenerative medicine. Our goals are to understand how mechanical stimuli influence cell behavior to better impact patient outcomes without additional drugs or devices.”</p>
-<p>Anna McDermott, Devon Mason and Joseph Collins of the University of Pennsylvania; Samuel Herberg and Rui Tang of Case Western Reserve University; Hope Pearson and James Dawahare of the University of Notre Dame; Amit Patwa and Mark Grinstaff of Boston University, and Daniel Kelly of Trinity College Dublin are co-authors on the paper.</p>
-<p>This research was supported by the Naughton Foundation; the Indiana Clinical and Translational Sciences Institute grant 16SDG31230034; the National Science Foundation grant 1435467; National Institute of Arthritis and Musculoskeletal and Skin Diseases grants R01 AR066193, R01 AR063194, and R01 AR069564; National Institute of Biomedical Imaging &amp; Bioengineering grant R01 EB023907; National Institute of Dental and Craniofacial Research grant 5F32DE024712; National Heart, Lung, and Blood Institute award T3HL134622, and Ohio Biomedical Research Commercialization Program award TECG20150782.</p>
-
-
-
-  
-</div>
-
-  
-</section>
-
-    
-
-</div>
-
-    
-              </article>
-        </div>
-
-                                            
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-
-
-          
-                          </div>
-    </main>
-
-    
-        <footer id="footer" class="footer u-dark-region" role="contentinfo">
-
-  <div class="footer-contact">
-    <div class="l-full">
-
-          <div class="mega-footer-contact">
-
-    <div class="mega-footer-contact__brand mega-footer-contact__brand--wordmark">
-        <div class="footer-logo">
-                        <div class="footer-logo__wordmark-wrapper">
-                <div class="uic-wordmark -large uic-wordmark--mega-footer">
-
-  <div class="_mark">
-    <a href="http://uic.edu" class="uic-logo-icon ">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
+      <h2>
+      <a href="/node/363" rel="bookmark"><span>ACM General Body Meeting Recap - September 9, 2019</span>
 </a>
-  </div>
-
-  <div class="_text">
-    <a href="https://engineering.uic.edu">
-                  <span class="_line">College of</span>
-              <span class="_line">Engineering</span>
-              </a>
-  </div>
-
-</div>
-            </div>
-            </div>
-    </div>
-
-  <div class="mega-footer-contact__menus">
-
+    </h2>
     
+
+      <footer class="comment-submitted">
+      <div class="node__submitted">
+        Submitted by <span><span lang="" about="/user/1" typeof="schema:Person" property="schema:name" datatype="">acmadmin</span></span>
+ on <span>Mon, 09/09/2019 - 18:30</span>
+        
+      </div>
+    </footer>
+  
+  <div class="node__content">
     
+            <div><p>Thanks to everyone who came to our first general body meeting of Fall 2019!</p>
+
+<p>The slides can be found here: <span class="c-message__body" data-qa="message-text" dir="auto"><a class="c-link" href="https://docs.google.com/presentation/d/126riQDUyUtpocNoAefq9lh8r-1Xp-D9k-MSFpysY7WM/#slide=id.g611538f38f_0_812" rel="noopener noreferrer" target="_blank">https://tinyurl.com/y33xwnpf</a></span></p>
+
+<p><strong>To recap</strong>:</p>
+
+<p>If you want to come to Reflections|Projections, apply here:  <meta charset="utf-8" /><a href="https://forms.gle/stqyagUwbBehMZ1y7">https://forms.gle/stqyagUwbBehMZ1y7 </a>AND here: <a href="https://acmrp.typeform.com/to/Ujm2Vf">https://acmrp.typeform.com/to/Ujm2Vf</a> by <strong>Tuesday, September 10th</strong>.</p>
+
+<p>Upcoming events include:</p>
+
+<ul>
+	<li><strong>Wolverine Trading Tech Talk</strong> on <strong>Tuesday, September 17th</strong>, in the CS Lounge(<strong>SELE 2268</strong>) at <strong>5pm</strong>.</li>
+	<li><strong>Dare Mighty Things, October 26-27</strong></li>
+	<li><strong>CyberForce Competition, November 15-16 </strong>(Quiz required. See Bharat for additional details. Signups close this week!)</li>
+</ul>
+
+<p>Join our Slack channel <a href="https://uicacm.slack.com/signup">here</a>, and our mailing list <a href="https://acm.cs.uic.edu/mailsignup">here</a>.</p>
+
+<p>SIG meetings start this week! See the <a href="https://acm.cs.uic.edu/calendar">calendar</a> for meeting times.</p>
+
+<p>We realized that not everyone was able to sign up today. Fear not — you have more time to sign up by dropping by the ACM Office SELE 2262 and talking to one of the officers(President, Vice-president, or Treasurer). Please be sure to fill out the <a href="https://forms.gle/uqvLYsXNsHtGLznZ9">ACM application form</a> <strong>in addition</strong> to the payment dues.</p>
+
+<p>If you want to sign up for Reflections|Projections 2019, on our google form just say you are an ACM member. As long as you sign up within the week, you will be within the grace period.</p>
+
+<p>Thanks again, and hope to see you all again soon!</p>
+
+<p>Chase Lee<br />
+ACM Alumni</p>
+</div>
+      <ul class="links inline"><li class="node-readmore"><a href="/node/363" rel="tag" title="ACM General Body Meeting Recap - September 9, 2019" hreflang="en">Read more<span class="visually-hidden"> about ACM General Body Meeting Recap - September 9, 2019</span></a></li><li class="comment-forbidden"><a href="/user/login?destination=/comment/reply/node/363/comment_node_story%23comment-form">Log in</a> to post comments</li></ul>
   </div>
 
-  <div class="mega-footer-contact__contact">
+</article>
 
-    <div class="_contact">
-      <h2>Contact</h2>
-      <div class="site-contact-container">  <div class="site-unit-name"><h3>College of Engineering</h3></div>
-      <div class="site-address">851 S. Morgan St., MC 159, Chicago, IL 60607</div>
-      <div class="site-phone">Phone: <a  href="tel:(312) 996-3463">(312) 996-3463</a></div>
-        <div class="site-email"><a  href="mailto:uic-engr@uic.edu">uic-engr@uic.edu</a></div>
+  </div>
+    <div class="views-row">
+    
+<article data-history-node-id="362" role="article" about="/node/362" class="node node--type-story node--promoted node--view-mode-teaser">
+
+  
+      <h2>
+      <a href="/node/362" rel="bookmark"><span>Unexpected Downtime - June 8-9, 2019</span>
+</a>
+    </h2>
+    
+
+      <footer class="comment-submitted">
+      <div class="node__submitted">
+        Submitted by <span><span lang="" about="/user/59" typeof="schema:Person" property="schema:name" datatype="">clee231</span></span>
+ on <span>Sun, 06/09/2019 - 22:34</span>
+        
+      </div>
+    </footer>
+  
+  <div class="node__content">
+    
+            <div><p>On June 8, 2019 around 9:58 PM, SELE experienced a partial power loss. As a result, ACM services were unavailable for the weekend.  All outbound services were affected.  Service has since been restored (Around June 9, 2019 at 10:00PM.)</p>
+
+<p>ACM System administrators apologize for any inconvenience.</p>
+
+<p>If you have any questions, please let an ACM/LUG SysAdmin know by emailing sig-sysadmin [at] acm.cs.uic.edu or by messaging the #sig-sysadmin channel on Slack.</p>
+
+<p>Regards,<br />
+Chase Lee<br />
+Alumni Systems Administrator</p></div>
+      <ul class="links inline"><li class="node-readmore"><a href="/node/362" rel="tag" title="Unexpected Downtime - June 8-9, 2019" hreflang="en">Read more<span class="visually-hidden"> about Unexpected Downtime - June 8-9, 2019</span></a></li><li class="comment-forbidden"><a href="/user/login?destination=/comment/reply/node/362/comment_node_story%23comment-form">Log in</a> to post comments</li></ul>
+  </div>
+
+</article>
+
+  </div>
+    <div class="views-row">
+    
+<article data-history-node-id="361" role="article" about="/node/361" class="node node--type-story node--promoted node--view-mode-teaser">
+
+  
+      <h2>
+      <a href="/node/361" rel="bookmark"><span>Downtime Notice</span>
+</a>
+    </h2>
+    
+
+      <footer class="comment-submitted">
+      <div class="node__submitted">
+        Submitted by <span><span lang="" about="/user/273" typeof="schema:Person" property="schema:name" datatype="">bmiddha</span></span>
+ on <span>Fri, 05/24/2019 - 15:59</span>
+        
+      </div>
+    </footer>
+  
+  <div class="node__content">
+    
+            <div><p>Hello,</p>
+
+<p>Starting on Friday, May 31st from 10:00 PM until 6:00 AM on June 1st, a power outage is planned by facilities. Services hosted at our office and server room will be unavailable.</p>
+
+<p>Affected services:</p>
+
+<p>Everything plugged into a wall outlet.</p>
+
+<p>If you have any questions, please let an ACM SysAdmin know by emailing sig-sysadmin [at] acm.cs.uic.edu or by messaging the #sig-sysadmin channel on Slack.</p>
+
+<p>Regards,<br />
+Bharat Middha<br />
+President | Systems Administrator</p></div>
+      <ul class="links inline"><li class="node-readmore"><a href="/node/361" rel="tag" title="Downtime Notice" hreflang="en">Read more<span class="visually-hidden"> about Downtime Notice</span></a></li><li class="comment-forbidden"><a href="/user/login?destination=/comment/reply/node/361/comment_node_story%23comment-form">Log in</a> to post comments</li></ul>
+  </div>
+
+</article>
+
+  </div>
+    <div class="views-row">
+    
+<article data-history-node-id="360" role="article" about="/node/360" class="node node--type-story node--promoted node--view-mode-teaser">
+
+  
+      <h2>
+      <a href="/node/360" rel="bookmark"><span>Stump the Profs 2019!</span>
+</a>
+    </h2>
+    
+
+      <footer class="comment-submitted">
+      <div class="node__submitted">
+        Submitted by <span><span lang="" about="/user/260" typeof="schema:Person" property="schema:name" datatype="">aguo7</span></span>
+ on <span>Fri, 04/12/2019 - 13:10</span>
+        
+      </div>
+    </footer>
+  
+  <div class="node__content">
+    
+            <div><p>The Profs won this year and the students weren't able to beat them. Next year for sure!</p>
+
+<p>More photos are found <a href="https://photos.app.goo.gl/GYMQnE2qZkMfSq8JA">here</a></p>
+<img alt="To the victor, spoils" data-entity-type="file" data-entity-uuid="eaa1dbcf-55e5-4537-a4d4-b72bec125f46" src="/sites/default/files/inline-images/IMG_20190410_191140.jpg" class="align-center" />
+<p> </p></div>
+      <ul class="links inline"><li class="node-readmore"><a href="/node/360" rel="tag" title="Stump the Profs 2019!" hreflang="en">Read more<span class="visually-hidden"> about Stump the Profs 2019!</span></a></li><li class="comment-forbidden"><a href="/user/login?destination=/comment/reply/node/360/comment_node_story%23comment-form">Log in</a> to post comments</li></ul>
+  </div>
+
+</article>
+
+  </div>
+    <div class="views-row">
+    
+<article data-history-node-id="359" role="article" about="/node/359" class="node node--type-story node--promoted node--view-mode-teaser">
+
+  
+      <h2>
+      <a href="/node/359" rel="bookmark"><span>Congratulations to the new ACM Officers 2019-2020!</span>
+</a>
+    </h2>
+    
+
+      <footer class="comment-submitted">
+      <div class="node__submitted">
+        Submitted by <span><span lang="" about="/user/273" typeof="schema:Person" property="schema:name" datatype="">bmiddha</span></span>
+ on <span>Thu, 04/11/2019 - 22:00</span>
+        
+      </div>
+    </footer>
+  
+  <div class="node__content">
+    
+            <div><p><span>Congratulations</span> to these people who have been elected to their respective positions for the ACM 2019-2020 term!</p>
+
+<p><strong>President:</strong> Bharat Middha<br />
+<strong>Vice President:</strong> Michelle Nguyen<br />
+<strong>Treasurer:</strong> Srishti Pyasi</p>
+
+<p>Regards,<br />
+Bharat Middha<br />
+ACM/LUG Systems Administrator</p></div>
+      <ul class="links inline"><li class="node-readmore"><a href="/node/359" rel="tag" title="Congratulations to the new ACM Officers 2019-2020!" hreflang="en">Read more<span class="visually-hidden"> about Congratulations to the new ACM Officers 2019-2020!</span></a></li><li class="comment-forbidden"><a href="/user/login?destination=/comment/reply/node/359/comment_node_story%23comment-form">Log in</a> to post comments</li></ul>
+  </div>
+
+</article>
+
+  </div>
+    <div class="views-row">
+    
+<article data-history-node-id="358" role="article" about="/node/358" class="node node--type-story node--promoted node--view-mode-teaser">
+
+  
+      <h2>
+      <a href="/node/358" rel="bookmark"><span>Spring 2019 General Body Meeting</span>
+</a>
+    </h2>
+    
+
+      <footer class="comment-submitted">
+      <div class="node__submitted">
+        Submitted by <span><span lang="" about="/user/237" typeof="schema:Person" property="schema:name" datatype="">wtoher</span></span>
+ on <span>Wed, 02/06/2019 - 09:08</span>
+        
+      </div>
+    </footer>
+  
+  <div class="node__content">
+    
+            <div><p>Thanks to everyone who came out to our first General Body Meeting of Spring 2019! The slides are <a href="https://drive.google.com/open?id=13roL0qR_Mbxu_JmE2Vr39JlMa5bzrXME">here</a>.</p>
+
+<p>SIG meetings are starting up this week and next, check when we're meeting on our calendar: <a href="https://acm.cs.uic.edu/cal">https://acm.cs.uic.edu/cal!</a></p></div>
+      <ul class="links inline"><li class="node-readmore"><a href="/node/358" rel="tag" title="Spring 2019 General Body Meeting" hreflang="en">Read more<span class="visually-hidden"> about Spring 2019 General Body Meeting</span></a></li><li class="comment-forbidden"><a href="/user/login?destination=/comment/reply/node/358/comment_node_story%23comment-form">Log in</a> to post comments</li></ul>
+  </div>
+
+</article>
+
+  </div>
+    <div class="views-row">
+    
+<article data-history-node-id="357" role="article" about="/node/357" class="node node--type-story node--promoted node--view-mode-teaser">
+
+  
+      <h2>
+      <a href="/node/357" rel="bookmark"><span>Downtime Notice - Winter Break 2018</span>
+</a>
+    </h2>
+    
+
+      <footer class="comment-submitted">
+      <div class="node__submitted">
+        Submitted by <span><span lang="" about="/user/59" typeof="schema:Person" property="schema:name" datatype="">clee231</span></span>
+ on <span>Thu, 12/20/2018 - 20:00</span>
+        
+      </div>
+    </footer>
+  
+  <div class="node__content">
+    
+            <div><p>Hello,</p>
+
+<p>Starting on <strong>December 20, 2018</strong> around <strong>8:00PM</strong>, main authentication servers for ACM website are going down for maintenance. This service is expected to be down for the majority of the Winter Break as SysAdmins upgrade and update servers/services.</p>
+
+<p>Affected services:</p>
+
+<ul>
+	<li>AD Authentication</li>
+	<li>ACM services requiring ACM usernames</li>
+</ul>
+
+<p>Further updates will be posted here as more services stabilize.</p>
+
+<p>If you have any questions, please let an ACM/LUG SysAdmin know by emailing sig-sysadmin [at] acm.cs.uic.edu or by messaging the #sig-sysadmin channel on Slack.</p>
+
+<p>Regards,<br />
+Chase Lee<br />
+Alumni Systems Administrator</p></div>
+      <ul class="links inline"><li class="node-readmore"><a href="/node/357" rel="tag" title="Downtime Notice - Winter Break 2018" hreflang="en">Read more<span class="visually-hidden"> about Downtime Notice - Winter Break 2018</span></a></li><li class="comment-forbidden"><a href="/user/login?destination=/comment/reply/node/357/comment_node_story%23comment-form">Log in</a> to post comments</li></ul>
+  </div>
+
+</article>
+
+  </div>
+    <div class="views-row">
+    
+<article data-history-node-id="356" role="article" about="/node/356" class="node node--type-story node--promoted node--view-mode-teaser">
+
+  
+      <h2>
+      <a href="/node/356" rel="bookmark"><span>Downtime Notice - November 3-4, 2018</span>
+</a>
+    </h2>
+    
+
+      <footer class="comment-submitted">
+      <div class="node__submitted">
+        Submitted by <span><span lang="" about="/user/237" typeof="schema:Person" property="schema:name" datatype="">wtoher</span></span>
+ on <span>Tue, 10/30/2018 - 23:07</span>
+        
+      </div>
+    </footer>
+  
+  <div class="node__content">
+    
+            <div><p>ACM Servers and Network will be going down for maintenance on November 3, 2018 and November 4, 2018. Services are expected to return no later than November 5, 2018 @ 6:00am CDT. Sysadmins will be performing critical maintenance.</p>
+
+<p>Please contact ACM/LUG Systems Administrator Bharat Middha with any questions or concerns.</p>
+
+<p> </p></div>
+      <ul class="links inline"><li class="node-readmore"><a href="/node/356" rel="tag" title="Downtime Notice - November 3-4, 2018" hreflang="en">Read more<span class="visually-hidden"> about Downtime Notice - November 3-4, 2018</span></a></li><li class="comment-forbidden"><a href="/user/login?destination=/comment/reply/node/356/comment_node_story%23comment-form">Log in</a> to post comments</li></ul>
+  </div>
+
+</article>
+
+  </div>
+    <div class="views-row">
+    
+<article data-history-node-id="354" role="article" about="/node/354" class="node node--type-story node--promoted node--view-mode-teaser">
+
+  
+      <h2>
+      <a href="/node/354" rel="bookmark"><span>[UPDATED] Downtime Notice: acm.cs.uic.edu [September 27, 2018]</span>
+</a>
+    </h2>
+    
+
+      <footer class="comment-submitted">
+      <div class="node__submitted">
+        Submitted by <span><span lang="" about="/user/59" typeof="schema:Person" property="schema:name" datatype="">clee231</span></span>
+ on <span>Fri, 09/28/2018 - 00:40</span>
+        
+      </div>
+    </footer>
+  
+  <div class="node__content">
+    
+            <div><div class="quickedit-field" data-quickedit-field-id="node/353/body/en/full" property="schema:text">
+<p>Hello,</p>
+
+<p>On September 27, 2018 around 3:00PM, an unforeseen change caused the main acm.cs.uic.edu website to become inaccessible/slow. </p>
+
+<p>Affected services:</p>
+
+<ul>
+	<li>The website: acm.cs.uic.edu.</li>
+	<li>ACM Email may be delayed.</li>
+</ul>
+
+<p><strong>At this time, acm.cs.uic.edu and related services should be back up.</strong>  A recent change by ACCC caused routing to be treated differently, causing some traffic to be routed out of incorrect interfaces.  These issues has since been resolved.</p>
+
+<p>If you have any questions, please let an ACM/LUG SysAdmin know by emailing sig-sysadmin [at] acm.cs.uic.edu or by messaging the #sig-sysadmin channel on Slack.</p>
+
+<p>Sorry for the inconvenience,<br />
+Chase Lee<br />
+Alumni Systems Administrator</p>
 </div>
-      <div class="site-contact-container">        </div>
-    </div>
+</div>
+      <ul class="links inline"><li class="node-readmore"><a href="/node/354" rel="tag" title="[UPDATED] Downtime Notice: acm.cs.uic.edu [September 27, 2018]" hreflang="en">Read more<span class="visually-hidden"> about [UPDATED] Downtime Notice: acm.cs.uic.edu [September 27, 2018]</span></a></li><li class="comment-forbidden"><a href="/user/login?destination=/comment/reply/node/354/comment_node_story%23comment-form">Log in</a> to post comments</li></ul>
+  </div>
 
-    <div class="mega-footer-contact__site-social-links">
-       <div aria-label="Social Media Accounts" class="site-social-links">
-  <h2 class="site-social-links__header assistive-text">Social Media Accounts</h2>
-  <ul class="site-social-links__list">
-        <li class="site-social-links__list-item"><a  class="site-social-links__link facebook" href="https://www.facebook.com/engineering.uic/">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Facebook"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>
-    </a></li>
-            <li class="site-social-links__list-item"><a  class="site-social-links__link linkedin" href="https://www.linkedin.com/school/24767499/">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="LinkedIn"><title>LinkedIn</title><path d="M9 27h3.836V14.212H9V27zm2.4-19c-.67 0-1.24.24-1.704.712C9.234 9.185 9 9.77 9 10.452c0 .684.234 1.27.696 1.742.463.472 1.035.712 1.703.712.667 0 1.24-.24 1.702-.712.463-.473.697-1.058.697-1.74 0-.684-.235-1.27-.698-1.742C12.64 8.24 12.067 8 11.4 8zm15.025 7.18c-.934-.997-2.107-1.503-3.485-1.503-1.064 0-2.053.343-2.95 1.02v-.816H15.77V27h4.223v-7.262c0-.832.2-1.434.61-1.84.41-.408.88-.608 1.43-.608.732 0 1.573.268 1.573 2.357V27h4.222v-7.875c0-1.627-.47-2.954-1.4-3.946z" /></svg>
-    </a></li>
-            <li class="site-social-links__list-item"><a  class="site-social-links__link twitter" href="https://twitter.com/UICEngineering">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Twitter"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>
-    </a></li>
-            <li class="site-social-links__list-item"><a  class="site-social-links__link instagram" href="https://www.instagram.com/uicengineering/">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Instagram"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>
-    </a></li>
-            <li class="site-social-links__list-item"><a  class="site-social-links__link youtube" href="https://www.youtube.com/user/uicengineering">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Youtube"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>
-    </a></li>
+</article>
+
+  </div>
+
+      <nav class="pager" role="navigation" aria-labelledby="pagination-heading">
+    <h4 id="pagination-heading" class="visually-hidden">Pagination</h4>
+    <ul class="pager__items js-pager__items">
+                                                        <li class="pager__item is-active">
+                                          <a href="?page=0" title="Current page">
+            <span class="visually-hidden">
+              Current page
+            </span>1</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=1" title="Go to page 2">
+            <span class="visually-hidden">
+              Page
+            </span>2</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=2" title="Go to page 3">
+            <span class="visually-hidden">
+              Page
+            </span>3</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=3" title="Go to page 4">
+            <span class="visually-hidden">
+              Page
+            </span>4</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=4" title="Go to page 5">
+            <span class="visually-hidden">
+              Page
+            </span>5</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=5" title="Go to page 6">
+            <span class="visually-hidden">
+              Page
+            </span>6</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=6" title="Go to page 7">
+            <span class="visually-hidden">
+              Page
+            </span>7</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=7" title="Go to page 8">
+            <span class="visually-hidden">
+              Page
+            </span>8</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=8" title="Go to page 9">
+            <span class="visually-hidden">
+              Page
+            </span>9</a>
+        </li>
+                          <li class="pager__item pager__item--ellipsis" role="presentation">&hellip;</li>
+                          <li class="pager__item pager__item--next">
+          <a href="?page=1" title="Go to next page" rel="next">
+            <span class="visually-hidden">Next page</span>
+            <span aria-hidden="true">Next ›</span>
+          </a>
+        </li>
+                          <li class="pager__item pager__item--last">
+          <a href="?page=22" title="Go to last page">
+            <span class="visually-hidden">Last page</span>
+            <span aria-hidden="true">Last »</span>
+          </a>
+        </li>
           </ul>
+  </nav>
+
+
+  
+  
+
+  
+  <a href="https://acm.cs.uic.edu/rss.xml" class="feed-icon">
+  Subscribe to 
+</a>
+
 </div>
-    </div>
+</div>
+
   </div>
-</div>
+
+  </div>
+
+          </div>
+        </div>
+            <!---End content -->
+
+      <!--- Start Right SideBar -->
+              <div class="sidebar">
+          <div class=col-md-3>
+              <div class="region region-sidebar-second">
+    <div class="search-block-form settings-tray-editable block block-search" data-drupal-selector="search-block-form" id="block-search" role="search" data-drupal-settingstray="editable">
+  
     
+      <form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Search</label>
+        <input title="Enter the terms you wish to search for." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--2"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit--2" value="Search" class="button js-form-submit form-submit" />
+</div>
+
+</form>
+
+  </div>
+<nav role="navigation" aria-labelledby="block-menu-2-menu" id="block-menu-2" class="settings-tray-editable" data-drupal-settingstray="editable">
+      
+  <h2 id="block-menu-2-menu">ACM Tools</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/calendar" title="The official events calendar of the UIC ACM">Calendar</a>
+              </li>
+                <li class="menu-item">
+        <a href="/mailsignup">Mailing List Signup</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://acm.cs.uic.edu/umpf" title="Use UMPF to navigate your way around the UIC campus">UIC Mega Pathfinder</a>
+              </li>
+                <li class="menu-item">
+        <a href="/uiclinux" title="A list of guides for using Linux at UIC, including wireless and printing.">UIC Linux Guides</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://acm.cs.uic.edu/wiki" title="View the ACM wiki for helpful tips">ACM Wiki</a>
+              </li>
+                <li class="menu-item">
+        <a href="/irc" title="Java web client for the ACM IRC channel">ACM IRC</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://acm.cs.uic.edu/acmmail" title="">ACM Mail</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://acm.cs.uic.edu/git" title="The UIC ACM currently is hosting a Git project hosting and management system for members">ACM Git Project Hosting</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://acm.cs.uic.edu/git/public" title="List of publicly accessible code projects">Public Git Projects</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-menu-19-menu" id="block-menu-19" class="settings-tray-editable" data-drupal-settingstray="editable">
+      
+  <h2 id="block-menu-19-menu">Committees </h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/program">Program Committee</a>
+              </li>
+                <li class="menu-item">
+        <a href="/publicity">Publicity Committee</a>
+              </li>
+                <li class="menu-item">
+        <a href="/membership">Membership Committee</a>
+              </li>
+                <li class="menu-item">
+        <a href="/waysandmeans">Ways and Means Committee</a>
+              </li>
+                <li class="menu-item">
+        <a href="/flourish-committee">Flourish! Committee</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-menu-3-menu" id="block-menu-3" class="settings-tray-editable" data-drupal-settingstray="editable">
+      
+  <h2 id="block-menu-3-menu">Events</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="http://acm.cs.uic.edu/lanparty" title="Learn more about SIG Fun&#039;s LAN party events!">ACM Lan Party</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://flourishconf.com" title="Learn more about UIC&#039;s open source conference ">Flourish</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<div id="block-block" class="settings-tray-editable block block-block-content block-block-contentc807c916-d8b7-4dee-9a44-0de73287198f" data-drupal-settingstray="editable">
+  
+    
+      
+            <div> 
+
+<a href="http://lug.cs.uic.edu"><img src="http://acm.cs.uic.edu/sites/default/files/tux-icons/Tux-G2-LUG-ICONS-FULL_0200_papug.png" width="32" height="32" title="Active Linux Distro PAPUG, distrowatch.com" alt="Active Linux Distro PAPUG, distrowatch.com" onmouseover="this.src='http://acm.cs.uic.edu/sites/default/files/tux-icons/Tux-G2-LUG-ICONS-FULL_0200_papug.png';this.height=193;this.width=201.5" onmouseout="this.src='http://acm.cs.uic.edu/sites/default/files/tux-icons/Tux-G2-LUG-ICONS-FULL_0200_papug.png';this.height=32;this.width=32"></a>
+
+&nbsp;<a href="http://lug.cs.uic.edu/">UIC Linux Users Group</a>
+<div class="social-media" style="float: inherit; margin: 2em auto; text-align: center;">
+<p>Join us on Social Media</p>
+<a href="http://www.facebook.com/pages/UIC-ACM/78488002212" class="facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+<a href="https://twitter.com/uic_acm?lang=en" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+<a href="https://youtube.com/flourishconf" class="google-plus" target="_blank"><i class="fab fa-youtube"></i></a>
+<a href="https://www.instagram.com/uic.acm" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+<a href="https://uicacm.slack.com" class="slack" target="_blank"><i class="fa fa-slack"></i></a>
+<a href="rss.xml" class="rss" target="_blank"><i class="fas fa-rss"></i></a>
+</div>
+<p><a class="gap" href="http://cs.uic.edu"><img src="http://acm.cs.uic.edu/sites/default/files/csdepartment.png" alt="UIC Computer Science Department" title="UIC Computer Science Department" align="middle"></a></p>
+<p><a href="http://engineering.uic.edu"><img src="http://acm.cs.uic.edu/sites/default/files/collegeOfEngineering.png" alt="UIC College of Engineering" title="UIC College of Engineering" align="middle"></a></p>
+<p><a href="http://acm.org/"><img src="http://acm.cs.uic.edu/sites/default/files/acm_logo.gif" height="60" width="202" alt="National ACM" title="National ACM"align="middle"></a></p>
+</div>
+      
+  </div>
+
+  </div>
+
+          </div>
+        </div>
+            <!---End Right SideBar -->
+      
+    </div>
+    <!--End Content -->
+
+    <!--Start Content Bottom-->
+        <!--End Content Bottom-->
+  </div>
+</div>
+<!-- End layout -->
+
+
+<!-- Start Middle Widget -->
+<!--End Top Widget -->
+
+
+<!-- Start bottom -->
+<!--End Bottom -->
+
+
+<!-- start: Footer -->
+<!--End Footer -->
+
+
+<!-- Start Footer Menu -->
+  <div class="footer-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-6">
+          
+        </div>
+                <div class="col-sm-6 col-md-6">
+          <div class="social-media">
+                          <a href="http://www.facebook.com/pages/UIC-ACM/78488002212"  class="facebook" target="_blank" ><i class="fab fa-facebook-f"></i></a>
+                                                  <a href="https://twitter.com/uic_acm?lang=en" class="twitter" target="_blank" ><i class="fab fa-twitter"></i></a>
+                                                              <a href="rss.xml" class="rss" target="_blank" ><i class="fas fa-rss"></i></a>
+                      </div>
+        </div>
+              </div>
     </div>
   </div>
+<!-- End Footer Menu -->
 
-  
-  <div class="footer-uic-menu">
-    <div class="l-full">
 
-      <div aria-label="UIC.edu Links">
-  <h2 class="assistive-text">UIC.edu links</h2>
-  <ul class="uic-footer-menu">
-    <li><strong><a href="https://uic.edu/">UIC.edu</a></strong></li>
-    <li><a href="https://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></li>
-    <li><a href="https://uicflames.com/">Athletics</a></li>
-    <li><a href="https://www.uic.edu/apps/departments-az/search">Campus Directory</a></li>
-    <li><a href="https://disabilityresources.uic.edu/">Disability Resources</a></li>
-    <li><a href="https://emergency.uic.edu/">Emergency Information</a></li>
-    <li><a href="https://today.uic.edu/events">Event Calendar</a></li>
-    <li><a href="https://uic.edu/about/job-opportunities">Job Openings</a></li>
-    <li><a href="https://library.uic.edu/">Library</a></li>
-    <li><a href="https://maps.uic.edu/">Maps</a></li>
-    <li><a href="https://ready.uic.edu/digital-materials/uic-safe-mobile-app/">UIC Safe Mobile App</a></li>
-    <li><a href="https://today.uic.edu/">UIC Today</a></li>
-    <li><a href="https://uihealth.uic.edu/">UI Health</a></li>
-    <li><a href="https://dos.uic.edu/student-veterans-affairs/">Veterans Affairs</a></li>
-  </ul>
-</div>
+<div class="copyright">
+  <div class="container">
+    <div class="row">
 
+      <!-- Copyright -->
+      <div class="col-sm-6 col-md-6">
+                
+          <p>Copyright Association for Computing Machinary at the University of Illinois at Chicago 2018 · All rights reserved</p>        
+              </div>
+      <!-- End Copyright -->
+
+      <!-- Credit link -->
+            <!-- End Credit link -->
+      
     </div>
   </div>
-
-  <div class="footer-legal">
-    <div class="l-full">
-
-      <div class="red-version">Powered by Red 2.38.0</div>
-
-<div class="site-copyright">
-  &copy; 2020 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
-  <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a>
 </div>
 
-<div class="campuses" aria-label="Campuses">
-  <h2 class="assistive-text">Campuses</h2>
-  <ul class="campuses-list">
-    <li><a href="https://www.uillinois.edu/">University of Illinois System</a></li>
-    <li><a href="https://illinois.edu/">Urbana-Champaign</a></li>
-    <li><a href="https://www.uis.edu/">Springfield</a></li>
-  </ul>
-</div>
-<div class="cookie-banner">
-  <div id="footer-bottom">
-    <a class="optanon-show-settings">Cookie Settings</a>
-  </div>
-</div>
-    </div>
+
+<!-- Google map -->
+<!-- End Google map -->
   </div>
 
-</footer>
-
-	    </div>
-
-
-  <!-- Instagram Feed JS -->
-<script type="text/javascript">
-var sbiajaxurl = "https://engineering.uic.edu/wp-admin/admin-ajax.php";
-</script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var sb_instagram_js_options = {"sb_instagram_at":"","font_method":"svg"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://engineering.uic.edu/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.12.1'></script>
-<script type='text/javascript' src='https://engineering.uic.edu/wp-content/plugins/uic-red/js-admin/uic-publish-post-settings.js?ver=1.0.0'></script>
-<script type='text/javascript' src='https://engineering.uic.edu/wp-content/plugins/uic-red/js-admin/acf-field-group-toggle.js?ver=1.0.0'></script>
-<script type='text/javascript' src='//www.uic.edu/apps/web-alert/alert.js?ver=3'></script>
-<script type='text/javascript' src='https://engineering.uic.edu/wp-content/themes/uic-red/js/main.js?ver=1'></script>
-<script type='text/javascript' src='https://engineering.uic.edu/wp-includes/js/wp-embed.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
-
-
-
-  
-  
-  <script async src="https://cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js" type="text/javascript" charset="UTF-8"></script>
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"classy\/node,core\/html5shiv,drupal8_zymphonies_theme\/bootstrap,drupal8_zymphonies_theme\/flexslider,drupal8_zymphonies_theme\/fontawesome,drupal8_zymphonies_theme\/global-components,drupal8_zymphonies_theme\/smartmenus,system\/base,views\/views.module","theme":"drupal8_zymphonies_theme","theme_token":null},"ajaxTrustedUrl":{"\/search\/node":true,"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"user":{"uid":0,"permissionsHash":"1b39ae5714ccda1a0dfd83a91532f3d5ec1f538ad82ec0463e668766a7fa3805"}}</script>
+<script src="/sites/default/files/js/js_bSKGoenEHFq-xgkIaXuurlv2BwEHxa_wtSq7W9vj1cU.js"></script>
 
   </body>
 </html>

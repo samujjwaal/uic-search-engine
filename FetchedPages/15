@@ -1,3163 +1,854 @@
-  
 <!doctype html>
-<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
-<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
-<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js" lang="en-US"> <!--<![endif]-->
+<html xml:lang="en" lang="en" dir="ltr">
 
-    <head>
+<head>
+<title>Academic Calendar &lt; University of Illinois at Chicago</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="search" type="application/opensearchdescription+xml"
+			href="/search/opensearch.xml" title="Catalog" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<link href="/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/fonts/font-awesome/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/handheld.css" media="only screen and (max-width: 767px)" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/lfjs.js"></script>
+<script type="text/javascript" src="/js/lfjs_any.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/lfjs.css" />
+<script type="text/javascript" src="/js/courseleaf.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
 
-<!-- Google Analytics script (RED and this site) -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    
-        ga('create', 'UA-20665772-1', 'auto');
-    
-        ga('create', 'UA-102819527-13', 'auto', 'csTracker');
-    
-        ga('send', 'pageview');
-    
-        ga('csTracker.send', 'pageview');
-      </script>
-<!-- End Google Analytics script (RED and this site) -->
-
-
-
-<!-- Google Tag Manager script for RED multisite -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
-              (window,document,'script','dataLayer','GTM-W2Q8D2K');
-  </script>
-<!-- End Google Tag Manager script for RED multisite -->
-
-
-
-
-
-
-        <title>
-                            Computer Science Department News | Department of Computer Science | University of Illinois at Chicago
-                    </title>
-
-
-
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="pingback" href="https://cs.uic.edu/xmlrpc.php" />
-
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60.png" />
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png" />
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76.png" />
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
-<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
-<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
-<link rel="icon" type="image/png" href="/favicon-128.png" sizes="128x128" />
-<meta name="application-name" content="&nbsp;"/>
-<meta name="msapplication-TileColor" content="#FFFFFF" />
-<meta name="msapplication-TileImage" content="mstile-144x144.png" />
-<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
-<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
-<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
-<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
-
-    <link rel="stylesheet" href="https://cs.uic.edu/wp-content/themes/uic-red/main.css?v=1587475706" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://cs.uic.edu/wp-content/themes/uic-red/theinhardt.css?v=1587475706" type="text/css" media="all">
-
-    <link rel='dns-prefetch' href='//www.uic.edu' />
-<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
-<link rel='dns-prefetch' href='//s.w.org' />
-		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cs.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6"}};
-			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='https://cs.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6' type='text/css' media='all' />
-<link rel='stylesheet' id='sb_instagram_styles-css'  href='https://cs.uic.edu/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.12.1' type='text/css' media='all' />
-<link rel='stylesheet' id='sb-font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='tablepress-default-css'  href='https://cs.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
-<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
-<link rel='https://api.w.org/' href='https://cs.uic.edu/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cs.uic.edu/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cs.uic.edu/wp-includes/wlwmanifest.xml" /> 
-
-<script type="text/javascript">
-(function(url){
-	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
-	var addEvent = function(evt, handler) {
-		if (window.addEventListener) {
-			document.addEventListener(evt, handler, false);
-		} else if (window.attachEvent) {
-			document.attachEvent('on' + evt, handler);
-		}
-	};
-	var removeEvent = function(evt, handler) {
-		if (window.removeEventListener) {
-			document.removeEventListener(evt, handler, false);
-		} else if (window.detachEvent) {
-			document.detachEvent('on' + evt, handler);
-		}
-	};
-	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
-	var logHuman = function() {
-		if (window.wfLogHumanRan) { return; }
-		window.wfLogHumanRan = true;
-		var wfscr = document.createElement('script');
-		wfscr.type = 'text/javascript';
-		wfscr.async = true;
-		wfscr.src = url + '&r=' + Math.random();
-		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
-		for (var i = 0; i < evts.length; i++) {
-			removeEvent(evts[i], logHuman);
-		}
-	};
-	for (var i = 0; i < evts.length; i++) {
-		addEvent(evts[i], logHuman);
-	}
-})('//cs.uic.edu/?wordfence_lh=1&hid=EFC659B29EC89DCC0099E1447DD3329A');
-</script>
 </head>
-      
-  <body>
 
-<!-- Google Tag Manager for RED multisite (noscript) -->
-<noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2Q8D2K" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager for RED multisite (noscript) -->
+
+
+<body>
 
 
 
 
-
-  <div class="l-page page-template page-template-page-templates page-template-news-listing page-template-page-templatesnews-listing-php page page-id-2524 page-parent page-child parent-pageid-562 post-type--news-list  site-type-b theme--navy is-sidebar  ">
-
-
-    <!--[if lte IE 9]>
-<div class="browser-stripe u-dark-region">
-  <div class="l-full">
-      <h2>Your browser is unsupported</h2>
-      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
-  </div>
+<!--htdig_noindex-->
+<div class="accessible noscript">
+    <div class="accessible-menu" role="navigation" aria-label="Accessible Navigation">
+		<ul>
+			<li><a href="#content" rel="section">Skip to Content</a></li>
+			<li><a href="/azindex/">AZ Index</a></li>
+			<li><a href="/">Catalog Home</a></li>
+			<li><a href="http://www.uic.edu">Institution Home</a></li>
+		</ul>
+	</div>
 </div>
-<![endif]-->
-<div class="browser-stripe u-dark-region ie10">
-  <div class="l-full">
-      <h2>Your browser is unsupported</h2>
-      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
-  </div>
-</div>
-    
-<header class="l-header" role="banner">
-
-  
-  <div class="header-navigation">
-
-      <div id="skip" class="skip-menu assistive-text">
-  <p>
-    <span class="_main">
-    <a href="#article">Skip to the content of this page</a>,
-    </span>
-    <a class="_primary-menu" href="#menu-main">the main menu</a>,
-
-        <a class="_secondary-menu" href="#menu-secondary">the secondary menu</a>,
-    
-    
-    <a class="_search" href="#search">the site search form</a>,
-
-    <a class="_home" href="https://cs.uic.edu">the site home page</a>.
-  </p>
-</div>
-
-      <div class="eyebrow-mobile-wrapper js-eyebrow-mobile">
-<div class="eyebrow-mobile">
-            <div class="eyebrow-mobile-logo eyebrow-logo">
-            <a href="http://uic.edu" class="uic-logo-icon eyebrow-mobile-logo__uic-logo">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
-    </div>
-                <div class="site-title-eyebrow-mobile">
-          <a href="https://cs.uic.edu">Department of Computer Science</a>
-        </div>
-    
-    <button aria-label="Search the site" class="search-toggle-mobile js-search-toggle-mobile">
-  <span class="icon-search ">
-        <span class="assistive-text">Search the site</span>
-      </span>
-    </button>
-    <button class="nav-header-toggle js-nav-header-toggle">
-      <span class="icon-menu ">
-      Toggle Menu
-      </span>
-    </button>
-  </div>
-  <div class="search-input-container-mobile">
-    <div class="search-input-container-mobile__content">
-      <div class="search-title">
-        Search
-        <a class="search-close search-toggle-mobile">
-          <svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22">
-            <use xlink:href="https://cs.uic.edu/wp-content/themes/uic-red/images/svgs/svgs.svg#icon-close"></use>
-          </svg>
-        </a>
-      </div>
-      <form method="get" action="/search" role="search" aria-label="Search this site on your mobile device">
-        <input type="text" name="q" class="search-input-mobile" placeholder="Search..." tabindex="-1" aria-label="Search this site on your mobile device" disabled="">
-        <input type="submit" class="submit-button" name="search" value="Submit">
-      </form>
-    </div>
-  </div>
-</div>
-
-    <div class="header-navigation__eyebrow">
-
-                    <div class="header-navigation-logo header-logo">
-                        <a href="http://uic.edu" class="uic-logo-icon header-navigation-logo__uic-logo">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
-            </div>
-                <div class="header-navigation__eyebrow-menus">
-
-            <div class="header-navigation__logo-and-site-title">
-
-                                <div class="site-title-main ">
-                                      <a href="https://cs.uic.edu">Department of Computer Science</a>
-                                    </div>
-              
-            </div>
-          <nav class="header-menus js-header-menus " aria-label="Primary" role="navigation">
-
-  <div class="site-title-mobile-menu">
-    <a href="https://cs.uic.edu">Department of Computer Science</a>
-  </div>
-
-  
-  <h2 class="assistive-text">Main Menu</h2>
-  <ul id="menu-main" class="menu menu-main" aria-label="Main Menu">
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-484 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/undergraduate/"
-        target="_self">
-
-        Undergraduate
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Undergraduate menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Undergraduate menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-617">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/admitted-students/"
-                  target="_self">
-
-                  Admitted Students
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1466">
-                <a 
-                  class="menu-main__second-link"
-                  href="http://engineering.uic.edu/undergraduate-admissions/"
-                  target="_blank">
-
-                  Admissions
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2773">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/abet-accreditation/"
-                  target="_self">
-
-                  Accreditation
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-471">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/cs-major/"
-                  target="_self">
-
-                  CS Major
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1308">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/cs-minor/"
-                  target="_self">
-
-                  CS Minor
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1490">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/undergrad-courses/"
-                  target="_self">
-
-                  Courses
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3193">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/internships-and-jobs/"
-                  target="_self">
-
-                  Internships and Jobs
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1393">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/student-organizations/"
-                  target="_self">
-
-                  Student Groups
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-480">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/student-profiles/"
-                  target="_self">
-
-                  Student Profiles
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-481">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/student-resources/"
-                  target="_self">
-
-                  Student Resources
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3580">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/women/"
-                  target="_self">
-
-                  Women in CS
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1313 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/graduate/"
-        target="_self">
-
-        Graduate
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Graduate menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Graduate menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-470">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/admitted-students/"
-                  target="_self">
-
-                  Admitted Students
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-469 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/admissions/"
-                  target="_self">
-
-                  Admissions
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1578">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/graduate-courses/"
-                  target="_self">
-
-                  Courses
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-472 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/ms-program/"
-                  target="_self">
-
-                  MS Program
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-521 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/phd/"
-                  target="_self">
-
-                  PhD Program
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-538">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/cs-dissertations/"
-                  target="_self">
-
-                  PhD Dissertations
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1012">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/post-grad-outcomes/"
-                  target="_self">
-
-                  Post-Graduation Outcomes
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-479">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/student-profiles/"
-                  target="_self">
-
-                  Student Profiles
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1323">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/graduate-student-resources/"
-                  target="_self">
-
-                  Student Resources
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-478 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/cs-research/"
-        target="_self">
-
-        Research
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Research menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Research menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-559">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-research/research-areas-2/"
-                  target="_self">
-
-                  Research Areas
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-557">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-research/labs/"
-                  target="_self">
-
-                  Labs
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-556">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-research/lectures-seminars/"
-                  target="_self">
-
-                  Lectures and Seminars
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2045">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-research/reus/"
-                  target="_self">
-
-                  Research Experiences for Undergraduates
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-467 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/faculty-staff/"
-        target="_self">
-
-        Faculty and Staff
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Faculty and Staff menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Faculty and Staff menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-568">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/department-head/"
-                  target="_self">
-
-                  Department Head
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-453">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/faculty/"
-                  target="_self">
-
-                  Faculty
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-451">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/emeritus-faculty/"
-                  target="_self">
-
-                  Emeritus Faculty
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2075">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/adjunct-faculty/"
-                  target="_self">
-
-                  Adjunct Faculty
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-450">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/staff/"
-                  target="_self">
-
-                  Staff
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1347">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/faculty-resources/"
-                  target="_self">
-
-                  Faculty Resources
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1346">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/open-positions/"
-                  target="_self">
-
-                  Open Positions
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-567 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/cs-news/"
-        target="_self">
-
-        News
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand News menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand News menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2524 current_page_item menu-item-2526">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-news/all-news/"
-                  target="_self">
-
-                  News Stories
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2527">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-news/press-mentions/"
-                  target="_self">
-
-                  Press Mentions
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1351 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/cs-events/"
-        target="_self">
-
-        Events
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Events menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Events menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2923">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-events/calendar/"
-                  target="_self">
-
-                  CS calendar
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2567">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-events/student-opportunities/"
-                  target="_self">
-
-                  Student Opportunities
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-  </ul>
-
-  <div class="l-eyebrow">
-
-    <h2 class="assistive-text">Eyebrow menu</h2>
-    <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
-            <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-            <a  href="/undergraduate/women/" target="_self">Break Through Tech</a>
-        </li>
-            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1940">
-            <a  href="https://engineering.uic.edu/support/" target="_blank">Giving</a>
-        </li>
-            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1939">
-            <a  href="http://engineeringalumni.uic.edu" target="_blank">Alumni</a>
-        </li>
-            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-569">
-            <a  href="http://engineering.uic.edu" target="_blank">UIC Engineering Home</a>
-        </li>
-    </ul>
-
-    <h2 class="assistive-text">UIC menu</h2>
-    <ul class="menu-uic">
-      <li class="_item">
-    <a href="http://uic.edu">UIC.edu</a>
-  </li>
-  <li class="_item">
-    <a href="http://maps.uic.edu/">Campus Map</a>
-  </li>
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="header" role="header">
+    <div class="wrap clearfix">
+        <li><a href="/"><h1>Academic Catalog</h1></a></li>
+        <div id="head-right">
+            <div id="search" role="search">
+			<form id="cl-search" action="/search/" class="clearfix">
+				<label for="name">Search Catalog</label>
+				<input type="text" name="search" size="25" placeholder="Search catalog..." class="searchbox" id="name" title="Search Catalog" />
+				<input type="submit" value="Search" class="submit" />
+<input type="hidden" name="fscaturl" value="/ucat" /><input type="hidden" name="gscaturl" value="/ucat" />			</form>
+            </div><!-- end #search -->
+        </div><!--end #head-right -->
+    </div><!--end .wrap -->
+</div><!-- end #header -->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="navigation" class="clearfix" role="navigation" aria-label="Main Navigation">
+    <div class="wrap">
+        <ul>
+            <li><a href="/ucat/">Undergraduate Catalog</a></li>
+            <li><a href="/gcat">Graduate Catalog</a></li>
+            <li><a href="#" onclick="showPrintDialog(); return false;">Print / Download Options</a></li>
+            <li><a href="http://www.uic.edu">UIC Home</a></li>                        
+        </ul>  
+    </div><!--end .wrap -->
+</div><!--end #navigation -->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="banner" role="banner">
+    <div class="wrap">
+        <div class="logo"><a href="http://www.uic.edu">The University of Illinois at Chicago</a></div>
+    </div><!--end .wrap -->
+</div><!--end #navigation -->
+<!--/htdig_noindex-->
+
+<div id="wrapper">
+
+    <div id="container" class="clearfix">
+        <div id="nav-col" role="complementary">
+            <div id="cl-menu-control" class="togglenav clearfix">
+                <a class="cl-menu-text" href="#">Catalog Navigation</a>
+                <a class="cl-menu-btn" href="#">Catalog Navigation</a>
+            </div><!--end #cl-menu-control-->
+            
+            <!-- Begin Regular Nav -->
+            <div id="cl-menu" role="navigation" aria-label="Secondary Navigation">
+<ul class="nav levelzero" id="/">
+	<li class="active isparent"><a href="/ucat/">Undergraduate Catalog</a>
+	<ul class="nav levelone" id="/ucat/">
+		<li class="active self"><a href="#" onclick="return false;">Academic Calendar</a></li>
+		<li class="isparent"><a href="/ucat/the-university/">The University</a></li>
+		<li class="isparent"><a href="/ucat/admissions-registration-finances/">Admissions, Registration &amp;&#8203; Finances</a></li>
+		<li class="isparent"><a href="/ucat/degree-programs/">Degree Programs and Requirements</a></li>
+		<li class="isparent"><a href="/ucat/colleges-depts/">Colleges &amp;&#8203; Departments</a></li>
+		<li class="isparent"><a href="/ucat/course-descriptions/">Undergraduate Course Descriptions</a></li>
+		<li><a href="/ucat/archive-links/">Archive &amp;&#8203; Links</a></li>
+	</ul>
+	</li>
+	<li class="isparent"><a href="/gcat/">Graduate Catalog</a></li>
+	<li class="isparent"><a href="/all-course-descriptions/">All Course Descriptions</a></li>
 </ul>
+			   </div><!--end #cl-menu-->
+            <!-- End Nav -->
+        </div><!-- end #nav-col -->		    
+    		    
+        <div id="content-col">
+            <div id="content" role="main">
 
+<div id="breadcrumb" class="clearfix" role="navigation" aria-label="Breadcrumb Navigation">
+<ul><li><a href="/">Home</a><span class="crumbsep">/</span></li><li><a href="/ucat/">Undergraduate&nbsp;Catalog</a><span class="crumbsep">/</span></li><li><span class="active">Academic Calendar</span></li></ul>
+</div><!-- end #breadcrumb -->
 
+			<h1 class="page-title">Academic Calendar</h1>
 
-    <div aria-label="Primary" role="search" class="search-wrapper">
 
-      <button id="search" class="search-toggle">
-        <span class="icon-search ">
-          <span class="assistive-text">Search</span>
-        </span>
-      </button>
 
-      <div class="search-input-container">
-        <div class="search-input-container__form">
-          <form method="get" action="/search" >
-            <input type="text" name="q" class="search-input" placeholder="Search..." tabindex="-1" aria-label="Search" disabled="">
-            <input type="submit" class="submit-button" name="search" value="Submit">
-          </form>
-        </div>
-      </div>
+<div id="textcontainer" class="tab_content" role="tabpanel">
 
-    </div>
+<div class="sidebar">
+	<div id="sidebar-contact">
 
 
-  </div>
 
 
-</nav>
-        </div>
-    </div>
 
-    
-  </div>
 
-    
-        <a href="#menu-secondary" class="menu-secondary-anchor">
-      View Menu
-      <svg aria-label="Down arrow icon" width="32" height="32" viewBox="0 0 32 32" role="presentation">
-        <title>Down arrow icon</title>
-        <g fill="none" fill-rule="evenodd">
-          <circle class="_circle" stroke-width="1" stroke="#007Da5" fill="#fff" cx="16" cy="16" r="15"/>
-          <path class="_arrow" stroke-width="2" stroke="#001E62" stroke-linecap="round" d="M12 17l4 4 4-4M16 20v-9"/>
-        </g>
-      </svg>
-    </a>
-        
-</header>
 
-    <main id="main" class="l-content-wrapper" role="main">
 
-      
-                
-	      
-      <div class="l-full">
-
-        <div class="l-content ">
-
-          
-                      <nav class="breadcrumbs" aria-label="Breadcrumbs">
-  <h2 class="assistive-text">Breadcrumbs</h2>
-  <ol class="menu" vocab="https://schema.org/" typeof="BreadcrumbList">
-
-  
-          <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://cs.uic.edu"><span property="name">Department of Computer Science</span></a>
-        <meta property="position" content="0">
-      </li>
-    
-  
-          <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://cs.uic.edu/cs-news/"><span property="name">News</span></a>
-        <meta property="position" content="1">
-      </li>
-    
-  
-          <li property="itemListElement" typeof="ListItem"><span property="name">Computer Science Department News</span>
-        <meta property="position" content="3">
-      </li>
-    
-  
-  </ol>
-</nav>
-          
-          <article class="post-type-news-list" id="article">
-            
-      <div class="intro-text">
-
-                      <h1 class="_title post-title">Computer Science Department News</h1>
-              
-            
-    
-    
-        
-  </div>
-
-            <div class="teaser-list">
-                          <article class="tease tease-news" id="tease-3716">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/brent-stephens-receives-nsf-career-award/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2020/04/Brent-Stephens--348x342.jpg" alt="Brent Stephens
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/brent-stephens-receives-nsf-career-award/" >Brent Stephens receives NSF CAREER award</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>April 30, 2020</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-3713">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/cs-assistant-professor-zheleva-works-to-infuse-causal-inference-into-machine-learning-algorithm-design/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2020/04/Elena-Zheleva-348x342.jpg" alt="Elena Zheleva
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/cs-assistant-professor-zheleva-works-to-infuse-causal-inference-into-machine-learning-algorithm-design/" >CS Assistant Professor Zheleva works to infuse causal inference into machine-learning algorithm design</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>April 29, 2020</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-3701">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/uic-cs-students-help-chicago-public-school-students-explore-computer-science/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2020/04/Jones-2-348x342.jpg" alt="Chen readies robots at Jones Prep
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/uic-cs-students-help-chicago-public-school-students-explore-computer-science/" >UIC CS students help Chicago Public School students explore computer science</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>April 10, 2020</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-3671">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/board-grants-key-approvals-for-uics-new-health-care-engineering-buildings/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2020/03/CDRLC-Grove-Entry-004-500x295-1-348x342.jpg" alt="rendering of the new CS building
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/board-grants-key-approvals-for-uics-new-health-care-engineering-buildings/" >Board grants key approvals for UIC’s new health care, engineering buildings</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Jacqueline Carey</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>March 17, 2020</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-3542">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/uic-aims-to-break-through-gender-gap-in-computer-science/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2020/01/reckinger-group-348x342.jpg" alt="Fall 2019 Women in Computer Science workshop at the College of Engineering organized by Shanon Reckinger, clinical assistant professor of computer science
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/uic-aims-to-break-through-gender-gap-in-computer-science/" >UIC aims to break through gender gap in computer science</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Jacqueline Carey</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>January 28, 2020</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-3428">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/get-to-know-computer-science-graduate-student-ryan-nishimoto/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/12/thumbnail_IMG_20190530_1007353-348x342.jpg" alt="Ryan Nishimoto
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/get-to-know-computer-science-graduate-student-ryan-nishimoto/" >Get to know Computer Science graduate student Ryan Nishimoto</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>January 06, 2020</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-3545">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/nsf-awards-uic-1-5m-for-new-data-science-institute/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/12/cybersecurity-A-348x342.jpg" alt="data science
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/nsf-awards-uic-1-5m-for-new-data-science-institute/" >NSF awards UIC $1.5M for new data science institute</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Natasha Wadlington</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>December 20, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-3385">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/three-cs-faculty-speak-at-ai-for-social-good-conference/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/12/DSC_0828-348x342.jpg" alt="Tanya Berger-Wolf, Barbara Di Eugenio, and Elena Zheleva
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/three-cs-faculty-speak-at-ai-for-social-good-conference/" >Three CS faculty speak at AI for social good conference</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>December 10, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-3377">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/googles-hispanic-leadership-summit-chicago-tailor-made-for-some-uic-computer-science-students/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/12/DSC_0745-348x342.jpg" alt="J. Jesus Benitez Gorostieta and Luis Samayoa
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/googles-hispanic-leadership-summit-chicago-tailor-made-for-some-uic-computer-science-students/" >Google’s Hispanic Leadership Summit Chicago tailor-made for some UIC computer science students</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>December 03, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-3372">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/uic-engineering-team-wins-builtworlds-hackathon/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/12/builtworlds-348x342.jpg" alt="Builtworlds team with judges
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/uic-engineering-team-wins-builtworlds-hackathon/" >UIC engineering team wins Builtworlds Hackathon</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>December 03, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-3318">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/uic-receives-explorecsr-grant-from-google/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/10/IMG_2409-348x342.jpg" alt="Shanon Reckinger
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/uic-receives-explorecsr-grant-from-google/" >UIC Receives exploreCSR grant from Google</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>October 22, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-3312">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/computer-science-professor-barbara-di-eugenio-receives-2019-2020-uic-award-for-excellence-in-teaching/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/10/Prof.Barbara-Di-Eugenio-1-1320x880-348x342.jpg" alt="Barbara Di Eugenio
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/computer-science-professor-barbara-di-eugenio-receives-2019-2020-uic-award-for-excellence-in-teaching/" >Computer Science Professor Barbara Di Eugenio receives 2019-2020 UIC Award for Excellence in Teaching</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>October 21, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-3233">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/computer-science-distinguished-professor-bing-liu-works-to-improve-sentiment-analysis-with-lifelong-machine-learning/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/10/DSC_0603-348x342.jpg" alt="Bing Liu
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/computer-science-distinguished-professor-bing-liu-works-to-improve-sentiment-analysis-with-lifelong-machine-learning/" >Computer Science Distinguished Professor Bing Liu works to improve sentiment analysis with lifelong machine learning</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>October 01, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-3164">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/andres-tapia-receives-scholarships-to-attend-tapia-conference-great-minds-in-stem-conference/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/09/Andres6-348x342.jpg" alt="Andres Tapia
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/andres-tapia-receives-scholarships-to-attend-tapia-conference-great-minds-in-stem-conference/" >Andres Tapia receives scholarships to attend Tapia Conference, Great Minds in STEM Conference</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>September 10, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-3149">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/associate-professor-mark-grechanik-wins-grant-best-paper-award-for-work-on-automating-software-integration-tests/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/09/DSC_0602-348x342.jpg" alt="Mark Grechank
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/associate-professor-mark-grechanik-wins-grant-best-paper-award-for-work-on-automating-software-integration-tests/" >Associate Professor Mark Grechanik wins grant, best paper award for work on automating software integration tests</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>September 09, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-3035">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/computer-science-students-gain-valuable-experience-with-summer-internships/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/08/thumbnail-internship-348x342.jpg" alt="students in an office space 
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/computer-science-students-gain-valuable-experience-with-summer-internships/" >Computer science students gain valuable experience with summer internships</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>August 22, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-2971">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/uic-computer-science-faculty-become-temporary-googlers-to-help-students-learn-needed-tech-industry-skills/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/08/IMG_2415-348x342.jpg" alt="Shanon Reckinger and Gonzalo Bello
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/uic-computer-science-faculty-become-temporary-googlers-to-help-students-learn-needed-tech-industry-skills/" >UIC Computer Science faculty become temporary ‘Googlers’  to help students learn needed tech industry skills</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>August 14, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-2951">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/computer-science-department-welcomes-new-faculty-members/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/08/photo-for-Andrea-348x342.jpg" alt="students in a classroom
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/computer-science-department-welcomes-new-faculty-members/" >Computer science department welcomes new faculty members</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>August 08, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-2927">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/uic-faculty-member-dale-reed-helps-bring-computer-science-to-every-chicago-public-school-student/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/08/Dale-and-Indira-P-348x342.jpg" alt="Dale Reed, left, facilitates ECS training
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/uic-faculty-member-dale-reed-helps-bring-computer-science-to-every-chicago-public-school-student/" >UIC faculty member Dale Reed helps bring computer science to every Chicago Public School student</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>August 01, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-2684">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/computer-science-students-earn-research-student-scholarships-to-attend-grace-hopper-celebration/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/07/HOPPER1-348x342.jpg" alt="UIC students attend Grace Hopper
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/computer-science-students-earn-research-student-scholarships-to-attend-grace-hopper-celebration/" >Computer Science students earn research, student scholarships to attend Grace Hopper Celebration</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>July 11, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-2624">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/uic-partners-with-northrop-grumman-on-machine-learning-and-ai/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/04/Bing-Liu--348x342.jpg" alt="Bing Liu
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/uic-partners-with-northrop-grumman-on-machine-learning-and-ai/" >UIC collaborates with Northrop Grumman on machine learning and AI</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>May 28, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-2613">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/cs-graduate-anusha-pai-represents-the-college-of-engineering-at-spring-2019-commencement/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/05/AnushaPai-348x342.jpg" alt="Anusha Pai
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/cs-graduate-anusha-pai-represents-the-college-of-engineering-at-spring-2019-commencement/" >CS graduate Anusha Pai represents the College of Engineering at Spring 2019 Commencement</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>May 21, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-2607">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/computer-science-student-takes-first-prize-at-uic-2019-impact-and-research-day/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/05/Minh-348x342.jpg" alt="Minh Hoang
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/computer-science-student-takes-first-prize-at-uic-2019-impact-and-research-day/" >Computer science student takes first prize at UIC 2019 Impact and Research Day</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>May 21, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-2602">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/computer-science-major-heads-to-taiwan-to-meet-with-future-uic-students/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/05/thumbnail_2018-TSA-UIC-info-session-in-Taiwan-348x342.jpg" alt="Meeting with future UIC students in Taiwan last summer
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/computer-science-major-heads-to-taiwan-to-meet-with-future-uic-students/" >Computer science major heads to Taiwan to meet with future UIC students</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>May 17, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-2530">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/inspiring-grads-discovering-passion-for-computer-science-pays-off/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/05/Kevin_Bell-7-1-590x393THUMB-348x342.jpg" alt="Kevin Bell
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/inspiring-grads-discovering-passion-for-computer-science-pays-off/" >Inspiring grads: Discovering passion for computer science pays off</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Francisca Corona</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>May 01, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-2498">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/computer-science-assistant-professor-chris-kanich-wins-graduate-mentoring-award/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/04/Image-from-iOS-348x342.jpg" alt="Students Sara Amini (left) and Mohammad Taha Khan (right), with Assistant Professor Chris Kanich (center).
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/computer-science-assistant-professor-chris-kanich-wins-graduate-mentoring-award/" >Computer Science Assistant Professor Chris Kanich wins Graduate Mentoring Award</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet </span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>April 25, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-2493">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/uics-electronic-visiualization-lab-is-helping-reimagine-live-stage-performance/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/04/thumbnail_3_LJL0595-348x342.jpg" alt="Audience in Cave2 at UIC"s EVL
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/uics-electronic-visiualization-lab-is-helping-reimagine-live-stage-performance/" >UIC’s Electronic Visualization Lab is helping reimagine live stage performance</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>April 25, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-2489">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/senior-dane-zieman-challenges-fellow-cs-students-to-prepare-for-technical-interviews/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/04/IMG_9361-e1556144121874-348x342.jpg" alt="Dane Zieman
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/senior-dane-zieman-challenges-fellow-cs-students-to-prepare-for-technical-interviews/" >Senior Dane Zieman challenges fellow CS students to prepare for technical interviews</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet </span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>April 24, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-2484">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/cs-students-lead-edt-robot-team-to-semifinals-at-engineering-competition/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/04/IMG_7047_FotorCS-348x342.jpg" alt="EDT's team Air robot
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/cs-students-lead-edt-robot-team-to-semifinals-at-engineering-competition/" >CS students lead EDT robot team to semifinals at engineering competition</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet </span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>April 24, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-2459">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/engineering-students-learn-autonomous-vehicles-in-new-multidisciplinary-course/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/04/thumbnailRS-348x342.jpg" alt="Duckiebots AVs follow lanes
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/engineering-students-learn-autonomous-vehicles-in-new-multidisciplinary-course/" >Engineering students take on autonomous vehicles in new multidisciplinary course</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet </span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>April 17, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-2455">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/uic-college-of-engineering-researchers-selected-for-discovery-partners-institute-seed-funding/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/04/cropped-348x342.jpg" alt="Chicago skyline
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/uic-college-of-engineering-researchers-selected-for-discovery-partners-institute-seed-funding/" >UIC College of Engineering researchers selected for Discovery Partners Institute seed funding</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet and David Staudacher</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>April 17, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-2432">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/uic-computer-science-professor-bing-lius-work-on-fake-online-reviews-wins-test-of-time-award/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/04/Bing-Liu--348x342.jpg" alt="Bing Liu
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/uic-computer-science-professor-bing-lius-work-on-fake-online-reviews-wins-test-of-time-award/" >UIC Computer Science professor Bing Liu’s work on fake online reviews wins Test of Time award</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>April 10, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-2396">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/university-scholar-barbara-di-eugenio/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/04/Prof-348x342.jpg" alt="Barbara DiEugenio
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/university-scholar-barbara-di-eugenio/" >University Scholar Barbara Di Eugenio</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>April 02, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-2273">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/uic-receives-ongoing-funding-to-improve-diversity-in-computer-science/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/03/TAPIA1-348x342.jpg" alt="UIC Students at the Tapia conference
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/uic-receives-ongoing-funding-to-improve-diversity-in-computer-science/" >UIC receives ongoing funding to improve diversity in computer science</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>March 18, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-2257">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/uic-alumnus-victor-mateevitsis-spidersense-jacket-included-in-msis-wired-to-wear-exhibition/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/03/Mateevitsi-SpiderSenseJacker-1-348x342.jpg" alt="Victor Mateevitsi wearing the SpiderSense tactile jacket
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/uic-alumnus-victor-mateevitsis-spidersense-jacket-included-in-msis-wired-to-wear-exhibition/" >UIC alumnus Victor Mateevitsi’s SpiderSense jacket included in MSI’s Wired to Wear™ exhibition</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>March 14, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1983">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/professor-venkatakrishnan-secures-new-3-million-computer-security-grant-from-darpa/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/12/venkat-pic-600px-348x342.png" alt="venkat
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/professor-venkatakrishnan-secures-new-3-million-computer-security-grant-from-darpa/" >UIC to lead $3M initiative to develop system to identify, patch software security holes</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">Sharon Parmet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>February 07, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-2131">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/tanya-berger-wolf-receives-university-scholar-of-the-year-award-for-2018/">
-        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/01/2019.Berger-Wolf.Tanya26-1320x890-348x342.jpg" alt="Tanya Berger-Wolf
-                  ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/tanya-berger-wolf-receives-university-scholar-of-the-year-award-for-2018/" >Tanya Berger-Wolf receives University Scholar of the Year award for 2018</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Sharon Parmet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>January 29, 2019</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1974">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/award-for-excellence-in-teaching-patrick-troy/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/12/patrick-pic-348x342.png" alt="patrick troy in his office
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/award-for-excellence-in-teaching-patrick-troy/" >Award for Excellence in Teaching: Patrick Troy</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>December 14, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      Each year, UIC honors some of its most dedicated and outstanding teachers with the Award for Excellence in Teaching. The winners, who receive a $5,000 salary increase, are selected by past recipients of&hellip;
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1798">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/ms-student-awarded-twice-at-mit-energy-hack-2018/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/12/mass-save-group-348x342.png" alt="hackathon winners
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/ms-student-awarded-twice-at-mit-energy-hack-2018/" >MS student awarded twice at MIT Energy Hack 2018</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>November 07, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1352">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/reaping-the-benefits-of-an-internship-experience/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/11/google-macys-thumbnail-348x342.jpg" alt="anusha and daisy headshot
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/reaping-the-benefits-of-an-internship-experience/" >Reaping the benefits of an internship experience</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>November 07, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1295">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/uics-polithinkers-claim-victory-at-builtworlds-hackathon/">
-        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/11/1dsf-348x342.jpg" alt="students
-                  ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/uics-polithinkers-claim-victory-at-builtworlds-hackathon/" >UIC’s PoliThinkers claim victory at BuiltWorlds Hackathon</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>November 01, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1284">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/ms-students-win-mobility-hackathon-chicago-with-feel-your-city-platform/">
-        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/11/Picture1-348x342.jpg" alt="students
-                  ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/ms-students-win-mobility-hackathon-chicago-with-feel-your-city-platform/" >MS students win Mobility Hackathon Chicago with “Feel Your City” platform</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>October 25, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1276">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/masters-student-receives-honorable-mention-at-ubicomp-2018/">
-        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/11/Picture7-348x342.jpg" alt="singapore
-                  ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/masters-student-receives-honorable-mention-at-ubicomp-2018/" >Honorable mention for MS student at Ubicomp 2018</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>October 23, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1291">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/foursquare-visits-uic-plans-to-expand-its-growth-in-chicago/">
-        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/11/Picture22-348x342.jpg" alt="meeting
-                  ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/foursquare-visits-uic-plans-to-expand-its-growth-in-chicago/" >Foursquare visits UIC to talk recruiting in Chicago</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>October 23, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1279">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/evl-to-be-featured-in-chicago-new-media-1973-1992-exhibition/">
-        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/11/Picture9-348x342.jpg" alt="prof
-                  ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/evl-to-be-featured-in-chicago-new-media-1973-1992-exhibition/" >EVL featured in “Chicago New Media 1973-1992” exhibition</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>October 16, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1268">
-	
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/evls-lance-long-recognized-with-uics-award-of-merit/" >EVL’s Lance Long recognized with UIC’s Award of Merit</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>October 16, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1273">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/biaffet-app-can-typos-give-insight-into-your-mental-health/">
-        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/11/Picture5.png" alt="phone
-                  ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/biaffet-app-can-typos-give-insight-into-your-mental-health/" >BiAffect app: Can typos give insight into your mental health?</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>October 12, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1270">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/cs-sends-more-than-60-to-grace-hopper-celebration-in-houston/">
-        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/11/Picture4-348x342.jpg" alt="group
-                  ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/cs-sends-more-than-60-to-grace-hopper-celebration-in-houston/" >CS sends more than 60 to Grace Hopper Celebration in Houston</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>October 02, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1255">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/cs-welcomes-13-new-faculty-members/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/10/new-cs-faculty-thumbnail-348x342.png" alt="new cs faculty
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/cs-welcomes-13-new-faculty-members/" >CS welcomes 13 new faculty members</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>October 02, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1260">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/prof-liu-honored-with-two-awards-for-his-research/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/11/bing-two-awards-1024x443-348x342.png" alt="prof
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/prof-liu-honored-with-two-awards-for-his-research/" >Prof. Liu honored with two awards for his research</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>September 28, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      Computer Science Distinguished Professor Bing Liu was recognized twice in the last month for his research which primarily focuses on sentiment analysis, data mining and machine learning.
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1212">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/cs-dept-welcomes-two-academic-advisors-to-the-student-affairs-team/">
-        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/09/new-cs-advisors.jpg" alt="new advisors
-                  ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/cs-dept-welcomes-two-academic-advisors-to-the-student-affairs-team/" >CS Dept. welcomes two academic advisors to the student affairs team</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>September 10, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1200">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/cs-student-orgs-recruit-members-at-involvement-fair/">
-        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/09/head22.jpg" alt="A member of UIC Women in Computer Science (WICS) speaks with an interested student during the UIC Involvement Fair on September 5th.
-                  ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/cs-student-orgs-recruit-members-at-involvement-fair/" >CS student orgs recruit members at involvement fair</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>September 05, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1108">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/sisl-researchers-land-usenix-security-distinguished-paper/">
-        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/09/usenix-header.jpg" alt="header
-                  ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/sisl-researchers-land-usenix-security-distinguished-paper/" >SISL researchers receive USENIX Security Distinguished Paper award</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>August 17, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1087">
-	
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/wildbook-takes-over-bings-homepage-for-a-day/" >Wildbook takes over Bing’s homepage for a day</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>August 15, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1145">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/recent-cs-grad-talks-about-thinkchcago-path-to-job/">
-        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/09/oliver-2.jpg" alt="Oliver
-                  ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/recent-cs-grad-talks-about-thinkchcago-path-to-job/" >Recent CS grad talks about ThinkChicago, path to job</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>August 06, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1140">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/800k-grant-aims-to-reduce-long-term-online-data-risks/">
-        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/08/800k.jpg" alt="intro
-                  ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/800k-grant-aims-to-reduce-long-term-online-data-risks/" >$800K grant aims to reduce long-term online data risks</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>August 03, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1132">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/nsf-grant-to-help-uic-project-for-faster-computing/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/07/laptop-hands.jpg" alt="laptop
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/nsf-grant-to-help-uic-project-for-faster-computing/" >$500K NSF grant to help UIC project for faster computing</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>July 26, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1124">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/1-5m-nih-grant-improving-patient-experience-at-discharge-from-hospital/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/07/clinic.jpg" alt="main
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/1-5m-nih-grant-improving-patient-experience-at-discharge-from-hospital/" >$1.5M NIH grant: Improving patient experience at discharge from hospital</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>July 26, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-1154">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/recent-phd-grad-rachel-harsley-named-to-crains-tech-50-of-2018/">
-        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/09/rachel.jpg" alt="Rachel Harsley
-                  ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/recent-phd-grad-rachel-harsley-named-to-crains-tech-50-of-2018/" >PhD grad Rachel Harsley named one of Crain's Tech 50</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>July 16, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-732">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/microsoft-ai-for-earth-adds-wild-me-to-50m-project-initiative/">
-        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/07/animalsBIG.emf_.jpg" alt="animals
-                  ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/microsoft-ai-for-earth-adds-wild-me-to-50m-project-initiative/" >Microsoft AI for Earth adds Wild Me to $50M project initiative</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>July 04, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-655">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/more-than-60-k-12-teachers-from-the-chicago-area-attended-cs-ed-camp-hosted-by-csta-and-the-uic-cs-department/">
-        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/07/n1-cropped.jpg" alt="meeting
-                  ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/more-than-60-k-12-teachers-from-the-chicago-area-attended-cs-ed-camp-hosted-by-csta-and-the-uic-cs-department/" >60+ Chicago-area teachers attend CS Ed Camp at UIC</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>June 30, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-685">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/evl-members-gather-for-a-1993-photo-included-in-a-new-book-the-rise-of-women-in-the-digital-arts-9-of-the-22-contributors-hail-form-uic/">
-        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/07/old-group.jpg" alt="group photo
-                  ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/evl-members-gather-for-a-1993-photo-included-in-a-new-book-the-rise-of-women-in-the-digital-arts-9-of-the-22-contributors-hail-form-uic/" >EVL contributes to book on women in the digital arts</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>June 10, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-705">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/computer-science-students-volunteered-to-help-recently-admitted-students-during-ignite-day-on-april-14th/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/07/cut-ignite.jpg" alt="group of people
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/computer-science-students-volunteered-to-help-recently-admitted-students-during-ignite-day-on-april-14th/" >Computer science students help new admits on IGNITE Day</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>April 15, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-746">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/professors-stump-students-to-claim-cs-bragging-rights/">
-        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/07/dab.jpg" alt="dab
-                  ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/professors-stump-students-to-claim-cs-bragging-rights/" >Professors stump students to claim CS bragging rights</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>April 11, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-753">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/evl-researchers-land-interspeech-nomination/">
-        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/07/top-nom.png" alt="building
-                  ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/evl-researchers-land-interspeech-nomination/" >EVL researchers land INTERSPEECH nomination</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>April 06, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-761">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/biaffect-mood-disorder-app-goes-live-in-apple-app-store/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/07/BiAffect.png" alt="phone
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/biaffect-mood-disorder-app-goes-live-in-apple-app-store/" >BiAffect mood disorder app goes live in Apple App Store</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>March 29, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-716">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/nine-computer-science-phd-students-were-honored-at-itfs-fifty-for-the-future-awards/">
-        <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/07/fifty-top.jpg" alt="group
-                  ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/nine-computer-science-phd-students-were-honored-at-itfs-fifty-for-the-future-awards/" >Nine CS PhD students honored at ITF's "Fifty for the Future" Awards</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>March 16, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                          <article class="tease tease-news" id="tease-766">
-	
-    <figure class="teaser-image captioned-image">
-    <a href="https://cs.uic.edu/news-stories/cs-dept-increases-diversity-awareness-with-help-of-braid/">
-      <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/07/braidid-fixed.png" alt="BRAID
-              ">
-    </a>
-  </figure>
-  
-  <div class="teaser-content">
-    <h2 class="_title"><a id="" href="https://cs.uic.edu/news-stories/cs-dept-increases-diversity-awareness-with-help-of-braid/" >BRAID helps CS diversity efforts</a></h2>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>March 15, 2018</strong></span>
-    </div>
-    </div>
-        
-        <p>
-      
-    </p>
-    
-  </div>
-
-</article>                    </div>
-    
-    
-          </article>
-        </div>
-
-                                            
-                                 
-              
-                            
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                                 
-              
-                            
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                                 
-              
-                            
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                                 
-              
-                            
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                                 
-              
-                            
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                                 
-              
-
-                      <div class="l-sidebar">
-             <nav role="navigation" id="menu-secondary" aria-label="Secondary News" class="menu-secondary">
-               <div class="menu-secondary__title-container">
-                 <h2 class="menu-secondary__title"><a  class="menu-secondary__title-link" href="https://cs.uic.edu/cs-news/">News</a></h2>
-                 <a  class="menu-secondary__back-to-content" href="#main">
-                   <svg aria-label="Back to main content" width="32" height="32" viewBox="0 0 32 32">
-                     <title>Back to main content</title>
-                     <g fill="none" fill-rule="evenodd">
-                       <circle class="_circle" fill="#fff" stroke="#007FA5" stroke-width="1" cx="16" cy="16" r="15"/>
-                       <path class="_arrow" d="M16 21v-9M12 15l4-4 4 4" stroke="#001E62" stroke-width="2" stroke-linecap="round"/>
-                     </g>
-                   </svg>
-                 </a>
-               </div>
-
-                <ul  class="menu ">
-                  
-                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2524 current_page_item menu-item-2526">
-                    <a  href="/cs-news/all-news/" target="_self"><span>News Stories</span></a>                                      </li>
-                  
-                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2527">
-                    <a  href="/cs-news/press-mentions/" target="_self"><span>Press Mentions</span></a>                                      </li>
-                                  </ul>
-
-              </nav>
-            </div>
-       
-                            
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                                 
-              
-                            
-                                 
-              
-                            
-
-
-
-
-   
-                                 
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-
-
-          
-                          </div>
-    </main>
-
-    
-        <footer id="footer" class="footer u-dark-region" role="contentinfo">
-
-  <div class="footer-contact">
-    <div class="l-full">
-
-          <div class="mega-footer-contact">
-
-    <div class="mega-footer-contact__brand mega-footer-contact__brand--wordmark">
-        <div class="footer-logo">
-                        <div class="footer-logo__wordmark-wrapper">
-                <div class="uic-wordmark  uic-wordmark--mega-footer">
-
-  <div class="_mark">
-    <a href="http://uic.edu" class="uic-logo-icon ">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
-  </div>
-
-  <div class="_text">
-    <a href="https://cs.uic.edu">
-                  <span class="_line">College of</span>
-              <span class="_line">Engineering</span>
-              </a>
-  </div>
-
-</div>
-            </div>
-            </div>
-    </div>
-
-  <div class="mega-footer-contact__menus">
-
-    
-        <div class="mega-footer-contact__button-menus">
-      <nav class="mega-footer-contact__button-menu" id="menu4" aria-label="footer-menu-4">
-        <h2 class="assistive-text">Footer Menu</h2>
-
-        <ul id="button-menu" class="menu button-menu" aria-label="Footer Menu">
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2547">
-      <a href="/undergraduate/student-resources/" target="_self">Undergraduate Resources</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2548">
-      <a href="/graduate/graduate-student-resources/" target="_self">Graduate Resources</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2549">
-      <a href="/faculty-staff/faculty-resources/" target="_self">Faculty Resources</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2550">
-      <a href="/undergraduate/abet-accreditation/" target="_self">ABET Accreditation</a>
-    </li>
-  </ul>
-
-      </nav>
-    </div>
-    
-  </div>
-
-  <div class="mega-footer-contact__contact">
-
-    <div class="_contact">
-      <h2>Contact</h2>
-      <div class="site-contact-container">  <div class="site-unit-name"><h3>For CS student and faculty inquiries, contact:</h3></div>
-      <div class="site-address">851 S. Morgan St., 11th Floor SEO, Chicago, IL 60607</div>
-      <div class="site-phone">Phone: <a  href="tel:(312) 996-3422">(312) 996-3422</a></div>
-        <div class="site-email"><a  href="mailto:cs-info@uic.edu">cs-info@uic.edu</a></div>
-</div>
-      <div class="site-contact-container">        </div>
-    </div>
-
-    <div class="mega-footer-contact__site-social-links">
-       <div aria-label="Social Media Accounts" class="site-social-links">
-  <h2 class="site-social-links__header assistive-text">Social Media Accounts</h2>
-  <ul class="site-social-links__list">
-        <li class="site-social-links__list-item"><a  class="site-social-links__link facebook" href="https://www.facebook.com/engineering.uic">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Facebook"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>
-    </a></li>
-            <li class="site-social-links__list-item"><a  class="site-social-links__link linkedin" href="https://www.linkedin.com/school/24767499/">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="LinkedIn"><title>LinkedIn</title><path d="M9 27h3.836V14.212H9V27zm2.4-19c-.67 0-1.24.24-1.704.712C9.234 9.185 9 9.77 9 10.452c0 .684.234 1.27.696 1.742.463.472 1.035.712 1.703.712.667 0 1.24-.24 1.702-.712.463-.473.697-1.058.697-1.74 0-.684-.235-1.27-.698-1.742C12.64 8.24 12.067 8 11.4 8zm15.025 7.18c-.934-.997-2.107-1.503-3.485-1.503-1.064 0-2.053.343-2.95 1.02v-.816H15.77V27h4.223v-7.262c0-.832.2-1.434.61-1.84.41-.408.88-.608 1.43-.608.732 0 1.573.268 1.573 2.357V27h4.222v-7.875c0-1.627-.47-2.954-1.4-3.946z" /></svg>
-    </a></li>
-            <li class="site-social-links__list-item"><a  class="site-social-links__link twitter" href="https://twitter.com/UICEngineering">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Twitter"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>
-    </a></li>
-            <li class="site-social-links__list-item"><a  class="site-social-links__link instagram" href="https://www.instagram.com/uicengineering/">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Instagram"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>
-    </a></li>
-            <li class="site-social-links__list-item"><a  class="site-social-links__link youtube" href="https://www.youtube.com/user/UICengineering">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Youtube"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>
-    </a></li>
-          </ul>
-</div>
-    </div>
-  </div>
-</div>
-    
-    </div>
-  </div>
-
-  
-  <div class="footer-uic-menu">
-    <div class="l-full">
-
-      <div aria-label="UIC.edu Links">
-  <h2 class="assistive-text">UIC.edu links</h2>
-  <ul class="uic-footer-menu">
-    <li><strong><a href="https://uic.edu/">UIC.edu</a></strong></li>
-    <li><a href="https://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></li>
-    <li><a href="https://uicflames.com/">Athletics</a></li>
-    <li><a href="https://www.uic.edu/apps/departments-az/search">Campus Directory</a></li>
-    <li><a href="https://disabilityresources.uic.edu/">Disability Resources</a></li>
-    <li><a href="https://emergency.uic.edu/">Emergency Information</a></li>
-    <li><a href="https://today.uic.edu/events">Event Calendar</a></li>
-    <li><a href="https://uic.edu/about/job-opportunities">Job Openings</a></li>
-    <li><a href="https://library.uic.edu/">Library</a></li>
-    <li><a href="https://maps.uic.edu/">Maps</a></li>
-    <li><a href="https://ready.uic.edu/digital-materials/uic-safe-mobile-app/">UIC Safe Mobile App</a></li>
-    <li><a href="https://today.uic.edu/">UIC Today</a></li>
-    <li><a href="https://uihealth.uic.edu/">UI Health</a></li>
-    <li><a href="https://dos.uic.edu/student-veterans-affairs/">Veterans Affairs</a></li>
-  </ul>
+	</div>
 </div>
 
+<ul>
+	<li><a href="#Summer2019">Summer Session 2019</a></li>
+	<li><a href="#2019">2019–2020 Academic Year</a></li>
+	<li><a href="#Fall2020">2020–2021 Academic Year</a></li>
+	<li><a href="#FALL2021">2021–2022 Academic Year</a></li>
+	<li><a href="#FALL2022">2022–2023 Academic Year</a></li>
+</ul>
+<h2>Semester Beginning, Ending, and Degree Dates</h2>
+<ul>
+	<li><a href="https://registrar.uic.edu/uic_faculty_staff/calendars/degree_dates.html" target="_blank">Semester Beginning, Ending, and Degree Dates</a></li>
+</ul>
+<h2><a id="Summer2019" name="Summer2019"></a>Summer Session 2019</h2>
+<table cellpadding="0" cellspacing="0" width="100%" class="sc_sctable tbl_ugacademiccalendar" summary="UG Academic Calendar">
+<caption class="hidden noscript">UG Academic Calendar</caption>
+<colgroup><col class="column0" pdfwidth="40%" width="40%"/><col class="column1" pdfwidth="60%" width="60%"/></colgroup>
+<thead>
+<tr class="sctablehead">
+<th scope="col" class="column0">Date</th>
+<th scope="col" class="column1">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="column0"><strong>Summer Session 1</strong></td>
+<td class="column1">(4-Week Session)</td>
+</tr>
+<tr class="odd"><td class="column0">May 20, M</td>
+<td class="column1">Instruction begins.</td>
+</tr>
+<tr class="even"><td class="column0">May 22, W</td>
+<td class="column1">Last day to complete late registration for Summer Session 1; last day to add a course(s) or make section changes; last day to drop individual Summer Session 1 courses via XE Registration without receiving W (Withdrawn) grade on academic record. Last day to Web Drop Summer Session 1 courses via XE Registration and receive 100% cancellation of tuition and fees.</td>
+</tr>
+<tr class="odd"><td class="column0">May 27, M</td>
+<td class="column1">Memorial Day holiday. No classes</td>
+</tr>
+<tr class="even"><td class="column0">June 3, M</td>
+<td class="column1">CampusCare Waiver deadline.</td>
+</tr>
+<tr class="odd"><td class="column0">June 5, W</td>
+<td class="column1">Last day for undergraduate students to use optional late drop for a Summer Session 1 course in college office and receive grade of W on academic record.</td>
+</tr>
+<tr class="even"><td class="column0">June 13, Th</td>
+<td class="column1">Instruction ends for Summer Session 1.</td>
+</tr>
+<tr class="odd"><td class="column0">June 14, F</td>
+<td class="column1">Final examinations for Summer Session 1.</td>
+</tr>
+<tr class="even"><td class="column0"><strong>Summer Session 2</strong></td>
+<td class="column1">(8-Week Session)</td>
+</tr>
+<tr class="odd"><td class="column0">June 17, M</td>
+<td class="column1">Instruction begins.</td>
+</tr>
+<tr class="even"><td class="column0">June 21, F</td>
+<td class="column1">Last day to complete late registration for Summer Session 2; last day to add a course(s) or make section changes; last day to drop individual Summer Session 2 courses via XE Registration without receiving W (Withdrawn) grade on academic record. Last day to Web Drop courses via XE Registration and receive 100% cancellation of tuition and fees.</td>
+</tr>
+<tr class="odd"><td class="column0">July 4, Th</td>
+<td class="column1">Independence Day holiday. No classes.</td>
+</tr>
+<tr class="even"><td class="column0">July 19, F</td>
+<td class="column1">Last day for undergraduate students to use optional late drop for a Summer Session 2 course in college office and receive grade of W on academic record.</td>
+</tr>
+<tr class="odd"><td class="column0">August 7, W</td>
+<td class="column1">Instruction ends for Summer Session 2.</td>
+</tr>
+<tr class="even last lastrow"><td class="column0">August 8–9, Th–F</td>
+<td class="column1">Final examinations for Summer Session 2.</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a id="2019" name="2019"></a>Fall Semester 2019</h2>
+<table cellpadding="0" cellspacing="0" width="100%" class="sc_sctable tbl_ugacademiccalendar" summary="UG Academic Calendar">
+<caption class="hidden noscript">UG Academic Calendar</caption>
+<colgroup><col class="column0" pdfwidth="40%" width="40%"/><col class="column1" pdfwidth="60%" width="60%"/></colgroup>
+<thead>
+<tr class="sctablehead">
+<th scope="col" class="column0">Date</th>
+<th scope="col" class="column1">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="column0">August 26, M</td>
+<td class="column1">Instruction begins.</td>
+</tr>
+<tr class="odd"><td class="column0">September 2, M</td>
+<td class="column1">Labor Day holiday. No classes.</td>
+</tr>
+<tr class="even"><td class="column0">September 6, F</td>
+<td class="column1">Last day to complete late registration; last day to add a course(s) or make section changes; last day to drop individual courses via XE Registration without receiving W (Withdrawn) grade on academic record. Last day to Web Drop courses via XE Registration and receive 100% cancellation of tuition and fees.</td>
+</tr>
+<tr class="odd"><td class="column0">September 12, Th</td>
+<td class="column1">CampusCare Waiver deadline.</td>
+</tr>
+<tr class="even"><td class="column0">November 1, F</td>
+<td class="column1">Last day for undergraduate students to use optional late drop in college office and receive grade of W on academic record.</td>
+</tr>
+<tr class="odd"><td class="column0">November 28–29, Th–F</td>
+<td class="column1">Thanksgiving holiday. No classes.</td>
+</tr>
+<tr class="even"><td class="column0">December 6, F</td>
+<td class="column1">Instruction ends.</td>
+</tr>
+<tr class="odd"><td class="column0">December 9–13, M–F</td>
+<td class="column1">Final examinations.</td>
+</tr>
+<tr class="even"><td class="column0">December 18, W</td>
+<td class="column1">Instructor grading deadline for 16-week courses (5 p.m.)</td>
+</tr>
+<tr class="odd last lastrow"><td class="column0">December 23, M</td>
+<td class="column1">Grades available via my.UIC.edu</td>
+</tr>
+</tbody>
+</table>
+
+<h2 class="pagebreak">Spring Semester 2020</h2>
+<table cellpadding="0" cellspacing="0" width="100%" class="sc_sctable tbl_ugacademiccalendar" summary="UG Academic Calendar">
+<caption class="hidden noscript">UG Academic Calendar</caption>
+<colgroup><col class="column0" pdfwidth="40%" width="40%"/><col class="column1" pdfwidth="60%" width="60%"/></colgroup>
+<thead>
+<tr class="sctablehead">
+<th scope="col" class="column0">Date</th>
+<th scope="col" class="column1">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="column0">January 13, M</td>
+<td class="column1">Instruction begins.</td>
+</tr>
+<tr class="odd"><td class="column0">January 20, M</td>
+<td class="column1">Martin Luther King, Jr., Day. No classes.</td>
+</tr>
+<tr class="even"><td class="column0">January 24, F</td>
+<td class="column1">Last day to complete late registration; last day to add a course(s) or make section changes; last day to drop individual courses via XE Registration without receiving W (Withdrawn) grade on academic record. Last day to Web Drop courses via XE Registration and receive 100% cancellation of tuition and fees.</td>
+</tr>
+<tr class="odd"><td class="column0">February 9, Su</td>
+<td class="column1">CampusCare Waiver deadline.</td>
+</tr>
+<tr class="even"><td class="column0">March 16–27, M–F (revised)</td>
+<td class="column1">Spring vacation. No classes.</td>
+</tr>
+<tr class="odd"><td class="column0">April 3, F (revised)</td>
+<td class="column1">Last day for undergraduate students to use optional late drop in college office and receive grade of W on academic record.</td>
+</tr>
+<tr class="even"><td class="column0">May 1, F</td>
+<td class="column1">Instruction ends.</td>
+</tr>
+<tr class="odd"><td class="column0">May 4–8, M–F</td>
+<td class="column1">Final examinations.</td>
+</tr>
+<tr class="even"><td class="column0">May 13, W</td>
+<td class="column1">Instructor grading deadline for 16-week courses (5 p.m.)</td>
+</tr>
+<tr class="odd last lastrow"><td class="column0">May 18, M</td>
+<td class="column1">Grades available via my.UIC.edu</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Summer Session 2020</h2>
+<table cellpadding="0" cellspacing="0" width="100%" class="sc_sctable tbl_ugacademiccalendar" summary="UG Academic Calendar">
+<caption class="hidden noscript">UG Academic Calendar</caption>
+<colgroup><col class="column0" pdfwidth="40%" width="40%"/><col class="column1" pdfwidth="60%" width="60%"/></colgroup>
+<thead>
+<tr class="sctablehead">
+<th scope="col" class="column0">Date</th>
+<th scope="col" class="column1">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="column0"><strong>Summer Session 1</strong></td>
+<td class="column1">(4-Week Session)</td>
+</tr>
+<tr class="odd"><td class="column0">May 18, M</td>
+<td class="column1">Instruction begins.</td>
+</tr>
+<tr class="even"><td class="column0">May 20, W</td>
+<td class="column1">Last day to complete late registration for Summer Session 1; last day to add a course(s) or make section changes; last day to drop individual Summer Session 1 courses via XE Registration without receiving W (Withdrawn) grade on academic record. Last day to Web Drop Summer Session 1 courses via XE Registration and receive 100% cancellation of tuition and fees.</td>
+</tr>
+<tr class="odd"><td class="column0">May 25, M</td>
+<td class="column1">Memorial Day holiday. No classes</td>
+</tr>
+<tr class="even"><td class="column0">June 1, M</td>
+<td class="column1">CampusCare Waiver deadline.</td>
+</tr>
+<tr class="odd"><td class="column0">June 3, W</td>
+<td class="column1">Last day for undergraduate students to use optional late drop for a Summer Session 1 course in college office and receive grade of W on academic record.</td>
+</tr>
+<tr class="even"><td class="column0">June 11, Th</td>
+<td class="column1">Instruction ends for Summer Session 1.</td>
+</tr>
+<tr class="odd"><td class="column0">June 12, F</td>
+<td class="column1">Final examinations for Summer Session 1.</td>
+</tr>
+<tr class="even"><td class="column0"><strong>Summer Session 2</strong></td>
+<td class="column1">(8-Week Session)</td>
+</tr>
+<tr class="odd"><td class="column0">June 15, M</td>
+<td class="column1">Instruction begins.</td>
+</tr>
+<tr class="even"><td class="column0">June 19, F</td>
+<td class="column1">Last day to complete late registration for Summer Session 2; last day to add a course(s) or make section changes; last day to drop individual Summer Session 2 courses via XE Registration without receiving W (Withdrawn) grade on academic record. Last day to Web Drop courses via XE Registration and receive 100% cancellation of tuition and fees.</td>
+</tr>
+<tr class="odd"><td class="column0">July 3, F</td>
+<td class="column1">Independence Day holiday. No classes.</td>
+</tr>
+<tr class="even"><td class="column0">July 17, F</td>
+<td class="column1">Last day for undergraduate students to use optional late drop for a Summer Session 2 course in college office and receive grade of W on academic record.</td>
+</tr>
+<tr class="odd"><td class="column0">August 5, W</td>
+<td class="column1">Instruction ends for Summer Session 2.</td>
+</tr>
+<tr class="even last lastrow"><td class="column0">August 6–7, Th–F</td>
+<td class="column1">Final examinations for Summer Session 2.</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a id="Fall2020" name="Fall2020"></a>Fall Semester 2020</h2>
+<table cellpadding="0" cellspacing="0" width="100%" class="sc_sctable tbl_ugacademiccalendar" summary="UG Academic Calendar">
+<caption class="hidden noscript">UG Academic Calendar</caption>
+<colgroup><col class="column0" pdfwidth="40%" width="40%"/><col class="column1" pdfwidth="60%" width="60%"/></colgroup>
+<thead>
+<tr class="sctablehead">
+<th scope="col" class="column0">Date</th>
+<th scope="col" class="column1">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="column0">August 24, M</td>
+<td class="column1">Instruction begins.</td>
+</tr>
+<tr class="odd"><td class="column0">September 4, F</td>
+<td class="column1">Last day to complete late registration; last day to add a course(s) or make section changes; last day to drop individual courses via XE Registration without receiving W (Withdrawn) grade on academic record. Last day to Web Drop courses via XE Registration and receive 100% cancellation of tuition and fees.</td>
+</tr>
+<tr class="even"><td class="column0">September 7, M</td>
+<td class="column1">Labor Day holiday. No classes.</td>
+</tr>
+<tr class="odd"><td class="column0">September 12, Sa</td>
+<td class="column1">CampusCare Waiver deadline.</td>
+</tr>
+<tr class="even"><td class="column0">October 30, F</td>
+<td class="column1">Last day for undergraduate students to use optional late drop in college office and receive grade of W on academic record.</td>
+</tr>
+<tr class="odd"><td class="column0">November 26–27, Th–F</td>
+<td class="column1">Thanksgiving holiday. No classes.</td>
+</tr>
+<tr class="even"><td class="column0">December 4, F</td>
+<td class="column1">Instruction ends.</td>
+</tr>
+<tr class="odd"><td class="column0">December 7–11, M–F</td>
+<td class="column1">Final examinations.</td>
+</tr>
+<tr class="even"><td class="column0">December 16, W</td>
+<td class="column1">Instructor grading deadline for 16-week courses (5 p.m.)</td>
+</tr>
+<tr class="odd last lastrow"><td class="column0">December 21, M</td>
+<td class="column1">Grades available via my.UIC.edu</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Spring Semester 2021</h2>
+<table cellpadding="0" cellspacing="0" width="100%" class="sc_sctable tbl_ugacademiccalendar" summary="UG Academic Calendar">
+<caption class="hidden noscript">UG Academic Calendar</caption>
+<colgroup><col class="column0" pdfwidth="40%" width="40%"/><col class="column1" pdfwidth="60%" width="60%"/></colgroup>
+<thead>
+<tr class="sctablehead">
+<th scope="col" class="column0">Date</th>
+<th scope="col" class="column1">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="column0">January 11, M</td>
+<td class="column1">Instruction begins.</td>
+</tr>
+<tr class="odd"><td class="column0">January 18, M</td>
+<td class="column1">Martin Luther King, Jr., Day. No classes.</td>
+</tr>
+<tr class="even"><td class="column0">January 22, F</td>
+<td class="column1">Last day to complete late registration; last day to add a course(s) or make section changes; last day to drop individual courses via XE Registration without receiving W (Withdrawn) grade on academic record. Last day to Web Drop courses via XE Registration and receive 100% cancellation of tuition and fees.</td>
+</tr>
+<tr class="odd"><td class="column0">February 7, Su</td>
+<td class="column1">CampusCare Waiver deadline.</td>
+</tr>
+<tr class="even"><td class="column0">March 19, F</td>
+<td class="column1">Last day for undergraduate students to use optional late drop in college office and receive grade of W on academic record.</td>
+</tr>
+<tr class="odd"><td class="column0">March 22–26, M–F</td>
+<td class="column1">Spring vacation. No classes.</td>
+</tr>
+<tr class="even"><td class="column0">April 30, F</td>
+<td class="column1">Instruction ends.</td>
+</tr>
+<tr class="odd"><td class="column0">May 3–7, M–F</td>
+<td class="column1">Final examinations.</td>
+</tr>
+<tr class="even"><td class="column0">May 12, W</td>
+<td class="column1">Instructor grading deadline for 16-week courses (5 p.m.)</td>
+</tr>
+<tr class="odd last lastrow"><td class="column0">May 17, M</td>
+<td class="column1">Grades available via my.UIC.edu</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Summer Session 2021</h2>
+<table cellpadding="0" cellspacing="0" width="100%" class="sc_sctable tbl_ugacademiccalendar" summary="UG Academic Calendar">
+<caption class="hidden noscript">UG Academic Calendar</caption>
+<colgroup><col class="column0" pdfwidth="40%" width="40%"/><col class="column1" pdfwidth="60%" width="60%"/></colgroup>
+<thead>
+<tr class="sctablehead">
+<th scope="col" class="column0">Date</th>
+<th scope="col" class="column1">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="column0"><strong>Summer Session 1</strong></td>
+<td class="column1">(4-Week Session)</td>
+</tr>
+<tr class="odd"><td class="column0">May 17, M</td>
+<td class="column1">Instruction begins.</td>
+</tr>
+<tr class="even"><td class="column0">May 19, W</td>
+<td class="column1">Last day to complete late registration for Summer Session 1; last day to add a course(s) or make section changes; last day to drop individual Summer Session 1 courses via XE Registration without receiving W (Withdrawn) grade on academic record. Last day to Web Drop Summer Session 1 courses via XE Registration and receive 100% cancellation of tuition and fees.</td>
+</tr>
+<tr class="odd"><td class="column0">May 31, M</td>
+<td class="column1">Memorial Day holiday. No classes</td>
+</tr>
+<tr class="even"><td class="column0">May 31, M</td>
+<td class="column1">CampusCare Waiver deadline.</td>
+</tr>
+<tr class="odd"><td class="column0">June 2, W</td>
+<td class="column1">Last day for undergraduate students to use optional late drop for a Summer Session 1 course in college office and receive grade of W on academic record.</td>
+</tr>
+<tr class="even"><td class="column0">June 10, Th</td>
+<td class="column1">Instruction ends for Summer Session 1.</td>
+</tr>
+<tr class="odd"><td class="column0">June 11, F</td>
+<td class="column1">Final examinations for Summer Session 1.</td>
+</tr>
+<tr class="even"><td class="column0"><strong>Summer Session 2</strong></td>
+<td class="column1">(8-Week Session)</td>
+</tr>
+<tr class="odd"><td class="column0">June 14, M</td>
+<td class="column1">Instruction begins.</td>
+</tr>
+<tr class="even"><td class="column0">June 18, F</td>
+<td class="column1">Last day to complete late registration for Summer Session 2; last day to add a course(s) or make section changes; last day to drop individual Summer Session 2 courses via XE Registration without receiving W (Withdrawn) grade on academic record. Last day to Web Drop courses via XE Registration and receive 100% cancellation of tuition and fees.</td>
+</tr>
+<tr class="odd"><td class="column0">July 5, M</td>
+<td class="column1">Independence Day holiday. No classes.</td>
+</tr>
+<tr class="even"><td class="column0">July 16, F</td>
+<td class="column1">Last day for undergraduate students to use optional late drop for a Summer Session 2 course in college office and receive grade of W on academic record.</td>
+</tr>
+<tr class="odd"><td class="column0">August 4, W</td>
+<td class="column1">Instruction ends for Summer Session 2.</td>
+</tr>
+<tr class="even last lastrow"><td class="column0">August 5–6, Th–F</td>
+<td class="column1">Final examinations for Summer Session 2.</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a id="FALL2021" name="FALL2021"></a>Fall Semester 2021</h2>
+<table cellpadding="0" cellspacing="0" width="100%" class="sc_sctable tbl_ugacademiccalendar" summary="UG Academic Calendar">
+<caption class="hidden noscript">UG Academic Calendar</caption>
+<colgroup><col class="column0" pdfwidth="40%" width="40%"/><col class="column1" pdfwidth="60%" width="60%"/></colgroup>
+<thead>
+<tr class="sctablehead">
+<th scope="col" class="column0">Date</th>
+<th scope="col" class="column1">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="column0">August 23, M</td>
+<td class="column1">Instruction begins.</td>
+</tr>
+<tr class="odd"><td class="column0">September 3, F</td>
+<td class="column1">Last day to complete late registration; last day to add a course(s) or make section changes; last day to drop individual courses via XE Registration without receiving W (Withdrawn) grade on academic record. Last day to Web Drop courses via XE Registration and receive 100% cancellation of tuition and fees.</td>
+</tr>
+<tr class="even"><td class="column0">September 6, M</td>
+<td class="column1">Labor Day holiday. No classes.</td>
+</tr>
+<tr class="odd"><td class="column0"></td>
+<td class="column1">CampusCare Waiver deadline.</td>
+</tr>
+<tr class="even"><td class="column0">October 29, F</td>
+<td class="column1">Last day for undergraduate students to use optional late drop in college office and receive grade of W on academic record.</td>
+</tr>
+<tr class="odd"><td class="column0">November 25–26, Th–F</td>
+<td class="column1">Thanksgiving holiday. No classes.</td>
+</tr>
+<tr class="even"><td class="column0">December 3, F</td>
+<td class="column1">Instruction ends.</td>
+</tr>
+<tr class="odd"><td class="column0">December 6–10, M–F</td>
+<td class="column1">Final examinations.</td>
+</tr>
+<tr class="even"><td class="column0">December 15, W</td>
+<td class="column1">Instructor grading deadline for 16-week courses (5 p.m.)</td>
+</tr>
+<tr class="odd last lastrow"><td class="column0">December 20, M</td>
+<td class="column1">Grades available via my.UIC.edu</td>
+</tr>
+</tbody>
+</table>
+
+<h2 class="pagebreak">Spring Semester 2022</h2>
+<table cellpadding="0" cellspacing="0" width="100%" class="sc_sctable tbl_ugacademiccalendar" summary="UG Academic Calendar">
+<caption class="hidden noscript">UG Academic Calendar</caption>
+<colgroup><col class="column0" pdfwidth="40%" width="40%"/><col class="column1" pdfwidth="60%" width="60%"/></colgroup>
+<thead>
+<tr class="sctablehead">
+<th scope="col" class="column0">Date</th>
+<th scope="col" class="column1">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="column0">January 10, M</td>
+<td class="column1">Instruction begins.</td>
+</tr>
+<tr class="odd"><td class="column0">January 27, M</td>
+<td class="column1">Martin Luther King, Jr., Day. No classes.</td>
+</tr>
+<tr class="even"><td class="column0">January 21, F</td>
+<td class="column1">Last day to complete late registration; last day to add a course(s) or make section changes; last day to drop individual courses via XE Registration without receiving W (Withdrawn) grade on academic record. Last day to Web Drop courses via XE Registration and receive 100% cancellation of tuition and fees.</td>
+</tr>
+<tr class="odd"><td class="column0"></td>
+<td class="column1">CampusCare Waiver deadline.</td>
+</tr>
+<tr class="even"><td class="column0">March 18, F</td>
+<td class="column1">Last day for undergraduate students to use optional late drop in college office and receive grade of W on academic record.</td>
+</tr>
+<tr class="odd"><td class="column0">March 21–25, M–F</td>
+<td class="column1">Spring vacation. No classes.</td>
+</tr>
+<tr class="even"><td class="column0">April 29, F</td>
+<td class="column1">Instruction ends.</td>
+</tr>
+<tr class="odd"><td class="column0">May 2–6, M–F</td>
+<td class="column1">Final examinations.</td>
+</tr>
+<tr class="even"><td class="column0">May 11, W</td>
+<td class="column1">Instructor grading deadline for 16-week courses (5 p.m.)</td>
+</tr>
+<tr class="odd last lastrow"><td class="column0">May 16, M</td>
+<td class="column1">Grades available via my.UIC.edu</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Summer Session 2022</h2>
+<table cellpadding="0" cellspacing="0" width="100%" class="sc_sctable tbl_ugacademiccalendar" summary="UG Academic Calendar">
+<caption class="hidden noscript">UG Academic Calendar</caption>
+<colgroup><col class="column0" pdfwidth="40%" width="40%"/><col class="column1" pdfwidth="60%" width="60%"/></colgroup>
+<thead>
+<tr class="sctablehead">
+<th scope="col" class="column0">Date</th>
+<th scope="col" class="column1">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="column0"><strong>Summer Session 1</strong></td>
+<td class="column1">(4-Week Session)</td>
+</tr>
+<tr class="odd"><td class="column0">May 16, M</td>
+<td class="column1">Instruction begins.</td>
+</tr>
+<tr class="even"><td class="column0">May 18, W</td>
+<td class="column1">Last day to complete late registration for Summer Session 1; last day to add a course(s) or make section changes; last day to drop individual Summer Session 1 courses via XE Registration without receiving W (Withdrawn) grade on academic record. Last day to Web Drop Summer Session 1 courses via XE Registration and receive 100% cancellation of tuition and fees.</td>
+</tr>
+<tr class="odd"><td class="column0">May 30, M</td>
+<td class="column1">Memorial Day holiday. No classes</td>
+</tr>
+<tr class="even"><td class="column0"></td>
+<td class="column1">CampusCare Waiver deadline.</td>
+</tr>
+<tr class="odd"><td class="column0">June 1, W</td>
+<td class="column1">Last day for undergraduate students to use optional late drop for a Summer Session 1 course in college office and receive grade of W on academic record.</td>
+</tr>
+<tr class="even"><td class="column0">June 9, Th</td>
+<td class="column1">Instruction ends for Summer Session 1.</td>
+</tr>
+<tr class="odd"><td class="column0">June 10, F</td>
+<td class="column1">Final examinations for Summer Session 1.</td>
+</tr>
+<tr class="even"><td class="column0"><strong>Summer Session 2</strong></td>
+<td class="column1">(8-Week Session)</td>
+</tr>
+<tr class="odd"><td class="column0">June 13, M</td>
+<td class="column1">Instruction begins.</td>
+</tr>
+<tr class="even"><td class="column0">June 17, F</td>
+<td class="column1">Last day to complete late registration for Summer Session 2; last day to add a course(s) or make section changes; last day to drop individual Summer Session 2 courses via XE Registration without receiving W (Withdrawn) grade on academic record. Last day to Web Drop courses via XE Registration and receive 100% cancellation of tuition and fees.</td>
+</tr>
+<tr class="odd"><td class="column0">July 4, M</td>
+<td class="column1">Independence Day holiday. No classes.</td>
+</tr>
+<tr class="even"><td class="column0">July 15, F</td>
+<td class="column1">Last day for undergraduate students to use optional late drop for a Summer Session 2 course in college office and receive grade of W on academic record.</td>
+</tr>
+<tr class="odd"><td class="column0">August 3, W</td>
+<td class="column1">Instruction ends for Summer Session 2.</td>
+</tr>
+<tr class="even last lastrow"><td class="column0">August 4–5, Th–F</td>
+<td class="column1">Final examinations for Summer Session 2.</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a id="FALL2022" name="FALL2022"></a>Fall Semester 2022</h2>
+<table cellpadding="0" cellspacing="0" width="100%" class="sc_sctable tbl_ugacademiccalendar" summary="UG Academic Calendar">
+<caption class="hidden noscript">UG Academic Calendar</caption>
+<colgroup><col class="column0" pdfwidth="40%" width="40%"/><col class="column1" pdfwidth="60%" width="60%"/></colgroup>
+<thead>
+<tr class="sctablehead">
+<th scope="col" class="column0">Date</th>
+<th scope="col" class="column1">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="column0">August 22, M</td>
+<td class="column1">Instruction begins.</td>
+</tr>
+<tr class="odd"><td class="column0">September 2, F</td>
+<td class="column1">Last day to complete late registration; last day to add a course(s) or make section changes; last day to drop individual courses via XE Registration without receiving W (Withdrawn) grade on academic record. Last day to Web Drop courses via XE Registration and receive 100% cancellation of tuition and fees.</td>
+</tr>
+<tr class="even"><td class="column0">September 5, M</td>
+<td class="column1">Labor Day holiday. No classes.</td>
+</tr>
+<tr class="odd"><td class="column0"></td>
+<td class="column1">CampusCare Waiver deadline.</td>
+</tr>
+<tr class="even"><td class="column0">October 28, F</td>
+<td class="column1">Last day for undergraduate students to use optional late drop in college office and receive grade of W on academic record.</td>
+</tr>
+<tr class="odd"><td class="column0">November 24–25, Th–F</td>
+<td class="column1">Thanksgiving holiday. No classes.</td>
+</tr>
+<tr class="even"><td class="column0">December 2, F</td>
+<td class="column1">Instruction ends.</td>
+</tr>
+<tr class="odd"><td class="column0">December 5–9, M–F</td>
+<td class="column1">Final examinations.</td>
+</tr>
+<tr class="even"><td class="column0">December 14, W</td>
+<td class="column1">Instructor grading deadline for 16-week courses (5 p.m.)</td>
+</tr>
+<tr class="odd last lastrow"><td class="column0">December 19, M</td>
+<td class="column1">Grades available via my.UIC.edu</td>
+</tr>
+</tbody>
+</table>
+
+<h2 class="pagebreak">Spring Semester 2023</h2>
+<table cellpadding="0" cellspacing="0" width="100%" class="sc_sctable tbl_ugacademiccalendar" summary="UG Academic Calendar">
+<caption class="hidden noscript">UG Academic Calendar</caption>
+<colgroup><col class="column0" pdfwidth="40%" width="40%"/><col class="column1" pdfwidth="60%" width="60%"/></colgroup>
+<thead>
+<tr class="sctablehead">
+<th scope="col" class="column0">Date</th>
+<th scope="col" class="column1">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="column0">January 9, M</td>
+<td class="column1">Instruction begins.</td>
+</tr>
+<tr class="odd"><td class="column0">January 16, M</td>
+<td class="column1">Martin Luther King, Jr., Day. No classes.</td>
+</tr>
+<tr class="even"><td class="column0">January 20, F</td>
+<td class="column1">Last day to complete late registration; last day to add a course(s) or make section changes; last day to drop individual courses via XE Registration without receiving W (Withdrawn) grade on academic record. Last day to Web Drop courses via XE Registration and receive 100% cancellation of tuition and fees.</td>
+</tr>
+<tr class="odd"><td class="column0"></td>
+<td class="column1">CampusCare Waiver deadline.</td>
+</tr>
+<tr class="even"><td class="column0">March 17, F</td>
+<td class="column1">Last day for undergraduate students to use optional late drop in college office and receive grade of W on academic record.</td>
+</tr>
+<tr class="odd"><td class="column0">March 20–24, M–F</td>
+<td class="column1">Spring vacation. No classes.</td>
+</tr>
+<tr class="even"><td class="column0">April 28, F</td>
+<td class="column1">Instruction ends.</td>
+</tr>
+<tr class="odd"><td class="column0">May 1–5, M–F</td>
+<td class="column1">Final examinations.</td>
+</tr>
+<tr class="even"><td class="column0">May 10, W</td>
+<td class="column1">Instructor grading deadline for 16-week courses (5 p.m.)</td>
+</tr>
+<tr class="odd last lastrow"><td class="column0">May 15, M</td>
+<td class="column1">Grades available via my.UIC.edu</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Summer Session 2023</h2>
+<table cellpadding="0" cellspacing="0" width="100%" class="sc_sctable tbl_ugacademiccalendar" summary="UG Academic Calendar">
+<caption class="hidden noscript">UG Academic Calendar</caption>
+<colgroup><col class="column0" pdfwidth="40%" width="40%"/><col class="column1" pdfwidth="60%" width="60%"/></colgroup>
+<thead>
+<tr class="sctablehead">
+<th scope="col" class="column0">Date</th>
+<th scope="col" class="column1">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="column0"><strong>Summer Session 1</strong></td>
+<td class="column1">(4-Week Session)</td>
+</tr>
+<tr class="odd"><td class="column0">May 15, M</td>
+<td class="column1">Instruction begins.</td>
+</tr>
+<tr class="even"><td class="column0">May 17, W</td>
+<td class="column1">Last day to complete late registration for Summer Session 1; last day to add a course(s) or make section changes; last day to drop individual Summer Session 1 courses via XE Registration without receiving W (Withdrawn) grade on academic record. Last day to Web Drop Summer Session 1 courses via XE Registration and receive 100% cancellation of tuition and fees.</td>
+</tr>
+<tr class="odd"><td class="column0">May 29, M</td>
+<td class="column1">Memorial Day holiday. No classes</td>
+</tr>
+<tr class="even"><td class="column0"></td>
+<td class="column1">CampusCare Waiver deadline.</td>
+</tr>
+<tr class="odd"><td class="column0">May 31, W</td>
+<td class="column1">Last day for undergraduate students to use optional late drop for a Summer Session 1 course in college office and receive grade of W on academic record.</td>
+</tr>
+<tr class="even"><td class="column0">June 8, Th</td>
+<td class="column1">Instruction ends for Summer Session 1.</td>
+</tr>
+<tr class="odd"><td class="column0">June 9, F</td>
+<td class="column1">Final examinations for Summer Session 1.</td>
+</tr>
+<tr class="even"><td class="column0"><strong>Summer Session 2</strong></td>
+<td class="column1">(8-Week Session)</td>
+</tr>
+<tr class="odd"><td class="column0">June 12, M</td>
+<td class="column1">Instruction begins.</td>
+</tr>
+<tr class="even"><td class="column0">June 16, F</td>
+<td class="column1">Last day to complete late registration for Summer Session 2; last day to add a course(s) or make section changes; last day to drop individual Summer Session 2 courses via XE Registration without receiving W (Withdrawn) grade on academic record. Last day to Web Drop courses via XE Registration and receive 100% cancellation of tuition and fees.</td>
+</tr>
+<tr class="odd"><td class="column0">July 4, F</td>
+<td class="column1">Independence Day holiday. No classes.</td>
+</tr>
+<tr class="even"><td class="column0">July 14, F</td>
+<td class="column1">Last day for undergraduate students to use optional late drop for a Summer Session 2 course in college office and receive grade of W on academic record.</td>
+</tr>
+<tr class="odd"><td class="column0">August 2, W</td>
+<td class="column1">Instruction ends for Summer Session 2.</td>
+</tr>
+<tr class="even last lastrow"><td class="column0">August 3–4, Th–F</td>
+<td class="column1">Final examinations for Summer Session 2.</td>
+</tr>
+</tbody>
+</table>
+</div><!--end #textcontainer -->
+
+
+
+            </div> <!-- end #content -->
+        </div><!--end #content-col -->
+    </div><!-- end #container -->
+</div><!-- end #wrapper --> 
+
+<div id="footer" class="clearfix" role="contentinfo">
+    <div class="wrap">
+        <div id="foot-logo">
+            <a href="/">University of Illinois at Chicago</a>
+        </div><!-- end #foot-logo -->
+        
+        <p><a href="http://admissions.uic.edu/apply-now">Apply Online</a> | <a href="http://admissions.uic.edu/contact-admissions">Contact Admissions</a> | <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a><br />
+        Having problems accessing this site? <a href="mailto:ccmelby@uic.edu">Contact the Webmaster</a>.<br />
+        &copy; 2018-2019 The Board of Trustees of the University of Illinois</p>
     </div>
-  </div>
+</div><!-- end #footer -->
 
-  <div class="footer-legal">
-    <div class="l-full">
+<a href="#header" id="totop">Back to Top</a>
 
-      <div class="red-version">Powered by Red 2.38.0</div>
+<div id="print-dialog" class="screen noscript">
+	<div class="print-header">
+		Print Options
+	</div>
+	<div class="print-body">
+		<div class="print-option">
+			<div class="option-head">
+				<a href="#" onclick="hidePrintDialog();window.print();return false;">Send Page to Printer</a>
+			</div>
+			<p>
+				<em>Print this page.</em>
+			</p>
+		</div>
 
-<div class="site-copyright">
-  &copy; 2020 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
-  <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a>
+
+<div class="print-option"><div class="option-head"><a href="academic-calendar.pdf" target="_blank">Download PDF of this page</a></div><p><em>The PDF will include all information unique to this page.</em></p></div>
+<div class="print-option">
+			<div class="option-head">
+				<a href="/pdf/2019-2021_undergraduate.pdf">Download PDF of the entire Undergraduate Catalog</a>
+			</div>
+			<p>
+				<em>All pages in the campus catalog.</em>
+			</p>
+		</div>
+
+	</div>
+	
+	<div class="buttons clearfix">
+		<div class="cancel">
+			<a href="#" onclick="hidePrintDialog(); return false;">Cancel</a>
+		</div>
+	</div>
 </div>
 
-<div class="campuses" aria-label="Campuses">
-  <h2 class="assistive-text">Campuses</h2>
-  <ul class="campuses-list">
-    <li><a href="https://www.uillinois.edu/">University of Illinois System</a></li>
-    <li><a href="https://illinois.edu/">Urbana-Champaign</a></li>
-    <li><a href="https://www.uis.edu/">Springfield</a></li>
-  </ul>
-</div>
-<div class="cookie-banner">
-  <div id="footer-bottom">
-    <a class="optanon-show-settings">Cookie Settings</a>
-  </div>
-</div>
-    </div>
-  </div>
-
-</footer>
-
-	    </div>
-
-
-  <!-- Instagram Feed JS -->
-<script type="text/javascript">
-var sbiajaxurl = "https://cs.uic.edu/wp-admin/admin-ajax.php";
-</script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var sb_instagram_js_options = {"sb_instagram_at":"","font_method":"svg"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://cs.uic.edu/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.12.1'></script>
-<script type='text/javascript' src='https://cs.uic.edu/wp-content/plugins/uic-red/js-admin/uic-publish-post-settings.js?ver=1.0.0'></script>
-<script type='text/javascript' src='https://cs.uic.edu/wp-content/plugins/uic-red/js-admin/acf-field-group-toggle.js?ver=1.0.0'></script>
-<script type='text/javascript' src='//www.uic.edu/apps/web-alert/alert.js?ver=3'></script>
-<script type='text/javascript' src='https://cs.uic.edu/wp-content/themes/uic-red/js/main.js?ver=1'></script>
-<script type='text/javascript' src='https://cs.uic.edu/wp-includes/js/wp-embed.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
-
-
-
-  
-  
-  <script async src="https://cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js" type="text/javascript" charset="UTF-8"></script>
-
-  </body>
+</body>
 </html>

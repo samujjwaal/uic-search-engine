@@ -1,0 +1,841 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="iso-8859-1">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/apple-touch-icon-152x152-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/apple-touch-icon-120x120-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="images/apple-touch-icon-76x76-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-precomposed.png">
+        <title>DOS Student Conduct & Community Standards - Academic Integrity Incident Report Form</title>
+        <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+        <meta name="robots" content="noindex">
+
+        <link rel="stylesheet" href="publicside_assets/selectwoo-1.0.6/selectWoo.css">
+        <link rel="stylesheet" type="text/css" href="publicside_assets/jquery_filer/css/jquery.filer.css">
+        <link rel="stylesheet" type="text/css" href="publicside_assets/jquery_filer/css/themes/jquery.filer-dragdropbox-theme.css">
+        <script src="https://use.typekit.net/feb7wgs.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+                    <script src='https://www.google.com/recaptcha/api.js?render=6LcFy40UAAAAAKwTcs9vYPFiVZVrPA_UD4NRy84H'></script>
+            <script>
+                function refreshToken() {
+                    grecaptcha.execute('6LcFy40UAAAAAKwTcs9vYPFiVZVrPA_UD4NRy84H', {action: 'reportingform'})
+                        .then(function(token) {
+                            // Verify the token on the server.
+                            var recaptchaResponse = document.getElementById('recaptcha_response');
+                            recaptchaResponse.value = token;
+                        });
+                    }
+
+                grecaptcha.ready(function(){
+                    refreshToken();
+                    setInterval(refreshToken, 60000);
+                });
+            </script>
+            
+        <link rel="stylesheet" type="text/css" href="publicside_assets/tipped/tipped.css">
+        <link rel="stylesheet" href="publicside_assets/bower_components/app.css">
+
+                <style type="text/css">
+            body {
+                background-color: #ef3340;
+            }
+            .sectionheader {
+                color: #FFF;
+                background: #00205b;
+            }
+
+            /* Do not group these rules */
+            input[id=date_of_incident]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                color: #595959;
+            }
+            input[id=date_of_incident]:-moz-placeholder { /* Firefox 18- */
+                color: #595959;
+                opacity: 1;
+            }
+            input[id=date_of_incident]::-moz-placeholder { /* Firefox 19+ */
+                color: #595959;
+                opacity: 1;
+            }
+            input[id=date_of_incident]:-ms-input-placeholder { /* IE */
+                color: #595959;
+            }
+            input[id=date_of_incident]::-ms-input-placeholder { /* IE Edge */
+                color: #595959;
+            }
+            
+            .select2-container .select2-choice > .select2-chosen {
+                color: #595959;
+            }
+
+            .jFiler-theme-default .jFiler-input {
+                color: #595959;
+            }
+            .jFiler-theme-default .jFiler-input-button {
+                color: #000;
+            }
+
+            /* 5/2/19 added for SelectWoo */
+            span.max_foundation {
+                border: 1px solid #cacaca !important;
+                border-radius: unset !important;
+                height: 2.4375rem !important;
+                box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1) !important;
+                margin-bottom: 0.8rem !important;
+            }
+            span.max_foundation > span.select2-selection__rendered {
+                color: #0a0a0a !important;
+                line-height: 2.4375rem !important;
+            }
+
+            span.max_foundation > span.select2-selection__arrow {
+                height: 2.2rem !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper" class="row"> <!--big wrap-->
+        <div class="small-12 columns"> <!-- big wrap-->
+        
+        <header>
+        <div class="row" id="reportheader">
+            <div id="reportheader-left">
+                <p><img src="https://maxfs-useast-01.s3.amazonaws.com/uic/logos/UnivofIllinoisChicago.gif?response-cache-control=must-revalidate%2C%20post-check%3D0%2C%20pre-check%3D0&response-content-disposition=inline%3B%20filename%3D%22UnivofIllinoisChicago.gif%22&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJYZPEI2GVPJCSHMQ%2F20200511%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200511T021024Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=5186ad12b655cff1a15157a8dfb66b936950abec9e2ec643d57836400171519d" alt="University of Illinois at Chicago Logo"></p>
+            </div>
+            <div id="reportheader-right">
+                <h1>DOS Student Conduct & Community Standards - Academic Integrity Incident Report Form</h1><br>
+            </div>
+        </div>
+
+        <div id="main_instructions" class="row">
+            <div class="large-12 columns">
+            	<p>If this matter is related to non-academic or behavioral student conduct, <b>please use our <a href="http://go.uic.edu/conductIR" target=\"_blank\">Student Conduct Incident Report Form</a>.</b><br />
+<br />
+When submitting complaints alleging violations of Academic Integrity, which is one of the Standards of Conduct in the Student Disciplinary Policy, the referral should include:<br />
+<br />
+   A copy of the course syllabus with any statements regarding academic integrity highlighted.<br />
+<br />
+   A copy of any internal department policies regarding academic misconduct.<br />
+<br />
+   A description of the information giving rise to the allegations, including copies of written assignment instructions (if not contained in the syllabus) or a summary of any oral instructions the faculty/Teaching Assistant (TA) provided.<br />
+<br />
+   Copies of any relevant communications between the faculty and the student, such as emails, regarding the incident(s).<br />
+<br />
+   In cases of where allegations of cheating are made, faculty should provide copies of the assignments/exams in which the faculty member suspects the student has cheated. The student's assignment/exam should have alleged or in question passages highlighted. (Please note that the student may have full access to these assignments/exams and any answer keys provided.).<br />
+<br />
+  In cases of plagiarism, faculty should provide a copy of the student's paper and the source text(s) from which the faculty member suspects the student has plagiarized. The student's paper should have alleged or in question passages highlighted and numbered to correspond to highlighted and numbered passages in the source text(s). These copies will help identify passages and sources of concern.<br />
+<br />
+  In cases of plagiarism or fabrication of information, faculty should consider submitting an optional timeline. Important events to include would be the date the student received the full details of the assignment, any intermittent deadlines (i.e., drafts, bibliographies, etc.), the assignment submission, any communication regarding the assignment, the date the alleged plagiarism or fabrication was realized, and any subsequent communication with the student.<br />
+<br />
+ The intended grade sanction in the course if the student is found responsible and the student's current average in the course (prior to referral).<br />
+<br />
+  A short statement regarding your perception of the impact of the students academic integrity misconduct on their academic record, their class, and the larger community within the department.<br />
+<br />
+If you have any witnesses, individuals who are directly involved or observed the incident in question, whose perspective you would like contributed for consideration, please direct them to complete the <a href="http://go.uic.edu/WitnessForm" target=\"_blank\">Witness Statement Form</a>.<br />
+<br />
+Please note, that students alleged of violating the Academic Integrity Standards of Conduct, the Respondent, will receive a copy of <b>ANY AND ALL</b> documents or materials submitted for review through this online reporting submission process. If you have questions or concerns about submitting materials that you do not want the student to have access to, DO NOT SUBMIT IT. Representatives from the Student Conduct Area in the Office of the Dean of Students are available to discuss any concerns you have prior to making a submission or anytime throughout this process.<br />
+<br />
+It is important that you review our <a href="http://go.uic.edu/DisciplinaryPolicy" target=\"_blank\">Student Disciplinary Policy</a> to understand our process and procedures for addressing student complaints.<br />
+<br />
+If you have any questions regarding filing an incident report, please contact the Office of Dean of Students at (312) 996-4857 or dos@uic.edu.</p>            </div>
+        </div>
+        </header>
+
+        <main>
+        <form name="IR" id="IR" enctype="multipart/form-data" accept-charset="iso-8859-1" method="post" action="" data-abide novalidate>
+            <input type="hidden" name="institution" id="institution" value="UnivofIllinoisChicago">
+            <input type="hidden" name="layout_id" value="10">
+            <input type="hidden" name="x_requestor_ip" value="73.73.60.79">
+            <input type="hidden" name="x_requestor_starttime" value="1589163024.9249">
+            <input type="hidden" name="x_requestor_token" value="bae919ee324bf5d73f72469a2dfc7d87">
+            <input type="hidden" name="recaptcha_response" id="recaptcha_response">
+            <!--<label for="g-recaptcha-response-100000">This field appears when the captcha is loaded from outside the Maxient domain. This label is purely to prevent a false positive errors on accessibility evaluation tools like WebAIM's WAVE.</label>-->
+
+            <div data-abide-error class="alert callout" style="display: none;">
+                <p><i class="fi-alert"></i>There are some errors. Please review the highlighted fields.</p>
+            </div>
+            <section>
+                <h2 class="sectionheader">Your Information</h2>
+                <div id="section1">
+                    <div class="column row">
+                        <div class="sectioninstructions"><p></p></div>                    </div>
+                    <div class="row">
+                        <div class="generallabel">
+                            &nbsp;
+                        </div>
+                        <div class="generalinput">
+                                                            <a href="https://cm.maxient.com/reportingform.php?UnivofIllinoisChicago&layout_id=10&promptforauth=true">Enable additional features by logging in.</a>
+                                                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="generallabel">
+                            <label for="reporters_full_name">Your full name:</label>
+                        </div>
+                        <div class="generalinput">
+                            <input type="text" name="reporters_full_name" id="reporters_full_name" class="tooltip" title="" maxlength="80" value="">
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="generallabel">
+                            <label for="reporters_title">Your position/title:</label>
+                        </div>
+                        <div class="generalinput">
+                            <input type="text" name="reporters_title" id="reporters_title" class="tooltip" title="" maxlength="80" value="">
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="generallabel">
+                            <label for="reporters_phone_number">Your phone number:</label>
+                        </div>
+                        <div class="smallerinput">
+                            <input type="text" name="reporters_phone_number" id="reporters_phone_number"
+                            class="tooltip" title="" maxlength="20" value="">
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="generallabel">
+                            <label for="reporters_email_address">Your email address:</label>
+                        </div>
+                        <div class="generalinput">
+                            <input type="email" name="reporters_email_address" id="reporters_email_address" class="tooltip" title="" maxlength="80" value="">
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="generallabel" >
+                            <label for="reporters_physical_address">UIN:</label>
+                        </div>
+                        <div class="generalinput">
+                            <input type="text" name="reporters_physical_address" id="reporters_physical_address" class="tooltip" title="" maxlength="80" value="">
+                        </div>
+                    </div>
+                                            <div class="row">
+                            <div class="generallabel">
+                                <label for="nature">Nature of this report<span class="required">(Required)</span>:</label>
+                            </div>
+                            <div class="generalinput">
+                                <select autocomplete="off" name="nature" id="nature" class="tooltip" title="" required>
+                                    <option value="" disabled selected hidden>Please Choose...</option>
+                                    <option value="Academic">Academic</option><option value="Other">Other</option>                                </select>
+                                <span class="form-error">This field is required.</span>
+                            </div>
+                        </div>
+                                                <div class="row">
+                            <div class="generallabel">
+                                <label for="urgency">Urgency of this report<span class="required">(Required)</span>:</label>
+                            </div>
+                            <div class="generalinput">
+                                <select autocomplete="off" name="urgency" id="urgency" class="tooltip" title="" required>
+                                    <option value="" disabled selected hidden>Please Choose...</option>
+                                    <option value="Normal">Normal</option><option value="Critical">Critical</option>                                </select>
+                                <span class="form-error">This field is required.</span>
+                            </div>
+                        </div>
+                                                <div class="row">
+                            <div class="generallabel">
+                                <label for="date_of_incident" id="lbl_date_of_incident">Date of incident<span class="required">(Required)</span></label>
+                            </div>
+                            <div class="smallerinput">
+                                <input autocomplete="off" type="date" name="date_of_incident" id="date_of_incident" class="tooltip" title="" required pattern="(?:19|20)[0-9]{2}-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-9])|(?:(?!02)(?:0[1-9]|1[0-2])-(?:30))|(?:(?:0[13578]|1[02])-31))" max="2020-05-10" maxlength="10">
+                                <span class="form-error">
+                                  This field is required.                                </span>
+                            </div>
+                        </div>
+                                            
+                    <div class="row" >
+                        <div class="generallabel">
+                            <label for="time_of_incident" id="lbl_time_of_incident">Time of incident:</label>
+                        </div>
+                        <div class="smallerinput">
+                            <input autocomplete="off" type="text" name="time_of_incident" id="time_of_incident" class="tooltip" aria-labelledby="lbl_time_of_incident" title="" maxlength="10" value="">
+                        </div>
+                    </div>
+                                            <div class="row">
+                            <div class="generallabel">
+                                <label for="location_of_incident" id="lbl_location_of_incident">Location of incident<span class="required">(Required)</span>: <span class="show-for-sr">This list may be searched or filtered by typing at any time. Please select a location ...</span></label>
+                            </div>
+                            <div class="generalinput">
+                                <select autocomplete="off" name="location_of_incident" id="location_of_incident" title="Example:Room 311" required>
+                                    <option value=""></option>
+                                    <option value="Online/Digital (e.g., Phone, Tablet, Computer, etc.)">Online/Digital (e.g., Phone, Tablet, Computer, etc.)</option>
+<option value="International (Outside of the US)">International (Outside of the US)</option>
+<option value="Off-Campus">Off-Campus</option>
+<option value="Other (In-State)">Other (In-State)</option>
+<option value="Other (Out of State)">Other (Out of State)</option>
+<option value="UIC Peoria Campus">UIC Peoria Campus</option>
+<option value="UIC Rockford Campus">UIC Rockford Campus</option>
+<option value="UIC Quad City Campus">UIC Quad City Campus</option>
+<optgroup label=" EAST CAMPUS RESIDENCE LOCATIONS ">
+<option value="East Campus - James J. Stukel Towers (665)">East Campus - James J. Stukel Towers (665)</option>
+<option value="East Campus - Marie Robinson Hall (664)">East Campus - Marie Robinson Hall (664)</option>
+<option value="East Campus - Student Residence and Commons Courtyard (644C)">East Campus - Student Residence and Commons Courtyard (644C)</option>
+<option value="East Campus - Student Residence and Commons North (644N)">East Campus - Student Residence and Commons North (644N)</option>
+<option value="East Campus - Student Residence and Commons South (644S)">East Campus - Student Residence and Commons South (644S)</option>
+<option value="East Campus - Student Residence and Commons West (644W)">East Campus - Student Residence and Commons West (644W)</option>
+<option value="East Campus - Thomas Beckham Hall (663)">East Campus - Thomas Beckham Hall (663)</option>
+</optgroup>
+<optgroup label=" WEST CAMPUS RESIDENCE LOCATIONS ">
+<option value="West Campus - Polk Street Residence Hall (937)">West Campus - Polk Street Residence Hall (937)</option>
+<option value="West Campus - Single Student Residence (951)">West Campus - Single Student Residence (951)</option>
+<option value="West Campus - Student Residence Hall (923)">West Campus - Student Residence Hall (923)</option>
+<option value="West Campus - UIC Student Center West (938)">West Campus - UIC Student Center West (938)</option>
+</optgroup>
+<optgroup label=" EAST CAMPUS LOCATIONS ">
+<option value="East Campus - 1253 South Halsted Street (672)">East Campus - 1253 South Halsted Street (672)</option>
+<option value="East Campus - 1309 South Halsted Street (673)">East Campus - 1309 South Halsted Street (673)</option>
+<option value="East Campus - 1333 South Halsted Street (675)">East Campus - 1333 South Halsted Street (675)</option>
+<option value="East Campus - 722 West Maxwell Street (674)">East Campus - 722 West Maxwell Street (674)</option>
+<option value="East Campus - Addams Hall (616)">East Campus - Addams Hall (616)</option>
+<option value="East Campus - Architecture and Design Studios (628)">East Campus - Architecture and Design Studios (628)</option>
+<option value="East Campus - Art and Exhibition Hall (641)">East Campus - Art and Exhibition Hall (641)</option>
+<option value="East Campus - Behavioral Sciences Building (618)">East Campus - Behavioral Sciences Building (618)</option>
+<option value="East Campus - Burnham Hall (617)">East Campus - Burnham Hall (617)</option>
+<option value="East Campus - Chemical Engineering Building (643)">East Campus - Chemical Engineering Building (643)</option>
+<option value="East Campus - Co-Generation Facility (654)">East Campus - Co-Generation Facility (654)</option>
+<option value="East Campus - College of Urban Planning & Public Affairs Hall (642)">East Campus - College of Urban Planning & Public Affairs Hall (642)</option>
+<option value="East Campus - Curtis Granderson Stadium (668)">East Campus - Curtis Granderson Stadium (668)</option>
+<option value="East Campus - Douglas Hall (613)">East Campus - Douglas Hall (613)</option>
+<option value="East Campus - Education, Theatre, Music and Social Work (623)">East Campus - Education, Theatre, Music and Social Work (623)</option>
+<option value="East Campus - Engineering Research Facility (648)">East Campus - Engineering Research Facility (648)</option>
+<option value="East Campus - Express Grill (667A)">East Campus - Express Grill (667A)</option>
+<option value="East Campus - Flames Athletic Center (646)">East Campus - Flames Athletic Center (646)</option>
+<option value="East Campus - Grant Hall (612)">East Campus - Grant Hall (612)</option>
+<option value="East Campus - Halsted Street Parking Structure (622)">East Campus - Halsted Street Parking Structure (622)</option>
+<option value="East Campus - Harrison Street Parking Structure (620)">East Campus - Harrison Street Parking Structure (620)</option>
+<option value="East Campus - Henry Hall (626)">East Campus - Henry Hall (626)</option>
+<option value="East Campus - Jane Addams Hull-House Museum (670)">East Campus - Jane Addams Hull-House Museum (670)</option>
+<option value="East Campus - Jane Addams' Hull-House Dining Hall (671)">East Campus - Jane Addams' Hull-House Dining Hall (671)</option>
+<option value="East Campus - Jefferson Hall (602)">East Campus - Jefferson Hall (602)</option>
+<option value="East Campus - Jim's Original (677B)">East Campus - Jim's Original (677B)</option>
+<option value="East Campus - Lecture Center Building A (604A)">East Campus - Lecture Center Building A (604A)</option>
+<option value="East Campus - Lecture Center Building B (604B)">East Campus - Lecture Center Building B (604B)</option>
+<option value="East Campus - Lecture Center Building C (604C)">East Campus - Lecture Center Building C (604C)</option>
+<option value="East Campus - Lecture Center Building D (604D)">East Campus - Lecture Center Building D (604D)</option>
+<option value="East Campus - Lecture Center Building E (604E)">East Campus - Lecture Center Building E (604E)</option>
+<option value="East Campus - Lecture Center Building F (604F)">East Campus - Lecture Center Building F (604F)</option>
+<option value="East Campus - Lincoln Hall (614)">East Campus - Lincoln Hall (614)</option>
+<option value="East Campus - Lot 1A (1A)">East Campus - Lot 1A (1A)</option>
+<option value="East Campus - Lot 1B (1B)">East Campus - Lot 1B (1B)</option>
+<option value="East Campus - Lot 4 (4)">East Campus - Lot 4 (4)</option>
+<option value="East Campus - Lot 5 (5)">East Campus - Lot 5 (5)</option>
+<option value="East Campus - Lot 5C (5C)">East Campus - Lot 5C (5C)</option>
+<option value="East Campus - Lot 6 (6)">East Campus - Lot 6 (6)</option>
+<option value="East Campus - Lot 8 (8)">East Campus - Lot 8 (8)</option>
+<option value="East Campus - Lot 9 (9)">East Campus - Lot 9 (9)</option>
+<option value="East Campus - Lot 10 (10)">East Campus - Lot 10 (10)</option>
+<option value="East Campus - Lot 11 (11)">East Campus - Lot 11 (11)</option>
+<option value="East Campus - Lot 12 (12)">East Campus - Lot 12 (12)</option>
+<option value="East Campus - Lot 14 (14)">East Campus - Lot 14 (14)</option>
+<option value="East Campus - Lot 18A (18A)">East Campus - Lot 18A (18A)</option>
+<option value="East Campus - Lot 20 (20)">East Campus - Lot 20 (20)</option>
+<option value="East Campus - Maxwell Street Parking Structure (677)">East Campus - Maxwell Street Parking Structure (677)</option>
+<option value="East Campus - Parking Control Facility (651)">East Campus - Parking Control Facility (651)</option>
+<option value="East Campus - Physical Education Building (633)">East Campus - Physical Education Building (633)</option>
+<option value="East Campus - Physical Plant Building (611)">East Campus - Physical Plant Building (611)</option>
+<option value="East Campus - Plant Research Laboratory (635)">East Campus - Plant Research Laboratory (635)</option>
+<option value="East Campus - Recreation Control Building (659)">East Campus - Recreation Control Building (659)</option>
+<option value="East Campus - Richard J. Daley Library (609)">East Campus - Richard J. Daley Library (609)</option>
+<option value="East Campus - Roosevelt Road Building (621)">East Campus - Roosevelt Road Building (621)</option>
+<option value="East Campus - Science & Engineering Laboratory East (607)">East Campus - Science & Engineering Laboratory East (607)</option>
+<option value="East Campus - Science & Engineering Laboratory West (608)">East Campus - Science & Engineering Laboratory West (608)</option>
+<option value="East Campus - Science & Engineering Offices (631)">East Campus - Science & Engineering Offices (631)</option>
+<option value="East Campus - Science & Engineering South (619)">East Campus - Science & Engineering South (619)</option>
+<option value="East Campus - South Campus Operations Building (658)">East Campus - South Campus Operations Building (658)</option>
+<option value="East Campus - Stevenson Hall (627)">East Campus - Stevenson Hall (627)</option>
+<option value="East Campus - Student Recreation Facility (630)">East Campus - Student Recreation Facility (630)</option>
+<option value="East Campus - Student Services Building (655)">East Campus - Student Services Building (655)</option>
+<option value="East Campus - Taft Hall (615)">East Campus - Taft Hall (615)</option>
+<option value="East Campus - Taylor Street Building (690)">East Campus - Taylor Street Building (690)</option>
+<option value="East Campus - Telecommunications Node 4 (662)">East Campus - Telecommunications Node 4 (662)</option>
+<option value="East Campus - Transportation Facility (657)">East Campus - Transportation Facility (657)</option>
+<option value="East Campus - UIC Forum (667)">East Campus - UIC Forum (667)</option>
+<option value="East Campus - UIC Pavilion (638)">East Campus - UIC Pavilion (638)</option>
+<option value="East Campus - UIC Police Station (656)">East Campus - UIC Police Station (656)</option>
+<option value="East Campus - UIC Student Center East (605)">East Campus - UIC Student Center East (605)</option>
+<option value="East Campus - UIC Student Center East Tower (606)">East Campus - UIC Student Center East Tower (606)</option>
+<option value="East Campus - UIC Theater (624)">East Campus - UIC Theater (624)</option>
+<option value="East Campus - University Hall (601)">East Campus - University Hall (601)</option>
+<option value="East Campus - Utilities Building (610)">East Campus - Utilities Building (610)</option>
+</optgroup>
+<optgroup label=" WEST CAMPUS LOCATIONS ">
+<option value="West Campus - 2242 West Harrison (980)">West Campus - 2242 West Harrison (980)</option>
+<option value="West Campus - Administrative Office Building (941)">West Campus - Administrative Office Building (941)</option>
+<option value="West Campus - Applied Health Sciences Building (916)">West Campus - Applied Health Sciences Building (916)</option>
+<option value="West Campus - Auxiliary Services Refrigeration Plant (954)">West Campus - Auxiliary Services Refrigeration Plant (954)</option>
+<option value="West Campus - Benjamin Goldberg Research Center (933)">West Campus - Benjamin Goldberg Research Center (933)</option>
+<option value="West Campus - Biologic Resources Laboratory (932)">West Campus - Biologic Resources Laboratory (932)</option>
+<option value="West Campus - Biologic Resources Laboratory Annex (917)">West Campus - Biologic Resources Laboratory Annex (917)</option>
+<option value="West Campus - Center for Structural Biology (976)">West Campus - Center for Structural Biology (976)</option>
+<option value="West Campus - Central Refrigeration Plant (952)">West Campus - Central Refrigeration Plant (952)</option>
+<option value="West Campus - Clinical Sciences Building (920)">West Campus - Clinical Sciences Building (920)</option>
+<option value="West Campus - Clinical Sciences North (911)">West Campus - Clinical Sciences North (911)</option>
+<option value="West Campus - College of Dentistry (940)">West Campus - College of Dentistry (940)</option>
+<option value="West Campus - College of Medicine East Tower (910)">West Campus - College of Medicine East Tower (910)</option>
+<option value="West Campus - College of Medicine Research Building (934)">West Campus - College of Medicine Research Building (934)</option>
+<option value="West Campus - College of Medicine West (908)">West Campus - College of Medicine West (908)</option>
+<option value="West Campus - College of Medicine West Tower (909)">West Campus - College of Medicine West Tower (909)</option>
+<option value="West Campus - College of Nursing (936)">West Campus - College of Nursing (936)</option>
+<option value="West Campus - College of Pharmacy (924)">West Campus - College of Pharmacy (924)</option>
+<option value="West Campus - Disability, Health and Social Policy Building (974)">West Campus - Disability, Health and Social Policy Building (974)</option>
+<option value="West Campus - Environmental Health and Safety Offices (931)">West Campus - Environmental Health and Safety Offices (931)</option>
+<option value="West Campus - Environmental Safety Facility (966)">West Campus - Environmental Safety Facility (966)</option>
+<option value="West Campus - Eye and Ear Infirmary (902)">West Campus - Eye and Ear Infirmary (902)</option>
+<option value="West Campus - Hazardous Materials Storage (927)">West Campus - Hazardous Materials Storage (927)</option>
+<option value="West Campus - Human Resources Building (907)">West Campus - Human Resources Building (907)</option>
+<option value="West Campus - Incubator Laboratory Facility (965)">West Campus - Incubator Laboratory Facility (965)</option>
+<option value="West Campus - Jonasson House (925)">West Campus - Jonasson House (925)</option>
+<option value="West Campus - Laflin Warehouse Building (972)">West Campus - Laflin Warehouse Building (972)</option>
+<option value="West Campus - Library of the Health Sciences (942)">West Campus - Library of the Health Sciences (942)</option>
+<option value="West Campus - Lions of Illinois Eye Research Institute (957)">West Campus - Lions of Illinois Eye Research Institute (957)</option>
+<option value="West Campus - Lot A3 (A3)">West Campus - Lot A3 (A3)</option>
+<option value="West Campus - Lot A4 (A4)">West Campus - Lot A4 (A4)</option>
+<option value="West Campus - Lot B2 (B2)">West Campus - Lot B2 (B2)</option>
+<option value="West Campus - Lot B4 (B4)">West Campus - Lot B4 (B4)</option>
+<option value="West Campus - Lot C1 (C1)">West Campus - Lot C1 (C1)</option>
+<option value="West Campus - Lot C4 (C4)">West Campus - Lot C4 (C4)</option>
+<option value="West Campus - Lot E ( E)">West Campus - Lot E ( E)</option>
+<option value="West Campus - Lot E/E1 (E1)">West Campus - Lot E/E1 (E1)</option>
+<option value="West Campus - Lot E4 (E4)">West Campus - Lot E4 (E4)</option>
+<option value="West Campus - Lot F (F)">West Campus - Lot F (F)</option>
+<option value="West Campus - Lot F4 (F4)">West Campus - Lot F4 (F4)</option>
+<option value="West Campus - Lot G (G)">West Campus - Lot G (G)</option>
+<option value="West Campus - Lot G4 (G4)">West Campus - Lot G4 (G4)</option>
+<option value="West Campus - Lot H (H)">West Campus - Lot H (H)</option>
+<option value="West Campus - Lot J (J)">West Campus - Lot J (J)</option>
+<option value="West Campus - Lot K (K)">West Campus - Lot K (K)</option>
+<option value="West Campus - Lot L (L)">West Campus - Lot L (L)</option>
+<option value="West Campus - Lot M (M)">West Campus - Lot M (M)</option>
+<option value="West Campus - Lot N1 (N1)">West Campus - Lot N1 (N1)</option>
+<option value="West Campus - Lot O (O)">West Campus - Lot O (O)</option>
+<option value="West Campus - Lot O (O1)">West Campus - Lot O (O1)</option>
+<option value="West Campus - Lot W5 (W5)">West Campus - Lot W5 (W5)</option>
+<option value="West Campus - Marshfield Avenue Building (922)">West Campus - Marshfield Avenue Building (922)</option>
+<option value="West Campus - Medical Center Administration Building (914)">West Campus - Medical Center Administration Building (914)</option>
+<option value="West Campus - Medical Center Steam Plant (921)">West Campus - Medical Center Steam Plant (921)</option>
+<option value="West Campus - Medical Sciences Building (935)">West Campus - Medical Sciences Building (935)</option>
+<option value="West Campus - Mile Square Health Center (929)">West Campus - Mile Square Health Center (929)</option>
+<option value="West Campus - Molecular Biology Research Building (919)">West Campus - Molecular Biology Research Building (919)</option>
+<option value="West Campus - Neuropsychiatric Institute (950)">West Campus - Neuropsychiatric Institute (950)</option>
+<option value="West Campus - NMR Laboratories (918)">West Campus - NMR Laboratories (918)</option>
+<option value="West Campus - On the Mall (959)">West Campus - On the Mall (959)</option>
+<option value="West Campus - Outpatient Care Center (948)">West Campus - Outpatient Care Center (948)</option>
+<option value="West Campus - Paulina Street Building (963)">West Campus - Paulina Street Building (963)</option>
+<option value="West Campus - Paulina Street Parking (926)">West Campus - Paulina Street Parking (926)</option>
+<option value="West Campus - School of Public Health and Psychiatric Institute (975)">West Campus - School of Public Health and Psychiatric Institute (975)</option>
+<option value="West Campus - School of Public Health-West (930)">West Campus - School of Public Health-West (930)</option>
+<option value="West Campus - UIC Sport and Fitness Center (953)">West Campus - UIC Sport and Fitness Center (953)</option>
+<option value="West Campus - University of Illinois Hospital (949)">West Campus - University of Illinois Hospital (949)</option>
+<option value="West Campus - Westside Research Office Building (977)">West Campus - Westside Research Office Building (977)</option>
+<option value="West Campus - Wood Street Metered Parking (WSM)">West Campus - Wood Street Metered Parking (WSM)</option>
+<option value="West Campus - Wood Street Parking (971)">West Campus - Wood Street Parking (971)</option>
+</optgroup>
+                                </select>
+                                <span class="form-error">This field is required.</span>
+                            </div>
+                        </div>
+                                            <div class="row" >
+                        <div class="generallabel">
+                            <label for="location_of_incident_specific">Specific location:</label>
+                        </div>
+                        <div class="generalinput">
+                            <input autocomplete="off" type="text" name="location_of_incident_specific" id="location_of_incident_specific" class="tooltip" title="" size="40" maxlength="100" value="" style="position:relative;">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+                            <section>
+                    <h2 class="sectionheader">Involved Parties</h2>
+                    <div id="section3">
+                        <div class="column row">
+                            <div class="sectioninstructions"><p>Please list the individuals involved (excluding yourself), including as many of the listed fields as you can provide. For non-students, please list an SSN or Drivers License number in the block labeled UIN if available.</p></div>                        </div>
+
+                        <div id="involvedPersons">
+                            <div class="personrow clonedInput" id="personrow0">
+                                <fieldset>
+                                    <legend class="show-for-sr legend_person">Involved party 1</legend>
+                                    <div class="row small-up-1 medium-up-2 large-up-4">
+                                                                                    <div class="column">
+                                                <label for="person_0" class="label_person">Name or Organization                                                                                                </label>
+                                                <input autocomplete="off" type="text" name="person[]" id="person_0" class="input_person" maxlength="50" value="">
+                                            </div>
+                                                                                        <div class="column">
+                                                <label for="gender_0" class="label_gender">Select Gender</label>
+                                                <select autocomplete="off" name="gender[]" class="gender select_gender" id="gender_0">
+                                                    <option value=""></option>
+                                                    <option value="Male">Male</option><option value="Female">Female</option><option value="Transgender">Transgender</option><option value="Gender-Fluid">Gender-Fluid</option><option value="Student Organization">Student Organization</option><option value="Prefer not to Answer">Prefer not to Answer</option>                                                </select>
+                                            </div>
+                                                                                        <div class="column">
+                                                <label for="role_0" class="label_role">Select Role</label>
+                                                <select autocomplete="off" name="role[]" class="role select_role" id="role_0">
+                                                    <option value=""></option>
+                                                    <option value="Respondent">Respondent</option><option value="
+Witness">
+Witness</option><option value="
+Teaching Assistant (TA)">
+Teaching Assistant (TA)</option>                                                </select>
+                                            </div>
+                                                                                        <div class="column">
+                                                <label for="sid_0" class="label_sid">UIN</label>
+                                                <input autocomplete="off" type="text" name="sid[]" id="sid_0" class="input_sid" maxlength=30 value="">
+                                            </div>
+                                                                                        <div class="column">
+                                                <label for="dob_0" class="label_dob">DOB (YYYY-MM-DD)</label>
+                                                <input autocomplete="off" type="text" name="dob[]" id="dob_0" class="input_dob" maxlength="10" value="">
+                                            </div>
+                                                                                        <div class="column">
+                                                <label for="phone_0" class="label_phone">Phone number</label>
+                                                <input autocomplete="off" type="text" name="phone[]" id="phone_0" class="input_phone" maxlength="50" value="">
+                                            </div>
+                                                                                        <div class="column">
+                                                <label for="email_0" class="label_email">UIC email address</label>
+                                                <input autocomplete="off" type="email" name="email[]" id="email_0" maxlength="50" class="input_email" value="">
+                                            </div>
+                                                                                        <div class="column" >
+                                                <label for="halladdress_0" class="label_halladdress">Hall/Address</label>
+                                                <input autocomplete="off" type="text" name="halladdress[]" id="halladdress_0" maxlength="50" class="input_halladdress" value="">
+                                            </div>
+                                                                                </div>
+                                </fieldset>
+                            </div>
+                        </div>
+
+                                                    <input type="button" id="btnAdd" class="button" value="Add another party">
+                            <input type="button" id="btnDel" class="button hide" value="Remove last party">
+                                                </div>
+                </section>
+                
+                            <section>
+                    <h2 class="sectionheader">Questions</h2>
+                    <div id="addquest">
+                                                <input type="hidden" name="numberOfAdditionalQuestions" value="9">
+
+                                                    <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <fieldset class="checkbox-group" data-validator-min="1">
+                                            <legend class="addquest_label">College of the Course (where alleged violation occurred)<span class="required">(Required)</span></legend>
+                                            <div class="row">
+                                                <div class="answers">
+                                                    <div class="large-4 columns ">
+                                                                                                                    <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="College of Applied Health Sciences"  required data-validator="checkbox_limit">College of Applied Health Sciences</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="College of Architecture, Design, and the Arts"  required data-validator="checkbox_limit">College of Architecture, Design, and the Arts</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="College of Business Administration"  required data-validator="checkbox_limit">College of Business Administration</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="College of Dentistry"  required data-validator="checkbox_limit">College of Dentistry</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="College of Education"  required data-validator="checkbox_limit">College of Education</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="College of Engineering"  required data-validator="checkbox_limit">College of Engineering</label>
+                                                            </div>
+                                                                                                                                </div>
+                                                                    <div class="large-4 columns ">
+                                                                                                                                <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="Graduate College"  required data-validator="checkbox_limit">Graduate College</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="Honors College"  required data-validator="checkbox_limit">Honors College</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="College of Liberal Arts and Sciences"  required data-validator="checkbox_limit">College of Liberal Arts and Sciences</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="College of Medicine"  required data-validator="checkbox_limit">College of Medicine</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="College of Nursing"  required data-validator="checkbox_limit">College of Nursing</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="College of Pharmacy"  required data-validator="checkbox_limit">College of Pharmacy</label>
+                                                            </div>
+                                                                                                                                </div>
+                                                                    <div class="large-4 columns ">
+                                                                                                                                <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="School of Public Health"  required data-validator="checkbox_limit">School of Public Health</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="Jane Addams College of Social Work"  required data-validator="checkbox_limit">Jane Addams College of Social Work</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="College of Urban Planning and Public Affairs"  required data-validator="checkbox_limit">College of Urban Planning and Public Affairs</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="UIC Global Program"  required data-validator="checkbox_limit">UIC Global Program</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="UIC John Marshall Law School"  required data-validator="checkbox_limit">UIC John Marshall Law School</label>
+                                                            </div>
+                                                                                                                </div>
+                                                </div>
+                                            </div>
+                                            <span class="form-error addquest_error">You must make at least one selection.</span>
+                                        </fieldset>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <label class="addquest_label" for="aq[2][answer]">Department of the Course (where alleged violation occurred)<span class="required">(Required)</span></label>
+                                        <input autocomplete="off" type="text" name="aq[2][answer]" id="aq[2][answer]" class="answers" value="" required maxlength="100">
+                                        <span class="form-error addquest_error">This field is required.</span>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <label class="addquest_label" for="aq[3][answer]">Course Name and Number (where alleged violation occurred)<span class="required">(Required)</span></label>
+                                        <input autocomplete="off" type="text" name="aq[3][answer]" id="aq[3][answer]" class="answers" value="" required maxlength="100">
+                                        <span class="form-error addquest_error">This field is required.</span>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <label class="addquest_label" for="aq[4][answer]">Please comment (if possible) on the student's attendance record in this course before and after this incident?</label>
+                                        <textarea autocomplete="off" spellcheck="true" name="aq[4][answer]" id="aq[4][answer]" class="answers"  rows="5"></textarea>
+                                        <span class="form-error addquest_error">This field is required.</span>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <label class="addquest_label" for="aq[5][answer]"><b>Please provide a detailed description of the incident using specific, concise, objective language (Who, What, Where, When, How it Happened).</b><span class="required">(Required)</span></label>
+                                        <textarea autocomplete="off" spellcheck="true" name="aq[5][answer]" id="aq[5][answer]" class="answers" required rows="5"></textarea>
+                                        <span class="form-error addquest_error">This field is required.</span>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <label class="addquest_label" for="aq[6][answer]">Have you addressed this incident with the student?</label>
+                                        <textarea autocomplete="off" spellcheck="true" name="aq[6][answer]" id="aq[6][answer]" class="answers"  rows="5"></textarea>
+                                        <span class="form-error addquest_error">This field is required.</span>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <label class="addquest_label" for="aq[7][answer]">If you have addressed this incident with the student, please describe the conversation and outcome.<span class="required">(Required)</span></label>
+                                        <textarea autocomplete="off" spellcheck="true" name="aq[7][answer]" id="aq[7][answer]" class="answers" required rows="5"></textarea>
+                                        <span class="form-error addquest_error">This field is required.</span>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <label class="addquest_label" for="aq[8][answer]">Please provide a short statement regarding your perception of the impact of the students academic integrity misconduct on their academic record, their class, and the larger community within the department.</label>
+                                        <textarea autocomplete="off" spellcheck="true" name="aq[8][answer]" id="aq[8][answer]" class="answers"  rows="5"></textarea>
+                                        <span class="form-error addquest_error">This field is required.</span>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <fieldset class="checkbox-group" data-validator-min="1">
+                                            <legend class="addquest_label">Will you be submitting supporting documents (e.g., course syllabus, copy of relevant emails, etc.) related to the alleged violating behavior? If yes, please proceed to "Supporting Documentation."<span class="required">(Required)</span></legend>
+                                            <div class="answers">
+                                                                                                    <label class="label_radiocheck">
+                                                        <input autocomplete="off" type="checkbox" name="aq[9][answer][]" value="Yes"  required data-validator="checkbox_limit">Yes                                                    </label>
+                                                                                                        <label class="label_radiocheck">
+                                                        <input autocomplete="off" type="checkbox" name="aq[9][answer][]" value="Yes, but I will be delivering hard copies to your office"  required data-validator="checkbox_limit">Yes, but I will be delivering hard copies to your office                                                    </label>
+                                                                                                        <label class="label_radiocheck">
+                                                        <input autocomplete="off" type="checkbox" name="aq[9][answer][]" value="No"  required data-validator="checkbox_limit">No                                                    </label>
+                                                                                                </div>
+                                            <span class="form-error addquest_error">You must make at least one selection.</span>
+                                        </fieldset>
+                                                                        </div>
+                            </div>
+                                                </div>
+                </section>
+                                <section>
+                    <h2 class="sectionheader">Supporting Documentation</h2>
+                    <div id="supportdocs">
+                        <div class="column row">
+                            <div class="sectioninstructions" id="uploadFilesInstructions">
+                                <p>
+                                    <p><b>Attach additional documents or supporting materials (e.g., Emails, screenshots, text messages, audio recordings, pictures, photographs, videos, etc.) that supplement your incident description</b> 1GB maximum total size.<br><strong>Attachments require time to upload, so please be patient after submitting this form.</strong></p>                                </p>
+                            </div>
+                        </div>
+                        <div class="column row">
+                            <input tabindex="-1" type="file" name="uploadedFiles[]" id="filer_input" aria-labelledby="uploadFilesInstructions" multiple="multiple">
+                        </div>
+                    </div>
+                </section>
+                
+            <section>
+                <div class="row">
+                    <div class="small-12 columns text-center" id="submit_btn">
+                        <h2 class="show-for-sr sectionheader">Submission</h2>
+                                                    <p><input autocomplete="off" type="checkbox" id="sendCopyToAuthor" name="sendCopyToAuthor" value="Yes"
+                            ><label for="sendCopyToAuthor">Email me a copy of this report</label></p>
+                                                    <input autocomplete="off" class="large button" type="submit" name="submit" id="submit" value="Submit report">
+                    </div>
+                </div>
+            </section>
+            <div class="row">
+                <div class="small-12 columns">
+                    <div data-abide-error class="alert callout" style="display: none;">
+                        <p><i class="fi-alert"></i>There are some errors. Please review the highlighted fields.</p>
+                    </div>
+                </div>
+            </div>
+
+            </form>
+    </main>
+
+</div><!-- big wrap column-->
+</div><!-- big wrap -->
+<script src="publicside_assets/bower_components/jquery/dist/jquery.js"></script>
+<script src="publicside_assets/bower_components/what-input/what-input.js"></script>
+<script src="publicside_assets/bower_components/foundation-sites/dist/foundation.min.js"></script>
+<script src="publicside_assets/bower_components/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/timepicker@1.11.14/jquery.timepicker.min.js"></script>
+<script type="text/javascript" src="publicside_assets/tipped/tipped.js"></script>
+<script type="text/javascript" src="publicside_assets/cloneform/clone-form-td2.js"></script>
+<script src="publicside_assets/selectwoo-1.0.6/selectWoo.full.AHmods.min.js"></script>
+<script src="publicside_assets/jquery_filer/js/jquery.filer.AHmods.min.js"></script>
+<script src="https://use.fontawesome.com/b22e7499d6.js"></script>
+
+<script type="text/javascript">
+    function ShowHide(elementId)
+    {
+        var element = document.getElementById(elementId);
+        if(element.style.display != "block")
+            element.style.display = "block";
+        else
+            element.style.display = "none";
+    }
+    function ShowPersonRow(elementId)
+    {
+        var element = document.getElementById(elementId);
+        element.style.display = ""; // using table-row here breaks IE6/7
+    }
+    function ShowLinkRow(elementId)
+    {
+        var element = document.getElementById(elementId);
+        element.style.display = ""; // using table-row here breaks IE6/7
+    }
+    function HideLinkRow(elementId)
+    {
+        var element = document.getElementById(elementId);
+        element.style.display = "none";
+    }
+
+    Tipped.create(".tooltip", {
+        position: 'right',
+        showOn: 'focus',
+        hideOn: 'blur'
+    });
+
+            $("#location_of_incident").select2({
+            allowClear: true,
+            placeholder: "Please select a location ..."
+        });
+
+        $('.select2-selection').attr('aria-labelledby', 'lbl_location_of_incident');
+        
+    /* Must follow select2 script because of id change */
+    Tipped.create('#s2id_location_of_incident', 'Example:Room 311', {
+         position: 'right'
+    });
+
+    $('#time_of_incident').timepicker({
+        'scrollDefault': 'now',
+        'step': '15',
+        'timeFormat': 'g:i A'
+    });
+
+    // jquery_filer for file uploads
+    $('#filer_input').filer({
+        limit: 30,
+        maxSize: 1000,
+        changeInput: true,
+        showThumbs: true,
+        addMore: true,
+        captions: {
+            button: "Choose Files",
+            feedback: "Choose files to upload",
+            feedback2: "file(s) selected",
+            drop: "Drop file here to upload",
+            removeConfirmation: "Are you sure you want to remove this file?",
+            errors: {
+                filesLimit: "Only {{fi-limit}} files are allowed to be uploaded.",
+                filesType: "This type of file cannot be uploaded.",
+                filesSize: "{{fi-name}} is too large. Your total upload cannot exceed {{fi-maxSize}} MB.",
+                filesSizeAll: "The files you've chosen are too large. Your total upload cannot exceed {{fi-maxSize}} MB."
+            }
+        }
+    });
+
+    $(".select2-selection").addClass("max_foundation");
+
+    /* Makes Abide work on select2 - triggers after the native scripts work */
+    $("#location_of_incident").on("invalid.zf.abide", function(ev,el) {
+        if($("#location_of_incident").hasClass("is-invalid-input"));
+            $("#lbl_location_of_incident").addClass("is-invalid-label");
+    });
+    $("#location_of_incident").on("valid.zf.abide", function(ev,frm) {
+        if($("#location_of_incident").hasClass("is-invalid-input"));
+            $("#lbl_location_of_incident").removeClass("is-invalid-label");
+    });
+
+    /* Makes Abide work on radio buttons - triggers after the native scripts work */
+    $(".radio-group").on("invalid.zf.abide", function(ev,el) {
+        $(this).find("input").each(function (i) {
+            if($(this).hasClass("is-invalid-input")) {
+                $(this).closest("fieldset").find("legend").addClass("is-invalid-label");
+                $(this).closest("fieldset").find('span.form-error').addClass("is-visible");
+            }
+        });
+    });
+    $(".radio-group").on("valid.zf.abide", function(ev,frm) {
+        $(this).find("input").each(function (i) {
+            if(!$(this).hasClass("is-invalid-input")) {
+                $(this).closest("fieldset").find("legend").removeClass("is-invalid-label");
+                $(this).closest("fieldset").find('span.form-error').removeClass("is-visible");
+            }
+        });
+    });
+
+    $('input, textarea, select').on("change.zf.abide", function(ev,elem) {
+        var invalid_fields = $('form').find('[data-invalid]');
+        if (invalid_fields.length == 0)
+            $('.alert.callout').addClass('hide');
+        else
+            $('.alert.callout').removeClass('hide');
+    });
+
+    /* Makes form scroll to first invalid entry */
+    $('form').on('forminvalid.zf.abide', function () {
+        var invalid_fields = $(this).find('[data-invalid]');
+
+        $('html, body').animate({
+            scrollTop: $(invalid_fields[0]).offset().top - 40
+        }, 1000, function() {
+            $(invalid_fields[0]).focus();  /*for putting focus on the first invalid field*/
+        });
+    });
+
+    // 11/18/19: HTML5 input type=date detection
+    var isDateSupported = function () {
+        var input = document.createElement('input');
+        var value = 'a';
+        input.setAttribute('type', 'date');
+        input.setAttribute('value', value);
+        return (input.value !== value);
+    };
+    if (isDateSupported()) {
+        $('#lbl_date_of_incident').append('<span class="show-for-sr">Format is MM/DD/YYYY.</span>');
+    }
+    if (!isDateSupported()) {
+        $('#lbl_date_of_incident').append('<br>Format is YYYY-MM-DD.');
+    }
+
+
+</script>
+</body>
+</html>

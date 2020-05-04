@@ -1,962 +1,1461 @@
-<!DOCTYPE html><html lang="en"><head><title>UIC Directory</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width"><style>.interior-page-intro .interior-page-title{ color: rgb(54, 54, 54); font-size: 36px; font-weight: 700; line-height: 1; margin-bottom: 12px; }
-.interior-section-header, .interior-page-intro .interior-page-subtitle{ color: rgb(54, 54, 54); font-size: 24px; font-weight: 400; line-height: 1.2; }
-body{ font-family: Theinhardt, Arial, sans-serif; }
-.body-text, .campus-reminders .reminder-text, .category-link-list .text-cell, .error-help, .text-input, .text-area, .number-input, .tel-input, .email-input, .form-help-text, .highlight .content-cell, .home-lists .home-list-blurb, .interior-page-intro .interior-page-text, .key-message-block .message-cell .text, .landing-page-intro .intro-text, .link-block .text, .link-list .text-cell, .text-block-with-inline-image .intro-row, .text-block-with-inline-image .text-and-image-row, .text-block-with-inline-image .link-list, .text-block-with-large-image .link-list, .topic-block-list .text-cell, .topic-block-list .topic-block-text-cell, .block-wysiwyg { color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1.36; }
-.body-text p, .campus-reminders .reminder-text p, .category-link-list .text-cell p, .error-help p, .text-input p, .text-area p, .number-input p, .tel-input p, .email-input p, .form-help-text p, .highlight .content-cell p, .home-lists .home-list-blurb p, .interior-page-intro .interior-page-text p, .key-message-block .message-cell .text p, .landing-page-intro .intro-text p, .link-block .text p, .link-list .text-cell p, .text-block-with-inline-image .intro-row p, .text-block-with-inline-image .text-and-image-row p, .text-block-with-inline-image .link-list p, .text-block-with-large-image .link-list p, .topic-block-list .text-cell p, .topic-block-list .topic-block-text-cell p, .block-wysiwyg p { margin-bottom: 1em; }
-.footer-list-item{ margin-bottom: 15px; }
-.footer-list-item:last-child{ margin-bottom: 0px; }
-.footer-list-link{ color: rgb(255, 255, 255); font-size: 14px; text-decoration: none; }
-.footer .footer-legal a{ color: rgb(153, 153, 153); text-decoration: none; }
-.footer .footer-legal .pipe-separator{ margin-top: 0em; margin-right: 0.5em; margin-bottom: 0em; margin-left: 0.5em; }
-.footer .footer-legal .campuses{ text-align: right; }
-.social-icons-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; overflow-x: hidden; overflow-y: hidden; }
-@media (min-width){
-.social-icons-list{ margin-top: 30px; }
-}
-.social-icons-list a{ text-decoration: none; }
-.social-icons-list svg{ fill: #ffffff; height: 30px; width: 30px; }
-.social-icons-list li{ border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; display: block; float: left; height: 30px; margin-top: 0px; margin-right: 10px; margin-bottom: 10px; margin-left: 0px; width: 30px; }
-.social-icons-list li:nth-of-type(5n+1){ clear: left; }
-.ms-grid, .ms-row, [class*="col-"]{ box-sizing: border-box; }
-.ms-grid{ display: block; position: relative; width: 100%; margin-left: auto; margin-right: auto; max-width: 1400px; padding-left: 12px; padding-right: 12px; }
-.ms-grid .ms-row{ }
-.ms-grid .ms-row::after, .ms-grid [class*="col-"]::after{ content: ''; display: table; clear: both; }
-[class*="col-"]{ float: left; width: 100%; position: relative; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; }
-@media screen and (min-width: 540px){
-.ms-grid{ padding-left: 24px; padding-right: 24px; }
-}
-@media screen and (min-width: 768px){
-.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
-}
-@media screen and (min-width: 2000px){
-.ms-grid .ms-row{ }
-.ms-grid .ms-row > [class*="col-"]{ }
-}
-@media screen and (min-width: 540px){
-.s-col-1-2{ width: 50%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-1-2{ width: 50%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-1-3{ width: 33.3333333333%; }
-}
-@media screen and (min-width: 768px){
-.m-col-1-4{ width: 25%; }
-.m-col-3-4{ width: 75%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-2-12{ width: 16.6666666667%; }
-.l-col-3-12{ width: 25%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-12-push-4{ left: 33.3333333333%; right: auto; }
-.l-col-12-pull-4{ right: 33.3333333333%; left: auto; }
-}
-*{ border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; box-sizing: border-box; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; }
-img{ vertical-align: bottom; }
-@media (min-width: 768px){
-.main{ margin-top: 40px; }
-}
-.ms-grid{ max-width: 1080px; }
-@media (max-width: 767px){
-.ms-grid{ padding-left: 20px; padding-right: 20px; overflow-x: hidden; overflow-y: hidden; }
-}
-@media (max-width: 1084px) and (min-width: 768px){
-.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
-}
-@media (min-width: 1140px){
-.ms-grid{ padding-left: 0px; padding-right: 0px; }
-}
-.component{ margin-bottom: 80px; }
-.interior-section-header{ font-size: 30px; }
-.subhead{ color: rgb(54, 54, 54); font-size: 18px; font-weight: 700; }
-body{ background-color: rgb(248, 248, 248); }
-.breadcrumbs{ line-height: 14px; margin-bottom: 34px; }
-@media (min-width: 768px){
-.breadcrumbs .red-circle{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(213, 0, 50); border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; display: inline-block; height: 14px; width: 14px; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
-}
-.breadcrumbs .first-breadcrumb-arrow{ display: none; }
-@media (min-width: 768px){
-.breadcrumbs .first-breadcrumb-arrow{ display: inline; }
-}
-.breadcrumbs .crumb-list{ display: inline; list-style-position: inside; list-style-type: none; list-style-image: initial; }
-@media (max-width: 768px){
-.breadcrumbs .crumb-list{ line-height: 1.4; }
-}
-.breadcrumbs .crumb-item{ display: inline-block; }
-.breadcrumbs .crumb-anchor{ color: rgb(54, 54, 54); font-size: 12px; font-weight: 500; text-transform: uppercase; }
-.breadcrumbs .crumb-anchor{ text-decoration: none; }
- .breadcrumbs .crumb-anchor.active{ color: rgb(213, 0, 50); outline-style: none; outline-width: initial; outline-color: initial; }
-.breadcrumbs img{ display: inline-block; height: 6px; margin-top: 0px; margin-right: 14px; margin-bottom: 0px; margin-left: 14px; width: 6px; vertical-align: middle; }
-.footer .footer-brand{ height: 206px; margin-bottom: 15px; width: 150px; }
-.footer .footer-brand-address{ margin-bottom: 20px; }
-@media (min-width: 1084px){
-.footer .footer-brand-address{ margin-bottom: 0px; min-height: 280px; }
-}
-@media (min-width: 1084px){
-.footer .footer-address{ bottom: 0px; position: absolute; width: 100%; }
-}
-@media (max-width: 1084px){
-.footer .footer-list{ margin-bottom: 30px; }
-.footer .footer-list::after{ content: ''; display: table; clear: both; }
-}
-.footer .footer-button-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; margin-bottom: 12px; }
-@media (max-width: 1084px) and (min-width: 540px){
-.footer .footer-button-list{ padding-right: 20px; }
-}
-.footer .footer-button-item{ margin-bottom: 5px; }
-.footer .footer-button{ color: rgb(255, 255, 255); background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(37, 37, 37); display: block; font-size: 16px; font-weight: 700; line-height: 32px; height: 32px; padding-top: 0px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px; text-decoration: none; background-position: initial initial; background-repeat: initial initial; }
-@media (max-width: 1084px){
-.footer .footer-legal .campuses{ margin-top: 1em; text-align: left; }
-}
-@media (min-width: 1084px){
-.footer .l-col-1-1{ width: 100%; }
-}
-.footer-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.footer-list-title{ margin-bottom: 15px; }
-.footer-list-title{ color: rgb(255, 255, 255); font-size: 14px; font-weight: 900; text-transform: uppercase; }
-@media (min-width: 1084px){
-.no-flexbox .footer-social-icons-cell{ bottom: -30px; }
-.no-flexbox .footer-address{ bottom: -50px; }
-}
-.header{ position: relative; width: 100%; background-color: rgb(0, 0, 0); }
-.header-menu-bar{ position: relative; }
-.header--blue .header-menu-bar{ background-color: rgb(0, 127, 165); }
-@media (max-width: 1084px){
-.header--blue .navigation-primary .primary-nav-list .primary-list-item{ background-color: rgb(0, 127, 165); }
-}
-.header--blue .navigation-primary .primary-nav-list .expander, .header--blue .navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(0, 102, 132); }
-@media (max-width: 1084px){
-.header--blue .navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); }
-}
-@media (min-width: 1084px){
-.header--blue .navigation-eyebrow{ background-color: rgb(0, 127, 165); }
-}
-.header--blue .navigation-primary:not(.scrolled-after) .primary-nav-list .primary-second-tier-list{ border-top-color: rgb(0, 127, 165); border-right-color: rgb(0, 127, 165); border-bottom-color: rgb(0, 127, 165); border-left-color: rgb(0, 127, 165); }
-.header-background-image-container{ bottom: 0px; left: 0px; overflow-x: hidden; overflow-y: hidden; position: absolute; right: 0px; top: 0px; }
-.header-background-image{ background-size: cover; bottom: -5px; left: -5px; position: absolute; right: -5px; top: -5px; background-position: 50% 50%; background-repeat: no-repeat no-repeat; }
-.interior-page-header{ overflow-x: visible; overflow-y: visible; }
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary .circle-logo-container{ margin-left: 0px; opacity: 1; z-index: 2; }
-}
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary:not(.scrolled-after) .circle-logo-container{ top: 110px; }
-}
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-eyebrow{ background-color: rgb(0, 127, 165); position: static; }
-}
-.interior-page-header .header-menu-bar .navigation-primary{ background-color: rgb(0, 127, 165); width: 100%; }
-.interior-page-header .header-menu-bar .navigation-primary .menu-toggle{ z-index: 2; }
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary{ height: 60px; }
-}
-.interior-page-header .header-background-image{ display: none; }
-.interior-page-intro .interior-page-title{ color: rgb(213, 0, 50); }
-@media (min-width: 540px){
-.interior-page-intro .interior-page-title{ font-size: 48px; }
-}
-.interior-page-intro .interior-page-subtitle{ margin-bottom: 10px; }
-@media (min-width: 540px){
-.interior-page-intro .interior-page-subtitle{ font-size: 30px; }
-}
-.link-block-group .link-block-anchor { margin-top: 40px; }
-@media (min-width: 540px){
-.link-block-group .link-block-anchor { max-width: 50%; }
-}
-.link-block-group .link-block-anchor, .link-block-group .link-block-anchor:hover, .link-block-group .link-block-anchor:visited { color: rgb(54, 54, 54); text-decoration: none; }
-.link-block { padding-top: 1px; position: relative; }
-.link-block::before { background-color: rgb(213, 0, 50); content: ''; height: 1px; left: 0px; position: absolute; top: 1px; width: 100%; }
-.link-block .subhead { margin-top: 15px; margin-right: 0px; margin-bottom: 4px; margin-left: 0px; padding-right: 20px; position: relative; }
-.link-block .subhead .arrow { fill: #001e62; height: 10px; position: absolute; right: 5px; width: 10px; }
-.link-block-anchor:hover, .link-block-anchor:focus { outline-style: none; outline-width: initial; outline-color: initial; }
-.link-block-anchor:hover .link-block::before, .link-block-anchor:focus .link-block::before { height: 3px; }
-.link-block-anchor:hover .arrow, .link-block-anchor:focus .arrow { -webkit-transform: translateX(5px); }
-.link-list .interior-section-header{ margin-bottom: 15px; }
-.navigation-eyebrow{ height: 40px; }
-@media (min-width: 1084px){
-.navigation-eyebrow{ background-color: rgb(0, 127, 165); }
-}
-.navigation-eyebrow .navigation-eyebrow-inner{ margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 1080px; position: relative; }
-.navigation-eyebrow .eyebrow-list{ color: rgb(255, 255, 255); font-size: 14px; font-weight: 400; list-style-type: none; list-style-position: inside; list-style-image: initial; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; padding-top: 0px; padding-right: 20px; padding-bottom: 0px; padding-left: 20px; }
-@media (min-width: 1084px){
-.navigation-eyebrow .eyebrow-list{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 25%; }
-}
-.navigation-eyebrow .eyebrow-list-item{ display: none; line-height: 40px; height: 40px; }
-@media (min-width: 1084px){
-.navigation-eyebrow .eyebrow-list-item{ display: block; float: left; }
-}
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor{ overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
-.navigation-eyebrow .eyebrow-button{ }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor{ font-weight: 700; padding-left: 34px; padding-right: 20px; overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::after{ content: '+'; left: 10px; position: absolute; text-align: center; top: 0px; width: 20px; }
-.navigation-eyebrow .eyebrow-list-anchor{ display: block; outline-style: none; outline-width: initial; outline-color: initial; }
-.navigation-eyebrow .eyebrow-list-anchor{ color: rgb(255, 255, 255); text-decoration: none; }
-.navigation-eyebrow .search-button-item{ display: block; height: 40px; position: absolute; top: 0px; right: 40px; width: 40px; z-index: 1; }
-@media (min-width: 1084px){
-.navigation-eyebrow .search-button-item{ height: 40px; position: relative; top: 0px; right: 0px; width: auto; }
-}
-.navigation-eyebrow .search-button{ background-color: transparent; cursor: pointer; height: 40px; width: 40px; }
-.navigation-eyebrow .search-button .search-glass{ fill: #ffffff; height: 20px; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; width: 20px; }
-.navigation-eyebrow .search-input-container{ position: absolute; top: 0px; height: 40px; right: 42px; -webkit-transform: translateY(-100%); width: 278px; z-index: 3; }
-@media (min-width: 1084px){
-.navigation-eyebrow .search-input-container{ height: 40px; right: 40px; }
-}
-.navigation-eyebrow .search-input-container form{ position: relative; width: 100%; height: 100%; }
-.navigation-eyebrow .search-input-container input[type="text"]{ color: rgb(149, 149, 149); height: 100%; padding-top: 0px; padding-right: 12px; padding-bottom: 0px; padding-left: 12px; font-size: 18px; width: 100%; }
-.navigation-eyebrow .search-input-container .submit-button{ -webkit-appearance: none; position: absolute !important; clip: rect(1px 1px 1px 1px); }
-@media (min-width: 1084px){
-.no-flexbox .eyebrow-list-item{ margin-left: 12px; }
-}
-.navigation-primary{ pointer-events: none; position: absolute; top: 0px; width: 100%; z-index: 2; }
-@media (min-width: 1084px){
-.navigation-primary{ pointer-events: auto; position: relative; }
-}
-.navigation-primary .navigation-primary-inner{ margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 1080px; position: relative; min-height: 40px; }
-.navigation-primary .primary-nav-list{ line-height: 1; list-style-type: none; list-style-position: inside; list-style-image: initial; overflow-x: hidden; overflow-y: hidden; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: absolute; right: 0px; top: 0px; width: 260px; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list{ left: 0px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; overflow-x: visible; overflow-y: visible; padding-top: 0px; padding-right: 0px; padding-left: 25%; position: relative; top: 0px; width: auto; }
-}
-.navigation-primary .primary-nav-list .primary-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(0, 127, 165); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; letter-spacing: 0.06em; position: relative; text-transform: uppercase; width: 100%; background-position: initial initial; background-repeat: initial initial; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .primary-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; float: left; background-position: initial initial; background-repeat: initial initial; }
-}
-.navigation-primary .primary-nav-list .primary-list-anchor{ display: block; line-height: 1; }
-.navigation-primary .primary-nav-list .primary-list-anchor, .navigation-primary .primary-nav-list .primary-second-tier-list-anchor{ color: inherit; text-decoration: none; }
-.navigation-primary .primary-nav-list .primary-second-tier-list{ display: none; list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); color: rgb(54, 54, 54); font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 1.25; text-transform: none; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item .primary-second-tier-list-anchor{ display: block; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; }
-.navigation-primary .primary-nav-list .expander{ display: none; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .primary-list-item{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: relative; width: auto; }
-.navigation-primary .primary-nav-list .primary-list-item.primary-list-active-item > .primary-list-anchor{ border-bottom-width: 8px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); padding-bottom: 12px; }
-.navigation-primary .primary-nav-list .primary-list-item > .primary-list-anchor{ display: block; outline-style: none; outline-width: initial; outline-color: initial; padding-top: 22px; padding-right: 0px; padding-bottom: 22px; padding-left: 0px; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor{ overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(255, 255, 255); bottom: 2px; height: 8px; -webkit-transform: translateY(135%); }
-.navigation-primary .primary-nav-list .primary-second-tier-list{ border-right-width: 2px; border-right-style: solid; border-right-color: rgb(0, 127, 165); border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(0, 127, 165); border-left-width: 2px; border-left-style: solid; border-left-color: rgb(0, 127, 165); display: block; opacity: 0; pointer-events: none; position: absolute; left: -2px; top: 60px; width: 260px; }
-.navigation-primary .primary-nav-list .primary-list-item:nth-last-child(1) .primary-second-tier-list, .navigation-primary .primary-nav-list .primary-list-item:nth-last-child(2) .primary-second-tier-list{ left: auto; right: -2px; }
-}
-@media (max-width: 1083px){
-.navigation-primary .primary-nav-list .expander{ background-color: rgb(39, 152, 182); display: block; height: 44px; position: absolute; top: 0px; right: 0px; width: 44px; }
-.navigation-primary .primary-nav-list .expander::before{ color: rgb(255, 255, 255); content: '+'; display: block; line-height: 44px; text-align: center; width: 100%; }
-.navigation-primary .primary-nav-list .primary-list-anchor{ line-height: 24px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 20px; }
-.navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); padding-left: 22px; position: relative; }
-.navigation-primary .primary-nav-list .primary-list-item{ min-height: 44px; -webkit-transform: translateX(260px); }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+0){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+1){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+2){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+3){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+4){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+5){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+6){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+7){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+8){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+9){ }
-}
-@media (max-width: 1083px){
-.navigation-primary .primary-nav-list{ pointer-events: none; }
-}
-.navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(39, 152, 182); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; height: 40px; letter-spacing: 0.06em; line-height: 40px; min-height: 40px; padding-top: 0px; padding-bottom: 0px; padding-left: 20px; position: relative; text-transform: uppercase; -webkit-transform: translateX(260px); width: 100%; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .menu-label-item{ display: none; }
-}
-.navigation-primary .primary-nav-list .menu-label{ opacity: 0; }
-.navigation-primary .primary-nav-list .menu-toggle{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; display: block; height: 40px; pointer-events: auto; position: absolute; top: 0px; right: 0px; width: 40px; z-index: 1; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle > span{ position: absolute; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); height: 2px; margin-left: 9px; position: absolute; top: 20px; width: 24px; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::after, .navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ content: ''; position: absolute; width: 100%; height: 100%; left: 0px; top: 6px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ top: auto; bottom: 6px; }
-@media (min-width: 1083px){
-.navigation-primary .primary-nav-list .menu-toggle{ display: none; }
-}
-.navigation-primary .circle-logo-container{ height: 40px; left: 0px; opacity: 0; pointer-events: auto; position: absolute; -webkit-transform: translateY(-100px); top: 10px; width: 40px; z-index: 1; }
-@media (max-width: 1120px) and (min-width: 1080px){
-.navigation-primary .circle-logo-container{ left: 20px; }
-}
-.navigation-primary .circle-logo-container span{ -webkit-appearance: none; position: absolute !important; clip: rect(1px 1px 1px 1px); }
-@media (max-width: 1084px){
-.navigation-primary .circle-logo-container{ height: 32px; margin-left: 20px; opacity: 1; -webkit-transform: translateY(4px); top: 0px; width: 32px; }
-}
-.navigation-primary .circle-logo-container .circle-logo path{ fill: #ffffff; }
-.navigation-primary .circle-logo-container a{ color: rgb(255, 255, 255); outline-style: none; outline-width: initial; outline-color: initial; }
-.navigation-primary .circle-logo-container .circle-logo{ -webkit-transform: rotate(-360deg); }
-@media (min-width: 1084px){
-.no-flexbox .primary-list-item{ margin-left: 12px; }
-}
-.no-flexbox .primary-nav-list::after{ content: ''; display: table; clear: both; }
-.navigation-sidebar{ margin-left: -20px; margin-right: -20px; position: relative; }
-@media (min-width: 768px){
-.navigation-sidebar{ margin-left: 0px; margin-right: 0px; }
-}
-.navigation-sidebar .navigation-sidebar-title{ background-color: rgb(255, 255, 255); border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; color: rgb(0, 30, 98); font-size: 16px; font-weight: 900; line-height: 1.5; margin-bottom: 20px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 47px; position: relative; text-transform: uppercase; }
-.navigation-sidebar .navigation-sidebar-title a{ color: rgb(0, 30, 98); text-decoration: none; }
-.navigation-sidebar .navigation-sidebar-title::after{ content: ' Menu'; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-title{ background-color: transparent; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 15px; padding-left: 0px; }
-.navigation-sidebar .navigation-sidebar-title::after{ content: none; }
-}
-.navigation-sidebar .navigation-sidebar-title .chevron{ display: block; height: 12px; left: 20px; position: absolute; width: 12px; }
-.navigation-sidebar .navigation-sidebar-title .chevron .anchor-point{ display: block; fill: #001e62; height: 8px; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto; -webkit-transform: rotate(-90deg); width: 12px; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-title .chevron{ display: none; }
-}
-@media (max-width: 767px){
-.navigation-sidebar .navigation-sidebar-list-container{ overflow-x: hidden; overflow-y: hidden; pointer-events: none; position: absolute; top: 44px; width: 100%; z-index: 1; }
-}
-@media (max-width: 767px){
-.navigation-sidebar .navigation-sidebar-list{ background-color: rgb(255, 255, 255); border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); padding-left: 20px; padding-right: 20px; -webkit-transform: translateY(-100%); }
-}
-.navigation-sidebar .navigation-sidebar-list .anchor-point{ height: 5px; position: absolute; right: 0px; top: 4px; width: 8px; }
-.navigation-sidebar .navigation-sidebar-list .navigation-sidebar-anchor .anchor-point{ top: 21px; }
-.navigation-sidebar .navigation-sidebar-list, .navigation-sidebar .sidebar-second-tier-list, .navigation-sidebar .sidebar-third-tier-list, .navigation-sidebar .sidebar-fourth-tier-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.navigation-sidebar .navigation-sidebar-anchor, .navigation-sidebar .sidebar-second-tier-anchor, .navigation-sidebar .sidebar-third-tier-anchor, .navigation-sidebar .sidebar-fourth-tier-anchor{ display: block; width: 100%; }
-.navigation-sidebar .navigation-sidebar-item{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); min-height: 50px; }
-.navigation-sidebar .navigation-sidebar-item:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-item:last-child{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); }
-}
-.navigation-sidebar .navigation-sidebar-anchor{ color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1; padding-top: 17px; padding-right: 0px; padding-bottom: 17px; padding-left: 0px; position: relative; text-decoration: none; }
-.navigation-sidebar .sidebar-second-tier-list{ padding-left: 14px; }
-.navigation-sidebar .sidebar-second-tier-item{ font-size: 14px; font-weight: 400; margin-bottom: 16px; }
-.navigation-sidebar .sidebar-second-tier-anchor{ color: rgb(54, 54, 54); position: relative; text-decoration: none; }
-.navigation-sidebar .sidebar-third-tier-list, .navigation-sidebar .sidebar-fourth-tier-list{ padding-top: 14px; padding-left: 14px; }
-.navigation-sidebar .sidebar-third-tier-item, .navigation-sidebar .sidebar-fourth-tier-item{ margin-bottom: 14px; }
-.navigation-sidebar .sidebar-third-tier-anchor, .navigation-sidebar .sidebar-fourth-tier-anchor{ color: rgb(54, 54, 54); position: relative; text-decoration: none; }
-.navigation-sidebar .navigation-sidebar-item.open .navigation-sidebar-anchor, .navigation-sidebar .sidebar-second-tier-item.open .sidebar-second-tier-anchor, .navigation-sidebar .sidebar-third-tier-item.open .sidebar-third-tier-anchor{ font-weight: 700; padding-right: 24px; width: 100%; }
- .navigation-sidebar .sidebar-fourth-tier-item.active .sidebar-fourth-tier-anchor{ color: rgb(213, 0, 50); font-weight: 700; position: relative; }/* Styles appended to the end of every critical path css stylesheet */
-.navigation-primary .primary-list {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-.navigation-eyebrow .eyebrow-list {
-    display: flex;
-    justify-content: space-between;
-}
-.calls-to-action .call-to-action {
-    align-items: center;
-    display: flex;
-}
-.calls-to-action .reminders-container {
-    display: flex;
-}
-.calls-to-action .reminders-anchor {
-    display: flex;
-}
- </style></head><body>
-<header class="header interior-page-header header--blue">
-    <div class="header-background-image-container">
-        <div class="header-background-image" aria-hidden="true" style="background-image: url()"></div>
-    </div>
-        <div class="header-menu-bar">
+<!doctype html>
+<html xmlns:fb="http://ogp.me/ns/fb#" lang="en-US" >
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# zoomvideocall: http://ogp.me/ns/fb/zoomvideocall#">
+<title>Meeting Registration - Zoom</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-        <nav class="navigation-eyebrow" aria-label="Eyebrow navigation">
-    <div class="navigation-eyebrow-inner">
-        <ul class="eyebrow-list">
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://maps.uic.edu/">Map</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uic.edu/apps/departments-az/search">Directory</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/about/contact-us">Contact Us</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://library.uic.edu/">Library</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uicflames.com/">Athletics</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/life-at-uic/current-students">Current Students</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/life-at-uic/faculty-and-staff">Faculty and Staff</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://hospital.uillinois.edu/">UI Health</a></li>
-                                        <li class="eyebrow-list-item eyebrow-button"><a class="eyebrow-list-anchor" href="/alumni/give">Give</a></li>
-                            <li class="eyebrow-list-item search-button-item">
-                    <button class="search-button" type="button">
-                        <svg class="search-glass" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" aria-labelledby="title"><title id="title">Expand search box</title><path d="M19.7 18.3l-5.9-5.9c1-1.3 1.6-2.9 1.6-4.7C15.4 3.5 12 0 7.7 0S0 3.4 0 7.7c0 4.2 3.4 7.7 7.7 7.7 1.8 0 3.4-.6 4.7-1.6l5.9 5.9c.2.2.4.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4zM2 7.7C2 4.6 4.6 2 7.7 2s5.7 2.6 5.7 5.7-2.5 5.7-5.7 5.7C4.6 13.4 2 10.8 2 7.7z"/></svg>                    </button>
-                </li>
-        </ul>
-        <div class="search-input-container">
-            <form method="get" action="/search" role="search">
-                <input type="text" name="q" class="search-input" placeholder="Search..." disabled tabindex="-1" aria-label="Search">
-                <input type="submit" class="submit-button" name="search" value="Submit">
-            </form>
-        </div>
-    </div>
-</nav>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
+<meta name="google-site-verification" content="8WU-FkemSTzA1EpoynHUDYe2UxPXiMS53FBXk6_qVy4" />
+<meta name="google-site-verification" content="J_tzcwoKXfPkhsWbiS7cM6WEn3pjCr_DhMNmhRtd960" />
+<meta name="google-site-verification" content="o7_kGQ-oKZjWTkzWK3NYR9JUf3SvQKIBwjHgqTE_FHU" />
+<meta name="google-site-verification" content="QXsuSwndXLLWh52gEd4ig7alEmTyDp0NPo4GCKsUH5k" />
+<meta name="google-site-verification" content="Vt60qsrxhpi8GdAMlhQod8oxA2LAtN908SnMDdelCYc" />
+<meta name="google-site-verification" content="v3_Ow9RbJsRZ9MLl--QrhABeFcA9oP7OBXhY50O4QuA" />
+<meta name="google-site-verification" content="0fZHb1ni-k_iNiYVnomwmnY9ITBunxqU8VC49mHDNxc" />
+<meta name="keywords" content="zoom, zoom.us, video conferencing, video conference, online meetings, web meeting, video meeting, cloud meeting, cloud video, group video call, group video chat, screen share, application share, mobility, mobile collaboration, desktop share, video collaboration, group messaging" />
+<meta name="robots" content="noindex,nofollow" />
+<meta name="description" content="Join the UIC Women's Leadership and Resource Center in the Breathing Room, a place to unwind, heal, and find community.
 
-        <nav class="navigation-primary" aria-label="Primary navigation">
-    <div class="navigation-primary-inner">
-                <div class="circle-logo-container">
-            <a href="/">
-                <svg class="circle-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M36.5 17.3L33.1 19c-.3-1.3-1-2-2.3-2-1.7 0-2.5 1.4-2.5 3.6s.8 3.6 2.5 3.6c1.2 0 1.8-.6 2.2-1.6l3.5 1.3c-.9 2.1-2.8 3.5-5.8 3.5-4.1 0-6.5-2.8-6.5-6.8s2.5-6.8 6.6-6.8c3.2.1 5 1.8 5.7 3.5m-14.1 9.8h-3.9v-13h3.9v13zm-6.3-5.3c0 1.8-.2 2.7-.7 3.6-.9 1.4-3.2 2-5.2 2s-4.3-.6-5.2-2c-.5-.9-.7-1.8-.7-3.6v-7.7h3.9v7.8c0 .9.1 1.5.4 1.8.3.4.8.5 1.5.5s1.2-.2 1.5-.5c.3-.4.4-1 .4-1.8v-7.8h3.9v7.7zM40 20C40 9 31 0 20 0S0 9 0 20s9 20 20 20 20-9 20-20"/></svg>
-<span>University of Illinois at Chicago</span>            </a>
-        </div>
-                            <ul class="primary-nav-list">
-    <button class="menu-toggle" type="button" tabindex="-1">
-        <div class="menu-toggle-icon"></div>
-        <span>Expand menu</span>
-    </button>
-    <div class="menu-label-item"><span class="menu-label">Menu</span></div>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/admissions-aid">Admissions &amp; Aid</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/visit-campus">Visit Campus</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/paying-for-college">Paying for College</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/academics">Academics</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/programs-of-study">Programs of Study</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/colleges-schools">Colleges &amp; Schools</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/student-support">Student Support</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/research">Research</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-impact">Research Impact</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-strengths">Research Strengths</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/resources-facilities">Resources &amp; Facilities</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/student-research">Student Research</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item">
-            <a class="primary-list-anchor" href="/life-at-uic">Life at UIC</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/living-on-around-campus">Living On &amp; Around Campus</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/campus-resources">Campus Resources</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/current-students">Current Students</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/faculty-and-staff">Faculty and Staff</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/chicago">Chicago</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/exploring-chicago">Exploring Chicago</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/city-transportation">City Transportation</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/essential-chicago">Essential Chicago</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/alumni">Alumni</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/connect">Connect</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/engage">Engage</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/give">Give</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/about">About</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/visit-directions">Visit &amp; Directions</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/history">History</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/leadership">Leadership</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/public-media-resources">Public &amp; Media Resources</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/job-opportunities">Job Opportunities</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/contact-us">Contact Us</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/acerca">Acerca de la UIC (en español)</a></li>
-                                    </ul>
-                    </li>
-    </ul>            </div>
-</nav>
+May 8, 2020: Poetry Sharing with &quot;The Flying Busman&quot;
 
+This week we’ll be joined by special guest Mickey “The Flying Busman” Mahan. Mickey is a retired bus driver whose talents and interests include poetry, jumping on a pogo stick, painting, making s’mores, playing guitar, and much more! 
+
+He will be sharing his poetic and musical talents with us, and we invite you to do the same! If you have any poems that you’d like to share, whether they are written by you or someone else, we’d love to hear them. Help us create a space of sharing poetry and art during this isolating time! 
+
+Facilitated by Seth Quam, UIC social work and public health graduate student and WLRC graduate assistant.
+
+CART live captioning will be provided. Please send any questions or additional accommodation requests to wlrc@uic.edu." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://uic.zoom.us/meeting/register/tJYoc-urrTooH9Ju1XJ9fsauLu4ET_b9QZRJ" />
+<meta property="og:title" content="Welcome! You are invited to join a meeting: The Breathing Room: Poetry Sharing with &quot;The Flying Busman&quot;. After registering, you will receive a confirmation email about joining the meeting." />
+<meta property="og:description" content="Join the UIC Women's Leadership and Resource Center in the Breathing Room, a place to unwind, heal, and find community.
+
+May 8, 2020: Poetry Sharing with &quot;The Flying Busman&quot;
+
+This week we’ll be joined by special guest Mickey “The Flying Busman” Mahan. Mickey is a retired bus driver whose talents and interests include poetry, jumping on a pogo stick, painting, making s’mores, playing guitar, and much more! 
+
+He will be sharing his poetic and musical talents with us, and we invite you to do the same! If you have any poems that you’d like to share, whether they are written by you or someone else, we’d love to hear them. Help us create a space of sharing poetry and art during this isolating time! 
+
+Facilitated by Seth Quam, UIC social work and public health graduate student and WLRC graduate assistant.
+
+CART live captioning will be provided. Please send any questions or additional accommodation requests to wlrc@uic.edu." />
+<meta property="og:image" content="https://uic.zoom.us/w_p/804811718/419bc8c1-8595-42e3-ae73-3243f26ca693.png"/>
+<meta property="og:image" content="https://uic.zoom.us/w_p/98976501166/a7574fd7-36c3-4a99-97e9-3ed740bc1a61.png"/>
+<meta property="og:site_name" content="Zoom Video" />
+<meta property="fb:app_id" content="113289095462482" />
+<meta property="twitter:account_id" content="522701657" />
+<link rel="shortcut icon" href="https://d24cgw3uvb9a9h.cloudfront.net/zoom.ico" />
+<link rel="canonical" href="https://zoom.us/meeting/register/tJYoc-urrTooH9Ju1XJ9fsauLu4ET_b9QZRJ" />
+<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/kgjfgplpablkjnlkjmjdecgdpfankdle" />
+<script type="text/javascript">
+var resourceAccountIdRoutingURl = "t_x_zm_aid=OGSJAKkDT6q1MdwwKbXo7Q&t_x_zm_haid=51";
+resourceAccountIdRoutingURl = resourceAccountIdRoutingURl==""?undefined:resourceAccountIdRoutingURl;
+</script>
+<link type="text/css" rel="stylesheet" href="https://d24cgw3uvb9a9h.cloudfront.net/static/93960/css/all.min.css" />
+<link rel="stylesheet" type="text/css" href="https://d24cgw3uvb9a9h.cloudfront.net/static/93960/css/selectWoo.min.css" />
+<style>
+a{text-decoration:none;}
+a:hover{
+text-decoration:none;
+}
+a:focus{
+text-decoration:none;
+}
+#meeting_register_container .share-ico {
+display:inline-block;
+height:46px;
+line-height:46px;
+vertical-align: middle;
+}
+#meeting_register_container .ico-width {
+width: 32px;
+}
+#meeting_register_container .ico-size {
+width: 32px;
+height: 32px;
+}
+#launcher {
+display:none;
+}
+#content_container {
+padding-top: 0;
+}
+#meeting_register_container {
+margin: 0 auto;
+max-width: 900px;
+min-height: 600px;
+padding-top: 20px;
+}
+#meeting_register_container .page-header {
+text-align: center;
+margin-bottom: 40px;
+}
+#meeting_register_container i {
+color: red;
+margin-right: 5px;
+}
+.gdpr-compliance {
+padding-top:20px;
+border-top: 1px solid #DCDCDC;
+}
+.gdpr-compliance input.gdpr{margin-right:8px;}
+.gdpr-compliance fieldset > label {min-width: 80px;}
+.gdpr-compliance label > span.has-error {
+position: absolute;
+}
+#meeting_register_container .form-group {
+margin-left: 20px;
+}
+#meeting_register_container .help-block {
+padding-left: 0;
+}
+#meeting_register_container .horizontal .control-label {
+float: left;
+width: 80px;
+text-align: left;
+}
+#meeting_register_container .horizontal .controls {
+margin-left: 100px;
+}
+#meeting_register_container a.submit {
+width: 200px;
+}
+#meeting_register_container a.submit.join {
+width: 280px;
+}
+#questions_container {
+position: relative;
+}
+#questions_container .controls .select2 {
+margin-bottom: 10px;
+}
+#questions_container .controls .select2-choice{
+height:32px;
+}
+#questions_container .row.comments {
+border-top: solid 1px #eee;
+padding-top: 10px;
+margin-top: 10px;
+}
+#custom_questions_container {
+border-top: solid 1px #eee;
+padding-top: 10px;
+margin-top: 10px;
+}
+.form-group.has-error .select2-container .select2-choice {
+border-color: #b94a48;
+}
+#meeting_register_container img {
+margin: 0 auto;
+max-width:640px;
+}
+.img-responsive {
+display: block;
+height: auto;
+max-height: 200px;
+}
+#viewer_email {
+cursor: default;
+resize: none;
+border: none;
+font-size: 13px;
+color: #666;
+height: 200px;
+}
+.send_email2{
+color: rgb(45, 165, 255);
+}
+table.dialog tr td.col1 {
+padding-left: 10px;
+width: 20%;
+vertical-align: top;
+}
+table.dialog tr td.col2 {
+width: 300px;
+padding-right:10px;
+}
+#email-form .lastName_control{
+padding-left: 20px;
+}
+.send_bgcolor{
+background-color: whitesmoke;
+padding-left:10px;
+padding-top:10px;
+}
+.user_information{
+padding-bottom: 20px;
+}
+#pp span.hideme {
+display: none;
+}
+#share_email_form .modal-dialog {
+width: 750px;
+}
+.need-required{
+text-align:right;
+padding-right:30px;
+padding-bottom:20px;
+font-size:13px;
+color:#999999;
+line-height:19px;
+font-style:italic;
+}
+.span1 {
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+width: 230px;
+}
+.custom_image {
+max-width:200px;
+max-height:200px;
+}
+.webinar_topic{
+display: table-cell;
+width:670px;
+text-align: left;
+}
+.webinar_topic label{
+font-weight: 600;
+}
+#meeting_register_container .row {
+margin: 0 0;
+}
+h2 {
+margin-top: 30px;
+}
+</style>
+<style>
+body div.combobox div.dropdownlist{
+width: calc(100% + 2px) !important;
+}
+</style>
+<script src="/csrf_js?t_x_zm_aid=OGSJAKkDT6q1MdwwKbXo7Q&t_x_zm_haid=51"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+'country': 'us'
+});
+</script>
+<link rel="stylesheet" href="https://d24cgw3uvb9a9h.cloudfront.net/static/93960/js/lib/vue/advanced/notification/notification.min.css">
+<link rel="stylesheet" type="text/css" href="https://d24cgw3uvb9a9h.cloudfront.net/static/93960/css/vue/zoom-components.min.css"/>
+</head>
+<body class="   vanity-site " data-cd=".zoom.us">
+<div class="total-main-content">
+<div id="skiptocontent">
+<a role="complementary" aria-label="skip" href="#the-main-content">Skip to main content</a>
 </div>
-</header>
-
-<div class="ms-grid main">
-  <div class="ms-row">
-    <div class="m-col-1-4">
-      <nav class="navigation-sidebar" aria-label="Secondary navigation">
-      </nav>
-    </div>
-    <div class="m-col-3-4">
-
-      <nav class="breadcrumbs ms-row">
-        <div class="col-1-1">
-          <div class="red-circle" aria-hidden="true"></div>
-          <img class="first-breadcrumb-arrow" src="/images/breadcrumb-arrow.svg" aria-hidden="true" alt="Breadcrumb arrow">
-          <ul class="crumb-list">
-            <li class="crumb-item">
-                <a class="crumb-anchor active" href="/apps/find-people/search">Directory</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <main class="interior-page-intro">
-        <div class="ms-row">
-          <div class="col-1-1">
-            <h1 class="interior-page-title">Directory search</h1>
-          </div>
-        </div>
-
-<section role="region" class="text-block-with-large-image" aria-label="COUNCIL ON TEACHER EDUCATION Unit Listing">
-<div class="ms-row title-row">
-  <div class="col-1-1">
-    <h2 class="interior-section-header">
-      COUNCIL ON TEACHER EDUCATION</a>
-    </h2>
-  </div>
+<div id="header_container" class="branding   ">
+<div id="header_outer" class="container clearfix  ">
+<div id="header" class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<span class="visible-xs top-number"><a href="tel:1 888 799 9666" class="support-phone">1.888.799.9666</a></span>
+			<div class="left">
+				<a class="imglink" href="/">
+					<img class="logo" src="https://zoom.us/account/branding/p/1b06d8ca-3440-4f9d-a511-55e256e5aae8.png" alt="U of I Logo"/>
+				</a>
+			</div>
+		</div>
+		<div id="navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a id="btnJoinMeeting" href="/join" class="joinameeting light">JOIN A MEETING</a></li>
+				<li><div id="dropdown-hostmeeting" class="dropdown hidden-xs">
+						<a id="btnHostMeeting" data-toggle="dropdown" href="" class="hostmeeting">HOST A MEETING <span class="caret"></span></a>
+						<ul id="hostMeetingDropdown" class="dropdown-menu pull-right">
+							<li><a href="/start/webmeeting">With Video Off</a></li>
+							<li><a href="/start/videomeeting">With Video On</a></li>
+						</ul>
+					</div>
+				</li>
+				<div role="presentation" class="visible-xs divider"></div>	
+				<li><a href="/start/webmeeting" class="visible-xs">HOST A MEETING WITH VIDEO</a></li>
+				<div role="presentation" class="visible-xs divider"></div>	
+				<li><a href="/start/videomeeting" class="visible-xs">HOST A MEETING WITHOUT VIDEO</a></li>
+			</ul>
+			<ul class="nav navbar-nav">
+				<li><span class="phone"><a href="tel:1 888 799 9666" class="support-phone">1.888.799.9666</a></span></li>
+				<div role="presentation" class="visible-xs divider"></div>
+				<li><a class="link" href="/support" target="_blank">SUPPORT</a></li>
+				<div role="presentation" class="visible-xs divider"></div>	
+				<li><a class="link" href="https://support.zoom.us/hc/en-us/articles/206618765-Zoom-Video-Tutorials" target="_blank">TRAINING</a></li>
+			</ul>
+		</div>
+	</div>
 </div>
-
-<div class="ms-row text-row">
-  <div class="col-1-1 block-wysiwyg">
-
-
-<table>
-
+<div id="header_login" class="hideme">
+<ul>
+<li class="visible-xs divider" role="presentation"></li>
+<li class="signin"><a class="link" href="https://uic.zoom.us/signin" onClick="ga('send', 'event', 'product', 'click-nav-signin', 'Header Nav Sign In');">SIGN IN</a></li>
+<li class="visible-xs divider" role="presentation"></li>
+<li><div id="signupfree" class="hidden-xs"><a class="btn cta-bgyellow signupfree" role="button" href="https://uic.zoom.us/signup" onClick="ga('send', 'event', 'freesignup', 'click-nav-signupfree', 'Header Nav Sign up Free');">SIGN UP, IT'S FREE</a></div></li>
+<li><a class="visible-xs" href="https://uic.zoom.us/signup" onClick="ga('send', 'event', 'freesignup', 'click-nav-signupfree', 'Header Nav Sign up Free');">SIGN UP, IT'S FREE</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="content_container" class=" ">
+<div id="content_success_msg" role="alert" aria-live="assertive" class="alert alert-success hideme "></div>
+<div id="content" class="main-content">
+<div id="notice-slot"></div>
+<div class="mini-layout support">
+<div class="mini-layout-body">
+<div id="meeting_register_container">
+<h1 class="offscreen">Meeting Register Page</h1>
+<img src="/w_p/804811718/419bc8c1-8595-42e3-ae73-3243f26ca693.png" class="img-responsive" alt='Meeting banner' />
+<div style="border:1px solid #D6EAC5; border-radius:3px;background-color:#DFF0D7;height:40px;text-align:center;line-height:40px;font-size:13px;color:#3C763D;margin-bottom: 20px;">
+This meeting is for users with a Zoom account. New to Zoom? <a href="/signup" target="_blank">Sign up free.</a></div>
+<input type="hidden" id="questions_name_hidden_field" value="[{&quot;name&quot;:&quot;last_name&quot;,&quot;required&quot;:true}]" />
+<input type="hidden" id="custom_questions_name_hidden_field" value="[{&quot;title&quot;:&quot;UIC Affiliation (student, staff, faculty, community member):&quot;,&quot;type&quot;:&quot;single&quot;,&quot;required&quot;:true},{&quot;title&quot;:&quot;How did you hear about this event?&quot;,&quot;type&quot;:&quot;single&quot;,&quot;required&quot;:false}]" />
+<input type="hidden" id="external_auth_email" value="" />
+<input type="hidden" id="external_auth_firstName" value="" />
+<input type="hidden" id="external_auth_lastName" value="" />
+<input type="hidden" id="timezone_id" value="America/Chicago" />
+<div id="error_msg" class="alert alert-danger hideme"></div>
+<form id="meeting_register_form" class="form-vertical" action="javascript:;" autocomplete="off" method="POST">
+<input type="hidden" id="meeting_number" value="tJYoc-urrTooH9Ju1XJ9fsauLu4ET_b9QZRJ" />
+<div class="row" style="display:table">
+<div class="webinar_topic">
+<div class="form-group horizontal">
+<label class="control-label">Topic</label>
+<div class="controls">
+<strong>The Breathing Room: Poetry Sharing with &quot;The Flying Busman&quot;</strong>
+</div>
+</div>
+<div class="form-group horizontal">
+<label class="control-label">Description</label>
+<div class="controls">
+Join the UIC Women's Leadership and Resource Center in the Breathing Room, a place to unwind, heal, and find community.<br><br>May 8, 2020: Poetry Sharing with &quot;The Flying Busman&quot;<br><br>This week we’ll be joined by special guest Mickey “The Flying Busman” Mahan. Mickey is a retired bus driver whose talents and interests include poetry, jumping on a pogo stick, painting, making s’mores, playing guitar, and much more! <br><br>He will be sharing his poetic and musical talents with us, and we invite you to do the same! If you have any poems that you’d like to share, whether they are written by you or someone else, we’d love to hear them. Help us create a space of sharing poetry and art during this isolating time! <br><br>Facilitated by Seth Quam, UIC social work and public health graduate student and WLRC graduate assistant.<br><br>CART live captioning will be provided. Please send any questions or additional accommodation requests to wlrc@uic.edu.
+</div>
+</div>
+<div class="form-group horizontal">
+<label class="control-label">Time</label>
+<div class="controls">
+<p>May 8, 2020 12:00 PM in <a id="switch_timezone" title="Change Time Zone" role="button" href="javascript:;">Central Time (US and Canada)</a></p>
+</div>
+</div>
+</div>
+<div class="span1">
+<img src="/w_p/98976501166/a7574fd7-36c3-4a99-97e9-3ed740bc1a61.png" alt='Meeting logo' class="custom_image">
+</div>
+</div>
+<div style="border-bottom:solid 1px #eee;margin:20px 0;"></div>
+<div class="form-group">Meeting is over, you can not register now. If you have any questions, please contact Meeting host: <a href="mailto:ramonag@uic.edu">Ramona Gupta</a>.</div>
+</form>
+</div>
+</div>
+</div>
+<form id="share_email_form" class="form-horizontal modaldialog hideme" action="javascript:;" autocomplete="off" method="POST">
+<div class="modal-dialog">
+<div class="modal-content"><div class="modal-header clearfix">
+<button class="close simplemodal-close" aria-label="close">&times;</button>
+<h3>Share via Email</h3>
+</div>
+<div class="modal-body">
+<div id="popup_error_msg" class="alert alert-danger hideme"></div>
+<div class="need-required">All fields are required</div>
+<table class="dialog" cellpadding="0" cellspacing="0" style="width:100%;">
 <tr>
-  <td style="vertical-align: top; font-weight: 400;">
-    <p>
-      Banner Dept: <span style="font-weight: 500;">2-723000</span>
-    </p>
-            205 1333SH MC 134 <br />1333 South Halsted St. Chicago IL 60607        </td>
-        <td style="vertical-align: top;">
-            <a href="https://cte.uic.edu">Department Home Page</a>
-            <br />
-            <a href="/apps/departments-az/search?dispatch=roster&amp;style=uic&amp;orgid=94234">Department Roster</a>
-            <br />
-            Fax 312-355-0720            <br />
-        </td>
-    </tr>
-
-    			      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Executive Director</span>
-	    <br />
-	    Aginah Musherah Muhammad	    <br />
-	    207 1333SH MC 134</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-9177	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#103;&#105;&#110;&#97;&#104;&#109;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#97;&#103;&#105;&#110;&#97;&#104;&#109;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Assistant Director</span>
-	    <br />
-	    Sierra Ryan	    <br />
-	    211 1333SH MC 134</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-0718	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#114;&#121;&#97;&#110;&#50;&#55;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#115;&#114;&#121;&#97;&#110;&#50;&#55;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Coordinator of Student Teaching</span>
-	    <br />
-	    Brittney Ariel Beck-James	    <br />
-	    218 1333SH MC 134</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-1872	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#98;&#101;&#99;&#107;&#52;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#98;&#98;&#101;&#99;&#107;&#52;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Customer Service Representative</span>
-	    <br />
-	    Shatell Coleman	    <br />
-	    205 1333SH MC 134</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-0714	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#99;&#111;&#108;&#101;&#109;&#49;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#115;&#99;&#111;&#108;&#101;&#109;&#49;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person</span>
-	    <br />
-	    Shatell Coleman	    <br />
-	    205 1333SH MC 134</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-0714	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#99;&#111;&#108;&#101;&#109;&#49;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#115;&#99;&#111;&#108;&#101;&#109;&#49;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10001" style="font-weight: 400;">
-      Department Liaisons    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Shatell Coleman	    <br />
-	    205 1333SH MC 134</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-0714	    <br />
-	    <strong>F</strong> 312-355-0720	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#99;&#111;&#108;&#101;&#109;&#49;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#115;&#99;&#111;&#108;&#101;&#109;&#49;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	    </table>
-
-  </div>
+<td class="col1 ">
+<label class="user_information control-label" for="shareemail">Your Information</label>
+</td>
+<td class="col2">
+<div id="email-form">
+<div class="controls col-md-8 form-group" >
+<input type="email" id="shareemail" name="shareemail" class="form-control" maxlength="64" value="" placeholder="Email Address" />
 </div>
-</section>
-
-<div class="ms-grid" style="margin-top: 40px;">
-  <div class="ms-row block-wysiwyg">
-    <div class="m-col-1-3">
-        <form method="get" action="/apps/find-people/search">
-
-<div class="form-element"> 
-	<h2>Individuals</h2>
+<div class="controls col-md-5 lastName_control form-group" style="float:right;">
+<input type="text" id="lastName" name="lastName" class="form-control" maxlength="63" value="" aria-label="Full Name" placeholder="Full Name"/>
 </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Last name</span>
-      <input class="text-input" type="text" id="lastname" name="lastname">
-    </label>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">First name</span>
-      <input class="text-input" type="text" id="firstname" name="firstname">
-    </label>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">NetID</span>
-      <input class="text-input" type="text" id="netid" name="netid">
-    </label>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Department</span>
-      <input class="text-input" type="text" id="department" name="department">
-    </label>
-  </div>
-
-  <button type="submit" class="button">Search</button>
-
-  <p class="form-help-text" style="margin-top: 15px;">
-    <em>
-      <strong>Tip</strong> Typing "Lee" into the Last Name
-      field will retrieve too many entries to print. But, adding
-      "R" to the First Name will narrow the search.
-    </em>
-  </p>
-
+</div>
+</td>
+</tr>
+<tr>
+<td class="col1">
+<label for="toEmail" class="control-label">Send to</label>
+</td>
+<td class="col2">
+<div class="controls col-md-12 form-group" style="margin-left: 0px;margin-right: 0px;padding-left: 0px;padding-right: 0px;">
+<input type="text" id="toEmail" name="toEmail" class="form-control" maxlength="255" value="" placeholder="Enter email address for multiple email address, separate with semicolon"/>
+</div>
+</td>
+</tr>
+<tr>
+<td class="col1">
+<label for="viewer_email" class="control-label" >Message preview</label>
+</td>
+<td style="padding-right:10px;">
+<textarea class="form-control" readonly="readonly" name="viewer_email" id="viewer_email">Hi there, 
+
+You are invited to a Zoom meeting. 
+When: May 8, 2020 12:00 PM Central Time (US and Canada) 
+
+Register in advance for this meeting:
+https://uic.zoom.us/meeting/register/tJYoc-urrTooH9Ju1XJ9fsauLu4ET_b9QZRJ 
+
+After registering, you will receive a confirmation email containing information about joining the meeting.</textarea>
+</td>
+</tr>
+<tr>
+<td class="col1">&nbsp;</td>
+<td class="col2">
+<div class="form-group" style="margin-left:0;margin-top:20px;"><input type="hidden" id="is_captcha_hide" value="false" />
+<div class="captcha" data-type="recaptcha" style="display: none;">
+<div class="recaptcha clearfix">
+<div class="g-recaptcha" data-sitekey="6LfmSyQUAAAAAFLRDxYjF4navVNB9o2sbSXOCsNy" data-callback="onCaptchaSuccess"></div>
+</div>
+<script>
+var onCaptchaSuccess = function(response) {
+$(".g-recaptcha-response").parent().removeClass('recaptcha-error');
+};
+</script>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="modal-footer" style="padding-right:30px;">
+<button class="btn btn-primary submit">Send</button>
+<button type="button" class="btn btn-default cancel simplemodal-close">Cancel</button>
+</div>
+</div>
+</div>
 </form>
 
-    </div>
-
-    <div class="m-col-2-3">
-        <form method="get" action="//www.uic.edu/apps/departments-az/search">
-
-<div class="form-element">
-<h2>Departments</h2>
+<form id="switchTimezoneDialog" class="modaldialog hideme form-vertical" autocomplete="off" action="javascript:;">
+<div class="modal-dialog"><div class="modal-content"><div class="modal-header clearfix">
+<button type="button" class="close simplemodal-close" aria-label="close">&times;</button>
+<h3 tabindex="-1" id="webinar-timezone-title" style="display: inline-block;">Switch Time Zone</h3>
 </div>
-
-  <div class="form-element">
-<span class="form-element-label">Browse</span>
-<p>
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=A">A</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=B">B</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=C">C</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=D">D</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=E">E</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=F">F</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=G">G</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=H">H</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=I">I</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=J">J</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=K">K</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=L">L</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=M">M</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=N">N</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=O">O</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=P">P</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Q">Q</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=R">R</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=S">S</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=T">T</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=U">U</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=V">V</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=W">W</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=X">X</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Y">Y</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Z">Z</a>&nbsp;
-    </p>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Department</span>
-      <input class="text-input" type="text" id="kwords" name="kwords">
-    </label>
-  </div>
-
-  <input type="hidden" name="dispatch" value="search" />
-  <button type="submit" class="button">Search</button>
-
-  <p class="form-help-text" style="margin-top: 15px;">
-    <em>
-      <strong>Tip</strong>
-      Search for contact information for a specific department
-      or just select Department Search to browse the unit listing.
-    </em>
-  </p>
-</form>
-
-    </div>
-  </div>
+<div class="modal-body">
+<div class="modal-body-container">
+<div class="form-group">
+<label for="timezone">Time Zone:</label>&nbsp;&nbsp;
+<select class="" id="timezone" name="timezone">
+<option value="Pacific/Midway">(GMT-11:00) Midway Island, Samoa</option>
+<option value="Pacific/Pago_Pago">(GMT-11:00) Pago Pago</option>
+<option value="Pacific/Honolulu">(GMT-10:00) Hawaii</option>
+<option value="America/Anchorage">(GMT-8:00) Alaska</option>
+<option value="America/Juneau">(GMT-8:00) Juneau</option>
+<option value="America/Vancouver">(GMT-7:00) Vancouver</option>
+<option value="America/Los_Angeles">(GMT-7:00) Pacific Time (US and Canada)</option>
+<option value="America/Tijuana">(GMT-7:00) Tijuana</option>
+<option value="America/Phoenix">(GMT-7:00) Arizona</option>
+<option value="America/Edmonton">(GMT-6:00) Edmonton</option>
+<option value="America/Denver">(GMT-6:00) Mountain Time (US and Canada)</option>
+<option value="America/Mazatlan">(GMT-6:00) Mazatlan</option>
+<option value="America/Regina">(GMT-6:00) Saskatchewan</option>
+<option value="America/Guatemala">(GMT-6:00) Guatemala</option>
+<option value="America/El_Salvador">(GMT-6:00) El Salvador</option>
+<option value="America/Managua">(GMT-6:00) Managua</option>
+<option value="America/Costa_Rica">(GMT-6:00) Costa Rica</option>
+<option value="America/Tegucigalpa">(GMT-6:00) Tegucigalpa</option>
+<option value="America/Chihuahua">(GMT-6:00) Chihuahua</option>
+<option value="America/Winnipeg">(GMT-5:00) Winnipeg</option>
+<option selected="selected" value="America/Chicago">(GMT-5:00) Central Time (US and Canada)</option>
+<option value="America/Mexico_City">(GMT-5:00) Mexico City</option>
+<option value="America/Panama">(GMT-5:00) Panama</option>
+<option value="America/Bogota">(GMT-5:00) Bogota</option>
+<option value="America/Lima">(GMT-5:00) Lima</option>
+<option value="America/Monterrey">(GMT-5:00) Monterrey</option>
+<option value="America/Montreal">(GMT-4:00) Montreal</option>
+<option value="America/New_York">(GMT-4:00) Eastern Time (US and Canada)</option>
+<option value="America/Indianapolis">(GMT-4:00) Indiana (East)</option>
+<option value="America/Puerto_Rico">(GMT-4:00) Puerto Rico</option>
+<option value="America/Caracas">(GMT-4:00) Caracas</option>
+<option value="America/Santiago">(GMT-4:00) Santiago</option>
+<option value="America/La_Paz">(GMT-4:00) La Paz</option>
+<option value="America/Guyana">(GMT-4:00) Guyana</option>
+<option value="America/Halifax">(GMT-3:00) Halifax</option>
+<option value="America/Montevideo">(GMT-3:00) Montevideo</option>
+<option value="America/Araguaina">(GMT-3:00) Recife</option>
+<option value="America/Argentina/Buenos_Aires">(GMT-3:00) Buenos Aires, Georgetown</option>
+<option value="America/Sao_Paulo">(GMT-3:00) Sao Paulo</option>
+<option value="Canada/Atlantic">(GMT-3:00) Atlantic Time (Canada)</option>
+<option value="America/St_Johns">(GMT-2:30) Newfoundland and Labrador</option>
+<option value="America/Godthab">(GMT-2:00) Greenland</option>
+<option value="Atlantic/Cape_Verde">(GMT-1:00) Cape Verde Islands</option>
+<option value="Atlantic/Azores">(GMT+0:00) Azores</option>
+<option value="UTC">(GMT+0:00) Universal Time UTC</option>
+<option value="Etc/Greenwich">(GMT+0:00) Greenwich Mean Time</option>
+<option value="Atlantic/Reykjavik">(GMT+0:00) Reykjavik</option>
+<option value="Africa/Casablanca">(GMT+0:00) Casablanca</option>
+<option value="Africa/Nouakchott">(GMT+0:00) Nouakchott</option>
+<option value="Europe/Dublin">(GMT+1:00) Dublin</option>
+<option value="Europe/London">(GMT+1:00) London</option>
+<option value="Europe/Lisbon">(GMT+1:00) Lisbon</option>
+<option value="Africa/Bangui">(GMT+1:00) West Central Africa</option>
+<option value="Africa/Algiers">(GMT+1:00) Algiers</option>
+<option value="Africa/Tunis">(GMT+1:00) Tunis</option>
+<option value="Europe/Belgrade">(GMT+2:00) Belgrade, Bratislava, Ljubljana</option>
+<option value="CET">(GMT+2:00) Sarajevo, Skopje, Zagreb</option>
+<option value="Europe/Oslo">(GMT+2:00) Oslo</option>
+<option value="Europe/Copenhagen">(GMT+2:00) Copenhagen</option>
+<option value="Europe/Brussels">(GMT+2:00) Brussels</option>
+<option value="Europe/Berlin">(GMT+2:00) Amsterdam, Berlin, Rome, Stockholm, Vienna</option>
+<option value="Europe/Amsterdam">(GMT+2:00) Amsterdam</option>
+<option value="Europe/Rome">(GMT+2:00) Rome</option>
+<option value="Europe/Stockholm">(GMT+2:00) Stockholm</option>
+<option value="Europe/Vienna">(GMT+2:00) Vienna</option>
+<option value="Europe/Luxembourg">(GMT+2:00) Luxembourg</option>
+<option value="Europe/Paris">(GMT+2:00) Paris</option>
+<option value="Europe/Zurich">(GMT+2:00) Zurich</option>
+<option value="Europe/Madrid">(GMT+2:00) Madrid</option>
+<option value="Africa/Harare">(GMT+2:00) Harare, Pretoria</option>
+<option value="Europe/Warsaw">(GMT+2:00) Warsaw</option>
+<option value="Europe/Prague">(GMT+2:00) Prague Bratislava</option>
+<option value="Europe/Budapest">(GMT+2:00) Budapest</option>
+<option value="Africa/Tripoli">(GMT+2:00) Tripoli</option>
+<option value="Africa/Cairo">(GMT+2:00) Cairo</option>
+<option value="Africa/Johannesburg">(GMT+2:00) Johannesburg</option>
+<option value="Africa/Khartoum">(GMT+2:00) Khartoum</option>
+<option value="Europe/Helsinki">(GMT+3:00) Helsinki</option>
+<option value="Africa/Nairobi">(GMT+3:00) Nairobi</option>
+<option value="Europe/Sofia">(GMT+3:00) Sofia</option>
+<option value="Europe/Istanbul">(GMT+3:00) Istanbul</option>
+<option value="Europe/Athens">(GMT+3:00) Athens</option>
+<option value="Europe/Bucharest">(GMT+3:00) Bucharest</option>
+<option value="Asia/Nicosia">(GMT+3:00) Nicosia</option>
+<option value="Asia/Beirut">(GMT+3:00) Beirut</option>
+<option value="Asia/Damascus">(GMT+3:00) Damascus</option>
+<option value="Asia/Jerusalem">(GMT+3:00) Jerusalem</option>
+<option value="Asia/Amman">(GMT+3:00) Amman</option>
+<option value="Europe/Moscow">(GMT+3:00) Moscow</option>
+<option value="Asia/Baghdad">(GMT+3:00) Baghdad</option>
+<option value="Asia/Kuwait">(GMT+3:00) Kuwait</option>
+<option value="Asia/Riyadh">(GMT+3:00) Riyadh</option>
+<option value="Asia/Bahrain">(GMT+3:00) Bahrain</option>
+<option value="Asia/Qatar">(GMT+3:00) Qatar</option>
+<option value="Asia/Aden">(GMT+3:00) Aden</option>
+<option value="Africa/Djibouti">(GMT+3:00) Djibouti</option>
+<option value="Africa/Mogadishu">(GMT+3:00) Mogadishu</option>
+<option value="Europe/Kiev">(GMT+3:00) Kiev</option>
+<option value="Europe/Minsk">(GMT+3:00) Minsk</option>
+<option value="Asia/Dubai">(GMT+4:00) Dubai</option>
+<option value="Asia/Muscat">(GMT+4:00) Muscat</option>
+<option value="Asia/Baku">(GMT+4:00) Baku, Tbilisi, Yerevan</option>
+<option value="Asia/Tehran">(GMT+4:30) Tehran</option>
+<option value="Asia/Kabul">(GMT+4:30) Kabul</option>
+<option value="Asia/Yekaterinburg">(GMT+5:00) Yekaterinburg</option>
+<option value="Asia/Tashkent">(GMT+5:00) Islamabad, Karachi, Tashkent</option>
+<option value="Asia/Calcutta">(GMT+5:30) India</option>
+<option value="Asia/Kolkata">(GMT+5:30) Mumbai, Kolkata, New Delhi</option>
+<option value="Asia/Kathmandu">(GMT+5:45) Kathmandu</option>
+<option value="Asia/Almaty">(GMT+6:00) Almaty</option>
+<option value="Asia/Dacca">(GMT+6:00) Dacca</option>
+<option value="Asia/Dhaka">(GMT+6:00) Astana, Dhaka</option>
+<option value="Asia/Rangoon">(GMT+6:30) Rangoon</option>
+<option value="Asia/Novosibirsk">(GMT+7:00) Novosibirsk</option>
+<option value="Asia/Krasnoyarsk">(GMT+7:00) Krasnoyarsk</option>
+<option value="Asia/Bangkok">(GMT+7:00) Bangkok</option>
+<option value="Asia/Saigon">(GMT+7:00) Vietnam</option>
+<option value="Asia/Jakarta">(GMT+7:00) Jakarta</option>
+<option value="Asia/Irkutsk">(GMT+8:00) Irkutsk, Ulaanbaatar</option>
+<option value="Asia/Shanghai">(GMT+8:00) Beijing, Shanghai</option>
+<option value="Asia/Hong_Kong">(GMT+8:00) Hong Kong</option>
+<option value="Asia/Taipei">(GMT+8:00) Taipei</option>
+<option value="Asia/Kuala_Lumpur">(GMT+8:00) Kuala Lumpur</option>
+<option value="Asia/Singapore">(GMT+8:00) Singapore</option>
+<option value="Australia/Perth">(GMT+8:00) Perth</option>
+<option value="Asia/Yakutsk">(GMT+9:00) Yakutsk</option>
+<option value="Asia/Seoul">(GMT+9:00) Seoul</option>
+<option value="Asia/Tokyo">(GMT+9:00) Osaka, Sapporo, Tokyo</option>
+<option value="Australia/Darwin">(GMT+9:30) Darwin</option>
+<option value="Australia/Adelaide">(GMT+9:30) Adelaide</option>
+<option value="Asia/Vladivostok">(GMT+10:00) Vladivostok</option>
+<option value="Pacific/Port_Moresby">(GMT+10:00) Guam, Port Moresby</option>
+<option value="Australia/Brisbane">(GMT+10:00) Brisbane</option>
+<option value="Australia/Sydney">(GMT+10:00) Canberra, Melbourne, Sydney</option>
+<option value="Australia/Hobart">(GMT+10:00) Hobart</option>
+<option value="Asia/Magadan">(GMT+11:00) Magadan</option>
+<option value="SST">(GMT+11:00) Solomon Islands</option>
+<option value="Pacific/Noumea">(GMT+11:00) New Caledonia</option>
+<option value="Asia/Kamchatka">(GMT+12:00) Kamchatka</option>
+<option value="Pacific/Fiji">(GMT+12:00) Fiji Islands, Marshall Islands</option>
+<option value="Pacific/Auckland">(GMT+12:00) Auckland, Wellington</option>
+<option value="Pacific/Apia">(GMT+13:00) Independent State of Samoa</option>
+</select>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </main>
-    </div>
-  </div>
 </div>
+</div>
+<div class="modal-footer">
+<button id="timezone_ok" class="btn btn-primary submit">OK</button>
+<button type="button" class="btn btn-default cancel simplemodal-close">Cancel</button>
+</div></div></div>
+</form></div>
+</div>
+<div id="video_dialog" role="alertdialog" class="noheaderfooterdialog modaldialog hideme">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header clearfix">
+<div class="modal-title"></div>
+<button class="close simplemodal-close" aria-label="close">&times;</button>
+</div>
+<div class="modal-body">
+<div class="modal-body-container">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer_container" class="branding" role="contentinfo">
+<style>
+#footer-new .ft-support {
+   width: auto;
+}
+#footer-new ul li {
+   font-size: 1em;
+}
+#footer-new .footer-copyright {
+   position: static;
+   margin-top: 1em;
+}
+#footer-new .info-icons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto 2em;
+    text-align: center;
+    height: auto;
+    overflow: hidden;
+}
+#footer-new .info-icons li {
+   display: inline-block;
+   width: 56px;
+}
+.info-icons a {
+     display: block;
+     margin: 0 11px;
+}
+@media screen and (max-width: 820px) {
+   #footer-new ul li {
+      line-height: 1em;
+   }
+}
+@media screen and (max-width: 767px) {
+   #footer-new .footer-copyright {
+      margin-top: 4em;
+   }
+   #footer-new .footer-copyright .info-icons {
+      width: 186px;
+   }
+   #footer-new .info-icons li:nth-child(4) {
+      margin-left: 28px;
+   }
+   #footer-new .footer-copyright .info {
+      padding-top: 0;
+   }
+}
+</style>
 
-<footer class="footer">
-    <div class="footer-content" style="background-image: url(/images/footer.jpg)">
-        <div class="ms-grid">
-            <div class="ms-row">
-                <div class="s-col-1-2 m-col-1-4 l-col-3-12 footer-brand-address">
-                                            <img class="footer-brand" src="/images/footer-brand-mark.svg" alt="The University of Illinois at Chicago" aria-hidden="true">
-                                        <div class="footer-address">
-                        <div><strong>1200 West Harrison St.</strong></div>
-                        <div>Chicago, Illinois 60607</div>
-                        <div>312-996-7000</div>
-                    </div>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-push-4" aria-label="Tools">
-                    <h1 class="footer-list-title">Tools</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://uic.blackboard.com/">
-        Blackboard
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://accc.uic.edu/service/g-suite">
-        GoogleApps@UIC
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://my.uic.edu/common/">
-        my UIC
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://www.hr.uillinois.edu/pay/">
-        My UI Info: Pay
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://outlook.uic.edu">
-        UIC Outlook Online
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://accc.uic.edu/service/uicalendar">
-        UICalendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/contact-us">
-        Contact the webmaster
-    </a>
-</li>                                            </ul>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12" aria-label="Resources">
-                    <h1 class="footer-list-title">Resources</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://catalog.uic.edu/ucat/academic-calendar/">
-        Academic Calendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/life-at-uic/current-students">
-        Current Students
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://events.uic.edu">
-        Event Calendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/life-at-uic/faculty-and-staff">
-        Faculty and Staff
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://maps.uic.edu">
-        Maps
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://today.uic.edu/uicnews">
-        UIC Today
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/visit-directions">
-        Visit &amp; Directions
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://clery.uic.edu/">
-        Clery Compliance
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://oae.uic.edu/UnlawfulDiscrimination/index.htm">
-        Nondiscrimination Policy
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://oae.uic.edu/TitleIX/index.htm">
-        Title IX: Sexual Misconduct
-    </a>
-</li>                                            </ul>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-pull-4" aria-label="Quick Links">
-                    <h1 class="footer-list-title">Quick Links</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uicflames.com/">
-        Athletics
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uic.edu/apps/departments-az/search">
-        Directory
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://disabilityresources.uic.edu/">
-        Disability Resources
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://emergency.uic.edu">
-        Emergency Information
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/job-opportunities">
-        Job Opportunities
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://library.uic.edu">
-        Library
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uic.edu/depts/dos/studentveteranaffairs.shtml">
-        Veterans Affairs
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://hospital.uillinois.edu">
-        University of Illinois Hospital &amp; Health Sciences System
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/acerca">
-        Acerca de la UIC (en español)
-    </a>
-</li>                                            </ul>
-                </div>
-                <div class="l-col-3-12">
-                    <div class="ms-row">
-                        <div role="navigation" class="s-col-1-2 l-col-1-1" aria-label="Calls to Action">
-                            <ul class="footer-button-list">
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/visit-us" role="button">
-                Book a Visit
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/undergraduate/request-information" role="button">
-                Request Info
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/apply-now" role="button">
-                Apply Now
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="/alumni/give" role="button">
-                Give
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://uicalumni.org/" role="button">
-                Join Alumni Association
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="/about/contact-us" role="button">
-                Contact Us
-            </a>
-        </li>
-    </ul>                        </div>
-                        <div class="s-col-1-2 l-col-1-1 footer-social-icons-cell">
-                            <ul class="social-icons-list">
-            <li>
-            <a href="https://www.facebook.com/uic.edu">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>            </a>
-        </li>
-                <li>
-            <a href="https://twitter.com/thisisuic">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>            </a>
-        </li>
-                <li>
-            <a href="https://instagram.com/uicamiridis/">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>            </a>
-        </li>
-                    <li>
-            <a href="https://www.youtube.com/user/thisisUIC">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>            </a>
-        </li>
-                    <li>
-            <a href="http://uicscience.tumblr.com/">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Tumblr</title><path d="M15.1 24.2c2.8.7 5.6-.9 5.6-.9v-3c-.8.9-2.6 1.1-3.9.7-1.2-.3-1.1-2-1.1-2v-5.7h4.4v-3h-4.4V5.6H13c-.3 5.1-3.8 5-3.8 5v2.7h2v6.8c.1 2.2 1.1 3.4 3.9 4.1z"/></svg>            </a>
-        </li>
-                        <li>
-            <a href="https://news.uic.edu/social-media-directory">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>More links</title><path d="M15 5C9.5 5 5 9.5 5 15s4.5 10 10 10 10-4.5 10-10S20.5 5 15 5zm4.7 11H16v3.7h-2V16h-3.7v-2H14v-3.7h2V14h3.7v2z"/></svg>            </a>
-        </li>
-    </ul>                        </div>
-                    </div>
-                </div>
+<div id="footer-new">
+    <div class="footer-body">
+        <div class="ft-nav">
+            <div class="ft-about">
+                <h4 class="h4"><a href="/about">About</a></h4>
+                <ul>
+                    <li><a href="http://blog.zoom.us/">Zoom Blog</a></li>
+                    <li><a href="/customer/all">Customers</a></li>
+                    <li><a href="/team">Our Team</a></li>
+                    <li><a href="/zoomisbetter">Why Zoom</a></li>
+                    <li><a href="/feature">Features</a></li>
+                    <li><a href="/careers">Careers</a></li>
+                    <li><a href="/integrations">Integrations</a></li>
+                    <li><a href="/partners">Partners</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                    <li><a href="/press">Press</a></li>
+                </ul>
+            </div>
+            <div class="ft-download hidden-xs">
+                <h4 class="h4"><a href="/download">Download</a></h4>
+                <ul>
+                    <li><a href="/download#client_4meeting">Meetings Client</a></li>
+                    <li><a href="/download#room_client">Zoom Rooms Client</a></li>
+                    <li><a href="/download#room_controller">Zoom Rooms Controller</a></li>
+                    <li><a href="/download#chrome_ext">Browser Extension</a></li>
+                    <li><a href="/download#outlook_plugin">Outlook Plug-in</a></li>
+                    <li><a href="/download#mobile_app">iPhone/iPad App</a></li>
+                    <li><a href="/download#mobile_app">Android App</a></li>
+                </ul>
+            </div>
+            <div class="ft-sales">
+                <h4 class="h4"><a href="/contactsales">Sales</a></h4>
+                <ul>
+                    <li><a href="tel:1 888 799 9666" class="support-phone">1.888.799.9666</a></li>
+                    <li><a href="/contactsales">Contact Sales</a></li>
+                    <li><a href="/pricing">Plans & Pricing</a></li>
+                    <li><a href="/livedemo">Request a Demo</a></li>
+                    <li><a href="/events">Webinars and Events</a></li>
+                </ul>
+            </div>
+            <div class="ft-support">
+                <h4 class="h4"><a href="https://support.zoom.us/hc/en-us" target="_blank">Support</a></h4>
+                <ul>
+                    <li><a href="/account">Account</a></li>
+                    <li><a href="https://support.zoom.us/hc/en-us" target="_blank">Support Center</a></li>
+                    <li><a href="/livetraining">Live Training</a></li>
+                    <li><a href="/feed">Feedback</a></li>
+                    <li><a href="/contact">Contact Us</a></li>
+                    <li><a href="/test">Test Zoom</a></li>
+                </ul>
             </div>
         </div>
     </div>
-    <div class="footer-legal">
-        <div class="ms-grid">
-            <div class="ms-row">
-                <div class="l-col-1-2">
-                    &copy; 2016 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span> <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a>
-                </div>
-                <div class="l-col-1-2 campuses">
-                                            <a href="http://www.uillinois.edu/">University of Illinois</a> <span class="pipe-separator">|</span>
-                                            <a href="http://www.illinois.edu/">Urbana-Champaign</a> <span class="pipe-separator">|</span>
-                                            <a href="http://www.uis.edu/">Springfield</a> 
-                                    </div>
-            </div>
-        </div>
+    <div class="footer-copyright">
+        <ul class="info-icons">
+            <li><a href="http://blog.zoom.us/" class="icon" target="_blank"><img src="https://d24cgw3uvb9a9h.cloudfront.net/static/93516/image/new/home/IconBlog.png" alt="Blog" /></a></li>
+            <li><a href="http://www.linkedin.com/company/2532259" class="icon" target="_blank"><img src="https://d24cgw3uvb9a9h.cloudfront.net/static/93516/image/new/home/IconLinkedIn.png" alt="LinkedIn" /></a></li>
+           <li><a href="http://www.twitter.com/zoom_us" class="icon" target="_blank"><img src="https://d24cgw3uvb9a9h.cloudfront.net/static/93516/image/new/home/IconTwitter.png" alt="Twitter" /></a></li>
+           <li><a href="http://www.youtube.com/zoommeetings" class="icon" target="_blank"><img src="https://d24cgw3uvb9a9h.cloudfront.net/static/93516/image/new/home/IconYoutube.png" alt="Youtube" /></a></li>
+           <li><a href="http://www.facebook.com/zoomvideocommunications" class="icon" target="_blank"><img src="https://d24cgw3uvb9a9h.cloudfront.net/static/93516/image/new/home/IconFacebook.png" alt="Facebook" /></a></li>
+        </ul>
+        <div class="info">Copyright &copy;2019 Zoom Video Communications, Inc. All rights reserved. <a href="/legal">Privacy & Legal Policies</a></div>
     </div>
-  <a href="https://plus.google.com/+UicEdu" rel="publisher" hidden>UIC on Google+</a>
-</footer>
-
-<link rel="stylesheet" href="/css/main.min.css" media="all"><script src="/js/concat/main.min.js"></script><script src="//www.uic.edu/inc/emergency/alert.js"></script></body></html>
+</div>
+</div>
+<div id="fb-root"></div>
+<input type="hidden" id="__platformCheck" value="os" />
+<div id="notification"></div>
+<input type="hidden" id="detect" value="https://d24cgw3uvb9a9h.cloudfront.net/cdn-detect.png"/>
+<script>
+ready(function () {
+var isCDNblocked = readCookie("_zm_cdn_blocked");
+var blk = "unlog_blk";
+var unblk = "unlog_unblk";
+if (isCDNblocked === null || (isCDNblocked !== blk && isCDNblocked !== unblk)) {
+var image = new Image();
+delCookie("_zm_cdn_blocked");
+var timer = setTimeout(function () {
+image.onload = null;
+createCookie("_zm_cdn_blocked", blk, 0.25);
+window.location.reload(true);
+}, 10000);
+image.onload = function () {
+clearTimeout(timer);
+createCookie("_zm_cdn_blocked", unblk, 0.25);
+};
+image.onerror = function () {
+clearTimeout(timer);
+createCookie("_zm_cdn_blocked", blk, 0.25);
+window.location.reload(true);
+};
+var url = document.getElementById("detect").value;
+image.src = url;
+}
+});
+function ready(callback) {
+if (document.readyState !== 'loading') callback();
+else if (document.addEventListener) document.addEventListener('DOMContentLoaded', callback);
+else document.attachEvent('onreadystatechange', function () {
+if (document.readyState === 'complete') callback();
+});
+}
+function createCookie(name, value, days) {
+if (days) {
+var date = new Date();
+date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+var expires = "; expires=" + date.toUTCString();
+}
+else var expires = "";
+document.cookie = name + "=" + value + expires + "; path=/; secure=true; domain=" + ".zoom.us";
+}
+function readCookie(name) {
+var equal = name + "=";
+var ca = document.cookie.split(';');
+for (var i = 0; i < ca.length; i++) {
+var c = ca[i];
+while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+if (c.indexOf(equal) == 0) return c.substring(equal.length, c.length);
+}
+return null;
+}
+function delCookie(name) {
+createCookie(name,"",-1);
+}
+</script>
+<style type="text/css">
+@media screen and (max-width: 767px) {
+.navbar-signup-header .navbar-header {
+display: block;
+float: left;
+border: none;
+}
+.navbar-signup-header .collapse {
+display: block;
+}
+#header_container .container > .navbar-collapse {
+background-color: #fff;
+border: none;
+}
+#header_outer .navbar-signup-header .navbar-collapse .navbar-right {
+float: right;
+margin-top: 4px;
+}
+}
+</style>
+<script>
+var isFreeAccount = true;
+var SB = {
+version: '4.0.93960.0509.49ea0242',
+contextPath: '',
+baseUrl: 'https://uic.zoom.us',
+baseStaticUrl: 'https://d24cgw3uvb9a9h.cloudfront.net/static/93960',
+loggedIn: false,
+fbLoggedIn: false,
+fbAppkey: '113289095462482',
+fbAppPage: 'https://apps.facebook.com/zoomvideocall/',
+fbScope: 'email,public_profile',
+pardotPaymentUrl : 'https://go.pardot.com/l/84442/2015-07-23/mw5t',
+pardotBuyUrl : 'https://go.pardot.com/l/84442/2015-07-14/4xht',
+pardotSubscriptionUrl : 'https://go.pardot.com/l/84442/2015-07-23/mv5y',
+pardotActivateUserUrl : 'https://go.pardot.com/l/84442/2015-10-23/mspcv',
+noSignup: 'false',
+languagePref: 'en-US',
+isGDPRCountry: false
+};
+</script>
+<script src="https://d24cgw3uvb9a9h.cloudfront.net/static/93960/js/all.min.js"></script>
+<script src="https://d24cgw3uvb9a9h.cloudfront.net/static/93960/js/lib/vue/vue.min.js"></script>
+<script src="https://d24cgw3uvb9a9h.cloudfront.net/static/93960/js/lib/vue/zoom-components.min.js"></script>
+<script>
+$.i18n.load({
+"common.btn_close": "Close",
+"common.btn_yes": "Yes",
+"common.btn_no": "No",
+"common.title.prompt": "Prompt",
+"common.title.confirmation": "Confirmation",
+"common.unknown_error": "Unknown Error!",
+"common.error": "Error",
+"common.enter_time_in_12_hour": "Please enter a valid time in 12-hour",
+"common.tips": "Tips, press Enter to expand",
+"jquery.validation_required":"This field is required.",
+"jquery.validation_remote":"Please fix this field.",
+"jquery.validation_email":"Please enter a valid email address.",
+"jquery.validation_url":"Please enter a valid URL.",
+"jquery.validation_date":"Please enter a valid date.",
+"jquery.validation_dateISO":"Please enter a valid date (ISO).",
+"jquery.validation_number":"Please enter a valid number.",
+"jquery.validation_digits":"Please enter only digits.",
+"jquery.validation_creditcard":"Please enter a valid credit card number.",
+"jquery.validation_equalTo":"Please enter the same value again.",
+"jquery.validation_maxlength":"Please enter no more than {0} characters.",
+"jquery.validation_minlength":"Please enter at least {0} characters.",
+"jquery.validation_rangelength":"Please enter a value between {0} and {1} characters long.",
+"jquery.validation_range":"Please enter a value between {0} and {1}.",
+"jquery.validation_max":"Please enter a value less than or equal to {0}.",
+"jquery.validation_min":"Please enter a value greater than or equal to {0}.",
+"billing.pastdue.notice":"Past Due Notice",
+"billing.pastdue.balance_new":"Your account has an outstanding balance of {0}{1} due.",
+"billing.pastdue.terminate_time":"Your account type will change to a Basic plan on {0}, if the balance is not paid.",
+"billing.pastdue.terminate_soon":"Your account type will change to a Basic plan very soon, if the balance is not paid.",
+"billing.pastdue.this_means":"This means that you will lose many of the features you currently have.",
+"billing.pastdue.pay_online":"Please <a href=\"/billing/report\" onClick=\"ga('send', 'event', 'billing', 'click-pastdue-paynow-link', 'Past Due Notification Pay Now Link');\">click here</a> to pay online or call us at 1.888.799.9666 right away to avoid disruption to your service.",
+"billing.pastdue.contact_sales":"Please <a href=\"/contactsales\" target=\"_blank\">contact sales</a> or call us at 1.888.799.9666 right away to avoid disruption to your service.",
+"meeting.upcoming_meetings":"Upcoming Meetings",
+"meeting.current.start_this_meeting":"Would you like to start this meeting?",
+"meeting.current.start_these_meetings":"Would you like to start one of these meetings?",
+"meeting.current.view_more":"View more...",
+"meeting.current.start_new_meeting":"Start a New Meeting",
+"meeting.password.opt_out_acceptChange_success":"Passwords will be enabled by default on {0} for your account.",
+"meeting.password.opt_out_success":"Passwords will not be enabled by default for your account.",
+"meeting.opt_out_desc.zr_upgrade1":"Passwords will be enabled by default on {0} for your account.",
+"meeting.opt_out_desc.zr_upgrade2":"We recommend upgrading your <a href=\"/location\">Zoom Rooms and Zoom Rooms Controller</a> to the latest version for an optimal join experience",
+"meeting.password.opt_out_notice_title":"Important Update",
+"meeting.password.opt_out_notice":"Zoom will update your account settings to turn on passwords by default for meetings and webinars on {0}. <a href=\"javascript:void(0)\" onclick=\"showMeetingPassWordOptOut()\">Click</a> here to learn more or if you wish to opt out of this change."
+});
+</script>
+<script src="https://d24cgw3uvb9a9h.cloudfront.net/static/93960/js/app/jquery.validate.message.min.js"></script>
+<script type="text/javascript">
+$.i18n.load({
+"js_webinar.multi_domain_msg":"Enter valid domains. Separate multiple domains by comma",
+"js_webinar.register_email_error":"Your email address must be in the format of name@domain.com",
+"js_webinar.register_enter_email":"Please enter the same email address again.",
+"js_webinar.register_need_login":"The email address has not been used as a Zoom account.",
+"js_webinar.register_sign_up":"Sign up free.",
+"js_webinar.register_input_email":"If you have been invited, please input your work email address.",
+"js_webinar.choose_one":"Choose One...",
+"js_webinar.base_first_name":"First Name",
+"js_webinar.base_last_name":"Last Name",
+"js_webinar.base_email":"Email Address",
+"js_webinar.base_confirm_email":"Confirm Email Address",
+"js_webinar.base_address":"Address",
+"js_webinar.base_city":"City",
+"js_webinar.base_state_al":"Alabama",
+"js_webinar.base_state_ak":"Alaska",
+"js_webinar.base_state_ab":"Alberta",
+"js_webinar.base_state_az":"Arizona",
+"js_webinar.base_state_ar":"Arkansas",
+"js_webinar.base_state_bc":"British Columbia",
+"js_webinar.base_state_ca":"California",
+"js_webinar.base_state_co":"Colorado",
+"js_webinar.base_state_ct":"Connecticut",
+"js_webinar.base_state_de":"Delaware",
+"js_webinar.base_state_dc":"District of Columbia",
+"js_webinar.base_state_fl":"Florida",
+"js_webinar.base_state_ga":"Georgia",
+"js_webinar.base_state_gu":"Guam",
+"js_webinar.base_state_hi":"Hawaii",
+"js_webinar.base_state_id":"Idaho",
+"js_webinar.base_state_il":"Illinois",
+"js_webinar.base_state_in":"Indiana",
+"js_webinar.base_state_ia":"Iowa",
+"js_webinar.base_state_ks":"Kansas",
+"js_webinar.base_state_ky":"Kentucky",
+"js_webinar.base_state_la":"Louisiana",
+"js_webinar.base_state_me":"Maine",
+"js_webinar.base_state_mb":"Manitoba",
+"js_webinar.base_state_mi":"Michigan",
+"js_webinar.base_state_mn":"Minnesota",
+"js_webinar.base_state_ms":"Mississippi",
+"js_webinar.base_state_mo":"Missouri",
+"js_webinar.base_state_mt":"Montana",
+"js_webinar.base_state_ne":"Nebraska",
+"js_webinar.base_state_nv":"Nevada",
+"js_webinar.base_state_nb":"New Brunswick",
+"js_webinar.base_state_nl":"Newfoundland",
+"js_webinar.base_state_nh":"New Hampshire",
+"js_webinar.base_state_nj":"New Jersey",
+"js_webinar.base_state_nm":"New Mexico",
+"js_webinar.base_state_ny":"New York",
+"js_webinar.base_state_nc":"North Carolina",
+"js_webinar.base_state_nd":"North Dakota",
+"js_webinar.base_state_nt":"Northwest Territories",
+"js_webinar.base_state_ns":"Nova Scotia",
+"js_webinar.base_state_nu":"Nunavut",
+"js_webinar.base_state_oh":"Ohio",
+"js_webinar.base_state_ok":"Oklahoma",
+"js_webinar.base_state_on":"Ontario",
+"js_webinar.base_state_or":"Oregon",
+"js_webinar.base_state_pa":"Pennsylvania",
+"js_webinar.base_state_pe":"Prince Edward Island",
+"js_webinar.base_state_pr":"Puerto Rico",
+"js_webinar.base_state_qc":"Quebec",
+"js_webinar.base_state_ri":"Rhode Island",
+"js_webinar.base_state_sk":"Saskatchewan",
+"js_webinar.base_state_sc":"South Carolina",
+"js_webinar.base_state_sd":"South Dakota",
+"js_webinar.base_state_tn":"Tennessee",
+"js_webinar.base_state_tx":"Texas",
+"js_webinar.base_state_ut":"Utah",
+"js_webinar.base_state_vt":"Vermont",
+"js_webinar.base_state_va":"Virginia",
+"js_webinar.base_state_vi":"Virgin Islands",
+"js_webinar.base_state_wa":"Washington",
+"js_webinar.base_state_wv":"West Virginia",
+"js_webinar.base_state_wi":"Wisconsin",
+"js_webinar.base_state_wy":"Wyoming",
+"js_webinar.base_state_yt":"Yukon",
+"js_webinar.base_state_other":"Other",
+"js_webinar.base_states":"State/Province",
+"js_webinar.base_zip":"Zip/Postal Code",
+"js_webinar.base_country":"Country/Region",
+"js_webinar.base_phone":"Phone",
+"js_webinar.base_job":"Job Title",
+"js_webinar.base_org":"Organization",
+"js_webinar.base_industry":"Industry",
+"js_webinar.base_purchasing":"Purchasing Time Frame",
+"js_webinar.base_role":"Role in Purchase Process",
+"js_webinar.base_number_employee":"Number of Employees",
+"js_webinar.base_question":"Questions & Comments",
+"js_webinar.base_in_a_month":"Within a month",
+"js_webinar.base_3_month":"1-3 months",
+"js_webinar.base_6_month":"4-6 months",
+"js_webinar.base_7_month":"More than 6 months",
+"js_webinar.base_no_timeframe":"No timeframe",
+"js_webinar.base_more":"More than 10,000",
+"js_webinar.base_decision":"Decision Maker",
+"js_webinar.base_evaluator":"Evaluator/Recommender",
+"js_webinar.base_influencer":"Influencer",
+"js_webinar.base_not_involved":"Not involved",
+"js_webinar.base_accounting":"Accounting",
+"js_webinar.base_advertising":"Advertising/Marketing/PR",
+"js_webinar.base_aerospace":"Aerospace & Defense",
+"js_webinar.base_banking":"Banking & Securities",
+"js_webinar.base_call":"Call Center Outsourcing",
+"js_webinar.base_consulting":"Consulting",
+"js_webinar.base_education":"Education",
+"js_webinar.base_energy":"Energy, Chemical, Utilities",
+"js_webinar.base_financial":"Financial Services - Other",
+"js_webinar.base_federal":"Government - Federal",
+"js_webinar.base_local":"Government - State & Local",
+"js_webinar.base_hardware":"High Tech - Hardware",
+"js_webinar.base_isp":"High Tech - ISP",
+"js_webinar.base_high":"High Tech - Other",
+"js_webinar.base_hospital":"Hospital, Clinic, Doctor Office",
+"js_webinar.base_hospitality":"Hospitality, Travel, Tourism",
+"js_webinar.base_insurance":"Insurance",
+"js_webinar.base_legal":"Legal",
+"js_webinar.base_manufacturing":"Manufacturing",
+"js_webinar.base_medical":"Medical, Pharma, Biotech",
+"js_webinar.base_real":"Real Estate",
+"js_webinar.base_retail":"Retail",
+"js_webinar.base_sfinance":"Software - Finance",
+"js_webinar.base_shealthcare":"Software - Healthcare",
+"js_webinar.base_sother":"Software - Other",
+"js_webinar.base_support":"Support Outsourcing",
+"js_webinar.base_telecommunications":"Telecommunications",
+"js_webinar.base_transportation":"Transportation & Distribution",
+"js_webinar.base_var":"VAR/Systems Integrator",
+"error.seletc_meeting_time":"Please select meeting time.",
+"error.register.invalid_name":"Invalid user name",
+"error.captcha.text":"You have entered the letters (CAPTCHA) incorrectly. Try again.",
+"error.captcha.recaptchatext":"An error with reCAPTCHA occured. Please try again.",
+"js_webinar.multi_email_msg":"Enter valid email. Separate multiple email by comma"
+});
+var webinarCountryListMap = {};
+webinarCountryListMap.AF = "Afghanistan";
+webinarCountryListMap.AX = "Åland Islands";
+webinarCountryListMap.AL = "Albania";
+webinarCountryListMap.DZ = "Algeria";
+webinarCountryListMap.AS = "American Samoa";
+webinarCountryListMap.AD = "Andorra";
+webinarCountryListMap.AO = "Angola";
+webinarCountryListMap.AI = "Anguilla";
+webinarCountryListMap.AQ = "Antarctica";
+webinarCountryListMap.AG = "Antigua and Barbuda";
+webinarCountryListMap.AR = "Argentina";
+webinarCountryListMap.AM = "Armenia";
+webinarCountryListMap.AW = "Aruba";
+webinarCountryListMap.AC = "Ascension Island";
+webinarCountryListMap.AU = "Australia";
+webinarCountryListMap.AT = "Austria";
+webinarCountryListMap.AZ = "Azerbaijan";
+webinarCountryListMap.BS = "Bahamas";
+webinarCountryListMap.BH = "Bahrain";
+webinarCountryListMap.BD = "Bangladesh";
+webinarCountryListMap.BB = "Barbados";
+webinarCountryListMap.BY = "Belarus";
+webinarCountryListMap.BE = "Belgium";
+webinarCountryListMap.BZ = "Belize";
+webinarCountryListMap.BJ = "Benin";
+webinarCountryListMap.BM = "Bermuda";
+webinarCountryListMap.BT = "Bhutan";
+webinarCountryListMap.BO = "Bolivia (Plurinational State of)";
+webinarCountryListMap.BQ = "Bonaire, Sint Eustatius and Saba";
+webinarCountryListMap.BA = "Bosnia and Herzegovina";
+webinarCountryListMap.BW = "Botswana";
+webinarCountryListMap.BV = "Bouvet Island";
+webinarCountryListMap.BR = "Brazil";
+webinarCountryListMap.IO = "British Indian Ocean Territory";
+webinarCountryListMap.BN = "Brunei Darussalam";
+webinarCountryListMap.BG = "Bulgaria";
+webinarCountryListMap.BF = "Burkina Faso";
+webinarCountryListMap.BI = "Burundi";
+webinarCountryListMap.CV = "Cabo Verde";
+webinarCountryListMap.KH = "Cambodia";
+webinarCountryListMap.CM = "Cameroon";
+webinarCountryListMap.CA = "Canada";
+webinarCountryListMap.IC = "Canary Islands";
+webinarCountryListMap.CT = "Canton and Enderbury Islands";
+webinarCountryListMap.KY = "Cayman Islands";
+webinarCountryListMap.CF = "Central African Republic";
+webinarCountryListMap.EA = "Ceuta and Melilla";
+webinarCountryListMap.TD = "Chad";
+webinarCountryListMap.CL = "Chile";
+webinarCountryListMap.CN = "China";
+webinarCountryListMap.CX = "Christmas Island";
+webinarCountryListMap.CP = "Clipperton Island";
+webinarCountryListMap.CC = "Cocos (Keeling) Islands";
+webinarCountryListMap.CO = "Colombia";
+webinarCountryListMap.KM = "Comoros";
+webinarCountryListMap.CG = "Congo";
+webinarCountryListMap.CD = "Congo, Democratic Republic of the";
+webinarCountryListMap.CK = "Cook Islands";
+webinarCountryListMap.CR = "Costa Rica";
+webinarCountryListMap.CI = "Côte d\'Ivoire";
+webinarCountryListMap.HR = "Croatia";
+webinarCountryListMap.CW = "Curaçao";
+webinarCountryListMap.CY = "Cyprus";
+webinarCountryListMap.CZ = "Czechia";
+webinarCountryListMap.DK = "Denmark";
+webinarCountryListMap.DG = "Diego Garcia";
+webinarCountryListMap.DJ = "Djibouti";
+webinarCountryListMap.DM = "Dominica";
+webinarCountryListMap.DO = "Dominican Republic";
+webinarCountryListMap.NQ = "Dronning Maud Land";
+webinarCountryListMap.EC = "Ecuador";
+webinarCountryListMap.EG = "Egypt";
+webinarCountryListMap.SV = "El Salvador";
+webinarCountryListMap.GQ = "Equatorial Guinea";
+webinarCountryListMap.ER = "Eritrea";
+webinarCountryListMap.EE = "Estonia";
+webinarCountryListMap.SZ = "Eswatini";
+webinarCountryListMap.ET = "Ethiopia";
+webinarCountryListMap.EU = "European Union";
+webinarCountryListMap.FK = "Falkland Islands (Malvinas)";
+webinarCountryListMap.FO = "Faroe Islands";
+webinarCountryListMap.FJ = "Fiji";
+webinarCountryListMap.FI = "Finland";
+webinarCountryListMap.FR = "France";
+webinarCountryListMap.GF = "French Guiana";
+webinarCountryListMap.PF = "French Polynesia";
+webinarCountryListMap.FQ = "French Southern and Antarctic Territories";
+webinarCountryListMap.TF = "French Southern Territories";
+webinarCountryListMap.GA = "Gabon";
+webinarCountryListMap.GM = "Gambia";
+webinarCountryListMap.GE = "Georgia";
+webinarCountryListMap.DE = "Germany";
+webinarCountryListMap.GH = "Ghana";
+webinarCountryListMap.GI = "Gibraltar";
+webinarCountryListMap.GR = "Greece";
+webinarCountryListMap.GL = "Greenland";
+webinarCountryListMap.GD = "Grenada";
+webinarCountryListMap.GP = "Guadeloupe";
+webinarCountryListMap.GU = "Guam";
+webinarCountryListMap.GT = "Guatemala";
+webinarCountryListMap.GG = "Guernsey";
+webinarCountryListMap.GN = "Guinea";
+webinarCountryListMap.GW = "Guinea-Bissau";
+webinarCountryListMap.GY = "Guyana";
+webinarCountryListMap.HT = "Haiti";
+webinarCountryListMap.HM = "Heard Island and McDonald Islands";
+webinarCountryListMap.VA = "Holy See";
+webinarCountryListMap.HN = "Honduras";
+webinarCountryListMap.HK = "Hong Kong, China";
+webinarCountryListMap.HU = "Hungary";
+webinarCountryListMap.IS = "Iceland";
+webinarCountryListMap.IN = "India";
+webinarCountryListMap.ID = "Indonesia";
+webinarCountryListMap.IQ = "Iraq";
+webinarCountryListMap.IE = "Ireland";
+webinarCountryListMap.IM = "Isle of Man";
+webinarCountryListMap.IL = "Israel";
+webinarCountryListMap.IT = "Italy";
+webinarCountryListMap.JM = "Jamaica";
+webinarCountryListMap.JP = "Japan";
+webinarCountryListMap.JE = "Jersey";
+webinarCountryListMap.JT = "Johnston Island";
+webinarCountryListMap.JO = "Jordan";
+webinarCountryListMap.KZ = "Kazakhstan";
+webinarCountryListMap.KE = "Kenya";
+webinarCountryListMap.KI = "Kiribati";
+webinarCountryListMap.KR = "Korea, Republic of";
+webinarCountryListMap.KW = "Kuwait";
+webinarCountryListMap.KG = "Kyrgyzstan";
+webinarCountryListMap.LA = "Lao People\'s Democratic Republic";
+webinarCountryListMap.LV = "Latvia";
+webinarCountryListMap.LB = "Lebanon";
+webinarCountryListMap.LS = "Lesotho";
+webinarCountryListMap.LR = "Liberia";
+webinarCountryListMap.LY = "Libya";
+webinarCountryListMap.LI = "Liechtenstein";
+webinarCountryListMap.LT = "Lithuania";
+webinarCountryListMap.LU = "Luxembourg";
+webinarCountryListMap.MO = "Macau, China";
+webinarCountryListMap.MG = "Madagascar";
+webinarCountryListMap.MW = "Malawi";
+webinarCountryListMap.MY = "Malaysia";
+webinarCountryListMap.MV = "Maldives";
+webinarCountryListMap.ML = "Mali";
+webinarCountryListMap.MT = "Malta";
+webinarCountryListMap.MH = "Marshall Islands";
+webinarCountryListMap.MQ = "Martinique";
+webinarCountryListMap.MR = "Mauritania";
+webinarCountryListMap.MU = "Mauritius";
+webinarCountryListMap.YT = "Mayotte";
+webinarCountryListMap.FX = "Metropolitan France";
+webinarCountryListMap.MX = "Mexico";
+webinarCountryListMap.FM = "Micronesia (Federated States of)";
+webinarCountryListMap.MI = "Midway Islands";
+webinarCountryListMap.MD = "Moldova, Republic of";
+webinarCountryListMap.MC = "Monaco";
+webinarCountryListMap.MN = "Mongolia";
+webinarCountryListMap.ME = "Montenegro";
+webinarCountryListMap.MS = "Montserrat";
+webinarCountryListMap.MA = "Morocco";
+webinarCountryListMap.MZ = "Mozambique";
+webinarCountryListMap.MM = "Myanmar";
+webinarCountryListMap.NA = "Namibia";
+webinarCountryListMap.NR = "Nauru";
+webinarCountryListMap.NP = "Nepal";
+webinarCountryListMap.NL = "Netherlands";
+webinarCountryListMap.AN = "Netherlands Antilles";
+webinarCountryListMap.NT = "Neutral Zone";
+webinarCountryListMap.NC = "New Caledonia";
+webinarCountryListMap.NZ = "New Zealand";
+webinarCountryListMap.NI = "Nicaragua";
+webinarCountryListMap.NE = "Niger";
+webinarCountryListMap.NG = "Nigeria";
+webinarCountryListMap.NU = "Niue";
+webinarCountryListMap.NF = "Norfolk Island";
+webinarCountryListMap.MP = "Northern Mariana Islands";
+webinarCountryListMap.MK = "North Macedonia";
+webinarCountryListMap.VD = "North Vietnam";
+webinarCountryListMap.NO = "Norway";
+webinarCountryListMap.OM = "Oman";
+webinarCountryListMap.QO = "Outlying Oceania";
+webinarCountryListMap.PC = "Pacific Islands Trust Territory";
+webinarCountryListMap.PK = "Pakistan";
+webinarCountryListMap.PW = "Palau";
+webinarCountryListMap.PS = "Palestine, State of";
+webinarCountryListMap.PA = "Panama";
+webinarCountryListMap.PZ = "Panama Canal Zone";
+webinarCountryListMap.PG = "Papua New Guinea";
+webinarCountryListMap.PY = "Paraguay";
+webinarCountryListMap.YD = "People\'s Democratic Republic of Yemen";
+webinarCountryListMap.PE = "Peru";
+webinarCountryListMap.PH = "Philippines";
+webinarCountryListMap.PN = "Pitcairn";
+webinarCountryListMap.PL = "Poland";
+webinarCountryListMap.PT = "Portugal";
+webinarCountryListMap.PR = "Puerto Rico";
+webinarCountryListMap.QA = "Qatar";
+webinarCountryListMap.RE = "Réunion";
+webinarCountryListMap.RO = "Romania";
+webinarCountryListMap.RU = "Russian Federation";
+webinarCountryListMap.RW = "Rwanda";
+webinarCountryListMap.BL = "Saint Barthélemy";
+webinarCountryListMap.SH = "Saint Helena, Ascension and Tristan da Cunha";
+webinarCountryListMap.KN = "Saint Kitts and Nevis";
+webinarCountryListMap.LC = "Saint Lucia";
+webinarCountryListMap.MF = "Saint Martin (French part)";
+webinarCountryListMap.PM = "Saint Pierre and Miquelon";
+webinarCountryListMap.VC = "Saint Vincent and the Grenadines";
+webinarCountryListMap.WS = "Samoa";
+webinarCountryListMap.SM = "San Marino";
+webinarCountryListMap.ST = "Sao Tome and Principe";
+webinarCountryListMap.SA = "Saudi Arabia";
+webinarCountryListMap.SN = "Senegal";
+webinarCountryListMap.RS = "Serbia";
+webinarCountryListMap.CS = "Serbia and Montenegro";
+webinarCountryListMap.SC = "Seychelles";
+webinarCountryListMap.SL = "Sierra Leone";
+webinarCountryListMap.SG = "Singapore";
+webinarCountryListMap.SX = "Sint Maarten (Dutch part)";
+webinarCountryListMap.SK = "Slovakia";
+webinarCountryListMap.SI = "Slovenia";
+webinarCountryListMap.SB = "Solomon Islands";
+webinarCountryListMap.SO = "Somalia";
+webinarCountryListMap.ZA = "South Africa";
+webinarCountryListMap.GS = "South Georgia and the South Sandwich Islands";
+webinarCountryListMap.SS = "South Sudan";
+webinarCountryListMap.ES = "Spain";
+webinarCountryListMap.LK = "Sri Lanka";
+webinarCountryListMap.SR = "Suriname";
+webinarCountryListMap.SJ = "Svalbard and Jan Mayen";
+webinarCountryListMap.SE = "Sweden";
+webinarCountryListMap.CH = "Switzerland";
+webinarCountryListMap.TW = "Taiwan";
+webinarCountryListMap.TJ = "Tajikistan";
+webinarCountryListMap.TZ = "Tanzania, United Republic of";
+webinarCountryListMap.TH = "Thailand";
+webinarCountryListMap.TL = "Timor-Leste";
+webinarCountryListMap.TG = "Togo";
+webinarCountryListMap.TK = "Tokelau";
+webinarCountryListMap.TO = "Tonga";
+webinarCountryListMap.TT = "Trinidad and Tobago";
+webinarCountryListMap.TA = "Tristan da Cunha";
+webinarCountryListMap.TN = "Tunisia";
+webinarCountryListMap.TR = "Turkey";
+webinarCountryListMap.TM = "Turkmenistan";
+webinarCountryListMap.TC = "Turks and Caicos Islands";
+webinarCountryListMap.TV = "Tuvalu";
+webinarCountryListMap.PU = "U.S. Miscellaneous Pacific Islands";
+webinarCountryListMap.UG = "Uganda";
+webinarCountryListMap.UA = "Ukraine";
+webinarCountryListMap.AE = "United Arab Emirates";
+webinarCountryListMap.GB = "United Kingdom";
+webinarCountryListMap.UM = "United States Minor Outlying Islands";
+webinarCountryListMap.US = "United States of America";
+webinarCountryListMap.UY = "Uruguay";
+webinarCountryListMap.UZ = "Uzbekistan";
+webinarCountryListMap.VU = "Vanuatu";
+webinarCountryListMap.VE = "Venezuela (Bolivarian Republic of)";
+webinarCountryListMap.VN = "Viet Nam";
+webinarCountryListMap.VG = "Virgin Islands (British)";
+webinarCountryListMap.VI = "Virgin Islands (U.S.)";
+webinarCountryListMap.WK = "Wake Island";
+webinarCountryListMap.WF = "Wallis and Futuna";
+webinarCountryListMap.EH = "Western Sahara";
+webinarCountryListMap.YE = "Yemen";
+webinarCountryListMap.ZM = "Zambia";
+webinarCountryListMap.ZW = "Zimbabwe";
+webinarCountryListMap.Other = "Other";
+</script>
+<script type="text/javascript" src="https://d24cgw3uvb9a9h.cloudfront.net/static/93960/js/lib/select2/selectWoo.full.min.js"></script>
+<script type="text/javascript" src="https://d24cgw3uvb9a9h.cloudfront.net/static/93960/js/app/support/captcha.min.js"></script>
+<script type="text/javascript" src="https://d24cgw3uvb9a9h.cloudfront.net/static/93960/js/app/meeting/register.min.js"></script>
+<!--[if gt IE 8]><!-->
+<style>
+.ada-embed-drawer__iframe-container{
+max-height: 550px !important;
+max-width: 330px !important;
+margin: 10px 10px 10px 10px !important;
+}
+</style>
+<script type="text/javascript">
+var urlMapping = {"/profile" : "my_profile", "/meeting" : "my_meetings", "/recording" : "my_recordings", "/join" : "join_meeting", "/j" : "join_meeting",
+"/signup" : "signup_newuser", "/forgot_password" : "forgot_password", "/billing" : "account_billing", "/webinar/list" : "my_webinar"};
+window.zESettings = {webWidget: {}};
+window.zESettings.webWidget.chat = {};
+window.zESettings.webWidget.chat.connectOnPageLoad=false;
+window.adaSettings = {
+adaReadyCallback: function (props) {
+if (props.isRolledOut === false) {
+setTimeout(function(){
+try {
+document.getElementById('ada-embed').style.display = 'none';
+document.querySelector('.ada-embed-button-container').style.display = 'none';
+} catch (error) {}
+window.zESettings.webWidget.chat.suppress = true;
+zE(function() {
+zE.setLocale('en-us');
+if (urlMapping['\/meeting/register/tJYoc-urrTooH9Ju1XJ9fsauLu4ET_b9QZRJ']){
+zE.setHelpCenterSuggestions({ labels: [urlMapping['\/meeting/register/tJYoc-urrTooH9Ju1XJ9fsauLu4ET_b9QZRJ']] });
+} else {
+var execUrl = /\/j\/(\d+)(\?\w+=[^ ]*)?/ig.exec('\/meeting/register/tJYoc-urrTooH9Ju1XJ9fsauLu4ET_b9QZRJ');
+if (execUrl && execUrl.length){
+zE.setHelpCenterSuggestions({ labels: ['join_meeting'] });
+}
+}
+});
+});
+} else {
+zE('webWidget', 'hide');
+}
+},
+authCallback: function(callback) {
+var isIE = false;
+if (isIE) {
+$.ajax({
+type: "GET",
+url: "/zendesk/chat_jwt",
+dataType: 'text',
+success: function(response) {
+callback(response);
+}
+});
+} else {
+fetch("/zendesk/chat_jwt").then(function(res) {
+res.text().then(function(jwt){
+callback(jwt);
+});
+});
+}
+},
+hideMask: true,
+crossWindowPersistence: {enabled: true,domain: ".zoom.us"},
+styles: "*{font-size: 14px !important;}",
+language: "en",
+metaFields: {
+support_chat: false,
+group: "support",
+country: "us"
+}
+}
+</script>
+<script async id="__ada" data-handle="zoom" src="https://static.ada.support/embed.js"></script>
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=f022518e-a528-43eb-b7d9-6af79e1de3db"> </script>
+<!--<![endif]-->
+<div id="upcomingMeetingDialog" class="modaldialog hideme upcomingMeeting-feature-dialog">
+<input type="hidden" name="mtg_length" id="mtg_length">
+<input type="hidden" name="mtg_length1" id="mtg_length1">
+<input type="hidden" name="start_url" id="start_url">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header clearfix">
+<button class="close simplemodal-close" aria-label="close">&times;</button>
+<h4 tabindex="-1" id="upcoming-meeting-title" class="meeting-delete-header-font" style="display: inline-block;">Upcoming Meetings</h4>
+</div>
+<div class="modal-body">
+<div class="form-group" style="margin-bottom:16px;">
+<div id="one-mtg" class="controls hideme" style="margin-bottom:18px;">Would you like to start this meeting?</div>
+<div id="more-mtg" class="controls hideme" style="margin-bottom:18px;">Would you like to start one of these meetings?</div>
+<div id="mtgs">
+</div>
+<div id="viwe-more" class="controls hideme"><a href="/meeting">View more...</a></div>
+</div>
+</div>
+<div class="modal-footer">
+<button class="btn btn-primary submit" id="scheduleMtg" style="background-color: #fff;color: #232333;border-color: #747487">Start a New Meeting</button>
+</div>
+</div>
+</div>
+</div>
+<link rel="stylesheet" type="text/css" href="https://d24cgw3uvb9a9h.cloudfront.net/static/93960/css/meetings/meeting_delete_dialog.min.css" /><script type="text/javascript">
+/*Past Due Invoice Message*/
+var cookieLang = $.cookie('_zm_lang');
+if (cookieLang == "" || cookieLang == null) {
+$.cookie('_zm_lang', "en-US", {expires: 365, path: '/', domain: ".zoom.us", secure: true});
+}
+</script>
+</div>
+<script src="https://d24cgw3uvb9a9h.cloudfront.net/static/93960/js/lib/vue/advanced/notification/notification.min.js"></script>
+<style type="text/css">
+.optout-notice-wrapper {
+width: 100%;
+display: none;
+position: relative;
+}
+.optout-notice-container {
+padding: 24px 48px 24px 24px;
+}
+.meeting-disabledpmi-alert{
+min-width:415px;
+}
+.meeting-edit-disabledpmi-alert{
+min-width:553px;
+}
+.meeting-edit-disabledpmi-alert p,.meeting-disabledpmi-alert p{
+line-height: inherit;
+}
+@media only screen and (max-width: 414px) {
+.optout-notice-container {
+padding: 10px 20px;
+}
+}
+.optout-notice-container div {
+display: inline-block;
+}
+.optout-notice-title {
+font-weight: bold;
+line-height: 150%;
+}
+.optout-notice-medium {
+background-color: #FCF6ED;
+color: #775111;
+}
+.optout-notice-low {
+background-color: #E4F7EB;
+color: #1C7E41;
+}
+.optout-notice-high {
+background-color: #FFE8E8;
+color: #B22424;
+}
+.optout-notice-container a {
+color: #0065F2;
+font-weight: bold;
+text-decoration: none;
+}
+.optout-notice-content {
+padding-right: 24px;
+}
+.optout-notice-close {
+position: absolute;
+top: 10px;
+right: 23px;
+font-size: 30px;
+color: #232333;
+cursor: pointer;
+border: none;
+background: transparent;
+}
+.optout-notice-close:before {
+content: '\00d7';
+}
+#content_container.content_container_hide_header{
+padding-top:0px;
+}
+.body_hide_footer{
+background: #fff;
+}
+</style>
+</body>
+</html>

@@ -1,1070 +1,656 @@
-<!DOCTYPE html><html lang="en"><head><title>UIC Directory</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width"><style>.interior-page-intro .interior-page-title{ color: rgb(54, 54, 54); font-size: 36px; font-weight: 700; line-height: 1; margin-bottom: 12px; }
-.interior-section-header, .interior-page-intro .interior-page-subtitle{ color: rgb(54, 54, 54); font-size: 24px; font-weight: 400; line-height: 1.2; }
-body{ font-family: Theinhardt, Arial, sans-serif; }
-.body-text, .campus-reminders .reminder-text, .category-link-list .text-cell, .error-help, .text-input, .text-area, .number-input, .tel-input, .email-input, .form-help-text, .highlight .content-cell, .home-lists .home-list-blurb, .interior-page-intro .interior-page-text, .key-message-block .message-cell .text, .landing-page-intro .intro-text, .link-block .text, .link-list .text-cell, .text-block-with-inline-image .intro-row, .text-block-with-inline-image .text-and-image-row, .text-block-with-inline-image .link-list, .text-block-with-large-image .link-list, .topic-block-list .text-cell, .topic-block-list .topic-block-text-cell, .block-wysiwyg { color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1.36; }
-.body-text p, .campus-reminders .reminder-text p, .category-link-list .text-cell p, .error-help p, .text-input p, .text-area p, .number-input p, .tel-input p, .email-input p, .form-help-text p, .highlight .content-cell p, .home-lists .home-list-blurb p, .interior-page-intro .interior-page-text p, .key-message-block .message-cell .text p, .landing-page-intro .intro-text p, .link-block .text p, .link-list .text-cell p, .text-block-with-inline-image .intro-row p, .text-block-with-inline-image .text-and-image-row p, .text-block-with-inline-image .link-list p, .text-block-with-large-image .link-list p, .topic-block-list .text-cell p, .topic-block-list .topic-block-text-cell p, .block-wysiwyg p { margin-bottom: 1em; }
-.footer-list-item{ margin-bottom: 15px; }
-.footer-list-item:last-child{ margin-bottom: 0px; }
-.footer-list-link{ color: rgb(255, 255, 255); font-size: 14px; text-decoration: none; }
-.footer .footer-legal a{ color: rgb(153, 153, 153); text-decoration: none; }
-.footer .footer-legal .pipe-separator{ margin-top: 0em; margin-right: 0.5em; margin-bottom: 0em; margin-left: 0.5em; }
-.footer .footer-legal .campuses{ text-align: right; }
-.social-icons-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; overflow-x: hidden; overflow-y: hidden; }
-@media (min-width){
-.social-icons-list{ margin-top: 30px; }
-}
-.social-icons-list a{ text-decoration: none; }
-.social-icons-list svg{ fill: #ffffff; height: 30px; width: 30px; }
-.social-icons-list li{ border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; display: block; float: left; height: 30px; margin-top: 0px; margin-right: 10px; margin-bottom: 10px; margin-left: 0px; width: 30px; }
-.social-icons-list li:nth-of-type(5n+1){ clear: left; }
-.ms-grid, .ms-row, [class*="col-"]{ box-sizing: border-box; }
-.ms-grid{ display: block; position: relative; width: 100%; margin-left: auto; margin-right: auto; max-width: 1400px; padding-left: 12px; padding-right: 12px; }
-.ms-grid .ms-row{ }
-.ms-grid .ms-row::after, .ms-grid [class*="col-"]::after{ content: ''; display: table; clear: both; }
-[class*="col-"]{ float: left; width: 100%; position: relative; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; }
-@media screen and (min-width: 540px){
-.ms-grid{ padding-left: 24px; padding-right: 24px; }
-}
-@media screen and (min-width: 768px){
-.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
-}
-@media screen and (min-width: 2000px){
-.ms-grid .ms-row{ }
-.ms-grid .ms-row > [class*="col-"]{ }
-}
-@media screen and (min-width: 540px){
-.s-col-1-2{ width: 50%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-1-2{ width: 50%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-1-3{ width: 33.3333333333%; }
-}
-@media screen and (min-width: 768px){
-.m-col-1-4{ width: 25%; }
-.m-col-3-4{ width: 75%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-2-12{ width: 16.6666666667%; }
-.l-col-3-12{ width: 25%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-12-push-4{ left: 33.3333333333%; right: auto; }
-.l-col-12-pull-4{ right: 33.3333333333%; left: auto; }
-}
-*{ border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; box-sizing: border-box; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; }
-img{ vertical-align: bottom; }
-@media (min-width: 768px){
-.main{ margin-top: 40px; }
-}
-.ms-grid{ max-width: 1080px; }
-@media (max-width: 767px){
-.ms-grid{ padding-left: 20px; padding-right: 20px; overflow-x: hidden; overflow-y: hidden; }
-}
-@media (max-width: 1084px) and (min-width: 768px){
-.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
-}
-@media (min-width: 1140px){
-.ms-grid{ padding-left: 0px; padding-right: 0px; }
-}
-.component{ margin-bottom: 80px; }
-.interior-section-header{ font-size: 30px; }
-.subhead{ color: rgb(54, 54, 54); font-size: 18px; font-weight: 700; }
-body{ background-color: rgb(248, 248, 248); }
-.breadcrumbs{ line-height: 14px; margin-bottom: 34px; }
-@media (min-width: 768px){
-.breadcrumbs .red-circle{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(213, 0, 50); border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; display: inline-block; height: 14px; width: 14px; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
-}
-.breadcrumbs .first-breadcrumb-arrow{ display: none; }
-@media (min-width: 768px){
-.breadcrumbs .first-breadcrumb-arrow{ display: inline; }
-}
-.breadcrumbs .crumb-list{ display: inline; list-style-position: inside; list-style-type: none; list-style-image: initial; }
-@media (max-width: 768px){
-.breadcrumbs .crumb-list{ line-height: 1.4; }
-}
-.breadcrumbs .crumb-item{ display: inline-block; }
-.breadcrumbs .crumb-anchor{ color: rgb(54, 54, 54); font-size: 12px; font-weight: 500; text-transform: uppercase; }
-.breadcrumbs .crumb-anchor{ text-decoration: none; }
- .breadcrumbs .crumb-anchor.active{ color: rgb(213, 0, 50); outline-style: none; outline-width: initial; outline-color: initial; }
-.breadcrumbs img{ display: inline-block; height: 6px; margin-top: 0px; margin-right: 14px; margin-bottom: 0px; margin-left: 14px; width: 6px; vertical-align: middle; }
-.footer .footer-brand{ height: 206px; margin-bottom: 15px; width: 150px; }
-.footer .footer-brand-address{ margin-bottom: 20px; }
-@media (min-width: 1084px){
-.footer .footer-brand-address{ margin-bottom: 0px; min-height: 280px; }
-}
-@media (min-width: 1084px){
-.footer .footer-address{ bottom: 0px; position: absolute; width: 100%; }
-}
-@media (max-width: 1084px){
-.footer .footer-list{ margin-bottom: 30px; }
-.footer .footer-list::after{ content: ''; display: table; clear: both; }
-}
-.footer .footer-button-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; margin-bottom: 12px; }
-@media (max-width: 1084px) and (min-width: 540px){
-.footer .footer-button-list{ padding-right: 20px; }
-}
-.footer .footer-button-item{ margin-bottom: 5px; }
-.footer .footer-button{ color: rgb(255, 255, 255); background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(37, 37, 37); display: block; font-size: 16px; font-weight: 700; line-height: 32px; height: 32px; padding-top: 0px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px; text-decoration: none; background-position: initial initial; background-repeat: initial initial; }
-@media (max-width: 1084px){
-.footer .footer-legal .campuses{ margin-top: 1em; text-align: left; }
-}
-@media (min-width: 1084px){
-.footer .l-col-1-1{ width: 100%; }
-}
-.footer-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.footer-list-title{ margin-bottom: 15px; }
-.footer-list-title{ color: rgb(255, 255, 255); font-size: 14px; font-weight: 900; text-transform: uppercase; }
-@media (min-width: 1084px){
-.no-flexbox .footer-social-icons-cell{ bottom: -30px; }
-.no-flexbox .footer-address{ bottom: -50px; }
-}
-.header{ position: relative; width: 100%; background-color: rgb(0, 0, 0); }
-.header-menu-bar{ position: relative; }
-.header--blue .header-menu-bar{ background-color: rgb(0, 127, 165); }
-@media (max-width: 1084px){
-.header--blue .navigation-primary .primary-nav-list .primary-list-item{ background-color: rgb(0, 127, 165); }
-}
-.header--blue .navigation-primary .primary-nav-list .expander, .header--blue .navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(0, 102, 132); }
-@media (max-width: 1084px){
-.header--blue .navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); }
-}
-@media (min-width: 1084px){
-.header--blue .navigation-eyebrow{ background-color: rgb(0, 127, 165); }
-}
-.header--blue .navigation-primary:not(.scrolled-after) .primary-nav-list .primary-second-tier-list{ border-top-color: rgb(0, 127, 165); border-right-color: rgb(0, 127, 165); border-bottom-color: rgb(0, 127, 165); border-left-color: rgb(0, 127, 165); }
-.header-background-image-container{ bottom: 0px; left: 0px; overflow-x: hidden; overflow-y: hidden; position: absolute; right: 0px; top: 0px; }
-.header-background-image{ background-size: cover; bottom: -5px; left: -5px; position: absolute; right: -5px; top: -5px; background-position: 50% 50%; background-repeat: no-repeat no-repeat; }
-.interior-page-header{ overflow-x: visible; overflow-y: visible; }
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary .circle-logo-container{ margin-left: 0px; opacity: 1; z-index: 2; }
-}
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary:not(.scrolled-after) .circle-logo-container{ top: 110px; }
-}
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-eyebrow{ background-color: rgb(0, 127, 165); position: static; }
-}
-.interior-page-header .header-menu-bar .navigation-primary{ background-color: rgb(0, 127, 165); width: 100%; }
-.interior-page-header .header-menu-bar .navigation-primary .menu-toggle{ z-index: 2; }
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary{ height: 60px; }
-}
-.interior-page-header .header-background-image{ display: none; }
-.interior-page-intro .interior-page-title{ color: rgb(213, 0, 50); }
-@media (min-width: 540px){
-.interior-page-intro .interior-page-title{ font-size: 48px; }
-}
-.interior-page-intro .interior-page-subtitle{ margin-bottom: 10px; }
-@media (min-width: 540px){
-.interior-page-intro .interior-page-subtitle{ font-size: 30px; }
-}
-.link-block-group .link-block-anchor { margin-top: 40px; }
-@media (min-width: 540px){
-.link-block-group .link-block-anchor { max-width: 50%; }
-}
-.link-block-group .link-block-anchor, .link-block-group .link-block-anchor:hover, .link-block-group .link-block-anchor:visited { color: rgb(54, 54, 54); text-decoration: none; }
-.link-block { padding-top: 1px; position: relative; }
-.link-block::before { background-color: rgb(213, 0, 50); content: ''; height: 1px; left: 0px; position: absolute; top: 1px; width: 100%; }
-.link-block .subhead { margin-top: 15px; margin-right: 0px; margin-bottom: 4px; margin-left: 0px; padding-right: 20px; position: relative; }
-.link-block .subhead .arrow { fill: #001e62; height: 10px; position: absolute; right: 5px; width: 10px; }
-.link-block-anchor:hover, .link-block-anchor:focus { outline-style: none; outline-width: initial; outline-color: initial; }
-.link-block-anchor:hover .link-block::before, .link-block-anchor:focus .link-block::before { height: 3px; }
-.link-block-anchor:hover .arrow, .link-block-anchor:focus .arrow { -webkit-transform: translateX(5px); }
-.link-list .interior-section-header{ margin-bottom: 15px; }
-.navigation-eyebrow{ height: 40px; }
-@media (min-width: 1084px){
-.navigation-eyebrow{ background-color: rgb(0, 127, 165); }
-}
-.navigation-eyebrow .navigation-eyebrow-inner{ margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 1080px; position: relative; }
-.navigation-eyebrow .eyebrow-list{ color: rgb(255, 255, 255); font-size: 14px; font-weight: 400; list-style-type: none; list-style-position: inside; list-style-image: initial; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; padding-top: 0px; padding-right: 20px; padding-bottom: 0px; padding-left: 20px; }
-@media (min-width: 1084px){
-.navigation-eyebrow .eyebrow-list{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 25%; }
-}
-.navigation-eyebrow .eyebrow-list-item{ display: none; line-height: 40px; height: 40px; }
-@media (min-width: 1084px){
-.navigation-eyebrow .eyebrow-list-item{ display: block; float: left; }
-}
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor{ overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
-.navigation-eyebrow .eyebrow-button{ }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor{ font-weight: 700; padding-left: 34px; padding-right: 20px; overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::after{ content: '+'; left: 10px; position: absolute; text-align: center; top: 0px; width: 20px; }
-.navigation-eyebrow .eyebrow-list-anchor{ display: block; outline-style: none; outline-width: initial; outline-color: initial; }
-.navigation-eyebrow .eyebrow-list-anchor{ color: rgb(255, 255, 255); text-decoration: none; }
-.navigation-eyebrow .search-button-item{ display: block; height: 40px; position: absolute; top: 0px; right: 40px; width: 40px; z-index: 1; }
-@media (min-width: 1084px){
-.navigation-eyebrow .search-button-item{ height: 40px; position: relative; top: 0px; right: 0px; width: auto; }
-}
-.navigation-eyebrow .search-button{ background-color: transparent; cursor: pointer; height: 40px; width: 40px; }
-.navigation-eyebrow .search-button .search-glass{ fill: #ffffff; height: 20px; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; width: 20px; }
-.navigation-eyebrow .search-input-container{ position: absolute; top: 0px; height: 40px; right: 42px; -webkit-transform: translateY(-100%); width: 278px; z-index: 3; }
-@media (min-width: 1084px){
-.navigation-eyebrow .search-input-container{ height: 40px; right: 40px; }
-}
-.navigation-eyebrow .search-input-container form{ position: relative; width: 100%; height: 100%; }
-.navigation-eyebrow .search-input-container input[type="text"]{ color: rgb(149, 149, 149); height: 100%; padding-top: 0px; padding-right: 12px; padding-bottom: 0px; padding-left: 12px; font-size: 18px; width: 100%; }
-.navigation-eyebrow .search-input-container .submit-button{ -webkit-appearance: none; position: absolute !important; clip: rect(1px 1px 1px 1px); }
-@media (min-width: 1084px){
-.no-flexbox .eyebrow-list-item{ margin-left: 12px; }
-}
-.navigation-primary{ pointer-events: none; position: absolute; top: 0px; width: 100%; z-index: 2; }
-@media (min-width: 1084px){
-.navigation-primary{ pointer-events: auto; position: relative; }
-}
-.navigation-primary .navigation-primary-inner{ margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 1080px; position: relative; min-height: 40px; }
-.navigation-primary .primary-nav-list{ line-height: 1; list-style-type: none; list-style-position: inside; list-style-image: initial; overflow-x: hidden; overflow-y: hidden; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: absolute; right: 0px; top: 0px; width: 260px; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list{ left: 0px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; overflow-x: visible; overflow-y: visible; padding-top: 0px; padding-right: 0px; padding-left: 25%; position: relative; top: 0px; width: auto; }
-}
-.navigation-primary .primary-nav-list .primary-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(0, 127, 165); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; letter-spacing: 0.06em; position: relative; text-transform: uppercase; width: 100%; background-position: initial initial; background-repeat: initial initial; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .primary-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; float: left; background-position: initial initial; background-repeat: initial initial; }
-}
-.navigation-primary .primary-nav-list .primary-list-anchor{ display: block; line-height: 1; }
-.navigation-primary .primary-nav-list .primary-list-anchor, .navigation-primary .primary-nav-list .primary-second-tier-list-anchor{ color: inherit; text-decoration: none; }
-.navigation-primary .primary-nav-list .primary-second-tier-list{ display: none; list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); color: rgb(54, 54, 54); font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 1.25; text-transform: none; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item .primary-second-tier-list-anchor{ display: block; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; }
-.navigation-primary .primary-nav-list .expander{ display: none; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .primary-list-item{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: relative; width: auto; }
-.navigation-primary .primary-nav-list .primary-list-item.primary-list-active-item > .primary-list-anchor{ border-bottom-width: 8px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); padding-bottom: 12px; }
-.navigation-primary .primary-nav-list .primary-list-item > .primary-list-anchor{ display: block; outline-style: none; outline-width: initial; outline-color: initial; padding-top: 22px; padding-right: 0px; padding-bottom: 22px; padding-left: 0px; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor{ overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(255, 255, 255); bottom: 2px; height: 8px; -webkit-transform: translateY(135%); }
-.navigation-primary .primary-nav-list .primary-second-tier-list{ border-right-width: 2px; border-right-style: solid; border-right-color: rgb(0, 127, 165); border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(0, 127, 165); border-left-width: 2px; border-left-style: solid; border-left-color: rgb(0, 127, 165); display: block; opacity: 0; pointer-events: none; position: absolute; left: -2px; top: 60px; width: 260px; }
-.navigation-primary .primary-nav-list .primary-list-item:nth-last-child(1) .primary-second-tier-list, .navigation-primary .primary-nav-list .primary-list-item:nth-last-child(2) .primary-second-tier-list{ left: auto; right: -2px; }
-}
-@media (max-width: 1083px){
-.navigation-primary .primary-nav-list .expander{ background-color: rgb(39, 152, 182); display: block; height: 44px; position: absolute; top: 0px; right: 0px; width: 44px; }
-.navigation-primary .primary-nav-list .expander::before{ color: rgb(255, 255, 255); content: '+'; display: block; line-height: 44px; text-align: center; width: 100%; }
-.navigation-primary .primary-nav-list .primary-list-anchor{ line-height: 24px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 20px; }
-.navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); padding-left: 22px; position: relative; }
-.navigation-primary .primary-nav-list .primary-list-item{ min-height: 44px; -webkit-transform: translateX(260px); }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+0){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+1){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+2){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+3){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+4){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+5){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+6){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+7){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+8){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+9){ }
-}
-@media (max-width: 1083px){
-.navigation-primary .primary-nav-list{ pointer-events: none; }
-}
-.navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(39, 152, 182); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; height: 40px; letter-spacing: 0.06em; line-height: 40px; min-height: 40px; padding-top: 0px; padding-bottom: 0px; padding-left: 20px; position: relative; text-transform: uppercase; -webkit-transform: translateX(260px); width: 100%; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .menu-label-item{ display: none; }
-}
-.navigation-primary .primary-nav-list .menu-label{ opacity: 0; }
-.navigation-primary .primary-nav-list .menu-toggle{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; display: block; height: 40px; pointer-events: auto; position: absolute; top: 0px; right: 0px; width: 40px; z-index: 1; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle > span{ position: absolute; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); height: 2px; margin-left: 9px; position: absolute; top: 20px; width: 24px; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::after, .navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ content: ''; position: absolute; width: 100%; height: 100%; left: 0px; top: 6px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ top: auto; bottom: 6px; }
-@media (min-width: 1083px){
-.navigation-primary .primary-nav-list .menu-toggle{ display: none; }
-}
-.navigation-primary .circle-logo-container{ height: 40px; left: 0px; opacity: 0; pointer-events: auto; position: absolute; -webkit-transform: translateY(-100px); top: 10px; width: 40px; z-index: 1; }
-@media (max-width: 1120px) and (min-width: 1080px){
-.navigation-primary .circle-logo-container{ left: 20px; }
-}
-.navigation-primary .circle-logo-container span{ -webkit-appearance: none; position: absolute !important; clip: rect(1px 1px 1px 1px); }
-@media (max-width: 1084px){
-.navigation-primary .circle-logo-container{ height: 32px; margin-left: 20px; opacity: 1; -webkit-transform: translateY(4px); top: 0px; width: 32px; }
-}
-.navigation-primary .circle-logo-container .circle-logo path{ fill: #ffffff; }
-.navigation-primary .circle-logo-container a{ color: rgb(255, 255, 255); outline-style: none; outline-width: initial; outline-color: initial; }
-.navigation-primary .circle-logo-container .circle-logo{ -webkit-transform: rotate(-360deg); }
-@media (min-width: 1084px){
-.no-flexbox .primary-list-item{ margin-left: 12px; }
-}
-.no-flexbox .primary-nav-list::after{ content: ''; display: table; clear: both; }
-.navigation-sidebar{ margin-left: -20px; margin-right: -20px; position: relative; }
-@media (min-width: 768px){
-.navigation-sidebar{ margin-left: 0px; margin-right: 0px; }
-}
-.navigation-sidebar .navigation-sidebar-title{ background-color: rgb(255, 255, 255); border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; color: rgb(0, 30, 98); font-size: 16px; font-weight: 900; line-height: 1.5; margin-bottom: 20px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 47px; position: relative; text-transform: uppercase; }
-.navigation-sidebar .navigation-sidebar-title a{ color: rgb(0, 30, 98); text-decoration: none; }
-.navigation-sidebar .navigation-sidebar-title::after{ content: ' Menu'; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-title{ background-color: transparent; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 15px; padding-left: 0px; }
-.navigation-sidebar .navigation-sidebar-title::after{ content: none; }
-}
-.navigation-sidebar .navigation-sidebar-title .chevron{ display: block; height: 12px; left: 20px; position: absolute; width: 12px; }
-.navigation-sidebar .navigation-sidebar-title .chevron .anchor-point{ display: block; fill: #001e62; height: 8px; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto; -webkit-transform: rotate(-90deg); width: 12px; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-title .chevron{ display: none; }
-}
-@media (max-width: 767px){
-.navigation-sidebar .navigation-sidebar-list-container{ overflow-x: hidden; overflow-y: hidden; pointer-events: none; position: absolute; top: 44px; width: 100%; z-index: 1; }
-}
-@media (max-width: 767px){
-.navigation-sidebar .navigation-sidebar-list{ background-color: rgb(255, 255, 255); border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); padding-left: 20px; padding-right: 20px; -webkit-transform: translateY(-100%); }
-}
-.navigation-sidebar .navigation-sidebar-list .anchor-point{ height: 5px; position: absolute; right: 0px; top: 4px; width: 8px; }
-.navigation-sidebar .navigation-sidebar-list .navigation-sidebar-anchor .anchor-point{ top: 21px; }
-.navigation-sidebar .navigation-sidebar-list, .navigation-sidebar .sidebar-second-tier-list, .navigation-sidebar .sidebar-third-tier-list, .navigation-sidebar .sidebar-fourth-tier-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.navigation-sidebar .navigation-sidebar-anchor, .navigation-sidebar .sidebar-second-tier-anchor, .navigation-sidebar .sidebar-third-tier-anchor, .navigation-sidebar .sidebar-fourth-tier-anchor{ display: block; width: 100%; }
-.navigation-sidebar .navigation-sidebar-item{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); min-height: 50px; }
-.navigation-sidebar .navigation-sidebar-item:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-item:last-child{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); }
-}
-.navigation-sidebar .navigation-sidebar-anchor{ color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1; padding-top: 17px; padding-right: 0px; padding-bottom: 17px; padding-left: 0px; position: relative; text-decoration: none; }
-.navigation-sidebar .sidebar-second-tier-list{ padding-left: 14px; }
-.navigation-sidebar .sidebar-second-tier-item{ font-size: 14px; font-weight: 400; margin-bottom: 16px; }
-.navigation-sidebar .sidebar-second-tier-anchor{ color: rgb(54, 54, 54); position: relative; text-decoration: none; }
-.navigation-sidebar .sidebar-third-tier-list, .navigation-sidebar .sidebar-fourth-tier-list{ padding-top: 14px; padding-left: 14px; }
-.navigation-sidebar .sidebar-third-tier-item, .navigation-sidebar .sidebar-fourth-tier-item{ margin-bottom: 14px; }
-.navigation-sidebar .sidebar-third-tier-anchor, .navigation-sidebar .sidebar-fourth-tier-anchor{ color: rgb(54, 54, 54); position: relative; text-decoration: none; }
-.navigation-sidebar .navigation-sidebar-item.open .navigation-sidebar-anchor, .navigation-sidebar .sidebar-second-tier-item.open .sidebar-second-tier-anchor, .navigation-sidebar .sidebar-third-tier-item.open .sidebar-third-tier-anchor{ font-weight: 700; padding-right: 24px; width: 100%; }
- .navigation-sidebar .sidebar-fourth-tier-item.active .sidebar-fourth-tier-anchor{ color: rgb(213, 0, 50); font-weight: 700; position: relative; }/* Styles appended to the end of every critical path css stylesheet */
-.navigation-primary .primary-list {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-.navigation-eyebrow .eyebrow-list {
-    display: flex;
-    justify-content: space-between;
-}
-.calls-to-action .call-to-action {
-    align-items: center;
-    display: flex;
-}
-.calls-to-action .reminders-container {
-    display: flex;
-}
-.calls-to-action .reminders-anchor {
-    display: flex;
-}
- </style></head><body>
-<header class="header interior-page-header header--blue">
-    <div class="header-background-image-container">
-        <div class="header-background-image" aria-hidden="true" style="background-image: url()"></div>
-    </div>
-        <div class="header-menu-bar">
-
-        <nav class="navigation-eyebrow" aria-label="Eyebrow navigation">
-    <div class="navigation-eyebrow-inner">
-        <ul class="eyebrow-list">
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://maps.uic.edu/">Map</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uic.edu/apps/departments-az/search">Directory</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/about/contact-us">Contact Us</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://library.uic.edu/">Library</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uicflames.com/">Athletics</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/life-at-uic/current-students">Current Students</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/life-at-uic/faculty-and-staff">Faculty and Staff</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://hospital.uillinois.edu/">UI Health</a></li>
-                                        <li class="eyebrow-list-item eyebrow-button"><a class="eyebrow-list-anchor" href="/alumni/give">Give</a></li>
-                            <li class="eyebrow-list-item search-button-item">
-                    <button class="search-button" type="button">
-                        <svg class="search-glass" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" aria-labelledby="title"><title id="title">Expand search box</title><path d="M19.7 18.3l-5.9-5.9c1-1.3 1.6-2.9 1.6-4.7C15.4 3.5 12 0 7.7 0S0 3.4 0 7.7c0 4.2 3.4 7.7 7.7 7.7 1.8 0 3.4-.6 4.7-1.6l5.9 5.9c.2.2.4.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4zM2 7.7C2 4.6 4.6 2 7.7 2s5.7 2.6 5.7 5.7-2.5 5.7-5.7 5.7C4.6 13.4 2 10.8 2 7.7z"/></svg>                    </button>
-                </li>
-        </ul>
-        <div class="search-input-container">
-            <form method="get" action="/search" role="search">
-                <input type="text" name="q" class="search-input" placeholder="Search..." disabled tabindex="-1" aria-label="Search">
-                <input type="submit" class="submit-button" name="search" value="Submit">
-            </form>
+<!DOCTYPE html PUBLIC  "-//W3C//DTD XHTML 1.0 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html id="ctl00_html" xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head id="ctl00_Head1"><title>
+	Home - UICOIS
+</title><base href="https://www.ois.uic.edu/cms/One.aspx?portalId=1581&amp;pageId=1589" /><script id="ctl00_js_8c2a37d5602b170c39d33fc4faec5f6c" type="text/javascript" src="/javascript/jquery.latest.js"></script><script id="ctl00_js_47956c7a713f993a02ee18a90b1bbcdc" type="text/javascript" src="/javascript/jquery.migrate.js"></script><script>
+var headID = document.getElementsByTagName("head")[0];
+var ShortcutIcon = document.createElement('link');
+ShortcutIcon.type = 'image/vnd.microsoft.icon';
+ShortcutIcon.rel = 'shortcut icon';
+ShortcutIcon.href = '/UserFiles/Servers/Server_1497/Image/Theme/favicon.ico';
+headID.appendChild(ShortcutIcon);
+
+var Icon = document.createElement('link');
+Icon.type = 'image/vnd.microsoft.icon';
+Icon.rel = 'shortcut icon';
+Icon.href = '/UserFiles/Servers/Server_1497/Image/Theme/favicon.ico';
+headID.appendChild(Icon);
+</script><meta id="viewport" name="viewport" content="width=320, initial-scale=1, maximum-scale=1, user-scalable=no" /><script src="https://cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js" type="text/javascript" charset="UTF-8"></script><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><link href="../App_Themes/default/merged.css" type="text/css" rel="stylesheet" /><meta name="rating" /><meta name="description" /><meta name="Keywords" /><meta name="google-site-verification" /><script id="ctl00_js_f5d908109dfa66acdf9e478e4e9f9a48" type="text/javascript" src="/javascript/spinnerAlert.js"></script><script id="ctl00_js_a8a1cc2072f41ebd930eb171d5360b15" type="text/javascript" src="/javascript/jquery.ui.js"></script><link id="ctl00_css_93f1642cb79dcae790a48dfc5244c6bb" href="/common/resources/shared/stylesheets/jquery-ui/v1.10.3/jquery-ui.css" rel="stylesheet" type="text/css" media="all" /><script type="text/javascript" src="/javascript/GoogleAnalytics.js"></script> 
+<script type="text/javascript">
+var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-31815900']);_gaq.push(['_setDomainName','none']);_gaq.push(['_setAllowLinker', true]);_gaq.push(['_trackPageview', '/']);   (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);  })(); 
+fileDownloadTracker(1497, 1581, '', ''); 
+</script>
+<link id="ctl00_css_0600f167ac6562009da39ef7aa5da4f8" href="/App_Themes/jquery.mmenu.all.css" rel="stylesheet" type="text/css" media="all" /><script id="ctl00_js_17e699d4f22ea4832cf5b54b404784e8" type="text/javascript" src="/javascript/jquery.mmenu.min.all.js"></script><link id="ctl00_css_080fccdc36e7aaf6d28bf17ff342fcdd" href="/common/pages/PortalThemeStyle.ashx?templateId=572" rel="stylesheet" type="text/css" media="all" /><link id="ctl00_css_60db9a4064753bf62827418d9088eb74" href="/common/pages/PortalThemeStyle.ashx?templateId=569" rel="stylesheet" type="text/css" media="all" /><link rel="stylesheet" type="text/css" href="/common/RichTextConfig/CustomFCKWebStyle.aspx?portalId=1581" /><script id="ctl00_js_3d079c1b209d65a6918c895b1c69c045" type="text/javascript" src="/Common/JavaScript/JQuery/cms_portlet_mini_upcoming_events.js"></script><link href="/Telerik.Web.UI.WebResource.axd?compress=1&amp;_TSM_CombinedScripts_=%3b%3bTelerik.Web.UI%2c+Version%3d2014.2.724.40%2c+Culture%3dneutral%2c+PublicKeyToken%3d121fae78165ba3d4%3aen-US%3afe82fcae-d61f-4a22-95fa-e36cf399ea02%3aed2942d4" type="text/css" rel="stylesheet" /></head>
+<body id="ctl00_PageBody" style="margin: 0px; width: 100%; text-align: center;border: 0px;">
+    
+
+<div id="mobile_banner"></div>
+
+    <form method="post" action="./One.aspx?portalId=1581&amp;pageId=1589" id="aspnetForm">
+<input type="hidden" name="ctl00_RadStyleSheetManager1_TSSM" id="ctl00_RadStyleSheetManager1_TSSM" value="" />
+<input type="hidden" name="ctl00_ScriptManager1_TSM" id="ctl00_ScriptManager1_TSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTMxNjc3NTM3NQ8WBB4UX19BbnRpWHNyZlRva2VuT25TU0wFMWRmZDE2NjdiNDczMzQ4ODliNTNiNzcxNDNhMjQ0MmE1LUc1b1ByaTN4NXNNb1VBPT0eEl9fQW50aVhzcmZVc2VyTmFtZQUHNV9HdWVzdBYCZg9kFgICAQ8WBh4FeG1sbnMFHGh0dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWweBGxhbmcFBWVuLVVTHgh4bWw6bGFuZwUFZW4tVVMWAgIDDxYCHgVzdHlsZQU5bWFyZ2luOiAwcHg7IHdpZHRoOiAxMDAlOyB0ZXh0LWFsaWduOiBjZW50ZXI7Ym9yZGVyOiAwcHg7FgICAQ9kFgQCGA8PFgIeB1Zpc2libGVoZGQCJw9kFgQCAg8PFgIfBmhkFgJmD2QWAmYPZBYCAgEPZBYCAgEPDxYCHwZoZGQCBA9kFgQCAw8PFgIfBmhkFgYCAQ8UKwACZGRkAgMPFCsAAmRkZAIFDxYCHwZoZAIkD2QWAmYPZBYEAgEPZBYEZg9kFgICAQ9kFgJmD2QWAmYPFgIeBFRleHQFz048IURPQ1RZUEUgaHRtbD4KPGh0bWw+CiAgICA8aGVhZD4KICAgIDwvaGVhZD4KICAgIDxib2R5PgogICAgICAgIDxkaXYgY2xhc3M9Im11bHRpbWVkaWFmdWxsIj4KICAgICAgICA8ZGl2IGNsYXNzPSJtdWx0aW1lZGlhMSIgc3R5bGU9InRleHQtYWxpZ246IGxlZnQ7Ij4mbmJzcDsgPGEgaHJlZj0iL2Ntcy9vbmUuYXNweD9wb3J0YWxJZD0xNTgxJmFtcDtwYWdlSWQ9MTM2OTMwNiI+Q29yb25hdmlydXMvQ09WSUQtMTkgVXBkYXRlcyBmb3IgdGhlIFVJQyBJbnRlcm5hdGlvbmFsIENvbW11bml0eTwvYT48L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJtdWx0aW1lZGlhMSI+Jm5ic3A7SW50ZXJuYXRpb25hbCBTdHVkZW50IE9yaWVudGF0aW9uPC9kaXY+CiAgICAgICAgPGRpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJtdWx0aW1lZGlhX2xlZnQiIHN0eWxlPSJ0ZXh0LWFsaWduOiBsZWZ0OyI+CiAgICAgICAgPHA+Jm5ic3A7PC9wPgogICAgICAgIDxwIHN0eWxlPSJ0ZXh0LWFsaWduOiBsZWZ0OyI+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMjBweDsiPjxzdHJvbmcgc3R5bGU9ImNvbG9yOiByZ2IoMTI3LCAxMjcsIDEyNyk7Ij5XZWxjb21lIHRvIFVJQyEgPC9zdHJvbmc+PC9zcGFuPjwvcD4KICAgICAgICA8cCBzdHlsZT0idGV4dC1hbGlnbjogbGVmdDsiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDE2cHg7Ij48c3Ryb25nIHN0eWxlPSJjb2xvcjogcmdiKDEyNywgMTI3LCAxMjcpOyI+T0lTIHN1cHBvcnRzIG5ldyBpbnRlcm5hdGlvbmFsIHN0dWRlbnRzIHRocm91Z2ggdGhlIHRyYW5zaXRpb24gdG8gbGlmZSBpbiB0aGUgVS5TLiBhbmQgc3R1ZHkgYXQgVUlDIGR1cmluZyBJbnRlcm5hdGlvbmFsIFN0dWRlbnQgT3JpZW50YXRpb24uPC9zdHJvbmc+PHN0cm9uZyBzdHlsZT0iY29sb3I6IHJnYigxMjcsIDEyNywgMTI3KTsiPjwvc3Ryb25nPjwvc3Bhbj48YSBocmVmPSIvY21zL29uZS5hc3B4P3BvcnRhbElkPTE1ODEmYW1wO3BhZ2VJZD0yMTM2MDAiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDE2cHg7Ij48c3Ryb25nPjwvc3Ryb25nPjwvc3Bhbj48L2E+CiAgICAgICAgPC9wPgogICAgICAgIDxwPjxhIGhyZWY9Ii9jbXMvb25lLmFzcHg/cG9ydGFsSWQ9MTU4MSZhbXA7cGFnZUlkPTIxMzYwMCI+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMjBweDsiPjxzdHJvbmc+PC9zdHJvbmc+PC9zcGFuPjwvYT48c3Ryb25nPjxhIGhyZWY9Ii9jbXMvb25lLmFzcHg/cG9ydGFsSWQ9MTU4MSZhbXA7cGFnZUlkPTIxMzYwMCI+TGVhcm4gbW9yZSBhYm91dCBJbnRlcm5hdGlvbmFsIFN0dWRlbnQgT3JpZW50YXRpb248L2E+PGJyPgogICAgICAgIDwvc3Ryb25nPjwvcD4KICAgICAgICA8cD48YSBocmVmPSIvY21zL29uZS5hc3B4P3BvcnRhbElkPTE1ODEmYW1wO3BhZ2VJZD0yMTM2MDAiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDIwcHg7Ij48c3Ryb25nPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDE0cHg7Ij48L3NwYW4+PC9zdHJvbmc+PC9zcGFuPjwvYT48L3A+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0ibXVsdGltZWRpYV9yaWdodCI+CiAgICAgICAgPCEtLVNsaWRlci0tPgogICAgICAgIDwhLS1TbGlkZXItLT4KICAgICAgICA8IS0tU2xpZGVyLS0+CiAgICAgICAgPCEtLVNsaWRlci0tPgogICAgICAgIDwhLS1TbGlkZXItLT4KICAgICAgICA8IS0tU2xpZGVyLS0+CiAgICAgICAgPCEtLVNsaWRlci0tPgogICAgICAgIDwhLS1TbGlkZXItLT4KICAgICAgICA8IS0tU2xpZGVyLS0+CiAgICAgICAgPCEtLVNsaWRlci0tPgogICAgICAgIDwhLS0gI3JlZ2lvbiBKc3NvciBTbGlkZXIgQmVnaW4gLS0+CiAgICAgICAgPCEtLSBHZW5lcmF0ZWQgYnkgSnNzb3IgU2xpZGVyIE1ha2VyLiAtLT4KICAgICAgICA8IS0tIFRoaXMgZGVtbyB3b3JrcyB3aXRob3V0IGpxdWVyeSBsaWJyYXJ5LiAtLT4KICAgICAgICA8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSIgL1VzZXJGaWxlcy9TZXJ2ZXJzL1NlcnZlcl8xNDk3L0ZpbGUvc2xpZGVyL2pzL2pzc29yLnNsaWRlci5taW4uanMiPjwvc2NyaXB0PgogICAgICAgIDwhLS0gdXNlIGpzc29yLnNsaWRlci5kZWJ1Zy5qcyBpbnN0ZWFkIGZvciBkZWJ1ZyAtLT4KICAgICAgICA8c2NyaXB0PgogICAgICAgIGpzc29yXzFfc2xpZGVyX2luaXQgPSBmdW5jdGlvbigpIHsKICAgICAgICAgICAgCiAgICAgICAgICAgIHZhciBqc3Nvcl8xX1NsaWRlc2hvd1RyYW5zaXRpb25zID0gWwogICAgICAgICAgICAgIHskRHVyYXRpb246MTIwMCwkT3BhY2l0eToyfQogICAgICAgICAgICBdOwogICAgICAgICAgICAKICAgICAgICAgICAgdmFyIGpzc29yXzFfb3B0aW9ucyA9IHsKICAgICAgICAgICAgICAkQXV0b1BsYXk6IHRydWUsCiAgICAgICAgICAgICAgJFNsaWRlc2hvd09wdGlvbnM6IHsKICAgICAgICAgICAgICAgICRDbGFzczogJEpzc29yU2xpZGVzaG93UnVubmVyJCwKICAgICAgICAgICAgICAgICRUcmFuc2l0aW9uczoganNzb3JfMV9TbGlkZXNob3dUcmFuc2l0aW9ucywKICAgICAgICAgICAgICAgICRUcmFuc2l0aW9uc09yZGVyOiAxCiAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAkQXJyb3dOYXZpZ2F0b3JPcHRpb25zOiB7CiAgICAgICAgICAgICAgICAkQ2xhc3M6ICRKc3NvckFycm93TmF2aWdhdG9yJAogICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgJEJ1bGxldE5hdmlnYXRvck9wdGlvbnM6IHsKICAgICAgICAgICAgICAgICRDbGFzczogJEpzc29yQnVsbGV0TmF2aWdhdG9yJAogICAgICAgICAgICAgIH0KICAgICAgICAgICAgfTsKICAgICAgICAgICAgCiAgICAgICAgICAgIHZhciBqc3Nvcl8xX3NsaWRlciA9IG5ldyAkSnNzb3JTbGlkZXIkKCJqc3Nvcl8xIiwganNzb3JfMV9vcHRpb25zKTsKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vcmVzcG9uc2l2ZSBjb2RlIGJlZ2luCiAgICAgICAgICAgIC8veW91IGNhbiByZW1vdmUgcmVzcG9uc2l2ZSBjb2RlIGlmIHlvdSBkb24ndCB3YW50IHRoZSBzbGlkZXIgc2NhbGVzIHdoaWxlIHdpbmRvdyByZXNpemluZwogICAgICAgICAgICBmdW5jdGlvbiBTY2FsZVNsaWRlcigpIHsKICAgICAgICAgICAgICAgIHZhciByZWZTaXplID0ganNzb3JfMV9zbGlkZXIuJEVsbXQucGFyZW50Tm9kZS5jbGllbnRXaWR0aDsKICAgICAgICAgICAgICAgIGlmIChyZWZTaXplKSB7CiAgICAgICAgICAgICAgICAgICAgcmVmU2l6ZSA9IE1hdGgubWluKHJlZlNpemUsIDYwMCk7CiAgICAgICAgICAgICAgICAgICAganNzb3JfMV9zbGlkZXIuJFNjYWxlV2lkdGgocmVmU2l6ZSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBlbHNlIHsKICAgICAgICAgICAgICAgICAgICB3aW5kb3cuc2V0VGltZW91dChTY2FsZVNsaWRlciwgMzApOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIFNjYWxlU2xpZGVyKCk7CiAgICAgICAgICAgICRKc3NvciQuJEFkZEV2ZW50KHdpbmRvdywgImxvYWQiLCBTY2FsZVNsaWRlcik7CiAgICAgICAgICAgICRKc3NvciQuJEFkZEV2ZW50KHdpbmRvdywgInJlc2l6ZSIsIFNjYWxlU2xpZGVyKTsKICAgICAgICAgICAgJEpzc29yJC4kQWRkRXZlbnQod2luZG93LCAib3JpZW50YXRpb25jaGFuZ2UiLCBTY2FsZVNsaWRlcik7CiAgICAgICAgICAgIC8vcmVzcG9uc2l2ZSBjb2RlIGVuZAogICAgICAgIH07CiAgICA8L3NjcmlwdD4KICAgICAgICA8c3R5bGU+CiAgICAgICAgICAgIC8qIGpzc29yIHNsaWRlciBidWxsZXQgbmF2aWdhdG9yIHNraW4gMDUgY3NzICovCiAgICAgICAgICAgIC8qCiAgICAgICAgICAgIC5qc3NvcmIwNSBkaXYgICAgICAgICAgIChub3JtYWwpCiAgICAgICAgICAgIC5qc3NvcmIwNSBkaXY6aG92ZXIgICAgIChub3JtYWwgbW91c2VvdmVyKQogICAgICAgICAgICAuanNzb3JiMDUgLmF2ICAgICAgICAgICAoYWN0aXZlKQogICAgICAgICAgICAuanNzb3JiMDUgLmF2OmhvdmVyICAgICAoYWN0aXZlIG1vdXNlb3ZlcikKICAgICAgICAgICAgLmpzc29yYjA1IC5kbiAgICAgICAgICAgKG1vdXNlZG93bikKICAgICAgICAgICAgKi8KICAgICAgICAgICAgLmpzc29yYjA1IHsKICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlOwogICAgICAgICAgICB9CiAgICAgICAgICAgIC5qc3NvcmIwNSBkaXYsIC5qc3NvcmIwNSBkaXY6aG92ZXIsIC5qc3NvcmIwNSAuYXYgewogICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgICAgICAgICAgIC8qIHNpemUgb2YgYnVsbGV0IGVsbWVudCAqLwogICAgICAgICAgICB3aWR0aDogMTZweDsKICAgICAgICAgICAgaGVpZ2h0OiAxNnB4OwogICAgICAgICAgICBiYWNrZ3JvdW5kOiB1cmwoJy9Vc2VyRmlsZXMvU2VydmVycy9TZXJ2ZXJfMTQ5Ny9GaWxlL3NsaWRlci9pbWcvYjA1LnBuZycpIG5vLXJlcGVhdDsKICAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjsKICAgICAgICAgICAgY3Vyc29yOiBwb2ludGVyOwogICAgICAgICAgICB9CiAgICAgICAgICAgIC5qc3NvcmIwNSBkaXYgeyBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAtN3B4IC03cHg7IH0KICAgICAgICAgICAgLmpzc29yYjA1IGRpdjpob3ZlciwgLmpzc29yYjA1IC5hdjpob3ZlciB7IGJhY2tncm91bmQtcG9zaXRpb246IC0zN3B4IC03cHg7IH0KICAgICAgICAgICAgLmpzc29yYjA1IC5hdiB7IGJhY2tncm91bmQtcG9zaXRpb246IC02N3B4IC03cHg7IH0KICAgICAgICAgICAgLmpzc29yYjA1IC5kbiwgLmpzc29yYjA1IC5kbjpob3ZlciB7IGJhY2tncm91bmQtcG9zaXRpb246IC05N3B4IC03cHg7IH0KICAgICAgICAgICAgLyoganNzb3Igc2xpZGVyIGFycm93IG5hdmlnYXRvciBza2luIDEyIGNzcyAqLwogICAgICAgICAgICAvKgogICAgICAgICAgICAuanNzb3JhMTJsICAgICAgICAgICAgICAgICAgKG5vcm1hbCkKICAgICAgICAgICAgLmpzc29yYTEyciAgICAgICAgICAgICAgICAgIChub3JtYWwpCiAgICAgICAgICAgIC5qc3NvcmExMmw6aG92ZXIgICAgICAgICAgICAobm9ybWFsIG1vdXNlb3ZlcikKICAgICAgICAgICAgLmpzc29yYTEycjpob3ZlciAgICAgICAgICAgIChub3JtYWwgbW91c2VvdmVyKQogICAgICAgICAgICAuanNzb3JhMTJsLmpzc29yYTEybGRuICAgICAgKG1vdXNlZG93bikKICAgICAgICAgICAgLmpzc29yYTEyci5qc3NvcmExMnJkbiAgICAgIChtb3VzZWRvd24pCiAgICAgICAgICAgICovCiAgICAgICAgICAgIC5qc3NvcmExMmwsIC5qc3NvcmExMnIgewogICAgICAgICAgICBkaXNwbGF5OiBibG9jazsKICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlOwogICAgICAgICAgICAvKiBzaXplIG9mIGFycm93IGVsZW1lbnQgKi8KICAgICAgICAgICAgd2lkdGg6IDMwcHg7CiAgICAgICAgICAgIGhlaWdodDogNDZweDsKICAgICAgICAgICAgY3Vyc29yOiBwb2ludGVyOwogICAgICAgICAgICBiYWNrZ3JvdW5kOiB1cmwoJyAvVXNlckZpbGVzL1NlcnZlcnMvU2VydmVyXzE0OTcvRmlsZS9zbGlkZXIvaW1nL2ExMi5wbmcnKSBuby1yZXBlYXQ7CiAgICAgICAgICAgIG92ZXJmbG93OiBoaWRkZW47CiAgICAgICAgICAgIH0KICAgICAgICAgICAgLmpzc29yYTEybCB7IGJhY2tncm91bmQtcG9zaXRpb246IC0xNnB4IC0zN3B4OyB9CiAgICAgICAgICAgIC5qc3NvcmExMnIgeyBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAtNzVweCAtMzdweDsgfQogICAgICAgICAgICAuanNzb3JhMTJsOmhvdmVyIHsgYmFja2dyb3VuZC1wb3NpdGlvbjogLTEzNnB4IC0zN3B4OyB9CiAgICAgICAgICAgIC5qc3NvcmExMnI6aG92ZXIgeyBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAtMTk1cHggLTM3cHg7IH0KICAgICAgICAgICAgLmpzc29yYTEybC5qc3NvcmExMmxkbiB7IGJhY2tncm91bmQtcG9zaXRpb246IC0yNTZweCAtMzdweDsgfQogICAgICAgICAgICAuanNzb3JhMTJyLmpzc29yYTEycmRuIHsgYmFja2dyb3VuZC1wb3NpdGlvbjogLTMxNXB4IC0zN3B4OyB9CiAgICAgICAgPC9zdHlsZT4KICAgICAgICA8ZGl2IGlkPSJqc3Nvcl8xIiBzdHlsZT0icG9zaXRpb246IHJlbGF0aXZlOyBtYXJnaW46IDAgYXV0bzsgdG9wOiAwcHg7IGxlZnQ6IDBweDsgd2lkdGg6IDYwMHB4OyBoZWlnaHQ6IDMwMHB4OyBvdmVyZmxvdzogaGlkZGVuOyB2aXNpYmlsaXR5OiBoaWRkZW47Ij4KICAgICAgICA8IS0tIExvYWRpbmcgU2NyZWVuIC0tPgogICAgICAgIDxkaXYgZGF0YS11PSJsb2FkaW5nIiBzdHlsZT0icG9zaXRpb246IGFic29sdXRlOyB0b3A6IDBweDsgbGVmdDogMHB4OyI+CiAgICAgICAgPGRpdiBzdHlsZT0iZmlsdGVyOiBhbHBoYShvcGFjaXR5PTcwKTsgb3BhY2l0eTogMC43OyBwb3NpdGlvbjogYWJzb2x1dGU7IGRpc3BsYXk6IGJsb2NrOyB0b3A6IDBweDsgbGVmdDogMHB4OyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMDAlOyI+PC9kaXY+CiAgICAgICAgPGRpdiBzdHlsZT0icG9zaXRpb246YWJzb2x1dGU7ZGlzcGxheTpibG9jaztiYWNrZ3JvdW5kOnVybCgnL1VzZXJGaWxlcy9TZXJ2ZXJzL1NlcnZlcl8xNDk3L0ZpbGUvc2xpZGVyL2ltZy9sb2FkaW5nLmdpZicpIG5vLXJlcGVhdCBjZW50ZXIgY2VudGVyO3RvcDowcHg7bGVmdDowcHg7d2lkdGg6MTAwJTtoZWlnaHQ6MTAwJTsiPjwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgZGF0YS11PSJzbGlkZXMiIHN0eWxlPSJjdXJzb3I6IGRlZmF1bHQ7IHBvc2l0aW9uOiByZWxhdGl2ZTsgdG9wOiAwcHg7IGxlZnQ6IDBweDsgd2lkdGg6IDYwMHB4OyBoZWlnaHQ6IDMwMHB4OyBvdmVyZmxvdzogaGlkZGVuOyI+CiAgICAgICAgPGRpdiBkYXRhLXA9IjExMi41MCIgc3R5bGU9ImRpc3BsYXk6IG5vbmU7Ij4KICAgICAgICA8aW1nIGRhdGEtdT0iaW1hZ2UiIHNyYz0iIC9Vc2VyRmlsZXMvU2VydmVycy9TZXJ2ZXJfMTQ5Ny9GaWxlL3NsaWRlci9pbWcvaW1nMDEuanBnIj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGRhdGEtcD0iMTEyLjUwIiBzdHlsZT0iZGlzcGxheTogbm9uZTsiPgogICAgICAgIDxpbWcgZGF0YS11PSJpbWFnZSIgc3JjPSIgL1VzZXJGaWxlcy9TZXJ2ZXJzL1NlcnZlcl8xNDk3L0ZpbGUvc2xpZGVyL2ltZy9pbWcwMi5qcGciPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgZGF0YS1wPSIxMTIuNTAiIHN0eWxlPSJkaXNwbGF5OiBub25lOyI+CiAgICAgICAgPGltZyBkYXRhLXU9ImltYWdlIiBzcmM9IiAvVXNlckZpbGVzL1NlcnZlcnMvU2VydmVyXzE0OTcvRmlsZS9zbGlkZXIvaW1nL2ltZzAzLmpwZyI+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBkYXRhLXA9IjExMi41MCIgc3R5bGU9ImRpc3BsYXk6IG5vbmU7Ij4KICAgICAgICA8aW1nIGRhdGEtdT0iaW1hZ2UiIHNyYz0iIC9Vc2VyRmlsZXMvU2VydmVycy9TZXJ2ZXJfMTQ5Ny9GaWxlL3NsaWRlci9pbWcvaW1nMDQuanBnIj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGRhdGEtcD0iMTEyLjUwIiBzdHlsZT0iZGlzcGxheTogbm9uZTsiPgogICAgICAgIDxpbWcgZGF0YS11PSJpbWFnZSIgc3JjPSIgL1VzZXJGaWxlcy9TZXJ2ZXJzL1NlcnZlcl8xNDk3L0ZpbGUvc2xpZGVyL2ltZy9pbWcwNS5qcGciPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgZGF0YS1wPSIxMTIuNTAiIHN0eWxlPSJkaXNwbGF5OiBub25lOyI+CiAgICAgICAgPGltZyBkYXRhLXU9ImltYWdlIiBzcmM9IiAvVXNlckZpbGVzL1NlcnZlcnMvU2VydmVyXzE0OTcvRmlsZS9zbGlkZXIvaW1nL2ltZzA2LmpwZyI+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBkYXRhLXA9IjExMi41MCIgc3R5bGU9ImRpc3BsYXk6IG5vbmU7Ij4KICAgICAgICA8aW1nIGRhdGEtdT0iaW1hZ2UiIHNyYz0iIC9Vc2VyRmlsZXMvU2VydmVycy9TZXJ2ZXJfMTQ5Ny9GaWxlL3NsaWRlci9pbWcvaW1nMDcuanBnIj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGRhdGEtcD0iMTEyLjUwIiBzdHlsZT0iZGlzcGxheTogbm9uZTsiPgogICAgICAgIDxpbWcgZGF0YS11PSJpbWFnZSIgc3JjPSIgL1VzZXJGaWxlcy9TZXJ2ZXJzL1NlcnZlcl8xNDk3L0ZpbGUvc2xpZGVyL2ltZy9pbWcwOC5qcGciPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgZGF0YS1wPSIxMTIuNTAiIHN0eWxlPSJkaXNwbGF5OiBub25lOyI+CiAgICAgICAgPGltZyBkYXRhLXU9ImltYWdlIiBzcmM9IiAvVXNlckZpbGVzL1NlcnZlcnMvU2VydmVyXzE0OTcvRmlsZS9zbGlkZXIvaW1nL2ltZzA5LmpwZyI+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBkYXRhLXA9IjExMi41MCIgc3R5bGU9ImRpc3BsYXk6IG5vbmU7Ij4KICAgICAgICA8aW1nIGRhdGEtdT0iaW1hZ2UiIHNyYz0iIC9Vc2VyRmlsZXMvU2VydmVycy9TZXJ2ZXJfMTQ5Ny9GaWxlL3NsaWRlci9pbWcvaW1nMTAuanBnIj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGRhdGEtcD0iMTEyLjUwIiBzdHlsZT0iZGlzcGxheTogbm9uZTsiPgogICAgICAgIDxpbWcgZGF0YS11PSJpbWFnZSIgc3JjPSIgL1VzZXJGaWxlcy9TZXJ2ZXJzL1NlcnZlcl8xNDk3L0ZpbGUvc2xpZGVyL2ltZy9pbWcxMS5qcGciPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgZGF0YS1wPSIxMTIuNTAiIHN0eWxlPSJkaXNwbGF5OiBub25lOyI+CiAgICAgICAgPGltZyBkYXRhLXU9ImltYWdlIiBzcmM9IiAvVXNlckZpbGVzL1NlcnZlcnMvU2VydmVyXzE0OTcvRmlsZS9zbGlkZXIvaW1nL2ltZzEyLmpwZyI+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBkYXRhLXA9IjExMi41MCIgc3R5bGU9ImRpc3BsYXk6IG5vbmU7Ij4KICAgICAgICA8aW1nIGRhdGEtdT0iaW1hZ2UiIHNyYz0iIC9Vc2VyRmlsZXMvU2VydmVycy9TZXJ2ZXJfMTQ5Ny9GaWxlL3NsaWRlci9pbWcvaW1nMTMuanBnIj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGRhdGEtcD0iMTEyLjUwIiBzdHlsZT0iZGlzcGxheTogbm9uZTsiPgogICAgICAgIDxpbWcgZGF0YS11PSJpbWFnZSIgc3JjPSIgL1VzZXJGaWxlcy9TZXJ2ZXJzL1NlcnZlcl8xNDk3L0ZpbGUvc2xpZGVyL2ltZy9pbWcxNC5qcGciPgogICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDwhLS0gQnVsbGV0IE5hdmlnYXRvciAtLT4KICAgICAgICA8ZGl2IGRhdGEtdT0ibmF2aWdhdG9yIiBjbGFzcz0ianNzb3JiMDUiIHN0eWxlPSJib3R0b206MTZweDtyaWdodDoxNnB4OyIgZGF0YS1hdXRvY2VudGVyPSIxIj4KICAgICAgICA8IS0tIGJ1bGxldCBuYXZpZ2F0b3IgaXRlbSBwcm90b3R5cGUgLS0+CiAgICAgICAgPGRpdiBkYXRhLXU9InByb3RvdHlwZSIgc3R5bGU9IndpZHRoOjE2cHg7aGVpZ2h0OjE2cHg7Ij48L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8IS0tIEFycm93IE5hdmlnYXRvciAtLT4KICAgICAgICA8c3BhbiBkYXRhLXU9ImFycm93bGVmdCIgY2xhc3M9Impzc29yYTEybCIgc3R5bGU9InRvcDogMHB4OyBsZWZ0OiAwcHg7IHdpZHRoOiAzMHB4OyBoZWlnaHQ6IDQ2cHg7IiBkYXRhLWF1dG9jZW50ZXI9IjIiPjwvc3Bhbj4KICAgICAgICA8c3BhbiBkYXRhLXU9ImFycm93cmlnaHQiIGNsYXNzPSJqc3NvcmExMnIiIHN0eWxlPSJ0b3A6IDBweDsgcmlnaHQ6IDBweDsgd2lkdGg6IDMwcHg7IGhlaWdodDogNDZweDsiIGRhdGEtYXV0b2NlbnRlcj0iMiI+PC9zcGFuPgogICAgICAgIDwvZGl2PgogICAgICAgIDxzY3JpcHQ+CiAgICAgICAganNzb3JfMV9zbGlkZXJfaW5pdCgpOwogICAgPC9zY3JpcHQ+CiAgICAgICAgPCEtLSAjZW5kcmVnaW9uIEpzc29yIFNsaWRlciBFbmQgLS0+CiAgICAgICAgPCEtLXNsaWRlci0tPgogICAgICAgIDwhLS1TbGlkZXItLT4KICAgICAgICA8IS0tU2xpZGVyLS0+CiAgICAgICAgPCEtLVNsaWRlci0tPgogICAgICAgIDwhLS1TbGlkZXItLT4KICAgICAgICA8IS0tU2xpZGVyLS0+CiAgICAgICAgPCEtLVNsaWRlci0tPgogICAgICAgIDwhLS1TbGlkZXItLT4KICAgICAgICA8IS0tU2xpZGVyLS0+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBzdHlsZT0id2lkdGg6IDEwMCU7IGNsZWFyOiBib3RoOyI+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGJyPgogICAgPC9ib2R5Pgo8L2h0bWw+ZAIBD2QWAgIBD2QWBGYPZBYCAgEPFgIfBwXXKTw/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9InV0Zi0xNiI/PjxkaXYgaWQ9Im5ld3NfZGl2Ij48ZGl2IGlkPSJuZXdzX2JveCI+PGRpdiBjbGFzcz0iaG9tZXBhZ2VfdGl0bGUiPjxkaXYgY2xhc3M9Im11bHRpbWVkaWExIj5Bbm5vdW5jZW1lbnRzPC9kaXY+PC9kaXY+PHVsIGNsYXNzPSJhbm5vdW5jZW1lbnRzIj48dGFibGU+PHRyPjx0ZCB3aWR0aD0iMzclIj48bGk+PHNwYW4gY2xhc3M9InRpdGxlIj48YSBjbGFzcz0ibmV3c19saW5rIiBocmVmPSIvY21zL09uZS5hc3B4P3BvcnRhbElkPTE1ODEmYW1wO3BhZ2VJZD0xMzY4MjA1Ij5PSVMgU2VydmljZXMgTW92aW5nIEFsbCBPbmxpbmUgRWZmZWN0aXZlIE1hcmNoIDE3PC9hPjwvc3Bhbj48YnIgLz48cCBjbGFzcz0ic3VtbWFyeSIgLz48L2xpPjxsaT48c3BhbiBjbGFzcz0idGl0bGUiPjxhIGNsYXNzPSJuZXdzX2xpbmsiIGhyZWY9Ii9jbXMvT25lLmFzcHg/cG9ydGFsSWQ9MTU4MSZhbXA7cGFnZUlkPTEzNjQ3NzciPkludGVybmF0aW9uYWwgVHJhdmVsIEd1aWRhbmNlIGZvciB0aGUgVUlDIEludGVybmF0aW9uYWwgQ29tbXVuaXR5PC9hPjwvc3Bhbj48YnIgLz48cCBjbGFzcz0ic3VtbWFyeSIgLz48L2xpPjxsaT48c3BhbiBjbGFzcz0idGl0bGUiPjxhIGNsYXNzPSJuZXdzX2xpbmsiIGhyZWY9Ii9jbXMvT25lLmFzcHg/cG9ydGFsSWQ9MTU4MSZhbXA7cGFnZUlkPTEzNTUzOTIiPkNlcnRhaW4gSW1taWdyYXRpb24gQXBwbGljYXRpb25zIGFuZCBQZXRpdGlvbnMgSW1tZWRpYXRlbHkgU3ViamVjdCB0byBQdWJsaWMgQ2hhcmdlIEZpbmFsIFJ1bGU8L2E+PC9zcGFuPjxiciAvPjxwIGNsYXNzPSJzdW1tYXJ5IiAvPjwvbGk+PGxpPjxzcGFuIGNsYXNzPSJ0aXRsZSI+PGEgY2xhc3M9Im5ld3NfbGluayIgaHJlZj0iL2Ntcy9PbmUuYXNweD9wb3J0YWxJZD0xNTgxJmFtcDtwYWdlSWQ9MTM1MTg5NCI+UG90ZW50aWFsIFNpdGUgVmlzaXRzIGJ5IERIUyBvZiBFbXBsb3llcnMgdGhhdCBUcmFpbiBTVEVNIE9QVCBTdHVkZW50czwvYT48L3NwYW4+PGJyIC8+PHAgY2xhc3M9InN1bW1hcnkiIC8+PC9saT48bGk+PHNwYW4gY2xhc3M9InRpdGxlIj48YSBjbGFzcz0ibmV3c19saW5rIiBocmVmPSIvY21zL09uZS5hc3B4P3BvcnRhbElkPTE1ODEmYW1wO3BhZ2VJZD0xMzQ1MTg4Ij5JbnRlcm5hdGlvbmFsIFN0dWRlbnQsIFNjaG9sYXIsIGFuZCBFbXBsb3llZSBUYXggT2JsaWdhdGlvbnMgYW5kIFN1cHBvcnQgLSBGaWxpbmcgRGVhZGxpbmUsIEp1bHkgMTU8L2E+PC9zcGFuPjxiciAvPjxwIGNsYXNzPSJzdW1tYXJ5IiAvPjwvbGk+PGxpPjxzcGFuIGNsYXNzPSJ0aXRsZSI+PGEgY2xhc3M9Im5ld3NfbGluayIgaHJlZj0iL2Ntcy9PbmUuYXNweD9wb3J0YWxJZD0xNTgxJmFtcDtwYWdlSWQ9Njk1MTkzIj5FeGVjdXRpdmUgYW5kIENvdXJ0IE9yZGVycyBvbiBUcmF2ZWwgYW5kIEltbWlncmF0aW9uOiBJbmZvcm1hdGlvbiBhbmQgUmVzb3VyY2VzIC0gVXBkYXRlZCAyLzYvMjAyMDwvYT48L3NwYW4+PGJyIC8+PHAgY2xhc3M9InN1bW1hcnkiIC8+PC9saT48bGk+PHNwYW4gY2xhc3M9InRpdGxlIj48YSBjbGFzcz0ibmV3c19saW5rIiBocmVmPSIvY21zL09uZS5hc3B4P3BvcnRhbElkPTE1ODEmYW1wO3BhZ2VJZD0xMzM3OTQzIj5VSUMgQWRkcmVzc2VzIENvcm9uYXZpcnVzPC9hPjwvc3Bhbj48YnIgLz48cCBjbGFzcz0ic3VtbWFyeSIgLz48L2xpPjxsaT48c3BhbiBjbGFzcz0idGl0bGUiPjxhIGNsYXNzPSJuZXdzX2xpbmsiIGhyZWY9Ii9jbXMvT25lLmFzcHg/cG9ydGFsSWQ9MTU4MSZhbXA7cGFnZUlkPTEzMzMxMjEiPlNwcmluZyAyMDIwIEludGVybmF0aW9uYWwgU3R1ZGVudCBTdGF0dXMgTWFpbnRlbmFuY2UgUmVtaW5kZXJzPC9hPjwvc3Bhbj48YnIgLz48cCBjbGFzcz0ic3VtbWFyeSIgLz48L2xpPjxsaT48c3BhbiBjbGFzcz0idGl0bGUiPjxhIGNsYXNzPSJuZXdzX2xpbmsiIGhyZWY9Ii9jbXMvT25lLmFzcHg/cG9ydGFsSWQ9MTU4MSZhbXA7cGFnZUlkPTEzMjUwMTgiPklsbGlub2lzIExhdyBvbiBNYXJpanVhbmEgVXNlIGFuZCBJbXBhY3Qgb24gdGhlIFVJQyBJbnRlcm5hdGlvbmFsIENvbW11bml0eTwvYT48L3NwYW4+PGJyIC8+PHAgY2xhc3M9InN1bW1hcnkiIC8+PC9saT48bGk+PHNwYW4gY2xhc3M9InRpdGxlIj48YSBjbGFzcz0ibmV3c19saW5rIiBocmVmPSIvY21zL09uZS5hc3B4P3BvcnRhbElkPTE1ODEmYW1wO3BhZ2VJZD0xMzE5ODkxIj5VU0NJUyBVcGRhdGVzIFBvbGljeSBQdXJzdWFudCB0byBUd28gUmVjZW50IEF0dG9ybmV5IEdlbmVyYWwgRGVjaXNpb25zPC9hPjwvc3Bhbj48YnIgLz48cCBjbGFzcz0ic3VtbWFyeSIgLz48L2xpPjxsaT48c3BhbiBjbGFzcz0idGl0bGUiPjxhIGNsYXNzPSJuZXdzX2xpbmsiIGhyZWY9Ii9jbXMvT25lLmFzcHg/cG9ydGFsSWQ9MTU4MSZhbXA7cGFnZUlkPTEyMjcwMTIiPkNvdXJ0IEFsbG93cyBXYXNoVGVjaCBDaGFsbGVuZ2UgdG8gUHJvY2VlZCBmb3IgQWxsIE9QVDwvYT48L3NwYW4+PGJyIC8+PHAgY2xhc3M9InN1bW1hcnkiIC8+PC9saT48bGk+PHNwYW4gY2xhc3M9InRpdGxlIj48YSBjbGFzcz0ibmV3c19saW5rIiBocmVmPSIvY21zL09uZS5hc3B4P3BvcnRhbElkPTE1ODEmYW1wO3BhZ2VJZD0xMTgwMjc4Ij5TRVZQIENsYXJpZmllcyBQb2xpY3kgUmVnYXJkaW5nIERpc3RyaWJ1dGlvbiBvZiBGb3JtIEktMjA8L2E+PC9zcGFuPjxiciAvPjxwIGNsYXNzPSJzdW1tYXJ5IiAvPjwvbGk+PGxpPjxzcGFuIGNsYXNzPSJ0aXRsZSI+PGEgY2xhc3M9Im5ld3NfbGluayIgaHJlZj0iL2Ntcy9PbmUuYXNweD9wb3J0YWxJZD0xNTgxJmFtcDtwYWdlSWQ9MTE2MzQyMiI+REhTIEluY3JlYXNlcyBJLTkwMSBTRVZJUyBGZWUgRWZmZWN0aXZlIEp1bmUgMjQsIDIwMTk8L2E+PC9zcGFuPjxiciAvPjxwIGNsYXNzPSJzdW1tYXJ5IiAvPjwvbGk+PGxpPjxzcGFuIGNsYXNzPSJ0aXRsZSI+PGEgY2xhc3M9Im5ld3NfbGluayIgaHJlZj0iL2Ntcy9PbmUuYXNweD9wb3J0YWxJZD0xNTgxJmFtcDtwYWdlSWQ9MTExNjIyNCI+UHJvcG9zZWQgREhTIFJ1bGUgUmVzY2luZGluZyBILTQgRW1wbG95bWVudCBBdXRob3JpemF0aW9uIEV4cGVjdGVkIFNvb248L2E+PC9zcGFuPjxiciAvPjxwIGNsYXNzPSJzdW1tYXJ5IiAvPjwvbGk+PGxpPjxzcGFuIGNsYXNzPSJ0aXRsZSI+PGEgY2xhc3M9Im5ld3NfbGluayIgaHJlZj0iL2Ntcy9PbmUuYXNweD9wb3J0YWxJZD0xNTgxJmFtcDtwYWdlSWQ9MTExMDIyMiI+U2lnbmlmaWNhbnQgQ2hhbmdlcyB0byBGb3JtIEktNTM5IHRvIGJlIEltcGxlbWVudGVkIEJlZ2lubmluZyBNYXJjaCAxMSwgMjAxOTwvYT48L3NwYW4+PGJyIC8+PHAgY2xhc3M9InN1bW1hcnkiIC8+PC9saT48bGk+PHNwYW4gY2xhc3M9InRpdGxlIj48YSBjbGFzcz0ibmV3c19saW5rIiBocmVmPSIvY21zL09uZS5hc3B4P3BvcnRhbElkPTE1ODEmYW1wO3BhZ2VJZD0xMDc1NTg0Ij5Db25zdWxhciBPcGVyYXRpb25zIEFicm9hZCBQb3RlbnRpYWxseSBJbXBhY3RlZCBieSBhIFUuUy4gR292ZXJubWVudCBTaHV0ZG93bjwvYT48L3NwYW4+PGJyIC8+PHAgY2xhc3M9InN1bW1hcnkiIC8+PC9saT48bGk+PHNwYW4gY2xhc3M9InRpdGxlIj48YSBjbGFzcz0ibmV3c19saW5rIiBocmVmPSIvY21zL09uZS5hc3B4P3BvcnRhbElkPTE1ODEmYW1wO3BhZ2VJZD0xMDI4MTgyIj5JbnRyb2R1Y3Rpb24gb2YgUHJvcG9zZWQgUnVsZSBvZiBJbmFkbWlzc2liaWxpdHkgb24gUHVibGljIENoYXJnZSBHcm91bmRzPC9hPjwvc3Bhbj48YnIgLz48cCBjbGFzcz0ic3VtbWFyeSIgLz48L2xpPjxsaT48c3BhbiBjbGFzcz0idGl0bGUiPjxhIGNsYXNzPSJuZXdzX2xpbmsiIGhyZWY9Ii9jbXMvT25lLmFzcHg/cG9ydGFsSWQ9MTU4MSZhbXA7cGFnZUlkPTEwMjgxNzIiPlVTQ0lTIFByZXZpb3VzbHkgUmVsZWFzZWQg4oCcTm90aWNlIHRvIEFwcGVhcuKAnSBQb2xpY3kgQ2xhcmlmaWVkIGFuZCBDb21tZW5jZXMgTW9uZGF5LCBPY3RvYmVyIDEsIDIwMTg8L2E+PC9zcGFuPjxiciAvPjxwIGNsYXNzPSJzdW1tYXJ5IiAvPjwvbGk+PGxpPjxzcGFuIGNsYXNzPSJ0aXRsZSI+PGEgY2xhc3M9Im5ld3NfbGluayIgaHJlZj0iL2Ntcy9PbmUuYXNweD9wb3J0YWxJZD0xNTgxJmFtcDtwYWdlSWQ9OTM1NDcwIj5VU0NJUyBUaWdodGVucyBMYW5ndWFnZSBvbiBFbXBsb3llci1FbXBsb3llZSBSZWxhdGlvbnNoaXBzIGFuZCBUaGlyZC1QYXJ0eSBQbGFjZW1lbnQgZm9yIFNURU0gT1BUIFN0dWRlbnRzPC9hPjwvc3Bhbj48YnIgLz48cCBjbGFzcz0ic3VtbWFyeSIgLz48L2xpPjxsaT48c3BhbiBjbGFzcz0idGl0bGUiPjxhIGNsYXNzPSJuZXdzX2xpbmsiIGhyZWY9Ii9jbXMvT25lLmFzcHg/cG9ydGFsSWQ9MTU4MSZhbXA7cGFnZUlkPTkzNTQ1OSI+VVNDSVMgdG8gQmVnaW4gVXNpbmcgTW9yZSBTZWN1cmUgTWFpbCBEZWxpdmVyeSBTZXJ2aWNlPC9hPjwvc3Bhbj48YnIgLz48cCBjbGFzcz0ic3VtbWFyeSIgLz48L2xpPjxsaT48c3BhbiBjbGFzcz0idGl0bGUiPjxhIGNsYXNzPSJuZXdzX2xpbmsiIGhyZWY9Ii9jbXMvT25lLmFzcHg/cG9ydGFsSWQ9MTU4MSZhbXA7cGFnZUlkPTg5NDU1NiI+VVNDSVMgRXhwYW5kcyBDcmVkaXQgQ2FyZCBQYXltZW50IE9wdGlvbiB0byBNb3N0IEZlZS1CYXNlZCBGb3JtczwvYT48L3NwYW4+PGJyIC8+PHAgY2xhc3M9InN1bW1hcnkiIC8+PC9saT48bGk+PHNwYW4gY2xhc3M9InRpdGxlIj48YSBjbGFzcz0ibmV3c19saW5rIiBocmVmPSIvY21zL09uZS5hc3B4P3BvcnRhbElkPTE1ODEmYW1wO3BhZ2VJZD04MjE1OTEiPlVTQ0lTIFVwZGF0ZXMgRm9ybSBJLTc2NSB0byBJbmNsdWRlIE9wdGlvbmFsIEFwcGxpY2F0aW9uIGZvciBhIFNvY2lhbCBTZWN1cml0eSBDYXJkPC9hPjwvc3Bhbj48YnIgLz48cCBjbGFzcz0ic3VtbWFyeSIgLz48L2xpPjxsaT48c3BhbiBjbGFzcz0idGl0bGUiPjxhIGNsYXNzPSJuZXdzX2xpbmsiIGhyZWY9Ii9jbXMvT25lLmFzcHg/cG9ydGFsSWQ9MTU4MSZhbXA7cGFnZUlkPTY5MTMxMyI+SW1taWdyYXRpb24gU2NhbXMgV2FybmluZzwvYT48L3NwYW4+PGJyIC8+PHAgY2xhc3M9InN1bW1hcnkiIC8+PC9saT48bGk+PHNwYW4gY2xhc3M9InRpdGxlIj48YSBjbGFzcz0ibmV3c19saW5rIiBocmVmPSIvY21zL09uZS5hc3B4P3BvcnRhbElkPTE1ODEmYW1wO3BhZ2VJZD0xMzk0ODA4Ij5FbGVjdHJvbmljIEktMjAgSXNzdWFuY2U8L2E+PC9zcGFuPjxiciAvPjxwIGNsYXNzPSJzdW1tYXJ5IiAvPjwvbGk+PGJyIC8+PGEgaHJlZj0iL25ld3MiPk1vcmUgQW5ub3VuY2VtZW50cyBhbmQgQXJjaGl2ZXM8L2E+PC90ZD48L3RyPjwvdGFibGU+PC91bD48L2Rpdj48L2Rpdj48YnIgLz5kAgIPFgIfBmgWAgIDD2QWAmYPZBYYAgMPDxYCHwcFCFNldHRpbmdzZGQCBQ8PFgIfBwUNUmVuZGVyZWQgRGF0YWRkAgcPEGRkFgBkAgkPZBYCAgEPZBYCAgEPEGRkFgBkAgsPZBYCAgEPZBYCAgUPFgIeBXZhbHVlBQZCcm93c2VkAg0PZBYEZg9kFgICAQ8PFgIfBwUOT2JqZWN0IENvbnRleHRkZAIBD2QWAgIFDxYCHwgFBkJyb3dzZWQCDw9kFgRmD2QWAgIBDw8WAh8HBQtYTUwgQ29udGVudGRkAgEPZBYCAgMPDxYCHwcFCFZhbGlkYXRlZGQCFQ8PFgIfBwUPUmVuZGVyIFRlbXBsYXRlZGQCFw8QZGQWAGQCGw8QZGQWAWZkAh0PDxYCHwcFD1VwZGF0ZSBTZXR0aW5nc2RkAh8PDxYCHwcFBkNhbmNlbGRkAgMPZBYGZg9kFgICAQ9kFgJmD2QWAmYPFgIfBwWQEDwhRE9DVFlQRSBodG1sPjxodG1sPgogICAgPGhlYWQ+CiAgICA8L2hlYWQ+CiAgICA8Ym9keT4KICAgICAgICA8ZGl2IGNsYXNzPSJtdWx0aW1lZGlhZnVsbCI+CiAgICAgICAgPGRpdiBjbGFzcz0ibXVsdGltZWRpYTEiPjxhIGhyZWY9Ii9jbXMvb25lLmFzcHg/cG9ydGFsSWQ9MTU4MSZhbXA7cGFnZUlkPTM2MzQ0MyIgc3R5bGU9InRleHQtZGVjb3JhdGlvbjogbm9uZTtjb2xvcjogaW5oZXJpdDsiPjxpbWcgd2lkdGg9IjE1IiBoZWlnaHQ9IjE1IiBzcmM9Ii9Vc2VyRmlsZXMvU2VydmVycy9TZXJ2ZXJfMTQ5Ny9JbWFnZS9QaG90b3MvYXJyb3cxLnBuZyI+PC9hPjxhIGhyZWY9Ii9jbXMvb25lLmFzcHg/cG9ydGFsSWQ9MTU4MSZhbXA7cGFnZUlkPTQ3Mzc1MCI+TXVsdGltZWRpYTwvYT48aW1nIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgc3JjPSIvVXNlckZpbGVzL1NlcnZlcnMvU2VydmVyXzE0OTcvSW1hZ2UvUGhvdG9zL2Fycm93Mi5wbmciPjwvZGl2PgogICAgICAgIDxkaXYgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6ICNFMUVDRkM7IHdpZHRoOiA1MCU7IGZsb2F0OiBsZWZ0OyBwb3NpdGlvbjogcmVsYXRpdmU7IHRleHQtYWxpZ246IGNlbnRlcjsiPgogICAgICAgIDxhIGhyZWY9Imh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL2VtYmVkL0lSSHlWU09iX19zP2F1dG9wbGF5PTEiIHRhcmdldD0iaWZyYW1laWQiPjxpbWcgc3JjPSJodHRwczovL2kueXRpbWcuY29tL3ZpL0lSSHlWU09iX19zLzIuanBnP3RpbWU9MTQ3OTI0MjM5MjEyMiIgYWx0PSJWaWRlbyBUaHVtYm5haWwiIGFsaWduPSJjZW50ZXIiIHN0eWxlPSJQQURESU5HLUJPVFRPTTogNXB4OyBtYXgtd2lkdGg6IDEwMHB4OyB3aWR0aDoxMDAlO1BBRERJTkctTEVGVDogNXB4O1BBRERJTkctUklHSFQ6IDVweDsgUEFERElORy1UT1A6IDVweDsiPjwvYT4KICAgICAgICA8YSBocmVmPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9vdXNWendkaHNyZz9hdXRvcGxheT0xIiB0YXJnZXQ9ImlmcmFtZWlkIj48aW1nIHNyYz0iaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9vdXNWendkaHNyZy8yLmpwZz90aW1lPTE0NzkyNDIzOTMyMTciIGFsdD0iVmlkZW8gVGh1bWJuYWlsIiBhbGlnbj0iY2VudGVyIiBzdHlsZT0iUEFERElORy1CT1RUT006IDVweDsgbWF4LXdpZHRoOiAxMDBweDsgd2lkdGg6MTAwJTtQQURESU5HLUxFRlQ6IDVweDtQQURESU5HLVJJR0hUOiA1cHg7IFBBRERJTkctVE9QOiA1cHg7Ij48L2E+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogI0UxRUNGQzsgd2lkdGg6IDUwJTsgZmxvYXQ6IGxlZnQ7IHBvc2l0aW9uOiByZWxhdGl2ZTsgdGV4dC1hbGlnbjogY2VudGVyOyI+CiAgICAgICAgPGEgaHJlZj0iaHR0cHM6Ly93d3cueW91dHViZS5jb20vZW1iZWQvakhzNWh2R2ptRU0/YXV0b3BsYXk9MSIgdGFyZ2V0PSJpZnJhbWVpZCI+PGltZyBzcmM9Imh0dHBzOi8vaS55dGltZy5jb20vdmkvakhzNWh2R2ptRU0vMi5qcGc/dGltZT0xNDc5MjQyMzk1NTA2IiBhbHQ9IlZpZGVvIFRodW1ibmFpbCIgYWxpZ249ImNlbnRlciIgc3R5bGU9IlBBRERJTkctQk9UVE9NOiA1cHg7IG1heC13aWR0aDogMTAwcHg7IHdpZHRoOjEwMCU7UEFERElORy1MRUZUOiA1cHg7UEFERElORy1SSUdIVDogNXB4OyBQQURESU5HLVRPUDogNXB4OyI+PC9hPgogICAgICAgIDxhIGhyZWY9Imh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL2VtYmVkL1p0UmtsOFhLeHJRP2F1dG9wbGF5PTEiIHRhcmdldD0iaWZyYW1laWQiPjxpbWcgc3JjPSIvL2ltZy55b3V0dWJlLmNvbS92aS9adFJrbDhYS3hyUS9kZWZhdWx0LmpwZyIgYWx0PSJWaWRlbyBUaHVtYm5haWwiIGFsaWduPSJjZW50ZXIiIHN0eWxlPSJQQURESU5HLUJPVFRPTTogNXB4OyBtYXgtd2lkdGg6IDEwMHB4OyB3aWR0aDoxMDAlO1BBRERJTkctTEVGVDogNXB4O1BBRERJTkctUklHSFQ6IDVweDsgUEFERElORy1UT1A6IDVweDsiPjwvYT4KICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8YnI+CiAgICAgICAgPGJyPgogICAgICAgIC4KICAgIDwvYm9keT4KPC9odG1sPmQCAQ9kFgICAQ9kFgQCAQ8WBh4FY2xhc3MFGmJsdWV0YmxfbWluaV91cGNvbWluZ2V2ZW50HgV3aWR0aGQfBmcWGmYPZBYCZg8WAh8JBR1ibHVlbWluaV91cGNvbWluZ2V2ZW50X2hlYWRlchYCAgEPDxYCHwcFD1VwY29taW5nIEV2ZW50c2RkAgEPZBYCAgEPFgIfCgUEMTAwJRYCZg8PFgQfBwUpRVYgKEV4Y2hhbmdlIFZpc2l0b3IpIFNjaG9sYXIgT3JpZW50YXRpb24eC05hdmlnYXRlVXJsBaABL2Ntcy9vbmUuYXNweD9wb3J0YWxJZD0xNTgxJnBhZ2VJZD0xODk4MDQmb2JqZWN0SWQuMTA0OTQ9MTMwMTcyMSZjb250ZXh0SWQuMTA0OTQ9MTg5ODgwJnBhcmVudElkLjEwNDk0PTE4OTg4MSZyZWY9bWVzVFA5Zmc5NmZWc2d6cFdZZW9nRTVOMjFuZWdjTTRuWmdoeVNjVGNDVSUzZGRkAgIPZBYCAgEPZBYCZg8PFgIfBwUXTWF5IDEzIDIwMjAgYXQgMDI6MDAgUE1kZAIDD2QWAgIBDxYCHwoFBDEwMCUWAmYPDxYEHwcFNFdFQklOQVIgLSBPcHRpb25hbCBQcmFjdGljYWwgVHJhaW5pbmcgKE9QVCkgV29ya3Nob3AfCwWgAS9jbXMvb25lLmFzcHg/cG9ydGFsSWQ9MTU4MSZwYWdlSWQ9MTg5ODA0Jm9iamVjdElkLjEwNDk0PTEzMjY4NTUmY29udGV4dElkLjEwNDk0PTE4OTg4MCZwYXJlbnRJZC4xMDQ5ND0xODk4ODEmcmVmPW1lc1RQOWZnOTZmVnNnenBXWWVvZ0lzemU2bWR0VmQ3RnJsV0RTYVk2Q2MlM2RkZAIED2QWAgIBD2QWAmYPDxYCHwcFF01heSAxNSAyMDIwIGF0IDAzOjAwIFBNZGQCBQ9kFgICAQ8WAh8KBQQxMDAlFgJmDw8WBB8HBVJXRUJJTkFSIC0gVGF4IFdvcmtzaG9wIGZvciBJbnRlcm5hdGlvbmFsIFN0dWRlbnRzLCBFeGNoYW5nZSBWaXNpdG9ycyBhbmQgRW1wbG95ZWVzHwsFogEvY21zL29uZS5hc3B4P3BvcnRhbElkPTE1ODEmcGFnZUlkPTE4OTgwNCZvYmplY3RJZC4xMDQ5ND0xMzg2Njg2JmNvbnRleHRJZC4xMDQ5ND0xODk4ODAmcGFyZW50SWQuMTA0OTQ9MTg5ODgxJnJlZj1tZXNUUDlmZzk2ZlZzZ3pwV1llb2dKZ3dSdXQlMmJ3R3pYc1BndU1SbTNjWXMlM2RkZAIGD2QWAgIBD2QWAmYPDxYCHwcFF01heSAyMSAyMDIwIGF0IDEyOjAwIFBNZGQCBw9kFgICAQ8WAh8KBQQxMDAlFgJmDw8WBB8HBTRXRUJJTkFSIC0gT3B0aW9uYWwgUHJhY3RpY2FsIFRyYWluaW5nIChPUFQpIFdvcmtzaG9wHwsFoAEvY21zL29uZS5hc3B4P3BvcnRhbElkPTE1ODEmcGFnZUlkPTE4OTgwNCZvYmplY3RJZC4xMDQ5ND0xMzgxNjQyJmNvbnRleHRJZC4xMDQ5ND0xODk4ODAmcGFyZW50SWQuMTA0OTQ9MTg5ODgxJnJlZj1tZXNUUDlmZzk2ZlZzZ3pwV1llb2dOM0pMeXdpQWVmNHRkbk81WTMwNUhJJTNkZGQCCA9kFgICAQ9kFgJmDw8WAh8HBRdKdW4gMDggMjAyMCBhdCAwMzowMCBQTWRkAgkPZBYCAgEPFgIfCgUEMTAwJRYCZg8PFgQfBwUpRVYgKEV4Y2hhbmdlIFZpc2l0b3IpIFNjaG9sYXIgT3JpZW50YXRpb24fCwWkAS9jbXMvb25lLmFzcHg/cG9ydGFsSWQ9MTU4MSZwYWdlSWQ9MTg5ODA0Jm9iamVjdElkLjEwNDk0PTEzMDE3MzAmY29udGV4dElkLjEwNDk0PTE4OTg4MCZwYXJlbnRJZC4xMDQ5ND0xODk4ODEmcmVmPW1lc1RQOWZnOTZmVnNnenBXWWVvZ0FWSFNYY29Xa3h6TkZWJTJiMmhCZiUyYlJ3JTNkZGQCCg9kFgICAQ9kFgJmDw8WAh8HBRdKdW4gMTYgMjAyMCBhdCAxMDowMCBBTWRkAgsPZBYCAgEPFgIfCgUEMTAwJRYCZg8PFgQfBwUpRVYgKEV4Y2hhbmdlIFZpc2l0b3IpIFNjaG9sYXIgT3JpZW50YXRpb24fCwWiAS9jbXMvb25lLmFzcHg/cG9ydGFsSWQ9MTU4MSZwYWdlSWQ9MTg5ODA0Jm9iamVjdElkLjEwNDk0PTEzMDE3MzImY29udGV4dElkLjEwNDk0PTE4OTg4MCZwYXJlbnRJZC4xMDQ5ND0xODk4ODEmcmVmPW1lc1RQOWZnOTZmVnNnenBXWWVvZ056cjdxbE1BWDBsSVdyODg0NkRFJTJmWSUzZGRkAgwPZBYCAgEPZBYCZg8PFgIfBwUXSnVsIDE0IDIwMjAgYXQgMDI6MDAgUE1kZAIFDxYCHwZoFggCAw8WAh8FBQ1kaXNwbGF5Om5vbmU7ZAIFD2QWFmYPZBYCZg8WAh4JaW5uZXJodG1sBQhTZXR0aW5nc2QCAQ9kFgRmD2QWAgIBDw8WAh8HBQhDYWxlbmRhcmRkAgEPZBYEAgMPD2QWAh4IcmVhZG9ubHkFCHJlYWRvbmx5ZAIFDw8WAh8HBQZCcm93c2VkZAICD2QWBGYPZBYCAgEPDxYCHwcFBVN0eWxlZGQCAQ9kFgYCAQ8QZGQWAGQCAw8QZGQWAGQCBQ8PFgQeCEltYWdlVXJsBSl+L2NvbW1vbi9yZXNvdXJjZXMvc2hhcmVkL2ltYWdlcy9lZGl0LmdpZh4NQWx0ZXJuYXRlVGV4dAUWRWRpdCBTZWxlY3RlZCBUZW1wbGF0ZWRkAgQPZBYEZg9kFgICAQ8PFgIfBwUGSGVhZGVyZGQCAQ9kFgICAw8QDxYCHwcFC0hpZGUgSGVhZGVyZGRkZAIFD2QWAmYPZBYCAgEPDxYCHwcFGE1heGltdW0gTnVtYmVyIG9mIEV2ZW50c2RkAgYPZBYEZg9kFgICAQ8PFgIfBwUFV2lkdGhkZAIBD2QWAgIDDw8WAh8HBSEgcHggIChMZWF2ZSBlbXB0eSBmb3IgZnVsbCB3aWR0aClkZAIHD2QWBGYPZBYCAgEPDxYCHwcFBUNvbG9yZGQCAQ9kFgQCAQ8UKwADZGRkZAIDDw8WAh8OBSx+L2NvbW1vbi9yZXNvdXJjZXMvc2hhcmVkL2ltYWdlcy9yZWZyZXNoLmdpZmRkAggPZBYCZg9kFgICAQ8PFgIfBwUZTnVtYmVyIG9mIEV2ZW50cyBwZXIgUGFnZWRkAgkPZBYCZg9kFgICAQ8PFgIfBwUPTnVtYmVyIG9mIFBhZ2VzZGQCCg9kFgRmD2QWAgIBDw8WAh8HBQ1PdGhlciBPcHRpb25zZGQCAQ9kFgICAQ8QDxYCHwcFC0hpZGUgaGVhZGVyZGRkZAILD2QWAmYPZBYEAgEPDxYCHwcFD1VwZGF0ZSBTZXR0aW5nc2RkAgMPDxYCHwcFBkNhbmNlbGRkAgkPZBYCAgEPZBYCZg9kFgwCAQ8QD2QWAh8FBQ1kaXNwbGF5Om5vbmU7ZGRkAgMPEA9kFgIfBQUNZGlzcGxheTpub25lO2RkZAIHD2QWAgIBD2QWBgIBD2QWBAIBDw8WAh8OBUAvY29tbW9uL3Jlc291cmNlcy9zaGFyZWQvaW1hZ2VzL2NhbGVuZGFyX2xpc3RfcGFuZWxfY29sbGFwc2UuZ2lmZGQCAw8PFgIfBwUJVUlDT0lTTkVXZGQCAw9kFgQCAQ8UKwACFCsAAmQQFgRmAgECAgIDFgQUKwACZGQUKwACZGQUKwACZGQUKwACZGQPFgRmZmZmFgEFblRlbGVyaWsuV2ViLlVJLlJhZFRhYiwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxNC4yLjcyNC40MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj0xMjFmYWU3ODE2NWJhM2Q0ZGQCAw8UKwACZBUEDnJwdkNtc0NhbGVuZGFyFHJwdldvcmtzcGFjZUNhbGVuZGFyDnJwdkxtc0NhbGVuZGFyD3JwdkVyZWdDYWxlbmRhchYEZg9kFgICAQ8UKwACFCsAAhQrAAIPFgIeCkNoZWNrQm94ZXNoZGRkZGQCAw9kFgICAw8WAh4Dc3JjBUQvY29tbW9uL3Jlc291cmNlcy9zaGFyZWQvaW1hZ2VzL29iamVjdHMvd29ya3NwYWNlX2NhbGVuZGFyL3NtYWxsLmdpZmQCBQ9kFgICAQ8WAh8RBSx+L2NvbW1vbi9yZXNvdXJjZXMvc2hhcmVkL2ltYWdlcy9sb2FkaW5nLmdpZmQCCQ8WAh8FBQ1kaXNwbGF5Om5vbmU7ZAILDxYCHwUFDWRpc3BsYXk6bm9uZTtkAg0PZBYCAgEPDxYCHw4FLH4vY29tbW9uL3Jlc291cmNlcy9zaGFyZWQvaW1hZ2VzL2xvYWRpbmcuZ2lmZGQCCw8UKwACFCsAA2RkZBAWAWYWARQrAAMPFgIeEVZpc2libGVPblBhZ2VMb2FkaGRkZA8WAWYWAQVxVGVsZXJpay5XZWIuVUkuUmFkV2luZG93LCBUZWxlcmlrLldlYi5VSSwgVmVyc2lvbj0yMDE0LjIuNzI0LjQwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTEyMWZhZTc4MTY1YmEzZDQWAmYPFCsAAw8WAh8SaGRkZBYCZg9kFgICAQ9kFgQCAg9kFgQCAQ9kFgICAQ8PFgIfBwUuVGVtcGxhdGUgbmFtZSBhbHJlYWR5IGV4aXN0cywgcGxlYXNlIHJlLWVudGVyLmRkAgMPZBYQZg8WAh8GaBYCZg9kFgICAQ8PFgIfBwURQWRkIFNpdGUgVGVtcGxhdGVkZAIBD2QWBGYPZBYCAgEPDxYCHwcFDVRlbXBsYXRlIE5hbWVkZAIBD2QWAgIFDw8WAh8HBR0qIFBsZWFzZSBlbnRlciBUZW1wbGF0ZSBOYW1lLmRkAgIPFgIfBmgWAgIBD2QWAmYPEGQPFgxmAgECAgIDAgQCBQIGAgcCCAIJAgoCCxYMEAUIQ29tbWVudHMFCENvbW1lbnRzZxAFEENybU9iamVjdERpc3BsYXkFEENybU9iamVjdERpc3BsYXlnEAUNQ3JtT2JqZWN0TGlzdAUNQ3JtT2JqZWN0TGlzdGcQBQtEYXRhRGlzcGxheQULRGF0YURpc3BsYXlnEAUPRXh0ZXJuYWxTZXJ2aWNlBQ9FeHRlcm5hbFNlcnZpY2VnEAUKS1JUYXhvbm9teQUKS1JUYXhvbm9teWcQBQRNZW51BQRNZW51ZxAFCk5hdmlnYXRpb24FCk5hdmlnYXRpb25nEAUNUGFnZURpcmVjdG9yeQUNUGFnZURpcmVjdG9yeWcQBQ5TY2hvb2xEcm9wZG93bgUOU2Nob29sRHJvcGRvd25nEAUIVGF4b25vbXkFCFRheG9ub215ZxAFDlVwY29taW5nRXZlbnRzBQ5VcGNvbWluZ0V2ZW50c2cWAQIHZAIDD2QWAmYPZBYCZg8PFgIfBwULRGVzY3JpcHRpb25kZAIED2QWBGYPZBYCZg8PFgIfBwUNWFNMIFRyYW5zZm9ybWRkAgEPZBYCAgMPDxYEHwcFQldhcm5pbmc6IFRoaXMgWFNMIFRyYW5zZm9ybSBkb2VzIG5vdCB2YWxpZGF0ZS4gUGxlYXNlIGZpeCB0aGUgWFNMLh8GaGRkAgUPZBYCZg9kFgJmDw8WAh8HBQxTdHlsZSBTaGVldHNkZAIGDxYCHwZoZAIHD2QWAgIBD2QWBAIBDw8WAh8HBRNBZGQgUmVuZGVyIFRlbXBsYXRlZGQCAw8PFgIfBwUGQ2FuY2VsZGQCBA9kFgICAQ8PFgweC19fVmlld1BhdGhzFQEpL1VzZXJGaWxlcy9TZXJ2ZXJzL1NlcnZlcl8xNDk3L1RlbXBsYXRlcy8eDV9fVXBsb2FkUGF0aHMVASkvVXNlckZpbGVzL1NlcnZlcnMvU2VydmVyXzE0OTcvVGVtcGxhdGVzLx4NX19EZWxldGVQYXRocxUBKS9Vc2VyRmlsZXMvU2VydmVycy9TZXJ2ZXJfMTQ5Ny9UZW1wbGF0ZXMvHhBfX1NlYXJjaFBhdHRlcm5zFQEERnVsbB4QX19PcGVuZXJDbGllbnRJZAU6Y3RsMDBfQ29udGVudFBsYWNlSG9sZGVyMV9jdGwxOF9SYWRQb3B1cF9DX3RmX2J0bkFkZEltYWdlcx8GZ2RkAgIPZBYCAgEPZBYCZg9kFgJmDxYCHwcF8QE8IURPQ1RZUEUgaHRtbD48aHRtbD4KICAgIDxoZWFkPgogICAgPC9oZWFkPgogICAgPGJvZHk+CiAgICAgICAgPGJyPgogICAgICAgIDxpZnJhbWUgc3JjPSJodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZC9lbWJlZD9taWQ9MS1MRmh0V2VIRjZ3bFFGUVNzVE5ueUJndWNYMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMzAwIj48L2lmcmFtZT4KICAgICAgICA8YnI+CiAgICAgICAgPGJyPgogICAgPC9ib2R5Pgo8L2h0bWw+ZBgFBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUnY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRjdGwwMSRyYWRtZW51BThjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJGN0bDE4JGNwJHNjcEN1cnJlbnQkcmdMbXNJdGVtcw8UKwACZBcBBQhQYWdlU2l6ZQIKZAU+Y3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRjdGwxOCRjcCRzY3BDdXJyZW50JHJnV29ya3NwYWNlSXRlbXMPFCsAAmQXAQUIUGFnZVNpemUCCmQFLmN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY3RsMDAkbHZWaWV3U3VicGFnZXMPZ2QFNmN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY3RsMDAkbHZFZGl0RXh0ZXJuYWxTdWJwYWdlcw9nZNCdoxpie/1HWxIpF2PSyW5Que6I" />
+
+
+<script src="/Common/JavaScript/Json2.js" type="text/javascript"></script>
+<script src="/Common/JavaScript/JQuery/jquery-cookie.js" type="text/javascript"></script><script type="text/javascript">
+            
+                function OpenNewWindow(url, arguments)
+                {  
+                    return window.open(url, "",arguments);
+                }
+
+                function OpenNewWindowJS(url, ignore, arguments){  
+                    return OpenNewWindow(url, arguments);  
+                }
+
+
+                function OpenNewWindowNoReturn(url, arguments){  
+                    OpenNewWindow(url, arguments);  
+                }
+
+              </script> 
+<script src="/common/javascript/PLMoreDropDown.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function _search(){var frm=document.forms['aspnetForm'];if(!frm)frm=document.aspnetForm;window.location='/workspaces/Search.aspx?contextId='+frm.SearchPlace.value+'&place='+frm.SearchOne.value+'&searchTerm='+escape(frm.SearchTerm.value).replace(/\+/g, '%2C').replace(/\"/g,'%22').replace(/'/g, '%27');}
+            function clickButton(e, buttonid)
+            { 
+              var bt = document.getElementById(buttonid); 
+              if (typeof bt == 'object')
+		        { 
+
+                    if (navigator.appName.indexOf('Microsoft Internet Explorer')>(-1)){ 
+                          if (event.keyCode == 13){ 
+                                bt.click(); 
+                                return false; 
+                          } 
+                    } 
+	    	        else
+			        {
+	                  if (e.keyCode == 13)
+	          	        { 
+                                bt.click(); 
+                                return false; 
+                          } 
+                    } 
+              } 
+            } //]]>
+</script>
+
+<script src="/Common/JavaScript/Common_Control.js" type="text/javascript"></script>
+<script src="/Javascript/attrchange.js" type="text/javascript"></script>
+<script src="/Javascript/accessibleMenu.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+;$(function() { $('nav#mMenuCMS').mmenu({"slidingSubmenus":false,"position":"left","zposition":"back"}, {"pageNodetype":"form"});});//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=Zrjj72i5wsvjwLKDhe2L4eKDikhEiOSWX9h2e896ZKeZK2s6WEqxLydrptjPu9iu28wxWTyA8w1mvISsoMbvtFhjqXPHvwfuAZTgv2cHRTU04oHu0&amp;t=f2cd5c5" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=LcBpVdtHt9cbpa2wwMjvfkYWVVIIq1JVvaXWpHJY_ur6MW0XHzbKrFtqY6pzUPtoNmlVveey6p6bGX8vI3oZ1-uPqvcNdz5f2nSyYZQ4k1_WZMLRp74g3HfZVSmlf8wVmJKaLOm9SHKsnNMaFg3-ZMNno2E1&amp;t=f2cd5c5" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Services._AuthenticationService.DefaultWebServicePath = '../Authentication_JSON_AppService.axd';
+//]]>
+</script>
+
+<script src="/common/javascript/Common_DOM.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=GvlRsGbCQxsv2aGwYaBYXjeiB7c74APkuxiDRhIWZjr5yJAfgNRSHikLtO6mijLdueh8a-ibwtAiUJwcem3YnhphcjxnoNJ-n1OZRqrIV2DUWMjGHZ41W8G3ZY5asm-ndrRFgA2&amp;t=ffffffffe16016f7" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=6ab8GZbFSzTiyjJAyApGlNwJ_44E-KC5KNdgrx_ErpuiH5sV-r2RZ5QbiOJcs4hjVf8EUENf-YY20eRGjSypybX3pBoGLcN4JAUU7Lmu0PLXjQTyWk-aPPsAdTqPGu1HguS0bg2&amp;t=ffffffffe16016f7" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=LREHNGSx7bfBPgZxT42pdYKc1BK1GXRWNti-oIrDy41RFmznZT_YjZyqXqKQit9wjFU7cJ42tqQcRlKUjqsKJcTEJs8S2mBVsA-Tn8xsubFoCOWEhdtCxknnIagMP_hWXo0qCw2&amp;t=ffffffffe16016f7" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=HjxJPM99NIINtAMsAQBjEKrMxNlfw03k-5_uy_Jwfwt9kPn55vEuP_9i7MK9Dw3h14-XQNFeteRlSr0TB0dNYLL0nso__yO1zOdhBK1eDJmAH03zBz30pBJ2h5y5WjtA2roMaW-IT8FkjuaL8pgIPOY8uMw1&amp;t=ffffffffe16016f7" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=czXwYTiMA_j8JqJ4fw-DCXhWZH0bag6cYRlxZPYPT0xhCxl20IIh28abB2s_PtbGuPOSZ3nelpNuGhb6c-syoxDrAMQ3dxUP7xvtsHgzYJig6IjAb1ADMYbrOgsbz7yMKP7WMcMWMEEESWxP5mwf-51wlIg1&amp;t=ffffffffe16016f7" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=zF_p-bua-Pd8j4glaVwEH9iwa7bT9ZTSwUNwtlxi0PVyZTBQyQ4SbnePR244gy9wHs0nnolRu0CyCB4RR_oxKA51BIfAiKfqM0zn3m71uQH8n52MB5vMmWuIdxxe48a8rjvLWZwYEAJKBo6S4rY22AicC3BsHsVWUfjg--LNTMYJBBBe0&amp;t=ffffffffe16016f7" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=qz-vrnl6n4ShzhMDyeHavYrfCnwO4qYXDr9haYZVxlzmqkaDyPhTSpjalXfNFJAfDBVTrg5HMNqgMhf2pB3FYW3jwCDZzc7o9DRUHIKupcYxu0IpNdr2ey5ehTkJXxAl0bS_Gsk36n0lkUUWy3w5Nl5UKgE1&amp;t=ffffffffe16016f7" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=vn_hXUJG86Kx4GiLJuyFChHzhspB0oo9vFY_WZ1jls6L-Ut65HZC0sHTc0WuD24y_3QmX_BCRmkLWMD_4Mq2lZy7IV7WQEXyl1eMWwQq84jpDn1JWvm8peRwo4-aobX9t0ypTuNX1CeE-k9AS62XukbuLVQ1&amp;t=ffffffffe16016f7" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=TZa8SF3giSvg1LGVaPghpYBHuNVWHkAeR5vC3LSN8g48iNj-kf_vqIA33n4dAuaPN0m3JLJDck1k6YkE30p4_qcllv6EASA_2AKxxd82QgLeZeeu--Sl0jebgVyHcNkLmS2qsg2&amp;t=ffffffffe16016f7" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=LW7iQyb8H-FVKL8CpQxGw7gDmqbuMAfE6eW89BKUICPtcsqk4gI227UhSxrxA0G6jMNS7LIeDFBWmgL0StuO722zC9g1Q-jr4zTzI7ytVhYpIXR6ym21Znl84HvqqvxNFaT1WLxnJ9CHHiKicRPJIID1gYI1&amp;t=ffffffffe16016f7" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=tICeeD3e8Wpqg_F5ItKerz81Vv0v9R0ZnXxH-viRL4aJ_ozZ8k_NF2dI4euipcitVwdbaPzZbP2GQHb5d-DhIcvPYQa6HXM_HCR5-oCpA1_u6xGeKBO5GNkkH5QckoexS8tpc2d4b36Vg5QUty_OgxI8LCI1&amp;t=ffffffffe16016f7" type="text/javascript"></script>
+<script src="/common/controls/General/CalendarPicker/CalendarPickerWS.asmx/js" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F495CFC0" />
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            
+            
+    
+    
+            
+    
+    
+    
+    
+    
+    
+    
+    
+            
+    
+            
+    
+    
+    
+    
+    
+    
+            
+    
+    
+    
+    
+    
+    <div id="wrap"><div id="skip" class="hide-for-small-only"><a href="#maincontent">skip to main content</a></div><a href="#mMenuCMS" id="mobile-bar"><div class="reso-m-btn"><table width="100%"><tr><td>
+MENU
+</td><td><img src="/UserFiles/Servers/Server_1497/Image/Custom Theme/logo.png" alt="Office of International Services" width="230px" align="right"></img></td></tr></table></div></a><div id="navbar"></div>
+    
+    
+<div id="theme"><div id="menubar"><table width="100%"><tr><td><a href="/" title="Home"><img src="/UserFiles/Servers/Server_1497/Image/Custom Theme/logo.png" alt="Office of International Services" width="300px"></img></a></td><td><div class="inner-bar" role="navigation" aria-label="Global site links"><div id="ctl00_ContentPlaceHolder1_ctl01_radmenu" class="RadMenu RadMenu_  wrapword telerik_main_menu NoIcon">
+	<!-- 2014.2.724.40 --><ul class="rmRootGroup rmHorizontal">
+		<li class="rmItem rmFirst"><a title="Home" class="rmLink rmRootLink rmFocused rmSelected" href="/home"><span class="rmText">Home</span></a></li><li class="rmItem "><a title="About OIS" class="rmLink rmRootLink" href="/aboutois"><span class="rmText">About OIS</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a title="Executive Director&#39;s Welcome" class="rmLink" href="/aboutois/executive_director_s_welcome"><span class="rmText">Executive Director&#39;s Welcome</span></a></li><li class="rmItem "><a title="Our Population" class="rmLink" href="/aboutois/our_population"><span class="rmText">Our Population</span></a></li><li class="rmItem "><a title="Staff Directory" class="rmLink" href="/aboutois/staff_directory"><span class="rmText">Staff Directory</span></a></li><li class="rmItem "><a title="Hours and Location" class="rmLink" href="/aboutois/hours_and_location"><span class="rmText">Hours and Location</span></a></li><li class="rmItem "><a title="Emergency Information" class="rmLink" href="/aboutois/emergency_information"><span class="rmText">Emergency Information</span></a></li><li class="rmItem rmLast"><a title="Spotlight on Scholars" class="rmLink" href="/aboutois/spotlight_on_scholars"><span class="rmText">Spotlight on Scholars</span></a></li>
+			</ul>
+		</div></li><li class="rmItem "><a title="Students" class="rmLink rmRootLink" href="/students"><span class="rmText">Students</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a title="Prospective Students" class="rmLink" href="/students/prospective"><span class="rmText">Prospective Students</span></a><div class="rmSlide">
+					<ul class="rmVertical rmGroup rmLevel2">
+						<li class="rmItem rmFirst"><a title="General Information" class="rmLink" href="/students/prospective/general_information"><span class="rmText">General Information</span></a></li><li class="rmItem "><a title="Graduate Admissions" class="rmLink" href="/students/prospective/graduate_admissions"><span class="rmText">Graduate Admissions</span></a></li><li class="rmItem "><a title="Undergraduate Admissions" class="rmLink" href="/students/prospective/undergraduate_admissions"><span class="rmText">Undergraduate Admissions</span></a></li><li class="rmItem "><a title="Obtaining an Initial I-20/DS-2019" class="rmLink" href="/students/prospective/obtaining_an_initial_i-20__d_s-2019"><span class="rmText">Obtaining an Initial I-20/DS-2019</span></a></li><li class="rmItem "><a title="Declaration and Certification of Finances (DCF)" class="rmLink" href="/students/prospective/declaration_and_certification_of_finances___d_c_f_"><span class="rmText">Declaration and Certification of Finances (DCF)</span></a></li><li class="rmItem "><a title="Estimated Expenses" class="rmLink" href="/students/prospective/estimated_expenses"><span class="rmText">Estimated Expenses</span></a></li><li class="rmItem rmLast"><a title="Dependents" class="rmLink" href="/students/prospective/dependents"><span class="rmText">Dependents</span></a></li>
+					</ul>
+				</div></li><li class="rmItem "><a title="Admitted Students" class="rmLink" href="/students/admitted"><span class="rmText">Admitted Students</span></a><div class="rmSlide">
+					<ul class="rmVertical rmGroup rmLevel2">
+						<li class="rmItem rmFirst"><a title="Transferring to UIC" class="rmLink" href="/students/admitted/transferring_to_u_i_c"><span class="rmText">Transferring to UIC</span></a></li><li class="rmItem "><a title="Travel &amp; Visas" class="rmLink" href="/students/admitted/travel___visas"><span class="rmText">Travel &amp; Visas</span></a></li><li class="rmItem "><a title="Pre-Arrival" class="rmLink" href="/students/admitted/pre-_arrival"><span class="rmText">Pre-Arrival</span></a></li><li class="rmItem "><a title="Housing" class="rmLink" href="/students/admitted/housing"><span class="rmText">Housing</span></a></li><li class="rmItem "><a title="Check-In" class="rmLink" href="/students/admitted/check-_in"><span class="rmText">Check-In</span></a></li><li class="rmItem rmLast"><a title="International Student Orientation" class="rmLink" href="/students/admitted/international_student_orientation"><span class="rmText">International Student Orientation</span></a></li>
+					</ul>
+				</div></li><li class="rmItem "><a title="Current Students" class="rmLink" href="/students/current"><span class="rmText">Current Students</span></a><div class="rmSlide">
+					<ul class="rmVertical rmGroup rmLevel2">
+						<li class="rmItem rmFirst"><a title="Forms" class="rmLink" href="/students/current/forms"><span class="rmText">Forms</span></a></li><li class="rmItem "><a title="Academics" class="rmLink" href="/students/current/academics"><span class="rmText">Academics</span></a></li><li class="rmItem "><a title="F-1 Student Employment" class="rmLink" href="/students/current/f-1_student_employment"><span class="rmText">F-1 Student Employment</span></a></li><li class="rmItem "><a title="J-1 Student Employment" class="rmLink" href="/students/current/j-1_student_employment"><span class="rmText">J-1 Student Employment</span></a></li><li class="rmItem "><a title="Travel" class="rmLink" href="/students/current/travel"><span class="rmText">Travel</span></a></li><li class="rmItem "><a title="Replacement of Documents" class="rmLink" href="/students/current/replacement"><span class="rmText">Replacement of Documents</span></a></li><li class="rmItem "><a title="Address Updates" class="rmLink" href="/students/current/address"><span class="rmText">Address Updates</span></a></li><li class="rmItem "><a title="Change of Status" class="rmLink" href="/students/current/status"><span class="rmText">Change of Status</span></a></li><li class="rmItem "><a title="Departure" class="rmLink" href="/students/current/departure"><span class="rmText">Departure</span></a></li><li class="rmItem "><a title="Extension" class="rmLink" href="/students/current/extension"><span class="rmText">Extension</span></a></li><li class="rmItem "><a title="Scholarships" class="rmLink" href="/students/current/scholarships"><span class="rmText">Scholarships</span></a></li><li class="rmItem "><a title="Peoria" class="rmLink" href="/students/current/peoria"><span class="rmText">Peoria</span></a></li><li class="rmItem rmLast"><a title="Rockford" class="rmLink" href="/students/current/rockford"><span class="rmText">Rockford</span></a></li>
+					</ul>
+				</div></li><li class="rmItem "><a title="Incoming Exchange Students" class="rmLink" href="/students/incoming_exchange_students"><span class="rmText">Incoming Exchange Students</span></a></li><li class="rmItem rmLast"><a title="Fulbright Foreign Student and Scholar (Non U.S. Citizens)" class="rmLink" href="/students/fulbright_foreign_student_and_scholar___non_u__s__citizens_"><span class="rmText">Fulbright Foreign Student and Scholar (Non U.S. Citizens)</span></a></li>
+			</ul>
+		</div></li><li class="rmItem "><a title="Faculty, Staff, and Scholars" class="rmLink rmRootLink" href="/faculty__staff__and_scholars"><span class="rmText">Faculty, Staff, and Scholars</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a title="Travel &amp; Visas" class="rmLink" href="/faculty__staff__and_scholars/travel___visas"><span class="rmText">Travel &amp; Visas</span></a></li><li class="rmItem "><a title="J (Exchange Visitor) Information" class="rmLink" href="/faculty__staff__and_scholars/j"><span class="rmText">J (Exchange Visitor) Information</span></a><div class="rmSlide">
+					<ul class="rmVertical rmGroup rmLevel2">
+						<li class="rmItem rmFirst"><a title="Categories" class="rmLink" href="/faculty__staff__and_scholars/j/categories"><span class="rmText">Categories</span></a></li><li class="rmItem "><a title="Prospective" class="rmLink" href="/faculty__staff__and_scholars/j/prospective"><span class="rmText">Prospective</span></a></li><li class="rmItem "><a title="Funding Requirements" class="rmLink" href="/faculty__staff__and_scholars/j/funding_requirements"><span class="rmText">Funding Requirements</span></a></li><li class="rmItem "><a title="Insurance" class="rmLink" href="/faculty__staff__and_scholars/j/insurance"><span class="rmText">Insurance</span></a></li><li class="rmItem "><a title="Maintaining Status" class="rmLink" href="/faculty__staff__and_scholars/j/status"><span class="rmText">Maintaining Status</span></a></li><li class="rmItem "><a title="Transfers" class="rmLink" href="/faculty__staff__and_scholars/j/transfers"><span class="rmText">Transfers</span></a></li><li class="rmItem rmLast"><a title="Dependents/J-2 Work Authorization" class="rmLink" href="/faculty__staff__and_scholars/j/dependents"><span class="rmText">Dependents/J-2 Work Authorization</span></a></li>
+					</ul>
+				</div></li><li class="rmItem "><a title="H (Specialty Occupation Worker)" class="rmLink" href="/faculty__staff__and_scholars/h"><span class="rmText">H (Specialty Occupation Worker)</span></a><div class="rmSlide">
+					<ul class="rmVertical rmGroup rmLevel2">
+						<li class="rmItem rmFirst"><a title="Pre-Arrival" class="rmLink" href="/faculty__staff__and_scholars/h/pre-_arrival"><span class="rmText">Pre-Arrival</span></a></li><li class="rmItem rmLast"><a title="Maintaining Status" class="rmLink" href="/faculty__staff__and_scholars/h/maintaining_status"><span class="rmText">Maintaining Status</span></a></li>
+					</ul>
+				</div></li><li class="rmItem "><a title="O-1 (Individuals of Extraordinary Ability)" class="rmLink" href="/faculty__staff__and_scholars/o"><span class="rmText">O-1 (Individuals of Extraordinary Ability)</span></a></li><li class="rmItem "><a title="TN (Professionals Under NAFTA)" class="rmLink" href="/faculty__staff__and_scholars/tn"><span class="rmText">TN (Professionals Under NAFTA)</span></a></li><li class="rmItem "><a title="E-3 (Australian Specialty Occupation Workers)" class="rmLink" href="/faculty__staff__and_scholars/e-3"><span class="rmText">E-3 (Australian Specialty Occupation Workers)</span></a></li><li class="rmItem "><a title="Other Visa Statuses at UIC" class="rmLink" href="/faculty__staff__and_scholars/other"><span class="rmText">Other Visa Statuses at UIC</span></a></li><li class="rmItem "><a title="Pending LPR" class="rmLink" href="/faculty__staff__and_scholars/pending"><span class="rmText">Pending LPR</span></a></li><li class="rmItem "><a title="Forms" class="rmLink" href="/faculty__staff__and_scholars/forms"><span class="rmText">Forms</span></a></li><li class="rmItem rmLast"><a title="Fulbright Foreign Student and Scholars (Non-U.S. Citizens)" class="rmLink" href="/faculty__staff__and_scholars/fulbright_foreign_student_and_scholars"><span class="rmText">Fulbright Foreign Student and Scholars (Non-U.S. Citizens)</span></a></li>
+			</ul>
+		</div></li><li class="rmItem "><a title="Visitors" class="rmLink rmRootLink" href="/visitors"><span class="rmText">Visitors</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a title="B-1/B-2" class="rmLink" href="/visitors/b-1__b-2"><span class="rmText">B-1/B-2</span></a></li><li class="rmItem rmLast"><a title="WB/WT" class="rmLink" href="/visitors/w_b__w_t"><span class="rmText">WB/WT</span></a></li>
+			</ul>
+		</div></li><li class="rmItem "><a title="Departments" class="rmLink rmRootLink" href="/departments"><span class="rmText">Departments</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a title="Use of Attorneys Policy" class="rmLink" href="/departments/use_of_attorneys_policy"><span class="rmText">Use of Attorneys Policy</span></a></li><li class="rmItem "><a title="Guide to Hiring" class="rmLink" href="/departments/guide_to_hiring"><span class="rmText">Guide to Hiring</span></a><div class="rmSlide">
+					<ul class="rmVertical rmGroup rmLevel2">
+						<li class="rmItem rmFirst"><a title="Quick Guide to Hiring" class="rmLink" href="/departments/guide_to_hiring/quick_guide_to_hiring"><span class="rmText">Quick Guide to Hiring</span></a></li><li class="rmItem "><a title="Credential Evaluations " class="rmLink" href="/departments/guide_to_hiring/credential_evaluations"><span class="rmText">Credential Evaluations </span></a></li><li class="rmItem rmLast"><a title="TN" class="rmLink" href="/departments/guide_to_hiring/t_n"><span class="rmText">TN</span></a></li>
+					</ul>
+				</div></li><li class="rmItem "><a title="Permanent Residency" class="rmLink" href="/departments/permanent_residency"><span class="rmText">Permanent Residency</span></a></li><li class="rmItem "><a title="OBFS" class="rmLink" href="/departments/o_b_f_s"><span class="rmText">OBFS</span></a></li><li class="rmItem rmLast"><a title="Forms" class="rmLink" href="/departments/forms"><span class="rmText">Forms</span></a></li>
+			</ul>
+		</div></li><li class="rmItem "><a title="Programs" class="rmLink rmRootLink" href="/programs"><span class="rmText">Programs</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a title="Trade Winds" class="rmLink" href="/programs/tradewinds"><span class="rmText">Trade Winds</span></a></li><li class="rmItem "><a title="First Friends" class="rmLink" href="/programs/first_friends"><span class="rmText">First Friends</span></a><div class="rmSlide">
+					<ul class="rmVertical rmGroup rmLevel2">
+						<li class="rmItem rmFirst rmLast"><a title="First Friends Training Guide" class="rmLink" href="/programs/first_friends/first_friends_training_guide"><span class="rmText">First Friends Training Guide</span></a></li>
+					</ul>
+				</div></li><li class="rmItem "><a title="Global Ambassadors" class="rmLink" href="/programs/global_ambassadors"><span class="rmText">Global Ambassadors</span></a></li><li class="rmItem "><a title="Employment Workshops and Events" class="rmLink" href="/programs/employment_workshops_and_events"><span class="rmText">Employment Workshops and Events</span></a></li><li class="rmItem "><a title="International Education Week" class="rmLink" href="/programs/international_education_week"><span class="rmText">International Education Week</span></a></li><li class="rmItem "><a title="International Student Career Week" class="rmLink" href="/programs/international_student_career_week"><span class="rmText">International Student Career Week</span></a></li><li class="rmItem "><a title="Thanksgiving Dinner" class="rmLink" href="/programs/thanksgiving_dinner"><span class="rmText">Thanksgiving Dinner</span></a></li><li class="rmItem "><a title="Pumpkin Farm Trip" class="rmLink" href="/programs/pumpkin_farm_trip"><span class="rmText">Pumpkin Farm Trip</span></a></li><li class="rmItem rmLast"><a title="Other Events" class="rmLink" href="/programs/other_events"><span class="rmText">Other Events</span></a></li>
+			</ul>
+		</div></li><li class="rmItem "><a title="Life in Illinois" class="rmLink rmRootLink" href="/life_in_illinois"><span class="rmText">Life in Illinois</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a title="Chicago" class="rmLink" href="/life_in_illinois/chicago"><span class="rmText">Chicago</span></a></li><li class="rmItem "><a title="Peoria" class="rmLink" href="/life_in_illinois/peoria"><span class="rmText">Peoria</span></a></li><li class="rmItem rmLast"><a title="Rockford" class="rmLink" href="/life_in_illinois/rockford"><span class="rmText">Rockford</span></a></li>
+			</ul>
+		</div></li><li class="rmItem "><a title="Alumni" class="rmLink rmRootLink" href="/alumni"><span class="rmText">Alumni</span></a></li><li class="rmItem "><a title="Resources" class="rmLink rmRootLink" href="/resources"><span class="rmText">Resources</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a title="Driver&#39;s License" class="rmLink" href="/resources/driver_s_license"><span class="rmText">Driver&#39;s License</span></a></li><li class="rmItem "><a title="Cell Phone" class="rmLink" href="/resources/cell_phone"><span class="rmText">Cell Phone</span></a></li><li class="rmItem "><a title="Social Security Number" class="rmLink" href="/resources/social_security_number"><span class="rmText">Social Security Number</span></a></li><li class="rmItem "><a title="Transportation" class="rmLink" href="/resources/transportation"><span class="rmText">Transportation</span></a></li><li class="rmItem "><a title="Money/Banking" class="rmLink" href="/resources/money__banking"><span class="rmText">Money/Banking</span></a></li><li class="rmItem "><a title="Housing" class="rmLink" href="/resources/housing"><span class="rmText">Housing</span></a></li><li class="rmItem "><a title="Health" class="rmLink" href="/resources/health"><span class="rmText">Health</span></a></li><li class="rmItem "><a title="Insurance" class="rmLink" href="/resources/insurance"><span class="rmText">Insurance</span></a></li><li class="rmItem rmLast"><a title="Important Links" class="rmLink" href="/resources/important_links"><span class="rmText">Important Links</span></a></li>
+			</ul>
+		</div></li><li class="rmItem rmLast"><a title="News" class="rmLink rmRootLink" href="/news"><span class="rmText">News</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a title="OIS NEWS - 3/17/2020" class="rmLink" href="/news/o_i_s_n_e_w_s_-_3_17_2020"><span class="rmText">OIS NEWS - 3/17/2020</span></a></li><li class="rmItem "><a title="OIS NEWS – 3/09/2020" class="rmLink" href="/news/o_i_s_n_e_w_s___3_09_2020"><span class="rmText">OIS NEWS – 3/09/2020</span></a></li><li class="rmItem "><a title="OIS NEWS – 2/25/2020" class="rmLink" href="/news/o_i_s_n_e_w_s___2_25_2020"><span class="rmText">OIS NEWS – 2/25/2020</span></a></li><li class="rmItem "><a title="OIS NEWS – 2/19/2020" class="rmLink" href="/news/o_i_s_n_e_w_s___2_19_2020"><span class="rmText">OIS NEWS – 2/19/2020</span></a></li><li class="rmItem "><a title="OIS NEWS – 2/11/2020" class="rmLink" href="/news/o_i_s_n_e_w_s___2_11_2020"><span class="rmText">OIS NEWS – 2/11/2020</span></a></li><li class="rmItem "><a title="OIS NEWS - 2/06/2020" class="rmLink" href="/news/ois_news_-_2_06_2020"><span class="rmText">OIS NEWS - 2/06/2020</span></a></li><li class="rmItem "><a title="OIS NEWS - 1/24/2020" class="rmLink" href="/news/o_i_s_n_e_w_s_-_1_24_2020"><span class="rmText">OIS NEWS - 1/24/2020</span></a></li><li class="rmItem "><a title="OIS NEWS - 1/14/2020" class="rmLink" href="/news/o_i_s_n_e_w_s_-_1_14_2020"><span class="rmText">OIS NEWS - 1/14/2020</span></a></li><li class="rmItem "><a title="OIS NEWS – 12/19/2019" class="rmLink" href="/news/o_i_s_n_e_w_s___12_19_2019"><span class="rmText">OIS NEWS – 12/19/2019</span></a></li><li class="rmItem "><a title="OIS NEWS – 12/11/2019" class="rmLink" href="/news/o_i_s_n_e_w_s___12_11_2019"><span class="rmText">OIS NEWS – 12/11/2019</span></a></li><li class="rmItem "><a title="OIS NEWS – 7/11/2019" class="rmLink" href="/news/o_i_s_n_e_w_s___7_11_2019"><span class="rmText">OIS NEWS – 7/11/2019</span></a></li><li class="rmItem "><a title="OIS NEWS – 6/26/2019" class="rmLink" href="/news/o_i_s_n_e_w_s___6_26_2019"><span class="rmText">OIS NEWS – 6/26/2019</span></a></li><li class="rmItem "><a title="OIS News - 5/24/2019" class="rmLink" href="/news/o_i_s_news_-_5_24_2019"><span class="rmText">OIS News - 5/24/2019</span></a></li><li class="rmItem "><a title="OIS NEWS – 3/1/2019" class="rmLink" href="/news/o_i_s_n_e_w_s___3_1_2019"><span class="rmText">OIS NEWS – 3/1/2019</span></a></li><li class="rmItem "><a title="OIS NEWS – 2/19/2019" class="rmLink" href="/news/o_i_s_n_e_w_s___2_19_2019"><span class="rmText">OIS NEWS – 2/19/2019</span></a></li><li class="rmItem "><a title="OIS NEWS – 12/13/2018" class="rmLink" href="/news/o_i_s_n_e_w_s___12_13_2018"><span class="rmText">OIS NEWS – 12/13/2018</span></a></li><li class="rmItem "><a title="OIS News - 10/4/2018" class="rmLink" href="/news/o_i_s_news_-_10_4_2018"><span class="rmText">OIS News - 10/4/2018</span></a></li><li class="rmItem "><a title="OIS News - 10/1/2018" class="rmLink" href="/news/o_i_s_news_-_10_1_2018"><span class="rmText">OIS News - 10/1/2018</span></a></li><li class="rmItem "><a title="OIS News - 5/2/2018" class="rmLink" href="/news/o_i_s_news_-_5_2_2018"><span class="rmText">OIS News - 5/2/2018</span></a></li><li class="rmItem "><a title="OIS News - 5/1/2018" class="rmLink" href="/news/o_i_s_news_-_5_1_2018"><span class="rmText">OIS News - 5/1/2018</span></a></li><li class="rmItem "><a title="OIS News - 2/22/2018" class="rmLink" href="/news/o_i_s_news_-_2_22_2018"><span class="rmText">OIS News - 2/22/2018</span></a></li><li class="rmItem "><a title="OIS NEWS - 10/02/2017" class="rmLink" href="/news/o_i_s_n_e_w_s_-_10_02_2017"><span class="rmText">OIS NEWS - 10/02/2017</span></a></li><li class="rmItem "><a title="OIS NEWS - 02/28/2017" class="rmLink" href="/news/o_i_s_n_e_w_s_-_02_28_2017"><span class="rmText">OIS NEWS - 02/28/2017</span></a></li><li class="rmItem "><a title="OIS NEWS - 05/24/2017" class="rmLink" href="/news/o_i_s_n_e_w_s_-_05_24_2017"><span class="rmText">OIS NEWS - 05/24/2017</span></a></li><li class="rmItem "><a title="Coronavirus/COVID-19 Updates for the UIC International Community" class="rmLink" href="/news/coronavirus__c_o_v_i_d-19_updates_for_the_u_i_c_in"><span class="rmText">Coronavirus/COVID-19 Updates for the UIC International Community</span></a></li><li class="rmItem rmLast"><a title="OIS NEWS - 5/08/2020" class="rmLink" href="/news/o_i_s_n_e_w_s_-_5_08_2020"><span class="rmText">OIS NEWS - 5/08/2020</span></a></li>
+			</ul>
+		</div></li>
+	</ul><input id="ctl00_ContentPlaceHolder1_ctl01_radmenu_ClientState" name="ctl00_ContentPlaceHolder1_ctl01_radmenu_ClientState" type="hidden" />
+</div>
+
+    <!-- PlaceHolder tag prevents inline radmenu.ClientID code below clashing with Utility.EnsureScriptManager(this); -->
+    <script>
+
+        $(document).ready(function () {
+            giveAllMenuLinksAUniqueIdentifier();
+            $(".rmLink").on("keydown", setSpacebarToOpenMenus);
+        });
+
+        function giveAllMenuLinksAUniqueIdentifier() {
+            //Give all menu items a unique attribute value so that I can identify them when spacebar is clicked. Same 'menunumber' attribute is set in .aspx code on menu items.
+            var index = 0;
+            $(".telerik_main_menu li.rmItem a.rmLink").each(function (index) {
+                $(this).attr("menunumber", index);
+            });
+        }
+
+        function setSpacebarToOpenMenus(e) {
+            //Open submenus on spacebar press. 
+            var theKey = e.which;
+            if (theKey == 32) { // 32 is keycode for spacebar. 
+                var menuNumber = $(this).attr("menunumber");
+                var menu = $find("ctl00_ContentPlaceHolder1_ctl01_radmenu");
+                var menuItem = menu.findItemByAttribute("menunumber", menuNumber);
+                var submenuItems = menuItem.get_items();
+                if (submenuItems.get_count() > 0) {
+                    if (menuItem.get_isOpen() == false) {
+                        menuItem.open();
+                        e.preventDefault();
+                    };
+                };
+            };
+        };
+
+        function ClickItem(menu, args) {
+            //Event set in OnClientItemClicking="ClickItem";
+            //When user clicks (presses Enter key) a menu item, if submenu is not open, then open it; otherwise navigate to the item's link. 
+            var item = args.get_item();
+            var submenuItems = item.get_items();
+            if (submenuItems.get_count() > 0) {
+                //If submenu is closed, then open it; otherwise click the menu item link. 
+                if (item.get_isOpen() == false) {
+                    args.set_cancel(true); //Cancel the default click action so that it doesn't trigger the menu item's navigation link.
+                    item.open();
+                }
+                else {
+                    if (typeof item.redirectToLink == 'undefined') {
+                        item.redirectToLink = true;
+                        item.click();
+                    } else {
+                        delete item.redirectToLink;
+                    }
+                }
+            }
+        }
+
+    </script>
+
+
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("a.mm-subopen").html("<span class=\"offScreen\">Expand menu item</span>");
+    });
+</script><nav id="mMenuCMS" class="mm-menu, cms-responsive-menu"><ul><li class="mm-selected"><a href="#">Home</a></li><li><a href="/aboutois">About OIS</a><ul><li><a href="/aboutois/executive_director_s_welcome">Executive Director&#39;s Welcome</a></li><li><a href="/aboutois/our_population">Our Population</a></li><li><a href="/aboutois/staff_directory">Staff Directory</a></li><li><a href="/aboutois/hours_and_location">Hours and Location</a></li><li><a href="/aboutois/emergency_information">Emergency Information</a></li><li><a href="/aboutois/spotlight_on_scholars">Spotlight on Scholars</a></li></ul></li><li><a href="/students">Students</a><ul><li><a href="/students/prospective">Prospective Students</a><ul><li><a href="/students/prospective/general_information">General Information</a></li><li><a href="/students/prospective/graduate_admissions">Graduate Admissions</a></li><li><a href="/students/prospective/undergraduate_admissions">Undergraduate Admissions</a></li><li><a href="/students/prospective/obtaining_an_initial_i-20__d_s-2019">Obtaining an Initial I-20/DS-2019</a></li><li><a href="/students/prospective/declaration_and_certification_of_finances___d_c_f_">Declaration and Certification of Finances (DCF)</a></li><li><a href="/students/prospective/estimated_expenses">Estimated Expenses</a></li><li><a href="/students/prospective/dependents">Dependents</a></li></ul></li><li><a href="/students/admitted">Admitted Students</a><ul><li><a href="/students/admitted/transferring_to_u_i_c">Transferring to UIC</a></li><li><a href="/students/admitted/travel___visas">Travel &amp; Visas</a></li><li><a href="/students/admitted/pre-_arrival">Pre-Arrival</a></li><li><a href="/students/admitted/housing">Housing</a></li><li><a href="/students/admitted/check-_in">Check-In</a></li><li><a href="/students/admitted/international_student_orientation">International Student Orientation</a></li></ul></li><li><a href="/students/current">Current Students</a><ul><li><a href="/students/current/forms">Forms</a></li><li><a href="/students/current/academics">Academics</a></li><li><a href="/students/current/f-1_student_employment">F-1 Student Employment</a></li><li><a href="/students/current/j-1_student_employment">J-1 Student Employment</a></li><li><a href="/students/current/travel">Travel</a></li><li><a href="/students/current/replacement">Replacement of Documents</a></li><li><a href="/students/current/address">Address Updates</a></li><li><a href="/students/current/status">Change of Status</a></li><li><a href="/students/current/departure">Departure</a></li><li><a href="/students/current/extension">Extension</a></li><li><a href="/students/current/scholarships">Scholarships</a></li><li><a href="/students/current/peoria">Peoria</a></li><li><a href="/students/current/rockford">Rockford</a></li></ul></li><li><a href="/students/incoming_exchange_students">Incoming Exchange Students</a></li><li><a href="/students/fulbright_foreign_student_and_scholar___non_u__s__citizens_">Fulbright Foreign Student and Scholar (Non U.S. Citizens)</a></li></ul></li><li><a href="/faculty__staff__and_scholars">Faculty, Staff, and Scholars</a><ul><li><a href="/faculty__staff__and_scholars/travel___visas">Travel &amp; Visas</a></li><li><a href="/faculty__staff__and_scholars/j">J (Exchange Visitor) Information</a><ul><li><a href="/faculty__staff__and_scholars/j/categories">Categories</a></li><li><a href="/faculty__staff__and_scholars/j/prospective">Prospective</a></li><li><a href="/faculty__staff__and_scholars/j/funding_requirements">Funding Requirements</a></li><li><a href="/faculty__staff__and_scholars/j/insurance">Insurance</a></li><li><a href="/faculty__staff__and_scholars/j/status">Maintaining Status</a></li><li><a href="/faculty__staff__and_scholars/j/transfers">Transfers</a></li><li><a href="/faculty__staff__and_scholars/j/dependents">Dependents/J-2 Work Authorization</a></li></ul></li><li><a href="/faculty__staff__and_scholars/h">H (Specialty Occupation Worker)</a><ul><li><a href="/faculty__staff__and_scholars/h/pre-_arrival">Pre-Arrival</a></li><li><a href="/faculty__staff__and_scholars/h/maintaining_status">Maintaining Status</a></li></ul></li><li><a href="/faculty__staff__and_scholars/o">O-1 (Individuals of Extraordinary Ability)</a></li><li><a href="/faculty__staff__and_scholars/tn">TN (Professionals Under NAFTA)</a></li><li><a href="/faculty__staff__and_scholars/e-3">E-3 (Australian Specialty Occupation Workers)</a></li><li><a href="/faculty__staff__and_scholars/other">Other Visa Statuses at UIC</a></li><li><a href="/faculty__staff__and_scholars/pending">Pending LPR</a></li><li><a href="/faculty__staff__and_scholars/forms">Forms</a></li><li><a href="/faculty__staff__and_scholars/fulbright_foreign_student_and_scholars">Fulbright Foreign Student and Scholars (Non-U.S. Citizens)</a></li></ul></li><li><a href="/visitors">Visitors</a><ul><li><a href="/visitors/b-1__b-2">B-1/B-2</a></li><li><a href="/visitors/w_b__w_t">WB/WT</a></li></ul></li><li><a href="/departments">Departments</a><ul><li><a href="/departments/use_of_attorneys_policy">Use of Attorneys Policy</a></li><li><a href="/departments/guide_to_hiring">Guide to Hiring</a><ul><li><a href="/departments/guide_to_hiring/quick_guide_to_hiring">Quick Guide to Hiring</a></li><li><a href="/departments/guide_to_hiring/credential_evaluations">Credential Evaluations </a></li><li><a href="/departments/guide_to_hiring/t_n">TN</a></li></ul></li><li><a href="/departments/permanent_residency">Permanent Residency</a></li><li><a href="/departments/o_b_f_s">OBFS</a></li><li><a href="/departments/forms">Forms</a></li></ul></li><li><a href="/programs">Programs</a><ul><li><a href="/programs/tradewinds">Trade Winds</a></li><li><a href="/programs/first_friends">First Friends</a><ul><li><a href="/programs/first_friends/first_friends_training_guide">First Friends Training Guide</a></li></ul></li><li><a href="/programs/global_ambassadors">Global Ambassadors</a></li><li><a href="/programs/employment_workshops_and_events">Employment Workshops and Events</a></li><li><a href="/programs/international_education_week">International Education Week</a></li><li><a href="/programs/international_student_career_week">International Student Career Week</a></li><li><a href="/programs/thanksgiving_dinner">Thanksgiving Dinner</a></li><li><a href="/programs/pumpkin_farm_trip">Pumpkin Farm Trip</a></li><li><a href="/programs/other_events">Other Events</a></li></ul></li><li><a href="/life_in_illinois">Life in Illinois</a><ul><li><a href="/life_in_illinois/chicago">Chicago</a></li><li><a href="/life_in_illinois/peoria">Peoria</a></li><li><a href="/life_in_illinois/rockford">Rockford</a></li></ul></li><li><a href="/alumni">Alumni</a></li><li><a href="/resources">Resources</a><ul><li><a href="/resources/driver_s_license">Driver&#39;s License</a></li><li><a href="/resources/cell_phone">Cell Phone</a></li><li><a href="/resources/social_security_number">Social Security Number</a></li><li><a href="/resources/transportation">Transportation</a></li><li><a href="/resources/money__banking">Money/Banking</a></li><li><a href="/resources/housing">Housing</a></li><li><a href="/resources/health">Health</a></li><li><a href="/resources/insurance">Insurance</a></li><li><a href="/resources/important_links">Important Links</a></li></ul></li><li><a href="/news">News</a><ul><li><a href="/news/o_i_s_n_e_w_s_-_3_17_2020">OIS NEWS - 3/17/2020</a></li><li><a href="/news/o_i_s_n_e_w_s___3_09_2020">OIS NEWS – 3/09/2020</a></li><li><a href="/news/o_i_s_n_e_w_s___2_25_2020">OIS NEWS – 2/25/2020</a></li><li><a href="/news/o_i_s_n_e_w_s___2_19_2020">OIS NEWS – 2/19/2020</a></li><li><a href="/news/o_i_s_n_e_w_s___2_11_2020">OIS NEWS – 2/11/2020</a></li><li><a href="/news/ois_news_-_2_06_2020">OIS NEWS - 2/06/2020</a></li><li><a href="/news/o_i_s_n_e_w_s_-_1_24_2020">OIS NEWS - 1/24/2020</a></li><li><a href="/news/o_i_s_n_e_w_s_-_1_14_2020">OIS NEWS - 1/14/2020</a></li><li><a href="/news/o_i_s_n_e_w_s___12_19_2019">OIS NEWS – 12/19/2019</a></li><li><a href="/news/o_i_s_n_e_w_s___12_11_2019">OIS NEWS – 12/11/2019</a></li><li><a href="/news/o_i_s_n_e_w_s___7_11_2019">OIS NEWS – 7/11/2019</a></li><li><a href="/news/o_i_s_n_e_w_s___6_26_2019">OIS NEWS – 6/26/2019</a></li><li><a href="/news/o_i_s_news_-_5_24_2019">OIS News - 5/24/2019</a></li><li><a href="/news/o_i_s_n_e_w_s___3_1_2019">OIS NEWS – 3/1/2019</a></li><li><a href="/news/o_i_s_n_e_w_s___2_19_2019">OIS NEWS – 2/19/2019</a></li><li><a href="/news/o_i_s_n_e_w_s___12_13_2018">OIS NEWS – 12/13/2018</a></li><li><a href="/news/o_i_s_news_-_10_4_2018">OIS News - 10/4/2018</a></li><li><a href="/news/o_i_s_news_-_10_1_2018">OIS News - 10/1/2018</a></li><li><a href="/news/o_i_s_news_-_5_2_2018">OIS News - 5/2/2018</a></li><li><a href="/news/o_i_s_news_-_5_1_2018">OIS News - 5/1/2018</a></li><li><a href="/news/o_i_s_news_-_2_22_2018">OIS News - 2/22/2018</a></li><li><a href="/news/o_i_s_n_e_w_s_-_10_02_2017">OIS NEWS - 10/02/2017</a></li><li><a href="/news/o_i_s_n_e_w_s_-_02_28_2017">OIS NEWS - 02/28/2017</a></li><li><a href="/news/o_i_s_n_e_w_s_-_05_24_2017">OIS NEWS - 05/24/2017</a></li><li><a href="/news/coronavirus__c_o_v_i_d-19_updates_for_the_u_i_c_in">Coronavirus/COVID-19 Updates for the UIC International Community</a></li><li><a href="/news/o_i_s_n_e_w_s_-_5_08_2020">OIS NEWS - 5/08/2020</a></li></ul></li></ul></nav></div></td></tr></table></div><div role="banner" style="margin-top:50px;"><a href="/"><div class="logo"><img src="/UserFiles/Servers/Server_1497/Image/Custom Theme/Homepage_UIC_Logo_2018.jpg" alt="UIC Office of International Services" class="img img-responsive"></img></div></a></div><div role="main" id="maincontent" class="sectionhome" tabindex="-1"><div id="subpage_content" role="main" style="margin: 1%; padding: 1%"><h1 class="sr-only">Home</h1><div class="ptl_page"><div id="sub-layout"><div id="sub-layout-left"><div class=""><div class="ptl_portlet_vertical"><div class="ptl_top_portlet" style="display:none;"></div><div id="ctl00_ContentPlaceHolder1_ctl08_divContent"><!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <div class="multimediafull">
+        <div class="multimedia1" style="text-align: left;">&nbsp; <a href="/cms/one.aspx?portalId=1581&amp;pageId=1369306">Coronavirus/COVID-19 Updates for the UIC International Community</a></div>
+        <div class="multimedia1">&nbsp;International Student Orientation</div>
+        <div>
         </div>
-    </div>
-</nav>
-
-        <nav class="navigation-primary" aria-label="Primary navigation">
-    <div class="navigation-primary-inner">
-                <div class="circle-logo-container">
-            <a href="/">
-                <svg class="circle-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M36.5 17.3L33.1 19c-.3-1.3-1-2-2.3-2-1.7 0-2.5 1.4-2.5 3.6s.8 3.6 2.5 3.6c1.2 0 1.8-.6 2.2-1.6l3.5 1.3c-.9 2.1-2.8 3.5-5.8 3.5-4.1 0-6.5-2.8-6.5-6.8s2.5-6.8 6.6-6.8c3.2.1 5 1.8 5.7 3.5m-14.1 9.8h-3.9v-13h3.9v13zm-6.3-5.3c0 1.8-.2 2.7-.7 3.6-.9 1.4-3.2 2-5.2 2s-4.3-.6-5.2-2c-.5-.9-.7-1.8-.7-3.6v-7.7h3.9v7.8c0 .9.1 1.5.4 1.8.3.4.8.5 1.5.5s1.2-.2 1.5-.5c.3-.4.4-1 .4-1.8v-7.8h3.9v7.7zM40 20C40 9 31 0 20 0S0 9 0 20s9 20 20 20 20-9 20-20"/></svg>
-<span>University of Illinois at Chicago</span>            </a>
+        <div class="multimedia_left" style="text-align: left;">
+        <p>&nbsp;</p>
+        <p style="text-align: left;"><span style="font-size: 20px;"><strong style="color: rgb(127, 127, 127);">Welcome to UIC! </strong></span></p>
+        <p style="text-align: left;"><span style="font-size: 16px;"><strong style="color: rgb(127, 127, 127);">OIS supports new international students through the transition to life in the U.S. and study at UIC during International Student Orientation.</strong><strong style="color: rgb(127, 127, 127);"></strong></span><a href="/cms/one.aspx?portalId=1581&amp;pageId=213600"><span style="font-size: 16px;"><strong></strong></span></a>
+        </p>
+        <p><a href="/cms/one.aspx?portalId=1581&amp;pageId=213600"><span style="font-size: 20px;"><strong></strong></span></a><strong><a href="/cms/one.aspx?portalId=1581&amp;pageId=213600">Learn more about International Student Orientation</a><br>
+        </strong></p>
+        <p><a href="/cms/one.aspx?portalId=1581&amp;pageId=213600"><span style="font-size: 20px;"><strong><span style="font-size: 14px;"></span></strong></span></a></p>
         </div>
-                            <ul class="primary-nav-list">
-    <button class="menu-toggle" type="button" tabindex="-1">
-        <div class="menu-toggle-icon"></div>
-        <span>Expand menu</span>
-    </button>
-    <div class="menu-label-item"><span class="menu-label">Menu</span></div>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/admissions-aid">Admissions &amp; Aid</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/visit-campus">Visit Campus</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/paying-for-college">Paying for College</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/academics">Academics</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/programs-of-study">Programs of Study</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/colleges-schools">Colleges &amp; Schools</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/student-support">Student Support</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/research">Research</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-impact">Research Impact</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-strengths">Research Strengths</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/resources-facilities">Resources &amp; Facilities</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/student-research">Student Research</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item">
-            <a class="primary-list-anchor" href="/life-at-uic">Life at UIC</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/living-on-around-campus">Living On &amp; Around Campus</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/campus-resources">Campus Resources</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/current-students">Current Students</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/faculty-and-staff">Faculty and Staff</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/chicago">Chicago</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/exploring-chicago">Exploring Chicago</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/city-transportation">City Transportation</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/essential-chicago">Essential Chicago</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/alumni">Alumni</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/connect">Connect</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/engage">Engage</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/give">Give</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/about">About</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/visit-directions">Visit &amp; Directions</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/history">History</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/leadership">Leadership</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/public-media-resources">Public &amp; Media Resources</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/job-opportunities">Job Opportunities</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/contact-us">Contact Us</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/acerca">Acerca de la UIC (en español)</a></li>
-                                    </ul>
-                    </li>
-    </ul>            </div>
-</nav>
-
-</div>
-</header>
-
-<div class="ms-grid main">
-  <div class="ms-row">
-    <div class="m-col-1-4">
-      <nav class="navigation-sidebar" aria-label="Secondary navigation">
-      </nav>
-    </div>
-    <div class="m-col-3-4">
-
-      <nav class="breadcrumbs ms-row">
-        <div class="col-1-1">
-          <div class="red-circle" aria-hidden="true"></div>
-          <img class="first-breadcrumb-arrow" src="/images/breadcrumb-arrow.svg" aria-hidden="true" alt="Breadcrumb arrow">
-          <ul class="crumb-list">
-            <li class="crumb-item">
-                <a class="crumb-anchor active" href="/apps/find-people/search">Directory</a>
-            </li>
-          </ul>
+        <div class="multimedia_right">
+        <!--Slider-->
+        <!--Slider-->
+        <!--Slider-->
+        <!--Slider-->
+        <!--Slider-->
+        <!--Slider-->
+        <!--Slider-->
+        <!--Slider-->
+        <!--Slider-->
+        <!--Slider-->
+        <!-- #region Jssor Slider Begin -->
+        <!-- Generated by Jssor Slider Maker. -->
+        <!-- This demo works without jquery library. -->
+        <script type="text/javascript" src=" /UserFiles/Servers/Server_1497/File/slider/js/jssor.slider.min.js"></script>
+        <!-- use jssor.slider.debug.js instead for debug -->
+        <script>
+        jssor_1_slider_init = function() {
+            
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:1200,$Opacity:2}
+            ];
+            
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+            
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+            
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizing
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 600);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            //responsive code end
+        };
+    </script>
+        <style>
+            /* jssor slider bullet navigator skin 05 css */
+            /*
+            .jssorb05 div           (normal)
+            .jssorb05 div:hover     (normal mouseover)
+            .jssorb05 .av           (active)
+            .jssorb05 .av:hover     (active mouseover)
+            .jssorb05 .dn           (mousedown)
+            */
+            .jssorb05 {
+            position: absolute;
+            }
+            .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('/UserFiles/Servers/Server_1497/File/slider/img/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+            }
+            .jssorb05 div { background-position: -7px -7px; }
+            .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+            .jssorb05 .av { background-position: -67px -7px; }
+            .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+            /* jssor slider arrow navigator skin 12 css */
+            /*
+            .jssora12l                  (normal)
+            .jssora12r                  (normal)
+            .jssora12l:hover            (normal mouseover)
+            .jssora12r:hover            (normal mouseover)
+            .jssora12l.jssora12ldn      (mousedown)
+            .jssora12r.jssora12rdn      (mousedown)
+            */
+            .jssora12l, .jssora12r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 30px;
+            height: 46px;
+            cursor: pointer;
+            background: url(' /UserFiles/Servers/Server_1497/File/slider/img/a12.png') no-repeat;
+            overflow: hidden;
+            }
+            .jssora12l { background-position: -16px -37px; }
+            .jssora12r { background-position: -75px -37px; }
+            .jssora12l:hover { background-position: -136px -37px; }
+            .jssora12r:hover { background-position: -195px -37px; }
+            .jssora12l.jssora12ldn { background-position: -256px -37px; }
+            .jssora12r.jssora12rdn { background-position: -315px -37px; }
+        </style>
+        <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden; visibility: hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+        <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+        <div style="position:absolute;display:block;background:url('/UserFiles/Servers/Server_1497/File/slider/img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
         </div>
-      </nav>
-
-      <main class="interior-page-intro">
-        <div class="ms-row">
-          <div class="col-1-1">
-            <h1 class="interior-page-title">Directory search</h1>
-          </div>
+        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden;">
+        <div data-p="112.50" style="display: none;">
+        <img data-u="image" src=" /UserFiles/Servers/Server_1497/File/slider/img/img01.jpg">
         </div>
-
-<section role="region" class="text-block-with-large-image" aria-label="SOCIOLOGY, Department of Unit Listing">
-<div class="ms-row title-row">
-  <div class="col-1-1">
-    <h2 class="interior-section-header">
-      SOCIOLOGY, Department of</a>
-    </h2>
-  </div>
-</div>
-
-<div class="ms-row text-row">
-  <div class="col-1-1 block-wysiwyg">
-
-
-<table>
-
-<tr>
-  <td style="vertical-align: top; font-weight: 400;">
-    <p>
-      Banner Dept: <span style="font-weight: 500;">2-772000</span>
-    </p>
-            4112 BSB MC 312 <br />1007 W. Harrison Chicago IL 60607-7140        </td>
-        <td style="vertical-align: top;">
-            <a href="http://sociology.las.uic.edu">Department Home Page</a>
-            <br />
-            <a href="/apps/departments-az/search?dispatch=roster&amp;style=uic&amp;orgid=99953">Department Roster</a>
-            <br />
-            Fax 312-996-5104            <br />
-        </td>
-    </tr>
-
-    			      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">General Information</span>
-	    <br />
-	    4112 BSB </br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-3005	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Head</span>
-	    <br />
-	    Maria Krysan	    <br />
-	    4112E BSB MC 312</br> 1007 W. Harrison Chicago IL 60607-7140	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-5575	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#114;&#121;&#115;&#97;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#107;&#114;&#121;&#115;&#97;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Director of Undergraduate Studies, Associate Head</span>
-	    <br />
-	    Lorena Garcia	    <br />
-	    4112B BSB MC 312</br> 1007 W. Harrison Street Chicago IL 60607	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-3759	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#111;&#114;&#101;&#110;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#108;&#111;&#114;&#101;&#110;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Director, Graduate Studies</span>
-	    <br />
-	    Claire Laurier Decoteau	    <br />
-	    4112D BSB MC 312</br> 1007 W. Harrison Chicago IL 60607-7140	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-3755	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#101;&#99;&#111;&#116;&#101;&#97;&#117;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#100;&#101;&#99;&#111;&#116;&#101;&#97;&#117;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Business Admin. Associate/Business Manager</span>
-	    <br />
-	    Tara L Williams	    <br />
-	    4112C BSB MC 312</br> 1007 W. Harrison Chicago IL 60607	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-5380	    <br />
-	    <strong>F</strong> 312-996-5104	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#97;&#114;&#97;&#103;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#116;&#97;&#114;&#97;&#103;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Graduate School Specialist</span>
-	    <br />
-	    Lisa A Berube	    <br />
-	    4112 BSB MC 312</br> 1007 W. Harrison Street Chicago IL 60607	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-2273	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#98;&#101;&#114;&#117;&#98;&#50;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#108;&#98;&#101;&#114;&#117;&#98;&#50;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10001" style="font-weight: 400;">
-      Department Liaisons    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Tara L Williams	    <br />
-	    4112C BSB MC 312</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-5380	    <br />
-	    <strong>F</strong> 312-996-5104	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#97;&#114;&#97;&#103;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#116;&#97;&#114;&#97;&#103;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">REACH Contact</span>
-	    <br />
-	    Tara L Williams	    <br />
-	    4112C BSB MC 312</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-5380	    <br />
-	    <strong>F</strong> 312-996-5104	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#97;&#114;&#97;&#103;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#116;&#97;&#114;&#97;&#103;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">REACH Contact</span>
-	    <br />
-	    Ronald J Versetto	    <br />
-	    528 UH MC 228</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-9017	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#111;&#110;&#118;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#114;&#111;&#110;&#118;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">REACH Contact</span>
-	    <br />
-	    Scott F Rozman	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-3361	    <br />
-	    <strong>F</strong> 312-413-2511	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#102;&#114;&#111;&#122;&#109;&#97;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#115;&#102;&#114;&#111;&#122;&#109;&#97;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">REACH Contact</span>
-	    <br />
-	    Thebao T Nguyen	    <br />
-	    522 UH MC 228</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-5237	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#110;&#103;&#117;&#121;&#53;&#51;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#116;&#110;&#103;&#117;&#121;&#53;&#51;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">REACH Contact</span>
-	    <br />
-	    Hank Tsung-Hun Chen	    <br />
-	    3186 UH </br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#97;&#110;&#107;&#99;&#104;&#101;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#104;&#97;&#110;&#107;&#99;&#104;&#101;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">REACH Contact</span>
-	    <br />
-	    Jose Renaldo Hernandez	    <br />
-	    522 UH </br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#114;&#104;&#101;&#114;&#110;&#97;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#106;&#114;&#104;&#101;&#114;&#110;&#97;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">REACH Contact</span>
-	    <br />
-	    Gildardo Camacho	    <br />
-	    526 UH MC 228</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-9596	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#97;&#108;&#111;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#108;&#97;&#108;&#111;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="20000" style="font-weight: 400;">
-      See Also    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-      <a href="https://www.uic.edu/apps/departments-az/search?dispatch=find&amp;orgid=99588">
-	    <span style="font-weight: 500;">Liberal Arts and Sciences, College of</span>
-	    </a>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	</td>
-    </tr>
-	    </table>
-
-  </div>
-</div>
-</section>
-
-<div class="ms-grid" style="margin-top: 40px;">
-  <div class="ms-row block-wysiwyg">
-    <div class="m-col-1-3">
-        <form method="get" action="/apps/find-people/search">
-
-<div class="form-element"> 
-	<h2>Individuals</h2>
-</div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Last name</span>
-      <input class="text-input" type="text" id="lastname" name="lastname">
-    </label>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">First name</span>
-      <input class="text-input" type="text" id="firstname" name="firstname">
-    </label>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">NetID</span>
-      <input class="text-input" type="text" id="netid" name="netid">
-    </label>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Department</span>
-      <input class="text-input" type="text" id="department" name="department">
-    </label>
-  </div>
-
-  <button type="submit" class="button">Search</button>
-
-  <p class="form-help-text" style="margin-top: 15px;">
-    <em>
-      <strong>Tip</strong> Typing "Lee" into the Last Name
-      field will retrieve too many entries to print. But, adding
-      "R" to the First Name will narrow the search.
-    </em>
-  </p>
-
-</form>
-
-    </div>
-
-    <div class="m-col-2-3">
-        <form method="get" action="//www.uic.edu/apps/departments-az/search">
-
-<div class="form-element">
-<h2>Departments</h2>
-</div>
-
-  <div class="form-element">
-<span class="form-element-label">Browse</span>
-<p>
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=A">A</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=B">B</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=C">C</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=D">D</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=E">E</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=F">F</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=G">G</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=H">H</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=I">I</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=J">J</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=K">K</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=L">L</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=M">M</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=N">N</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=O">O</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=P">P</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Q">Q</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=R">R</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=S">S</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=T">T</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=U">U</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=V">V</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=W">W</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=X">X</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Y">Y</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Z">Z</a>&nbsp;
-    </p>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Department</span>
-      <input class="text-input" type="text" id="kwords" name="kwords">
-    </label>
-  </div>
-
-  <input type="hidden" name="dispatch" value="search" />
-  <button type="submit" class="button">Search</button>
-
-  <p class="form-help-text" style="margin-top: 15px;">
-    <em>
-      <strong>Tip</strong>
-      Search for contact information for a specific department
-      or just select Department Search to browse the unit listing.
-    </em>
-  </p>
-</form>
-
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </main>
-    </div>
-  </div>
-</div>
-
-<footer class="footer">
-    <div class="footer-content" style="background-image: url(/images/footer.jpg)">
-        <div class="ms-grid">
-            <div class="ms-row">
-                <div class="s-col-1-2 m-col-1-4 l-col-3-12 footer-brand-address">
-                                            <img class="footer-brand" src="/images/footer-brand-mark.svg" alt="The University of Illinois at Chicago" aria-hidden="true">
-                                        <div class="footer-address">
-                        <div><strong>1200 West Harrison St.</strong></div>
-                        <div>Chicago, Illinois 60607</div>
-                        <div>312-996-7000</div>
-                    </div>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-push-4" aria-label="Tools">
-                    <h1 class="footer-list-title">Tools</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://uic.blackboard.com/">
-        Blackboard
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://accc.uic.edu/service/g-suite">
-        GoogleApps@UIC
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://my.uic.edu/common/">
-        my UIC
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://www.hr.uillinois.edu/pay/">
-        My UI Info: Pay
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://outlook.uic.edu">
-        UIC Outlook Online
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://accc.uic.edu/service/uicalendar">
-        UICalendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/contact-us">
-        Contact the webmaster
-    </a>
-</li>                                            </ul>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12" aria-label="Resources">
-                    <h1 class="footer-list-title">Resources</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://catalog.uic.edu/ucat/academic-calendar/">
-        Academic Calendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/life-at-uic/current-students">
-        Current Students
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://events.uic.edu">
-        Event Calendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/life-at-uic/faculty-and-staff">
-        Faculty and Staff
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://maps.uic.edu">
-        Maps
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://today.uic.edu/uicnews">
-        UIC Today
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/visit-directions">
-        Visit &amp; Directions
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://clery.uic.edu/">
-        Clery Compliance
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://oae.uic.edu/UnlawfulDiscrimination/index.htm">
-        Nondiscrimination Policy
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://oae.uic.edu/TitleIX/index.htm">
-        Title IX: Sexual Misconduct
-    </a>
-</li>                                            </ul>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-pull-4" aria-label="Quick Links">
-                    <h1 class="footer-list-title">Quick Links</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uicflames.com/">
-        Athletics
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uic.edu/apps/departments-az/search">
-        Directory
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://disabilityresources.uic.edu/">
-        Disability Resources
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://emergency.uic.edu">
-        Emergency Information
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/job-opportunities">
-        Job Opportunities
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://library.uic.edu">
-        Library
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uic.edu/depts/dos/studentveteranaffairs.shtml">
-        Veterans Affairs
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://hospital.uillinois.edu">
-        University of Illinois Hospital &amp; Health Sciences System
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/acerca">
-        Acerca de la UIC (en español)
-    </a>
-</li>                                            </ul>
-                </div>
-                <div class="l-col-3-12">
-                    <div class="ms-row">
-                        <div role="navigation" class="s-col-1-2 l-col-1-1" aria-label="Calls to Action">
-                            <ul class="footer-button-list">
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/visit-us" role="button">
-                Book a Visit
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/undergraduate/request-information" role="button">
-                Request Info
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/apply-now" role="button">
-                Apply Now
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="/alumni/give" role="button">
-                Give
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://uicalumni.org/" role="button">
-                Join Alumni Association
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="/about/contact-us" role="button">
-                Contact Us
-            </a>
-        </li>
-    </ul>                        </div>
-                        <div class="s-col-1-2 l-col-1-1 footer-social-icons-cell">
-                            <ul class="social-icons-list">
-            <li>
-            <a href="https://www.facebook.com/uic.edu">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>            </a>
-        </li>
-                <li>
-            <a href="https://twitter.com/thisisuic">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>            </a>
-        </li>
-                <li>
-            <a href="https://instagram.com/uicamiridis/">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>            </a>
-        </li>
-                    <li>
-            <a href="https://www.youtube.com/user/thisisUIC">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>            </a>
-        </li>
-                    <li>
-            <a href="http://uicscience.tumblr.com/">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Tumblr</title><path d="M15.1 24.2c2.8.7 5.6-.9 5.6-.9v-3c-.8.9-2.6 1.1-3.9.7-1.2-.3-1.1-2-1.1-2v-5.7h4.4v-3h-4.4V5.6H13c-.3 5.1-3.8 5-3.8 5v2.7h2v6.8c.1 2.2 1.1 3.4 3.9 4.1z"/></svg>            </a>
-        </li>
-                        <li>
-            <a href="https://news.uic.edu/social-media-directory">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>More links</title><path d="M15 5C9.5 5 5 9.5 5 15s4.5 10 10 10 10-4.5 10-10S20.5 5 15 5zm4.7 11H16v3.7h-2V16h-3.7v-2H14v-3.7h2V14h3.7v2z"/></svg>            </a>
-        </li>
-    </ul>                        </div>
-                    </div>
-                </div>
-            </div>
+        <div data-p="112.50" style="display: none;">
+        <img data-u="image" src=" /UserFiles/Servers/Server_1497/File/slider/img/img02.jpg">
         </div>
-    </div>
-    <div class="footer-legal">
-        <div class="ms-grid">
-            <div class="ms-row">
-                <div class="l-col-1-2">
-                    &copy; 2016 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span> <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a>
-                </div>
-                <div class="l-col-1-2 campuses">
-                                            <a href="http://www.uillinois.edu/">University of Illinois</a> <span class="pipe-separator">|</span>
-                                            <a href="http://www.illinois.edu/">Urbana-Champaign</a> <span class="pipe-separator">|</span>
-                                            <a href="http://www.uis.edu/">Springfield</a> 
-                                    </div>
-            </div>
+        <div data-p="112.50" style="display: none;">
+        <img data-u="image" src=" /UserFiles/Servers/Server_1497/File/slider/img/img03.jpg">
         </div>
-    </div>
-  <a href="https://plus.google.com/+UicEdu" rel="publisher" hidden>UIC on Google+</a>
-</footer>
-
-<link rel="stylesheet" href="/css/main.min.css" media="all"><script src="/js/concat/main.min.js"></script><script src="//www.uic.edu/inc/emergency/alert.js"></script></body></html>
+        <div data-p="112.50" style="display: none;">
+        <img data-u="image" src=" /UserFiles/Servers/Server_1497/File/slider/img/img04.jpg">
+        </div>
+        <div data-p="112.50" style="display: none;">
+        <img data-u="image" src=" /UserFiles/Servers/Server_1497/File/slider/img/img05.jpg">
+        </div>
+        <div data-p="112.50" style="display: none;">
+        <img data-u="image" src=" /UserFiles/Servers/Server_1497/File/slider/img/img06.jpg">
+        </div>
+        <div data-p="112.50" style="display: none;">
+        <img data-u="image" src=" /UserFiles/Servers/Server_1497/File/slider/img/img07.jpg">
+        </div>
+        <div data-p="112.50" style="display: none;">
+        <img data-u="image" src=" /UserFiles/Servers/Server_1497/File/slider/img/img08.jpg">
+        </div>
+        <div data-p="112.50" style="display: none;">
+        <img data-u="image" src=" /UserFiles/Servers/Server_1497/File/slider/img/img09.jpg">
+        </div>
+        <div data-p="112.50" style="display: none;">
+        <img data-u="image" src=" /UserFiles/Servers/Server_1497/File/slider/img/img10.jpg">
+        </div>
+        <div data-p="112.50" style="display: none;">
+        <img data-u="image" src=" /UserFiles/Servers/Server_1497/File/slider/img/img11.jpg">
+        </div>
+        <div data-p="112.50" style="display: none;">
+        <img data-u="image" src=" /UserFiles/Servers/Server_1497/File/slider/img/img12.jpg">
+        </div>
+        <div data-p="112.50" style="display: none;">
+        <img data-u="image" src=" /UserFiles/Servers/Server_1497/File/slider/img/img13.jpg">
+        </div>
+        <div data-p="112.50" style="display: none;">
+        <img data-u="image" src=" /UserFiles/Servers/Server_1497/File/slider/img/img14.jpg">
+        </div>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+        <!-- bullet navigator item prototype -->
+        <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora12l" style="top: 0px; left: 0px; width: 30px; height: 46px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora12r" style="top: 0px; right: 0px; width: 30px; height: 46px;" data-autocenter="2"></span>
+        </div>
+        <script>
+        jssor_1_slider_init();
+    </script>
+        <!-- #endregion Jssor Slider End -->
+        <!--slider-->
+        <!--Slider-->
+        <!--Slider-->
+        <!--Slider-->
+        <!--Slider-->
+        <!--Slider-->
+        <!--Slider-->
+        <!--Slider-->
+        <!--Slider-->
+        </div>
+        <div style="width: 100%; clear: both;">
+        </div>
+        </div>
+        <br>
+    </body>
+</html></div>
+</div><div class="ptl_portlet_vertical"><div class="ptl_top_portlet" style="display:none;"></div><div id="ctl00_ContentPlaceHolder1_ctl11_divView">
+    <div class="divContent">
+        <?xml version="1.0" encoding="utf-16"?><div id="news_div"><div id="news_box"><div class="homepage_title"><div class="multimedia1">Announcements</div></div><ul class="announcements"><table><tr><td width="37%"><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=1368205">OIS Services Moving All Online Effective March 17</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=1364777">International Travel Guidance for the UIC International Community</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=1355392">Certain Immigration Applications and Petitions Immediately Subject to Public Charge Final Rule</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=1351894">Potential Site Visits by DHS of Employers that Train STEM OPT Students</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=1345188">International Student, Scholar, and Employee Tax Obligations and Support - Filing Deadline, July 15</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=695193">Executive and Court Orders on Travel and Immigration: Information and Resources - Updated 2/6/2020</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=1337943">UIC Addresses Coronavirus</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=1333121">Spring 2020 International Student Status Maintenance Reminders</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=1325018">Illinois Law on Marijuana Use and Impact on the UIC International Community</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=1319891">USCIS Updates Policy Pursuant to Two Recent Attorney General Decisions</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=1227012">Court Allows WashTech Challenge to Proceed for All OPT</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=1180278">SEVP Clarifies Policy Regarding Distribution of Form I-20</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=1163422">DHS Increases I-901 SEVIS Fee Effective June 24, 2019</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=1116224">Proposed DHS Rule Rescinding H-4 Employment Authorization Expected Soon</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=1110222">Significant Changes to Form I-539 to be Implemented Beginning March 11, 2019</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=1075584">Consular Operations Abroad Potentially Impacted by a U.S. Government Shutdown</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=1028182">Introduction of Proposed Rule of Inadmissibility on Public Charge Grounds</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=1028172">USCIS Previously Released “Notice to Appear” Policy Clarified and Commences Monday, October 1, 2018</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=935470">USCIS Tightens Language on Employer-Employee Relationships and Third-Party Placement for STEM OPT Students</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=935459">USCIS to Begin Using More Secure Mail Delivery Service</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=894556">USCIS Expands Credit Card Payment Option to Most Fee-Based Forms</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=821591">USCIS Updates Form I-765 to Include Optional Application for a Social Security Card</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=691313">Immigration Scams Warning</a></span><br /><p class="summary" /></li><li><span class="title"><a class="news_link" href="/cms/One.aspx?portalId=1581&amp;pageId=1394808">Electronic I-20 Issuance</a></span><br /><p class="summary" /></li><br /><a href="/news">More Announcements and Archives</a></td></tr></table></ul></div></div><br />
+    </div>
+</div>
+
+
+<script type="text/javascript">
+        var prm = Sys.WebForms.PageRequestManager.getInstance();
+        prm.add_beginRequest(function (sender, args) {
+            var elem = args.get_postBackElement();
+            spinnerAlertModule.show();
+        });
+prm.add_endRequest(function () {
+            spinnerAlertModule.hide();
+        });
+</script>
+
+</div></div></div><div id="sub-layout-right"><div class=""><div class="ptl_portlet_vertical"><div class="ptl_top_portlet" style="display:none;"></div><div id="ctl00_ContentPlaceHolder1_ctl15_divContent"><!DOCTYPE html><html>
+    <head>
+    </head>
+    <body>
+        <div class="multimediafull">
+        <div class="multimedia1"><a href="/cms/one.aspx?portalId=1581&amp;pageId=363443" style="text-decoration: none;color: inherit;"><img width="15" height="15" src="/UserFiles/Servers/Server_1497/Image/Photos/arrow1.png"></a><a href="/cms/one.aspx?portalId=1581&amp;pageId=473750">Multimedia</a><img width="15" height="15" src="/UserFiles/Servers/Server_1497/Image/Photos/arrow2.png"></div>
+        <div style="background-color: #E1ECFC; width: 50%; float: left; position: relative; text-align: center;">
+        <a href="https://www.youtube.com/embed/IRHyVSOb__s?autoplay=1" target="iframeid"><img src="https://i.ytimg.com/vi/IRHyVSOb__s/2.jpg?time=1479242392122" alt="Video Thumbnail" align="center" style="PADDING-BOTTOM: 5px; max-width: 100px; width:100%;PADDING-LEFT: 5px;PADDING-RIGHT: 5px; PADDING-TOP: 5px;"></a>
+        <a href="https://www.youtube.com/embed/ousVzwdhsrg?autoplay=1" target="iframeid"><img src="https://i.ytimg.com/vi/ousVzwdhsrg/2.jpg?time=1479242393217" alt="Video Thumbnail" align="center" style="PADDING-BOTTOM: 5px; max-width: 100px; width:100%;PADDING-LEFT: 5px;PADDING-RIGHT: 5px; PADDING-TOP: 5px;"></a>
+        </div>
+        <div style="background-color: #E1ECFC; width: 50%; float: left; position: relative; text-align: center;">
+        <a href="https://www.youtube.com/embed/jHs5hvGjmEM?autoplay=1" target="iframeid"><img src="https://i.ytimg.com/vi/jHs5hvGjmEM/2.jpg?time=1479242395506" alt="Video Thumbnail" align="center" style="PADDING-BOTTOM: 5px; max-width: 100px; width:100%;PADDING-LEFT: 5px;PADDING-RIGHT: 5px; PADDING-TOP: 5px;"></a>
+        <a href="https://www.youtube.com/embed/ZtRkl8XKxrQ?autoplay=1" target="iframeid"><img src="//img.youtube.com/vi/ZtRkl8XKxrQ/default.jpg" alt="Video Thumbnail" align="center" style="PADDING-BOTTOM: 5px; max-width: 100px; width:100%;PADDING-LEFT: 5px;PADDING-RIGHT: 5px; PADDING-TOP: 5px;"></a>
+        </div>
+        </div>
+        <br>
+        <br>
+        .
+    </body>
+</html></div>
+</div><div class="ptl_portlet_vertical"><div class="ptl_top_portlet" style="display:none;"></div>
+
+<!--[if lte IE 7]>
+<style type="text/css">
+.ptl_upcomingevents_events {
+	top: -1.25em;
+}
+
+.ptl_upcomingevents_events .last_item,
+.ptl_upcomingevents_events .only_item {
+	margin-bottom: 0px;
+}
+</style>
+<![endif]-->
+
+<!-- legacy -->
+<table id="ctl00_ContentPlaceHolder1_ctl18_tblUpcomingEvents" class="bluetbl_mini_upcomingevent" align="center" cellpadding="2" cellspacing="0">
+	<tr>
+		<td id="ctl00_ContentPlaceHolder1_ctl18_tcEventHeader" colspan="2" class="bluemini_upcomingevent_header">
+            <span id="ctl00_ContentPlaceHolder1_ctl18_lblEvents">Upcoming Events</span>
+        </td>
+	</tr>
+	<tr>
+		<td>&nbsp;&nbsp;</td>
+		<td width="100%"><a class="bluemini_upcomingevent_event" href="/cms/one.aspx?portalId=1581&amp;pageId=189804&amp;objectId.10494=1301721&amp;contextId.10494=189880&amp;parentId.10494=189881&amp;ref=mesTP9fg96fVsgzpWYeogE5N21negcM4nZghyScTcCU%3d">EV (Exchange Visitor) Scholar Orientation</a></td>
+	</tr>
+	<tr>
+		<td>&nbsp;&nbsp;</td>
+		<td><span class="bluemini_upcomingevent_event">May 13 2020 at 02:00 PM</span></td>
+	</tr>
+	<tr>
+		<td>&nbsp;&nbsp;</td>
+		<td width="100%"><a class="bluemini_upcomingevent_event" href="/cms/one.aspx?portalId=1581&amp;pageId=189804&amp;objectId.10494=1326855&amp;contextId.10494=189880&amp;parentId.10494=189881&amp;ref=mesTP9fg96fVsgzpWYeogIsze6mdtVd7FrlWDSaY6Cc%3d">WEBINAR - Optional Practical Training (OPT) Workshop</a></td>
+	</tr>
+	<tr>
+		<td>&nbsp;&nbsp;</td>
+		<td><span class="bluemini_upcomingevent_event">May 15 2020 at 03:00 PM</span></td>
+	</tr>
+	<tr>
+		<td>&nbsp;&nbsp;</td>
+		<td width="100%"><a class="bluemini_upcomingevent_event" href="/cms/one.aspx?portalId=1581&amp;pageId=189804&amp;objectId.10494=1386686&amp;contextId.10494=189880&amp;parentId.10494=189881&amp;ref=mesTP9fg96fVsgzpWYeogJgwRut%2bwGzXsPguMRm3cYs%3d">WEBINAR - Tax Workshop for International Students, Exchange Visitors and Employees</a></td>
+	</tr>
+	<tr>
+		<td>&nbsp;&nbsp;</td>
+		<td><span class="bluemini_upcomingevent_event">May 21 2020 at 12:00 PM</span></td>
+	</tr>
+	<tr>
+		<td>&nbsp;&nbsp;</td>
+		<td width="100%"><a class="bluemini_upcomingevent_event" href="/cms/one.aspx?portalId=1581&amp;pageId=189804&amp;objectId.10494=1381642&amp;contextId.10494=189880&amp;parentId.10494=189881&amp;ref=mesTP9fg96fVsgzpWYeogN3JLywiAef4tdnO5Y305HI%3d">WEBINAR - Optional Practical Training (OPT) Workshop</a></td>
+	</tr>
+	<tr>
+		<td>&nbsp;&nbsp;</td>
+		<td><span class="bluemini_upcomingevent_event">Jun 08 2020 at 03:00 PM</span></td>
+	</tr>
+	<tr>
+		<td>&nbsp;&nbsp;</td>
+		<td width="100%"><a class="bluemini_upcomingevent_event" href="/cms/one.aspx?portalId=1581&amp;pageId=189804&amp;objectId.10494=1301730&amp;contextId.10494=189880&amp;parentId.10494=189881&amp;ref=mesTP9fg96fVsgzpWYeogAVHSXcoWkxzNFV%2b2hBf%2bRw%3d">EV (Exchange Visitor) Scholar Orientation</a></td>
+	</tr>
+	<tr>
+		<td>&nbsp;&nbsp;</td>
+		<td><span class="bluemini_upcomingevent_event">Jun 16 2020 at 10:00 AM</span></td>
+	</tr>
+	<tr>
+		<td>&nbsp;&nbsp;</td>
+		<td width="100%"><a class="bluemini_upcomingevent_event" href="/cms/one.aspx?portalId=1581&amp;pageId=189804&amp;objectId.10494=1301732&amp;contextId.10494=189880&amp;parentId.10494=189881&amp;ref=mesTP9fg96fVsgzpWYeogNzr7qlMAX0lIWr8846DE%2fY%3d">EV (Exchange Visitor) Scholar Orientation</a></td>
+	</tr>
+	<tr>
+		<td>&nbsp;&nbsp;</td>
+		<td><span class="bluemini_upcomingevent_event">Jul 14 2020 at 02:00 PM</span></td>
+	</tr>
+</table>
+
+<!-- new -->
+
+
+
+</div><div class="ptl_portlet_vertical"><div class="ptl_top_portlet" style="display:none;"></div><div id="ctl00_ContentPlaceHolder1_ctl21_divContent"><!DOCTYPE html><html>
+    <head>
+    </head>
+    <body>
+        <br>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1-LFhtWeHF6wlQFQSsTNnyBgucX0" width="100%" height="300"></iframe>
+        <br>
+        <br>
+    </body>
+</html></div>
+</div></div></div></div></div></div></div></div><div class="push"></div></div><!-- END WRAP --><footer class="footer" role="contentinfo"><div class="footer-info row"><div class="footer_left"><a href="https://www.ois.uic.edu/announcements/support_the_office_of_international_services"><img src="/UserFiles/Servers/Server_1497/Image/HomePage/givenow.jpg" height="41"></img></a></div><div class="footer_center"><ul><li>Office of International Services</li><li>1200 West Harrison Street</li><li>Chicago, IL 60607-7161</li><li>Phone: <a href="tel:3129963121">(312) 996-3121</a></li><li>Email: <a href="mailto:ois@uic.edu" target="_top">ois@uic.edu</a></li><li></li></ul></div><div class="footer_right"><div class="icon icon--facebook"><a href="https://www.facebook.com/UIC-Office-of-International-Services-237371776297506"><div class="icon__name">Facebook</div></a></div><div class="icon icon--instagram"><a href="https://www.instagram.com/uic_ois/"><div class="icon__name">Instagram</div></a></div><div class="icon icon--twitter"><a href="https://twitter.com/UIC_OIS/"><div class="icon__name">Twitter</div></a></div></div></div><div class="footer-illinois"><div class="footer-logo"><a href="/" title="Home"><img src="/UserFiles/Servers/Server_1497/Image/Custom Theme/logored.png" alt="" class="img img-responsive"></img></a></div><div class="ss-credit">Copyright ©  2018 The Board of Trustees of the University of Illinois | <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Web Privacy Statement</a></div><div id="pub-links"></div><script type="text/javascript">
+function OptanonWrapper() { }
+</script><a class="optanon-show-settings">Cookie Settings</a></div></footer><!-- End Footer --><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script><script type="text/javascript" src="https://www.uillinois.edu/UserFiles/Servers/Server_1240/File/js/jquery.scrollUp.min.js"></script><script type="text/javascript" src="https://www.uillinois.edu/UserFiles/Servers/Server_1240/File/js/scrollUpSetup.js"></script><script type="text/javascript" src="https://www.uillinois.edu/UserFiles/Servers/Server_1240/File/js/TopSlideHover.js"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+;(function() {
+                        function loadHandler() {
+                            var hf = $get('ctl00_RadStyleSheetManager1_TSSM');
+                            if (!hf._RSSM_init) { hf._RSSM_init = true; hf.value = ''; }
+                            hf.value += ';Telerik.Web.UI, Version=2014.2.724.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4:en-US:fe82fcae-d61f-4a22-95fa-e36cf399ea02:ed2942d4';
+                            Sys.Application.remove_load(loadHandler);
+                        };
+                        Sys.Application.add_load(loadHandler);
+                    })();Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadMenu, {"_childListElementCssClass":null,"_selectedItemIndex":"0","_selectedValue":"1589","clientStateFieldID":"ctl00_ContentPlaceHolder1_ctl01_radmenu_ClientState","collapseAnimation":"{\"duration\":450}","expandAnimation":"{\"duration\":450}","itemData":[{"attributes":{"menunumber":"0"},"value":"1589","selected":true,"navigateUrl":"/home","cssClass":"rmFocused"},{"attributes":{"menunumber":"1"},"items":[{"attributes":{"menunumber":"2"},"value":"189666","navigateUrl":"/aboutois/executive_director_s_welcome"},{"attributes":{"menunumber":"3"},"value":"189667","navigateUrl":"/aboutois/our_population"},{"attributes":{"menunumber":"4"},"value":"189668","navigateUrl":"/aboutois/staff_directory"},{"attributes":{"menunumber":"5"},"value":"189669","navigateUrl":"/aboutois/hours_and_location"},{"attributes":{"menunumber":"6"},"value":"189670","navigateUrl":"/aboutois/emergency_information"},{"attributes":{"menunumber":"7"},"value":"189671","navigateUrl":"/aboutois/spotlight_on_scholars"}],"value":"189663","navigateUrl":"/aboutois"},{"attributes":{"menunumber":"8"},"items":[{"attributes":{"menunumber":"9"},"items":[{"attributes":{"menunumber":"10"},"value":"189677","navigateUrl":"/students/prospective/general_information"},{"attributes":{"menunumber":"11"},"value":"189678","navigateUrl":"/students/prospective/graduate_admissions"},{"attributes":{"menunumber":"12"},"value":"189679","navigateUrl":"/students/prospective/undergraduate_admissions"},{"attributes":{"menunumber":"13"},"value":"189680","navigateUrl":"/students/prospective/obtaining_an_initial_i-20__d_s-2019"},{"attributes":{"menunumber":"14"},"value":"189681","navigateUrl":"/students/prospective/declaration_and_certification_of_finances___d_c_f_"},{"attributes":{"menunumber":"15"},"value":"189682","navigateUrl":"/students/prospective/estimated_expenses"},{"attributes":{"menunumber":"16"},"value":"189683","navigateUrl":"/students/prospective/dependents"}],"value":"189676","navigateUrl":"/students/prospective"},{"attributes":{"menunumber":"17"},"items":[{"attributes":{"menunumber":"18"},"value":"189685","navigateUrl":"/students/admitted/transferring_to_u_i_c"},{"attributes":{"menunumber":"19"},"value":"189686","navigateUrl":"/students/admitted/travel___visas"},{"attributes":{"menunumber":"20"},"value":"189687","navigateUrl":"/students/admitted/pre-_arrival"},{"attributes":{"menunumber":"21"},"value":"189688","navigateUrl":"/students/admitted/housing"},{"attributes":{"menunumber":"22"},"value":"189689","navigateUrl":"/students/admitted/check-_in"},{"attributes":{"menunumber":"23"},"value":"213600","navigateUrl":"/students/admitted/international_student_orientation"}],"value":"189684","navigateUrl":"/students/admitted"},{"attributes":{"menunumber":"24"},"items":[{"attributes":{"menunumber":"25"},"value":"189692","navigateUrl":"/students/current/forms"},{"attributes":{"menunumber":"26"},"value":"189693","navigateUrl":"/students/current/academics"},{"attributes":{"menunumber":"27"},"value":"189694","navigateUrl":"/students/current/f-1_student_employment"},{"attributes":{"menunumber":"28"},"value":"386240","navigateUrl":"/students/current/j-1_student_employment"},{"attributes":{"menunumber":"29"},"value":"189695","navigateUrl":"/students/current/travel"},{"attributes":{"menunumber":"30"},"value":"189696","navigateUrl":"/students/current/replacement"},{"attributes":{"menunumber":"31"},"value":"189697","navigateUrl":"/students/current/address"},{"attributes":{"menunumber":"32"},"value":"189698","navigateUrl":"/students/current/status"},{"attributes":{"menunumber":"33"},"value":"189699","navigateUrl":"/students/current/departure"},{"attributes":{"menunumber":"34"},"value":"189700","navigateUrl":"/students/current/extension"},{"attributes":{"menunumber":"35"},"value":"189701","navigateUrl":"/students/current/scholarships"},{"attributes":{"menunumber":"36"},"value":"189702","navigateUrl":"/students/current/peoria"},{"attributes":{"menunumber":"37"},"value":"189703","navigateUrl":"/students/current/rockford"}],"value":"189691","navigateUrl":"/students/current"},{"attributes":{"menunumber":"38"},"value":"950612","navigateUrl":"/students/incoming_exchange_students"},{"attributes":{"menunumber":"39"},"value":"1125062","navigateUrl":"/students/fulbright_foreign_student_and_scholar___non_u__s__citizens_"}],"value":"189675","navigateUrl":"/students"},{"attributes":{"menunumber":"40"},"items":[{"attributes":{"menunumber":"41"},"value":"189707","navigateUrl":"/faculty__staff__and_scholars/travel___visas"},{"attributes":{"menunumber":"42"},"items":[{"attributes":{"menunumber":"43"},"value":"189709","navigateUrl":"/faculty__staff__and_scholars/j/categories"},{"attributes":{"menunumber":"44"},"value":"189710","navigateUrl":"/faculty__staff__and_scholars/j/prospective"},{"attributes":{"menunumber":"45"},"value":"189711","navigateUrl":"/faculty__staff__and_scholars/j/funding_requirements"},{"attributes":{"menunumber":"46"},"value":"189712","navigateUrl":"/faculty__staff__and_scholars/j/insurance"},{"attributes":{"menunumber":"47"},"value":"189713","navigateUrl":"/faculty__staff__and_scholars/j/status"},{"attributes":{"menunumber":"48"},"value":"189714","navigateUrl":"/faculty__staff__and_scholars/j/transfers"},{"attributes":{"menunumber":"49"},"value":"189715","navigateUrl":"/faculty__staff__and_scholars/j/dependents"}],"value":"189708","navigateUrl":"/faculty__staff__and_scholars/j"},{"attributes":{"menunumber":"50"},"items":[{"attributes":{"menunumber":"51"},"value":"189717","navigateUrl":"/faculty__staff__and_scholars/h/pre-_arrival"},{"attributes":{"menunumber":"52"},"value":"189718","navigateUrl":"/faculty__staff__and_scholars/h/maintaining_status"}],"value":"189716","navigateUrl":"/faculty__staff__and_scholars/h"},{"attributes":{"menunumber":"53"},"value":"189719","navigateUrl":"/faculty__staff__and_scholars/o"},{"attributes":{"menunumber":"54"},"value":"189720","navigateUrl":"/faculty__staff__and_scholars/tn"},{"attributes":{"menunumber":"55"},"value":"1032909","navigateUrl":"/faculty__staff__and_scholars/e-3"},{"attributes":{"menunumber":"56"},"value":"189721","navigateUrl":"/faculty__staff__and_scholars/other"},{"attributes":{"menunumber":"57"},"value":"189722","navigateUrl":"/faculty__staff__and_scholars/pending"},{"attributes":{"menunumber":"58"},"value":"189723","navigateUrl":"/faculty__staff__and_scholars/forms"},{"attributes":{"menunumber":"59"},"value":"1124940","navigateUrl":"/faculty__staff__and_scholars/fulbright_foreign_student_and_scholars"}],"value":"189706","navigateUrl":"/faculty__staff__and_scholars"},{"attributes":{"menunumber":"60"},"items":[{"attributes":{"menunumber":"61"},"value":"189726","navigateUrl":"/visitors/b-1__b-2"},{"attributes":{"menunumber":"62"},"value":"189727","navigateUrl":"/visitors/w_b__w_t"}],"value":"189725","navigateUrl":"/visitors"},{"attributes":{"menunumber":"63"},"items":[{"attributes":{"menunumber":"64"},"value":"189730","navigateUrl":"/departments/use_of_attorneys_policy"},{"attributes":{"menunumber":"65"},"items":[{"attributes":{"menunumber":"66"},"value":"189732","navigateUrl":"/departments/guide_to_hiring/quick_guide_to_hiring"},{"attributes":{"menunumber":"67"},"value":"189733","navigateUrl":"/departments/guide_to_hiring/credential_evaluations"},{"attributes":{"menunumber":"68"},"value":"189734","navigateUrl":"/departments/guide_to_hiring/t_n"}],"value":"189731","navigateUrl":"/departments/guide_to_hiring"},{"attributes":{"menunumber":"69"},"value":"189735","navigateUrl":"/departments/permanent_residency"},{"attributes":{"menunumber":"70"},"value":"189736","navigateUrl":"/departments/o_b_f_s"},{"attributes":{"menunumber":"71"},"value":"189737","navigateUrl":"/departments/forms"}],"value":"189729","navigateUrl":"/departments"},{"attributes":{"menunumber":"72"},"items":[{"attributes":{"menunumber":"73"},"value":"189741","navigateUrl":"/programs/tradewinds"},{"attributes":{"menunumber":"74"},"items":[{"attributes":{"menunumber":"75"},"value":"737860","navigateUrl":"/programs/first_friends/first_friends_training_guide"}],"value":"189743","navigateUrl":"/programs/first_friends"},{"attributes":{"menunumber":"76"},"value":"757861","navigateUrl":"/programs/global_ambassadors"},{"attributes":{"menunumber":"77"},"value":"189744","navigateUrl":"/programs/employment_workshops_and_events"},{"attributes":{"menunumber":"78"},"value":"189745","navigateUrl":"/programs/international_education_week"},{"attributes":{"menunumber":"79"},"value":"189746","navigateUrl":"/programs/international_student_career_week"},{"attributes":{"menunumber":"80"},"value":"189748","navigateUrl":"/programs/thanksgiving_dinner"},{"attributes":{"menunumber":"81"},"value":"189749","navigateUrl":"/programs/pumpkin_farm_trip"},{"attributes":{"menunumber":"82"},"value":"189750","navigateUrl":"/programs/other_events"}],"value":"189740","navigateUrl":"/programs"},{"attributes":{"menunumber":"83"},"items":[{"attributes":{"menunumber":"84"},"value":"189755","navigateUrl":"/life_in_illinois/chicago"},{"attributes":{"menunumber":"85"},"value":"189756","navigateUrl":"/life_in_illinois/peoria"},{"attributes":{"menunumber":"86"},"value":"189757","navigateUrl":"/life_in_illinois/rockford"}],"value":"189754","navigateUrl":"/life_in_illinois"},{"attributes":{"menunumber":"87"},"value":"190237","navigateUrl":"/alumni"},{"attributes":{"menunumber":"88"},"items":[{"attributes":{"menunumber":"89"},"value":"189760","navigateUrl":"/resources/driver_s_license"},{"attributes":{"menunumber":"90"},"value":"189761","navigateUrl":"/resources/cell_phone"},{"attributes":{"menunumber":"91"},"value":"189762","navigateUrl":"/resources/social_security_number"},{"attributes":{"menunumber":"92"},"value":"189763","navigateUrl":"/resources/transportation"},{"attributes":{"menunumber":"93"},"value":"189764","navigateUrl":"/resources/money__banking"},{"attributes":{"menunumber":"94"},"value":"189765","navigateUrl":"/resources/housing"},{"attributes":{"menunumber":"95"},"value":"189766","navigateUrl":"/resources/health"},{"attributes":{"menunumber":"96"},"value":"189767","navigateUrl":"/resources/insurance"},{"attributes":{"menunumber":"97"},"value":"189768","navigateUrl":"/resources/important_links"}],"value":"189759","navigateUrl":"/resources"},{"attributes":{"menunumber":"98"},"items":[{"attributes":{"menunumber":"99"},"value":"1368205","navigateUrl":"/news/o_i_s_n_e_w_s_-_3_17_2020"},{"attributes":{"menunumber":"100"},"value":"1364777","navigateUrl":"/news/o_i_s_n_e_w_s___3_09_2020"},{"attributes":{"menunumber":"101"},"value":"1355392","navigateUrl":"/news/o_i_s_n_e_w_s___2_25_2020"},{"attributes":{"menunumber":"102"},"value":"1351894","navigateUrl":"/news/o_i_s_n_e_w_s___2_19_2020"},{"attributes":{"menunumber":"103"},"value":"1345188","navigateUrl":"/news/o_i_s_n_e_w_s___2_11_2020"},{"attributes":{"menunumber":"104"},"value":"695193","navigateUrl":"/news/ois_news_-_2_06_2020"},{"attributes":{"menunumber":"105"},"value":"1337943","navigateUrl":"/news/o_i_s_n_e_w_s_-_1_24_2020"},{"attributes":{"menunumber":"106"},"value":"1333121","navigateUrl":"/news/o_i_s_n_e_w_s_-_1_14_2020"},{"attributes":{"menunumber":"107"},"value":"1325018","navigateUrl":"/news/o_i_s_n_e_w_s___12_19_2019"},{"attributes":{"menunumber":"108"},"value":"1319891","navigateUrl":"/news/o_i_s_n_e_w_s___12_11_2019"},{"attributes":{"menunumber":"109"},"value":"1227012","navigateUrl":"/news/o_i_s_n_e_w_s___7_11_2019"},{"attributes":{"menunumber":"110"},"value":"1180278","navigateUrl":"/news/o_i_s_n_e_w_s___6_26_2019"},{"attributes":{"menunumber":"111"},"value":"1163422","navigateUrl":"/news/o_i_s_news_-_5_24_2019"},{"attributes":{"menunumber":"112"},"value":"1116224","navigateUrl":"/news/o_i_s_n_e_w_s___3_1_2019"},{"attributes":{"menunumber":"113"},"value":"1110222","navigateUrl":"/news/o_i_s_n_e_w_s___2_19_2019"},{"attributes":{"menunumber":"114"},"value":"1075584","navigateUrl":"/news/o_i_s_n_e_w_s___12_13_2018"},{"attributes":{"menunumber":"115"},"value":"1028182","navigateUrl":"/news/o_i_s_news_-_10_4_2018"},{"attributes":{"menunumber":"116"},"value":"1028172","navigateUrl":"/news/o_i_s_news_-_10_1_2018"},{"attributes":{"menunumber":"117"},"value":"935470","navigateUrl":"/news/o_i_s_news_-_5_2_2018"},{"attributes":{"menunumber":"118"},"value":"935459","navigateUrl":"/news/o_i_s_news_-_5_1_2018"},{"attributes":{"menunumber":"119"},"value":"894556","navigateUrl":"/news/o_i_s_news_-_2_22_2018"},{"attributes":{"menunumber":"120"},"value":"821591","navigateUrl":"/news/o_i_s_n_e_w_s_-_10_02_2017"},{"attributes":{"menunumber":"121"},"value":"691313","navigateUrl":"/news/o_i_s_n_e_w_s_-_02_28_2017"},{"attributes":{"menunumber":"122"},"value":"740852","navigateUrl":"/news/o_i_s_n_e_w_s_-_05_24_2017"},{"attributes":{"menunumber":"123"},"value":"1369306","navigateUrl":"/news/coronavirus__c_o_v_i_d-19_updates_for_the_u_i_c_in"},{"attributes":{"menunumber":"124"},"value":"1394808","navigateUrl":"/news/o_i_s_n_e_w_s_-_5_08_2020"}],"value":"189819","navigateUrl":"/news"}]}, {"itemClicking":ClickItem}, null, $get("ctl00_ContentPlaceHolder1_ctl01_radmenu"));
+});
+//]]>
+</script>
+</form>
+    <script type="text/javascript">
+        window.isMobile = 0 == 1;
+        if (!theForm) {
+                var theForm = document.forms['aspnetForm'];
+                if (!theForm) 
+                    theForm = document.aspnetForm;
+            }
+            if (theForm) {
+                theForm.action = window.location.href;
+            }
+    </script>
+</body>
+</html>
+

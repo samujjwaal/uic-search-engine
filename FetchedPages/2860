@@ -1,84 +1,50 @@
-  
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
-<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
-<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js" lang="en-US"> <!--<![endif]-->
+
+<!DOCTYPE html>
+<html lang="en-US">
+<!--Google Fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic' rel='stylesheet' type='text/css'>
 
-    <head>
+<!--[if IE 7 ]>    <html class= "ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class= "ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class= "ie9"> <![endif]-->
 
-<!-- Google Analytics script (RED and this site) -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<!--[if lt IE 9]>
+   <script>
+      document.createElement('header');
+      document.createElement('nav');
+      document.createElement('section');
+      document.createElement('article');
+      document.createElement('aside');
+      document.createElement('footer');
+   </script>
+<![endif]-->
+<head>
 
-    
-        ga('create', 'UA-20665772-1', 'auto');
-    
-        ga('create', 'UA-35369580-1', 'auto', 'researchTracker');
-    
-        ga('send', 'pageview');
-    
-        ga('researchTracker.send', 'pageview');
-      </script>
-<!-- End Google Analytics script (RED and this site) -->
+<title>UIC Center for Global Health &raquo; Postgraduate Global Health Education</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-
-
-<!-- Google Tag Manager script for RED multisite -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
-              (window,document,'script','dataLayer','GTM-W2Q8D2K');
-  </script>
-<!-- End Google Tag Manager script for RED multisite -->
+<!-- *************************************************************************
+**************************   STYLE SHEET   *******************************
+************************************************************************** -->
+<link href="http://globalhealth.uic.edu/wp-content/themes/mammoth-wp-child/style.css" rel="stylesheet" type="text/css" media="screen" />
 
 
+<link rel="pingback" href="http://globalhealth.uic.edu/xmlrpc.php" />
 
+ <!-- *************************************************************************
+*****************                FAVICON               ********************
+************************************************************************** -->
 
+<link rel="shortcut icon" href="http://globalhealth.uic.edu/wp-content/uploads/2013/10/favicon.ico" />
 
+  <!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 
-        <title>
-                            COVID-19 Specific Response Information | Office of the Vice Chancellor for Research | University of Illinois at Chicago
-                    </title>
-
-
-
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="pingback" href="https://research.uic.edu/xmlrpc.php" />
-
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60.png" />
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png" />
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76.png" />
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
-<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
-<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
-<link rel="icon" type="image/png" href="/favicon-128.png" sizes="128x128" />
-<meta name="application-name" content="&nbsp;"/>
-<meta name="msapplication-TileColor" content="#FFFFFF" />
-<meta name="msapplication-TileImage" content="mstile-144x144.png" />
-<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
-<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
-<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
-<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
-
-    <link rel="stylesheet" href="https://research.uic.edu/wp-content/themes/uic-red/main.css?v=1587475706" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://research.uic.edu/wp-content/themes/uic-red/theinhardt.css?v=1587475706" type="text/css" media="all">
-
-    <link rel='dns-prefetch' href='//www.uic.edu' />
-<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
 		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/research.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6"}};
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/globalhealth.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=2e904ac675a9f78c3b69ba4dd8d8f7dd"}};
 			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
 		<style type="text/css">
@@ -95,15 +61,55 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='https://research.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6' type='text/css' media='all' />
-<link rel='stylesheet' id='sb_instagram_styles-css'  href='https://research.uic.edu/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.12.1' type='text/css' media='all' />
-<link rel='stylesheet' id='sb-font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='tablepress-default-css'  href='https://research.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
-<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
-<link rel='https://api.w.org/' href='https://research.uic.edu/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://research.uic.edu/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://research.uic.edu/wp-includes/wlwmanifest.xml" /> 
+<link rel='stylesheet' id='zilla-shortcodes-css'  href='http://globalhealth.uic.edu/wp-content/plugins/zilla-shortcodes/shortcodes.css?ver=2e904ac675a9f78c3b69ba4dd8d8f7dd' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='http://globalhealth.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=2e904ac675a9f78c3b69ba4dd8d8f7dd' type='text/css' media='all' />
+<link rel='stylesheet' id='events-manager-css'  href='http://globalhealth.uic.edu/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.96' type='text/css' media='all' />
+<link rel='stylesheet' id='collapseomatic-css-css'  href='http://globalhealth.uic.edu/wp-content/plugins/jquery-collapse-o-matic/light_style.css?ver=1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='http://globalhealth.uic.edu/wp-content/plugins/easy-fancybox/css/jquery.fancybox.min.css?ver=1.3.24' type='text/css' media='screen' />
+<link rel='stylesheet' id='mediaelementjs-styles-css'  href='http://globalhealth.uic.edu/wp-content/plugins/media-element-html5-video-and-audio-player/mediaelement/v4/mediaelementplayer.min.css?ver=2e904ac675a9f78c3b69ba4dd8d8f7dd' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelementjs-styles-legacy-css'  href='http://globalhealth.uic.edu/wp-content/plugins/media-element-html5-video-and-audio-player/mediaelement/v4/mediaelementplayer-legacy.min.css?ver=2e904ac675a9f78c3b69ba4dd8d8f7dd' type='text/css' media='all' />
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-includes/js/jquery/ui/accordion.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-content/plugins/zilla-shortcodes/js/zilla-shortcodes-lib.js?ver=2e904ac675a9f78c3b69ba4dd8d8f7dd'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-includes/js/wp-a11y.min.js?ver=2e904ac675a9f78c3b69ba4dd8d8f7dd'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var EM = {"ajaxurl":"https:\/\/globalhealth.uic.edu\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/globalhealth.uic.edu\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"dd\/mm\/yy","ui_css":"http:\/\/globalhealth.uic.edu\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"0","is_ssl":"","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.96'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-content/plugins/media-element-html5-video-and-audio-player/mediaelement/v4/mediaelement-and-player.min.js?ver=4.2.8'></script>
+<link rel='https://api.w.org/' href='http://globalhealth.uic.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://globalhealth.uic.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://globalhealth.uic.edu/wp-includes/wlwmanifest.xml" /> 
 
+<link rel="canonical" href="http://globalhealth.uic.edu/about-us/strategic-initiatives/postgraduate-global-health-education" />
+<link rel='shortlink' href='http://globalhealth.uic.edu/?p=2172' />
+<link rel="alternate" type="application/json+oembed" href="http://globalhealth.uic.edu/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fglobalhealth.uic.edu%2Fabout-us%2Fstrategic-initiatives%2Fpostgraduate-global-health-education" />
+<link rel="alternate" type="text/xml+oembed" href="http://globalhealth.uic.edu/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fglobalhealth.uic.edu%2Fabout-us%2Fstrategic-initiatives%2Fpostgraduate-global-health-education&#038;format=xml" />
+<link rel="alternate" type="application/rss+xml" title="UIC Center for Global Health GeoRSS-Feed" href="http://globalhealth.uic.edu/wp-content/plugins/leaflet-maps-marker/leaflet-georss.php?layer=all" />
 <script type="text/javascript">
 (function(url){
 	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
@@ -137,3503 +143,894 @@ img.emoji {
 	for (var i = 0; i < evts.length; i++) {
 		addEvent(evts[i], logHuman);
 	}
-})('//research.uic.edu/?wordfence_lh=1&hid=3604ECA77C1D9E080D8015A0DA7790D6');
+})('//globalhealth.uic.edu/?wordfence_lh=1&hid=81C541A1CE0C15664DEDABC4D1F80A04');
 </script>
+<!-- *************************************************************************
+*****************          Theme Option Colors         ********************
+************************************************************************** -->
+
+
+
+
+<style type="text/css">
+	
+#outer_footer_wrapper {
+	background-image:url('');
+	background-repeat:;
+	background-color:#b4484a;
+	}
+	
+.copyright_message, .copyright_message p, .copyright_message a, .copyright_message a:hover {
+	color:#ffffff;
+	}
+	
+ul.icons li a, ul.icons li a:hover, .social .one_fourth_first, .social .one_fourth, .social .one_fourth p, .social .one_fourth a, .social .one_fourth a:hover, .social .one_fourth li, .social .one_fourth li a, .social .one_fourth li a:hover, .social .one_fourth_first p, .social .one_fourth_first a, .social .one_fourth_first a:hover, .social .one_fourth_first li, .social .one_fourth_first li a, .social .one_fourth_first li a:hover, .social .one_fourth_first h1, .social .one_fourth_first h2, .social .one_fourth_first h3, .social .one_fourth_first h4, .social .one_fourth_first h5, .social .one_fourth_first h6, .social .one_fourth_first h1 a, .social .one_fourth_first h2 a, .social .one_fourth_first h3 a, .social .one_fourth_first h4 a, .social .one_fourth_first h5 a, .social .one_fourth_first h6 a, .social .one_fourth_first h1 a:hover, .social .one_fourth_first h2 a:hover, .social .one_fourth_first h3 a:hover, .social .one_fourth_first h4 a:hover, .social .one_fourth_first h5 a:hover, .social .one_fourth_first h6 a:hover, .social .one_fourth h1, .social .one_fourth h2, .social .one_fourth h3, .social .one_fourth h4, .social .one_fourth h5, .social .one_fourth h6, .social .one_fourth h1 a, .social .one_fourth h2 a, .social .one_fourth h3 a, .social .one_fourth h4 a, .social .one_fourth h5 a, .social .one_fourth h6 a, .social .one_fourth h1 a:hover, .social .one_fourth h2 a:hover, .social .one_fourth h3 a:hover, .social .one_fourth h4 a:hover, .social .one_fourth h5 a:hover, .social .one_fourth h6 a:hover{
+	color:#ffffff;
+	}
+	
+#bottom_nav_wrap {
+	background-image:url('');
+	background-repeat:;
+	background-color:#6ba3b8;
+	}
+	
+ul.icons li:hover {
+	border:4px solid #ffffff;
+	}
+	
+.social input[type="text"], .social textarea {
+	background-color:#7fadb8;
+	color:#575757;
+	border:1px solid #ffffff;
+	}
+
+.social input[type="text"]:focus, .social textarea:focus {
+	background-color:#ffffff;
+	color:#575757;
+	border:1px solid #7fadb8;
+	}
+	
+.social p, .textwidget div.wpcf7-validation-errors, .textwidget span.wpcf7-not-valid-tip, 
+.textwidget div.wpcf7-mail-sent-ok, .social h1 {
+	color:#ffffff !important;
+	border:none !important;
+	}
+	
+div.wpcf7-validation-errors, span.wpcf7-not-valid-tip, div.wpcf7-mail-sent-ok, .wpcf7-form p {
+	color:#000000 !important;
+	border:none !important;
+	}
+
+.bdywrapper {
+	background-image:url('');
+	background-repeat:;
+	background-color:;
+	}
+	
+#slider_wrapper, .intro_text_wrapper {
+	background-image:url('');
+	background-repeat:;
+	background-color:#f0f4f7;
+	}
+	
+#outer_wrapper, .sf-menu li li {
+	background-image:url('');
+	background-repeat:;
+	background-color:#f0f4f7;
+	}
+	
+ul.sf-menu li ul.sub-menu li.current_page_item a, ul.sf-menu li.current_page_item a, ul.sf-menu li ul.sub-menu li.current-menu-item a, ul.sf-menu li.current-menu-item a, .sf-menu li a:hover, ul.sf-menu li ul.sub-menu li a:hover {
+	color:#ba3029;
+	}
+	
+.sf-menu li a, ul.sf-menu li ul.sub-menu li a {
+	color:#666666;
+	}
+	
+.orange_background {
+	background-color:#83b2bd;
+	}
+	
+.orange_background p {
+	color:#ffffff !important;
+	}
+	
+.orange_background a, .orange_background a:hover {
+	color:#ffffff;
+	text-decoration:underline;
+	}
+	
+.intro_text p {
+	color:#575757;
+	}
+	
+h1.orange {
+	color:#ffffff;
+	background-color:#b4484a;
+	}
+	
+h1.homeslide {
+	color:#ffffff;
+	background-color:#b4484a;
+	} 
+	
+body, p, ul li, ol li, .one_half, .one_half_first, .one_third, .one_third_first, .two_third, .two_third_first, .one_fourth, .one_fourth_first, .three_fourth, .three_fourth_first, .one_fifth, .one_fifth_first, .two_fifth, .two_fifth_first, .three_fifth, .three_fifth_first, .four_fifth, .four_fifth_first, .one_sixth, .one_sixth_first, .event_content_last, .comment-content, .comment-meta, .commentlist p, .meta, .metacomments, label, .collapseomatic_content  {
+	color:#000000;
+	}
+	
+a, ul li a, ol li a, .one_half a, .one_half_first a, .one_third a, .one_third_first a, .two_third a, .two_third_first a, .one_fourth a, .one_fourth_first a, .three_fourth a, .three_fourth_first a, .one_fifth a, .one_fifth_first a, .two_fifth a, .two_fifth_first a, .three_fifth a, .three_fifth_first a, .four_fifth a, .four_fifth_first a, .one_sixth a, .one_sixth_first a, blockquote a, blockquote p a, .quote a, .quote p a, .pullquoteleft a, .pullquoteright a, .intro a, .intro p a, .metacomments a {
+	color:#4e8ca3;
+	}
+	
+.intro, .intro p {
+	color:#474747;
+	}
+	
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .blog_wrapper h1 a, .bdywrapper h2 a, .bdywrapper h3 a, .bdywrapper h4 a, .bdywrapper h5 a, .bdywrapper h6 a, .comment-author, .comment_title, blockquote, blockquote p, .quote, .quote p, .pullquoteleft, .pullquoteright {
+	color:#474747;
+	}
+	
+a:hover, ul li a:hover, ol li a:hover, .one_half a:hover, .one_half_first a:hover, .one_third a:hover, .one_third_first a:hover, .two_third a:hover, .two_third_first a:hover, .one_fourth a:hover, .one_fourth_first a:hover, .three_fourth a:hover, .three_fourth_first a:hover, .one_fifth a:hover, .one_fifth_first a:hover, .two_fifth a:hover, .two_fifth_first a:hover, .three_fifth a:hover, .three_fifth_first a:hover, .four_fifth a:hover, .four_fifth_first a:hover, .one_sixth a:hover, .one_sixth_first a:hover, blockquote a:hover, blockquote p a:hover, .quote a:hover, .quote p a:hover, .pullquoteleft a:hover, .pullquoteright a:hover, .comments:after, .time:after, .venue:after, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .intro a:hover, .intro p a:hover, .metacomments a:hover, .blog_wrapper h1 a:hover, .blog_wrapper h2 a:hover, .blog_wrapper h3 a:hover, .blog_wrapper h4 a:hover, .blog_wrapper h5 a:hover, .blog_wrapper h6 a:hover {
+	color:#b4484a;
+	}
+	
+hr, .hrr, .commentlist li, .commentlist li:first-child, ul.sf-menu li ul.sub-menu li a, #homepage_slider, .intro_text_wrapper {
+	border-bottom: 1px solid #e1e1e1;
+	}
+	
+.pullquoteleft, .pullquoteright, .navigation, blockquote, .quote {
+	border-bottom: 1px solid #e1e1e1;
+	border-top: 1px solid #e1e1e1;
+	}
+	
+.commentlist ul.children li {
+	border-top: 1px solid #e1e1e1;
+	}
+	
+.collapseomatic {
+	background-color:#b4484a;
+	color:#ffffff;
+	}
+	
+.featured_text_link, .featured_text_quote {
+	background-color:;
+	}
+
+.featured_text_quote_title {
+	background-color:;
+	}
+	
+input[type="text"], textarea {
+	background-color:#f5f8fa;
+	color:#888888;
+	border:1px solid #e1e1e1;
+	}
+	
+input[type="text"]:focus, textarea:focus {
+	background-color:#ffffff;
+	color:#888888;
+	border:1px solid #c9c9c9;
+	}
+	
+ul.icons li {
+	background-color:#9ec1c9;
+	}
+	
+.portfolio_content_wrapper {
+	background-color:#ffffff;
+	}
+	
+input[type=submit], .button a, .button_reverse a:hover {
+	background-color:#b4484a;
+	color:#ffffff;
+	}
+
+input[type=submit]:hover, .button_reverse a, .button a:hover {
+	background-color:#88bbc8;
+	color:#ffffff;
+	}
+	
+.social .wpcf7-form p {
+	color:#ffffff !important;
+	}
+
+
+</style>
+
+<!-- *************************************************************************
+*****************              CUSTOM CSS              ********************
+************************************************************************** -->
+
+
+<style type="text/css">
+    /*/////  HEADER ////*/
+
+.sf-menu li ul {margin-left: 2px;}
+
+#nav_wrapper {min-height: 115px;}
+
+
+/*/////  SLIDER  ////*/
+
+.orange_background a {color: #ffffff; text-decoration: none; border-bottom: 1px solid #adcdd7;}
+
+.orange_background p {font-weight: 400;}
+
+.orange_background a:hover {text-decoration: none; border-bottom: 1px solid #fff;}
+
+
+/*/////  BODY  ////*/
+p, ul li, ol li, .one_half, .one_half_first, .two_third, .two_third_first, .one_fourth, .one_fourth_first, .three_fourth, .three_fourth_first, .one_fifth, .one_fifth_first, .two_fifth, .two_fifth_first, .three_fifth, .three_fifth_first, .four_fifth, .four_fifth_first, .one_sixth, .one_sixth_first, .event_content_last, .comment-content, .comment-meta, .commentlist p, .meta, .metacomments, label, .collapseomatic_content, .featured_text_full {color: #4a4a4a; font-weight: 400; line-height: 1.7em;}
+
+.intro_text_wrapper {padding: 60px 0 60px;}
+p {clear: none;}
+
+h2 {font-weight: 300;}
+
+h3, h3 a {font-size: 18px; text-transform: initial; font-weight: 600; letter-spacing: 0px;}
+
+h3 a, .bdywrapper h3 a {color: #4e8ca3;}
+
+h4 {font-size: 15px; line-height: 1.25em; margin: 25px 0 0;}
+
+ul li {list-style: square outside none; padding-bottom: 5px;}
+
+ol li {list-style: decimal outside; padding-bottom: 15px;}
+
+.zilla-one-half {padding-top: 15px;}
+
+img.alignleft, img.alignright {margin-bottom: 0px;}
+
+.intro {font-size: 18px; line-height: 1.75em; font-weight: 300;}
+
+blockquote p {margin-bottom: 10px;}
+
+blockquote {margin-bottom: 15px;}
+
+.featured_text_full ul li, .featured_text_full ol li  {margin-left: 19px;}
+
+#main {padding-top: 25px;}
+
+#breadcrumbs {color: #777; font-weight: 400; font-size: 13px; padding-bottom: 15px;}
+
+.blog_wrapper img {border: 1px solid #ccc;}
+
+
+/*/////  SUBNAV  ////*/
+
+#wrapper_content_left, #right_content { background: #f0f4f7; padding: 0 0 10px 20px;}
+
+#rightside_content, #right_content { margin-top: 15px;}
+
+#right_content {padding: 5px 0 20px 30px;}
+
+ul.subnav li.children {padding: 0 10px 0 1.4em; }
+
+ul.subnav li.level-1, ul.subnav, li.level-2 {list-style: square outside none; padding-bottom: 10px;}
+
+.root-parent {font-weight: 800; padding: 10px 0 15px;}
+
+
+
+/*/////   GRAVITY FORM    ////*/
+
+.gform_wrapper .ginput_complex label {margin: -8px 0 12px 0;}
+
+
+
+
+/*/////   FOOTER    ////*/
+
+.social .one_fourth ul li a, .social a, .social .one_fourth_first a {text-decoration: none; border-bottom: 1px solid #8dc5d8; }
+
+.social .one_fourth_first a:hover, .social .one_fourth ul li a:hover {text-decoration: none; border-bottom: 1px solid #fff; }
+
+.social h5 {margin-bottom: 10px;}
+
+
+/*/////   MEDIA QUERIES    ////*/
+
+media="screen"
+@media only screen and (max-width: 768px) {
+
+#nav_wrapper, #main, .social, #footer_wrapper, .copyright_message, .intro_text, #main_fullwidth, .slider_content_wrapper, .flex-control-nav, #wrapper_content_right, #wrapper_content_left, #left_content_wrapper, #right_content_wrapper {width: 93%;}
+
+}	
+	
+</style>
+
 </head>
-      
-  <body>
 
-<!-- Google Tag Manager for RED multisite (noscript) -->
-<noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2Q8D2K" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager for RED multisite (noscript) -->
 
 
 
-
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  <div class="l-page page-template-default page page-id-14170 page-parent post-type--news  site-type-c theme--blue no-sidebar  ">
-
-
-    <!--[if lte IE 9]>
-<div class="browser-stripe u-dark-region">
-  <div class="l-full">
-      <h2>Your browser is unsupported</h2>
-      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
-  </div>
-</div>
-<![endif]-->
-<div class="browser-stripe u-dark-region ie10">
-  <div class="l-full">
-      <h2>Your browser is unsupported</h2>
-      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
-  </div>
-</div>
-    
-<header class="l-header" role="banner">
-
-  
-  <div class="header-navigation">
-
-      <div id="skip" class="skip-menu assistive-text">
-  <p>
-    <span class="_main">
-    <a href="#article">Skip to the content of this page</a>,
-    </span>
-    <a class="_primary-menu" href="#menu-main">the main menu</a>,
-
-    
-        <a class="_search" href="#google_translate_element">Google Translate</a>,
-    
-    <a class="_search" href="#search">the site search form</a>,
-
-    <a class="_home" href="https://research.uic.edu">the site home page</a>.
-  </p>
-</div>
-
-      <div class="eyebrow-mobile-wrapper js-eyebrow-mobile">
-<div class="eyebrow-mobile">
-            <div class="eyebrow-mobile-logo eyebrow-logo">
-            <a href="http://uic.edu" class="uic-logo-icon eyebrow-mobile-logo__uic-logo">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
-    </div>
-                <div class="site-title-eyebrow-mobile">
-          <a href="https://research.uic.edu">Office of the Vice Chancellor for Research</a>
-        </div>
-    
-    <button aria-label="Search the site" class="search-toggle-mobile js-search-toggle-mobile">
-  <span class="icon-search ">
-        <span class="assistive-text">Search the site</span>
-      </span>
-    </button>
-    <button class="nav-header-toggle js-nav-header-toggle">
-      <span class="icon-menu ">
-      Toggle Menu
-      </span>
-    </button>
-  </div>
-  <div class="search-input-container-mobile">
-    <div class="search-input-container-mobile__content">
-      <div class="search-title">
-        Search
-        <a class="search-close search-toggle-mobile">
-          <svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22">
-            <use xlink:href="https://research.uic.edu/wp-content/themes/uic-red/images/svgs/svgs.svg#icon-close"></use>
-          </svg>
-        </a>
-      </div>
-      <form method="get" action="/search" role="search" aria-label="Search this site on your mobile device">
-        <input type="text" name="q" class="search-input-mobile" placeholder="Search..." tabindex="-1" aria-label="Search this site on your mobile device" disabled="">
-        <input type="submit" class="submit-button" name="search" value="Submit">
-      </form>
-    </div>
-  </div>
-</div>
-
-    <div class="header-navigation__eyebrow">
-
-                    <div class="header-navigation-logo header-logo">
-                        <a href="http://uic.edu" class="uic-logo-icon header-navigation-logo__uic-logo">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
-            </div>
-                <div class="header-navigation__eyebrow-menus">
-
-            <div class="header-navigation__logo-and-site-title">
-
-                                <div class="site-title-main ">
-                                      <a href="https://research.uic.edu">Office of the Vice Chancellor for Research</a>
-                                    </div>
-              
-            </div>
-          <nav class="header-menus js-header-menus " aria-label="Primary" role="navigation">
-
-  <div class="site-title-mobile-menu">
-    <a href="https://research.uic.edu">Office of the Vice Chancellor for Research</a>
-  </div>
-
-      <h2 class="assistive-text">Google Translate</h2>
-    <div class="google-translate">
-  <div id="google_translate_element">
-
-  </div>
-
-  <script type="text/javascript">
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
-      }
-  </script>
-  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-</div>
-
-
-  
-  <h2 class="assistive-text">Main Menu</h2>
-  <ul id="menu-main" class="menu menu-main" aria-label="Main Menu">
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-470 menu-item-has-children menu-item-has-mega-menu">
-      <a 
-        class="menu-main__first-link"
-        href="/sponsoredprograms/"
-        target="_self">
-
-        Sponsored Programs
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Sponsored Programs menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Sponsored Programs menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-25 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/sponsoredprograms/funding-opportunities/"
-                  target="_self">
-
-                  Find Funding
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3168">
-                <a 
-                  class="menu-main__second-link"
-                  href="/sponsoredprograms/proposal-development/"
-                  target="_self">
-
-                  Develop Proposal
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-331 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/sponsoredprograms/proposals/"
-                  target="_self">
-
-                  Submit Proposal
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-332 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/sponsoredprograms/receiving-an-award/"
-                  target="_self">
-
-                  Receive Award
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-330 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/sponsoredprograms/managing-an-award/"
-                  target="_self">
-
-                  Manage Award
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-334 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/sponsoredprograms/closeout-award/"
-                  target="_self">
-
-                  Closeout Award
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-10082">
-                <a 
-                  class="menu-main__second-link"
-                  href="/sponsoredprograms/submission-links-and-forms/"
-                  target="_self">
-
-                  Forms and Templates
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-12982">
-                <a 
-                  class="menu-main__second-link"
-                  href="/sponsoredprograms/policies-and-guidance/"
-                  target="_self">
-
-                  Policies and Guidance
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-752 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/sponsoredprograms/find-contacts/"
-                  target="_self">
-
-                  Find Contacts
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-11227">
-                <a 
-                  class="menu-main__second-link"
-                  href="/sponsoredprograms/contact-us/"
-                  target="_self">
-
-                  Contact Us
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      <div class="mega-menu">
-        <p class="mega-menu__title">Sponsored Programs</p>
-        <ul class="mega-menu__list">
-                      <li class="mega-menu__item">
-              <a  class="mega-menu__link" href="https://research.uic.edu/sponsoredprograms/funding-opportunities/">
-                <img
-                  class="mega-menu__thumbnail"
-                  src="https://research.uic.edu/wp-content/uploads/sites/232/2019/02/lifecycle-funding-350x225.jpg"
-                  alt="find funding"
-                  role="presentation">
-
-                <span class="mega-menu__link-text">
-                  Find Funding 
-                </span>
-              </a>
-            </li>
-                      <li class="mega-menu__item">
-              <a  class="mega-menu__link" href="https://research.uic.edu/sponsoredprograms/proposal-development/">
-                <img
-                  class="mega-menu__thumbnail"
-                  src="https://research.uic.edu/wp-content/uploads/sites/232/2019/05/lifecycle-develop-350x225.jpg"
-                  alt="develop proposal"
-                  role="presentation">
-
-                <span class="mega-menu__link-text">
-                  Develop Proposal
-                </span>
-              </a>
-            </li>
-                      <li class="mega-menu__item">
-              <a  class="mega-menu__link" href="https://research.uic.edu/sponsoredprograms/proposals/">
-                <img
-                  class="mega-menu__thumbnail"
-                  src="https://research.uic.edu/wp-content/uploads/sites/232/2019/01/lifecycle-proposals-350x225.jpg"
-                  alt="submit proposal"
-                  role="presentation">
-
-                <span class="mega-menu__link-text">
-                  Submit Proposal
-                </span>
-              </a>
-            </li>
-                      <li class="mega-menu__item">
-              <a  class="mega-menu__link" href="https://research.uic.edu/sponsoredprograms/receiving-an-award/">
-                <img
-                  class="mega-menu__thumbnail"
-                  src="https://research.uic.edu/wp-content/uploads/sites/232/2019/02/lifecycle-receiving-350x225.jpg"
-                  alt="receive award"
-                  role="presentation">
-
-                <span class="mega-menu__link-text">
-                  Receive Award
-                </span>
-              </a>
-            </li>
-                      <li class="mega-menu__item">
-              <a  class="mega-menu__link" href="https://research.uic.edu/sponsoredprograms/managing-an-award/">
-                <img
-                  class="mega-menu__thumbnail"
-                  src="https://research.uic.edu/wp-content/uploads/sites/232/2019/02/lifecycle-managing-350x225.jpg"
-                  alt="manage award"
-                  role="presentation">
-
-                <span class="mega-menu__link-text">
-                  Manage Award
-                </span>
-              </a>
-            </li>
-                      <li class="mega-menu__item">
-              <a  class="mega-menu__link" href="https://research.uic.edu/sponsoredprograms/closeout-award/">
-                <img
-                  class="mega-menu__thumbnail"
-                  src="https://research.uic.edu/wp-content/uploads/sites/232/2019/01/lifecycle-closeout-350x225.jpg"
-                  alt="closeout award"
-                  role="presentation">
-
-                <span class="mega-menu__link-text">
-                  Closeout Award
-                </span>
-              </a>
-            </li>
-                  </ul>
-      </div>
-
-              </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-293 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/compliance/"
-        target="_self">
-
-        Compliance
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Compliance menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Compliance menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-296 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/human-subjects-irbs/"
-                  target="_self">
-
-                  Human Subjects Research (IRB)
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-535 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/compliance/animal-care-use-acc/"
-                  target="_self">
-
-                  Animal Care &amp; Use (ACC)
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-534 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/compliance/rdna-infectious-agents-ibc/"
-                  target="_self">
-
-                  rDNA &amp; Infectious Agents (IBC)
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-533 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/compliance/controlled-substances-cs/"
-                  target="_self">
-
-                  Controlled Substances (CS)
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-537 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/compliance/coi/"
-                  target="_self">
-
-                  Conflict of Commitment &amp; Interest (COI)
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-8508 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/compliance/research-integrity/"
-                  target="_self">
-
-                  Research Integrity
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-856 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/compliance/export-controls/"
-                  target="_self">
-
-                  Export Controls
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-8579 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/compliance/clinical-trials/"
-                  target="_self">
-
-                  Clinical Research
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                          </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-27 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/faculty-trainees/"
-        target="_self">
-
-        Faculty &amp; Trainees
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Faculty &amp; Trainees menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Faculty &amp; Trainees menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-10941">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-trainees/"
-                  target="_self">
-
-                  Home
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-10875 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/uic-postdoc-association/"
-                  target="_self">
-
-                  Postdoctoral Scholars
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-10945 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/impact-and-research-day/"
-                  target="_self">
-
-                  Impact and Research Day
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                          </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1035">
-      <a 
-        class="menu-main__first-link"
-        href="/tools/"
-        target="_self">
-
-        Resources
-      </a>
-
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1034">
-      <a 
-        class="menu-main__first-link"
-        href="/research-centers/"
-        target="_self">
-
-        Centers
-      </a>
-
-          </li>
-  </ul>
-
-  <div class="l-eyebrow">
-
-    <h2 class="assistive-text">Eyebrow menu</h2>
-    <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
-            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-14100">
-            <a  href="/news-stories/covid-19/" target="_self">COVID-19 INFORMATION</a>
-        </li>
-            <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-11331">
-            <a  href="/tools/ovcr-facts-figures/" target="_self">About OVCR</a>
-        </li>
-            <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-11050">
-            <a  href="/sponsoredprograms/standard-institutional-information/" target="_self">Standard Institutional Information</a>
-        </li>
-            <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-11267">
-            <a  href="/staff-directory/" target="_self">Contact</a>
-        </li>
-    </ul>
-
-    <h2 class="assistive-text">UIC menu</h2>
-    <ul class="menu-uic">
-      <li class="_item">
-    <a href="http://uic.edu">UIC.edu</a>
-  </li>
-  <li class="_item">
-    <a href="http://maps.uic.edu/">Campus Map</a>
-  </li>
+<body class="page-template-default page page-id-2172 page-child parent-pageid-2162">
+
+<!-- Start of outer wrapper -->
+<header id="outer_wrapper">
+
+<!-- Start of nav wrapper -->
+<div id="nav_wrapper">
+
+<!-- Start of top menu -->
+<nav id="topmenu">  
+  <div class="menu-eyebrow-container"><ul id="menu-eyebrow" class="sf-menu"><li id="menu-item-1706" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1706"><a href="http://globalhealth.uic.edu/category/news">News</a></li>
+<li id="menu-item-450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-450"><a href="http://globalhealth.uic.edu/formspolicies">Forms/Policies</a></li>
+<li id="menu-item-449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-449"><a href="http://globalhealth.uic.edu/donations">Make a Gift</a></li>
+<li id="menu-item-452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-452"><a href="http://globalhealth.uic.edu/resources">Resources</a></li>
+<li id="menu-item-596" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-596"><a href="http://globalhealth.uic.edu/about-us/contact-us">Contact Us</a></li>
+</ul></div><div class="sf-menu"><ul>
+<li class="page_item page-item-18 page_item_has_children current_page_ancestor"><a href="http://globalhealth.uic.edu/about-us">About Us</a>
+<ul class='children'>
+	<li class="page_item page-item-382"><a href="http://globalhealth.uic.edu/about-us/contact-us">Contact Us</a></li>
+	<li class="page_item page-item-380"><a href="http://globalhealth.uic.edu/about-us/message-from-the-director">Message from the Director</a></li>
+	<li class="page_item page-item-142"><a href="http://globalhealth.uic.edu/about-us/newsletters">Newsletter Archive</a></li>
+	<li class="page_item page-item-3473 page_item_has_children"><a href="http://globalhealth.uic.edu/about-us/newsletters-2">Newsletters</a>
+	<ul class='children'>
+		<li class="page_item page-item-4138"><a href="http://globalhealth.uic.edu/about-us/newsletters-2/newsletters-2019">Past issues</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-20"><a href="http://globalhealth.uic.edu/about-us/who-we-are">Our People</a></li>
+	<li class="page_item page-item-2162 page_item_has_children current_page_ancestor current_page_parent"><a href="http://globalhealth.uic.edu/about-us/strategic-initiatives">Strategic Initiatives</a>
+	<ul class='children'>
+		<li class="page_item page-item-2166"><a href="http://globalhealth.uic.edu/about-us/strategic-initiatives/uic-global-health-and-service">Global Health and Service</a></li>
+		<li class="page_item page-item-1801"><a href="http://globalhealth.uic.edu/about-us/strategic-initiatives/global-health-in-hematology-oncology">Global Health in Hematology &#038; Oncology</a></li>
+		<li class="page_item page-item-2172 current_page_item"><a href="http://globalhealth.uic.edu/about-us/strategic-initiatives/postgraduate-global-health-education">Postgraduate Global Health Education</a></li>
+	</ul>
+</li>
 </ul>
-
-
-
-    <div aria-label="Primary" role="search" class="search-wrapper">
-
-      <button id="search" class="search-toggle">
-        <span class="icon-search ">
-          <span class="assistive-text">Search</span>
-        </span>
-      </button>
-
-      <div class="search-input-container">
-        <div class="search-input-container__form">
-          <form method="get" action="/search" >
-            <input type="text" name="q" class="search-input" placeholder="Search..." tabindex="-1" aria-label="Search" disabled="">
-            <input type="submit" class="submit-button" name="search" value="Submit">
-          </form>
-        </div>
-      </div>
-
-    </div>
-
-
-  </div>
-
-
+</li>
+<li class="page_item page-item-1726 page_item_has_children"><a href="http://globalhealth.uic.edu/add-a-project">Add a Project</a>
+<ul class='children'>
+	<li class="page_item page-item-3765"><a href="http://globalhealth.uic.edu/add-a-project/3765-2">Capacity Building at the Center for Global Health</a></li>
+</ul>
+</li>
+<li class="page_item page-item-711"><a href="http://globalhealth.uic.edu/affiliationspartners">Affiliations/Partners</a></li>
+<li class="page_item page-item-358"><a href="http://globalhealth.uic.edu/all-events">All Events</a></li>
+<li class="page_item page-item-901"><a href="http://globalhealth.uic.edu/dharmapuri-vidyasagar-2">Dharmapuri Vidyasagar</a></li>
+<li class="page_item page-item-384 page_item_has_children"><a href="http://globalhealth.uic.edu/education">Education</a>
+<ul class='children'>
+	<li class="page_item page-item-1521"><a href="http://globalhealth.uic.edu/education/fellowship-opportunities">Fellowship Opportunities</a></li>
+	<li class="page_item page-item-386 page_item_has_children"><a href="http://globalhealth.uic.edu/education/gmed-program">Medical Students &#8211; GLOBAL MEDICINE (GMED) Program</a>
+	<ul class='children'>
+		<li class="page_item page-item-388 page_item_has_children"><a href="http://globalhealth.uic.edu/education/gmed-program/current-gmed-classes">Current GMED Classes</a>
+		<ul class='children'>
+			<li class="page_item page-item-2637"><a href="http://globalhealth.uic.edu/education/gmed-program/current-gmed-classes/gmed-photos">GMED Student Photo Gallery</a></li>
+			<li class="page_item page-item-3882"><a href="http://globalhealth.uic.edu/education/gmed-program/current-gmed-classes/m1-class-of-2023">M1 Class of 2023</a></li>
+			<li class="page_item page-item-3507"><a href="http://globalhealth.uic.edu/education/gmed-program/current-gmed-classes/m1-class-of-2022">M2 Class of 2022</a></li>
+			<li class="page_item page-item-3181"><a href="http://globalhealth.uic.edu/education/gmed-program/current-gmed-classes/m1-class-of-2021">M3 Class of 2021</a></li>
+			<li class="page_item page-item-2479"><a href="http://globalhealth.uic.edu/education/gmed-program/current-gmed-classes/m1-class-2">M4 Class of 2019</a></li>
+			<li class="page_item page-item-2950"><a href="http://globalhealth.uic.edu/education/gmed-program/current-gmed-classes/m1-class-3">M4 Class of 2020</a></li>
+		</ul>
+</li>
+		<li class="page_item page-item-2930 page_item_has_children"><a href="http://globalhealth.uic.edu/education/gmed-program/gmed-alumni">GMED Alumni</a>
+		<ul class='children'>
+			<li class="page_item page-item-3193"><a href="http://globalhealth.uic.edu/education/gmed-program/gmed-alumni/gmed-class-of-2016">GMED Class of 2016</a></li>
+			<li class="page_item page-item-3523"><a href="http://globalhealth.uic.edu/education/gmed-program/gmed-alumni/gmed-class-of-2017">GMED Class of 2017</a></li>
+			<li class="page_item page-item-3583"><a href="http://globalhealth.uic.edu/education/gmed-program/gmed-alumni/gmed-class-of-2018">GMED Class of 2018</a></li>
+			<li class="page_item page-item-3899"><a href="http://globalhealth.uic.edu/education/gmed-program/gmed-alumni/gmed-class-of-2019">GMED Class of 2019</a></li>
+		</ul>
+</li>
+		<li class="page_item page-item-393"><a href="http://globalhealth.uic.edu/education/gmed-program/gmed-application">GMED Application</a></li>
+		<li class="page_item page-item-654"><a href="http://globalhealth.uic.edu/education/gmed-program/gmed-curriculum">GMED Curriculum</a></li>
+		<li class="page_item page-item-2534"><a href="http://globalhealth.uic.edu/education/gmed-program/gmed-faculty">GMED Faculty</a></li>
+		<li class="page_item page-item-1871"><a href="http://globalhealth.uic.edu/education/gmed-program/medical-student-information">Medical Student Information</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-4002"><a href="http://globalhealth.uic.edu/education/observerships-at-uic">Observerships at UIC</a></li>
+	<li class="page_item page-item-2055 page_item_has_children"><a href="http://globalhealth.uic.edu/education/residency-global-community-health-track-gcht">RESIDENCY &#8211; GLOBAL COMMUNITY HEALTH COURSE</a>
+	<ul class='children'>
+		<li class="page_item page-item-2073"><a href="http://globalhealth.uic.edu/education/residency-global-community-health-track-gcht/cgh-gcht-curriculum">Global Community Health Course</a></li>
+		<li class="page_item page-item-2090"><a href="http://globalhealth.uic.edu/education/residency-global-community-health-track-gcht/contact-us">Global Community Health Program Leadership</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-407 page_item_has_children"><a href="http://globalhealth.uic.edu/education/scholarships-awards">Scholarships &#038; Awards</a>
+	<ul class='children'>
+		<li class="page_item page-item-859 page_item_has_children"><a href="http://globalhealth.uic.edu/education/scholarships-awards/erickson-explorers-award-for-humanitarian-care">Erickson Explorers Award for Humanitarian Care</a>
+		<ul class='children'>
+			<li class="page_item page-item-876"><a href="http://globalhealth.uic.edu/education/scholarships-awards/erickson-explorers-award-for-humanitarian-care/2012-2">2012 Awards</a></li>
+			<li class="page_item page-item-877"><a href="http://globalhealth.uic.edu/education/scholarships-awards/erickson-explorers-award-for-humanitarian-care/2013-2">2013 Awards</a></li>
+			<li class="page_item page-item-2446"><a href="http://globalhealth.uic.edu/education/scholarships-awards/erickson-explorers-award-for-humanitarian-care/2015-awards">2015 Awards</a></li>
+			<li class="page_item page-item-3072"><a href="http://globalhealth.uic.edu/education/scholarships-awards/erickson-explorers-award-for-humanitarian-care/2016-awards">2016 Awards</a></li>
+			<li class="page_item page-item-3397"><a href="http://globalhealth.uic.edu/education/scholarships-awards/erickson-explorers-award-for-humanitarian-care/2017-awards">2017 Awards</a></li>
+			<li class="page_item page-item-3799"><a href="http://globalhealth.uic.edu/education/scholarships-awards/erickson-explorers-award-for-humanitarian-care/2018-awards">2018 Awards</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="page_item page-item-16"><a href="http://globalhealth.uic.edu/events">Events</a></li>
+<li class="page_item page-item-445"><a href="http://globalhealth.uic.edu/formspolicies">Forms/Policies</a></li>
+<li class="page_item page-item-127"><a href="http://globalhealth.uic.edu/">Home</a></li>
+<li class="page_item page-item-447"><a href="http://globalhealth.uic.edu/donations">Make a Gift</a></li>
+<li class="page_item page-item-443"><a href="http://globalhealth.uic.edu/news">News</a></li>
+<li class="page_item page-item-3431 page_item_has_children"><a href="http://globalhealth.uic.edu/our-faculty-affiliates">Our Faculty Affiliates</a>
+<ul class='children'>
+	<li class="page_item page-item-3277"><a href="http://globalhealth.uic.edu/our-faculty-affiliates/faculty-affiliates">Faculty Affiliates Info and Application</a></li>
+</ul>
+</li>
+<li class="page_item page-item-4020 page_item_has_children"><a href="http://globalhealth.uic.edu/partnerships">Partnerships</a>
+<ul class='children'>
+	<li class="page_item page-item-4032 page_item_has_children"><a href="http://globalhealth.uic.edu/partnerships/africa-2">Africa</a>
+	<ul class='children'>
+		<li class="page_item page-item-4045 page_item_has_children"><a href="http://globalhealth.uic.edu/partnerships/africa-2/ethiopia">Ethiopia</a>
+		<ul class='children'>
+			<li class="page_item page-item-4050"><a href="http://globalhealth.uic.edu/partnerships/africa-2/ethiopia/visual-amharic-education-for-deaf-students-and-their-families">Visual Amharic Education for Deaf Students and Their Families</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li class="page_item page-item-4071"><a href="http://globalhealth.uic.edu/partnerships/asia-2">Asia</a></li>
+	<li class="page_item page-item-4073"><a href="http://globalhealth.uic.edu/partnerships/europe-2">Europe</a></li>
+	<li class="page_item page-item-4077"><a href="http://globalhealth.uic.edu/partnerships/north-central-america">North/Central America</a></li>
+	<li class="page_item page-item-4075 page_item_has_children"><a href="http://globalhealth.uic.edu/partnerships/south-america-2">South America</a>
+	<ul class='children'>
+		<li class="page_item page-item-4097"><a href="http://globalhealth.uic.edu/partnerships/south-america-2/physician-and-medical-student-education-via-teleconference">Physician and medical student education via teleconference</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="page_item page-item-1621"><a href="http://globalhealth.uic.edu/past-events">Past Events</a></li>
+<li class="page_item page-item-409 page_item_has_children"><a href="http://globalhealth.uic.edu/research">Research</a>
+<ul class='children'>
+	<li class="page_item page-item-2388"><a href="http://globalhealth.uic.edu/research/cdc-global-health-research-network">CDC Global Health Research Network</a></li>
+	<li class="page_item page-item-415 page_item_has_children"><a href="http://globalhealth.uic.edu/research/funding">Funding Opportunities</a>
+	<ul class='children'>
+		<li class="page_item page-item-419"><a href="http://globalhealth.uic.edu/research/funding/seed-grants">Seed Grants</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-3821"><a href="http://globalhealth.uic.edu/research/recent-publications">Recent Publications</a></li>
+	<li class="page_item page-item-3856"><a href="http://globalhealth.uic.edu/research/white-papers">White papers</a></li>
+</ul>
+</li>
+<li class="page_item page-item-22 page_item_has_children"><a href="http://globalhealth.uic.edu/resources">Resources</a>
+<ul class='children'>
+	<li class="page_item page-item-4150 page_item_has_children"><a href="http://globalhealth.uic.edu/resources/covid-19-resources-and-information">Covid-19 Resources and Information</a>
+	<ul class='children'>
+		<li class="page_item page-item-4188"><a href="http://globalhealth.uic.edu/resources/covid-19-resources-and-information/op-eds-and-interviews-with-cgh-core-faculty-and-affiliates">Op-eds and interviews with CGH core faculty and affiliates</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="page_item page-item-465"><a href="http://globalhealth.uic.edu/reference-page">Shortcodes Reference Page</a></li>
+<li class="page_item page-item-1721"><a href="http://globalhealth.uic.edu/uic-global-health-seed-grant-project">UIC Global Health &#038; Well Being Research Seed Grant Program</a></li>
+<li class="page_item page-item-1856"><a href="http://globalhealth.uic.edu/education/cme-continuing-medical-education/2013-cgh-monthly-network-meetings">2013 CGH Monthly Network Meetings</a></li>
+<li class="page_item page-item-1858"><a href="http://globalhealth.uic.edu/education/cme-continuing-medical-education/2014-cgh-monthly-network-meetings">2014 CGH Monthly Network Meetings</a></li>
+<li class="page_item page-item-2404"><a href="http://globalhealth.uic.edu/education/cme-continuing-medical-education/2015-cgh-monthly-network-meetings">2015 CGH Monthly Network Meetings</a></li>
+<li class="page_item page-item-799"><a href="http://globalhealth.uic.edu/research/ongoing-research-projects/dioxin-and-t1418-translocations">Dioxin and t(14;18) translocations</a></li>
+<li class="page_item page-item-795"><a href="http://globalhealth.uic.edu/research/ongoing-research-projects/family-and-children-of-ukraine">Family and Children of Ukraine</a></li>
+<li class="page_item page-item-797"><a href="http://globalhealth.uic.edu/research/ongoing-research-projects/geohub">GEOHub</a></li>
+<li class="page_item page-item-793"><a href="http://globalhealth.uic.edu/research/ongoing-research-projects/lead-exposure-and-school-performance">Lead Exposure and School Performance</a></li>
+<li class="page_item page-item-401"><a href="http://globalhealth.uic.edu/education/gme-graduate-medical-education/international-elective-opportunities">International Elective Opportunities</a></li>
+<li class="page_item page-item-399"><a href="http://globalhealth.uic.edu/education/gme-graduate-medical-education/residentsfellows">Residents/Fellows</a></li>
+</ul></div>
 </nav>
-        </div>
-    </div>
+<!-- End of top menu -->
 
-    
-  </div>
+<!-- Start of top logo -->
+<div id="top_logo">
+<a href="http://globalhealth.uic.edu"><img src="http://globalhealth.uic.edu/wp-content/uploads/2013/12/cgh-uic-logo.png" alt="logo" /></a>
 
-    
-        
-</header>
-
-    <main id="main" class="l-content-wrapper" role="main">
-
-      
-                
-					
-						
-					<div id="noticeblock" class="notification u-dark-region">
-			<div class="l-full">
-				<div class="notification__container">
-
-                      <h2 class="notification__title visible">COVID-19 - Updated: 04/30/2020</h2>
-          
-					<a class="notification__close" href=""><span class="icon-close"></span></a>
-
-					<div class="notification__content">
-						OVCR Research-Related Updates Regarding COVID-19 Emergency
-					</div>
-
-											<div class="notification__link">
-              <a  href="https://research.uic.edu/covid-19" class="button" target="_blank" rel="noopener">More Information</a>
-						</div>
-									</div>
-        </div>
-			</div>
-			      
-      <div class="l-full">
-
-        <div class="l-content ">
-
-          
-                                        
-          <article class="post-type-news" id="article">
-            
-      <div class="intro-text">
-
-                      <h1 class="_title post-title">COVID-19 Specific Response Information</h1>
-              
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>March 16, 2020</strong></span>
-    </div>
-          
-    <section class="social-sharing-links" role="region" aria-label="Share this Article on Social Media">
-                  <a class="popup" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fresearch.uic.edu%2Fnews-stories%2Fcovid-19%2F&text=COVID-19 Specific Response Information - ">
-        <svg aria-label="Share this on Twitter" width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-          <title id="share-link-twitter">Share this on Twitter</title>
-          <g fill="none" fill-rule="evenodd">
-            <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-            <path class="_mark" d="M26.525 12.688c.89-.53 1.573-1.372 1.894-2.374-.833.492-1.755.848-2.736 1.04C24.898 10.522 23.778 10 22.54 10c-2.38 0-4.31 1.92-4.31 4.292 0 .336.038.664.112.978-3.58-.18-6.756-1.89-8.88-4.485-.372.634-.583 1.37-.583 2.158 0 1.49.76 2.802 1.915 3.573-.706-.023-1.37-.216-1.952-.537v.053c0 2.08 1.485 3.814 3.456 4.207-.363.098-.743.15-1.136.15-.277 0-.547-.027-.81-.077.547 1.706 2.14 2.947 4.025 2.98-1.476 1.153-3.334 1.838-5.353 1.838-.347 0-.69-.02-1.027-.06C9.907 26.29 12.17 27 14.604 27c7.925 0 12.258-6.54 12.258-12.21 0-.187-.003-.373-.013-.557.842-.604 1.572-1.36 2.15-2.22-.772.34-1.603.57-2.475.675z" fill="#FFF"/>
-          </g>
-        </svg>
-      </a>
-                        
-    </section>
-    </div>
-        
-              
-    
-        
-  </div>
-
-    <div class="components">
-
-  
-    
-      
-
-<section class="component  ">
-
-  
-  <div class="component-text-block">
-  
-    <div class="component-description">
-                    <h2 id="message" class="__title invisible">message</h2>
-                    </div>
-
-  
-  <h3><strong>Updated : April 30, 2020</strong></h3>
-
-
-
-  
 </div>
+<!-- End of top logo -->
 
-  
-</section>
+<!-- Start of global menu -->
+<nav id="globalmenu">
+	<div class="menu-global-navigation-container"><ul id="menu-global-navigation" class="sf-menu"><li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children menu-item-26"><a href="http://globalhealth.uic.edu/about-us">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-422" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-422"><a href="http://globalhealth.uic.edu/about-us/message-from-the-director">Message from the Director</a></li>
+	<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="http://globalhealth.uic.edu/about-us/who-we-are">Our People</a></li>
+	<li id="menu-item-3475" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3475"><a href="http://globalhealth.uic.edu/about-us/newsletters-2">Newsletters</a>
+	<ul class="sub-menu">
+		<li id="menu-item-4144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4144"><a href="http://globalhealth.uic.edu/about-us/newsletters-2/newsletters-2019">Past issues</a></li>
+		<li id="menu-item-224" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-224"><a href="http://globalhealth.uic.edu/about-us/newsletters">Newsletter Archive</a></li>
+	</ul>
+</li>
+	<li id="menu-item-3441" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3441"><a href="http://globalhealth.uic.edu/our-faculty-affiliates">Our Faculty Affiliates</a>
+	<ul class="sub-menu">
+		<li id="menu-item-3281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3281"><a href="http://globalhealth.uic.edu/our-faculty-affiliates/faculty-affiliates">Faculty Affiliates Info and Application</a></li>
+	</ul>
+</li>
+	<li id="menu-item-421" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-421"><a href="http://globalhealth.uic.edu/about-us/contact-us">Contact Us</a></li>
+</ul>
+</li>
+<li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-430"><a href="http://globalhealth.uic.edu/education">Education</a>
+<ul class="sub-menu">
+	<li id="menu-item-436" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-436"><a href="http://globalhealth.uic.edu/education/gmed-program">Medical Students &#8211; Global Medicine (GMED) Program</a>
+	<ul class="sub-menu">
+		<li id="menu-item-437" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-437"><a href="http://globalhealth.uic.edu/education/gmed-program/current-gmed-classes">Current GMED Classes</a>
+		<ul class="sub-menu">
+			<li id="menu-item-3897" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3897"><a href="http://globalhealth.uic.edu/education/gmed-program/current-gmed-classes/m1-class-of-2023">M1 Class of 2023</a></li>
+			<li id="menu-item-3515" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3515"><a href="http://globalhealth.uic.edu/education/gmed-program/current-gmed-classes/m1-class-of-2022">M2 Class of 2022</a></li>
+			<li id="menu-item-3184" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3184"><a href="http://globalhealth.uic.edu/education/gmed-program/current-gmed-classes/m1-class-of-2021">M3 Class of 2021</a></li>
+			<li id="menu-item-2955" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2955"><a href="http://globalhealth.uic.edu/education/gmed-program/current-gmed-classes/m1-class-3">M4 Class of 2020</a></li>
+			<li id="menu-item-2674" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2674"><a href="http://globalhealth.uic.edu/education/gmed-program/current-gmed-classes/gmed-photos">GMED Student Photo Gallery</a></li>
+		</ul>
+</li>
+		<li id="menu-item-3219" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3219"><a href="http://globalhealth.uic.edu/education/gmed-program/gmed-alumni">GMED Alumni</a>
+		<ul class="sub-menu">
+			<li id="menu-item-3218" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3218"><a href="http://globalhealth.uic.edu/education/gmed-program/gmed-alumni/gmed-class-of-2016">GMED Class of 2016</a></li>
+			<li id="menu-item-3544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3544"><a href="http://globalhealth.uic.edu/education/gmed-program/gmed-alumni/gmed-class-of-2017">GMED Class of 2017</a></li>
+			<li id="menu-item-3593" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3593"><a href="http://globalhealth.uic.edu/education/gmed-program/gmed-alumni/gmed-class-of-2018">GMED Class of 2018</a></li>
+			<li id="menu-item-3917" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3917"><a href="http://globalhealth.uic.edu/education/gmed-program/gmed-alumni/gmed-class-of-2019">GMED Class of 2019</a></li>
+		</ul>
+</li>
+		<li id="menu-item-660" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-660"><a href="http://globalhealth.uic.edu/education/gmed-program/gmed-curriculum">GMED Curriculum</a></li>
+		<li id="menu-item-439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-439"><a href="http://globalhealth.uic.edu/education/gmed-program/gmed-application">GMED Application</a></li>
+		<li id="menu-item-2538" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2538"><a href="http://globalhealth.uic.edu/education/gmed-program/gmed-faculty">GMED Faculty</a></li>
+		<li id="menu-item-1879" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1879"><a href="http://globalhealth.uic.edu/education/gmed-program/medical-student-information">Medical Student Information</a></li>
+	</ul>
+</li>
+	<li id="menu-item-2070" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2070"><a href="http://globalhealth.uic.edu/education/residency-global-community-health-track-gcht">Residency &#8211; Global Community Health Program</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2089" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2089"><a href="http://globalhealth.uic.edu/education/residency-global-community-health-track-gcht/cgh-gcht-curriculum">Global Community Health Course</a></li>
+		<li id="menu-item-2094" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2094"><a href="http://globalhealth.uic.edu/education/residency-global-community-health-track-gcht/contact-us">Global Community Health Program Leadership</a></li>
+	</ul>
+</li>
+	<li id="menu-item-441" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-441"><a href="http://globalhealth.uic.edu/education/scholarships-awards">Scholarships &#038; Awards</a>
+	<ul class="sub-menu">
+		<li id="menu-item-863" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-863"><a href="http://globalhealth.uic.edu/education/scholarships-awards/erickson-explorers-award-for-humanitarian-care">Erickson Explorers Award for Humanitarian Care</a>
+		<ul class="sub-menu">
+			<li id="menu-item-3810" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3810"><a href="http://globalhealth.uic.edu/education/scholarships-awards/erickson-explorers-award-for-humanitarian-care/2018-awards">2018 Awards</a></li>
+			<li id="menu-item-3408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3408"><a href="http://globalhealth.uic.edu/education/scholarships-awards/erickson-explorers-award-for-humanitarian-care/2017-awards">2017 Awards</a></li>
+			<li id="menu-item-3084" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3084"><a href="http://globalhealth.uic.edu/education/scholarships-awards/erickson-explorers-award-for-humanitarian-care/2016-awards">2016 Awards</a></li>
+			<li id="menu-item-2466" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2466"><a href="http://globalhealth.uic.edu/education/scholarships-awards/erickson-explorers-award-for-humanitarian-care/2015-awards">2015 Awards</a></li>
+			<li id="menu-item-881" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-881"><a href="http://globalhealth.uic.edu/education/scholarships-awards/erickson-explorers-award-for-humanitarian-care/2013-2">2013 Awards</a></li>
+			<li id="menu-item-880" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-880"><a href="http://globalhealth.uic.edu/education/scholarships-awards/erickson-explorers-award-for-humanitarian-care/2012-2">2012 Awards</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id="menu-item-1526" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1526"><a href="http://globalhealth.uic.edu/education/fellowship-opportunities">Fellowship Opportunities</a></li>
+	<li id="menu-item-4006" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4006"><a href="http://globalhealth.uic.edu/education/observerships-at-uic">Observerships at UIC</a></li>
+</ul>
+</li>
+<li id="menu-item-4058" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4058"><a href="http://globalhealth.uic.edu/partnerships">Partnerships</a>
+<ul class="sub-menu">
+	<li id="menu-item-4056" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4056"><a href="http://globalhealth.uic.edu/partnerships/africa-2">Africa</a>
+	<ul class="sub-menu">
+		<li id="menu-item-4062" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4062"><a href="http://globalhealth.uic.edu/partnerships/africa-2/ethiopia">Ethiopia</a>
+		<ul class="sub-menu">
+			<li id="menu-item-4057" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4057"><a href="http://globalhealth.uic.edu/partnerships/africa-2/ethiopia/visual-amharic-education-for-deaf-students-and-their-families">Visual Amharic Education for Deaf Students and Their Families</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id="menu-item-4094" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4094"><a href="http://globalhealth.uic.edu/partnerships/asia-2">Asia</a></li>
+	<li id="menu-item-4093" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4093"><a href="http://globalhealth.uic.edu/partnerships/europe-2">Europe</a></li>
+	<li id="menu-item-4091" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4091"><a href="http://globalhealth.uic.edu/partnerships/north-central-america">North/Central America</a></li>
+	<li id="menu-item-4092" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4092"><a href="http://globalhealth.uic.edu/partnerships/south-america-2">South America</a></li>
+</ul>
+</li>
+<li id="menu-item-424" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-424"><a href="http://globalhealth.uic.edu/research">Research</a>
+<ul class="sub-menu">
+	<li id="menu-item-3769" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3769"><a href="http://globalhealth.uic.edu/add-a-project/3765-2">Capacity Building at the Center for Global Health</a></li>
+	<li id="menu-item-3860" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3860"><a href="http://globalhealth.uic.edu/research/white-papers">White papers</a></li>
+	<li id="menu-item-3823" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3823"><a href="http://globalhealth.uic.edu/research/recent-publications">Recent Publications</a></li>
+	<li id="menu-item-425" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-425"><a href="http://globalhealth.uic.edu/research/funding">Funding Opportunities</a></li>
+	<li id="menu-item-4194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4194"><a href="http://globalhealth.uic.edu/resources/covid-19-resources-and-information">Covid-19 Resources and Information</a>
+	<ul class="sub-menu">
+		<li id="menu-item-4193" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4193"><a href="http://globalhealth.uic.edu/resources/covid-19-resources-and-information/op-eds-and-interviews-with-cgh-core-faculty-and-affiliates">Op-eds and interviews with CGH core faculty and affiliates</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-1703" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1703"><a href="http://globalhealth.uic.edu/events">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-1704" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1704"><a href="http://globalhealth.uic.edu/events">Upcoming Events</a></li>
+	<li id="menu-item-1702" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1702"><a href="http://globalhealth.uic.edu/past-events">Past Events</a></li>
+</ul>
+</li>
+</ul></div></nav>
+<!-- End of global menu -->
 
-    
+<div class="clear"></div>
 
-    
-      
+</div><!-- End of nav wrapper -->
 
-<section class="component  ">
-
-  
-    <div class="component-accordion js-component-accordion">
-
-    
-    <div class="component-description">
-                    <h2 id="vice-chancellor-for-research-messages-updated-april-27-2020" class="__title invisible">Vice Chancellor for Research Messages - Updated: April 27, 2020</h2>
-                    </div>
-
-    <dl class="component-accordion__accordion"
-        role="presentation">
-
-    <dt class="component-accordion__title"
-          role="heading"
-          aria-level="1">
-        <button
-          class="component-accordion__button js-toggle-acc"
-          aria-expanded="false"
-          aria-controls="panel-sectionID-2-1"
-          id="tab-sectionID-2-1"
-          type="button">
-            Vice Chancellor for Research Messages - Updated: April 27, 2020
-        </button>
-      </dt>
-
-      <dd class="component-accordion__content component-accordion__content--collapsed"
-          aria-labelledby="tab-sectionID-2-1"
-          id="panel-sectionID-2-1"
-          role="region">
-
-          <div class="component-accordion__content-wrapper">
-            <div class="components">
-
-  
-    
-      
-
-<div class="component  component--is-in-another-component">
-
-  
-  <div class="component-text-block">
-  
-    <div class="component-description">
-                    <h2 id="vcr-messages" class="__title invisible">VCR Messages</h2>
-                    </div>
-
-  
-  <div>
+</header><!-- End of outer wrapper -->
+
+
+
+<!-- Start of intro text wrapper -->
+	<div class="intro_text_wrapper" style="background-image: url('http://globalhealth.uic.edu/wp-content/uploads/2015/01/villagegeneric.jpg'); background-repeat:no-repeat;width:100%; position:relative; z-index:5; min-height:auto; max-width:100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+	
+<!-- Start of intro text -->
+<div class="intro_text" style="position:relative; z-index:10;">
+
+<h1 class="orange">Postgraduate Global Health Education</h1>
+
+<!-- 
+<div class="orange_background">
+<p></p>
+</div>
+-->
+
+<div class="clear"></div>
+
+</div><!-- End of intro text -->
+
+</div><!-- End of intro text wrapper -->
+
+<!-- Start of bdywrapper -->
+<div class="bdywrapper">
+
+<!-- Start of main -->
+<section id="main">
+
+<!-- Start of In This Section toggle -->
+<div class="menu-toggle-container">
+	<a class="menu-toggle scroll-link" href="#rightside_content">In this section</a>
+</div>
+<!-- End of In This Section toggle -->
+
+<!-- Start of wrapper content right -->
+<section id="wrapper_content_right">
+
+<!-- Start of leftside content -->
+<div id="leftside_content">
+
+<!-- Start of blog wrapper -->
+<div class="blog_wrapper">
+
+<!-- Start of featured text full -->
+<div class="featured_text_full">
+<div id="breadcrumbs" class="blue ">You are here: <a href="http://globalhealth.uic.edu">Home</a> &raquo; <a href="http://globalhealth.uic.edu/about-us">About Us</a> &raquo; <a href="http://globalhealth.uic.edu/about-us/strategic-initiatives">Strategic Initiatives</a> &raquo; <span class="current">Postgraduate Global Health Education</span></div><h4><strong>MISSION:</strong>   The UIC Center for Global Health will improve global and local health equity by empowering the communities with whom we partner and through which we train future global health leaders in the principles of sustainable global health.</h4>
+<p><strong>GOALS:</strong> Responding to the goal and values of the Global Community Health Track at the UIC Center for Global Health, trainees will achieve competency within four overarching themes:</p>
 <ul>
-<li><a href="https://research.uic.edu/researchrestart/update/" target="_blank" rel="noopener"><strong>OVCR and OVCAS Research Update and Future Considerations </strong></a>( April 27, 2020)<strong><br />
-</strong></li>
-<li><strong><a href="https://research.uic.edu/news-stories/covid-19-3-20-20/">COVID-19 Office of the Vice Chancellor for Research Update</a> </strong>(March 20, 2020, 5:25pm)</li>
-<li><strong><a href="https://research.uic.edu/news-stories/covid-19-3-19-20/">COVID-19 Office of the Vice Chancellor for Research Update</a></strong> (March 19, 2020, 4:25pm)</li>
-<li><a href="https://research.uic.edu/news-stories/covid-19-3-17-20/"><strong>COVID-19 Office of the Vice Chancellor for Research Update</strong></a> (March 17, 2020)</li>
-<li><strong><a href="https://research.uic.edu/news-stories/covid-19-researchmessage/">COVID-19 VCR Message to UIC Research Community</a> </strong>(March 16, 2020)</li>
+<li><strong>People and Community Centeredness – </strong>Empower people and their communities by effectively utilizing participatory approaches and leveraging existing assets through longitudinal partnerships, with primary consideration of community priorities and values in identifying and addressing locally appropriate solutions to health disparities;</li>
+<li><strong>Health Equity &#8211; </strong>Identify and respond to the social determinants of health such as socio-economic factors and political factors as well as specific cultural mores when developing health services and clinical care interventions in order to improve the community health status while responsibly, ethically, and humbly fulfilling one’s role within a global community health education partnership<strong>; </strong></li>
+<li><strong>Primary Health Care Services Access &#8211; </strong>Organize and effectively collaborate with a multi-level and interdisciplinary team (e.g. community leaders, allied health personnel, policy experts, and medical providers) to improve access, coverage, quality, and safety of primary health care services to address health disparities at the local community level;  and</li>
+<li><strong>Community Health Systems Strengthening &#8211; </strong>Advocate for the health of patients, families, and communities within structured community health systems and in collaboration with governmental (Ministry of Health), nongovernmental, and private organizations, when appropriate.  The goal of this advocacy should be sustainable health systems strengthening through workforce capacity building, continuous quality improvement, and evaluation activities for the overall project as well as for each partner within all partnership efforts.</li>
 </ul>
+<p><strong>CHALLENGES:</strong></p>
+<p>An overarching purpose of this track is to contribute to advancing the US academic institutional approach to global health education. Our mission and goals are built around a vision that emphasizes trainee opportunities for learning skills to empower the local communities with whom they may work to address community health challenges through sustainable and locally appropriate means. With this consideration, there are challenges in transitioning our current approaches that may incorporate or emphasize clinical work or specialty care into a cohesive, fully inclusive approach that contributes to solving global health challenges in a sustainable manner and community ownership.</p>
+<p><strong>OPPORTUNITIES:</strong></p>
+<p>Students, residents, fellows, and faculty recognize the value of global health programs. Creating a cross-disciplinary and longitudinal collaborative environment across departments adds significant value to opportunities for service, research, and education. Offering preeminent global health educational programs provides an institutional competitive advantage. Building global health programs that integrate opportunities for mentorship and involvement along the training course will recruit the most outstanding students, residents, and junior faculty. We will recruit and retain the best, and our trainees will graduate prepared to meaningfully address global health disparities throughout their career.</p>
+<p>The Center for Global Health at UIC continues to grow our innovative and impactful Global Community Health educational opportunities for residents.Several Departments across campus are collaborating to provide a unique, multi-disciplinary experience in global health education.  This ongoing collaborative relationship incorporates multiple modes of learning through a longitudinal approach.  This track incorporates didactics, journal clubs, and research through international projects. Our competencies focus on access to primary health care, community centeredness, social determinants of health, and health systems strengthening. These projects aim to improve health care delivery within low- and middle income country community health care systems as well as provide training in the principles of sustainable global health for U.S. health care trainees.</p>
+<p>Contact:</p>
+<p><a title="Andrew Dykens" href="http://globalhealth.uic.edu/about-us/who-we-are/andrew-dykens">Andrew Dykens</a></p>
+ 
+
+ 
+
+
+</div><!-- End of featured text full -->
+
+<!-- Start of clear fix --><div class="clear"></div>
+
+</div><!-- End of blog wrapper -->
+
+</div><!-- End of leftside content -->
+
+</section><!-- End of wrapper content right -->
+
+<!-- Start of wrapper content left -->
+<aside id="wrapper_content_left">
+
+<!-- Start of rightside content -->
+<div id="rightside_content">
+		
+</div><!-- End of rightside content -->
+
+</aside><!-- End of wrapper content left -->
+
+<!-- Start of clear fix --><div class="clear"></div>
+            
+<!-- Start of Back to Top toggle -->
+<p>
+<div class="menu-toggle-container">
+	<a class="scroll-top scroll-link" href="#">Back to top</a>
+</div>
+</p>
+<!-- End of Back to Top toggle -->
+
+</section><!-- End of main -->
+
+<!-- Start of clear fix --><div class="clear"></div>
+
+</div><!-- End of bdywrapper -->
+
+<!-- Start of bottom nav wrap -->
+<div id="bottom_nav_wrap">
+
+<!-- Start of social -->
+<section class="social">
+
+
+
+
+
+<!-- Start of one fourth first -->
+<div class="one_fourth_first">
+<h5>UIC Center for Global Health</h5>			<div class="textwidget"><p>1940 W. Taylor M/C 584<br />
+Chicago, IL 60612<br />
+(312) 355-4116<br />
+follow us on Twitter @UIC_CGH</p>
+<p><a href ="http://globalhealth.uic.edu/about-us/contact-us">Contact us »</a></p>
 </div>
-
-
-
-  
-</div>
-
-  
-</div>
-
-    
-
-</div>
-          </div>
-      </dd>
-
-    <dt class="component-accordion__title"
-          role="heading"
-          aria-level="2">
-        <button
-          class="component-accordion__button js-toggle-acc"
-          aria-expanded="false"
-          aria-controls="panel-sectionID-2-2"
-          id="tab-sectionID-2-2"
-          type="button">
-            How to Help UI Health
-        </button>
-      </dt>
-
-      <dd class="component-accordion__content component-accordion__content--collapsed"
-          aria-labelledby="tab-sectionID-2-2"
-          id="panel-sectionID-2-2"
-          role="region">
-
-          <div class="component-accordion__content-wrapper">
-            <div class="components">
-
-  
-    
-      
-
-<div class="component  component--is-in-another-component">
-
-  
-  <div class="component-text-block">
-  
-    <div class="component-description">
-                    <h2 id="how-to-help" class="__title invisible">How to help</h2>
-                    </div>
-
-  
-  <ul>
-<li><a href="https://uihealth.uic.edu/help-during-the-covid-19-pandemic/" target="_blank" rel="noopener">Help During the COVID-19 Pandemic</a></li>
-</ul>
-
-
-
-  
-</div>
-
-  
-</div>
-
-    
-
-</div>
-          </div>
-      </dd>
-
-    
-    </dl>
-  </div>
-
-  
-</section>
-
-    
-
-    
-      
-
-<section class="component  ">
-
-  
-    <div class="component-tab-group js-component-tab-group">
-    
-    <div class="component-description">
-                    <h2 id="general" class="__title invisible">General</h2>
-                            <div class="__description">
-                <p>UIC OVCR personnel are complying with Governor Pritzker’s stay-at-home order currently in effect through May 30<sup>th</sup>.  The OVCR will continue to provide services and support during this period and will provide updates to our operations as needed. Importantly, we recommend the following guidelines to ensure that all research at UIC be conducted or modified in a manner that minimizes risk to research personnel and any research participants during the COVID-19 pandemic. Please contact <a href="mailto:research@uic.edu">research@uic.edu</a> with any questions or concerns.</p>
-
-            </div>
-            </div>
-
-    <div class="component-tab-group__tabs">
-      <div class="tab-group">
-        <div class="tab-group__tablist" role="tablist" aria-label="General">
-          <button
-              class="tab-group__button"
-              role="tab"
-              aria-controls="panel-tabID-3-1"
-              id="tab-tabID-3-1">
-
-              Animal Facility (BRL)
-            </button>
-          <button
-              class="tab-group__button"
-              role="tab"
-              aria-controls="panel-tabID-3-2"
-              id="tab-tabID-3-2">
-
-              Animal Research (OACIB)
-            </button>
-          <button
-              class="tab-group__button"
-              role="tab"
-              aria-controls="panel-tabID-3-3"
-              id="tab-tabID-3-3">
-
-              Human Subject Research (OPRS/IRB)
-            </button>
-          <button
-              class="tab-group__button"
-              role="tab"
-              aria-controls="panel-tabID-3-4"
-              id="tab-tabID-3-4">
-
-              Research Administration (OSP)
-            </button>
-          <button
-              class="tab-group__button"
-              role="tab"
-              aria-controls="panel-tabID-3-5"
-              id="tab-tabID-3-5">
-
-              Research Funding (RDS)
-            </button>
-          <button
-              class="tab-group__button"
-              role="tab"
-              aria-controls="panel-tabID-3-6"
-              id="tab-tabID-3-6">
-
-              Research Resources Center (RRC)
-            </button>
-                  </div>
-        <div class="tab-group__tabpanels">
-          <div
-              class="tab-group__tabpanel"
-              tabindex="0"
-              role="tabpanel"
-              id="panel-tabID-3-1"
-              aria-labelledby="tab-tabID-3-1">
-
-              <div class="components">
-
-  
-    
-      
-
-<section class="component  ">
-
-  
-    
-    <div class="component-description">
-                    <h2 id="updates" class="__title invisible">Updates</h2>
-                    </div>
-
-      <div class="table-container">
-    <table aria-label="Updates">
-            <thead>
-      <tr>
-                  <th scope="col">Date</th>
-                  <th scope="col">Updates</th>
-              </tr>
-    </thead>
-      <tbody>
-          <tr>
-                                            <th scope="row">
-                April 7, 2020
-              </th>
-                                                                  <td>
-                Biologic Resources Laboratory (BRL) continues to provide animal research support for those projects already initiated and will provide maintenance care indefinitely.  New orders and requests for new projects have been suspended.  College researchers will continue to have access to BRL to provide maintenance care for their animals.
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 31, 2020
-              </th>
-                                                                  <td>
-                Biologic Resources Laboratory (BRL) continues to provide animal research support for those projects already initiated and will provide maintenance care indefinitely.  New orders and requests for new projects have been suspended.  College researchers will continue to have access to BRL to provide maintenance care for their animals.
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 23, 2020, 10am
-              </th>
-                                                                  <td>
-                Research staff monitoring animals on current studies and/or managing breeding colonies are considered essential personnel and have access to UIC animal facilities.
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 20, 2020, 5pm
-              </th>
-                                                                  <td>
-                The <a href="https://brl.uic.edu/news-stories/covid-19/"><strong>Biologic Resources Laboratory (BRL)</strong></a>, following <a href="https://www.chicagotribune.com/coronavirus/ct-coronavirus-illinois-shelter-in-place-lockdown-order-20200320-teedakbfw5gvdgmnaxlel54hau-story.html">Governor Pritzker’s ‘stay at home’ order starting on Saturday at 5:00pm until April 7<sup>th</sup></a>, recommends that Principal Investigators designate lab members who will come to campus for routine monitoring and ongoing management of their animals.
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 19, 2020
-              </th>
-                                                                  <td>
-                The <strong><a href="https://brl.uic.edu/news-stories/covid-19/">Biologic Resources Laboratory (BRL)</a></strong> will remain operational, but we will make several changes needed to manage our limited resources. The <a href="https://brl.uic.edu/news-stories/covid-19/"><strong>policies</strong></a> are effective immediately until further notice due to the changing dynamic of the COVID-19 situation.
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 17, 2020
-              </th>
-                                                                  <td>
-                The <strong><a href="http://brl.uic.edu">Biologic Resources Laboratory (BRL)</a></strong> will continue to provide animal research support for those projects already initiated; BRL will provide maintenance care indefinitely. In addition, BRL will remain accessible to PIs and laboratory personnel until further notice. PIs should limit aspects of their work to those critical for its continuity.  Researchers using either BRL or RRC are advised that new orders and the initiation of new projects will be placed on hold.
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 16, 2020
-              </th>
-                                                                  <td>
-                The <a href="http://brl.uic.edu"><strong>Biologic Resources Laboratory (BRL)</strong></a> and all animal research services will continue to provide maintenance care indefinitely. Its support for research services continues at present with some limitations. New orders of large animal species have been suspended through April 6th. Additional limitations are being considered to research-related functions. BRL users should consider curtailing the initiation of new projects during this time of uncertainty.
-              </td>
-                                    </tr>
-        </tbody>
-
-    </table>
-  </div>
-
-    
-
-  
-</section>
-
-    
-
-</div>
-            </div>
-          <div
-              class="tab-group__tabpanel"
-              tabindex="0"
-              role="tabpanel"
-              id="panel-tabID-3-2"
-              aria-labelledby="tab-tabID-3-2">
-
-              <div class="components">
-
-  
-    
-      
-
-<section class="component  ">
-
-  
-    
-    <div class="component-description">
-                    <h2 id="updates" class="__title invisible">Updates</h2>
-                    </div>
-
-      <div class="table-container">
-    <table aria-label="Updates">
-            <thead>
-      <tr>
-                  <th scope="col">Date</th>
-                  <th scope="col">Updates</th>
-              </tr>
-    </thead>
-      <tbody>
-          <tr>
-                                            <th scope="row">
-                April 7, 2020
-              </th>
-                                                                  <td>
-                Information provided on March 25, 2020 remains current
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 31, 2020
-              </th>
-                                                                  <td>
-                Information provided on March 25, 2020 remains current
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 25, 2020
-              </th>
-                                                                  <td>
-                <h3>Updated FAQs:</h3>
-<ul>
- 	<li><strong>How should I communicate with OACIB?
-</strong>In response to the COVID-19 pandemic and recommended social distancing, OACIB is operating remotely and will continue until further notice. During this time, general questions and concerns, and protocols and protocol modifications should be sent to <a href="mailto:oacib@uic.edu">oacib@uic.edu</a> with the subject line appropriately completed. A member of the OACIB staff will respond to the inquiry and/or acknowledge receipt of the submission. Do not submit questions or documents to a specific employee during this time.</li>
- 	<li><strong>Will my submission be reviewed?
-</strong>Please note that during this time of remote operation, OACIB will triage submissions in order to accommodate projects with active ongoing animal experiments. The highest priority will be given to protocols undergoing triennial renewal and in “Just in Time” as well as modifications to protocols in which animals are currently being used in an experimental study. New protocols and/or modifications requesting to conduct new experiments will be considered a lower priority as research staff are not to initiate new studies at this time. As a result, protocols and modifications categorized as low priority may experience a delay in the review process compared to previous submissions. The intent, however, will be to review all submissions in as timely a manner as possible during this unprecedented time.</li>
-</ul>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 17, 2020 and March 16, 2020
-              </th>
-                                                                  <td>
-                The Office of Animal Care and Institutional Biosafety (OACIB) is also prepared to serve the UIC research community and continue business operations in the event of scaled back University operations.
-<h3>FAQs:</h3>
-<ul>
- 	<li><strong>How should I communicate with OACIB?
-</strong>All questions and submissions (protocols, modifications, revisions, continuations) should be submitted to <a href="mailto:oacib@uic.edu">oacib@uic.edu</a>.  Please use a specific subject line for communication sent to the office.  Please refrain from sending documents or questions to a specific employee during this time.</li>
- 	<li><strong>Will my submission be reviewed?
-</strong>Yes, but it may take longer for review than in the past.  Investigators need to consider submission of any new projects (protocols or modifications) at this time.  Resubmission of an expiring protocols and annual continuation are not new projects and will be given first priority.</li>
-</ul>
-              </td>
-                                    </tr>
-        </tbody>
-
-    </table>
-  </div>
-
-    
-
-  
-</section>
-
-    
-
-</div>
-            </div>
-          <div
-              class="tab-group__tabpanel"
-              tabindex="0"
-              role="tabpanel"
-              id="panel-tabID-3-3"
-              aria-labelledby="tab-tabID-3-3">
-
-              <div class="components">
-
-  
-    
-      
-
-<section class="component  ">
-
-  
-    
-    <div class="component-description">
-                    <h2 id="updates" class="__title invisible">updates</h2>
-                    </div>
-
-      <div class="table-container">
-    <table aria-label="updates">
-            <thead>
-      <tr>
-                  <th scope="col">Date</th>
-                  <th scope="col">Updates</th>
-              </tr>
-    </thead>
-      <tbody>
-          <tr>
-                                            <th scope="row">
-                April 7, 2020
-              </th>
-                                                                  <td>
-                <strong>COVID-19 Clinical Research Projects</strong>
-
-&nbsp;
-
-A COVID-19 Research Advisory Committee has been established to help investigators address the operational needs of UI Health and clinical research protocol feasibility during the COVID-19 epidemic.  The review committee will assess studies balancing research significance and the potential for immediate clinical benefit, feasibility of completion, potentially competing trials in UI Health settings, and the proposed protocol’s operational feasibility for UI Health (eg, burden on nursing, physicians, PPE, etc) during emergency operations.  The COVID Research Advisory Committee will make recommendations to approve, modify or disapprove research protocols to the UI Health Chief Medical Officer, and UI Health Incident Command, who have final authority over research study implementation at UI Health.  The rapid COVID-19 Research Advisory Committee review process will start when investigators submit or inquire about submission of COVID-19-related studies for IRB review. IRB review of protocols will be separate but coordinated to maintain rapid reviews.   The committee first met April 6th, 2020 and will meet weekly or as needed to facilitate <span style="text-decoration: line-through;">rapid</span> implementation of COVID-19-related interventions.  Contact (Acting) Associate Vice Chancellor for Research Jonathan Klein at <a href="mailto:jonklein@uic.edu">jonklein@uic.edu</a> for questions.
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 31, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19-oprsfaq/">Updated FAQs: Coronavirus (COVID-19) and Human Subjects Research at UIC</a>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 20, 2020, 10am
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19-oprsfaq/">Updated FAQs: Coronavirus (COVID-19) and Human Subjects Research at UIC</a>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 17, 2020
-              </th>
-                                                                  <td>
-                Human subjects research studies that are necessary for clinical patient care may continue according to UI Health policies and recommendations <a href="https://hospital.uillinois.edu/news/covid-19">https://hospital.uillinois.edu/news/covid-19</a>.  Other human subjects’ research activities are on hold until further notice, unless such activities can be conducted remotely, without in-person visits. The Office for the Protection of Research Subjects (OPRS) is triaging submissions through <em>OPRS Live </em>to prioritize emergency research (e.g., compassionate use protocols), amendments to protocols impacting staff and subject safety and continuing reviews necessary to keep projects open.  PIs should maintain a log of studies/activities placed on hold and report these to the IRB at the next Continuing Review.  Temporary modification of study procedures may be made at the PI’s discretion and a <a href="https://research.uic.edu/human-subjects-irbs/getting-started-preparation-for-submission/forms/">Prompt Reporting form</a> should be submitted through <a href="https://research.uic.edu/human-subjects-irbs/getting-started-preparation-for-submission/oprs-live/"><em>OPRS Live</em></a>.  PIs must continue to follow all <a href="https://security.uic.edu/policies/">UI Health and University data security policies</a>, and submit prospective amendments to the IRB for any requests to change their current IRB-approved data security plan.  See the latest <a href="https://emails.uofi.uic.edu/newsletter/747649.html">OPRS FAQs</a> for more information.
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 16, 2020
-              </th>
-                                                                  <td>
-                Clinical research protocols that use patient care areas within UI Health facilities MUST also comply with all restrictions for patient care area access. Personal protective equipment is in short supply and will only be available for clinical care delivery; any research affecting therapies will need to be closely coordinated with patient’s care needs. The <a href="https://go.uic.edu/COVID-19OPRSFAQ"><strong>UIC Office for the Protection of Research Subjects (OPRS)</strong> </a>has developed <a href="https://go.uic.edu/COVID-19OPRSFAQ" target="_blank" rel="noopener">FAQs for COVID19</a> and research studies to help Principal Investigators modify study procedures to mitigate any real or apparent harm to research subjects and study personnel. When possible, a request for change in protocols or protocol deviation requests should be prospectively submitted to the IRB. However, IRB response to requests may be slowed by reduced IRB staffing and by the volume of requests. In all cases, investigators are reminded that UIC policy allows changes necessary to eliminate apparent immediate hazards to subjects and others may be made without prior approval of the IRB. PIs should keep a log of changes made, brief written justifications for any changes, including whether the change was at the request of the study sponsor, the PI at the prime if UIC is a subaward, and the date the PI notified the study funder, the PI at the prime, and the IRB. Contact OPRS with any research protocol questions at 312-996-1711, or via email at uicirb@uic.edu. FAQs regarding human subjects research are posted on the <a href="https://research.uic.edu/human-subjects-irbs/">OPRS website</a> and will be updated as needed.
-              </td>
-                                    </tr>
-        </tbody>
-
-    </table>
-  </div>
-
-    
-
-  
-</section>
-
-    
-
-</div>
-            </div>
-          <div
-              class="tab-group__tabpanel"
-              tabindex="0"
-              role="tabpanel"
-              id="panel-tabID-3-4"
-              aria-labelledby="tab-tabID-3-4">
-
-              <div class="components">
-
-  
-    
-      
-
-<section class="component  ">
-
-  
-    
-    <div class="component-description">
-                    <h2 id="updates" class="__title invisible">Updates</h2>
-                    </div>
-
-      <div class="table-container">
-    <table aria-label="Updates">
-            <thead>
-      <tr>
-                  <th scope="col">Date</th>
-                  <th scope="col">Updates</th>
-              </tr>
-    </thead>
-      <tbody>
-          <tr>
-                                            <th scope="row">
-                April 14, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19osp">Updated COVID-19 OSP Information.</a>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                April 10, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19osp">Updated COVID-19 OSP Information.</a>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                April 9, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19osp">Updated COVID-19 OSP Information.</a>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                April 7, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19osp">Updated COVID-19 OSP Information.</a>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                April 1, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19osp">Updated COVID-19 OSP Information.</a>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 30, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19osp">Updated COVID-19 OSP Information.</a>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 27, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19osp">Updated COVID-19 OSP Information.</a>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 24, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19osp">Updated COVID-19 OSP Information.</a>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 20, 2020
-              </th>
-                                                                  <td>
-                <ul>
- 	<li><a href="https://research.uic.edu/wp-content/uploads/sites/232/2020/03/joint_letter.pdf">Joint Letter</a> from the APLU, AAU, AAMC and ACE to our leaders in Congress</li>
- 	<li><a href="https://research.uic.edu/wp-content/uploads/sites/232/2020/03/GOMB.pdf">GOMB Administrative Relief for Programs Affected by Coronavirus</a></li>
-</ul>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 19, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19osp">New COVID-19 FAQs and Updated Information.</a>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 17, 2020
-              </th>
-                                                                  <td>
-                The Office of Sponsored Programs (OSP) is closely monitoring guidance from Federal awarding agencies.  OSP has observed a slowdown in the release of Federal (and other) awards beginning today, March 17, 2020.  We are seeing a great deal of administrative and financial flexibility from sponsors, such as NIH and NSF.  For example, many agencies are being flexible with granting no-cost time extensions and late submission of proposals.  PIs are advised to document all instances where schedules are delayed or unmet, and to contact their program or contracting officers as soon as a delay is anticipated.  OSP remains operational and is ready to assist with any urgent matters, including expedited processing of COVID-19 related projects and contractual modifications necessary due to project delays.   See <a href="https://research.uic.edu/covid-19osp/">OSP Guidance</a> for more information and links to sponsor-specific guidance.
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 16, 2020
-              </th>
-                                                                  <td>
-                The <strong><a href="https://research.uic.edu/covid-19osp/">Office of Sponsored Programs (OSP)</a></strong> is prepared to serve the UIC research community and continue business operations in the event of University closure, including submission of proposals, negotiation of contracts, and other administrative and financial award management tasks. Please email any specific questions or concerns to <a href="mailto:awards@uic.edu">awards@uic.edu</a> or <a href="mailto:gcopost@uic.edu">gcopost@uic.edu</a>. In anticipation of potential impact to sponsored projects due to COVID-19, OSP is providing the following guidance:
-<ul>
- 	<li>Communicate delays in writing to your sponsors in accordance with <a href="https://www.ecfr.gov/cgi-bin/text-idx?SID=704835d27377ef5213a51c149de40cab&amp;node=2:1.1.2.2.1&amp;rgn=div5#se2.1.200_1328">2 CFR 200.328(d)(1)</a>, and any agency or award-specific terms and conditions.</li>
- 	<li>Request prior approval through OSP if you anticipate a change in budget or program plans (e.g., need for additional funds, disengagement of key personnel for more than 3 months or 25% or more reduction in effort, change in scope, etc.) in accordance with <a href="https://www.ecfr.gov/cgi-bin/text-idx?SID=704835d27377ef5213a51c149de40cab&amp;node=2:1.1.2.2.1&amp;rgn=div5#se2.1.200_1308">2 CFR 200.308(c)</a>. Note, some sponsors may have more stringent prior approval requirements.</li>
- 	<li>Work with OSP to prepare contract modifications for Federal contracts and/or other sponsored programs with strict deliverable due dates and schedules that may be impacted by closures, availability of personnel, materials or equipment, etc.</li>
- 	<li>Keep track of charges impacted by COVID-19, such as cancelled travel and conference registration fees, salary costs for quarantined staff, etc. in the event sponsors provide future guidance that necessitates a change in funding source.</li>
- 	<li>Review University Payable’s Travel Reimbursement and the Coronavirus (COVID-19) (https://apps.obfs.uillinois.edu/news/dsp_News.cfm?FY=2020&amp;A=19756F12-CCC9-4DD3-AE9A-8CEC2FDCEDB3) guidance for cancelled or interrupted travel.</li>
-</ul>
-For more information, please see <a href="https://research.uic.edu/covid-19osp/">https://research.uic.edu/covid-19osp/</a>.
-              </td>
-                                    </tr>
-        </tbody>
-
-    </table>
-  </div>
-
-    
-
-  
-</section>
-
-    
-
-</div>
-            </div>
-          <div
-              class="tab-group__tabpanel"
-              tabindex="0"
-              role="tabpanel"
-              id="panel-tabID-3-5"
-              aria-labelledby="tab-tabID-3-5">
-
-              <div class="components">
-
-  
-    
-      
-
-<section class="component  ">
-
-  
-  <div class="component-text-block">
-  
-    <div class="component-description">
-                    <h2 id="research-development-services" class="__title invisible">Research Development Services</h2>
-                    </div>
-
-  
-  <p>Research Development Services is providing frequent updates on new funding opportunities and announcements related to the COVID-19 pandemic.</p>
-<p>Our<a href="https://research.uic.edu/sponsoredprograms/funding-opportunities/rds-newsletter/"> Limited Opportunities Newsletter and RDS News</a> will continue to be published weekly with general funding announcements.  Please reach out to <a href="mailto:RDS@uic.edu">RDS@uic.edu</a> with any specific questions.</p>
-
-
-
-  
-</div>
-
-  
-</section>
-
-    
-
-    
-      
-
-<section class="component  ">
-
-  
-    
-    <div class="component-description">
-                    <h2 id="updates" class="__title invisible">Updates</h2>
-                    </div>
-
-      <div class="table-container">
-    <table aria-label="Updates">
-            <thead>
-      <tr>
-                  <th scope="col">Date</th>
-                  <th scope="col">Updates</th>
-              </tr>
-    </thead>
-      <tbody>
-          <tr>
-                                            <th scope="row">
-                April 30, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19-rds/">Research and Funding Opportunities Daily Update  </a>
+		
+</div><!-- End of one fourth first -->
+
+<!-- Start of one fourth -->
+<div class="one_fourth">
+<h5>Campuses</h5><div class="menu-campuses-container"><ul id="menu-campuses" class="menu"><li id="menu-item-5" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5"><a target="_blank" href="http://www.medicine.uic.edu/">Chicago</a></li>
+<li id="menu-item-6" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6"><a target="_blank" href="http://peoria.medicine.uic.edu/">Peoria</a></li>
+<li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a target="_blank" href="http://rockford.medicine.uic.edu/">Rockford</a></li>
+<li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a target="_blank" href="http://www.med.uiuc.edu/">Urbana</a></li>
+</ul></div>
+</div><!-- End of one fourth -->
+
+<!-- Start of one fourth -->
+<div class="one_fourth">
+<h5>Participating Colleges</h5><div class="menu-participating-colleges-container"><ul id="menu-participating-colleges" class="menu"><li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a target="_blank" href="http://www.medicine.uic.edu/">Medicine</a></li>
+<li id="menu-item-10" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a target="_blank" href="http://www.ahs.uic.edu/">AHS</a></li>
+<li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12"><a target="_blank" href="http://dentistry.uic.edu/">Dentistry</a></li>
+<li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a target="_blank" href="http://www.uic.edu/pharmacy/">Pharmacy</a></li>
+<li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a target="_blank" href="https://www.nursing.uic.edu/about-us/global-health#global-health-outreach#international-outreach">Nursing</a></li>
+<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a target="_blank" href="http://publichealth.uic.edu/globalhealthinitiative/">Public Health</a></li>
+</ul></div>
+</div><!-- End of one fourth -->
+
+<!-- Start of one fourth -->
+<div class="one_fourth">
+
+</div><!-- End of one fourth -->
+
+<!-- Start of clear fix --><div class="clear"></div>
+
+</section><!-- End of social -->
+
+</div><!-- End of bottom nav wrap -->
+
+<!-- Start of outer footer wrapper -->
+<footer id="outer_footer_wrapper">
+
+<!-- Start of footer wrapper -->
+<div id="footer_wrapper">
+
+<!-- Start of copyright message -->
+<div class="copyright_message">
+     
  
-<ul>
- 	<li><a href="https://emails.uofi.uic.edu/newsletter/2239518.html" target="_blank" rel="noopener">Special Edition RDS News COVID-19 Opportunities</a> – (4/30/2020)</li>
-</ul>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                April 29, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19-rds/">Research and Funding Opportunities Daily Update  </a>
- 
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                April 27, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19-rds/">Research and Funding Opportunities Daily Update  </a>
- 
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                April 23, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19-rds/">Research and Funding Opportunities Daily Update  </a>
- 
-<ul>
- 	<li><a href="https://emails.uofi.uic.edu/newsletter/4218457.html" target="_blank" rel="noopener">Special Edition RDS News COVID-19 Opportunities</a> – (4/23/2020)</li>
-</ul>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                April 20, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19-rds/">Research and Funding Opportunities Daily Update  </a>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                April 16, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19-rds/">Research and Funding Opportunities Daily Update  </a>
-&nbsp;
-<ul>
- 	<li><a href="https://emails.uofi.uic.edu/newsletter/5860416.html" target="_blank" rel="noopener">Special Edition RDS News COVID-19 Opportunities</a> – (4/16/2020)</li>
-</ul>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                April 14, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19-rds/">Research and Funding Opportunities Daily Update  </a>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                April 13, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19-rds/">Research and Funding Opportunities Daily Update  </a>
-&nbsp;
-<ul>
- 	<li><a href="https://nexus.od.nih.gov/all/2020/04/13/covid-19-funding-and-funding-opportunities/" target="_blank" rel="noopener">NIH COVID-19 Funding and Funding Opportunities</a> –  (4/13/2020)</li>
-</ul>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                April 9, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19-rds/">Research and Funding Opportunities Daily Update  </a>
-<ul>
- 	<li><a href="https://emails.uofi.uic.edu/newsletter/7576213.html" target="_blank" rel="noopener">Special Edition RDS News COVID-19 Opportunities</a> – (4/9/2020)</li>
-</ul>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                April 7, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19-rds/">Research and Funding Opportunities Daily Update  </a>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                April 1, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19-rds/">Research and Funding Opportunities Daily Update  </a>
-<ul>
- 	<li><a href="https://emails.uofi.uic.edu/newsletter/8984937.html" target="_blank" rel="noopener">Special Edition RDS News COVID-19 Opportunities</a> – (4/1/2020)</li>
-</ul>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 30, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19-rds/">Research and Funding Opportunities Daily Update  </a>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 26, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19-rds/">Research and Funding Opportunities Daily Update  </a>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 25, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19-rds/">Research and Funding Opportunities Daily Update  </a>
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 24, 2020
-              </th>
-                                                                  <td>
-                <a href="https://research.uic.edu/covid-19-rds/">Research and Funding Opportunities Daily Update  </a>
-              </td>
-                                    </tr>
-        </tbody>
-
-    </table>
-  </div>
-
-    
-
-  
-</section>
-
-    
-
-</div>
-            </div>
-          <div
-              class="tab-group__tabpanel"
-              tabindex="0"
-              role="tabpanel"
-              id="panel-tabID-3-6"
-              aria-labelledby="tab-tabID-3-6">
-
-              <div class="components">
-
-  
-    
-      
-
-<section class="component  ">
-
-  
-    
-    <div class="component-description">
-                    <h2 id="updates" class="__title visible">Updates</h2>
-                    </div>
-
-      <div class="table-container">
-    <table aria-label="Updates">
-            <thead>
-      <tr>
-                  <th scope="col">Date</th>
-                  <th scope="col">Updates</th>
-              </tr>
-    </thead>
-      <tbody>
-          <tr>
-                                            <th scope="row">
-                April 7, 2020
-              </th>
-                                                                  <td>
-                Research Resource Center (RRC) cores have suspended regular services as of March 20<sup>th</sup>, 2020 and are currently providing support for projects that were already in progress or are essential for COVID-19 research. This change allows us to protect the health and safety of our personnel by operating at reduced staffing levels.
-
-Additionally, scheduling self-use of instruments through iLab has been suspended.
-
-Exemptions may be requested for the following:
-<ul>
- 	<li>Any COVID-19 related projects</li>
- 	<li>Any project that is patient-related or human subjects-related</li>
- 	<li>Projects already in progress now requesting essential project status</li>
-</ul>
-<strong>PLEASE NOTE:</strong> ALL REQUESTS FOR EXEMPTIONS MUST BE SENT VIA EMAIL TO DR. GRODEN AT <a href="mailto:JGRODEN@UIC.EDU">JGRODEN@UIC.EDU</a>, COPIED TO THE SPECIFIC CORE FACILITY DIRECTOR AND ALSO COPIED TO <a href="mailto:RESEARCH@UIC.EDU">RESEARCH@UIC.EDU</a>.
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 19, 2020
-              </th>
-                                                                  <td>
-                We have moved to end most Research Resource Center (RRC) services today in order to reduce the number of people in our core facilities and with the goal of completing most projects in process by the close of business today. Only critical research projects using RRC will be conducted at this time. If there is a need for services/projects exceptions, please request exemptions with a detailed explanation to <a href="mailto:jgroden@uic.edu">jgroden@uic.edu</a> and the Core Director.
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 17, 2020
-              </th>
-                                                                  <td>
-                The Research Resource Center (RRC) facilities remain available, albeit at reduced staffing, for projects already in progress. PIs should limit aspects of their work to those critical for its continuity.&nbsp; Researchers using either BRL or RRC are advised that new orders and the initiation of new projects will be placed on hold.
-              </td>
-                                    </tr>
-          <tr>
-                                            <th scope="row">
-                March 16, 2020
-              </th>
-                                                                  <td>
-                All <strong><a href="http://rrc.uic.edu">Research Resources Center (RRC)</a></strong> Facilities are continuing to operate, with increased cleanliness requirements for equipment, surfaces, supplies, etc. Users of shared instrumentation cores will need to follow posted guidance with respect to enhanced disinfection procedures mandated by individual core directors. Understandably, the situation is fluid. PIs should immediately begin preparing for all on-campus research to be restricted to essential activities only as soon as possible.  The RRC urges users to review aspects of your work that are not absolutely critical for the continuity of your research program.  New experiments should be curtailed.
-              </td>
-                                    </tr>
-        </tbody>
-
-    </table>
-  </div>
-
-    
-
-  
-</section>
-
-    
-
-</div>
-            </div>
-                  </div>
-      </div>
-    </div>
-  </div>
-
-  
-</section>
-
-    
-
-    
-      
-
-<section class="component  ">
-
-  
-    <div class="component-accordion js-component-accordion">
-
-    
-    <div class="component-description">
-                    <h2 id="resources" class="__title invisible">Resources</h2>
-                    </div>
-
-    <dl class="component-accordion__accordion"
-        role="presentation">
-
-    <dt class="component-accordion__title"
-          role="heading"
-          aria-level="1">
-        <button
-          class="component-accordion__button js-toggle-acc"
-          aria-expanded="false"
-          aria-controls="panel-sectionID-4-1"
-          id="tab-sectionID-4-1"
-          type="button">
-            Agency Specific Guidance and Other Resources
-        </button>
-      </dt>
-
-      <dd class="component-accordion__content component-accordion__content--collapsed"
-          aria-labelledby="tab-sectionID-4-1"
-          id="panel-sectionID-4-1"
-          role="region">
-
-          <div class="component-accordion__content-wrapper">
-            <div class="components">
-
-  
-    
-      
-
-<div class="component  component--is-in-another-component">
-
-  
-  <div class="component-text-block">
-  
-    <div class="component-description">
-                    <h2 id="agency-specific-guidance-and-other-resources" class="__title invisible">agency specific guidance and other resources</h2>
-                    </div>
-
-  
-  <ul>
-<li><a href="https://research.uic.edu/covid-19/covid-19osp/" target="_blank" rel="noopener">Agency Specific Guidance and Other Resources</a></li>
-</ul>
-
-
-
-  
-</div>
-
-  
-</div>
-
-    
-
-</div>
-          </div>
-      </dd>
-
-    <dt class="component-accordion__title"
-          role="heading"
-          aria-level="2">
-        <button
-          class="component-accordion__button js-toggle-acc"
-          aria-expanded="false"
-          aria-controls="panel-sectionID-4-2"
-          id="tab-sectionID-4-2"
-          type="button">
-            Research and Funding Opportunities
-        </button>
-      </dt>
-
-      <dd class="component-accordion__content component-accordion__content--collapsed"
-          aria-labelledby="tab-sectionID-4-2"
-          id="panel-sectionID-4-2"
-          role="region">
-
-          <div class="component-accordion__content-wrapper">
-            <div class="components">
-
-  
-    
-      
-
-<div class="component  component--is-in-another-component">
-
-  
-  <div class="component-text-block">
-  
-    <div class="component-description">
-                    <h2 id="research-and-funding-opportunities" class="__title invisible">Research and Funding Opportunities</h2>
-                    </div>
-
-  
-  <ul>
-<li><a href="https://research.uic.edu/covid-19/covid-19-rds/" target="_blank" rel="noopener">Research and Funding Opportunities Daily Update</a></li>
-</ul>
-
-
-
-  
-</div>
-
-  
-</div>
-
-    
-
-</div>
-          </div>
-      </dd>
-
-    
-    </dl>
-  </div>
-
-  
-</section>
-
-    
-
-</div>
-
-          <div class="post-date-line">
-        <span class="post-date">Modified on <strong>March 19, 2020</strong></span>
-      </div>
-    
-              </article>
-        </div>
-
-                                            
-                       
-              
-                            
-                       
-              
-                            
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-          
-                          </div>
-    </main>
-
-    
-        <footer id="footer" class="footer u-dark-region" role="contentinfo">
-
-  <div class="footer-contact">
-    <div class="l-full">
-
-          <div class="mega-footer-contact">
-
-    <div class="mega-footer-contact__brand mega-footer-contact__brand--wordmark">
-        <div class="footer-logo">
-                        <div class="footer-logo__wordmark-wrapper">
-                <div class="uic-wordmark  uic-wordmark--mega-footer">
-
-  <div class="_mark">
-    <a href="http://uic.edu" class="uic-logo-icon ">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
-  </div>
-
-  <div class="_text">
-    <a href="https://research.uic.edu">
-                  <span class="_line">Office Of</span>
-              <span class="_line">The Vice</span>
-              <span class="_line">Chancellor</span>
-              <span class="_line">For</span>
-              <span class="_line">Research</span>
-              </a>
-  </div>
-
-</div>
-            </div>
-            </div>
-    </div>
-
-  <div class="mega-footer-contact__menus">
-
-        <div class="mega-footer-contact__quick-menus _quick-menus">
-
-            <nav class="mega-footer-contact__quick-menu" id="menu1" aria-label="footer-menu-1">
-        <h2></h2>
-        <ul id="menu-quick-1" class="menu menu-quick-1">
-  </ul>
-      </nav>
-      
-      
-      
-    </div>
-    
-    
-  </div>
-
-  <div class="mega-footer-contact__contact">
-
-    <div class="_contact">
-      <h2>Contact</h2>
-      <div class="site-contact-container">  <div class="site-unit-name"><h3>Office of the Vice Chancellor for Research</h3></div>
-      <div class="site-address">1737 West Polk Street, Suite 310, MC 672, Chicago, IL 60612</div>
-      <div class="site-phone">Phone: <a  href="tel:(312) 996-4995">(312) 996-4995</a></div>
-      <div class="site-fax">Fax: <a  href="tel:(312 ) 996-9598 ">(312 ) 996-9598 </a></div>
-      <div class="site-email"><a  href="mailto:ovcrweb@uic.edu">ovcrweb@uic.edu</a></div>
-</div>
-      <div class="site-contact-container">        </div>
-    </div>
-
-    <div class="mega-footer-contact__site-social-links">
-       <div aria-label="Social Media Accounts" class="site-social-links">
-  <h2 class="site-social-links__header assistive-text">Social Media Accounts</h2>
-  <ul class="site-social-links__list">
-                          </ul>
-</div>
-    </div>
-  </div>
-</div>
-    
-    </div>
-  </div>
-
-  
-  <div class="footer-uic-menu">
-    <div class="l-full">
-
-      <div aria-label="UIC.edu Links">
-  <h2 class="assistive-text">UIC.edu links</h2>
-  <ul class="uic-footer-menu">
-    <li><strong><a href="https://uic.edu/">UIC.edu</a></strong></li>
-    <li><a href="https://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></li>
-    <li><a href="https://uicflames.com/">Athletics</a></li>
-    <li><a href="https://www.uic.edu/apps/departments-az/search">Campus Directory</a></li>
-    <li><a href="https://disabilityresources.uic.edu/">Disability Resources</a></li>
-    <li><a href="https://emergency.uic.edu/">Emergency Information</a></li>
-    <li><a href="https://today.uic.edu/events">Event Calendar</a></li>
-    <li><a href="https://uic.edu/about/job-opportunities">Job Openings</a></li>
-    <li><a href="https://library.uic.edu/">Library</a></li>
-    <li><a href="https://maps.uic.edu/">Maps</a></li>
-    <li><a href="https://ready.uic.edu/digital-materials/uic-safe-mobile-app/">UIC Safe Mobile App</a></li>
-    <li><a href="https://today.uic.edu/">UIC Today</a></li>
-    <li><a href="https://uihealth.uic.edu/">UI Health</a></li>
-    <li><a href="https://dos.uic.edu/student-veterans-affairs/">Veterans Affairs</a></li>
-  </ul>
-</div>
-
-    </div>
-  </div>
-
-  <div class="footer-legal">
-    <div class="l-full">
-
-      <div class="red-version">Powered by Red 2.38.0</div>
-
-<div class="site-copyright">
-  &copy; 2020 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
-  <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a>
-</div>
-
-<div class="campuses" aria-label="Campuses">
-  <h2 class="assistive-text">Campuses</h2>
-  <ul class="campuses-list">
-    <li><a href="https://www.uillinois.edu/">University of Illinois System</a></li>
-    <li><a href="https://illinois.edu/">Urbana-Champaign</a></li>
-    <li><a href="https://www.uis.edu/">Springfield</a></li>
-  </ul>
-</div>
-<div class="cookie-banner">
-  <div id="footer-bottom">
-    <a class="optanon-show-settings">Cookie Settings</a>
-  </div>
-</div>
-    </div>
-  </div>
-
-</footer>
-
-	    </div>
-
-
-  <!-- Instagram Feed JS -->
-<script type="text/javascript">
-var sbiajaxurl = "https://research.uic.edu/wp-admin/admin-ajax.php";
-</script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var sb_instagram_js_options = {"sb_instagram_at":"","font_method":"svg"};
-/* ]]> */
+&copy;Copyright 2014 The Board of Trustees of the University of Illinois.
+</div><!-- End of copyright message -->
+
+<div class="clear"></div>
+
+</div><!-- End of footer wrapper -->
+
+</footer><!-- End of outer footer wrapper -->
+
+<script type="text/javascript">
+// DOM ready
+jQuery(document).ready(function(){
+
+// Create the dropdown base
+jQuery("<select />").appendTo("#topmenu");
+jQuery("<select />").appendTo("#globalmenu");
+
+// Create default option "Go to..."
+jQuery("<option />", {
+ "selected": "selected",
+ "value"   : "",
+ //"text"    : "Menu Selection..."
+ "text"    : "Campuses and Colleges..."
+}).appendTo("#topmenu select");
+jQuery("<option />", {
+ "selected": "selected",
+ "value"   : "",
+ "text"    : "Menu Selection..."
+}).appendTo("#globalmenu select");
+
+// Populate dropdown with menu items
+/*jQuery("#topmenu a").each(function() {
+var el = jQuery(this);
+jQuery("<option />", {
+   "value"   : el.attr("href"),
+   "text"    : el.text()
+}).appendTo("#topmenu select");
+});*/
+
+jQuery("#globalmenu a").each(function() {
+var el = jQuery(this);
+if ( el.parent().parent().attr("class") != "sub-menu" ){
+jQuery("<option />", {
+   "value"   : el.attr("href"),
+   "text"    : el.text()
+}).appendTo("#globalmenu select");
+}
+});
+
+jQuery("#topmenu a").each(function() {
+var el = jQuery(this);
+if ( el.parent().parent().attr("id") == "menu-eyebrow" ){
+jQuery("<option />", {
+  "value"   : el.attr("href"),
+  "text"    : el.text()
+}).appendTo("#globalmenu select");
+}
+});
+
+// To make dropdown actually work
+// To make more unobtrusive: http://css-tricks.com/4064-unobtrusive-page-changer/
+jQuery("#topmenu select").change(function() {
+window.location = jQuery(this).find("option:selected").val();
+});
+jQuery("#globalmenu select").change(function() {
+window.location = jQuery(this).find("option:selected").val();
+});
+jQuery(".tweet").tweet({
+            username: "",
+            join_text: "auto",
+            avatar_size: 0,
+            count: 3,
+            auto_join_text_default: "we said,", 
+            auto_join_text_ed: "we",
+            auto_join_text_ing: "we were",
+            auto_join_text_reply: "we replied to",
+            auto_join_text_url: "we were checking out",
+            loading_text: "loading tweets..."
+        });
+		
+jQuery('.slider').flexslider();
+
+});
 </script>
-<script type='text/javascript' src='https://research.uic.edu/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.12.1'></script>
-<script type='text/javascript' src='https://research.uic.edu/wp-content/plugins/uic-red/js-admin/uic-publish-post-settings.js?ver=1.0.0'></script>
-<script type='text/javascript' src='https://research.uic.edu/wp-content/plugins/uic-red/js-admin/acf-field-group-toggle.js?ver=1.0.0'></script>
-<script type='text/javascript' src='//www.uic.edu/apps/web-alert/alert.js?ver=3'></script>
-<script type='text/javascript' src='https://research.uic.edu/wp-content/themes/uic-red/js/main.js?ver=1'></script>
-<script type='text/javascript' src='https://research.uic.edu/wp-includes/js/wp-embed.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
+
+     
 
 
-
-  
-  
-  <script async src="https://cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js" type="text/javascript" charset="UTF-8"></script>
-
-  </body>
+</body>
 </html>
+
+			<script type='text/javascript'>
+				jQuery(document).ready(function($){
+					var gforms = '.gform_wrapper form';
+					$( document ).on( 'submit', gforms ,function() {
+						$('<input>').attr( 'type', 'hidden' )
+								.attr( 'name', 'gf_zero_spam_key' )
+								.attr( 'value', '2Hl6BPvnmD7OklSgX8VMBUx9erzcbqFOmlM719DVPXbxuM9PuXllcLGgx5MlggQa' )
+								.appendTo( gforms );
+						return true;
+					});
+				});
+			</script>
+			<script type='text/javascript'>
+var colomatduration = 'fast';
+var colomatslideEffect = 'slideFade';
+var colomatpauseInit = '';
+var colomattouchstart = '';
+</script><script type='text/javascript' src='http://globalhealth.uic.edu/wp-content/themes/mammoth-wp-child/js/slider_fix.js?ver=1.0'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-includes/js/comment-reply.min.js?ver=2e904ac675a9f78c3b69ba4dd8d8f7dd'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-content/plugins/jquery-collapse-o-matic/js/collapse.js?ver=1.6.18'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-content/themes/mammoth-wp-child/js/custom.js?ver=1.0'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-content/themes/mammoth-wp/js/jquery.tweet.js?ver=1.0'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-content/themes/mammoth-wp/js/jquery.flexslider-min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-content/themes/mammoth-wp/js/jquery.easing.1.3.js?ver=1.0'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-content/themes/mammoth-wp/js/hoverIntent.js?ver=1.0'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-content/themes/mammoth-wp/js/respond.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-content/themes/mammoth-wp/js/jquery.sfmenu.js?ver=1.0'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-content/themes/mammoth-wp/js/jquery.preloadcssimages.js?ver=1.0'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-content/plugins/page-links-to/js/new-tab.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-content/plugins/easy-fancybox/js/jquery.fancybox.min.js?ver=1.3.24'></script>
+<script type='text/javascript'>
+var fb_timeout, fb_opts={'overlayShow':true,'hideOnOverlayClick':true,'showCloseButton':true,'margin':20,'centerOnScroll':false,'enableEscapeButton':true,'autoScale':true };
+if(typeof easy_fancybox_handler==='undefined'){
+var easy_fancybox_handler=function(){
+jQuery('.nofancybox,a.wp-block-file__button,a.pin-it-button,a[href*="pinterest.com/pin/create"],a[href*="facebook.com/share"],a[href*="twitter.com/share"]').addClass('nolightbox');
+/* IMG */
+var fb_IMG_select='a[href*=".jpg"]:not(.nolightbox,li.nolightbox>a),area[href*=".jpg"]:not(.nolightbox),a[href*=".jpeg"]:not(.nolightbox,li.nolightbox>a),area[href*=".jpeg"]:not(.nolightbox),a[href*=".png"]:not(.nolightbox,li.nolightbox>a),area[href*=".png"]:not(.nolightbox),a[href*=".webp"]:not(.nolightbox,li.nolightbox>a),area[href*=".webp"]:not(.nolightbox)';
+jQuery(fb_IMG_select).addClass('fancybox image');
+var fb_IMG_sections=jQuery('.gallery,.wp-block-gallery,.tiled-gallery,.wp-block-jetpack-tiled-gallery');
+fb_IMG_sections.each(function(){jQuery(this).find(fb_IMG_select).attr('rel','gallery-'+fb_IMG_sections.index(this));});
+jQuery('a.fancybox,area.fancybox,li.fancybox a').each(function(){jQuery(this).fancybox(jQuery.extend({},fb_opts,{'transitionIn':'elastic','easingIn':'easeOutBack','transitionOut':'elastic','easingOut':'easeInBack','opacity':false,'hideOnContentClick':false,'titleShow':true,'titlePosition':'over','titleFromAlt':true,'showNavArrows':true,'enableKeyboardNav':true,'cyclic':false}))});};
+jQuery('a.fancybox-close').on('click',function(e){e.preventDefault();jQuery.fancybox.close()});
+};
+var easy_fancybox_auto=function(){setTimeout(function(){jQuery('#fancybox-auto').trigger('click')},1000);};
+jQuery(easy_fancybox_handler);jQuery(document).on('post-load',easy_fancybox_handler);
+jQuery(easy_fancybox_auto);
+</script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-content/plugins/easy-fancybox/js/jquery.easing.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://globalhealth.uic.edu/wp-includes/js/wp-embed.min.js?ver=2e904ac675a9f78c3b69ba4dd8d8f7dd'></script>

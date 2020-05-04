@@ -1,1869 +1,536 @@
-  
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
-<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
-<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js" lang="en-US"> <!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en"><head>
 
-    <head>
-
-<!-- Google Analytics script (RED and this site) -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    
-        ga('create', 'UA-20665772-1', 'auto');
-    
-        ga('create', 'UA-54652433-1', 'auto', 'dosTracker');
-    
-        ga('send', 'pageview');
-    
-        ga('dosTracker.send', 'pageview');
-      </script>
-<!-- End Google Analytics script (RED and this site) -->
-
-
-
-<!-- Google Tag Manager script for RED multisite -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
-              (window,document,'script','dataLayer','GTM-W2Q8D2K');
-  </script>
-<!-- End Google Tag Manager script for RED multisite -->
-
-
-
-
-
-
-        <title>
-                            Student Veterans | Office of the Dean of Students | University of Illinois at Chicago
-                    </title>
-
-
-
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- Website style adapted from http://compbio.cs.uic.edu/netinf17/-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="pingback" href="https://dos.uic.edu/xmlrpc.php" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Elena Zheleva, Assistant Professor in Computer Science, University of Illinois at Chicago (UIC)">
+    <link rel="shortcut icon" type="image/ico" href="img/uic.ico">
+    <meta name="author" content="Elena Zheleva">
 
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60.png" />
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png" />
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76.png" />
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
-<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
-<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
-<link rel="icon" type="image/png" href="/favicon-128.png" sizes="128x128" />
-<meta name="application-name" content="&nbsp;"/>
-<meta name="msapplication-TileColor" content="#FFFFFF" />
-<meta name="msapplication-TileImage" content="mstile-144x144.png" />
-<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
-<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
-<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
-<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+    <title>Elena Zheleva - University of Illinois at Chicago (UIC)</title>
 
-    <link rel="stylesheet" href="https://dos.uic.edu/wp-content/themes/uic-red/main.css?v=1587475706" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://dos.uic.edu/wp-content/themes/uic-red/theinhardt.css?v=1587475706" type="text/css" media="all">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel='dns-prefetch' href='//www.uic.edu' />
-<link rel='dns-prefetch' href='//s.w.org' />
-		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/dos.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6"}};
-			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='https://dos.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6' type='text/css' media='all' />
-<link rel='stylesheet' id='sb_instagram_styles-css'  href='https://dos.uic.edu/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.12.1' type='text/css' media='all' />
-<link rel='stylesheet' id='tablepress-default-css'  href='https://dos.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
-<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
-<link rel='https://api.w.org/' href='https://dos.uic.edu/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://dos.uic.edu/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://dos.uic.edu/wp-includes/wlwmanifest.xml" /> 
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
 
-<script type="text/javascript">
-(function(url){
-	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
-	var addEvent = function(evt, handler) {
-		if (window.addEventListener) {
-			document.addEventListener(evt, handler, false);
-		} else if (window.attachEvent) {
-			document.attachEvent('on' + evt, handler);
-		}
-	};
-	var removeEvent = function(evt, handler) {
-		if (window.removeEventListener) {
-			document.removeEventListener(evt, handler, false);
-		} else if (window.detachEvent) {
-			document.detachEvent('on' + evt, handler);
-		}
-	};
-	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
-	var logHuman = function() {
-		if (window.wfLogHumanRan) { return; }
-		window.wfLogHumanRan = true;
-		var wfscr = document.createElement('script');
-		wfscr.type = 'text/javascript';
-		wfscr.async = true;
-		wfscr.src = url + '&r=' + Math.random();
-		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
-		for (var i = 0; i < evts.length; i++) {
-			removeEvent(evts[i], logHuman);
-		}
-	};
-	for (var i = 0; i < evts.length; i++) {
-		addEvent(evts[i], logHuman);
-	}
-})('//dos.uic.edu/?wordfence_lh=1&hid=AEB6BDBEA228DF17B228387CD1FFE0CA');
-</script>
+    <!-- Custom Fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!--link href="css/css.css" rel="stylesheet" type="text/css">
+    <link href="css/css(1).css" rel="stylesheet" type="text/css">
+    <link href="css/css(2).css" rel="stylesheet" type="text/css">
+    <link href="css/css(3).css" rel="stylesheet" type="text/css"-->
+    <link href="css/print.css" rel="stylesheet" type="text/css" media="print" >
+    <!--link href="css/fa-fonts.css" rel="stylesheet" type="text/css"-->
 </head>
-      
-  <body>
 
-<!-- Google Tag Manager for RED multisite (noscript) -->
-<noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2Q8D2K" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager for RED multisite (noscript) -->
-
-
-
-
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  <div class="l-page page-template page-template-page-templates page-template-landing-page page-template-page-templateslanding-page-php page page-id-52 page-parent post-type--landing_page  site-type-b theme--blue is-sidebar  ">
-
-
-    <!--[if lte IE 9]>
-<div class="browser-stripe u-dark-region">
-  <div class="l-full">
-      <h2>Your browser is unsupported</h2>
-      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
-  </div>
-</div>
-<![endif]-->
-<div class="browser-stripe u-dark-region ie10">
-  <div class="l-full">
-      <h2>Your browser is unsupported</h2>
-      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
-  </div>
-</div>
-    
-<header class="l-header" role="banner">
-
-  
-  <div class="header-navigation">
-
-      <div id="skip" class="skip-menu assistive-text">
-  <p>
-    <span class="_main">
-    <a href="#article">Skip to the content of this page</a>,
-    </span>
-    <a class="_primary-menu" href="#menu-main">the main menu</a>,
-
-        <a class="_secondary-menu" href="#menu-secondary">the secondary menu</a>,
-    
-    
-    <a class="_search" href="#search">the site search form</a>,
-
-    <a class="_home" href="https://dos.uic.edu">the site home page</a>.
-  </p>
-</div>
-
-      <div class="eyebrow-mobile-wrapper js-eyebrow-mobile">
-<div class="eyebrow-mobile">
-            <div class="eyebrow-mobile-logo eyebrow-logo">
-            <a href="http://uic.edu" class="uic-logo-icon eyebrow-mobile-logo__uic-logo">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
-    </div>
-                <div class="site-title-eyebrow-mobile">
-          <a href="https://dos.uic.edu">Office of the Dean of Students</a>
-        </div>
-    
-    <button aria-label="Search the site" class="search-toggle-mobile js-search-toggle-mobile">
-  <span class="icon-search ">
-        <span class="assistive-text">Search the site</span>
-      </span>
-    </button>
-    <button class="nav-header-toggle js-nav-header-toggle">
-      <span class="icon-menu ">
-      Toggle Menu
-      </span>
-    </button>
-  </div>
-  <div class="search-input-container-mobile">
-    <div class="search-input-container-mobile__content">
-      <div class="search-title">
-        Search
-        <a class="search-close search-toggle-mobile">
-          <svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22">
-            <use xlink:href="https://dos.uic.edu/wp-content/themes/uic-red/images/svgs/svgs.svg#icon-close"></use>
-          </svg>
-        </a>
-      </div>
-      <form method="get" action="/search" role="search" aria-label="Search this site on your mobile device">
-        <input type="text" name="q" class="search-input-mobile" placeholder="Search..." tabindex="-1" aria-label="Search this site on your mobile device" disabled="">
-        <input type="submit" class="submit-button" name="search" value="Submit">
-      </form>
-    </div>
-  </div>
-</div>
-
-    <div class="header-navigation__eyebrow">
-
-                    <div class="header-navigation-logo header-logo">
-                        <a href="http://uic.edu" class="uic-logo-icon header-navigation-logo__uic-logo">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
-            </div>
-                <div class="header-navigation__eyebrow-menus">
-
-            <div class="header-navigation__logo-and-site-title">
-
-                                <div class="site-title-main ">
-                                      <a href="https://dos.uic.edu">Office of the Dean of Students</a>
-                                    </div>
-              
-            </div>
-          <nav class="header-menus js-header-menus " aria-label="Primary" role="navigation">
-
-  <div class="site-title-mobile-menu">
-    <a href="https://dos.uic.edu">Office of the Dean of Students</a>
-  </div>
-
-  
-  <h2 class="assistive-text">Main Menu</h2>
-  <ul id="menu-main" class="menu menu-main" aria-label="Main Menu">
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-47 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/about/"
-        target="_self">
-
-        About
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand About menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand About menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-48">
-                <a 
-                  class="menu-main__second-link"
-                  href="/our-work-mission-and-values/"
-                  target="_self">
-
-                  Our Work, Mission and Values
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-49">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/our-team/"
-                  target="_self">
-
-                  Our Team
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-416 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/student-handbook/"
-                  target="_self">
-
-                  Student Handbook
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-753">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/policies/?Nav"
-                  target="_self">
-
-                  Policies
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-417 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/student-goverment/"
-                  target="_self">
-
-                  Student Government
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-693">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/religious-workers-association/"
-                  target="_self">
-
-                  Religious Workers' Association
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-785">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/request-a-presentation/"
-                  target="_self">
-
-                  Request a Presentation
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-620">
-                <a 
-                  class="menu-main__second-link"
-                  href="/about/location/"
-                  target="_self">
-
-                  Location
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-318 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/student-assistance/"
-        target="_self">
-
-        Assistance
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Assistance menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Assistance menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-354 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/student-assistance/academic-concerns/"
-                  target="_self">
-
-                  Academic Concerns
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-348 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/student-assistance/health-personal-concerns/"
-                  target="_self">
-
-                  Health &amp; Personal Concerns
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-347">
-                <a 
-                  class="menu-main__second-link"
-                  href="/student-assistance/campus-life/"
-                  target="_self">
-
-                  Campus Life
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-345 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/student-assistance/faculty-staff-resources/"
-                  target="_self">
-
-                  Faculty &amp; Staff Resources
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-376 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/student-assistance/uicare/"
-                  target="_self">
-
-                  U &amp; I Care
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-70 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/community-standards/"
-        target="_self">
-
-        Community Standards
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Community Standards menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Community Standards menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-831 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/community-standards/academic-integrity/"
-                  target="_self">
-
-                  Academic Integrity
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-232 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/community-standards/personal-community-integrity/"
-                  target="_self">
-
-                  Personal &amp; Community Integrity
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-873">
-                <a 
-                  class="menu-main__second-link"
-                  href="/community-standards/community-standards-forms/"
-                  target="_self">
-
-                  Community Standards Forms
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-875 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/community-standards/community-standards-process/"
-                  target="_self">
-
-                  Community Standards Process
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-178">
-                <a 
-                  class="menu-main__second-link"
-                  href="/community-standards/get-involved/"
-                  target="_self">
-
-                  Get Involved
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-179 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/community-standards/record-requests/"
-                  target="_self">
-
-                  Record Requests
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-997">
-                <a 
-                  class="menu-main__second-link"
-                  href="/community-standards/assessment-reports/"
-                  target="_self">
-
-                  Assessment &amp; Reports
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-52 current_page_item menu-item-55 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/student-veterans-affairs/"
-        target="_self">
-
-        Student Veterans
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Student Veterans menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Student Veterans menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-168 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/student-veterans-affairs/benefits-and-forms/"
-                  target="_self">
-
-                  Benefits and Forms
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-165 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/student-veterans-affairs/get-connected/"
-                  target="_self">
-
-                  Get Connected
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-161 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/?page_id=104"
-                  target="_self">
-
-                  Resources for Students and Families
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-160">
-                <a 
-                  class="menu-main__second-link"
-                  href="/student-veterans-affairs/faqs/"
-                  target="_self">
-
-                  FAQs
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-159">
-                <a 
-                  class="menu-main__second-link"
-                  href="/student-veterans-affairs/contact-student-veteran-affairs/"
-                  target="_self">
-
-                  Contact Student Veteran Affairs
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-586">
-      <a 
-        class="menu-main__first-link"
-        href="/student-legal/"
-        target="_self">
-
-        Student Legal
-      </a>
-
-          </li>
-  </ul>
-
-  <div class="l-eyebrow">
-
-    <h2 class="assistive-text">Eyebrow menu</h2>
-    <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
-            <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-342">
-            <a  href="/student-veterans-affairs/benefits-and-forms/" target="_self">Veteran Forms</a>
-        </li>
-            <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-343">
-            <a  href="/community-standards/community-standards-forms/" target="_self">Community Standards Forms</a>
-        </li>
-            <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-733">
-            <a  href="/student-assistance/uicare/" target="_self">U &amp; I Care</a>
-        </li>
-            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-600">
-            <a  href="http://sa.uic.edu" target="_blank">Student Affairs</a>
-        </li>
-    </ul>
-
-    <h2 class="assistive-text">UIC menu</h2>
-    <ul class="menu-uic">
-      <li class="_item">
-    <a href="http://uic.edu">UIC.edu</a>
-  </li>
-  <li class="_item">
-    <a href="http://maps.uic.edu/">Campus Map</a>
-  </li>
-</ul>
-
-
-
-    <div aria-label="Primary" role="search" class="search-wrapper">
-
-      <button id="search" class="search-toggle">
-        <span class="icon-search ">
-          <span class="assistive-text">Search</span>
-        </span>
-      </button>
-
-      <div class="search-input-container">
-        <div class="search-input-container__form">
-          <form method="get" action="/search" >
-            <input type="text" name="q" class="search-input" placeholder="Search..." tabindex="-1" aria-label="Search" disabled="">
-            <input type="submit" class="submit-button" name="search" value="Submit">
-          </form>
-        </div>
-      </div>
-
-    </div>
-
-
-  </div>
-
-
-</nav>
-        </div>
-    </div>
-
-    
-  </div>
-
-                  <div
-  class="header-title header-title--type-treatment  "
-  style="
-    background-image:url('https://dos.uic.edu/wp-content/uploads/sites/262/2018/09/DOS_Banner_Vet.jpg');">      <div class="color-wash-gradient            
-            ">
-
-                  <img src="https://dos.uic.edu/wp-content/uploads/sites/262/2018/07/2000px-Temporary_plate.svg-1440x600.png" alt="Student Veterans Affairs">
-        
-    </div>
-    <div class="l-full">
-    <div class="header-title__content ">
-            <div class="_text  _text--no-wordmark  _text--landing ">
-                  <h1
-            class="header-title-title  header-title-title--b header-title-title--landing">Student Veterans</h1>
-              </div>
-    </div>
-  </div>
-</div>
-          
-        <a href="#menu-secondary" class="menu-secondary-anchor">
-      View Menu
-      <svg aria-label="Down arrow icon" width="32" height="32" viewBox="0 0 32 32" role="presentation">
-        <title>Down arrow icon</title>
-        <g fill="none" fill-rule="evenodd">
-          <circle class="_circle" stroke-width="1" stroke="#007Da5" fill="#fff" cx="16" cy="16" r="15"/>
-          <path class="_arrow" stroke-width="2" stroke="#001E62" stroke-linecap="round" d="M12 17l4 4 4-4M16 20v-9"/>
-        </g>
-      </svg>
-    </a>
-        
-</header>
-
-    <main id="main" class="l-content-wrapper" role="main">
-
-      
-                
-	      
-      <div class="l-full">
-
-        <div class="l-content ">
-
-          
-                                
-          <article class="post-type-landing_page" id="article">
-                		    		<div class="components">
-
-  
-    
-      
-
-<section class="component  ">
-
-  
-  <div class="component-text-block">
-  
-    <div class="component-description">
-                    <h2 id="student-veterans-affairs" class="__title invisible">Student Veterans Affairs</h2>
-                    </div>
-
-  
-  <h3>Student Veteran Affairs</h3>
-<p>Student Veteran Affairs provides a welcoming and supportive environment for our military-connected students.  We provide resources, assistance, and programming to ease the transition and ensure your academic success.</p>
-
-
-
-  
-</div>
-
-  
-</section>
-
-    
-
-    
-      
-
-<section class="component  ">
-
-  
-  
-  
-    <div class="component-description">
-                    <h2 id="forms" class="__title invisible">Forms</h2>
-                    </div>
-
-  <ul class="component-link-tile ">
-      <li class="component-link-tile__item component-link-tile__item--featured">
-
-                  <div class="tile-item ">
-    <a  class="tile-item__link"
-       href="https://dos.uic.edu/student-veterans-affairs/benefits-and-forms/"
-       target="_self">
-            <div class="tile-item__image-container">
-            <img
-                class="tile-item__image"
-                
-                src="https://dos.uic.edu/wp-content/uploads/sites/262/2018/09/DOS_FTile_VetForms-600x365.jpg"
-                alt="Benefits and Forms">
-        </div>
-    
-    <div class="
-        tile-item__content-container
-        tile-item__content-container--internal
-        tile-item__content-container--featured">
-        <div class="
-            tile-item__title
-            tile-item__title--featured">
-            Benefits and Forms
-        </div>
-
-        
-                    <div class="tile-item__description">
-                Learn about the various state and federal education benefits
-            </div>
-            </div>
-    </a>
-</div>
-
-    </li>
-      <li class="component-link-tile__item component-link-tile__item--featured">
-
-                  <div class="tile-item ">
-    <a  class="tile-item__link"
-       href="https://dos.uic.edu/student-veterans-affairs/get-connected/"
-       target="_self">
-            <div class="tile-item__image-container">
-            <img
-                class="tile-item__image"
-                
-                src="https://dos.uic.edu/wp-content/uploads/sites/262/2018/09/DOS_FTile_VetStudents-600x365.jpg"
-                alt="Get Connected">
-        </div>
-    
-    <div class="
-        tile-item__content-container
-        tile-item__content-container--internal
-        tile-item__content-container--featured">
-        <div class="
-            tile-item__title
-            tile-item__title--featured">
-            Get Connected
-        </div>
-
-        
-                    <div class="tile-item__description">
-                Connect with other students through the Student Veterans Association or the Cisar Student Veterans Center
-            </div>
-            </div>
-    </a>
-</div>
-
-    </li>
-    </ul>
-
-  
-</section>
-
-    
-
-    
-      
-
-<section class="component  ">
-
-  
-  
-  
-    <div class="component-description">
-                    <h2 id="resources" class="__title invisible">Resources</h2>
-                    </div>
-
-  <ul class="component-link-tile ">
-      <li class="component-link-tile__item component-link-tile__item--image">
-
-                  <div class="tile-item ">
-    <a  class="tile-item__link"
-       href="https://dos.uic.edu/?page_id=104"
-       target="_self">
-            <div class="tile-item__image-container">
-            <img
-                class="tile-item__image"
-                
-                src="https://dos.uic.edu/wp-content/uploads/sites/262/2018/11/DOS_FTile_families.jpg"
-                alt="Resources for students and families">
-        </div>
-    
-    <div class="
-        tile-item__content-container
-        tile-item__content-container--internal
-        tile-item__content-container--image">
-        <div class="
-            tile-item__title
-            tile-item__title--image">
-            Resources for students and families
-        </div>
-
-        
-                    <div class="tile-item__description">
-                Learn about UIC policies and resources for military-connected students on and off campus
-            </div>
-            </div>
-    </a>
-</div>
-
-    </li>
-      <li class="component-link-tile__item component-link-tile__item--image">
-
-                  <div class="tile-item ">
-    <a  class="tile-item__link"
-       href="https://dos.uic.edu/student-veterans-affairs/faqs/"
-       target="_self">
-            <div class="tile-item__image-container">
-            <img
-                class="tile-item__image"
-                
-                src="https://dos.uic.edu/wp-content/uploads/sites/262/2018/09/DOS_FTile_FAQ.jpg"
-                alt="FAQ">
-        </div>
-    
-    <div class="
-        tile-item__content-container
-        tile-item__content-container--internal
-        tile-item__content-container--image">
-        <div class="
-            tile-item__title
-            tile-item__title--image">
-            FAQ
-        </div>
-
-        
-                    <div class="tile-item__description">
-                Find answers to many of your questions regarding your benefits and UIC
-            </div>
-            </div>
-    </a>
-</div>
-
-    </li>
-      <li class="component-link-tile__item component-link-tile__item--image">
-
-                  <div class="tile-item ">
-    <a  class="tile-item__link"
-       href="https://dos.uic.edu/student-veterans-affairs/contact-student-veteran-affairs/"
-       target="_self">
-            <div class="tile-item__image-container">
-            <img
-                class="tile-item__image"
-                
-                src="https://dos.uic.edu/wp-content/uploads/sites/262/2018/09/DOS_FTile_VetContact.jpg"
-                alt="Contact Student Veteran Affairs">
-        </div>
-    
-    <div class="
-        tile-item__content-container
-        tile-item__content-container--internal
-        tile-item__content-container--image">
-        <div class="
-            tile-item__title
-            tile-item__title--image">
-            Contact Student Veteran Affairs
-        </div>
-
-        
-                    <div class="tile-item__description">
-                Learn who and how to contact our Student Veteran Affairs staff
-            </div>
-            </div>
-    </a>
-</div>
-
-    </li>
-    </ul>
-
-  
-</section>
-
-    
-
-    
-      
-
-<section class="component  ">
-
-  
-  <div class="component-video-block">
-  
-    <div class="component-description">
-                    <h2 id="veterans-week-2017" class="__title visible">Veteran’s Week 2017</h2>
-                    </div>
-
-
-  <div class="video-container">
-    <iframe width="640" height="360" src="https://www.youtube.com/embed/mnhhJ0YfiLI?wmode=transparent&amp;rel=0&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-
-  
-</div>
-
-  
-</section>
-
-    
-
-    
-      
-
-<section class="component  ">
-
-  
-    <div class="component-highlight-events">
-
-  
-    <div class="component-description">
-                    <h2 id="events-calendar" class="__title invisible">Events Calendar</h2>
-                    </div>
-
-    
-            <div class="component-highlight-events__list-1col">
-                    </div>
-          </div>
-
-  
-</section>
-
-    
-
-</div>
-          </article>
-        </div>
-
-                                            
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                                 
-              
-
-                      <div class="l-sidebar">
-             <nav role="navigation" id="menu-secondary" aria-label="Secondary Student Veterans" class="menu-secondary">
-               <div class="menu-secondary__title-container">
-                 <h2 class="menu-secondary__title"><a  class="menu-secondary__title-link" href="https://dos.uic.edu/student-veterans-affairs/">Student Veterans</a></h2>
-                 <a  class="menu-secondary__back-to-content" href="#main">
-                   <svg aria-label="Back to main content" width="32" height="32" viewBox="0 0 32 32">
-                     <title>Back to main content</title>
-                     <g fill="none" fill-rule="evenodd">
-                       <circle class="_circle" fill="#fff" stroke="#007FA5" stroke-width="1" cx="16" cy="16" r="15"/>
-                       <path class="_arrow" d="M16 21v-9M12 15l4-4 4 4" stroke="#001E62" stroke-width="2" stroke-linecap="round"/>
-                     </g>
-                   </svg>
-                 </a>
-               </div>
-
-                <ul  class="menu ">
-                  
-                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-168 menu-item-has-children">
-                    <a  href="/student-veterans-affairs/benefits-and-forms/" target="_self"><span>Benefits and Forms</span>                          <span class="expand-item"></span></a>
-  <ul class="_child">
-    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-171">
-    <a href="/student-veterans-affairs/benefits-and-forms/gi-bill-benefits/" target="_self"><span>Education Benefits</span></a>    </li>
-    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-170">
-    <a href="/student-veterans-affairs/benefits-and-forms/las-online-pathways/" target="_self"><span>LAS Online Pathways</span></a>    </li>
-    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-169">
-    <a href="/student-veterans-affairs/benefits-and-forms/benefits-for-dependents/" target="_self"><span>Benefits for Dependents</span></a>    </li>
-  </ul>
-                  </li>
-                  
-                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-165 menu-item-has-children">
-                    <a  href="/student-veterans-affairs/get-connected/" target="_self"><span>Get Connected</span>                          <span class="expand-item"></span></a>
-  <ul class="_child">
-    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-167">
-    <a href="/student-veterans-affairs/get-connected/cisar-student-veterans-center/" target="_self"><span>CISAR Student Veterans Center</span></a>    </li>
-    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-166">
-    <a href="/student-veterans-affairs/get-connected/student-veterans-association/" target="_self"><span>Student Veterans Association</span></a>    </li>
-  </ul>
-                  </li>
-                  
-                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-161 menu-item-has-children">
-                    <a  href="/?page_id=104" target="_self"><span>Resources for Students and Families</span>                          <span class="expand-item"></span></a>
-  <ul class="_child">
-    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-164">
-    <a href="/?page_id=105" target="_self"><span>Deployment</span></a>    </li>
-    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-163">
-    <a href="/?page_id=107" target="_self"><span>Mental Health</span></a>    </li>
-    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-162">
-    <a href="/?page_id=112" target="_self"><span>Pave Mentor</span></a>    </li>
-  </ul>
-                  </li>
-                  
-                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-160">
-                    <a  href="/student-veterans-affairs/faqs/" target="_self"><span>FAQs</span></a>                                      </li>
-                  
-                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-159">
-                    <a  href="/student-veterans-affairs/contact-student-veteran-affairs/" target="_self"><span>Contact Student Veteran Affairs</span></a>                                      </li>
-                                  </ul>
-
-              </nav>
-            </div>
-       
-                            
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-          
-                          </div>
-    </main>
-
-    
-        <footer id="footer" class="footer u-dark-region" role="contentinfo">
-
-  <div class="footer-contact">
-    <div class="l-full">
-
-          <div class="mega-footer-contact">
-
-    <div class="mega-footer-contact__brand mega-footer-contact__brand--type-treatment">
-        <div class="footer-logo">
-                        <div class="uic-type-treatment  uic-wordmark--footer">
-
-  <div class="_mark">
-    <a href="http://uic.edu" class="uic-logo-icon ">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
-  </div>
-
-  <div class="_text">
-    <a href="https://dos.uic.edu">
-          Office of the Dean of Students
-        </a>
-  </div>
-
-</div>
-            </div>
-    </div>
-
-  <div class="mega-footer-contact__menus">
-
-        <div class="mega-footer-contact__quick-menus _quick-menus">
-
-            <nav class="mega-footer-contact__quick-menu" id="menu1" aria-label="footer-menu-1">
-        <h2>DOS Offices</h2>
-        <ul id="menu-quick-1" class="menu menu-quick-1" aria-label="DOS Offices">
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1028">
-      <a href="http://careerservices.uic.edu/" target="_blank">Career Services</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1029">
-      <a href="http://studentemployment.uic.edu/" target="_blank">Student Employment</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1030">
-      <a href="https://counseling.uic.edu" target="_blank">Counseling Center</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1031">
-      <a href="http://wellnesscenter.uic.edu/" target="_blank">Wellness Center</a>
-    </li>
-  </ul>
-      </nav>
-      
-            <nav class="mega-footer-contact__quick-menu" id="menu2" aria-label="footer-menu-2">
-        <h2>For Employees</h2>
-        <ul id="menu-quick-2" class="menu menu-quick-2" aria-label="For Employees">
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1032">
-      <a href="http://cas.uic.edu/hr/" target="_blank">SA Human Resources</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1033">
-      <a href="http://cas.uic.edu/it/" target="_blank">SA Technology</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1034">
-      <a href="https://vcsaonline.uic.edu/lms" target="_blank">Leave Management</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1035">
-      <a href="http://sa.uic.edu/the-pulse/" target="_blank">The Pulse</a>
-    </li>
-  </ul>
-      </nav>
-      
-            <nav class="mega-footer-contact__quick-menu" id="menu3" aria-label="footer-menu-3">
-        <h2>Safety</h2>
-        <ul id="menu-quick-3" class="menu menu-quick-3" aria-label="Safety">
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1036">
-      <a href="https://police.uic.edu/" target="_blank">UIC Police</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1037">
-      <a href="http://oae.uic.edu/" target="_blank">Office of Access &amp; Equity</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1038">
-      <a href="http://dos.red.uic.edu/about/our-team/" target="_blank">Contact-US</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1039">
-      <a href="http://sa.uic.edu/about/giving/" target="_blank">Giving</a>
-    </li>
-  </ul>
-      </nav>
-      
-    </div>
-    
-    
-  </div>
-
-  <div class="mega-footer-contact__contact">
-
-    <div class="_contact">
-      <h2>Contact</h2>
-      <div class="site-contact-container">    <div class="site-address">1200 West Harrison St., 3030 SSB Chicago, IL 60607</div>
-      <div class="site-phone">Phone: <a  href="tel:(312) 996-4857">(312) 996-4857</a></div>
-        <div class="site-email"><a  href="mailto:dos@uic.edu">dos@uic.edu</a></div>
-</div>
-      <div class="site-contact-container">        </div>
-    </div>
-
-    <div class="mega-footer-contact__site-social-links">
-       <div aria-label="Social Media Accounts" class="site-social-links">
-  <h2 class="site-social-links__header assistive-text">Social Media Accounts</h2>
-  <ul class="site-social-links__list">
-                          </ul>
-</div>
-    </div>
-  </div>
-</div>
-    
-    </div>
-  </div>
-
-  
-  <div class="footer-uic-menu">
-    <div class="l-full">
-
-      <div aria-label="UIC.edu Links">
-  <h2 class="assistive-text">UIC.edu links</h2>
-  <ul class="uic-footer-menu">
-    <li><strong><a href="https://uic.edu/">UIC.edu</a></strong></li>
-    <li><a href="https://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></li>
-    <li><a href="https://uicflames.com/">Athletics</a></li>
-    <li><a href="https://www.uic.edu/apps/departments-az/search">Campus Directory</a></li>
-    <li><a href="https://disabilityresources.uic.edu/">Disability Resources</a></li>
-    <li><a href="https://emergency.uic.edu/">Emergency Information</a></li>
-    <li><a href="https://today.uic.edu/events">Event Calendar</a></li>
-    <li><a href="https://uic.edu/about/job-opportunities">Job Openings</a></li>
-    <li><a href="https://library.uic.edu/">Library</a></li>
-    <li><a href="https://maps.uic.edu/">Maps</a></li>
-    <li><a href="https://ready.uic.edu/digital-materials/uic-safe-mobile-app/">UIC Safe Mobile App</a></li>
-    <li><a href="https://today.uic.edu/">UIC Today</a></li>
-    <li><a href="https://uihealth.uic.edu/">UI Health</a></li>
-    <li><a href="https://dos.uic.edu/student-veterans-affairs/">Veterans Affairs</a></li>
-  </ul>
-</div>
-
-    </div>
-  </div>
-
-  <div class="footer-legal">
-    <div class="l-full">
-
-      <div class="red-version">Powered by Red 2.38.0</div>
-
-<div class="site-copyright">
-  &copy; 2020 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
-  <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a>
-</div>
-
-<div class="campuses" aria-label="Campuses">
-  <h2 class="assistive-text">Campuses</h2>
-  <ul class="campuses-list">
-    <li><a href="https://www.uillinois.edu/">University of Illinois System</a></li>
-    <li><a href="https://illinois.edu/">Urbana-Champaign</a></li>
-    <li><a href="https://www.uis.edu/">Springfield</a></li>
-  </ul>
-</div>
-<div class="cookie-banner">
-  <div id="footer-bottom">
-    <a class="optanon-show-settings">Cookie Settings</a>
-  </div>
-</div>
-    </div>
-  </div>
-
-</footer>
-
-	    </div>
-
-
-  <!-- Instagram Feed JS -->
-<script type="text/javascript">
-var sbiajaxurl = "https://dos.uic.edu/wp-admin/admin-ajax.php";
-</script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var sb_instagram_js_options = {"sb_instagram_at":"","font_method":"svg"};
-/* ]]> */
+<body id="page-top" class="index">
+    <!-- Google Analytics -->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-96672401-1', 'auto');
+  ga('send', 'pageview');
+
+    </script>
+
+<!-- StatCounter Analytics -->
+<script type="text/javascript">
+var sc_project=11304851; 
+var sc_invisible=1; 
+var sc_security="279e2772"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
 </script>
-<script type='text/javascript' src='https://dos.uic.edu/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.12.1'></script>
-<script type='text/javascript' src='https://dos.uic.edu/wp-content/plugins/uic-red/js-admin/uic-publish-post-settings.js?ver=1.0.0'></script>
-<script type='text/javascript' src='https://dos.uic.edu/wp-content/plugins/uic-red/js-admin/acf-field-group-toggle.js?ver=1.0.0'></script>
-<script type='text/javascript' src='//www.uic.edu/apps/web-alert/alert.js?ver=3'></script>
-<script type='text/javascript' src='https://dos.uic.edu/wp-content/themes/uic-red/js/main.js?ver=1'></script>
-<script type='text/javascript' src='https://dos.uic.edu/wp-includes/js/wp-embed.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
+<noscript><div class="statcounter"><a title="site stats"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/11304851/0/279e2772/1/" alt="site
+stats"></a></div></noscript>
 
 
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-  
-  
-  <script async src="https://cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js" type="text/javascript" charset="UTF-8"></script>
+            </div>
 
-  </body>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#page-top">Main</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#news">News</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#teaching">Teaching</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#pubs">Publications</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#lab">EDGES Lab</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#funding">Funding</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#service">Service</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#bio">Bio</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading text-left">Elena Zheleva</div>
+                <div class="intro-lead-in text-left">Assistant Professor in Computer Science
+                 <br>University of Illinois at Chicago <br></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="intro">
+        <div class="container">
+            <!--div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Research interests</h2>
+                </div>
+            </div-->
+            <div class="row text-justify">
+                <div class="col-lg-3 text-left">
+                <p class="large text-muted"> 
+                
+                <img id="my-img" alt="Elena Zheleva" src="img/elena_small.jpg">              
+                <br>
+                
+                </p>     
+                
+                <p class="large text-muted"><b>Contact:</b> 
+                <script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
+"harAt(i);}catch(e){}}return o;}f(\")\\\"function f(x,y){var i,o=\\\"\\\\\\\""+
+"\\\\,l=x.length;for(i=0;i<l;i++){y%=127;o+=String.fromCharCode(x.charCodeAt" +
+"(i)^(y++));}return o;}f(\\\"\\\\>4?(3:\\\\\\\\016\\\\\\\\025L\\\\\\\\024\\\\"+
+"\\\\026\\\\\\\\014\\\\\\\\022\\\\\\\\002\\\\\\\\004\\\\\\\\007BIP\\\\\\\\01" +
+"4N\\\\\\\\007\\\\\\\\002\\\\\\\\024\\\\\\\\024N(W\\\\\\\\033\\\\\\\\026\\\\" +
+"\\\\021\\\\\\\\025\\\\\\\\016\\\\\\\\024F\\\\\\\\030\\\\\\\\004hdnfrdFraj$n" +
+"hxR-0e{gxp+K:\\\\\\\\\\\\\\\\wzuqB=\\\\\\\\036DXKAICQIi_BO\\\\\\\\003KKE\\\\"+
+"\\\\r\\\\\\\\035R\\\\\\\\n\\\\\\\\027\\\\\\\\037\\\\\\\\014\\\\\\\\010\\\\\\"+
+"\\002\\\"\\\\,90)\\\"(f};)lo,0(rtsbus.o nruter};)i(tArahc.x=+o{)--i;0=>i;1-" +
+"l=i(rof}}{)e(hctac};l=+l;x=+x{yrt{)29=!)31/l(tAedoCrahc.x(elihw;lo=l,htgnel" +
+".x=lo,\\\"\\\"=o,i rav{)x(f noitcnuf\")"                                     ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
+               </p>
+               <p class="large text-muted"><b>Office:</b> SEO 1140</p>
+               <p>
+                      <ul class="list-inline social-buttons-team no-print">
+                        <li class="text-center"><a href="http://scholar.google.com/citations?user=Ug7VoyQAAAAJ" target="_blank" title="Google Scholar"><i class="fa fa-graduation-cap" title="Google Scholar"></i></a>
+                        </li>
+                        <li class="text-center"><a href="http://twitter.com/elenadata" target="_blank" title="Google Scholar"><i class="fa fa-twitter" title="Twitter @elenadata"></i></a>
+                        </li>
+                      </ul>
+                </p> 
+                </div>
+                <div class="col-lg-9 text-left">
+                      <h3 class="section-heading">Research interests</h3>
+                      <p class="large">
+                      My research spans different aspects of <b><a href="http://cra.org/data-science/">data science</a></b>, including machine learning, causal inference, graph mining, network science, and privacy. My research goal is to unify these aspects in a single framework that allows us to reason better with data and solve important societal problems. I am especially interested in algorithms for heterogeneous graphs and networks, with focus on the following goals:</p>
+             <ul class="large">
+		   <li>Identify and resolve barriers to causal inference from relational data for real-world applications</li>
+                   <li>Improve machine learning models by addressing inherent biases in (found) data</li>
+                   <li>Empower people in their privacy choices through personalized privacy assistants</li>
+	     </ul>
+             <p class="large">I am motivated by compelling applications, and some of the areas that I study are personalization, social media, social networks, journalism, and e-commerce.</p>
+<br>
+<p class="large">If you are a prospective student interested to work with me, you need to <a href="https://www.cs.uic.edu/graduate-admissions/">apply to the CS Ph.D. program</a>. If you are already admitted to the program, send me an email with your interests and CV. You may also want to read this article on <a href="https://people.cs.umass.edu/~wallach/how_to_be_a_successful_phd_student.pdf">how to be a successful Ph.D. student</a>.  
+                      </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News -->
+    <section id="news" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">News</h2>
+                    <p><b>May 2019</b>: Giving an invited talk at the NetSci Workshop on Machine Learning in Network Science</p>
+                    <p><b>March 2019</b>: Usman Shahid and I are presenting our paper on "Counterfactual learning in networks: an empirical study of model dependence" <br>at <a href="https://why19.causalai.net/">AAAI Symposium on Causality</a></p>
+                    <p><b>January 2019</b>: Looking forward to serving as a mentor at Women's Mentoring Breakfast at AAAI 2019</p>
+                    <p><b>January 2019</b>: Serving as publicity co-chair for <a href="http://dsaa2019.dsaa.co/">DSAA 2019</a></p>
+                    <p><b>January 2019</b>: Chris Tran and I are presenting our paper on "Learning Triggers for Heterogeneous Treatment Effects" at AAAI 2019</p>
+                    <p><b>November 2018</b>: Giving an invited talk on "Privacy in personal-data networks" at the <a href="https://tripods.soe.ucsc.edu/program-data-privacy-workshop">TRIPODS Workshop on Privacy in Graphs</a></p>
+                    <p><b>October 2018</b>: Co-organizing the 3rd workshop on <a href="http://nebigdatahub.org/3rd-tds-workshop/">Translational Data Science</a> hosted by NYU</p>
+                    <p><b>September 2018</b>: Our letter to <i>Nature</i> on "<a href="https://www.nature.com/articles/d41586-018-06804-4">How to deliver translational data-science benefits to science and society</a>" has been published</p>
+                    <p><b>August 2018</b>: Excited to receive a four-year <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1801644">NSF grant to study retrospective data management for enabling long-term security and privacy</a>, with Chris Kanich and Blase Ur</p>
+                    <p><b>August 2018</b>: Co-organizing the 2nd <a href="https://sites.google.com/view/dsandj2017/">Workshop on Data Science, Journalism & Media</a> at KDD 2018</p>
+                    <p><b>February 2018</b>: Giving an invited talk at the Northwestern University Institute on Complex Systems <a href="https://www.nico.northwestern.edu/news-events/wednesdays-at-nico/">Seminar Series</a></p>
+                    <p><b>February 2018</b>: Giving an invited talk at the UIC Social Psychology Seminar Series</p>
+                    <p><b>February 2018</b>: Invited speaker at UIUC's <a href="https://www.westem.engineering.illinois.edu/">weSTEM Conference</a></p>
+                    <p><b>October 2017</b>: Invited talk at DePaul University's CDM Research Colloquium</p>
+                    <p><b>August 2017</b>: Giving a keynote at the <a href="http://www.mlgworkshop.org/2017/">Mining and Learning with Graphs (MLG) Workshop</a> at KDD 2017</p>
+                    <p><b>August 2017</b>: Co-organizing the <a href="https://sites.google.com/view/dsandj2017/">Workshop on Data Science + Journalism</a> at KDD 2017</p>
+                    <p><b>August 2017</b>: Our paper on "Optimizing the Effectiveness of Incentivized Social Sharing" was accepted at ASONAM 2017</p>
+                    <p><b>June 2017</b>: Co-organizing the <a href="https://cdis.uchicago.edu/tds-17">workshop on Translational Data Science</a> in Chicago</p>
+                    <p><b>May 2017</b>: Receiving a <a href="https://dcfemtech.github.io/awards.html">DCFemTech Award</a> which recognizes "powerful women programmers, designers, and data scientists" in Washington, DC</p>
+                    <p><b>April 2017</b>: Invited talk on <i>Data Science in Social Spaces: Personalization vs. Privacy</i> at <a href="">DIMACS Workshop on Privacy and Security in Big Data</a></p>
+                    <p><b>April 2017</b>: Serving as publicity co-chair for <a href="http://icde2017.sdsc.edu/">ICDE 2017</a></p>
+                    <p><b>February 2017</b>: Our paper on "<a href="pubs/kotsogiannis-wsdm17.pdf">Directed Edge Recommender System</a>" is accepted at WSDM 2017
+                    <!--p><b>February 2017</b>: Presented an initial design of an Open Knowledge Network competition at the OKN Meeting in Sunnyvale, CA</p-->
+                    <p><b>November 2016</b>: Presenting in the <a href="http://www.bigdatau.org/data-science-seminars">NIH BD2K Webinar Series</a> on "Databases & Data Warehouses, Data: Structures, Types, Integrations"</p>
+                    <p><b>September 2016</b>: Starting 2016-2017 <a href="http://www.aaas.org/program/science-technology-policy-fellowships">AAAS Scence & Technology Policy Fellowship</a> in Big Data & Analytics at the <a href="http://www.nsf.gov/cise/bigdata">National Science Foundation</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Teaching Section -->
+    <section id="teaching">
+        <div class="container">
+            <div class="row center-block">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Teaching</h2>
+                </div>
+            </div>
+            <div class="row center-block">
+
+              <div class="col-md-12">
+              <p class="large text muted">Fall 2020 - <!--a href="https://www.cs.uic.edu/~elena/courses/fall19/cs594cil.html"-->CS 520 Causal Inference and Learning</p>
+              <p class="large text muted">Spring 2020 - <a href="https://www.cs.uic.edu/~elena/courses/spring20/cs418ds.html">CS 418 Introduction to Data Science</a></p>
+              <p class="large text muted">Fall 2019 - <a href="https://www.cs.uic.edu/~elena/courses/fall19/cs594cil.html">CS 594 Causal Inference and Learning</a></p>
+              <p class="large text muted">Spring 2019 - <a href="https://www.cs.uic.edu/~elena/courses/spring19/cs418ds.html">CS 418 Introduction to Data Science</a></p>
+              <p class="large text-muted">Fall 2018 - <a href="https://www.cs.uic.edu/~elena/courses/fall18/cs412ml.html">CS 412 Introduction to Machine Learning</a></p>
+              <p class="large text-muted">Spring 2018 - <a href="https://www.cs.uic.edu/~elena/courses/spring18/cs412ml.html">CS 412 Introduction to Machine Learning</a></p>
+              <p class="large text-muted">Fall 2017 - <a href="https://www.cs.uic.edu/~elena/courses/fall17/cs594dsn.html">CS 594 Data Science for Networks</a></p>
+              </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- Publications -->
+    <section id="pubs" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Publications</h2>
+                </div>
+            </div>
+            <div class="row">
+	     <div class="col-md-3 text-left">
+	      <p class="large text-muted">
+                 <a href="pubs/PrivacyInSocialNetworks-Zheleva.pdf"><img id="my-img" alt="Privacy Book" src="img/book-cover.png"></a>
+              </p>
+             </div>
+             <div class="col-md-9 text-left">
+             <p>T. Sun, S. Viswanathan, N. Huang, E. Zheleva. <i>Designing Promotional Incentive to Embrace Social Sharing: Evidence from Field and Online Experiments.</i> MIS Quarterly 2020 (to appear). <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3095094">PDF</a>.
+             <p>Z. Fatemi, E. Zheleva. <i>Minimizing Interference and Selection Bias in Network Experiment Design</i>. 14th International AAAI Conference on Web and Social Media (<b>ICWSM</b>) 2020. <a href="pubs/fatemi-icwsm20.pdf">PDF</a>. </p>
+             <p>Z. Ovaisi, R. Ahsan, Y. Zhang, K. Vasilaky, E. Zheleva. <i>Correcting for Selection Bias in Learning-to-rank Systems.</i> 29th International World Wide Web Conference (<b>WWW</b>/WebConf) 2020. <a href="pubs/ovaisi-www20.pdf">PDF</a>.</p>
+             <p>C. Amornbunchornvej, E. Zheleva. T. Berger-Wolf<i>. Variable-lag Granger Causality for Time Series Analysis</i>. IEEE Conference on Data Science and Advanced Analytics (<b>DSAA</b>) 2019. <a href="pubs/amornbunchornvej-dsaa19.pdf">PDF</a>.</p>
+             <p>M. Roshanaei, C. Tran, S. Morelli, C. Caragea, E. Zheleva. <i>Paths to Empathy: Heterogeneous Effects of Reading Personal Stories Online</i>. IEEE Conference on Data Science and Advanced Analytics (<b>DSAA</b>) 2019. <a href="pubs/roshanaei-dsaa19.pdf">PDF</a>.</p>
+             <p> M. Mondal, G. Yilmaz, N. Hirsch, M. Khan, M. Tang, C. Tran, C. Kanich, B. Ur, E. Zheleva. <i>Moving Beyond Set-It-And-Forget-It Privacy Settings on Social Media</i>. 26th ACM Conference on Computer and Communications Security (<b>CCS</b>) 2019. <a href="pubs/mondal-ccs19.pdf">PDF</a>.</p>
+             <p>U. Shahid, E. Zheleva. <i>Counterfactual Learning in Networks: An Empirical Study of Model Dependence</i>. AAAI Spring Symposium on Beyond Curve Fitting: Causation, Counterfactuals, and Imagination-based AI (<b>AAAI-WHY</b>) 2019. <a href="pubs/shahid-why19.pdf">PDF</a>.</p>
+            <p>C. Tran, E. Zheleva. <i>Learning Triggers for Heterogeneous Treatment Effects</i>. AAAI Conference on Artificial Intelligence (<b>AAAI</b>) 2019. <a href="pubs/tran-aaai19.pdf">PDF</a>.</p>
+            <p>T. Sun, L. Shi, S. Viswanathan, E. Zheleva. <i>Motivating Effective Mobile App Adoptions: Evidence From
+            A Large-Scale Randomized Field Experiment</i>. Information Systems Research Journal
+            (<b>ISR</b>). Vol. 30, No. 2, June 2019. <a href="https://pubsonline.informs.org/doi/pdf/10.1287/isre.2018.0815">PDF</a>.</p>
+            <p>T. Sun, S. Viswanathan, E. Zheleva. <i>Creating Social Contagion through Firm-mediated Message 
+            Design: Evidence from A Randomized Field Experiment.</i> Management Science Journal 2019 (to appear).  <!--a href="http://ssrn.com/abstract=2543864">PDF</a--></p>
+            <p>C. Baru, S. Bird, A. Blatecky, D. Culler, R. Grossman, B. Howe, V. Janeja, M. Lee, R. Machiraju, E. Zheleva. <i>Translational Data Science: From Foundations to Impact</i>. Harvard Data Science Review. Position paper. 2019 (forthcoming).</p>
+           <p>A. Rojecki, U. Shahid, E. Zheleva. <i>Segregation and Racial Threat: Human and Computational Frame Analyses of Racial Unrest</i>. 114th American Political Science Association (APSA) Annual Meeting 2018.</p>
+           <p>J. Pfeiffer, E. Zheleva. <i>Incentivized Social Sharing: Characteristics and Optimization</i>. Lecture Notes in Social Networks book series (LNSN). Springer. December 2018.
+           <p>N. Hirsch, C. Kanich, M. Khan, X. Liu, M. Mondal, M. Tang, C. Tran, B. Ur, W. Wang, G. Yilmaz, E. Zheleva. <i>Making Retrospective Data Management Usable</i>. Poster. 14th Symposium On Usable Privacy and Security (<b>SOUPS</b>). Baltimore, MD, August 2018. 
+           <p>J. Pfeiffer, E. Zheleva. <i>Optimizing the Effectiveness of Incentivized Social Sharing</i>. 9th IEEE/ACM International Conference on Advances in Social Network Analysis and Mining (<b>ASONAM</b>) 2017. <a href="pubs/pfeiffer-asonam17.pdf">PDF</a>.</p>
+           <p>I. Kotsogiannis, E. Zheleva, A. Machanavajjhala. <i>Directed Edge Recommender System</i>. 
+            10th ACM International Conference on Web Search and Data Mining (<b>WSDM</b>) 2017. <a href="pubs/kotsogiannis-wsdm17.pdf">PDF</a>.
+        <p>T. Sun, L. Shi, S. Viswanathan, E. Zheleva. <i>Motivating Mobile App Adoption: Evidence From
+            A Large-Scale Field Experiment</i>. Conference on Information Systems and Technology 
+            (<b>CIST</b>) 2016.
+
+        <p>T. Sun, S. Viswanathan, E. Zheleva. <i>Monetize Sharing Traffic Through Incentive Design: 
+            A Randomized Field Experiment.</i>
+            Conference on Information Systems and Technology 
+            (<b>CIST</b>) 2015. INFORMS 2015.</p>
+
+        <p>T. Sun, S. Viswanathan, E. Zheleva. <i>Creating Social Contagion through Message 
+            Design: A Randomized Field Experiment.</i> International Conference on Information Systems (<b>ICIS</b>) 2014. INFORMS 2014 Service Science Best Student Paper, Third Place.</p>
+
+        <p>T. Sun, S. Viswanathan, E. Zheleva. <i>Antecedences and Consequences of Multichannel Sharing Behaviors</i>. <b>INFORMS</b> 2014.</p>
+
+        <p>T. Sun, S. Viswanathan, E. Zheleva. <i>Impact of Message Design on Online Interactions: An 
+            Empirical Investigation.</i> International Conference on Electronic Commerce (<b>ICEC</b>) 2014.</p>
+
+            <p>J. Pfeiffer III, E. Zheleva. <i>Incentivized Sharing
+            in Social Networks.</i> <b>VLDB</b> workshop on Online
+            Social Systems (WOSS) 2012. <a href="https://www.cs.uic.edu/~elena/pubs/pfeiffer-vldb12.pdf">PDF</a>.</p>    
+
+            <p>E. Zheleva, E. Terzi, L. Getoor. <i>Privacy in Social
+            Networks.</i> Synthesis Lectures on Data Mining 
+            Series. <b>Book </b>published by
+            Morgan
+            and Claypool Publishers. 2012. <a href="https://www.cs.uic.edu/~elena/pubs/PrivacyInSocialNetworks-Zheleva.pdf">PDF</a>.</p>    
+
+	        <p>E. Zheleva. <i>Prediction, Evolution and Privacy in Social
+		    and Affiliation Networks</i>.
+<b>PhD Dissertation</b>. July, 2011. <a href="">PDF</a>.
+   
+       </p>
+<p>E. Zheleva, L. Getoor. <i>Privacy in Social Networks: a
+    Survey</i>. Invited <b>book chapter</b> in <i>Social Network Data Analytics</i>.
+    Ed. by Charu Aggarwal. Springer. March 2011.
+        <a href="http://www.springerlink.com/content/p1t26n1504v93202/">PDF</a>. 
+	    </p>
+	        <p>E. Zheleva, L. Getoor, S. Sarawagi. <i>Higher-order
+		    Graphical Models for Classification in Social and Affiliation
+    Networks</i>. <b>NeurIPS</b> Workshop on Networks Across Disciplines: Theory and Applications 2010.
+<a href="https://www.cs.uic.edu/~elena/pubs/zheleva-nips10.pdf">PDF</a>.
+    </p>
+<p>E. Zheleva, J. Guiver, E. Mendes Rodrigues,
+    N. Milic-Frayling. <i>Statistical Models of 
+            Music-listening Sessions
+	        in Social Media</i>. 19th International World Wide Web
+		    Conference (<b>WWW</b>) 2010
+		        (12% acceptance rate). 
+            <a href="https://www.cs.uic.edu/~elena/pubs/zheleva-www10.pdf">
+	        PDF</a>. <a href="http://videolectures.net/elena_zheleva/">Conference
+		    talk</a>
+		        on <a href="http://videolectures.net">VideoLectures</a>.</p>
+			    <p>E. Zheleva, H. Sharara, L. Getoor. <i>Co-evolution of Social
+			        and Affiliation Networks</i>. 
+15th ACM SIGKDD International
+    Conference on Knowledge Discovery and 
+Data Mining (<b>KDD</b>) 2009 (10% acceptance rate).
+     <a href="https://www.cs.uic.edu/~elena/pubs/zheleva-kdd09.pdf">
+         PDF</a>. Also presented at INFORMS 2009.</p>
+	     <p>E. Zheleva, L. Getoor. <i>To Join or not to Join: The
+	         Illusion of Privacy in Social Networks with Mixed Public and Private User
+    Profiles</i>. 18th International World Wide Web Conference (<b>WWW</b>) 2009 (12%
+    acceptance rate). <a href="https://www.cs.uic.edu/~elena/pubs/zheleva-www09.pdf">
+        PDF</a>.</p>
+            <p>E. Zheleva, A. Kolcz, L. Getoor. <i>Trusting Spam Reporters:
+            A Reporter-based Reputation System for Email
+            Filtering</i>. ACM Transactions on
+            Information Systems (<a href="http://tois.acm.org/"><b>TOIS</b></a>),
+            vol. 27, no. 1, December
+            2008. 
+             <a href="https://www.cs.uic.edu/~elena/pubs/zheleva-tois08.pdf">
+            PDF</a>. <a href="http://www.google.com.au/patents/US8825769">Patent</a>. </p>
+    <p>E. Zheleva, L. Getoor, J. Golbeck, U. Kuter. <i>Using
+        Friendship Ties and Family Circles for Link Prediction</i>.
+ <b>KDD</b> Workshop on Social
+Network Mining and Analysis 2008. <a href="https://www.cs.uic.edu/~elena/pubs/zheleva-kdd08.pdf">PDF</a>.
+        </p><p>E. Zheleva, L. Getoor. <i>Preserving the Privacy of Sensitive
+	    Relationships in Graph Data</i>. <b>KDD</b> Workshop on Privacy, Security, and Trust in KDD (<a href="http://www-kdd.isti.cnr.it/pinkdd07/">PinKDD</a>) 2007. LNCS
+    vol. 4890, p. 153-171, 2008. <a href="https://www.cs.uic.edu/~elena/pubs/zheleva-kdd07-lncs.pdf">PDF</a>.</p>
+            <p>A. Don, E. Zheleva, M. Gregory, S. Tarkan, L. Auvil, T. Clement, B. Shneiderman, C. Plaisant. <i>Discovering Interesting Usage Patterns
+in Text Collections: Integrating Text Mining with Visualization</i>. 16th ACM
+International Conference on Information and Knowledge Management (<b>CIKM</b>) 2007.  
+    <a href="http://cgis.cs.umd.edu/localphp/hcil/tech-reports-search.php?number=2007-08">
+            Abstract, PDF</a>. <a href="http://monk.lis.uiuc.edu:6060/openlaszlo-3.3.3-servlet/my-apps/featurelens/src/featurelens.lzx?debug=false&amp;lzt=html">Application</a>.</p>
+            <p>E. Zheleva, A. Arslan. <i>Fast Motif Search in Protein
+	        Sequence Databases</i>. <!--a -->
+<!--href="http://logic.pdmi.ras.ru/~csr2006/"-->Computer Science Symposium 2006. </p>
+            <p>V. Kantabutra, B. Tsendjav, E. Zheleva. <i>Glide
+Algorithm with Tunneling: A Fast, Reliably Convergent Algorithm
+for Neural Network Training</i>. Conference on Artificial
+Neural Networks in Engineering (<b>ANNIE</b>) 2003.</p>
+            <p>V. Kantabutra, E. Zheleva. <i>Gradient Descent with
+Fast Gliding over Flat Regions: A First Report</i>. <!--a
+ href="http://iecon02.us.es/"--> IEEE Industrial Electronics Conference
+(<b>IECON</b>) 2002. </p>
+
+	          
+		</div>
+	     </div>
+	</div>
+    </section>
+
+    <section id="lab">
+        <div class="container">
+            <div class="row center-block">
+                <div class="col-lg-1 text-center"></div>
+                <div class="col-lg-10 text-center">
+                    <h2 class="section-heading">EDGES Lab</h2>
+                    <p class="large ">
+                      <b>PhD Students:</b><br>
+                      <a href="https://rahsan3.people.uic.edu/">Ragib Ahsan</a><br>
+                      Zahra Fatemi<br> 
+                      Zohreh Ovaisi<br> 
+                      <a href="https://www.cs.uic.edu/~ctran/">Christopher Tran</a><br><br>
+                      <b>Undergraduate Students:</b><br>
+                      Rochelle Handowo<br> Andres Tapia<br> Gabe Tiemann<br><br>
+                      <b>Alumni:</b><br>
+                      Sachin Biradar, M.S. 2019<br>Shoaib Khan, M.S. 2019<br>Akshay Uppal, M.S. 2019<br>Mahnaz Roshanaei, post doc 2019<br><b
+</p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <section id="funding" class="bg-mid-gray">
+        <div class="container">
+            <div class="row center-block">
+                <div class="col-lg-1 text-center"></div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Funding</h2>
+                    <p class="large ">
+                    <a href="https://anthem.ai/">Anthem</a> Grant "Knowledge Discovery through Process Mining and Machine Learning of Patients Health and Claim Records"<br>
+                    DARPA Grant "Bespoke: Learning Individualized Interventions for Human Performance"<br>
+                    NSF HDR TRIPODS Grant <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1934915">UIC Foundations of Data Science Institute</a><br>
+                    NSF SaTC Grant <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1801644">"Enabling Long-term Security and Privacy through Retrospective Data Management"</a><br>
+                    AWS Cloud Credits for Research 
+                     </p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+  <!-- Service Section -->
+    <section id="service">
+        <div class="container">
+            <div class="row center-block">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Service</h2>
+                </div>
+            </div>
+            <div class="row">
+
+              <div class="col-lg-6 text-left">
+	            <h3>Professional Service</h3>
+            <p class="large text-muted"><b>Organizing Committees</b> 
+            <br><a href="http://cplusj.org/">Computation + Journalism Symposium 2019</a>
+            <br><a href="http://nebigdatahub.org/3rd-tds-workshop/">Third Workshop on Translational Data Science 2018</a>
+            <br><a href="https://sites.google.com/view/dsjm2018/">2nd Workshop on Data Science, Journalism & Media at KDD 2018</a>
+            <br><a href="https://sites.google.com/view/dsandj2017/">1st Workshop on Data Science + Journalism at KDD 2017</a>
+            <br><a href="https://cdis.uchicago.edu/tds-17">First Workshop on Translational Data Science 2017</a>
+            <br><b>Publicity Chair</b>: ICDE 2017, DSAA 2019<br></p>
+            <p class="large text-muted"><b>Area Chair</b>: AAAI 2020, NeurIPS 2017, 2018, 2019</p>
+              
+            <p class="large text-muted"><b>Conference Program Committee Member</b>:
+            <br>World Wide Web Conference (WWW) 2017, 2018, 2019
+            <br>ACM Conference on Knowledge Discovery and Data Mining (KDD) 2010, 2019, 2020
+            <br>AAAI Conference on Artificial Intelligence (AAAI) 2010, 2019
+            <br>International Conference on Machine Learning (ICML) 2018
+            <br>ACM Conference on Web Search and Data Mining (WSDM) <a href="http://www.wsdm2013.org/">2013</a>, <a href="http://www.wsdm-conference.org/2014">2014</a>, <a href="http://www.wsdm-conference.org/2015">2015</a>, <a href="http://www.wsdm-conference.org/2017/">2017</a>
+            <br>Conference on Neural Information Processing Systems (NeurIPS) <a href="https://nips.cc/Conferences/2016">2016</a>
+            <br>Joint Conference on Artificial Intelligence (IJCAI) <a href="http://ijcai-16.org/index.php/welcome/view/home">2016</a>
+            <br>European Conference on Machine Learning (ECML) <a href="http://www.ecmlpkdd2013.org/">2013</a>, 2014, 2015
+            <br>AAAI Conference on Weblogs and Social Media (ICWSM) <a href="http://www.icwsm.org/2013/index.php">2013</a>
+	        
+		        <br>ACM Conference on Information and Knowledge Management
+			    (CIKM) <a href="http://www.cikm2008.org/">2008</a>, <a href="http://www.comp.polyu.edu.hk/conference/cikm2009/about/">2009</a>
+			        <br>ACM Symposium on Applied Computing (SAC) <a href="http://www.acm.org/conferences/sac/sac2010/">2010</a>
+				    </p>
+             <p class="large text-muted"><b>Journal Reviewer</b>: <a href="https://www.computer.org/web/tkde">TKDE</a>, <a href="https://www.computer.org/web/tnse">TNSE</a>, <a href="http://toit.acm.org/">TOIT</a>, <a href="http://www.vldb.org/vldb_journal/">VLDB Journal</a>, <a href="http://www.springer.com/computer/database+management+%26+information+retrieval/journal/10618">DAMI</a>, <a href="http://pubsonline.informs.org/journal/isre">ISR</a></p> 
+             </div>
+             <div class="col-lg-6 text-left">           
+<p>
+	        <h3>Invited talks:</h3>
+            <p class="large text-muted">May 2019 - <i>Causal Inference and Counterfactual Learning in Networks</i>. <a href="https://mlns19.tumblr.com">NetSci Symposium on Machine Learning in Network Science</a></p>
+            <p class="large text-muted">November 2018 - <i>Privacy in Personal-data Networks</i>. <a href="https://tripods.soe.ucsc.edu/program-data-privacy-workshop">UCSC TRIPODS Workshop on Privacy in Graphs</a></p> 
+            <p class="large text-muted">February 2018 - <i>Personalization of Social Sharing</i>. Northwestern University Institute on Complex Systems (NICO) <a href="https://www.nico.northwestern.edu/news-events/wednesdays-at-nico/">Seminar Series</a> <a href="https://www.kellogg.northwestern.edu/faculty/uzzi/NICO/NICO-Flyer-Winter-2018.pdf">Winter 2018</a></p>
+            <p class="large text-muted">February 2018 - Panel on <i>How to Survive & Thrive on the Tenure-Track</i>. UIUC's <a href="https://www.westem.engineering.illinois.edu/">weSTEM Conference</a></p>
+            <p class="large text-muted">October 2017 - <i>Data Science in Social Spaces: Machine learning, causal inference, privacy</i>. DePaul University's CDM Research Colloquium</p>
+            <p class="large text-muted">August 2017 - <i>Sharing and Gifting: Lessons from E-commerce</i>. Keynote at the <a href="http://www.mlgworkshop.org/2017/">Mining and Learning with Graphs Workshop</a> at KDD 2017.</p>
+            <p class="large text-muted">April 2017 - <i>Data Science in Social Spaces: Personalization vs. Privacy</i>. <a href="">DIMACS Workshop on Privacy and Security in Big Data</a>.</p>
+            <p class="large text-muted">November 2016 - <i>Databases & Data Warehouses, Data: Structures, Types, Integrations</i>. <a href="http://www.bigdatau.org/data-science-seminars">BD2K Seminar Series.</a></p>
+            <p class="large text-muted">April 2013, 2014 - <i>Deal Personalization</i>. Class on <a href="http://opim672.com/">Data Mining for Business Intelligence</a>, Wharton School of Business, UPenn</p>
+            <p class="large text-muted">March 2013 - <i>Incentivized Sharing in Social Networks</i>. Class on <a href="http://w4.stern.nyu.edu/uc/syllabi/syllabus/1188">Networks, Crowds and Markets</a>, Stern School of Business, NYU</p>
+            <p class="large text-muted">February 2013 - <i>Analytics in a Personalized Online World: Complex Networks and Incentives</i>. Smith School of Business, UMd</p>
+            <p class="large text-muted">June 2012 - <i>A/B Testing, Personalization and Privacy</i>. Digital Marketing Analytics Roundtable, <a href="http://www.rhsmith.umd.edu/ccb/conference/DMAR%202012/DMAR.aspx">DMAR</a></p>  
+            <p class="large text-muted">November 2011 - <i>Data Science Classroom: Naive Bayes and Logistic Regression.</i> <a href="http://www.meetup.com/Data-Science-DC/events/43638302/">DC Data Science Meetup</a></p>
+            <p class="large text-muted">February 2011 - <i>Prediction and Privacy in Social and Affiliation Networks</i>. Tepper School of Business, CMU</p>
+            <p class="large text-muted">November 2009 - <i>Privacy in Social Networks</i>. Workshop on Security and Artificial Intelligence, <a href="http://sites.google.com/a/aisec.info/aisec-2009/">AISec 2009</a><br>
+            </p> 
+</div>
+</div>
+</div>
+     </section>
+
+      <!-- Bio -->
+    <section id="bio" class="bg-mid-gray">
+        <div class="container">
+            <div class="row center-block">
+                <div class="col-lg-1 text-center"></div>
+                <div class="col-lg-10 text-center">
+                    <h2 class="section-heading">Bio</h2>
+                    <p class="large ">
+                      I am an assistant professor in Computer Science at the University of Illinois at Chicago. Prior to joining UIC, I spent a few years in industry as a data scientist, working on large-scale recommender systems, <a href="https://www.brighttalk.com/webcast/12339/158813">personalization</a>, incentivized sharing, and <a href="https://source.opennews.org/articles/simbot-give-me-five/">data science tools for journalists</a>. I built and led the data science team at LivingSocial, and later was a principal data scientist at Vox Media. I also spent a year in government as an AAAS Science & Technology Policy Fellow at the National Science Foundation, contributing to national initiatives at the intersection of data science and public policy. Many of the research problems I am interested to solve are informed by my industry and public policy experience. I received my Ph.D. in Computer Science in 2011 from the University of Maryland, College Park where my advisor was Lise Getoor.</p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- Footer -->
+    <footer class="bg-darkest-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+
+                </div>
+                <!--div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div-->
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <!--script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script-->
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+
+</body>
 </html>

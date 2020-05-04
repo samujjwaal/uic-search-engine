@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - PRIDE IT TOOL</title>
+    <link href="/css/bootstrap.css" rel="stylesheet" />
+    <link href="/css/admin_style.css" rel="stylesheet" />
+
+</head>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-custom">
+    <a class="navbar-brand img-responsive" href="/">
+        <img src="/img/PRIDElogo.png" height="55" width="115" , alt="PRIDE Logo" />
+    </a>
+    <a class="navbar-brand img-responsive" href="/">
+        <img src="/img/uic-white-logo.png" height="55" width="55" , alt="Uic Logo" />
+    </a>
+    <a class="navbar-brand img-responsive" href="/">
+        <img src="/img/NIDILRR-logo.jpg" height="55" width="100" , alt="NIDLRR Logo" />
+    </a>
+
+
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon custom-toggler"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto navbar-right">
+            
+        </ul>
+
+    </div>
+</nav>
+<body>
+    <div class="container body-content">
+        
+
+
+
+
+
+<div class="justify-content-center">
+    <p style="color:dodgerblue;font-size:35px"><i><b>Partners of Refugees in Illinois Disability Employment</b><br />Progress Tracking Tool</i></p>
+</div>
+
+<div class="text-center">
+    <div class="col-md-offset-6">
+        
+        <p style="color:black">New PRIDE users </p>
+        <p><a class="btn btn-primary btn-md" href="/Users/UserRegister?Length=0">Register</a></p>   
+    </div>
+    <div class="col-md-offset-6">
+        
+        <p style="color:black">Returning PRIDE users</p>
+        <p><a class="btn btn-primary btn-md" href="/Users/Login?Length=0">Login</a></p>
+    </div>
+    <div class="col-md-offset-6">
+        
+        <p style="color:black">Link to PRIDE Website</p>
+        <p><a href="https://pride.ahslabs.uic.edu" class="btn btn-primary btn-md">Our Website &raquo;</a></p>
+    </div>
+   
+</div>
+<div class="blockquote-footer">
+    <p style="font-size: smaller; color: dimgray">
+        “This product was developed under a grant from the National Institute on Disability, Independent Living, and Rehabilitation Research
+        (grant #90IF0110-01-00). However, contents do not necessarily represent the policy of the NIDLIRR, and you should not assume endorsement by the Federal Government”.
+    </p> 
+    <p style="font-size: smaller; color: grey">Designed By IT Innovative Tools | UIC PRIDE © 2018 </p>
+</div>
+
+    </div>
+
+    <script src="/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1"></script>
+
+    <script src="/bundles/bootstrap?v=2Fz3B0iizV2NnnamQFrx-NbYJNTFeBJ2GM05SilbtQU1"></script>
+
+    
+    
+</body>
+</html>

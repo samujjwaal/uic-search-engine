@@ -1,1745 +1,1614 @@
-<!DOCTYPE html><html lang="en"><head><title>UIC Directory</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width"><style>.interior-page-intro .interior-page-title{ color: rgb(54, 54, 54); font-size: 36px; font-weight: 700; line-height: 1; margin-bottom: 12px; }
-.interior-section-header, .interior-page-intro .interior-page-subtitle{ color: rgb(54, 54, 54); font-size: 24px; font-weight: 400; line-height: 1.2; }
-body{ font-family: Theinhardt, Arial, sans-serif; }
-.body-text, .campus-reminders .reminder-text, .category-link-list .text-cell, .error-help, .text-input, .text-area, .number-input, .tel-input, .email-input, .form-help-text, .highlight .content-cell, .home-lists .home-list-blurb, .interior-page-intro .interior-page-text, .key-message-block .message-cell .text, .landing-page-intro .intro-text, .link-block .text, .link-list .text-cell, .text-block-with-inline-image .intro-row, .text-block-with-inline-image .text-and-image-row, .text-block-with-inline-image .link-list, .text-block-with-large-image .link-list, .topic-block-list .text-cell, .topic-block-list .topic-block-text-cell, .block-wysiwyg { color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1.36; }
-.body-text p, .campus-reminders .reminder-text p, .category-link-list .text-cell p, .error-help p, .text-input p, .text-area p, .number-input p, .tel-input p, .email-input p, .form-help-text p, .highlight .content-cell p, .home-lists .home-list-blurb p, .interior-page-intro .interior-page-text p, .key-message-block .message-cell .text p, .landing-page-intro .intro-text p, .link-block .text p, .link-list .text-cell p, .text-block-with-inline-image .intro-row p, .text-block-with-inline-image .text-and-image-row p, .text-block-with-inline-image .link-list p, .text-block-with-large-image .link-list p, .topic-block-list .text-cell p, .topic-block-list .topic-block-text-cell p, .block-wysiwyg p { margin-bottom: 1em; }
-.footer-list-item{ margin-bottom: 15px; }
-.footer-list-item:last-child{ margin-bottom: 0px; }
-.footer-list-link{ color: rgb(255, 255, 255); font-size: 14px; text-decoration: none; }
-.footer .footer-legal a{ color: rgb(153, 153, 153); text-decoration: none; }
-.footer .footer-legal .pipe-separator{ margin-top: 0em; margin-right: 0.5em; margin-bottom: 0em; margin-left: 0.5em; }
-.footer .footer-legal .campuses{ text-align: right; }
-.social-icons-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; overflow-x: hidden; overflow-y: hidden; }
-@media (min-width){
-.social-icons-list{ margin-top: 30px; }
-}
-.social-icons-list a{ text-decoration: none; }
-.social-icons-list svg{ fill: #ffffff; height: 30px; width: 30px; }
-.social-icons-list li{ border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; display: block; float: left; height: 30px; margin-top: 0px; margin-right: 10px; margin-bottom: 10px; margin-left: 0px; width: 30px; }
-.social-icons-list li:nth-of-type(5n+1){ clear: left; }
-.ms-grid, .ms-row, [class*="col-"]{ box-sizing: border-box; }
-.ms-grid{ display: block; position: relative; width: 100%; margin-left: auto; margin-right: auto; max-width: 1400px; padding-left: 12px; padding-right: 12px; }
-.ms-grid .ms-row{ }
-.ms-grid .ms-row::after, .ms-grid [class*="col-"]::after{ content: ''; display: table; clear: both; }
-[class*="col-"]{ float: left; width: 100%; position: relative; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; }
-@media screen and (min-width: 540px){
-.ms-grid{ padding-left: 24px; padding-right: 24px; }
-}
-@media screen and (min-width: 768px){
-.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
-}
-@media screen and (min-width: 2000px){
-.ms-grid .ms-row{ }
-.ms-grid .ms-row > [class*="col-"]{ }
-}
-@media screen and (min-width: 540px){
-.s-col-1-2{ width: 50%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-1-2{ width: 50%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-1-3{ width: 33.3333333333%; }
-}
-@media screen and (min-width: 768px){
-.m-col-1-4{ width: 25%; }
-.m-col-3-4{ width: 75%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-2-12{ width: 16.6666666667%; }
-.l-col-3-12{ width: 25%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-12-push-4{ left: 33.3333333333%; right: auto; }
-.l-col-12-pull-4{ right: 33.3333333333%; left: auto; }
-}
-*{ border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; box-sizing: border-box; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; }
-img{ vertical-align: bottom; }
-@media (min-width: 768px){
-.main{ margin-top: 40px; }
-}
-.ms-grid{ max-width: 1080px; }
-@media (max-width: 767px){
-.ms-grid{ padding-left: 20px; padding-right: 20px; overflow-x: hidden; overflow-y: hidden; }
-}
-@media (max-width: 1084px) and (min-width: 768px){
-.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
-}
-@media (min-width: 1140px){
-.ms-grid{ padding-left: 0px; padding-right: 0px; }
-}
-.component{ margin-bottom: 80px; }
-.interior-section-header{ font-size: 30px; }
-.subhead{ color: rgb(54, 54, 54); font-size: 18px; font-weight: 700; }
-body{ background-color: rgb(248, 248, 248); }
-.breadcrumbs{ line-height: 14px; margin-bottom: 34px; }
-@media (min-width: 768px){
-.breadcrumbs .red-circle{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(213, 0, 50); border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; display: inline-block; height: 14px; width: 14px; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
-}
-.breadcrumbs .first-breadcrumb-arrow{ display: none; }
-@media (min-width: 768px){
-.breadcrumbs .first-breadcrumb-arrow{ display: inline; }
-}
-.breadcrumbs .crumb-list{ display: inline; list-style-position: inside; list-style-type: none; list-style-image: initial; }
-@media (max-width: 768px){
-.breadcrumbs .crumb-list{ line-height: 1.4; }
-}
-.breadcrumbs .crumb-item{ display: inline-block; }
-.breadcrumbs .crumb-anchor{ color: rgb(54, 54, 54); font-size: 12px; font-weight: 500; text-transform: uppercase; }
-.breadcrumbs .crumb-anchor{ text-decoration: none; }
- .breadcrumbs .crumb-anchor.active{ color: rgb(213, 0, 50); outline-style: none; outline-width: initial; outline-color: initial; }
-.breadcrumbs img{ display: inline-block; height: 6px; margin-top: 0px; margin-right: 14px; margin-bottom: 0px; margin-left: 14px; width: 6px; vertical-align: middle; }
-.footer .footer-brand{ height: 206px; margin-bottom: 15px; width: 150px; }
-.footer .footer-brand-address{ margin-bottom: 20px; }
-@media (min-width: 1084px){
-.footer .footer-brand-address{ margin-bottom: 0px; min-height: 280px; }
-}
-@media (min-width: 1084px){
-.footer .footer-address{ bottom: 0px; position: absolute; width: 100%; }
-}
-@media (max-width: 1084px){
-.footer .footer-list{ margin-bottom: 30px; }
-.footer .footer-list::after{ content: ''; display: table; clear: both; }
-}
-.footer .footer-button-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; margin-bottom: 12px; }
-@media (max-width: 1084px) and (min-width: 540px){
-.footer .footer-button-list{ padding-right: 20px; }
-}
-.footer .footer-button-item{ margin-bottom: 5px; }
-.footer .footer-button{ color: rgb(255, 255, 255); background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(37, 37, 37); display: block; font-size: 16px; font-weight: 700; line-height: 32px; height: 32px; padding-top: 0px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px; text-decoration: none; background-position: initial initial; background-repeat: initial initial; }
-@media (max-width: 1084px){
-.footer .footer-legal .campuses{ margin-top: 1em; text-align: left; }
-}
-@media (min-width: 1084px){
-.footer .l-col-1-1{ width: 100%; }
-}
-.footer-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.footer-list-title{ margin-bottom: 15px; }
-.footer-list-title{ color: rgb(255, 255, 255); font-size: 14px; font-weight: 900; text-transform: uppercase; }
-@media (min-width: 1084px){
-.no-flexbox .footer-social-icons-cell{ bottom: -30px; }
-.no-flexbox .footer-address{ bottom: -50px; }
-}
-.header{ position: relative; width: 100%; background-color: rgb(0, 0, 0); }
-.header-menu-bar{ position: relative; }
-.header--blue .header-menu-bar{ background-color: rgb(0, 127, 165); }
-@media (max-width: 1084px){
-.header--blue .navigation-primary .primary-nav-list .primary-list-item{ background-color: rgb(0, 127, 165); }
-}
-.header--blue .navigation-primary .primary-nav-list .expander, .header--blue .navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(0, 102, 132); }
-@media (max-width: 1084px){
-.header--blue .navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); }
-}
-@media (min-width: 1084px){
-.header--blue .navigation-eyebrow{ background-color: rgb(0, 127, 165); }
-}
-.header--blue .navigation-primary:not(.scrolled-after) .primary-nav-list .primary-second-tier-list{ border-top-color: rgb(0, 127, 165); border-right-color: rgb(0, 127, 165); border-bottom-color: rgb(0, 127, 165); border-left-color: rgb(0, 127, 165); }
-.header-background-image-container{ bottom: 0px; left: 0px; overflow-x: hidden; overflow-y: hidden; position: absolute; right: 0px; top: 0px; }
-.header-background-image{ background-size: cover; bottom: -5px; left: -5px; position: absolute; right: -5px; top: -5px; background-position: 50% 50%; background-repeat: no-repeat no-repeat; }
-.interior-page-header{ overflow-x: visible; overflow-y: visible; }
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary .circle-logo-container{ margin-left: 0px; opacity: 1; z-index: 2; }
-}
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary:not(.scrolled-after) .circle-logo-container{ top: 110px; }
-}
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-eyebrow{ background-color: rgb(0, 127, 165); position: static; }
-}
-.interior-page-header .header-menu-bar .navigation-primary{ background-color: rgb(0, 127, 165); width: 100%; }
-.interior-page-header .header-menu-bar .navigation-primary .menu-toggle{ z-index: 2; }
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary{ height: 60px; }
-}
-.interior-page-header .header-background-image{ display: none; }
-.interior-page-intro .interior-page-title{ color: rgb(213, 0, 50); }
-@media (min-width: 540px){
-.interior-page-intro .interior-page-title{ font-size: 48px; }
-}
-.interior-page-intro .interior-page-subtitle{ margin-bottom: 10px; }
-@media (min-width: 540px){
-.interior-page-intro .interior-page-subtitle{ font-size: 30px; }
-}
-.link-block-group .link-block-anchor { margin-top: 40px; }
-@media (min-width: 540px){
-.link-block-group .link-block-anchor { max-width: 50%; }
-}
-.link-block-group .link-block-anchor, .link-block-group .link-block-anchor:hover, .link-block-group .link-block-anchor:visited { color: rgb(54, 54, 54); text-decoration: none; }
-.link-block { padding-top: 1px; position: relative; }
-.link-block::before { background-color: rgb(213, 0, 50); content: ''; height: 1px; left: 0px; position: absolute; top: 1px; width: 100%; }
-.link-block .subhead { margin-top: 15px; margin-right: 0px; margin-bottom: 4px; margin-left: 0px; padding-right: 20px; position: relative; }
-.link-block .subhead .arrow { fill: #001e62; height: 10px; position: absolute; right: 5px; width: 10px; }
-.link-block-anchor:hover, .link-block-anchor:focus { outline-style: none; outline-width: initial; outline-color: initial; }
-.link-block-anchor:hover .link-block::before, .link-block-anchor:focus .link-block::before { height: 3px; }
-.link-block-anchor:hover .arrow, .link-block-anchor:focus .arrow { -webkit-transform: translateX(5px); }
-.link-list .interior-section-header{ margin-bottom: 15px; }
-.navigation-eyebrow{ height: 40px; }
-@media (min-width: 1084px){
-.navigation-eyebrow{ background-color: rgb(0, 127, 165); }
-}
-.navigation-eyebrow .navigation-eyebrow-inner{ margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 1080px; position: relative; }
-.navigation-eyebrow .eyebrow-list{ color: rgb(255, 255, 255); font-size: 14px; font-weight: 400; list-style-type: none; list-style-position: inside; list-style-image: initial; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; padding-top: 0px; padding-right: 20px; padding-bottom: 0px; padding-left: 20px; }
-@media (min-width: 1084px){
-.navigation-eyebrow .eyebrow-list{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 25%; }
-}
-.navigation-eyebrow .eyebrow-list-item{ display: none; line-height: 40px; height: 40px; }
-@media (min-width: 1084px){
-.navigation-eyebrow .eyebrow-list-item{ display: block; float: left; }
-}
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor{ overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
-.navigation-eyebrow .eyebrow-button{ }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor{ font-weight: 700; padding-left: 34px; padding-right: 20px; overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::after{ content: '+'; left: 10px; position: absolute; text-align: center; top: 0px; width: 20px; }
-.navigation-eyebrow .eyebrow-list-anchor{ display: block; outline-style: none; outline-width: initial; outline-color: initial; }
-.navigation-eyebrow .eyebrow-list-anchor{ color: rgb(255, 255, 255); text-decoration: none; }
-.navigation-eyebrow .search-button-item{ display: block; height: 40px; position: absolute; top: 0px; right: 40px; width: 40px; z-index: 1; }
-@media (min-width: 1084px){
-.navigation-eyebrow .search-button-item{ height: 40px; position: relative; top: 0px; right: 0px; width: auto; }
-}
-.navigation-eyebrow .search-button{ background-color: transparent; cursor: pointer; height: 40px; width: 40px; }
-.navigation-eyebrow .search-button .search-glass{ fill: #ffffff; height: 20px; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; width: 20px; }
-.navigation-eyebrow .search-input-container{ position: absolute; top: 0px; height: 40px; right: 42px; -webkit-transform: translateY(-100%); width: 278px; z-index: 3; }
-@media (min-width: 1084px){
-.navigation-eyebrow .search-input-container{ height: 40px; right: 40px; }
-}
-.navigation-eyebrow .search-input-container form{ position: relative; width: 100%; height: 100%; }
-.navigation-eyebrow .search-input-container input[type="text"]{ color: rgb(149, 149, 149); height: 100%; padding-top: 0px; padding-right: 12px; padding-bottom: 0px; padding-left: 12px; font-size: 18px; width: 100%; }
-.navigation-eyebrow .search-input-container .submit-button{ -webkit-appearance: none; position: absolute !important; clip: rect(1px 1px 1px 1px); }
-@media (min-width: 1084px){
-.no-flexbox .eyebrow-list-item{ margin-left: 12px; }
-}
-.navigation-primary{ pointer-events: none; position: absolute; top: 0px; width: 100%; z-index: 2; }
-@media (min-width: 1084px){
-.navigation-primary{ pointer-events: auto; position: relative; }
-}
-.navigation-primary .navigation-primary-inner{ margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 1080px; position: relative; min-height: 40px; }
-.navigation-primary .primary-nav-list{ line-height: 1; list-style-type: none; list-style-position: inside; list-style-image: initial; overflow-x: hidden; overflow-y: hidden; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: absolute; right: 0px; top: 0px; width: 260px; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list{ left: 0px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; overflow-x: visible; overflow-y: visible; padding-top: 0px; padding-right: 0px; padding-left: 25%; position: relative; top: 0px; width: auto; }
-}
-.navigation-primary .primary-nav-list .primary-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(0, 127, 165); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; letter-spacing: 0.06em; position: relative; text-transform: uppercase; width: 100%; background-position: initial initial; background-repeat: initial initial; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .primary-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; float: left; background-position: initial initial; background-repeat: initial initial; }
-}
-.navigation-primary .primary-nav-list .primary-list-anchor{ display: block; line-height: 1; }
-.navigation-primary .primary-nav-list .primary-list-anchor, .navigation-primary .primary-nav-list .primary-second-tier-list-anchor{ color: inherit; text-decoration: none; }
-.navigation-primary .primary-nav-list .primary-second-tier-list{ display: none; list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); color: rgb(54, 54, 54); font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 1.25; text-transform: none; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item .primary-second-tier-list-anchor{ display: block; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; }
-.navigation-primary .primary-nav-list .expander{ display: none; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .primary-list-item{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: relative; width: auto; }
-.navigation-primary .primary-nav-list .primary-list-item.primary-list-active-item > .primary-list-anchor{ border-bottom-width: 8px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); padding-bottom: 12px; }
-.navigation-primary .primary-nav-list .primary-list-item > .primary-list-anchor{ display: block; outline-style: none; outline-width: initial; outline-color: initial; padding-top: 22px; padding-right: 0px; padding-bottom: 22px; padding-left: 0px; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor{ overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(255, 255, 255); bottom: 2px; height: 8px; -webkit-transform: translateY(135%); }
-.navigation-primary .primary-nav-list .primary-second-tier-list{ border-right-width: 2px; border-right-style: solid; border-right-color: rgb(0, 127, 165); border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(0, 127, 165); border-left-width: 2px; border-left-style: solid; border-left-color: rgb(0, 127, 165); display: block; opacity: 0; pointer-events: none; position: absolute; left: -2px; top: 60px; width: 260px; }
-.navigation-primary .primary-nav-list .primary-list-item:nth-last-child(1) .primary-second-tier-list, .navigation-primary .primary-nav-list .primary-list-item:nth-last-child(2) .primary-second-tier-list{ left: auto; right: -2px; }
-}
-@media (max-width: 1083px){
-.navigation-primary .primary-nav-list .expander{ background-color: rgb(39, 152, 182); display: block; height: 44px; position: absolute; top: 0px; right: 0px; width: 44px; }
-.navigation-primary .primary-nav-list .expander::before{ color: rgb(255, 255, 255); content: '+'; display: block; line-height: 44px; text-align: center; width: 100%; }
-.navigation-primary .primary-nav-list .primary-list-anchor{ line-height: 24px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 20px; }
-.navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); padding-left: 22px; position: relative; }
-.navigation-primary .primary-nav-list .primary-list-item{ min-height: 44px; -webkit-transform: translateX(260px); }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+0){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+1){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+2){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+3){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+4){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+5){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+6){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+7){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+8){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+9){ }
-}
-@media (max-width: 1083px){
-.navigation-primary .primary-nav-list{ pointer-events: none; }
-}
-.navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(39, 152, 182); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; height: 40px; letter-spacing: 0.06em; line-height: 40px; min-height: 40px; padding-top: 0px; padding-bottom: 0px; padding-left: 20px; position: relative; text-transform: uppercase; -webkit-transform: translateX(260px); width: 100%; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .menu-label-item{ display: none; }
-}
-.navigation-primary .primary-nav-list .menu-label{ opacity: 0; }
-.navigation-primary .primary-nav-list .menu-toggle{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; display: block; height: 40px; pointer-events: auto; position: absolute; top: 0px; right: 0px; width: 40px; z-index: 1; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle > span{ position: absolute; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); height: 2px; margin-left: 9px; position: absolute; top: 20px; width: 24px; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::after, .navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ content: ''; position: absolute; width: 100%; height: 100%; left: 0px; top: 6px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ top: auto; bottom: 6px; }
-@media (min-width: 1083px){
-.navigation-primary .primary-nav-list .menu-toggle{ display: none; }
-}
-.navigation-primary .circle-logo-container{ height: 40px; left: 0px; opacity: 0; pointer-events: auto; position: absolute; -webkit-transform: translateY(-100px); top: 10px; width: 40px; z-index: 1; }
-@media (max-width: 1120px) and (min-width: 1080px){
-.navigation-primary .circle-logo-container{ left: 20px; }
-}
-.navigation-primary .circle-logo-container span{ -webkit-appearance: none; position: absolute !important; clip: rect(1px 1px 1px 1px); }
-@media (max-width: 1084px){
-.navigation-primary .circle-logo-container{ height: 32px; margin-left: 20px; opacity: 1; -webkit-transform: translateY(4px); top: 0px; width: 32px; }
-}
-.navigation-primary .circle-logo-container .circle-logo path{ fill: #ffffff; }
-.navigation-primary .circle-logo-container a{ color: rgb(255, 255, 255); outline-style: none; outline-width: initial; outline-color: initial; }
-.navigation-primary .circle-logo-container .circle-logo{ -webkit-transform: rotate(-360deg); }
-@media (min-width: 1084px){
-.no-flexbox .primary-list-item{ margin-left: 12px; }
-}
-.no-flexbox .primary-nav-list::after{ content: ''; display: table; clear: both; }
-.navigation-sidebar{ margin-left: -20px; margin-right: -20px; position: relative; }
-@media (min-width: 768px){
-.navigation-sidebar{ margin-left: 0px; margin-right: 0px; }
-}
-.navigation-sidebar .navigation-sidebar-title{ background-color: rgb(255, 255, 255); border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; color: rgb(0, 30, 98); font-size: 16px; font-weight: 900; line-height: 1.5; margin-bottom: 20px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 47px; position: relative; text-transform: uppercase; }
-.navigation-sidebar .navigation-sidebar-title a{ color: rgb(0, 30, 98); text-decoration: none; }
-.navigation-sidebar .navigation-sidebar-title::after{ content: ' Menu'; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-title{ background-color: transparent; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 15px; padding-left: 0px; }
-.navigation-sidebar .navigation-sidebar-title::after{ content: none; }
-}
-.navigation-sidebar .navigation-sidebar-title .chevron{ display: block; height: 12px; left: 20px; position: absolute; width: 12px; }
-.navigation-sidebar .navigation-sidebar-title .chevron .anchor-point{ display: block; fill: #001e62; height: 8px; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto; -webkit-transform: rotate(-90deg); width: 12px; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-title .chevron{ display: none; }
-}
-@media (max-width: 767px){
-.navigation-sidebar .navigation-sidebar-list-container{ overflow-x: hidden; overflow-y: hidden; pointer-events: none; position: absolute; top: 44px; width: 100%; z-index: 1; }
-}
-@media (max-width: 767px){
-.navigation-sidebar .navigation-sidebar-list{ background-color: rgb(255, 255, 255); border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); padding-left: 20px; padding-right: 20px; -webkit-transform: translateY(-100%); }
-}
-.navigation-sidebar .navigation-sidebar-list .anchor-point{ height: 5px; position: absolute; right: 0px; top: 4px; width: 8px; }
-.navigation-sidebar .navigation-sidebar-list .navigation-sidebar-anchor .anchor-point{ top: 21px; }
-.navigation-sidebar .navigation-sidebar-list, .navigation-sidebar .sidebar-second-tier-list, .navigation-sidebar .sidebar-third-tier-list, .navigation-sidebar .sidebar-fourth-tier-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.navigation-sidebar .navigation-sidebar-anchor, .navigation-sidebar .sidebar-second-tier-anchor, .navigation-sidebar .sidebar-third-tier-anchor, .navigation-sidebar .sidebar-fourth-tier-anchor{ display: block; width: 100%; }
-.navigation-sidebar .navigation-sidebar-item{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); min-height: 50px; }
-.navigation-sidebar .navigation-sidebar-item:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-item:last-child{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); }
-}
-.navigation-sidebar .navigation-sidebar-anchor{ color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1; padding-top: 17px; padding-right: 0px; padding-bottom: 17px; padding-left: 0px; position: relative; text-decoration: none; }
-.navigation-sidebar .sidebar-second-tier-list{ padding-left: 14px; }
-.navigation-sidebar .sidebar-second-tier-item{ font-size: 14px; font-weight: 400; margin-bottom: 16px; }
-.navigation-sidebar .sidebar-second-tier-anchor{ color: rgb(54, 54, 54); position: relative; text-decoration: none; }
-.navigation-sidebar .sidebar-third-tier-list, .navigation-sidebar .sidebar-fourth-tier-list{ padding-top: 14px; padding-left: 14px; }
-.navigation-sidebar .sidebar-third-tier-item, .navigation-sidebar .sidebar-fourth-tier-item{ margin-bottom: 14px; }
-.navigation-sidebar .sidebar-third-tier-anchor, .navigation-sidebar .sidebar-fourth-tier-anchor{ color: rgb(54, 54, 54); position: relative; text-decoration: none; }
-.navigation-sidebar .navigation-sidebar-item.open .navigation-sidebar-anchor, .navigation-sidebar .sidebar-second-tier-item.open .sidebar-second-tier-anchor, .navigation-sidebar .sidebar-third-tier-item.open .sidebar-third-tier-anchor{ font-weight: 700; padding-right: 24px; width: 100%; }
- .navigation-sidebar .sidebar-fourth-tier-item.active .sidebar-fourth-tier-anchor{ color: rgb(213, 0, 50); font-weight: 700; position: relative; }/* Styles appended to the end of every critical path css stylesheet */
-.navigation-primary .primary-list {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-.navigation-eyebrow .eyebrow-list {
-    display: flex;
-    justify-content: space-between;
-}
-.calls-to-action .call-to-action {
-    align-items: center;
-    display: flex;
-}
-.calls-to-action .reminders-container {
-    display: flex;
-}
-.calls-to-action .reminders-anchor {
-    display: flex;
-}
- </style></head><body>
-<header class="header interior-page-header header--blue">
-    <div class="header-background-image-container">
-        <div class="header-background-image" aria-hidden="true" style="background-image: url()"></div>
-    </div>
-        <div class="header-menu-bar">
+<!doctype html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en-US" >
+  <head>
+	  
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+    <!-- This is Squarespace. --><!-- kim-erwin-6n7l -->
+<base href="">
+<meta charset="utf-8" />
+<title>Products &mdash;  </title>
+<link rel="shortcut icon" type="image/x-icon" href="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1507646237605-P548TD4XB0RMZOEEAXSI/ke17ZwdGBToddI8pDm48kPiDXGvsflYyBJyQo1azq4aoCXeSvxnTEQmG4uwOsdIceAoHiyRoc52GMN5_2H8WpwThmSRcI1py6W7RkCODkNiWzV0pE_ENkG9GYVFdgY5cMgR9s4Gc--HvYZU6AQIxCw/favicon.ico?format="/>
+<link rel="canonical" href="https://healthcaredeliverydesign.vcha.uic.edu/products"/>
+<meta property="og:site_name" content=" "/>
+<meta property="og:title" content="Products &mdash;  "/>
+<meta property="og:url" content="https://healthcaredeliverydesign.vcha.uic.edu/products"/>
+<meta property="og:type" content="website"/>
+<meta itemprop="name" content="Products —  "/>
+<meta itemprop="url" content="https://healthcaredeliverydesign.vcha.uic.edu/products"/>
+<meta name="twitter:title" content="Products —  "/>
+<meta name="twitter:url" content="https://healthcaredeliverydesign.vcha.uic.edu/products"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="description" content="" />
+<script type="text/javascript" src="//use.typekit.net/ik/KxXH7GsOU9abp1Q9bkbUeJxJwTl68cqgOYUW_I10fcIfeTq2fFHN4UJLFRbh52jhWD9ojR63wA4R5AjtZeF8FQwUFR6UZRItZg7vMPG0-h8lOAmkih80OQZ0Fh30SaBujW48Sagyjh90jhNlOey8jAUX-eFyScmqZAUTicmkpAs8Sh81dKohjhyyO1mTjko8ZY9C-h8lOAmkih80OQZ0Fh30SaBujW48Sagyjh90jhNlOeUzjhBC-eNDifUaiaS0-emydYsGjhBkZAs8de8hZW4oZemD-Ai0O1ZR-eI0iA8ROcmqiPUaiaS0-h8lOAmkih80OQZ0Fh30SaBujW48Sagyjh90jhNlJ6U3ScNt-AuyOAozicIK2cUXjkuKdhszdcqlwQSuH6qJ73IbMg6gJMJ7fbRKHyMMeMw6MKG4fHvgIMMjgfMfH6GJCwbgIMMjgPMfH6qJnMIbMg6OJMJ7fbKlMsMMeMj6MKG4fJCgIMMjgkMfH6qJ7bIbMg6JJMJ7fbRRHyMMeMX6MKG4fJqgIMMjfPMfH6qJCMIbMg65JMJ7fbKwMsMMegI6MKG4fVtnIMIj2KMfqMeCN7d5gb.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">SQUARESPACE_ROLLUPS = {};</script>
+<script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/common-3e67fa9ac40a29790ccda-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-common');</script>
+<script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/common-3e67fa9ac40a29790ccda-min.en-US.js" ></script><script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/performance-2e134d50206897975c0cb-min.en-US.js" defer ></script><script data-name="static-context">Static = window.Static || {}; Static.SQUARESPACE_CONTEXT = {"facebookAppId":"314192535267336","facebookApiVersion":"v6.0","rollups":{"squarespace-announcement-bar":{"js":"//assets.squarespace.com/universal/scripts-compressed/announcement-bar-f3ed5599cc78e97556f8f-min.en-US.js"},"squarespace-audio-player":{"css":"//assets.squarespace.com/universal/styles-compressed/audio-player-52bdd87acccf92a19703e60e09c654bd-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/audio-player-1dac62dea069d351bf4bb-min.en-US.js"},"squarespace-blog-collection-list":{"css":"//assets.squarespace.com/universal/styles-compressed/blog-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/blog-collection-list-342036262b204974aa269-min.en-US.js"},"squarespace-calendar-block-renderer":{"css":"//assets.squarespace.com/universal/styles-compressed/calendar-block-renderer-a0cc7f57176bc63d87bc9f4149fada5a-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/calendar-block-renderer-5e4dbb32d8e117c17cc8e-min.en-US.js"},"squarespace-chartjs-helpers":{"css":"//assets.squarespace.com/universal/styles-compressed/chartjs-helpers-9935a41d63cf08ca108505d288c1712e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/chartjs-helpers-ac84e175b65b214abb854-min.en-US.js"},"squarespace-comments":{"css":"//assets.squarespace.com/universal/styles-compressed/comments-1637eb4ee93bed59528921026e024bf4-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/comments-aa4d9ddaca7289a63286d-min.en-US.js"},"squarespace-commerce-cart":{"js":"//assets.squarespace.com/universal/scripts-compressed/commerce-cart-cde0ad6212db92ff296de-min.en-US.js"},"squarespace-dialog":{"css":"//assets.squarespace.com/universal/styles-compressed/dialog-afeb96ba160fb642a2d98c892a956065-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/dialog-7334cdef5a95ee1027e15-min.en-US.js"},"squarespace-events-collection":{"css":"//assets.squarespace.com/universal/styles-compressed/events-collection-a0cc7f57176bc63d87bc9f4149fada5a-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/events-collection-afc8be0281c84bf5f40fb-min.en-US.js"},"squarespace-form-rendering-utils":{"js":"//assets.squarespace.com/universal/scripts-compressed/form-rendering-utils-94b9bcb37d4ca711fb9b5-min.en-US.js"},"squarespace-forms":{"css":"//assets.squarespace.com/universal/styles-compressed/forms-d21f3e517c32f4caba9f220beea0666d-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/forms-07e310ca7900fefe1d86d-min.en-US.js"},"squarespace-gallery-collection-list":{"css":"//assets.squarespace.com/universal/styles-compressed/gallery-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/gallery-collection-list-e23ee315df466f1dba9ec-min.en-US.js"},"squarespace-image-zoom":{"css":"//assets.squarespace.com/universal/styles-compressed/image-zoom-72b0ab7796582588032aa6472e2e2f14-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/image-zoom-5a660e03e667b16c7a076-min.en-US.js"},"squarespace-pinterest":{"css":"//assets.squarespace.com/universal/styles-compressed/pinterest-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/pinterest-4725f00d98ee2610ca950-min.en-US.js"},"squarespace-popup-overlay":{"css":"//assets.squarespace.com/universal/styles-compressed/popup-overlay-e984c5797664760d617b07bce15392a1-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/popup-overlay-21eb834dbbb03db20bd16-min.en-US.js"},"squarespace-product-quick-view":{"css":"//assets.squarespace.com/universal/styles-compressed/product-quick-view-3fa8fd4df0755e7a7878e60166ca3d61-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/product-quick-view-938030180d88b8e59ffc0-min.en-US.js"},"squarespace-products-collection-item-v2":{"css":"//assets.squarespace.com/universal/styles-compressed/products-collection-item-v2-72b0ab7796582588032aa6472e2e2f14-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/products-collection-item-v2-ddd7f4d1b8c7fa16b94a5-min.en-US.js"},"squarespace-products-collection-list-v2":{"css":"//assets.squarespace.com/universal/styles-compressed/products-collection-list-v2-72b0ab7796582588032aa6472e2e2f14-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/products-collection-list-v2-562bb240aaf1c02833c3e-min.en-US.js"},"squarespace-search-page":{"css":"//assets.squarespace.com/universal/styles-compressed/search-page-207da8872118254c0a795bf9b187c205-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/search-page-c0911caf35bac079433e8-min.en-US.js"},"squarespace-search-preview":{"js":"//assets.squarespace.com/universal/scripts-compressed/search-preview-5c72d2e833b72465a446c-min.en-US.js"},"squarespace-share-buttons":{"js":"//assets.squarespace.com/universal/scripts-compressed/share-buttons-f10b2f478610f4d87c8ac-min.en-US.js"},"squarespace-simple-liking":{"css":"//assets.squarespace.com/universal/styles-compressed/simple-liking-9ef41bf7ba753d65ec1acf18e093b88a-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/simple-liking-76c3feddbdd5846160a82-min.en-US.js"},"squarespace-social-buttons":{"css":"//assets.squarespace.com/universal/styles-compressed/social-buttons-bf7788a87c794b73afd9d5c49f72f4f3-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/social-buttons-84af7673f66f1f41242dc-min.en-US.js"},"squarespace-tourdates":{"css":"//assets.squarespace.com/universal/styles-compressed/tourdates-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/tourdates-ee0fb78dbdd1867c4cf11-min.en-US.js"},"squarespace-website-overlays-manager":{"css":"//assets.squarespace.com/universal/styles-compressed/website-overlays-manager-68df56a8135961401cbd590171d6b04a-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/website-overlays-manager-37ab07819fab1770e9658-min.en-US.js"}},"pageType":2,"website":{"id":"59b801bc9f8dce531681f18d","identifier":"kim-erwin-6n7l","websiteType":1,"contentModifiedOn":1588078960406,"cloneable":false,"siteStatus":{},"language":"en-US","timeZone":"America/Chicago","machineTimeZoneOffset":-18000000,"timeZoneOffset":-18000000,"timeZoneAbbr":"CDT","siteTitle":" ","fullSiteTitle":"Products \u2014  ","siteTagLine":" ","siteDescription":"","logoImageId":"59cc9300b7411c722b11e030","shareButtonOptions":{"8":true,"4":true,"3":true,"1":true,"7":true,"6":true,"2":true},"logoImageUrl":"//static1.squarespace.com/static/59b801bc9f8dce531681f18d/t/59cc9300b7411c722b11e030/1588078960406/","authenticUrl":"https://healthcaredeliverydesign.vcha.uic.edu","internalUrl":"https://kim-erwin-6n7l.squarespace.com","baseUrl":"https://healthcaredeliverydesign.vcha.uic.edu","primaryDomain":"healthcaredeliverydesign.vcha.uic.edu","sslSetting":3,"isHstsEnabled":false,"typekitId":"","statsMigrated":false,"imageMetadataProcessingEnabled":false,"showOwnerLogin":false},"websiteSettings":{"id":"59b801bc9f8dce531681f190","websiteId":"59b801bc9f8dce531681f18d","subjects":[],"country":"US","state":"IL","simpleLikingEnabled":true,"mobileInfoBarSettings":{"isContactEmailEnabled":false,"isContactPhoneNumberEnabled":false,"isLocationEnabled":false,"isBusinessHoursEnabled":false},"commentLikesAllowed":true,"commentAnonAllowed":true,"commentThreaded":true,"commentApprovalRequired":false,"commentAvatarsOn":true,"commentSortType":2,"commentFlagThreshold":0,"commentFlagsAllowed":true,"commentEnableByDefault":true,"commentDisableAfterDaysDefault":0,"disqusShortname":"","commentsEnabled":false,"storeSettings":{"returnPolicy":null,"termsOfService":null,"privacyPolicy":null,"expressCheckout":false,"continueShoppingLinkUrl":"/","useLightCart":false,"showNoteField":false,"shippingCountryDefaultValue":"US","billToShippingDefaultValue":false,"showShippingPhoneNumber":true,"isShippingPhoneRequired":false,"showBillingPhoneNumber":true,"isBillingPhoneRequired":false,"currenciesSupported":["CHF","HKD","MXN","EUR","DKK","USD","CAD","MYR","NOK","THB","AUD","SGD","ILS","PLN","GBP","CZK","SEK","NZD","PHP","RUB"],"defaultCurrency":"USD","selectedCurrency":"USD","measurementStandard":1,"showCustomCheckoutForm":false,"enableMailingListOptInByDefault":false,"sameAsRetailLocation":false,"merchandisingSettings":{"scarcityEnabledOnProductItems":false,"scarcityEnabledOnProductBlocks":false,"scarcityMessageType":"DEFAULT_SCARCITY_MESSAGE","scarcityThreshold":10,"multipleQuantityAllowedForServices":true,"restockNotificationsEnabled":false,"restockNotificationsMailingListSignUpEnabled":false,"relatedProductsEnabled":false,"relatedProductsOrdering":"random","soldOutVariantsDropdownDisabled":false,"productComposerOptedIn":false},"isLive":false,"multipleQuantityAllowedForServices":true},"useEscapeKeyToLogin":true,"trialAssistantEnabled":true,"ssBadgeType":1,"ssBadgePosition":4,"ssBadgeVisibility":1,"ssBadgeDevices":1,"pinterestOverlayOptions":{"mode":"disabled"},"ampEnabled":false},"cookieSettings":{"isCookieBannerEnabled":false,"isRestrictiveCookiePolicyEnabled":false,"isRestrictiveCookiePolicyAbsolute":false,"cookieBannerText":"","cookieBannerTheme":"","cookieBannerVariant":"","cookieBannerPosition":"","cookieBannerCtaVariant":"","cookieBannerCtaText":""},"websiteCloneable":false,"collection":{"title":"Products","id":"5d71645d0aa0400001300be8","fullUrl":"/products","type":10},"subscribed":false,"appDomain":"squarespace.com","templateTweakable":true,"tweakJSON":{"aspect-ratio":"Auto","gallery-arrow-style":"Round Corners","gallery-aspect-ratio":"16:9 Widescreen","gallery-auto-crop":"true","gallery-autoplay":"false","gallery-design":"Slideshow","gallery-info-overlay":"Always Show","gallery-loop":"false","gallery-navigation":"Thumbnails","gallery-show-arrows":"true","gallery-transitions":"Fade","galleryArrowBackground":"rgba(34,34,34,1)","galleryArrowColor":"rgba(255,255,255,1)","galleryAutoplaySpeed":"3","galleryCircleColor":"rgba(255,255,255,1)","galleryInfoBackground":"rgba(0, 0, 0, .7)","galleryThumbnailSize":"121px","gridSize":"270px","gridSpacing":"0px","hdr-bg-image":"{background-image:none;background-position:top left;background-size:auto;background-attachment:fixed;background-repeat:no-repeat}","product-gallery-auto-crop":"true","product-image-auto-crop":"true","tweak-v1-related-products-title-spacing":"50px"},"templateId":"503ba86de4b04953d0f49846","templateVersion":"7","pageFeatures":[1,2,4],"gmRenderKey":"QUl6YVN5Q0JUUk9xNkx1dkZfSUUxcjQ2LVQ0QWVUU1YtMGQ3bXk4","betaFeatureFlags":["ORDERS-SERVICE-check-digital-good-access-with-service","ORDERS-SERVICE-reset-digital-goods-access-with-service","ORDER_SERVICE-submit-subscription-order-through-service","ORDER_SERVICE-submit-reoccurring-subscription-order-through-service","dg_downloads_from_fastly","generic_iframe_loader_for_campaigns","donations_customer_accounts","product-retriever-v2-enabled","domain_registration_via_registrar_service","domain_locking_via_registrar_service","domain_deletion_via_registrar_service","domain_info_via_registrar_service","content_item_settings","demo_content_improvement","onboarding_wizard_seven_one","seven_one_image_overlay_opacity","commerce_restock_notifications","global_animations","newsletter_block_captcha","new_billing_system","gallery_settings_71","seven_one_portfolio_hover_layouts","seven_one_theme_mapper_v3","seven_one_dynamic_text_sizing","domains_transfer_flow_improvements","domains_allow_async_gsuite","domains_use_new_domain_connect_strategy","commerce_instagram_product_checkout_links","campaigns_single_opt_in","seven_one_fonts_panel_targeting","seven_one_user_survey_on_mobile","commerce_subscription_order_delay"],"yuiEliminationExperimentList":[{"name":"statsMigrationJobWidget-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"ContributionConfirmed-enabled","experimentType":"AB_TEST","variant":"false","containsError":false,"status":"ACTIVE"},{"name":"TextPusher-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"MenuItemWithProgress-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"imageProcJobWidget-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"QuantityChangePreview-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"CompositeModel-enabled","experimentType":"AB_TEST","variant":"false","containsError":false,"status":"ACTIVE"},{"name":"HasPusherMixin-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"INACTIVE"},{"name":"ProviderList-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"MediaTracker-enabled","experimentType":"AB_TEST","variant":"false","containsError":false,"status":"ACTIVE"},{"name":"pushJobWidget-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"internal-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"BillingPanel-enabled","experimentType":"AB_TEST","variant":"false","containsError":false,"status":"ACTIVE"},{"name":"PopupOverlayEditor-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"},{"name":"CoverPagePicker-enabled","experimentType":"AB_TEST","variant":"true","containsError":false,"status":"ACTIVE"}],"impersonatedSession":false,"tzData":{"zones":[[-360,"US","C%sT",null]],"rules":{"US":[[1967,2006,null,"Oct","lastSun","2:00","0","S"],[1987,2006,null,"Apr","Sun>=1","2:00","1:00","D"],[2007,"max",null,"Mar","Sun>=8","2:00","1:00","D"],[2007,"max",null,"Nov","Sun>=1","2:00","0","S"]]}}};</script><script type="text/javascript"> SquarespaceFonts.loadViaContext(); Squarespace.load(window);</script><script type="application/ld+json">{"url":"https://healthcaredeliverydesign.vcha.uic.edu","name":" ","description":"","image":"//static1.squarespace.com/static/59b801bc9f8dce531681f18d/t/59cc9300b7411c722b11e030/1588078960406/","@context":"http://schema.org","@type":"WebSite"}</script><!--[if gte IE 9]> <link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/59b801bc9f8dce531681f18d/202/503ba86de4b04953d0f49846/59b816a312abd96f8ef05652/1664-05142015/1571342204858/site.css?&filterFeatures=false&part=1"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/59b801bc9f8dce531681f18d/202/503ba86de4b04953d0f49846/59b816a312abd96f8ef05652/1664-05142015/1571342204858/site.css?&filterFeatures=false&part=2"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/59b801bc9f8dce531681f18d/202/503ba86de4b04953d0f49846/59b816a312abd96f8ef05652/1664-05142015/1571342204858/site.css?&filterFeatures=false&part=3"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/59b801bc9f8dce531681f18d/202/503ba86de4b04953d0f49846/59b816a312abd96f8ef05652/1664-05142015/1571342204858/site.css?&filterFeatures=false&part=4"/><![endif]-->
+<!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/59b801bc9f8dce531681f18d/202/503ba86de4b04953d0f49846/59b816a312abd96f8ef05652/1664-05142015/1571342204858/site.css?&filterFeatures=false&noMedia=true&part=1"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/59b801bc9f8dce531681f18d/202/503ba86de4b04953d0f49846/59b816a312abd96f8ef05652/1664-05142015/1571342204858/site.css?&filterFeatures=false&noMedia=true&part=2"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/59b801bc9f8dce531681f18d/202/503ba86de4b04953d0f49846/59b816a312abd96f8ef05652/1664-05142015/1571342204858/site.css?&filterFeatures=false&noMedia=true&part=3"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/59b801bc9f8dce531681f18d/202/503ba86de4b04953d0f49846/59b816a312abd96f8ef05652/1664-05142015/1571342204858/site.css?&filterFeatures=false&noMedia=true&part=4"/><![endif]-->
+<!--[if !IE]> --><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/59b801bc9f8dce531681f18d/202/503ba86de4b04953d0f49846/59b816a312abd96f8ef05652/1664-05142015/1571342204858/site.css?&filterFeatures=false"/><!-- <![endif]-->
+<script>Static.COOKIE_BANNER_CAPABLE = true;</script>
+<!-- End of Squarespace Headers -->
+    <script src="https://static1.squarespace.com/static/ta/5016d42984ae3ecc9e018d91/1664/scripts/site-bundle.js" type="text/javascript"></script>
+  </head>
+  
+  <body class="canvas-setting-full-width hide-delimiter  banner-content-page-title-description banner-alignment-left page-thumbnail-as-banner stretch-page-thumbnail top-navigation-position-above-banner top-navigation-alignment-left disable-navigation-border  sidebar-position-left   footer-alignment-left disable-footer-border social-icon-style-normal social-icon-placement-top-only  blog-list-display-full blog-byline-bottom blog-dateline-top disable-pagination-border    show-products-category-navigation hide-album-share-link  event-show-past-events event-thumbnails event-thumbnail-size-32-standard event-date-label  event-list-show-cats event-list-date event-list-time event-list-address   event-icalgcal-links  event-excerpts      gallery-design-slideshow aspect-ratio-auto lightbox-style-light gallery-navigation-thumbnails gallery-info-overlay-always-show gallery-aspect-ratio-169-widescreen gallery-arrow-style-round-corners gallery-transitions-fade gallery-show-arrows gallery-auto-crop   product-list-titles-under product-list-alignment-center product-item-size-43-four-thirds product-image-auto-crop product-gallery-size-32-standard product-gallery-auto-crop show-product-price show-product-item-nav product-social-sharing tweak-v1-related-products-image-aspect-ratio-11-square tweak-v1-related-products-details-alignment-center newsletter-style-dark hide-opentable-icons opentable-style-dark small-button-style-outline small-button-shape-rounded medium-button-style-solid medium-button-shape-rounded large-button-style-solid large-button-shape-rounded image-block-poster-text-alignment-center image-block-card-dynamic-font-sizing image-block-card-content-position-center image-block-card-text-alignment-left image-block-overlap-dynamic-font-sizing image-block-overlap-content-position-center image-block-overlap-text-alignment-left image-block-collage-dynamic-font-sizing image-block-collage-content-position-top image-block-collage-text-alignment-left image-block-stack-dynamic-font-sizing image-block-stack-text-alignment-left button-style-outline button-corner-style-square tweak-product-quick-view-button-style-floating tweak-product-quick-view-button-position-bottom tweak-product-quick-view-lightbox-excerpt-display-truncate tweak-product-quick-view-lightbox-show-arrows tweak-product-quick-view-lightbox-show-close-button tweak-product-quick-view-lightbox-controls-weight-light native-currency-code-usd collection-5d71645d0aa0400001300be8 collection-type-page collection-layout-full-width mobile-style-available has-logo-image has-page-thumbnail" id="collection-5d71645d0aa0400001300be8" ontouchstart="">
 
-        <nav class="navigation-eyebrow" aria-label="Eyebrow navigation">
-    <div class="navigation-eyebrow-inner">
-        <ul class="eyebrow-list">
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://maps.uic.edu/">Map</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uic.edu/apps/departments-az/search">Directory</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/about/contact-us">Contact Us</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://library.uic.edu/">Library</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uicflames.com/">Athletics</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/life-at-uic/current-students">Current Students</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/life-at-uic/faculty-and-staff">Faculty and Staff</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://hospital.uillinois.edu/">UI Health</a></li>
-                                        <li class="eyebrow-list-item eyebrow-button"><a class="eyebrow-list-anchor" href="/alumni/give">Give</a></li>
-                            <li class="eyebrow-list-item search-button-item">
-                    <button class="search-button" type="button">
-                        <svg class="search-glass" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" aria-labelledby="title"><title id="title">Expand search box</title><path d="M19.7 18.3l-5.9-5.9c1-1.3 1.6-2.9 1.6-4.7C15.4 3.5 12 0 7.7 0S0 3.4 0 7.7c0 4.2 3.4 7.7 7.7 7.7 1.8 0 3.4-.6 4.7-1.6l5.9 5.9c.2.2.4.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4zM2 7.7C2 4.6 4.6 2 7.7 2s5.7 2.6 5.7 5.7-2.5 5.7-5.7 5.7C4.6 13.4 2 10.8 2 7.7z"/></svg>                    </button>
-                </li>
-        </ul>
-        <div class="search-input-container">
-            <form method="get" action="/search" role="search">
-                <input type="text" name="q" class="search-input" placeholder="Search..." disabled tabindex="-1" aria-label="Search">
-                <input type="submit" class="submit-button" name="search" value="Submit">
-            </form>
-        </div>
-    </div>
+		
+		
+<!--MOBILE-->
+<nav id="mobile-navigation">
+  <span id="mobile-navigation-title"><a href="/"> </a></span>
+  <span id="mobile-navigation-label"></span>
+  <ul>
+    
+      <li class="">
+        
+          
+            <a href="/">About us</a>
+          
+          
+        
+      </li>
+    
+      <li class="">
+        
+          
+          
+            <a href="https://healthcaredeliverydesign.vcha.uic.edu/#featured-work">Featured work</a>
+          
+        
+      </li>
+    
+      <li class="">
+        
+          
+          
+            <a href="https://healthcaredeliverydesign.vcha.uic.edu/#team">Team</a>
+          
+        
+      </li>
+    
+      <li class=" active-link">
+        
+          
+            <a href="/products">Products</a>
+          
+          
+        
+      </li>
+    
+      <li class="">
+        
+          
+          
+            <a href="https://healthcaredeliverydesign.vcha.uic.edu/#publications">Publications</a>
+          
+        
+      </li>
+    
+      <li class="">
+        
+          
+          
+            <a href="https://healthcaredeliverydesign.vcha.uic.edu/#media">Media</a>
+          
+        
+      </li>
+    
+      <li class="">
+        
+          
+          
+            <a href="https://healthcaredeliverydesign.vcha.uic.edu/#events">Events</a>
+          
+        
+      </li>
+    
+      <li class="">
+        
+          
+          
+            <a href="#contact-us">Contact us</a>
+          
+        
+      </li>
+    
+    
+  </ul>
 </nav>
 
-        <nav class="navigation-primary" aria-label="Primary navigation">
-    <div class="navigation-primary-inner">
-                <div class="circle-logo-container">
-            <a href="/">
-                <svg class="circle-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M36.5 17.3L33.1 19c-.3-1.3-1-2-2.3-2-1.7 0-2.5 1.4-2.5 3.6s.8 3.6 2.5 3.6c1.2 0 1.8-.6 2.2-1.6l3.5 1.3c-.9 2.1-2.8 3.5-5.8 3.5-4.1 0-6.5-2.8-6.5-6.8s2.5-6.8 6.6-6.8c3.2.1 5 1.8 5.7 3.5m-14.1 9.8h-3.9v-13h3.9v13zm-6.3-5.3c0 1.8-.2 2.7-.7 3.6-.9 1.4-3.2 2-5.2 2s-4.3-.6-5.2-2c-.5-.9-.7-1.8-.7-3.6v-7.7h3.9v7.8c0 .9.1 1.5.4 1.8.3.4.8.5 1.5.5s1.2-.2 1.5-.5c.3-.4.4-1 .4-1.8v-7.8h3.9v7.7zM40 20C40 9 31 0 20 0S0 9 0 20s9 20 20 20 20-9 20-20"/></svg>
-<span>University of Illinois at Chicago</span>            </a>
-        </div>
-                            <ul class="primary-nav-list">
-    <button class="menu-toggle" type="button" tabindex="-1">
-        <div class="menu-toggle-icon"></div>
-        <span>Expand menu</span>
-    </button>
-    <div class="menu-label-item"><span class="menu-label">Menu</span></div>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/admissions-aid">Admissions &amp; Aid</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/visit-campus">Visit Campus</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/paying-for-college">Paying for College</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/academics">Academics</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/programs-of-study">Programs of Study</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/colleges-schools">Colleges &amp; Schools</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/student-support">Student Support</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/research">Research</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-impact">Research Impact</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-strengths">Research Strengths</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/resources-facilities">Resources &amp; Facilities</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/student-research">Student Research</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item">
-            <a class="primary-list-anchor" href="/life-at-uic">Life at UIC</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/living-on-around-campus">Living On &amp; Around Campus</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/campus-resources">Campus Resources</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/current-students">Current Students</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/faculty-and-staff">Faculty and Staff</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/chicago">Chicago</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/exploring-chicago">Exploring Chicago</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/city-transportation">City Transportation</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/essential-chicago">Essential Chicago</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/alumni">Alumni</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/connect">Connect</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/engage">Engage</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/give">Give</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/about">About</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/visit-directions">Visit &amp; Directions</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/history">History</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/leadership">Leadership</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/public-media-resources">Public &amp; Media Resources</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/job-opportunities">Job Opportunities</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/contact-us">Contact Us</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/acerca">Acerca de la UIC (en español)</a></li>
-                                    </ul>
-                    </li>
-    </ul>            </div>
+
+		
+
+	  <div id="canvas-wrapper">
+	  	<div id="canvas">
+
+
+				<div id="page-header-wrapper">
+					<div id="page-header">
+
+				    <div id="navigation-top">
+				    	<div class="horizontal-navigation-bar clear with-logo">
+
+				    		<!-- // logo or site title markup in nav area -->
+					      
+					      	
+						      <div id="banner-wrapper" data-content-field="site-title">
+						        <a href="/"><img id="banner" src="//static1.squarespace.com/static/59b801bc9f8dce531681f18d/t/59cc9300b7411c722b11e030/1588078960406/?format=1500w" alt=" " /></a>
+						      </div>
+					        
+
+					    		
+<nav id="main-navigation" class="main-nav" data-content-field="navigation">
+  <ul>
+  
+
+    
+
+    <li class="page-collection"><a href="/">About us</a><span class="delimiter">/</span></li>
+  
+
+    
+
+    <li class="external-link"><a href="https://healthcaredeliverydesign.vcha.uic.edu/#featured-work">Featured work</a><span class="delimiter">/</span></li>
+  
+
+    
+
+    <li class="external-link"><a href="https://healthcaredeliverydesign.vcha.uic.edu/#team">Team</a><span class="delimiter">/</span></li>
+  
+
+    
+
+    <li class="page-collection active-link"><a href="/products">Products</a><span class="delimiter">/</span></li>
+  
+
+    
+
+    <li class="external-link"><a href="https://healthcaredeliverydesign.vcha.uic.edu/#publications">Publications</a><span class="delimiter">/</span></li>
+  
+
+    
+
+    <li class="external-link"><a href="https://healthcaredeliverydesign.vcha.uic.edu/#media">Media</a><span class="delimiter">/</span></li>
+  
+
+    
+
+    <li class="external-link"><a href="https://healthcaredeliverydesign.vcha.uic.edu/#events">Events</a><span class="delimiter">/</span></li>
+  
+
+    
+
+    <li class="external-link"><a href="#contact-us">Contact us</a><span class="delimiter">/</span></li>
+  
+     
+  </ul>
 </nav>
 
-</div>
-</header>
 
-<div class="ms-grid main">
-  <div class="ms-row">
-    <div class="m-col-1-4">
-      <nav class="navigation-sidebar" aria-label="Secondary navigation">
-      </nav>
-    </div>
-    <div class="m-col-3-4">
+				          
+					      
 
-      <nav class="breadcrumbs ms-row">
-        <div class="col-1-1">
-          <div class="red-circle" aria-hidden="true"></div>
-          <img class="first-breadcrumb-arrow" src="/images/breadcrumb-arrow.svg" aria-hidden="true" alt="Breadcrumb arrow">
-          <ul class="crumb-list">
-            <li class="crumb-item">
-                <a class="crumb-anchor active" href="/apps/find-people/search">Directory</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+				    	</div>
+				    </div><!-- navigation-top -->
 
-      <main class="interior-page-intro">
-        <div class="ms-row">
-          <div class="col-1-1">
-            <h1 class="interior-page-title">Directory search</h1>
+						<div id="banner-area-wrapper">
+							<div id="banner-area">
+
+							<!-- // page thumbnail image as banner image -->
+							
+                
+                  
+                    <div id="page-thumb" class="content-fill">
+                      <img data-src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567805471659-CJU84XB4U5Y9D9EG72ER/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/IMG_6102_edit.jpg" data-image="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567805471659-CJU84XB4U5Y9D9EG72ER/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/IMG_6102_edit.jpg" data-image-dimensions="2500x1667" data-image-focal-point="0.5,0.5" alt="IMG_6102_edit.jpg"  />
+                    </div>
+                  
+                
+							
+
+							<div class="banner-overlay"></div>
+
+				      <!-- // logo or site title markup in banner area -->
+				      
+				      	
+					      <div id="banner-wrapper" data-content-field="site-title">
+					        <a href="/" rel="bookmark">
+					        	<img id="banner" src="//static1.squarespace.com/static/59b801bc9f8dce531681f18d/t/59cc9300b7411c722b11e030/1588078960406/?format=1500w" alt=" " />
+						        <p id="logo-tagline" class="logo-subtitle"> </p>
+						      </a>
+					      </div>
+				        
+				      
+
+							<!-- // page title markup in banner area -->
+				      
+					      <div id="page-title-wrapper" class="js-text-shrink" data-collection-id="5d71645d0aa0400001300be8" data-edit-main-image="Page Banner">
+				          <h1 id="page-title" class="page-title">Products</h1>
+				      		<div id="page-description" class="page-description"><p class="" data-rte-preserve-empty="true" style="white-space:pre-wrap;"></p></div>
+				        </div>
+				      
+
+				      </div>
+				    </div><!-- banner-area-wrapper -->
+
+				    <div id="navigation-bottom">
+				    	<div class="horizontal-navigation-bar clear with-logo">
+
+				    		<!-- // logo or site title markup in nav area -->
+					      
+					      	
+						      <div id="banner-wrapper" data-content-field="site-title">
+						        <a href="/"><img id="banner" src="//static1.squarespace.com/static/59b801bc9f8dce531681f18d/t/59cc9300b7411c722b11e030/1588078960406/?format=1500w" alt=" " /></a>
+						      </div>
+					        
+
+									
+<nav id="main-navigation" class="main-nav" data-content-field="navigation">
+  <ul>
+  
+
+    
+
+    <li class="page-collection"><a href="/">About us</a><span class="delimiter">/</span></li>
+  
+
+    
+
+    <li class="external-link"><a href="https://healthcaredeliverydesign.vcha.uic.edu/#featured-work">Featured work</a><span class="delimiter">/</span></li>
+  
+
+    
+
+    <li class="external-link"><a href="https://healthcaredeliverydesign.vcha.uic.edu/#team">Team</a><span class="delimiter">/</span></li>
+  
+
+    
+
+    <li class="page-collection active-link"><a href="/products">Products</a><span class="delimiter">/</span></li>
+  
+
+    
+
+    <li class="external-link"><a href="https://healthcaredeliverydesign.vcha.uic.edu/#publications">Publications</a><span class="delimiter">/</span></li>
+  
+
+    
+
+    <li class="external-link"><a href="https://healthcaredeliverydesign.vcha.uic.edu/#media">Media</a><span class="delimiter">/</span></li>
+  
+
+    
+
+    <li class="external-link"><a href="https://healthcaredeliverydesign.vcha.uic.edu/#events">Events</a><span class="delimiter">/</span></li>
+  
+
+    
+
+    <li class="external-link"><a href="#contact-us">Contact us</a><span class="delimiter">/</span></li>
+  
+     
+  </ul>
+</nav>
+
+
+
+				          
+					      
+
+				    	</div>
+				    </div><!-- navigation-bottom -->
+
+				  </div>
+				</div><!-- page-header-wrapper -->
+
+
+			<div id="page-body-wrapper" class="full-width">
+				<div id="page-body">
+
+					<div id="content-wrapper">
+						<div id="content">
+
+							<div id="page-body-header" class="extra-wrapper">
+								<div class="sqs-layout sqs-grid-12 columns-12 empty" data-layout-label="Products Header Content" data-type="block-field" id="page-header-5d71645d0aa0400001300be8"><div class="row sqs-row"><div class="col sqs-col-12 span-12"></div></div></div>
+							</div>
+
+					    <!-- // CATEGORY NAV -->
+					    
+
+					    <div class="main-content" data-content-field="main-content" data-collection-id="5d71645d0aa0400001300be8" data-edit-main-image="Page Banner">
+								<div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1586898834732" id="page-5d71645d0aa0400001300be8"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1567725043707_27394"><div class="sqs-block-content">&nbsp;</div></div><div class="row sqs-row"><div class="col sqs-col-4 span-4"><div class="sqs-block image-block sqs-block-image" data-aspect-ratio="84.15841584158416" data-block-type="5" id="block-yui_3_17_2_1_1586810988476_107313"><div class="sqs-block-content">
+
+
+
+
+
+
+
+
+  
+
+    
+  
+    <div
+        class="
+          image-block-outer-wrapper
+          layout-caption-hidden
+          design-layout-inline
+          combination-animation-none
+          individual-animation-none
+          individual-text-animation-none
+        "
+        data-test="image-block-inline-outer-wrapper"
+    >
+
+      
+
+      
+        <figure
+            class="
+              sqs-block-image-figure
+              intrinsic
+            "
+            style="max-width:1521.0px;"
+        >
+          
+        
+        
+
+        
+          
+            
+          <div
+              
+                style="padding-bottom:84.15841674804688%;"
+              
+              class="
+                image-block-wrapper
+                
+          
+        
+                has-aspect-ratio
+              "
+              data-animation-role="image"
+              
+  
+
+          >
+            <noscript><img src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1586811288839-VRHF1C8UYVLSSLZ7XSS4/ke17ZwdGBToddI8pDm48kG7pxNoc7-oyGmCLo0VNhlV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ubey2yojuIE1DS3-AT5WOFilVWUdoGyt4fO1j-rTrQJCG6v6ULRah83RgHXAWD5lbQ/10%E2%80%94IHDD_GINAguidelines_20200413.png" alt="10—IHDD_GINAguidelines_20200413.png" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1586811288839-VRHF1C8UYVLSSLZ7XSS4/ke17ZwdGBToddI8pDm48kG7pxNoc7-oyGmCLo0VNhlV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ubey2yojuIE1DS3-AT5WOFilVWUdoGyt4fO1j-rTrQJCG6v6ULRah83RgHXAWD5lbQ/10%E2%80%94IHDD_GINAguidelines_20200413.png" data-image="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1586811288839-VRHF1C8UYVLSSLZ7XSS4/ke17ZwdGBToddI8pDm48kG7pxNoc7-oyGmCLo0VNhlV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ubey2yojuIE1DS3-AT5WOFilVWUdoGyt4fO1j-rTrQJCG6v6ULRah83RgHXAWD5lbQ/10%E2%80%94IHDD_GINAguidelines_20200413.png" data-image-dimensions="1521x1667" data-image-focal-point="0.5,0.5" alt="10—IHDD_GINAguidelines_20200413.png" data-load="false" data-image-id="5e94d19852eaaf1bad567d80" data-type="image" />
           </div>
+        
+          
+        
+
+        
+      
+        </figure>
+      
+
+    </div>
+  
+
+
+  
+
+
+</div></div><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1586810988476_158465"><div class="sqs-block-content">
+
+<div class="sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="small">
+	<a href="https://ginasthma.org/reports/" class="sqs-block-button-element--small sqs-block-button-element" >download</a>
+</div>
+</div></div></div><div class="col sqs-col-8 span-8"><div class="row sqs-row"><div class="col sqs-col-5 span-5"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1586810988476_109877"><div class="sqs-block-content"><h2 style="white-space:pre-wrap;"><strong>Decision tree to investigate and manage adult and adolescent patients with difficult-to-treat and severe asthma</strong></h2><p class="" style="white-space:pre-wrap;">Optimized for: general practitioners and specialists who treat patients with asthma</p><p class="" style="white-space:pre-wrap;">Languages: English</p><p class="" style="white-space:pre-wrap;">Features:</p><ul data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">Guideline-based care</p></li><li><p class="" style="white-space:pre-wrap;">Visual decision-making support</p></li><li><p class="" style="white-space:pre-wrap;">Available in full report, pocket guide and powerpoint slide support materials</p></li></ul><p class="" style="white-space:pre-wrap;">Developed as part of the&nbsp;<a href="https://ginasthma.org/reports/" target="_blank"><em>Global Initiative for Asthma Global Strategy for Asthma Management and Prevention 2020 report</em></a>&nbsp;and the&nbsp;<a href="https://ginasthma.org/severeasthma/"><em>2019 GINA Difficult-to-Treat and Severe Asthma Guide</em></a></p></div></div></div><div class="col sqs-col-3 span-3"></div></div></div></div><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1586810988476_203574"><div class="sqs-block-content">&nbsp;</div></div><div class="row sqs-row"><div class="col sqs-col-4 span-4"><div class="sqs-block image-block sqs-block-image" data-aspect-ratio="98.26732673267327" data-block-type="5" id="block-cfc0e007b3ffc894a975"><div class="sqs-block-content">
+
+
+
+
+
+
+
+
+  
+
+    
+  
+    <div
+        class="
+          image-block-outer-wrapper
+          layout-caption-below
+          design-layout-inline
+          combination-animation-none
+          individual-animation-none
+          individual-text-animation-none
+        "
+        data-test="image-block-inline-outer-wrapper"
+    >
+
+      
+
+      
+        <figure
+            class="
+              sqs-block-image-figure
+              intrinsic
+            "
+            style="max-width:1521.0px;"
+        >
+          
+        
+        
+
+        
+          
+            
+          <div
+              
+                style="padding-bottom:98.26732635498047%;"
+              
+              class="
+                image-block-wrapper
+                
+          
+        
+                has-aspect-ratio
+              "
+              data-animation-role="image"
+              
+  
+
+          >
+            <noscript><img src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567806485706-0ZED08L3IZKKDAO0JWKO/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_CAPE_YLH_20190906.png" alt="interested in branding with your institutional logo?   Please contact: hmusick@uic.edu" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567806485706-0ZED08L3IZKKDAO0JWKO/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_CAPE_YLH_20190906.png" data-image="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567806485706-0ZED08L3IZKKDAO0JWKO/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_CAPE_YLH_20190906.png" data-image-dimensions="1521x1521" data-image-focal-point="0.5,0.5" alt="interested in branding with your institutional logo?   Please contact: hmusick@uic.edu" data-load="false" data-image-id="5d72d415e7432f7f3bcc4d05" data-type="image" />
+          </div>
+        
+          
+        
+
+        
+          
+          <figcaption class="image-caption-wrapper">
+            <div class="image-caption"><p class=""><strong>interested in branding with your institutional logo? </strong><br>Please contact: hmusick@uic.edu</p></div>
+          </figcaption>
+        
+      
+        </figure>
+      
+
+    </div>
+  
+
+
+  
+
+
+</div></div><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-3a56784df9c500d6e364"><div class="sqs-block-content">
+
+<div class="sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="small">
+	<a href="/s/1IHDD_AsthmaDischargeTool_English_CC.pdf" class="sqs-block-button-element--small sqs-block-button-element" >Download</a>
+</div>
+</div></div></div><div class="col sqs-col-5 span-5"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-809172ab996d386c5215"><div class="sqs-block-content"><h2 style="white-space:pre-wrap;"><strong>An emergency department discharge tool for children with asthma in an urban setting</strong></h2><p class="" style="white-space:pre-wrap;">Optimized for: families, children, asthma, emergency department settings, urban settings, and low-income home settings</p><p class="" style="white-space:pre-wrap;">Languages: English, Spanish</p><p class="" style="white-space:pre-wrap;">Features:</p><ul data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">Guideline-based care</p></li><li><p class="" style="white-space:pre-wrap;">Visual content tailored to local contexts</p></li><li><p class="" style="white-space:pre-wrap;">Written at 4th-grade reading comprehension level</p></li></ul><p class="" style="white-space:pre-wrap;">Developed as part of the CHICAGO Plan Research Study funded by the Patient-Centered Outcomes Research Institute (PCORI) Contract #AS-1307-05420</p></div></div></div><div class="col sqs-col-3 span-3"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1567712442457_41766"><div class="sqs-block-content"><h2 style="white-space:pre-wrap;">Publications:</h2><p class="" style="white-space:pre-wrap;"><a href="/s/IDJ_23-3_01_Erwin_2018-01-23.pdf"><strong>Applying design methods to care delivery science</strong></a><strong><br></strong><em>Information Design Journal, 2017</em></p><p class="" style="white-space:pre-wrap;"><a href="/s/ErwinJCER_Methods1.pdf"><strong>Engaging stakeholders to design a comparative effectiveness trial in children with uncontrolled asthma&nbsp;</strong></a><br><em>Journal of Comparative Effectiveness Research, 2016</em></p><p class="" style="white-space:pre-wrap;"><a href="https://designawards.core77.com/Service-Design/32236/Bridging-the-communication-gap-A-new-touchpoint-for-pediatric-asthma-education-in-Emergency-Departments"><strong>Bridging the communication gap: A new touchpoint for pediatric asthma education in Emergency Departments</strong></a><strong><br></strong><em>CORE 77 design awards, 2015</em></p></div></div></div></div><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-84d0dcd1a047897138a0"><div class="sqs-block-content">&nbsp;</div></div><div class="row sqs-row"><div class="col sqs-col-4 span-4"><div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_1_1567712442457_103044"><div class="sqs-block-content">
+
+
+
+
+
+
+
+
+  
+
+    
+  
+    <div
+        class="
+          image-block-outer-wrapper
+          layout-caption-below
+          design-layout-inline
+          combination-animation-none
+          individual-animation-none
+          individual-text-animation-none
+        "
+        data-test="image-block-inline-outer-wrapper"
+    >
+
+      
+
+      
+        <figure
+            class="
+              sqs-block-image-figure
+              intrinsic
+            "
+            style="max-width:1521.0px;"
+        >
+          
+        
+        
+
+        
+          
+            
+          <div
+              
+                style="padding-bottom:100.0%;"
+              
+              class="
+                image-block-wrapper
+                
+          
+        
+                has-aspect-ratio
+              "
+              data-animation-role="image"
+              
+  
+
+          >
+            <noscript><img src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567716091036-RVY8YCDZP612TQYM926B/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_NavajoCAPE_20190905.png" alt="interested in branding with your institutional logo?   Please contact: hmusick@uic.edu" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567716091036-RVY8YCDZP612TQYM926B/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_NavajoCAPE_20190905.png" data-image="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567716091036-RVY8YCDZP612TQYM926B/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_NavajoCAPE_20190905.png" data-image-dimensions="1521x1521" data-image-focal-point="0.5,0.5" alt="interested in branding with your institutional logo?   Please contact: hmusick@uic.edu" data-load="false" data-image-id="5d7172fa873e0f0001b5b82d" data-type="image" />
+          </div>
+        
+          
+        
+
+        
+          
+          <figcaption class="image-caption-wrapper">
+            <div class="image-caption"><p class=""><strong>interested in branding with your institutional logo? </strong><br>Please contact: hmusick@uic.edu</p></div>
+          </figcaption>
+        
+      
+        </figure>
+      
+
+    </div>
+  
+
+
+  
+
+
+</div></div><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-cc9e7cea6c33cc855598"><div class="sqs-block-content">
+
+<div class="sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="small">
+	<a href="/s/2IHDD_NavajoAsthmaEducationTool_CC.pdf" class="sqs-block-button-element--small sqs-block-button-element" >download</a>
+</div>
+</div></div></div><div class="col sqs-col-5 span-5"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-fcce8cc58c065fb37cff"><div class="sqs-block-content"><h2 style="white-space:pre-wrap;"><strong>An asthma education tool for children with Navajo children with asthma in a rural setting</strong></h2><p class="" style="white-space:pre-wrap;">Optimized for: families, children, asthma, outpatient settings, rural settings, tribal setting, and, low-income home settings</p><p class="" style="white-space:pre-wrap;">Languages: English</p><p class="" style="white-space:pre-wrap;">Features:</p><ul data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">Guideline-based care</p></li><li><p class="" style="white-space:pre-wrap;">Visual content tailored to local contexts</p></li><li><p class="" style="white-space:pre-wrap;">Written at 4th-grade reading comprehension level</p></li></ul></div></div></div><div class="col sqs-col-3 span-3"></div></div><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-9174a862cff7fa8c48f2"><div class="sqs-block-content">&nbsp;</div></div></div></div><div class="row sqs-row"><div class="col sqs-col-4 span-4"><div class="sqs-block image-block sqs-block-image" data-aspect-ratio="100" data-block-type="5" id="block-6e84bd9b4b6ab34cc16f"><div class="sqs-block-content">
+
+
+
+
+
+
+
+
+  
+
+    
+  
+    <div
+        class="
+          image-block-outer-wrapper
+          layout-caption-below
+          design-layout-inline
+          combination-animation-none
+          individual-animation-none
+          individual-text-animation-none
+        "
+        data-test="image-block-inline-outer-wrapper"
+    >
+
+      
+
+      
+        <figure
+            class="
+              sqs-block-image-figure
+              intrinsic
+            "
+            style="max-width:1521.0px;"
+        >
+          
+        
+        
+
+        
+          
+            
+          <div
+              
+                style="padding-bottom:100.0%;"
+              
+              class="
+                image-block-wrapper
+                
+          
+        
+                has-aspect-ratio
+              "
+              data-animation-role="image"
+              
+  
+
+          >
+            <noscript><img src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567806525763-1KHJ9UIQLCJK8V6E1SYJ/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_COPD_VA_YLH_20190906.png" alt="interested in branding with your institutional logo?   Please contact: hmusick@uic.edu" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567806525763-1KHJ9UIQLCJK8V6E1SYJ/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_COPD_VA_YLH_20190906.png" data-image="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567806525763-1KHJ9UIQLCJK8V6E1SYJ/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_COPD_VA_YLH_20190906.png" data-image-dimensions="1521x1521" data-image-focal-point="0.5,0.5" alt="interested in branding with your institutional logo?   Please contact: hmusick@uic.edu" data-load="false" data-image-id="5d72d43ddfb60c5a4d8b0b04" data-type="image" />
+          </div>
+        
+          
+        
+
+        
+          
+          <figcaption class="image-caption-wrapper">
+            <div class="image-caption"><p class=""><strong>interested in branding with your institutional logo? </strong><br>Please contact: hmusick@uic.edu</p></div>
+          </figcaption>
+        
+      
+        </figure>
+      
+
+    </div>
+  
+
+
+  
+
+
+</div></div><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-4f5e6ff8e2a802a2002f"><div class="sqs-block-content">
+
+<div class="sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="small">
+	<a href="/s/3IHDD_COPDveteranEDdischarge_CC.pdf" class="sqs-block-button-element--small sqs-block-button-element" >download</a>
+</div>
+</div></div></div><div class="col sqs-col-8 span-8"><div class="row sqs-row"><div class="col sqs-col-5 span-5"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-fb7e1d3f9763c50ef97d"><div class="sqs-block-content"><h2 style="white-space:pre-wrap;"><strong>A COPD discharge tool for Veterans in an urban setting</strong></h2><p class="" style="white-space:pre-wrap;">Optimized for: families, older adults, COPD, emergency department settings, urban settings, Veterans Affairs medical centers, and home settings</p><p class="" style="white-space:pre-wrap;">Languages: English</p><p class="" style="white-space:pre-wrap;">Features:</p><ul data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">Guideline-based care</p></li><li><p class="" style="white-space:pre-wrap;">Visual content tailored for an urban Veteran population</p></li><li><p class="" style="white-space:pre-wrap;">Written at 5th-grade reading comprehension level</p></li></ul></div></div></div><div class="col sqs-col-3 span-3"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1567712442457_130881"><div class="sqs-block-content"><h2 style="white-space:pre-wrap;">Publications:</h2><p class="" style="white-space:pre-wrap;"><a href="/s/Touchpoint_11-2_HighFidelityLowBurdenExperiencePrototypes.pdf"><strong>High-Fidelity, Low-Burden Experience Prototypes<br></strong><em>Touchpoint—The Journal of Service Design, 2019</em></a></p></div></div></div></div></div></div><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1567712442457_140996"><div class="sqs-block-content">&nbsp;</div></div><div class="row sqs-row"><div class="col sqs-col-4 span-4"><div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_1_1567712442457_141995"><div class="sqs-block-content">
+
+
+
+
+
+
+
+
+  
+
+    
+  
+    <div
+        class="
+          image-block-outer-wrapper
+          layout-caption-below
+          design-layout-inline
+          combination-animation-none
+          individual-animation-none
+          individual-text-animation-none
+        "
+        data-test="image-block-inline-outer-wrapper"
+    >
+
+      
+
+      
+        <figure
+            class="
+              sqs-block-image-figure
+              intrinsic
+            "
+            style="max-width:1521.0px;"
+        >
+          
+        
+        
+
+        
+          
+            
+          <div
+              
+                style="padding-bottom:100.0%;"
+              
+              class="
+                image-block-wrapper
+                
+          
+        
+                has-aspect-ratio
+              "
+              data-animation-role="image"
+              
+  
+
+          >
+            <noscript><img src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567806554301-E97214MC41HFH8JCMTML/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_InhalerTechnique_VA_YLH_20190906.png" alt="interested in branding with your institutional logo?   Please contact: hmusick@uic.edu" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567806554301-E97214MC41HFH8JCMTML/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_InhalerTechnique_VA_YLH_20190906.png" data-image="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567806554301-E97214MC41HFH8JCMTML/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_InhalerTechnique_VA_YLH_20190906.png" data-image-dimensions="1521x1521" data-image-focal-point="0.5,0.5" alt="interested in branding with your institutional logo?   Please contact: hmusick@uic.edu" data-load="false" data-image-id="5d72d4597f6c5e0df308ad45" data-type="image" />
+          </div>
+        
+          
+        
+
+        
+          
+          <figcaption class="image-caption-wrapper">
+            <div class="image-caption"><p class=""><strong>interested in branding with your institutional logo? </strong><br>Please contact: hmusick@uic.edu</p></div>
+          </figcaption>
+        
+      
+        </figure>
+      
+
+    </div>
+  
+
+
+  
+
+
+</div></div><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1567712442457_184333"><div class="sqs-block-content">
+
+<div class="sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="small">
+	<a href="/s/4IHDD_VeteranInhalerInstructions_CC.pdf" class="sqs-block-button-element--small sqs-block-button-element" >download</a>
+</div>
+</div></div></div><div class="col sqs-col-8 span-8"><div class="row sqs-row"><div class="col sqs-col-5 span-5"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1567712442457_151564"><div class="sqs-block-content"><h2 style="white-space:pre-wrap;"><strong>Inhaler + Respimat instructions for Veterans </strong></h2><p class="" style="white-space:pre-wrap;">Optimized for: families, older adults, COPD, emergency department settings, urban settings, Veterans Affairs medical centers, and home settings</p><p class="" style="white-space:pre-wrap;">Languages: English</p><p class="" style="white-space:pre-wrap;">Features:</p><ul data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">Guideline-based care</p></li><li><p class="" style="white-space:pre-wrap;">Visual instructions tailored to a Veteran population</p></li><li><p class="" style="white-space:pre-wrap;">Written at 5th-grade reading comprehension level</p></li></ul></div></div></div><div class="col sqs-col-3 span-3"></div></div></div></div><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1568651784484_25542"><div class="sqs-block-content">&nbsp;</div></div><div class="row sqs-row"><div class="col sqs-col-4 span-4"><div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_1_1568651784484_35841"><div class="sqs-block-content">
+
+
+
+
+
+
+
+
+  
+
+    
+  
+    <div
+        class="
+          image-block-outer-wrapper
+          layout-caption-below
+          design-layout-inline
+          combination-animation-none
+          individual-animation-none
+          individual-text-animation-none
+        "
+        data-test="image-block-inline-outer-wrapper"
+    >
+
+      
+
+      
+        <figure
+            class="
+              sqs-block-image-figure
+              intrinsic
+            "
+            style="max-width:1521.0px;"
+        >
+          
+        
+        
+
+        
+          
+            
+          <div
+              
+                style="padding-bottom:100.0%;"
+              
+              class="
+                image-block-wrapper
+                
+          
+        
+                has-aspect-ratio
+              "
+              data-animation-role="image"
+              
+  
+
+          >
+            <noscript><img src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1568651954916-SSLG0ZWTBU8I5ENSMYZF/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_BreathingMedicinesPoster_20190916.png" alt="interested in branding with your institutional logo?   Please contact: hmusick@uic.edu" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1568651954916-SSLG0ZWTBU8I5ENSMYZF/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_BreathingMedicinesPoster_20190916.png" data-image="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1568651954916-SSLG0ZWTBU8I5ENSMYZF/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_BreathingMedicinesPoster_20190916.png" data-image-dimensions="1521x1521" data-image-focal-point="0.5,0.5" alt="interested in branding with your institutional logo?   Please contact: hmusick@uic.edu" data-load="false" data-image-id="5d7fbab23fcb3a0f13d8f386" data-type="image" />
+          </div>
+        
+          
+        
+
+        
+          
+          <figcaption class="image-caption-wrapper">
+            <div class="image-caption"><p class=""><strong>interested in branding with your institutional logo? </strong><br>Please contact: hmusick@uic.edu</p></div>
+          </figcaption>
+        
+      
+        </figure>
+      
+
+    </div>
+  
+
+
+  
+
+
+</div></div><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1568651784484_65779"><div class="sqs-block-content">
+
+<div class="sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="small">
+	<a href="/s/8IHDD_BreathingMedicinesPoster_CC.pdf" class="sqs-block-button-element--small sqs-block-button-element" >download</a>
+</div>
+</div></div></div><div class="col sqs-col-8 span-8"><div class="row sqs-row"><div class="col sqs-col-5 span-5"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1568651784484_30990"><div class="sqs-block-content"><h2 style="white-space:pre-wrap;"><strong>Medicines for better breathing poster</strong></h2><p class="" style="white-space:pre-wrap;">Optimized for: pulmonary clinical settings, COPD, asthma, interstitial lung disease, conversation support</p><p class="" style="white-space:pre-wrap;">Languages: English</p><p class="" style="white-space:pre-wrap;">Features:</p><ul data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">Guideline-based care</p></li><li><p class="" style="white-space:pre-wrap;">At-a-glance visual medication options</p></li><li><p class="" style="white-space:pre-wrap;">Medications organized by patient use (controller, reliever, recovery)</p></li><li><p class="" style="white-space:pre-wrap;">Promoted as part of the American Thoracic Society’s Guideline Dissemination and Implementation Tool Repository</p></li></ul></div></div></div><div class="col sqs-col-3 span-3"></div></div></div></div><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1569010473827_25393"><div class="sqs-block-content">&nbsp;</div></div><div class="row sqs-row"><div class="col sqs-col-9 span-9"><div class="row sqs-row"><div class="col sqs-col-4 span-4"><div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_1_1569010473827_38255"><div class="sqs-block-content">
+
+
+
+
+
+
+
+
+  
+
+    
+  
+    <div
+        class="
+          image-block-outer-wrapper
+          layout-caption-below
+          design-layout-inline
+          combination-animation-none
+          individual-animation-none
+          individual-text-animation-none
+        "
+        data-test="image-block-inline-outer-wrapper"
+    >
+
+      
+
+      
+        <figure
+            class="
+              sqs-block-image-figure
+              intrinsic
+            "
+            style="max-width:1521.0px;"
+        >
+          
+        
+        
+
+        
+          
+            
+          <div
+              
+                style="padding-bottom:100.0%;"
+              
+              class="
+                image-block-wrapper
+                
+          
+        
+                has-aspect-ratio
+              "
+              data-animation-role="image"
+              
+  
+
+          >
+            <noscript><img src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1569013398571-HA285B6DG4DJOQU8OQJH/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_ComparingCOPDLongTermOralTherapies_20190920.png" alt="interested in branding with your institutional logo?   Please contact: hmusick@uic.edu" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1569013398571-HA285B6DG4DJOQU8OQJH/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_ComparingCOPDLongTermOralTherapies_20190920.png" data-image="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1569013398571-HA285B6DG4DJOQU8OQJH/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_ComparingCOPDLongTermOralTherapies_20190920.png" data-image-dimensions="1521x1521" data-image-focal-point="0.5,0.5" alt="interested in branding with your institutional logo?   Please contact: hmusick@uic.edu" data-load="false" data-image-id="5d853e964f6640459427ed43" data-type="image" />
+          </div>
+        
+          
+        
+
+        
+          
+          <figcaption class="image-caption-wrapper">
+            <div class="image-caption"><p class=""><strong>interested in branding with your institutional logo? </strong><br>Please contact: hmusick@uic.edu</p></div>
+          </figcaption>
+        
+      
+        </figure>
+      
+
+    </div>
+  
+
+
+  
+
+
+</div></div><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1569010473827_96335"><div class="sqs-block-content">
+
+<div class="sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="small">
+	<a href="/s/9IHDD_ComparingCOPDLongTermOralTherapies_CC.pdf" class="sqs-block-button-element--small sqs-block-button-element" >Download</a>
+</div>
+</div></div></div><div class="col sqs-col-5 span-5"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1569010473827_27694"><div class="sqs-block-content"><h2 style="white-space:pre-wrap;"><strong>Poster comparing long-term oral therapies for COPD</strong></h2><p class="" style="white-space:pre-wrap;">Optimized for: pulmonary clinical settings, COPD, study supports, clinician recruitment </p><p class="" style="white-space:pre-wrap;">Languages: English</p><p class="" style="white-space:pre-wrap;">Features:</p><ul data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">Key facts about COPD prevalence and rates of rehospitalization</p></li><li><p class="" style="white-space:pre-wrap;">Visual side-effects comparison of two common COPD oral therapies</p></li><li><p class="" style="white-space:pre-wrap;">Description of clinical equipoise for clinicians treating COPD</p></li><li><p class="" style="white-space:pre-wrap;">Promoted as part of the American Thoracic Society’s Guideline Dissemination and Implementation Tool Repository</p></li></ul><p class="" data-rte-preserve-empty="true" style="white-space:pre-wrap;"></p></div></div></div></div></div><div class="col sqs-col-3 span-3"></div></div><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1567712442457_169159"><div class="sqs-block-content">&nbsp;</div></div><div class="row sqs-row"><div class="col sqs-col-9 span-9"><div class="row sqs-row"><div class="col sqs-col-4 span-4"><div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_1_1567712442457_228896"><div class="sqs-block-content">
+
+
+
+
+
+
+
+
+  
+
+    
+  
+    <div
+        class="
+          image-block-outer-wrapper
+          layout-caption-below
+          design-layout-inline
+          combination-animation-none
+          individual-animation-none
+          individual-text-animation-none
+        "
+        data-test="image-block-inline-outer-wrapper"
+    >
+
+      
+
+      
+        <figure
+            class="
+              sqs-block-image-figure
+              intrinsic
+            "
+            style="max-width:1521.0px;"
+        >
+          
+        
+        
+
+        
+          
+            
+          <div
+              
+                style="padding-bottom:100.0%;"
+              
+              class="
+                image-block-wrapper
+                
+          
+        
+                has-aspect-ratio
+              "
+              data-animation-role="image"
+              
+  
+
+          >
+            <noscript><img src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567806570151-53ZP9VSUZH9I49DDKW32/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_COST_YLH_20190906.png" alt="interested in branding with your institutional logo?   Please contact: hmusick@uic.edu" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567806570151-53ZP9VSUZH9I49DDKW32/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_COST_YLH_20190906.png" data-image="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567806570151-53ZP9VSUZH9I49DDKW32/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_COST_YLH_20190906.png" data-image-dimensions="1521x1521" data-image-focal-point="0.5,0.5" alt="interested in branding with your institutional logo?   Please contact: hmusick@uic.edu" data-load="false" data-image-id="5d72d46abe8a62096754b142" data-type="image" />
+          </div>
+        
+          
+        
+
+        
+          
+          <figcaption class="image-caption-wrapper">
+            <div class="image-caption"><p class=""><strong>interested in branding with your institutional logo? </strong><br>Please contact: hmusick@uic.edu</p></div>
+          </figcaption>
+        
+      
+        </figure>
+      
+
+    </div>
+  
+
+
+  
+
+
+</div></div><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1567712442457_372327"><div class="sqs-block-content">
+
+<div class="sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="small">
+	<a href="/s/5IHDD_CostSupportToolPregnancy_CC.pdf" class="sqs-block-button-element--small sqs-block-button-element" >Download</a>
+</div>
+</div></div></div><div class="col sqs-col-5 span-5"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1567712442457_223453"><div class="sqs-block-content"><h2 style="white-space:pre-wrap;"><strong>Cost conversation support tool for prenatal care</strong></h2><p class="" style="white-space:pre-wrap;">Optimized for: clinical settings, pregnant women, low-income populations, high-risk pregnant women</p><p class="" style="white-space:pre-wrap;">Languages: English</p><p class="" style="white-space:pre-wrap;">Features:</p><ul data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">At-a-glance visual care plan</p></li><li><p class="" style="white-space:pre-wrap;">Checklists to facilitate clinician-patient planning</p></li><li><p class="" style="white-space:pre-wrap;">Listing of available resources </p></li></ul><p class="" style="white-space:pre-wrap;">Funded by the Robert Wood Johnson Foundation</p></div></div></div></div></div><div class="col sqs-col-3 span-3"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1567712442457_224733"><div class="sqs-block-content"><h2 style="white-space:pre-wrap;">Publications:</h2><p class="" style="white-space:pre-wrap;"><a href="/s/aime201905071-m182207.pdf"><strong>Development of a Framework and Tool to Facilitate Cost-of-Care Conversations With Patients During Prenatal Care</strong></a><strong><br></strong><em>Annals of Internal Medicine Supplement, 2019</em></p></div></div></div></div><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1567712442457_222138"><div class="sqs-block-content">&nbsp;</div></div><div class="row sqs-row"><div class="col sqs-col-9 span-9"><div class="row sqs-row"><div class="col sqs-col-4 span-4"><div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_1_1567712442457_287539"><div class="sqs-block-content">
+
+
+
+
+
+
+
+
+  
+
+    
+  
+    <div
+        class="
+          image-block-outer-wrapper
+          layout-caption-below
+          design-layout-inline
+          combination-animation-none
+          individual-animation-none
+          individual-text-animation-none
+        "
+        data-test="image-block-inline-outer-wrapper"
+    >
+
+      
+
+      
+        <figure
+            class="
+              sqs-block-image-figure
+              intrinsic
+            "
+            style="max-width:1521.0px;"
+        >
+          
+        
+        
+
+        
+          
+            
+          <div
+              
+                style="padding-bottom:100.0%;"
+              
+              class="
+                image-block-wrapper
+                
+          
+        
+                has-aspect-ratio
+              "
+              data-animation-role="image"
+              
+  
+
+          >
+            <noscript><img src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567806592777-O86Z9ALKZJJT62KGMCE1/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_COST_Diabetes_YLH_20190906.png" alt="interested in branding with your institutional logo?   Please contact: hmusick@uic.edu" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567806592777-O86Z9ALKZJJT62KGMCE1/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_COST_Diabetes_YLH_20190906.png" data-image="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567806592777-O86Z9ALKZJJT62KGMCE1/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_COST_Diabetes_YLH_20190906.png" data-image-dimensions="1521x1521" data-image-focal-point="0.5,0.5" alt="interested in branding with your institutional logo?   Please contact: hmusick@uic.edu" data-load="false" data-image-id="5d72d48011a338410aa99caa" data-type="image" />
+          </div>
+        
+          
+        
+
+        
+          
+          <figcaption class="image-caption-wrapper">
+            <div class="image-caption"><p class=""><strong>interested in branding with your institutional logo? </strong><br>Please contact: hmusick@uic.edu</p></div>
+          </figcaption>
+        
+      
+        </figure>
+      
+
+    </div>
+  
+
+
+  
+
+
+</div></div><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1567712442457_375764"><div class="sqs-block-content">
+
+<div class="sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="small">
+	<a href="/s/6IHDD_CostSupportToolDiabetes_CC.pdf" class="sqs-block-button-element--small sqs-block-button-element" >download</a>
+</div>
+</div></div></div><div class="col sqs-col-5 span-5"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1567712442457_282689"><div class="sqs-block-content"><h2 style="white-space:pre-wrap;"><strong>Cost conversation support tool for diabetes</strong></h2><p class="" style="white-space:pre-wrap;">Optimized for: clinical settings, diabetes, low-income populations</p><p class="" style="white-space:pre-wrap;">Languages: English</p><p class="" style="white-space:pre-wrap;">Features:</p><ul data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">At-a-glance visual care plan</p></li><li><p class="" style="white-space:pre-wrap;">Checklists to facilitate clinician-patient planning</p></li><li><p class="" style="white-space:pre-wrap;">Listing of available resources </p></li></ul></div></div></div></div></div><div class="col sqs-col-3 span-3"></div></div><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1567712442457_276762"><div class="sqs-block-content">&nbsp;</div></div><div class="row sqs-row"><div class="col sqs-col-4 span-4"><div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_1_1567712442457_344236"><div class="sqs-block-content">
+
+
+
+
+
+
+
+
+  
+
+    
+  
+    <div
+        class="
+          image-block-outer-wrapper
+          layout-caption-below
+          design-layout-inline
+          combination-animation-none
+          individual-animation-none
+          individual-text-animation-none
+        "
+        data-test="image-block-inline-outer-wrapper"
+    >
+
+      
+
+      
+        <figure
+            class="
+              sqs-block-image-figure
+              intrinsic
+            "
+            style="max-width:1521.0px;"
+        >
+          
+        
+        
+
+        
+          
+            
+          <div
+              
+                style="padding-bottom:100.0%;"
+              
+              class="
+                image-block-wrapper
+                
+          
+        
+                has-aspect-ratio
+              "
+              data-animation-role="image"
+              
+  
+
+          >
+            <noscript><img src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567806645722-XDIIQQHXSQ08H4HB7NWG/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_VTEposter_YLH_20190906.png" alt="interested in branding with your institutional logo?   Please contact: hmusick@uic.edu" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567806645722-XDIIQQHXSQ08H4HB7NWG/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_VTEposter_YLH_20190906.png" data-image="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567806645722-XDIIQQHXSQ08H4HB7NWG/ke17ZwdGBToddI8pDm48kAuiXY_ju5Lna08Y32BpwWF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URZQSYCBIVY3awunS459m3ny7mFpQoHuQrSthK2cwEYoP7cJNZlDXbgJNE9ef52e8w/IHDD_Website_Products_VTEposter_YLH_20190906.png" data-image-dimensions="1521x1521" data-image-focal-point="0.5,0.5" alt="interested in branding with your institutional logo?   Please contact: hmusick@uic.edu" data-load="false" data-image-id="5d72d4b5838e4d206432205e" data-type="image" />
+          </div>
+        
+          
+        
+
+        
+          
+          <figcaption class="image-caption-wrapper">
+            <div class="image-caption"><p class=""><strong>interested in branding with your institutional logo? </strong><br>Please contact: hmusick@uic.edu</p></div>
+          </figcaption>
+        
+      
+        </figure>
+      
+
+    </div>
+  
+
+
+  
+
+
+</div></div><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1567712442457_378138"><div class="sqs-block-content">
+
+<div class="sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="small">
+	<a href="/s/7IHDD_BloodClotPreventionPoster_CC.pdf" class="sqs-block-button-element--small sqs-block-button-element" >download</a>
+</div>
+</div></div></div><div class="col sqs-col-8 span-8"><div class="row sqs-row"><div class="col sqs-col-5 span-5"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1567712442457_340917"><div class="sqs-block-content"><h2 style="white-space:pre-wrap;"><strong>Blood clot prevention for hospitalized adolescents</strong></h2><p class="" style="white-space:pre-wrap;">Optimized for: hospital settings, VTE, blood clots, sickle cell, low-literacy adolescents</p><p class="" style="white-space:pre-wrap;">Languages: English</p><p class="" style="white-space:pre-wrap;">Features:</p><ul data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">Guideline-based care</p></li><li><p class="" style="white-space:pre-wrap;">4 key ways to lower the risk of blood clots during a hospital stay</p></li></ul></div></div></div><div class="col sqs-col-3 span-3"></div></div></div></div><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1567810151599_23314"><div class="sqs-block-content">&nbsp;</div></div><div class="row sqs-row"><div class="col sqs-col-4 span-4"><div class="sqs-block image-block sqs-block-image" data-aspect-ratio="65.34653465346535" data-block-type="5" id="block-yui_3_17_2_1_1567810151599_47225"><div class="sqs-block-content">
+
+
+
+
+
+
+
+
+  
+
+    
+  
+    <div
+        class="
+          image-block-outer-wrapper
+          layout-caption-hidden
+          design-layout-inline
+          combination-animation-none
+          individual-animation-none
+          individual-text-animation-none
+        "
+        data-test="image-block-inline-outer-wrapper"
+    >
+
+      
+
+      
+        <figure
+            class="
+              sqs-block-image-figure
+              intrinsic
+            "
+            style="max-width:2448.0px;"
+        >
+          
+        
+        
+
+        
+          
+            
+          <div
+              
+                style="padding-bottom:65.3465347290039%;"
+              
+              class="
+                image-block-wrapper
+                
+          
+        
+                has-aspect-ratio
+              "
+              data-animation-role="image"
+              
+  
+
+          >
+            <noscript><img src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567811825261-DZMPMPAGAM8TVPZB9R9F/ke17ZwdGBToddI8pDm48kBUDAxm-FLUF-OJf9moK1kV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UT_TXfTUFcrrnRvtinoH4JYxq5g0UB9t65pVePltZrd1IKYY7Qu0iTZQJ-GJ4dsqLQ/IMG_9025.JPG" alt="IMG_9025.JPG" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567811825261-DZMPMPAGAM8TVPZB9R9F/ke17ZwdGBToddI8pDm48kBUDAxm-FLUF-OJf9moK1kV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UT_TXfTUFcrrnRvtinoH4JYxq5g0UB9t65pVePltZrd1IKYY7Qu0iTZQJ-GJ4dsqLQ/IMG_9025.JPG" data-image="https://images.squarespace-cdn.com/content/v1/59b801bc9f8dce531681f18d/1567811825261-DZMPMPAGAM8TVPZB9R9F/ke17ZwdGBToddI8pDm48kBUDAxm-FLUF-OJf9moK1kV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UT_TXfTUFcrrnRvtinoH4JYxq5g0UB9t65pVePltZrd1IKYY7Qu0iTZQJ-GJ4dsqLQ/IMG_9025.JPG" data-image-dimensions="2448x3264" data-image-focal-point="0.5,0.5" alt="IMG_9025.JPG" data-load="false" data-image-id="5d72e8eedf09514a9772cbe3" data-type="image" />
+          </div>
+        
+          
+        
+
+        
+      
+        </figure>
+      
+
+    </div>
+  
+
+
+  
+
+
+</div></div></div><div class="col sqs-col-4 span-4"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1567810151599_27024"><div class="sqs-block-content"><h2 style="white-space:pre-wrap;"><strong>Workshops</strong></h2><p class="" style="white-space:pre-wrap;">Learn how to apply Human-Centered Design methods to your team’s healthcare challenges. Email Hugh Musick at hmusick@uic.edu for more information.</p><p class="" style="white-space:pre-wrap;"><em>“Tailoring interventions to fit people using human centered design”<br><br>”Designing for change in healthcare: Using design thinking to engage stakeholders and prepare organizations to execute”<br></em></p><p class="" style="white-space:pre-wrap;"><br></p></div></div></div><div class="col sqs-col-4 span-4"></div></div></div></div></div>
+							</div>
+
+							<div id="page-body-footer" class="extra-wrapper">
+								<div class="sqs-layout sqs-grid-12 columns-12 empty" data-layout-label="Products Footer Content" data-type="block-field" id="page-footer-5d71645d0aa0400001300be8"><div class="row sqs-row"><div class="col sqs-col-12 span-12"></div></div></div>
+							</div>
+
+						</div>
+					</div> <!-- content-wrapper -->
+
+					<div class="clearer" id="body-clearer"></div>
+
+	      </div>
+	    </div> <!-- page-body-wrapper -->
+
+
+		    <div id="page-footer-wrapper">
+		      <div id="page-footer">
+		        
+		          
+		        
+		        <div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Footer Content" data-type="block-field" data-updated-on="1570564815908" id="footer-blocks"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_6_1506575647097_256364"><div class="sqs-block-content">&nbsp;</div></div><div class="row sqs-row"><div class="col sqs-col-6 span-6"><div class="sqs-block code-block sqs-block-code" data-block-type="23" id="block-yui_3_17_2_4_1506582902731_6120"><div class="sqs-block-content"><p id="contact-us"> </p></div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_6_1506575647097_256020"><div class="sqs-block-content"><hr /></div></div></div><div class="col sqs-col-6 span-6"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_6_1506575647097_256807"><div class="sqs-block-content">&nbsp;</div></div></div></div><div class="row sqs-row"><div class="col sqs-col-6 span-6"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_6_1506575647097_255440"><div class="sqs-block-content"><h3 style="white-space:pre-wrap;"><strong>Contact the Institute for Healthcare Delivery Design.</strong></h3></div></div></div><div class="col sqs-col-6 span-6"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1570562103801_1161892"><div class="sqs-block-content">&nbsp;</div></div></div></div><div class="row sqs-row"><div class="col sqs-col-6 span-6"><div class="sqs-block form-block sqs-block-form" data-block-type="9" id="block-yui_3_17_2_6_1506575647097_253971"><div class="sqs-block-content">
+
+
+
+
+
+<div class="form-wrapper"
+  
+>
+  
+  <div class="form-inner-wrapper">
+    <form
+       data-form-id="59cc90ab017db23f442ac1aa"
+       data-success-redirect=""
+       autocomplete="on"
+       
+       method="POST"
+       action="https://kim-erwin-6n7l.squarespace.com"
+       onsubmit="return (function (form) {
+  Y.use('squarespace-form-submit', 'node', function usingFormSubmit(Y) {
+    (new Y.Squarespace.FormSubmit(form)).submit({
+      formId: '59cc90ab017db23f442ac1aa',
+      collectionId: '',
+      objectName: 'footer-blocks'
+    });
+  });
+  return false;
+})(this);"
+       
+    >
+      
+        <div class="field-list clear">
+
+        
+
+          
+
+          
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+              <fieldset id="name-yui_3_17_2_6_1506575647097_253976" class="form-item fields name required">
+                
+            <legend class="title">
+              Name
+              
+                <span class="required" aria-hidden="true">*</span>
+              
+            </legend>
+          
+                
+                <div class="field first-name">
+                  <label class="caption">
+                    <input
+                        class="field-element field-control"
+                        name="fname"
+                        x-autocompletetype="given-name"
+                        type="text"
+                        spellcheck="false"
+                        maxlength="30"
+                        data-title="First"
+                        aria-required="true"
+                    />
+                    <span class="caption-text">First Name</span>
+                  </label>
+                </div>
+                <div class="field last-name">
+                  <label class="caption">
+                    <input
+                        class="field-element field-control"
+                        name="lname"
+                        x-autocompletetype="surname"
+                        type="text"
+                        spellcheck="false"
+                        maxlength="30"
+                        data-title="Last"
+                        aria-required="true"
+                    />
+                    <span class="caption-text">Last Name</span>
+                  </label>
+                </div>
+              </fieldset>
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+        
+
+          
+
+          
+
+            
+
+            
+
+            
+
+            
+
+            
+              <div id="email-yui_3_17_2_6_1506575647097_253977" class="form-item field email required">
+                
+            <label class="title" for="email-yui_3_17_2_6_1506575647097_253977-field">
+              Email Address
+              
+                <span class="required" aria-hidden="true">*</span>
+              
+            </label>
+          
+                
+                <input
+                    class="field-element"
+                    id="email-yui_3_17_2_6_1506575647097_253977-field"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    spellcheck="false"
+                    
+                    aria-required="true"
+                />
+              </div>
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+        
+
+          
+
+          
+
+            
+
+            
+
+            
+              <div id="text-yui_3_17_2_6_1506575647097_253978" class="form-item field text required">
+                
+            <label class="title" for="text-yui_3_17_2_6_1506575647097_253978-field">
+              Subject
+              
+                <span class="required" aria-hidden="true">*</span>
+              
+            </label>
+          
+                
+                <input
+                    class="field-element text"
+                    type="text"
+                    id="text-yui_3_17_2_6_1506575647097_253978-field"
+                    
+                    aria-required="true"
+                />
+              </div>
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+        
+
+          
+
+          
+
+            
+
+            
+
+            
+
+            
+              <div id="textarea-yui_3_17_2_6_1506575647097_253979" class="form-item field textarea required">
+                
+            <label class="title" for="textarea-yui_3_17_2_6_1506575647097_253979-field">
+              Message
+              
+                <span class="required" aria-hidden="true">*</span>
+              
+            </label>
+          
+                
+                <textarea
+                    class="field-element "
+                    id="textarea-yui_3_17_2_6_1506575647097_253979-field"
+                    
+                    aria-required="true"
+                ></textarea>
+              </div>
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+        
+
         </div>
 
-<section role="region" class="text-block-with-large-image" aria-label="HUMAN RESOURCES AT UIC Unit Listing">
-<div class="ms-row title-row">
-  <div class="col-1-1">
-    <h2 class="interior-section-header">
-      HUMAN RESOURCES AT UIC</a>
-    </h2>
+      
+
+      
+
+      
+      <div data-animation-role="button" class="form-button-wrapper form-button-wrapper--align-left">
+        <input class="button sqs-system-button sqs-editable-button" type="submit" value="Submit"/>
+      </div>
+      
+
+      
+      <div class="hidden form-submission-text">Thank you!</div>
+      <div class="hidden form-submission-html" data-submission-html=""></div>
+    </form>
   </div>
 </div>
+</div></div></div><div class="col sqs-col-6 span-6"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_6_1506575647097_301314"><div class="sqs-block-content">&nbsp;</div></div></div></div></div></div></div>
+		      </div>
+		    </div><!-- page-footer-wrapper -->
 
-<div class="ms-row text-row">
-  <div class="col-1-1 block-wysiwyg">
 
+		  </div>
+		</div> <!-- canvas-wrapper -->
 
-<table>
+		<script type="text/javascript" data-sqs-type="imageloader-bootstrapper">(function() {if(window.ImageLoader) { window.ImageLoader.bootstrap({}, document); }})();</script><script>Squarespace.afterBodyLoad(Y);</script>
 
-<tr>
-  <td style="vertical-align: top; font-weight: 400;">
-    <p>
-      Also known as HUMAN RESOURCES, LABOR RELATIONS, Office of, PERSONNEL SERVICES   </p>
-    <p>
-      Banner Dept: <span style="font-weight: 500;">2-407000</span>
-    </p>
-              MC 897 <br />715 S. Wood St.           </td>
-        <td style="vertical-align: top;">
-            <a href="/apps/departments-az/search?dispatch=roster&amp;style=uic&amp;orgid=99845">Department Roster</a>
-            <br />
-            Fax 312-996-6807            <br />
-        </td>
-    </tr>
-
-    			      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">UIC HR Welcome Center</span>
-	    <br />
-	    109 HRB </br> 715 S Wood Street	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-0840	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">TTY Phone for Hearing Impaired</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-6364	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10015" style="font-weight: 400;">
-      HR Administration    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Associate Vice Chancellor for Human Resources</span>
-	    <br />
-	    Michael H Ginsburg	    <br />
-	    103 HRB MC 890</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-9416	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#103;&#105;&#110;&#115;&#98;&#117;&#114;&#103;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#103;&#105;&#110;&#115;&#98;&#117;&#114;&#103;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Director, Budget, Finance and Administration</span>
-	    <br />
-	    Susan Balmes	    <br />
-	    103 HRB MC 890</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-5230	    <br />
-	    <strong>F</strong> 312-355-3110	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#97;&#108;&#109;&#101;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#98;&#97;&#108;&#109;&#101;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">HR Administration</span>
-	    <br />
-	    Joanna Wolek	    <br />
-	    103 HRB MC 890</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-5524	    <br />
-	    <strong>F</strong> 312-355-3110	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#119;&#111;&#108;&#101;&#107;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#106;&#119;&#111;&#108;&#101;&#107;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Assistant Vice Chancellor for Human Resources</span>
-	    <br />
-	    Cheri L Canfield	    <br />
-	     HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-4852	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#104;&#101;&#114;&#105;&#99;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#99;&#104;&#101;&#114;&#105;&#99;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10016" style="font-weight: 400;">
-      Compensation and Classification    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Compensation</span>
-	    <br />
-	    Debbie Lewis	    <br />
-	    205D HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-2219	    <br />
-	    <strong>F</strong> 312-413-1805	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#101;&#98;&#108;&#101;&#119;&#105;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#100;&#101;&#98;&#108;&#101;&#119;&#105;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Human Resource Associate</span>
-	    <br />
-	    Lauren A Martin	    <br />
-	    205E HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-9024	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#109;&#97;&#114;&#116;&#105;&#50;&#54;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#108;&#109;&#97;&#114;&#116;&#105;&#50;&#54;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Human Resource Associate</span>
-	    <br />
-	    Daisy Bentley	    <br />
-	    205C HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-6886	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#98;&#101;&#110;&#116;&#108;&#50;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#100;&#98;&#101;&#110;&#116;&#108;&#50;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10018" style="font-weight: 400;">
-      HR Business Services    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">HR Business Services</span>
-	    <br />
-	    201 HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-9306	    <br />
-	    <strong>F</strong> 312-996-6807	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10008" style="font-weight: 400;">
-      HR Helpdesk    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">HR Technical Support</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-4848	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#105;&#99;&#104;&#114;&#104;&#101;&#108;&#112;&#100;&#101;&#115;&#107;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;">&#117;&#105;&#99;&#104;&#114;&#104;&#101;&#108;&#112;&#100;&#101;&#115;&#107;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10001" style="font-weight: 400;">
-      HR Service Center    </th>
-  </tr>
-    <tr>
-	<td style="vertical-align: top; font-weight: 400;">
-	    401 HRB MC 900 <br />715 S. Wood Chicago IL 60612	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>F</strong> 312-996-1803	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">General Information</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-3490	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Civil Service Inquiries</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#105;&#99;&#104;&#114;&#115;&#99;&#105;&#118;&#105;&#108;&#115;&#101;&#114;&#118;&#105;&#99;&#101;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;">&#117;&#105;&#99;&#104;&#114;&#115;&#99;&#105;&#118;&#105;&#108;&#115;&#101;&#114;&#118;&#105;&#99;&#101;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Faculty Inquiries</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-2412	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#105;&#99;&#104;&#114;&#115;&#101;&#114;&#118;&#105;&#99;&#101;&#99;&#101;&#110;&#116;&#101;&#114;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;">&#117;&#105;&#99;&#104;&#114;&#115;&#101;&#114;&#118;&#105;&#99;&#101;&#99;&#101;&#110;&#116;&#101;&#114;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Graduate Appointment Inquiries</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7606	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#105;&#99;&#104;&#114;&#115;&#101;&#114;&#118;&#105;&#99;&#101;&#99;&#101;&#110;&#116;&#101;&#114;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;">&#117;&#105;&#99;&#104;&#114;&#115;&#101;&#114;&#118;&#105;&#99;&#101;&#99;&#101;&#110;&#116;&#101;&#114;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Deputy Director</span>
-	    <br />
-	    Odell Richmond	    <br />
-	    401 HRB MC 900</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-6356	    <br />
-	    <strong>F</strong> 312-996-1803	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#111;&#100;&#101;&#108;&#108;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#111;&#100;&#101;&#108;&#108;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Deputy Director</span>
-	    <br />
-	    Amira Ghadeer	    <br />
-	    401 HRB MC 900</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-2412	    <br />
-	    <strong>F</strong> 312-996-1803	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#109;&#105;&#114;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#97;&#109;&#105;&#114;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Academic Professional Processing/E-Verify</span>
-	    <br />
-	    Melinda Rodriguez	    <br />
-	    401 HRB MC 900</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-6358	    <br />
-	    <strong>F</strong> 312-996-1803	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#114;&#111;&#100;&#114;&#105;&#50;&#52;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#109;&#114;&#111;&#100;&#114;&#105;&#50;&#52;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Civil Service Processing</span>
-	    <br />
-	    Shelissa Rodriguez	    <br />
-	    401 HRB MC 900</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-8932	    <br />
-	    <strong>F</strong> 312-996-1803 	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#104;&#101;&#108;&#105;&#115;&#115;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#115;&#104;&#101;&#108;&#105;&#115;&#115;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Criminal Background Check Processing</span>
-	    <br />
-	    Sonia Ocasio-Alvarado	    <br />
-	    401 HRB MC 900</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-6159	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#98;&#99;&#117;&#105;&#99;&#104;&#114;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;">&#99;&#98;&#99;&#117;&#105;&#99;&#104;&#114;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Child / Employee Tuition Waiver</span>
-	    <br />
-	    401 HRB MC 900</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-3490	    <br />
-	    <strong>F</strong> 312-996-1803	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#105;&#99;&#104;&#114;&#116;&#117;&#105;&#116;&#105;&#111;&#110;&#119;&#118;&#114;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;">&#117;&#105;&#99;&#104;&#114;&#116;&#117;&#105;&#116;&#105;&#111;&#110;&#119;&#118;&#114;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Employment Verification</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>F</strong> 312-996-1700	    <br />
-	    <a style="font-weight: 400;" href="https://www.hr.uic.edu/employment_verification/">Home Page</a>
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10017" style="font-weight: 400;">
-      HR Shared Services    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Manager, HRIS</span>
-	    <br />
-	    Kenneth Scott	    <br />
-	    224C HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-4849	    <br />
-	    <strong>F</strong> 312-996-6807	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#101;&#110;&#115;&#99;&#111;&#116;&#116;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#107;&#101;&#110;&#115;&#99;&#111;&#116;&#116;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">HRIS Training Coordinator</span>
-	    <br />
-	    Victoria Mezydlo	    <br />
-	    224B HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-0042	    <br />
-	    <strong>F</strong> 312-996-6807	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#118;&#109;&#101;&#122;&#121;&#100;&#108;&#111;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#118;&#109;&#101;&#122;&#121;&#100;&#108;&#111;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">HRIS Technical Specialist</span>
-	    <br />
-	    Maria Victoria P Sabacan	    <br />
-	    224E HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-8288	    <br />
-	    <strong>F</strong> 312-996-6807	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#97;&#98;&#97;&#99;&#97;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#115;&#97;&#98;&#97;&#99;&#97;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">HRIS Technical Analyst</span>
-	    <br />
-	    Victor Perez	    <br />
-	    224A HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-4543	    <br />
-	    <strong>F</strong> 312-996-6807	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#118;&#105;&#99;&#112;&#101;&#114;&#101;&#122;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#118;&#105;&#99;&#112;&#101;&#114;&#101;&#122;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10009" style="font-weight: 400;">
-      Labor and Employee Relations    </th>
-  </tr>
-    <tr>
-	<td style="vertical-align: top; font-weight: 400;">
-	    360 WROB MC 264 <br />1747 W. Roosevelt Rd Chicago IL 	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>F</strong> 312-996-1234	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Interim Executive Director, Labor & Employee Relations and Special Counsel</span>
-	    <br />
-	    372 WROB MC 264</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-5510	    <br />
-	    <strong>F</strong> 312-996-1234	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">HR Associate</span>
-	    <br />
-	    Milan Valuch	    <br />
-	    128 HRB MC 862</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-8262	    <br />
-	    <strong>F</strong> 312-996-1234	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#118;&#97;&#108;&#117;&#99;&#104;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#109;&#118;&#97;&#108;&#117;&#99;&#104;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">HR Associate</span>
-	    <br />
-	    Monica Lynn Holt	    <br />
-	    127 HRB MC 862</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-9036	    <br />
-	    <strong>F</strong> 312-996-1234	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#108;&#104;&#111;&#108;&#116;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#109;&#108;&#104;&#111;&#108;&#116;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Associate Director of Labor and Employee Relations</span>
-	    <br />
-	    Keino Richard Robinson	    <br />
-	    119 HRB MC 862</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-1232	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#101;&#105;&#110;&#111;&#114;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#107;&#101;&#105;&#110;&#111;&#114;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Associate Director of Labor and Employee Relations</span>
-	    <br />
-	    Andrew Slobodien	    <br />
-	    123 HRB MC 862</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-4788	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#109;&#115;&#57;&#57;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#97;&#109;&#115;&#57;&#57;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10006" style="font-weight: 400;">
-      Organizational Effectiveness    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Human Capital Development Coordinator</span>
-	    <br />
-	    Laurie Schellenberger	    <br />
-	    205F HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-9168	    <br />
-	    <strong>F</strong> 312-996-6807	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#115;&#99;&#104;&#101;&#108;&#108;&#51;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#108;&#115;&#99;&#104;&#101;&#108;&#108;&#51;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10019" style="font-weight: 400;">
-      Special Programs    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Events Administrator Associate</span>
-	    <br />
-	    Christopher M Rose	    <br />
-	    201 HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-2960	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#114;&#111;&#115;&#101;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#99;&#114;&#111;&#115;&#101;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10004" style="font-weight: 400;">
-      Employment Services    </th>
-  </tr>
-    <tr>
-	<td style="vertical-align: top; font-weight: 400;">
-	    109 HRB MC 862 <br />715 S. Wood Chicago IL 	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>F</strong> 312-413-1190	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">General Information</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-0840	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Deputy Director</span>
-	    <br />
-	    Heather Ross	    <br />
-	    305A HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-8531	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#114;&#111;&#115;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#104;&#114;&#111;&#115;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Recruitment & Staffing Partner</span>
-	    <br />
-	    Jannifer Santos	    <br />
-	    112 HRB MC 862</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-3505	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#97;&#115;&#97;&#110;&#116;&#111;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#106;&#97;&#115;&#97;&#110;&#116;&#111;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Recruiting & Staffing Partner</span>
-	    <br />
-	    Griselda Marin	    <br />
-	    305G HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-0844	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#97;&#114;&#105;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#109;&#97;&#114;&#105;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Recruiting & Staffing Partner</span>
-	    <br />
-	    Ariana Estrella	    <br />
-	    305B HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7958	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#101;&#115;&#116;&#114;&#101;&#49;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#97;&#101;&#115;&#116;&#114;&#101;&#49;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Recruiting & Staffing Partner</span>
-	    <br />
-	    Kimberly Glover	    <br />
-	    305C HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7958	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#103;&#108;&#111;&#118;&#101;&#114;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#107;&#103;&#108;&#111;&#118;&#101;&#114;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Recruiting & Staffing Partner</span>
-	    <br />
-	    Angelina Maria Santiago	    <br />
-	    305D HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-4723	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#115;&#97;&#110;&#116;&#105;&#52;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#97;&#115;&#97;&#110;&#116;&#105;&#52;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Recruitment and Staffing Partner</span>
-	    <br />
-	    Kendra Bridgeforth	    <br />
-	    305K HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#98;&#114;&#105;&#100;&#103;&#101;&#121;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#107;&#98;&#114;&#105;&#100;&#103;&#101;&#121;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Recruitment Operations Support</span>
-	    <br />
-	    Deborah Estrada	    <br />
-	    109 HRB MC 862</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-5479	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#101;&#98;&#98;&#105;&#101;&#55;&#49;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#100;&#101;&#98;&#98;&#105;&#101;&#55;&#49;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Recruitment Operations Support</span>
-	    <br />
-	    Brenda Jones	    <br />
-	    109 HRB MC 862</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-3716	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#114;&#101;&#110;&#100;&#97;&#106;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#98;&#114;&#101;&#110;&#100;&#97;&#106;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Recruiting & Staffing Partner</span>
-	    <br />
-	    Maureen M Barganski	    <br />
-	    305F HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#98;&#97;&#114;&#103;&#97;&#110;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#109;&#98;&#97;&#114;&#103;&#97;&#110;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Recruiting & Staffing Partner</span>
-	    <br />
-	    Ramona Sayles	    <br />
-	    305I HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#115;&#97;&#121;&#108;&#101;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#114;&#115;&#97;&#121;&#108;&#101;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Recruiting & Staffing Partner</span>
-	    <br />
-	    Tracy Wilbon	    <br />
-	    305J HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#119;&#105;&#108;&#98;&#111;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#116;&#119;&#105;&#108;&#98;&#111;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	    <tr>
-	<td colspan="2" style="vertical-align: top; font-weight: 400;">
-	    <a name="10021"></a><h3>Extra Help Services</h3>
-	</td>
-    </tr>
-
-		    
-  <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-		    Recruitment & Staffing Partner		    <br />
-		    109 HRB MC 862</br>    </td>
-    <td style="vertical-align: top; font-weight: 400;">
-
-            <strong>T</strong>
-            312-996-0006            <br />
-
-
-
-
-	</td>
-  </tr>
-		    
-  <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-		    James Hual Lozano-Young		    <br />
-		    Recruitment & Staffing Partner		    <br />
-		    109 HRB MC 862</br>    </td>
-    <td style="vertical-align: top; font-weight: 400;">
-
-            <strong>T</strong>
-            312-413-8081            <br />
-
-
-
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#117;&#97;&#108;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#104;&#117;&#97;&#108;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-
-	</td>
-  </tr>
-	        	    <tr>
-	<td colspan="2" style="vertical-align: top; font-weight: 400;">
-	    <a name="10022"></a><h3>Temporary Services</h3>
-	</td>
-    </tr>
-
-		    
-  <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-		    Shannon McGinnis		    <br />
-		    Deputy Director		    <br />
-		    112 HRB MC 862</br>    </td>
-    <td style="vertical-align: top; font-weight: 400;">
-
-            <strong>T</strong>
-            312-996-8514            <br />
-
-	    <strong>F</strong>
-	    312-413-1190	    <br />
-
-
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#104;&#97;&#110;&#109;&#99;&#103;&#105;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#115;&#104;&#97;&#110;&#109;&#99;&#103;&#105;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-
-	</td>
-  </tr>
-		    
-  <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-		    Temporary Services		    <br />
-		    109 HRB MC 862</br>    </td>
-    <td style="vertical-align: top; font-weight: 400;">
-
-            <strong>T</strong>
-            312-355-1981            <br />
-
-
-
-
-	</td>
-  </tr>
-	        	    <tr>
-	<td colspan="2" style="vertical-align: top; font-weight: 400;">
-	    <a name="10023"></a><h3>Testing</h3>
-	</td>
-    </tr>
-
-		    
-  <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-		    Joanne Neris		    <br />
-		    Testing Manager		    <br />
-		    314 HRB MC 862</br>    </td>
-    <td style="vertical-align: top; font-weight: 400;">
-
-            <strong>T</strong>
-            312-996-6608            <br />
-
-
-
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#111;&#97;&#110;&#110;&#101;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#106;&#111;&#97;&#110;&#110;&#101;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-
-	</td>
-  </tr>
-		    
-  <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-		    Netiva J James		    <br />
-		    HR Officer		    <br />
-		    314 HRB MC 862</br>    </td>
-    <td style="vertical-align: top; font-weight: 400;">
-
-            <strong>T</strong>
-            312-996-5030            <br />
-
-
-
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#110;&#106;&#97;&#109;&#101;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#110;&#106;&#97;&#109;&#101;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-
-	</td>
-  </tr>
-		    
-  <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-		    Taneshia Calhoun		    <br />
-		    HR Officer		    <br />
-		    314 HRB MC 862</br>    </td>
-    <td style="vertical-align: top; font-weight: 400;">
-
-            <strong>T</strong>
-            312-996-4726            <br />
-
-
-
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#97;&#110;&#101;&#115;&#104;&#105;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#116;&#97;&#110;&#101;&#115;&#104;&#105;&#97;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-
-	</td>
-  </tr>
-	        	  <tr>
-    <th colspan="2" id="10024" style="font-weight: 400;">
-      Benefits Services    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Benefits Services</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7200	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#101;&#110;&#101;&#102;&#105;&#116;&#115;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;">&#98;&#101;&#110;&#101;&#102;&#105;&#116;&#115;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10025" style="font-weight: 400;">
-      Payroll Services    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Payroll Services</span>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7200	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#97;&#121;&#105;&#110;&#113;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;">&#112;&#97;&#121;&#105;&#110;&#113;&#64;&#117;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10026" style="font-weight: 400;">
-      Department Liaisons    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Victor Perez	    <br />
-	    224A HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-413-4543	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#118;&#105;&#99;&#112;&#101;&#114;&#101;&#122;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#118;&#105;&#99;&#112;&#101;&#114;&#101;&#122;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Maria Victoria P Sabacan	    <br />
-	    224E  MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-8288	    <br />
-	    <strong>F</strong> 312-996-6807	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#97;&#98;&#97;&#99;&#97;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#115;&#97;&#98;&#97;&#99;&#97;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Kenneth Scott	    <br />
-	    224C HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-4849	    <br />
-	    <strong>F</strong> 312-996-6807	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#101;&#110;&#115;&#99;&#111;&#116;&#116;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#107;&#101;&#110;&#115;&#99;&#111;&#116;&#116;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">REACH Contact</span>
-	    <br />
-	    Kenneth Scott	    <br />
-	    224C HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-4849	    <br />
-	    <strong>F</strong> 312-996-6807	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#101;&#110;&#115;&#99;&#111;&#116;&#116;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#107;&#101;&#110;&#115;&#99;&#111;&#116;&#116;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">REACH Contact</span>
-	    <br />
-	    Barry Goldstein	    <br />
-	    B11 AOB MC 817</br><br />1700 SSB MC 334</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-7786	    <br />
-	    <strong>F</strong> 312-413-1128	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#103;&#111;&#108;&#100;&#98;&#97;&#114;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#103;&#111;&#108;&#100;&#98;&#97;&#114;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Webmaster</span>
-	    <br />
-	    Kenneth Scott	    <br />
-	    224C HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-4849	    <br />
-	    <strong>F</strong> 312-996-6807	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#101;&#110;&#115;&#99;&#111;&#116;&#116;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#107;&#101;&#110;&#115;&#99;&#111;&#116;&#116;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">EcoRep</span>
-	    <br />
-	    Cheri L Canfield	    <br />
-	     HRB MC 897</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-996-4852	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#104;&#101;&#114;&#105;&#99;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#99;&#104;&#101;&#114;&#105;&#99;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	    </table>
-
-  </div>
-</div>
-</section>
-
-<div class="ms-grid" style="margin-top: 40px;">
-  <div class="ms-row block-wysiwyg">
-    <div class="m-col-1-3">
-        <form method="get" action="/apps/find-people/search">
-
-<div class="form-element"> 
-	<h2>Individuals</h2>
-</div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Last name</span>
-      <input class="text-input" type="text" id="lastname" name="lastname">
-    </label>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">First name</span>
-      <input class="text-input" type="text" id="firstname" name="firstname">
-    </label>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">NetID</span>
-      <input class="text-input" type="text" id="netid" name="netid">
-    </label>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Department</span>
-      <input class="text-input" type="text" id="department" name="department">
-    </label>
-  </div>
-
-  <button type="submit" class="button">Search</button>
-
-  <p class="form-help-text" style="margin-top: 15px;">
-    <em>
-      <strong>Tip</strong> Typing "Lee" into the Last Name
-      field will retrieve too many entries to print. But, adding
-      "R" to the First Name will narrow the search.
-    </em>
-  </p>
-
-</form>
-
-    </div>
-
-    <div class="m-col-2-3">
-        <form method="get" action="//www.uic.edu/apps/departments-az/search">
-
-<div class="form-element">
-<h2>Departments</h2>
-</div>
-
-  <div class="form-element">
-<span class="form-element-label">Browse</span>
-<p>
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=A">A</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=B">B</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=C">C</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=D">D</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=E">E</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=F">F</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=G">G</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=H">H</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=I">I</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=J">J</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=K">K</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=L">L</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=M">M</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=N">N</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=O">O</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=P">P</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Q">Q</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=R">R</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=S">S</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=T">T</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=U">U</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=V">V</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=W">W</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=X">X</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Y">Y</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Z">Z</a>&nbsp;
-    </p>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Department</span>
-      <input class="text-input" type="text" id="kwords" name="kwords">
-    </label>
-  </div>
-
-  <input type="hidden" name="dispatch" value="search" />
-  <button type="submit" class="button">Search</button>
-
-  <p class="form-help-text" style="margin-top: 15px;">
-    <em>
-      <strong>Tip</strong>
-      Search for contact information for a specific department
-      or just select Department Search to browse the unit listing.
-    </em>
-  </p>
-</form>
-
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </main>
-    </div>
-  </div>
-</div>
-
-<footer class="footer">
-    <div class="footer-content" style="background-image: url(/images/footer.jpg)">
-        <div class="ms-grid">
-            <div class="ms-row">
-                <div class="s-col-1-2 m-col-1-4 l-col-3-12 footer-brand-address">
-                                            <img class="footer-brand" src="/images/footer-brand-mark.svg" alt="The University of Illinois at Chicago" aria-hidden="true">
-                                        <div class="footer-address">
-                        <div><strong>1200 West Harrison St.</strong></div>
-                        <div>Chicago, Illinois 60607</div>
-                        <div>312-996-7000</div>
-                    </div>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-push-4" aria-label="Tools">
-                    <h1 class="footer-list-title">Tools</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://uic.blackboard.com/">
-        Blackboard
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://accc.uic.edu/service/g-suite">
-        GoogleApps@UIC
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://my.uic.edu/common/">
-        my UIC
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://www.hr.uillinois.edu/pay/">
-        My UI Info: Pay
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://outlook.uic.edu">
-        UIC Outlook Online
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://accc.uic.edu/service/uicalendar">
-        UICalendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/contact-us">
-        Contact the webmaster
-    </a>
-</li>                                            </ul>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12" aria-label="Resources">
-                    <h1 class="footer-list-title">Resources</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://catalog.uic.edu/ucat/academic-calendar/">
-        Academic Calendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/life-at-uic/current-students">
-        Current Students
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://events.uic.edu">
-        Event Calendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/life-at-uic/faculty-and-staff">
-        Faculty and Staff
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://maps.uic.edu">
-        Maps
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://today.uic.edu/uicnews">
-        UIC Today
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/visit-directions">
-        Visit &amp; Directions
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://clery.uic.edu/">
-        Clery Compliance
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://oae.uic.edu/UnlawfulDiscrimination/index.htm">
-        Nondiscrimination Policy
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://oae.uic.edu/TitleIX/index.htm">
-        Title IX: Sexual Misconduct
-    </a>
-</li>                                            </ul>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-pull-4" aria-label="Quick Links">
-                    <h1 class="footer-list-title">Quick Links</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uicflames.com/">
-        Athletics
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uic.edu/apps/departments-az/search">
-        Directory
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://disabilityresources.uic.edu/">
-        Disability Resources
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://emergency.uic.edu">
-        Emergency Information
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/job-opportunities">
-        Job Opportunities
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://library.uic.edu">
-        Library
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uic.edu/depts/dos/studentveteranaffairs.shtml">
-        Veterans Affairs
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://hospital.uillinois.edu">
-        University of Illinois Hospital &amp; Health Sciences System
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/acerca">
-        Acerca de la UIC (en español)
-    </a>
-</li>                                            </ul>
-                </div>
-                <div class="l-col-3-12">
-                    <div class="ms-row">
-                        <div role="navigation" class="s-col-1-2 l-col-1-1" aria-label="Calls to Action">
-                            <ul class="footer-button-list">
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/visit-us" role="button">
-                Book a Visit
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/undergraduate/request-information" role="button">
-                Request Info
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/apply-now" role="button">
-                Apply Now
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="/alumni/give" role="button">
-                Give
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://uicalumni.org/" role="button">
-                Join Alumni Association
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="/about/contact-us" role="button">
-                Contact Us
-            </a>
-        </li>
-    </ul>                        </div>
-                        <div class="s-col-1-2 l-col-1-1 footer-social-icons-cell">
-                            <ul class="social-icons-list">
-            <li>
-            <a href="https://www.facebook.com/uic.edu">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>            </a>
-        </li>
-                <li>
-            <a href="https://twitter.com/thisisuic">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>            </a>
-        </li>
-                <li>
-            <a href="https://instagram.com/uicamiridis/">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>            </a>
-        </li>
-                    <li>
-            <a href="https://www.youtube.com/user/thisisUIC">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>            </a>
-        </li>
-                    <li>
-            <a href="http://uicscience.tumblr.com/">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Tumblr</title><path d="M15.1 24.2c2.8.7 5.6-.9 5.6-.9v-3c-.8.9-2.6 1.1-3.9.7-1.2-.3-1.1-2-1.1-2v-5.7h4.4v-3h-4.4V5.6H13c-.3 5.1-3.8 5-3.8 5v2.7h2v6.8c.1 2.2 1.1 3.4 3.9 4.1z"/></svg>            </a>
-        </li>
-                        <li>
-            <a href="https://news.uic.edu/social-media-directory">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>More links</title><path d="M15 5C9.5 5 5 9.5 5 15s4.5 10 10 10 10-4.5 10-10S20.5 5 15 5zm4.7 11H16v3.7h-2V16h-3.7v-2H14v-3.7h2V14h3.7v2z"/></svg>            </a>
-        </li>
-    </ul>                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-legal">
-        <div class="ms-grid">
-            <div class="ms-row">
-                <div class="l-col-1-2">
-                    &copy; 2016 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span> <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a>
-                </div>
-                <div class="l-col-1-2 campuses">
-                                            <a href="http://www.uillinois.edu/">University of Illinois</a> <span class="pipe-separator">|</span>
-                                            <a href="http://www.illinois.edu/">Urbana-Champaign</a> <span class="pipe-separator">|</span>
-                                            <a href="http://www.uis.edu/">Springfield</a> 
-                                    </div>
-            </div>
-        </div>
-    </div>
-  <a href="https://plus.google.com/+UicEdu" rel="publisher" hidden>UIC on Google+</a>
-</footer>
-
-<link rel="stylesheet" href="/css/main.min.css" media="all"><script src="/js/concat/main.min.js"></script><script src="//www.uic.edu/inc/emergency/alert.js"></script></body></html>
+	</body>
+</html>

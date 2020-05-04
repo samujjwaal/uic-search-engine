@@ -1,1623 +1,1453 @@
-  
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
-<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
-<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js" lang="en-US"> <!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="fragment" content="!">
 
-    <head>
 
-<!-- Google Analytics script (RED and this site) -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+
+
+
+
+    <script>
+    var slowPost = window.setTimeout(function() {
+        var el = document.querySelector('.slow-connection-notice');
+        if (typeof el != 'undefined') {
+            el.style.display = 'block';
+        }
+    }, 30000);
+
+    window.addEventListener('load', function() {
+        window.clearTimeout(slowPost);
+    }, false);
+    </script>
+    <noscript aria-hidden="true">
+        This page is taking to long to load, please try later
+    </noscript>
+
+    <link rel="search" type="application/opensearchdescription+xml" title="Exposure" href="/opensearch.xml">
+
+    <title>Celebration by UIC Creative &amp; Digital Services - UIC Lens | An Empowering Visual Experience</title>
+
+
+    <link rel="stylesheet" media="all" href="https://d1dh4fomm3d62b.cloudfront.net/assets/application-d7027687f7b27a5ce7fc015ad369b056fee621e488126dc5a959e01641a0c0e7.css" />
+
+    <noscript>
+      <link rel="stylesheet" media="all" href="https://d1dh4fomm3d62b.cloudfront.net/assets/application-d7027687f7b27a5ce7fc015ad369b056fee621e488126dc5a959e01641a0c0e7.css" />
+    </noscript>
+
+    <!-- Modernizr -->
+    <script src="https://d1dh4fomm3d62b.cloudfront.net/assets/modernizr.bundle-8344a70f1a914d44ef19fb0031ea3e6c0365a6969cb82ea6465f38be035b3e51.js"></script>
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="hgz5rQZ6EPAP9ySoCziliwLQJvkiMsNrtDFeQNc+aoI97qzCAeEzIR01trKIf2AdyS7gpTADG+zAuyfyiL1OoQ==" />
+
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.rss" />
+    
+
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&amp;key=AIzaSyCkXanAZ7bcHQez8--VfPYDVwQwgwmG54I"></script>
+
+    <meta name="google-site-verification" content="5oSfqCEF_tpnFz4hqvIw-c7nRX_4cYXfVHbmHNnqcBY" />
+    <meta name="google-site-verification" content="i96eKhxprjke1Aa-fbkT8_FhvU3LAuSMM2yXv-phRM0" />
+    <meta name="google-site-verification" content="z01s33rmTxmFI9kulAPj5aduq2MG0ubdUqv4Xepp18E" />
+    <meta name="msvalidate.01" content="17B3807D50A65EEB366D7C82472971A6" />
+    <meta name="p:domain_verify" content="48ce7497dd58f907fda0037e6c21e59d"/>
+
+    <meta name="theme-color" content="#292525">
+
+   <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5">
+   <meta name="apple-mobile-web-app-capable" content="yes">
+   <meta name="apple-mobile-web-app-status-bar-style" content="black">
+   <meta name="HandheldFriendly" content="true">
+
+    <link rel="shortcut icon" href="https://exposure.imgix.net/production/users/180875/avatar/original-1583792289.png?w=256&amp;h=256&amp;fit=crop&amp;q=95&amp;fm=pjpg&amp;auto=format">
+    <link rel="apple-touch-icon-precomposed" href="https://exposure.imgix.net/production/users/180875/avatar/original-1583792289.png?w=256&amp;h=256&amp;fit=crop&amp;q=95&amp;fm=pjpg&amp;auto=format">
+
+    <meta property="og:title" content="Celebration - UIC Lens | An Empowering Visual Experience">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.lens.uic.edu/celebration">
+        <meta property="og:image" content="https://exposure.imgix.net/production/posts/394761/cover-photo/cover-1588871119.jpg?fit=crop&amp;w=1200&amp;h=630&amp;q=50&amp;sharp=10&amp;fm=pjpg&amp;auto=format&amp;crop=faces">
+        <meta property="og:image" content="https://exposure.imgix.net/production/photos/84pmw9l1hu6ldqo1z3geend00ewjfz5qe074/original.jpg?fit=crop&amp;w=1200&amp;h=630&amp;fm=pjpg&amp;auto=format&amp;crop=faces">
+        <meta property="og:image" content="https://exposure.imgix.net/production/photos/0aecxcbnsfc4hlh09vlclzuvvny3iy3qsbto/original.JPG?fit=crop&amp;w=1200&amp;h=630&amp;fm=pjpg&amp;auto=format&amp;crop=faces">
+        <meta property="og:image" content="https://exposure.imgix.net/production/photos/b1udye21ndhugomrthh2ujn3973orrmlt77w/original.jpg?fit=crop&amp;w=1200&amp;h=630&amp;fm=pjpg&amp;auto=format&amp;crop=faces">
+        <meta property="og:image" content="https://exposure.imgix.net/production/photos/cusdz3yp5vnkzq55hkae898vkjwwtg7urhed/original.JPG?fit=crop&amp;w=1200&amp;h=630&amp;fm=pjpg&amp;auto=format&amp;crop=faces">
+        <meta property="og:image" content="https://exposure.imgix.net/production/photos/65ox52xpw2ndoliqxo5oxcdwxzvjjarywoaj/original.jpg?fit=crop&amp;w=1200&amp;h=630&amp;fm=pjpg&amp;auto=format&amp;crop=faces">
+        <meta property="og:image" content="https://exposure.imgix.net/production/photos/5g4mjhcrygwd26fiqeoeww14cc9nrrs4ccg9/original.jpg?fit=crop&amp;w=1200&amp;h=630&amp;fm=pjpg&amp;auto=format&amp;crop=faces">
+        <meta property="og:image" content="https://exposure.imgix.net/production/photos/a3tkxr27pjz6b9u7vlnfen5e80m4f3alhmj5/original.jpg?fit=crop&amp;w=1200&amp;h=630&amp;fm=pjpg&amp;auto=format&amp;crop=faces">
+        <meta property="og:image" content="https://exposure.imgix.net/production/photos/hvfeka2vy6qx8u4bztvxfv39immejde4yij4/original.JPG?fit=crop&amp;w=1200&amp;h=630&amp;fm=pjpg&amp;auto=format&amp;crop=faces">
+        <meta property="og:image" content="https://exposure.imgix.net/production/photos/wk6s22kewkdvqqneatq7pdht4b219ub398kf/original.jpg?fit=crop&amp;w=1200&amp;h=630&amp;fm=pjpg&amp;auto=format&amp;crop=faces">
+        <meta property="og:image" content="https://exposure.imgix.net/production/photos/qdibcfl04alu9bncm3wwb0ezc7hvjdpdwwyy/original.JPG?fit=crop&amp;w=1200&amp;h=630&amp;fm=pjpg&amp;auto=format&amp;crop=faces">
+
+    <meta property="og:site_name" content="Exposure">
+    <meta property="og:description" content="While we must wait to congratulate you in person, we cheer you on for your hard work, resilience and accomplishment during UIC’s virtual celebration on May 16. We couldn’t be prouder of you. You have shown great determination and perseverance throughout your time at UIC, and now, in the midst of the most challenging times, we are certain you will make the world a better place for all of us.">
+
+    <meta name="thumbnail" content="https://exposure.imgix.net/production/posts/394761/cover-photo/cover-1588871119.jpg?fit=crop&amp;w=1200&amp;h=630&amp;q=50&amp;sharp=10&amp;fm=pjpg&amp;auto=format&amp;crop=faces">
+
+    <!-- Standard Meta tags -->
+    <!-- Twitter Cards -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@exposure">
+        <meta name="twitter:title" content="Celebration">
+        <meta name="twitter:description" content="While we must wait to congratulate you in person, we cheer you on for your hard work, resilience and accomplishment during UIC’s virtual celebration on May 16. We couldn’t be prouder of you. You have shown great determination and perseverance throughout your time at UIC, and now, in the midst of the most challenging times, we are certain you will make the world a better place for all of us.">
+        <meta name="twitter:image:src" content="https://exposure.imgix.net/production/posts/394761/cover-photo/cover-1588871119.jpg?fit=crop&amp;w=1200&amp;h=675&amp;q=50&amp;sharp=10&amp;fm=pjpg&amp;auto=format&amp;crop=faces">
+        <meta name="twitter:creator" content="UIClife">
+
+    <meta name="current-user" content="">
+    <meta name="user-plan" content="free">
+    <meta name="user-is-pro-or-biz" content="">
+    <meta name="user-bucket" content="none">
+
+        <meta name="keywords" content="Wayne,Odle,photos,photography,Celebration">
+        <meta name="description" content="While we must wait to congratulate you in person, we cheer you on for your hard work, resilience and accomplishment during UIC’s virtual celebration on May 16. We couldn’t be prouder of you. You have shown great determination and perseverance throughout your time at UIC, and now, in the midst of the most challenging times, we are certain you will make the world a better place for all of us.">
+
+    <link rel="canonical" href="https://www.lens.uic.edu/celebration">
+
+    <script>
+    var EXPOSURE_HOST = 'www.uic.edu',
+        EXPOSURE_ROOT_HOST = 'exposure.co',
+        EXPOSURE_IMAGE_PROXY = 'imgix',
+        EXPOSURE_IMGIX_PREFIX = 'exposure',
+        EXPOSURE_ENV = 'production',
+        EXPOSURE_S3_KEY = 'AKIAJN6XXUC2VFC6CGKA',
+        EXPOSURE_S3_POLICY = 'eyJleHBpcmF0aW9uIjoiMjAyMC0wNS0xMlQxMjozOTo0NS4wMDBaIiwiY29uZGl0aW9ucyI6W3siYnVja2V0IjoiZXhwb3N1cmUtbWVkaWEifSxbInN0YXJ0cy13aXRoIiwiJGtleSIsIiJdLFsic3RhcnRzLXdpdGgiLCIkQ29udGVudC1UeXBlIiwiIl0seyJhY2wiOiJwdWJsaWMtcmVhZCJ9XX0=',
+        EXPOSURE_S3_SIGNATURE = 'isDTC4F+hQu6ppYuCjxedkOMVuc=',
+        EXPOSURE_S3_BUCKET_NAME = 'exposure-media';
+        EXPOSURE_MAX_CATS = false,
+        EXPOSURE_ROOT_URL = 'https://exposure.co/';
+    </script>
 
     
-        ga('create', 'UA-20665772-1', 'auto');
-    
-        ga('create', 'UA-102819527-13', 'auto', 'csTracker');
-    
-        ga('send', 'pageview');
-    
-        ga('csTracker.send', 'pageview');
-      </script>
-<!-- End Google Analytics script (RED and this site) -->
+
+
+<style>
+
+/* Stories */
+/* Header */
+#post header #cover-image:after {background:#000;opacity:0.5;}
+#post header #cover-image .post-titles h1,#post header #cover-image .post-titles h2 {color:#fff;}
+
+/* Post Body */
+#post,.cover-layout-two-fold #post header #cover-image {background:#fff !important;}
+.photo-set-group .photo img {border-color:#fff;}
+
+/* Text Styles */
+.group .group-details,.group .group-details p,.group .group-details .group-description blockquote,.group.left-aligned blockquote {color:#000;border-color:#000 !important;}
+.group .group-details h2,.group .group-details h4 {color:#000;}
+#post .post-footnotes b {color:#000 !important}
+.post-location-tag .location-lookup {background: #fff;text-align: center;padding: 9px 0;border-radius: 2px;}
+
+.group .group-details a {color:#000;}
+.group .group-details a:hover {opacity:0.8;}
 
 
 
-<!-- Google Tag Manager script for RED multisite -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
-              (window,document,'script','dataLayer','GTM-W2Q8D2K');
-  </script>
-<!-- End Google Tag Manager script for RED multisite -->
 
 
 
 
 
 
-        <title>
-                            Computer Science students earn research, student scholarships to attend Grace Hopper Celebration | Department of Computer Science | University of Illinois at Chicago
-                    </title>
 
 
 
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="pingback" href="https://cs.uic.edu/xmlrpc.php" />
 
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60.png" />
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png" />
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76.png" />
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
-<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
-<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
-<link rel="icon" type="image/png" href="/favicon-128.png" sizes="128x128" />
-<meta name="application-name" content="&nbsp;"/>
-<meta name="msapplication-TileColor" content="#FFFFFF" />
-<meta name="msapplication-TileImage" content="mstile-144x144.png" />
-<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
-<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
-<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
-<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 
-    <link rel="stylesheet" href="https://cs.uic.edu/wp-content/themes/uic-red/main.css?v=1587475706" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://cs.uic.edu/wp-content/themes/uic-red/theinhardt.css?v=1587475706" type="text/css" media="all">
 
-    <link rel='dns-prefetch' href='//www.uic.edu' />
-<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
-<link rel='dns-prefetch' href='//s.w.org' />
-		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cs.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6"}};
-			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
+
+
+
+
+
 </style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='https://cs.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6' type='text/css' media='all' />
-<link rel='stylesheet' id='sb_instagram_styles-css'  href='https://cs.uic.edu/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.12.1' type='text/css' media='all' />
-<link rel='stylesheet' id='sb-font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='tablepress-default-css'  href='https://cs.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
-<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
-<link rel='https://api.w.org/' href='https://cs.uic.edu/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cs.uic.edu/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cs.uic.edu/wp-includes/wlwmanifest.xml" /> 
 
-<script type="text/javascript">
-(function(url){
-	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
-	var addEvent = function(evt, handler) {
-		if (window.addEventListener) {
-			document.addEventListener(evt, handler, false);
-		} else if (window.attachEvent) {
-			document.attachEvent('on' + evt, handler);
-		}
-	};
-	var removeEvent = function(evt, handler) {
-		if (window.removeEventListener) {
-			document.removeEventListener(evt, handler, false);
-		} else if (window.detachEvent) {
-			document.detachEvent('on' + evt, handler);
-		}
-	};
-	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
-	var logHuman = function() {
-		if (window.wfLogHumanRan) { return; }
-		window.wfLogHumanRan = true;
-		var wfscr = document.createElement('script');
-		wfscr.type = 'text/javascript';
-		wfscr.async = true;
-		wfscr.src = url + '&r=' + Math.random();
-		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
-		for (var i = 0; i < evts.length; i++) {
-			removeEvent(evts[i], logHuman);
-		}
-	};
-	for (var i = 0; i < evts.length; i++) {
-		addEvent(evts[i], logHuman);
-	}
-})('//cs.uic.edu/?wordfence_lh=1&hid=84C75B5C09B70C4D26F5A71C08815535');
-</script>
+
+
+
+
+
+
+
+
+
+
+
+    
+  <!-- Exposure font Selection  -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&display=fallback" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open Sans:400,400i,700,700i&display=fallback" rel="stylesheet">
+
+  <style>
+
+
+  /*If custom fonts*/
+
+  /*If no custom fonts, so the Exposure selection*/
+  /*Bunch of legacy resets*/
+  .type-theme-heading,
+  .type-theme-serif .type-theme-heading,
+  .type-theme-sans-serif .type-theme-heading,
+  .type-theme-sans-serif .type-theme-heading.type-theme-heading-reset,
+  .type-theme-serif .story .type-theme-heading
+
+  {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    letter-spacing:  !important;
+  }
+
+  .type-theme-body,
+  .group-details p,
+  .type-theme-serif .type-theme-body,
+  .type-theme-sans-serif .type-theme-body
+  {
+    font-family: 'Open Sans', sans-serif !important;
+  }
+
+
+  /*Dropcap weight*/
+  .group.dropcap .group-details p:first-child::first-letter {
+    font-weight: bold !important;
+  }
+
+  /*Brand colors*/
+  .brand-main-color  { color:#000 !important;}
+  .brand-accent-color{ color:#D50032 !important;}
+
+  .brand-main-color-bg  { background-color:#000 !important;}
+  .brand-accent-color-bg{ background-color:#D50032 !important;}
+
+  .brand-link-color  { color:#000 !important;}
+  .brand-link-color-bg{ color:#000 !important;}
+
+  .brand-body-color  { color:#000 !important;}
+  .brand-body-color-bg{ color:#000 !important;}
+
+  .brand-menu-accent-hint {
+    border-top:solid 5px #D50032 !important;
+  }
+
+  .group .photo-set .photo-caption {
+    border-color: #fff !important;
+  }
+
+  /*Color theme buttons*/
+  .color-theme-button, #member-site.layout-broadcast #stories .read-more-button, #post .group-description h6 a{
+    background-color:#000 !important;
+    color:#fff !important;
+    border-radius: 3px  !important;
+  }
+
+  </style>
+
+
+
 </head>
-      
-  <body>
 
-<!-- Google Tag Manager for RED multisite (noscript) -->
+
+<body data-search-page="1"
+  class="
+    
+    
+    cover-layout-default
+    
+    type-theme-classic
+    classic
+     
+     
+    remove-branding
+    "
+    data-upgraded=""
+    data-can-publish="">
+
+
+
+
+
+
+
+<script>
+  if (window.jQuery === undefined)
+    document.write('<script src=\"https://d1dh4fomm3d62b.cloudfront.net/assets/jquery/jquery-62c43b7f60fb1c68a21df95d5dfe2287cf80c89755ce761ac66f31617033a59d.js\"><\/script>')
+  if (window.ExposureSite === undefined)
+    document.write('<script src=\"https://d1dh4fomm3d62b.cloudfront.net/assets/app_v2/sites/base-e1b4ad037524990954a2e833ca102f6f180160e7f454fa6a5df2439eacb8e513.js\"><\/script>')
+  if (window.$ExposureFeed === undefined)
+    document.write('<script src=\"https://d1dh4fomm3d62b.cloudfront.net/assets/v2/feed-571a65e4e9c85503a97fbabd4e2f811a52caa24bb8c9682419db32eb6e422fda.js\"><\/script>')
+</script>
 <noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2Q8D2K" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+Please enable Javascript
 </noscript>
-<!-- End Google Tag Manager for RED multisite (noscript) -->
 
 
 
 
 
-  
-  
 
-  
-  
-
-  <div class="l-page news-template-default single single-news postid-2684 post-type--news  site-type-b theme--navy no-sidebar  ">
-
-
-    <!--[if lte IE 9]>
-<div class="browser-stripe u-dark-region">
-  <div class="l-full">
-      <h2>Your browser is unsupported</h2>
-      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
-  </div>
-</div>
-<![endif]-->
-<div class="browser-stripe u-dark-region ie10">
-  <div class="l-full">
-      <h2>Your browser is unsupported</h2>
-      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
-  </div>
-</div>
-    
-<header class="l-header" role="banner">
-
-  
-  <div class="header-navigation">
-
-      <div id="skip" class="skip-menu assistive-text">
-  <p>
-    <span class="_main">
-    <a href="#article">Skip to the content of this page</a>,
-    </span>
-    <a class="_primary-menu" href="#menu-main">the main menu</a>,
+<div id="main-wrapper">
 
     
-    
-    <a class="_search" href="#search">the site search form</a>,
-
-    <a class="_home" href="https://cs.uic.edu">the site home page</a>.
-  </p>
+<div class="skip-to-wrapper absolute py2 mt4 col-12 center pointer-events-none sm-remove" style="z-index:999999;">
+ <a href="#post-content" class="btn btn-primary pill h6 caps box-shadow-xsm skip-to-content zfu" title="Skip to content of story">
+   Skip to content
+   <span>↓</span>
+ </a>
 </div>
 
-      <div class="eyebrow-mobile-wrapper js-eyebrow-mobile">
-<div class="eyebrow-mobile">
-            <div class="eyebrow-mobile-logo eyebrow-logo">
-            <a href="http://uic.edu" class="uic-logo-icon eyebrow-mobile-logo__uic-logo">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
+
+
+
+<div id="post"
+  data-is-toggle-cover-overlay="true"
+  data-is-toggle-cover-titles="true"
+  data-is-lightbox-toggle="true"
+  data-is-toggle-publish-date="false"
+  data-is-animation-effects="true"
+  data-is-published="true"
+  data-slug="celebration"
+  data-id="394761"
+  data-author-viewing="false"
+  data-base-font-size="default"
+  class="global-drag-and-drop     false-author">
+
+      <div class='story-menu-buffer hide-on-embed'></div>
+<div class='bg-white border-bottom brand-menu hide-on-embed layout-left left-0 nowrap relative sticky top-0 trans-bouncy width-100per z3' style='max-height:93px'>
+<div class='center py3 nav-wrapper relative'>
+<div class='brand-mobile-menu-hook md-p2 p1 md-mr0 md-hide relative'>
+<a class='btn bg-transparent p1 pl0 rounded h2 relative off-black'>
+<span class='icon-menu trans-bouncy relative' style='top:2px;'></span>
 </a>
-    </div>
-                <div class="site-title-eyebrow-mobile">
-          <a href="https://cs.uic.edu">Department of Computer Science</a>
-        </div>
-    
-    <button aria-label="Search the site" class="search-toggle-mobile js-search-toggle-mobile">
-  <span class="icon-search ">
-        <span class="assistive-text">Search the site</span>
-      </span>
-    </button>
-    <button class="nav-header-toggle js-nav-header-toggle">
-      <span class="icon-menu ">
-      Toggle Menu
-      </span>
-    </button>
-  </div>
-  <div class="search-input-container-mobile">
-    <div class="search-input-container-mobile__content">
-      <div class="search-title">
-        Search
-        <a class="search-close search-toggle-mobile">
-          <svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22">
-            <use xlink:href="https://cs.uic.edu/wp-content/themes/uic-red/images/svgs/svgs.svg#icon-close"></use>
-          </svg>
-        </a>
-      </div>
-      <form method="get" action="/search" role="search" aria-label="Search this site on your mobile device">
-        <input type="text" name="q" class="search-input-mobile" placeholder="Search..." tabindex="-1" aria-label="Search this site on your mobile device" disabled="">
-        <input type="submit" class="submit-button" name="search" value="Submit">
-      </form>
-    </div>
-  </div>
+</div>
+<a class='hover-fade relative no-ul sm-mr3 border-none sm-h2 h3 bold brand-menu-display-name sm-mr1 nowrap truncate black type-theme-heading regular' href='https://www.lens.uic.edu/' style='max-width:300px;display:none;line-height: 1.5;' title='UIC Creative &amp; Digital Services'>
+UIC Creative &amp; Digital Services
+</a>
+<a class='inline-block member-logo-wrapper hover-fade no-ul clearfix mb2 no-ul border-none transparent' href='https://www.lens.uic.edu/' style='max-width:180px;border:none !important; '>
+<div class='flex flex-center'>
+<img alt='UIC Creative &amp; Digital Services' class='logo mx-auto border-none' src='https://exposure.imgix.net/production/users/180875/brand-logo/logo-1583792018.png?q=300'>
+</div>
+</a>
+<div class='link-wrapper'>
+<div class='nav-links md-show nowrap md-mr2 overflow-hidden flex flex-auto'>
+<div class='col-12 clearfix'>
+<div class='nowrap overflow-x-auto overflow-y-hidden touch-scroll left-align'>
+<a class='black mr3 border-none no-ul trans-ease-in-out type-theme-heading h5 caps bold' href='https://creative.uic.edu/' onclick="ga('send', 'event', { eventCategory: 'Sports Navigation', eventAction: 'Click', eventLabel: 'Left items'})" target='_blank'>
+Creative Services 
+</a>
+<a class='black mr3 border-none no-ul trans-ease-in-out type-theme-heading h5 caps bold' href='https://uic.photoshelter.com/galleries/C0000OZl56tPPbrQ/Campus-Stock' onclick="ga('send', 'event', { eventCategory: 'Sports Navigation', eventAction: 'Click', eventLabel: 'Left items'})" target='_blank'>
+UIC Stock Images
+</a>
+<div class='exposure-native-items inline-block' style='margin-top: -9px;'>
+<div class='wrapper' style='height: 24px;'>
+<a class='black mr3 border-none no-ul trans-ease-in-out type-theme-heading h5 caps bold' href='https://www.lens.uic.edu/categories' title='See all categories'>
+Categories
+</a>
+<div class='inline-block h5 mxn2 relative' style='bottom:1px;'>
+<a class='btn caps hover-fade email-link type-theme-heading color-theme pill' href='https://www.lens.uic.edu/site/contact' id='email-link' title='UIC Creative &amp; Digital Services Email'>
+Contact
+</a>
+
+</div>
+</div>
 </div>
 
-    <div class="header-navigation__eyebrow">
-
-                    <div class="header-navigation-logo header-logo">
-                        <a href="http://uic.edu" class="uic-logo-icon header-navigation-logo__uic-logo">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
+</div>
+</div>
+<div class='mt2 social-wrapper'>
+<nav class='member-social-links muted'>
+<a class='icon-twitter no-ul hover-fade m0 off-black px1 hover-lift relative border-none mb1 inline-block color-theme' href='https://twitter.com/UIClife' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Clicked Twitter social link'})" rel='noopener' style='top:-1px;' target='_blank' title='UIC Creative &amp; Digital Services on Twitter'>
+<span class='hide'>Twitter</span>
 </a>
-            </div>
-                <div class="header-navigation__eyebrow-menus">
-
-            <div class="header-navigation__logo-and-site-title">
-
-                                <div class="site-title-main ">
-                                      <a href="https://cs.uic.edu">Department of Computer Science</a>
-                                    </div>
-              
-            </div>
-          <nav class="header-menus js-header-menus " aria-label="Primary" role="navigation">
-
-  <div class="site-title-mobile-menu">
-    <a href="https://cs.uic.edu">Department of Computer Science</a>
-  </div>
-
-  
-  <h2 class="assistive-text">Main Menu</h2>
-  <ul id="menu-main" class="menu menu-main" aria-label="Main Menu">
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-484 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/undergraduate/"
-        target="_self">
-
-        Undergraduate
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Undergraduate menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Undergraduate menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-617">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/admitted-students/"
-                  target="_self">
-
-                  Admitted Students
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1466">
-                <a 
-                  class="menu-main__second-link"
-                  href="http://engineering.uic.edu/undergraduate-admissions/"
-                  target="_blank">
-
-                  Admissions
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2773">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/abet-accreditation/"
-                  target="_self">
-
-                  Accreditation
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-471">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/cs-major/"
-                  target="_self">
-
-                  CS Major
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1308">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/cs-minor/"
-                  target="_self">
-
-                  CS Minor
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1490">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/undergrad-courses/"
-                  target="_self">
-
-                  Courses
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3193">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/internships-and-jobs/"
-                  target="_self">
-
-                  Internships and Jobs
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1393">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/student-organizations/"
-                  target="_self">
-
-                  Student Groups
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-480">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/student-profiles/"
-                  target="_self">
-
-                  Student Profiles
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-481">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/student-resources/"
-                  target="_self">
-
-                  Student Resources
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3580">
-                <a 
-                  class="menu-main__second-link"
-                  href="/undergraduate/women/"
-                  target="_self">
-
-                  Women in CS
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1313 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/graduate/"
-        target="_self">
-
-        Graduate
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Graduate menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Graduate menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-470">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/admitted-students/"
-                  target="_self">
-
-                  Admitted Students
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-469 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/admissions/"
-                  target="_self">
-
-                  Admissions
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1578">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/graduate-courses/"
-                  target="_self">
-
-                  Courses
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-472 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/ms-program/"
-                  target="_self">
-
-                  MS Program
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-521 menu-item-has-children">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/phd/"
-                  target="_self">
-
-                  PhD Program
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-538">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/cs-dissertations/"
-                  target="_self">
-
-                  PhD Dissertations
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1012">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/post-grad-outcomes/"
-                  target="_self">
-
-                  Post-Graduation Outcomes
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-479">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/student-profiles/"
-                  target="_self">
-
-                  Student Profiles
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1323">
-                <a 
-                  class="menu-main__second-link"
-                  href="/graduate/graduate-student-resources/"
-                  target="_self">
-
-                  Student Resources
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-478 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/cs-research/"
-        target="_self">
-
-        Research
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Research menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Research menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-559">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-research/research-areas-2/"
-                  target="_self">
-
-                  Research Areas
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-557">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-research/labs/"
-                  target="_self">
-
-                  Labs
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-556">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-research/lectures-seminars/"
-                  target="_self">
-
-                  Lectures and Seminars
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2045">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-research/reus/"
-                  target="_self">
-
-                  Research Experiences for Undergraduates
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-467 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/faculty-staff/"
-        target="_self">
-
-        Faculty and Staff
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Faculty and Staff menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Faculty and Staff menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-568">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/department-head/"
-                  target="_self">
-
-                  Department Head
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-453">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/faculty/"
-                  target="_self">
-
-                  Faculty
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-451">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/emeritus-faculty/"
-                  target="_self">
-
-                  Emeritus Faculty
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2075">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/adjunct-faculty/"
-                  target="_self">
-
-                  Adjunct Faculty
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-450">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/staff/"
-                  target="_self">
-
-                  Staff
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1347">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/faculty-resources/"
-                  target="_self">
-
-                  Faculty Resources
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1346">
-                <a 
-                  class="menu-main__second-link"
-                  href="/faculty-staff/open-positions/"
-                  target="_self">
-
-                  Open Positions
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-567 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/cs-news/"
-        target="_self">
-
-        News
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand News menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand News menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2526">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-news/all-news/"
-                  target="_self">
-
-                  News Stories
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2527">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-news/press-mentions/"
-                  target="_self">
-
-                  Press Mentions
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1351 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/cs-events/"
-        target="_self">
-
-        Events
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Events menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Events menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2923">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-events/calendar/"
-                  target="_self">
-
-                  CS calendar
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2567">
-                <a 
-                  class="menu-main__second-link"
-                  href="/cs-events/student-opportunities/"
-                  target="_self">
-
-                  Student Opportunities
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-  </ul>
-
-  <div class="l-eyebrow">
-
-    <h2 class="assistive-text">Eyebrow menu</h2>
-    <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
-            <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
-            <a  href="/undergraduate/women/" target="_self">Break Through Tech</a>
-        </li>
-            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1940">
-            <a  href="https://engineering.uic.edu/support/" target="_blank">Giving</a>
-        </li>
-            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1939">
-            <a  href="http://engineeringalumni.uic.edu" target="_blank">Alumni</a>
-        </li>
-            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-569">
-            <a  href="http://engineering.uic.edu" target="_blank">UIC Engineering Home</a>
-        </li>
-    </ul>
-
-    <h2 class="assistive-text">UIC menu</h2>
-    <ul class="menu-uic">
-      <li class="_item">
-    <a href="http://uic.edu">UIC.edu</a>
-  </li>
-  <li class="_item">
-    <a href="http://maps.uic.edu/">Campus Map</a>
-  </li>
-</ul>
-
-
-
-    <div aria-label="Primary" role="search" class="search-wrapper">
-
-      <button id="search" class="search-toggle">
-        <span class="icon-search ">
-          <span class="assistive-text">Search</span>
-        </span>
-      </button>
-
-      <div class="search-input-container">
-        <div class="search-input-container__form">
-          <form method="get" action="/search" >
-            <input type="text" name="q" class="search-input" placeholder="Search..." tabindex="-1" aria-label="Search" disabled="">
-            <input type="submit" class="submit-button" name="search" value="Submit">
-          </form>
-        </div>
-      </div>
-
-    </div>
-
-
-  </div>
-
-
+<a class='icon-instagram no-ul hover-fade m0 off-black px1 hover-lift relative border-none mb1 inline-block color-theme' href='http://instagram.com/UIClife' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Clicked Instagram social link'})" rel='noopener' style='top:2px' target='_blank' title='UIC Creative &amp; Digital Services on Instagram'>
+<span class='hide'>Instagram</span>
+</a>
+<a class='icon-youtube no-ul hover-fade m0 off-black px1 hover-lift relative border-none mb1 inline-block color-theme' href='https://www.youtube.com/user/UIClife' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Clicked Youtube social link'})" rel='noopener' style='top:2px' target='_blank' title='UIC Creative &amp; Digital Services on YouTube'>
+<span class='hide'>Youtube</span>
+</a>
+<a class='icon-facebook no-ul hover-fade m0 off-black px1 hover-lift border-none mb1 inline-block color-theme' href='http://facebook.com/UIClife' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Clicked Facebook social link'})" rel='noopener' target='_blank' title='UIC Creative &amp; Digital Services on Facebook'>
+<span class='hide'>Facebook</span>
+</a>
+<a class='icon-pinterest no-ul hover-fade m0 off-black px1 hover-lift relative no-ul border-none mb1 inline-block color-theme' href='https://www.pinterest.com/UIClife' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Clicked Pinterest social link'})" rel='noopener' target='_blank' title='UIC Creative &amp; Digital Services on Pinterest'>
+<span class='hide'>Pinterest</span>
+</a>
+<a class='icon-rss no-ul hover-fade m0 off-black px1 hover-lift relative border-none mb1 inline-block color-theme' href='/feed.rss' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Clicked RSS social link'})" style='top:2px' target='_blank' title='UIC Creative &amp; Digital Services’s RSS Feed'>
+<span class='hide'>RSS</span>
+</a>
 </nav>
+
+</div>
+</div>
+<div class='subscribe-wrapper'>
+<div class='md-mt0 member-site-buttons nowrap'>
+<a class='btn btn-primary bg-off-black caps hover-fade sans-serif subscribe-to-stories-btn button-a pill sm-h6 h7 px2 mt2 color-theme-button' data-action='site-open-subscribe-modal' data-full-name='Wayne Odle' data-subs-count='15' href='https://www.lens.uic.edu/site/subscribe'>
+<span class='nowrap sm-show'>
+Subscribe
+</span>
+<span class='nowrap sm-hide'>
+Subscribe
+</span>
+</a>
+<div class='mt1 h6 button-a-sub-count' rel='tooltip-auto' style='padding:0 4px' title='15 people are subscribed to posts from Wayne Odle.'>
+With
+<b>
+15
+</b>
+others
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class='absolute bg-white border-bottom brand-menu brand-menu-mobile col-12 left-0 left-align md-hide overflow-hidden trans-bouncy z1'>
+<div class='p3 pt0 nav-links'>
+<a class='black mb2 border-none no-ul trans-ease-in-out type-theme-heading h5 caps bold block' href='https://creative.uic.edu/' onclick="ga('send', 'event', { eventCategory: 'Sports Navigation', eventAction: 'Click', eventLabel: 'Left items'})" target='_blank'>
+Creative Services 
+</a>
+<a class='black mb2 border-none no-ul trans-ease-in-out type-theme-heading h5 caps bold block' href='https://uic.photoshelter.com/galleries/C0000OZl56tPPbrQ/Campus-Stock' onclick="ga('send', 'event', { eventCategory: 'Sports Navigation', eventAction: 'Click', eventLabel: 'Left items'})" target='_blank'>
+UIC Stock Images
+</a>
+<div class='native-exposure-items'>
+<a class='black mb2 border-none no-ul trans-ease-in-out type-theme-heading h5 caps bold block' href='https://www.lens.uic.edu/categories' title='See all categories'>
+Categories
+</a>
+<div class='inline-block h5 mxn2 relative' style='margin-top: -13px;'>
+<a class='btn caps hover-fade email-link type-theme-heading color-theme pill' href='https://www.lens.uic.edu/site/contact' id='email-link' title='UIC Creative &amp; Digital Services Email'>
+Contact
+</a>
+
+</div>
+</div>
+<div class='social-wrapper'>
+<nav class='member-social-links muted'>
+<a class='icon-twitter no-ul hover-fade m0 off-black px1 hover-lift relative border-none mb1 inline-block color-theme' href='https://twitter.com/UIClife' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Clicked Twitter social link'})" rel='noopener' style='top:-1px;' target='_blank' title='UIC Creative &amp; Digital Services on Twitter'>
+<span class='hide'>Twitter</span>
+</a>
+<a class='icon-instagram no-ul hover-fade m0 off-black px1 hover-lift relative border-none mb1 inline-block color-theme' href='http://instagram.com/UIClife' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Clicked Instagram social link'})" rel='noopener' style='top:2px' target='_blank' title='UIC Creative &amp; Digital Services on Instagram'>
+<span class='hide'>Instagram</span>
+</a>
+<a class='icon-youtube no-ul hover-fade m0 off-black px1 hover-lift relative border-none mb1 inline-block color-theme' href='https://www.youtube.com/user/UIClife' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Clicked Youtube social link'})" rel='noopener' style='top:2px' target='_blank' title='UIC Creative &amp; Digital Services on YouTube'>
+<span class='hide'>Youtube</span>
+</a>
+<a class='icon-facebook no-ul hover-fade m0 off-black px1 hover-lift border-none mb1 inline-block color-theme' href='http://facebook.com/UIClife' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Clicked Facebook social link'})" rel='noopener' target='_blank' title='UIC Creative &amp; Digital Services on Facebook'>
+<span class='hide'>Facebook</span>
+</a>
+<a class='icon-pinterest no-ul hover-fade m0 off-black px1 hover-lift relative no-ul border-none mb1 inline-block color-theme' href='https://www.pinterest.com/UIClife' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Clicked Pinterest social link'})" rel='noopener' target='_blank' title='UIC Creative &amp; Digital Services on Pinterest'>
+<span class='hide'>Pinterest</span>
+</a>
+<a class='icon-rss no-ul hover-fade m0 off-black px1 hover-lift relative border-none mb1 inline-block color-theme' href='/feed.rss' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Clicked RSS social link'})" style='top:2px' target='_blank' title='UIC Creative &amp; Digital Services’s RSS Feed'>
+<span class='hide'>RSS</span>
+</a>
+</nav>
+
+</div>
+</div>
+</div>
+</div>
+<style>
+  .zsubscribe-wrapper .subscribe-to-stories-btn {
+    background: rgba(0,0,0,0.5)
+  }
+  
+  .member-site-meta-head {
+    display:none;
+  }
+  
+  .brand-menu .brand-menu-subscribe-hide .subscribe-to-stories-btn{
+    display:none !important;
+  }
+  
+  .display-brand-menu.cover-layout-two-fold #main-wrapper .nav-chrome .edit-post-button a {
+    color:#fff !important;
+  }
+  
+  /*Various story fixes*/
+  .story-menu-buffer {
+    display:none;
+  }
+  
+  .own-post .brand-menu{
+    top: 55px;
+  }
+  
+  .edit-mode .brand-menu{
+      margin-bottom: -94px;
+      opacity: 0;
+      transition-delay:0.5;
+      pointer-events:none;
+  }
+  
+  .own-post #post header {
+    height:87vh;
+  }
+  
+  .own-post .brand-menu-mobile {
+    top: 90px;
+  }
+  .own-post .story-menu-buffer {
+      display:block;
+      position:sticky;
+      width:100%;
+      height:55px;
+      background:#000;
+      top:0;
+      left:0;
+      z-index:99999
+    }
+  
+  #post header {
+    height:91vh;
+  }
+  
+  .cover-layout-two-fold .back-to-ex-site span {
+      color: #fff;
+  }
+  
+  .cover-layout-simple .back-to-ex-site span {
+      color: #fff !important;
+  }
+  
+  .cover-layout-two-fold #main-wrapper .pre-edit-post-button-group-wrapper a,.cover-layout-simple #main-wrapper .pre-edit-post-button-group-wrapper a {
+      color: #fff !important;
+  }
+  
+  .cover-layout-cliff #main-wrapper .pre-edit-post-button-group-wrapper a,.cover-layout-simple #main-wrapper .pre-edit-post-button-group-wrapper a {
+      color: #fff  !important;
+  }
+  
+  #main-wrapper .brand-menu {
+    z-index:99999
+  }
+  
+  .brand-menu .button-a-sub-count {
+    display:none;
+  }
+  
+  /*Hide home button in story covers*/
+  .cd-home {
+    display:none;
+  }
+  
+  .brand-menu .member-site-buttons {
+    margin-top:0px;
+  }
+  
+  /*Fix themes*/
+  .layout-edge-to-edge {
+    margin-top:-1rem;
+  }
+  
+  .layout-edge-to-edge {
+    margin-top:-1rem;
+  }
+  
+  .layout-zine {
+    margin-top:23px;
+  }
+  
+  .brand-menu.theme-dark {
+    border:none;
+    background:#111;
+    color:#fff !important;
+  }
+  
+  .brand-menu.theme-dark .nav-links a,.brand-menu.theme-dark  .brand-mobile-menu-hook .icon-menu {
+    color:#fff !important;
+  }
+  
+  /*Brand primary font and links color theme*/
+  .brand-menu.theme-brand-primary-font .nav-links a,.theme-primary-primary-font {
+    color: #000 !important;
+  }
+  
+  /*Brand accent font and links color theme*/
+  .brand-menu.theme-brand-accent-font .nav-links a,.theme-brand-accent-font {
+    color: #D50032 !important;
+  }
+  
+  .brand-menu.theme-brand-accent-font {
+    background: #000 !important;
+    color:#fff !important;
+  }
+  
+  /*Brand primary color theme*/
+  .brand-menu.theme-brand-primary, .subscribe-wrapper.theme-brand-primary .subscribe-to-stories-btn,.theme-brand-primary {
+    background: #000;
+    border-bottom:none;
+  }
+  
+  /*Brand accent color theme*/
+  .brand-menu.theme-brand-accent, .subscribe-wrapper.theme-brand-accent .subscribe-to-stories-btn {
+    background: #D50032 !important;
+    border-bottom:none;
+  }
+  
+  @media (max-width: 40em) {
+    .site-cta-btn {
+      display:none;
+    }
+  }
+</style>
+
+
+    <div class='animated fadeInUp' id='lightbox'>
+<div class='next-prev relative'>
+<div class='sm-px2'>
+<a class='prev-photo-hook btn hover-fade circle w-40 h-40 p0 center' data-action='prev' href='' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Prev in lightbox'})">
+<div class='icon-arrow-left white sm-h2 h3 relative' style='top:8px'></div>
+<span class='hide'>Previous Photo</span>
+</a>
+<a class='next-photo-hook btn hover-fade circle w-40 h-40 p0 center sm-mr1' data-action='next' href='' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Next in lightbox'})" style='top:-1px'>
+<div class='icon-arrow-right white sm-h2 h3 relative' style='top:8px'></div>
+<span class='hide'>Next Photo</span>
+</a>
+</div>
+</div>
+<div class='lightbox-wrapper'>
+<div class='absolute bottom-0 right-0 sm-p3 p1' style='z-index:9999999999999999999;'>
+<a class='download-hookbtn btn sm-h6 h4 caps' data-download-link onclick="ga('send', 'event', { eventCategory: 'Photo download', eventAction: 'Click', eventLabel: 'Clicked download from Story lightbox'})" style='z-index:3333333;'>
+<span class='icon-arrow-down'></span>
+<span class='sm-remove'>Download</span>
+</a>
+<div class='share-options relative lightbox' data-post-url='https://www.lens.uic.edu/celebration/photos/:id' data-realname='Wayne Odle' data-title='Celebration' data-twitter='UIClife' data-username='uiccds' style='z-index: 999999'>
+<!-- /Standard Twitter intent: "Check out this photo by @x (use fullname if no twitter handle present) [url]" -->
+<a class='twitter hide' data-proto='https://twitter.com/intent/tweet?url={url}&amp;text=Check out this photo by {bestname}&amp;hashtags=toldwithexposure&amp;related=exposure' href='' title='On Twitter'>Twitter</a>
+<!-- /Standard Facebook Share -->
+<a class='facebook hide' data-proto='https://www.facebook.com/sharer/sharer.php?u={url}' href='' title='On Facebook'>Facebook</a>
+<!-- /Pin a 500px wide version of the photo: "Story name by X" -->
+<a class='pinterest sm-remove white pill hover-fade px1 legacy' data-proto='http://www.pinterest.com/pin/create/button/?url={url}&amp;media={media}&amp;description={text}' href='' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Pinned photo from Story lightbox'})" rel='noopener' style='background:#ffffff' target='_blank' title='On Pinterest'>
+<span class='icon-pinterest red'></span>
+<span class='relative black' style='left:2px'>
+Pin
+</span>
+</a>
+<!-- /Subject:"Check out this photo on Exposure", Content:"[url]" -->
+<a class='email hide' data-proto='mailto:?subject=Check+out+this+photo+on+Exposure&amp;body={body}' href='' title='Via Email'>Email</a>
+</div>
+</div>
+<div class='nav-bar'>
+<div class='nav-bar-wrapper'></div>
+<a class='close-hook btn hover-fade circle w-40 h-40 p0 center' data-action='close' href='' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Close lightbox'})">
+<div class='icon-cross white sm-h2 h3 relative' style='top:8px'></div>
+<span class='hide'>Close Photo</span>
+</a>
+</div>
+<div class='photo-container'>
+<!-- /If link present -->
+<a class='big-damn-link zfu' href='' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Use lightbox URL'})" rel='noopener' target='_blank' title='Open link from photo'>
+<span class='hide'>
+Photo link
+</span>
+<span class='link-render'></span>
+</a>
+<div class='hitarea-controls edit-mode-component-hide'>
+<!-- /Large transparent hover areas. -->
+<a class='prev-hook-hitarea legacy' data-action='prev' href='' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Previous hitarea lightbox'})" title='Go to previous photo'>
+Previous Photo
+</a>
+<a class='next-hook-hitarea legacy' data-action='next' href='' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Next hitarea lightbox'})" title='Go to next photo'>
+Next Photo
+</a>
+<a class='exit-hook-hitarea legacy' data-action='close' href='' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Close hitarea lightbox'})" title='Close'>
+Close Photo
+</a>
+</div>
+<div class='photo-lid animated fadeInUp delay-0-4'>
+</div>
+</div>
+<div class='photo-meta pointer-events-none'>
+<div class='photo-meta-wrapper zfu'>
+<!-- /Render if caption exists -->
+<span class='h4 caption-render regular serif italic pointer-events-auto type-theme-body'></span>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="hide" data-sub-url="https://www.uic.edu/billing/subscribe?post=celebration"></div>
+<script type="text/javascript">
+  window.storyCategoriesSeed = {
+    member: [],
+    community: []
+  };
+  window.memberCategoriesSeed = [["academics","ACADEMICS",13115],["athletics","ATHLETICS",13112],["campus","CAMPUS",13114],["sports","SPORTS",13111],["students","STUDENTS",13113],["uic-life","UIC LIFE",13116]];
+</script>
+
+<noscript>Please enable Javascript</noscript>
+
+
+<header id="top" class="story-rhythm">
+      <a href="/" class="cd-home print-remove cd-home print-remove btn btn-primary bg-darken-5 caps sm-h6 h7 px1 btn-small pill" title="Home">Home</a>
+
+
+    <div class="absolute z3 right-0 top-0 header-enjoy p2 sm-px3 sm-mt1">
+      <div class='animated cursor-pointer delay-0-4s fadeInUp flex flex-center print-remove read-only small story-interaction zfu' data-agent='13ef708ec7a133a8fa30fdf28d524870a57d1bed' onclick="ga('send', 'event', { eventCategory: 'Click', eventAction: 'Story interaction', eventLabel: 'Interacted via story cover'})" oncontextmenu='return false;'>
+<div class='flex-auto mr1 caps bold sm-h5 h6 interaction-label relative trans-bouncy nowrap' rel='tipsy-e' title='Click to show UIC Creative &amp; Digital Services you enjoyed this story'>
+Enjoy<div class='inline-block ed relative trans-bouncy'>ed</div>
+</div>
+<div class='border border-double border-white center count-wrapper flex flex-center h-30 inline-block p1 pill relative trans-bouncy w-30 white z2'>
+<div class='absolute animated fadeOutUp none animated-slow interaction-icon h4' style='left:13px;top:-40%;'>
+<span>👍</span>
+</div>
+<div class='col-12 center bold h4 relative' style='width:60px;left:-10px'>
+<span class='enjoy-count sm-h4 h4 relative' style='width: 50px;display: block;'>
+12
+</span>
+</div>
+</div>
+</div>
+<style>
+  .interaction-label {
+    transform:translate(20px,0)
+  }
+  
+  .interaction-label.active {
+    transform:translate(0,0)
+  }
+  
+  .interaction-label.active .ed {
+    transform:translate(0,0);
+    opacity:1;
+  }
+  
+  .ed {
+    transform:translate(10px,0);
+    opacity:0;
+  }
+  
+  .interaction-large .count-wrapper {
+      min-width:60px !important;
+  }
+  
+  .interaction-large .count-wrapper {
+      min-width:60px !important;
+  }
+  
+  .interaction-large .interaction-label.active {
+    transform: translate(-19px,0);
+  }
+</style>
+
+    </div>
+
+  
+
+  
+  <div class="flex flex-center" id="cover-image">
+
+
+
+    <div class="photo-upload-progress zfu cover-photo-upload-progress absolute bottom-0 left-0 pointer-events-none p1 none edit-mode-component-none" style="width:74px;bottom:0;top: initial;height:40px">
+      <div class="px1 pill bg-darken-5 white h-30 flex flex-center animated fadeIn edit-mode-component-show">
+        <div class="ex-spinner mr1"></div>
+        <div class="h5 upload-percent">10%</div>
+      </div>
+    </div>
+
+
+
+    <div id="cover-image-container" class="absolute width-100per height-100per top-0 left-0 bg-cover bg-center animated fadeIn delay-0-3s">
+
+        <div id="video-container" class="">
+          <video id="cover-video" poster="https://exposure.accelerator.net/production/posts/394761/cover-video/cover-1588891990.mp4;frame(1).jpg" autoplay muted playsinline loop>
+              <source src="https://exposure.accelerator.net/production/posts/394761/cover-video/cover-1588891990.mp4;video/resize(1920,1080,fit)/crf(22).mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="cover-spinner z0"></div>
+
+      <img
+        alt="Story cover photo"
+        class="z1 relative no-select pointer-events-none cover-image-src object-fit-cover animated animated-slow o-0 trans-bouncy object-fit-center"
+        src="https://exposure.imgix.net/production/posts/394761/cover-photo/cover-1588871119.jpg?w=900&amp;q=50&amp;sharp=10&amp;fit=crop&amp;fm=pjpg&amp;auto=format"
+        srcset="https://exposure.imgix.net/production/posts/394761/cover-photo/cover-1588871119.jpg?w=1300&amp;q=50&amp;sharp=10&amp;fit=crop&amp;fm=pjpg&amp;auto=format 1300w, https://exposure.imgix.net/production/posts/394761/cover-photo/cover-1588871119.jpg?w=2000&amp;q=50&amp;sharp=10&amp;fit=crop&amp;fm=pjpg&amp;auto=format 2000w, https://exposure.imgix.net/production/posts/394761/cover-photo/cover-1588871119.jpg?w=3300&amp;q=50&amp;sharp=10&amp;fit=crop&amp;fm=pjpg&amp;auto=format 3300w"
+      >
+    </div>
+
+    <script>
+      var elements = document.querySelectorAll("#cover-image-container img");
+      Array.prototype.forEach.call(elements, function(el, i) {
+        if (el.complete) {
+          el.classList.add("fadeIn");
+        } else {
+          el.addEventListener("load", function() {
+            el.classList.add("fadeIn");
+          });
+        }
+
+        window.setTimeout(function() {
+          el.classList.add("fadeIn");
+        }, 10000);
+      });
+    </script>
+
+    <noscript>
+      Javascript will need to be enable to see cover photo effects
+    </noscript>
+
+
+    <div class="absolute bottom-0 left-0 p2 white hover-hidden zfu toggle-show-cover-photo no-select ">
+        <a class="icon-eye sm-h2 h3 no-ul border-none cursor-pointer edit-mode-component-hide" rel="tipsy-w" title="Toggle cover overlay" onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Toggle overlay'})">
+        </a>
+    </div>
+
+    <div class="absolute bottom-0 right-0 p2 white zfu no-select white animated fadeOut delay-10s edit-mode-component-hide scroll-hint print-remove sm-remove">
+
+      <div class="md-pill uber-rounded w-20 h-35 border relative animated fadeIn delay-2s" style="border:solid 2px #fff" rel="tipsy-e" title="Scroll down">
+
+            <div class="pill bg-white mx-auto mt1 animated fadeOutDown animated-loop animated-slow" style="width:4px;height:6px">
+
+            </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="post-titles center sm-col-11 px2 mx-auto animated fadeInUp delay-0-7s sm-mb3 mb4">
+      <div class="post-titles-wrapper trans-bouncy o1">
+          <h1 data-placeholder="Untitled Story" class="tour-tip type-theme-heading h0 lg-h00 sm-h0 sm-letter-spacing-1 col-11 type-theme-heading-reset m0" data-field-name="title">
+            Celebration
+          </h1>
+
+          <h2 class="serif type-theme-body animated fadeInUp delay-0-5s h3 lg-h1 sm-h2 col-12 type-theme-body mx-auto mb0 mt1" data-placeholder="Type a subtitle" data-field-name="subtitle">
+            Class of 2020
+          </h2>
         </div>
     </div>
 
-    
-  </div>
 
-    
-        
+    <div class="author-meta author-header animated fadeInUp delay-1s left-0">
+
+      <a href="/" class="author-avatar trans-bouncy" title="Link to UIC Creative &amp; Digital Services Exposure site" onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Avatar'})">
+        <img alt="UIC Creative &amp; Digital Services" src="https://exposure.imgix.net/production/users/180875/avatar/original-1583792289.png?w=200&amp;h=200&amp;fit=crop&amp;q=95&amp;fm=pjpg&amp;auto=format" />
+      </a>
+
+      <div class="author-details">
+
+        <span class="name"><b class="type-theme-body inline-block regular">By</b> <a href="/" class="type-theme-heading">UIC Creative &amp; Digital Services</a></span>
+
+
+      <div class="categories-details-render-wrap">
+        <div class="categories-details-render">
+        </div>
+      </div>
+
+        <span class="post-date type-theme-body story-published-date" style="">
+          May 8<sup>th</sup>, 2020
+        </span>
+      </div>
+
+
+    </div>
+
+  </div> <!-- .cover-image -->
+
+  <script>
+    $(window).ready(function() {
+      var video = $('#cover-video source').get(0);
+      var src = video.src;
+      var regex = /resize\((\d+),(\d+),fit\)/ig;
+      var match = regex.exec(src)
+
+      if (match && typeof window.matchMedia === 'function') {
+        var width = match[1];
+        var height = match[2];
+
+        const mq = window.matchMedia("(max-width: 480px)");
+        function watch() {
+          if (mq.matches) {
+            video.src = src.replace('resize('+ width +','+ height+',fit)', 'resize(920,1200,fit)')
+          } else {
+            video.src = src
+          }
+        }
+
+        mq.addListener(watch);
+        watch();
+      }
+
+    })
+  </script>
+
+
 </header>
 
-    <main id="main" class="l-content-wrapper" role="main">
 
-      
-                
-	      
-      <div class="l-full">
+    <div id="post-content" class="clearfix">
 
-        <div class="l-content ">
 
-          
-                                        
-          <article class="post-type-news" id="article">
-            
-      <div class="intro-text">
+        <div class="photo-groups-container">
+        </div>
 
-                      <h1 class="_title post-title">Computer Science students earn research, student scholarships to attend Grace Hopper Celebration</h1>
-              
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-author">by Andrea Poet</span>
-      <span class="pipe-separator">|</span>
-            <span class="post-date">Posted on <strong>July 11, 2019</strong></span>
-    </div>
+        <div class="col-12 clearfix story-footer-wrapper dark-mode-section relative">
+              <div class="partner-buttons story-rhythm  none">
+                <a href="http://" target="_blank" class="btn btn-primary h6 caps center partner-button color-theme-button bg-off-black pill">
+                  Button Label
+                </a>
               </div>
-        
-              
-    
-        
-  </div>
 
-    <div class="components">
-
-  
-    
-      
-
-<section class="component  ">
-
-  
-  <div class="component-text-block">
-  
-    <div class="component-description">
-                    <h2 id="computer-science-students-earn-research-student-scholarships-to-attend-grace-hopper-celebration" class="__title invisible">Computer Science students earn research, student scholarships to attend Grace Hopper Celebration</h2>
+                <div class="post-footnotes story-rhythm center w-700 mx-auto py2 sm-py0 line-height-reset  content">
+                    <div><strong class="type-theme-heading md-h4 h5 block">Footnotes</strong>
+                      <span maxlength="200" class="serif type-theme-body italic md-h4 h5 footnote-body">
+                          Story: Emma Vodick, Christy Levy &amp; Corie Anderson // Photos: Adam Biba, Joshua Clark, Mike Fan, Rosario Zavala, Kenneth Rhem, &amp; Steve Woltmann // Video: Jeffrey Warner,  Winny Lucas &amp; Nathan Nager
+                      </span>
                     </div>
-
-  
-  <p>Four computer science undergraduate students finished the 2018-2019 academic year with news that they had earned scholarships to attend this year’s annual Grace Hopper Celebration, the world’s largest gathering of women technologists.</p>
-<p>The students will attend the conference alongside more than 20,000 women—a mix of students and professionals—from around the world. The three-day event features professional development workshops, technical tracks, and an opportunity to network.</p>
-<p>Navya Reddy and Sumayya Siddiqui, both juniors, were encouraged to apply for the <a href="https://cra.org/cra-w/scholarships-and-awards/scholarships/ghc-research-scholars/">Computer Research Association-Women’s Research Scholars Program</a> by Elena Zheleva, an assistant professor in the computer science department at UIC. Reddy and Siddiqui interned with Zheleva last summer, conducting research on machine learning. Their internship was part of UIC’s <a href="https://ecc.uic.edu/students/freshman-internship-program/">Guaranteed Paid Internship Program</a>.</p>
-<p>“During the internship, we annotated news articles for key words that detected subjectivity to see if the articles had any biases in them. We then created a machine-learning model to detect accuracy,” Reddy said. “That experience is what got me interested in Grace Hopper.”</p>
-<p>Siddiqui plans to take more courses on data science after her internship with Zheleva. Both women are working at UIC’s <a href="https://www.evl.uic.edu/">Electronic Visualization Laboratory</a> this summer on the <a href="https://www.evl.uic.edu/entry.php?id=546">Continuum</a>, an advanced smart room.</p>
-<p>“Research helps me apply what I’ve been learning in my courses into real-world applications,” Siddiqui said. “It also allows for a lot of innovation and learning things about the world in general.”</p>
-<p>Senior Aiswarya Baiju has worked with Professor Barbara Di Eugenio and Assistant Professor Brian Ziebart since her freshman year on a project to build an automated virtual health coach. In addition to her work at UIC, Baiju is working at Northwestern Medicine this summer as an information service intern.</p>
-<p>“Research has been the most rewarding experience of my undergraduate years,” Baiju said. “Due to my work with the professors, I have keen interest in machine learning and natural language processing. Artificial intelligence has always been a topic which has fascinated me, and I was able to dive in deeper and learn so much about those fields.”</p>
-<p>While Reddy and Siddiqui will be attending Grace Hopper Celebration for the first time, Baiju will be returning for a second visit.</p>
-<p>“What I cherished the most was the increase in confidence that I was able to gain,” Baiju said. “This year, I would like to learn more about graduate school options and research careers in the computing field and attend as many sessions as possible to learn more about different technologies, as well as mentoring sessions to gain more insight from people who are experts in their field.”</p>
-<p>Sabrina Jones, a sophomore, was thrilled to learn she was the recipient of the <a href="https://ghc.anitab.org/2019-student-academic/scholarships/">AnitaB.org Grace Hopper Celebration Student Scholarship</a>.</p>
-<p>Jones is spending her summer as a teaching assistant for the <a href="http://wiep.engr.uic.edu/wiesp/">UIC Women in Engineering Summer Program</a>. Last year, she developed a program for students to tinker with electronics and computer hardware. The program, held at UIC, was in partnership with IEEE and with the City Colleges of Chicago and had 20 participants made up of UIC and Harold Washington College students. Over seven weeks, the group met at <a href="https://makerspace.uic.edu/">UIC’s MakerSpace</a> to work with Arduinos, micro controllers, Raspberry Pi’s, solder, and learn other basics.</p>
-<p>“I come from a background with no engineering experience, and I know how hard that is,” said Jones.  “I wanted something similar to a club where I could learn things but couldn’t find one. So, I thought instead of waiting I’d just start it myself.”</p>
-<p>Jones, who attended City Colleges of Chicago’s Harold Washington College before transferring to UIC, said some of the club’s participants from Harold Washington have also transferred to UIC.</p>
-<p>Jones will also be returning to the Grace Hopper Celebration after attending last year through the <a href="https://cs.uic.edu/news-stories/uic-receives-ongoing-funding-to-improve-diversity-in-computer-science/">BRAID</a> program. She found last year’s convention life-changing.</p>
-<p>“It is just one of the most empowering and liberating experiences for any women in a STEM field,” Jones said. “We would sit in this stadium and there would be thousands of women who had done so much in their communities and around the world, talking about their challenges growing up in a field that is predominantly male dominated. It just gave me goosebumps. It was an incredible experience.”</p>
-<p>The <a href="https://ghc.anitab.org/">Grace Hopper Celebration</a> will take place Orlando from October 1 to October 4, 2019. Current UIC computer science students seeking more information should contact their department’s student affairs office located in SEO 905.</p>
+                </div>
 
 
+          <div style="" class="location-hook-added" data-url-proto="https://maps.google.com/maps?q=:query">
+          </div>
 
-  
-</div>
+          <div class="post-location-tag">
 
-  
-</section>
+            <div class="add-location-tag" rel="tipsy-s" title="You can search for place or venue names to geotag your story.">
+                <input type="hidden" aria-label="Where were these photos taken" class="location-lookup" value="">
+            </div>
 
-    
-
-    
-      
-
-<section class="component  ">
-
-  
-  
-<div class="slideshow-container">
-
-  <h2 class="invisible">Four Grace Hopper scholarship recipients</h2>
-
-<article class="slideshow">
-    <div class="slideshow__navigation">
-        <div class="slideshow-navigation">
-    <ul class="slideshow-navigation__slides">
-                    <li class="slideshow-navigation__slide slideshow-navigation__slide--active" data-slide-index="1">
-                <a href="#slide-1"><span>Go to slide 1</span></a>
-            </li>
-                    <li class="slideshow-navigation__slide " data-slide-index="2">
-                <a href="#slide-2"><span>Go to slide 2</span></a>
-            </li>
-                    <li class="slideshow-navigation__slide " data-slide-index="3">
-                <a href="#slide-3"><span>Go to slide 3</span></a>
-            </li>
-                    <li class="slideshow-navigation__slide " data-slide-index="4">
-                <a href="#slide-4"><span>Go to slide 4</span></a>
-            </li>
-            </ul>
-</div>
-    </div>
-    <ol class="slideshow__slides">
-                    <li id="slide-1" class="slideshow__slide slideshow__slide--active" data-slide-index="1">
-                
-<article class="slideshow-slide" id="851441357-1">
-
-    <div class="slideshow-slide__image-and-buttons">
-        <div class="slideshow-slide__image">
-            <img class="image-pane" src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/07/Baiju-1090x541.jpg" alt="Aiswarya Baiju " data-image-width="800" data-image-height="400" role="presentation">
+          </div>
         </div>
-        <div class="slideshow-slide__buttons">
-            <ul>
-                <li class="slideshow-slide__button slideshow-slide__button--next" id="851441357-1-next" data-slide-index="2">
-                    <a href="#slide-2"><span class="slideshow-slide__button-icon">Go to the next slide</span></a>
-                </li>
-                <li class="slideshow-slide__button slideshow-slide__button--previous" id="851441357-1-prev" data-slide-index="4">
-                    <a href="#slide-4"><span class="slideshow-slide__button-icon">Go to the previous slide</span></a>
-                </li>
-            </ul>
-        </div>
-    </div>
 
-        <div class="slideshow-slide__credit-and-caption">
+        <input type="hidden" name="location-lat" value="">
+        <input type="hidden" name="location-lon" value="">
+
+
+
         
-                                    <div class="slideshow-slide__caption">Aiswarya Baiju </div>
-                        </div>
-    
-</article>
-            </li>
-                    <li id="slide-2" class="slideshow__slide " data-slide-index="2">
-                
-<article class="slideshow-slide" id="675994527-2">
 
-    <div class="slideshow-slide__image-and-buttons">
-        <div class="slideshow-slide__image">
-            <img class="image-pane" src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/07/Jones-1090x541.jpg" alt="Sabrina Jones" data-image-width="800" data-image-height="400" role="presentation">
-        </div>
-        <div class="slideshow-slide__buttons">
-            <ul>
-                <li class="slideshow-slide__button slideshow-slide__button--next" id="675994527-2-next" data-slide-index="3">
-                    <a href="#slide-3"><span class="slideshow-slide__button-icon">Go to the next slide</span></a>
-                </li>
-                <li class="slideshow-slide__button slideshow-slide__button--previous" id="675994527-2-prev" data-slide-index="1">
-                    <a href="#slide-1"><span class="slideshow-slide__button-icon">Go to the previous slide</span></a>
-                </li>
-            </ul>
-        </div>
-    </div>
 
-        <div class="slideshow-slide__credit-and-caption">
-        
-                                    <div class="slideshow-slide__caption">Sabrina Jones </div>
-                        </div>
-    
-</article>
-            </li>
-                    <li id="slide-3" class="slideshow__slide " data-slide-index="3">
-                
-<article class="slideshow-slide" id="1611137165-3">
+        <hr class="section-split">
 
-    <div class="slideshow-slide__image-and-buttons">
-        <div class="slideshow-slide__image">
-            <img class="image-pane" src="https://cs.uic.edu/wp-content/uploads/sites/110/2019/07/Reddy-1-1090x541.jpg" alt="Navya Reddy " data-image-width="800" data-image-height="400" role="presentation">
-        </div>
-        <div class="slideshow-slide__buttons">
-            <ul>
-                <li class="slideshow-slide__button slideshow-slide__button--next" id="1611137165-3-next" data-slide-index="4">
-                    <a href="#slide-4"><span class="slideshow-slide__button-icon">Go to the next slide</span></a>
-                </li>
-                <li class="slideshow-slide__button slideshow-slide__button--previous" id="1611137165-3-prev" data-slide-index="2">
-                    <a href="#slide-2"><span class="slideshow-slide__button-icon">Go to the previous slide</span></a>
-                </li>
-            </ul>
-        </div>
-    </div>
 
-        <div class="slideshow-slide__credit-and-caption">
-        
-                                    <div class="slideshow-slide__caption">Navya Reddy </div>
-                        </div>
-    
-</article>
-            </li>
-                    <li id="slide-4" class="slideshow__slide " data-slide-index="4">
-                
-<article class="slideshow-slide" id="1331007675-4">
+  </div>
+    <div class="col-12 clearfix z3 relative bg-white dark-mode-section">
+      <p class="copyright-notice center type-theme-heading story-rhythm story-rhythm-sm mt4">
+  &copy; <span class="year type-theme-heading">2020</span>
+  <a class="no-ul border-none" href="/">UIC Creative &amp; Digital Services</a>
+</p>
 
-    <div class="slideshow-slide__image-and-buttons">
-        <div class="slideshow-slide__image">
-            <img class="image-pane" src="" alt="Sumayya Siddiqui" data-image-width="800" data-image-height="400" role="presentation">
-        </div>
-        <div class="slideshow-slide__buttons">
-            <ul>
-                <li class="slideshow-slide__button slideshow-slide__button--next" id="1331007675-4-next" data-slide-index="1">
-                    <a href="#slide-1"><span class="slideshow-slide__button-icon">Go to the next slide</span></a>
-                </li>
-                <li class="slideshow-slide__button slideshow-slide__button--previous" id="1331007675-4-prev" data-slide-index="3">
-                    <a href="#slide-3"><span class="slideshow-slide__button-icon">Go to the previous slide</span></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-        <div class="slideshow-slide__credit-and-caption">
-        
-                                    <div class="slideshow-slide__caption">Sumayya Siddiqui</div>
-                        </div>
-    
-</article>
-            </li>
-            </ol>
-</article>
-
-</div>
-
-
-  
-</section>
-
-    
-
-</div>
-
-          <div class="post-date-line">
-        <span class="post-date">Modified on <strong>September 11, 2019</strong></span>
-      </div>
-    
-              </article>
-        </div>
-
-                                            
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-                       
-              
-                            
-                       
-              
-                            
-
-
-
-
-   
-                       
-              
-                            
-
-
-
-
-   
-
-
-
-
-   
-
-
-          
-                          </div>
-    </main>
-
-    
-        <footer id="footer" class="footer u-dark-region" role="contentinfo">
-
-  <div class="footer-contact">
-    <div class="l-full">
-
-          <div class="mega-footer-contact">
-
-    <div class="mega-footer-contact__brand mega-footer-contact__brand--wordmark">
-        <div class="footer-logo">
-                        <div class="footer-logo__wordmark-wrapper">
-                <div class="uic-wordmark  uic-wordmark--mega-footer">
-
-  <div class="_mark">
-    <a href="http://uic.edu" class="uic-logo-icon ">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
+<div class="footer-actions print-remove">
+  <div class='h-40' id='story-prev-next'>
+<div class='relative'>
+<a class='next flex flex-center brand-link-color btn caps h5 pill' href='/uic-lens-vol-3' rel='tipsy-e' title='See the previous story'>
+<span class='md-remove'>Previous</span>
+<div class='icon-arrow-right h3 ml1 muted'></div>
 </a>
-  </div>
-
-  <div class="_text">
-    <a href="https://cs.uic.edu">
-                  <span class="_line">College of</span>
-              <span class="_line">Engineering</span>
-              </a>
-  </div>
-
 </div>
-            </div>
-            </div>
-    </div>
-
-  <div class="mega-footer-contact__menus">
-
-    
-        <div class="mega-footer-contact__button-menus">
-      <nav class="mega-footer-contact__button-menu" id="menu4" aria-label="footer-menu-4">
-        <h2 class="assistive-text">Footer Menu</h2>
-
-        <ul id="button-menu" class="menu button-menu" aria-label="Footer Menu">
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2547">
-      <a href="/undergraduate/student-resources/" target="_self">Undergraduate Resources</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2548">
-      <a href="/graduate/graduate-student-resources/" target="_self">Graduate Resources</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2549">
-      <a href="/faculty-staff/faculty-resources/" target="_self">Faculty Resources</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2550">
-      <a href="/undergraduate/abet-accreditation/" target="_self">ABET Accreditation</a>
-    </li>
-  </ul>
-
-      </nav>
-    </div>
-    
-  </div>
-
-  <div class="mega-footer-contact__contact">
-
-    <div class="_contact">
-      <h2>Contact</h2>
-      <div class="site-contact-container">  <div class="site-unit-name"><h3>For CS student and faculty inquiries, contact:</h3></div>
-      <div class="site-address">851 S. Morgan St., 11th Floor SEO, Chicago, IL 60607</div>
-      <div class="site-phone">Phone: <a  href="tel:(312) 996-3422">(312) 996-3422</a></div>
-        <div class="site-email"><a  href="mailto:cs-info@uic.edu">cs-info@uic.edu</a></div>
 </div>
-      <div class="site-contact-container">        </div>
-    </div>
 
-    <div class="mega-footer-contact__site-social-links">
-       <div aria-label="Social Media Accounts" class="site-social-links">
-  <h2 class="site-social-links__header assistive-text">Social Media Accounts</h2>
-  <ul class="site-social-links__list">
-        <li class="site-social-links__list-item"><a  class="site-social-links__link facebook" href="https://www.facebook.com/engineering.uic">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Facebook"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>
-    </a></li>
-            <li class="site-social-links__list-item"><a  class="site-social-links__link linkedin" href="https://www.linkedin.com/school/24767499/">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="LinkedIn"><title>LinkedIn</title><path d="M9 27h3.836V14.212H9V27zm2.4-19c-.67 0-1.24.24-1.704.712C9.234 9.185 9 9.77 9 10.452c0 .684.234 1.27.696 1.742.463.472 1.035.712 1.703.712.667 0 1.24-.24 1.702-.712.463-.473.697-1.058.697-1.74 0-.684-.235-1.27-.698-1.742C12.64 8.24 12.067 8 11.4 8zm15.025 7.18c-.934-.997-2.107-1.503-3.485-1.503-1.064 0-2.053.343-2.95 1.02v-.816H15.77V27h4.223v-7.262c0-.832.2-1.434.61-1.84.41-.408.88-.608 1.43-.608.732 0 1.573.268 1.573 2.357V27h4.222v-7.875c0-1.627-.47-2.954-1.4-3.946z" /></svg>
-    </a></li>
-            <li class="site-social-links__list-item"><a  class="site-social-links__link twitter" href="https://twitter.com/UICEngineering">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Twitter"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>
-    </a></li>
-            <li class="site-social-links__list-item"><a  class="site-social-links__link instagram" href="https://www.instagram.com/uicengineering/">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Instagram"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>
-    </a></li>
-            <li class="site-social-links__list-item"><a  class="site-social-links__link youtube" href="https://www.youtube.com/user/UICengineering">
-      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Youtube"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>
-    </a></li>
-          </ul>
+  <div id="enjoy-share" >
+    <div class="content py3 pt0">
+      <div class="mx-auto mb3" style="width:188px">
+        <div class='relative'>
+<div class='animated cursor-pointer delay-0-5s fadeInUp flex flex-center interaction-large print-remove read-only story-interaction zfu' data-agent='13ef708ec7a133a8fa30fdf28d524870a57d1bed' onclick="ga('send', 'event', { eventCategory: 'Click', eventAction: 'Story interaction', eventLabel: 'Interacted via story footer'})">
+<div class='flex-auto'>
+<div class='mr2 caps bold h3 interaction-label relative trans-bouncy nowrap'>
+Enjoy<div class='inline-block ed relative trans-bouncy'>ed</div>
 </div>
-    </div>
-  </div>
 </div>
-    
-    </div>
-  </div>
-
+<div class='bg-white border border-double border-off-black center count-wrapper flex flex-center h-60 inline-block off-black p1 pill relative trans-bouncy z2' style='min-width:20px'>
+<div class='absolute animated fadeOutUp none animated-slow interaction-icon h3' style='left:39%;top:-40%;'>
+<span>👍</span>
+<span class='none'>✨</span>
+</div>
+<div class='col-12 center bold h4'>
+<span class='enjoy-count sm-h2 h2 relative' style='left:0.2px;top:1.5px'>
+12
+</span>
+</div>
+</div>
+</div>
+</div>
+<style>
+  .interaction-label {
+    transform:translate(20px,0)
+  }
   
-  <div class="footer-uic-menu">
-    <div class="l-full">
+  .interaction-label.active {
+    transform:translate(0,0)
+  }
+  
+  .interaction-label.active .ed {
+    transform:translate(0,0);
+    opacity:1;
+  }
+  
+  .ed {
+    transform:translate(10px,0);
+    opacity:0;
+  }
+  
+  .interaction-large .count-wrapper {
+      min-width:60px !important;
+  }
+  
+  .interaction-large .count-wrapper {
+      min-width:60px !important;
+  }
+  
+  .interaction-large .interaction-label.active {
+    transform: translate(-19px,0);
+  }
+</style>
 
-      <div aria-label="UIC.edu Links">
-  <h2 class="assistive-text">UIC.edu links</h2>
-  <ul class="uic-footer-menu">
-    <li><strong><a href="https://uic.edu/">UIC.edu</a></strong></li>
-    <li><a href="https://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></li>
-    <li><a href="https://uicflames.com/">Athletics</a></li>
-    <li><a href="https://www.uic.edu/apps/departments-az/search">Campus Directory</a></li>
-    <li><a href="https://disabilityresources.uic.edu/">Disability Resources</a></li>
-    <li><a href="https://emergency.uic.edu/">Emergency Information</a></li>
-    <li><a href="https://today.uic.edu/events">Event Calendar</a></li>
-    <li><a href="https://uic.edu/about/job-opportunities">Job Openings</a></li>
-    <li><a href="https://library.uic.edu/">Library</a></li>
-    <li><a href="https://maps.uic.edu/">Maps</a></li>
-    <li><a href="https://ready.uic.edu/digital-materials/uic-safe-mobile-app/">UIC Safe Mobile App</a></li>
-    <li><a href="https://today.uic.edu/">UIC Today</a></li>
-    <li><a href="https://uihealth.uic.edu/">UI Health</a></li>
-    <li><a href="https://dos.uic.edu/student-veterans-affairs/">Veterans Affairs</a></li>
-  </ul>
+      </div>
+
+      <ul class='list-reset h2 mt1 mb0 sm-ml2 ml1 share-from-footer'>
+<li class='inline-block'>
+<a class='no-ul share-story-button border-none btn p0 hover-fade rounded off-black circle w-40 h-40 bg-white' href='mailto:?subject=Check out this story on Exposure!&amp;body=https://www.lens.uic.edu/celebration' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Emailed story via footer'});" rel='tipsy-w noopener' title='Email story'>
+<span class='hide'>Email story</span>
+<span class='icon-mail relative' style='top:2px'></span>
+</a>
+</li>
+<li class='inline-block'>
+<a class='bg-white border-none btn circle embed-story-button h-40 hover-fade no-ul off-black p0 rounded share-story-button w-40' href='/celebration/embed' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Embeded story via footer'});" rel='tipsy-w noopener' title='Embed this story'>
+<span class='hide'>Embed story</span>
+<span class='icon-code relative' style='top:2px'></span>
+</a>
+</li>
+<li class='inline-block'>
+<a class='no-ul share-story-button border-none btn p0 hover-fade rounded off-black circle w-40 h-40 bg-white' data-lang='en' href='https://twitter.com/intent/tweet?url=https://www.lens.uic.edu/celebration&amp;amp;related=exposure&amp;amp;hashtags=toldwithexposure&amp;amp;via=UIClife&amp;amp;text=Celebration%20by%20Wayne Odle' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Shared to Twitter via footer'});">
+<span class='hide'>Share on Twitter</span>
+<span class='icon-twitter relative' style='top:-1px'></span>
+</a>
+</li>
+<li class='inline-block'>
+<a class='no-ul share-story-button border-none btn p0 hover-fade rounded off-black circle w-40 h-40 bg-white' data-lang='en' href='https://www.facebook.com/sharer/sharer.php?u=https://www.lens.uic.edu/celebration' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Shared to Facebook via footer});" rel='noopener' target='_blank'>
+<span class='hide'>Share on Facebook</span>
+<span class='icon-facebook' style='top:-3px'></span>
+</a>
+</li>
+<div class='sm-ml1'>
+<div class='btn btn-outline pill h7 caps border-gray open-sharesheet mt2'>
+Share Story
 </div>
+</div>
+<script>
+  const btn = document.querySelector('.open-sharesheet');
+  
+  //Check if supported
+  if (navigator.share) {
+    console.log('Sharesheet supported');
+  } else {
+    console.log('Sharesheet not supported');
+    btn.style.display = 'none';
+  }
+  
+  let shareData = {
+    url: 'https://www.lens.uic.edu/celebration',
+  }
+  
+  btn.addEventListener('click', () => {
+    navigator.share(shareData)
+  });
+</script>
+</ul>
 
     </div>
   </div>
-
-  <div class="footer-legal">
-    <div class="l-full">
-
-      <div class="red-version">Powered by Red 2.38.0</div>
-
-<div class="site-copyright">
-  &copy; 2020 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
-  <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a>
 </div>
 
-<div class="campuses" aria-label="Campuses">
-  <h2 class="assistive-text">Campuses</h2>
-  <ul class="campuses-list">
-    <li><a href="https://www.uillinois.edu/">University of Illinois System</a></li>
-    <li><a href="https://illinois.edu/">Urbana-Champaign</a></li>
-    <li><a href="https://www.uis.edu/">Springfield</a></li>
-  </ul>
+<footer class="share-enabled mt2 sm-mt0 print-remove bg-white">
+  <div class="story-member-meta">
+    <div class='clearfix color-theme hover-hidden-wrapper member-meta px2 relative sm-px0'>
+<div class='avatar-full-name'>
+<div class='member-avatar-logo sm-py2 sm-px0 px3 py1 center relative hover-hidden-wrapper'>
+<a class='block border-none center clearfix member-logo-wrapper mx-auto no-ul sm-mt2 standard-logo' href='https://www.lens.uic.edu/'>
+<img alt='UIC Creative &amp; Digital Services' class='logo mx-auto' src='https://exposure.imgix.net/production/users/180875/brand-logo/logo-1583792018.png?q=300'>
+</a>
 </div>
-<div class="cookie-banner">
-  <div id="footer-bottom">
-    <a class="optanon-show-settings">Cookie Settings</a>
-  </div>
+<div class='md-col-6 sm-col-10 mx-auto center member-info'>
 </div>
+</div>
+<div class='md-col-6 sm-col-10 mx-auto center aux-wrapper sm-mt0 mt2'>
+<div class='member-bio w-500 mx-auto serif py1'>
+<div class='regular'>
+<div class='regular m0 md-h4 serif py2 type-theme-body color-theme off-black'>
+A glimpse at UIC life through our lens. Great stories, plus photos from an acclaimed research institution dedicated to the discovery and distribution of knowledge. Go Flames!
+</div>
+</div>
+</div>
+</div>
+</div>
+
+    <style>
+      a.block.border-none.center.member-logo-wrapper.mx-auto.no-ul.sm-mt2 {
+        width: 80% !important;
+        max-width: 200px !important;
+    }
+    </style>
+
+
+    <div id="subscribe-to-members-stories">
+        <div class='color-theme  '>
+<div class='mx-auto bg-white w-400 z5 sm-p3 p2 js-subscribe-to-stories color-theme' data-username='uiccds'>
+<div class='sm-px3 px2 center trans-ease-in-out'>
+<div class='pre-subscribe'>
+<div class='mb2 off-black gray type-theme-heading color-theme'>
+Join
+<stong class='off-black bold color-theme'>15</stong>
+others
+</div>
+<label class='h2 m0 sm-mt1 caps letter-spacing-reset fade-hover bold off-black type-theme-heading display-name color-theme' for='subscribe-to-stories-email' style='line-height:1.4'>
+Stay updated
+</label>
+<div>
+<input class='field col-12 center regular off-black mt2' data-invalid-email-message='Oops! Please make sure you’ve entered a valid email.' data-locale='en' data-source='story-footer' id='subscribe-to-stories-email' placeholder='Enter your email address' required style='height:50px' type='email'>
+<button class='btn btn-primary bg-off-black btn-big col-12 uber-rounded box-shadow-xsm mt2 caps h6 color-theme-button' data-action='submit-subscribe-form' disabled='disabled' id='subscribe-submit-button'>
+Subscribe to Stories
+</button>
+<div class='mt2 bg-silver uber-rounded'>
+<div class='p1 center relative' style='top:5px'>
+<label class='hide' for='g-recaptcha-response'>
+Please confirm you are not a robot
+</label>
+<script async='' defer='defer' src='https://www.google.com/recaptcha/api.js'></script>
+<div class='g-recaptcha inline-block' data-callback='recaptchaCallback' data-sitekey='6LcqfmIUAAAAAHLgVNx5A8_LWxjVYacJqg_mMAgQ'></div>
+</div>
+</div>
+</div>
+<div class='center'>
+</div>
+</div>
+<div class='post-subscribe' style='display:none'>
+<div class='h2 bold m0 caps letter-spacing-reset mb3 off-black type-theme-heading color-theme'>Great, You Are Now Subscribed!</div>
+<a class='btn btn-primary bg-baby-blue btn-big caps block mb1 left-align h6 uber-rounded box-shadow-xsm' href='https://twitter.com/intent/tweet?text=I%20just%20subscribed%20to%20@UIClife%20%20https://www.lens.uic.edu/' rel='noopener' target='_blank' title='Tweet this'>
+Share on Twitter
+<span class='icon-twitter right relative h2' style='top:-5px;'></span>
+</a>
+<a class='btn btn-primary bg-facebook-blue btn-big caps block mb1 left-align h6 uber-rounded box-shadow-xsm' href='https://www.facebook.com/sharer/sharer.php?u=https://www.lens.uic.edu/' target='_blank'>
+Share on Facebook
+<span class='icon-facebook right relative h2' style='top:-3px;'></span>
+</a>
+<a class='btn h6 caps unsubscribe-hook block muted off-black color-theme uber-rounded box-shadow-xsm' data-action='unsubscribe-from-stories' href='#'>
+Actually, unsubscribe me.
+</a>
+</div>
+</div>
+<div class='px3 mt2'>
+<div class='h6 regular m0 off-black line-height-reset center'>
+<span class='color-theme type-theme-body'>
+By subscribing to the mailing list of
+<strong class='color-theme'>
+UIC Creative &amp; Digital Services
+</strong>
+your email address is stored securely, opted into new post notifications and related communications. We respect your inbox and privacy, you may unsubscribe at any time.
+</span>
+<div class='member-legal-options h7 caps mt2 type-theme-heading'>
+<a class='btn btn color-theme pill' href='https://www.exposure.co/privacy' rel='noopener' target='_blank' title='Link to UIC Creative &amp; Digital Services Privacy Policy'>
+Privacy Policy
+</a>
+<a class='btn btn color-theme pill' href='https://www.exposure.co/terms' rel='noopener' target='_blank' title='Link to UIC Creative &amp; Digital Services Terms of Service'>
+Terms of Service
+</a>
+</div>
+
+</div>
+</div>
+<script>
+  var recaptchaCallback = function() {
+    $('#subscribe-submit-button').removeAttr("disabled");
+  }
+</script>
+
+</div>
+</div>
+
     </div>
+
+      <div class="h2 sm-mb0 mb3 col-10 mx-auto mt2 ">
+        <div class="h4 bold m0 mb2 caps h6 type-theme-heading off-black">
+          Follow
+            us
+        </div>
+        <nav class='member-social-links muted'>
+<a class='icon-twitter no-ul hover-fade m0 off-black px1 hover-lift relative border-none mb1 inline-block color-theme' href='https://twitter.com/UIClife' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Clicked Twitter social link'})" rel='noopener' style='top:-1px;' target='_blank' title='UIC Creative &amp; Digital Services on Twitter'>
+<span class='hide'>Twitter</span>
+</a>
+<a class='icon-instagram no-ul hover-fade m0 off-black px1 hover-lift relative border-none mb1 inline-block color-theme' href='http://instagram.com/UIClife' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Clicked Instagram social link'})" rel='noopener' style='top:2px' target='_blank' title='UIC Creative &amp; Digital Services on Instagram'>
+<span class='hide'>Instagram</span>
+</a>
+<a class='icon-youtube no-ul hover-fade m0 off-black px1 hover-lift relative border-none mb1 inline-block color-theme' href='https://www.youtube.com/user/UIClife' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Clicked Youtube social link'})" rel='noopener' style='top:2px' target='_blank' title='UIC Creative &amp; Digital Services on YouTube'>
+<span class='hide'>Youtube</span>
+</a>
+<a class='icon-facebook no-ul hover-fade m0 off-black px1 hover-lift border-none mb1 inline-block color-theme' href='http://facebook.com/UIClife' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Clicked Facebook social link'})" rel='noopener' target='_blank' title='UIC Creative &amp; Digital Services on Facebook'>
+<span class='hide'>Facebook</span>
+</a>
+<a class='icon-pinterest no-ul hover-fade m0 off-black px1 hover-lift relative no-ul border-none mb1 inline-block color-theme' href='https://www.pinterest.com/UIClife' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Clicked Pinterest social link'})" rel='noopener' target='_blank' title='UIC Creative &amp; Digital Services on Pinterest'>
+<span class='hide'>Pinterest</span>
+</a>
+<a class='icon-rss no-ul hover-fade m0 off-black px1 hover-lift relative border-none mb1 inline-block color-theme' href='/feed.rss' onclick="ga('send', 'event', { eventCategory: 'Story', eventAction: 'Click', eventLabel: 'Clicked RSS social link'})" style='top:2px' target='_blank' title='UIC Creative &amp; Digital Services’s RSS Feed'>
+<span class='hide'>RSS</span>
+</a>
+</nav>
+
+      </div>
   </div>
+
+
 
 </footer>
 
-	    </div>
+  <div id="story-footer-nav" class="bg-silver print-remove">
+        <style>
+  .single-story .mores-posts-post {
+    float:none;
+    margin:0px auto;
+  }
+  
+  .two-stories {
+    text-align:center;
+  }
+  .two-stories .mores-posts-post {
+    float:none;
+    display:inline-block
+  }
+</style>
+<div class='header col-12'>
+<div class='sm-h2 h3 bold type-theme-heading col-12 more-stories-by py4 pb0'>
+<a class="no-ul border-none" href="/">More Stories by UIC Creative &amp; Digital Services</a>
+</div>
+</div>
+<div class='/ clear clearfix mx-auto sm-col-11 sm-mt2 stories'>
+<div class='sm-col col-12 sm-col-6 md-col-4 sm-mb0 mores-posts-post hover-lift'>
+<div class='md-p3 p2'>
+<a class='no-ul border-none block hover-fade block clearfix' href='https://www.lens.uic.edu/uic-lens-vol-3?more=true' onclick="ga('send', 'event', { eventCategory: 'Click', eventAction: 'StoryFooter', eventLabel: 'Clicked More Stories card'})" title='Read UIC Lens VOL. 3 by Wayne Odle'>
+<img alt='Read UIC Lens VOL. 3 by Wayne Odle' class='col-12 left' src='https://exposure.imgix.net/production/posts/385955/cover-photo/cover-1583507266.jpg?fit=crop&amp;h=400&amp;w=700&amp;dpr=1&amp;q=50&amp;sharp=10&amp;fm=pjpg&amp;auto=format'>
+</a>
+<div class='story-meta left-align bg-white p3 flex flex-center'>
+<div class='flex-auto border-right sm-mr2 mr1'>
+<div class='h3 md-h3 h4 bold type-theme-heading mt1 caps'>
+<a class='no-ul border-none letter-spacing-reset block' href='https://www.lens.uic.edu/uic-lens-vol-3?more=true' onclick="ga('send', 'event', { eventCategory: 'Click', eventAction: 'StoryFooter', eventLabel: 'Clicked More Stories card Read button'})" title='Read UIC Lens VOL. 3 by Wayne Odle'>
+<span class='block truncate col-11 letter-spacing-reset nowrap'>
+UIC Lens VOL. 3
+</span>
+<h3 class='m0 mt1 serif regular italic muted block truncate col-11 type-theme-body h5'>
+Studying On Campus
+</h3>
+</a>
+</div>
+</div>
+<div>
+<a class='btn caps h6 pr0' href='https://www.lens.uic.edu/uic-lens-vol-3?more=true' title='Read UIC Lens VOL. 3 by Wayne Odle'>
+<span class='off-black'>
+Read
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='sm-col col-12 sm-col-6 md-col-4 sm-mb0 mores-posts-post hover-lift'>
+<div class='md-p3 p2'>
+<a class='no-ul border-none block hover-fade block clearfix' href='https://www.lens.uic.edu/uic-lens-vol-2?more=true' onclick="ga('send', 'event', { eventCategory: 'Click', eventAction: 'StoryFooter', eventLabel: 'Clicked More Stories card'})" title='Read UIC LENS VOL. 2 by Wayne Odle'>
+<img alt='Read UIC LENS VOL. 2 by Wayne Odle' class='col-12 left' src='https://exposure.imgix.net/production/posts/387972/cover-photo/cover-1584394276.jpg?fit=crop&amp;h=400&amp;w=700&amp;dpr=1&amp;q=50&amp;sharp=10&amp;fm=pjpg&amp;auto=format'>
+</a>
+<div class='story-meta left-align bg-white p3 flex flex-center'>
+<div class='flex-auto border-right sm-mr2 mr1'>
+<div class='h3 md-h3 h4 bold type-theme-heading mt1 caps'>
+<a class='no-ul border-none letter-spacing-reset block' href='https://www.lens.uic.edu/uic-lens-vol-2?more=true' onclick="ga('send', 'event', { eventCategory: 'Click', eventAction: 'StoryFooter', eventLabel: 'Clicked More Stories card Read button'})" title='Read UIC LENS VOL. 2 by Wayne Odle'>
+<span class='block truncate col-11 letter-spacing-reset nowrap'>
+UIC LENS VOL. 2
+</span>
+<h3 class='m0 mt1 serif regular italic muted block truncate col-11 type-theme-body h5'>
+Black History Month
+</h3>
+</a>
+</div>
+</div>
+<div>
+<a class='btn caps h6 pr0' href='https://www.lens.uic.edu/uic-lens-vol-2?more=true' title='Read UIC LENS VOL. 2 by Wayne Odle'>
+<span class='off-black'>
+Read
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='sm-col col-12 sm-col-6 md-col-4 sm-mb0 mores-posts-post hover-lift'>
+<div class='md-p3 p2'>
+<a class='no-ul border-none block hover-fade block clearfix' href='https://www.lens.uic.edu/uic-lens-vol-1?more=true' onclick="ga('send', 'event', { eventCategory: 'Click', eventAction: 'StoryFooter', eventLabel: 'Clicked More Stories card'})" title='Read UIC Lens Vol. 1 by Wayne Odle'>
+<img alt='Read UIC Lens Vol. 1 by Wayne Odle' class='col-12 left' src='https://exposure.imgix.net/production/posts/383233/cover-photo/cover-1583465125.jpg?fit=crop&amp;h=400&amp;w=700&amp;dpr=1&amp;q=50&amp;sharp=10&amp;fm=pjpg&amp;auto=format'>
+</a>
+<div class='story-meta left-align bg-white p3 flex flex-center'>
+<div class='flex-auto border-right sm-mr2 mr1'>
+<div class='h3 md-h3 h4 bold type-theme-heading mt1 caps'>
+<a class='no-ul border-none letter-spacing-reset block' href='https://www.lens.uic.edu/uic-lens-vol-1?more=true' onclick="ga('send', 'event', { eventCategory: 'Click', eventAction: 'StoryFooter', eventLabel: 'Clicked More Stories card Read button'})" title='Read UIC Lens Vol. 1 by Wayne Odle'>
+<span class='block truncate col-11 letter-spacing-reset nowrap'>
+UIC Lens Vol. 1
+</span>
+<h3 class='m0 mt1 serif regular italic muted block truncate col-11 type-theme-body h5'>
+UIC Men's Gymnastics Club
+</h3>
+</a>
+</div>
+</div>
+<div>
+<a class='btn caps h6 pr0' href='https://www.lens.uic.edu/uic-lens-vol-1?more=true' title='Read UIC Lens Vol. 1 by Wayne Odle'>
+<span class='off-black'>
+Read
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+  </div>
+
+<div class='edit-mode-component-hide pointer-events-none'>
+<a class='pointer-events-auto black no-ul h4 fixed bottom-0 left-0 btn mb1 bg-white circle px1 ml1 back-to-top z4 smoothScroll xsm-shadow bg-team-light color-team-dark box-shadow-xsm overflow-hidden color-theme' href='#top' style='display:none;width:16px;height:16px;' title='Back to the top'>
+<span class='hide'>Back to the top</span>
+<div class='icon-up-arrow-alt relative'></div>
+</a>
+</div>
 
 
-  <!-- Instagram Feed JS -->
-<script type="text/javascript">
-var sbiajaxurl = "https://cs.uic.edu/wp-admin/admin-ajax.php";
-</script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var sb_instagram_js_options = {"sb_instagram_at":"","font_method":"svg"};
-/* ]]> */
+
+
+    </div>
+  </div>
+
+
+
+
+  
+
+
+
+
+
+
+  <script type="text/javascript">
+  var currentUserSeed = {},
+      postSeed = {"id":394761,"user_id":180875,"slug":"celebration","title":"Celebration","lat":null,"lon":null,"location":null,"cover_photo_file_name":"20191214_CelebrationMosaic_Commencement-148.jpg","cover_photo_content_type":"image/jpeg","cover_photo_file_size":4163178,"cover_photo_updated_at":1588871119,"published_at":1588977752,"ever_published":true,"disable_enjoys":false,"hide_date":false,"is_nsfw":false,"cta_btn_label":null,"cta_btn_color":"#","cta_btn_url":"http://","dark_theme":false,"hide_disqus":false,"no_pad":false,"hide_cover":false,"hide_avatar":false,"copy_of_id":null,"copy_done_at":null,"post_type":"story","gal_layout":null,"gal_colors":null,"can_dl_photos":false,"cover_layout_split":false,"cover_layout":"overlay","cover_photo_position":"center","send_email_notification":true,"lightbox_toggle":true,"cover_layout_option":"default","toggle_cover_overlay":true,"toggle_cover_titles":true,"cover_video_file_name":"COMMENCEMENT - Mosaic - 15s 1400x70.mp4","cover_video_content_type":"video/mp4","cover_video_file_size":18838251,"cover_video_updated_at":1588891990,"base_font_size":"default","categories":{},"gallery_desc":"\u003cp\u003eWhile we must wait to congratulate you in person, we cheer you on for your hard work, resilience and accomplishment during UIC’s virtual celebration on May 16. We couldn’t be prouder of you. You have shown great determination and perseverance throughout your time at UIC, and now, in the midst of the most challenging times, we are certain you will make the world a better place for all of us.\u003c/p\u003e"},
+      photoGroups = [{"id":2498267,"user_id":180875,"post_id":394761,"title":"You give us 5381 reasons to celebrate","content":"\u003cp\u003eWhile we must wait to congratulate you in person, we cheer you on for your hard work, resilience and accomplishment during UIC’s virtual celebration on May 16. We couldn’t be prouder of you. You have shown great determination and perseverance throughout your time at UIC, and now, in the midst of the most challenging times, we are certain you will make the world a better place for all of us.\u003c/p\u003e","position":2,"group_type":"set","align":"center","video_url":null,"video_embed":null,"last_version_id":null,"published_content":"\u003cp\u003eWhile we must wait to congratulate you in person, we cheer you on for your hard work, resilience and accomplishment during UIC’s virtual celebration on May 16. We couldn’t be prouder of you. You have shown great determination and perseverance throughout your time at UIC, and now, in the midst of the most challenging times, we are certain you will make the world a better place for all of us.\u003c/p\u003e","block_key":null,"gutters":true,"full_width":false,"grid_layout":null,"is_legacy":true,"caption_align":"center","embed_layout":"normal","full_width_layout":"normal","caption":null,"color_option":"default","column_option":"1-column","alignment_option":"default","dropcap_option":false,"video_type":null},{"id":2498431,"user_id":180875,"post_id":394761,"title":null,"content":null,"position":3,"group_type":"text","align":"left","video_url":null,"video_embed":null,"last_version_id":null,"published_content":null,"block_key":null,"gutters":true,"full_width":false,"grid_layout":null,"is_legacy":true,"caption_align":"center","embed_layout":"normal","full_width_layout":"normal","caption":null,"color_option":"default","column_option":"1-column","alignment_option":"default","dropcap_option":false,"video_type":null},{"id":2498268,"user_id":180875,"post_id":394761,"title":"You Embraced your Potential","content":"\u003cp\u003eBetween long hours studying in the library to finding your passion in the classroom, you juggled, balanced and did everything necessary to earn your degree. You were engaged, you grew, you went above and beyond. You will do the same wherever your career takes you.\u003c/p\u003e","position":4,"group_type":"set","align":"center","video_url":null,"video_embed":null,"last_version_id":null,"published_content":"\u003cp\u003eBetween long hours studying in the library to finding your passion in the classroom, you juggled, balanced and did everything necessary to earn your degree. You were engaged, you grew, you went above and beyond. You will do the same wherever your career takes you.\u003c/p\u003e","block_key":null,"gutters":true,"full_width":false,"grid_layout":null,"is_legacy":true,"caption_align":"center","embed_layout":"normal","full_width_layout":"normal","caption":null,"color_option":"default","column_option":"1-column","alignment_option":"default","dropcap_option":false,"video_type":null},{"id":2501078,"user_id":180875,"post_id":394761,"title":"STUDENT JOURNEYS","content":null,"position":5,"group_type":"video","align":"center","video_url":"https://www.youtube.com/watch?v=SlOh5dhf1SU","video_embed":{"provider_url":"https://www.youtube.com/","description":"Listen to the journeys of five graduating students from the University of Illinois at Chicago. Get a glimpse of their unique experiences on campus as they pu...","title":"UIC Student Journeys","author_name":"UIC life","height":480,"thumbnail_width":480,"width":854,"html":"\u003ciframe data-card-recommend=\"0\" data-card-recommend=\"0\" data-card-recommend=\"0\" class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FSlOh5dhf1SU%3Ffeature%3Doembed\u0026display_name=YouTube\u0026url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DSlOh5dhf1SU\u0026image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FSlOh5dhf1SU%2Fhqdefault.jpg\u0026key=680be91e503d11e1ab1c4040d3dc5c07\u0026type=text%2Fhtml\u0026schema=youtube\" width=\"854\" height=\"480\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e","author_url":"https://www.youtube.com/user/UIClife","version":"1.0","url":"https://www.youtube.com/watch?v=SlOh5dhf1SU","provider_name":"YouTube","thumbnail_url":"https://i.ytimg.com/vi/SlOh5dhf1SU/hqdefault.jpg","type":"video","thumbnail_height":360},"last_version_id":null,"published_content":null,"block_key":null,"gutters":true,"full_width":false,"grid_layout":null,"is_legacy":true,"caption_align":"center","embed_layout":"normal","full_width_layout":"normal","caption":null,"color_option":"default","column_option":"1-column","alignment_option":"default","dropcap_option":false,"video_type":"youtube"},{"id":2498270,"user_id":180875,"post_id":394761,"title":"You've Made Connections","content":"\u003cp\u003eFrom convocation to graduation, you’ve fostered lifelong friendships with people from all walks of life. You've formed bonds while unpacking in the residence halls, dancing at UIC Spark, joining student organizations at the Involvement Fair, cheering for the Flames at athletic events and exploring Chicago. You’ve created a community that will carry you well through your life.\u003c/p\u003e","position":6,"group_type":"set","align":"center","video_url":null,"video_embed":null,"last_version_id":null,"published_content":"\u003cp\u003eFrom convocation to graduation, you’ve fostered lifelong friendships with people from all walks of life. You've formed bonds while unpacking in the residence halls, dancing at UIC Spark, joining student organizations at the Involvement Fair, cheering for the Flames at athletic events and exploring Chicago. You’ve created a community that will carry you well through your life.\u003c/p\u003e","block_key":null,"gutters":true,"full_width":false,"grid_layout":null,"is_legacy":true,"caption_align":"center","embed_layout":"normal","full_width_layout":"normal","caption":null,"color_option":"default","column_option":"1-column","alignment_option":"default","dropcap_option":false,"video_type":null},{"id":2498282,"user_id":180875,"post_id":394761,"title":"You Made a Difference","content":"\u003cp\u003eAt the heart of UIC is community and contribution. Whether you volunteered during your free time, tutored fellow students, researched alongside revered UIC faculty or worked an on-campus job, you understood that we need each other to succeed. You made a difference, and you practiced the tenet that a community is only as strong as individuals who care for it.\u003c/p\u003e","position":7,"group_type":"set","align":"center","video_url":null,"video_embed":null,"last_version_id":null,"published_content":"\u003cp\u003eAt the heart of UIC is community and contribution. Whether you volunteered during your free time, tutored fellow students, researched alongside revered UIC faculty or worked an on-campus job, you understood that we need each other to succeed. You made a difference, and you practiced the tenet that a community is only as strong as individuals who care for it.\u003c/p\u003e","block_key":null,"gutters":true,"full_width":false,"grid_layout":null,"is_legacy":true,"caption_align":"center","embed_layout":"normal","full_width_layout":"normal","caption":null,"color_option":"default","column_option":"1-column","alignment_option":"default","dropcap_option":false,"video_type":null},{"id":2498296,"user_id":180875,"post_id":394761,"title":null,"content":"\u003cp\u003eYour hard work and commitment has paid off as you transition from students to alumni and to your chosen career. Earning your degree from the University of Illinois at Chicago is a life-changing milestone, and we can’t wait to celebrate everything you’ve accomplished virtually now and in person later. Congratulations to the Class of 2020! \u003c/p\u003e","position":8,"group_type":"set","align":"center","video_url":null,"video_embed":null,"last_version_id":null,"published_content":"\u003cp\u003eYour hard work and commitment has paid off as you transition from students to alumni and to your chosen career. Earning your degree from the University of Illinois at Chicago is a life-changing milestone, and we can’t wait to celebrate everything you’ve accomplished virtually now and in person later. Congratulations to the Class of 2020! \u003c/p\u003e","block_key":null,"gutters":true,"full_width":false,"grid_layout":null,"is_legacy":true,"caption_align":"center","embed_layout":"normal","full_width_layout":"normal","caption":null,"color_option":"default","column_option":"1-column","alignment_option":"default","dropcap_option":false,"video_type":null},{"id":2499309,"user_id":180875,"post_id":394761,"title":"Look Forward, Flames","content":null,"position":9,"group_type":"video","align":"center","video_url":"https://www.youtube.com/watch?v=odB-ATtVmZU\u0026feature=youtu.be","video_embed":{"provider_url":"https://www.youtube.com/","version":"1.0","title":"Empty Arena","author_name":"UIC life","height":480,"thumbnail_width":480,"width":854,"html":"\u003ciframe data-card-recommend=\"0\" data-card-recommend=\"0\" data-card-recommend=\"0\" class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FodB-ATtVmZU%3Ffeature%3Doembed\u0026display_name=YouTube\u0026url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DodB-ATtVmZU\u0026image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FodB-ATtVmZU%2Fhqdefault.jpg\u0026key=680be91e503d11e1ab1c4040d3dc5c07\u0026type=text%2Fhtml\u0026schema=youtube\" width=\"854\" height=\"480\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e","author_url":"https://www.youtube.com/user/UIClife","url":"https://www.youtube.com/watch?v=odB-ATtVmZU","provider_name":"YouTube","thumbnail_url":"https://i.ytimg.com/vi/odB-ATtVmZU/hqdefault.jpg","type":"video","thumbnail_height":360},"last_version_id":null,"published_content":null,"block_key":null,"gutters":true,"full_width":false,"grid_layout":null,"is_legacy":true,"caption_align":"center","embed_layout":"normal","full_width_layout":"normal","caption":null,"color_option":"default","column_option":"1-column","alignment_option":"default","dropcap_option":false,"video_type":"youtube"},{"id":2499235,"user_id":180875,"post_id":394761,"title":null,"content":null,"position":10,"group_type":"video","align":"left","video_url":null,"video_embed":{"ex_custom":true,"html":"\u003cstyle\u003e\n\n.author-details .name {display:none !important}\n\n\u003c/style\u003e","video_type":"ex.custom"},"last_version_id":null,"published_content":null,"block_key":null,"gutters":true,"full_width":false,"grid_layout":null,"is_legacy":true,"caption_align":"center","embed_layout":"normal","full_width_layout":"normal","caption":null,"color_option":"default","column_option":"1-column","alignment_option":"default","dropcap_option":false,"video_type":"ex.custom"}],
+      photos = {"2498282":[{"id":6776252,"user_id":180875,"post_id":394761,"photo_group_id":2498282,"position":0,"photo_content_type":"image/jpeg","photo_key":"48gbt78zlfmot8eyxv4frj9e80dh4a27jtds","dimensions":"6720x4480","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"6720","height":"4480","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/48gbt78zlfmot8eyxv4frj9e80dh4a27jtds/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/48gbt78zlfmot8eyxv4frj9e80dh4a27jtds/original.jpg?fm=pjpg\u0026auto=format","file_name":"20190215_PopUpPantry_05.jpg","sortable_id":"Photo_6776252"},{"id":6776250,"user_id":180875,"post_id":394761,"photo_group_id":2498282,"position":1,"photo_content_type":"image/jpeg","photo_key":"ncdw98xozyi2l6wwehc00j3qgkoiviezew4j","dimensions":"5523x3682","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"5523","height":"3682","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/ncdw98xozyi2l6wwehc00j3qgkoiviezew4j/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/ncdw98xozyi2l6wwehc00j3qgkoiviezew4j/original.jpg?fm=pjpg\u0026auto=format","file_name":"20190823_Weeks of Welcome Service_004.jpg","sortable_id":"Photo_6776250"},{"id":6776254,"user_id":180875,"post_id":394761,"photo_group_id":2498282,"position":2,"photo_content_type":"image/jpeg","photo_key":"y33nwdjz1l37hd7d4taucg9sgs9cinwkt7kn","dimensions":"7713x5142","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"7713","height":"5142","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/y33nwdjz1l37hd7d4taucg9sgs9cinwkt7kn/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/y33nwdjz1l37hd7d4taucg9sgs9cinwkt7kn/original.jpg?fm=pjpg\u0026auto=format","file_name":"20190911_MealPackUnionStation911_044.jpg","sortable_id":"Photo_6776254"},{"id":6776255,"user_id":180875,"post_id":394761,"photo_group_id":2498282,"position":3,"photo_content_type":"image/jpeg","photo_key":"dvdrrigzesknujzx9tl8khhb4zli7bidvzoa","dimensions":"6720x4480","pending":false,"fill_width":true,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"6720","height":"4480","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/dvdrrigzesknujzx9tl8khhb4zli7bidvzoa/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/dvdrrigzesknujzx9tl8khhb4zli7bidvzoa/original.jpg?fm=pjpg\u0026auto=format","file_name":"20200120_MLK-Day-Of-Service-67.jpg","sortable_id":"Photo_6776255"},{"id":6776251,"user_id":180875,"post_id":394761,"photo_group_id":2498282,"position":5,"photo_content_type":"image/jpeg","photo_key":"mabdkhkriyolzdyrq9ci2ucswcixrsk8mg4h","dimensions":"4127x6331","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"4127","height":"6331","aspect_ratio":0.6518717422208182,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/mabdkhkriyolzdyrq9ci2ucswcixrsk8mg4h/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/mabdkhkriyolzdyrq9ci2ucswcixrsk8mg4h/original.jpg?fm=pjpg\u0026auto=format","file_name":"Spreadthelove_20200214_MG_0117.jpg","sortable_id":"Photo_6776251"},{"id":6776367,"user_id":180875,"post_id":394761,"photo_group_id":2498282,"position":6,"photo_content_type":"image/jpeg","photo_key":"dk693zu8d3oa0zct3tvmaeeid2sx1e6s8629","dimensions":"5764x3843","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"5764","height":"3843","aspect_ratio":1.4998698933125163,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/dk693zu8d3oa0zct3tvmaeeid2sx1e6s8629/original.JPG?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/dk693zu8d3oa0zct3tvmaeeid2sx1e6s8629/original.JPG?fm=pjpg\u0026auto=format","file_name":"030420_Plant Research Laboratory_JC0121.JPG","sortable_id":"Photo_6776367"},{"id":6776592,"user_id":180875,"post_id":394761,"photo_group_id":2498282,"position":7,"photo_content_type":"image/jpeg","photo_key":"pr1ew4n7poynf678vkys929xxen9ey4ts14h","dimensions":"5080x3387","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"5080","height":"3387","aspect_ratio":1.4998523767345733,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/pr1ew4n7poynf678vkys929xxen9ey4ts14h/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/pr1ew4n7poynf678vkys929xxen9ey4ts14h/original.jpg?fm=pjpg\u0026auto=format","file_name":"20180507_doggypalooza_12.jpg","sortable_id":"Photo_6776592"}],"2498296":[{"id":6776300,"user_id":180875,"post_id":394761,"photo_group_id":2498296,"position":0,"photo_content_type":"image/jpeg","photo_key":"w3og4akiw1r0y9plylkab75ykoomhrpphyu5","dimensions":"6720x4480","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"6720","height":"4480","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/w3og4akiw1r0y9plylkab75ykoomhrpphyu5/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/w3og4akiw1r0y9plylkab75ykoomhrpphyu5/original.jpg?fm=pjpg\u0026auto=format","file_name":"20200222_BHMHeritageBall_0198.jpg","sortable_id":"Photo_6776300"},{"id":6776298,"user_id":180875,"post_id":394761,"photo_group_id":2498296,"position":1,"photo_content_type":"image/jpeg","photo_key":"q74szxv0wy5u7j86c9dl8qz8wmv44ztco2hd","dimensions":"5472x3648","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"5472","height":"3648","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/q74szxv0wy5u7j86c9dl8qz8wmv44ztco2hd/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/q74szxv0wy5u7j86c9dl8qz8wmv44ztco2hd/original.jpg?fm=pjpg\u0026auto=format","file_name":"20200225_LENS_Study_9354.jpg","sortable_id":"Photo_6776298"},{"id":6776301,"user_id":180875,"post_id":394761,"photo_group_id":2498296,"position":2,"photo_content_type":"image/jpeg","photo_key":"syrjcnklmlctubcqgdm8qjq5v6k3ek5nois5","dimensions":"6720x4480","pending":false,"fill_width":true,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"6720","height":"4480","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/syrjcnklmlctubcqgdm8qjq5v6k3ek5nois5/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/syrjcnklmlctubcqgdm8qjq5v6k3ek5nois5/original.jpg?fm=pjpg\u0026auto=format","file_name":"20200131_Blackout-247.jpg","sortable_id":"Photo_6776301"},{"id":6776303,"user_id":180875,"post_id":394761,"photo_group_id":2498296,"position":3,"photo_content_type":"image/jpeg","photo_key":"p7c5ntw3bzdskk2ojugyllamidv0zy0dnmie","dimensions":"4480x6720","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"4480","height":"6720","aspect_ratio":0.6666666666666666,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/p7c5ntw3bzdskk2ojugyllamidv0zy0dnmie/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/p7c5ntw3bzdskk2ojugyllamidv0zy0dnmie/original.jpg?fm=pjpg\u0026auto=format","file_name":"20180802_bookstore_techcenter_13.jpg","sortable_id":"Photo_6776303"},{"id":6776305,"user_id":180875,"post_id":394761,"photo_group_id":2498296,"position":4,"photo_content_type":"image/jpeg","photo_key":"p7hqf2k6aghie0p677cqxg6zby6g4semkozs","dimensions":"6720x4480","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"6720","height":"4480","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/p7hqf2k6aghie0p677cqxg6zby6g4semkozs/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/p7hqf2k6aghie0p677cqxg6zby6g4semkozs/original.jpg?fm=pjpg\u0026auto=format","file_name":"20180425_Balloons_PalestinesChildrenReliefFund_16.jpg","sortable_id":"Photo_6776305"},{"id":6778269,"user_id":180875,"post_id":394761,"photo_group_id":2498296,"position":5,"photo_content_type":"image/jpeg","photo_key":"mh1f7muygpefpw5mdnxx68rpl1lnkubicsrq","dimensions":"2994x2406","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"2994","height":"2406","aspect_ratio":1.2443890274314215,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/mh1f7muygpefpw5mdnxx68rpl1lnkubicsrq/original.JPG?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/mh1f7muygpefpw5mdnxx68rpl1lnkubicsrq/original.JPG?fm=pjpg\u0026auto=format","file_name":"_SW50865.JPG","sortable_id":"Photo_6778269"},{"id":6776313,"user_id":180875,"post_id":394761,"photo_group_id":2498296,"position":6,"photo_content_type":"image/jpeg","photo_key":"kmorkum97lecx8fgmlaaltb2iwfw8au4r3zx","dimensions":"5530x3687","pending":false,"fill_width":true,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"5530","height":"3687","aspect_ratio":1.4998643883916463,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/kmorkum97lecx8fgmlaaltb2iwfw8au4r3zx/original.JPG?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/kmorkum97lecx8fgmlaaltb2iwfw8au4r3zx/original.JPG?fm=pjpg\u0026auto=format","file_name":"030820_Moon_JC0403.JPG","sortable_id":"Photo_6776313"}],"2498268":[{"id":6776212,"user_id":180875,"post_id":394761,"photo_group_id":2498268,"position":1,"photo_content_type":"image/jpeg","photo_key":"wk6s22kewkdvqqneatq7pdht4b219ub398kf","dimensions":"6139x4093","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"6139","height":"4093","aspect_ratio":1.4998778402150013,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/wk6s22kewkdvqqneatq7pdht4b219ub398kf/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/wk6s22kewkdvqqneatq7pdht4b219ub398kf/original.jpg?fm=pjpg\u0026auto=format","file_name":"20190825_Convocation_170.jpg","sortable_id":"Photo_6776212"},{"id":6776213,"user_id":180875,"post_id":394761,"photo_group_id":2498268,"position":2,"photo_content_type":"image/jpeg","photo_key":"5q6xsrm17w9hzejs22ta7ud3ie11i8f5sz9f","dimensions":"5760x3840","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"5760","height":"3840","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/5q6xsrm17w9hzejs22ta7ud3ie11i8f5sz9f/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/5q6xsrm17w9hzejs22ta7ud3ie11i8f5sz9f/original.jpg?fm=pjpg\u0026auto=format","file_name":"20191211_ArchitectureFinalReviews-293.jpg","sortable_id":"Photo_6776213"},{"id":6776321,"user_id":180875,"post_id":394761,"photo_group_id":2498268,"position":2,"photo_content_type":"image/jpeg","photo_key":"qdibcfl04alu9bncm3wwb0ezc7hvjdpdwwyy","dimensions":"6234x4156","pending":false,"fill_width":true,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"6234","height":"4156","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/qdibcfl04alu9bncm3wwb0ezc7hvjdpdwwyy/original.JPG?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/qdibcfl04alu9bncm3wwb0ezc7hvjdpdwwyy/original.JPG?fm=pjpg\u0026auto=format","file_name":"031120_ARC at Night_JC0075.JPG","sortable_id":"Photo_6776321"},{"id":6776322,"user_id":180875,"post_id":394761,"photo_group_id":2498268,"position":3,"photo_content_type":"image/jpeg","photo_key":"83bx76ox32nb33mj2px3esu0fe7v581d51ck","dimensions":"6535x4357","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"6535","height":"4357","aspect_ratio":1.4998852421390865,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/83bx76ox32nb33mj2px3esu0fe7v581d51ck/original.JPG?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/83bx76ox32nb33mj2px3esu0fe7v581d51ck/original.JPG?fm=pjpg\u0026auto=format","file_name":"031120_ARC at Night_JC0132.JPG","sortable_id":"Photo_6776322"},{"id":6776279,"user_id":180875,"post_id":394761,"photo_group_id":2498268,"position":5,"photo_content_type":"image/jpeg","photo_key":"hbu08dq78ewjm2zbacw9sjm45s97ldpnga5d","dimensions":"6720x4480","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"6720","height":"4480","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/hbu08dq78ewjm2zbacw9sjm45s97ldpnga5d/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/hbu08dq78ewjm2zbacw9sjm45s97ldpnga5d/original.jpg?fm=pjpg\u0026auto=format","file_name":"20200213_LENS_Study_0038.jpg","sortable_id":"Photo_6776279"},{"id":6776211,"user_id":180875,"post_id":394761,"photo_group_id":2498268,"position":6,"photo_content_type":"image/jpeg","photo_key":"f2m444o10qgyhzd7gsa8a9v84wsebg77ghht","dimensions":"5472x3648","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"5472","height":"3648","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/f2m444o10qgyhzd7gsa8a9v84wsebg77ghht/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/f2m444o10qgyhzd7gsa8a9v84wsebg77ghht/original.jpg?fm=pjpg\u0026auto=format","file_name":"20200210_StudentPortrait_4297.jpg","sortable_id":"Photo_6776211"},{"id":6776383,"user_id":180875,"post_id":394761,"photo_group_id":2498268,"position":7,"photo_content_type":"image/jpeg","photo_key":"7zxkf8d2wxp8qhyjdr5eqo12gwfl6m0ozi84","dimensions":"5041x3360","pending":false,"fill_width":true,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"5041","height":"3360","aspect_ratio":1.5002976190476192,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/7zxkf8d2wxp8qhyjdr5eqo12gwfl6m0ozi84/original.JPG?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/7zxkf8d2wxp8qhyjdr5eqo12gwfl6m0ozi84/original.JPG?fm=pjpg\u0026auto=format","file_name":"011420_Spring Semester Day 2_JC166.JPG","sortable_id":"Photo_6776383"},{"id":6776535,"user_id":180875,"post_id":394761,"photo_group_id":2498268,"position":8,"photo_content_type":"image/jpeg","photo_key":"y68gt7is0ix5rnw376ri5yxuf95tu55etqux","dimensions":"5472x3648","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"5472","height":"3648","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/y68gt7is0ix5rnw376ri5yxuf95tu55etqux/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/y68gt7is0ix5rnw376ri5yxuf95tu55etqux/original.jpg?fm=pjpg\u0026auto=format","file_name":"2019-Fall-InvolvementFair-184.jpg","sortable_id":"Photo_6776535"},{"id":6778267,"user_id":180875,"post_id":394761,"photo_group_id":2498268,"position":9,"photo_content_type":"image/jpeg","photo_key":"2je3e6w1g9y3thuu6hv9zwhqygvidw0fm01d","dimensions":"3348x2510","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"3348","height":"2510","aspect_ratio":1.3338645418326693,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/2je3e6w1g9y3thuu6hv9zwhqygvidw0fm01d/original.JPG?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/2je3e6w1g9y3thuu6hv9zwhqygvidw0fm01d/original.JPG?fm=pjpg\u0026auto=format","file_name":"_SW42303.JPG","sortable_id":"Photo_6778267"}],"2498267":[{"id":6776209,"user_id":180875,"post_id":394761,"photo_group_id":2498267,"position":1,"photo_content_type":"image/jpeg","photo_key":"84pmw9l1hu6ldqo1z3geend00ewjfz5qe074","dimensions":"6720x4480","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"6720","height":"4480","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/84pmw9l1hu6ldqo1z3geend00ewjfz5qe074/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/84pmw9l1hu6ldqo1z3geend00ewjfz5qe074/original.jpg?fm=pjpg\u0026auto=format","file_name":"20190825_Convocation_169.jpg","sortable_id":"Photo_6776209"},{"id":6776348,"user_id":180875,"post_id":394761,"photo_group_id":2498267,"position":2,"photo_content_type":"image/jpeg","photo_key":"0aecxcbnsfc4hlh09vlclzuvvny3iy3qsbto","dimensions":"6720x4480","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"6720","height":"4480","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/0aecxcbnsfc4hlh09vlclzuvvny3iy3qsbto/original.JPG?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/0aecxcbnsfc4hlh09vlclzuvvny3iy3qsbto/original.JPG?fm=pjpg\u0026auto=format","file_name":"032020_Match Day_JC0185A.JPG","sortable_id":"Photo_6776348"},{"id":6776208,"user_id":180875,"post_id":394761,"photo_group_id":2498267,"position":3,"photo_content_type":"image/jpeg","photo_key":"b1udye21ndhugomrthh2ujn3973orrmlt77w","dimensions":"3831x5747","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"3831","height":"5747","aspect_ratio":0.6666086653906386,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/b1udye21ndhugomrthh2ujn3973orrmlt77w/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/b1udye21ndhugomrthh2ujn3973orrmlt77w/original.jpg?fm=pjpg\u0026auto=format","file_name":"20200302_FSL_OrderofOmegaInitiation_0113.jpg","sortable_id":"Photo_6776208"},{"id":6778265,"user_id":180875,"post_id":394761,"photo_group_id":2498267,"position":4,"photo_content_type":"image/jpeg","photo_key":"cusdz3yp5vnkzq55hkae898vkjwwtg7urhed","dimensions":"4470x3528","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"4470","height":"3528","aspect_ratio":1.2670068027210883,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/cusdz3yp5vnkzq55hkae898vkjwwtg7urhed/original.JPG?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/cusdz3yp5vnkzq55hkae898vkjwwtg7urhed/original.JPG?fm=pjpg\u0026auto=format","file_name":"_SW40408.JPG","sortable_id":"Photo_6778265"},{"id":6776210,"user_id":180875,"post_id":394761,"photo_group_id":2498267,"position":4,"photo_content_type":"image/jpeg","photo_key":"65ox52xpw2ndoliqxo5oxcdwxzvjjarywoaj","dimensions":"5760x3840","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"5760","height":"3840","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/65ox52xpw2ndoliqxo5oxcdwxzvjjarywoaj/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/65ox52xpw2ndoliqxo5oxcdwxzvjjarywoaj/original.jpg?fm=pjpg\u0026auto=format","file_name":"20200302_FSL_OrderofOmegaInitiation_0263.jpg","sortable_id":"Photo_6776210"},{"id":6776332,"user_id":180875,"post_id":394761,"photo_group_id":2498267,"position":5,"photo_content_type":"image/jpeg","photo_key":"5g4mjhcrygwd26fiqeoeww14cc9nrrs4ccg9","dimensions":"5472x3648","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"5472","height":"3648","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/5g4mjhcrygwd26fiqeoeww14cc9nrrs4ccg9/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/5g4mjhcrygwd26fiqeoeww14cc9nrrs4ccg9/original.jpg?fm=pjpg\u0026auto=format","file_name":"20200206-SnowDayStock-SAMPLE-10.jpg","sortable_id":"Photo_6776332"},{"id":6776357,"user_id":180875,"post_id":394761,"photo_group_id":2498267,"position":6,"photo_content_type":"image/jpeg","photo_key":"a3tkxr27pjz6b9u7vlnfen5e80m4f3alhmj5","dimensions":"5760x3840","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"5760","height":"3840","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/a3tkxr27pjz6b9u7vlnfen5e80m4f3alhmj5/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/a3tkxr27pjz6b9u7vlnfen5e80m4f3alhmj5/original.jpg?fm=pjpg\u0026auto=format","file_name":"20191211_ArchitectureFinalReviews-586.jpg","sortable_id":"Photo_6776357"},{"id":6778266,"user_id":180875,"post_id":394761,"photo_group_id":2498267,"position":8,"photo_content_type":"image/jpeg","photo_key":"hvfeka2vy6qx8u4bztvxfv39immejde4yij4","dimensions":"5472x3648","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"5472","height":"3648","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/hvfeka2vy6qx8u4bztvxfv39immejde4yij4/original.JPG?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/hvfeka2vy6qx8u4bztvxfv39immejde4yij4/original.JPG?fm=pjpg\u0026auto=format","file_name":"_SW52379.JPG","sortable_id":"Photo_6778266"}],"2498270":[{"id":6776247,"user_id":180875,"post_id":394761,"photo_group_id":2498270,"position":2,"photo_content_type":"image/jpeg","photo_key":"tthbh47zr8q5ewqm3avnewagcergt04h41a1","dimensions":"8688x5792","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"8688","height":"5792","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/tthbh47zr8q5ewqm3avnewagcergt04h41a1/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/tthbh47zr8q5ewqm3avnewagcergt04h41a1/original.jpg?fm=pjpg\u0026auto=format","file_name":"20190821_MoveInDay_091.jpg","sortable_id":"Photo_6776247"},{"id":6776218,"user_id":180875,"post_id":394761,"photo_group_id":2498270,"position":2,"photo_content_type":"image/jpeg","photo_key":"xh4soj2lx79uhsulpivbfpkklcvhrhp2atkr","dimensions":"10444x4473","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"10444","height":"4473","aspect_ratio":2.3348982785602503,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/xh4soj2lx79uhsulpivbfpkklcvhrhp2atkr/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/xh4soj2lx79uhsulpivbfpkklcvhrhp2atkr/original.jpg?fm=pjpg\u0026auto=format","file_name":"20190723_NACAS_NavyPierCruise_061.jpg","sortable_id":"Photo_6776218"},{"id":6776219,"user_id":180875,"post_id":394761,"photo_group_id":2498270,"position":3,"photo_content_type":"image/jpeg","photo_key":"6sc6sk45bh8ai4sicnc1v53hvc9jty6s6nm9","dimensions":"5472x3648","pending":false,"fill_width":true,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"5472","height":"3648","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/6sc6sk45bh8ai4sicnc1v53hvc9jty6s6nm9/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/6sc6sk45bh8ai4sicnc1v53hvc9jty6s6nm9/original.jpg?fm=pjpg\u0026auto=format","file_name":"20200206-SnowDayStock-SAMPLE-12.jpg","sortable_id":"Photo_6776219"},{"id":6776217,"user_id":180875,"post_id":394761,"photo_group_id":2498270,"position":5,"photo_content_type":"image/jpeg","photo_key":"uqts0217cpp4rvxhfcj229jrrxpsz5t6ekk5","dimensions":"6452x4301","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"6452","height":"4301","aspect_ratio":1.5001162520344107,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/uqts0217cpp4rvxhfcj229jrrxpsz5t6ekk5/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/uqts0217cpp4rvxhfcj229jrrxpsz5t6ekk5/original.jpg?fm=pjpg\u0026auto=format","file_name":"20190914_SPARK_016.jpg","sortable_id":"Photo_6776217"},{"id":6776215,"user_id":180875,"post_id":394761,"photo_group_id":2498270,"position":6,"photo_content_type":"image/jpeg","photo_key":"dfw8arl6grt06kpltd8jeynxpuseyd44j4ln","dimensions":"4325x3034","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"4325","height":"3034","aspect_ratio":1.425510876730389,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/dfw8arl6grt06kpltd8jeynxpuseyd44j4ln/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/dfw8arl6grt06kpltd8jeynxpuseyd44j4ln/original.jpg?fm=pjpg\u0026auto=format","file_name":"20200307_UlitmateFrisbee_005.jpg","sortable_id":"Photo_6776215"},{"id":6776359,"user_id":180875,"post_id":394761,"photo_group_id":2498270,"position":7,"photo_content_type":"image/jpeg","photo_key":"7813bpjtvggs3ei0h44kil2ol35vahu5k81g","dimensions":"6720x4480","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"6720","height":"4480","aspect_ratio":1.5,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/7813bpjtvggs3ei0h44kil2ol35vahu5k81g/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/7813bpjtvggs3ei0h44kil2ol35vahu5k81g/original.jpg?fm=pjpg\u0026auto=format","file_name":"2019_JohnMarshallCommencement53.jpg","sortable_id":"Photo_6776359"},{"id":6776369,"user_id":180875,"post_id":394761,"photo_group_id":2498270,"position":8,"photo_content_type":"image/jpeg","photo_key":"9hrofik1lyh7eqdtq48fmsleac4y1afmt1f0","dimensions":"3931x2620","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"3931","height":"2620","aspect_ratio":1.500381679389313,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/9hrofik1lyh7eqdtq48fmsleac4y1afmt1f0/original.JPG?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/9hrofik1lyh7eqdtq48fmsleac4y1afmt1f0/original.JPG?fm=pjpg\u0026auto=format","file_name":"011320_Spring Semester First Day_JC395b.JPG","sortable_id":"Photo_6776369"},{"id":6776561,"user_id":180875,"post_id":394761,"photo_group_id":2498270,"position":9,"photo_content_type":"image/jpeg","photo_key":"xkhz0u1a9trprn171ogc8mlltx1it8pdotp3","dimensions":"3648x5472","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"3648","height":"5472","aspect_ratio":0.6666666666666666,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/xkhz0u1a9trprn171ogc8mlltx1it8pdotp3/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/xkhz0u1a9trprn171ogc8mlltx1it8pdotp3/original.jpg?fm=pjpg\u0026auto=format","file_name":"20180418_SuccessCoaching_GenderSexualityCenter_06.jpg","sortable_id":"Photo_6776561"},{"id":6778282,"user_id":180875,"post_id":394761,"photo_group_id":2498270,"position":10,"photo_content_type":"image/jpeg","photo_key":"zeycwddvtyhvlxzw42wb9bogoxvk1dg98k24","dimensions":"4480x6720","pending":false,"fill_width":false,"caption":null,"link_url":null,"is_curated":false,"curated_at":null,"exif":{},"file_key":null,"width":"4480","height":"6720","aspect_ratio":0.6666666666666666,"is_legacy":true,"deleted_at":null,"download_count":0,"asset_url":"https://exposure.imgix.net/production/photos/zeycwddvtyhvlxzw42wb9bogoxvk1dg98k24/original.jpg?fm=pjpg\u0026auto=format","preview_asset_url":"https://exposure.imgix.net/production/photos/zeycwddvtyhvlxzw42wb9bogoxvk1dg98k24/original.jpg?fm=pjpg\u0026auto=format","file_name":"2019_AdirondackChairs17.jpg","sortable_id":"Photo_6778282"}]}
+  </script>
+
+  <noscript>
+    Post JSON information disabled
+  </noscript>
+
+
+  
+
+
+<noscript>
+  Please enable Javascript
+</noscript>
+
+
+</div>
+
+<script src="https://js.stripe.com/v3/"></script>
+<noscript>
+  Please enable Javascript
+</noscript>
+
+
+<!-- Base App JS -->
+<script src="https://d1dh4fomm3d62b.cloudfront.net/assets/application-3886d671653f394a627dabd723d208f9a158476771a48d95012fee185f13d014.js"></script>
+
+<noscript>
+Please enable Javascript to use Exposure
+</noscript>
+
+<script src="//platform.twitter.com/widgets.js"></script>
+
+<noscript>
+ Please enable Javascript to see Twitter embeds
+</noscript>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+  ga('create', 'UA-12734777-24', 'exposure.co');
+  ga('send', 'pageview');
+  ga('set', 'anonymizeIp', true);
 </script>
-<script type='text/javascript' src='https://cs.uic.edu/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.12.1'></script>
-<script type='text/javascript' src='https://cs.uic.edu/wp-content/plugins/uic-red/js-admin/uic-publish-post-settings.js?ver=1.0.0'></script>
-<script type='text/javascript' src='https://cs.uic.edu/wp-content/plugins/uic-red/js-admin/acf-field-group-toggle.js?ver=1.0.0'></script>
-<script type='text/javascript' src='//www.uic.edu/apps/web-alert/alert.js?ver=3'></script>
-<script type='text/javascript' src='https://cs.uic.edu/wp-content/themes/uic-red/js/main.js?ver=1'></script>
-<script type='text/javascript' src='https://cs.uic.edu/wp-includes/js/wp-embed.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
+<script async='' src='https://www.googletagmanager.com/gtag/js?id=AW-879052382'></script>
+<script>
+  window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-879052382');
+</script>
+<noscript>
+Please enable Javascript
+</noscript>
+<noscript>
+Exposure requires Javascript to be enabled to use Google analytics
+</noscript>
 
 
 
+
+
+<div class='feedback-message pointer-events-none trans-bouncy' id='app-message'>
+<div class='cnt h5 pill bg-light-yellow border bold inline-block p1 px2 line-height-reset box-shadow-xsm'>
+<span class='icon-bell dark-yellow animated tada delay-1s inline-block mr1 h4 relative' style='top:2px;'></span>
+<span class='message capitalize'>
+
+</span>
+</div>
+</div>
+<style>
+  #app-message {
+    transform: scale(0) translate(0,30px);
+    opacity: 0;
+  }
   
-  
-  <script async src="https://cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js" type="text/javascript" charset="UTF-8"></script>
+  #app-message.active {
+    transform: scale(1) translate(0, 0);
+    opacity: 1;
+  }
+</style>
 
-  </body>
+<div aria-hidden='true' class='bg-light-yellow dark-yellow white border-top border-dark-yellow center fixed bottom-0 left-0 col-12 zfu box-shadow-xsm none ie-only'>
+<div class='p2 h5 line-height-reset'>
+<span class='icon-info relative h4 sm-remove' style='top:3px'></span>
+<b class='caps h6 sm-inline-block block mr1'>
+Your browser is unsupported:
+</b>
+Please use Google Chrome, Firefox or Safari for the best Exposure experience
+</div>
+</div>
+
+
+<div class="animated bounceIn loading-indicator bottom">
+    Loading, please hold on.
+</div>
+
+
+
+
+
+
+<script src="https://d1dh4fomm3d62b.cloudfront.net/assets/jstz.min-0c1ea33fc4f0d417b9c834dc6f61696ae5bc573bd7ab979d097e3612da755dcb.js"></script>
+<script src="https://d1dh4fomm3d62b.cloudfront.net/assets/jquery.cookie-48790b3e7b9c47e6b7e4146c5b30fb981844566ffdb3faef7621c62867c36bb2.js"></script>
+
+<script>
+  $(function() {
+    var tz = jstz.determine();
+    Cookies.set('timezone', tz.name(), { path: '/' });
+  });
+</script>
+
+
+
+
+
+
+
+</body>
 </html>

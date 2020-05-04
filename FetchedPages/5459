@@ -1,0 +1,488 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE8"/>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UIC College Of Nursing</title>
+<!--  Main CSS  -->
+	<link type="text/css" rel="stylesheet" href="https://assets.nursing.uic.edu/assets/css/style.css" />
+	<link type="text/css" rel="stylesheet" href="https://assets.nursing.uic.edu/assets/css/accordion.css" />
+	<link type="text/css" rel="stylesheet" href="https://assets.nursing.uic.edu/assets/css/font-awesome.css" />
+<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="https://assets.nursing.uic.edu/assets/js/jquery.min.js"></script>
+<script>
+    var baseURI = 'https://inquiry.nursing.uic.edu/';
+</script>
+	<script type="text/javascript" src="https://assets.nursing.uic.edu/assets/js/common.js"></script>
+	<script type="text/javascript" src="https://assets.nursing.uic.edu/assets/js/validation.js"></script>
+	<script type="text/javascript" src="https://assets.nursing.uic.edu/assets/js/jquery.validationEngine-en.js"></script>
+	<script type="text/javascript" src="https://assets.nursing.uic.edu/assets/js/jquery.validationEngine.js"></script>
+	<script type="text/javascript" src="https://assets.nursing.uic.edu/assets/js/placeholders.min.js"></script>
+	<script type="text/javascript" src="https://assets.nursing.uic.edu/assets/js/html5shiv.js"></script>
+	<script type="text/javascript" src="https://assets.nursing.uic.edu/assets/js/json2.js"></script>
+</head>
+
+<body>
+
+<!-- Header Start	-->
+
+	<header>
+		<section class="top_row">
+        	
+		</section>
+        
+        <section id="head_logo">
+        	<div class="wrapper">
+            	<div class="logo_width">
+            		<div class="logo_img"><a href="https://inquiry.nursing.uic.edu/">
+                    <img src="https://inquiry.nursing.uic.edu/assets/img/logo.png?1498882596" alt="" />                    </a></div>
+                	<div class="logo_txt"><h1>NURSING PROGRAM INQUIRY</h1></div>
+                </div>
+            </div>
+        </section>
+        
+	</header>
+
+<!-- End of Header	-->
+
+<div class="clearfloat"></div>
+<section class="midmainpart">
+	<div class="body_head"><h1></h1></div>
+</section>
+
+<div class="clearfloat"></div>
+
+<section class="accrodian">
+
+<form method="post" action="https://inquiry.nursing.uic.edu/prospect/submit" enctype="multipart/form-data" onsubmit="return validateProspectForm();">
+
+    <section class="accordion">
+    	<div class="accordion-container">
+            <a href="#" class="accordion-toggle open">
+                <span class="myprofile-head">Personal Data</span>
+                <span class="toggle-icon">
+                    <span class="accro_mius"></span>
+                </span>
+            </a>
+            <div class="accordion-content accordion-content_show">
+                <div class="trans_box prospect_form">
+                    <div class="trans_left">
+                        <div class="trans_full">
+                            <label><span class ="required">*</span> first name:</label>
+                            <input type="text" name="NameFirst" id="NameFirst" class="email_txt login_txt">
+                        </div>
+
+                        <div class="trans_full">
+                            <label><span class ="required">*</span> last name:</label>
+                            <input type="text" name="NameLast" id="NameLast" class="email_txt login_txt">
+                        </div>
+
+                        <div class="trans_full">
+                            <label>address:</label>
+                            <input type="text" name="Address1" id="Address1" class="email_txt login_txt">
+                        </div>
+
+                        <div class="trans_full">
+                            <label>city:</label>
+                            <input type="text" name="City" id="City" class="email_txt login_txt">
+                        </div>
+
+                        <div class="trans_state">
+                            <label>state:</label>
+                            <input type="text" name="State" id="State" class="email_txt login_txt">
+                        </div>
+
+                        <div class="trans_pcode">
+                            <label>Postal Code:</label>
+                            <input type="text" name="PostalCode" id="PostalCode" class="email_txt login_txt">
+                        </div>
+
+                        <div class="trans_full">
+                            <label>Country:</label>
+                            <input type="text" name="Country" id="Country" class="email_txt login_txt" value="USA">
+                        </div>
+
+                        <div class="trans_full">
+                            <label>Citizenship Type:</label>
+                            <select name="Citizenship" id="Citizenship" class="email_txt select_txt">
+                                <option value="">Select Citizenship Type</option>
+                                                                                                <option selected value="Citizen">Citizen </option>
+                                                                <option value="Permanent Resident">Permanent Resident </option>
+                                                                <option value="Int&#039;l Student">Int&#039;l Student </option>
+                                                                <option value="-">- </option>
+                                                                <option value="Undocumented">Undocumented </option>
+                                                                <option value="Unknown">Unknown </option>
+                                                                                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="trans_right">
+                        <div class="trans_full">
+                            <label><span class ="required">*</span> Email:</label>
+                            <input type="text" name="Email" id="Email" class="email_txt login_txt">
+                        </div>
+
+                        <div class="trans_full">
+                            <label>Home Phone:</label>
+                            <input type="text" name="PhoneHome" id="PhoneHome" class="email_txt login_txt">
+                        </div>
+
+                        <div class="trans_full">
+                            <label>Mobile Phone:</label>
+                            <input type="text" name="PhoneMobile" id="PhoneMobile" class="email_txt login_txt">
+                        </div>
+
+                        <div class="trans_full">
+                            <label><span class ="required">*</span> Date of Birth:</label>
+                            <input type="text" name="DateofBirth" id="DateofBirth" class="email_txt login_txt" placeholder="MM/DD/YYYY">
+                        </div>
+
+                        <div class="trans_full">
+                            <label><span class ="required">*</span> Gender</label>
+                            <div class="prospect_radio">
+                                    <input name="Gender" type="radio" value="M"> Male&nbsp;&nbsp;<input name="Gender" type="radio" value="F"> Female
+                            </div>
+                        </div>
+
+                        <div class="trans_full">
+                            <label><span class ="required">*</span> Contact Preference:</label>
+                            <select name="ContactPreferences" id="ContactPreferences" class="email_txt select_txt">
+                                <option value="">Select Contact Preference</option>
+                                                                                                <option value="Email">Email</option>
+                                                                <option value="Phone - Home">Phone - Home</option>
+                                                                <option value="Phone - Mobile">Phone - Mobile</option>
+                                                                <option value="USPS Mail">USPS Mail</option>
+                                                                                            </select>
+                        </div>
+                    </div>
+                </div>          
+            </div>
+		</div>
+    </section>
+    
+    <section class="accordion">    
+    	<div class="accordion-container">
+            <a href="#" class="accordion-toggle open">
+                <span class="myprofile-head">Program Information</span>
+                <span class="toggle-icon">
+                    <span class="accro_mius"></span>
+                </span>
+            </a>
+            <div class="accordion-content accordion-content_show">
+                <div class="trans_box prospect_form">
+                    <div class="trans_left">
+                        <div class="trans_full">
+                            <label>Will you have your RN License before starting at the UIC College of Nursing?</label>
+                            <div class="prospect_radio">
+                                                                                                    <input name="CurrentlyNurse" type="radio" value="Yes"> Yes                                                                    <input name="CurrentlyNurse" type="radio" value="No"> No                                                                                                
+                            </div>
+                        </div>
+
+                        <div class="trans_full">
+                            <label>Are you currently in Nursing School?</label>
+                            <div class="prospect_radio">
+                                                                                                    <input name="CurrentlyNursingSchool" type="radio" value="Yes"> Yes                                                                    <input name="CurrentlyNursingSchool" type="radio" value="No"> No                                                                 
+                            </div>
+                        </div>
+                        
+                        <div class="trans_full">
+                            <label>Have you previously attended or applied to UIC?</label>
+                            <div class="prospect_radio">
+                                                                                                    <input name="PreviouslyAttendedApplied" type="radio" value="Yes"> Yes                                                                    <input name="PreviouslyAttendedApplied" type="radio" value="No"> No                                                                 
+                            </div>
+                        </div>
+                        <div class="trans_full">
+                            <label>Will you have your bachelor’s degree before starting at the UIC College of Nursing?</label>
+                            <div class="prospect_radio">
+                                                                                                    <input name="BA" type="radio" value="Yes"> Yes                                                                    <input name="BA" type="radio" value="No"> No                                                                 
+                            </div>
+                        </div>
+                        
+                        <div class="trans_full">
+                            <label>How did you hear about us?</label>
+                            <div class="prospect_radio">
+                                                                                                    <input name="HearAboutUs[]" type="checkbox" value="Attended UIC for undergrad or pre-nursing courses"> Attended UIC for undergrad or pre-nursing courses <br>
+                                                                    <input name="HearAboutUs[]" type="checkbox" value="College/Professional Fair"> College/Professional Fair <br>
+                                                                    <input name="HearAboutUs[]" type="checkbox" value="Friends/Co-Workers"> Friends/Co-Workers <br>
+                                                                    <input name="HearAboutUs[]" type="checkbox" value="Online Search"> Online Search <br>
+                                                                    <input name="HearAboutUs[]" type="checkbox" value="Social Media"> Social Media <br>
+                                                                    <input name="HearAboutUs[]" type="checkbox" value="Other"> Other <br>
+                                                                                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="trans_right">
+                        <div class="trans_full">
+                            <label>Year Planning to Apply</label>
+                            <select name="PlanYear" id="PlanYear" class="email_txt select_txt">
+                                <option value="">Select Year</option>
+                                                                                                            <option value="2016">2016</option>
+                                                                            <option value="2017">2017</option>
+                                                                            <option value="2018">2018</option>
+                                                                            <option value="2019">2019</option>
+                                                                            <option value="2020">2020</option>
+                                                                            <option value="2021">2021</option>
+                                                                            <option value="2022">2022</option>
+                                                                            <option value="2023">2023</option>
+                                                                            <option value="2024">2024</option>
+                                                                            <option value="2025">2025</option>
+                                                                            <option value="2026">2026</option>
+                                                                            <option value="2027">2027</option>
+                                                                            <option value="2028">2028</option>
+                                                                            <option value="2029">2029</option>
+                                                                            <option value="2030">2030</option>
+                                                                                                </select>
+                        </div>
+                        <div id="degrees_rn" style="display:none;">
+                            <div class="trans_full">
+                                <label>Program of Interest (First Choice)</label>
+                                <select name="degree[degrees_rn1]" id="degrees_rn1" class="email_txt select_txt">
+                                    <option value="">Select Program of Interest</option>
+                                                                                                            <option value="Certificate Programs">Certificate Programs</option>
+                                                                        <option value="(DNP) Doctor of Nursing Practice">(DNP) Doctor of Nursing Practice</option>
+                                                                        <option value="Master of Science">Master of Science</option>
+                                                                        <option value="(PhD) Doctor of Philosophy">(PhD) Doctor of Philosophy</option>
+                                                                                                        </select>
+                            </div>
+                            
+                            <div class="trans_full">
+                                <label>Specialty (First Choice)</label>
+                                <select name="degree[specialty_rn1]" id="specialty_rn1" class="email_txt select_txt">
+                                    <option value="">Select Specialty</option>
+                                </select>
+                            </div>
+                            
+                            <div class="trans_full">
+                                <label>Campus (First Choice)</label>
+                                <select name="degree[campus_rn1]" id="campus_rn1" class="email_txt select_txt">
+                                    <option value="">Select Campus</option>
+                                </select>
+                            </div>
+                            
+                            <div class="trans_full">
+                                <label>Program of Interest (Second Choice)</label>
+                                <select name="degree[degrees_rn2]" id="degrees_rn2" class="email_txt select_txt">
+                                    <option value="">Select Program of Interest</option>
+                                                                                                            <option value="Certificate Programs">Certificate Programs</option>
+                                                                        <option value="(DNP) Doctor of Nursing Practice">(DNP) Doctor of Nursing Practice</option>
+                                                                        <option value="Master of Science">Master of Science</option>
+                                                                        <option value="(PhD) Doctor of Philosophy">(PhD) Doctor of Philosophy</option>
+                                                                                                        </select>
+                            </div>
+                            
+                            <div class="trans_full">
+                                <label>Specialty (Second Choice)</label>
+                                <select name="degree[specialty_rn2]" id="specialty_rn2" class="email_txt select_txt">
+                                    <option value="">Select Specialty</option>
+                                </select>
+                            </div>
+                            
+                            <div class="trans_full">
+                                <label>Campus (Second Choice)</label>
+                                <select name="degree[campus_rn2]" id="campus_rn2" class="email_txt select_txt">
+                                    <option value="">Select Campus</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div id="degrees_no_rn">
+                            <div class="trans_full">
+                                <label>Program of Interest (First Choice)</label>
+                                <select name="degree[degrees_no_rn1]" id="degrees_no_rn1" class="email_txt select_txt">
+                                    <option value="">Select Program of Interest</option>
+                                                                                                            <option value="(BSN) Bachelor of Science in Nursing">(BSN) Bachelor of Science in Nursing</option>
+                                                                        <option value="Graduate Entry Master of Science">Graduate Entry Master of Science</option>
+                                                                                                        </select>
+                            </div>
+                            
+                            <div class="trans_full">
+                                <label>Specialty (First Choice)</label>
+                                <select name="degree[specialty_no_rn1]" id="specialty_no_rn1" class="email_txt select_txt">
+                                    <option value="">Select Specialty</option>
+                                </select>
+                            </div>
+                            
+                            <div class="trans_full">
+                                <label>Campus (First Choice)</label>
+                                <select name="degree[campus_no_rn1]" id="campus_no_rn1" class="email_txt select_txt">
+                                    <option value="">Select Campus</option>
+                                </select>
+                            </div>
+                            
+                            <div class="trans_full">
+                                <label>Program of Interest (Second Choice)</label>
+                                <select name="degree[degrees_no_rn2]" id="degrees_no_rn2" class="email_txt select_txt">
+                                    <option value="">Select Program of Interest</option>
+                                                                                                            <option value="(BSN) Bachelor of Science in Nursing">(BSN) Bachelor of Science in Nursing</option>
+                                                                        <option value="Graduate Entry Master of Science">Graduate Entry Master of Science</option>
+                                                                                                        </select>
+                            </div>
+                            
+                            <div class="trans_full">
+                                <label>Specialty (Second Choice)</label>
+                                <select name="degree[specialty_no_rn2]" id="specialty_no_rn2" class="email_txt select_txt">
+                                    <option value="">Select Specialty</option>
+                                </select>
+                            </div>
+                            
+                            <div class="trans_full">
+                                <label>Campus (Second Choice)</label>
+                                <select name="degree[campus_no_rn2]" id="campus_no_rn2" class="email_txt select_txt">
+                                    <option value="">Select Campus</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</div>
+    </section>
+    <section class="accordion">    
+        <div class="accordion-container">
+            <button type="submit" class="login_btn login_btn_sub">submit</button>
+            <div class="clearfloat"></div>
+            <p class="textinformation">COMPLETE ALL <span class ="required">*</span> REQUIRED FIELDS AND CLICK SUBMIT</p>
+        </div>
+    </section>
+          
+</form>
+
+</section>
+
+<div class="clearfloat"></div>
+<div class="sub_data sub_space"></div>
+
+
+<script>
+var responseData = "{&quot;citizenship&quot;:{&quot;name&quot;:&quot;citizenship&quot;,&quot;values&quot;:[{&quot;value&quot;:&quot;Citizen&quot;,&quot;display&quot;:&quot;Citizen&quot;},{&quot;value&quot;:&quot;Permanent Resident&quot;,&quot;display&quot;:&quot;Permanent Resident&quot;},{&quot;value&quot;:&quot;Int&#039;l Student&quot;,&quot;display&quot;:&quot;Int&#039;l Student&quot;},{&quot;value&quot;:&quot;-&quot;,&quot;display&quot;:&quot;-&quot;},{&quot;value&quot;:&quot;Undocumented&quot;,&quot;display&quot;:&quot;Undocumented&quot;},{&quot;value&quot;:&quot;Unknown&quot;,&quot;display&quot;:&quot;Unknown&quot;}]},&quot;yesno&quot;:{&quot;name&quot;:&quot;yesno&quot;,&quot;values&quot;:[{&quot;value&quot;:&quot;Yes&quot;,&quot;display&quot;:&quot;Yes&quot;},{&quot;value&quot;:&quot;No&quot;,&quot;display&quot;:&quot;No&quot;}]},&quot;contactpreference&quot;:{&quot;name&quot;:&quot;contactpreference&quot;,&quot;values&quot;:[{&quot;value&quot;:&quot;Email&quot;,&quot;display&quot;:&quot;Email&quot;},{&quot;value&quot;:&quot;Phone - Home&quot;,&quot;display&quot;:&quot;Phone - Home&quot;},{&quot;value&quot;:&quot;Phone - Mobile&quot;,&quot;display&quot;:&quot;Phone - Mobile&quot;},{&quot;value&quot;:&quot;USPS Mail&quot;,&quot;display&quot;:&quot;USPS Mail&quot;}]},&quot;gender&quot;:{&quot;name&quot;:&quot;gender&quot;,&quot;values&quot;:[{&quot;value&quot;:&quot;F&quot;,&quot;display&quot;:&quot;F&quot;},{&quot;value&quot;:&quot;M&quot;,&quot;display&quot;:&quot;M&quot;}]},&quot;hearaboutus&quot;:{&quot;name&quot;:&quot;hearaboutus&quot;,&quot;values&quot;:[{&quot;value&quot;:&quot;Attended UIC for undergrad or pre-nursing courses&quot;,&quot;display&quot;:&quot;Attended UIC for undergrad or pre-nursing courses&quot;},{&quot;value&quot;:&quot;College\/Professional Fair&quot;,&quot;display&quot;:&quot;College\/Professional Fair&quot;},{&quot;value&quot;:&quot;Friends\/Co-Workers&quot;,&quot;display&quot;:&quot;Friends\/Co-Workers&quot;},{&quot;value&quot;:&quot;Online Search&quot;,&quot;display&quot;:&quot;Online Search&quot;},{&quot;value&quot;:&quot;Social Media&quot;,&quot;display&quot;:&quot;Social Media&quot;},{&quot;value&quot;:&quot;Other&quot;,&quot;display&quot;:&quot;Other&quot;}]},&quot;EthnicityValues&quot;:{&quot;name&quot;:&quot;EthnicityValues&quot;,&quot;values&quot;:[{&quot;value&quot;:&quot;American Indian or Alaska Native&quot;,&quot;display&quot;:&quot;American Indian or Alaska Native&quot;},{&quot;value&quot;:&quot;Asian&quot;,&quot;display&quot;:&quot;Asian&quot;},{&quot;value&quot;:&quot;Black or African American&quot;,&quot;display&quot;:&quot;Black or African American&quot;},{&quot;value&quot;:&quot;Hispanic or Latino&quot;,&quot;display&quot;:&quot;Hispanic or Latino&quot;},{&quot;value&quot;:&quot;Native Hawaiian or Other Pacific Islander&quot;,&quot;display&quot;:&quot;Native Hawaiian or Other Pacific Islander&quot;},{&quot;value&quot;:&quot;None&quot;,&quot;display&quot;:&quot;None&quot;},{&quot;value&quot;:&quot;White&quot;,&quot;display&quot;:&quot;White&quot;}]},&quot;years&quot;:{&quot;name&quot;:&quot;years&quot;,&quot;values&quot;:[{&quot;value&quot;:&quot;2016&quot;,&quot;display&quot;:&quot;2016&quot;},{&quot;value&quot;:&quot;2017&quot;,&quot;display&quot;:&quot;2017&quot;},{&quot;value&quot;:&quot;2018&quot;,&quot;display&quot;:&quot;2018&quot;},{&quot;value&quot;:&quot;2019&quot;,&quot;display&quot;:&quot;2019&quot;},{&quot;value&quot;:&quot;2020&quot;,&quot;display&quot;:&quot;2020&quot;},{&quot;value&quot;:&quot;2021&quot;,&quot;display&quot;:&quot;2021&quot;},{&quot;value&quot;:&quot;2022&quot;,&quot;display&quot;:&quot;2022&quot;},{&quot;value&quot;:&quot;2023&quot;,&quot;display&quot;:&quot;2023&quot;},{&quot;value&quot;:&quot;2024&quot;,&quot;display&quot;:&quot;2024&quot;},{&quot;value&quot;:&quot;2025&quot;,&quot;display&quot;:&quot;2025&quot;},{&quot;value&quot;:&quot;2026&quot;,&quot;display&quot;:&quot;2026&quot;},{&quot;value&quot;:&quot;2027&quot;,&quot;display&quot;:&quot;2027&quot;},{&quot;value&quot;:&quot;2028&quot;,&quot;display&quot;:&quot;2028&quot;},{&quot;value&quot;:&quot;2029&quot;,&quot;display&quot;:&quot;2029&quot;},{&quot;value&quot;:&quot;2030&quot;,&quot;display&quot;:&quot;2030&quot;}]},&quot;degrees_no_rn&quot;:{&quot;values&quot;:[{&quot;value&quot;:&quot;(BSN) Bachelor of Science in Nursing&quot;,&quot;display&quot;:&quot;(BSN) Bachelor of Science in Nursing&quot;},{&quot;value&quot;:&quot;Graduate Entry Master of Science&quot;,&quot;display&quot;:&quot;Graduate Entry Master of Science&quot;}],&quot;(BSN) Bachelor of Science in Nursing&quot;:{&quot;name&quot;:&quot;(BSN) Bachelor of Science in Nursing&quot;,&quot;campuses&quot;:{&quot;values&quot;:[{&quot;value&quot;:&quot;Chicago&quot;,&quot;display&quot;:&quot;Chicago&quot;},{&quot;value&quot;:&quot;Urbana&quot;,&quot;display&quot;:&quot;Urbana&quot;},{&quot;value&quot;:&quot;Springfield&quot;,&quot;display&quot;:&quot;Springfield&quot;}]},&quot;specialities&quot;:[]},&quot;Graduate Entry Master of Science&quot;:{&quot;name&quot;:&quot;Graduate Entry Master of Science&quot;,&quot;specialties&quot;:{&quot;values&quot;:[{&quot;value&quot;:&quot;Advanced Generalist&quot;,&quot;display&quot;:&quot;Advanced Generalist&quot;}]},&quot;campuses&quot;:{&quot;values&quot;:[{&quot;value&quot;:&quot;Chicago&quot;,&quot;display&quot;:&quot;Chicago&quot;},{&quot;value&quot;:&quot;Urbana&quot;,&quot;display&quot;:&quot;Urbana&quot;}]}}},&quot;degrees_rn&quot;:{&quot;values&quot;:[{&quot;value&quot;:&quot;Certificate Programs&quot;,&quot;display&quot;:&quot;Certificate Programs&quot;},{&quot;value&quot;:&quot;(DNP) Doctor of Nursing Practice&quot;,&quot;display&quot;:&quot;(DNP) Doctor of Nursing Practice&quot;},{&quot;value&quot;:&quot;Master of Science&quot;,&quot;display&quot;:&quot;Master of Science&quot;},{&quot;value&quot;:&quot;(PhD) Doctor of Philosophy&quot;,&quot;display&quot;:&quot;(PhD) Doctor of Philosophy&quot;}],&quot;Certificate Programs&quot;:{&quot;name&quot;:&quot;Certificate Programs&quot;,&quot;specialties&quot;:{&quot;values&quot;:[{&quot;value&quot;:&quot;School Nurse Certificate&quot;,&quot;display&quot;:&quot;School Nurse Certificate&quot;},{&quot;value&quot;:&quot;Advanced Practice Palliative Care Nurse&quot;,&quot;display&quot;:&quot;Advanced Practice Palliative Care Nurse&quot;},{&quot;value&quot;:&quot;Teaching and Learning Certificate&quot;,&quot;display&quot;:&quot;Teaching and Learning Certificate&quot;},{&quot;value&quot;:&quot;Sleep Health Certificate&quot;,&quot;display&quot;:&quot;Sleep Health Certificate&quot;}]},&quot;campuses&quot;:{&quot;values&quot;:[{&quot;value&quot;:&quot;Chicago&quot;,&quot;display&quot;:&quot;Chicago&quot;},{&quot;value&quot;:&quot;Peoria&quot;,&quot;display&quot;:&quot;Peoria&quot;},{&quot;value&quot;:&quot;Quad Cities&quot;,&quot;display&quot;:&quot;Quad Cities&quot;},{&quot;value&quot;:&quot;Rockford&quot;,&quot;display&quot;:&quot;Rockford&quot;},{&quot;value&quot;:&quot;Urbana&quot;,&quot;display&quot;:&quot;Urbana&quot;}]}},&quot;(DNP) Doctor of Nursing Practice&quot;:{&quot;name&quot;:&quot;(DNP) Doctor of Nursing Practice&quot;,&quot;specialties&quot;:{&quot;values&quot;:[{&quot;value&quot;:&quot;Adult-Gerontology Acute Care NP&quot;,&quot;display&quot;:&quot;Adult-Gerontology Acute Care NP&quot;},{&quot;value&quot;:&quot;Adult-Gerontology Primary Care NP&quot;,&quot;display&quot;:&quot;Adult-Gerontology Primary Care NP&quot;},{&quot;value&quot;:&quot;Advanced Population Health Nursing&quot;,&quot;display&quot;:&quot;Advanced Population Health Nursing&quot;},{&quot;value&quot;:&quot;Family Nurse Practitioner&quot;,&quot;display&quot;:&quot;Family Nurse Practitioner&quot;},{&quot;value&quot;:&quot;Psychiatric-Mental Health NP&quot;,&quot;display&quot;:&quot;Psychiatric-Mental Health NP&quot;},{&quot;value&quot;:&quot;Health Systems Leadership and Informatics&quot;,&quot;display&quot;:&quot;Health Systems Leadership and Informatics&quot;},{&quot;value&quot;:&quot;Neonatal Nurse Practitioner&quot;,&quot;display&quot;:&quot;Neonatal Nurse Practitioner&quot;},{&quot;value&quot;:&quot;Nurse Midwifery&quot;,&quot;display&quot;:&quot;Nurse Midwifery&quot;},{&quot;value&quot;:&quot;Nurse Midwifery\/Women\u2019s Health Practitioner&quot;,&quot;display&quot;:&quot;Nurse Midwifery\/Women\u2019s Health Practitioner&quot;},{&quot;value&quot;:&quot;Pediatric NP - Acute Care &quot;,&quot;display&quot;:&quot;Pediatric NP - Acute Care &quot;},{&quot;value&quot;:&quot;Pediatric NP - Primary Care&quot;,&quot;display&quot;:&quot;Pediatric NP - Primary Care&quot;},{&quot;value&quot;:&quot;Women\u2019s Health Nurse Practitioner&quot;,&quot;display&quot;:&quot;Women\u2019s Health Nurse Practitioner&quot;},{&quot;value&quot;:&quot;No New Specialty&quot;,&quot;display&quot;:&quot;No New Specialty&quot;}]},&quot;campuses&quot;:{&quot;values&quot;:[{&quot;value&quot;:&quot;Chicago&quot;,&quot;display&quot;:&quot;Chicago&quot;},{&quot;value&quot;:&quot;Peoria&quot;,&quot;display&quot;:&quot;Peoria&quot;},{&quot;value&quot;:&quot;Quad Cities&quot;,&quot;display&quot;:&quot;Quad Cities&quot;},{&quot;value&quot;:&quot;Rockford&quot;,&quot;display&quot;:&quot;Rockford&quot;},{&quot;value&quot;:&quot;Springfield&quot;,&quot;display&quot;:&quot;Springfield&quot;},{&quot;value&quot;:&quot;Urbana&quot;,&quot;display&quot;:&quot;Urbana&quot;}]}},&quot;Master of Science&quot;:{&quot;name&quot;:&quot;Master of Science&quot;,&quot;specialties&quot;:{&quot;values&quot;:[{&quot;value&quot;:&quot;No Specialty&quot;,&quot;display&quot;:&quot;No Specialty&quot;}]},&quot;campuses&quot;:{&quot;values&quot;:[{&quot;value&quot;:&quot;Chicago&quot;,&quot;display&quot;:&quot;Chicago&quot;},{&quot;value&quot;:&quot;Peoria&quot;,&quot;display&quot;:&quot;Peoria&quot;},{&quot;value&quot;:&quot;Quad Cities&quot;,&quot;display&quot;:&quot;Quad Cities&quot;},{&quot;value&quot;:&quot;Rockford&quot;,&quot;display&quot;:&quot;Rockford&quot;},{&quot;value&quot;:&quot;Springfield&quot;,&quot;display&quot;:&quot;Springfield&quot;},{&quot;value&quot;:&quot;Urbana&quot;,&quot;display&quot;:&quot;Urbana&quot;}]}},&quot;(PhD) Doctor of Philosophy&quot;:{&quot;name&quot;:&quot;(PhD) Doctor of Philosophy&quot;,&quot;campuses&quot;:{&quot;values&quot;:[{&quot;value&quot;:&quot;Chicago&quot;,&quot;display&quot;:&quot;Chicago&quot;}]},&quot;specialities&quot;:[]}}}";
+var parsedData = JSON.parse(responseData.replace(/&quot;/g,'"'));
+console.log(parsedData);
+
+$("input:radio[name=CurrentlyNurse]").click(function() {
+    if($(this).val() == 'Yes'){
+        $('#degrees_rn').show();
+        $('#degrees_no_rn').hide();
+    }else{
+        $('#degrees_rn').hide();
+        $('#degrees_no_rn').show();
+    }
+
+});
+
+
+$('#degrees_no_rn1').change(function(){
+    var degrees_no_rn1 = $(this).val();
+    
+    $('#specialty_no_rn1').find('option').remove().end().append('<option value="">Select Specialty</option>');
+    if(parsedData.degrees_no_rn[degrees_no_rn1].specialties != undefined){
+        var specialties = parsedData.degrees_no_rn[degrees_no_rn1].specialties.values;
+        for(var i=0;i<specialties.length;i++){
+            $('#specialty_no_rn1').append($("<option/>", {
+                value: specialties[i].value,
+                text: specialties[i].display
+            }));
+        }    
+    }
+
+    $('#campus_no_rn1').find('option').remove().end().append('<option value="">Select Campus</option>');
+    if(parsedData.degrees_no_rn[degrees_no_rn1].campuses.values != undefined){
+        var campuses = parsedData.degrees_no_rn[degrees_no_rn1].campuses.values;
+        for(var i=0;i<campuses.length;i++){
+            $('#campus_no_rn1').append($("<option/>", {
+                value: campuses[i].value,
+                text: campuses[i].display
+            }));
+        }    
+    }
+});
+
+$('#degrees_no_rn2').change(function(){
+    var degrees_no_rn2 = $(this).val();
+    
+    $('#specialty_no_rn2').find('option').remove().end().append('<option value="">Select Specialty</option>');
+    if(parsedData.degrees_no_rn[degrees_no_rn2].specialties != undefined){
+        var specialties = parsedData.degrees_no_rn[degrees_no_rn2].specialties.values;
+        for(var i=0;i<specialties.length;i++){
+            $('#specialty_no_rn2').append($("<option/>", {
+                value: specialties[i].value,
+                text: specialties[i].display
+            }));
+        }    
+    }
+
+    $('#campus_no_rn2').find('option').remove().end().append('<option value="">Select Campus</option>');
+    if(parsedData.degrees_no_rn[degrees_no_rn2].campuses.values != undefined){
+        var campuses = parsedData.degrees_no_rn[degrees_no_rn2].campuses.values;
+        for(var i=0;i<campuses.length;i++){
+            $('#campus_no_rn2').append($("<option/>", {
+                value: campuses[i].value,
+                text: campuses[i].display
+            }));
+        }    
+    }
+});
+
+
+$('#degrees_rn1').change(function(){
+    var degrees_rn1 = $(this).val();
+    
+    $('#specialty_rn1').find('option').remove().end().append('<option value="">Select Specialty</option>');
+    if(parsedData.degrees_rn[degrees_rn1].specialties != undefined){
+        var specialties = parsedData.degrees_rn[degrees_rn1].specialties.values;
+        for(var i=0;i<specialties.length;i++){
+            $('#specialty_rn1').append($("<option/>", {
+                value: specialties[i].value,
+                text: specialties[i].display
+            }));
+        }    
+    }
+
+    $('#campus_rn1').find('option').remove().end().append('<option value="">Select Campus</option>');
+    if(parsedData.degrees_rn[degrees_rn1].campuses.values != undefined){
+        var campuses = parsedData.degrees_rn[degrees_rn1].campuses.values;
+        for(var i=0;i<campuses.length;i++){
+            $('#campus_rn1').append($("<option/>", {
+                value: campuses[i].value,
+                text: campuses[i].display
+            }));
+        }    
+    }
+});
+
+$('#degrees_rn2').change(function(){
+    var degrees_rn2 = $(this).val();
+    
+    $('#specialty_rn2').find('option').remove().end().append('<option value="">Select Specialty</option>');
+    if(parsedData.degrees_rn[degrees_rn2].specialties != undefined){
+        var specialties = parsedData.degrees_rn[degrees_rn2].specialties.values;
+        for(var i=0;i<specialties.length;i++){
+            $('#specialty_rn2').append($("<option/>", {
+                value: specialties[i].value,
+                text: specialties[i].display
+            }));
+        }    
+    }
+
+    $('#campus_rn2').find('option').remove().end().append('<option value="">Select Campus</option>');
+    if(parsedData.degrees_rn[degrees_rn2].campuses.values != undefined){
+        var campuses = parsedData.degrees_rn[degrees_rn2].campuses.values;
+        for(var i=0;i<campuses.length;i++){
+            $('#campus_rn2').append($("<option/>", {
+                value: campuses[i].value,
+                text: campuses[i].display
+            }));
+        }    
+    }
+});
+
+</script>
+
+<div class="clearfloat"></div>
+
+<footer id="footer_bg">
+	<p>Have questions or need help? Please <a href="mailto:conapply@uic.edu">contact</a> us.</p>
+</footer>
+
+</body>
+</html>

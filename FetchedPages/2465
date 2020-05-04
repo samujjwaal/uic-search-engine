@@ -1,84 +1,46 @@
-  
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
-<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
-<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js" lang="en-US"> <!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
 
-    <head>
-
-<!-- Google Analytics script (RED and this site) -->
-  <script>
+<!-- Google Analytics Code -->
+<script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-20665772-1', 'auto');
+    ga('create', 'UA-4402713-9', 'auto', 'todayTracker');
+    ga('send', 'pageview');
+    ga('todayTracker.send', 'pageview');
+</script>
 
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-57G9C3Q');</script>
+<!-- End Google Tag Manager -->
+  
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Making city infrastructure more resilient | UIC Today</title>
+
+<link rel="stylesheet" type="text/css" media="all" href="https://today.uic.edu/wp-content/themes/uictoday/style.css" />
+
+<link rel="stylesheet" type="text/css" media="all" href="https://today.uic.edu/wp-content/themes/uictoday/css/style.min.css" />
     
-        ga('create', 'UA-20665772-1', 'auto');
-    
-        ga('create', 'UA-20665772-23', 'auto', 'oaeTracker');
-    
-        ga('send', 'pageview');
-    
-        ga('oaeTracker.send', 'pageview');
-      </script>
-<!-- End Google Analytics script (RED and this site) -->
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://today.uic.edu/feed" />
+
+<link rel="shortcut icon" href="https://today.uic.edu/wp-content/themes/uictoday/favicon.ico" />
 
 
 
-<!-- Google Tag Manager script for RED multisite -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
-              (window,document,'script','dataLayer','GTM-W2Q8D2K');
-  </script>
-<!-- End Google Tag Manager script for RED multisite -->
-
-
-
-
-
-
-        <title>
-                            Office for Access and Equity | University of Illinois at Chicago
-                    </title>
-
-
-
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="pingback" href="https://oae.uic.edu/xmlrpc.php" />
-
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60.png" />
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png" />
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76.png" />
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
-<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
-<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
-<link rel="icon" type="image/png" href="/favicon-128.png" sizes="128x128" />
-<meta name="application-name" content="&nbsp;"/>
-<meta name="msapplication-TileColor" content="#FFFFFF" />
-<meta name="msapplication-TileImage" content="mstile-144x144.png" />
-<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
-<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
-<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
-<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
-
-    <link rel="stylesheet" href="https://oae.uic.edu/wp-content/themes/uic-red/main.css?v=1587475706" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://oae.uic.edu/wp-content/themes/uic-red/theinhardt.css?v=1587475706" type="text/css" media="all">
-
-    <link rel='dns-prefetch' href='//www.uic.edu' />
 <link rel='dns-prefetch' href='//s.w.org' />
 		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/oae.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6"}};
-			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/today.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
 		<style type="text/css">
 img.wp-smiley,
@@ -94,1568 +56,596 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='https://oae.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6' type='text/css' media='all' />
-<link rel='stylesheet' id='sb_instagram_styles-css'  href='https://oae.uic.edu/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.12.1' type='text/css' media='all' />
-<link rel='stylesheet' id='tablepress-default-css'  href='https://oae.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
-<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
-<link rel='https://api.w.org/' href='https://oae.uic.edu/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://oae.uic.edu/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://oae.uic.edu/wp-includes/wlwmanifest.xml" /> 
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://today.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ugb-style-css-css'  href='https://today.uic.edu/wp-content/plugins/stackable-ultimate-gutenberg-blocks/dist/frontend_blocks.css?ver=2.3.0' type='text/css' media='all' />
+<style id='ugb-style-css-inline-css' type='text/css'>
+:root {
+			--content-width: 900px;
+		}
+</style>
+<link rel='stylesheet' id='wp-components-css'  href='https://today.uic.edu/wp-includes/css/dist/components/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-editor-font-css'  href='https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&#038;ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-editor-css'  href='https://today.uic.edu/wp-includes/css/dist/block-editor/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-nux-css'  href='https://today.uic.edu/wp-includes/css/dist/nux/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-editor-css'  href='https://today.uic.edu/wp-includes/css/dist/editor/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='sld_block-cgb-style-css-css'  href='https://today.uic.edu/wp-content/plugins/simple-link-directory/gutenberg/sld-block/dist/blocks.style.build.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='events-manager-css'  href='https://today.uic.edu/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.97' type='text/css' media='all' />
+<link rel='stylesheet' id='ssp-frontend-player-css'  href='https://today.uic.edu/wp-content/plugins/seriously-simple-podcasting/assets/css/player.css?ver=1.20.11' type='text/css' media='all' />
+<link rel='stylesheet' id='wow-icons-fa-css'  href='https://today.uic.edu/wp-content/plugins/wow-icons//assets/fontawesome/font-awesome.min.css?ver=2.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='upw_theme_standard-css'  href='https://today.uic.edu/wp-content/plugins/ultimate-posts-widget/css/upw-theme-standard.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://today.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
+<style id='tablepress-default-inline-css' type='text/css'>
+.tablepress-id-1 .column-1{vertical-align:middle}.tablepress-id-1 tbody td{font-size:15px}.tablepress-id-1{width:auto important!}.tablepress-id-1 img{margin:0!important}.tablepress-id-6 .column-1{vertical-align:middle}.tablepress-id-6 tbody td{font-size:15px}.tablepress-id-6{width:auto important!}.tablepress-id-6 img{margin:0!important}.tablepress-id-3 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-3 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-3 .odd td{background-color:#e6e6e6}.tablepress-id-3 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-3 .column-1{width:50%}.tablepress-id-4 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-4 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-4 .odd td{background-color:#e6e6e6}.tablepress-id-4 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-4 .column-1{width:50%}.tablepress-id-5 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-5 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-5 .odd td{background-color:#e6e6e6}.tablepress-id-5 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-5 .column-1{width:50%}
+</style>
+<link rel='stylesheet' id='ari-fancybox-css'  href='https://today.uic.edu/wp-content/plugins/ari-fancy-lightbox/assets/fancybox/jquery.fancybox.min.css?ver=1.3.6' type='text/css' media='all' />
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/stackable-ultimate-gutenberg-blocks/dist/frontend_blocks.js?ver=2.3.0'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4'></script>
+<script type='text/javascript'>
+( 'fetch' in window ) || document.write( '<script src="https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.26.0-0"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://today.uic.edu/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );
+</script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/dist/dom-ready.min.js?ver=2.5.1'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/dist/a11y.min.js?ver=2.5.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var EM = {"ajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"mm\/dd\/yy","ui_css":"https:\/\/today.uic.edu\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"0","is_ssl":"1","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.97'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ARI_FANCYBOX = {"lightbox":{"touch":{"vertical":true,"momentum":true},"buttons":["slideShow","fullScreen","thumbs","close"],"lang":"custom","i18n":{"custom":{"PREV":"Previous","NEXT":"Next","PLAY_START":"Start slideshow (P)","PLAY_STOP":"Stop slideshow (P)","FULL_SCREEN":"Full screen (F)","THUMBS":"Thumbnails (G)","CLOSE":"Close (Esc)","ERROR":"The requested content cannot be loaded. <br\/> Please try again later."}}},"convert":{},"viewers":{"pdfjs":{"url":"https:\/\/today.uic.edu\/wp-content\/plugins\/ari-fancy-lightbox\/assets\/pdfjs\/web\/viewer.html"}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/ari-fancy-lightbox/assets/fancybox/jquery.fancybox.min.js?ver=1.3.6'></script>
+<link rel='https://api.w.org/' href='https://today.uic.edu/wp-json/' />
+<link rel='prev' title='2D materials may enable electric vehicles to get 500 miles on a single charge' href='https://today.uic.edu/2d-materials-may-enable-electric-vehicles-to-get-500-miles-on-a-single-charge' />
+<link rel='next' title='College of Medicine Dean Finalist Forum: Mark Rosenblatt, MD, PhD, MBA' href='https://today.uic.edu/college-of-medicine-dean-finalist-forum-mark-rosenblatt-md-phd-mba' />
+<link rel="canonical" href="https://today.uic.edu/making-city-infrastructure-more-resilient" />
+<link rel='shortlink' href='https://today.uic.edu/?p=71663' />
+<link rel="alternate" type="application/json+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fmaking-city-infrastructure-more-resilient" />
+<link rel="alternate" type="text/xml+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fmaking-city-infrastructure-more-resilient&#038;format=xml" />
+    <style type="text/css" media="screen">
+      div.printfriendly a, div.printfriendly a:link, div.printfriendly a:hover, div.printfriendly a:visited, div.printfriendly a:focus {
+        text-decoration: none;
+        border: none;
+        -webkit-box-shadow:none!important;
+        box-shadow:none!important;
+      }
+    </style>
+           <style type="text/css" media="screen">
+          div.printfriendly {
+            margin: 0px 0px 0px 0px;
+          }
+          div.printfriendly a, div.printfriendly a:link, div.printfriendly a:visited {
+            font-size: 14px;
+            color: #55750C;
+          }
+        </style>
+		<link rel="stylesheet" href="https://today.uic.edu/wp-content/plugins/printfriendly/printfriendly.css" media="screen" />
+        <style type="text/css" media="print">
+          .printfriendly {
+            display: none;
+          }
+        </style>
+
+<link rel="alternate" type="application/rss+xml" title="Podcast RSS feed" href="https://today.uic.edu/feed/podcast" />
 
 <script type="text/javascript">
-(function(url){
-	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
-	var addEvent = function(evt, handler) {
-		if (window.addEventListener) {
-			document.addEventListener(evt, handler, false);
-		} else if (window.attachEvent) {
-			document.attachEvent('on' + evt, handler);
-		}
-	};
-	var removeEvent = function(evt, handler) {
-		if (window.removeEventListener) {
-			document.removeEventListener(evt, handler, false);
-		} else if (window.detachEvent) {
-			document.detachEvent('on' + evt, handler);
-		}
-	};
-	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
-	var logHuman = function() {
-		if (window.wfLogHumanRan) { return; }
-		window.wfLogHumanRan = true;
-		var wfscr = document.createElement('script');
-		wfscr.type = 'text/javascript';
-		wfscr.async = true;
-		wfscr.src = url + '&r=' + Math.random();
-		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
-		for (var i = 0; i < evts.length; i++) {
-			removeEvent(evts[i], logHuman);
-		}
-	};
-	for (var i = 0; i < evts.length; i++) {
-		addEvent(evts[i], logHuman);
-	}
-})('//oae.uic.edu/?wordfence_lh=1&hid=508CCF55E5F4DA65E74147F5BB8C40CA');
+           var ajaxurl = "https://today.uic.edu/wp-admin/admin-ajax.php";
+         </script><style type="text/css">BODY .fancybox-container{z-index:200000}BODY .fancybox-is-open .fancybox-bg{opacity:0.87}BODY .fancybox-bg {background-color:#0f0f11}BODY .fancybox-thumbs {background-color:#ffffff}</style>
+<!-- Put the following javascript before the closing </head> tag. -->
+
+<script>
+  (function() {
+    var cx = '009511351313755808885:xdz07yl93pe';
+    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  })();
 </script>
+
 </head>
-      
-  <body>
 
-<!-- Google Tag Manager for RED multisite (noscript) -->
-<noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2Q8D2K" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager for RED multisite (noscript) -->
-
-
-
-
-
+<body role="document" class="post-template-default single single-post postid-71663 single-format-standard wp-embed-responsive">
   
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  <div class="l-page home blog post-type-- is-homepage site-type-b theme--blue no-sidebar  ">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57G9C3Q"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 
-    <!--[if lte IE 9]>
-<div class="browser-stripe u-dark-region">
-  <div class="l-full">
-      <h2>Your browser is unsupported</h2>
-      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
-  </div>
-</div>
-<![endif]-->
-<div class="browser-stripe u-dark-region ie10">
-  <div class="l-full">
-      <h2>Your browser is unsupported</h2>
-      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
-  </div>
-</div>
-    
-<header class="l-header" role="banner">
+<div id="skip" role="complementary">
+<a href="#the_content">Skip to main content</a></div>
 
-  
-  <div class="header-navigation">
 
-      <div id="skip" class="skip-menu assistive-text">
-  <p>
-    <span class="_main">
-    <a href="#article">Skip to the content of this page</a>,
-    </span>
-    <a class="_primary-menu" href="#menu-main">the main menu</a>,
 
-    
-    
-    <a class="_search" href="#search">the site search form</a>,
+<div id="header" role="banner">
 
-    <a class="_home" href="https://oae.uic.edu">the site home page</a>.
-  </p>
-</div>
 
-      <div class="eyebrow-mobile-wrapper js-eyebrow-mobile">
-<div class="eyebrow-mobile">
-            <div class="eyebrow-mobile-logo eyebrow-logo">
-            <a href="http://uic.edu" class="uic-logo-icon eyebrow-mobile-logo__uic-logo">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
+
+
+         		<div id="header-background">
+
+
+
+<!-- removed color wash for now.
+
+			<div class="color-wash">
+            <img src="" alt="   ">
+            </div>
+
+            -->
+
+
+
+            <div class="uic-type-wrapper">
+
+
+            <div class="last-update-timestamp">
+            	Updated: May 08, 2020 at 12:39 PM
+            </div><!--  last-update-timestamp   -->
+
+
+            <div class="uic-type-treatment">
+
+  			<div class="_mark">
+    		<a href="http://uic.edu" class="uic-logo-icon" aria-label="UIC logo">
+ 			<svg aria-label="UIC.edu" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ 			<title>UIC Logo</title>
+ 			<circle class="_circle" cx="27" cy="27" r="25" fill="none"></circle>
+ <path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#d50032" fill-rule="evenodd"></path>
 </svg>
 </a>
-    </div>
-                <div class="site-title-eyebrow-mobile">
-          <a href="https://oae.uic.edu">Office for Access and Equity</a>
-        </div>
+  			</div><!--  _mark   -->
+
+  			<div class="_text">
+    		<a href="/">
+        	  Today
+      		  </a>
+ 			</div><!--  _text   -->
+
+
+			</div><!--  uic-type-treatment   -->
+
+
+
+            <!-- Put search box here -->
+<div class="search-box" aria-label="Search U I C today">
+    <form role="search" method="get" action="https://today.uic.edu/">
+     
+        <input type="text" id="s" name="s" aria-label="Search" size="25" value="" placeholder="Search">
+
+<button type="submit" value="Submit" style="border: 0;
+clip: rect( 1px, 1px, 1px, 1px );
+clip-path: inset( 50% );
+height: 1px;
+margin: -1px;
+overflow: hidden;
+padding: 0;
+position: absolute;
+width: 1px;
+word-wrap: normal;">
+Submit
+</button>
+
+    </form>
     
-    <button aria-label="Search the site" class="search-toggle-mobile js-search-toggle-mobile">
-  <span class="icon-search ">
-        <span class="assistive-text">Search the site</span>
-      </span>
-    </button>
-    <button class="nav-header-toggle js-nav-header-toggle">
-      <span class="icon-menu ">
-      Toggle Menu
-      </span>
-    </button>
-  </div>
-  <div class="search-input-container-mobile">
-    <div class="search-input-container-mobile__content">
-      <div class="search-title">
-        Search
-        <a class="search-close search-toggle-mobile">
-          <svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22">
-            <use xlink:href="https://oae.uic.edu/wp-content/themes/uic-red/images/svgs/svgs.svg#icon-close"></use>
-          </svg>
-        </a>
-      </div>
-      <form method="get" action="/search" role="search" aria-label="Search this site on your mobile device">
-        <input type="text" name="q" class="search-input-mobile" placeholder="Search..." tabindex="-1" aria-label="Search this site on your mobile device" disabled="">
-        <input type="submit" class="submit-button" name="search" value="Submit">
-      </form>
-    </div>
-  </div>
+    
 </div>
 
-    <div class="header-navigation__eyebrow">
 
-                    <div class="header-navigation-logo header-logo">
-                        <a href="http://uic.edu" class="uic-logo-icon header-navigation-logo__uic-logo">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
-            </div>
-                <div class="header-navigation__eyebrow-menus">
 
-            <div class="header-navigation__logo-and-site-title">
+<!-- End search box code -->
 
-                                <div class="site-title-main ">
-                                      <a href="https://oae.uic.edu">Office for Access and Equity</a>
-                                    </div>
-              
-            </div>
-          <nav class="header-menus js-header-menus " aria-label="Primary" role="navigation">
 
-  <div class="site-title-mobile-menu">
-    <a href="https://oae.uic.edu">Office for Access and Equity</a>
-  </div>
 
-  
-  <h2 class="assistive-text">Main Menu</h2>
-  <ul id="menu-main" class="menu menu-main" aria-label="Main Menu">
-      <li class="menu-main__first-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1919">
-      <a 
-        class="menu-main__first-link"
-        href="https://sexualmisconduct.uic.edu/policy/"
-        target="_blank">
+			</div><!--  uic-type-wrapper    -->
 
-        Sexual Misconduct
-      </a>
 
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-30 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/discriminationharassment/"
-        target="_self">
+		</div><!--  header-background   -->
 
-        Nondiscrimination
-      </a>
 
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Nondiscrimination menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Nondiscrimination menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
 
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-138">
-                <a 
-                  class="menu-main__second-link"
-                  href="/discriminationharassment/policies/"
-                  target="_self">
 
-                  Access and Equity Policies, Statements, Guidelines &amp; Information
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2061">
-                <a 
-                  class="menu-main__second-link"
-                  href="/discriminationharassment/inclusion/"
-                  target="_self">
 
-                  LGBTQ+ Inclusion
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-139">
-                <a 
-                  class="menu-main__second-link"
-                  href="/discriminationharassment/reporting/"
-                  target="_self">
-
-                  Reporting Discrimination And Harassment
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-140">
-                <a 
-                  class="menu-main__second-link"
-                  href="/discriminationharassment/resources/"
-                  target="_self">
-
-                  Resources
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-141">
-                <a 
-                  class="menu-main__second-link"
-                  href="/discriminationharassment/sexual-harassment/"
-                  target="_self">
-
-                  Sexual Harassment
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-28 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/drs/"
-        target="_self">
-
-        Disputes
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Disputes menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Disputes menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-180">
-                <a 
-                  class="menu-main__second-link"
-                  href="/drs/trainings-offered/"
-                  target="_self">
-
-                  Trainings Offered
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-179">
-                <a 
-                  class="menu-main__second-link"
-                  href="/drs/request-drs/"
-                  target="_self">
-
-                  Request DRS
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-178">
-                <a 
-                  class="menu-main__second-link"
-                  href="/drs/mediators/"
-                  target="_self">
-
-                  DRS Mediators
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-177">
-                <a 
-                  class="menu-main__second-link"
-                  href="/drs/agreement/"
-                  target="_self">
-
-                  Agreement to Mediate Form
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2182">
-                <a 
-                  class="menu-main__second-link"
-                  href="/drs/additional-resources/"
-                  target="_self">
-
-                  Additional Resources
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-29 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/disability-accommodations/"
-        target="_self">
-
-        Accommodations
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Accommodations menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Accommodations menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-136">
-                <a 
-                  class="menu-main__second-link"
-                  href="/disability-accommodations/accommodation-request-form/"
-                  target="_self">
-
-                  Accommodation Request Form
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-137">
-                <a 
-                  class="menu-main__second-link"
-                  href="/disability-accommodations/employee-accommodation-policy/"
-                  target="_self">
-
-                  Employee Accommodation Policy
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1905">
-                <a 
-                  class="menu-main__second-link"
-                  href="/disability-accommodations/pregnancy-and-postpartum/"
-                  target="_self">
-
-                  Pregnancy and Postpartum
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2028">
-                <a 
-                  class="menu-main__second-link"
-                  href="/religious/"
-                  target="_self">
-
-                  Religious
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-31 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/ah/"
-        target="_self">
-
-        Searches
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Searches menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Searches menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-133">
-                <a 
-                  class="menu-main__second-link"
-                  href="/ah/academic-hiring-process/"
-                  target="_self">
-
-                  Search Process
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1206">
-                <a 
-                  class="menu-main__second-link"
-                  href="/ah/search-resources/"
-                  target="_self">
-
-                  Search Resources
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-135">
-                <a 
-                  class="menu-main__second-link"
-                  href="/ah/faq/"
-                  target="_self">
-
-                  Frequently Asked Questions
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-  </ul>
-
-  <div class="l-eyebrow">
-
-    <h2 class="assistive-text">Eyebrow menu</h2>
-    <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
-            <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2077">
-            <a  href="/discriminationharassment/reporting/" target="_self">Reporting</a>
-        </li>
-            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-309">
-            <a  href="/policies-statements-guidelines/" target="_self">OAE Policies and Guidelines</a>
-        </li>
-            <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2304">
-            <a  href="/resources/gender-inclusive-resources/lactation-rooms/" target="_self">Lactation Rooms</a>
-        </li>
-            <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-315">
-            <a  href="/educationandtrainings/" target="_self">Trainings</a>
-        </li>
-            <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-310">
-            <a  href="/contact/" target="_self">Contact Us</a>
-        </li>
-    </ul>
-
-    <h2 class="assistive-text">UIC menu</h2>
-    <ul class="menu-uic">
-      <li class="_item">
-    <a href="http://uic.edu">UIC.edu</a>
-  </li>
-  <li class="_item">
-    <a href="http://maps.uic.edu/">Campus Map</a>
-  </li>
+		<div id="main_nav" role="navigation" aria-label="Site">
+	  	 	<div class="main_nav_container"><ul id="menu-main_nav" class="menu"><li id="menu-item-57546"><a href="https://today.uic.edu/campus-news">Campus News</a></li>
+<li id="menu-item-57547"><a href="https://today.uic.edu/academics-research">Academics &#038; Research</a></li>
+<li id="menu-item-57548"><a href="https://today.uic.edu/events">Events</a></li>
+<li id="menu-item-67603"><a href="https://today.uic.edu/resources">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-67604"><a href="https://today.uic.edu/resources/current-students">Current Student Resources</a></li>
+	<li id="menu-item-67605"><a href="https://today.uic.edu/resources/faculty-staff">Faculty &#038; Staff Resources</a></li>
+	<li id="menu-item-81898"><a href="https://today.uic.edu/resources/photo-video-policies">Photography/Video</a></li>
+	<li id="menu-item-82144"><a href="https://today.uic.edu/resources/social-media-inquiry-form">Social Media Account Request Form</a></li>
+	<li id="menu-item-82376"><a href="https://today.uic.edu/uic-social-media-guidelines-and-best-practices">UIC Social Media Guidelines and Best Practices</a></li>
 </ul>
-
-
-
-    <div aria-label="Primary" role="search" class="search-wrapper">
-
-      <button id="search" class="search-toggle">
-        <span class="icon-search ">
-          <span class="assistive-text">Search</span>
-        </span>
-      </button>
-
-      <div class="search-input-container">
-        <div class="search-input-container__form">
-          <form method="get" action="/search" >
-            <input type="text" name="q" class="search-input" placeholder="Search..." tabindex="-1" aria-label="Search" disabled="">
-            <input type="submit" class="submit-button" name="search" value="Submit">
-          </form>
-        </div>
-      </div>
-
-    </div>
-
-
-  </div>
-
-
-</nav>
-        </div>
-    </div>
-
-    
-  </div>
-
-                  <div
-  class="header-title header-title--type-treatment header-title--hero header-title--home"
-  style="
-    background-image:url('https://oae.uic.edu/wp-content/uploads/sites/32/2017/05/redbanner.jpg');">      <div class="color-wash-gradient            
-            ">
-
-                  <img src="" alt="Campus scene">
-        
-    </div>
-    <div class="l-full">
-    <div class="header-title__content header-title__content--horizontal">
-              <div class="_brand">
-            <div class="header-hero-logo">
-                  <div class="uic-type-treatment  ">
-
-  <div class="_mark">
-    <a href="http://uic.edu" class="uic-logo-icon ">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
-</svg>
-</a>
-  </div>
-
-  <div class="_text">
-    <a href="https://oae.uic.edu">
-          Office for Access and Equity
-        </a>
-  </div>
-
-</div>
-          </div>
-        </div>
-            <div class="_text  _text--no-wordmark ">
-                  <h1 class="assistive-text">Office for Access and Equity</h1>
-          <div
-            class="header-title-title header-title-title--b"></div>
-              </div>
-    </div>
-  </div>
-</div>
-          
-        
-</header>
-
-    <main id="main" class="l-content-wrapper" role="main">
-
-      
-      
-      <div class="">
-
-        <div class="l-content ">
-
-                    
-	          
-          
-          <article class="post-type-" id="article">
-                <div class="l-full">
-                  <div class="intro-text">
-
-                      
-            
-    
-    
-              <p>As part of the Office of the Chancellor, the Office for Access and Equity (OAE), strives to increase access to employment, programs, and services in an environment free of unlawful discrimination and harassment. Dispute Resolution Services (DRS) provides confidential consultation, facilitation and mediation services to students, faculty, academic and support staff.</p>
-
-    
-  </div>
-    </div>
-    <div class="components">
-
-  
-    
-      
-
-<section class="component  ">
-
-      <div class="l-full">
-  
-  <h2 id="employee-title-ix-training-deadline-may-1-2020"><a class="jumbo-link" href="https://emails.illinois.edu/newsletter/5884760.html" target="_blank">
-  <span class="_prefix"></span>
-  <span class="_text">Employee Title IX Training Deadline - May 1, 2020</span>
-</a></h2>
-
-      </div>
-  
-</section>
-
-    
-
-    
-      
-
-<section class="component  ">
-
-      <div class="l-full">
-  
-  <h2 id="title-ix-sexual-misconduct-training"><a class="jumbo-link" href="https://www.ethics.uillinois.edu/training/sexual_misconduct_training/" target="_blank">
-  <span class="_prefix"></span>
-  <span class="_text">Title IX Sexual Misconduct Training</span>
-</a></h2>
-
-      </div>
-  
-</section>
-
-    
-
-    
-      
-
-<section class="component  ">
-
-      <div class="l-full">
-  
-  
-    <div class="
-    component-call-to-action
-    component-call-to-action--dark
-    
-    ">
-
-    
-    <div class="component-description">
-                    <h2 id="about-us" class="__title invisible">About Us</h2>
-                    </div>
-
-    <ul class="_items call-to-action-links">
-              <li>
-                      <a  href="https://oae.uic.edu/what-we-do/"
-            target="_self">
-                            <span class="call-to-action-links__icon call-to-action-links__icon--dark text-icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Document icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <rect class="_mark" fill="#FFF" x="10" y="11" width="16" height="2" rx="1"/>
-    <rect class="_mark" fill="#FFF" x="10" y="23" width="10" height="2" rx="1"/>
-    <rect class="_mark" fill="#FFF" x="10" y="19" width="16" height="2" rx="1"/>
-    <rect class="_mark" fill="#FFF" x="10" y="15" width="10" height="2" rx="1"/>
-  </g>
-</svg>
-                </span>
-                <span class="_text">What We Do</span>
-              
-            </a>
-                  </li>
-              <li>
-                      <a  href="https://oae.uic.edu/contact/"
-            target="_self">
-                            <span class="call-to-action-links__icon call-to-action-links__icon--dark phone-icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Phone icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <path class="_mark" d="M12 8.992c0-.548.456-.992 1.002-.992h9.996C23.55 8 24 8.455 24 8.992v18.016c0 .548-.456.992-1.002.992h-9.996C12.45 28 12 27.545 12 27.008V8.992zM13 11h10v14H13V11z" fill="#FFF"/>
-  </g>
-</svg>
-                </span>
-                <span class="_text">Contact Us</span>
-              
-            </a>
-                  </li>
-              <li>
-                      <a  href="https://oae.uic.edu/resources/"
-            target="_self">
-                            <span class="call-to-action-links__icon call-to-action-links__icon--dark matrix-icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Matrix icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
-    <circle class="_mark" fill="#FFF" cx="12" cy="24" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="18" cy="24" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="24" cy="24" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="12" cy="18" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="18" cy="18" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="24" cy="18" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="12" cy="12" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="18" cy="12" r="2"/>
-    <circle class="_mark" fill="#FFF" cx="24" cy="12" r="2"/>
-  </g>
-</svg>
-                </span>
-                <span class="_text">Resources</span>
-              
-            </a>
-                  </li>
-              <li>
-                      <a  href="https://oae.uic.edu/policies-statements-guidelines/"
-            target="_self">
-                            <span class="call-to-action-links__icon call-to-action-links__icon--dark check-icon" aria-hidden="true">
-                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
-  <title>Check icon</title>
-  <g fill="none" fill-rule="evenodd">
-    <ellipse class="_circle" fill="#001E62" cx="18" cy="18" rx="18" ry="18"/>
-    <path class="_mark" d="M15.168 24.555c.396.593 1.268.593 1.664 0l8-12c.306-.46.182-1.08-.277-1.387-.46-.306-1.08-.182-1.387.277l-8 12h1.664l-4-6c-.306-.46-.927-.583-1.387-.277-.46.306-.583.927-.277 1.387l4 6z" fill="#FFF"/>
-  </g>
-</svg>
-                </span>
-                <span class="_text">Policies and Guidelines</span>
-              
-            </a>
-                  </li>
-          </ul>
-  </div>
-
-
-      </div>
-  
-</section>
-
-    
-
-    
-      
-
-<section class="component  ">
-
-      <div class="l-full">
-  
-  <h2 id="reaffirmation-of-campus-commitment"><a class="jumbo-link" href="https://today.uic.edu/reaffirmation-of-campus-commitment" target="_blank">
-  <span class="_prefix"></span>
-  <span class="_text">Reaffirmation of Campus Commitment</span>
-</a></h2>
-
-      </div>
-  
-</section>
-
-    
-
-    
-      
-
-<section class="component  ">
-
-      <div class="l-full">
-  
-      <div class="component-highlight-news">
-        
-    <div class="component-description">
-                    <h2 id="news" class="__title visible">News</h2>
-                    </div>
-                            <div class="component-highlight-news__list-2col">
-                <div class="component-highlight-news__column">
-          <article class="tease tease-news" id="tease-2335">
-	
-  
-  <div class="teaser-content">
-    <h3 class="_title"><a id="" href="https://oae.uic.edu/news-stories/drc-spotlight/" >DRC Spotlight: Resources, Information, Virtual Events</a></h3>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>April 25, 2020</strong></span>
-    </div>
-    </div>
-        
-    
-  </div>
-
-</article>          <article class="tease tease-news" id="tease-2311">
-	
-  
-  <div class="teaser-content">
-    <h3 class="_title"><a id="" href="https://oae.uic.edu/news-stories/ramadan/" >Ramadan Accommodation FAQ and Poster</a></h3>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>April 13, 2020</strong></span>
-    </div>
-    </div>
-        
-    
-  </div>
-
-</article>    </div>
-<div class="component-highlight-news__column">
-          <article class="tease tease-news" id="tease-2269">
-	
-  
-  <div class="teaser-content">
-    <h3 class="_title"><a id="" href="https://oae.uic.edu/news-stories/deadline-extended-for-2020-preventing-harassment-and-discrimination-trainin/" >Deadline Extended for 2020 Preventing Harassment &amp; Discrimination Training</a></h3>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>March 23, 2020</strong></span>
-    </div>
-    </div>
-        
-    
-  </div>
-
-</article>          <article class="tease tease-news" id="tease-2197">
-	
-  
-  <div class="teaser-content">
-    <h3 class="_title"><a id="" href="https://oae.uic.edu/news-stories/premium-transportation-approved-accommodation/" >Policy Update: Premium Transportation as Part of an Approved Accommodation</a></h3>
-
-              <div class="post-meta">
-    <div class="post-date-line">
-            <span class="post-date">Posted on <strong>February 25, 2020</strong></span>
-    </div>
-    </div>
-        
-    
-  </div>
-
-</article>    </div>            </div>
-                    </div>
-
-
-      </div>
-  
-</section>
-
-    
-
-    
-      
-
-<section class="component  ">
-
-      <div class="l-full">
-  
-    <div class="component-highlight-events">
-
-  
-    <div class="component-description">
-                    <h2 id="events" class="__title visible">Events</h2>
-                    </div>
-
-    
-                                            <div class="component-highlight-events__list-2col">
-          <div class="component-highlight-events__column">
-                          <article class="event-teaser">
-
-  <div class="_colA">
-    <span class="date-circle -light">
-    <span class="_month">May</span>
-    <span class="_day">6</span>
-    <span class="_year">2020</span>
-</span>
-  </div>
-
-
-  <div class="_colB">
-    <h3 class="_name">
-      <a href="https://oae.uic.edu/events/maintaining-a-respectful-workplace/" >Maintaining a Respectful Workplace</a>
-    </h3>
-
-    <div class="_time-and-place">
-      <div class="_time">
-        <!-- event with same start and end day -->
-                          Wednesday, 1:00 pm–2:00 pm
-            <!-- event with ending date within month -->      </div>
-              <div class="_place">
-          Virtual (WebEx information provided to those registered prior to the event)
-        </div>
-          </div>
-
-      </div>
-
-</article>
-                      </div>
-          <div class="component-highlight-events__column">
-                      </div>
-        </div>
-          </div>
-
-      </div>
-  
-</section>
-
-    
-
-    
-      
-
-<section class="component  ">
-
-      <div class="l-full">
-  
-  <h2 id="faculty-search-committee-training"><a class="jumbo-link" href="https://oae.uic.edu/educationandtrainings/faculty-search-committee-training/" target="_self">
-  <span class="_prefix"></span>
-  <span class="_text">Faculty Search Committee Training</span>
-</a></h2>
-
-      </div>
-  
-</section>
-
-    
-
-    
-      
-
-<section class="component  ">
-
-      <div class="l-full">
-  
-  
-  
-    <div class="component-description">
-                    <h2 id="links" class="__title invisible">Links</h2>
-                    </div>
-
-  <ul class="component-link-tile ">
-      <li class="component-link-tile__item component-link-tile__item--featured">
-
-                  <div class="tile-item ">
-    <a  class="tile-item__link"
-       href="https://oae.uic.edu/events/feeling-unsafe-campus-resources/"
-       target="_blank">
-            <div class="tile-item__image-container">
-            <img
-                class="tile-item__image"
-                
-                src="https://oae.uic.edu/wp-content/uploads/sites/32/2020/01/event-2-600x365.jpg"
-                alt="Presentation picture">
-        </div>
-    
-    <div class="
-        tile-item__content-container
-        tile-item__content-container--external
-        tile-item__content-container--featured">
-        <div class="
-            tile-item__title
-            tile-item__title--featured">
-            BTAT Panel Presentation
+</li>
+<li id="menu-item-92036"><a href="https://today.uic.edu/coronavirus">COVID-19</a>
+<ul class="sub-menu">
+	<li id="menu-item-92300"><a href="https://today.uic.edu/frequently-asked-questions">Frequently Asked Questions</a></li>
+	<li id="menu-item-92297"><a href="https://today.uic.edu/what-you-need-to-know-about-covid-19">What you need to know about COVID-19</a></li>
+	<li id="menu-item-92298"><a href="https://today.uic.edu/support-for-the-uic-community">Support for the UIC community (COVID-19)</a></li>
+	<li id="menu-item-92299"><a href="https://today.uic.edu/teaching-learning-and-working-resources">Teaching, learning and working resources</a></li>
+	<li id="menu-item-93028"><a href="https://today.uic.edu/in-the-news-covid-19">In the News: COVID-19</a></li>
+</ul>
+</li>
+<li id="menu-item-57549"><a href="https://today.uic.edu/contact">Contact</a>
+<ul class="sub-menu">
+	<li id="menu-item-57551"><a href="https://today.uic.edu/contact/communicating-on-campus">Communicating On Campus</a></li>
+	<li id="menu-item-57552"><a href="https://today.uic.edu/contact/communicating-on-campus/sending-massmails-dddh">Sending Announcements / DDDH</a></li>
+	<li id="menu-item-57550"><a href="https://today.uic.edu/contact/social-media-directory">UIC Social Media Directory</a></li>
+</ul>
+</li>
+</ul></div>	    </div>
         </div>
 
-        
-                    <div class="tile-item__description">
-                1/15/2020: "Feeling Unsafe on Campus? What Are Your Resources?" presentation
-            </div>
-            </div>
-    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+		</div>
+
+
+
+
+
+
+
+
+ <div id="container" role="main" aria-label="Main content" class="clearfix">
+
+
+<a name="the_content" id="the_content" tabindex="-1" aria-label="Main content area"></a>
+
+
+
+
+<div id="content">
+
+		<div id="single_right_sidebar"> <!-- creates social sharing links -->
+			<div class="single_rightBar_widgets connect">
+					<a href="http://www.facebook.com/sharer/sharer.php?u=https://today.uic.edu/making-city-infrastructure-more-resilient&amp;t=Making city infrastructure more resilient">
+						<img src="/wp-content/themes/uictoday/images/icon-facebook-link.svg" alt="Facebook"/>
+					</a>
+					<a href="http://twitter.com/intent/tweet?text=Making city infrastructure more resilient - https://today.uic.edu/making-city-infrastructure-more-resilient" title="Tweet this!">
+						<img src="/wp-content/themes/uictoday/images/icon-twitter-link.svg" alt="Twitter"/>
+					</a>
+					<a href="http://www.linkedin.com/shareArticle?mini=true&amp;title=Making city infrastructure more resilient&amp;url=https://today.uic.edu/making-city-infrastructure-more-resilient" title="Share on LinkedIn">
+						<img src="/wp-content/themes/uictoday/images/icon-linkedin-link.svg" alt="LinkedIn"/>
+					</a>
+					<a href="http://www.tumblr.com/share/link?url=https://today.uic.edu/making-city-infrastructure-more-resilient">
+						<img src="/wp-content/themes/uictoday/images/icon-tumblr-link.svg" alt="Tumblr"/>
+					</a>
+					<a href="mailto:?Subject=Making city infrastructure more resilient&Body=https://today.uic.edu/making-city-infrastructure-more-resilient">
+						<img src="/wp-content/themes/uictoday/images/icon-cta-envelope.svg" alt="email"/>
+					</a>
+			</div>
+		</div>
+
+<!--		<div class="labels">
+										</div>  -->
+
+		<div class="article clearfix">
+			<h1>Making city infrastructure more resilient</h1>
+
+			<p class="author-date">
+				January 10, 2019			</p>
+
+			<div class="pf-content"><p>The systems that help us heat and cool our homes, provide drinking water, take away our garbage, let us communicate instantly with one another and enable travel — collectively known as infrastructure — will need to be designed differently in the future to become more sustainable and resilient.</p>
+<div id="attachment_71683" style="width: 397px" class="wp-caption alignright"><a href="https://today.uic.edu/files/2018/12/Shanghai_Nanpu_Bridge.jpg"><img aria-describedby="caption-attachment-71683" class="size-medium wp-image-71683" src="https://today.uic.edu/files/2018/12/Shanghai_Nanpu_Bridge-387x258.jpg" alt="Shanghai Nanpu Bridge" width="387" height="258" srcset="https://today.uic.edu/files/2018/12/Shanghai_Nanpu_Bridge-387x258.jpg 387w, https://today.uic.edu/files/2018/12/Shanghai_Nanpu_Bridge-768x512.jpg 768w, https://today.uic.edu/files/2018/12/Shanghai_Nanpu_Bridge-590x393.jpg 590w, https://today.uic.edu/files/2018/12/Shanghai_Nanpu_Bridge-1000x667.jpg 1000w, https://today.uic.edu/files/2018/12/Shanghai_Nanpu_Bridge-500x333.jpg 500w, https://today.uic.edu/files/2018/12/Shanghai_Nanpu_Bridge-300x200.jpg 300w, https://today.uic.edu/files/2018/12/Shanghai_Nanpu_Bridge-1320x880.jpg 1320w, https://today.uic.edu/files/2018/12/Shanghai_Nanpu_Bridge.jpg 1500w" sizes="(max-width: 387px) 100vw, 387px" /></a><p id="caption-attachment-71683" class="wp-caption-text">Shanghai Nanpu Bridge (Photo: Sybil Derrible)</p></div>
+<p>In a paper <a href="https://www.cambridge.org/core/journals/mrs-energy-and-sustainability/article/an-approach-to-designing-sustainable-urban-infrastructure/6D5F922552C87CDF0CC552FB02491F62">published</a> in MRS Energy &amp; Sustainability, University of Illinois at Chicago civil engineer Sybil Derrible lays out two key sustainability principles that can be applied to infrastructure systems that would make cities both more sustainable and more resilient: reducing the demand for resources — whether it&#8217;s water, electricity or additional transportation infrastructure like roads — and increasing the supply of those resources, within reason.</p>
+<p>&#8220;Cities are designed based on their location and needs,&#8221; said Derrible, associate professor of civil and materials engineering in the UIC College of Engineering. &#8220;Chicago was raised by close to 2 meters [6.5 feet] to create a sewer system to solve its flooding and sanitary problems. In other cities, buildings are designed to withstand earthquakes. Each city has its specific need and infrastructure design needs to take that into account.&#8221;</p>
+<p>&#8220;Because of climate change, cities will need to become more resilient — power grids will need to supply more energy for cooling without becoming overwhelmed and shutting down, sewer systems will need to handle massive rain events… all these things need to be considered carefully going forward when it comes to urban planning,&#8221; he said. &#8220;These challenges are significant, but they also offer an opportunity to rethink how cities are planned, built, and operated.&#8221;</p>
+<div id="attachment_38694" style="width: 182px" class="wp-caption alignleft"><a href="https://today.uic.edu/files/2015/06/DG15_06_05_010.jpg"><img aria-describedby="caption-attachment-38694" class="size-medium wp-image-38694" src="https://today.uic.edu/files/2015/06/DG15_06_05_010-172x258.jpg" alt="Sybil Jean-Marie Derrible" width="172" height="258" srcset="https://today.uic.edu/files/2015/06/DG15_06_05_010-172x258.jpg 172w, https://today.uic.edu/files/2015/06/DG15_06_05_010-270x406.jpg 270w, https://today.uic.edu/files/2015/06/DG15_06_05_010-600x900.jpg 600w, https://today.uic.edu/files/2015/06/DG15_06_05_010-500x750.jpg 500w, https://today.uic.edu/files/2015/06/DG15_06_05_010.jpg 1200w" sizes="(max-width: 172px) 100vw, 172px" /></a><p id="caption-attachment-38694" class="wp-caption-text">Sybil Derrible.<br />Photo: Roberta Dupuis-Devlin</p></div>
+<p>Derrible, who is also a research associate professor at the Institute for Environmental Science and Policy at UIC, notes that any new infrastructure project should consider first whether the demand for new infrastructure can be reduced so that new or more infrastructure doesn&#8217;t need to be built.</p>
+<p>&#8220;But if we must build new infrastructure, it should integrate multiple functionalities,&#8221; he said. An example of integrated infrastructure would be installing green infrastructure in roads to prevent flooding on roads and sewer backups.</p>
+<p>In his article, Derrible outlines guidelines for developing sustainable urban infrastructure that focus on the real-time supply and demand of services provided by seven systems: water; electricity; heating, cooling and natural gas; telecommunications; transport; solid waste management; and buildings.</p>
+<p>In exploring each of the infrastructure systems from a sustainability point-of-view, Derrible found that reducing demand for heating/cooling and natural gas, transportation, solid waste management and buildings could best improve urban sustainability, while increasing infrastructure related to electricity and telecommunications could be achieved sustainably and within reason. Water, he concluded, could benefit from both approaches.</p>
+<p>&#8220;We can apply both approaches to all systems — reducing demand and increasing supply within reason,” Derrible said. &#8220;But some systems were more amenable to one approach over the other to improve sustainability.&#8221;</p>
+<p>Systems that can be increased should be integrated within current infrastructure systems, and whenever possible, new infrastructure should be multi-functional, he explained.</p>
+<p>To make cities more sustainable, Derrible recommends the following steps for each of the seven infrastructure systems he examined:</p>
+<p>Water</p>
+<ul>
+<li>Current systems can be improved to prevent loss (leakage)</li>
+<li>Make city surfaces more permeable to reduce impact of flooding due to rain events</li>
+</ul>
+<p>Electricity</p>
+<ul>
+<li>Better building design and insulation</li>
+<li>More efficient air-conditioning systems</li>
+<li>Use more renewable energy</li>
+<li>Develop better energy storage technologies (batteries)</li>
+</ul>
+<p>Heating/cooling and natural gas</p>
+<ul>
+<li>Improve insulation of buildings</li>
+<li>Use heat pumps instead of furnaces or radiators</li>
+</ul>
+<p>Telecommunications</p>
+<ul>
+<li>Use more energy-efficient equipment</li>
+<li>Use sustainable energy sources to power telecommunication infrastructure</li>
+</ul>
+<p>Transportation</p>
+<ul>
+<li>Increase shared mobility services (bike- and car-sharing services)</li>
+<li>Implement more travel demand management strategies like High-Occupancy Vehicle (HOV) lanes</li>
+<li>Provide more and better transit services</li>
+</ul>
+<p>Solid waste (garbage)</p>
+<ul>
+<li>Reduce waste generated</li>
+<li>Reuse and recycle as much as possible</li>
+</ul>
+<p>Buildings</p>
+<ul>
+<li>Promote smaller home sizes if possible</li>
+<li>Use environmentally-friendly building materials</li>
+</ul>
+<p>This research was supported by National Science Foundation CAREER award 155173 and by NSF Cyber-Physical Systems award 1646395.</p>
+<div class="printfriendly pf-alignleft"><a href="#" style="outline:none;" rel="nofollow" onclick="window.print(); return false;" class="noslimstat" title="Printer Friendly, PDF & Email"><img style="border:none;-webkit-box-shadow:none; box-shadow:none;" src="https://cdn.printfriendly.com/buttons/print-button-gray.png" alt="Print Friendly, PDF & Email" /></a></div></div>
+			<p class="author-date">
+													<div class="rightBar_widgets">
+						<h2>Contact</h2>
+						<p>
+							<span class="bold"><a href="https://today.uic.edu/author/sparmet" title="Posts by Sharon Parmet" rel="author">Sharon Parmet</a></span><br />
+							312-413-2695<br />
+							<a href="mailto:sparmet@uic.edu">sparmet@uic.edu</a><br />
+										</p>
+			</div>
+
+			<div id="tag-area">
+				<p class="tag-label">Categories</p>
+																<p>
+							<a href="https://today.uic.edu/category/category-research" rel="category tag">Research</a>						</p>
+									</p>
+
+													<p class="tag-label">Topics</p>
+					<p><a href="https://today.uic.edu/tag/sustainable-cities" rel="tag">sustainable cities</a>, <a href="https://today.uic.edu/tag/urban-infrastructure" rel="tag">urban infrastructure</a></p>
+							</div>
+
+
+			
 </div>
 
-    </li>
-      <li class="component-link-tile__item component-link-tile__item--featured">
-
-                  <div class="tile-item ">
-    <a  class="tile-item__link"
-       href="https://oae.uic.edu/culture-of-respect/"
-       target="_self">
-            <div class="tile-item__image-container">
-            <img
-                class="tile-item__image"
-                
-                src="https://oae.uic.edu/wp-content/uploads/sites/32/2019/03/Culture-of-Respect-Collective-Institution-Badge-Cohort-3-600x365.jpg"
-                alt="Culture of Respect Collective Badge">
-        </div>
-    
-    <div class="
-        tile-item__content-container
-        tile-item__content-container--internal
-        tile-item__content-container--featured">
-        <div class="
-            tile-item__title
-            tile-item__title--featured">
-            Culture of Respect Collective
-        </div>
-
-        
-            </div>
-    </a>
-</div>
-
-    </li>
-      <li class="component-link-tile__item component-link-tile__item--featured">
-
-                  <div class="tile-item ">
-    <a  class="tile-item__link"
-       href="https://oae.uic.edu/discriminationharassment/inclusion/"
-       target="_self">
-            <div class="tile-item__image-container">
-            <img
-                class="tile-item__image"
-                
-                src="https://oae.uic.edu/wp-content/uploads/sites/32/2019/07/UIC_2015-0259-600x365.jpg"
-                alt="male student taking a photo of the Chicago skyline with a rainbow filter">
-        </div>
-    
-    <div class="
-        tile-item__content-container
-        tile-item__content-container--internal
-        tile-item__content-container--featured">
-        <div class="
-            tile-item__title
-            tile-item__title--featured">
-            LGBTQ  Inclusion
-        </div>
-
-        
-            </div>
-    </a>
-</div>
-
-    </li>
-      <li class="component-link-tile__item component-link-tile__item--featured">
-
-                  <div class="tile-item ">
-    <a  class="tile-item__link"
-       href="https://oae.uic.edu/discriminationharassment/sexual-harassment/posters/"
-       target="_self">
-            <div class="tile-item__image-container">
-            <img
-                class="tile-item__image"
-                
-                src="https://oae.uic.edu/wp-content/uploads/sites/32/2018/05/IDHR-Clip-600x365.png"
-                alt="Sexual Harassment Poster partial">
-        </div>
-    
-    <div class="
-        tile-item__content-container
-        tile-item__content-container--internal
-        tile-item__content-container--featured">
-        <div class="
-            tile-item__title
-            tile-item__title--featured">
-            Sexual Harassment Posters
-        </div>
-
-        
-            </div>
-    </a>
-</div>
-
-    </li>
-    </ul>
-
-      </div>
-  
-</section>
-
-    
-
-    
-      
-
-<section class="component  ">
-
-      <div class="l-full">
-  
-  
-<div class="slideshow-container">
-
-  <h2 class="invisible">OAE Links</h2>
-
-<article class="slideshow">
-    <div class="slideshow__navigation">
-        <div class="slideshow-navigation">
-    <ul class="slideshow-navigation__slides">
-                    <li class="slideshow-navigation__slide slideshow-navigation__slide--active" data-slide-index="1">
-                <a href="#slide-1"><span>Go to slide 1</span></a>
-            </li>
-                    <li class="slideshow-navigation__slide " data-slide-index="2">
-                <a href="#slide-2"><span>Go to slide 2</span></a>
-            </li>
-                    <li class="slideshow-navigation__slide " data-slide-index="3">
-                <a href="#slide-3"><span>Go to slide 3</span></a>
-            </li>
-                    <li class="slideshow-navigation__slide " data-slide-index="4">
-                <a href="#slide-4"><span>Go to slide 4</span></a>
-            </li>
-                    <li class="slideshow-navigation__slide " data-slide-index="5">
-                <a href="#slide-5"><span>Go to slide 5</span></a>
-            </li>
-                    <li class="slideshow-navigation__slide " data-slide-index="6">
-                <a href="#slide-6"><span>Go to slide 6</span></a>
-            </li>
-                    <li class="slideshow-navigation__slide " data-slide-index="7">
-                <a href="#slide-7"><span>Go to slide 7</span></a>
-            </li>
-                    <li class="slideshow-navigation__slide " data-slide-index="8">
-                <a href="#slide-8"><span>Go to slide 8</span></a>
-            </li>
-            </ul>
-</div>
-    </div>
-    <ol class="slideshow__slides">
-                    <li id="slide-1" class="slideshow__slide slideshow__slide--active" data-slide-index="1">
-                
-<article class="slideshow-slide" id="334259623-1">
-
-    <div class="slideshow-slide__image-and-buttons">
-        <div class="slideshow-slide__image">
-            <img class="image-pane" src="https://oae.uic.edu/wp-content/uploads/sites/32/2020/03/CDI-Team-Meeting-1-1090x541.jpg" alt="Group picture" data-image-width="800" data-image-height="400" role="presentation">
-        </div>
-        <div class="slideshow-slide__buttons">
-            <ul>
-                <li class="slideshow-slide__button slideshow-slide__button--next" id="334259623-1-next" data-slide-index="2">
-                    <a href="#slide-2"><span class="slideshow-slide__button-icon">Go to the next slide</span></a>
-                </li>
-                <li class="slideshow-slide__button slideshow-slide__button--previous" id="334259623-1-prev" data-slide-index="8">
-                    <a href="#slide-8"><span class="slideshow-slide__button-icon">Go to the previous slide</span></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-        <div class="slideshow-slide__credit-and-caption">
-        
-                                    <div class="slideshow-slide__caption">Caryn Bills met with Connecting Dots International- CDI to discuss inclusion goals at UIC</div>
-                        </div>
-    
-</article>
-            </li>
-                    <li id="slide-2" class="slideshow__slide " data-slide-index="2">
-                
-<article class="slideshow-slide" id="1837488715-2">
-
-    <div class="slideshow-slide__image-and-buttons">
-        <div class="slideshow-slide__image">
-            <img class="image-pane" src="https://oae.uic.edu/wp-content/uploads/sites/32/2020/01/Office-for-Access-and-Equity-pic-1090x541.jpg" alt="image of the Office for Access and Equity" data-image-width="800" data-image-height="400" role="presentation">
-        </div>
-        <div class="slideshow-slide__buttons">
-            <ul>
-                <li class="slideshow-slide__button slideshow-slide__button--next" id="1837488715-2-next" data-slide-index="3">
-                    <a href="#slide-3"><span class="slideshow-slide__button-icon">Go to the next slide</span></a>
-                </li>
-                <li class="slideshow-slide__button slideshow-slide__button--previous" id="1837488715-2-prev" data-slide-index="1">
-                    <a href="#slide-1"><span class="slideshow-slide__button-icon">Go to the previous slide</span></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-        <div class="slideshow-slide__credit-and-caption">
-        
-                                    <div class="slideshow-slide__caption"><a  href="http://oae.uic.edu/contact/">Thank you for visiting the Office for Access and Equity website. To contact our office, click here.</a></div>
-                        </div>
-    
-</article>
-            </li>
-                    <li id="slide-3" class="slideshow__slide " data-slide-index="3">
-                
-<article class="slideshow-slide" id="2064889371-3">
-
-    <div class="slideshow-slide__image-and-buttons">
-        <div class="slideshow-slide__image">
-            <img class="image-pane" src="https://oae.uic.edu/wp-content/uploads/sites/32/2019/12/2020-Fellows-1090x541.jpg" alt="2020 ADA 25 Advancing Leadership Fellows" data-image-width="800" data-image-height="400" role="presentation">
-        </div>
-        <div class="slideshow-slide__buttons">
-            <ul>
-                <li class="slideshow-slide__button slideshow-slide__button--next" id="2064889371-3-next" data-slide-index="4">
-                    <a href="#slide-4"><span class="slideshow-slide__button-icon">Go to the next slide</span></a>
-                </li>
-                <li class="slideshow-slide__button slideshow-slide__button--previous" id="2064889371-3-prev" data-slide-index="2">
-                    <a href="#slide-2"><span class="slideshow-slide__button-icon">Go to the previous slide</span></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-        <div class="slideshow-slide__credit-and-caption">
-                    <div class="slideshow-slide__credit">https://medium.com/@ADA25AdvLeaders/meet-the-leaders-688b9c712660</div>
-        
-                                    <div class="slideshow-slide__caption"><a  href="http://https://medium.com/@ADA25AdvLeaders/meet-the-leaders-688b9c712660">On December 12th, ADA 25 Advancing Leadership announced its class of 21 Fellows for 2020, the largest class in its five-year history. These accomplished leaders represent a cross-section of professionals from the region’s nonprofit, government, corporate and philanthropic sectors, including UIC's Disability Services Specialist, Hugo Trevino</a></div>
-                        </div>
-    
-</article>
-            </li>
-                    <li id="slide-4" class="slideshow__slide " data-slide-index="4">
-                
-<article class="slideshow-slide" id="1036644809-4">
-
-    <div class="slideshow-slide__image-and-buttons">
-        <div class="slideshow-slide__image">
-            <img class="image-pane" src="https://oae.uic.edu/wp-content/uploads/sites/32/2018/03/PIC-18-Feb-18-1090x541.jpg" alt="Group at women’s self-defense courses" data-image-width="800" data-image-height="400" role="presentation">
-        </div>
-        <div class="slideshow-slide__buttons">
-            <ul>
-                <li class="slideshow-slide__button slideshow-slide__button--next" id="1036644809-4-next" data-slide-index="5">
-                    <a href="#slide-5"><span class="slideshow-slide__button-icon">Go to the next slide</span></a>
-                </li>
-                <li class="slideshow-slide__button slideshow-slide__button--previous" id="1036644809-4-prev" data-slide-index="3">
-                    <a href="#slide-3"><span class="slideshow-slide__button-icon">Go to the previous slide</span></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-        <div class="slideshow-slide__credit-and-caption">
-        
-                                    <div class="slideshow-slide__caption"><a  href="http://police.uic.edu/services/self-defense-for-women-workshops/">UIC Police offer women’s self-defense courses. Click for more information!</a></div>
-                        </div>
-    
-</article>
-            </li>
-                    <li id="slide-5" class="slideshow__slide " data-slide-index="5">
-                
-<article class="slideshow-slide" id="1194221329-5">
-
-    <div class="slideshow-slide__image-and-buttons">
-        <div class="slideshow-slide__image">
-            <img class="image-pane" src="https://oae.uic.edu/wp-content/uploads/sites/32/2018/01/HRD2017-1-1090x541.jpg" alt="IDHR Panel" data-image-width="800" data-image-height="400" role="presentation">
-        </div>
-        <div class="slideshow-slide__buttons">
-            <ul>
-                <li class="slideshow-slide__button slideshow-slide__button--next" id="1194221329-5-next" data-slide-index="6">
-                    <a href="#slide-6"><span class="slideshow-slide__button-icon">Go to the next slide</span></a>
-                </li>
-                <li class="slideshow-slide__button slideshow-slide__button--previous" id="1194221329-5-prev" data-slide-index="4">
-                    <a href="#slide-4"><span class="slideshow-slide__button-icon">Go to the previous slide</span></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-        <div class="slideshow-slide__credit-and-caption">
-                    <div class="slideshow-slide__credit">Michael Diaz (4th from the left)</div>
-        
-                                    <div class="slideshow-slide__caption">December 5, 2017: Michael Diaz, Executive Associate Director, served on a panel at the "Standing Up for Dignity and Respect: An IDHR Panel Discussion Honoring Human Rights Day".</div>
-                        </div>
-    
-</article>
-            </li>
-                    <li id="slide-6" class="slideshow__slide " data-slide-index="6">
-                
-<article class="slideshow-slide" id="311229231-6">
-
-    <div class="slideshow-slide__image-and-buttons">
-        <div class="slideshow-slide__image">
-            <img class="image-pane" src="https://oae.uic.edu/wp-content/uploads/sites/32/2017/08/2017.08.30-WOW-event-1090x541.jpg" alt="OAE at WOW event" data-image-width="800" data-image-height="400" role="presentation">
-        </div>
-        <div class="slideshow-slide__buttons">
-            <ul>
-                <li class="slideshow-slide__button slideshow-slide__button--next" id="311229231-6-next" data-slide-index="7">
-                    <a href="#slide-7"><span class="slideshow-slide__button-icon">Go to the next slide</span></a>
-                </li>
-                <li class="slideshow-slide__button slideshow-slide__button--previous" id="311229231-6-prev" data-slide-index="5">
-                    <a href="#slide-5"><span class="slideshow-slide__button-icon">Go to the previous slide</span></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-        <div class="slideshow-slide__credit-and-caption">
-                    <div class="slideshow-slide__credit">Chorlatte Mack</div>
-        
-                                    <div class="slideshow-slide__caption">Aug 30, 2017: Title IX FAQs and You. OAE staff handed out goodies and spoke with students at the UIC Weeks of Welcome event.</div>
-                        </div>
-    
-</article>
-            </li>
-                    <li id="slide-7" class="slideshow__slide " data-slide-index="7">
-                
-<article class="slideshow-slide" id="1003850297-7">
-
-    <div class="slideshow-slide__image-and-buttons">
-        <div class="slideshow-slide__image">
-            <img class="image-pane" src="https://oae.uic.edu/wp-content/uploads/sites/32/2017/08/20170824_WOW-border-1090x541.jpg" alt="OAE at Weeks of Welcome event" data-image-width="800" data-image-height="400" role="presentation">
-        </div>
-        <div class="slideshow-slide__buttons">
-            <ul>
-                <li class="slideshow-slide__button slideshow-slide__button--next" id="1003850297-7-next" data-slide-index="8">
-                    <a href="#slide-8"><span class="slideshow-slide__button-icon">Go to the next slide</span></a>
-                </li>
-                <li class="slideshow-slide__button slideshow-slide__button--previous" id="1003850297-7-prev" data-slide-index="6">
-                    <a href="#slide-6"><span class="slideshow-slide__button-icon">Go to the previous slide</span></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-        <div class="slideshow-slide__credit-and-caption">
-                    <div class="slideshow-slide__credit">Danielle Earls</div>
-        
-                                    <div class="slideshow-slide__caption">Aug. 24, 2017: UIC Weeks of Welcome. OAE welcomes all new and returning students to campus!</div>
-                        </div>
-    
-</article>
-            </li>
-                    <li id="slide-8" class="slideshow__slide " data-slide-index="8">
-                
-<article class="slideshow-slide" id="1953985225-8">
-
-    <div class="slideshow-slide__image-and-buttons">
-        <div class="slideshow-slide__image">
-            <img class="image-pane" src="https://oae.uic.edu/wp-content/uploads/sites/32/2017/03/OAE-site-1-1090x541.jpg" alt="Break the Silence Rally" data-image-width="800" data-image-height="400" role="presentation">
-        </div>
-        <div class="slideshow-slide__buttons">
-            <ul>
-                <li class="slideshow-slide__button slideshow-slide__button--next" id="1953985225-8-next" data-slide-index="1">
-                    <a href="#slide-1"><span class="slideshow-slide__button-icon">Go to the next slide</span></a>
-                </li>
-                <li class="slideshow-slide__button slideshow-slide__button--previous" id="1953985225-8-prev" data-slide-index="7">
-                    <a href="#slide-7"><span class="slideshow-slide__button-icon">Go to the previous slide</span></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-        <div class="slideshow-slide__credit-and-caption">
-                    <div class="slideshow-slide__credit">Photo by Danielle Earls</div>
-        
-                                    <div class="slideshow-slide__caption">April 19, 2017: Break the Silence Rally.  The Office for Access and Equity joined the rally to show support, along with UIC Women’s Leadership and Resource Center/Campus Advocacy Network and the UIC Undergraduate Student Government.</div>
-                        </div>
-    
-</article>
-            </li>
-            </ol>
-</article>
+<!-- Need 2 closing divs before footer to close divs from page header include -->
+	</div>
 
 </div>
 
 
-      </div>
-  
-</section>
+<div class="clearThis">&nbsp;</div>
+
+
+
+
 
     
 
-    
-      
+    <footer id="footer" class="footer u-dark-region" role="contentinfo">
 
-<section class="component  ">
-
-      <div class="l-full">
-  
-  <div class="component-video-block">
-  
-    <div class="component-description">
-                    <h2 id="uandicare-you-are-welcome-here" class="__title visible">UandICare: You are Welcome Here</h2>
-                    </div>
-
-
-  <div class="video-container">
-    <iframe width="640" height="360" src="https://www.youtube.com/embed/m40pOCsblkQ?wmode=transparent&amp;rel=0&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-
-      <p>The <a href="http://dos.uic.edu/uicare.shtml" target="_blank" rel="noopener noreferrer"><strong>U and I Care program</strong></a> is an initiative by the Office of the Dean of Students (DOS) to strengthen the University of Illinois at Chicago&#8217;s network of care for students. The purpose of the program is to provide options and resources for students facing personal difficulties and to empower other students and university personnel to take action when such concerns arise. <a href="http://dos.uic.edu/uicare.shtml" target="_blank" rel="noopener noreferrer">[read more]</a></p>
-
-  
-</div>
-
-      </div>
-  
-</section>
-
-    
-
-    
-
-</div>
-          </article>
-        </div>
-
-          
-                          </div>
-    </main>
-
-    
-        <footer id="footer" class="footer u-dark-region" role="contentinfo">
 
   <div class="footer-contact">
     <div class="l-full">
 
-          <div class="mega-footer-contact">
 
-    <div class="mega-footer-contact__brand mega-footer-contact__brand--type-treatment">
-        <div class="footer-logo">
-                        <div class="uic-type-treatment  uic-wordmark--footer">
+            <div class="uic-type-wrapper-footer">
 
-  <div class="_mark">
-    <a href="http://uic.edu" class="uic-logo-icon ">
- <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
- <title>UIC Logo</title>
- <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
-<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
+            <div class="uic-type-treatment-footer">
+            
+  			<div class="_mark"> 
+    		<a href="http://uic.edu" class="uic-logo-icon" aria-label="UIC logo">
+ 			<svg aria-label="UIC.edu" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ 			<title>UIC Logo</title>
+ 			<circle class="_circle" cx="27" cy="27" r="25" fill="none"></circle>
+ <path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#d50032" fill-rule="evenodd"></path>
 </svg>
 </a>
-  </div>
+  			</div><!--  _mark   -->   
+            
+  			<div class="_text">
+    		<a href="/">
+        	  Today
+      		  </a>
+ 			</div><!--  _text   -->
 
-  <div class="_text">
-    <a href="https://oae.uic.edu">
-          Office for Access and Equity
-        </a>
-  </div>
+            
+			</div><!--  uic-type-treatment-footer   -->
 
-</div>
-            </div>
-    </div>
 
-  <div class="mega-footer-contact__menus">
+			</div><!--  uic-type-wrapper-footer    -->
+ 
 
-        <div class="mega-footer-contact__quick-menus _quick-menus">
 
-            <nav class="mega-footer-contact__quick-menu" id="menu1" aria-label="footer-menu-1">
-        <h2>Helpful Links</h2>
-        <ul id="menu-quick-1" class="menu menu-quick-1" aria-label="Helpful Links">
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-323">
-      <a href="http://diversity.uic.edu/" target="_blank">Office of Diversity</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-324">
-      <a href="http://drc.uic.edu/" target="_blank">Disability Resource Center</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-325">
-      <a href="https://www.hr.uic.edu/" target="_blank">Human Resources</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-326">
-      <a href="http://dos.uic.edu/" target="_blank">Dean of Students</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-327">
-      <a href="https://wlrc.uic.edu/campus-advocacy-network/" target="_blank">Campus Advocacy Network</a>
-    </li>
-      <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-328">
-      <a href="https://police.uic.edu/" target="_blank">UIC Police</a>
-    </li>
-  </ul>
-      </nav>
-      
-      
-      
-    </div>
-    
-    
-  </div>
-
-  <div class="mega-footer-contact__contact">
-
-    <div class="_contact">
-      <h2>Contact</h2>
-      <div class="site-contact-container">    <div class="site-address">809 S. Marshfield Ave., Room 717, Chicago, IL 60612-7207 </div>
-      <div class="site-phone">Phone: <a  href="tel:(312) 996-8670">(312) 996-8670</a></div>
-        <div class="site-email"><a  href="mailto:oae@uic.edu">oae@uic.edu</a></div>
-</div>
-      <div class="site-contact-container">        </div>
-    </div>
-
-    <div class="mega-footer-contact__site-social-links">
-       <div aria-label="Social Media Accounts" class="site-social-links">
-  <h2 class="site-social-links__header assistive-text">Social Media Accounts</h2>
-  <ul class="site-social-links__list">
-                          </ul>
-</div>
-    </div>
-  </div>
-</div>
-    
-    </div>
-  </div>
-
+  <div class="_contact">
   
-  <div class="footer-uic-menu">
-    <div class="l-full">
+  
+    <h2>Contact</h2>
+    
+    
+		<div class="site-address">Office of Public and Government Affairs <br />
+		601 S. Morgan St., 1320 UH, Chicago, IL 60607</div>
+      
+      
+		<div class="site-email"><a href="mailto:uictoday@uic.edu">uictoday@uic.edu</a></div>
+        
+        
+		<div aria-label="Social Media Accounts" class="_social" role="navigation">
+			<h2 class="assistive-text">Social Media Accounts</h2> 
+  			<ul class="site-social-links">
+            <li><a href="https://www.facebook.com/uicnews "><img src="/wp-content/themes/uictoday/images/social-media-icons/facebook.png" alt="Facebook"></a></li>
+            <li><a href="https://instagram.com/thisisuic/"><img src="/wp-content/themes/uictoday/images/social-media-icons/instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://today.uic.edu/campus-news/campus-newspaper/subscribe-to-uic-today"><img src="/wp-content/themes/uictoday/images/social-media-icons/rss.png" alt="RSS feed"></a></li>
+            <li><a href="https://uicscience.tumblr.com/"><img src="/wp-content/themes/uictoday/images/social-media-icons/tumblr.png" alt="tumblr"></a></li>
+            <li><a href="https://twitter.com/UICnews"><img src="/wp-content/themes/uictoday/images/social-media-icons/twitter.png" alt="Twitter"></a></li>
+            <li><a href="https://www.youtube.com/user/uicmedia"><img src="/wp-content/themes/uictoday/images/social-media-icons/youtube.png" alt="YouTube"></a></li>
+            <li><a href="https://today.uic.edu/contact/social-media-directory"><img src="/wp-content/themes/uictoday/images/social-media-icons/directory.png" alt="Social media directory"></a></li>
+            </ul>
+            
+            
+		</div>        
+        
+        
+  </div>
 
-      <div aria-label="UIC.edu Links">
+    
+
+       
+
+
+   
+
+
+
+
+
+		<div id="quicklinks_footer" role="navigation" aria-label="Quick Links" >
+			<div id="quicklinks_footer_container">
+	  	 	<div class="menu-footer-quicklinks-container"><ul id="menu-footer-quicklinks" class="menu"><li id="menu-item-57564"><a href="/news-release/news-release/">For the Media</a></li>
+<li id="menu-item-57555"><a href="https://today.uic.edu/experts-guide">Experts Guide</a></li>
+<li id="menu-item-57577"><a href="https://today.uic.edu/contact/communicating-on-campus/submit-announcements">Submit Announcements</a></li>
+<li id="menu-item-57578"><a href="https://today.uic.edu/submit-an-event">Submit an Event</a></li>
+<li id="menu-item-67562"><a href="https://today.uic.edu/campus-news/campus-newspaper/subscribe-to-uic-today">Subscribe to UIC Today</a></li>
+</ul></div>        	</div>
+	    </div>      
+
+
+</div>
+
+    
+    </div>
+  </div>
+
+
+
+
+<div class="footer-wrapper-uic-menu-legal">
+
+
+  <div class="footer-uic-menu">
+    <div class="ll-full">
+
+      <div role="navigation" aria-label="UIC.edu Links" >
   <h2 class="assistive-text">UIC.edu links</h2>
   <ul class="uic-footer-menu">
-    <li><strong><a href="https://uic.edu/">UIC.edu</a></strong></li>
-    <li><a href="https://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></li>
-    <li><a href="https://uicflames.com/">Athletics</a></li>
-    <li><a href="https://www.uic.edu/apps/departments-az/search">Campus Directory</a></li>
-    <li><a href="https://disabilityresources.uic.edu/">Disability Resources</a></li>
-    <li><a href="https://emergency.uic.edu/">Emergency Information</a></li>
-    <li><a href="https://today.uic.edu/events">Event Calendar</a></li>
-    <li><a href="https://uic.edu/about/job-opportunities">Job Openings</a></li>
-    <li><a href="https://library.uic.edu/">Library</a></li>
-    <li><a href="https://maps.uic.edu/">Maps</a></li>
-    <li><a href="https://ready.uic.edu/digital-materials/uic-safe-mobile-app/">UIC Safe Mobile App</a></li>
-    <li><a href="https://today.uic.edu/">UIC Today</a></li>
-    <li><a href="https://uihealth.uic.edu/">UI Health</a></li>
-    <li><a href="https://dos.uic.edu/student-veterans-affairs/">Veterans Affairs</a></li>
+    <li><a href="http://uic.edu/">UIC.edu</a></li>
+    <li><a href="http://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></li>
+    <li><a href="http://uicflames.com/">Athletics</a></li>
+    <li><a href="http://www.uic.edu/apps/departments-az/search">Campus Directory</a></li>
+    <li><a href="http://disabilityresources.uic.edu/">Disability Resources</a></li>
+    <li><a href="http://emergency.uic.edu/">Emergency Information</a></li>
+    <li><a href="http://events.uic.edu/">Event Calendar</a></li>
+    <li><a href="http://uic.edu/about/job-opportunities">Job Openings</a></li>
+    <li><a href="http://library.uic.edu/">Library</a></li>
+    <li><a href="http://maps.uic.edu/">Maps</a></li>
+    <li><a href="http://hospital.uillinois.edu/">UI Health</a></li>
+    <li><a href="http://dos.uic.edu/studentveteranaffairs.shtml">Veterans Affairs</a></li>
   </ul>
 </div>
 
-    </div>
-  </div>
+    </div><!--  ll-full   -->
+    
+    <div class="m-full">
+    <img src="/wp-content/themes/uictoday/images/uihealth.png" alt="UI Health and UIC co-branded logo">
+    </div><!--  m-full   -->
+    
+  </div><!--  footer-uic-menu   --> 
+
+
+
 
   <div class="footer-legal">
     <div class="l-full">
 
-      <div class="red-version">Powered by Red 2.38.0</div>
-
-<div class="site-copyright">
+      <div class="site-copyright">
   &copy; 2020 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
-  <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a>
+  <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a>
 </div>
 
-<div class="campuses" aria-label="Campuses">
+<div class="campuses" role="navigation" aria-label="University of Illinois campus web sites">
   <h2 class="assistive-text">Campuses</h2>
   <ul class="campuses-list">
-    <li><a href="https://www.uillinois.edu/">University of Illinois System</a></li>
+    <li><a href="https://uillinois.edu/">University of Illinois System</a></li>
     <li><a href="https://illinois.edu/">Urbana-Champaign</a></li>
-    <li><a href="https://www.uis.edu/">Springfield</a></li>
+    <li><a href="https://uis.edu/">Springfield</a></li>
   </ul>
 </div>
-<div class="cookie-banner">
-  <div id="footer-bottom">
-    <a class="optanon-show-settings">Cookie Settings</a>
-  </div>
-</div>
+
     </div>
+
+
+
+</div><!--  footer-wrapper-uic-menu-legal   --> 
+    
+    
   </div>
 
 </footer>
 
-	    </div>
 
 
-  <!-- Instagram Feed JS -->
-<script type="text/javascript">
-var sbiajaxurl = "https://oae.uic.edu/wp-admin/admin-ajax.php";
-</script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var sb_instagram_js_options = {"sb_instagram_at":"","font_method":"svg"};
-/* ]]> */
+
+
+</div>
+
+
+		<style type="text/css">
+			.ssp-wave wave wave {
+				background: #28c0e1 !important;
+			}
+		</style>
+		<script type="text/javascript">
+  document.write(unescape("%3Cscript src='//www.uic.edu/inc/emergency/alert.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
-<script type='text/javascript' src='https://oae.uic.edu/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.12.1'></script>
-<script type='text/javascript' src='https://oae.uic.edu/wp-content/plugins/uic-red/js-admin/uic-publish-post-settings.js?ver=1.0.0'></script>
-<script type='text/javascript' src='https://oae.uic.edu/wp-content/plugins/uic-red/js-admin/acf-field-group-toggle.js?ver=1.0.0'></script>
-<script type='text/javascript' src='//www.uic.edu/apps/web-alert/alert.js?ver=3'></script>
-<script type='text/javascript' src='https://oae.uic.edu/wp-content/themes/uic-red/js/main.js?ver=1'></script>
-<script type='text/javascript' src='https://oae.uic.edu/wp-includes/js/wp-embed.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
+      <script type="text/javascript">
 
+          var pfHeaderImgUrl = 'https://today.uic.edu/files/2019/10/TodayPrintHeader.jpg';
+          var pfHeaderTagline = 'UIC Today';
+          var pfdisableClickToDel = '0';
+          var pfImagesSize = 'full-size';
+          var pfImageDisplayStyle = 'right';
+          var pfEncodeImages = '0';
+          var pfDisableEmail = '0';
+          var pfDisablePDF = '0';
+          var pfDisablePrint = '0';
+          var pfCustomCSS = '';
+          var pfPlatform = 'Wordpress';
+      </script>
+      <script async src='https://cdn.printfriendly.com/printfriendly.js'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
 
-
-  
-  
-  <script async src="https://cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js" type="text/javascript" charset="UTF-8"></script>
-
-  </body>
-</html>
+</body>
+</html><!-- WP Fastest Cache file was created in 0.099694013595581 seconds, on 09-05-20 0:30:17 -->

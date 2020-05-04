@@ -1,0 +1,510 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="iso-8859-1">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/apple-touch-icon-152x152-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/apple-touch-icon-120x120-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="images/apple-touch-icon-76x76-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-precomposed.png">
+        <title>DOS Student Conduct & Community Standards - Advisor Notification Form</title>
+        <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+        <meta name="robots" content="noindex">
+
+        <link rel="stylesheet" href="publicside_assets/selectwoo-1.0.6/selectWoo.css">
+        <link rel="stylesheet" type="text/css" href="publicside_assets/jquery_filer/css/jquery.filer.css">
+        <link rel="stylesheet" type="text/css" href="publicside_assets/jquery_filer/css/themes/jquery.filer-dragdropbox-theme.css">
+        <script src="https://use.typekit.net/feb7wgs.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+                    <script src='https://www.google.com/recaptcha/api.js?render=6LcFy40UAAAAAKwTcs9vYPFiVZVrPA_UD4NRy84H'></script>
+            <script>
+                function refreshToken() {
+                    grecaptcha.execute('6LcFy40UAAAAAKwTcs9vYPFiVZVrPA_UD4NRy84H', {action: 'reportingform'})
+                        .then(function(token) {
+                            // Verify the token on the server.
+                            var recaptchaResponse = document.getElementById('recaptcha_response');
+                            recaptchaResponse.value = token;
+                        });
+                    }
+
+                grecaptcha.ready(function(){
+                    refreshToken();
+                    setInterval(refreshToken, 60000);
+                });
+            </script>
+            
+        <link rel="stylesheet" type="text/css" href="publicside_assets/tipped/tipped.css">
+        <link rel="stylesheet" href="publicside_assets/bower_components/app.css">
+
+                <style type="text/css">
+            body {
+                background-color: #ef3340;
+            }
+            .sectionheader {
+                color: #FFF;
+                background: #00205b;
+            }
+
+            /* Do not group these rules */
+            input[id=date_of_incident]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                color: #595959;
+            }
+            input[id=date_of_incident]:-moz-placeholder { /* Firefox 18- */
+                color: #595959;
+                opacity: 1;
+            }
+            input[id=date_of_incident]::-moz-placeholder { /* Firefox 19+ */
+                color: #595959;
+                opacity: 1;
+            }
+            input[id=date_of_incident]:-ms-input-placeholder { /* IE */
+                color: #595959;
+            }
+            input[id=date_of_incident]::-ms-input-placeholder { /* IE Edge */
+                color: #595959;
+            }
+            
+            .select2-container .select2-choice > .select2-chosen {
+                color: #595959;
+            }
+
+            .jFiler-theme-default .jFiler-input {
+                color: #595959;
+            }
+            .jFiler-theme-default .jFiler-input-button {
+                color: #000;
+            }
+
+            /* 5/2/19 added for SelectWoo */
+            span.max_foundation {
+                border: 1px solid #cacaca !important;
+                border-radius: unset !important;
+                height: 2.4375rem !important;
+                box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1) !important;
+                margin-bottom: 0.8rem !important;
+            }
+            span.max_foundation > span.select2-selection__rendered {
+                color: #0a0a0a !important;
+                line-height: 2.4375rem !important;
+            }
+
+            span.max_foundation > span.select2-selection__arrow {
+                height: 2.2rem !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper" class="row"> <!--big wrap-->
+        <div class="small-12 columns"> <!-- big wrap-->
+        
+        <header>
+        <div class="row" id="reportheader">
+            <div id="reportheader-left">
+                <p><img src="https://maxfs-useast-01.s3.amazonaws.com/uic/logos/UnivofIllinoisChicago.gif?response-cache-control=must-revalidate%2C%20post-check%3D0%2C%20pre-check%3D0&response-content-disposition=inline%3B%20filename%3D%22UnivofIllinoisChicago.gif%22&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJYZPEI2GVPJCSHMQ%2F20200511%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200511T032044Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=5ccfdca9a98c81b17eef09e16d5f5e71f8860859d9833e6d593c2229fb8757b6" alt="University of Illinois at Chicago Logo"></p>
+            </div>
+            <div id="reportheader-right">
+                <h1>DOS Student Conduct & Community Standards - Advisor Notification Form</h1><br>
+            </div>
+        </div>
+
+        <div id="main_instructions" class="row">
+            <div class="large-12 columns">
+            	<p><b>THIS FORM MUST BE COMPLETED AT LEAST FIVE DAYS IN ADVANCE OF YOUR CONDUCT MEETING IF YOU PLAN TO HAVE AN ADVISOR PRESENT THAT IS AN ATTORNEY</b><br />
+<br />
+The University of Illinois at Chicago (UIC) Student Disciplinary Policy stipulates that a student may have an advisor with them during the student conduct process. An advisor may be a family member, friend, faculty or staff member, advocate, or an attorney. One of the primary goals of the student conduct process is that of being an integral part of the students total learning experience. Students in our conduct process have the primary responsibility for presenting their perspective of an incident, with the advisor serving in a supportive and advisory capacity. The advisor may not represent or speak for the student. Although they may consult with their advisor during the hearing, this consultation must take place in a manner that does not disrupt the proceedings. Additionally, an advisor may not serve as a witness. A breach in any of these procedures will usually bring about a warning(s). After a warning, any additional breach will likely result in the Advisor being required to leave the hearing.<br />
+<br />
+If an attorney will be your advisor, the Office of the Dean of Students must be notified through this form <b>five (5) days</b> prior to the conference or hearing. When an attorney is present as an advisor, the University may have an attorney from the Office of University Counsel in attendance as well. <br />
+<br />
+The Office of the Dean of Students and/or the Office of University Counsel will not be able to directly communicate with your advisor without you completing the <b><a href="https://appserv7.admin.uillinois.edu/FormBuilderSurvey/Survey/uic_registrar/records_and_registration_/consent_to_release_records_ferpa/" target=\"_blank\">Consent to Release Records (FERPA)</a></b>. If you choose to provide consent to release your educational records, you must complete the online form.<br />
+<br />
+Please review the <a href="http://go.uic.edu/DisciplinaryPolicy" target=\"_blank\">Student Disciplinary Policy</a> for more information on the student conduct process. If you have any questions or concerns about this form, please contact the Student Conduct Area in the Office of the Dean of Students at 312-996-4857 or via email at dos@uic.edu.</p>            </div>
+        </div>
+        </header>
+
+        <main>
+        <form name="IR" id="IR" enctype="multipart/form-data" accept-charset="iso-8859-1" method="post" action="" data-abide novalidate>
+            <input type="hidden" name="institution" id="institution" value="UnivofIllinoisChicago">
+            <input type="hidden" name="layout_id" value="12">
+            <input type="hidden" name="x_requestor_ip" value="73.73.60.79">
+            <input type="hidden" name="x_requestor_starttime" value="1589167243.9733">
+            <input type="hidden" name="x_requestor_token" value="1d4cc594862abdfa275b65999282477c">
+            <input type="hidden" name="recaptcha_response" id="recaptcha_response">
+            <!--<label for="g-recaptcha-response-100000">This field appears when the captcha is loaded from outside the Maxient domain. This label is purely to prevent a false positive errors on accessibility evaluation tools like WebAIM's WAVE.</label>-->
+
+            <div data-abide-error class="alert callout" style="display: none;">
+                <p><i class="fi-alert"></i>There are some errors. Please review the highlighted fields.</p>
+            </div>
+            <section>
+                <h2 class="sectionheader">Advisor Information</h2>
+                <div id="section1">
+                    <div class="column row">
+                        <div class="sectioninstructions"><p></p></div>                    </div>
+                    <div class="row">
+                        <div class="generallabel">
+                            &nbsp;
+                        </div>
+                        <div class="generalinput">
+                                                            <a href="https://cm.maxient.com/reportingform.php?UnivofIllinoisChicago&layout_id=12&promptforauth=true">Enable additional features by logging in.</a>
+                                                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="generallabel">
+                            <label for="reporters_full_name">Advisor Full name:</label>
+                        </div>
+                        <div class="generalinput">
+                            <input type="text" name="reporters_full_name" id="reporters_full_name" class="tooltip" title="" maxlength="80" value="">
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="generallabel">
+                            <label for="reporters_title">Advisor's Position/Title:</label>
+                        </div>
+                        <div class="generalinput">
+                            <input type="text" name="reporters_title" id="reporters_title" class="tooltip" title="" maxlength="80" value="">
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="generallabel">
+                            <label for="reporters_phone_number">Advisor's Phone Number:</label>
+                        </div>
+                        <div class="smallerinput">
+                            <input type="text" name="reporters_phone_number" id="reporters_phone_number"
+                            class="tooltip" title="" maxlength="20" value="">
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="generallabel">
+                            <label for="reporters_email_address">Advisor's Email Address:</label>
+                        </div>
+                        <div class="generalinput">
+                            <input type="email" name="reporters_email_address" id="reporters_email_address" class="tooltip" title="" maxlength="80" value="">
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="generallabel" >
+                            <label for="reporters_physical_address">Relationship to Student:</label>
+                        </div>
+                        <div class="generalinput">
+                            <input type="text" name="reporters_physical_address" id="reporters_physical_address" class="tooltip" title="" maxlength="80" value="">
+                        </div>
+                    </div>
+                                            <div class="row">
+                            <div class="generallabel">
+                                <label for="nature">Case Type<span class="required">(Required)</span>:</label>
+                            </div>
+                            <div class="generalinput">
+                                <select autocomplete="off" name="nature" id="nature" class="tooltip" title="" required>
+                                    <option value="" disabled selected hidden>Please Choose...</option>
+                                    <option value="Academic">Academic</option><option value="Behavioral (Non-Academic)">Behavioral (Non-Academic)</option><option value="Organizational">Organizational</option><option value="Sexual Misconduct">Sexual Misconduct</option>                                </select>
+                                <span class="form-error">This field is required.</span>
+                            </div>
+                        </div>
+                                                <div class="row">
+                            <div class="generallabel">
+                                <label for="urgency">Is your Advisor an attorney?<span class="required">(Required)</span>:</label>
+                            </div>
+                            <div class="generalinput">
+                                <select autocomplete="off" name="urgency" id="urgency" class="tooltip" title="" required>
+                                    <option value="" disabled selected hidden>Please Choose...</option>
+                                    <option value="Please Choose">Please Choose</option><option value="Yes">Yes</option><option value="No">No</option>                                </select>
+                                <span class="form-error">This field is required.</span>
+                            </div>
+                        </div>
+                                                <input type="hidden" name="date_of_incident" id="date_of_incident" value="2020-05-10">
+                                            
+                    <div class="row" style="display: none;">
+                        <div class="generallabel">
+                            <label for="time_of_incident" id="lbl_time_of_incident">Time of incident:</label>
+                        </div>
+                        <div class="smallerinput">
+                            <input autocomplete="off" type="text" name="time_of_incident" id="time_of_incident" class="tooltip" aria-labelledby="lbl_time_of_incident" title="" maxlength="10" value="">
+                        </div>
+                    </div>
+                                            <input type="hidden" name="location_of_incident" id="location_of_incident" value="N/A">
+                                            <div class="row" style="display: none;">
+                        <div class="generallabel">
+                            <label for="location_of_incident_specific">Specific location:</label>
+                        </div>
+                        <div class="generalinput">
+                            <input autocomplete="off" type="text" name="location_of_incident_specific" id="location_of_incident_specific" class="tooltip" title="" size="40" maxlength="100" value="" style="position:relative;">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+                            <section>
+                    <h2 class="sectionheader">Student Information</h2>
+                    <div id="section3">
+                        <div class="column row">
+                            <div class="sectioninstructions"><p></p></div>                        </div>
+
+                        <div id="involvedPersons">
+                            <div class="personrow clonedInput" id="personrow0">
+                                <fieldset>
+                                    <legend class="show-for-sr legend_person">Involved party 1</legend>
+                                    <div class="row small-up-1 medium-up-2 large-up-4">
+                                                                                    <div class="column">
+                                                <label for="person_0" class="label_person">Name or Registered Student Organization                                                                                                </label>
+                                                <input autocomplete="off" type="text" name="person[]" id="person_0" class="input_person" maxlength="50" value="">
+                                            </div>
+                                                                                        <div class="column">
+                                                <label for="gender_0" class="label_gender">Select Gender</label>
+                                                <select autocomplete="off" name="gender[]" class="gender select_gender" id="gender_0">
+                                                    <option value=""></option>
+                                                    <option value="Male">Male</option><option value="Female">Female</option><option value="Transgender">Transgender</option><option value="Gender-Fluid">Gender-Fluid</option><option value="Registered Student Organization">Registered Student Organization</option><option value="Prefer not to Answer">Prefer not to Answer</option>                                                </select>
+                                            </div>
+                                                                                        <div class="column">
+                                                <label for="role_0" class="label_role">Select Role</label>
+                                                <select autocomplete="off" name="role[]" class="role select_role" id="role_0">
+                                                    <option value=""></option>
+                                                    <option value="Complainant">Complainant</option><option value="
+Respondent">
+Respondent</option>                                                </select>
+                                            </div>
+                                                                                        <div class="column">
+                                                <label for="sid_0" class="label_sid">UIN</label>
+                                                <input autocomplete="off" type="text" name="sid[]" id="sid_0" class="input_sid" maxlength=30 value="">
+                                            </div>
+                                                                                        <div class="column">
+                                                <label for="phone_0" class="label_phone">Phone number</label>
+                                                <input autocomplete="off" type="text" name="phone[]" id="phone_0" class="input_phone" maxlength="50" value="">
+                                            </div>
+                                                                                        <div class="column">
+                                                <label for="email_0" class="label_email">UIC email address</label>
+                                                <input autocomplete="off" type="email" name="email[]" id="email_0" maxlength="50" class="input_email" value="">
+                                            </div>
+                                                                                        <div class="column" >
+                                                <label for="halladdress_0" class="label_halladdress">Hall/Address</label>
+                                                <input autocomplete="off" type="text" name="halladdress[]" id="halladdress_0" maxlength="50" class="input_halladdress" value="">
+                                            </div>
+                                                                                </div>
+                                </fieldset>
+                            </div>
+                        </div>
+
+                                            </div>
+                </section>
+                
+                            <section>
+                    <h2 class="sectionheader">Questions</h2>
+                    <div id="addquest">
+                                                <input type="hidden" name="numberOfAdditionalQuestions" value="4">
+
+                                                    <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <label class="addquest_label" for="aq[1][answer]">DOS Case Number<span class="required">(Required)</span></label>
+                                        <input autocomplete="off" type="text" name="aq[1][answer]" id="aq[1][answer]" class="answers" value="" required maxlength="100">
+                                        <span class="form-error addquest_error">This field is required.</span>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <label class="addquest_label" for="aq[2][answer]">Date of your hearing?<span class="required">(Required)</span></label>
+                                        <input autocomplete="off" type="text" name="aq[2][answer]" id="aq[2][answer]" class="answers" value="" required maxlength="100">
+                                        <span class="form-error addquest_error">This field is required.</span>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <label class="addquest_label" for="aq[3][answer]">Anything else you want us to know?</label>
+                                        <textarea autocomplete="off" spellcheck="true" name="aq[3][answer]" id="aq[3][answer]" class="answers"  rows="5"></textarea>
+                                        <span class="form-error addquest_error">This field is required.</span>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <label class="addquest_label" for="aq[4][answer]">I hereby assert that I will be accompanied by an advisor during my participation in the student conduct process. I have shared information about this hearing process with my advisor, including information about the role of the advisor. I understand that my advisor cannot represent or speak for me. Additionally, I acknowledge and understand that my advisor <b>CANNOT</b> be a witness/participant of the incident in question AND serve as my advisor. If I STILL choose to designate an individual with this dual role as my advisor, I waive the right for this individual to participate in the hearing as a witness or to provide additional information about the incident. I further understand that if my advisor does not adhere to these expectations, my advisor may be removed from the conduct proceeding. <b>Please type your full name.</b> Your digital signature has the same legal effect and consequences as a handwritten signature.<span class="required">(Required)</span></label>
+                                        <input autocomplete="off" type="text" name="aq[4][answer]" id="aq[4][answer]" class="answers" value="" required maxlength="100">
+                                        <span class="form-error addquest_error">This field is required.</span>
+                                                                        </div>
+                            </div>
+                                                </div>
+                </section>
+                                <section>
+                    <h2 class="sectionheader">Supporting Documentation</h2>
+                    <div id="supportdocs">
+                        <div class="column row">
+                            <div class="sectioninstructions" id="uploadFilesInstructions">
+                                <p>
+                                    <p>The Office of the Dean of Students and/or the Office of University Counsel will not be able to directly communicate with your advisor without you completing the <b><a href="https://appserv7.admin.uillinois.edu/FormBuilderSurvey/Survey/uic_registrar/records_and_registration_/consent_to_release_records_ferpa/" target=\"_blank\">Consent to Release Records (FERPA)</a></b>. If you choose to provide consent to release your educational records, you must complete the online form. 1GB maximum total size.<br><strong>Attachments require time to upload, so please be patient after submitting this form.</strong></p>                                </p>
+                            </div>
+                        </div>
+                        <div class="column row">
+                            <input tabindex="-1" type="file" name="uploadedFiles[]" id="filer_input" aria-labelledby="uploadFilesInstructions" multiple="multiple">
+                        </div>
+                    </div>
+                </section>
+                
+            <section>
+                <div class="row">
+                    <div class="small-12 columns text-center" id="submit_btn">
+                        <h2 class="show-for-sr sectionheader">Submission</h2>
+                                                    <p><input autocomplete="off" type="checkbox" id="sendCopyToAuthor" name="sendCopyToAuthor" value="Yes"
+                            ><label for="sendCopyToAuthor">Email me a copy of this report</label></p>
+                                                    <input autocomplete="off" class="large button" type="submit" name="submit" id="submit" value="Submit report">
+                    </div>
+                </div>
+            </section>
+            <div class="row">
+                <div class="small-12 columns">
+                    <div data-abide-error class="alert callout" style="display: none;">
+                        <p><i class="fi-alert"></i>There are some errors. Please review the highlighted fields.</p>
+                    </div>
+                </div>
+            </div>
+
+            </form>
+    </main>
+
+</div><!-- big wrap column-->
+</div><!-- big wrap -->
+<script src="publicside_assets/bower_components/jquery/dist/jquery.js"></script>
+<script src="publicside_assets/bower_components/what-input/what-input.js"></script>
+<script src="publicside_assets/bower_components/foundation-sites/dist/foundation.min.js"></script>
+<script src="publicside_assets/bower_components/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/timepicker@1.11.14/jquery.timepicker.min.js"></script>
+<script type="text/javascript" src="publicside_assets/tipped/tipped.js"></script>
+<script type="text/javascript" src="publicside_assets/cloneform/clone-form-td2.js"></script>
+<script src="publicside_assets/selectwoo-1.0.6/selectWoo.full.AHmods.min.js"></script>
+<script src="publicside_assets/jquery_filer/js/jquery.filer.AHmods.min.js"></script>
+<script src="https://use.fontawesome.com/b22e7499d6.js"></script>
+
+<script type="text/javascript">
+    function ShowHide(elementId)
+    {
+        var element = document.getElementById(elementId);
+        if(element.style.display != "block")
+            element.style.display = "block";
+        else
+            element.style.display = "none";
+    }
+    function ShowPersonRow(elementId)
+    {
+        var element = document.getElementById(elementId);
+        element.style.display = ""; // using table-row here breaks IE6/7
+    }
+    function ShowLinkRow(elementId)
+    {
+        var element = document.getElementById(elementId);
+        element.style.display = ""; // using table-row here breaks IE6/7
+    }
+    function HideLinkRow(elementId)
+    {
+        var element = document.getElementById(elementId);
+        element.style.display = "none";
+    }
+
+    Tipped.create(".tooltip", {
+        position: 'right',
+        showOn: 'focus',
+        hideOn: 'blur'
+    });
+
+    
+    /* Must follow select2 script because of id change */
+    Tipped.create('#s2id_location_of_incident', '', {
+         position: 'right'
+    });
+
+    $('#time_of_incident').timepicker({
+        'scrollDefault': 'now',
+        'step': '15',
+        'timeFormat': 'g:i A'
+    });
+
+    // jquery_filer for file uploads
+    $('#filer_input').filer({
+        limit: 30,
+        maxSize: 1000,
+        changeInput: true,
+        showThumbs: true,
+        addMore: true,
+        captions: {
+            button: "Choose Files",
+            feedback: "Choose files to upload",
+            feedback2: "file(s) selected",
+            drop: "Drop file here to upload",
+            removeConfirmation: "Are you sure you want to remove this file?",
+            errors: {
+                filesLimit: "Only {{fi-limit}} files are allowed to be uploaded.",
+                filesType: "This type of file cannot be uploaded.",
+                filesSize: "{{fi-name}} is too large. Your total upload cannot exceed {{fi-maxSize}} MB.",
+                filesSizeAll: "The files you've chosen are too large. Your total upload cannot exceed {{fi-maxSize}} MB."
+            }
+        }
+    });
+
+    $(".select2-selection").addClass("max_foundation");
+
+    /* Makes Abide work on select2 - triggers after the native scripts work */
+    $("#location_of_incident").on("invalid.zf.abide", function(ev,el) {
+        if($("#location_of_incident").hasClass("is-invalid-input"));
+            $("#lbl_location_of_incident").addClass("is-invalid-label");
+    });
+    $("#location_of_incident").on("valid.zf.abide", function(ev,frm) {
+        if($("#location_of_incident").hasClass("is-invalid-input"));
+            $("#lbl_location_of_incident").removeClass("is-invalid-label");
+    });
+
+    /* Makes Abide work on radio buttons - triggers after the native scripts work */
+    $(".radio-group").on("invalid.zf.abide", function(ev,el) {
+        $(this).find("input").each(function (i) {
+            if($(this).hasClass("is-invalid-input")) {
+                $(this).closest("fieldset").find("legend").addClass("is-invalid-label");
+                $(this).closest("fieldset").find('span.form-error').addClass("is-visible");
+            }
+        });
+    });
+    $(".radio-group").on("valid.zf.abide", function(ev,frm) {
+        $(this).find("input").each(function (i) {
+            if(!$(this).hasClass("is-invalid-input")) {
+                $(this).closest("fieldset").find("legend").removeClass("is-invalid-label");
+                $(this).closest("fieldset").find('span.form-error').removeClass("is-visible");
+            }
+        });
+    });
+
+    $('input, textarea, select').on("change.zf.abide", function(ev,elem) {
+        var invalid_fields = $('form').find('[data-invalid]');
+        if (invalid_fields.length == 0)
+            $('.alert.callout').addClass('hide');
+        else
+            $('.alert.callout').removeClass('hide');
+    });
+
+    /* Makes form scroll to first invalid entry */
+    $('form').on('forminvalid.zf.abide', function () {
+        var invalid_fields = $(this).find('[data-invalid]');
+
+        $('html, body').animate({
+            scrollTop: $(invalid_fields[0]).offset().top - 40
+        }, 1000, function() {
+            $(invalid_fields[0]).focus();  /*for putting focus on the first invalid field*/
+        });
+    });
+
+    // 11/18/19: HTML5 input type=date detection
+    var isDateSupported = function () {
+        var input = document.createElement('input');
+        var value = 'a';
+        input.setAttribute('type', 'date');
+        input.setAttribute('value', value);
+        return (input.value !== value);
+    };
+    if (isDateSupported()) {
+        $('#lbl_date_of_incident').append('<span class="show-for-sr">Format is MM/DD/YYYY.</span>');
+    }
+    if (!isDateSupported()) {
+        $('#lbl_date_of_incident').append('<br>Format is YYYY-MM-DD.');
+    }
+
+
+</script>
+</body>
+</html>

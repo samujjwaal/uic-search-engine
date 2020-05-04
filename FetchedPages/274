@@ -25,7 +25,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<title>Submit Announcements | UIC Today</title>
+<title>Planning for fall semester at UIC | UIC Today</title>
 
 <link rel="stylesheet" type="text/css" media="all" href="https://today.uic.edu/wp-content/themes/uictoday/style.css" />
 
@@ -77,11 +77,7 @@ img.emoji {
 <style id='tablepress-default-inline-css' type='text/css'>
 .tablepress-id-1 .column-1{vertical-align:middle}.tablepress-id-1 tbody td{font-size:15px}.tablepress-id-1{width:auto important!}.tablepress-id-1 img{margin:0!important}.tablepress-id-6 .column-1{vertical-align:middle}.tablepress-id-6 tbody td{font-size:15px}.tablepress-id-6{width:auto important!}.tablepress-id-6 img{margin:0!important}.tablepress-id-3 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-3 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-3 .odd td{background-color:#e6e6e6}.tablepress-id-3 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-3 .column-1{width:50%}.tablepress-id-4 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-4 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-4 .odd td{background-color:#e6e6e6}.tablepress-id-4 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-4 .column-1{width:50%}.tablepress-id-5 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-5 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-5 .odd td{background-color:#e6e6e6}.tablepress-id-5 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-5 .column-1{width:50%}
 </style>
-<link rel='stylesheet' id='gforms_reset_css-css'  href='https://today.uic.edu/wp-content/plugins/gravityforms/css/formreset.min.css?ver=2.4.15' type='text/css' media='all' />
-<link rel='stylesheet' id='gforms_datepicker_css-css'  href='https://today.uic.edu/wp-content/plugins/gravityforms/css/datepicker.min.css?ver=2.4.15' type='text/css' media='all' />
-<link rel='stylesheet' id='gforms_formsmain_css-css'  href='https://today.uic.edu/wp-content/plugins/gravityforms/css/formsmain.min.css?ver=2.4.15' type='text/css' media='all' />
-<link rel='stylesheet' id='gforms_ready_class_css-css'  href='https://today.uic.edu/wp-content/plugins/gravityforms/css/readyclass.min.css?ver=2.4.15' type='text/css' media='all' />
-<link rel='stylesheet' id='gforms_browsers_css-css'  href='https://today.uic.edu/wp-content/plugins/gravityforms/css/browsers.min.css?ver=2.4.15' type='text/css' media='all' />
+<link rel='stylesheet' id='ari-fancybox-css'  href='https://today.uic.edu/wp-content/plugins/ari-fancy-lightbox/assets/fancybox/jquery.fancybox.min.css?ver=1.3.6' type='text/css' media='all' />
 <script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/stackable-ultimate-gutenberg-blocks/dist/frontend_blocks.js?ver=2.3.0'></script>
 <script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
 <script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
@@ -113,26 +109,23 @@ var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result 
 <script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var EM = {"ajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"mm\/dd\/yy","ui_css":"https:\/\/today.uic.edu\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"0","is_ssl":"1","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","event_detach_warning":"Are you sure you want to detach this event? By doing so, this event will be independent of the recurring set of events.","delete_recurrence_warning":"Are you sure you want to delete all recurrences of this event? All events will be moved to trash."};
+var EM = {"ajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"mm\/dd\/yy","ui_css":"https:\/\/today.uic.edu\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"0","is_ssl":"1","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading..."};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.97'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.4.15'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/today.uic.edu\/wp-content\/plugins\/gravityforms\/images"}};
-var gf_global = {"gf_currency_config":{"name":"Dollar","symbol_left":"","symbol_right":"","symbol_padding":" ","thousand_separator":"","decimal_separator":".","decimals":0},"base_url":"https:\/\/today.uic.edu\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/today.uic.edu\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
+var ARI_FANCYBOX = {"lightbox":{"touch":{"vertical":true,"momentum":true},"buttons":["slideShow","fullScreen","thumbs","close"],"lang":"custom","i18n":{"custom":{"PREV":"Previous","NEXT":"Next","PLAY_START":"Start slideshow (P)","PLAY_STOP":"Stop slideshow (P)","FULL_SCREEN":"Full screen (F)","THUMBS":"Thumbnails (G)","CLOSE":"Close (Esc)","ERROR":"The requested content cannot be loaded. <br\/> Please try again later."}}},"convert":{},"viewers":{"pdfjs":{"url":"https:\/\/today.uic.edu\/wp-content\/plugins\/ari-fancy-lightbox\/assets\/pdfjs\/web\/viewer.html"}}};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.4.15'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/gravityforms/js/conditional_logic.min.js?ver=2.4.15'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.4.15'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.4.15'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/ari-fancy-lightbox/assets/fancybox/jquery.fancybox.min.js?ver=1.3.6'></script>
 <link rel='https://api.w.org/' href='https://today.uic.edu/wp-json/' />
-<link rel="canonical" href="https://today.uic.edu/contact/communicating-on-campus/submit-announcements" />
-<link rel='shortlink' href='https://today.uic.edu/?p=57575' />
-<link rel="alternate" type="application/json+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fcontact%2Fcommunicating-on-campus%2Fsubmit-announcements" />
-<link rel="alternate" type="text/xml+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fcontact%2Fcommunicating-on-campus%2Fsubmit-announcements&#038;format=xml" />
+<link rel='prev' title='Virtual E+W Faculty Research Mixer – May 18 from 4:30-6 p.m. on COVID-19 Research' href='https://today.uic.edu/virtual-ew-faculty-research-mixer-may-18-from-430-6-p-m-on-covid-19-research' />
+<link rel='next' title='FY 2021 Benefit Choice Enrollment Period' href='https://today.uic.edu/fy-2021-benefit-choice-enrollment-period' />
+<link rel="canonical" href="https://today.uic.edu/planning-for-fall-semester-at-uic" />
+<link rel='shortlink' href='https://today.uic.edu/?p=94045' />
+<link rel="alternate" type="application/json+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fplanning-for-fall-semester-at-uic" />
+<link rel="alternate" type="text/xml+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fplanning-for-fall-semester-at-uic&#038;format=xml" />
     <style type="text/css" media="screen">
       div.printfriendly a, div.printfriendly a:link, div.printfriendly a:hover, div.printfriendly a:visited, div.printfriendly a:focus {
         text-decoration: none;
@@ -161,7 +154,7 @@ var gf_global = {"gf_currency_config":{"name":"Dollar","symbol_left":"","symbol_
 
 <script type="text/javascript">
            var ajaxurl = "https://today.uic.edu/wp-admin/admin-ajax.php";
-         </script>
+         </script><style type="text/css">BODY .fancybox-container{z-index:200000}BODY .fancybox-is-open .fancybox-bg{opacity:0.87}BODY .fancybox-bg {background-color:#0f0f11}BODY .fancybox-thumbs {background-color:#ffffff}</style>
 <!-- Put the following javascript before the closing </head> tag. -->
 
 <script>
@@ -176,7 +169,7 @@ var gf_global = {"gf_currency_config":{"name":"Dollar","symbol_left":"","symbol_
 
 </head>
 
-<body role="document" class="page-template-default page page-id-57575 page-child parent-pageid-16 wp-embed-responsive">
+<body role="document" class="post-template-default single single-post postid-94045 single-format-standard wp-embed-responsive">
   
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57G9C3Q"
@@ -212,7 +205,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
             <div class="last-update-timestamp">
-            	Updated: Apr 30, 2020 at 02:48 PM
+            	Updated: May 08, 2020 at 12:39 PM
             </div><!--  last-update-timestamp   -->
 
 
@@ -340,135 +333,82 @@ Submit
 
 
 
-		<div id="content">
-		<h1>Submit Announcements</h1>
-		<p><div class="pf-content">
-                <div class='gf_browser_unknown gform_wrapper' id='gform_wrapper_23' style='display:none'><form method='post' enctype='multipart/form-data'  id='gform_23'  action='/contact/communicating-on-campus/submit-announcements'>
-                        <div class='gform_body'><ul id='gform_fields_23' class='gform_fields top_label form_sublabel_below description_below'><li id='field_23_1'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label gfield_label_before_complex'  >My name<span class='gfield_required'>*</span></label><div class='ginput_complex ginput_container no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name' id='input_23_1'>
-                            
-                            <span id='input_23_1_3_container' class='name_first' >
-                                                    <input type='text' name='input_1.3' id='input_23_1_3' value='' aria-label='First name'   aria-required="true" aria-invalid="false" />
-                                                    <label for='input_23_1_3' >First</label>
-                                                </span>
-                            
-                            <span id='input_23_1_6_container' class='name_last' >
-                                                    <input type='text' name='input_1.6' id='input_23_1_6' value='' aria-label='Last name'   aria-required="true" aria-invalid="false" />
-                                                    <label for='input_23_1_6' >Last</label>
-                                                </span>
-                            
-                        </div></li><li id='field_23_2'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_2' >My email<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_email'>
-                            <input name='input_2' id='input_23_2' type='email' value='' class='medium'   placeholder='netid@uic.edu' aria-required="true" aria-invalid="false" />
-                        </div></li><li id='field_23_7'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label'  >Announcement type<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_radio'><ul class='gfield_radio' id='input_23_7'><li class='gchoice_23_7_0'><input name='input_7' type='radio' value='Standard'  id='choice_23_7_0'    /><label for='choice_23_7_0' id='label_23_7_0'>Standard</label></li><li class='gchoice_23_7_1'><input name='input_7' type='radio' value='R-Studies'  id='choice_23_7_1'    /><label for='choice_23_7_1' id='label_23_7_1'>Research Studies</label></li><li class='gchoice_23_7_2'><input name='input_7' type='radio' value='Official'  id='choice_23_7_2'    /><label for='choice_23_7_2' id='label_23_7_2'>Official</label></li><li class='gchoice_23_7_3'><input name='input_7' type='radio' value='DDDH'  id='choice_23_7_3'    /><label for='choice_23_7_3' id='label_23_7_3'>DDDH</label></li></ul></div></li><li id='field_23_24'  class='gfield field_sublabel_below field_description_below gfield_visibility_hidden' ><label class='gfield_label' for='input_23_24' >Post Category - Announcements</label><div class='ginput_container ginput_container_select'><select name='input_24' id='input_23_24' class='medium gfield_select'    aria-invalid="false"><option value='5675' >Announcements</option></select></div></li><li id='field_23_28'  class='gfield field_sublabel_below field_description_below gfield_visibility_hidden' ><label class='gfield_label' for='input_23_28' >Post Category - Research Studies</label><div class='ginput_container ginput_container_select'><select name='input_28' id='input_23_28' class='medium gfield_select'    aria-invalid="false"><option value='6242' >Research Studies</option></select></div></li><li id='field_23_26'  class='gfield field_sublabel_below field_description_below gfield_visibility_hidden' ><label class='gfield_label' for='input_23_26' >Post Category - DDDH</label><div class='ginput_container ginput_container_select'><select name='input_26' id='input_23_26' class='medium gfield_select'    aria-invalid="false"><option value='5704' >del</option><option value='1' >Uncategorized</option></select></div></li><li id='field_23_27'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_27' >Post Category - Official<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_select'><select name='input_27' id='input_23_27' class='medium gfield_select'   aria-required="true" aria-invalid="false"><option value='' selected='selected'>select your unit</option><option value='5679' >Chancellor officials</option><option value='5680' >Provost officials</option><option value='5681' >VC Admin Services officials</option><option value='5682' >VC Advancement officials</option><option value='5683' >VC Health Affairs officials</option><option value='6548' >VC Innovation officials</option><option value='5684' >VC PGA</option><option value='5685' >VC Research Officials</option><option value='5686' >VC Student Affairs officials</option></select></div></li><li id='field_23_14'  class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ><div style="border-color:#1c46a5; padding: 5px 10px 10px 10px; width: 66%; border: 5px solid #00C;">
+<div id="content">
+
+		<div id="single_right_sidebar"> <!-- creates social sharing links -->
+			<div class="single_rightBar_widgets connect">
+					<a href="http://www.facebook.com/sharer/sharer.php?u=https://today.uic.edu/planning-for-fall-semester-at-uic&amp;t=Planning for fall semester at UIC">
+						<img src="/wp-content/themes/uictoday/images/icon-facebook-link.svg" alt="Facebook"/>
+					</a>
+					<a href="http://twitter.com/intent/tweet?text=Planning for fall semester at UIC - https://today.uic.edu/planning-for-fall-semester-at-uic" title="Tweet this!">
+						<img src="/wp-content/themes/uictoday/images/icon-twitter-link.svg" alt="Twitter"/>
+					</a>
+					<a href="http://www.linkedin.com/shareArticle?mini=true&amp;title=Planning for fall semester at UIC&amp;url=https://today.uic.edu/planning-for-fall-semester-at-uic" title="Share on LinkedIn">
+						<img src="/wp-content/themes/uictoday/images/icon-linkedin-link.svg" alt="LinkedIn"/>
+					</a>
+					<a href="http://www.tumblr.com/share/link?url=https://today.uic.edu/planning-for-fall-semester-at-uic">
+						<img src="/wp-content/themes/uictoday/images/icon-tumblr-link.svg" alt="Tumblr"/>
+					</a>
+					<a href="mailto:?Subject=Planning for fall semester at UIC&Body=https://today.uic.edu/planning-for-fall-semester-at-uic">
+						<img src="/wp-content/themes/uictoday/images/icon-cta-envelope.svg" alt="email"/>
+					</a>
+			</div>
+		</div>
+
+<!--		<div class="labels">
+										</div>  -->
+
+		<div class="article clearfix">
+			<h1>Planning for fall semester at UIC</h1>
+
+			<p class="author-date">
+				May 1, 2020			</p>
+
+			<div class="pf-content"><p>Dear students, faculty and staff,</p>
+<p>I know that many of you are eager to learn more about the fall semester, and if and how we are going to return to normal operations on campus.</p>
+<p>Personal engagement – inside and outside of the classrooms and laboratories – is at the core of the higher education experience. As a result, there is a strong desire and urge to return to campus as soon as possible!</p>
+<p>At the same time, we have an obligation to protect the health and safety of all members of the UIC community, their families, our most vulnerable members, and our surrounding communities.</p>
+<p>With these principles in mind, we have established two campus-wide taskforces, led by Provost Susan Poser and Vice Chancellor John Coronado, to develop a blueprint for the return to campus. These taskforces have been working for the last three weeks, preparing plans for different scenarios. As you know, the public health parameters of the COVID-19 pandemic, as well as the guidelines from CDC and the State of Illinois, are changing very frequently, thus, importing a high level of uncertainty in our planning efforts.</p>
+<p>Earlier this week, President Killeen also announced a <a href="https://emails.illinois.edu/newsletter/5554412.html">system-wide coordinating committee</a> to support the U of I universities in their efforts. This committee will be a valuable resource, as we plan for and address the complex issues that we are facing. Careful planning will take some time and will also have a significant component of flexibility, so we can respond quickly to external factors beyond our control. It is also possible – and some may argue even probable – that we will have to make changes in our operations during the course of the fall semester and we will be ready for such changes as well.</p>
+<p>Nevertheless, we have reached some early conclusions that we are ready to implement. First, all lecture classes for undergraduate students with more than 70 participants will be online. The infrastructure at UIC simply prohibits us from offering these classes on campus while adhering to the physical distancing guidelines.</p>
+<p>This decision will allow us to move classes with a smaller number of participants into classrooms that are significantly larger, in order to achieve the physical distancing needed. Because of our relatively small footprint, even some smaller classes will need to be offered either through a remote or online platform. Furthermore, all on-campus classes will have to be accessible remotely, so students with health concerns or international students who cannot return to campus can continue their education uninterrupted. Finally, we expect that every first-year student will have some on-campus classes so that these students can begin to build connections with their peers and to the campus.</p>
+<p>The operations taskforce led by Vice Chancellor Coronado is addressing issues of safety, hygiene, protection equipment, residence halls, distancing around campus, transportation and parking. It is also preparing a long list of supplies and resources needed to return to our normal operations.</p>
+<p>Both taskforces will seek input from all members of our community and will provide updates on the progress of planning on a frequent basis going forward. In the meantime, we will continue to follow Governor J.B. Pritzker’s stay-at-home order which has been <a href="https://www2.illinois.gov/Pages/news-item.aspx?ReleaseID=21459">extended until May 30</a>. UIC operations are expected to continue as they have since the beginning of the stay-at-home order, with limited changes due to operational needs.</p>
+<p>When the Governor’s order is lifted, priority will be given to the reopening of research labs. The operations taskforce together with the Office of the Vice Chancellor for Research are preparing for this phase using the same principles and plans that are considered for the fall. More information will be communicated when public health indicators suggest that we are approaching this point.</p>
+<p>Finally, I want to remind everyone, that as most of us are staying at home, thousands of our UIC colleagues who are classified as essential workers are coming to campus at UI Health, at our Police Department, at our administrative, IT and student services divisions and at our core research facilities. We are ever grateful to all of you who show up every day committed to caring for patients and students and protecting and supporting our core mission!</p>
+<p>Together we will stay well, stay informed and stay positive.</p>
+<p>Michael D. Amiridis<br />
+Chancellor</p>
+<div class="printfriendly pf-alignleft"><a href="#" style="outline:none;" rel="nofollow" onclick="window.print(); return false;" class="noslimstat" title="Printer Friendly, PDF & Email"><img style="border:none;-webkit-box-shadow:none; box-shadow:none;" src="https://cdn.printfriendly.com/buttons/print-button-gray.png" alt="Print Friendly, PDF & Email" /></a></div></div>
+			<p class="author-date">
+													<div class="rightBar_widgets">
+						<h2>Contact</h2>
+						<p>
+							<span class="bold"><a href="https://today.uic.edu/author/uicnews-staff" title="Posts by UIC News staff" rel="author">UIC News staff</a></span><br />
+							<br />
+							<a href="mailto:uicnews-staff@uic.edu">uicnews-staff@uic.edu</a><br />
+										</p>
+			</div>
+
+			<div id="tag-area">
+				<p class="tag-label">Categories</p>
+																<p>
+							<a href="https://today.uic.edu/category/official/chancellor-officials" rel="category tag">Chancellor officials</a>, <a href="https://today.uic.edu/category/official/covid19" rel="category tag">Coronavirus</a>, <a href="https://today.uic.edu/category/official" rel="category tag">Official Communications</a>, <a href="https://today.uic.edu/category/tfs-news" rel="category tag">Top Faculty Staff News</a>, <a href="https://today.uic.edu/category/ts-news" rel="category tag">Top Student News</a>						</p>
+									</p>
+
+													<p class="tag-label">Topics</p>
+					<p><a href="https://today.uic.edu/tag/coronavirus" rel="tag">coronavirus</a>, <a href="https://today.uic.edu/tag/covid-19" rel="tag">COVID-19</a>, <a href="https://today.uic.edu/tag/novel-coronavirus" rel="tag">novel coronavirus</a></p>
+							</div>
 
 
-<p><strong>Announcement (standard)</strong></p>
-
-<p>Announcements are paid promotional messages that are posted to the UIC Today site. They are restricted to events on campus or sponsored by campus units. Announcements can be submitted by anyone with a UIC email for a fee of <strong>$125</strong>.</p>
+			
 </div>
-</li><li id='field_23_29'  class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ><div style="border-color:#1c46a5; padding: 5px 10px 10px 10px; width: 66%; border: 5px solid #00C;">
-
-
-<p><strong>Research Studies Announcements</strong></p>
-
-<p>Research Studies Announcements are paid promotional messages that are posted to the UIC Today site. They are restricted to events on campus or sponsored by campus units. Announcements can be submitted by anyone with a UIC email for a fee of <strong>$125</strong>.</p>
-</div></li><li id='field_23_15'  class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ><div style="border-color:#1c46a5; padding: 5px 10px 10px 10px; width: 66%; border: 5px solid #00C;">
-
-<p><strong>Official massmails</strong></p>
-
-<p>Official university communications are reserved for messages from university administrative offices such as the University President, Chancellor, Provost or other Vice Chancellors. Selecting "Official" does not guarantee official processing. If your message is found inappropriate for Official use, you will be asked to provide a CFOAP number for billing as a standard web Announcement. Please send questions about Official messages to <a href="publicaffairs@uic.edu">publicaffairs@uic.edu</a>.</p>
-
-<p>All Official messages are processed at no charge to the requesting department.</p>
-
-
-</div></li><li id='field_23_16'  class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ><div style="border-color:#1c46a5; padding: 5px 10px 10px 10px; width: 66%; border: 5px solid #00C;">
-
-
-<p><strong>DDDH</strong></p>
-
-<p>DDDH email communications are sent to UIC Deans, Directors, and Department Heads for a flat fee of $35. Administrative-related messages only, please. </p>
-
-<p>We are unable to attach files to DDDH email communications. We can, however, upload a file to the server and place a download link in the message body.</p>
-
-
-</div>
-</li><li id='field_23_17'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_17' >Post the announcement on this date<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_date'>
-                            <input name='input_17' id='input_23_17' type='text' value='' class='datepicker medium mdy datepicker_with_icon'    aria-describedby='input_23_17_date_format' />
-                            <span id='input_23_17_date_format' class='screen-reader-text'>Date Format: MM slash DD slash YYYY</span>
-                        </div>
-                        <input type='hidden' id='gforms_calendar_icon_input_23_17' class='gform_hidden' value='https://today.uic.edu/wp-content/plugins/gravityforms/images/calendar.png'/></li><li id='field_23_18'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label gfield_label_before_complex'  >at this time<span class='gfield_required'>*</span></label><div class='clear-multi'>
-                        <div class='gfield_time_hour ginput_container ginput_container_time' id='input_23_18'>
-                            <input type='number' maxlength='2' name='input_18[]' id='input_23_18_1' value=''  min='0' max='12' step='1'  /> <i>:</i>
-                            <label for='input_23_18_1' >HH</label>
-                        </div>
-                        <div class='gfield_time_minute ginput_container ginput_container_time'>
-                            <input type='number' maxlength='2' name='input_18[]' id='input_23_18_2' value=''  min='0' max='59' step='1'  />
-                            <label for='input_23_18_2' >MM</label>
-                        </div>
-                        <div class='gfield_time_ampm ginput_container ginput_container_time' >
-                                
-                                <select name='input_18[]' id='input_23_18_3'   aria-label='AM/PM'>
-                                    <option value='am' >AM</option>
-                                    <option value='pm' >PM</option>
-                                </select>
-                           </div>
-                    </div></li><li id='field_23_8'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label'  >Payment method<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_radio'><ul class='gfield_radio' id='input_23_8'><li class='gchoice_23_8_0'><input name='input_8' type='radio' value='CFOAP (campus units)'  id='choice_23_8_0'    /><label for='choice_23_8_0' id='label_23_8_0'>CFOAP (campus units)</label></li><li class='gchoice_23_8_1'><input name='input_8' type='radio' value='Check (UIC student groups only)'  id='choice_23_8_1'    /><label for='choice_23_8_1' id='label_23_8_1'>Check (UIC student groups only)</label></li></ul></div></li><li id='field_23_10'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_10' >CFOAP<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_text'><input name='input_10' id='input_23_10' type='text' value='' class='medium'     aria-required="true" aria-invalid="false" /></div></li><li id='field_23_4'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_4' >Upload image (automatically resized to 1000px wide, set at top of post)</label><div class='ginput_complex ginput_container ginput_container_post_image'><span class='ginput_full'><input name='input_4' id='input_23_4' type='file' class='medium'  /><label for='input_23_4' class='ginput_post_image_file' >File</label></span><span class='ginput_full ginput_post_image_caption' ><input type='text' name='input_4.4' id='input_23_4_4' value=''  /><label for='input_23_4_4'>Caption</label></span></div><div class='gfield_description' id='gfield_description_23_4'>This "caption" area is mandatory for web accessibility. Please describe the image and any text it may contain. This information will be presented as a hidden ALT attribute behind the image. </div></li><li id='field_23_25'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label gfield_label_before_complex'  >UIC reply-to email address<span class='gfield_required'>*</span></label><div class='ginput_complex ginput_container ginput_container_email' id='input_23_25_container'>
-                                <span id='input_23_25_1_container' class='ginput_left'>
-                                    <input class='' type='email' name='input_25' id='input_23_25' value=''    aria-required="true" aria-invalid="false"/>
-                                    <label for='input_23_25' >Enter Email</label>
-                                </span>
-                                <span id='input_23_25_2_container' class='ginput_right'>
-                                    <input class='' type='email' name='input_25_2' id='input_23_25_2' value=''    aria-required="true" aria-invalid="false"/>
-                                    <label for='input_23_25_2' >Confirm Email</label>
-                                </span>
-                                <div class='gf_clear gf_clear_complex'></div>
-                            </div></li><li id='field_23_3'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_3' >Announcement Title<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_post_title'>
-					<input name='input_3' id='input_23_3' type='text' value='' class='medium'   aria-required="true" aria-invalid="false"  />
-				</div></li><li id='field_23_5'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_5' >Announcement details<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_textarea'><textarea name='input_5' id='input_23_5' class='textarea medium'  aria-describedby="gfield_description_23_5"   aria-required="true" aria-invalid="false"   rows='10' cols='50'></textarea></div><div class='gfield_description' id='gfield_description_23_5'>Enter your content here. Please don't paste html into this space. <br /><br /></div></li><li id='field_23_23'  class='gfield gfield_html gfield_html_formatted field_sublabel_below field_description_below gfield_visibility_visible' ><div>
-<p><strong>For more information, please contact:</strong>
-</p>
-<div></li><li id='field_23_20'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label gfield_label_before_complex'  >Contact Name (will be published on web)<span class='gfield_required'>*</span></label><div class='ginput_complex ginput_container no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name' id='input_23_20'>
-                            
-                            <span id='input_23_20_3_container' class='name_first' >
-                                                    <input type='text' name='input_20.3' id='input_23_20_3' value='' aria-label='First name'   aria-required="true" aria-invalid="false" />
-                                                    <label for='input_23_20_3' >First</label>
-                                                </span>
-                            
-                            <span id='input_23_20_6_container' class='name_last' >
-                                                    <input type='text' name='input_20.6' id='input_23_20_6' value='' aria-label='Last name'   aria-required="true" aria-invalid="false" />
-                                                    <label for='input_23_20_6' >Last</label>
-                                                </span>
-                            
-                        </div></li><li id='field_23_21'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_21' >Contact Email (will be published on web)<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_email'>
-                            <input name='input_21' id='input_23_21' type='email' value='' class='medium'   placeholder='netid@uic.edu' aria-required="true" aria-invalid="false" />
-                        </div></li><li id='field_23_22'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_22' >Optional additional contact information (will be published on web)</label><div class='ginput_container ginput_container_text'><input name='input_22' id='input_23_22' type='text' value='' class='medium'      aria-invalid="false" /></div></li><li id='field_23_11'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_11' >Upload file to distribute with DDDH email</label><div class='ginput_container ginput_container_fileupload'><input type='hidden' name='MAX_FILE_SIZE' value='2097152' /><input name='input_11' id='input_23_11' type='file' class='medium' aria-describedby='validation_message_23_11 live_validation_message_23_11 extensions_message_23_11' onchange='javascript:gformValidateFileSize( this, 2097152 );'  /><span id='extensions_message_23_11' class='screen-reader-text'>Accepted file types: doc, docx.</span><div class='validation_message' id='live_validation_message_23_11'></div></div><div class='gfield_description' id='gfield_description_23_11'><p><strong>PLEASE NOTE:</strong> This file will <em>not</em> be sent as a file attachment. We will upload the file to the web server and provide a download link in the message. 
-</div></li><li id='field_23_12'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_12' >Special instructions</label><div class='ginput_container ginput_container_textarea'><textarea name='input_12' id='input_23_12' class='textarea medium'    placeholder='Please enter special instructions or additional information here. This will be seen by UIC PGA staff only.'  aria-invalid="false"   rows='10' cols='50'></textarea></div></li><li id='field_23_13'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label'  >The UIC Office of Public and Government Affairs has a submission deadline of 3:00 PM CST. Requests sent after this deadline will not be sorted until the following business day. Your submission may be edited for content.<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_checkbox'><ul class='gfield_checkbox' id='input_23_13'><li class='gchoice_23_13_1'>
-								<input name='input_13.1' type='checkbox'  value='&lt;br /&gt;I have read and understand the above. &lt;br /&gt;'  id='choice_23_13_1'   />
-								<label for='choice_23_13_1' id='label_23_13_1'>I have read and understand the above.</label>
-							</li></ul></div></li><li id='field_23_30'  class='gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_30' >Name</label><div class='ginput_container'><input name='input_30' id='input_23_30' type='text' value='' autocomplete='off'/></div><div class='gfield_description' id='gfield_description__30'>This field is for validation purposes and should be left unchanged.</div></li>
-                            </ul></div>
-        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_23' class='gform_button button' value='Submit'  onclick='if(window["gf_submitting_23"]){return false;}  if( !jQuery("#gform_23")[0].checkValidity || jQuery("#gform_23")[0].checkValidity()){window["gf_submitting_23"]=true;}  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_23"]){return false;} if( !jQuery("#gform_23")[0].checkValidity || jQuery("#gform_23")[0].checkValidity()){window["gf_submitting_23"]=true;}  jQuery("#gform_23").trigger("submit",[true]); }' /> <a href='javascript:void(0);' id='gform_save_23_footer_link' class='gform_save_link'  onclick='if(window["gf_submitting_23"]){return false;}  if( !jQuery("#gform_23")[0].checkValidity || jQuery("#gform_23")[0].checkValidity()){window["gf_submitting_23"]=true;} jQuery("#gform_save_23").val(1); jQuery("#gform_23").trigger("submit",[true]);' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_23"]){return false;} if( !jQuery("#gform_23")[0].checkValidity || jQuery("#gform_23")[0].checkValidity()){window["gf_submitting_23"]=true;} jQuery("#gform_save_23").val(1); jQuery("#gform_23").trigger("submit",[true]); }'>Save and Continue Later</a>
-            <input type='hidden' class='gform_hidden' name='is_submit_23' value='1' />
-            <input type='hidden' class='gform_hidden' name='gform_submit' value='23' />
-            <input type='hidden' class='gform_hidden' name='gform_save' id='gform_save_23' value='' />
-                             <input type='hidden' class='gform_hidden' name='gform_resume_token' id='gform_resume_token_23' value='' />
-            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
-            <input type='hidden' class='gform_hidden' name='state_23' value='WyJbXSIsImVlNjM5M2JjMzk3NDEzY2IyNTY0NjY5MDk2MTQ1YWZiIl0=' />
-            <input type='hidden' class='gform_hidden' name='gform_target_page_number_23' id='gform_target_page_number_23' value='0' />
-            <input type='hidden' class='gform_hidden' name='gform_source_page_number_23' id='gform_source_page_number_23' value='1' />
-            <input type='hidden' name='gform_field_values' value='' />
-            
-        </div>
-                        </form>
-                        </div><script type='text/javascript'> jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 23) {jQuery('#gform_save_23').val('');gf_global["number_formats"][23] = {"1":{"price":false,"value":false},"2":{"price":false,"value":false},"7":{"price":false,"value":false},"24":{"price":false,"value":false},"28":{"price":false,"value":false},"26":{"price":false,"value":false},"27":{"price":false,"value":false},"14":{"price":false,"value":false},"29":{"price":false,"value":false},"15":{"price":false,"value":false},"16":{"price":false,"value":false},"17":{"price":false,"value":false},"18":{"price":false,"value":false},"8":{"price":false,"value":false},"10":{"price":false,"value":false},"4":{"price":false,"value":false},"25":{"price":false,"value":false},"3":{"price":false,"value":false},"5":{"price":false,"value":false},"23":{"price":false,"value":false},"20":{"price":false,"value":false},"21":{"price":false,"value":false},"22":{"price":false,"value":false},"11":{"price":false,"value":false},"12":{"price":false,"value":false},"13":{"price":false,"value":false},"30":{"price":false,"value":false}};if(window['jQuery']){if(!window['gf_form_conditional_logic'])window['gf_form_conditional_logic'] = new Array();window['gf_form_conditional_logic'][23] = { logic: { 24: {"field":{"actionType":"show","logicType":"all","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"}]},"nextButton":null,"section":null},28: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"R-Studies"}]},"nextButton":null,"section":null},26: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null},27: {"field":{"actionType":"show","logicType":"all","rules":[{"fieldId":"7","operator":"is","value":"Official"}]},"nextButton":null,"section":null},14: {"field":{"actionType":"show","logicType":"all","rules":[{"fieldId":"7","operator":"is","value":"Standard"}]},"nextButton":null,"section":null},29: {"field":{"actionType":"show","logicType":"all","rules":[{"fieldId":"7","operator":"is","value":"R-Studies"}]},"nextButton":null,"section":null},15: {"field":{"actionType":"show","logicType":"all","rules":[{"fieldId":"7","operator":"is","value":"Official"}]},"nextButton":null,"section":null},16: {"field":{"actionType":"show","logicType":"all","rules":[{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null},17: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"},{"fieldId":"7","operator":"is","value":"Official"},{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null},18: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"},{"fieldId":"7","operator":"is","value":"Official"},{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null},8: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"},{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null},10: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"8","operator":"is","value":"CFOAP (campus units)"}]},"nextButton":null,"section":null},4: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"}]},"nextButton":null,"section":null},25: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Official"},{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null},3: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"},{"fieldId":"7","operator":"is","value":"Official"},{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null},5: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"},{"fieldId":"7","operator":"is","value":"Official"},{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null},23: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"}]},"nextButton":null,"section":null},20: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"},{"fieldId":"7","operator":"is","value":"Official"}]},"nextButton":null,"section":null},21: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"Official"}]},"nextButton":null,"section":null},22: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"},{"fieldId":"7","operator":"is","value":"Official"}]},"nextButton":null,"section":null},11: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null},12: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"},{"fieldId":"7","operator":"is","value":"Official"},{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null},13: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"7","operator":"is","value":"Standard"},{"fieldId":"7","operator":"is","value":"R-Studies"},{"fieldId":"7","operator":"is","value":"Official"},{"fieldId":"7","operator":"is","value":"DDDH"}]},"nextButton":null,"section":null} }, dependents: { 24: [24],28: [28],26: [26],27: [27],14: [14],29: [29],15: [15],16: [16],17: [17],18: [18],8: [8],10: [10],4: [4],25: [25],3: [3],5: [5],23: [23],20: [20],21: [21],22: [22],11: [11],12: [12],13: [13] }, animation: 1, defaults: {"1":{"1.2":"","1.3":"","1.4":"","1.6":"","1.8":""},"27":"","18":{"18.1":"","18.2":"","18.3":""},"25":{"25":"","25.2":""},"20":{"20.2":"","20.3":"","20.4":"","20.6":"","20.8":""}}, fields: {"1":[],"2":[],"7":[24,28,26,27,14,29,15,16,17,18,8,4,25,3,5,23,20,21,22,11,12,13],"24":[],"28":[],"26":[],"27":[],"14":[],"29":[],"15":[],"16":[],"17":[],"18":[],"8":[10],"10":[],"4":[],"25":[],"3":[],"5":[],"23":[],"20":[],"21":[],"22":[],"11":[],"12":[],"13":[],"30":[]} }; if(!window['gf_number_format'])window['gf_number_format'] = 'decimal_dot';jQuery(document).ready(function(){gf_apply_rules(23, [24,28,26,27,14,29,15,16,17,18,8,10,4,25,3,5,23,20,21,22,11,12,13], true);jQuery('#gform_wrapper_23').show();jQuery(document).trigger('gform_post_conditional_logic', [23, null, true]);} );} jQuery('#input_23_10').mask('C9   F999999   O999999   A150427   P999999').bind('keypress', function(e){if(e.which == 13){jQuery(this).blur();} } );if(typeof Placeholders != 'undefined'){
-                        Placeholders.enable();
-                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [23, 1]) } ); </script>
-</div></p>
-	</div>	
 
 <!-- Need 2 closing divs before footer to close divs from page header include -->
 	</div>
-    
-</div>    
+
+</div>
+
 
 <div class="clearThis">&nbsp;</div>
 
@@ -559,7 +499,7 @@ Submit
 			<div id="quicklinks_footer_container">
 	  	 	<div class="menu-footer-quicklinks-container"><ul id="menu-footer-quicklinks" class="menu"><li id="menu-item-57564"><a href="/news-release/news-release/">For the Media</a></li>
 <li id="menu-item-57555"><a href="https://today.uic.edu/experts-guide">Experts Guide</a></li>
-<li id="menu-item-57577"><a href="https://today.uic.edu/contact/communicating-on-campus/submit-announcements" aria-current="page">Submit Announcements</a></li>
+<li id="menu-item-57577"><a href="https://today.uic.edu/contact/communicating-on-campus/submit-announcements">Submit Announcements</a></li>
 <li id="menu-item-57578"><a href="https://today.uic.edu/submit-an-event">Submit an Event</a></li>
 <li id="menu-item-67562"><a href="https://today.uic.edu/campus-news/campus-newspaper/subscribe-to-uic-today">Subscribe to UIC Today</a></li>
 </ul></div>        	</div>
@@ -668,8 +608,7 @@ Submit
           var pfPlatform = 'Wordpress';
       </script>
       <script async src='https://cdn.printfriendly.com/printfriendly.js'></script>
-<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/gravityforms/js/datepicker.min.js?ver=2.4.15'></script>
 <script type='text/javascript' src='https://today.uic.edu/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
 
 </body>
-</html><!-- WP Fastest Cache file was created in 0.095597982406616 seconds, on 30-04-20 15:09:57 -->
+</html><!-- WP Fastest Cache file was created in 0.089644908905029 seconds, on 08-05-20 12:50:12 -->

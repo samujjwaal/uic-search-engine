@@ -1,0 +1,597 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en-us">
+<head><link href="App_Themes/lime/common.css" type="text/css" rel="stylesheet" /><link href="App_Themes/lime/DesignElements.css" type="text/css" rel="stylesheet" /><link href="App_Themes/lime/eventItems.css" type="text/css" rel="stylesheet" /><link href="App_Themes/lime/footer.css" type="text/css" rel="stylesheet" /><link href="App_Themes/lime/news.css" type="text/css" rel="stylesheet" /><link href="App_Themes/lime/newsItems.css" type="text/css" rel="stylesheet" /><link href="App_Themes/lime/orders.css" type="text/css" rel="stylesheet" /><link href="App_Themes/lime/print.css" type="text/css" rel="stylesheet" /><link href="App_Themes/lime/SiteMap.css" type="text/css" rel="stylesheet" /><link href="App_Themes/lime/webstoreBanner_new.css" type="text/css" rel="stylesheet" /><link href="App_Themes/lime/WebstoreMaster.css" type="text/css" rel="stylesheet" /><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta property="fb:app_id" content="109846299058784" /><title>
+	Home | University of Illinois Webstore
+</title>
+    <script type="text/javascript" src="scripts/jquery-1.3.2.js"></script>
+    <script type="text/javascript">
+        // initialize Facebook JS API
+        window.fbAsyncInit = function() {
+            FB.init({ appId: '109846299058784', status: true, cookie: true,
+                xfbml: true
+            });
+        };
+    </script>
+    <script type="text/javascript">
+        // initialize Facebook JS API
+        window.fbAsyncInit = function() {
+            FB.init({ appId: '109846299058784', status: true, cookie: true,
+                xfbml: true
+            });
+        };
+    </script>
+    
+    
+<link type="text/css" rel="Stylesheet" href="../styles/RotatingOffersLime.css" /> 
+<!--    <script  type="text/javascript" src="file:///T|/applications/home/scripts/jquery.cycle.all.js"></script>
+
+    <script  type="text/javascript">
+$(document).ready(function() {
+        	FetchOffersHtml();
+        });
+    
+    function DisplayOffers(targetId, html) {
+        //var rotator = $(targetId);
+        var rotatorData = $(targetId).find(".offers");
+
+        // append html
+        $(rotatorData).append(html);
+		
+		//attach pager
+        $(rotatorData).after('<div class="offerPagerContainer"><div class="offerPager"></div></div>');
+        //$(rotatorData).after('<div class="offerPager"></div>');
+
+        //start rotation
+        $(rotatorData).cycle({
+            fx: 'uncoverfaderight',
+            speedOut: 1000,
+            speedIn: 1,
+            //cleartype: false,
+            //next: '#rotator .next',
+            //prev: '#rotator .prev',
+            pause: true,
+			cleartype: true,
+            cleartypeNoBg: true,
+            fastOnEvent: 100,
+            pager: ".offerPager",
+            pagerAnchorBuilder: imagePager,
+            //after: function(curr, next, opts) {
+                //alert(opts.currSlide);
+            //},
+            startingSlide: 0,
+			timeout: 6000
+        });
+
+        function imagePager(index, slide) {
+            var thisSlide = $(slide);
+            var img = thisSlide.find("img");
+            //return '<a href="#"><img src="' + thisSlide.find("img").get(0).src + '" alt="" width="30" height="30" /></a>';
+            return '<a href="#"><img src="' + img.attr('data-pagingThumbnail') + '" alt="' + img.attr('data-pagingThumbnailAlttext') + '" title="' + img.attr('data-pagingThumbnailAlttext') + '" width="30" height="30" /></a>';
+            //return '<a href="#">' + thisSlide.find("img").attr('data-pagingThumbnail') + '</a>';
+        }
+
+        //$('.rotatorNav .pause').bind("click", function() {$("#rotator").cycle('pause');});
+        $('#rotator .pause').click(function() {
+
+            var parent = $(this);
+            var img = $("img", parent);
+
+            if (img.attr("alt") == 'pause') {
+                $(rotatorData).cycle('pause');
+                img.attr("alt", "play");
+                img.attr("src", "./images/RotatingOffers/play.jpg");
+                //$(this).text('Play');
+            } else {
+                $(rotatorData).cycle('resume');
+                img.attr("alt", "pause");
+                img.attr("src", "./images/RotatingOffers/pause.jpg");
+                //$(this).text('Pause');
+            }
+        });
+    }
+    
+    function FetchOffersHtml_OnSuccess(msg, status, opts) {
+        var delay  = opts.delay;
+        //var rotatorId = "#rotator";
+        var html = $(msg.d).find("#offers").html();  //extract offers element from returned data;
+        setTimeout( function() {DisplayOffers("#rotator", html);}, delay);
+    }
+    
+    function FetchOffersHtml() {
+
+        var initialDelay = 20; 
+        var url = "webServices/OfferService.asmx/GetOffers";
+        var data = "{xmlKey:\"RotatingOffersXml\",xslKey:\"RotatingOffersXslLime\",filter:\"\"}";
+
+        jQuery.ajax({
+            type: "POST",
+            contentType: "application/json; charset=utf-8",
+            url: url,
+            data: data,
+            dataType: "json",
+            cache: false,
+            success: function(msg, status) { FetchOffersHtml_OnSuccess(msg, status, { delay: initialDelay  }); }
+            //complete: function(request, status) {
+                //alert(request);
+            //}
+        });
+
+
+    }
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+-->
+
+    <style type="text/css">
+        
+/* override */
+BODY #ContentBand .layout2col
+#MainContainer .body {
+padding:0em 1em 0em 1em;
+width:auto;
+}         
+/* end override */  
+
+
+#Eligibility 
+{
+	line-height:3em;
+	text-align:left;
+	border-top:1px solid gray;
+	margin:1em 0em 0em 0em;
+	padding:2em 2em 2em 3em;
+	font-size:1.5em;
+}
+
+.offerPagerContainer {
+	text-align: center;
+	z-index: 10;
+	margin-top: 10px;
+}
+.offerPager {
+	/*width: 650px;*/
+	margin: auto;
+}
+.offerPager a {
+	color: #FFF;
+	/*background-color: #B4D74D;*/
+	font-weight: bold;
+	text-decoration: none;
+	/*text-align: center;*/
+	font-family: Arial, Helvetica, sans-serif;
+	margin-right: 10px;
+	margin-top: 6px;
+	padding-top: 0px;
+	padding-bottom: 6px;
+	display: inline;
+	/*float: left;*/
+	/*width: 40px;*/
+	position: relative;
+	z-index: 10;
+}
+
+.offerPager .activeSlide{
+	/*background-color: #B4D74D;*/
+	color: #930;
+	border-bottom: 6px solid #B4D74D;
+}
+#arrow .w3-btn-floating w3-display-right {
+	float:right;}
+
+</style>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-10317067-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<link href="App_Themes/lime/common.css" type="text/css" rel="stylesheet" /><link href="App_Themes/lime/DesignElements.css" type="text/css" rel="stylesheet" /><link href="App_Themes/lime/eventItems.css" type="text/css" rel="stylesheet" /><link href="App_Themes/lime/footer.css" type="text/css" rel="stylesheet" /><link href="App_Themes/lime/news.css" type="text/css" rel="stylesheet" /><link href="App_Themes/lime/newsItems.css" type="text/css" rel="stylesheet" /><link href="App_Themes/lime/orders.css" type="text/css" rel="stylesheet" /><link href="App_Themes/lime/print.css" type="text/css" rel="stylesheet" /><link href="App_Themes/lime/SiteMap.css" type="text/css" rel="stylesheet" /><link href="App_Themes/lime/webstoreBanner_new.css" type="text/css" rel="stylesheet" /><link href="App_Themes/lime/WebstoreMaster.css" type="text/css" rel="stylesheet" /></head>
+<body>
+    <div id="Container">
+    <form name="aspnetForm" method="post" action="default.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE3NjQ1OTM0MTcPZBYCZg9kFgICAw9kFgICAQ9kFgICAw8WAh4Dc3JjBRMvaG9tZS9pbWFnZXMvdHMucG5nZGQnyng5mK8vBQHV3VXJ5GOS5Sm+XQ==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="2E1FA834" />
+    
+        <div id="HeaderBand">
+        
+
+
+
+<script type="text/javascript">
+   $(document).ready(function(){
+    
+    
+
+    var themeRoot = '/home/images/banner/';
+
+	$("#cmdPersonalUse img").hover(function() {
+		$(this).attr("src", themeRoot + "Pers_hover.png");
+			}, function() {
+			$(this).attr("src", themeRoot + "Pers_unselected.png");
+	});
+	$("#cmdDepartmentalUse img").hover(function() {
+	$(this).attr("src", themeRoot + "Unit_hover.png");
+			}, function() {
+			$(this).attr("src", themeRoot + "Unit_unselected.png");
+
+    });
+}); 
+</script>
+ <style type="text/css">
+ 	.frontBackground {position: relative;left: 70px; z-index: 1;	}
+ 	.frontTop {position:relative;  z-index: 3;}
+ </style>
+
+<div id="WebStoreBanner">
+    <div id="Stripe"></div>
+    <div id="HeaderRegion">
+        <div id="UILogo">
+            <!--<h4 class="invisible">University of Illinois Links</h4>-->
+            
+            <div id="campus" style="color: #ffffff; font:Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:14px; z-index: 1; margin: 25px 0 0 0;">
+                <a style="margin:-4px 0 0 300px;" href="http://www.illinois.edu" title="Go to the U of I at Urbana-Champaign homepage">URBANA-CHAMPAIGN</a>
+                <a style="margin:13px 0 0 300px;" href="http://www.uic.edu" title="Go to the UIC homepage">CHICAGO &#8226;</a>
+                <a style="margin:13px 0 0 387px; z-index:" href="http://www.uis.edu" title="Go to the UIS homepage">SPRINGFIELD</a>
+</div>
+<!--            <a id="uillinois" href="http://www.uillinois.edu"><em>University of Illinois</em></a>
+                <a id="uiuc" href="http://www.illinois.edu"><em>University of Illinois at Urbana-Champaign</em></a>
+                <a id="uic" href="http://www.uic.edu"><em>University of Illinois Chicago</em></a>
+                <a id="uis" href="http://www.uis.edu"><em>University of Illinois Springfield</em></a>
+                
+                extra li for below:  <li style="color:#B4D74D;font-size:15px;font-weight:bold;">SHOP<a id="A5"><img border="0" style="margin-left:0.35em;" src='/home/images/banner/green_arrow.gif' alt="Choose a button to the right to begin shopping."/></a></li>
+            -->
+        
+        </div>
+        <div id="ControlRegion">
+            <h2 class="invisible">Shopping Options</h2>
+            <ul>
+               <!-- <li style="color:#B4D74D;font-size:3em;xfont-weight:bold;">SHOP<a id="A5"><img border="0" style="margin-left:0.35em;" src='/home/images/banner/green_arrow.gif' alt="Choose a button to the right to begin shopping."/></a></li>-->
+                <li><a id="cmdPersonalUse" href='https://webstore.illinois.edu/shop/category.aspx?zcid=107&amp;shopby=1' title="Shop here to purchase items for use on personally-owned machines."><img src='/home/images/banner/Pers_unselected.png' alt="Purchase items for use on personally-owned machines." class="frontTop" style="margin: 0 1em 0 0;" /></a></li>
+                <li><a id="cmdDepartmentalUse" href='https://webstore.illinois.edu/shop/category.aspx?zcid=107&amp;shopby=2' title="Shop here to purchase items for your unit or for use on University-owned machines."><img src='/home/images/banner/Unit_unselected.png' alt="Purchase items for your unit or for use on University-owned machines." /></a></li>
+                <li><a id="facebook" href="http://www.facebook.com/uofiwebstore" title="Find U of I WebStore on Facebook.">
+                    <img src='/home/images/banner/FB_icon.png' alt="Find U of I WebStore on Facebook." /></a></li>
+ <li><a id="facebook" href="http://www.twitter.com/uofiwebstore" title="Find U of I WebStore on Twitter.">
+                    <img src='/home/images/banner/Twitter_icon.png' alt="Find U of I WebStore on Twitter." /></a></li>
+                    
+ <li><a id="facebook" href="http://www.instagram.com/uofiwebstore" title="Find U of I WebStore on Instagram.">          <img src='/home/images/banner/Insta.png' alt="Find U of I WebStore on Instagram." /></a></li>
+            </ul>
+            
+        </div>
+    </div>
+    <div id="MenubarRegion">
+<div id="WebstoreMainMenubar">
+<h2 class="invisible">Webstore Menu</h2>
+<ul>
+    <li><a href='/home/default.aspx' title="Go to the WebStore homepage.">HOME</a></li>
+    <li><a href='/home/about_new.aspx' title="Learn about the WebStore.">ABOUT US</a></li>
+    
+    <li><a href='http://illinois.edu/calendar/list/4576' title="See a schedule of WebStore events.">EVENTS</a></li>
+    <li><a href='/home/newsItem.aspx' title="Read recent news about the WebStore.">NEWS</a></li>
+    <li><a href="https://webstore.illinois.edu/public" title="Training for Non-University attendees">PUBLIC</a></li>
+	<li><a href='https://answers.uillinois.edu/search.php?q=webstore&cat=0&aud=0&sort=updated1&limit=20&advanced=0' title="View WebStore FAQs">FAQ</a></li>
+    <li><a href='http://webstore.illinois.edu/shop/contact.aspx' title="View WebStore FAQs and contact information.">SUPPORT</a></li>
+</ul>
+<!--
+    <li><a href='/home/training.aspx' title="Learn about the WebStore.">TRAINING SERVICES</a></li>
+    <li><a href='contact.aspx' title="View WebStore FAQs and contact information.">SUPPORT</a></li>
+    old Events link: http://illinois.edu/calendar/grid/4576?cal=20130328&skinId=7943
+-->
+
+</div>
+
+
+    </div>
+    <div id="WebStoreLogo">
+        <a href="./">
+        <img src='/home/images/banner/WSlogo.png' alt="Univ. of Illinois Webstore Logo" /></a>
+            
+        
+    </div>
+
+</div>
+
+
+        </div>
+        
+        <div id="ContentBand">
+               
+               
+<h1 class="invisible">Home | University of Illinois Webstore</h1>
+<body onload="MM_preloadImages('images/banner/Register_2.png')">
+<div class="body">
+<div id="FeaturesContainer">
+<div class="w3-content w3-display-container" style="z-index:-1;">
+<!--<a href="https://webstore.illinois.edu/shop/category.aspx?zcid=129&shopby=1">  <img class="mySlides" src="images/Xmas_FREE.jpg" style="width:100%"></a>
+<a href="https://webstore.illinois.edu/shop/category.aspx?zcid=155&shopby=1">  <img class="mySlides" src="images/Graduation.jpg" style="width:100%"></a>
+	<a href="https://webstore.illinois.edu/shop/category.aspx?zcid=129&shopby=1">  <img class="mySlides" src="images/WelcomeBack.jpg"style="width:100%"></a>-->
+<a href="https://webstore.illinois.edu/shop/category.aspx?zcid=129&shopby=1">  <img class="mySlides" src="images/welcome.jpg"style="width:100%"></a>
+<a href="https://webstore.illinois.edu/shop/search.aspx?keyword=365&shopby=1">  <img class="mySlides" src="images/365_FREE.jpg" style="width:100%"></a>
+<a href="https://webstore.illinois.edu/shop/product.aspx?zpid=3427&shopby=1">  <img class="mySlides" src="images/Matlab_20.jpg" style="width:100%"></a>
+<a href="https://webstore.illinois.edu/shop/category.aspx?zcid=129&shopby=1">  <img class="mySlides" src="images/Skyline.jpg"style="width:100%"></a>
+<a href="https://webstore.illinois.edu/shop/search.aspx?keyword=arcgis&shopby=1">  <img class="mySlides" src="images/ArcGIS.jpg" style="width:100%"></a>
+<a href="https://webstore.illinois.edu/shop/search.aspx?keyword=mathematica&shopby=1"> <img class="mySlides" src="images/Math_FREE.jpg" style="width:100%"></a>
+<div id="Arrow_left" style="margin:-20em 0 0 2em; z-index:1;">
+
+ <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)" ><img src="images/Arrow_left.png"></a>
+
+<a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)" style="margin: 0 0 0 85em;"><img src="images/Arrow_right.png"></a>
+</div>
+</div>
+</div>
+</div><!--FeaturesContainer-->
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 5 seconds
+}
+
+function plusDivs(n) {
+  showDivs(myIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(myIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  
+  if (n > x.length) {myIndex = 1}    
+  if (n < 1) {myIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+ 
+  x[myIndex-1].style.display = "block";  
+  
+}
+</script>
+
+
+
+
+
+
+
+
+
+<div id="content" style="margin: 13.5em 2em 0em 2em;">
+
+<div style="margin: 0 0 2em 0;"><a href="https://webstore.illinois.edu/shop/category.aspx?zcid=129&shopby=1" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Register','','images/Register_2.png',1)"><img src="images/Register_1.png" alt="Click here to register for SAS Day" width="225" height="58" id="Register" /></a> </div>
+
+
+
+
+<div class="dataBox" style="float: left; width: 30%; margin-left:2.5em; margin-bottom:4em;">
+<div class="title"><h2>News</h2></div>
+<div class="detail" style="min-height:140px;overflow:auto;font-size:1.35em;  ">
+
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        //alert("started");
+
+        $.ajax({
+            type: "POST",
+            contentType: "application/json; charset=utf-8",
+            url: "webServices/NewsService.asmx/GetNewsXml",
+            data: "{maxRecords:7,maxAge:1000,keywords:'',xsl:''}",
+            dataType: "json",
+            cache: false,
+            success: function(msg, status) {
+                var html = msg.d;
+                //("setting: " + html);
+                $("#newsList").append("start");
+                $("#newsList").append(html);
+                $("#newsList").append(html.length);
+                $("#newsList").append("end");
+
+                document.getElementById("newsList").innerHTML = html;
+
+                return;
+            }
+
+
+	  		,
+            complete: function(request, status) {
+                //alert('status:' + request.responseText);
+            }
+
+
+        });
+
+
+    });
+</script>
+
+<div id="newsList">
+</div>
+
+</div>
+<div class="navFooter"><a href='/home/newsItem.aspx'>More News</a></div>
+</div>
+
+<div class="dataBox" style="float:left; width: 30%; margin-left: 2em;" >
+<div class="title"><h2>Events</h2></div>
+<div class="detail" style="min-height:140px;overflow:auto;font-size:1.35em;">
+
+
+
+<script type='text/javascript' src='//illinois.edu/calendar/pc/4576/1.js'></script>
+
+</div>
+
+
+
+</div>
+
+<div class="dataBox" style="float: left; width: 30%;margin-left: 2em;">
+<div class="title"><h2>Save More</h2></div>
+<div class="detail" style="min-height:140px;overflow:auto;font-size:1.35em; line-height:2em;">
+Students, faculty and staff on all three U of I campuses - Urbana-Champaign, Chicago, and Springfield - are eligible to receive significant discounts on over 350 software applications and software training courses offered by the U of I WebStore. To see exactly what you're eligible for, please choose a Purchase Type (Personal or Unit) and log in.</div>
+
+
+
+
+
+
+ </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+        </div><!-- /Headline-->
+
+        <!-- /Headline-->
+
+
+
+
+
+
+
+
+               <br clear="all" />
+        </div>
+        
+        
+        <div id="FooterBand">   
+            <div id="SiteMapContainer">
+            <!--
+                
+<div class="siteMap">
+
+<div>
+Software Categories:
+</div>
+
+<div class="categories">
+    <a href="#">Applications</a> 
+    <a href="#">Architecture Software</a> 
+    <a href="#">Business & Office</a> 
+</div>
+
+<div class="categories">
+    <a href="#">Engineering</a> 
+    <a href="#">Engineering Software</a> 
+    <a href="#">License - Perpetual</a>
+</div>
+
+<div class="categories">
+    <a href="#">Math & Statistics</a>  
+    <a href="#">Messaging & Calendaring</a> 
+    <a href="#">Microsoft Campus <br />Agreement</a> 
+</div>
+
+<div class="categories">
+    <a href="#">Microsoft Select</a> 
+    <a href="#">Microsoft Student Select</a> 
+    <a href="#">Other</a> 
+</div>
+
+<div class="categories">
+    <a href="#">Process Improvement</a> 
+    <a href="#">Research Tools</a> 
+    <a href="#">Security</a> 
+</div>
+
+<div class="categories">
+    <a href="#">Tools</a>  
+    <a href="#">Training & Education</a>
+    <a href="#">Utilities & Essentials</a>  
+    <a href="#">Virus Protection</a> 
+</div>
+
+</div>
+
+                -->
+            </div>
+                
+        
+            
+
+<div id="footer" style="xmargin: 0 0 .5em 78em;"><!--<img src="images/UIlogo_gray.jpg" />--></div>
+
+<div class="footer" style="height:7em;">
+<a href="http://techservices.illinois.edu"><img src="/home/images/techservices logo reverse small.png" style="float:right; padding: 1em 12em 1em 1em;"/></a>
+<div class="copyrightNotice">
+&copy; 2020, University of Illinois Board of Trustees<BR />
+All prices and information are subject to change without notification.<br />
+<a style="color: white; text-decoration: underline" href="https://www.vpaa.uillinois.edu/resources/web_privacy">Web Privacy Notice</a>
+
+</div>
+</div>
+
+        </div>
+        
+    </form>
+    </div>
+
+    <!-- For Illini Alerts -->
+    <script type="text/javascript" src="//emergency.webservices.illinois.edu/illinois.js"></script>
+    
+    <!-- UIC EWAS Service -->
+<script type="text/javascript" 
+  src="https://www.uic.edu/inc/emergency/alert.js">
+</script>
+
+
+
+    
+
+
+</body>
+</html>

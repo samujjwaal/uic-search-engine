@@ -25,7 +25,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<title>Competitive Gaming Club Discord | UIC Today</title>
+<title>Submit your UIC news articles or ideas | UIC Today</title>
 
 <link rel="stylesheet" type="text/css" media="all" href="https://today.uic.edu/wp-content/themes/uictoday/style.css" />
 
@@ -77,6 +77,11 @@ img.emoji {
 <style id='tablepress-default-inline-css' type='text/css'>
 .tablepress-id-1 .column-1{vertical-align:middle}.tablepress-id-1 tbody td{font-size:15px}.tablepress-id-1{width:auto important!}.tablepress-id-1 img{margin:0!important}.tablepress-id-6 .column-1{vertical-align:middle}.tablepress-id-6 tbody td{font-size:15px}.tablepress-id-6{width:auto important!}.tablepress-id-6 img{margin:0!important}.tablepress-id-3 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-3 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-3 .odd td{background-color:#e6e6e6}.tablepress-id-3 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-3 .column-1{width:50%}.tablepress-id-4 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-4 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-4 .odd td{background-color:#e6e6e6}.tablepress-id-4 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-4 .column-1{width:50%}.tablepress-id-5 thead th{font-weight:400;font-size:1.9em;margin-top:.83em;margin-bottom:.83em;background-color:#006;color:#FFF}.tablepress-id-5 .row-2 td{background-color:#C00;color:#FFF}.tablepress-id-5 .odd td{background-color:#e6e6e6}.tablepress-id-5 td{padding:6px 15px;border:#999 1px solid}.tablepress-id-5 .column-1{width:50%}
 </style>
+<link rel='stylesheet' id='gforms_reset_css-css'  href='https://today.uic.edu/wp-content/plugins/gravityforms/css/formreset.min.css?ver=2.4.15' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_formsmain_css-css'  href='https://today.uic.edu/wp-content/plugins/gravityforms/css/formsmain.min.css?ver=2.4.15' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_ready_class_css-css'  href='https://today.uic.edu/wp-content/plugins/gravityforms/css/readyclass.min.css?ver=2.4.15' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_browsers_css-css'  href='https://today.uic.edu/wp-content/plugins/gravityforms/css/browsers.min.css?ver=2.4.15' type='text/css' media='all' />
+<link rel='stylesheet' id='ari-fancybox-css'  href='https://today.uic.edu/wp-content/plugins/ari-fancy-lightbox/assets/fancybox/jquery.fancybox.min.css?ver=1.3.6' type='text/css' media='all' />
 <script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/stackable-ultimate-gutenberg-blocks/dist/frontend_blocks.js?ver=2.3.0'></script>
 <script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
 <script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
@@ -108,17 +113,31 @@ var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result 
 <script type='text/javascript' src='https://today.uic.edu/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var EM = {"ajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"mm\/dd\/yy","ui_css":"https:\/\/today.uic.edu\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"0","is_ssl":"1","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading..."};
+var EM = {"ajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"mm\/dd\/yy","ui_css":"https:\/\/today.uic.edu\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"0","is_ssl":"1","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","event_detach_warning":"Are you sure you want to detach this event? By doing so, this event will be independent of the recurring set of events.","delete_recurrence_warning":"Are you sure you want to delete all recurrences of this event? All events will be moved to trash."};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.97'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.4.15'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/today.uic.edu\/wp-content\/plugins\/gravityforms\/images"}};
+var gf_global = {"gf_currency_config":{"name":"Dollar","symbol_left":"","symbol_right":"","symbol_padding":" ","thousand_separator":"","decimal_separator":".","decimals":0},"base_url":"https:\/\/today.uic.edu\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/today.uic.edu\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.4.15'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.4.15'></script>
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.4.15'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ARI_FANCYBOX = {"lightbox":{"touch":{"vertical":true,"momentum":true},"buttons":["slideShow","fullScreen","thumbs","close"],"lang":"custom","i18n":{"custom":{"PREV":"Previous","NEXT":"Next","PLAY_START":"Start slideshow (P)","PLAY_STOP":"Stop slideshow (P)","FULL_SCREEN":"Full screen (F)","THUMBS":"Thumbnails (G)","CLOSE":"Close (Esc)","ERROR":"The requested content cannot be loaded. <br\/> Please try again later."}}},"convert":{},"viewers":{"pdfjs":{"url":"https:\/\/today.uic.edu\/wp-content\/plugins\/ari-fancy-lightbox\/assets\/pdfjs\/web\/viewer.html"}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://today.uic.edu/wp-content/plugins/ari-fancy-lightbox/assets/fancybox/jquery.fancybox.min.js?ver=1.3.6'></script>
 <link rel='https://api.w.org/' href='https://today.uic.edu/wp-json/' />
-<link rel='prev' title='Netflix Party' href='https://today.uic.edu/events/netflix-party-2020-04-29' />
-<link rel='next' title='UIC Campus Recreation free online workouts' href='https://today.uic.edu/events/uic-campus-recreation-free-online-workouts-2020-04-01' />
-<link rel="canonical" href="https://today.uic.edu/events/competitive-gaming-club-discord-2020-05-03" />
-<link rel='shortlink' href='https://today.uic.edu/?p=92705' />
-<link rel="alternate" type="application/json+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fevents%2Fcompetitive-gaming-club-discord-2020-05-03" />
-<link rel="alternate" type="text/xml+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fevents%2Fcompetitive-gaming-club-discord-2020-05-03&#038;format=xml" />
+<link rel="canonical" href="https://today.uic.edu/campus-news/submit-your-story-ideas" />
+<link rel='shortlink' href='https://today.uic.edu/?p=57501' />
+<link rel="alternate" type="application/json+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fcampus-news%2Fsubmit-your-story-ideas" />
+<link rel="alternate" type="text/xml+oembed" href="https://today.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftoday.uic.edu%2Fcampus-news%2Fsubmit-your-story-ideas&#038;format=xml" />
     <style type="text/css" media="screen">
       div.printfriendly a, div.printfriendly a:link, div.printfriendly a:hover, div.printfriendly a:visited, div.printfriendly a:focus {
         text-decoration: none;
@@ -147,7 +166,7 @@ var EM = {"ajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php","locatio
 
 <script type="text/javascript">
            var ajaxurl = "https://today.uic.edu/wp-admin/admin-ajax.php";
-         </script>
+         </script><style type="text/css">BODY .fancybox-container{z-index:200000}BODY .fancybox-is-open .fancybox-bg{opacity:0.87}BODY .fancybox-bg {background-color:#0f0f11}BODY .fancybox-thumbs {background-color:#ffffff}</style>
 <!-- Put the following javascript before the closing </head> tag. -->
 
 <script>
@@ -162,7 +181,7 @@ var EM = {"ajaxurl":"https:\/\/today.uic.edu\/wp-admin\/admin-ajax.php","locatio
 
 </head>
 
-<body role="document" class="event-template-default single single-event postid-92705 wp-embed-responsive">
+<body role="document" class="page-template-default page page-id-57501 page-child parent-pageid-57499 wp-embed-responsive">
   
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57G9C3Q"
@@ -198,7 +217,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
             <div class="last-update-timestamp">
-            	Updated: Apr 30, 2020 at 02:48 PM
+            	Updated: May 08, 2020 at 12:39 PM
             </div><!--  last-update-timestamp   -->
 
 
@@ -327,36 +346,43 @@ Submit
 
 
 		<div id="content">
-		<h1>Competitive Gaming Club Discord</h1>
-		<p><div class="pf-content"><div class="event-date-time">
-	<h2 class="event-row-header">Date / Time</h2>
-	<p class="event-date">May 3, 2020 </p>
-        <p class="event-time">All Day</p>
-</div>
-
-<div class="event_details">
-
-<div class="event_row uic-list">
-<h2 class="event-row-header">Categories</h2>
-	<ul class="event-categories">
-					<li><a href="https://today.uic.edu/events/categories/event-special-event">Special event</a></li>
-			</ul>
-	
-</div>
-</div>
-<div class="event_description">
-<p>Competitive Gaming Club (CGC) of UIC welcomes all gamers for all games. Come talk to CGC on their discord at <a href="http://discord.gg/cgcuic">http://discord.gg/cgcuic</a>.</p>
-
-</div>
-
-
-<div class="event-more-events uic-list">
-<h2 class="event-sub-header">More Events</h2>
-<ul>
-<li><a href=" https:=">RSS feed of UIC Today Events <img src="/files/2017/08/external_link.png" alt="external_link" width="15" height="15"></a></li>
-<li><a href="http://www.uic.edu/htbin/eventcal/eventcal.fcgi">UIC Calendar of Events <img src="/files/2017/08/external_link.png" alt="external_link" width="15" height="15"></a></li>
-<li><a href="/submit-an-event/">Submit an Event ➔</a></li>
-</div><div class="printfriendly pf-alignleft"><a href="#" style="outline:none;" rel="nofollow" onclick="window.print(); return false;" class="noslimstat" title="Printer Friendly, PDF & Email"><img style="border:none;-webkit-box-shadow:none; box-shadow:none;" src="https://cdn.printfriendly.com/buttons/print-button-gray.png" alt="Print Friendly, PDF & Email" /></a></div></div></p>
+		<h1>Submit your UIC news articles or ideas</h1>
+		<p><div class="pf-content">
+                <div class='gf_browser_unknown gform_wrapper' id='gform_wrapper_22' ><form method='post' enctype='multipart/form-data'  id='gform_22'  action='/campus-news/submit-your-story-ideas'>
+                        <div class='gform_body'><ul id='gform_fields_22' class='gform_fields top_label form_sublabel_below description_below'><li id='field_22_1'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label gfield_label_before_complex'  >Name<span class='gfield_required'>*</span></label><div class='ginput_complex ginput_container no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name' id='input_22_1'>
+                            
+                            <span id='input_22_1_3_container' class='name_first' >
+                                                    <input type='text' name='input_1.3' id='input_22_1_3' value='' aria-label='First name'   aria-required="true" aria-invalid="false" />
+                                                    <label for='input_22_1_3' >First</label>
+                                                </span>
+                            
+                            <span id='input_22_1_6_container' class='name_last' >
+                                                    <input type='text' name='input_1.6' id='input_22_1_6' value='' aria-label='Last name'   aria-required="true" aria-invalid="false" />
+                                                    <label for='input_22_1_6' >Last</label>
+                                                </span>
+                            
+                        </div></li><li id='field_22_2'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_22_2' >Email<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_2' id='input_22_2' type='email' value='' class='medium'   placeholder='email@uic.edu' aria-required="true" aria-invalid="false" />
+                        </div></li><li id='field_22_3'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_22_3' >Unit / Department</label><div class='ginput_container ginput_container_text'><input name='input_3' id='input_22_3' type='text' value='' class='medium'      aria-invalid="false" /></div></li><li id='field_22_4'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_22_4' >Phone</label><div class='ginput_container ginput_container_phone'><input name='input_4' id='input_22_4' type='tel' value='' class='medium'    aria-invalid="false"  /></div></li><li id='field_22_5'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label'  >I am submitting this idea as<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_radio'><ul class='gfield_radio' id='input_22_5'><li class='gchoice_22_5_0'><input name='input_5' type='radio' value='Campus news'  id='choice_22_5_0'    /><label for='choice_22_5_0' id='label_22_5_0'>Campus news</label></li><li class='gchoice_22_5_1'><input name='input_5' type='radio' value='People news'  id='choice_22_5_1'    /><label for='choice_22_5_1' id='label_22_5_1'>People news</label></li><li class='gchoice_22_5_2'><input name='input_5' type='radio' value='Research news'  id='choice_22_5_2'    /><label for='choice_22_5_2' id='label_22_5_2'>Research news</label></li><li class='gchoice_22_5_3'><input name='input_5' type='radio' value='Other news'  id='choice_22_5_3'    /><label for='choice_22_5_3' id='label_22_5_3'>Other news</label></li></ul></div></li><li id='field_22_6'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_22_6' >Post Title<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_post_title'>
+					<input name='input_6' id='input_22_6' type='text' value='' class='medium'   aria-required="true" aria-invalid="false"  />
+				</div></li><li id='field_22_7'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_22_7' >Post Body<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_textarea'><textarea name='input_7' id='input_22_7' class='textarea medium'     aria-required="true" aria-invalid="false"   rows='10' cols='50'></textarea></div></li><li id='field_22_8'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_22_8' >Post Image</label><div class='ginput_complex ginput_container ginput_container_post_image'><span class='ginput_full'><input name='input_8' id='input_22_8' type='file' class='medium'  /></span></div></li>
+                            </ul></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_22' class='gform_button button' value='Submit'  onclick='if(window["gf_submitting_22"]){return false;}  if( !jQuery("#gform_22")[0].checkValidity || jQuery("#gform_22")[0].checkValidity()){window["gf_submitting_22"]=true;}  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_22"]){return false;} if( !jQuery("#gform_22")[0].checkValidity || jQuery("#gform_22")[0].checkValidity()){window["gf_submitting_22"]=true;}  jQuery("#gform_22").trigger("submit",[true]); }' /> 
+            <input type='hidden' class='gform_hidden' name='is_submit_22' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='22' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_22' value='WyJbXSIsImVlNjM5M2JjMzk3NDEzY2IyNTY0NjY5MDk2MTQ1YWZiIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_22' id='gform_target_page_number_22' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_22' id='gform_source_page_number_22' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div><script type='text/javascript'> jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 22) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }jQuery('#input_22_4').mask('(999) 999-9999').bind('keypress', function(e){if(e.which == 13){jQuery(this).blur();} } );} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [22, 1]) } ); </script>
+</div></p>
 	</div>	
 
 <!-- Need 2 closing divs before footer to close divs from page header include -->
@@ -565,4 +591,4 @@ Submit
 <script type='text/javascript' src='https://today.uic.edu/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
 
 </body>
-</html><!-- WP Fastest Cache file was created in 0.078758955001831 seconds, on 30-04-20 15:10:02 -->
+</html><!-- WP Fastest Cache file was created in 0.099761962890625 seconds, on 08-05-20 13:48:38 -->

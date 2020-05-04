@@ -1,1048 +1,994 @@
-<!DOCTYPE html><html lang="en"><head><title>UIC Directory</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width"><style>.interior-page-intro .interior-page-title{ color: rgb(54, 54, 54); font-size: 36px; font-weight: 700; line-height: 1; margin-bottom: 12px; }
-.interior-section-header, .interior-page-intro .interior-page-subtitle{ color: rgb(54, 54, 54); font-size: 24px; font-weight: 400; line-height: 1.2; }
-body{ font-family: Theinhardt, Arial, sans-serif; }
-.body-text, .campus-reminders .reminder-text, .category-link-list .text-cell, .error-help, .text-input, .text-area, .number-input, .tel-input, .email-input, .form-help-text, .highlight .content-cell, .home-lists .home-list-blurb, .interior-page-intro .interior-page-text, .key-message-block .message-cell .text, .landing-page-intro .intro-text, .link-block .text, .link-list .text-cell, .text-block-with-inline-image .intro-row, .text-block-with-inline-image .text-and-image-row, .text-block-with-inline-image .link-list, .text-block-with-large-image .link-list, .topic-block-list .text-cell, .topic-block-list .topic-block-text-cell, .block-wysiwyg { color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1.36; }
-.body-text p, .campus-reminders .reminder-text p, .category-link-list .text-cell p, .error-help p, .text-input p, .text-area p, .number-input p, .tel-input p, .email-input p, .form-help-text p, .highlight .content-cell p, .home-lists .home-list-blurb p, .interior-page-intro .interior-page-text p, .key-message-block .message-cell .text p, .landing-page-intro .intro-text p, .link-block .text p, .link-list .text-cell p, .text-block-with-inline-image .intro-row p, .text-block-with-inline-image .text-and-image-row p, .text-block-with-inline-image .link-list p, .text-block-with-large-image .link-list p, .topic-block-list .text-cell p, .topic-block-list .topic-block-text-cell p, .block-wysiwyg p { margin-bottom: 1em; }
-.footer-list-item{ margin-bottom: 15px; }
-.footer-list-item:last-child{ margin-bottom: 0px; }
-.footer-list-link{ color: rgb(255, 255, 255); font-size: 14px; text-decoration: none; }
-.footer .footer-legal a{ color: rgb(153, 153, 153); text-decoration: none; }
-.footer .footer-legal .pipe-separator{ margin-top: 0em; margin-right: 0.5em; margin-bottom: 0em; margin-left: 0.5em; }
-.footer .footer-legal .campuses{ text-align: right; }
-.social-icons-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; overflow-x: hidden; overflow-y: hidden; }
-@media (min-width){
-.social-icons-list{ margin-top: 30px; }
-}
-.social-icons-list a{ text-decoration: none; }
-.social-icons-list svg{ fill: #ffffff; height: 30px; width: 30px; }
-.social-icons-list li{ border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; display: block; float: left; height: 30px; margin-top: 0px; margin-right: 10px; margin-bottom: 10px; margin-left: 0px; width: 30px; }
-.social-icons-list li:nth-of-type(5n+1){ clear: left; }
-.ms-grid, .ms-row, [class*="col-"]{ box-sizing: border-box; }
-.ms-grid{ display: block; position: relative; width: 100%; margin-left: auto; margin-right: auto; max-width: 1400px; padding-left: 12px; padding-right: 12px; }
-.ms-grid .ms-row{ }
-.ms-grid .ms-row::after, .ms-grid [class*="col-"]::after{ content: ''; display: table; clear: both; }
-[class*="col-"]{ float: left; width: 100%; position: relative; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; }
-@media screen and (min-width: 540px){
-.ms-grid{ padding-left: 24px; padding-right: 24px; }
-}
-@media screen and (min-width: 768px){
-.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
-}
-@media screen and (min-width: 2000px){
-.ms-grid .ms-row{ }
-.ms-grid .ms-row > [class*="col-"]{ }
-}
-@media screen and (min-width: 540px){
-.s-col-1-2{ width: 50%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-1-2{ width: 50%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-1-3{ width: 33.3333333333%; }
-}
-@media screen and (min-width: 768px){
-.m-col-1-4{ width: 25%; }
-.m-col-3-4{ width: 75%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-2-12{ width: 16.6666666667%; }
-.l-col-3-12{ width: 25%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-12-push-4{ left: 33.3333333333%; right: auto; }
-.l-col-12-pull-4{ right: 33.3333333333%; left: auto; }
-}
-*{ border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; box-sizing: border-box; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; }
-img{ vertical-align: bottom; }
-@media (min-width: 768px){
-.main{ margin-top: 40px; }
-}
-.ms-grid{ max-width: 1080px; }
-@media (max-width: 767px){
-.ms-grid{ padding-left: 20px; padding-right: 20px; overflow-x: hidden; overflow-y: hidden; }
-}
-@media (max-width: 1084px) and (min-width: 768px){
-.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
-}
-@media (min-width: 1140px){
-.ms-grid{ padding-left: 0px; padding-right: 0px; }
-}
-.component{ margin-bottom: 80px; }
-.interior-section-header{ font-size: 30px; }
-.subhead{ color: rgb(54, 54, 54); font-size: 18px; font-weight: 700; }
-body{ background-color: rgb(248, 248, 248); }
-.breadcrumbs{ line-height: 14px; margin-bottom: 34px; }
-@media (min-width: 768px){
-.breadcrumbs .red-circle{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(213, 0, 50); border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; display: inline-block; height: 14px; width: 14px; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
-}
-.breadcrumbs .first-breadcrumb-arrow{ display: none; }
-@media (min-width: 768px){
-.breadcrumbs .first-breadcrumb-arrow{ display: inline; }
-}
-.breadcrumbs .crumb-list{ display: inline; list-style-position: inside; list-style-type: none; list-style-image: initial; }
-@media (max-width: 768px){
-.breadcrumbs .crumb-list{ line-height: 1.4; }
-}
-.breadcrumbs .crumb-item{ display: inline-block; }
-.breadcrumbs .crumb-anchor{ color: rgb(54, 54, 54); font-size: 12px; font-weight: 500; text-transform: uppercase; }
-.breadcrumbs .crumb-anchor{ text-decoration: none; }
- .breadcrumbs .crumb-anchor.active{ color: rgb(213, 0, 50); outline-style: none; outline-width: initial; outline-color: initial; }
-.breadcrumbs img{ display: inline-block; height: 6px; margin-top: 0px; margin-right: 14px; margin-bottom: 0px; margin-left: 14px; width: 6px; vertical-align: middle; }
-.footer .footer-brand{ height: 206px; margin-bottom: 15px; width: 150px; }
-.footer .footer-brand-address{ margin-bottom: 20px; }
-@media (min-width: 1084px){
-.footer .footer-brand-address{ margin-bottom: 0px; min-height: 280px; }
-}
-@media (min-width: 1084px){
-.footer .footer-address{ bottom: 0px; position: absolute; width: 100%; }
-}
-@media (max-width: 1084px){
-.footer .footer-list{ margin-bottom: 30px; }
-.footer .footer-list::after{ content: ''; display: table; clear: both; }
-}
-.footer .footer-button-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; margin-bottom: 12px; }
-@media (max-width: 1084px) and (min-width: 540px){
-.footer .footer-button-list{ padding-right: 20px; }
-}
-.footer .footer-button-item{ margin-bottom: 5px; }
-.footer .footer-button{ color: rgb(255, 255, 255); background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(37, 37, 37); display: block; font-size: 16px; font-weight: 700; line-height: 32px; height: 32px; padding-top: 0px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px; text-decoration: none; background-position: initial initial; background-repeat: initial initial; }
-@media (max-width: 1084px){
-.footer .footer-legal .campuses{ margin-top: 1em; text-align: left; }
-}
-@media (min-width: 1084px){
-.footer .l-col-1-1{ width: 100%; }
-}
-.footer-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.footer-list-title{ margin-bottom: 15px; }
-.footer-list-title{ color: rgb(255, 255, 255); font-size: 14px; font-weight: 900; text-transform: uppercase; }
-@media (min-width: 1084px){
-.no-flexbox .footer-social-icons-cell{ bottom: -30px; }
-.no-flexbox .footer-address{ bottom: -50px; }
-}
-.header{ position: relative; width: 100%; background-color: rgb(0, 0, 0); }
-.header-menu-bar{ position: relative; }
-.header--blue .header-menu-bar{ background-color: rgb(0, 127, 165); }
-@media (max-width: 1084px){
-.header--blue .navigation-primary .primary-nav-list .primary-list-item{ background-color: rgb(0, 127, 165); }
-}
-.header--blue .navigation-primary .primary-nav-list .expander, .header--blue .navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(0, 102, 132); }
-@media (max-width: 1084px){
-.header--blue .navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); }
-}
-@media (min-width: 1084px){
-.header--blue .navigation-eyebrow{ background-color: rgb(0, 127, 165); }
-}
-.header--blue .navigation-primary:not(.scrolled-after) .primary-nav-list .primary-second-tier-list{ border-top-color: rgb(0, 127, 165); border-right-color: rgb(0, 127, 165); border-bottom-color: rgb(0, 127, 165); border-left-color: rgb(0, 127, 165); }
-.header-background-image-container{ bottom: 0px; left: 0px; overflow-x: hidden; overflow-y: hidden; position: absolute; right: 0px; top: 0px; }
-.header-background-image{ background-size: cover; bottom: -5px; left: -5px; position: absolute; right: -5px; top: -5px; background-position: 50% 50%; background-repeat: no-repeat no-repeat; }
-.interior-page-header{ overflow-x: visible; overflow-y: visible; }
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary .circle-logo-container{ margin-left: 0px; opacity: 1; z-index: 2; }
-}
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary:not(.scrolled-after) .circle-logo-container{ top: 110px; }
-}
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-eyebrow{ background-color: rgb(0, 127, 165); position: static; }
-}
-.interior-page-header .header-menu-bar .navigation-primary{ background-color: rgb(0, 127, 165); width: 100%; }
-.interior-page-header .header-menu-bar .navigation-primary .menu-toggle{ z-index: 2; }
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary{ height: 60px; }
-}
-.interior-page-header .header-background-image{ display: none; }
-.interior-page-intro .interior-page-title{ color: rgb(213, 0, 50); }
-@media (min-width: 540px){
-.interior-page-intro .interior-page-title{ font-size: 48px; }
-}
-.interior-page-intro .interior-page-subtitle{ margin-bottom: 10px; }
-@media (min-width: 540px){
-.interior-page-intro .interior-page-subtitle{ font-size: 30px; }
-}
-.link-block-group .link-block-anchor { margin-top: 40px; }
-@media (min-width: 540px){
-.link-block-group .link-block-anchor { max-width: 50%; }
-}
-.link-block-group .link-block-anchor, .link-block-group .link-block-anchor:hover, .link-block-group .link-block-anchor:visited { color: rgb(54, 54, 54); text-decoration: none; }
-.link-block { padding-top: 1px; position: relative; }
-.link-block::before { background-color: rgb(213, 0, 50); content: ''; height: 1px; left: 0px; position: absolute; top: 1px; width: 100%; }
-.link-block .subhead { margin-top: 15px; margin-right: 0px; margin-bottom: 4px; margin-left: 0px; padding-right: 20px; position: relative; }
-.link-block .subhead .arrow { fill: #001e62; height: 10px; position: absolute; right: 5px; width: 10px; }
-.link-block-anchor:hover, .link-block-anchor:focus { outline-style: none; outline-width: initial; outline-color: initial; }
-.link-block-anchor:hover .link-block::before, .link-block-anchor:focus .link-block::before { height: 3px; }
-.link-block-anchor:hover .arrow, .link-block-anchor:focus .arrow { -webkit-transform: translateX(5px); }
-.link-list .interior-section-header{ margin-bottom: 15px; }
-.navigation-eyebrow{ height: 40px; }
-@media (min-width: 1084px){
-.navigation-eyebrow{ background-color: rgb(0, 127, 165); }
-}
-.navigation-eyebrow .navigation-eyebrow-inner{ margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 1080px; position: relative; }
-.navigation-eyebrow .eyebrow-list{ color: rgb(255, 255, 255); font-size: 14px; font-weight: 400; list-style-type: none; list-style-position: inside; list-style-image: initial; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; padding-top: 0px; padding-right: 20px; padding-bottom: 0px; padding-left: 20px; }
-@media (min-width: 1084px){
-.navigation-eyebrow .eyebrow-list{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 25%; }
-}
-.navigation-eyebrow .eyebrow-list-item{ display: none; line-height: 40px; height: 40px; }
-@media (min-width: 1084px){
-.navigation-eyebrow .eyebrow-list-item{ display: block; float: left; }
-}
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor{ overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
-.navigation-eyebrow .eyebrow-button{ }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor{ font-weight: 700; padding-left: 34px; padding-right: 20px; overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::after{ content: '+'; left: 10px; position: absolute; text-align: center; top: 0px; width: 20px; }
-.navigation-eyebrow .eyebrow-list-anchor{ display: block; outline-style: none; outline-width: initial; outline-color: initial; }
-.navigation-eyebrow .eyebrow-list-anchor{ color: rgb(255, 255, 255); text-decoration: none; }
-.navigation-eyebrow .search-button-item{ display: block; height: 40px; position: absolute; top: 0px; right: 40px; width: 40px; z-index: 1; }
-@media (min-width: 1084px){
-.navigation-eyebrow .search-button-item{ height: 40px; position: relative; top: 0px; right: 0px; width: auto; }
-}
-.navigation-eyebrow .search-button{ background-color: transparent; cursor: pointer; height: 40px; width: 40px; }
-.navigation-eyebrow .search-button .search-glass{ fill: #ffffff; height: 20px; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; width: 20px; }
-.navigation-eyebrow .search-input-container{ position: absolute; top: 0px; height: 40px; right: 42px; -webkit-transform: translateY(-100%); width: 278px; z-index: 3; }
-@media (min-width: 1084px){
-.navigation-eyebrow .search-input-container{ height: 40px; right: 40px; }
-}
-.navigation-eyebrow .search-input-container form{ position: relative; width: 100%; height: 100%; }
-.navigation-eyebrow .search-input-container input[type="text"]{ color: rgb(149, 149, 149); height: 100%; padding-top: 0px; padding-right: 12px; padding-bottom: 0px; padding-left: 12px; font-size: 18px; width: 100%; }
-.navigation-eyebrow .search-input-container .submit-button{ -webkit-appearance: none; position: absolute !important; clip: rect(1px 1px 1px 1px); }
-@media (min-width: 1084px){
-.no-flexbox .eyebrow-list-item{ margin-left: 12px; }
-}
-.navigation-primary{ pointer-events: none; position: absolute; top: 0px; width: 100%; z-index: 2; }
-@media (min-width: 1084px){
-.navigation-primary{ pointer-events: auto; position: relative; }
-}
-.navigation-primary .navigation-primary-inner{ margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 1080px; position: relative; min-height: 40px; }
-.navigation-primary .primary-nav-list{ line-height: 1; list-style-type: none; list-style-position: inside; list-style-image: initial; overflow-x: hidden; overflow-y: hidden; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: absolute; right: 0px; top: 0px; width: 260px; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list{ left: 0px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; overflow-x: visible; overflow-y: visible; padding-top: 0px; padding-right: 0px; padding-left: 25%; position: relative; top: 0px; width: auto; }
-}
-.navigation-primary .primary-nav-list .primary-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(0, 127, 165); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; letter-spacing: 0.06em; position: relative; text-transform: uppercase; width: 100%; background-position: initial initial; background-repeat: initial initial; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .primary-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; float: left; background-position: initial initial; background-repeat: initial initial; }
-}
-.navigation-primary .primary-nav-list .primary-list-anchor{ display: block; line-height: 1; }
-.navigation-primary .primary-nav-list .primary-list-anchor, .navigation-primary .primary-nav-list .primary-second-tier-list-anchor{ color: inherit; text-decoration: none; }
-.navigation-primary .primary-nav-list .primary-second-tier-list{ display: none; list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); color: rgb(54, 54, 54); font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 1.25; text-transform: none; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item .primary-second-tier-list-anchor{ display: block; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; }
-.navigation-primary .primary-nav-list .expander{ display: none; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .primary-list-item{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: relative; width: auto; }
-.navigation-primary .primary-nav-list .primary-list-item.primary-list-active-item > .primary-list-anchor{ border-bottom-width: 8px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); padding-bottom: 12px; }
-.navigation-primary .primary-nav-list .primary-list-item > .primary-list-anchor{ display: block; outline-style: none; outline-width: initial; outline-color: initial; padding-top: 22px; padding-right: 0px; padding-bottom: 22px; padding-left: 0px; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor{ overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(255, 255, 255); bottom: 2px; height: 8px; -webkit-transform: translateY(135%); }
-.navigation-primary .primary-nav-list .primary-second-tier-list{ border-right-width: 2px; border-right-style: solid; border-right-color: rgb(0, 127, 165); border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(0, 127, 165); border-left-width: 2px; border-left-style: solid; border-left-color: rgb(0, 127, 165); display: block; opacity: 0; pointer-events: none; position: absolute; left: -2px; top: 60px; width: 260px; }
-.navigation-primary .primary-nav-list .primary-list-item:nth-last-child(1) .primary-second-tier-list, .navigation-primary .primary-nav-list .primary-list-item:nth-last-child(2) .primary-second-tier-list{ left: auto; right: -2px; }
-}
-@media (max-width: 1083px){
-.navigation-primary .primary-nav-list .expander{ background-color: rgb(39, 152, 182); display: block; height: 44px; position: absolute; top: 0px; right: 0px; width: 44px; }
-.navigation-primary .primary-nav-list .expander::before{ color: rgb(255, 255, 255); content: '+'; display: block; line-height: 44px; text-align: center; width: 100%; }
-.navigation-primary .primary-nav-list .primary-list-anchor{ line-height: 24px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 20px; }
-.navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); padding-left: 22px; position: relative; }
-.navigation-primary .primary-nav-list .primary-list-item{ min-height: 44px; -webkit-transform: translateX(260px); }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+0){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+1){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+2){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+3){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+4){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+5){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+6){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+7){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+8){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+9){ }
-}
-@media (max-width: 1083px){
-.navigation-primary .primary-nav-list{ pointer-events: none; }
-}
-.navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(39, 152, 182); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; height: 40px; letter-spacing: 0.06em; line-height: 40px; min-height: 40px; padding-top: 0px; padding-bottom: 0px; padding-left: 20px; position: relative; text-transform: uppercase; -webkit-transform: translateX(260px); width: 100%; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .menu-label-item{ display: none; }
-}
-.navigation-primary .primary-nav-list .menu-label{ opacity: 0; }
-.navigation-primary .primary-nav-list .menu-toggle{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; display: block; height: 40px; pointer-events: auto; position: absolute; top: 0px; right: 0px; width: 40px; z-index: 1; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle > span{ position: absolute; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); height: 2px; margin-left: 9px; position: absolute; top: 20px; width: 24px; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::after, .navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ content: ''; position: absolute; width: 100%; height: 100%; left: 0px; top: 6px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ top: auto; bottom: 6px; }
-@media (min-width: 1083px){
-.navigation-primary .primary-nav-list .menu-toggle{ display: none; }
-}
-.navigation-primary .circle-logo-container{ height: 40px; left: 0px; opacity: 0; pointer-events: auto; position: absolute; -webkit-transform: translateY(-100px); top: 10px; width: 40px; z-index: 1; }
-@media (max-width: 1120px) and (min-width: 1080px){
-.navigation-primary .circle-logo-container{ left: 20px; }
-}
-.navigation-primary .circle-logo-container span{ -webkit-appearance: none; position: absolute !important; clip: rect(1px 1px 1px 1px); }
-@media (max-width: 1084px){
-.navigation-primary .circle-logo-container{ height: 32px; margin-left: 20px; opacity: 1; -webkit-transform: translateY(4px); top: 0px; width: 32px; }
-}
-.navigation-primary .circle-logo-container .circle-logo path{ fill: #ffffff; }
-.navigation-primary .circle-logo-container a{ color: rgb(255, 255, 255); outline-style: none; outline-width: initial; outline-color: initial; }
-.navigation-primary .circle-logo-container .circle-logo{ -webkit-transform: rotate(-360deg); }
-@media (min-width: 1084px){
-.no-flexbox .primary-list-item{ margin-left: 12px; }
-}
-.no-flexbox .primary-nav-list::after{ content: ''; display: table; clear: both; }
-.navigation-sidebar{ margin-left: -20px; margin-right: -20px; position: relative; }
-@media (min-width: 768px){
-.navigation-sidebar{ margin-left: 0px; margin-right: 0px; }
-}
-.navigation-sidebar .navigation-sidebar-title{ background-color: rgb(255, 255, 255); border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; color: rgb(0, 30, 98); font-size: 16px; font-weight: 900; line-height: 1.5; margin-bottom: 20px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 47px; position: relative; text-transform: uppercase; }
-.navigation-sidebar .navigation-sidebar-title a{ color: rgb(0, 30, 98); text-decoration: none; }
-.navigation-sidebar .navigation-sidebar-title::after{ content: ' Menu'; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-title{ background-color: transparent; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 15px; padding-left: 0px; }
-.navigation-sidebar .navigation-sidebar-title::after{ content: none; }
-}
-.navigation-sidebar .navigation-sidebar-title .chevron{ display: block; height: 12px; left: 20px; position: absolute; width: 12px; }
-.navigation-sidebar .navigation-sidebar-title .chevron .anchor-point{ display: block; fill: #001e62; height: 8px; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto; -webkit-transform: rotate(-90deg); width: 12px; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-title .chevron{ display: none; }
-}
-@media (max-width: 767px){
-.navigation-sidebar .navigation-sidebar-list-container{ overflow-x: hidden; overflow-y: hidden; pointer-events: none; position: absolute; top: 44px; width: 100%; z-index: 1; }
-}
-@media (max-width: 767px){
-.navigation-sidebar .navigation-sidebar-list{ background-color: rgb(255, 255, 255); border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); padding-left: 20px; padding-right: 20px; -webkit-transform: translateY(-100%); }
-}
-.navigation-sidebar .navigation-sidebar-list .anchor-point{ height: 5px; position: absolute; right: 0px; top: 4px; width: 8px; }
-.navigation-sidebar .navigation-sidebar-list .navigation-sidebar-anchor .anchor-point{ top: 21px; }
-.navigation-sidebar .navigation-sidebar-list, .navigation-sidebar .sidebar-second-tier-list, .navigation-sidebar .sidebar-third-tier-list, .navigation-sidebar .sidebar-fourth-tier-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.navigation-sidebar .navigation-sidebar-anchor, .navigation-sidebar .sidebar-second-tier-anchor, .navigation-sidebar .sidebar-third-tier-anchor, .navigation-sidebar .sidebar-fourth-tier-anchor{ display: block; width: 100%; }
-.navigation-sidebar .navigation-sidebar-item{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); min-height: 50px; }
-.navigation-sidebar .navigation-sidebar-item:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-item:last-child{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); }
-}
-.navigation-sidebar .navigation-sidebar-anchor{ color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1; padding-top: 17px; padding-right: 0px; padding-bottom: 17px; padding-left: 0px; position: relative; text-decoration: none; }
-.navigation-sidebar .sidebar-second-tier-list{ padding-left: 14px; }
-.navigation-sidebar .sidebar-second-tier-item{ font-size: 14px; font-weight: 400; margin-bottom: 16px; }
-.navigation-sidebar .sidebar-second-tier-anchor{ color: rgb(54, 54, 54); position: relative; text-decoration: none; }
-.navigation-sidebar .sidebar-third-tier-list, .navigation-sidebar .sidebar-fourth-tier-list{ padding-top: 14px; padding-left: 14px; }
-.navigation-sidebar .sidebar-third-tier-item, .navigation-sidebar .sidebar-fourth-tier-item{ margin-bottom: 14px; }
-.navigation-sidebar .sidebar-third-tier-anchor, .navigation-sidebar .sidebar-fourth-tier-anchor{ color: rgb(54, 54, 54); position: relative; text-decoration: none; }
-.navigation-sidebar .navigation-sidebar-item.open .navigation-sidebar-anchor, .navigation-sidebar .sidebar-second-tier-item.open .sidebar-second-tier-anchor, .navigation-sidebar .sidebar-third-tier-item.open .sidebar-third-tier-anchor{ font-weight: 700; padding-right: 24px; width: 100%; }
- .navigation-sidebar .sidebar-fourth-tier-item.active .sidebar-fourth-tier-anchor{ color: rgb(213, 0, 50); font-weight: 700; position: relative; }/* Styles appended to the end of every critical path css stylesheet */
-.navigation-primary .primary-list {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-.navigation-eyebrow .eyebrow-list {
-    display: flex;
-    justify-content: space-between;
-}
-.calls-to-action .call-to-action {
-    align-items: center;
-    display: flex;
-}
-.calls-to-action .reminders-container {
-    display: flex;
-}
-.calls-to-action .reminders-anchor {
-    display: flex;
-}
- </style></head><body>
-<header class="header interior-page-header header--blue">
-    <div class="header-background-image-container">
-        <div class="header-background-image" aria-hidden="true" style="background-image: url()"></div>
-    </div>
-        <div class="header-menu-bar">
+<!doctype html>
+<html xml:lang="en" lang="en" dir="ltr">
 
-        <nav class="navigation-eyebrow" aria-label="Eyebrow navigation">
-    <div class="navigation-eyebrow-inner">
-        <ul class="eyebrow-list">
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://maps.uic.edu/">Map</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uic.edu/apps/departments-az/search">Directory</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/about/contact-us">Contact Us</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://library.uic.edu/">Library</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uicflames.com/">Athletics</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/life-at-uic/current-students">Current Students</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/life-at-uic/faculty-and-staff">Faculty and Staff</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://hospital.uillinois.edu/">UI Health</a></li>
-                                        <li class="eyebrow-list-item eyebrow-button"><a class="eyebrow-list-anchor" href="/alumni/give">Give</a></li>
-                            <li class="eyebrow-list-item search-button-item">
-                    <button class="search-button" type="button">
-                        <svg class="search-glass" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" aria-labelledby="title"><title id="title">Expand search box</title><path d="M19.7 18.3l-5.9-5.9c1-1.3 1.6-2.9 1.6-4.7C15.4 3.5 12 0 7.7 0S0 3.4 0 7.7c0 4.2 3.4 7.7 7.7 7.7 1.8 0 3.4-.6 4.7-1.6l5.9 5.9c.2.2.4.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4zM2 7.7C2 4.6 4.6 2 7.7 2s5.7 2.6 5.7 5.7-2.5 5.7-5.7 5.7C4.6 13.4 2 10.8 2 7.7z"/></svg>                    </button>
-                </li>
-        </ul>
-        <div class="search-input-container">
-            <form method="get" action="/search" role="search">
-                <input type="text" name="q" class="search-input" placeholder="Search..." disabled tabindex="-1" aria-label="Search">
-                <input type="submit" class="submit-button" name="search" value="Submit">
-            </form>
-        </div>
-    </div>
-</nav>
+<head>
+<title>Civil, Materials, and Environmental Engineering (CME) &lt; University of Illinois at Chicago</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="search" type="application/opensearchdescription+xml"
+			href="/search/opensearch.xml" title="Catalog" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<link href="/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/fonts/font-awesome/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/handheld.css" media="only screen and (max-width: 767px)" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/lfjs.js"></script>
+<script type="text/javascript" src="/js/lfjs_any.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/lfjs.css" />
+<script type="text/javascript" src="/js/courseleaf.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
 
-        <nav class="navigation-primary" aria-label="Primary navigation">
-    <div class="navigation-primary-inner">
-                <div class="circle-logo-container">
-            <a href="/">
-                <svg class="circle-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M36.5 17.3L33.1 19c-.3-1.3-1-2-2.3-2-1.7 0-2.5 1.4-2.5 3.6s.8 3.6 2.5 3.6c1.2 0 1.8-.6 2.2-1.6l3.5 1.3c-.9 2.1-2.8 3.5-5.8 3.5-4.1 0-6.5-2.8-6.5-6.8s2.5-6.8 6.6-6.8c3.2.1 5 1.8 5.7 3.5m-14.1 9.8h-3.9v-13h3.9v13zm-6.3-5.3c0 1.8-.2 2.7-.7 3.6-.9 1.4-3.2 2-5.2 2s-4.3-.6-5.2-2c-.5-.9-.7-1.8-.7-3.6v-7.7h3.9v7.8c0 .9.1 1.5.4 1.8.3.4.8.5 1.5.5s1.2-.2 1.5-.5c.3-.4.4-1 .4-1.8v-7.8h3.9v7.7zM40 20C40 9 31 0 20 0S0 9 0 20s9 20 20 20 20-9 20-20"/></svg>
-<span>University of Illinois at Chicago</span>            </a>
-        </div>
-                            <ul class="primary-nav-list">
-    <button class="menu-toggle" type="button" tabindex="-1">
-        <div class="menu-toggle-icon"></div>
-        <span>Expand menu</span>
-    </button>
-    <div class="menu-label-item"><span class="menu-label">Menu</span></div>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/admissions-aid">Admissions &amp; Aid</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/visit-campus">Visit Campus</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/paying-for-college">Paying for College</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/academics">Academics</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/programs-of-study">Programs of Study</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/colleges-schools">Colleges &amp; Schools</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/student-support">Student Support</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/research">Research</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-impact">Research Impact</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-strengths">Research Strengths</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/resources-facilities">Resources &amp; Facilities</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/student-research">Student Research</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item">
-            <a class="primary-list-anchor" href="/life-at-uic">Life at UIC</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/living-on-around-campus">Living On &amp; Around Campus</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/campus-resources">Campus Resources</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/current-students">Current Students</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/faculty-and-staff">Faculty and Staff</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/chicago">Chicago</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/exploring-chicago">Exploring Chicago</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/city-transportation">City Transportation</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/essential-chicago">Essential Chicago</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/alumni">Alumni</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/connect">Connect</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/engage">Engage</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/give">Give</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/about">About</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/visit-directions">Visit &amp; Directions</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/history">History</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/leadership">Leadership</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/public-media-resources">Public &amp; Media Resources</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/job-opportunities">Job Opportunities</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/contact-us">Contact Us</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/acerca">Acerca de la UIC (en español)</a></li>
-                                    </ul>
-                    </li>
-    </ul>            </div>
-</nav>
+</head>
 
+
+
+<body>
+
+
+
+
+<!--htdig_noindex-->
+<div class="accessible noscript">
+    <div class="accessible-menu" role="navigation" aria-label="Accessible Navigation">
+		<ul>
+			<li><a href="#content" rel="section">Skip to Content</a></li>
+			<li><a href="/azindex/">AZ Index</a></li>
+			<li><a href="/">Catalog Home</a></li>
+			<li><a href="http://www.uic.edu">Institution Home</a></li>
+		</ul>
+	</div>
 </div>
-</header>
+<!--/htdig_noindex-->
 
-<div class="ms-grid main">
-  <div class="ms-row">
-    <div class="m-col-1-4">
-      <nav class="navigation-sidebar" aria-label="Secondary navigation">
-      </nav>
-    </div>
-    <div class="m-col-3-4">
+<!--htdig_noindex-->
+<div id="header" role="header">
+    <div class="wrap clearfix">
+        <li><a href="/"><h1>Academic Catalog</h1></a></li>
+        <div id="head-right">
+            <div id="search" role="search">
+			<form id="cl-search" action="/search/" class="clearfix">
+				<label for="name">Search Catalog</label>
+				<input type="text" name="search" size="25" placeholder="Search catalog..." class="searchbox" id="name" title="Search Catalog" />
+				<input type="submit" value="Search" class="submit" />
+<input type="hidden" name="fscaturl" value="/ucat" /><input type="hidden" name="gscaturl" value="/ucat" />			</form>
+            </div><!-- end #search -->
+        </div><!--end #head-right -->
+    </div><!--end .wrap -->
+</div><!-- end #header -->
+<!--/htdig_noindex-->
 
-      <nav class="breadcrumbs ms-row">
-        <div class="col-1-1">
-          <div class="red-circle" aria-hidden="true"></div>
-          <img class="first-breadcrumb-arrow" src="/images/breadcrumb-arrow.svg" aria-hidden="true" alt="Breadcrumb arrow">
-          <ul class="crumb-list">
-            <li class="crumb-item">
-                <a class="crumb-anchor active" href="/apps/find-people/search">Directory</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+<!--htdig_noindex-->
+<div id="navigation" class="clearfix" role="navigation" aria-label="Main Navigation">
+    <div class="wrap">
+        <ul>
+            <li><a href="/ucat/">Undergraduate Catalog</a></li>
+            <li><a href="/gcat">Graduate Catalog</a></li>
+            <li><a href="#" onclick="showPrintDialog(); return false;">Print / Download Options</a></li>
+            <li><a href="http://www.uic.edu">UIC Home</a></li>                        
+        </ul>  
+    </div><!--end .wrap -->
+</div><!--end #navigation -->
+<!--/htdig_noindex-->
 
-      <main class="interior-page-intro">
-        <div class="ms-row">
-          <div class="col-1-1">
-            <h1 class="interior-page-title">Directory search</h1>
-          </div>
-        </div>
+<!--htdig_noindex-->
+<div id="banner" role="banner">
+    <div class="wrap">
+        <div class="logo"><a href="http://www.uic.edu">The University of Illinois at Chicago</a></div>
+    </div><!--end .wrap -->
+</div><!--end #navigation -->
+<!--/htdig_noindex-->
 
-<section role="region" class="text-block-with-large-image" aria-label="SURGERY - PEORIA, Department of Unit Listing">
-<div class="ms-row title-row">
-  <div class="col-1-1">
-    <h2 class="interior-section-header">
-      SURGERY - PEORIA, Department of</a>
-    </h2>
-  </div>
+<div id="wrapper">
+
+    <div id="container" class="clearfix">
+        <div id="nav-col" role="complementary">
+            <div id="cl-menu-control" class="togglenav clearfix">
+                <a class="cl-menu-text" href="#">Catalog Navigation</a>
+                <a class="cl-menu-btn" href="#">Catalog Navigation</a>
+            </div><!--end #cl-menu-control-->
+            
+            <!-- Begin Regular Nav -->
+            <div id="cl-menu" role="navigation" aria-label="Secondary Navigation">
+<ul class="nav levelzero" id="/">
+	<li class="isparent"><a href="/ucat/">Undergraduate Catalog</a></li>
+	<li class="isparent"><a href="/gcat/">Graduate Catalog</a></li>
+	<li class="active isparent"><a href="/all-course-descriptions/">All Course Descriptions</a>
+	<ul class="nav levelone" id="/all-course-descriptions/">
+		<li><a href="/all-course-descriptions/asp/">Academic Skills Program (ASP)</a></li>
+		<li><a href="/all-course-descriptions/actg/">Accounting (ACTG)</a></li>
+		<li><a href="/all-course-descriptions/aast/">African American Studies (AAST)</a></li>
+		<li><a href="/all-course-descriptions/anat/">Anatomy and Cell Biology (ANAT)</a></li>
+		<li><a href="/all-course-descriptions/anth/">Anthropology (ANTH)</a></li>
+		<li><a href="/all-course-descriptions/ahs/">Applied Health Sciences (AHS)</a></li>
+		<li><a href="/all-course-descriptions/arab/">Arabic (ARAB)</a></li>
+		<li><a href="/all-course-descriptions/arst/">Archaeological Studies (ARST)</a></li>
+		<li><a href="/all-course-descriptions/arch/">Architecture (ARCH)</a></li>
+		<li><a href="/all-course-descriptions/art/">Art (ART)</a></li>
+		<li><a href="/all-course-descriptions/ah/">Art History (AH)</a></li>
+		<li><a href="/all-course-descriptions/bms/">Basic Medical Sciences (BMS)</a></li>
+		<li><a href="/all-course-descriptions/bcmg/">Biochemistry and Molecular Genetics (BCMG)</a></li>
+		<li><a href="/all-course-descriptions/bioe/">Bioengineering (BIOE)</a></li>
+		<li><a href="/all-course-descriptions/bios/">Biological Sciences (BIOS)</a></li>
+		<li><a href="/all-course-descriptions/bvis/">Biomedical Visualization (BVIS)</a></li>
+		<li><a href="/all-course-descriptions/bhis/">Biomedical and Health Information Sciences (BHIS)</a></li>
+		<li><a href="/all-course-descriptions/bps/">Biopharmaceutical Sciences (BPS)</a></li>
+		<li><a href="/all-course-descriptions/bstt/">Biostatistics (BSTT)</a></li>
+		<li><a href="/all-course-descriptions/blst/">Black Studies (BLST)</a></li>
+		<li><a href="/all-course-descriptions/ba/">Business Administration (BA)</a></li>
+		<li><a href="/all-course-descriptions/cc/">Campus Courses (CC)</a></li>
+		<li><a href="/all-course-descriptions/cst/">Catholic Studies (CST)</a></li>
+		<li><a href="/all-course-descriptions/cees/">Central and Eastern European Studies (CEES)</a></li>
+		<li><a href="/all-course-descriptions/che/">Chemical Engineering (CHE)</a></li>
+		<li><a href="/all-course-descriptions/chem/">Chemistry (CHEM)</a></li>
+		<li><a href="/all-course-descriptions/chin/">Chinese (CHIN)</a></li>
+		<li><a href="/all-course-descriptions/cd/">City Design (CD)</a></li>
+		<li class="active self"><a href="#" onclick="return false;">Civil, Materials, and Environmental Engineering (CME)</a></li>
+		<li><a href="/all-course-descriptions/cl/">Classics (CL)</a></li>
+		<li><a href="/all-course-descriptions/cler/">Clerkship -&#8203; Medicine (CLER)</a></li>
+		<li><a href="/all-course-descriptions/cele/">Clerkship Electives -&#8203; Chicago (CELE)</a></li>
+		<li><a href="/all-course-descriptions/pele/">Clerkship Electives -&#8203; Peoria (PELE)</a></li>
+		<li><a href="/all-course-descriptions/rele/">Clerkship Electives -&#8203; Rockford (RELE)</a></li>
+		<li><a href="/all-course-descriptions/uele/">Clerkship Electives -&#8203; Urbana (UELE)</a></li>
+		<li><a href="/all-course-descriptions/comm/">Communication (COMM)</a></li>
+		<li><a href="/all-course-descriptions/chsc/">Community Health Sciences (CHSC)</a></li>
+		<li><a href="/all-course-descriptions/cs/">Computer Science (CS)</a></li>
+		<li><a href="/all-course-descriptions/clj/">Criminology, Law, and Justice (CLJ)</a></li>
+		<li><a href="/all-course-descriptions/ci/">Curriculum and Instruction (CI)</a></li>
+		<li><a href="/all-course-descriptions/dadm/">Dental Administration (DADM)</a></li>
+		<li><a href="/all-course-descriptions/daob/">Dentistry -&#8203; Applied Oral and Behavioral Sciences (DAOB)</a></li>
+		<li><a href="/all-course-descriptions/dbcs/">Dentistry -&#8203; Biomedical and Clinical Sciences (DBCS)</a></li>
+		<li><a href="/all-course-descriptions/dcle/">Dentistry -&#8203; Community Learning Experience (DCLE)</a></li>
+		<li><a href="/all-course-descriptions/dosi/">Dentistry -&#8203; Oral/&#8203;Systemic Issues (DOSI)</a></li>
+		<li><a href="/all-course-descriptions/dost/">Dentistry -&#8203; Oral/&#8203;Systemic Topics (DOST)</a></li>
+		<li><a href="/all-course-descriptions/des/">Design (DES)</a></li>
+		<li><a href="/all-course-descriptions/dlg/">Dialogue (DLG)</a></li>
+		<li><a href="/all-course-descriptions/dhd/">Disability and Human Development (DHD)</a></li>
+		<li><a href="/all-course-descriptions/mdc/">Doctor of Medicine—Chicago (MDC)</a></li>
+		<li><a href="/all-course-descriptions/mdp/">Doctor of Medicine—Peoria (MDP)</a></li>
+		<li><a href="/all-course-descriptions/mdr/">Doctor of Medicine—Rockford (MDR)</a></li>
+		<li><a href="/all-course-descriptions/eaes/">Earth and Environmental Sciences (EAES)</a></li>
+		<li><a href="/all-course-descriptions/econ/">Economics (ECON)</a></li>
+		<li><a href="/all-course-descriptions/ed/">Education (ED)</a></li>
+		<li><a href="/all-course-descriptions/edps/">Educational Policy Studies (EDPS)</a></li>
+		<li><a href="/all-course-descriptions/epsy/">Educational Psychology (EPSY)</a></li>
+		<li><a href="/all-course-descriptions/ece/">Electrical and Computer Engineering (ECE)</a></li>
+		<li><a href="/all-course-descriptions/eb/">Employee Benefits (EB)</a></li>
+		<li><a href="/all-course-descriptions/endo/">Endodontics (ENDO)</a></li>
+		<li><a href="/all-course-descriptions/ener/">Energy Engineering (ENER)</a></li>
+		<li><a href="/all-course-descriptions/engr/">Engineering (ENGR)</a></li>
+		<li><a href="/all-course-descriptions/engl/">English (ENGL)</a></li>
+		<li><a href="/all-course-descriptions/elsi/">English Language and Support for Internationals (ELSI)</a></li>
+		<li><a href="/all-course-descriptions/entr/">Entrepreneurship (ENTR)</a></li>
+		<li><a href="/all-course-descriptions/eohs/">Environmental and Occupational Health Sciences (EOHS)</a></li>
+		<li><a href="/all-course-descriptions/epid/">Epidemiology (EPID)</a></li>
+		<li><a href="/all-course-descriptions/epl/">Estate Planning (EPL)</a></li>
+		<li><a href="/all-course-descriptions/fin/">Finance (FIN)</a></li>
+		<li><a href="/all-course-descriptions/fr/">French (FR)</a></li>
+		<li><a href="/all-course-descriptions/gws/">Gender and Women's Studies (GWS)</a></li>
+		<li><a href="/all-course-descriptions/geog/">Geography (GEOG)</a></li>
+		<li><a href="/all-course-descriptions/ger/">Germanic Studies (GER)</a></li>
+		<li><a href="/all-course-descriptions/glas/">Global Asian Studies (GLAS)</a></li>
+		<li><a href="/all-course-descriptions/gc/">Graduate College (GC)</a></li>
+		<li><a href="/all-course-descriptions/gems/">Graduate Education in Medical Sciences (GEMS)</a></li>
+		<li><a href="/all-course-descriptions/gka/">Greek, Ancient (GKA)</a></li>
+		<li><a href="/all-course-descriptions/gkm/">Greek, Modern (GKM)</a></li>
+		<li><a href="/all-course-descriptions/gamd/">Guaranteed Admissions Medicine (GAMD)</a></li>
+		<li><a href="/all-course-descriptions/him/">Health Information Management (HIM)</a></li>
+		<li><a href="/all-course-descriptions/hpa/">Health Policy and Administration (HPA)</a></li>
+		<li><a href="/all-course-descriptions/hlp/">Healthy Living Practitioner™ (HLP)</a></li>
+		<li><a href="/all-course-descriptions/heb/">Hebrew (HEB)</a></li>
+		<li><a href="/all-course-descriptions/hnur/">Hindi-&#8203;Urdu (HNUR)</a></li>
+		<li><a href="/all-course-descriptions/hstl/">Histology (HSTL)</a></li>
+		<li><a href="/all-course-descriptions/hist/">History (HIST)</a></li>
+		<li><a href="/all-course-descriptions/hon/">Honors College (HON)</a></li>
+		<li><a href="/all-course-descriptions/hn/">Human Nutrition (HN)</a></li>
+		<li><a href="/all-course-descriptions/hum/">Humanities (HUM)</a></li>
+		<li><a href="/all-course-descriptions/ie/">Industrial Engineering (IE)</a></li>
+		<li><a href="/all-course-descriptions/it/">Information Technology (IT)</a></li>
+		<li><a href="/all-course-descriptions/ids/">Information and Decision Sciences (IDS)</a></li>
+		<li><a href="/all-course-descriptions/iphs/">Interdisciplinary Public Health Sciences (IPHS)</a></li>
+		<li><a href="/all-course-descriptions/idea/">Interdisciplinary Education in the Arts (IDEA)</a></li>
+		<li><a href="/all-course-descriptions/isa/">Interdisciplinary Studies in the Arts (ISA)</a></li>
+		<li><a href="/all-course-descriptions/ip/">Intellectual Property (IP)</a></li>
+		<li><a href="/all-course-descriptions/ibt/">International Business and Trade (IBT)</a></li>
+		<li><a href="/all-course-descriptions/inst/">International Studies (INST)</a></li>
+		<li><a href="/all-course-descriptions/ital/">Italian (ITAL)</a></li>
+		<li><a href="/all-course-descriptions/jpn/">Japanese (JPN)</a></li>
+		<li><a href="/all-course-descriptions/jst/">Jewish Studies (JST)</a></li>
+		<li><a href="/all-course-descriptions/jd/">Juris Doctor (JD)</a></li>
+		<li><a href="/all-course-descriptions/kn/">Kinesiology (KN)</a></li>
+		<li><a href="/all-course-descriptions/kor/">Korean (KOR)</a></li>
+		<li><a href="/all-course-descriptions/lat/">Latin (LAT)</a></li>
+		<li><a href="/all-course-descriptions/lals/">Latin American and Latino Studies (LALS)</a></li>
+		<li><a href="/all-course-descriptions/law/">Law (LAW)</a></li>
+		<li><a href="/all-course-descriptions/lrsc/">Learning Sciences (LRSC)</a></li>
+		<li><a href="/all-course-descriptions/las/">Liberal Arts and Sciences (LAS)</a></li>
+		<li><a href="/all-course-descriptions/lib/">Library and Information Science (LIB)</a></li>
+		<li><a href="/all-course-descriptions/ling/">Linguistics (LING)</a></li>
+		<li><a href="/all-course-descriptions/lcsl/">Literatures, Cultural Studies, and Linguistics (LCSL)</a></li>
+		<li><a href="/all-course-descriptions/lith/">Lithuanian (LITH)</a></li>
+		<li><a href="/all-course-descriptions/mgmt/">Management (MGMT)</a></li>
+		<li><a href="/all-course-descriptions/mktg/">Marketing (MKTG)</a></li>
+		<li><a href="/all-course-descriptions/mba/">Master of Business Administration (MBA)</a></li>
+		<li><a href="/all-course-descriptions/meng/">Master of Engineering (MENG)</a></li>
+		<li><a href="/all-course-descriptions/mj/">Master of Jurisprudence (MJ)</a></li>
+		<li><a href="/all-course-descriptions/mcs/">Mathematical Computer Science (MCS)</a></li>
+		<li><a href="/all-course-descriptions/math/">Mathematics (MATH)</a></li>
+		<li><a href="/all-course-descriptions/mtht/">Mathematics Teaching (MTHT)</a></li>
+		<li><a href="/all-course-descriptions/me/">Mechanical Engineering (ME)</a></li>
+		<li><a href="/all-course-descriptions/mbt/">Medical Biotechnology (MBT)</a></li>
+		<li><a href="/all-course-descriptions/mhpe/">Medical Education (MHPE)</a></li>
+		<li><a href="/all-course-descriptions/mhum/">Medical Humanities (MHUM)</a></li>
+		<li><a href="/all-course-descriptions/mdch/">Medicinal Chemistry (MDCH)</a></li>
+		<li><a href="/all-course-descriptions/pmmp/">Medicinal Chemistry and Pharmacognosy (PMMP)</a></li>
+		<li><a href="/all-course-descriptions/mim/">Microbiology and Immunology (MIM)</a></li>
+		<li><a href="/all-course-descriptions/mils/">Military Science (MILS)</a></li>
+		<li><a href="/all-course-descriptions/movi/">Moving Image Arts (MOVI)</a></li>
+		<li><a href="/all-course-descriptions/muse/">Museum and Exhibition Studies (MUSE)</a></li>
+		<li><a href="/all-course-descriptions/mus/">Music (MUS)</a></li>
+		<li><a href="/all-course-descriptions/nast/">Native American Studies (NAST)</a></li>
+		<li><a href="/all-course-descriptions/nats/">Natural Sciences (NATS)</a></li>
+		<li><a href="/all-course-descriptions/ns/">Naval Science (NS)</a></li>
+		<li><a href="/all-course-descriptions/neus/">Neuroscience (NEUS)</a></li>
+		<li><a href="/all-course-descriptions/nurs/">Nursing Core (NURS)</a></li>
+		<li><a href="/all-course-descriptions/nuel/">Nursing Elective (NUEL)</a></li>
+		<li><a href="/all-course-descriptions/nupr/">Nursing Practicum (NUPR)</a></li>
+		<li><a href="/all-course-descriptions/nusp/">Nursing Specialty (NUSP)</a></li>
+		<li><a href="/all-course-descriptions/ot/">Occupational Therapy (OT)</a></li>
+		<li><a href="/all-course-descriptions/omds/">Oral Medicine and Diagnostic Sciences (OMDS)</a></li>
+		<li><a href="/all-course-descriptions/osci/">Oral Sciences (OSCI)</a></li>
+		<li><a href="/all-course-descriptions/osur/">Oral and Maxillofacial Surgery (OSUR)</a></li>
+		<li><a href="/all-course-descriptions/ortd/">Orthodontics (ORTD)</a></li>
+		<li><a href="/all-course-descriptions/path/">Pathology (PATH)</a></li>
+		<li><a href="/all-course-descriptions/psl/">Patient Safety Leadership (PSL)</a></li>
+		<li><a href="/all-course-descriptions/pedd/">Pediatric Dentistry (PEDD)</a></li>
+		<li><a href="/all-course-descriptions/peri/">Periodontics (PERI)</a></li>
+		<li><a href="/all-course-descriptions/psci/">Pharmaceutical Sciences (PSCI)</a></li>
+		<li><a href="/all-course-descriptions/pmpg/">Pharmacognosy (PMPG)</a></li>
+		<li><a href="/all-course-descriptions/pcol/">Pharmacology (PCOL)</a></li>
+		<li><a href="/all-course-descriptions/phar/">Pharmacy (PHAR)</a></li>
+		<li><a href="/all-course-descriptions/pmpr/">Pharmacy Practice (PMPR)</a></li>
+		<li><a href="/all-course-descriptions/psop/">Pharmacy Systems, Outcomes, and Policy (PSOP)</a></li>
+		<li><a href="/all-course-descriptions/phil/">Philosophy (PHIL)</a></li>
+		<li><a href="/all-course-descriptions/pt/">Physical Therapy (PT)</a></li>
+		<li><a href="/all-course-descriptions/phys/">Physics (PHYS)</a></li>
+		<li><a href="/all-course-descriptions/phyb/">Physiology and Biophysics (PHYB)</a></li>
+		<li><a href="/all-course-descriptions/pol/">Polish (POL)</a></li>
+		<li><a href="/all-course-descriptions/pols/">Political Science (POLS)</a></li>
+		<li><a href="/all-course-descriptions/port/">Portuguese (PORT)</a></li>
+		<li><a href="/all-course-descriptions/prcl/">Preclinical Medicine (PRCL)</a></li>
+		<li><a href="/all-course-descriptions/ptl/">Privacy and Technology Law (PTL)</a></li>
+		<li><a href="/all-course-descriptions/pros/">Prosthodontics (PROS)</a></li>
+		<li><a href="/all-course-descriptions/psch/">Psychology (PSCH)</a></li>
+		<li><a href="/all-course-descriptions/pa/">Public Administration (PA)</a></li>
+		<li><a href="/all-course-descriptions/pubh/">Public Health (PUBH)</a></li>
+		<li><a href="/all-course-descriptions/ppol/">Public Policy (PPOL)</a></li>
+		<li><a href="/all-course-descriptions/ppa/">Public Policy Analysis (PPA)</a></li>
+		<li><a href="/all-course-descriptions/re/">Real Estate (RE)</a></li>
+		<li><a href="/all-course-descriptions/rels/">Religious Studies (RELS)</a></li>
+		<li><a href="/all-course-descriptions/rest/">Restorative Dentistry (REST)</a></li>
+		<li><a href="/all-course-descriptions/russ/">Russian (RUSS)</a></li>
+		<li><a href="/all-course-descriptions/slav/">Slavic and Baltic Languages and Literatures (SLAV)</a></li>
+		<li><a href="/all-course-descriptions/sj/">Social Justice (SJ)</a></li>
+		<li><a href="/all-course-descriptions/socw/">Social Work (SOCW)</a></li>
+		<li><a href="/all-course-descriptions/soc/">Sociology (SOC)</a></li>
+		<li><a href="/all-course-descriptions/span/">Spanish (SPAN)</a></li>
+		<li><a href="/all-course-descriptions/sped/">Special Education (SPED)</a></li>
+		<li><a href="/all-course-descriptions/spec/">Specialty Medicine (SPEC)</a></li>
+		<li><a href="/all-course-descriptions/stat/">Statistics (STAT)</a></li>
+		<li><a href="/all-course-descriptions/sabr/">Study Abroad (SABR)</a></li>
+		<li><a href="/all-course-descriptions/surg/">Surgery (SURG)</a></li>
+		<li><a href="/all-course-descriptions/tx/">Taxation (TX)</a></li>
+		<li><a href="/all-course-descriptions/thtr/">Theatre (THTR)</a></li>
+		<li><a href="/all-course-descriptions/tadr/">Trial Advocacy and Dispute Resolution (TADR)</a></li>
+		<li><a href="/all-course-descriptions/upp/">Urban Planning and Policy (UPP)</a></li>
+		<li><a href="/all-course-descriptions/us/">Urban Studies (US)</a></li>
+		<li><a href="/all-course-descriptions/upa/">Urban and Public Affairs (UPA)</a></li>
+		<li><a href="/all-course-descriptions/usl/">US Legal Studies (USL)</a></li>
+	</ul>
+	</li>
+</ul>
+			   </div><!--end #cl-menu-->
+            <!-- End Nav -->
+        </div><!-- end #nav-col -->		    
+    		    
+        <div id="content-col">
+            <div id="content" role="main">
+
+<div id="breadcrumb" class="clearfix" role="navigation" aria-label="Breadcrumb Navigation">
+<ul><li><a href="/">Home</a><span class="crumbsep">/</span></li><li><a href="/all-course-descriptions/">All&nbsp;Course&nbsp;Descriptions</a><span class="crumbsep">/</span></li><li><span class="active">Civil, Materials, and Environmental Engineering (CME)</span></li></ul>
+</div><!-- end #breadcrumb -->
+
+			<h1 class="page-title">Civil, Materials, and Environmental Engineering (CME)</h1>
+
+
+
+<div id="textcontainer" class="tab_content" role="tabpanel">
+
+<div class="sidebar">
+	<div id="sidebar-contact">
+
+
+
+
+
+
+
+
+	</div>
 </div>
 
-<div class="ms-row text-row">
-  <div class="col-1-1 block-wysiwyg">
+</div><!--end #textcontainer -->
 
+<div id="courseinventorycontainer"  role="tabpanel">
+<a name="courseinventory"> </a>
+<div class="courses">
+<a name="cmecourses"></a>
+<h2>Courses</h2>
 
-<table>
-
-<tr>
-  <td style="vertical-align: top; font-weight: 400;">
-    <p>
-      Banner Dept: <span style="font-weight: 500;">2-848000</span>
-    </p>
-        </td>
-        <td style="vertical-align: top;">
-            <a href="/apps/departments-az/search?dispatch=roster&amp;style=uic&amp;orgid=99662">Department Roster</a>
-            <br />
-        </td>
-    </tr>
-
-    			      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Chair</span>
-	    <br />
-	    John S Marshall	    <br />
-	      </br> 624 NE Glen Oak, Peoria Peoria IL 61603	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 309-655-6454<br /> <strong>T</strong> 309-655-2383	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#115;&#109;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#106;&#115;&#109;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Administrative Assistant</span>
-	    <br />
-	    Jennifer A Klein Young	    <br />
-	      </br> 624 NE Glen Oak Peoria IL 61603	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 309-655-2383	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#97;&#107;&#121;&#111;&#117;&#110;&#103;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#106;&#97;&#107;&#121;&#111;&#117;&#110;&#103;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="10001" style="font-weight: 400;">
-      Department Liaisons    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Brian L Schisler	    <br />
-	      </br> 1 Illini Dr. Peoria IL 61605	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 309-671-3430	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#114;&#105;&#97;&#110;&#108;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#98;&#114;&#105;&#97;&#110;&#108;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Justin G Cree	    <br />
-	      </br> 1 Illini Dr. Peoria IL 61605	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 309-671-8420	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#99;&#114;&#101;&#101;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#106;&#99;&#114;&#101;&#101;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Shannon E Doerr	    <br />
-	      </br> One Illini Dr Peoria, IL 61605	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 309-671-8518	    <br />
-	    <strong>F</strong> 309-680-8607	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#100;&#111;&#101;&#114;&#114;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#115;&#100;&#111;&#101;&#114;&#114;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Lynne Ann Keeton	    <br />
-	      </br> 1 Illini Dr. Peoria IL 61605	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 309-671-8519	    <br />
-	    <strong>F</strong> 309-680-8607	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#107;&#101;&#101;&#116;&#111;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#108;&#107;&#101;&#101;&#116;&#111;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Laureen M Perkins	    <br />
-	      </br> One Illini Dr. Peoria IL 61605	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 309-671-8402	    <br />
-	    <strong>F</strong> 309-671-8438	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#97;&#117;&#114;&#101;&#101;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#108;&#97;&#117;&#114;&#101;&#101;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Meghann C McKown	    <br />
-	      </br> 1 Illini Dr Peoria IL 61605	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 309-671-8402	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#109;&#99;&#107;&#111;&#119;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#109;&#109;&#99;&#107;&#111;&#119;&#110;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Kristy Bushart	    <br />
-	      </br> One Illini Dr. Peoria IL 61605	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 309-671-8402	    <br />
-	    <strong>F</strong> 309-671-8438	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#114;&#105;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#107;&#114;&#105;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Trisha M Thurman	    <br />
-	      </br> 1 Illini Dr. Peoria IL 61605	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 309-671-3436	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#114;&#105;&#115;&#104;&#97;&#109;&#116;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#116;&#114;&#105;&#115;&#104;&#97;&#109;&#116;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Austin Davies	    <br />
-	      </br> 1 Illini Dr. Peoria IL 61605	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 309-671-3400	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#117;&#115;&#116;&#105;&#110;&#100;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#97;&#117;&#115;&#116;&#105;&#110;&#100;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">REACH Contact</span>
-	    <br />
-	    Brian L Schisler	    <br />
-	      </br> 1 Illini Dr. Peoria IL 61605	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 309-671-3430	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#114;&#105;&#97;&#110;&#108;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#98;&#114;&#105;&#97;&#110;&#108;&#115;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	        	  <tr>
-    <th colspan="2" id="20000" style="font-weight: 400;">
-      See Also    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-      <a href="https://www.uic.edu/apps/departments-az/search?dispatch=find&amp;orgid=99580">
-	    <span style="font-weight: 500;">Medicine - Peoria, College of</span>
-	    </a>
-	    <br />
-	    	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	</td>
-    </tr>
-	    </table>
-
-  </div>
+<div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;112.  Evolution of Infrastructure and Society.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Evolution of infrastructure and its interaction with US society.  Examples include development of transportation systems, water infrastructure, electrical grid, structural and geotechnical technology.  Ethical and societal implications of new systems. Course Information: Field trips required at a nominal fee. Prerequisite(s): <a href="/search/?P=ENGL%20160" title="ENGL&#160;160" class="bubblelink code" onclick="return showCourse(this, 'ENGL 160');">ENGL&#160;160</a>; or consent of the instructor.<i>  US Society course</i>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;197.  Introduction to Civil Engineering.  0 hours.</strong></p>
+<p class="courseblockdesc">
+Introduction to careers in civil engineering, principles of Civil Engineering design. Introduction to business practice in civil engineering, engineering and professional ethics and challenges currently face by the civil engineering profession. Course Information: Satisfactory/Unsatisfactory grading only. CME freshmen and transfer students will be required to take course during the first year of enrollment at UIC.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;201.  Statics.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Analysis of forces, equilibrium of two- and three-dimensional structures, frames and machines. Friction, centroids, virtual work and energy. Course Information: Prerequisite(s): <a href="/search/?P=MATH%20181" title="MATH&#160;181" class="bubblelink code" onclick="return showCourse(this, 'MATH 181');">MATH&#160;181</a> and <a href="/search/?P=PHYS%20141" title="PHYS&#160;141" class="bubblelink code" onclick="return showCourse(this, 'PHYS 141');">PHYS&#160;141</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;203.  Strength of Materials.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Relationships between the stresses and strains within a deformable body. Axially loaded members, torsion and the bending of bars. Stress transformation equations. Column theory. Course Information: Prerequisite(s):  <a href="/search/?P=CME%20201" title="CME&#160;201" class="bubblelink code" onclick="return showCourse(this, 'CME 201');">CME&#160;201</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;205.  Structural Analysis I.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Analysis of trusses, beams and frames. Classical methods and analysis with microcomputers. Displacements, shear and bending moments, influence lines. Course Information: Prerequisite(s): <a href="/search/?P=CME%20203" title="CME&#160;203" class="bubblelink code" onclick="return showCourse(this, 'CME 203');">CME&#160;203</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;211.  Fluid Mechanics and Hydraulics.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Covers the basic fluid mechanics topics of statics and kinematics, with emphasis on civil engineering aspects of open channel hydraulics and pipe flow.  Course Information:  Prerequisite(s):  <a href="/search/?P=CME%20201" title="CME&#160;201" class="bubblelink code" onclick="return showCourse(this, 'CME 201');">CME&#160;201</a>.  Class Schedule Information:  To be properly registered, students must enroll in one Laboratory and one Lecture.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;215.  Hydraulics and Hydrology.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Hydraulics of pipe flow, open channel flow and hydraulic machinery. Ground water and surface water hydrology. Course Information: Prerequisite(s): <a href="/search/?P=ME%20211" title="ME&#160;211" class="bubblelink code" onclick="return showCourse(this, 'ME 211');">ME&#160;211</a>. Class Schedule Information:  To be properly registered, students must enroll in one Laboratory-Discussion and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;260.  Properties of Materials.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Introduction to the relationships between composition and microstructure; correlation with physical and mechanical behavior of metals, ceramics, and polymers. Manufacturing methods. Service performance. Materials selection. Course Information: Credit is not given for <a href="/search/?P=CME%20260" title="CME&#160;260" class="bubblelink code" onclick="return showCourse(this, 'CME 260');">CME&#160;260</a> if the student has credit for <a href="/search/?P=CME%20261" title="CME&#160;261" class="bubblelink code" onclick="return showCourse(this, 'CME 261');">CME&#160;261</a>. Prerequisite(s): CHEM 112 and <a href="/search/?P=MATH%20181" title="MATH&#160;181" class="bubblelink code" onclick="return showCourse(this, 'MATH 181');">MATH&#160;181</a> and <a href="/search/?P=PHYS%20141" title="PHYS&#160;141" class="bubblelink code" onclick="return showCourse(this, 'PHYS 141');">PHYS&#160;141</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;261.  Materials for Manufacturing.  2 hours.</strong></p>
+<p class="courseblockdesc">
+Introductory-level course in materials engineering to familiarize students with relationships between processing, structure and properties of materials used to manufacture devices. Course Information: Same as <a href="/search/?P=ME%20261" title="ME&#160;261" class="bubblelink code" onclick="return showCourse(this, 'ME 261');">ME&#160;261</a>. Credit is not given for <a href="/search/?P=CME%20261" title="CME&#160;261" class="bubblelink code" onclick="return showCourse(this, 'CME 261');">CME&#160;261</a>/<a href="/search/?P=ME%20261" title="ME&#160;261" class="bubblelink code" onclick="return showCourse(this, 'ME 261');">ME&#160;261</a>  if the student has credit for <a href="/search/?P=CME%20260" title="CME&#160;260" class="bubblelink code" onclick="return showCourse(this, 'CME 260');">CME&#160;260</a>. Prerequisite(s): CHEM 112 and <a href="/search/?P=MATH%20181" title="MATH&#160;181" class="bubblelink code" onclick="return showCourse(this, 'MATH 181');">MATH&#160;181</a> and <a href="/search/?P=PHYS%20141" title="PHYS&#160;141" class="bubblelink code" onclick="return showCourse(this, 'PHYS 141');">PHYS&#160;141</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;290.  Engineering Surveying.  2 hours.</strong></p>
+<p class="courseblockdesc">
+Horizontal and vertical distance measurement, angles and direction, traverses, errors, control and construction surveys, coordinate systems, land records, and coordinate geometry, office and field practice. Course Information: Prerequisite(s): <a href="/search/?P=MATH%20181" title="MATH&#160;181" class="bubblelink code" onclick="return showCourse(this, 'MATH 181');">MATH&#160;181</a>; or consent of the instructor. Class Schedule Information: To be properly registered, students must enroll in one Lecture-Discussion and one Discussion and one Laboratory.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;297.  Civil Engineering Drawing and Design.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Manual and computer-aided drawing and drafting principles for Civil Engineering. Application of building information modeling in Civil Engineering professional practice. Course Information: Prerequisite(s): <a href="/search/?P=ENGL%20160" title="ENGL&#160;160" class="bubblelink code" onclick="return showCourse(this, 'ENGL 160');">ENGL&#160;160</a>. Interested students not enrolled in a degree program in the College of Engineering shall obtain permission from the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;300.  Composition and Properties of Concrete.  2 hours.</strong></p>
+<p class="courseblockdesc">
+Properties and types of cements and aggregates, hydration, mix design, properties of fresh and hardened concrete. Course Information: Prerequisite(s):  Credit or concurrent registration in <a href="/search/?P=CME%20203" title="CME&#160;203" class="bubblelink code" onclick="return showCourse(this, 'CME 203');">CME&#160;203</a>. Class Schedule Information:  To be properly registered, students must enroll in one Discussion/Recitation and one Laboratory.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;301.  Behavior and Design of Metal Structures.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Design of metal structures, behavior of members and their connections, theoretical, experimental and practical basis for proportioning members. Course Information: Prerequisite(s): <a href="/search/?P=CME%20205" title="CME&#160;205" class="bubblelink code" onclick="return showCourse(this, 'CME 205');">CME&#160;205</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;302.  Transportation Engineering.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Fundamentals of transportation engineering. Design, operations and planning of transportation systems of various technologies, emphasizing road and public transit. Course Information: Extensive computer use required. Field trips and computer laboratory required. Prerequisite(s): <a href="/search/?P=CS%20107" title="CS&#160;107" class="bubblelink code" onclick="return showCourse(this, 'CS 107');">CS&#160;107</a> or <a href="/search/?P=CS%20109" title="CS&#160;109" class="bubblelink code" onclick="return showCourse(this, 'CS 109');">CS&#160;109</a>. Class Schedule Information: Students outside the stated restrictions may be admitted with the consent of the instructor. To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;310.  Design of Reinforced Concrete Structures.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Analysis and design of reinforced concrete structural elements: beams, slabs, columns, and foundations. Use of current ACI 318 building code. Course Information: Prerequisite(s): <a href="/search/?P=CME%20205" title="CME&#160;205" class="bubblelink code" onclick="return showCourse(this, 'CME 205');">CME&#160;205</a> and credit or concurrent registration in <a href="/search/?P=CME%20300" title="CME&#160;300" class="bubblelink code" onclick="return showCourse(this, 'CME 300');">CME&#160;300</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;311.  Water Resources Engineering.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Principles of water-resources engineering including hydrologic processes and frequency analysis; fluids mechanics applied to closed conduits and open channels; groundwater engineering; urban water distribution. Laboratory experiments. Course Information:  Extensive computer use required.  Prerequisite(s):  <a href="/search/?P=CME%20211" title="CME&#160;211" class="bubblelink code" onclick="return showCourse(this, 'CME 211');">CME&#160;211</a>. Class Schedule Information: To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;315.  Soil Mechanics and Laboratory.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Soil formation, phase relationships, index properties and soil classification, soil composition, soil compaction, water in soils, stresses in soils, consolidation, shear strength, soils laboratory. Course Information: Prerequisite(s): <a href="/search/?P=CME%20203" title="CME&#160;203" class="bubblelink code" onclick="return showCourse(this, 'CME 203');">CME&#160;203</a> and <a href="/search/?P=CME%20211" title="CME&#160;211" class="bubblelink code" onclick="return showCourse(this, 'CME 211');">CME&#160;211</a>. Class Schedule Information:  To be properly registered, students must enroll in one Laboratory-Discussion and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;322.  Environmental Engineering.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Environmental engineering and design for water and waste problems. Interactive effects of man-made projects on resources and the environment. Course Information: Previously listed as CME 216. Prerequisite(s): CHEM 112; and credit or concurrent registration in <a href="/search/?P=CME%20211" title="CME&#160;211" class="bubblelink code" onclick="return showCourse(this, 'CME 211');">CME&#160;211</a>. Class Schedule Information: To be properly registered, students must enroll in one Laboratory-Discussion and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;359.  Mechanical Vibrations.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Free and forced vibrations of damped linear single and multiple degree of freedom systems. Approximate methods, instrumentation, and applications. Course Information: Same as <a href="/search/?P=ME%20308" title="ME&#160;308" class="bubblelink code" onclick="return showCourse(this, 'ME 308');">ME&#160;308</a>. Prerequisite(s): <a href="/search/?P=CS%20109" title="CS&#160;109" class="bubblelink code" onclick="return showCourse(this, 'CS 109');">CS&#160;109</a>; and <a href="/search/?P=ME%20210" title="ME&#160;210" class="bubblelink code" onclick="return showCourse(this, 'ME 210');">ME&#160;210</a>; and <a href="/search/?P=MATH%20220" title="MATH&#160;220" class="bubblelink code" onclick="return showCourse(this, 'MATH 220');">MATH&#160;220</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;392.  Undergraduate Research.  1-3 hours.</strong></p>
+<p class="courseblockdesc">
+Research and indepth study of a subject of interest under the close supervision of a faculty member. A report is required. Course Information: Prerequisite(s): Senior standing.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;394.  Undergraduate Seminar.  1-3 hours.</strong></p>
+<p class="courseblockdesc">
+Students conduct an indepth study of areas of engineering of special interest to them which will be presented to the class in a seminar format. Course Information: Prerequisite(s): Senior standing.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;396.  Civil Engineering Systems Design.  2 or 3 hours.</strong></p>
+<p class="courseblockdesc">
+Introduction to design process and methodologies. Aspects of deterministic and probabilistics design. Optimization theory and methods in  design. Preparation of senior design projects. Course Information:  Students are required to take Fundamentals of Engineering Examination (FE exam) before graduation.  Prerequisite(s): Senior standing.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;400.  Advanced Design of Reinforced Concrete Structures.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Design of reinforced concrete building structures, including design for lateral loads due to wind, structural systems for reinforced concrete buildings, shear walls, and design for seismic forces. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20310" title="CME&#160;310" class="bubblelink code" onclick="return showCourse(this, 'CME 310');">CME&#160;310</a> or the equivalent.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;401.  Advanced Design of Metal Structures.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Plate girders; unsymmetrical bending; torsion of thin-walled structures; lateral-torsional instability; composite construction. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20301" title="CME&#160;301" class="bubblelink code" onclick="return showCourse(this, 'CME 301');">CME&#160;301</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;402.  Geometric Design of Highway Facilities.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Elements of geometric design. Driver, vehicle and roadway system characteristics. Horizontal and vertical alignment design. Intersection design and operation. Capacity and level of service. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20302" title="CME&#160;302" class="bubblelink code" onclick="return showCourse(this, 'CME 302');">CME&#160;302</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;403.  Hydraulic Design.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Groundwater hydraulics, movement, recharge and well design; migration and drainage; design of dams, spillways and turbines; wave and coastal engineering design. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20311" title="CME&#160;311" class="bubblelink code" onclick="return showCourse(this, 'CME 311');">CME&#160;311</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;404.  Railroad Track Engineering.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Railroad track engineering concepts including track components, response of track to wheel loads, design and analysis of railroad tracks, construction, evaluation, and maintenance of railroad tracks, load distribution, and track substructures. Course Information: Prerequisite(s): <a href="/search/?P=CME%20315" title="CME&#160;315" class="bubblelink code" onclick="return showCourse(this, 'CME 315');">CME&#160;315</a>; or consent of the instructor. Recommended Background: Basic knowledge of strength of materials, soil mechanics, and structures.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;405.  Foundation Analysis and Design.  3-4 hours.</strong></p>
+<p class="courseblockdesc">
+Site characterization; analysis and design of shallow foundations, deep foundations and earth retaining structures; foundations on difficult soils; effects of construction; instrumentation and monitoring. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20315" title="CME&#160;315" class="bubblelink code" onclick="return showCourse(this, 'CME 315');">CME&#160;315</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;406.  Bridge Design I.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Theory and design procedures related to the analysis and design of modern bridges. Using the AASHTO Code, includes concrete and steel structures, construction practices and procedures. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20301" title="CME&#160;301" class="bubblelink code" onclick="return showCourse(this, 'CME 301');">CME&#160;301</a> and <a href="/search/?P=CME%20310" title="CME&#160;310" class="bubblelink code" onclick="return showCourse(this, 'CME 310');">CME&#160;310</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;407.  Soil and Site Improvement Methods.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Compaction, preloading, vertical drains, grouting, admixture stabilization, thermal stabilization, soil reinforcement, geosynthetics; construction of embankments on soft clay, embankments on mechanically stabilized earth walls, hydraulic barriers; case studies. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20315" title="CME&#160;315" class="bubblelink code" onclick="return showCourse(this, 'CME 315');">CME&#160;315</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;408.  Traffic Engineering and Design.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Highway Traffic control with an emphasis on highway capacity analysis and Traffic Signal Design.  Queuing theory, traffic flow theory, corridor management, and Taffic Safety.  Course Information:  3 undergraduate hours.  4 graduate hours.  Extensive computer use required.  Field work required.  Prerequisite(s):  <a href="/search/?P=CME%20302" title="CME&#160;302" class="bubblelink code" onclick="return showCourse(this, 'CME 302');">CME&#160;302</a> or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;409.  Structural Analysis II.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Approximate analysis of structures including trusses and multistory frames. Influence lines, cables and arches. Principles of limit analysis for structures and structural elements. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20205" title="CME&#160;205" class="bubblelink code" onclick="return showCourse(this, 'CME 205');">CME&#160;205</a> or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;410.  Design of Prestressed Concrete Structures.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Principles of prestressed concrete. Analysis and design of statically determinate prestressed concrete members. Introduction to design and detailing of connections. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20310" title="CME&#160;310" class="bubblelink code" onclick="return showCourse(this, 'CME 310');">CME&#160;310</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;411.  Chemistry for Environmental Professionals.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Introductory atmospheric chemistry, aspects of air pollution, chemistry related to natural water and water treatment; priority organic pollutants and heavy metals. Course Information: Same as <a href="/search/?P=EOHS%20440" title="EOHS&#160;440" class="bubblelink code" onclick="return showCourse(this, 'EOHS 440');">EOHS&#160;440</a>. Prerequisite(s): One year of college chemistry.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;413.  Design of Wood Structures.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Covers the properties and behavior of wood as a structural material; the focus will be on the analysis of structural wood elements. Course Information: 3 undergraduate hours. 4 graduate hours.Prerequisite(s): <a href="/search/?P=CME%20301" title="CME&#160;301" class="bubblelink code" onclick="return showCourse(this, 'CME 301');">CME&#160;301</a>; or <a href="/search/?P=CME%20310" title="CME&#160;310" class="bubblelink code" onclick="return showCourse(this, 'CME 310');">CME&#160;310</a>; or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;414.  Design of Masonry Structures.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Material characteristics of masonry as an engineering material, design of masonry members subjected to axial loads, bending, combined axial and bending loads, design of masonry shear walls, and design of multi-story masonry buildings. Course Information: 3 undergraduate hours. 4 graduate hours.Prerequisite(s): <a href="/search/?P=CME%20301" title="CME&#160;301" class="bubblelink code" onclick="return showCourse(this, 'CME 301');">CME&#160;301</a>; or <a href="/search/?P=CME%20310" title="CME&#160;310" class="bubblelink code" onclick="return showCourse(this, 'CME 310');">CME&#160;310</a>; or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;415.  Environmental Geotechnology.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Environmental laws and regulations, sources and types of waste materials, waste materials in geotechnical engineering applications, geotechnical management of municipal, industrial, mine and nuclear wastes. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20315" title="CME&#160;315" class="bubblelink code" onclick="return showCourse(this, 'CME 315');">CME&#160;315</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;419.  Structural Loads Determination.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Loads applied to buildings and other structures.  Live and dead loads.  Snow, wind, earthquake and flood loads.  Historical overview of loading standards and current loading standards. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20205" title="CME&#160;205" class="bubblelink code" onclick="return showCourse(this, 'CME 205');">CME&#160;205</a>; or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;420.  Water and Wastewater Analysis Laboratory.  0-4 hours.</strong></p>
+<p class="courseblockdesc">
+Laboratory class for environmental engineering. Analysis of water, wastewater and soil for nutrients, pollutants, physical parameters and biological parameters. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): CME 216; or graduate standing. Class Schedule Information:  To be properly registered, students must enroll in one Laboratory-Discussion and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;421.  Water Treatment Design.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Water quality control systems. Physical-chemical unit processes applied to systems designed for treatment of municipal and industrial waters. Course Information: 3 undergraduate hours. 4 graduate hours. Field trip required at nominal fee. Prerequisite(s): <a href="/search/?P=CME%20322" title="CME&#160;322" class="bubblelink code" onclick="return showCourse(this, 'CME 322');">CME&#160;322</a>. Students in programs outside stated restrictions may be admitted with the consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;422.  Wastewater Treatment Design.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Processes involved in the biological treatment of wastewater. Aerobic and anaerobic treatment, sludge stabilization, and nutrient removal. Course Information: 3 undergraduate hours. 4 graduate hours. Field trip required. Prerequisite(s): <a href="/search/?P=CME%20322" title="CME&#160;322" class="bubblelink code" onclick="return showCourse(this, 'CME 322');">CME&#160;322</a> or the equivalent.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;423.  Management of Solid and Hazardous Wastes.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Management of solid and hazardous waste, including radioactive waste: landfills, incineration, recycling, composting, source reduction, groundwater and air pollution impacts, control, regulations, siting, health impacts. Course Information: Same as <a href="/search/?P=EOHS%20472" title="EOHS&#160;472" class="bubblelink code" onclick="return showCourse(this, 'EOHS 472');">EOHS&#160;472</a>, and <a href="/search/?P=GEOG%20444" title="GEOG&#160;444" class="bubblelink code" onclick="return showCourse(this, 'GEOG 444');">GEOG&#160;444</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;425.  Environmental Remediation Engineering.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Sources of contamination, regulations, site characterization, impact assessment, waste disposal and containment options, waste treatment options, case studies. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20315" title="CME&#160;315" class="bubblelink code" onclick="return showCourse(this, 'CME 315');">CME&#160;315</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;427.  Engineering Hydrology.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Processes, techniques and concepts in hydrology of interest to the engineer: precipitation, interception, evaporation, groundwater, unit hydrographs, flood routing, and statistics. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20211" title="CME&#160;211" class="bubblelink code" onclick="return showCourse(this, 'CME 211');">CME&#160;211</a> and senior standing.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;430.  Theory of Elasticity I.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+The boundary value problems of linear elasticity. Uniqueness of solution. Reduction to two dimensions: the plane problems, torsion, bending. Polar coordinates and general orthogonal coordinates. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20205" title="CME&#160;205" class="bubblelink code" onclick="return showCourse(this, 'CME 205');">CME&#160;205</a> and <a href="/search/?P=MATH%20220" title="MATH&#160;220" class="bubblelink code" onclick="return showCourse(this, 'MATH 220');">MATH&#160;220</a>; or the equivalents.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;431.  Introduction to Continuum Mechanics.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Vectors and tensors, stress, principal stresses and principal axes, deformation, compatability conditions, constitutive equations, isotropy and mechanical properties of fluids and solids. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20203" title="CME&#160;203" class="bubblelink code" onclick="return showCourse(this, 'CME 203');">CME&#160;203</a> and <a href="/search/?P=CME%20211" title="CME&#160;211" class="bubblelink code" onclick="return showCourse(this, 'CME 211');">CME&#160;211</a>; or <a href="/search/?P=CME%20203" title="CME&#160;203" class="bubblelink code" onclick="return showCourse(this, 'CME 203');">CME&#160;203</a> and <a href="/search/?P=ME%20211" title="ME&#160;211" class="bubblelink code" onclick="return showCourse(this, 'ME 211');">ME&#160;211</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;432.  Energy Methods in Mechanics.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Variational theorems of elasticity. Applications to establish approximate systems and their solution. Beams (including shear deformation.) Introduction to instability theory. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20205" title="CME&#160;205" class="bubblelink code" onclick="return showCourse(this, 'CME 205');">CME&#160;205</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;433.  Fracture Mechanics and Failure Analysis I.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Classical theory of strength of materials. Fracture mechanisms maps. Continuum damage mechanics. Introduction to fracture mechanics. Singular problems of elasticity. Stress intensity. Energy release rates. Irwin-Orowan, Barenblatt-Dugdale theories. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20430" title="CME&#160;430" class="bubblelink code" onclick="return showCourse(this, 'CME 430');">CME&#160;430</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;434.  Finite Element Analysis I.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Establishment of basic finite element, matrix relations for one-dimensional heat conduction problems: Truss, beam and frame structural systems. Solution methods of the resulting equations. Introduction to two-dimensional analysis. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CS%20109" title="CS&#160;109" class="bubblelink code" onclick="return showCourse(this, 'CS 109');">CS&#160;109</a>; and <a href="/search/?P=CME%20205" title="CME&#160;205" class="bubblelink code" onclick="return showCourse(this, 'CME 205');">CME&#160;205</a> or <a href="/search/?P=ME%20347" title="ME&#160;347" class="bubblelink code" onclick="return showCourse(this, 'ME 347');">ME&#160;347</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;435.  Theory of Vibrations I.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Analytical and numerical treatment of linear, discrete systems. Nonlinear discrete systems. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): CME 200 or the equivalent and <a href="/search/?P=MATH%20220" title="MATH&#160;220" class="bubblelink code" onclick="return showCourse(this, 'MATH 220');">MATH&#160;220</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;440.  Cities and Sustainable Infrastructure.  0-4 hours.</strong></p>
+<p class="courseblockdesc">
+Integrated urban infrastructure planning based on sustainability and resilience; energy, water and transportation systems; design of green buildings; urban network design; methods of environmental assessment and infrastructure economics. Course Information: 3 undergraduate hours; 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20302" title="CME&#160;302" class="bubblelink code" onclick="return showCourse(this, 'CME 302');">CME&#160;302</a> and <a href="/search/?P=CME%20311" title="CME&#160;311" class="bubblelink code" onclick="return showCourse(this, 'CME 311');">CME&#160;311</a>; or consent of the instructor For graduate students: consent of instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;450.  Probability and Reliability in Structural Design.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Maximum uncertainty principle and probability distributions of random variables. Distributions of extremes and their applications. Statistics of failure. The weakest link theory. Time to failure. Structural reliability. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): Consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;453.  Experimental Stress Analysis.  0-4 hours.</strong></p>
+<p class="courseblockdesc">
+Structural similitude and dimensional analysis. Strain measurement techniques. Introduction to photoelasticity. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20430" title="CME&#160;430" class="bubblelink code" onclick="return showCourse(this, 'CME 430');">CME&#160;430</a>. Class Schedule Information:  To be properly registered, students must enroll in one Laboratory and one Lecture.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;454.  Structural Analysis and Design of Tall Buildings.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+State-of-the-art introduction to structural analysis and design of tall buildings. Load impact on different structural systems. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20401" title="CME&#160;401" class="bubblelink code" onclick="return showCourse(this, 'CME 401');">CME&#160;401</a> or <a href="/search/?P=CME%20409" title="CME&#160;409" class="bubblelink code" onclick="return showCourse(this, 'CME 409');">CME&#160;409</a> or the equivalent, or consent of the instructor. Recommended background: Major structural analysis and design courses.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;460.  Crystallography and X-Ray Diffraction.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Fundamentals of crystallography. Theory of x-ray diffraction, experimental methods and applications. Course Information: Prerequisite(s): <a href="/search/?P=CME%20260" title="CME&#160;260" class="bubblelink code" onclick="return showCourse(this, 'CME 260');">CME&#160;260</a>. Class Schedule Information:  To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;470.  Physical and Mechanical Properties of Materials.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Basic metallurgical phenomena; kinetics and phase stability; diffusion and transformation rates. Mechanical properties of materials; creep; fatigue and fracture. Course Information: Prerequisite(s): <a href="/search/?P=CME%20260" title="CME&#160;260" class="bubblelink code" onclick="return showCourse(this, 'CME 260');">CME&#160;260</a>. Class Schedule Information:  To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;471.  Thermodynamics of Materials.  0-4 hours.</strong></p>
+<p class="courseblockdesc">
+Application of chemical and thermodynamic principles to processing and characterization of materials. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20260" title="CME&#160;260" class="bubblelink code" onclick="return showCourse(this, 'CME 260');">CME&#160;260</a>. Class Schedule Information:  To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;480.  Welding Metallurgy.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Metallurgy of metals joining processes. Selection of processes and design of products manufactured by joining processes. Course Information: Prerequisite(s): <a href="/search/?P=CME%20260" title="CME&#160;260" class="bubblelink code" onclick="return showCourse(this, 'CME 260');">CME&#160;260</a>. Class Schedule Information:  To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;485.  Construction Engineering and Management.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Overview of construction engineering and project management.  Construction industry, project cycles, contract administration, financing, legal management structures.  Resource management; planning, quality control, productivity and safety. Course Information: 3 undergraduate hours.  4 graduate hours.  Non-COE students shall obtain permission from the instructor prior to enrolling in the course.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;486.  Construction Equipment and Design Methods.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Overview of the equipment and machinery that is used in construction engineering; Calculating Cycle Times, Production Rates and Cost; Earthwork Estimations; Construction Methods and Design. Course Information: 3 undergraduate hours. 4 graduate hours. Other non-COE students shall obtain permission from the instructor prior to enrolling in the course.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;490.  Undergraduate Senior Design Thesis I.  0-8 hours.</strong></p>
+<p class="courseblockdesc">
+Introduction to engineering design and research methods: design tools, product conception and development, simulation, optimization, technical reports and presentations, literature survey and undergraduate thesis. Course Information: Credit only given to non-degree students. No graduation credit given to students enrolled in Engineering. Extensive computer use required. Prerequisite(s): Consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;491.  Undergraduate Senior Design Thesis II.  0-8 hours.</strong></p>
+<p class="courseblockdesc">
+Introduction to engineering design and research methods: design tools, product conception and development, simulation, optimization, technical reports and presentations, literature survey and undergraduate thesis. Course Information: Extensive computer use required. Prerequisite(s): Consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;493.  Seminar.  1-3 hours.</strong></p>
+<p class="courseblockdesc">
+Topics of mutual interest to a faculty and a group of students. Offered as announced in the Timetable.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;494.  Special Topics in Civil and Materials Engineering.  1-4 hours.</strong></p>
+<p class="courseblockdesc">
+Subject matter varies from section to section and from semester to semester, depending on the specialities of the instructor. Course Information: May be repeated. Students may register in more than one section per term. Prerequisite(s): Consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;496.  Special Problems.  1-4 hours.</strong></p>
+<p class="courseblockdesc">
+Special problems or reading by special arrangement with a faculty member. Course Information: Prerequisite(s): Consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;497.  Capstone Design.  2 or 3 hours.</strong></p>
+<p class="courseblockdesc">
+Application of principles of engineering and design methods to the solution of a large-scale design program. Communicating design solu- tions through verbal and written media. Course Information: Previously listed as CME 397.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;500.  Design of Concrete Plate and Shell Structures.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Practical design of reinforced concrete slabs, walls, and shells of single and double curvatures. Includes barrel roofs, domes, and storage tanks. Course Information: Prerequisite(s): <a href="/search/?P=CME%20310" title="CME&#160;310" class="bubblelink code" onclick="return showCourse(this, 'CME 310');">CME&#160;310</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;501.  Urban Transportation.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Transportation technology, and its relation to travel and location phenomena in large urban areas, as a basis for planning, operating and design of multimodal transportation systems. Course Information:  Prerequisite(s):  Grade of C or better or concurrent registration in <a href="/search/?P=CME%20302" title="CME&#160;302" class="bubblelink code" onclick="return showCourse(this, 'CME 302');">CME&#160;302</a>; and <a href="/search/?P=MATH%20210" title="MATH&#160;210" class="bubblelink code" onclick="return showCourse(this, 'MATH 210');">MATH&#160;210</a> and <a href="/search/?P=ECON%20120" title="ECON&#160;120" class="bubblelink code" onclick="return showCourse(this, 'ECON 120');">ECON&#160;120</a>.  Recommended background:  For transportation and urban planning majors.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;502.  Bridge Design II.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Theory and design procedures related to the analysis and design of modern bridges, using AASHTO code. Includes concrete and steel structures, construction practices and procedures. Course Information: Prerequisite(s): <a href="/search/?P=CME%20406" title="CME&#160;406" class="bubblelink code" onclick="return showCourse(this, 'CME 406');">CME&#160;406</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;503.  Advanced Transportation Demand Analysis.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Advanced quantitative analysis and modeling of transportation demand for planning purposes.  Disaggregate choice models, traveler behavior and values, activity-based and microsimulation approach to demand modeling.  Course Information:  Extensive computer use required.  Prerequisite(s):  <a href="/search/?P=CME%20508" title="CME&#160;508" class="bubblelink code" onclick="return showCourse(this, 'CME 508');">CME&#160;508</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;505.  Advanced Soil Mechanics.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Soil structure, stresses in soil mass, fluid flow, consolidation, drained and undrained shear strength, stressstrain relations, laboratory determination of strength and compressibility of soils. Course Information: Prerequisite(s): <a href="/search/?P=CME%20315" title="CME&#160;315" class="bubblelink code" onclick="return showCourse(this, 'CME 315');">CME&#160;315</a>. Class Schedule Information:  To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;506.  Physical/Chemical Principles in Environmental Systems.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Physical and chemical principles in natural and engineered environmental systems. Environmental process equilibria and rates. Reactor design and mass transfer in environmental systems. Multiphase environmental processes. Course Information: Prerequisite(s): CME 216.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;507.  Sustainable Transportation Systems.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Transportation network analysis, mobile source emission modeling and life-cycle based transportation energy modeling. Course Information: Prerequisite(s): Credit or concurrent registration in <a href="/search/?P=CME%20501" title="CME&#160;501" class="bubblelink code" onclick="return showCourse(this, 'CME 501');">CME&#160;501</a>; and credit or concurrent registration in <a href="/search/?P=CME%20508" title="CME&#160;508" class="bubblelink code" onclick="return showCourse(this, 'CME 508');">CME&#160;508</a>. Recommended Background: Transportation engineering, urban planning, and environmental engineering.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;508.  Urban Travel Forecasting.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Theory and method of forecasting travelers' choices of route, mode, destination, departure time, trip frequency and origin location in congested urban transportation networks. Course Information: Prerequisite(s): <a href="/search/?P=CME%20302" title="CME&#160;302" class="bubblelink code" onclick="return showCourse(this, 'CME 302');">CME&#160;302</a> and <a href="/search/?P=MATH%20210" title="MATH&#160;210" class="bubblelink code" onclick="return showCourse(this, 'MATH 210');">MATH&#160;210</a> and <a href="/search/?P=ECON%20120" title="ECON&#160;120" class="bubblelink code" onclick="return showCourse(this, 'ECON 120');">ECON&#160;120</a>. Class Schedule Information:  To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;509.  Transportation Networks.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Application of constrained optimization methods to the analysis, planning and design of urban transportation networks. Course Information: Prerequisite(s): <a href="/search/?P=CME%20501" title="CME&#160;501" class="bubblelink code" onclick="return showCourse(this, 'CME 501');">CME&#160;501</a> and <a href="/search/?P=ECON%20501" title="ECON&#160;501" class="bubblelink code" onclick="return showCourse(this, 'ECON 501');">ECON&#160;501</a> and MATH 484 and <a href="/search/?P=CME%20508" title="CME&#160;508" class="bubblelink code" onclick="return showCourse(this, 'CME 508');">CME&#160;508</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;510.  Advanced Design of Prestressed Concrete Structures.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Analysis and design of indeterminate prestressed concrete members. Composite beams, torsion, deflections and design and detailing of connections, special topics such as anchorage zone design. Course Information: Prerequisite(s): <a href="/search/?P=CME%20410" title="CME&#160;410" class="bubblelink code" onclick="return showCourse(this, 'CME 410');">CME&#160;410</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;514.  Sustainable Engineering.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Principles of sustainability; sustainability frameworks, indicators, metrics and tools; apply the tools to assess and/or design various engineering applications; case studies; challenges and opportunities. Course Information: Prerequisite(s): Graduate student in the College of Engineering or consent of instructor. Class Schedule Information: To be properly registered, students must enroll in one Lecture and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;516.  Design of Landfills and Impoundments.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Regulatory overview, site selection, waste characterization, design and construction of landfill and impoundment components, operations, performance monitoring, closure plans, long-term impacts and monitoring, economic analysis. Course Information: Prerequisite(s): <a href="/search/?P=CME%20315" title="CME&#160;315" class="bubblelink code" onclick="return showCourse(this, 'CME 315');">CME&#160;315</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;518.  Pollution Prevention Engineering.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Pollution prevention concepts, planning and economics. Improved manufacturing operations and life cycle assessment. Design for the environment, resource conservation and sustainable development. Course Information: Prerequisite(s): CME 216.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;519.  Earthquake Resistant Design for Structural Steel Systems.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Design of steel of buildings for earthquake resistance.  Topics include: behavior of various steel systems subjected to earthquake ground motion, seismic design of steel systems using the current codes, current research and innovative steel systems. Course Information: Prerequisite(s): <a href="/search/?P=CME%20301" title="CME&#160;301" class="bubblelink code" onclick="return showCourse(this, 'CME 301');">CME&#160;301</a>; and <a href="/search/?P=CME%20520" title="CME&#160;520" class="bubblelink code" onclick="return showCourse(this, 'CME 520');">CME&#160;520</a>; or <a href="/search/?P=CME%20494" title="CME&#160;494" class="bubblelink code" onclick="return showCourse(this, 'CME 494');">CME&#160;494</a> or authorized equivalent courses or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;520.  Earthquake Engineering of Concrete Structures.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Earthquake phenomena; response spectrum and design spectrum concepts; dynamic response of structures to earthquakes, methods of analysis; code approach to earthquake resistant design; alternative approaches. Course Information: Prerequisite(s): <a href="/search/?P=CME%20310" title="CME&#160;310" class="bubblelink code" onclick="return showCourse(this, 'CME 310');">CME&#160;310</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;521.  Environmental Microbiology.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Microbial cell structure and function, applications of molecular biology in microbial ecology, biogeochemical cycles. Course Information: Prerequisite(s): Credit or concurrent registration in <a href="/search/?P=CME%20422" title="CME&#160;422" class="bubblelink code" onclick="return showCourse(this, 'CME 422');">CME&#160;422</a>; or consent of the instructor. Recommended background: A basic understanding of biology.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;523.  Environmental Organic Chemistry.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Properties and behavior of environmental organic pollutants. Theory and estimation techniques. Concepts of environmental fate assessment. Applications of fate models. Course Information: Same as <a href="/search/?P=EOHS%20543" title="EOHS&#160;543" class="bubblelink code" onclick="return showCourse(this, 'EOHS 543');">EOHS&#160;543</a>. Prerequisite(s): <a href="/search/?P=EOHS%20440" title="EOHS&#160;440" class="bubblelink code" onclick="return showCourse(this, 'EOHS 440');">EOHS&#160;440</a> or <a href="/search/?P=CME%20411" title="CME&#160;411" class="bubblelink code" onclick="return showCourse(this, 'CME 411');">CME&#160;411</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;524.  Water Chemistry.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Chemical equilibria and kinetic principles as applied to processes occurring in natural and engineered water systems. Course Information: Same as <a href="/search/?P=EOHS%20542" title="EOHS&#160;542" class="bubblelink code" onclick="return showCourse(this, 'EOHS 542');">EOHS&#160;542</a>. Prerequisite(s): <a href="/search/?P=EOHS%20440" title="EOHS&#160;440" class="bubblelink code" onclick="return showCourse(this, 'EOHS 440');">EOHS&#160;440</a> or <a href="/search/?P=CME%20411" title="CME&#160;411" class="bubblelink code" onclick="return showCourse(this, 'CME 411');">CME&#160;411</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;525.  Applied Environmental Biotechnology.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Advanced biological treatment processes for environmental restoration.  Stoichiometry of biological reactions, kinetics, bioremediation, biochemical pathways for pollutant biodegradation, biological nutrient removal. Course Information: Prerequisite(s): Credit or concurrent registration in <a href="/search/?P=CME%20521" title="CME&#160;521" class="bubblelink code" onclick="return showCourse(this, 'CME 521');">CME&#160;521</a>; or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;526.  Air Quality Management II.  2 hours.</strong></p>
+<p class="courseblockdesc">
+Air quality management: Integration of diverse aspects. Data interpretation; standards setting; policy implementation; equipment design; hazardous spill modeling; indoor air pollution; case studies. Course Information: Same as <a href="/search/?P=EOHS%20532" title="EOHS&#160;532" class="bubblelink code" onclick="return showCourse(this, 'EOHS 532');">EOHS&#160;532</a>. Prerequisite(s): EOHS 431 or <a href="/search/?P=CME%20419" title="CME&#160;419" class="bubblelink code" onclick="return showCourse(this, 'CME 419');">CME&#160;419</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;528.  Environ Fate &amp; Trans Processes.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Understanding of the coupled physical transport and biogeochemical reactions of fluids, particles, chemicals, and biota in water, air, and soil environments relevant to environmental engineering and science applications. Course Information: Prerequisite(s): Graduate students in College of Engineering or the Graduate College or consent of instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;530.  Theory of Elasticity II.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Review of complex variable theory. Complex variable formulation of plane problems. Singularities and crack problems. Course Information: Prerequisite(s): <a href="/search/?P=CME%20430" title="CME&#160;430" class="bubblelink code" onclick="return showCourse(this, 'CME 430');">CME&#160;430</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;531.  Nonlinear Continuum Mechanics.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Matrices and general tensors, isotropic tensor functions, representation theorem, kinematics, polar decompositions, Cauchy-Green tensors, Cauchy stress, Piola-Kirchoff stresses, constitutive laws, frame indifference, hyperelastic materials and universal solutions. Course Information: Prerequisite(s): <a href="/search/?P=CME%20430" title="CME&#160;430" class="bubblelink code" onclick="return showCourse(this, 'CME 430');">CME&#160;430</a> or <a href="/search/?P=CME%20431" title="CME&#160;431" class="bubblelink code" onclick="return showCourse(this, 'CME 431');">CME&#160;431</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;533.  Fracture Mechanics and Failure Analysis II.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Thermodynamics of irreversible processes. Damage parameter. Eshelby tensor. Crack-damage interaction. Dynamic crack growth. Quasistatic crack propagation. Crack layer theory. Crack driving forces. Fractographic analysis. Course Information: Prerequisite(s): <a href="/search/?P=CME%20433" title="CME&#160;433" class="bubblelink code" onclick="return showCourse(this, 'CME 433');">CME&#160;433</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;534.  Finite Element Analysis II.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Application of the finite element method to the analysis of complex continuum and structural linear systems. Introduction to error analysis and convergence of the finite element solutions. Course Information: Same as <a href="/search/?P=ME%20534" title="ME&#160;534" class="bubblelink code" onclick="return showCourse(this, 'ME 534');">ME&#160;534</a>. Prerequisite(s): <a href="/search/?P=CME%20434" title="CME&#160;434" class="bubblelink code" onclick="return showCourse(this, 'CME 434');">CME&#160;434</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;535.  Theory of Vibrations II.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Harmonic vibrations; vibrations of a string; vibrations of a beam; vibrations of a membrane; periodic systems; floquet waves; nonlinear vibrations. Course Information: Same as <a href="/search/?P=ME%20535" title="ME&#160;535" class="bubblelink code" onclick="return showCourse(this, 'ME 535');">ME&#160;535</a>. Prerequisite(s): <a href="/search/?P=CME%20435" title="CME&#160;435" class="bubblelink code" onclick="return showCourse(this, 'CME 435');">CME&#160;435</a> or <a href="/search/?P=ME%20408" title="ME&#160;408" class="bubblelink code" onclick="return showCourse(this, 'ME 408');">ME&#160;408</a> or the equivalent.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;536.  Nondestructive Testing of Concrete.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Strength and durability of concrete structures by nondestructive evaluation of the material through acoustic, magnetic, thermal, electrical, optical phenomena; nondestructive methodologies for evaluation of concrete structures. Course Information: Prerequisite(s): <a href="/search/?P=CME%20310" title="CME&#160;310" class="bubblelink code" onclick="return showCourse(this, 'CME 310');">CME&#160;310</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;537.  Plasticity I.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Basic postulates of plasticity. Yield condition and associated flow rules. Isotropic and kinematic hardening rules. Bounding problems. Finite element applications. Slip line theory.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;539.  Elastic Stability.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Elastic stability of columns, beams, and frames. Limitations of elastic theory, plastic buckling. Eigenproblems and their numerical solution. Elastic stability analysis by the finite element method. Course Information: Prerequisite(s): <a href="/search/?P=CME%20432" title="CME&#160;432" class="bubblelink code" onclick="return showCourse(this, 'CME 432');">CME&#160;432</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;541.  Mechanics of Composite Materials.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Anisotropic elastic materials; stress analysis for isotropic materials; Stroh formalism for anisotropic materials; singularities at free-edges; stress analysis in composites; wave propagation in composites. Course Information: Prerequisite(s): <a href="/search/?P=CME%20430" title="CME&#160;430" class="bubblelink code" onclick="return showCourse(this, 'CME 430');">CME&#160;430</a> or equivalent.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;544.  Structural Dynamics.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Formulation and solution methods for time dependent systems. Pertinent numerical techniques and their application to seismic analysis, blast loading and heat transfer problems. Course Information: Prerequisite(s): <a href="/search/?P=CME%20434" title="CME&#160;434" class="bubblelink code" onclick="return showCourse(this, 'CME 434');">CME&#160;434</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;546.  Research Methods for Landscape Ecological and Anthropogenic Processes.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Students will develop the skills to choose and utilize relevant methods and tools used in the study and management of altered natural landscapes to achieve research and management objectives through hands-on interdisciplinary laboratory modules. Course Information: Same as BIOS 546 and <a href="/search/?P=EAES%20546" title="EAES&#160;546" class="bubblelink code" onclick="return showCourse(this, 'EAES 546');">EAES&#160;546</a>. Prerequisite(s): Consent of the instructor. Class Schedule Information: To be properly registered, students must enroll in one Lecture and one Laboratory/Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;547.  Field Experiences in Landscape Ecological and Anthropogenic Processes.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Evaluation of the issues and needs of various landscape restorations and related urban-impacted sites in the Chicago metropolitan area based upon selected readings, site visits and presentations and discussions with the site manager/coordinators. Course Information: Same as BIOS 547 and <a href="/search/?P=EAES%20547" title="EAES&#160;547" class="bubblelink code" onclick="return showCourse(this, 'EAES 547');">EAES&#160;547</a>. Prerequisite(s): Consent of the instructor. Class Schedule Information: To be properly registered, students must enroll in one Lecture/Discussion and one practice.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;548.  Capstone Project in Landscape, Ecological and Anthropogenic Processes.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Interdisciplinary capstone project course that explores a &quot;real-world&quot; environmental issue selected by the students and approved by the faculty. Students will conduct research and analysis collaboratively and develop solutions and recommendations. Course Information: Same as <a href="/search/?P=BIOS%20548" title="BIOS&#160;548" class="bubblelink code" onclick="return showCourse(this, 'BIOS 548');">BIOS&#160;548</a> and <a href="/search/?P=EAES%20548" title="EAES&#160;548" class="bubblelink code" onclick="return showCourse(this, 'EAES 548');">EAES&#160;548</a>. Prerequisite(s): Grade of B or better in BIOS 540 or Grade of B or better in CME 540 or Grade of B or better in EAES 540 or Grade of B or better in <a href="/search/?P=UPP%20555" title="UPP&#160;555" class="bubblelink code" onclick="return showCourse(this, 'UPP 555');">UPP&#160;555</a>; and Grade of B or better in BIOS 546 or Grade of B or better in <a href="/search/?P=CME%20546" title="CME&#160;546" class="bubblelink code" onclick="return showCourse(this, 'CME 546');">CME&#160;546</a> or Grade of B or better in <a href="/search/?P=EAES%20546" title="EAES&#160;546" class="bubblelink code" onclick="return showCourse(this, 'EAES 546');">EAES&#160;546</a> or Grade of B or better in <a href="/search/?P=UPP%20555" title="UPP&#160;555" class="bubblelink code" onclick="return showCourse(this, 'UPP 555');">UPP&#160;555</a>; and Grade of B or better in BIOS 547 or Grade of B or better in <a href="/search/?P=CME%20547" title="CME&#160;547" class="bubblelink code" onclick="return showCourse(this, 'CME 547');">CME&#160;547</a> or Grade of B or better in <a href="/search/?P=EAES%20547" title="EAES&#160;547" class="bubblelink code" onclick="return showCourse(this, 'EAES 547');">EAES&#160;547</a> or Grade of B or better in <a href="/search/?P=UPP%20555" title="UPP&#160;555" class="bubblelink code" onclick="return showCourse(this, 'UPP 555');">UPP&#160;555</a>. Class Schedule Information: To be properly registered, students must enroll in one Lecture-Discussion and one Studio.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;549.  Subsurface Flow and Contaminant Transport Modeling.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Definitions, basic principles, fluid flow in vadose zone, groundwater flow, contaminant transport in vadose zone, contaminant transport in groundwater, numerical models and field implementation, case studies.  Course Information:  Prerequisite(s):  <a href="/search/?P=CME%20415" title="CME&#160;415" class="bubblelink code" onclick="return showCourse(this, 'CME 415');">CME&#160;415</a> or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;550.  Dynamics of Floating Offshore Structures.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Covers environmental loads and dynamics of floating structures in fluid. Course Information: Same as <a href="/search/?P=ME%20550" title="ME&#160;550" class="bubblelink code" onclick="return showCourse(this, 'ME 550');">ME&#160;550</a>. Prerequisite(s): <a href="/search/?P=ME%20210" title="ME&#160;210" class="bubblelink code" onclick="return showCourse(this, 'ME 210');">ME&#160;210</a> and <a href="/search/?P=CME%20211" title="CME&#160;211" class="bubblelink code" onclick="return showCourse(this, 'CME 211');">CME&#160;211</a> and <a href="/search/?P=ME%20211" title="ME&#160;211" class="bubblelink code" onclick="return showCourse(this, 'ME 211');">ME&#160;211</a> and <a href="/search/?P=MATH%20220" title="MATH&#160;220" class="bubblelink code" onclick="return showCourse(this, 'MATH 220');">MATH&#160;220</a>; or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;554.  Nonlinear Finite Element Analysis.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Nonlinear elastostatics, consistent linearization, Newton and modified-Newton methods, line search techniques, arc-length methods. Hyperelasticity, B-bar type methods. Finite deformation elastodynamics, semi-discretization, time-stepping algorithms. Course Information: Prerequisite(s): <a href="/search/?P=CME%20531" title="CME&#160;531" class="bubblelink code" onclick="return showCourse(this, 'CME 531');">CME&#160;531</a> and <a href="/search/?P=CME%20534" title="CME&#160;534" class="bubblelink code" onclick="return showCourse(this, 'CME 534');">CME&#160;534</a>; or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;555.  Transportation Systems Analysis.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Integrate the fundamental tools of systems analysis, including those of microeconomic theory, system optimization, evaluation and decision making into transportation engineering and planning. Course Information: Prerequisite(s): <a href="/search/?P=CME%20302" title="CME&#160;302" class="bubblelink code" onclick="return showCourse(this, 'CME 302');">CME&#160;302</a> or equivalent.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;567.  Principles of Computational Transportation Science.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Builds on the fundamentals of transportation science and emphasizes its high-level computational aspects. Topics covered include database design and theory, spatial and temporal information systems issues and travel modeling. Course Information: Same as <a href="/search/?P=CS%20567" title="CS&#160;567" class="bubblelink code" onclick="return showCourse(this, 'CS 567');">CS&#160;567</a> and <a href="/search/?P=UPP%20567" title="UPP&#160;567" class="bubblelink code" onclick="return showCourse(this, 'UPP 567');">UPP&#160;567</a>. Prerequisite(s): Grade of B or better or concurrent registration in <a href="/search/?P=UPP%20560" title="UPP&#160;560" class="bubblelink code" onclick="return showCourse(this, 'UPP 560');">UPP&#160;560</a>. Open only to Ph.D. students; or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;568.  Kinetics of Reactions and Phase Transformations in Metals.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Nucleation and growth kinetics, order of transformation, grain growth recovery, recrystallization, solidification, phase transformation in solids, precipitation hardening, spinodal decomposition and martensitic transformations. Course Information: Prerequisite(s): Consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;570.  Diffusion Phenomena in Materials.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Diffusion mechanisms in crystals; Kirkendall effect; diffusion in ionic solids; diffusion in gases and liquids; diffusion through porous media; kinetics of diffusion controlled processes.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;572.  Advanced Thermodynamics of Materials.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Treatment of multicomponent system thermodynamics with emphasis on metallurgical process applications. Development of relation between structure of metallic solutions, molten salts, and quasi-chemical models.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;575.  Computational Materials Science and Design.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Atomic forces and interactions in solids, classical molecular mechanics and dynamics, Monte-Carlo methods, ab initio numerical methods, computational materials design, data driven materials science. Course Information: Prerequisite(s): <a href="/search/?P=CME%20470" title="CME&#160;470" class="bubblelink code" onclick="return showCourse(this, 'CME 470');">CME&#160;470</a> or consent of the instructor. Recommended background: Courses in modern physics and quantum theory, i.e. <a href="/search/?P=PHYS%20240" title="PHYS&#160;240" class="bubblelink code" onclick="return showCourse(this, 'PHYS 240');">PHYS&#160;240</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;580.  Infrastructure Management.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Integrated approach to the management of infrastructure systems: design, construction, operations, maintenance and rehabilitation of facilities. Performance of facilities, approaches to management, and available tools and developing technologies. Course Information: Same as <a href="/search/?P=UPP%20569" title="UPP&#160;569" class="bubblelink code" onclick="return showCourse(this, 'UPP 569');">UPP&#160;569</a>. Prerequisite(s): <a href="/search/?P=IE%20201" title="IE&#160;201" class="bubblelink code" onclick="return showCourse(this, 'IE 201');">IE&#160;201</a> or the equivalent or consent of instructor. Recommended background: Familiarity with computer spreadsheets.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;581.  Vadose Zone Hydrology.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Soil physics and biochemical processes.  Flow and contaminants transport in Vadose Zone.  Theory of Soil Water Movement. Course Information: Prerequisite(s): <a href="/search/?P=CME%20311" title="CME&#160;311" class="bubblelink code" onclick="return showCourse(this, 'CME 311');">CME&#160;311</a>; and graduate standing; or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;582.  Lake and Watershed Management.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Lake and watershed processes influencing water quality, diffuse pollution, integrated management and sustainable development of Lotic and Lentic water resources, watershed restoration. Course Information: Prerequisite(s): <a href="/search/?P=CME%20311" title="CME&#160;311" class="bubblelink code" onclick="return showCourse(this, 'CME 311');">CME&#160;311</a>; and graduate or professional standing; or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;583.  Corrosion Engineering.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Corrosion of Metals, Polymers and Ceramics by electrochemical and chemical processes.  Environmental Degradation of Material Properties, Corrosion Control Strategies. Course Information: Prerequisite(s): <a href="/search/?P=CME%20260" title="CME&#160;260" class="bubblelink code" onclick="return showCourse(this, 'CME 260');">CME&#160;260</a> and graduate standing; or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;584.  Ceramic Materials Engineering.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Processing, structure, and properties of engineering ceramic materials.  Applications of ceramics in engineering systems. Course Information: Prerequisite(s): <a href="/search/?P=CME%20260" title="CME&#160;260" class="bubblelink code" onclick="return showCourse(this, 'CME 260');">CME&#160;260</a> and graduate standing; or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;585.  Construction Engineering Project Controls.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Metrics and control mechanisms in construction engineering and management; control systems during construction; Risk and Quality Control; Earned-Value Analysis and Operational effects on Cost and Schedule.  Course Information: Recommended Background: <a href="/search/?P=CME%20485" title="CME&#160;485" class="bubblelink code" onclick="return showCourse(this, 'CME 485');">CME&#160;485</a> - Construction Engineering and Management. COE undergraduate students will need prior permission from the instructor; Other non-COE graduate students shall obtain permission from the instructor prior to enrolling in the course.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;586.  Construction Regulations and Organizational Management.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Construction laws and regulations; construction contractual agreements; Professional Engineering Ethics; Construction Safety and Environmental Considerations; Organizational Management in civil and construction engineering.  Course Information: Recommended Background: <a href="/search/?P=CME%20485" title="CME&#160;485" class="bubblelink code" onclick="return showCourse(this, 'CME 485');">CME&#160;485</a> - Construction Engineering and Management. COE undergraduate students will need prior permission from the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;587.  Construction Estimating and Scheduling.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Cost and schedule estimations per project specifications.  Construction quantity take-offs, cost estimation, scheduling through deterministic and probabilistic methods, resource management, accelerated construction, and schedule updating. Course Information: Prerequisite(s): Consent of the instructor. COE undergraduate students shall obtain permission from the instructor prior to enrolling in the course.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;594.  Advanced Special Topics in Civil and Materials Engineering.  1-4 hours.</strong></p>
+<p class="courseblockdesc">
+Subject matter varies from section to section and from semester to semester, depending on the specialities of the instructor. Course Information: May be repeated. Students may register in more than one section per term. Prerequisite(s): Graduate standing and consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;596.  Independent Study.  1-4 hours.</strong></p>
+<p class="courseblockdesc">
+Special problems of reading by special arrangement with a faculty member. Course Information: Prerequisite(s): Consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;598.  Master's Thesis Research.  0-16 hours.</strong></p>
+<p class="courseblockdesc">
+M.S. thesis work under the supervision of a faculty member. Course Information: Satisfactory/Unsatisfactory grading only. May be repeated. Students may register in more than one section per term.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CME&#160;599.  Ph.D. Thesis Research.  0-16 hours.</strong></p>
+<p class="courseblockdesc">
+Ph.D. thesis work under the supervision of an advisor. Course Information: Satisfactory/Unsatisfactory grading only. May be repeated. Students may register in more than one section per term.<br />
+</p>
 </div>
-</section>
-
-<div class="ms-grid" style="margin-top: 40px;">
-  <div class="ms-row block-wysiwyg">
-    <div class="m-col-1-3">
-        <form method="get" action="/apps/find-people/search">
-
-<div class="form-element"> 
-	<h2>Individuals</h2>
+</div>
 </div>
 
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Last name</span>
-      <input class="text-input" type="text" id="lastname" name="lastname">
-    </label>
-  </div>
+            </div> <!-- end #content -->
+        </div><!--end #content-col -->
+    </div><!-- end #container -->
+</div><!-- end #wrapper --> 
 
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">First name</span>
-      <input class="text-input" type="text" id="firstname" name="firstname">
-    </label>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">NetID</span>
-      <input class="text-input" type="text" id="netid" name="netid">
-    </label>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Department</span>
-      <input class="text-input" type="text" id="department" name="department">
-    </label>
-  </div>
-
-  <button type="submit" class="button">Search</button>
-
-  <p class="form-help-text" style="margin-top: 15px;">
-    <em>
-      <strong>Tip</strong> Typing "Lee" into the Last Name
-      field will retrieve too many entries to print. But, adding
-      "R" to the First Name will narrow the search.
-    </em>
-  </p>
-
-</form>
-
+<div id="footer" class="clearfix" role="contentinfo">
+    <div class="wrap">
+        <div id="foot-logo">
+            <a href="/">University of Illinois at Chicago</a>
+        </div><!-- end #foot-logo -->
+        
+        <p><a href="http://admissions.uic.edu/apply-now">Apply Online</a> | <a href="http://admissions.uic.edu/contact-admissions">Contact Admissions</a> | <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a><br />
+        Having problems accessing this site? <a href="mailto:ccmelby@uic.edu">Contact the Webmaster</a>.<br />
+        &copy; 2018-2019 The Board of Trustees of the University of Illinois</p>
     </div>
+</div><!-- end #footer -->
 
-    <div class="m-col-2-3">
-        <form method="get" action="//www.uic.edu/apps/departments-az/search">
+<a href="#header" id="totop">Back to Top</a>
 
-<div class="form-element">
-<h2>Departments</h2>
+<div id="print-dialog" class="screen noscript">
+	<div class="print-header">
+		Print Options
+	</div>
+	<div class="print-body">
+		<div class="print-option">
+			<div class="option-head">
+				<a href="#" onclick="hidePrintDialog();window.print();return false;">Send Page to Printer</a>
+			</div>
+			<p>
+				<em>Print this page.</em>
+			</p>
+		</div>
+
+
+<div class="print-option"><div class="option-head"><a href="cme.pdf" target="_blank">Download PDF of this page</a></div><p><em>The PDF will include all information unique to this page.</em></p></div>
+<div class="print-option">
+			<div class="option-head">
+				<a href="/pdf/2019-2021_undergraduate.pdf">Download PDF of the entire Undergraduate Catalog</a>
+			</div>
+			<p>
+				<em>All pages in the campus catalog.</em>
+			</p>
+		</div>
+
+	</div>
+	
+	<div class="buttons clearfix">
+		<div class="cancel">
+			<a href="#" onclick="hidePrintDialog(); return false;">Cancel</a>
+		</div>
+	</div>
 </div>
 
-  <div class="form-element">
-<span class="form-element-label">Browse</span>
-<p>
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=A">A</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=B">B</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=C">C</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=D">D</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=E">E</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=F">F</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=G">G</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=H">H</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=I">I</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=J">J</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=K">K</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=L">L</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=M">M</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=N">N</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=O">O</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=P">P</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Q">Q</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=R">R</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=S">S</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=T">T</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=U">U</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=V">V</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=W">W</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=X">X</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Y">Y</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Z">Z</a>&nbsp;
-    </p>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Department</span>
-      <input class="text-input" type="text" id="kwords" name="kwords">
-    </label>
-  </div>
-
-  <input type="hidden" name="dispatch" value="search" />
-  <button type="submit" class="button">Search</button>
-
-  <p class="form-help-text" style="margin-top: 15px;">
-    <em>
-      <strong>Tip</strong>
-      Search for contact information for a specific department
-      or just select Department Search to browse the unit listing.
-    </em>
-  </p>
-</form>
-
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </main>
-    </div>
-  </div>
-</div>
-
-<footer class="footer">
-    <div class="footer-content" style="background-image: url(/images/footer.jpg)">
-        <div class="ms-grid">
-            <div class="ms-row">
-                <div class="s-col-1-2 m-col-1-4 l-col-3-12 footer-brand-address">
-                                            <img class="footer-brand" src="/images/footer-brand-mark.svg" alt="The University of Illinois at Chicago" aria-hidden="true">
-                                        <div class="footer-address">
-                        <div><strong>1200 West Harrison St.</strong></div>
-                        <div>Chicago, Illinois 60607</div>
-                        <div>312-996-7000</div>
-                    </div>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-push-4" aria-label="Tools">
-                    <h1 class="footer-list-title">Tools</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://uic.blackboard.com/">
-        Blackboard
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://accc.uic.edu/service/g-suite">
-        GoogleApps@UIC
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://my.uic.edu/common/">
-        my UIC
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://www.hr.uillinois.edu/pay/">
-        My UI Info: Pay
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://outlook.uic.edu">
-        UIC Outlook Online
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://accc.uic.edu/service/uicalendar">
-        UICalendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/contact-us">
-        Contact the webmaster
-    </a>
-</li>                                            </ul>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12" aria-label="Resources">
-                    <h1 class="footer-list-title">Resources</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://catalog.uic.edu/ucat/academic-calendar/">
-        Academic Calendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/life-at-uic/current-students">
-        Current Students
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://events.uic.edu">
-        Event Calendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/life-at-uic/faculty-and-staff">
-        Faculty and Staff
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://maps.uic.edu">
-        Maps
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://today.uic.edu/uicnews">
-        UIC Today
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/visit-directions">
-        Visit &amp; Directions
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://clery.uic.edu/">
-        Clery Compliance
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://oae.uic.edu/UnlawfulDiscrimination/index.htm">
-        Nondiscrimination Policy
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://oae.uic.edu/TitleIX/index.htm">
-        Title IX: Sexual Misconduct
-    </a>
-</li>                                            </ul>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-pull-4" aria-label="Quick Links">
-                    <h1 class="footer-list-title">Quick Links</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uicflames.com/">
-        Athletics
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uic.edu/apps/departments-az/search">
-        Directory
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://disabilityresources.uic.edu/">
-        Disability Resources
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://emergency.uic.edu">
-        Emergency Information
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/job-opportunities">
-        Job Opportunities
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://library.uic.edu">
-        Library
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uic.edu/depts/dos/studentveteranaffairs.shtml">
-        Veterans Affairs
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://hospital.uillinois.edu">
-        University of Illinois Hospital &amp; Health Sciences System
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/acerca">
-        Acerca de la UIC (en español)
-    </a>
-</li>                                            </ul>
-                </div>
-                <div class="l-col-3-12">
-                    <div class="ms-row">
-                        <div role="navigation" class="s-col-1-2 l-col-1-1" aria-label="Calls to Action">
-                            <ul class="footer-button-list">
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/visit-us" role="button">
-                Book a Visit
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/undergraduate/request-information" role="button">
-                Request Info
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/apply-now" role="button">
-                Apply Now
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="/alumni/give" role="button">
-                Give
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://uicalumni.org/" role="button">
-                Join Alumni Association
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="/about/contact-us" role="button">
-                Contact Us
-            </a>
-        </li>
-    </ul>                        </div>
-                        <div class="s-col-1-2 l-col-1-1 footer-social-icons-cell">
-                            <ul class="social-icons-list">
-            <li>
-            <a href="https://www.facebook.com/uic.edu">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>            </a>
-        </li>
-                <li>
-            <a href="https://twitter.com/thisisuic">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>            </a>
-        </li>
-                <li>
-            <a href="https://instagram.com/uicamiridis/">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>            </a>
-        </li>
-                    <li>
-            <a href="https://www.youtube.com/user/thisisUIC">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>            </a>
-        </li>
-                    <li>
-            <a href="http://uicscience.tumblr.com/">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Tumblr</title><path d="M15.1 24.2c2.8.7 5.6-.9 5.6-.9v-3c-.8.9-2.6 1.1-3.9.7-1.2-.3-1.1-2-1.1-2v-5.7h4.4v-3h-4.4V5.6H13c-.3 5.1-3.8 5-3.8 5v2.7h2v6.8c.1 2.2 1.1 3.4 3.9 4.1z"/></svg>            </a>
-        </li>
-                        <li>
-            <a href="https://news.uic.edu/social-media-directory">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>More links</title><path d="M15 5C9.5 5 5 9.5 5 15s4.5 10 10 10 10-4.5 10-10S20.5 5 15 5zm4.7 11H16v3.7h-2V16h-3.7v-2H14v-3.7h2V14h3.7v2z"/></svg>            </a>
-        </li>
-    </ul>                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-legal">
-        <div class="ms-grid">
-            <div class="ms-row">
-                <div class="l-col-1-2">
-                    &copy; 2016 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span> <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a>
-                </div>
-                <div class="l-col-1-2 campuses">
-                                            <a href="http://www.uillinois.edu/">University of Illinois</a> <span class="pipe-separator">|</span>
-                                            <a href="http://www.illinois.edu/">Urbana-Champaign</a> <span class="pipe-separator">|</span>
-                                            <a href="http://www.uis.edu/">Springfield</a> 
-                                    </div>
-            </div>
-        </div>
-    </div>
-  <a href="https://plus.google.com/+UicEdu" rel="publisher" hidden>UIC on Google+</a>
-</footer>
-
-<link rel="stylesheet" href="/css/main.min.css" media="all"><script src="/js/concat/main.min.js"></script><script src="//www.uic.edu/inc/emergency/alert.js"></script></body></html>
+</body>
+</html>

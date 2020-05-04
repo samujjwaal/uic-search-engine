@@ -1,0 +1,779 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="iso-8859-1">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/apple-touch-icon-152x152-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/apple-touch-icon-120x120-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="images/apple-touch-icon-76x76-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-precomposed.png">
+        <title>Student Assistance and Support Referral Report</title>
+        <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+        <meta name="robots" content="noindex">
+
+        <link rel="stylesheet" href="publicside_assets/selectwoo-1.0.6/selectWoo.css">
+        <link rel="stylesheet" type="text/css" href="publicside_assets/jquery_filer/css/jquery.filer.css">
+        <link rel="stylesheet" type="text/css" href="publicside_assets/jquery_filer/css/themes/jquery.filer-dragdropbox-theme.css">
+        <script src="https://use.typekit.net/feb7wgs.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+                    <script src='https://www.google.com/recaptcha/api.js?render=6LcFy40UAAAAAKwTcs9vYPFiVZVrPA_UD4NRy84H'></script>
+            <script>
+                function refreshToken() {
+                    grecaptcha.execute('6LcFy40UAAAAAKwTcs9vYPFiVZVrPA_UD4NRy84H', {action: 'reportingform'})
+                        .then(function(token) {
+                            // Verify the token on the server.
+                            var recaptchaResponse = document.getElementById('recaptcha_response');
+                            recaptchaResponse.value = token;
+                        });
+                    }
+
+                grecaptcha.ready(function(){
+                    refreshToken();
+                    setInterval(refreshToken, 60000);
+                });
+            </script>
+            
+        <link rel="stylesheet" type="text/css" href="publicside_assets/tipped/tipped.css">
+        <link rel="stylesheet" href="publicside_assets/bower_components/app.css">
+
+                <style type="text/css">
+            body {
+                background-color: #ef3340;
+            }
+            .sectionheader {
+                color: #FFF;
+                background: #00205b;
+            }
+
+            /* Do not group these rules */
+            input[id=date_of_incident]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                color: #595959;
+            }
+            input[id=date_of_incident]:-moz-placeholder { /* Firefox 18- */
+                color: #595959;
+                opacity: 1;
+            }
+            input[id=date_of_incident]::-moz-placeholder { /* Firefox 19+ */
+                color: #595959;
+                opacity: 1;
+            }
+            input[id=date_of_incident]:-ms-input-placeholder { /* IE */
+                color: #595959;
+            }
+            input[id=date_of_incident]::-ms-input-placeholder { /* IE Edge */
+                color: #595959;
+            }
+            
+            .select2-container .select2-choice > .select2-chosen {
+                color: #595959;
+            }
+
+            .jFiler-theme-default .jFiler-input {
+                color: #595959;
+            }
+            .jFiler-theme-default .jFiler-input-button {
+                color: #000;
+            }
+
+            /* 5/2/19 added for SelectWoo */
+            span.max_foundation {
+                border: 1px solid #cacaca !important;
+                border-radius: unset !important;
+                height: 2.4375rem !important;
+                box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1) !important;
+                margin-bottom: 0.8rem !important;
+            }
+            span.max_foundation > span.select2-selection__rendered {
+                color: #0a0a0a !important;
+                line-height: 2.4375rem !important;
+            }
+
+            span.max_foundation > span.select2-selection__arrow {
+                height: 2.2rem !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper" class="row"> <!--big wrap-->
+        <div class="small-12 columns"> <!-- big wrap-->
+        
+        <header>
+        <div class="row" id="reportheader">
+            <div id="reportheader-left">
+                <p><img src="https://maxfs-useast-01.s3.amazonaws.com/uic/logos/UnivofIllinoisChicago.gif?response-cache-control=must-revalidate%2C%20post-check%3D0%2C%20pre-check%3D0&response-content-disposition=inline%3B%20filename%3D%22UnivofIllinoisChicago.gif%22&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJYZPEI2GVPJCSHMQ%2F20200511%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200511T032037Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=b3fe0b188c9843562fddb23a8e9ce411a474c4ef4813833dc54e0d9750c20589" alt="University of Illinois at Chicago Logo"></p>
+            </div>
+            <div id="reportheader-right">
+                <h1>Student Assistance and Support Referral Report</h1><br>
+            </div>
+        </div>
+
+        <div id="main_instructions" class="row">
+            <div class="large-12 columns">
+            	<p><b>BEFORE YOU BEGIN: If this is an EMERGENCY situation, CALL 911 or contact the University of Illinois at Chicago (UIC) Police Department at (312) 355-5555. Call 5-5555 if calling from a campus phone. Do not use this form to report events that present an immediate threat to health or safety.</b><br />
+<br />
+<b><span style="color:red;">Student Assistance and Support Referral Reports will only be reviewed during normal business hours, Monday - Friday 9:00 AM to 5:00 PM, and are not monitored after hours, on weekends, or during official University holidays. While referrals from this form are reviewed by a variety of campus partners working to assist students, it is NOT designed for emergency response situation.</span></b><br />
+<br />
+The Office of the Dean of Students works directly with students to find solutions to situations that are negatively impacting their personal/social lives (Advocacy) and/or their student status at UIC (Ombuds). We coordinate resources and implement a centralized response to provide assistance to individuals while keeping our community healthy and safe. Our services are designed to work with faculty, staff, and students in identifying and addressing student concerns BEFORE they reach a level of violating the Standards of Conduct per the <a href="http://go.uic.edu/DisciplinaryPolicy" target=\"_blank\">Student Disciplinary Policy</a>.<br />
+<br />
+For assistance or consultation while completing this referral report, please contact the Office of the Dean of Students at 312-996-4857.</p>            </div>
+        </div>
+        </header>
+
+        <main>
+        <form name="IR" id="IR" enctype="multipart/form-data" accept-charset="iso-8859-1" method="post" action="" data-abide novalidate>
+            <input type="hidden" name="institution" id="institution" value="UnivofIllinoisChicago">
+            <input type="hidden" name="layout_id" value="2">
+            <input type="hidden" name="x_requestor_ip" value="73.73.60.79">
+            <input type="hidden" name="x_requestor_starttime" value="1589167237.8115">
+            <input type="hidden" name="x_requestor_token" value="6b65886e9f828b59952c1c3257c88bd7">
+            <input type="hidden" name="recaptcha_response" id="recaptcha_response">
+            <!--<label for="g-recaptcha-response-100000">This field appears when the captcha is loaded from outside the Maxient domain. This label is purely to prevent a false positive errors on accessibility evaluation tools like WebAIM's WAVE.</label>-->
+
+            <div data-abide-error class="alert callout" style="display: none;">
+                <p><i class="fi-alert"></i>There are some errors. Please review the highlighted fields.</p>
+            </div>
+            <section>
+                <h2 class="sectionheader">Background Information</h2>
+                <div id="section1">
+                    <div class="column row">
+                        <div class="sectioninstructions"><p></p></div>                    </div>
+                    <div class="row">
+                        <div class="generallabel">
+                            &nbsp;
+                        </div>
+                        <div class="generalinput">
+                                                            <a href="https://cm.maxient.com/reportingform.php?UnivofIllinoisChicago&layout_id=2&promptforauth=true">Enable additional features by logging in.</a>
+                                                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="generallabel">
+                            <label for="reporters_full_name">Your full name:</label>
+                        </div>
+                        <div class="generalinput">
+                            <input type="text" name="reporters_full_name" id="reporters_full_name" class="tooltip" title="" maxlength="80" value="">
+                        </div>
+                    </div>
+                    <div class="row" style="display: none;">
+                        <div class="generallabel">
+                            <label for="reporters_title">Your position/title:</label>
+                        </div>
+                        <div class="generalinput">
+                            <input type="text" name="reporters_title" id="reporters_title" class="tooltip" title="" maxlength="80" value="">
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="generallabel">
+                            <label for="reporters_phone_number">Your phone number:</label>
+                        </div>
+                        <div class="smallerinput">
+                            <input type="text" name="reporters_phone_number" id="reporters_phone_number"
+                            class="tooltip" title="" maxlength="20" value="">
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="generallabel">
+                            <label for="reporters_email_address">Your email address:</label>
+                        </div>
+                        <div class="generalinput">
+                            <input type="email" name="reporters_email_address" id="reporters_email_address" class="tooltip" title="" maxlength="80" value="">
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="generallabel" >
+                            <label for="reporters_physical_address">Your physical address:</label>
+                        </div>
+                        <div class="generalinput">
+                            <input type="text" name="reporters_physical_address" id="reporters_physical_address" class="tooltip" title="" maxlength="80" value="">
+                        </div>
+                    </div>
+                                            <input type="hidden" name="nature" id="nature" value=".">
+                                                <input type="hidden" name="urgency" id="urgency" value=".">
+                                                <div class="row">
+                            <div class="generallabel">
+                                <label for="date_of_incident" id="lbl_date_of_incident">Date of incident<span class="required">(Required)</span></label>
+                            </div>
+                            <div class="smallerinput">
+                                <input autocomplete="off" type="date" name="date_of_incident" id="date_of_incident" class="tooltip" title="" required pattern="(?:19|20)[0-9]{2}-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-9])|(?:(?!02)(?:0[1-9]|1[0-2])-(?:30))|(?:(?:0[13578]|1[02])-31))" max="2020-05-10" maxlength="10">
+                                <span class="form-error">
+                                  This field is required.                                </span>
+                            </div>
+                        </div>
+                                            
+                    <div class="row" >
+                        <div class="generallabel">
+                            <label for="time_of_incident" id="lbl_time_of_incident">Time of incident:</label>
+                        </div>
+                        <div class="smallerinput">
+                            <input autocomplete="off" type="text" name="time_of_incident" id="time_of_incident" class="tooltip" aria-labelledby="lbl_time_of_incident" title="" maxlength="10" value="">
+                        </div>
+                    </div>
+                                            <input type="hidden" name="location_of_incident" id="location_of_incident" value=".">
+                                            <div class="row" >
+                        <div class="generallabel">
+                            <label for="location_of_incident_specific">Specific location:</label>
+                        </div>
+                        <div class="generalinput">
+                            <input autocomplete="off" type="text" name="location_of_incident_specific" id="location_of_incident_specific" class="tooltip" title="" size="40" maxlength="100" value="" style="position:relative;">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+                            <section>
+                    <h2 class="sectionheader">Person(s) of Concern</h2>
+                    <div id="section3">
+                        <div class="column row">
+                            <div class="sectioninstructions"><p>Please provide as much information as possible about the student who may be exhibiting concerning behavior.</p></div>                        </div>
+
+                        <div id="involvedPersons">
+                            <div class="personrow clonedInput" id="personrow0">
+                                <fieldset>
+                                    <legend class="show-for-sr legend_person">Involved party 1</legend>
+                                    <div class="row small-up-1 medium-up-2 large-up-4">
+                                                                                    <div class="column">
+                                                <label for="person_0" class="label_person">Name or Organization                                                                                                </label>
+                                                <input autocomplete="off" type="text" name="person[]" id="person_0" class="input_person" maxlength="50" value="">
+                                            </div>
+                                                                                        <div class="column">
+                                                <label for="gender_0" class="label_gender">Select Gender</label>
+                                                <select autocomplete="off" name="gender[]" class="gender select_gender" id="gender_0">
+                                                    <option value=""></option>
+                                                    <option value="Male">Male</option><option value="Female">Female</option><option value="Transgender">Transgender</option><option value="Gender-Fluid">Gender-Fluid</option><option value="Student Organization">Student Organization</option><option value="Prefer not to Answer">Prefer not to Answer</option>                                                </select>
+                                            </div>
+                                                                                        <div class="column">
+                                                <label for="sid_0" class="label_sid">UIN Number</label>
+                                                <input autocomplete="off" type="text" name="sid[]" id="sid_0" class="input_sid" maxlength=30 value="">
+                                            </div>
+                                                                                        <div class="column">
+                                                <label for="dob_0" class="label_dob">DOB (YYYY-MM-DD)</label>
+                                                <input autocomplete="off" type="text" name="dob[]" id="dob_0" class="input_dob" maxlength="10" value="">
+                                            </div>
+                                                                                        <div class="column">
+                                                <label for="phone_0" class="label_phone">Phone number</label>
+                                                <input autocomplete="off" type="text" name="phone[]" id="phone_0" class="input_phone" maxlength="50" value="">
+                                            </div>
+                                                                                        <div class="column">
+                                                <label for="email_0" class="label_email">Email address</label>
+                                                <input autocomplete="off" type="email" name="email[]" id="email_0" maxlength="50" class="input_email" value="">
+                                            </div>
+                                                                                </div>
+                                </fieldset>
+                            </div>
+                        </div>
+
+                                                    <input type="button" id="btnAdd" class="button" value="Add another party">
+                            <input type="button" id="btnDel" class="button hide" value="Remove last party">
+                                                </div>
+                </section>
+                
+                            <section>
+                    <h2 class="sectionheader">Reason(s) for Report</h2>
+                    <div id="addquest">
+                        <div class="sectioninstructions"><p>This form can be used for self referral or for the purpose of reporting a concern about behavior of others. Please use the checklist below and, in the narrative section, provide detailed information regarding the concern you are reporting.</p></div>                        <input type="hidden" name="numberOfAdditionalQuestions" value="13">
+
+                                                    <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <fieldset class="checkbox-group" data-validator-min="1">
+                                            <legend class="addquest_label"><b>ACADEMIC CONCERNS</b></legend>
+                                            <div class="row">
+                                                <div class="answers">
+                                                    <div class="large-4 columns ">
+                                                                                                                    <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="Deterioration in quality of work"   data-validator="checkbox_limit">Deterioration in quality of work</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="Repeated absences from class or work"   data-validator="checkbox_limit">Repeated absences from class or work</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="Signs of distress"   data-validator="checkbox_limit">Signs of distress</label>
+                                                            </div>
+                                                                                                                                </div>
+                                                                    <div class="large-4 columns ">
+                                                                                                                                <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="Disorganized or erratic performance or behavior"   data-validator="checkbox_limit">Disorganized or erratic performance or behavior</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="Person sending disturbing or threatening emails"   data-validator="checkbox_limit">Person sending disturbing or threatening emails</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="Disturbed writing"   data-validator="checkbox_limit">Disturbed writing</label>
+                                                            </div>
+                                                                                                                                </div>
+                                                                    <div class="large-4 columns ">
+                                                                                                                                <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[1][answer][]" value="Issues with Faculty Member"   data-validator="checkbox_limit">Issues with Faculty Member</label>
+                                                            </div>
+                                                                                                                </div>
+                                                </div>
+                                            </div>
+                                            <span class="form-error addquest_error">You must make at least one selection.</span>
+                                        </fieldset>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <fieldset class="checkbox-group" data-validator-min="1">
+                                            <legend class="addquest_label"><b>BEHAVIOR CONCERNS</b></legend>
+                                            <div class="row">
+                                                <div class="answers">
+                                                    <div class="large-4 columns ">
+                                                                                                                    <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[2][answer][]" value="Adjustment"   data-validator="checkbox_limit">Adjustment</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[2][answer][]" value="Aggression"   data-validator="checkbox_limit">Aggression</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[2][answer][]" value="Disturbed Writing/Discussion"   data-validator="checkbox_limit">Disturbed Writing/Discussion</label>
+                                                            </div>
+                                                                                                                                </div>
+                                                                    <div class="large-4 columns ">
+                                                                                                                                <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[2][answer][]" value="Hostility/Inappropriate Display of Anger"   data-validator="checkbox_limit">Hostility/Inappropriate Display of Anger</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[2][answer][]" value="Intimidation"   data-validator="checkbox_limit">Intimidation</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[2][answer][]" value="Missing Student (after multiple attempts at contact)"   data-validator="checkbox_limit">Missing Student (after multiple attempts at contact)</label>
+                                                            </div>
+                                                                                                                                </div>
+                                                                    <div class="large-4 columns ">
+                                                                                                                                <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[2][answer][]" value="Significant Change in Appearance/Behaviors"   data-validator="checkbox_limit">Significant Change in Appearance/Behaviors</label>
+                                                            </div>
+                                                                                                                </div>
+                                                </div>
+                                            </div>
+                                            <span class="form-error addquest_error">You must make at least one selection.</span>
+                                        </fieldset>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <fieldset class="checkbox-group" data-validator-min="1">
+                                            <legend class="addquest_label"><b>BIAS CONCERNS</b></legend>
+                                            <div class="row">
+                                                <div class="answers">
+                                                    <div class="large-4 columns ">
+                                                                                                                    <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[3][answer][]" value="Threats (Direct or Veiled)"   data-validator="checkbox_limit">Threats (Direct or Veiled)</label>
+                                                            </div>
+                                                                                                                                </div>
+                                                                    <div class="large-4 columns ">
+                                                                                                                                <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[3][answer][]" value="Harassment"   data-validator="checkbox_limit">Harassment</label>
+                                                            </div>
+                                                                                                                                </div>
+                                                                    <div class="large-4 columns ">
+                                                                                                                                <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[3][answer][]" value="Discrimination"   data-validator="checkbox_limit">Discrimination</label>
+                                                            </div>
+                                                                                                                </div>
+                                                </div>
+                                            </div>
+                                            <span class="form-error addquest_error">You must make at least one selection.</span>
+                                        </fieldset>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <fieldset class="checkbox-group" data-validator-min="1">
+                                            <legend class="addquest_label"><b>PERSONAL CONCERNS</b></legend>
+                                            <div class="row">
+                                                <div class="answers">
+                                                    <div class="large-4 columns ">
+                                                                                                                    <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[4][answer][]" value="Dating/Domestic Violence"   data-validator="checkbox_limit">Dating/Domestic Violence</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[4][answer][]" value="Family Issues"   data-validator="checkbox_limit">Family Issues</label>
+                                                            </div>
+                                                                                                                                </div>
+                                                                    <div class="large-4 columns ">
+                                                                                                                                <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[4][answer][]" value="Homelessness"   data-validator="checkbox_limit">Homelessness</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[4][answer][]" value="Overly Stressed/Dealing with Multiple Stressors"   data-validator="checkbox_limit">Overly Stressed/Dealing with Multiple Stressors</label>
+                                                            </div>
+                                                                                                                                </div>
+                                                                    <div class="large-4 columns ">
+                                                                                                                                <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[4][answer][]" value="Roommate Conflicts"   data-validator="checkbox_limit">Roommate Conflicts</label>
+                                                            </div>
+                                                                                                                </div>
+                                                </div>
+                                            </div>
+                                            <span class="form-error addquest_error">You must make at least one selection.</span>
+                                        </fieldset>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <fieldset class="checkbox-group" data-validator-min="1">
+                                            <legend class="addquest_label"><b>MENTAL HEALTH CONCERNS</b></legend>
+                                            <div class="row">
+                                                <div class="answers">
+                                                    <div class="large-4 columns ">
+                                                                                                                    <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[5][answer][]" value="Physical Self-Harm"   data-validator="checkbox_limit">Physical Self-Harm</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[5][answer][]" value="Suicide Attempts or Remarks"   data-validator="checkbox_limit">Suicide Attempts or Remarks</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[5][answer][]" value="Depression, Excessive Anxiety"   data-validator="checkbox_limit">Depression, Excessive Anxiety</label>
+                                                            </div>
+                                                                                                                                </div>
+                                                                    <div class="large-4 columns ">
+                                                                                                                                <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[5][answer][]" value="Withdrawal from Social Groups"   data-validator="checkbox_limit">Withdrawal from Social Groups</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[5][answer][]" value="Disturbed Eating Behaviors"   data-validator="checkbox_limit">Disturbed Eating Behaviors</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[5][answer][]" value="Heightened Emotional Distress"   data-validator="checkbox_limit">Heightened Emotional Distress</label>
+                                                            </div>
+                                                                                                                                </div>
+                                                                    <div class="large-4 columns ">
+                                                                                                                                <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[5][answer][]" value="Extreme Mood Swings"   data-validator="checkbox_limit">Extreme Mood Swings</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[5][answer][]" value="Negative Emotions"   data-validator="checkbox_limit">Negative Emotions</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[5][answer][]" value="Other (Elaborate in "Description/Narrative")"   data-validator="checkbox_limit">Other (Elaborate in "Description/Narrative")</label>
+                                                            </div>
+                                                                                                                </div>
+                                                </div>
+                                            </div>
+                                            <span class="form-error addquest_error">You must make at least one selection.</span>
+                                        </fieldset>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <label class="addquest_label" for="aq[6][answer]"><b>Description/Narrative</b>
+<span style="color:red;">Please describe, as objectively as possible, the details of the incident(s) and the behaviors observed. Focus on the Who, What, Why, When, and How. Indicate specific words, phrases, and interactions. If this is a welfare concern, please describe what observations are causing you concern and/or any changes in the individual's behavior that prompted this report. PLEASE INCLUDE THE NAME(S) OR PERSONNEL YOU HAVE CONTACTED AND ANY ACTIONS TAKEN.</span><span class="required">(Required)</span></label>
+                                        <textarea autocomplete="off" spellcheck="true" name="aq[6][answer]" id="aq[6][answer]" class="answers" required rows="5"></textarea>
+                                        <span class="form-error addquest_error">This field is required.</span>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <label class="addquest_label" for="aq[7][answer]">Have you addressed your concern(s) with the individual? If so, please describe the conversation and outcome.</label>
+                                        <textarea autocomplete="off" spellcheck="true" name="aq[7][answer]" id="aq[7][answer]" class="answers"  rows="5"></textarea>
+                                        <span class="form-error addquest_error">This field is required.</span>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <label class="addquest_label" for="aq[8][answer]">Please list any other University community members (e.g., faculty, staff, and students), departments, or outside agencies that were contacted about the concerns you have shared</label>
+                                        <input autocomplete="off" type="text" name="aq[8][answer]" id="aq[8][answer]" class="answers" value=""  maxlength="100">
+                                        <span class="form-error addquest_error">This field is required.</span>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <fieldset class="checkbox-group" data-validator-min="1">
+                                            <legend class="addquest_label">What is the relationship between you and the student of concern (Select all that apply)?</legend>
+                                            <div class="row">
+                                                <div class="answers">
+                                                    <div class="large-4 columns ">
+                                                                                                                    <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[9][answer][]" value="Academic Advisor"   data-validator="checkbox_limit">Academic Advisor</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[9][answer][]" value="Athletic Coach"   data-validator="checkbox_limit">Athletic Coach</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[9][answer][]" value="Classmate"   data-validator="checkbox_limit">Classmate</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[9][answer][]" value="Roommate"   data-validator="checkbox_limit">Roommate</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[9][answer][]" value="Friend"   data-validator="checkbox_limit">Friend</label>
+                                                            </div>
+                                                                                                                                </div>
+                                                                    <div class="large-4 columns ">
+                                                                                                                                <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[9][answer][]" value="Faculty Member"   data-validator="checkbox_limit">Faculty Member</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[9][answer][]" value="Staff Member"   data-validator="checkbox_limit">Staff Member</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[9][answer][]" value="Mentor"   data-validator="checkbox_limit">Mentor</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[9][answer][]" value="Parent/Family Member"   data-validator="checkbox_limit">Parent/Family Member</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[9][answer][]" value="Self (You)"   data-validator="checkbox_limit">Self (You)</label>
+                                                            </div>
+                                                                                                                                </div>
+                                                                    <div class="large-4 columns ">
+                                                                                                                                <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[9][answer][]" value="Supervisor"   data-validator="checkbox_limit">Supervisor</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[9][answer][]" value="Success Coach"   data-validator="checkbox_limit">Success Coach</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[9][answer][]" value="Other (Specify in Narrative Section)"   data-validator="checkbox_limit">Other (Specify in Narrative Section)</label>
+                                                            </div>
+                                                                                                                </div>
+                                                </div>
+                                            </div>
+                                            <span class="form-error addquest_error">You must make at least one selection.</span>
+                                        </fieldset>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <label class="addquest_label" for="aq[10][answer]">How long has the described behavior been going on?</label>
+                                        <input autocomplete="off" type="text" name="aq[10][answer]" id="aq[10][answer]" class="answers" value=""  maxlength="100">
+                                        <span class="form-error addquest_error">This field is required.</span>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <label class="addquest_label" for="aq[11][answer]">What is the resolution or set of resolutions you are seeking as a result of submitting this report?<span class="required">(Required)</span></label>
+                                        <textarea autocomplete="off" spellcheck="true" name="aq[11][answer]" id="aq[11][answer]" class="answers" required rows="5"></textarea>
+                                        <span class="form-error addquest_error">This field is required.</span>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <fieldset class="checkbox-group" data-validator-min="1">
+                                            <legend class="addquest_label">How would you prefer one of our team members from the Office of the Dean of Students to follow up with you?<span class="required">(Required)</span></legend>
+                                            <div class="row">
+                                                <div class="answers">
+                                                    <div class="large-4 columns ">
+                                                                                                                    <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[12][answer][]" value="No follow up"  required data-validator="checkbox_limit">No follow up</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[12][answer][]" value="Phone"  required data-validator="checkbox_limit">Phone</label>
+                                                            </div>
+                                                                                                                                </div>
+                                                                    <div class="large-4 columns end">
+                                                                                                                                <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[12][answer][]" value="E-mail"  required data-validator="checkbox_limit">E-mail</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input autocomplete="off" type="checkbox" name="aq[12][answer][]" value="In person meeting with a staff member from DOS"  required data-validator="checkbox_limit">In person meeting with a staff member from DOS</label>
+                                                            </div>
+                                                                                                                </div>
+                                                </div>
+                                            </div>
+                                            <span class="form-error addquest_error">You must make at least one selection.</span>
+                                        </fieldset>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <fieldset class="checkbox-group" data-validator-min="1">
+                                            <legend class="addquest_label">I understand that this report will only be reviewed during normal business hours, Monday - Friday 9:00 AM to 5:00 PM, and are not monitored after hours, on weekends, or during official University holidays. If I believe there is an immediate risk of harm to self or others, I will contact UICPD at (312) 355-5555 prior to submitting this report.<span class="required">(Required)</span></legend>
+                                            <div class="answers">
+                                                                                                    <label class="label_radiocheck">
+                                                        <input autocomplete="off" type="checkbox" name="aq[13][answer][]" value="Yes, I understand"  required data-validator="checkbox_limit">Yes, I understand                                                    </label>
+                                                                                                </div>
+                                            <span class="form-error addquest_error">You must make at least one selection.</span>
+                                        </fieldset>
+                                                                        </div>
+                            </div>
+                                                </div>
+                </section>
+                                <section>
+                    <h2 class="sectionheader">Supporting Documentation</h2>
+                    <div id="supportdocs">
+                        <div class="column row">
+                            <div class="sectioninstructions" id="uploadFilesInstructions">
+                                <p>
+                                    <p>Please upload any documents, pictures, videos, or screenshots that would help us better understand the matter you are referring. 1GB maximum total size.<br><strong>Attachments require time to upload, so please be patient after submitting this form.</strong></p>                                </p>
+                            </div>
+                        </div>
+                        <div class="column row">
+                            <input tabindex="-1" type="file" name="uploadedFiles[]" id="filer_input" aria-labelledby="uploadFilesInstructions" multiple="multiple">
+                        </div>
+                    </div>
+                </section>
+                
+            <section>
+                <div class="row">
+                    <div class="small-12 columns text-center" id="submit_btn">
+                        <h2 class="show-for-sr sectionheader">Submission</h2>
+                                                    <p><input autocomplete="off" type="checkbox" id="sendCopyToAuthor" name="sendCopyToAuthor" value="Yes"
+                            ><label for="sendCopyToAuthor">Email me a copy of this report</label></p>
+                                                    <input autocomplete="off" class="large button" type="submit" name="submit" id="submit" value="Submit report">
+                    </div>
+                </div>
+            </section>
+            <div class="row">
+                <div class="small-12 columns">
+                    <div data-abide-error class="alert callout" style="display: none;">
+                        <p><i class="fi-alert"></i>There are some errors. Please review the highlighted fields.</p>
+                    </div>
+                </div>
+            </div>
+
+            </form>
+    </main>
+
+</div><!-- big wrap column-->
+</div><!-- big wrap -->
+<script src="publicside_assets/bower_components/jquery/dist/jquery.js"></script>
+<script src="publicside_assets/bower_components/what-input/what-input.js"></script>
+<script src="publicside_assets/bower_components/foundation-sites/dist/foundation.min.js"></script>
+<script src="publicside_assets/bower_components/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/timepicker@1.11.14/jquery.timepicker.min.js"></script>
+<script type="text/javascript" src="publicside_assets/tipped/tipped.js"></script>
+<script type="text/javascript" src="publicside_assets/cloneform/clone-form-td2.js"></script>
+<script src="publicside_assets/selectwoo-1.0.6/selectWoo.full.AHmods.min.js"></script>
+<script src="publicside_assets/jquery_filer/js/jquery.filer.AHmods.min.js"></script>
+<script src="https://use.fontawesome.com/b22e7499d6.js"></script>
+
+<script type="text/javascript">
+    function ShowHide(elementId)
+    {
+        var element = document.getElementById(elementId);
+        if(element.style.display != "block")
+            element.style.display = "block";
+        else
+            element.style.display = "none";
+    }
+    function ShowPersonRow(elementId)
+    {
+        var element = document.getElementById(elementId);
+        element.style.display = ""; // using table-row here breaks IE6/7
+    }
+    function ShowLinkRow(elementId)
+    {
+        var element = document.getElementById(elementId);
+        element.style.display = ""; // using table-row here breaks IE6/7
+    }
+    function HideLinkRow(elementId)
+    {
+        var element = document.getElementById(elementId);
+        element.style.display = "none";
+    }
+
+    Tipped.create(".tooltip", {
+        position: 'right',
+        showOn: 'focus',
+        hideOn: 'blur'
+    });
+
+    
+    /* Must follow select2 script because of id change */
+    Tipped.create('#s2id_location_of_incident', '', {
+         position: 'right'
+    });
+
+    $('#time_of_incident').timepicker({
+        'scrollDefault': 'now',
+        'step': '15',
+        'timeFormat': 'g:i A'
+    });
+
+    // jquery_filer for file uploads
+    $('#filer_input').filer({
+        limit: 30,
+        maxSize: 1000,
+        changeInput: true,
+        showThumbs: true,
+        addMore: true,
+        captions: {
+            button: "Choose Files",
+            feedback: "Choose files to upload",
+            feedback2: "file(s) selected",
+            drop: "Drop file here to upload",
+            removeConfirmation: "Are you sure you want to remove this file?",
+            errors: {
+                filesLimit: "Only {{fi-limit}} files are allowed to be uploaded.",
+                filesType: "This type of file cannot be uploaded.",
+                filesSize: "{{fi-name}} is too large. Your total upload cannot exceed {{fi-maxSize}} MB.",
+                filesSizeAll: "The files you've chosen are too large. Your total upload cannot exceed {{fi-maxSize}} MB."
+            }
+        }
+    });
+
+    $(".select2-selection").addClass("max_foundation");
+
+    /* Makes Abide work on select2 - triggers after the native scripts work */
+    $("#location_of_incident").on("invalid.zf.abide", function(ev,el) {
+        if($("#location_of_incident").hasClass("is-invalid-input"));
+            $("#lbl_location_of_incident").addClass("is-invalid-label");
+    });
+    $("#location_of_incident").on("valid.zf.abide", function(ev,frm) {
+        if($("#location_of_incident").hasClass("is-invalid-input"));
+            $("#lbl_location_of_incident").removeClass("is-invalid-label");
+    });
+
+    /* Makes Abide work on radio buttons - triggers after the native scripts work */
+    $(".radio-group").on("invalid.zf.abide", function(ev,el) {
+        $(this).find("input").each(function (i) {
+            if($(this).hasClass("is-invalid-input")) {
+                $(this).closest("fieldset").find("legend").addClass("is-invalid-label");
+                $(this).closest("fieldset").find('span.form-error').addClass("is-visible");
+            }
+        });
+    });
+    $(".radio-group").on("valid.zf.abide", function(ev,frm) {
+        $(this).find("input").each(function (i) {
+            if(!$(this).hasClass("is-invalid-input")) {
+                $(this).closest("fieldset").find("legend").removeClass("is-invalid-label");
+                $(this).closest("fieldset").find('span.form-error').removeClass("is-visible");
+            }
+        });
+    });
+
+    $('input, textarea, select').on("change.zf.abide", function(ev,elem) {
+        var invalid_fields = $('form').find('[data-invalid]');
+        if (invalid_fields.length == 0)
+            $('.alert.callout').addClass('hide');
+        else
+            $('.alert.callout').removeClass('hide');
+    });
+
+    /* Makes form scroll to first invalid entry */
+    $('form').on('forminvalid.zf.abide', function () {
+        var invalid_fields = $(this).find('[data-invalid]');
+
+        $('html, body').animate({
+            scrollTop: $(invalid_fields[0]).offset().top - 40
+        }, 1000, function() {
+            $(invalid_fields[0]).focus();  /*for putting focus on the first invalid field*/
+        });
+    });
+
+    // 11/18/19: HTML5 input type=date detection
+    var isDateSupported = function () {
+        var input = document.createElement('input');
+        var value = 'a';
+        input.setAttribute('type', 'date');
+        input.setAttribute('value', value);
+        return (input.value !== value);
+    };
+    if (isDateSupported()) {
+        $('#lbl_date_of_incident').append('<span class="show-for-sr">Format is MM/DD/YYYY.</span>');
+    }
+    if (!isDateSupported()) {
+        $('#lbl_date_of_incident').append('<br>Format is YYYY-MM-DD.');
+    }
+
+
+</script>
+</body>
+</html>

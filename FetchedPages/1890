@@ -1,896 +1,3994 @@
-<!DOCTYPE html><html lang="en"><head><title>UIC Directory</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width"><style>.interior-page-intro .interior-page-title{ color: rgb(54, 54, 54); font-size: 36px; font-weight: 700; line-height: 1; margin-bottom: 12px; }
-.interior-section-header, .interior-page-intro .interior-page-subtitle{ color: rgb(54, 54, 54); font-size: 24px; font-weight: 400; line-height: 1.2; }
-body{ font-family: Theinhardt, Arial, sans-serif; }
-.body-text, .campus-reminders .reminder-text, .category-link-list .text-cell, .error-help, .text-input, .text-area, .number-input, .tel-input, .email-input, .form-help-text, .highlight .content-cell, .home-lists .home-list-blurb, .interior-page-intro .interior-page-text, .key-message-block .message-cell .text, .landing-page-intro .intro-text, .link-block .text, .link-list .text-cell, .text-block-with-inline-image .intro-row, .text-block-with-inline-image .text-and-image-row, .text-block-with-inline-image .link-list, .text-block-with-large-image .link-list, .topic-block-list .text-cell, .topic-block-list .topic-block-text-cell, .block-wysiwyg { color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1.36; }
-.body-text p, .campus-reminders .reminder-text p, .category-link-list .text-cell p, .error-help p, .text-input p, .text-area p, .number-input p, .tel-input p, .email-input p, .form-help-text p, .highlight .content-cell p, .home-lists .home-list-blurb p, .interior-page-intro .interior-page-text p, .key-message-block .message-cell .text p, .landing-page-intro .intro-text p, .link-block .text p, .link-list .text-cell p, .text-block-with-inline-image .intro-row p, .text-block-with-inline-image .text-and-image-row p, .text-block-with-inline-image .link-list p, .text-block-with-large-image .link-list p, .topic-block-list .text-cell p, .topic-block-list .topic-block-text-cell p, .block-wysiwyg p { margin-bottom: 1em; }
-.footer-list-item{ margin-bottom: 15px; }
-.footer-list-item:last-child{ margin-bottom: 0px; }
-.footer-list-link{ color: rgb(255, 255, 255); font-size: 14px; text-decoration: none; }
-.footer .footer-legal a{ color: rgb(153, 153, 153); text-decoration: none; }
-.footer .footer-legal .pipe-separator{ margin-top: 0em; margin-right: 0.5em; margin-bottom: 0em; margin-left: 0.5em; }
-.footer .footer-legal .campuses{ text-align: right; }
-.social-icons-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; overflow-x: hidden; overflow-y: hidden; }
-@media (min-width){
-.social-icons-list{ margin-top: 30px; }
-}
-.social-icons-list a{ text-decoration: none; }
-.social-icons-list svg{ fill: #ffffff; height: 30px; width: 30px; }
-.social-icons-list li{ border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; display: block; float: left; height: 30px; margin-top: 0px; margin-right: 10px; margin-bottom: 10px; margin-left: 0px; width: 30px; }
-.social-icons-list li:nth-of-type(5n+1){ clear: left; }
-.ms-grid, .ms-row, [class*="col-"]{ box-sizing: border-box; }
-.ms-grid{ display: block; position: relative; width: 100%; margin-left: auto; margin-right: auto; max-width: 1400px; padding-left: 12px; padding-right: 12px; }
-.ms-grid .ms-row{ }
-.ms-grid .ms-row::after, .ms-grid [class*="col-"]::after{ content: ''; display: table; clear: both; }
-[class*="col-"]{ float: left; width: 100%; position: relative; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; }
-@media screen and (min-width: 540px){
-.ms-grid{ padding-left: 24px; padding-right: 24px; }
-}
-@media screen and (min-width: 768px){
-.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
-}
-@media screen and (min-width: 2000px){
-.ms-grid .ms-row{ }
-.ms-grid .ms-row > [class*="col-"]{ }
-}
-@media screen and (min-width: 540px){
-.s-col-1-2{ width: 50%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-1-2{ width: 50%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-1-3{ width: 33.3333333333%; }
-}
-@media screen and (min-width: 768px){
-.m-col-1-4{ width: 25%; }
-.m-col-3-4{ width: 75%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-2-12{ width: 16.6666666667%; }
-.l-col-3-12{ width: 25%; }
-}
-@media screen and (min-width: 1084px){
-.l-col-12-push-4{ left: 33.3333333333%; right: auto; }
-.l-col-12-pull-4{ right: 33.3333333333%; left: auto; }
-}
-*{ border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; box-sizing: border-box; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; }
-img{ vertical-align: bottom; }
-@media (min-width: 768px){
-.main{ margin-top: 40px; }
-}
-.ms-grid{ max-width: 1080px; }
-@media (max-width: 767px){
-.ms-grid{ padding-left: 20px; padding-right: 20px; overflow-x: hidden; overflow-y: hidden; }
-}
-@media (max-width: 1084px) and (min-width: 768px){
-.ms-grid{ padding-left: 30px; padding-right: 30px; width: 100%; }
-}
-@media (min-width: 1140px){
-.ms-grid{ padding-left: 0px; padding-right: 0px; }
-}
-.component{ margin-bottom: 80px; }
-.interior-section-header{ font-size: 30px; }
-.subhead{ color: rgb(54, 54, 54); font-size: 18px; font-weight: 700; }
-body{ background-color: rgb(248, 248, 248); }
-.breadcrumbs{ line-height: 14px; margin-bottom: 34px; }
-@media (min-width: 768px){
-.breadcrumbs .red-circle{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(213, 0, 50); border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; display: inline-block; height: 14px; width: 14px; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
-}
-.breadcrumbs .first-breadcrumb-arrow{ display: none; }
-@media (min-width: 768px){
-.breadcrumbs .first-breadcrumb-arrow{ display: inline; }
-}
-.breadcrumbs .crumb-list{ display: inline; list-style-position: inside; list-style-type: none; list-style-image: initial; }
-@media (max-width: 768px){
-.breadcrumbs .crumb-list{ line-height: 1.4; }
-}
-.breadcrumbs .crumb-item{ display: inline-block; }
-.breadcrumbs .crumb-anchor{ color: rgb(54, 54, 54); font-size: 12px; font-weight: 500; text-transform: uppercase; }
-.breadcrumbs .crumb-anchor{ text-decoration: none; }
- .breadcrumbs .crumb-anchor.active{ color: rgb(213, 0, 50); outline-style: none; outline-width: initial; outline-color: initial; }
-.breadcrumbs img{ display: inline-block; height: 6px; margin-top: 0px; margin-right: 14px; margin-bottom: 0px; margin-left: 14px; width: 6px; vertical-align: middle; }
-.footer .footer-brand{ height: 206px; margin-bottom: 15px; width: 150px; }
-.footer .footer-brand-address{ margin-bottom: 20px; }
-@media (min-width: 1084px){
-.footer .footer-brand-address{ margin-bottom: 0px; min-height: 280px; }
-}
-@media (min-width: 1084px){
-.footer .footer-address{ bottom: 0px; position: absolute; width: 100%; }
-}
-@media (max-width: 1084px){
-.footer .footer-list{ margin-bottom: 30px; }
-.footer .footer-list::after{ content: ''; display: table; clear: both; }
-}
-.footer .footer-button-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; margin-bottom: 12px; }
-@media (max-width: 1084px) and (min-width: 540px){
-.footer .footer-button-list{ padding-right: 20px; }
-}
-.footer .footer-button-item{ margin-bottom: 5px; }
-.footer .footer-button{ color: rgb(255, 255, 255); background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(37, 37, 37); display: block; font-size: 16px; font-weight: 700; line-height: 32px; height: 32px; padding-top: 0px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px; text-decoration: none; background-position: initial initial; background-repeat: initial initial; }
-@media (max-width: 1084px){
-.footer .footer-legal .campuses{ margin-top: 1em; text-align: left; }
-}
-@media (min-width: 1084px){
-.footer .l-col-1-1{ width: 100%; }
-}
-.footer-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.footer-list-title{ margin-bottom: 15px; }
-.footer-list-title{ color: rgb(255, 255, 255); font-size: 14px; font-weight: 900; text-transform: uppercase; }
-@media (min-width: 1084px){
-.no-flexbox .footer-social-icons-cell{ bottom: -30px; }
-.no-flexbox .footer-address{ bottom: -50px; }
-}
-.header{ position: relative; width: 100%; background-color: rgb(0, 0, 0); }
-.header-menu-bar{ position: relative; }
-.header--blue .header-menu-bar{ background-color: rgb(0, 127, 165); }
-@media (max-width: 1084px){
-.header--blue .navigation-primary .primary-nav-list .primary-list-item{ background-color: rgb(0, 127, 165); }
-}
-.header--blue .navigation-primary .primary-nav-list .expander, .header--blue .navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(0, 102, 132); }
-@media (max-width: 1084px){
-.header--blue .navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); }
-}
-@media (min-width: 1084px){
-.header--blue .navigation-eyebrow{ background-color: rgb(0, 127, 165); }
-}
-.header--blue .navigation-primary:not(.scrolled-after) .primary-nav-list .primary-second-tier-list{ border-top-color: rgb(0, 127, 165); border-right-color: rgb(0, 127, 165); border-bottom-color: rgb(0, 127, 165); border-left-color: rgb(0, 127, 165); }
-.header-background-image-container{ bottom: 0px; left: 0px; overflow-x: hidden; overflow-y: hidden; position: absolute; right: 0px; top: 0px; }
-.header-background-image{ background-size: cover; bottom: -5px; left: -5px; position: absolute; right: -5px; top: -5px; background-position: 50% 50%; background-repeat: no-repeat no-repeat; }
-.interior-page-header{ overflow-x: visible; overflow-y: visible; }
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary .circle-logo-container{ margin-left: 0px; opacity: 1; z-index: 2; }
-}
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary:not(.scrolled-after) .circle-logo-container{ top: 110px; }
-}
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-eyebrow{ background-color: rgb(0, 127, 165); position: static; }
-}
-.interior-page-header .header-menu-bar .navigation-primary{ background-color: rgb(0, 127, 165); width: 100%; }
-.interior-page-header .header-menu-bar .navigation-primary .menu-toggle{ z-index: 2; }
-@media (min-width: 1084px){
-.interior-page-header .header-menu-bar .navigation-primary{ height: 60px; }
-}
-.interior-page-header .header-background-image{ display: none; }
-.interior-page-intro .interior-page-title{ color: rgb(213, 0, 50); }
-@media (min-width: 540px){
-.interior-page-intro .interior-page-title{ font-size: 48px; }
-}
-.interior-page-intro .interior-page-subtitle{ margin-bottom: 10px; }
-@media (min-width: 540px){
-.interior-page-intro .interior-page-subtitle{ font-size: 30px; }
-}
-.link-block-group .link-block-anchor { margin-top: 40px; }
-@media (min-width: 540px){
-.link-block-group .link-block-anchor { max-width: 50%; }
-}
-.link-block-group .link-block-anchor, .link-block-group .link-block-anchor:hover, .link-block-group .link-block-anchor:visited { color: rgb(54, 54, 54); text-decoration: none; }
-.link-block { padding-top: 1px; position: relative; }
-.link-block::before { background-color: rgb(213, 0, 50); content: ''; height: 1px; left: 0px; position: absolute; top: 1px; width: 100%; }
-.link-block .subhead { margin-top: 15px; margin-right: 0px; margin-bottom: 4px; margin-left: 0px; padding-right: 20px; position: relative; }
-.link-block .subhead .arrow { fill: #001e62; height: 10px; position: absolute; right: 5px; width: 10px; }
-.link-block-anchor:hover, .link-block-anchor:focus { outline-style: none; outline-width: initial; outline-color: initial; }
-.link-block-anchor:hover .link-block::before, .link-block-anchor:focus .link-block::before { height: 3px; }
-.link-block-anchor:hover .arrow, .link-block-anchor:focus .arrow { -webkit-transform: translateX(5px); }
-.link-list .interior-section-header{ margin-bottom: 15px; }
-.navigation-eyebrow{ height: 40px; }
-@media (min-width: 1084px){
-.navigation-eyebrow{ background-color: rgb(0, 127, 165); }
-}
-.navigation-eyebrow .navigation-eyebrow-inner{ margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 1080px; position: relative; }
-.navigation-eyebrow .eyebrow-list{ color: rgb(255, 255, 255); font-size: 14px; font-weight: 400; list-style-type: none; list-style-position: inside; list-style-image: initial; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; padding-top: 0px; padding-right: 20px; padding-bottom: 0px; padding-left: 20px; }
-@media (min-width: 1084px){
-.navigation-eyebrow .eyebrow-list{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 25%; }
-}
-.navigation-eyebrow .eyebrow-list-item{ display: none; line-height: 40px; height: 40px; }
-@media (min-width: 1084px){
-.navigation-eyebrow .eyebrow-list-item{ display: block; float: left; }
-}
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor{ overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-eyebrow .eyebrow-list-item:not(.search-button-item):not(.eyebrow-button) .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
-.navigation-eyebrow .eyebrow-button{ }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor{ font-weight: 700; padding-left: 34px; padding-right: 20px; overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::before{ background-color: rgb(255, 255, 255); height: 4px; }
-.navigation-eyebrow .eyebrow-button .eyebrow-list-anchor::after{ content: '+'; left: 10px; position: absolute; text-align: center; top: 0px; width: 20px; }
-.navigation-eyebrow .eyebrow-list-anchor{ display: block; outline-style: none; outline-width: initial; outline-color: initial; }
-.navigation-eyebrow .eyebrow-list-anchor{ color: rgb(255, 255, 255); text-decoration: none; }
-.navigation-eyebrow .search-button-item{ display: block; height: 40px; position: absolute; top: 0px; right: 40px; width: 40px; z-index: 1; }
-@media (min-width: 1084px){
-.navigation-eyebrow .search-button-item{ height: 40px; position: relative; top: 0px; right: 0px; width: auto; }
-}
-.navigation-eyebrow .search-button{ background-color: transparent; cursor: pointer; height: 40px; width: 40px; }
-.navigation-eyebrow .search-button .search-glass{ fill: #ffffff; height: 20px; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; width: 20px; }
-.navigation-eyebrow .search-input-container{ position: absolute; top: 0px; height: 40px; right: 42px; -webkit-transform: translateY(-100%); width: 278px; z-index: 3; }
-@media (min-width: 1084px){
-.navigation-eyebrow .search-input-container{ height: 40px; right: 40px; }
-}
-.navigation-eyebrow .search-input-container form{ position: relative; width: 100%; height: 100%; }
-.navigation-eyebrow .search-input-container input[type="text"]{ color: rgb(149, 149, 149); height: 100%; padding-top: 0px; padding-right: 12px; padding-bottom: 0px; padding-left: 12px; font-size: 18px; width: 100%; }
-.navigation-eyebrow .search-input-container .submit-button{ -webkit-appearance: none; position: absolute !important; clip: rect(1px 1px 1px 1px); }
-@media (min-width: 1084px){
-.no-flexbox .eyebrow-list-item{ margin-left: 12px; }
-}
-.navigation-primary{ pointer-events: none; position: absolute; top: 0px; width: 100%; z-index: 2; }
-@media (min-width: 1084px){
-.navigation-primary{ pointer-events: auto; position: relative; }
-}
-.navigation-primary .navigation-primary-inner{ margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; max-width: 1080px; position: relative; min-height: 40px; }
-.navigation-primary .primary-nav-list{ line-height: 1; list-style-type: none; list-style-position: inside; list-style-image: initial; overflow-x: hidden; overflow-y: hidden; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: absolute; right: 0px; top: 0px; width: 260px; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list{ left: 0px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; overflow-x: visible; overflow-y: visible; padding-top: 0px; padding-right: 0px; padding-left: 25%; position: relative; top: 0px; width: auto; }
-}
-.navigation-primary .primary-nav-list .primary-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(0, 127, 165); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; letter-spacing: 0.06em; position: relative; text-transform: uppercase; width: 100%; background-position: initial initial; background-repeat: initial initial; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .primary-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; float: left; background-position: initial initial; background-repeat: initial initial; }
-}
-.navigation-primary .primary-nav-list .primary-list-anchor{ display: block; line-height: 1; }
-.navigation-primary .primary-nav-list .primary-list-anchor, .navigation-primary .primary-nav-list .primary-second-tier-list-anchor{ color: inherit; text-decoration: none; }
-.navigation-primary .primary-nav-list .primary-second-tier-list{ display: none; list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); color: rgb(54, 54, 54); font-size: 14px; font-weight: 400; letter-spacing: normal; line-height: 1.25; text-transform: none; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
-.navigation-primary .primary-nav-list .primary-second-tier-list-item .primary-second-tier-list-anchor{ display: block; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; }
-.navigation-primary .primary-nav-list .expander{ display: none; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .primary-list-item{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: relative; width: auto; }
-.navigation-primary .primary-nav-list .primary-list-item.primary-list-active-item > .primary-list-anchor{ border-bottom-width: 8px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); padding-bottom: 12px; }
-.navigation-primary .primary-nav-list .primary-list-item > .primary-list-anchor{ display: block; outline-style: none; outline-width: initial; outline-color: initial; padding-top: 22px; padding-right: 0px; padding-bottom: 22px; padding-left: 0px; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor{ overflow-x: hidden; overflow-y: hidden; position: relative; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(213, 0, 50); content: ' '; height: 2px; left: 0px; position: absolute; width: 100%; }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ bottom: 0px; -webkit-transform: translateY(100%); }
-.navigation-primary .primary-nav-list .primary-list-item:not(.primary-list-active-item) > .primary-list-anchor::before{ background-color: rgb(255, 255, 255); bottom: 2px; height: 8px; -webkit-transform: translateY(135%); }
-.navigation-primary .primary-nav-list .primary-second-tier-list{ border-right-width: 2px; border-right-style: solid; border-right-color: rgb(0, 127, 165); border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(0, 127, 165); border-left-width: 2px; border-left-style: solid; border-left-color: rgb(0, 127, 165); display: block; opacity: 0; pointer-events: none; position: absolute; left: -2px; top: 60px; width: 260px; }
-.navigation-primary .primary-nav-list .primary-list-item:nth-last-child(1) .primary-second-tier-list, .navigation-primary .primary-nav-list .primary-list-item:nth-last-child(2) .primary-second-tier-list{ left: auto; right: -2px; }
-}
-@media (max-width: 1083px){
-.navigation-primary .primary-nav-list .expander{ background-color: rgb(39, 152, 182); display: block; height: 44px; position: absolute; top: 0px; right: 0px; width: 44px; }
-.navigation-primary .primary-nav-list .expander::before{ color: rgb(255, 255, 255); content: '+'; display: block; line-height: 44px; text-align: center; width: 100%; }
-.navigation-primary .primary-nav-list .primary-list-anchor{ line-height: 24px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 20px; }
-.navigation-primary .primary-nav-list .primary-list-active-item > .primary-list-anchor{ background-color: rgb(0, 102, 132); padding-left: 22px; position: relative; }
-.navigation-primary .primary-nav-list .primary-list-item{ min-height: 44px; -webkit-transform: translateX(260px); }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+0){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+1){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+2){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+3){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+4){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+5){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+6){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+7){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+8){ }
-.navigation-primary .primary-nav-list .primary-list-item:nth-child(n+9){ }
-}
-@media (max-width: 1083px){
-.navigation-primary .primary-nav-list{ pointer-events: none; }
-}
-.navigation-primary .primary-nav-list .menu-label-item{ background-color: rgb(39, 152, 182); color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; height: 40px; letter-spacing: 0.06em; line-height: 40px; min-height: 40px; padding-top: 0px; padding-bottom: 0px; padding-left: 20px; position: relative; text-transform: uppercase; -webkit-transform: translateX(260px); width: 100%; }
-@media (min-width: 1084px){
-.navigation-primary .primary-nav-list .menu-label-item{ display: none; }
-}
-.navigation-primary .primary-nav-list .menu-label{ opacity: 0; }
-.navigation-primary .primary-nav-list .menu-toggle{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; display: block; height: 40px; pointer-events: auto; position: absolute; top: 0px; right: 0px; width: 40px; z-index: 1; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle > span{ position: absolute; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); height: 2px; margin-left: 9px; position: absolute; top: 20px; width: 24px; background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::after, .navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ content: ''; position: absolute; width: 100%; height: 100%; left: 0px; top: 6px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial; }
-.navigation-primary .primary-nav-list .menu-toggle .menu-toggle-icon::before{ top: auto; bottom: 6px; }
-@media (min-width: 1083px){
-.navigation-primary .primary-nav-list .menu-toggle{ display: none; }
-}
-.navigation-primary .circle-logo-container{ height: 40px; left: 0px; opacity: 0; pointer-events: auto; position: absolute; -webkit-transform: translateY(-100px); top: 10px; width: 40px; z-index: 1; }
-@media (max-width: 1120px) and (min-width: 1080px){
-.navigation-primary .circle-logo-container{ left: 20px; }
-}
-.navigation-primary .circle-logo-container span{ -webkit-appearance: none; position: absolute !important; clip: rect(1px 1px 1px 1px); }
-@media (max-width: 1084px){
-.navigation-primary .circle-logo-container{ height: 32px; margin-left: 20px; opacity: 1; -webkit-transform: translateY(4px); top: 0px; width: 32px; }
-}
-.navigation-primary .circle-logo-container .circle-logo path{ fill: #ffffff; }
-.navigation-primary .circle-logo-container a{ color: rgb(255, 255, 255); outline-style: none; outline-width: initial; outline-color: initial; }
-.navigation-primary .circle-logo-container .circle-logo{ -webkit-transform: rotate(-360deg); }
-@media (min-width: 1084px){
-.no-flexbox .primary-list-item{ margin-left: 12px; }
-}
-.no-flexbox .primary-nav-list::after{ content: ''; display: table; clear: both; }
-.navigation-sidebar{ margin-left: -20px; margin-right: -20px; position: relative; }
-@media (min-width: 768px){
-.navigation-sidebar{ margin-left: 0px; margin-right: 0px; }
-}
-.navigation-sidebar .navigation-sidebar-title{ background-color: rgb(255, 255, 255); border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; color: rgb(0, 30, 98); font-size: 16px; font-weight: 900; line-height: 1.5; margin-bottom: 20px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 47px; position: relative; text-transform: uppercase; }
-.navigation-sidebar .navigation-sidebar-title a{ color: rgb(0, 30, 98); text-decoration: none; }
-.navigation-sidebar .navigation-sidebar-title::after{ content: ' Menu'; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-title{ background-color: transparent; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 15px; padding-left: 0px; }
-.navigation-sidebar .navigation-sidebar-title::after{ content: none; }
-}
-.navigation-sidebar .navigation-sidebar-title .chevron{ display: block; height: 12px; left: 20px; position: absolute; width: 12px; }
-.navigation-sidebar .navigation-sidebar-title .chevron .anchor-point{ display: block; fill: #001e62; height: 8px; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto; -webkit-transform: rotate(-90deg); width: 12px; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-title .chevron{ display: none; }
-}
-@media (max-width: 767px){
-.navigation-sidebar .navigation-sidebar-list-container{ overflow-x: hidden; overflow-y: hidden; pointer-events: none; position: absolute; top: 44px; width: 100%; z-index: 1; }
-}
-@media (max-width: 767px){
-.navigation-sidebar .navigation-sidebar-list{ background-color: rgb(255, 255, 255); border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); padding-left: 20px; padding-right: 20px; -webkit-transform: translateY(-100%); }
-}
-.navigation-sidebar .navigation-sidebar-list .anchor-point{ height: 5px; position: absolute; right: 0px; top: 4px; width: 8px; }
-.navigation-sidebar .navigation-sidebar-list .navigation-sidebar-anchor .anchor-point{ top: 21px; }
-.navigation-sidebar .navigation-sidebar-list, .navigation-sidebar .sidebar-second-tier-list, .navigation-sidebar .sidebar-third-tier-list, .navigation-sidebar .sidebar-fourth-tier-list{ list-style-type: none; list-style-position: inside; list-style-image: initial; }
-.navigation-sidebar .navigation-sidebar-anchor, .navigation-sidebar .sidebar-second-tier-anchor, .navigation-sidebar .sidebar-third-tier-anchor, .navigation-sidebar .sidebar-fourth-tier-anchor{ display: block; width: 100%; }
-.navigation-sidebar .navigation-sidebar-item{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); min-height: 50px; }
-.navigation-sidebar .navigation-sidebar-item:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
-@media (min-width: 768px){
-.navigation-sidebar .navigation-sidebar-item:last-child{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(225, 225, 225); }
-}
-.navigation-sidebar .navigation-sidebar-anchor{ color: rgb(54, 54, 54); font-size: 16px; font-weight: 400; line-height: 1; padding-top: 17px; padding-right: 0px; padding-bottom: 17px; padding-left: 0px; position: relative; text-decoration: none; }
-.navigation-sidebar .sidebar-second-tier-list{ padding-left: 14px; }
-.navigation-sidebar .sidebar-second-tier-item{ font-size: 14px; font-weight: 400; margin-bottom: 16px; }
-.navigation-sidebar .sidebar-second-tier-anchor{ color: rgb(54, 54, 54); position: relative; text-decoration: none; }
-.navigation-sidebar .sidebar-third-tier-list, .navigation-sidebar .sidebar-fourth-tier-list{ padding-top: 14px; padding-left: 14px; }
-.navigation-sidebar .sidebar-third-tier-item, .navigation-sidebar .sidebar-fourth-tier-item{ margin-bottom: 14px; }
-.navigation-sidebar .sidebar-third-tier-anchor, .navigation-sidebar .sidebar-fourth-tier-anchor{ color: rgb(54, 54, 54); position: relative; text-decoration: none; }
-.navigation-sidebar .navigation-sidebar-item.open .navigation-sidebar-anchor, .navigation-sidebar .sidebar-second-tier-item.open .sidebar-second-tier-anchor, .navigation-sidebar .sidebar-third-tier-item.open .sidebar-third-tier-anchor{ font-weight: 700; padding-right: 24px; width: 100%; }
- .navigation-sidebar .sidebar-fourth-tier-item.active .sidebar-fourth-tier-anchor{ color: rgb(213, 0, 50); font-weight: 700; position: relative; }/* Styles appended to the end of every critical path css stylesheet */
-.navigation-primary .primary-list {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-.navigation-eyebrow .eyebrow-list {
-    display: flex;
-    justify-content: space-between;
-}
-.calls-to-action .call-to-action {
-    align-items: center;
-    display: flex;
-}
-.calls-to-action .reminders-container {
-    display: flex;
-}
-.calls-to-action .reminders-anchor {
-    display: flex;
-}
- </style></head><body>
-<header class="header interior-page-header header--blue">
-    <div class="header-background-image-container">
-        <div class="header-background-image" aria-hidden="true" style="background-image: url()"></div>
-    </div>
-        <div class="header-menu-bar">
+  
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
+<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en-US"> <!--<![endif]-->
 
-        <nav class="navigation-eyebrow" aria-label="Eyebrow navigation">
-    <div class="navigation-eyebrow-inner">
-        <ul class="eyebrow-list">
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://maps.uic.edu/">Map</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uic.edu/apps/departments-az/search">Directory</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/about/contact-us">Contact Us</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://library.uic.edu/">Library</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://www.uicflames.com/">Athletics</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/life-at-uic/current-students">Current Students</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="/life-at-uic/faculty-and-staff">Faculty and Staff</a></li>
-                            <li class="eyebrow-list-item"><a class="eyebrow-list-anchor" href="http://hospital.uillinois.edu/">UI Health</a></li>
-                                        <li class="eyebrow-list-item eyebrow-button"><a class="eyebrow-list-anchor" href="/alumni/give">Give</a></li>
-                            <li class="eyebrow-list-item search-button-item">
-                    <button class="search-button" type="button">
-                        <svg class="search-glass" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" aria-labelledby="title"><title id="title">Expand search box</title><path d="M19.7 18.3l-5.9-5.9c1-1.3 1.6-2.9 1.6-4.7C15.4 3.5 12 0 7.7 0S0 3.4 0 7.7c0 4.2 3.4 7.7 7.7 7.7 1.8 0 3.4-.6 4.7-1.6l5.9 5.9c.2.2.4.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4zM2 7.7C2 4.6 4.6 2 7.7 2s5.7 2.6 5.7 5.7-2.5 5.7-5.7 5.7C4.6 13.4 2 10.8 2 7.7z"/></svg>                    </button>
-                </li>
-        </ul>
-        <div class="search-input-container">
-            <form method="get" action="/search" role="search">
-                <input type="text" name="q" class="search-input" placeholder="Search..." disabled tabindex="-1" aria-label="Search">
-                <input type="submit" class="submit-button" name="search" value="Submit">
-            </form>
-        </div>
-    </div>
-</nav>
+    <head>
 
-        <nav class="navigation-primary" aria-label="Primary navigation">
-    <div class="navigation-primary-inner">
-                <div class="circle-logo-container">
-            <a href="/">
-                <svg class="circle-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M36.5 17.3L33.1 19c-.3-1.3-1-2-2.3-2-1.7 0-2.5 1.4-2.5 3.6s.8 3.6 2.5 3.6c1.2 0 1.8-.6 2.2-1.6l3.5 1.3c-.9 2.1-2.8 3.5-5.8 3.5-4.1 0-6.5-2.8-6.5-6.8s2.5-6.8 6.6-6.8c3.2.1 5 1.8 5.7 3.5m-14.1 9.8h-3.9v-13h3.9v13zm-6.3-5.3c0 1.8-.2 2.7-.7 3.6-.9 1.4-3.2 2-5.2 2s-4.3-.6-5.2-2c-.5-.9-.7-1.8-.7-3.6v-7.7h3.9v7.8c0 .9.1 1.5.4 1.8.3.4.8.5 1.5.5s1.2-.2 1.5-.5c.3-.4.4-1 .4-1.8v-7.8h3.9v7.7zM40 20C40 9 31 0 20 0S0 9 0 20s9 20 20 20 20-9 20-20"/></svg>
-<span>University of Illinois at Chicago</span>            </a>
-        </div>
-                            <ul class="primary-nav-list">
-    <button class="menu-toggle" type="button" tabindex="-1">
-        <div class="menu-toggle-icon"></div>
-        <span>Expand menu</span>
-    </button>
-    <div class="menu-label-item"><span class="menu-label">Menu</span></div>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/admissions-aid">Admissions &amp; Aid</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/visit-campus">Visit Campus</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/admissions-aid/paying-for-college">Paying for College</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/academics">Academics</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/programs-of-study">Programs of Study</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/colleges-schools">Colleges &amp; Schools</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/academics/student-support">Student Support</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/research">Research</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-impact">Research Impact</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/research-strengths">Research Strengths</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/resources-facilities">Resources &amp; Facilities</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/research/student-research">Student Research</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item">
-            <a class="primary-list-anchor" href="/life-at-uic">Life at UIC</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/living-on-around-campus">Living On &amp; Around Campus</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/campus-resources">Campus Resources</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/current-students">Current Students</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/life-at-uic/faculty-and-staff">Faculty and Staff</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/chicago">Chicago</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/exploring-chicago">Exploring Chicago</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/city-transportation">City Transportation</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/chicago/essential-chicago">Essential Chicago</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/alumni">Alumni</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/connect">Connect</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/engage">Engage</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/alumni/give">Give</a></li>
-                                    </ul>
-                    </li>
-            <li class="primary-list-item ">
-            <a class="primary-list-anchor" href="/about">About</a>
-                            <ul class="primary-second-tier-list">
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/visit-directions">Visit &amp; Directions</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/history">History</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/leadership">Leadership</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/public-media-resources">Public &amp; Media Resources</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/job-opportunities">Job Opportunities</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/contact-us">Contact Us</a></li>
-                                            <li class="primary-second-tier-list-item"><a class="primary-second-tier-list-anchor" href="/about/acerca">Acerca de la UIC (en español)</a></li>
-                                    </ul>
-                    </li>
-    </ul>            </div>
-</nav>
+<!-- Google Analytics script (RED and this site) -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+    
+        ga('create', 'UA-20665772-1', 'auto');
+    
+        ga('create', 'UA-50488116-1', 'auto', 'nursingTracker');
+    
+        ga('send', 'pageview');
+    
+        ga('nursingTracker.send', 'pageview');
+      </script>
+<!-- End Google Analytics script (RED and this site) -->
+
+
+
+<!-- Google Tag Manager script for RED multisite -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
+              (window,document,'script','dataLayer','GTM-W2Q8D2K');
+  </script>
+<!-- End Google Tag Manager script for RED multisite -->
+
+
+
+
+<!-- Google Tag Manager script for this site -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
+              (window,document,'script','dataLayer','GTM-THM75KL');
+  </script>
+<!-- End Google Tag Manager script for this site -->
+
+
+        <title>
+                            Master of Science for RNs | College of Nursing | University of Illinois at Chicago
+                    </title>
+
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="pingback" href="https://nursing.uic.edu/xmlrpc.php" />
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+    <link rel="stylesheet" href="https://nursing.uic.edu/wp-content/themes/uic-red/main.css?v=1588698688" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://nursing.uic.edu/wp-content/themes/uic-red/theinhardt.css?v=1588698688" type="text/css" media="all">
+
+    <link rel='dns-prefetch' href='//www.uic.edu' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/nursing.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://nursing.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6' type='text/css' media='all' />
+<link rel='stylesheet' id='sb_instagram_styles-css'  href='https://nursing.uic.edu/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.12.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sb-font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://nursing.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
+<link rel='https://api.w.org/' href='https://nursing.uic.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://nursing.uic.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://nursing.uic.edu/wp-includes/wlwmanifest.xml" /> 
+
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//nursing.uic.edu/?wordfence_lh=1&hid=1A896B309EB7777BF5946E3B1039DB56');
+</script>
+</head>
+      
+  <body>
+
+<!-- Google Tag Manager for RED multisite (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2Q8D2K" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager for RED multisite (noscript) -->
+
+<!-- Google Tag Manager for this site (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id='GTM-THM75KL'" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager for this site (noscript) -->
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  <div class="l-page page-template-default page page-id-71 page-parent page-child parent-pageid-2 post-type--page  site-type-c theme--blue is-sidebar  ">
+
+
+    <!--[if lte IE 9]>
+<div class="browser-stripe u-dark-region">
+  <div class="l-full">
+      <h2>Your browser is unsupported</h2>
+      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
+  </div>
 </div>
+<![endif]-->
+<div class="browser-stripe u-dark-region ie10">
+  <div class="l-full">
+      <h2>Your browser is unsupported</h2>
+      <p>We recommend using the latest version of IE11, Edge, Chrome, Firefox or Safari.</p>
+  </div>
+</div>
+    
+<header class="l-header" role="banner">
+
+  
+  <div class="header-navigation">
+
+      <div id="skip" class="skip-menu assistive-text">
+  <p>
+    <span class="_main">
+    <a href="#article">Skip to the content of this page</a>,
+    </span>
+    <a class="_primary-menu" href="#menu-main">the main menu</a>,
+
+        <a class="_secondary-menu" href="#menu-secondary">the secondary menu</a>,
+    
+    
+    <a class="_search" href="#search">the site search form</a>,
+
+    <a class="_home" href="https://nursing.uic.edu">the site home page</a>.
+  </p>
+</div>
+
+      <div class="eyebrow-mobile-wrapper js-eyebrow-mobile">
+<div class="eyebrow-mobile">
+            <div class="eyebrow-mobile-logo eyebrow-logo">
+            <a href="http://uic.edu" class="uic-logo-icon eyebrow-mobile-logo__uic-logo">
+ <svg aria-label="UIC.edu home" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+ <title>UIC Logo</title>
+ <circle class="_circle" cx="27" cy="27" r="25" fill="none" />
+<path class="_mark" d="M49.73 23.917l-4.583 2.2c-.44-1.71-1.397-2.718-3.056-2.718-2.25 0-3.39 1.862-3.39 4.918 0 3.03 1.14 4.844 3.39 4.844 1.555 0 2.462-.83 2.954-2.203l4.79 1.707c-1.242 2.824-3.754 4.767-7.768 4.767-5.57 0-8.754-3.728-8.754-9.116 0-5.41 3.368-9.114 8.857-9.114 4.194 0 6.68 2.407 7.56 4.713zm-24.264-4.403h5.282v17.61h-5.282v-17.61zm-3.21 10.41c0 2.46-.258 3.65-.96 4.844-1.164 1.94-4.27 2.692-6.99 2.692-2.72 0-5.828-.753-6.993-2.692-.698-1.194-.96-2.384-.96-4.844v-10.41h5.284v10.513c0 1.192.157 1.968.596 2.486.416.492 1.09.726 2.073.726.983 0 1.657-.235 2.07-.727.44-.518.597-1.294.597-2.486V19.514h5.282v10.41zM54.5 27.5c0-14.912-12.09-27-27-27-14.913 0-27 12.088-27 27s12.087 27 27 27c14.91 0 27-12.088 27-27z" fill="#FFF " fill-rule="evenodd"/>
+</svg>
+</a>
+    </div>
+                <div class="site-title-eyebrow-mobile">
+          <a href="https://nursing.uic.edu">College of Nursing</a>
+        </div>
+    
+    <button aria-label="Search the site" class="search-toggle-mobile js-search-toggle-mobile">
+  <span class="icon-search ">
+        <span class="assistive-text">Search the site</span>
+      </span>
+    </button>
+    <button class="nav-header-toggle js-nav-header-toggle">
+      <span class="icon-menu ">
+      Toggle Menu
+      </span>
+    </button>
+  </div>
+  <div class="search-input-container-mobile">
+    <div class="search-input-container-mobile__content">
+      <div class="search-title">
+        Search
+        <a class="search-close search-toggle-mobile">
+          <svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22">
+            <use xlink:href="https://nursing.uic.edu/wp-content/themes/uic-red/images/svgs/svgs.svg#icon-close"></use>
+          </svg>
+        </a>
+      </div>
+      <form method="get" action="/search" role="search" aria-label="Search this site on your mobile device">
+        <input type="text" name="q" class="search-input-mobile" placeholder="Search..." tabindex="-1" aria-label="Search this site on your mobile device" disabled="">
+        <input type="submit" class="submit-button" name="search" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+    <div class="header-navigation__eyebrow">
+
+                    <div class="header-navigation-logo header-logo">
+                        <a href="http://uihealth.uic.edu" class="ui-health-condensed-logo-icon header-navigation-logo__ui-health-logo">
+  <svg aria-label="UI Health" class="ui-health-condensed-logo-icon" viewBox="0 0 1308 692" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+    <circle class="_uic-mark-circle" fill="none" cx="1713.53" cy="1417.68" r="240.754" transform="matrix(1.01743 0 0 1.01743 -699.65 -1108.738)"/>
+    <path class="_uic-mark-text" fill="#fff" fill-rule="nonzero" d="M1261.522 298.79l-44.225 21.237c-4.254-16.488-13.508-26.225-29.5-26.225-21.746 0-32.758 17.992-32.758 47.458 0 29.263 11.012 46.767 32.758 46.767 14.996 0 23.754-8 28.504-21.242l46.242 16.48c-11.992 27.266-36.242 46.016-75 46.016-53.754 0-84.492-36.008-84.492-88.02 0-52.21 32.505-87.963 85.513-87.963 40.496 0 64.48 23.241 72.958 45.491m-183.22 127.496h-50.992v-170h50.991v170zm-81.972-69.5c0 23.746-2.504 35.23-9.275 46.75-11.237 18.75-41.237 25.992-67.462 25.992-26.263 0-56.259-7.242-67.509-25.992-6.758-11.52-9.275-23.004-9.275-46.75V256.277h51.021v101.487c0 11.5 1.509 19.03 5.746 24.017 4 4.75 10.496 7.004 20.017 7.004 9.483 0 15.97-2.254 19.98-7.004 4.253-4.987 5.75-12.517 5.75-24.017V256.277h51.007v100.508zm311.234-23.396c0-143.929-116.692-260.612-260.625-260.612-143.95 0-260.642 116.675-260.642 260.612 0 143.95 116.692 260.617 260.642 260.617 143.933 0 260.625-116.666 260.625-260.617"/>
+    <path class="_divider" fill="none" stroke="#fff" stroke-width="4.8333372" d="M653.563 9.985v671.576"/>
+    <g class="_uih-mark" fill="#fff">
+      <path d="M251.48 274.085H0v50.784h251.48z"/>
+      <path d="M201.892 75.743v123.95H.005v50.767h251.47V75.743h-49.583z"/>
+      <path d="M198.342 344.873h50.784v251.48h-50.784z"/>
+      <path d="M.005 344.873v49.575h123.933v201.904h50.783v-251.48H.005z"/>
+      <path d="M321.084 74.556h-50.767v251.48h50.767z"/>
+      <path d="M395.488 276.464V74.552h-50.783v251.48h174.717v-49.568H395.488z"/>
+      <path d="M267.934 346.048h251.488v50.775H267.934z"/>
+      <path d="M519.426 420.444H267.938v174.725h49.584V471.21h201.904v-50.766z"/>
+    </g>
+  </svg>
+</a>
+            </div>
+                <div class="header-navigation__eyebrow-menus">
+
+            <div class="header-navigation__logo-and-site-title">
+
+                                <div class="site-title-main -large">
+                                      <a href="https://nursing.uic.edu">College of Nursing</a>
+                                    </div>
+              
+            </div>
+          <nav class="header-menus js-header-menus " aria-label="Primary" role="navigation">
+
+  <div class="site-title-mobile-menu">
+    <a href="https://nursing.uic.edu">College of Nursing</a>
+  </div>
+
+  
+  <h2 class="assistive-text">Main Menu</h2>
+  <ul id="menu-main" class="menu menu-main" aria-label="Main Menu">
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-page-parent current_page_ancestor menu-item-44 menu-item-has-children menu-item-has-mega-menu">
+      <a 
+        class="menu-main__first-link"
+        href="/programs/"
+        target="_self">
+
+        Programs &amp; Applying
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Programs &amp; Applying menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Programs &amp; Applying menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-1394 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/programs/degree-certificate-programs/"
+                  target="_self">
+
+                  Find Your Program
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-374 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/programs/apply-now/"
+                  target="_self">
+
+                  Apply Now
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-42">
+                <a 
+                  class="menu-main__second-link"
+                  href="/programs/cost-financial-aid/"
+                  target="_self">
+
+                  Cost &amp; Financial Aid
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-210 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/programs/six-campuses/"
+                  target="_self">
+
+                  Six Campuses
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-41 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/student-life/"
+                  target="_self">
+
+                  Student Life
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      <div class="mega-menu">
+        <p class="mega-menu__title">Degree and certificate programs</p>
+        <ul class="mega-menu__list">
+                      <li class="mega-menu__item">
+              <a  class="mega-menu__link" href="https://nursing.uic.edu/programs/bachelor-science-nursing/">
+                <img
+                  class="mega-menu__thumbnail"
+                  src="https://nursing.uic.edu/wp-content/uploads/sites/220/2018/07/bsn_tile-350x225.jpg"
+                  alt="Students learning from simulation"
+                  role="presentation">
+
+                <span class="mega-menu__link-text">
+                  Bachelor of Science in Nursing
+                </span>
+              </a>
+            </li>
+                      <li class="mega-menu__item">
+              <a  class="mega-menu__link" href="https://nursing.uic.edu/programs/master-science-for-non-rns/">
+                <img
+                  class="mega-menu__thumbnail"
+                  src="https://nursing.uic.edu/wp-content/uploads/sites/220/2018/07/AGMS_tile-350x225.jpg"
+                  alt="Students learning from professor"
+                  role="presentation">
+
+                <span class="mega-menu__link-text">
+                  Master of Science for non-RNs
+                </span>
+              </a>
+            </li>
+                      <li class="mega-menu__item">
+              <a  class="mega-menu__link" href="https://nursing.uic.edu/programs/master-of-science-for-rns/">
+                <img
+                  class="mega-menu__thumbnail"
+                  src="https://nursing.uic.edu/wp-content/uploads/sites/220/2018/07/agms_tile6-350x225.jpg"
+                  alt="Students in the classroom"
+                  role="presentation">
+
+                <span class="mega-menu__link-text">
+                  Master of Science for RNs
+                </span>
+              </a>
+            </li>
+                      <li class="mega-menu__item">
+              <a  class="mega-menu__link" href="https://nursing.uic.edu/programs/doctor-nursing-practice/">
+                <img
+                  class="mega-menu__thumbnail"
+                  src="https://nursing.uic.edu/wp-content/uploads/sites/220/2018/06/student_closeup-350x225.jpg"
+                  alt="Student in classroom/lab"
+                  role="presentation">
+
+                <span class="mega-menu__link-text">
+                  Doctor of Nursing Practice
+                </span>
+              </a>
+            </li>
+                      <li class="mega-menu__item">
+              <a  class="mega-menu__link" href="https://nursing.uic.edu/programs/phd/">
+                <img
+                  class="mega-menu__thumbnail"
+                  src="https://nursing.uic.edu/wp-content/uploads/sites/220/2018/07/phd_tile-350x225.jpg"
+                  alt="PhD student in wet lab"
+                  role="presentation">
+
+                <span class="mega-menu__link-text">
+                  Doctor of Philosophy
+                </span>
+              </a>
+            </li>
+                      <li class="mega-menu__item">
+              <a  class="mega-menu__link" href="https://nursing.uic.edu/programs/certificate-programs/">
+                <img
+                  class="mega-menu__thumbnail"
+                  src="https://nursing.uic.edu/wp-content/uploads/sites/220/2018/08/header_PNPprimary-350x225.jpg"
+                  alt="School nurse with student"
+                  role="presentation">
+
+                <span class="mega-menu__link-text">
+                  Certificate Programs
+                </span>
+              </a>
+            </li>
+                  </ul>
+      </div>
+
+                  </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-40 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/nursing-research/"
+        target="_self">
+
+        Research
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Research menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Research menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-236">
+                <a 
+                  class="menu-main__second-link"
+                  href="/nursing-research/facilities-resources/"
+                  target="_self">
+
+                  Facilities &amp; Resources
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-351 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/nursing-research/centers-labs-interest-groups/"
+                  target="_self">
+
+                  Centers. Labs &amp; Interest Groups
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-6312">
+                <a 
+                  class="menu-main__second-link"
+                  href="/nursing-research/current-funded-research/"
+                  target="_self">
+
+                  Current Funded Research
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                              </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-412 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/practice/"
+        target="_self">
+
+        Practice
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Practice menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Practice menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-427 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/practice/mile-square-health-center-humboldt-park/"
+                  target="_self">
+
+                  Mile Square Health Center – Humboldt Park
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1518">
+                <a 
+                  class="menu-main__second-link"
+                  href="/practice/correctional-health-initiatives-2/"
+                  target="_self">
+
+                  Correctional Health Initiatives
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1521">
+                <a 
+                  class="menu-main__second-link"
+                  href="/practice/faculty-practice-consulting/"
+                  target="_self">
+
+                  Faculty Practice &amp; Consulting
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-13733">
+                <a 
+                  class="menu-main__second-link"
+                  href="/practice/nursing-professional-development/"
+                  target="_self">
+
+                  Nursing Professional Development
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                              </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-38 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/alumni/"
+        target="_self">
+
+        Alumni
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Alumni menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Alumni menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-222">
+                <a 
+                  class="menu-main__second-link"
+                  href="/alumni/meet-our-alumni/"
+                  target="_self">
+
+                  Meet Our Alumni
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-440">
+                <a 
+                  class="menu-main__second-link"
+                  href="/alumni/events/"
+                  target="_self">
+
+                  Upcoming Events
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-459">
+                <a 
+                  class="menu-main__second-link"
+                  href="/alumni/alumni-board/"
+                  target="_self">
+
+                  Alumni Board
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-10147 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/alumni/alumni-mentor-program/"
+                  target="_self">
+
+                  Alumni Mentor Program
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-221 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/alumni/alumni-awards/"
+                  target="_self">
+
+                  Alumni Awards
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-8022">
+                <a 
+                  class="menu-main__second-link"
+                  href="/alumni/reunion/"
+                  target="_self">
+
+                  REUNION
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3664">
+                <a 
+                  class="menu-main__second-link"
+                  href="/alumni/vital-signs/"
+                  target="_self">
+
+                  Vital Signs Magazine
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-223 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/alumni/give-to-nursing/"
+                  target="_self">
+
+                  Give to UIC Nursing
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3201">
+                <a 
+                  class="menu-main__second-link"
+                  href="/alumni/update-your-information/"
+                  target="_self">
+
+                  Update Your Information
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-458">
+                <a 
+                  class="menu-main__second-link"
+                  href="/alumni/advancement-office/"
+                  target="_self">
+
+                  Office of Advancement
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                              </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-39 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/news-events/"
+        target="_self">
+
+        News &amp; Events
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand News &amp; Events menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand News &amp; Events menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2343">
+                <a 
+                  class="menu-main__second-link"
+                  href="/news-events/all-news/"
+                  target="_self">
+
+                  All News
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2342">
+                <a 
+                  class="menu-main__second-link"
+                  href="/news-events/all-events/"
+                  target="_self">
+
+                  All Events
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2471">
+                <a 
+                  class="menu-main__second-link"
+                  href="/news-events/info-sessions/"
+                  target="_self">
+
+                  Info Sessions
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3328">
+                <a 
+                  class="menu-main__second-link"
+                  href="/social-media/"
+                  target="_self">
+
+                  Social Media
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                              </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-37 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/about/"
+        target="_self">
+
+        About
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand About menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand About menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-217">
+                <a 
+                  class="menu-main__second-link"
+                  href="/about/our-story/"
+                  target="_self">
+
+                  Our Story
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1362">
+                <a 
+                  class="menu-main__second-link"
+                  href="/about/our-faculty/"
+                  target="_self">
+
+                  Our Faculty
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-423 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/about/leadership-executive-team/"
+                  target="_self">
+
+                  Leadership Executive Team
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-207 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/about/academic-departments/"
+                  target="_self">
+
+                  Academic Departments
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-410 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/about/global-health/"
+                  target="_self">
+
+                  Global Health
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-424">
+                <a 
+                  class="menu-main__second-link"
+                  href="/about/diversity-inclusion/"
+                  target="_self">
+
+                  Diversity &amp; Inclusion
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2917">
+                <a 
+                  class="menu-main__second-link"
+                  href="/about/power-nursing-leadership/"
+                  target="_self">
+
+                  Power of Nursing Leadership
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-209">
+                <a 
+                  class="menu-main__second-link"
+                  href="/about/job-openings/"
+                  target="_self">
+
+                  Job Openings
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-377">
+                <a 
+                  class="menu-main__second-link"
+                  href="/about/accreditation/"
+                  target="_self">
+
+                  Accreditation
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-372 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/about/college-insider/student-resources/"
+                  target="_self">
+
+                  Student Resources
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-371">
+                <a 
+                  class="menu-main__second-link"
+                  href="/about/college-insider/faculty-staff-resources/"
+                  target="_self">
+
+                  Faculty &amp; Staff Resources
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-5272">
+                <a 
+                  class="menu-main__second-link"
+                  href="/about/college-insider/academic-programs-staff/"
+                  target="_self">
+
+                  Office of Academic Programs
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1312">
+                <a 
+                  class="menu-main__second-link"
+                  href="/about/college-insider/global-health-leadership-office/"
+                  target="_self">
+
+                  Global Health Leadership Office
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-415 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/about/college-insider/office-research-facilitation/"
+                  target="_self">
+
+                  Office of Research Facilitation
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-6866">
+                <a 
+                  class="menu-main__second-link"
+                  href="/about/contact-us/"
+                  target="_self">
+
+                  Contact Us
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                              </div>
+        </div>
+          </li>
+  </ul>
+
+  <div class="l-eyebrow">
+
+    <h2 class="assistive-text">Eyebrow menu</h2>
+    <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
+            <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-341">
+            <a  href="/about/college-insider/" target="_self">CollegeInsider</a>
+        </li>
+            <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-10256">
+            <a  href="/alumni/give-now/" target="_self">Make a Gift</a>
+        </li>
+            <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-420">
+            <a  href="/about/directory/" target="_self">Directory</a>
+        </li>
+    </ul>
+
+    <h2 class="assistive-text">UIC menu</h2>
+    <ul class="menu-uic">
+          <li class="_item">
+        <a href="http://uihealth.uic.edu">UI Health</a>
+      </li>
+      <li class="_item">
+    <a href="http://uic.edu">UIC.edu</a>
+  </li>
+  <li class="_item">
+    <a href="http://maps.uic.edu/">Campus Map</a>
+  </li>
+</ul>
+
+
+
+    <div aria-label="Primary" role="search" class="search-wrapper">
+
+      <button id="search" class="search-toggle">
+        <span class="icon-search ">
+          <span class="assistive-text">Search</span>
+        </span>
+      </button>
+
+      <div class="search-input-container">
+        <div class="search-input-container__form">
+          <form method="get" action="/search" >
+            <input type="text" name="q" class="search-input" placeholder="Search..." tabindex="-1" aria-label="Search" disabled="">
+            <input type="submit" class="submit-button" name="search" value="Submit">
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+</nav>
+        </div>
+    </div>
+
+    
+  </div>
+
+    
+        <a href="#menu-secondary" class="menu-secondary-anchor">
+      View Menu
+      <svg aria-label="Down arrow icon" width="32" height="32" viewBox="0 0 32 32" role="presentation">
+        <title>Down arrow icon</title>
+        <g fill="none" fill-rule="evenodd">
+          <circle class="_circle" stroke-width="1" stroke="#007Da5" fill="#fff" cx="16" cy="16" r="15"/>
+          <path class="_arrow" stroke-width="2" stroke="#001E62" stroke-linecap="round" d="M12 17l4 4 4-4M16 20v-9"/>
+        </g>
+      </svg>
+    </a>
+        
 </header>
 
-<div class="ms-grid main">
-  <div class="ms-row">
-    <div class="m-col-1-4">
-      <nav class="navigation-sidebar" aria-label="Secondary navigation">
-      </nav>
-    </div>
-    <div class="m-col-3-4">
+    <main id="main" class="l-content-wrapper" role="main">
 
-      <nav class="breadcrumbs ms-row">
-        <div class="col-1-1">
-          <div class="red-circle" aria-hidden="true"></div>
-          <img class="first-breadcrumb-arrow" src="/images/breadcrumb-arrow.svg" aria-hidden="true" alt="Breadcrumb arrow">
-          <ul class="crumb-list">
-            <li class="crumb-item">
-                <a class="crumb-anchor active" href="/apps/find-people/search">Directory</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      
+                
+	      
+      <div class="l-full">
 
-      <main class="interior-page-intro">
-        <div class="ms-row">
-          <div class="col-1-1">
-            <h1 class="interior-page-title">Directory search</h1>
-          </div>
-        </div>
+        <div class="l-content ">
 
-<section role="region" class="text-block-with-large-image" aria-label="NEUROSCIENCES Unit Listing">
-<div class="ms-row title-row">
-  <div class="col-1-1">
-    <h2 class="interior-section-header">
-      NEUROSCIENCES</a>
-    </h2>
+          
+                      <nav class="breadcrumbs" aria-label="Breadcrumbs">
+  <h2 class="assistive-text">Breadcrumbs</h2>
+  <ol class="menu" vocab="https://schema.org/" typeof="BreadcrumbList">
+
+  
+          <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://nursing.uic.edu"><span property="name">College of Nursing</span></a>
+        <meta property="position" content="0">
+      </li>
+    
+  
+          <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://nursing.uic.edu/programs/"><span property="name">Programs &amp; Applying</span></a>
+        <meta property="position" content="1">
+      </li>
+    
+  
+          <li property="itemListElement" typeof="ListItem"><span property="name">Master of Science for RNs</span>
+        <meta property="position" content="3">
+      </li>
+    
+  
+  </ol>
+</nav>
+          
+          <article class="post-type-page" id="article">
+            
+          <div class="intro-text">
+
+                      <h1 class="_title post-title">Master of Science for RNs</h1>
+              
+            
+              
+          <p class="_subtitle">This program prepares nurses for roles as care coordinators who also provide direct care in complex cases.</p>
+    
+              <p><strong>Admission: Fall only</strong></p>
+<p><span style="font-weight: 400">This Advanced Generalist Master of Science (AGMS) program </span><span style="font-weight: 400">provides professional nurses with the clinical leadership skills needed to improve patient outcomes by integrating evidence-based practice and care coordination in a fiscally responsible manner. </span><span style="font-weight: 400">Not limited to acute care settings, advanced generalists evaluate client outcomes, assess client risks, and promote client and family advocacy. They are able to synthesize knowledge from nursing and related disciplines, to improve healthcare by assuming leadership roles, and to contribute to the advancement of the profession.</span></p>
+<p><strong><span style="color: #d50032">Application deadline is January 15. </span><a href="http://nursing.uic.edu/programs/master-of-science/apply-now/">Learn about applying →</a></strong></p>
+
+    
   </div>
+        <div class="components">
+
+  
+    
+      
+
+<section class="component  ">
+
+  
+  
+  
+    <div class="component-description">
+                    <h2 id="highlights-for-agms-students" class="__title invisible">Highlights for AGMS students</h2>
+                    </div>
+
+  <ul class="component-link-tile ">
+      <li class="component-link-tile__item component-link-tile__item--image">
+
+                  <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://nursing.uic.edu/news-stories/uic-nursing-continues-to-rise-in-us-news-rankings/"
+       target="_self">
+            <div class="tile-item__image-container">
+            <img
+                class="tile-item__image"
+                
+                src="https://nursing.uic.edu/wp-content/uploads/sites/220/2018/09/white_coat_16-600x397.jpg"
+                alt="Student celebrating">
+        </div>
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--internal
+        tile-item__content-container--image">
+        <div class="
+            tile-item__title
+            tile-item__title--image">
+            Highly ranked program
+        </div>
+
+        
+                    <div class="tile-item__description">
+                Ranked #16 in the nation, our MS program is among the best in the Midwest
+            </div>
+            </div>
+    </a>
 </div>
 
-<div class="ms-row text-row">
-  <div class="col-1-1 block-wysiwyg">
+    </li>
+      <li class="component-link-tile__item component-link-tile__item--image">
 
+                  <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://nursing.uic.edu/programs/master-of-science-for-rns/transition-program/"
+       target="_self">
+            <div class="tile-item__image-container">
+            <img
+                class="tile-item__image"
+                
+                src="https://nursing.uic.edu/wp-content/uploads/sites/220/2018/09/students_nurse-computer-600x397.jpg"
+                alt="Nurse at computer">
+        </div>
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--internal
+        tile-item__content-container--image">
+        <div class="
+            tile-item__title
+            tile-item__title--image">
+            Are you an RN with a non-nursing BA or BS degree?
+        </div>
 
-<table>
-
-<tr>
-  <td style="vertical-align: top; font-weight: 400;">
-    <p>
-      Banner Dept: <span style="font-weight: 500;">2-466013</span>
-    </p>
-        </td>
-        <td style="vertical-align: top;">
-        </td>
-    </tr>
-
-    		        	  <tr>
-    <th colspan="2" id="10001" style="font-weight: 400;">
-      Department Liaisons    </th>
-  </tr>
-		      <tr>
-    <td style="vertical-align: top; font-weight: 400;">
-	    <span style="font-weight: 500;">Phonebook Contact Person </span>
-	    <br />
-	    Zaneta Dunczyk Ahuja	    <br />
-	    C-100 UH MC 889</br>	</td>
-	<td style="vertical-align: top; font-weight: 400;">
-	    <strong>T</strong> 312-355-7505	    <br />
-	    <a style="font-weight: 500;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#122;&#97;&#110;&#101;&#116;&#97;&#100;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;">&#122;&#97;&#110;&#101;&#116;&#97;&#100;&#64;&#117;&#105;&#99;&#46;&#101;&#100;&#117;</a>
-	    <br />
-	</td>
-    </tr>
-	    </table>
-
-  </div>
+        
+                    <div class="tile-item__description">
+                Our AGMS Transition Program is for you
+            </div>
+            </div>
+    </a>
 </div>
+
+    </li>
+      <li class="component-link-tile__item component-link-tile__item--image">
+
+                  <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://nursing.uic.edu/programs/master-of-science-for-rns/meet-ms-students/"
+       target="_self">
+            <div class="tile-item__image-container">
+            <img
+                class="tile-item__image"
+                
+                src="https://nursing.uic.edu/wp-content/uploads/sites/220/2018/09/grad-entry_15-600x397.jpg"
+                alt="Students posing in classroom">
+        </div>
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--internal
+        tile-item__content-container--image">
+        <div class="
+            tile-item__title
+            tile-item__title--image">
+            Meet your peers
+        </div>
+
+        
+                    <div class="tile-item__description">
+                Read about students who have experienced the AGMS program
+            </div>
+            </div>
+    </a>
+</div>
+
+    </li>
+    </ul>
+
+  
 </section>
 
-<div class="ms-grid" style="margin-top: 40px;">
-  <div class="ms-row block-wysiwyg">
-    <div class="m-col-1-3">
-        <form method="get" action="/apps/find-people/search">
+    
 
-<div class="form-element"> 
-	<h2>Individuals</h2>
+    
+      
+
+<section class="component  ">
+
+  
+        
+
+
+<div class="highlight component-highlight-image
+">
+
+
+  <div class="_image" style="
+  background-image: url('https://nursing.uic.edu/wp-content/uploads/sites/220/2018/09/student_listening-550x550.jpg')
+  ">
+    <img src="https://nursing.uic.edu/wp-content/uploads/sites/220/2018/09/student_listening-550x550.jpg" alt="Student listening" class="invisible">
+  </div>
+
+
+  <div class="_content u-dark-region">
+      
+  <div class="highlight-image">
+    <h2 class="_title visible">Program length and delivery</h2>
+    <div class="_text"><p>The Advanced Generalist MS program can be completed on a part-time or full-time basis. Most students complete the 34-credit-hour degree in one to two years.</p>
+<p>Applicants with a bachelor’s degree in nursing move directly through the program; applicants with a non-nursing bachelor’s degree and an RN license enter the <a href="http://nursing.uic.edu/programs/master-of-science/transition-program/"><strong>AGMS Transition Program</strong></a>, where they take up to four additional courses.</p>
+<p>All students complete the same sequence of courses, including online, on-site and blended courses. Along with lectures and hands-on training in a lab setting, students participate in clinical experiences in a wide range of focus areas and care settings. Faculty assign all students to clinical practicum sites; students are not responsible for finding their own.</p>
+</div>
+            <a  href="https://uofi.box.com/s/ynnr2hkhx6k8u0ocpl01apgcnngd7lcp" class="_button button" target="_blank" rel="noopener">
+      See the schedule of courses
+    </a>
+          </div>
+
+  </div>
+
 </div>
 
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Last name</span>
-      <input class="text-input" type="text" id="lastname" name="lastname">
-    </label>
-  </div>
+  
+</section>
 
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">First name</span>
-      <input class="text-input" type="text" id="firstname" name="firstname">
-    </label>
-  </div>
+    
 
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">NetID</span>
-      <input class="text-input" type="text" id="netid" name="netid">
-    </label>
-  </div>
+    
+      
 
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Department</span>
-      <input class="text-input" type="text" id="department" name="department">
-    </label>
-  </div>
+<section class="component  ">
 
-  <button type="submit" class="button">Search</button>
-
-  <p class="form-help-text" style="margin-top: 15px;">
-    <em>
-      <strong>Tip</strong> Typing "Lee" into the Last Name
-      field will retrieve too many entries to print. But, adding
-      "R" to the First Name will narrow the search.
-    </em>
-  </p>
-
-</form>
-
-    </div>
-
-    <div class="m-col-2-3">
-        <form method="get" action="//www.uic.edu/apps/departments-az/search">
-
-<div class="form-element">
-<h2>Departments</h2>
-</div>
-
-  <div class="form-element">
-<span class="form-element-label">Browse</span>
-<p>
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=A">A</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=B">B</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=C">C</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=D">D</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=E">E</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=F">F</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=G">G</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=H">H</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=I">I</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=J">J</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=K">K</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=L">L</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=M">M</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=N">N</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=O">O</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=P">P</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Q">Q</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=R">R</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=S">S</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=T">T</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=U">U</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=V">V</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=W">W</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=X">X</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Y">Y</a>&nbsp;
-<a href="http://www.uic.edu/apps/departments-az/search?dispatch=letter&amp;letter=Z">Z</a>&nbsp;
-    </p>
-  </div>
-
-  <div class="form-element">
-    <label>
-      <span class="form-element-label">Department</span>
-      <input class="text-input" type="text" id="kwords" name="kwords">
-    </label>
-  </div>
-
-  <input type="hidden" name="dispatch" value="search" />
-  <button type="submit" class="button">Search</button>
-
-  <p class="form-help-text" style="margin-top: 15px;">
-    <em>
-      <strong>Tip</strong>
-      Search for contact information for a specific department
-      or just select Department Search to browse the unit listing.
-    </em>
-  </p>
-</form>
-
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </main>
-    </div>
-  </div>
-</div>
-
-<footer class="footer">
-    <div class="footer-content" style="background-image: url(/images/footer.jpg)">
-        <div class="ms-grid">
-            <div class="ms-row">
-                <div class="s-col-1-2 m-col-1-4 l-col-3-12 footer-brand-address">
-                                            <img class="footer-brand" src="/images/footer-brand-mark.svg" alt="The University of Illinois at Chicago" aria-hidden="true">
-                                        <div class="footer-address">
-                        <div><strong>1200 West Harrison St.</strong></div>
-                        <div>Chicago, Illinois 60607</div>
-                        <div>312-996-7000</div>
+  
+  
+  
+    <div class="component-description">
+                    <h2 id="add-to-your-value-as-an-advanced-generalist-nurse" class="__title visible">Add to your value as an advanced generalist nurse</h2>
                     </div>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-push-4" aria-label="Tools">
-                    <h1 class="footer-list-title">Tools</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://uic.blackboard.com/">
-        Blackboard
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://accc.uic.edu/service/g-suite">
-        GoogleApps@UIC
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://my.uic.edu/common/">
-        my UIC
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://www.hr.uillinois.edu/pay/">
-        My UI Info: Pay
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://outlook.uic.edu">
-        UIC Outlook Online
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://accc.uic.edu/service/uicalendar">
-        UICalendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/contact-us">
-        Contact the webmaster
-    </a>
-</li>                                            </ul>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12" aria-label="Resources">
-                    <h1 class="footer-list-title">Resources</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://catalog.uic.edu/ucat/academic-calendar/">
-        Academic Calendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/life-at-uic/current-students">
-        Current Students
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://events.uic.edu">
-        Event Calendar
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/life-at-uic/faculty-and-staff">
-        Faculty and Staff
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://maps.uic.edu">
-        Maps
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="https://today.uic.edu/uicnews">
-        UIC Today
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/visit-directions">
-        Visit &amp; Directions
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://clery.uic.edu/">
-        Clery Compliance
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://oae.uic.edu/UnlawfulDiscrimination/index.htm">
-        Nondiscrimination Policy
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://oae.uic.edu/TitleIX/index.htm">
-        Title IX: Sexual Misconduct
-    </a>
-</li>                                            </ul>
-                </div>
-                <div role="navigation" class="s-col-1-2 m-col-1-4 l-col-2-12 l-col-12-pull-4" aria-label="Quick Links">
-                    <h1 class="footer-list-title">Quick Links</h1>
-                    <ul class="footer-list">
-                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uicflames.com/">
-        Athletics
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uic.edu/apps/departments-az/search">
-        Directory
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://disabilityresources.uic.edu/">
-        Disability Resources
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://emergency.uic.edu">
-        Emergency Information
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/job-opportunities">
-        Job Opportunities
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://library.uic.edu">
-        Library
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://www.uic.edu/depts/dos/studentveteranaffairs.shtml">
-        Veterans Affairs
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="http://hospital.uillinois.edu">
-        University of Illinois Hospital &amp; Health Sciences System
-    </a>
-</li>                                                    <li class="footer-list-item">
-    <a class="footer-list-link" href="/about/acerca">
-        Acerca de la UIC (en español)
-    </a>
-</li>                                            </ul>
-                </div>
-                <div class="l-col-3-12">
-                    <div class="ms-row">
-                        <div role="navigation" class="s-col-1-2 l-col-1-1" aria-label="Calls to Action">
-                            <ul class="footer-button-list">
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/visit-us" role="button">
-                Book a Visit
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/undergraduate/request-information" role="button">
-                Request Info
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://admissions.uic.edu/apply-now" role="button">
-                Apply Now
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="/alumni/give" role="button">
-                Give
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="http://uicalumni.org/" role="button">
-                Join Alumni Association
-            </a>
-        </li>
-            <li class="footer-button-item">
-            <a class="footer-button" href="/about/contact-us" role="button">
-                Contact Us
-            </a>
-        </li>
-    </ul>                        </div>
-                        <div class="s-col-1-2 l-col-1-1 footer-social-icons-cell">
-                            <ul class="social-icons-list">
-            <li>
-            <a href="https://www.facebook.com/uic.edu">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>            </a>
-        </li>
-                <li>
-            <a href="https://twitter.com/thisisuic">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>            </a>
-        </li>
-                <li>
-            <a href="https://instagram.com/uicamiridis/">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>            </a>
-        </li>
-                    <li>
-            <a href="https://www.youtube.com/user/thisisUIC">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>            </a>
-        </li>
-                    <li>
-            <a href="http://uicscience.tumblr.com/">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>Tumblr</title><path d="M15.1 24.2c2.8.7 5.6-.9 5.6-.9v-3c-.8.9-2.6 1.1-3.9.7-1.2-.3-1.1-2-1.1-2v-5.7h4.4v-3h-4.4V5.6H13c-.3 5.1-3.8 5-3.8 5v2.7h2v6.8c.1 2.2 1.1 3.4 3.9 4.1z"/></svg>            </a>
-        </li>
-                        <li>
-            <a href="https://news.uic.edu/social-media-directory">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-labelledby="title"><title>More links</title><path d="M15 5C9.5 5 5 9.5 5 15s4.5 10 10 10 10-4.5 10-10S20.5 5 15 5zm4.7 11H16v3.7h-2V16h-3.7v-2H14v-3.7h2V14h3.7v2z"/></svg>            </a>
-        </li>
-    </ul>                        </div>
-                    </div>
-                </div>
+
+  <ul class="component-link-tile ">
+      <li class="component-link-tile__item component-link-tile__item--featured">
+
+                  <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="http://www.aacnnursing.org/cnl"
+       target="_blank">
+            <div class="tile-item__image-container">
+            <img
+                class="tile-item__image"
+                
+                src="https://nursing.uic.edu/wp-content/uploads/sites/220/2018/09/clinical_nurse_leader-600x365.jpg"
+                alt="Nurse at computer">
+        </div>
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--external
+        tile-item__content-container--featured">
+        <div class="
+            tile-item__title
+            tile-item__title--featured">
+            Clinical Nurse Leader
+        </div>
+
+        
+                    <div class="tile-item__description">
+                With additional clinical hours, graduates are eligible to sit for the Clinical Nurse Leader certification exam
             </div>
+            </div>
+    </a>
+</div>
+
+    </li>
+      <li class="component-link-tile__item component-link-tile__item--featured">
+
+                  <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://nursing.uic.edu/programs/concentrations/womens-health-concentration/"
+       target="_self">
+            <div class="tile-item__image-container">
+            <img
+                class="tile-item__image"
+                
+                src="https://nursing.uic.edu/wp-content/uploads/sites/220/2018/08/yes-DNP_WHNP-600x365.jpg"
+                alt="Nurse with woman patient">
+        </div>
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--internal
+        tile-item__content-container--featured">
+        <div class="
+            tile-item__title
+            tile-item__title--featured">
+            Women's Health Concentration
+        </div>
+
+        
+                    <div class="tile-item__description">
+                For nurses wanting a career that includes care of women throughout the lifecycle
+            </div>
+            </div>
+    </a>
+</div>
+
+    </li>
+    </ul>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+    <div class="testimonial">
+    
+    <div class="component-description">
+                    <h2 id="what-our-students-say" class="__title visible">What our students say</h2>
+                    </div>
+
+          <div class="testimonial__item">
+        <div class="testimonial__image-container">
+          <img class="testimonial__image" src="https://nursing.uic.edu/wp-content/uploads/sites/220/2018/08/Onsorio_Cesar-240x240.jpg" alt="Cesar Onsorio">
+        </div>
+        <blockquote class="testimonial__body">
+          <div class="testimonial__quote"><p>The advanced generalist master’s program at UIC is geared toward leadership exposure and interdisciplinary collaboration. I’ve enjoyed learning about putting quality improvement programs in place and evaluating their effectiveness. Knowing how to do that is one of the biggest takeaways from my time at UIC.</p>
+</div>
+                      <div class="_citation">
+          <span class="_author">
+  Cesar Osorio
+  </span>
+              &nbsp;|&nbsp;
+              <span class="_description">
+  AGMS '18
+  </span>
+      </div>
+        </blockquote>
+      </div>
+          <div class="testimonial__item">
+        <div class="testimonial__image-container">
+          <img class="testimonial__image" src="https://nursing.uic.edu/wp-content/uploads/sites/220/2018/08/zhao_jenny-240x240.jpg" alt="Jenny Zhao">
+        </div>
+        <blockquote class="testimonial__body">
+          <div class="testimonial__quote"><p>I have a desire to one day become an advanced practice nurse, so I particularly liked that the courses in UIC’s advanced generalist master’s degree program fulfill the core of the DNP program.</p>
+</div>
+                      <div class="_citation">
+          <span class="_author">
+  Jenny Zhao
+  </span>
+              &nbsp;|&nbsp;
+              <span class="_description">
+  MS '18
+  </span>
+      </div>
+        </blockquote>
+      </div>
+      </div>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+  
+  
+    <div class="component-description">
+                    <h2 id="all-campuses-offer-this-program" class="__title visible">All campuses offer this program</h2>
+                    </div>
+
+  <ul class="component-link-tile ">
+      <li class="component-link-tile__item component-link-tile__item--regular">
+
+                  <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://nursing.uic.edu/programs/six-campuses/chicago-2/"
+       target="_self">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--internal
+        tile-item__content-container--regular">
+        <div class="
+            tile-item__title
+            tile-item__title--regular">
+            Chicago
+        </div>
+
+        
+            </div>
+    </a>
+</div>
+
+    </li>
+      <li class="component-link-tile__item component-link-tile__item--regular">
+
+                  <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://nursing.uic.edu/programs/six-campuses/peoria/"
+       target="_self">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--internal
+        tile-item__content-container--regular">
+        <div class="
+            tile-item__title
+            tile-item__title--regular">
+            Peoria
+        </div>
+
+        
+            </div>
+    </a>
+</div>
+
+    </li>
+      <li class="component-link-tile__item component-link-tile__item--regular">
+
+                  <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://nursing.uic.edu/programs/six-campuses/quad-cities/"
+       target="_self">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--internal
+        tile-item__content-container--regular">
+        <div class="
+            tile-item__title
+            tile-item__title--regular">
+            Quad Cities
+        </div>
+
+        
+            </div>
+    </a>
+</div>
+
+    </li>
+      <li class="component-link-tile__item component-link-tile__item--regular">
+
+                  <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://nursing.uic.edu/programs/six-campuses/rockford/"
+       target="_self">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--internal
+        tile-item__content-container--regular">
+        <div class="
+            tile-item__title
+            tile-item__title--regular">
+            Rockford
+        </div>
+
+        
+            </div>
+    </a>
+</div>
+
+    </li>
+      <li class="component-link-tile__item component-link-tile__item--regular">
+
+                  <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://nursing.uic.edu/programs/six-campuses/springfield/"
+       target="_self">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--internal
+        tile-item__content-container--regular">
+        <div class="
+            tile-item__title
+            tile-item__title--regular">
+            Springfield
+        </div>
+
+        
+            </div>
+    </a>
+</div>
+
+    </li>
+      <li class="component-link-tile__item component-link-tile__item--regular">
+
+                  <div class="tile-item ">
+    <a  class="tile-item__link"
+       href="https://nursing.uic.edu/programs/six-campuses/urbana/"
+       target="_self">
+    
+    <div class="
+        tile-item__content-container
+        tile-item__content-container--internal
+        tile-item__content-container--regular">
+        <div class="
+            tile-item__title
+            tile-item__title--regular">
+            Urbana
+        </div>
+
+        
+            </div>
+    </a>
+</div>
+
+    </li>
+    </ul>
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+  
+    <div class="
+    component-call-to-action
+    component-call-to-action--dark
+    
+    ">
+
+    
+    <div class="component-description">
+                    <h2 id="take-the-next-step" class="__title visible">Take the next step</h2>
+                    </div>
+
+    <ul class="_items call-to-action-links">
+              <li>
+                      <a  href="https://nursing.uic.edu/programs/master-of-science-for-rns/apply-now/"
+            target="_self">
+                            <span class="call-to-action-links__icon call-to-action-links__icon--dark check-icon" aria-hidden="true">
+                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+  <title>Check icon</title>
+  <g fill="none" fill-rule="evenodd">
+    <ellipse class="_circle" fill="#001E62" cx="18" cy="18" rx="18" ry="18"/>
+    <path class="_mark" d="M15.168 24.555c.396.593 1.268.593 1.664 0l8-12c.306-.46.182-1.08-.277-1.387-.46-.306-1.08-.182-1.387.277l-8 12h1.664l-4-6c-.306-.46-.927-.583-1.387-.277-.46.306-.583.927-.277 1.387l4 6z" fill="#FFF"/>
+  </g>
+</svg>
+                </span>
+                <span class="_text">Apply now</span>
+              
+            </a>
+                  </li>
+              <li>
+                      <a  href="https://nursing.uic.edu/programs/master-of-science-for-rns/info-sessions/"
+            target="_self">
+                            <span class="call-to-action-links__icon call-to-action-links__icon--dark calendar-icon" aria-hidden="true">
+                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+  <title>Calendar icon</title>
+  <g fill="none" fill-rule="evenodd">
+    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
+    <path class="_mark" d="M13 12h1v-2h8v1-2.502c0-.275.232-.498.5-.498.276 0 .5.215.5.498V12h1v-2h3v17H9V10h3v1-2.502c0-.275.232-.498.5-.498.276 0 .5.215.5.498V12zm-2 10h4v3h-4v-3zm5 0h4v3h-4v-3zm5 0h4v3h-4v-3zm-10-4h4v3h-4v-3zm5 0h4v3h-4v-3zm5 0h4v3h-4v-3zm-10-4h4v3h-4v-3zm5 0h4v3h-4v-3zm5 0h4v3h-4v-3z" fill="#FFF"/>
+  </g>
+</svg>
+                </span>
+                <span class="_text">Attend an info session</span>
+              
+            </a>
+                  </li>
+              <li>
+                      <a  href="mailto:congradapply@uic.edu" target="_top">
+                              <span class="call-to-action-links__icon call-to-action-links__icon--dark envelope-icon" aria-hidden="true">
+                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+  <title>Envelope icon</title>
+  <g fill="none" fill-rule="evenodd">
+    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
+    <rect class="_mark" fill="#FFF" x="8" y="10" width="20" height="16" rx="1"/>
+    <path class="_circle-color" d="M22.354 19.646c-.196-.195-.512-.195-.708 0-.195.196-.195.512 0 .708l4 4c.196.195.512.195.708 0 .195-.196.195-.512 0-.708l-4-4zM9.646 23.646c-.195.196-.195.512 0 .708.196.195.512.195.708 0l4-4c.195-.196.195-.512 0-.708-.196-.195-.512-.195-.708 0l-4 4zM17.646 20.354c.196.195.512.195.708 0l8-8c.195-.196.195-.512 0-.708-.196-.195-.512-.195-.708 0l-8 8h.708l-8-8c-.196-.195-.512-.195-.708 0-.195.196-.195.512 0 .708l8 8z" fill="#001E62"/>
+  </g>
+</svg>
+                </span>
+                <span class="_text">Ask a question</span>
+                          </a>
+                  </li>
+              <li>
+                      <a  href="https://inquiry.nursing.uic.edu/"
+            target="_blank">
+                            <span class="call-to-action-links__icon call-to-action-links__icon--dark matrix-icon" aria-hidden="true">
+                  <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+  <title>Matrix icon</title>
+  <g fill="none" fill-rule="evenodd">
+    <circle class="_circle" fill="#001E62" cx="18" cy="18" r="18"/>
+    <circle class="_mark" fill="#FFF" cx="12" cy="24" r="2"/>
+    <circle class="_mark" fill="#FFF" cx="18" cy="24" r="2"/>
+    <circle class="_mark" fill="#FFF" cx="24" cy="24" r="2"/>
+    <circle class="_mark" fill="#FFF" cx="12" cy="18" r="2"/>
+    <circle class="_mark" fill="#FFF" cx="18" cy="18" r="2"/>
+    <circle class="_mark" fill="#FFF" cx="24" cy="18" r="2"/>
+    <circle class="_mark" fill="#FFF" cx="12" cy="12" r="2"/>
+    <circle class="_mark" fill="#FFF" cx="18" cy="12" r="2"/>
+    <circle class="_mark" fill="#FFF" cx="24" cy="12" r="2"/>
+  </g>
+</svg>
+                </span>
+                <span class="_text">Request general information</span>
+              
+            </a>
+                  </li>
+          </ul>
+  </div>
+
+
+  
+</section>
+
+    
+
+    
+      
+
+<section class="component  ">
+
+  
+  <div class="component-text-block">
+  
+    <div class="component-description">
+                    <h2 id="contact-the-director" class="__title invisible">Contact the director</h2>
+                    </div>
+
+  
+  <h3>Need to reach the AGMS program director? Contact <a href="https://nursing.uic.edu/profiles/maripat-king/">Maripat King, DNP, RN, ACNP</a>.</h3>
+
+
+
+  
+</div>
+
+  
+</section>
+
+    
+
+</div>
+
+          </article>
+        </div>
+
+                                            
+                                 
+              
+
+                      <div class="l-sidebar">
+             <nav role="navigation" id="menu-secondary" aria-label="Secondary Programs &amp; Applying" class="menu-secondary">
+               <div class="menu-secondary__title-container">
+                 <h2 class="menu-secondary__title"><a  class="menu-secondary__title-link" href="https://nursing.uic.edu/programs/">Programs &amp; Applying</a></h2>
+                 <a  class="menu-secondary__back-to-content" href="#main">
+                   <svg aria-label="Back to main content" width="32" height="32" viewBox="0 0 32 32">
+                     <title>Back to main content</title>
+                     <g fill="none" fill-rule="evenodd">
+                       <circle class="_circle" fill="#fff" stroke="#007FA5" stroke-width="1" cx="16" cy="16" r="15"/>
+                       <path class="_arrow" d="M16 21v-9M12 15l4-4 4 4" stroke="#001E62" stroke-width="2" stroke-linecap="round"/>
+                     </g>
+                   </svg>
+                 </a>
+               </div>
+
+                <ul  class="menu ">
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-1394 menu-item-has-children">
+                    <a  href="/programs/degree-certificate-programs/" target="_self"><span>Find Your Program</span>                          <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-227 menu-item-has-children">
+    <a href="/programs/bachelor-science-nursing/" target="_self"><span>Bachelor of Science in Nursing</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-240 menu-item-has-children">
+    <a href="/programs/bachelor-science-nursing/traditional-bsn/" target="_self"><span>Traditional BSN</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3361">
+    <a href="/programs/bachelor-science-nursing/traditional-bsn/meet-bsn-students/" target="_self"><span>Meet BSN students</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2766 menu-item-has-children">
+    <a href="/programs/bachelor-science-nursing/traditional-bsn/admissions-applying/" target="_self"><span>Admissions &amp; Applying</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-294">
+    <a href="/programs/bachelor-science-nursing/traditional-bsn/admissions-applying/admission-requirements/" target="_self"><span>Admission Requirements</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-292">
+    <a href="/programs/bachelor-science-nursing/traditional-bsn/apply-now/" target="_self"><span>Apply Now</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1537">
+    <a href="/programs/bachelor-science-nursing/traditional-bsn/sample-schedule/" target="_self"><span>Sample Schedule</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1536">
+    <a href="/programs/bachelor-science-nursing/traditional-bsn/clinical-experiences/" target="_self"><span>Clinical Experiences</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-220">
+    <a href="/programs/bachelor-science-nursing/traditional-bsn/info-sessions/" target="_self"><span>BSN Info Sessions</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-228">
+    <a href="/programs/bachelor-science-nursing/rn-to-bsn/" target="_self"><span>RN to BSN</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-232 menu-item-has-children">
+    <a href="/programs/master-science-for-non-rns/" target="_self"><span>Master of Science for non-RNs</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3357">
+    <a href="/programs/master-science-for-non-rns/meet-grad-entry-ms-students/" target="_self"><span>Meet AGMS/Grad-Entry Students</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1552">
+    <a href="/programs/master-science-for-non-rns/clinical-experiences/" target="_self"><span>Clinical Experiences</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1556">
+    <a href="/programs/master-science-for-non-rns/apply-now/admission-requirements/" target="_self"><span>Admission Requirements</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-281">
+    <a href="/programs/master-science-for-non-rns/apply-now/" target="_self"><span>Apply Now</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-282">
+    <a href="/programs/master-science-for-non-rns/info-sessions/" target="_self"><span>MS Info Sessions</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-71 current_page_item menu-item-234 menu-item-has-children">
+    <a href="/programs/master-of-science-for-rns/" target="_self"><span>Master of Science for RNs</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3359">
+    <a href="/programs/master-of-science-for-rns/meet-ms-students/" target="_self"><span>Meet MS Students</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3506">
+    <a href="/programs/master-of-science-for-rns/transition-program/" target="_self"><span>AGMS Transition Program</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-285">
+    <a href="/programs/master-of-science-for-rns/apply-now/admission-requirements/" target="_self"><span>Admission Requirements</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-283">
+    <a href="/programs/master-of-science-for-rns/apply-now/" target="_self"><span>Apply Now</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-284">
+    <a href="/programs/master-of-science-for-rns/info-sessions/" target="_self"><span>MS Info Sessions</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-230 menu-item-has-children">
+    <a href="/programs/doctor-nursing-practice/" target="_self"><span>Doctor of Nursing Practice</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3360">
+    <a href="/programs/doctor-nursing-practice/meet-dnp-students/" target="_self"><span>Meet DNP Students</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-231 menu-item-has-children">
+    <a href="/programs/doctor-nursing-practice/dnp-focus-areas/" target="_self"><span>DNP Focus Areas</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1616">
+    <a href="/programs/doctor-nursing-practice/dnp-focus-areas/adult-gero-acute-care-np/" target="_self"><span>Adult-Gerontology Acute Care Nurse Practitioner</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1615">
+    <a href="/programs/doctor-nursing-practice/dnp-focus-areas/adult-gero-primary-care-np/" target="_self"><span>Adult-Gerontology Primary Care Nurse Practitioner</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1614">
+    <a href="/programs/doctor-nursing-practice/dnp-focus-areas/advanced-population-health-nursing/" target="_self"><span>Advanced Population Health Nursing</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1613">
+    <a href="/programs/doctor-nursing-practice/dnp-focus-areas/family-np/" target="_self"><span>Family Nurse Practitioner</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1612">
+    <a href="/programs/doctor-nursing-practice/dnp-focus-areas/health-systems-leadership-informatics/" target="_self"><span>Health Systems Leadership and Informatics</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1611 menu-item-has-children">
+    <a href="/programs/doctor-nursing-practice/dnp-focus-areas/neonatal-np/" target="_self"><span>Neonatal Nurse Practitioner</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1713">
+    <a href="/programs/doctor-nursing-practice/dnp-focus-areas/neonatal-np/life-as-nnp/" target="_self"><span>Life as an NNP</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1610">
+    <a href="/programs/doctor-nursing-practice/dnp-focus-areas/nurse-midwifery/" target="_self"><span>Nurse-Midwifery</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1609">
+    <a href="/programs/doctor-nursing-practice/dnp-focus-areas/nurse-midwifery-womens-health-np/" target="_self"><span>Nurse-Midwifery / Women's Health Nurse Practitioner</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1608">
+    <a href="/programs/doctor-nursing-practice/dnp-focus-areas/pediatric-np-acute/" target="_self"><span>Pediatric Nurse Practitioner – Acute Care</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1607">
+    <a href="/programs/doctor-nursing-practice/dnp-focus-areas/pediatric-np-primary/" target="_self"><span>Pediatric Nurse Practitioner – Primary Care</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1606">
+    <a href="/programs/doctor-nursing-practice/dnp-focus-areas/psychiatric-mental-health-np/" target="_self"><span>Psychiatric-Mental Health Nurse Practitioner</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1605">
+    <a href="/programs/doctor-nursing-practice/dnp-focus-areas/womens-health-np/" target="_self"><span>Women’s Health Nurse Practitioner</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-9727 menu-item-has-children">
+    <a href="/programs/doctor-nursing-practice/dnp-project/" target="_self"><span>The DNP Project</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-12401">
+    <a href="/programs/doctor-nursing-practice/dnp-project/impactful-dnp-projects/" target="_self"><span>Impactful DNP Projects</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-12409">
+    <a href="/programs/doctor-nursing-practice/dnp-project/post-masters-dnp-projects/" target="_self"><span>Post-Master’s DNP Projects</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1620">
+    <a href="/programs/doctor-nursing-practice/dnp-focus-areas/post-masters-dnp/" target="_self"><span>Post-Master's DNP</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-288">
+    <a href="/programs/doctor-nursing-practice/admission-requirements/" target="_self"><span>Admission Requirements</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-11049">
+    <a href="/programs/phd/dnp-vs-phd/" target="_self"><span>DNP vs PhD</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-286">
+    <a href="/programs/doctor-nursing-practice/apply-now/" target="_self"><span>Apply Now</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-287">
+    <a href="/programs/doctor-nursing-practice/info-sessions/" target="_self"><span>DNP Info Sessions</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-235 menu-item-has-children">
+    <a href="/programs/phd/" target="_self"><span>Doctor of Philosophy</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3358">
+    <a href="/programs/phd/meet-phd-students/" target="_self"><span>Meet PhD Students</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3524">
+    <a href="/programs/phd/sample-program-plans/" target="_self"><span>Sample Program Plans</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3543">
+    <a href="/programs/phd/apply-now/admission-requirements/" target="_self"><span>Admission Requirements</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-11048">
+    <a href="/programs/phd/dnp-vs-phd/" target="_self"><span>DNP vs PhD</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-289">
+    <a href="/programs/phd/apply-now/" target="_self"><span>Apply Now</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2035 menu-item-has-children">
+    <a href="/programs/certificate-programs/" target="_self"><span>Certificate Programs</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2032 menu-item-has-children">
+    <a href="/programs/certificate-programs/post-dnp/" target="_self"><span>Post-DNP Certificate</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-4496">
+    <a href="/programs/certificate-programs/post-dnp/application/" target="_self"><span>Apply Now</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2034 menu-item-has-children">
+    <a href="/programs/certificate-programs/school-nurse/" target="_self"><span>School Nurse</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-6442">
+    <a href="/programs/certificate-programs/school-nurse/info-sessions/" target="_self"><span>Info Sessions</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3926">
+    <a href="/programs/certificate-programs/school-nurse/certificate-requirements/" target="_self"><span>School Nurse Certificate Requirements</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3925">
+    <a href="/programs/certificate-programs/school-nurse/admission-requirements/" target="_self"><span>Admission Requirements</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-4513">
+    <a href="/programs/certificate-programs/school-nurse/apply-now/" target="_self"><span>Apply Now</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-4406">
+    <a href="/programs/certificate-programs/school-nurse/be-a-preceptor/" target="_self"><span>Be a Preceptor</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2031">
+    <a href="/programs/certificate-programs/advanced-practice-palliative-care/" target="_self"><span>Advanced Practice Palliative Care Nursing</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2033">
+    <a href="/programs/certificate-programs/sleep-health/" target="_self"><span>Sleep Health</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2030">
+    <a href="/programs/certificate-programs/teaching-learning-in-nursing-and-health-sciences/" target="_self"><span>Teaching/Learning in Nursing and Health Sciences</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-5789">
+    <a href="/programs/certificate-programs/applying-for-certificates/" target="_self"><span>Applying for Certificates</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-10661 menu-item-has-children">
+    <a href="/programs/concentrations/" target="_self"><span>Concentrations</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-10704">
+    <a href="/programs/concentrations/primary-care-mental-health-concentration/" target="_self"><span>Primary Care Mental Health Concentration</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-354">
+    <a href="/programs/concentrations/rural-nursing-concentration/" target="_self"><span>Rural Nursing Concentration</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3608">
+    <a href="/programs/concentrations/womens-health-concentration/" target="_self"><span>Women's Health Concentration</span></a>    </li>
+  </ul>
+  </li>
+  </ul>
+                  </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-374 menu-item-has-children">
+                    <a  href="/programs/apply-now/" target="_self"><span>Apply Now</span>                          <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1561">
+    <a href="/programs/apply-now/international-applicants/" target="_self"><span>International Applicants</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1557">
+    <a href="/programs/apply-now/disclosures-appeals/" target="_self"><span>Disclosures &amp; Appeals</span></a>    </li>
+  </ul>
+                  </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-42">
+                    <a  href="/programs/cost-financial-aid/" target="_self"><span>Cost &amp; Financial Aid</span></a>                                      </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-210 menu-item-has-children">
+                    <a  href="/programs/six-campuses/" target="_self"><span>Six Campuses</span>                          <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-855 menu-item-has-children">
+    <a href="/programs/six-campuses/chicago-2/" target="_self"><span>Chicago Campus</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2373">
+    <a href="/programs/six-campuses/chicago-2/campus-directory/" target="_self"><span>Campus Directory</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-215 menu-item-has-children">
+    <a href="/programs/six-campuses/peoria/" target="_self"><span>Peoria Campus</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-9428">
+    <a href="/programs/six-campuses/peoria/info-sessions/" target="_self"><span>Info Sessions</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2417">
+    <a href="/programs/six-campuses/peoria/news-events/" target="_self"><span>News &amp; Events</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2376">
+    <a href="/programs/six-campuses/peoria/campus-directory/" target="_self"><span>Campus Directory</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-214 menu-item-has-children">
+    <a href="/programs/six-campuses/quad-cities/" target="_self"><span>Quad Cities Campus</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2791">
+    <a href="/programs/six-campuses/quad-cities/info-sessions/" target="_self"><span>Info Sessions</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2422">
+    <a href="/programs/six-campuses/quad-cities/news-events-2/" target="_self"><span>News &amp; Events</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2379">
+    <a href="/programs/six-campuses/quad-cities/campus-directory/" target="_self"><span>Campus Directory</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-213 menu-item-has-children">
+    <a href="/programs/six-campuses/rockford/" target="_self"><span>Rockford Campus</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2467">
+    <a href="/programs/six-campuses/rockford/info-sessions/" target="_self"><span>Info Sessions</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2229">
+    <a href="/programs/six-campuses/rockford/news-events/" target="_self"><span>News &amp; Events</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2382">
+    <a href="/programs/six-campuses/rockford/campus-directory/" target="_self"><span>Campus Directory</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-212 menu-item-has-children">
+    <a href="/programs/six-campuses/springfield/" target="_self"><span>Springfield Campus</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3693">
+    <a href="/programs/six-campuses/springfield/faqs/" target="_self"><span>FAQs</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-7766">
+    <a href="/programs/six-campuses/springfield/info-sessions/" target="_self"><span>Info Sessions</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2222">
+    <a href="/programs/six-campuses/springfield/news-events-2/" target="_self"><span>News &amp; Events</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-839">
+    <a href="/programs/six-campuses/springfield/campus-directory/" target="_self"><span>Campus Directory</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-211 menu-item-has-children">
+    <a href="/programs/six-campuses/urbana/" target="_self"><span>Urbana Campus</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-707">
+    <a href="/programs/six-campuses/urbana/faqs/" target="_self"><span>FAQs</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2492">
+    <a href="/programs/six-campuses/urbana/info-sessions/" target="_self"><span>Info Sessions</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2442">
+    <a href="/programs/six-campuses/urbana/news-events/" target="_self"><span>News &amp; Events</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-690">
+    <a href="/programs/six-campuses/urbana/campus-directory/" target="_self"><span>Campus Directory</span></a>    </li>
+  </ul>
+  </li>
+  </ul>
+                  </li>
+                  
+                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-41 menu-item-has-children">
+                    <a  href="/student-life/" target="_self"><span>Student Life</span>                          <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-245">
+    <a href="/student-life/schwartz-lab/" target="_self"><span>Schwartz Lab</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-727">
+    <a href="/student-life/student-success-program/" target="_self"><span>Student Success Program</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1803">
+    <a href="/student-life/urban-health-program/" target="_self"><span>Urban Health Program</span></a>    </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-729 menu-item-has-children">
+    <a href="/student-life/career-resource-center/" target="_self"><span>Career Resource Center</span>        <span class="expand-item"></span></a>
+  <ul class="_child">
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-12929">
+    <a href="/student-life/career-resource-center/job-fairs/" target="_self"><span>Job Fairs</span></a>    </li>
+  </ul>
+  </li>
+    <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-246">
+    <a href="/student-life/student-organizations/" target="_self"><span>Student Organizations</span></a>    </li>
+  </ul>
+                  </li>
+                                  </ul>
+
+              </nav>
+            </div>
+       
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                                 
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+
+
+          
+                          </div>
+    </main>
+
+    
+        <footer id="footer" class="footer u-dark-region" role="contentinfo">
+
+  <div class="footer-contact">
+    <div class="l-full">
+
+          <div class="mega-footer-contact">
+
+    <div class="mega-footer-contact__brand mega-footer-contact__brand--wordmark">
+        <div class="footer-logo">
+                        <div class="footer-logo__college-name">
+                College of Nursing
+            </div>
+                <a href="http://uihealth.uic.edu" class="ui-health-logo-icon footer-logo__ui-health-logo"><span class="link-text-hide">UI Health</span>
+  <svg aria-label="UI Health" class="ui-health-logo-icon" viewBox="0 0 1050 150" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+    <g fill="#fff" fill-rule="nonzero" class="_uih-mark">
+      <path d="M0 61.638h54.48v11H0z"/>
+      <path d="M43.738 18.671v26.85H.005v10.996H54.48V18.671H43.738z"/>
+      <path d="M42.968 76.971h11v54.475h-11z"/>
+      <path d="M.003 76.971v10.738h26.846v43.737h11.004V76.971H.003z"/>
+      <path d="M58.563 18.417h10.996v54.475H58.563z"/>
+      <path d="M85.676 62.155V18.417h-11v54.475h37.846V62.155H85.676z"/>
+      <path d="M58.043 77.225h54.479v11h-54.48l.001-11z"/>
+      <path d="M112.523 93.342H58.044v37.85h10.742v-26.854h43.737V93.342z"/>
+    </g>
+    <path class="_uic-mark-text" fill="none" d="M1047.515 75.005c0-29.892-24.236-54.13-54.127-54.13-29.9 0-54.135 24.234-54.135 54.13 0 29.895 24.236 54.129 54.135 54.129 29.89 0 54.127-24.234 54.127-54.13"/>
+    <path class="_uic-mark-circle" fill="#fff" fill-rule="nonzero" d="M1039.889 67.505l-9.59 4.604c-.92-3.575-2.92-5.684-6.39-5.684-4.71 0-7.1 3.9-7.1 10.284 0 6.341 2.39 10.137 7.1 10.137 3.25 0 5.15-1.733 6.18-4.604l10.02 3.57c-2.6 5.913-7.85 9.972-16.25 9.972-11.65 0-18.32-7.8-18.32-19.075 0-11.317 7.05-19.063 18.54-19.063 8.78 0 13.97 5.038 15.81 9.859m-39.71 27.629h-11.05V58.292h11.05v36.842zm-17.77-15.059c0 5.146-.54 7.634-2 10.13-2.44 4.066-8.94 5.633-14.62 5.633-5.7 0-12.2-1.567-14.63-5.633-1.47-2.496-2.02-4.984-2.02-10.13V58.292h11.06v21.996c0 2.492.33 4.12 1.25 5.204.87 1.03 2.27 1.517 4.34 1.517 2.05 0 3.46-.488 4.33-1.517.92-1.083 1.24-2.712 1.24-5.204V58.292h11.05v21.783zm67.46-5.07c0-31.192-25.29-56.484-56.48-56.484-31.2 0-56.49 25.288-56.49 56.484 0 31.195 25.29 56.483 56.49 56.483 31.19 0 56.48-25.288 56.48-56.483"/>
+    <path class="_divider" fill="#fff" d="M865.929 0h3v150h-3z"/>
+    <g fill="#fff" fill-rule="nonzero" class="_text">
+      <path d="M153.449 83.963v-62.93h8v62.16c0 25.387 13.692 40.003 36.463 40.003 21.85 0 35.854-13.233 35.854-39.233v-62.93h8v62.005c0 30.93-18.004 47.392-44.158 47.392-25.85 0-44.158-16.309-44.158-46.467"/>
+      <path d="M270.097 21.034h8v107.704h-8z"/>
+      <path d="M526.155 85.809c-1.079-15.846-10.154-30.463-28.158-30.463-15.537 0-27.542 13.08-28.925 30.463h57.083zm-65.083 3.85v-.309c0-22.775 16-40.925 37.233-40.925 22.005 0 36.005 17.842 36.005 41.08 0 1.383 0 1.845-.15 3.075h-65.088c1.383 19.541 15.388 30.925 30.77 30.925 12.16 0 20.468-5.384 26.93-12.309l5.23 4.617c-8 8.617-17.388 14.77-32.467 14.77-20.617 0-38.463-16.462-38.463-40.924M607.255 99.35v-8.925c-6.612-1.691-15.383-3.537-26.616-3.537-16.617 0-25.85 7.383-25.85 18.308v.309c0 11.383 10.77 18 22.775 18 16 0 29.691-9.846 29.691-24.155m-60.466 6.617v-.308c0-16.309 14.004-25.542 34.308-25.542 10.925 0 18.467 1.388 26.008 3.383v-3.383c0-15.846-9.695-24-25.85-24-9.537 0-17.387 2.617-24.616 6.308l-2.775-6.616c8.616-4 17.079-6.771 27.854-6.771 10.617 0 19.075 2.925 24.767 8.617 5.233 5.233 8 12.462 8 22.154v48.929h-7.38v-13.08c-5.387 7.542-15.083 14.926-30.004 14.926-14.62 0-30.312-8.309-30.312-24.617M357.351 21.034h8v49.85h68.93v-49.85h8v107.704h-8V78.271h-68.93v50.467h-8V21.034z"/>
+      <path d="M639.585 16.421h7.541v112.317h-7.541zM677.901 108.584V57.196h-11.387v-6.925h11.387V25.192h7.542v25.08h27.538v6.924h-27.538v50.617c0 11.233 6.613 15.233 15.692 15.233 3.846 0 7.079-.77 11.541-2.77v7.079c-4.004 1.845-7.85 2.766-12.775 2.766-12.131 0-21.963-6.591-22-21.537zM732.222 16.421h7.542v48.463c5.23-9.23 14-16.459 28.304-16.459 19.851 0 31.391 13.538 31.391 32.309v48.004h-7.54v-46.62c0-16.155-9.08-26.772-24.921-26.772-15.388 0-27.234 11.692-27.234 28v45.392h-7.542V16.421z"/>
+    </g>
+  </svg>
+</a>
+        <div class="footer-logo__tagline">
+            UIC's seven health sciences colleges and health care delivery enterprise.
         </div>
     </div>
-    <div class="footer-legal">
-        <div class="ms-grid">
-            <div class="ms-row">
-                <div class="l-col-1-2">
-                    &copy; 2016 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span> <a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a>
-                </div>
-                <div class="l-col-1-2 campuses">
-                                            <a href="http://www.uillinois.edu/">University of Illinois</a> <span class="pipe-separator">|</span>
-                                            <a href="http://www.illinois.edu/">Urbana-Champaign</a> <span class="pipe-separator">|</span>
-                                            <a href="http://www.uis.edu/">Springfield</a> 
-                                    </div>
-            </div>
-        </div>
     </div>
-  <a href="https://plus.google.com/+UicEdu" rel="publisher" hidden>UIC on Google+</a>
+
+  <div class="mega-footer-contact__menus">
+
+        <div class="mega-footer-contact__quick-menus _quick-menus">
+
+            <nav class="mega-footer-contact__quick-menu" id="menu1" aria-label="footer-menu-1">
+        <h2>Quick Links</h2>
+        <ul id="menu-quick-1" class="menu menu-quick-1" aria-label="Quick Links">
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-491">
+      <a href="/about/directory/" target="_self">Directory</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-8845">
+      <a href="/nursing-research/" target="_self">Research</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1400">
+      <a href="/about/our-faculty/" target="_self">Our Faculty</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-815">
+      <a href="/about/job-openings/" target="_self">Job Openings</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-817">
+      <a href="/about/diversity-inclusion/" target="_self">Diversity &amp; Inclusion</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-814">
+      <a href="/about/college-insider/" target="_self">CollegeInsider</a>
+    </li>
+  </ul>
+      </nav>
+      
+            <nav class="mega-footer-contact__quick-menu" id="menu2" aria-label="footer-menu-2">
+        <h2>Major College Units</h2>
+        <ul id="menu-quick-2" class="menu menu-quick-2" aria-label="Major College Units">
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2264">
+      <a href="/about/academic-departments/biobehavioral-health-science/" target="_self">Department of Biobehavioral Health Science</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2114">
+      <a href="/about/academic-departments/health-systems-science/" target="_self">Department of Health Systems Science</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2113">
+      <a href="/about/academic-departments/women-children-family-health-science/" target="_self">Department of Women, Children and Family Health Science</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-6877">
+      <a href="/about/college-insider/academic-programs-staff/" target="_self">Office of Academic Programs</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2117">
+      <a href="/about/college-insider/global-health-leadership-office/" target="_self">Global Health Leadership Office</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2116">
+      <a href="/about/college-insider/office-research-facilitation/" target="_self">Office of Research Facilitation</a>
+    </li>
+  </ul>
+      </nav>
+      
+            <nav class="mega-footer-contact__quick-menu" id="menu3" aria-label="footer-menu-3">
+        <h2>Campuses</h2>
+        <ul id="menu-quick-3" class="menu menu-quick-3" aria-label="Campuses">
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1232">
+      <a href="/programs/six-campuses/chicago-2/" target="_self">Chicago Campus</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-809">
+      <a href="/programs/six-campuses/peoria/" target="_self">Peoria Campus</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-813">
+      <a href="/programs/six-campuses/quad-cities/" target="_self">Quad Cities Campus</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-811">
+      <a href="/programs/six-campuses/rockford/" target="_self">Rockford Campus</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-812">
+      <a href="/programs/six-campuses/springfield/" target="_self">Springfield Campus</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-810">
+      <a href="/programs/six-campuses/urbana/" target="_self">Urbana Campus</a>
+    </li>
+  </ul>
+      </nav>
+      
+    </div>
+    
+        <div class="mega-footer-contact__button-menus">
+      <nav class="mega-footer-contact__button-menu" id="menu4" aria-label="footer-menu-4">
+        <h2 class="assistive-text">Connect with Us</h2>
+
+        <ul id="button-menu" class="menu button-menu" aria-label="Connect with Us">
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-7131">
+      <a href="/programs/apply-now/" target="_self">Apply Now</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-10136">
+      <a href="/alumni/give-now/" target="_self">Give Now</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-489">
+      <a href="/about/contact-us/" target="_self">Contact Us</a>
+    </li>
+  </ul>
+
+      </nav>
+    </div>
+    
+  </div>
+
+  <div class="mega-footer-contact__contact">
+
+    <div class="_contact">
+      <h2>Contact</h2>
+      <div class="site-contact-container">    <div class="site-address">845 S. Damen Ave., MC 802, Chicago, IL 60612</div>
+      <div class="site-phone">Phone: <a  href="tel:(312) 996-7800">(312) 996-7800</a></div>
+        <div class="site-email"><a  href="mailto:con@uic.edu">con@uic.edu</a></div>
+</div>
+      <div class="site-contact-container">        </div>
+    </div>
+
+    <div class="mega-footer-contact__site-social-links">
+       <div aria-label="Social Media Accounts" class="site-social-links">
+  <h2 class="site-social-links__header assistive-text">Social Media Accounts</h2>
+  <ul class="site-social-links__list">
+        <li class="site-social-links__list-item"><a  class="site-social-links__link facebook" href="https://www.facebook.com/uic.con/">
+      <svg class="site-social-links__link-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Facebook"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>
+    </a></li>
+                <li class="site-social-links__list-item"><a  class="site-social-links__link twitter" href="https://twitter.com/UICnursing">
+      <svg class="site-social-links__link-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Twitter"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>
+    </a></li>
+            <li class="site-social-links__list-item"><a  class="site-social-links__link instagram" href="https://www.instagram.com/uicnursing/">
+      <svg class="site-social-links__link-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Instagram"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>
+    </a></li>
+              </ul>
+</div>
+    </div>
+  </div>
+</div>
+    
+    </div>
+  </div>
+
+  
+  <div class="footer-uic-menu">
+    <div class="l-full">
+
+      <div aria-label="UIC.edu Links">
+  <h2 class="assistive-text">UIC.edu links</h2>
+  <ul class="uic-footer-menu">
+    <li><strong><a href="https://uic.edu/">UIC.edu</a></strong></li>
+    <li><a href="https://catalog.uic.edu/ucat/academic-calendar/">Academic Calendar</a></li>
+    <li><a href="https://uicflames.com/">Athletics</a></li>
+    <li><a href="https://www.uic.edu/apps/departments-az/search">Campus Directory</a></li>
+    <li><a href="https://disabilityresources.uic.edu/">Disability Resources</a></li>
+    <li><a href="https://emergency.uic.edu/">Emergency Information</a></li>
+    <li><a href="https://today.uic.edu/events">Event Calendar</a></li>
+    <li><a href="https://uic.edu/about/job-opportunities">Job Openings</a></li>
+    <li><a href="https://library.uic.edu/">Library</a></li>
+    <li><a href="https://maps.uic.edu/">Maps</a></li>
+    <li><a href="https://ready.uic.edu/digital-materials/uic-safe-mobile-app/">UIC Safe Mobile App</a></li>
+    <li><a href="https://today.uic.edu/">UIC Today</a></li>
+    <li><a href="https://uihealth.uic.edu/">UI Health</a></li>
+    <li><a href="https://dos.uic.edu/student-veterans-affairs/">Veterans Affairs</a></li>
+  </ul>
+</div>
+
+    </div>
+  </div>
+
+  <div class="footer-legal">
+    <div class="l-full">
+
+      <div class="red-version">Powered by Red 2.38.0</div>
+
+<div class="site-copyright">
+  &copy; 2020 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
+  <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a>
+</div>
+
+<div class="campuses" aria-label="Campuses">
+  <h2 class="assistive-text">Campuses</h2>
+  <ul class="campuses-list">
+    <li><a href="https://www.uillinois.edu/">University of Illinois System</a></li>
+    <li><a href="https://illinois.edu/">Urbana-Champaign</a></li>
+    <li><a href="https://www.uis.edu/">Springfield</a></li>
+  </ul>
+</div>
+<div class="cookie-banner">
+  <div id="footer-bottom">
+    <a class="optanon-show-settings">Cookie Settings</a>
+  </div>
+</div>
+    </div>
+  </div>
+
 </footer>
 
-<link rel="stylesheet" href="/css/main.min.css" media="all"><script src="/js/concat/main.min.js"></script><script src="//www.uic.edu/inc/emergency/alert.js"></script></body></html>
+	    </div>
+
+
+  <!-- Instagram Feed JS -->
+<script type="text/javascript">
+var sbiajaxurl = "https://nursing.uic.edu/wp-admin/admin-ajax.php";
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sb_instagram_js_options = {"sb_instagram_at":"","font_method":"svg"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://nursing.uic.edu/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.12.1'></script>
+<script type='text/javascript' src='https://nursing.uic.edu/wp-content/plugins/uic-red/js-admin/uic-publish-post-settings.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://nursing.uic.edu/wp-content/plugins/uic-red/js-admin/acf-field-group-toggle.js?ver=1.0.0'></script>
+<script type='text/javascript' src='//www.uic.edu/apps/web-alert/alert.js?ver=3'></script>
+<script type='text/javascript' src='https://nursing.uic.edu/wp-content/themes/uic-red/js/main.js?ver=1'></script>
+<script type='text/javascript' src='https://nursing.uic.edu/wp-includes/js/wp-embed.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
+
+
+
+  
+  
+  <script async src="https://cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js" type="text/javascript" charset="UTF-8"></script>
+
+  </body>
+</html>

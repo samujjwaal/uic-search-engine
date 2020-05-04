@@ -17,11 +17,11 @@
     
         ga('create', 'UA-20665772-1', 'auto');
     
-        ga('create', 'UA-102819527-3', 'auto', 'engineeringalumniTracker');
+        ga('create', 'UA-102819527-13', 'auto', 'csTracker');
     
         ga('send', 'pageview');
     
-        ga('engineeringalumniTracker.send', 'pageview');
+        ga('csTracker.send', 'pageview');
       </script>
 <!-- End Google Analytics script (RED and this site) -->
 
@@ -40,7 +40,7 @@
 
 
         <title>
-                            Engineer your own involvement | Engineering Alumni | University of Illinois at Chicago
+                            UIC to lead $3M initiative to develop system to identify, patch software security holes | Department of Computer Science | University of Illinois at Chicago
                     </title>
 
 
@@ -48,7 +48,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="pingback" href="https://engineeringalumni.uic.edu/xmlrpc.php" />
+    <link rel="pingback" href="https://cs.uic.edu/xmlrpc.php" />
 
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
@@ -71,14 +71,14 @@
 <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
 <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 
-    <link rel="stylesheet" href="https://engineeringalumni.uic.edu/wp-content/themes/uic-red/main.css?v=1587475706" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://engineeringalumni.uic.edu/wp-content/themes/uic-red/theinhardt.css?v=1587475706" type="text/css" media="all">
+    <link rel="stylesheet" href="https://cs.uic.edu/wp-content/themes/uic-red/main.css?v=1588698688" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://cs.uic.edu/wp-content/themes/uic-red/theinhardt.css?v=1588698688" type="text/css" media="all">
 
-    <link rel='dns-prefetch' href='//ajax.googleapis.com' />
-<link rel='dns-prefetch' href='//www.uic.edu' />
+    <link rel='dns-prefetch' href='//www.uic.edu' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
 		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/engineeringalumni.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6"}};
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cs.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6"}};
 			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
 		<style type="text/css">
@@ -95,34 +95,14 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-	<link rel='stylesheet' id='gforms_reset_css-css'  href='https://engineeringalumni.uic.edu/wp-content/plugins/gravityforms/css/formreset.min.css?ver=2.4.17' type='text/css' media='all' />
-<link rel='stylesheet' id='gforms_formsmain_css-css'  href='https://engineeringalumni.uic.edu/wp-content/plugins/gravityforms/css/formsmain.min.css?ver=2.4.17' type='text/css' media='all' />
-<link rel='stylesheet' id='gforms_ready_class_css-css'  href='https://engineeringalumni.uic.edu/wp-content/plugins/gravityforms/css/readyclass.min.css?ver=2.4.17' type='text/css' media='all' />
-<link rel='stylesheet' id='gforms_browsers_css-css'  href='https://engineeringalumni.uic.edu/wp-content/plugins/gravityforms/css/browsers.min.css?ver=2.4.17' type='text/css' media='all' />
-<link rel='stylesheet' id='gravity-forms-wcag-20-form-fields-css-css'  href='https://engineeringalumni.uic.edu/wp-content/plugins/gravity-forms-wcag-20-form-fields/css/gf_wcag20_form_fields.min.css?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-block-library-css'  href='https://engineeringalumni.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6' type='text/css' media='all' />
-<link rel='stylesheet' id='sb_instagram_styles-css'  href='https://engineeringalumni.uic.edu/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.12.1' type='text/css' media='all' />
-<link rel='stylesheet' id='tablepress-default-css'  href='https://engineeringalumni.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://cs.uic.edu/wp-includes/css/dist/block-library/style.min.css?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6' type='text/css' media='all' />
+<link rel='stylesheet' id='sb_instagram_styles-css'  href='https://cs.uic.edu/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.12.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sb-font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://cs.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
 <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
-<script type='text/javascript' src='https://engineeringalumni.uic.edu/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.4.17'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/engineeringalumni.uic.edu\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/engineeringalumni.uic.edu\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
-var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/engineeringalumni.uic.edu\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/engineeringalumni.uic.edu\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://engineeringalumni.uic.edu/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.4.17'></script>
-<script type='text/javascript' src='https://engineeringalumni.uic.edu/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.4.17'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in a new window","failed_validation":""};
-var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in a new window","failed_validation":""};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://engineeringalumni.uic.edu/wp-content/plugins/gravity-forms-wcag-20-form-fields/js/gf_wcag20_form_fields.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
-<link rel='https://api.w.org/' href='https://engineeringalumni.uic.edu/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://engineeringalumni.uic.edu/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://engineeringalumni.uic.edu/wp-includes/wlwmanifest.xml" /> 
+<link rel='https://api.w.org/' href='https://cs.uic.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cs.uic.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cs.uic.edu/wp-includes/wlwmanifest.xml" /> 
 
 <script type="text/javascript">
 (function(url){
@@ -157,7 +137,7 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
 	for (var i = 0; i < evts.length; i++) {
 		addEvent(evts[i], logHuman);
 	}
-})('//engineeringalumni.uic.edu/?wordfence_lh=1&hid=5F46A59035477586D4D7EB4BD5D22528');
+})('//cs.uic.edu/?wordfence_lh=1&hid=EFA4074610C6CE89953A692F33FEE678');
 </script>
 </head>
       
@@ -176,7 +156,7 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
   
   
 
-  <div class="l-page page-template-default page page-id-964 page-parent page-child parent-pageid-926 post-type--page  site-type-b theme--navy is-sidebar  ">
+  <div class="l-page news-template-default single single-news postid-1983 post-type--news  site-type-b theme--navy no-sidebar  ">
 
 
     <!--[if lte IE 9]>
@@ -196,16 +176,6 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
     
 <header class="l-header" role="banner">
 
-      <div class="eyebrow">
-  <a href="http://advance.uic.edu/" class="eyebrow__link">It all starts with a single spark</a>
-  <div class="eyebrow__logo">
-    <img
-      class="eyebrow__logo-image"
-      src="/wp-content/themes/uic-red/images/ignite-logo-1x.png"
-      alt="UIC Advancement Ignite Campaign Logo"
-      srcset="/wp-content/themes/uic-red/images/ignite-logo-2x.png 2x">
-  </div>
-</div>
   
   <div class="header-navigation">
 
@@ -216,12 +186,11 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
     </span>
     <a class="_primary-menu" href="#menu-main">the main menu</a>,
 
-        <a class="_secondary-menu" href="#menu-secondary">the secondary menu</a>,
     
     
     <a class="_search" href="#search">the site search form</a>,
 
-    <a class="_home" href="https://engineeringalumni.uic.edu">the site home page</a>.
+    <a class="_home" href="https://cs.uic.edu">the site home page</a>.
   </p>
 </div>
 
@@ -237,7 +206,7 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
 </a>
     </div>
                 <div class="site-title-eyebrow-mobile">
-          <a href="https://engineeringalumni.uic.edu">Engineering Alumni</a>
+          <a href="https://cs.uic.edu">Department of Computer Science</a>
         </div>
     
     <button aria-label="Search the site" class="search-toggle-mobile js-search-toggle-mobile">
@@ -257,7 +226,7 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
         Search
         <a class="search-close search-toggle-mobile">
           <svg aria-label="Close search box" width="100%" height="100%" viewBox="0 0 22 22">
-            <use xlink:href="https://engineeringalumni.uic.edu/wp-content/themes/uic-red/images/svgs/svgs.svg#icon-close"></use>
+            <use xlink:href="https://cs.uic.edu/wp-content/themes/uic-red/images/svgs/svgs.svg#icon-close"></use>
           </svg>
         </a>
       </div>
@@ -284,25 +253,412 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
 
             <div class="header-navigation__logo-and-site-title">
 
-                                <div class="site-title-main -large">
-                                      <a href="https://engineeringalumni.uic.edu">Engineering Alumni</a>
+                                <div class="site-title-main ">
+                                      <a href="https://cs.uic.edu">Department of Computer Science</a>
                                     </div>
               
             </div>
-          <nav class="header-menus js-header-menus header-menus--eyebrow" aria-label="Primary" role="navigation">
+          <nav class="header-menus js-header-menus " aria-label="Primary" role="navigation">
 
   <div class="site-title-mobile-menu">
-    <a href="https://engineeringalumni.uic.edu">Engineering Alumni</a>
+    <a href="https://cs.uic.edu">Department of Computer Science</a>
   </div>
 
   
   <h2 class="assistive-text">Main Menu</h2>
   <ul id="menu-main" class="menu menu-main" aria-label="Main Menu">
-      <li class="menu-main__first-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-959 menu-item-has-children">
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-484 menu-item-has-children">
       <a 
         class="menu-main__first-link"
-        href="https://engineering.uic.edu/about/coe-news/"
-        target="_blank">
+        href="/undergraduate/"
+        target="_self">
+
+        Undergraduate
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Undergraduate menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Undergraduate menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-617">
+                <a 
+                  class="menu-main__second-link"
+                  href="/undergraduate/admitted-students/"
+                  target="_self">
+
+                  Admitted Students
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1466">
+                <a 
+                  class="menu-main__second-link"
+                  href="http://engineering.uic.edu/undergraduate-admissions/"
+                  target="_blank">
+
+                  Admissions
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2773">
+                <a 
+                  class="menu-main__second-link"
+                  href="/undergraduate/abet-accreditation/"
+                  target="_self">
+
+                  Accreditation
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-471">
+                <a 
+                  class="menu-main__second-link"
+                  href="/undergraduate/cs-major/"
+                  target="_self">
+
+                  CS Major
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1308">
+                <a 
+                  class="menu-main__second-link"
+                  href="/undergraduate/cs-minor/"
+                  target="_self">
+
+                  CS Minor
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1490">
+                <a 
+                  class="menu-main__second-link"
+                  href="/undergraduate/undergrad-courses/"
+                  target="_self">
+
+                  Courses
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3193">
+                <a 
+                  class="menu-main__second-link"
+                  href="/undergraduate/internships-and-jobs/"
+                  target="_self">
+
+                  Internships and Jobs
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1393">
+                <a 
+                  class="menu-main__second-link"
+                  href="/undergraduate/student-organizations/"
+                  target="_self">
+
+                  Student Groups
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-480">
+                <a 
+                  class="menu-main__second-link"
+                  href="/undergraduate/student-profiles/"
+                  target="_self">
+
+                  Student Profiles
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-481">
+                <a 
+                  class="menu-main__second-link"
+                  href="/undergraduate/student-resources/"
+                  target="_self">
+
+                  Student Resources
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3580">
+                <a 
+                  class="menu-main__second-link"
+                  href="/undergraduate/women/"
+                  target="_self">
+
+                  Women in CS
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1313 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/graduate/"
+        target="_self">
+
+        Graduate
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Graduate menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Graduate menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-470">
+                <a 
+                  class="menu-main__second-link"
+                  href="/graduate/admitted-students/"
+                  target="_self">
+
+                  Admitted Students
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-469 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/graduate/admissions/"
+                  target="_self">
+
+                  Admissions
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1578">
+                <a 
+                  class="menu-main__second-link"
+                  href="/graduate/graduate-courses/"
+                  target="_self">
+
+                  Courses
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-472 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/graduate/ms-program/"
+                  target="_self">
+
+                  MS Program
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-521 menu-item-has-children">
+                <a 
+                  class="menu-main__second-link"
+                  href="/graduate/phd/"
+                  target="_self">
+
+                  PhD Program
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-538">
+                <a 
+                  class="menu-main__second-link"
+                  href="/graduate/cs-dissertations/"
+                  target="_self">
+
+                  PhD Dissertations
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1012">
+                <a 
+                  class="menu-main__second-link"
+                  href="/graduate/post-grad-outcomes/"
+                  target="_self">
+
+                  Post-Graduation Outcomes
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-479">
+                <a 
+                  class="menu-main__second-link"
+                  href="/graduate/student-profiles/"
+                  target="_self">
+
+                  Student Profiles
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1323">
+                <a 
+                  class="menu-main__second-link"
+                  href="/graduate/graduate-student-resources/"
+                  target="_self">
+
+                  Student Resources
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-478 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/cs-research/"
+        target="_self">
+
+        Research
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Research menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Research menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-559">
+                <a 
+                  class="menu-main__second-link"
+                  href="/cs-research/research-areas-2/"
+                  target="_self">
+
+                  Research Areas
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-557">
+                <a 
+                  class="menu-main__second-link"
+                  href="/cs-research/labs/"
+                  target="_self">
+
+                  Labs
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-556">
+                <a 
+                  class="menu-main__second-link"
+                  href="/cs-research/lectures-seminars/"
+                  target="_self">
+
+                  Lectures and Seminars
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2045">
+                <a 
+                  class="menu-main__second-link"
+                  href="/cs-research/reus/"
+                  target="_self">
+
+                  Research Experiences for Undergraduates
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-467 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/faculty-staff/"
+        target="_self">
+
+        Faculty and Staff
+      </a>
+
+              <button class="menu-main__expand-item js-expand-item" role="button">
+          <svg class="menu-main__expand-icon" aria-label="Expand Faculty and Staff menu" width="32" height="32" viewBox="0 0 32 32">
+            <title>Expand Faculty and Staff menu</title>
+            <g fill="none" fill-rule="evenodd">
+              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
+              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
+            </g>
+          </svg>
+        </button>
+
+        <div class="menu-main__submenus-container">
+          <ul class="menu-main__second-list">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-568">
+                <a 
+                  class="menu-main__second-link"
+                  href="/faculty-staff/department-head/"
+                  target="_self">
+
+                  Department Head
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-453">
+                <a 
+                  class="menu-main__second-link"
+                  href="/faculty-staff/faculty/"
+                  target="_self">
+
+                  Faculty
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-451">
+                <a 
+                  class="menu-main__second-link"
+                  href="/faculty-staff/emeritus-faculty/"
+                  target="_self">
+
+                  Emeritus Faculty
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2075">
+                <a 
+                  class="menu-main__second-link"
+                  href="/faculty-staff/adjunct-faculty/"
+                  target="_self">
+
+                  Adjunct Faculty
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-450">
+                <a 
+                  class="menu-main__second-link"
+                  href="/faculty-staff/staff/"
+                  target="_self">
+
+                  Staff
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1347">
+                <a 
+                  class="menu-main__second-link"
+                  href="/faculty-staff/faculty-resources/"
+                  target="_self">
+
+                  Faculty Resources
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1346">
+                <a 
+                  class="menu-main__second-link"
+                  href="/faculty-staff/open-positions/"
+                  target="_self">
+
+                  Open Positions
+                </a>
+              </li>
+                      </ul>
+
+          <div class="menu-main__mega-menu-container">
+                      </div>
+        </div>
+          </li>
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-567 menu-item-has-children">
+      <a 
+        class="menu-main__first-link"
+        href="/cs-news/"
+        target="_self">
 
         News
       </a>
@@ -319,22 +675,22 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
 
         <div class="menu-main__submenus-container">
           <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1387">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2526">
                 <a 
                   class="menu-main__second-link"
-                  href="/deans-list/"
+                  href="/cs-news/all-news/"
                   target="_self">
 
-                  Dean's List
+                  News Stories
                 </a>
               </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1375">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2527">
                 <a 
                   class="menu-main__second-link"
-                  href="https://engineering.uic.edu/rise/"
-                  target="_blank">
+                  href="/cs-news/press-mentions/"
+                  target="_self">
 
-                  RISE Magazine
+                  Press Mentions
                 </a>
               </li>
                       </ul>
@@ -343,10 +699,10 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
                       </div>
         </div>
           </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-50 menu-item-has-children">
+      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1351 menu-item-has-children">
       <a 
         class="menu-main__first-link"
-        href="/events/"
+        href="/cs-events/"
         target="_self">
 
         Events
@@ -364,13 +720,22 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
 
         <div class="menu-main__submenus-container">
           <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1135">
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2923">
                 <a 
                   class="menu-main__second-link"
-                  href="/events/"
+                  href="/cs-events/calendar/"
                   target="_self">
 
-                  Upcoming Events
+                  CS calendar
+                </a>
+              </li>
+                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2567">
+                <a 
+                  class="menu-main__second-link"
+                  href="/cs-events/student-opportunities/"
+                  target="_self">
+
+                  Student Opportunities
                 </a>
               </li>
                       </ul>
@@ -378,152 +743,6 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
           <div class="menu-main__mega-menu-container">
                       </div>
         </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-979 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/get-involved/"
-        target="_self">
-
-        Get Involved
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Get Involved menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Get Involved menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-980">
-                <a 
-                  class="menu-main__second-link"
-                  href="/get-involved/join-us-on-linkedin/"
-                  target="_self">
-
-                  Join us on LinkedIn
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-533">
-                <a 
-                  class="menu-main__second-link"
-                  href="/get-involved/mentoring/"
-                  target="_self">
-
-                  Become a Mentor
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-74">
-                <a 
-                  class="menu-main__second-link"
-                  href="/get-involved/volunteering/"
-                  target="_self">
-
-                  Volunteer
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-964 current_page_item menu-item-981">
-                <a 
-                  class="menu-main__second-link"
-                  href="/get-involved/engineer-your-own-involvement/"
-                  target="_self">
-
-                  Engineer your own involvement
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1192">
-                <a 
-                  class="menu-main__second-link"
-                  href="/honor-a-professor/"
-                  target="_self">
-
-                  Honor a Professor
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-495 menu-item-has-children">
-      <a 
-        class="menu-main__first-link"
-        href="/awards/"
-        target="_self">
-
-        Awards
-      </a>
-
-              <button class="menu-main__expand-item js-expand-item" role="button">
-          <svg class="menu-main__expand-icon" aria-label="Expand Awards menu" width="32" height="32" viewBox="0 0 32 32">
-            <title>Expand Awards menu</title>
-            <g fill="none" fill-rule="evenodd">
-              <ellipse class="menu-main__expand-circle" stroke-width="1" stroke="#001E62" fill="#001E62" cx="16" cy="16" rx="15.5" ry="15.5"></ellipse>
-              <path class="menu-main__expand-chevron" stroke-width="2" stroke="#fff" stroke-linecap="round" d="M12 18l4-4 4 4"></path>
-            </g>
-          </svg>
-        </button>
-
-        <div class="menu-main__submenus-container">
-          <ul class="menu-main__second-list">
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1276">
-                <a 
-                  class="menu-main__second-link"
-                  href="/awards/engineering-alumni-award-winners-2/"
-                  target="_self">
-
-                  2019 Alumni Award Honorees
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-412">
-                <a 
-                  class="menu-main__second-link"
-                  href="/awards/engineering-alumni-award-winners/"
-                  target="_self">
-
-                  2018 Alumni Award Honorees
-                </a>
-              </li>
-                          <li class="menu-main__second-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1037">
-                <a 
-                  class="menu-main__second-link"
-                  href="/awards/2017-engineering-alumni-award-honorees/"
-                  target="_self">
-
-                  2017 Alumni Award Honorees
-                </a>
-              </li>
-                      </ul>
-
-          <div class="menu-main__mega-menu-container">
-                      </div>
-        </div>
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-52">
-      <a 
-        class="menu-main__first-link"
-        href="/support-uic-college-engineering/"
-        target="_self">
-
-        Give
-      </a>
-
-          </li>
-      <li class="menu-main__first-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-195">
-      <a 
-        class="menu-main__first-link"
-        href="/contact/"
-        target="_self">
-
-        Contact
-      </a>
-
           </li>
   </ul>
 
@@ -531,11 +750,17 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
 
     <h2 class="assistive-text">Eyebrow menu</h2>
     <ul id="menu-eyebrow" class="menu menu-eyebrow" aria-label="Eyebrow menu">
-            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1012">
-            <a  href="http://engineering.uic.edu/" target="_blank">College of Engineering</a>
+            <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-3581">
+            <a  href="/undergraduate/women/" target="_self">Break Through Tech</a>
         </li>
-            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1013">
-            <a  href="http://ecc.uic.edu/" target="_blank">Engineering Career Center</a>
+            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1940">
+            <a  href="https://engineering.uic.edu/support/" target="_blank">Giving</a>
+        </li>
+            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1939">
+            <a  href="http://engineeringalumni.uic.edu" target="_blank">Alumni</a>
+        </li>
+            <li class="_item  menu-item menu-item-type-custom menu-item-object-custom menu-item-569">
+            <a  href="http://engineering.uic.edu" target="_blank">UIC Engineering Home</a>
         </li>
     </ul>
 
@@ -582,16 +807,6 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
   </div>
 
     
-        <a href="#menu-secondary" class="menu-secondary-anchor">
-      View Menu
-      <svg aria-label="Down arrow icon" width="32" height="32" viewBox="0 0 32 32" role="presentation">
-        <title>Down arrow icon</title>
-        <g fill="none" fill-rule="evenodd">
-          <circle class="_circle" stroke-width="1" stroke="#007Da5" fill="#fff" cx="16" cy="16" r="15"/>
-          <path class="_arrow" stroke-width="2" stroke="#001E62" stroke-linecap="round" d="M12 17l4 4 4-4M16 20v-9"/>
-        </g>
-      </svg>
-    </a>
         
 </header>
 
@@ -605,41 +820,27 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
         <div class="l-content ">
 
           
-                      <nav class="breadcrumbs" aria-label="Breadcrumbs">
-  <h2 class="assistive-text">Breadcrumbs</h2>
-  <ol class="menu" vocab="https://schema.org/" typeof="BreadcrumbList">
-
-  
-          <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://engineeringalumni.uic.edu"><span property="name">Engineering Alumni</span></a>
-        <meta property="position" content="0">
-      </li>
-    
-  
-          <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://engineeringalumni.uic.edu/get-involved/"><span property="name">Get Involved</span></a>
-        <meta property="position" content="1">
-      </li>
-    
-  
-          <li property="itemListElement" typeof="ListItem"><span property="name">Engineer your own involvement</span>
-        <meta property="position" content="3">
-      </li>
-    
-  
-  </ol>
-</nav>
-          
-          <article class="post-type-page" id="article">
+                                        
+          <article class="post-type-news" id="article">
             
-          <div class="intro-text">
+      <div class="intro-text">
 
-                      <h1 class="_title post-title">Engineer your own involvement</h1>
+                      <h1 class="_title post-title">UIC to lead $3M initiative to develop system to identify, patch software security holes</h1>
               
-            
+              <div class="post-meta">
+    <div class="post-date-line">
+            <span class="post-author">Sharon Parmet</span>
+      <span class="pipe-separator">|</span>
+            <span class="post-date">Posted on <strong>February 07, 2019</strong></span>
+    </div>
+              </div>
+        
               
     
         
   </div>
-        <div class="components">
+
+    <div class="components">
 
   
     
@@ -648,48 +849,32 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
 <section class="component  ">
 
   
+  <div class="component-text-block">
   
     <div class="component-description">
-                    <h2 id="engineer-your-involvement" class="__title invisible">engineer your involvement</h2>
-                            <div class="__description">
-                <p>Our alumni are among our greatest resources. So, if you have a unique idea about how you would like to get involved with the UIC College of Engineering—especially if it’s something you didn’t see on this list—we want to hear it.</p>
-<p>Below is a form you can use to tell us how you’d like to participate. We will get in touch with you to talk about bringing your idea to life.</p>
+                    <h2 id="grant" class="__title invisible">grant</h2>
+                    </div>
 
-            </div>
-            </div>
+    <figure class="_image captioned-image image-right-third">
+  <img src="https://cs.uic.edu/wp-content/uploads/sites/110/2018/12/Natarajan10-500x750.jpg" alt="venkat">
+  </figure>
+  
+  <p>The University of Illinois at Chicago will lead a $3 million project funded by the Defense Advanced Research Projects Agency to design, develop and evaluate a system that will identify security vulnerabilities in web software. UIC will receive $1.4 million of the funding, and the rest will support co-investigators at the University of Texas at Dallas and The Johns Hopkins University. The system will spot security weaknesses in the millions – sometimes billions – of lines of code that run websites including banking and online shopping which are attractive to hackers.</p>
+<p>Once identified by the system, called GAMEPLAY (for Graph Analysis for Mechanized Exploit-generation and vulnerability Patching Leveraging human Assistance for improved Yield), the vulnerabilities will be automatically probed to determine whether they really could be leveraged by hackers. GAMEPLAY will then generate patches for these vulnerabilities, known as “exploits” to computer scientists.</p>
+<p>“GAMEPLAY addresses a pressing need in both government and industry for more rapid vulnerability identification and patching response strategies that can scale with the increasing speed and scope of modern cyber-warfare campaigns that target networked software,” said Venkat Venkatakrishnan, professor of computer science in the UIC College of Engineering and principal investigator on the grant.</p>
+<p>“GAMEPLAY is intended to be used by cybersecurity analysts, software developers and other professionals interested in identifying ‘exploits’ in software. It will run, for the most part, on its own but when an issue arises where a decision needs to be made, then a human will provide input to guide the system.”</p>
+<p>Venkatakrishnan says that systems to scan and analyze code exist, but they can be expensive and may not provide total assurance because code is exceedingly complex and scanning it thoroughly presents a huge computational problem. GAMEPLAY will get around these issues by allowing for human input as the system runs.</p>
+<p>“We want to create a system that allows software developers and security experts to be proactive by building a tool that will let them scan for potential problems in code that could provide an opening for hackers before the hackers have a chance to find the weaknesses themselves,” Venkatakrishnan said.</p>
+<p>The system will be designed to be able to evaluate software written in several computer languages, including C, Python and JavaScript.</p>
+<p>“GAMEPLAY will be built on a language-agnostic platform extensible to multiple computer languages,” Venkatakrishnan said.</p>
+<p>The UIC team will be joined by computer scientists from Johns Hopkins and the University of Texas at Dallas to develop GAMEPLAY for these different computer languages.</p>
+<p>The project will also include students at the graduate and undergraduate level who will have a chance to take part in constructing GAMEPLAY while learning about state-of-the-art digital security tools.</p>
+<p>“The GAMEPLAY project will be rolled into several student classes on code analysis and vulnerability identification,” said Rigel Gjomemo, research assistant professor of computer science and associate director of UIC’s Electronic Security and Privacy: Technological, Human, Enterprise and Legal Considerations program. “Students may also participate in hacking competitions using what they’ve learned in these classes, giving them experience that they can bring to their future employers in the cybersecurity field.”</p>
 
-                <div class='gf_browser_unknown gform_wrapper' id='gform_wrapper_23' ><div id='gf_23' class='gform_anchor' tabindex='-1'></div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_23' id='gform_23'  action='/get-involved/engineer-your-own-involvement/#gf_23'>
-                        <div class='gform_body'><ul id='gform_fields_23' class='gform_fields top_label form_sublabel_below description_below'><li id='field_23_1'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><fieldset aria-required='true' class='gfieldset'><legend class='gfield_label'>Name<span class='gfield_required'> * <span class='sr-only'> Required</span></span></legend><div class='ginput_complex ginput_container no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name' id='input_23_1'>
-                            
-                            <span id='input_23_1_3_container' class='name_first' >
-                                                    <input type='text' name='input_1.3' id='input_23_1_3' value='' aria-label='First name'   aria-required="true" aria-invalid="false" />
-                                                    <label for='input_23_1_3' >First</label>
-                                                </span>
-                            
-                            <span id='input_23_1_6_container' class='name_last' >
-                                                    <input type='text' name='input_1.6' id='input_23_1_6' value='' aria-label='Last name'   aria-required="true" aria-invalid="false" />
-                                                    <label for='input_23_1_6' >Last</label>
-                                                </span>
-                            
-                        </div></fieldset></li><li id='field_23_2'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_2' >Email<span class='gfield_required'> * <span class='sr-only'> Required</span></span></label><div class='ginput_container ginput_container_email'>
-                            <input name='input_2' id='input_23_2' type='text' value='' class='medium'    aria-required="true" aria-invalid="false" />
-                        </div></li><li id='field_23_3'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_3' >Phone</label><div class='ginput_container ginput_container_phone'><input name='input_3' id='input_23_3' type='text' value='' class='medium'    aria-invalid="false"  /></div></li><li id='field_23_6'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_6' >Graduation year<span class='gfield_required'> * <span class='sr-only'> Required</span></span></label><div class='ginput_container ginput_container_select'><select name='input_6' id='input_23_6' class='small gfield_select'   aria-required="true" aria-invalid="false"><option value='1965' >1965</option><option value='1966' >1966</option><option value='1967' >1967</option><option value='1968' >1968</option><option value='1969' >1969</option><option value='1970' >1970</option><option value='1971' >1971</option><option value='1972' >1972</option><option value='1973' >1973</option><option value='1974' >1974</option><option value='1975' >1975</option><option value='1976' >1976</option><option value='1977' >1977</option><option value='1978' >1978</option><option value='1979' >1979</option><option value='1980' >1980</option><option value='1981' >1981</option><option value='1982' >1982</option><option value='1983' >1983</option><option value='1984' >1984</option><option value='1985' >1985</option><option value='1986' >1986</option><option value='1987' >1987</option><option value='1988' >1988</option><option value='1989' >1989</option><option value='1990' >1990</option><option value='1991' >1991</option><option value='1992' >1992</option><option value='1993' >1993</option><option value='1994' >1994</option><option value='1995' >1995</option><option value='1996' >1996</option><option value='1997' >1997</option><option value='1998' >1998</option><option value='1999' >1999</option><option value='2000' >2000</option><option value='2001' >2001</option><option value='2002' >2002</option><option value='2003' >2003</option><option value='2004' >2004</option><option value='2005' >2005</option><option value='2006' >2006</option><option value='2007' >2007</option><option value='2008' >2008</option><option value='2009' >2009</option><option value='2010' >2010</option><option value='2011' >2011</option><option value='2012' >2012</option><option value='2013' >2013</option><option value='2014' >2014</option><option value='2015' >2015</option><option value='2016' >2016</option><option value='2017' >2017</option></select></div></li><li id='field_23_8'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_23_8' >How I would like to become involved:<span class='gfield_required'> * <span class='sr-only'> Required</span></span></label><div class='ginput_container ginput_container_textarea'><textarea name='input_8' id='input_23_8' class='textarea medium'     aria-required="true" aria-invalid="false"   rows='10' cols='50'></textarea></div></li>
-                            </ul></div>
-        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_23' class='gform_button button' value='Submit'  onclick='if(window["gf_submitting_23"]){return false;}  window["gf_submitting_23"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_23"]){return false;} window["gf_submitting_23"]=true;  jQuery("#gform_23").trigger("submit",[true]); }' /> <input type='hidden' name='gform_ajax' value='form_id=23&amp;title=&amp;description=&amp;tabindex=0' />
-            <input type='hidden' class='gform_hidden' name='is_submit_23' value='1' />
-            <input type='hidden' class='gform_hidden' name='gform_submit' value='23' />
-            
-            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
-            <input type='hidden' class='gform_hidden' name='state_23' value='WyJbXSIsIjg5YzllNmJkOWU3Y2NjNWZlODFjYjc5MGI3YzkxMjQyIl0=' />
-            <input type='hidden' class='gform_hidden' name='gform_target_page_number_23' id='gform_target_page_number_23' value='0' />
-            <input type='hidden' class='gform_hidden' name='gform_source_page_number_23' id='gform_source_page_number_23' value='1' />
-            <input type='hidden' name='gform_field_values' value='' />
-            
-        </div>
-                        </form>
-                        </div>
-                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_23' id='gform_ajax_frame_23'>This iframe contains the logic required to handle Ajax powered Gravity Forms.</iframe>
-                <script type='text/javascript'>jQuery(document).ready(function($){gformInitSpinner( 23, 'https://engineeringalumni.uic.edu/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery('#gform_ajax_frame_23').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_23');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_23').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_23').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_23').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_23').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(2); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_23').val();gformInitSpinner( 23, 'https://engineeringalumni.uic.edu/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery(document).trigger('gform_page_loaded', [23, current_page]);window['gf_submitting_23'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_23').replaceWith(confirmation_content);jQuery(document).scrollTop(2);jQuery(document).trigger('gform_confirmation_loaded', [23]);window['gf_submitting_23'] = false;}, 50);}else{jQuery('#gform_23').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [23, current_page]);} );} );</script><script type='text/javascript'> jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 23) {jQuery('#input_23_3').mask('(999) 999-9999').bind('keypress', function(e){if(e.which == 13){jQuery(this).blur();} } );} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [23, 1]) } ); </script>
+
+
+  
+</div>
 
   
 </section>
@@ -698,22 +883,18 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
 
 </div>
 
-          </article>
+          <div class="post-date-line">
+        <span class="post-date">Modified on <strong>February 11, 2019</strong></span>
+      </div>
+    
+              </article>
         </div>
 
                                             
-                                 
+                       
               
                             
-                                 
-              
-                            
-
-
-
-
-   
-                                 
+                       
               
                             
 
@@ -721,15 +902,7 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
 
 
    
-
-
-
-
-   
-                                 
-              
-                            
-                                 
+                       
               
                             
 
@@ -737,52 +910,7 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
 
 
    
-
-
-
-
-   
-                                 
-              
-
-                      <div class="l-sidebar">
-             <nav role="navigation" id="menu-secondary" aria-label="Secondary Get Involved" class="menu-secondary">
-               <div class="menu-secondary__title-container">
-                 <h2 class="menu-secondary__title"><a  class="menu-secondary__title-link" href="https://engineeringalumni.uic.edu/get-involved/">Get Involved</a></h2>
-                 <a  class="menu-secondary__back-to-content" href="#main">
-                   <svg aria-label="Back to main content" width="32" height="32" viewBox="0 0 32 32">
-                     <title>Back to main content</title>
-                     <g fill="none" fill-rule="evenodd">
-                       <circle class="_circle" fill="#fff" stroke="#007FA5" stroke-width="1" cx="16" cy="16" r="15"/>
-                       <path class="_arrow" d="M16 21v-9M12 15l4-4 4 4" stroke="#001E62" stroke-width="2" stroke-linecap="round"/>
-                     </g>
-                   </svg>
-                 </a>
-               </div>
-
-                <ul  class="menu ">
-                  
-                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-980">
-                    <a  href="/get-involved/join-us-on-linkedin/" target="_self"><span>Join us on LinkedIn</span></a>                                      </li>
-                  
-                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-533">
-                    <a  href="/get-involved/mentoring/" target="_self"><span>Become a Mentor</span></a>                                      </li>
-                  
-                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-74">
-                    <a  href="/get-involved/volunteering/" target="_self"><span>Volunteer</span></a>                                      </li>
-                  
-                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-964 current_page_item menu-item-981">
-                    <a  href="/get-involved/engineer-your-own-involvement/" target="_self"><span>Engineer your own involvement</span></a>                                      </li>
-                  
-                  <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-1192">
-                    <a  href="/honor-a-professor/" target="_self"><span>Honor a Professor</span></a>                                      </li>
-                                  </ul>
-
-              </nav>
-            </div>
-       
-                            
-                                 
+                       
               
                             
 
@@ -790,7 +918,7 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
 
 
    
-                                 
+                       
               
                             
 
@@ -798,7 +926,7 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
 
 
    
-                                 
+                       
               
                             
 
@@ -806,7 +934,7 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
 
 
    
-                                 
+                       
               
                             
 
@@ -814,7 +942,39 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
 
 
    
-                                 
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
               
                             
 
@@ -827,18 +987,10 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
 
 
    
-                                 
+                       
               
                             
-                                 
-              
-                            
-
-
-
-
-   
-                                 
+                       
               
                             
 
@@ -846,7 +998,18 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
 
 
    
-                                 
+                       
+              
+                            
+                       
+              
+                            
+
+
+
+
+   
+                       
               
                             
 
@@ -859,7 +1022,7 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
 
 
    
-                                 
+                       
               
                             
 
@@ -867,9 +1030,246 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
 
 
    
-                                 
+                       
               
                             
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                       
+              
+                            
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                       
+              
+                            
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                       
+              
+                            
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                       
+              
+                            
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
+
+
+
+
+   
+                       
+              
+                            
+                       
+              
+                            
+
+
+
+
+   
+                       
+              
+                            
+
+
+
+
+   
 
 
 
@@ -887,10 +1287,12 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
   <div class="footer-contact">
     <div class="l-full">
 
-          <div class="simple-footer-contact">
-  <div class="simple-footer-contact__wordmark">
-    <div class="footer-logo">
-                        <div class="uic-type-treatment -large uic-wordmark--footer">
+          <div class="mega-footer-contact">
+
+    <div class="mega-footer-contact__brand mega-footer-contact__brand--wordmark">
+        <div class="footer-logo">
+                        <div class="footer-logo__wordmark-wrapper">
+                <div class="uic-wordmark  uic-wordmark--mega-footer">
 
   <div class="_mark">
     <a href="http://uic.edu" class="uic-logo-icon ">
@@ -903,37 +1305,79 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
   </div>
 
   <div class="_text">
-    <a href="https://engineeringalumni.uic.edu">
-          Engineering Alumni
-        </a>
+    <a href="https://cs.uic.edu">
+                  <span class="_line">College of</span>
+              <span class="_line">Engineering</span>
+              </a>
   </div>
 
 </div>
             </div>
+            </div>
+    </div>
+
+  <div class="mega-footer-contact__menus">
+
+    
+        <div class="mega-footer-contact__button-menus">
+      <nav class="mega-footer-contact__button-menu" id="menu4" aria-label="footer-menu-4">
+        <h2 class="assistive-text">Footer Menu</h2>
+
+        <ul id="button-menu" class="menu button-menu" aria-label="Footer Menu">
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2547">
+      <a href="/undergraduate/student-resources/" target="_self">Undergraduate Resources</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2548">
+      <a href="/graduate/graduate-student-resources/" target="_self">Graduate Resources</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2549">
+      <a href="/faculty-staff/faculty-resources/" target="_self">Faculty Resources</a>
+    </li>
+      <li class="_item  menu-item menu-item-type-post_type menu-item-object-page menu-item-2550">
+      <a href="/undergraduate/abet-accreditation/" target="_self">ABET Accreditation</a>
+    </li>
+  </ul>
+
+      </nav>
+    </div>
+    
   </div>
 
+  <div class="mega-footer-contact__contact">
 
-  <div class="simple-footer-contact__contact">
-        <h2 class="simple-footer-contact__header ">Contact</h2>
-    <div class="simple-footer-contact__contact_container">    <div class="site-address">851 S. Morgan - SEO Rm. 811</div>
-      <div class="site-phone">Phone: <a  href="tel:3129969422">3129969422</a></div>
-        <div class="site-email"><a  href="mailto:MWilli60@uic.edu">MWilli60@uic.edu</a></div>
+    <div class="_contact">
+      <h2>Contact</h2>
+      <div class="site-contact-container">  <div class="site-unit-name"><h3>For CS student and faculty inquiries, contact:</h3></div>
+      <div class="site-address">851 S. Morgan St., 11th Floor SEO, Chicago, IL 60607</div>
+      <div class="site-phone">Phone: <a  href="tel:(312) 996-3422">(312) 996-3422</a></div>
+        <div class="site-email"><a  href="mailto:cs-info@uic.edu">cs-info@uic.edu</a></div>
 </div>
-    <div class="simple-footer-contact__contact_container">        </div>
-  </div>
+      <div class="site-contact-container">        </div>
+    </div>
 
-
-  <div class="simple-footer-contact__site-social-links">
-     <div aria-label="Social Media Accounts" class="site-social-links">
+    <div class="mega-footer-contact__site-social-links">
+       <div aria-label="Social Media Accounts" class="site-social-links">
   <h2 class="site-social-links__header assistive-text">Social Media Accounts</h2>
   <ul class="site-social-links__list">
-        <li class="site-social-links__list-item"><a  class="site-social-links__link facebook" href="https://www.facebook.com/engineering.uic/">
-      <svg class="site-social-links__link-icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Facebook"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>
+        <li class="site-social-links__list-item"><a  class="site-social-links__link facebook" href="https://www.facebook.com/engineering.uic">
+      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Facebook"><title>Facebook</title><path d="M17 26.7V15h3.2s.3-2 .4-4H17V8.3s.5-.9 1-.9h2.5c0-.6.2-2.4.3-4h-3.7c-5 0-4.9 3.9-4.9 4.5v3.2h-3v4h3.1v11.7H17z"/></svg>
     </a></li>
-                          </ul>
+            <li class="site-social-links__list-item"><a  class="site-social-links__link linkedin" href="https://www.linkedin.com/school/24767499/">
+      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="LinkedIn"><title>LinkedIn</title><path d="M9 27h3.836V14.212H9V27zm2.4-19c-.67 0-1.24.24-1.704.712C9.234 9.185 9 9.77 9 10.452c0 .684.234 1.27.696 1.742.463.472 1.035.712 1.703.712.667 0 1.24-.24 1.702-.712.463-.473.697-1.058.697-1.74 0-.684-.235-1.27-.698-1.742C12.64 8.24 12.067 8 11.4 8zm15.025 7.18c-.934-.997-2.107-1.503-3.485-1.503-1.064 0-2.053.343-2.95 1.02v-.816H15.77V27h4.223v-7.262c0-.832.2-1.434.61-1.84.41-.408.88-.608 1.43-.608.732 0 1.573.268 1.573 2.357V27h4.222v-7.875c0-1.627-.47-2.954-1.4-3.946z" /></svg>
+    </a></li>
+            <li class="site-social-links__list-item"><a  class="site-social-links__link twitter" href="https://twitter.com/UICEngineering">
+      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Twitter"><title>Twitter</title><path d="M25.4 9.4c-.7.3-1.5.6-2.4.7.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-.8-.8-1.8-1.3-3-1.3-2.3 0-4.1 1.9-4.1 4.1 0 .3 0 .6.1.9-3.4-.2-6.5-1.8-8.5-4.3-.4.6-.6 1.3-.6 2.1 0 1.4.7 2.7 1.8 3.4-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.6 2.1 2.8 3.9 2.9-1.4 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 1.8 1.2 4 1.9 6.3 1.9 7.6 0 11.8-6.3 11.8-11.8v-.5c.9-.6 1.6-1.3 2.1-2.2z"/></svg>
+    </a></li>
+            <li class="site-social-links__list-item"><a  class="site-social-links__link instagram" href="https://www.instagram.com/uicengineering/">
+      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Instagram"><title>Instagram</title><path fill="none" d="M15 18.8c2 0 3.6-1.6 3.6-3.6S17 11.5 15 11.5s-3.6 1.6-3.6 3.6 1.6 3.7 3.6 3.7z"/><path fill="none" d="M20 15.2c0 2.7-2.2 5-5 5s-5-2.2-5-5c0-.7.1-1.3.4-1.9H6.5V22c0 .9.7 1.6 1.6 1.6H22c.9 0 1.6-.7 1.6-1.6v-8.7h-3.9c.1.6.3 1.2.3 1.9z"/><path d="M21.9 5.1H11.5v5.8h-1.4V5.1H8.8v5.8H7.4V5.2c-1.3.2-2.3 1.4-2.3 2.9V22c0 1.6 1.3 3 3 3H22c1.6 0 3-1.3 3-3V8.1c-.1-1.7-1.4-3-3.1-3zm-2.6 3.4h2.4v2.4h-2.4V8.5zm-4.3 3c2 0 3.6 1.6 3.6 3.6S17 18.8 15 18.8s-3.6-1.6-3.6-3.6 1.6-3.7 3.6-3.7zm8.5 10.4c0 .9-.7 1.6-1.6 1.6H8.1c-.9 0-1.6-.7-1.6-1.6v-8.7h3.9c-.2.6-.4 1.2-.4 1.9 0 2.7 2.2 5 5 5s5-2.2 5-5c0-.7-.1-1.3-.4-1.9h3.9v8.7z"/></svg>
+    </a></li>
+            <li class="site-social-links__list-item"><a  class="site-social-links__link youtube" href="https://www.youtube.com/user/UICengineering">
+      <svg class="site-social-links__link-icon site-social-links__link-icon-with-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" aria-label="Youtube"><title>YouTube</title><path d="M9.5 11.8h1.4V8.3l1.6-4.8h-1.4l-.9 3.3-.9-3.3H7.9l1.6 5M14.4 11.9c.6 0 1-.1 1.3-.4.3-.3.5-.7.5-1.2V7.1c0-.5-.2-.8-.5-1.1-.3-.3-.7-.4-1.3-.4-.6 0-1 .1-1.3.4-.3.3-.5.7-.5 1.1v3.2c0 .5.2.9.5 1.2.3.3.7.4 1.3.4zM13.9 7c0-.1 0-.2.1-.3.1-.1.2-.1.4-.1s.3 0 .4.1c.1.1.2.2.2.3v3.3c0 .2 0 .3-.1.4-.1.1-.2.1-.4.1s-.3 0-.4-.1c-.1-.1-.1-.2-.1-.4V7zM18 11.8c.2 0 .5-.1.7-.2.2-.1.5-.3.7-.6v.7h1.2V5.6h-1.2v4.6c-.1.1-.2.2-.4.3-.1.1-.3.1-.3.1-.1 0-.2 0-.2-.1-.1-.1-.1-.2-.1-.3V5.6h-1.2v5.1c0 .4.1.6.2.8.1.3.3.3.6.3zM20.7 19.3c-.2 0-.3 0-.4.2-.1.1-.1.3-.1.5v.6h1V20c0-.2 0-.4-.1-.5-.1-.1-.2-.2-.4-.2zM17 19.3c-.4-.1-.6.2-.6.2V23s.3.4.7.2c0 0 .2-.1.2-.5v-2.9c.1.1.2-.4-.3-.5z"/><path d="M23.1 14.9c-.9-.9-8.4-.9-8.4-.9s-7.6 0-8.5.9c-.9.9-.9 5.3-.9 5.4 0 0 0 4.5.9 5.4.9.9 8.5.9 8.5.9s7.6 0 8.5-.9c.9-.9.9-5.4.9-5.4 0-.1-.1-4.5-1-5.4zm-12.2 2.7H9.7V24H8.4v-6.4H7.2v-1.1H11v1.1zm3.6 6.4h-1.1v-.6c-.2.2-.4.4-.6.5-.2.1-.4.2-.6.2-.3 0-.4-.1-.6-.2-.1-.2-.2-.4-.2-.7v-4.6h1.1v4.3c0 .1 0 .2.1.3 0 .1.1.1.2.1s.2 0 .3-.1l.3-.3v-4.2h1.1V24zm4-1.1c0 .4-.1.7-.3.9-.2.2-.4.3-.7.3-.2 0-.4 0-.6-.1-.2-.1-.3-.2-.5-.4v.4h-1.1v-7.5h1.1v2.4c.1-.2.3-.3.5-.4.2-.1.3-.1.5-.1.3 0 .6.1.8.4.2.2.3.6.3 1v3.1zm3.8-1.5h-2.1v1c0 .3 0 .5.1.6.1.1.2.2.4.2s.3 0 .4-.1c.1-.1.1-.3.1-.6v-.3h1.1v.3c0 .6-.1 1-.4 1.3-.3.3-.7.4-1.2.4s-.9-.2-1.2-.5c-.3-.3-.4-.7-.4-1.3V20c0-.5.2-.9.5-1.2.3-.3.7-.5 1.2-.5s.9.1 1.2.4c.3.3.4.7.4 1.2v1.5z"/></svg>
+    </a></li>
+          </ul>
 </div>
+    </div>
   </div>
-
 </div>
     
     </div>
@@ -999,19 +1443,19 @@ var gf_wcag20_form_fields_settings = {"new_window_text":"this link will open in 
 
   <!-- Instagram Feed JS -->
 <script type="text/javascript">
-var sbiajaxurl = "https://engineeringalumni.uic.edu/wp-admin/admin-ajax.php";
+var sbiajaxurl = "https://cs.uic.edu/wp-admin/admin-ajax.php";
 </script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var sb_instagram_js_options = {"sb_instagram_at":"","font_method":"svg"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://engineeringalumni.uic.edu/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.12.1'></script>
-<script type='text/javascript' src='https://engineeringalumni.uic.edu/wp-content/plugins/uic-red/js-admin/uic-publish-post-settings.js?ver=1.0.0'></script>
-<script type='text/javascript' src='https://engineeringalumni.uic.edu/wp-content/plugins/uic-red/js-admin/acf-field-group-toggle.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://cs.uic.edu/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.12.1'></script>
+<script type='text/javascript' src='https://cs.uic.edu/wp-content/plugins/uic-red/js-admin/uic-publish-post-settings.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://cs.uic.edu/wp-content/plugins/uic-red/js-admin/acf-field-group-toggle.js?ver=1.0.0'></script>
 <script type='text/javascript' src='//www.uic.edu/apps/web-alert/alert.js?ver=3'></script>
-<script type='text/javascript' src='https://engineeringalumni.uic.edu/wp-content/themes/uic-red/js/main.js?ver=1'></script>
-<script type='text/javascript' src='https://engineeringalumni.uic.edu/wp-includes/js/wp-embed.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
+<script type='text/javascript' src='https://cs.uic.edu/wp-content/themes/uic-red/js/main.js?ver=1'></script>
+<script type='text/javascript' src='https://cs.uic.edu/wp-includes/js/wp-embed.min.js?ver=5d22ad4e79d53a5a8c98a4d20d4dd9b6'></script>
 
 
 
