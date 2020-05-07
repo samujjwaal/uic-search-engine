@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # ---
 # jupyter:
 #   jupytext:
@@ -9,9 +8,9 @@
 #       format_version: '1.5'
 #       jupytext_version: 1.4.2
 #   kernelspec:
-#     display_name: Python [conda env:ds] *
+#     display_name: Python 3
 #     language: python
-#     name: conda-env-ds-py
+#     name: python3
 # ---
 
 # load dependency libraries
@@ -19,14 +18,14 @@ import math
 import os
 import copy
 import re
-# import operator
 from nltk.corpus import stopwords
 from collections import Counter
 from nltk.stem import PorterStemmer
 import pickle
 
 # +
-N = 3001
+# number of webpages indexed
+N = 6001
 
 # extracting english stop words
 stop_words = stopwords.words('english')
@@ -35,21 +34,27 @@ stop_words = stopwords.words('english')
 st = PorterStemmer()
 
 # folder to store pickel files
-pickle_folder = "./PickleFiles/"
+pickle_folder = "../PickleFiles/"
 os.makedirs(pickle_folder, exist_ok=True)
 # -
 
-with open(pickle_folder + 'inverted_index.pickle', 'rb') as f:
-    inverted_index=pickle.load(f)                   # rename 
-
-with open(pickle_folder + 'webpages_tokens.pickle', 'rb') as f:
-    webpages_tokens =pickle.load(f)                   # rename 
-
-with open(pickle_folder + 'pages_crawled.pickle', 'rb') as f:
-    urls =pickle.load(f)                   # rename 
+webpages_idf = {}
+max_freq = {}
+webpages_tf_idf = {}
 
 # +
-webpages_idf = {}
+with open(pickle_folder + '6000_inverted_index.pickle', 'rb') as f:
+    inverted_index = pickle.load(f)                   # rename
+
+with open(pickle_folder + '6000_webpages_tokens.pickle', 'rb') as f:
+    webpages_tokens = pickle.load(f)                   # rename
+
+with open(pickle_folder + '6000_pages_crawled.pickle', 'rb') as f:
+    urls = pickle.load(f)                   # rename
+
+
+# +
+# webpages_idf = {}
 
 # function for computing idf of each token in the collection of webpages
 
@@ -63,13 +68,8 @@ def calc_idf(inverted_index):
     
     return idf
     
-webpages_idf = calc_idf(inverted_index) 
+# webpages_idf = calc_idf(inverted_index) 
 
-# +
-# doc_length = {}
-# for page in webpages_tokens:
-    
-#     doc_length[page] = 
 
 # +
 # max_freq = {}
@@ -77,16 +77,15 @@ webpages_idf = calc_idf(inverted_index)
 # for page in webpages_tokens:
 #     most_freq_token = mode(webpages_tokens[page])
 #     max_freq[page] = inverted_index[most_freq_token][page]
-    
 
 # +
-max_freq = {}
+# max_freq = {}
 
-for page in webpages_tokens:
-    max_freq[page] = Counter(webpages_tokens[page]).most_common(1)[0][1]
+# for page in webpages_tokens:
+#     max_freq[page] = Counter(webpages_tokens[page]).most_common(1)[0][1]
 
 # +
-webpages_tf_idf = {}
+# webpages_tf_idf = {}
 
 # function to compute tf-idf of each token
 
@@ -102,7 +101,7 @@ def calc_tfidf(inverted_index):
     
     return tf_idf
 
-webpages_tf_idf = calc_tfidf(inverted_index)
+# webpages_tf_idf = calc_tfidf(inverted_index)
 
 
 # -
@@ -112,7 +111,7 @@ def calc_doc_len(doc, doc_tokens):
     
     for token in set(doc_tokens):
         
-        doc_len += tf_idf[token][doc] ** 2
+        doc_len += webpages_tf_idf[token][doc] ** 2
     
     doc_len = math.sqrt(doc_len)
     
@@ -134,10 +133,9 @@ def doc_len_pages(list_of_tokens):
     return doc_lens
 
 
-# -
-
+# +
 # doc_len_pages(webpages_tokens)
-webpages_lens = doc_len_pages(webpages_tokens)
+# webpages_lens = doc_len_pages(webpages_tokens)
 # webpages_lens
 
 # +
@@ -159,7 +157,7 @@ webpages_lens = doc_len_pages(webpages_tokens)
 # +
 # Function to compute cosine similarity
 
-def func(query, doc_lens):
+def calc_cos_sim_scores(query, doc_lens):
     similarity_scores = {}
     query_len = 0
     query_weights = {}
@@ -183,7 +181,7 @@ def func(query, doc_lens):
         if token_weight:
 #             print(token_weight)
             for page in webpages_tf_idf[token].keys():
-                similarity_scores[page] = similarity_scores.get(page,0) + (tf_idf[token][page] * token_weight)
+                similarity_scores[page] = similarity_scores.get(page,0) + (webpages_tf_idf[token][page] * token_weight)
 #                 print(tf_idf[token][page], token_weight)
     
 #     print(similarity_scores)
@@ -193,16 +191,6 @@ def func(query, doc_lens):
         
 #     print(similarity_scores)
     return similarity_scores
-                
-            
-            
-    
-query_sim_pages = func(query_tokens, webpages_lens)
-most_relevant_pages = sorted(query_sim_pages.items(), key= lambda x: x[1], reverse=True)
-# -
-
-# UIC received the ALL IN Campus Democracy Challenge's “Best Campus Action Plan” for 2018
-query = str(input("Enter a search query: "))
 
 
 # +
@@ -228,8 +216,60 @@ def tokenize_query(query_text):
 #         if (token not in stop_words and st.stem(token) not in stop_words) and len(st.stem(token))>2
 #     ]
 # clean_stem_query_tokens
-# -
 
+# +
+# query_tokens = tokenize_query(query)
+# query_tokens
+
+# +
+# query_sim_pages = calc_cos_sim_scores(query_tokens, webpages_lens)
+# most_relevant_pages = sorted(query_sim_pages.items(), key= lambda x: x[1], reverse=True)
+
+# +
+def show_relevant_pages(count,webpages):
+    for i in range(count, count+10):
+#         print(webpages[i])
+        try:
+            url_no = int(webpages[i][0])
+            
+        except Exception as e: 
+            print("\nNo more results found !!")
+            break
+            
+#         print(url_no)
+        if urls.get(url_no, None):
+            print(i+1,urls.get(url_no))
+    
+# show_relevant_pages(0,most_relevant_pages)    
+
+
+# +
+webpages_idf = calc_idf(inverted_index)
+
+for page in webpages_tokens:
+    max_freq[page] = Counter(webpages_tokens[page]).most_common(1)[0][1]
+    
+webpages_tf_idf = calc_tfidf(inverted_index)
+webpages_lens = doc_len_pages(webpages_tokens)
+
+
+
+# + run_control={"marked": false}
+
+print('\n                     ---UIC Web Search Engine---\n')
+query = str(input("Enter a search query: "))
+print('\n')
 query_tokens = tokenize_query(query)
 
-query_tokens
+query_sim_pages = calc_cos_sim_scores(query_tokens, webpages_lens)
+most_relevant_pages = sorted(query_sim_pages.items(), key= lambda x: x[1], reverse=True)
+
+yes = {'y','yes'}
+first_pass = True
+count = 0
+
+while first_pass or choice.lower() in yes:
+    first_pass = False
+    show_relevant_pages(count, most_relevant_pages)
+    choice = str(input("\nDo you want to more web page results? "))
+    count += 10
