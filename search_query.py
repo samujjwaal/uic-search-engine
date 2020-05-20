@@ -1,6 +1,7 @@
 # Samujjwaal Dey
 # Python Script to implement vector space model
 
+
 # load dependency libraries
 import math
 import os
@@ -20,7 +21,7 @@ stop_words = stopwords.words("english")
 # Initializing Porter Stemmer object
 st = PorterStemmer()
 
-# folder to store pickel files
+# folder to store pickle files
 pickle_folder = "./PickleFiles/"
 os.makedirs(pickle_folder, exist_ok=True)
 
@@ -31,8 +32,10 @@ webpages_tf_idf = {}
 # unloading all the pickle files
 with open(pickle_folder + "6000_inverted_index.pickle", "rb") as f:
     inverted_index = pickle.load(f)
+
 with open(pickle_folder + "6000_webpages_tokens.pickle", "rb") as f:
     webpages_tokens = pickle.load(f)
+
 with open(pickle_folder + "6000_pages_crawled.pickle", "rb") as f:
     urls = pickle.load(f)
 
@@ -42,21 +45,21 @@ def calc_idf(inverted_index):
     idf = {}
     for key in inverted_index.keys():
         df = len(inverted_index[key].keys())
-        idf[key] = math.log2(N / df)  # calculatind IDF for a token
+        # calculating IDF for a token
+        idf[key] = math.log2(N / df)
     return idf
 
 
 # function to compute tf-idf of each token
 def calc_tfidf(inverted_index):
-    tf_idf = copy.deepcopy(
-        inverted_index
-    )  # making a temporary copy of the inverted index
+    # making a temporary copy of the inverted index
+    tf_idf = copy.deepcopy(inverted_index)
     for token in tf_idf:
         for page in tf_idf[token]:
-            tf = tf_idf[token][page] / max_freq[page]  # calculating TF for the webpage
-            tf_idf[token][page] = (
-                tf * webpages_idf[token]
-            )  # calculating TF-IDF for token
+            # calculating TF for the webpage
+            tf = tf_idf[token][page] / max_freq[page]
+            # calculating TF-IDF for token
+            tf_idf[token][page] = tf * webpages_idf[token]
     return tf_idf
 
 
@@ -64,9 +67,8 @@ def calc_tfidf(inverted_index):
 def calc_doc_len(doc, doc_tokens):
     doc_len = 0
     for token in set(doc_tokens):
-        doc_len += (
-            webpages_tf_idf[token][doc] ** 2
-        )  # adding square of weight of token to document vector length
+        # adding square of weight of token to document vector length
+        doc_len += webpages_tf_idf[token][doc] ** 2
     doc_len = math.sqrt(doc_len)
     return doc_len
 
@@ -84,18 +86,16 @@ def calc_cos_sim_scores(query, doc_lens):
     similarity_scores = {}
     query_len = 0
     query_weights = {}
-    query_dict = Counter(query)  # create count dictionary of the query
+    # create count dictionary of the query
+    query_dict = Counter(query)
 
     for token in query_dict.keys():
-        token_tf = (
-            query_dict[token] / query_dict.most_common(1)[0][1]
-        )  # calculate query token TF
-        query_weights[token] = token_tf * webpages_idf.get(
-            token, 0
-        )  # calculate query token TF-IDF of token
-        query_len += (
-            query_weights[token] ** 2
-        )  # add square of token weight to query vector length
+        # calculate query token TF
+        token_tf = query_dict[token] / query_dict.most_common(1)[0][1]
+        # calculate query token TF-IDF of token
+        query_weights[token] = token_tf * webpages_idf.get(token, 0)
+        # add square of token weight to query vector length
+        query_len += query_weights[token] ** 2
 
     query_len = math.sqrt(query_len)
 
@@ -103,18 +103,14 @@ def calc_cos_sim_scores(query, doc_lens):
         token_weight = query_weights.get(token)
 
         if token_weight:
-            for page in webpages_tf_idf[
-                token
-            ].keys():  # calculating inner product between query and webpages
+            # calculating inner product between query and webpages
+            for page in webpages_tf_idf[token].keys():
                 similarity_scores[page] = similarity_scores.get(page, 0) + (
                     webpages_tf_idf[token][page] * token_weight
                 )
 
-    for (
-        page
-    ) in (
-        similarity_scores
-    ):  # dividing inner product by product of document lengths of query and webpage
+    # dividing inner product by product of doc lens of query and webpage
+    for page in similarity_scores:
         similarity_scores[page] = similarity_scores[page] / (doc_lens[page] * query_len)
 
     return similarity_scores
@@ -139,7 +135,8 @@ def show_relevant_pages(count, webpages):
         try:
             url_no = int(webpages[i][0])
 
-        except Exception as e:  # executed when their are no more relevant pages to display
+        # executed when their are no more relevant pages to display
+        except Exception as e:
             print("\nNo more results found !!")
             break
 
@@ -162,9 +159,11 @@ webpages_lens = doc_len_pages(webpages_tokens)
 
 
 print("\n                     ---UIC Web Search Engine---\n")
-query = str(input("Enter a search query: "))  # take input query from user
+# take input query from user
+query = str(input("Enter a search query: "))
 print("\n")
-query_tokens = tokenize_query(query)  # tokenize input query
+# tokenize input query
+query_tokens = tokenize_query(query)
 
 # calculate cosine similarity scores
 query_sim_pages = calc_cos_sim_scores(query_tokens, webpages_lens)
@@ -173,7 +172,8 @@ query_sim_pages = calc_cos_sim_scores(query_tokens, webpages_lens)
 most_relevant_pages = sorted(query_sim_pages.items(), key=lambda x: x[1], reverse=True)
 
 yes = {"y", "yes"}
-first_pass = True  # to implement do-while loop
+# to implement do-while loop
+first_pass = True
 count = 0
 
 while first_pass or choice.lower() in yes:

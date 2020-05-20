@@ -50,7 +50,6 @@ crawl_limit = 6000
 # to make sure error log file is initially empty
 error_file = "error_log.txt"
 f = open(error_file, "w+")
-# f.truncate()
 f.close()
 
 # queue to perform BFS web traversal
@@ -68,30 +67,30 @@ page_no = 0
 while url_q:
 
     try:
-        url = url_q.popleft()  # fetch the first URL from the queue
-        rqst = requests.get(url)  # get html code of web page
+        # fetch the first URL from the queue
+        url = url_q.popleft()
+        # get html code of web page
+        rqst = requests.get(url)
 
         if rqst.status_code == 200:
 
             soup = BeautifulSoup(rqst.text, "lxml")
-            tags_extracted = soup.find_all("a")  # extract all 'a' tags from page
+            # extract all 'a' tags from page
+            tags_extracted = soup.find_all("a")
 
-            if (
-                len(tags_extracted) != 0
-            ):  # to reject pages which don't link to another page
+            # to reject pages which don't link to another page
+            if len(tags_extracted) != 0:
 
                 pages_crawled[page_no] = url
 
                 output_file = pages_folder + str(page_no)
 
-                os.makedirs(
-                    os.path.dirname(output_file), exist_ok=True
-                )  # create file to store html code
+                # create file to store html code
+                os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
                 with open(output_file, "w", encoding="utf-8") as file:
-                    file.write(
-                        rqst.text
-                    )  # storing downloaded content of webpage to file
+                    # storing downloaded content of webpage to file
+                    file.write(rqst.text)
                 file.close()
 
                 for tag in tags_extracted:
@@ -105,32 +104,34 @@ while url_q:
                     ):
 
                         link = link.lower()
-                        link = link.split("#")[
-                            0
-                        ]  # removing intra page anchor tags from URL
-                        link = link.split("?", maxsplit=1)[
-                            0
-                        ]  # removing query parameters from URL
-                        link = link.rstrip("/")  # removing trailing / from URL
+                        # removing intra page anchor tags from URL
+                        link = link.split("#")[0]
+                        # removing query parameters from URL
+                        link = link.split("?", maxsplit=1)[0]
+                        # removing trailing / from URL
+                        link = link.rstrip("/")
                         link = link.strip()
 
                         if link not in urls_crawled and domain in link:
-                            url_q.append(link)  # valid URL to append to the queue
+                            # valid URL to append to the queue
+                            url_q.append(link)
                             urls_crawled.append(link)
 
                 if len(pages_crawled) > crawl_limit:
-                    break  # stop crawling when reached limit
+                    # stop crawling when reached limit
+                    break
 
                 page_no += 1
 
     except Exception as e:
-        with open(error_file, "a+") as log:  # add error message to error log
+        # add error message to error log
+        with open(error_file, "a+") as log:
             log.write(f"Could not connect to {url}")
-            log.write(f"\nError occured: {e}\n\n")
+            log.write(f"\nError occurred: {e}\n\n")
         file.close()
 
         print("Could not connect to ", url)
-        print("Error occured: ", e, " \n")
+        print("Error occurred: ", e, " \n")
         continue
 
 
