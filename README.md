@@ -6,7 +6,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/samujjwaal/UIC-search-engine)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/samujjwaal/UIC-search-engine)
 
-Web search engine to retrieve most relevant web-pages for user search query from web-pages crawled on the UIC domain
+## Web search engine to retrieve most relevant web-pages for user search query from web-pages crawled on the UIC domain
 
 This project was done as the term project for CS582: Information Retrieval course at the University of Illinois at Chicago during the Spring 2020 term.
 
