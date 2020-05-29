@@ -1,10 +1,10 @@
+# Web Search Engine on UIC Domain
 ![GitHub](https://img.shields.io/github/license/samujjwaal/UIC-search-engine)
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/samujjwaal/UIC-search-engine/master)
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 ![GitHub top language](https://img.shields.io/github/languages/top/samujjwaal/UIC-search-engine)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 ![GitHub repo size](https://img.shields.io/github/repo-size/samujjwaal/UIC-search-engine)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/samujjwaal/UIC-search-engine)
-# Web Search Engine on UIC Domain
 
 Web search engine to retrieve most relevant web-pages for user search query from web-pages crawled on the UIC domain
 
